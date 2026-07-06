@@ -3,257 +3,356 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Proxy PULSE — обновления репозиториев</title>
+<title>Proxy PULSE — пульс обновлений</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<meta name="theme-color" content="#0d1117">
+<meta name="description" content="Proxy PULSE — живой дашборд обновлений: релизы ядер, панелей, клиентов и коммиты утилит.">
 <style>
   :root{
-    --bg:#0d1117; --panel:#161b22; --border:#30363d;
-    --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; --green:#3fb950;
-    --amber:#d29922; --purple:#bc8cff; --new:#1f6feb;
-    --radius:12px; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --bg:#0b0f14; --bg2:#0d1117; --panel:#131a22; --panel2:#171f28;
+    --border:#243040; --border2:#2f3d50;
+    --text:#e6edf3; --muted:#8b97a6; --faint:#5e6b7a;
+    --accent:#3fe08a; --accent-dim:#1f6f4a; --accent-soft:rgba(63,224,138,.12);
+    --cyan:#39d0d8; --purple:#bc8cff; --amber:#e3a54b; --new:#2f81f7;
+    --radius:14px; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
   }
   *{box-sizing:border-box}
-  body{
-    margin:0; background:var(--bg); color:var(--text);
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.5;
+  html{scroll-behavior:smooth}
+  body{margin:0;background:radial-gradient(1200px 500px at 50% -200px,#12212b 0%,var(--bg) 60%);color:var(--text);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
+
+  /* Header */
+  header{padding:30px 0 10px}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{width:46px;height:46px;flex:none;border-radius:12px;background:var(--bg2);border:1px solid var(--accent-dim);display:flex;align-items:center;justify-content:center;box-shadow:0 0 24px -6px var(--accent-soft)}
+  .logo svg{width:34px;height:34px;display:block}
+  .pulse-path{stroke-dasharray:120;stroke-dashoffset:120;animation:trace 2.6s ease-in-out infinite}
+  @keyframes trace{0%{stroke-dashoffset:120}45%{stroke-dashoffset:0}75%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:-120;opacity:.6}}
+  h1{margin:0;font-size:23px;font-weight:700;letter-spacing:-.3px;display:flex;align-items:baseline;gap:8px}
+  h1 .px{color:var(--accent)}
+  .sub{color:var(--muted);font-size:13.5px;margin-top:2px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .live{display:inline-flex;align-items:center;gap:6px;color:var(--accent);font-weight:600;font-size:12px}
+  .live .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);animation:beat 1.6s ease-in-out infinite}
+  @keyframes beat{0%,100%{transform:scale(1);box-shadow:0 0 0 0 var(--accent-soft)}50%{transform:scale(1.25);box-shadow:0 0 0 6px transparent}}
+
+  /* Toolbar */
+  .toolbar{position:sticky;top:0;z-index:20;background:linear-gradient(var(--bg) 70%,transparent);padding:14px 0 12px;margin-top:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+  .filters{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{background:var(--panel);color:var(--text);border:1px solid var(--border);padding:7px 13px;border-radius:999px;cursor:pointer;font-size:13px;transition:.15s;white-space:nowrap}
+  .chip:hover{border-color:var(--accent-dim);color:#fff}
+  .chip.active{background:var(--accent);color:#06210f;border-color:var(--accent);font-weight:700}
+  .chip .cnt{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+  .search{flex:1;min-width:170px;background:var(--panel);border:1px solid var(--border);color:var(--text);padding:8px 13px;border-radius:999px;font-size:13px;outline:none}
+  .search:focus{border-color:var(--accent-dim);box-shadow:0 0 0 3px var(--accent-soft)}
+  .ghost{background:transparent;color:var(--muted);border:1px solid var(--border);padding:8px 12px;border-radius:999px;cursor:pointer;font-size:12.5px}
+  .ghost:hover{color:var(--text);border-color:var(--border2)}
+
+  main{padding:6px 0 70px}
+  .section-title{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:26px 0 12px;display:flex;align-items:center;gap:9px}
+  .section-title .bar{width:22px;height:2px;border-radius:2px;background:var(--accent);opacity:.8}
+  .section-title .cnt{background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:1px 8px;font-size:11px;letter-spacing:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+
+  /* Card */
+  .card{background:linear-gradient(180deg,var(--panel) 0%,var(--panel2) 100%);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:.18s}
+  .card:hover{border-color:var(--border2);transform:translateY(-2px);box-shadow:0 10px 30px -14px rgba(0,0,0,.7)}
+  .card.has-new{border-color:var(--accent-dim);box-shadow:0 0 0 1px var(--accent-dim),0 0 26px -12px var(--accent-soft)}
+  .card-head{padding:13px 15px 11px;border-bottom:1px solid var(--border);display:flex;gap:11px}
+  .avatar{width:38px;height:38px;flex:none;border-radius:9px;background:var(--bg2);border:1px solid var(--border);object-fit:cover}
+  .head-main{min-width:0;flex:1}
+  .repo-title{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+  a.name{color:#fff;text-decoration:none;font-weight:650;font-size:15px;overflow-wrap:anywhere}
+  a.name:hover{color:var(--accent)}
+  .badge{font-size:10.5px;padding:2px 7px;border-radius:999px;border:1px solid var(--border2);color:var(--muted);white-space:nowrap}
+  .badge.new{background:var(--new);color:#fff;border-color:var(--new)}
+  .badge.upd{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-dim)}
+  .badge.pre{color:var(--amber);border-color:var(--amber)}
+  .badge.arch{color:var(--amber);border-color:var(--amber)}
+  .badge.def{color:var(--cyan);border-color:#2b5a5e}
+  .desc{color:var(--muted);font-size:12.5px;margin:5px 0 0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .meta-row{display:flex;gap:12px;margin-top:7px;font-size:11.5px;color:var(--faint);flex-wrap:wrap;align-items:center}
+  .meta-row .star{color:var(--amber)}
+
+  /* Tabs */
+  .tabs{display:flex;gap:4px;padding:8px 12px 0;overflow-x:auto;scrollbar-width:thin}
+  .tabs::-webkit-scrollbar{height:0}
+  .tab{background:transparent;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:6px 9px 8px;font-size:12.5px;cursor:pointer;white-space:nowrap;font-family:var(--mono);transition:.15s}
+  .tab:hover{color:var(--text)}
+  .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+  .tab .cnt{opacity:.65;margin-left:3px}
+  .panes{padding:4px 0 6px}
+  .pane{display:none}
+  .pane.active{display:block}
+
+  /* Release item */
+  .rel{border-top:1px solid #1b2531}
+  .rel:first-child{border-top:0}
+  .rel>summary{list-style:none;cursor:pointer;padding:9px 15px;display:flex;align-items:center;gap:8px;user-select:none}
+  .rel>summary::-webkit-details-marker{display:none}
+  .rel>summary:hover{background:rgba(255,255,255,.02)}
+  .rel .rname{font-weight:600;font-size:13.5px;color:#fff;overflow-wrap:anywhere}
+  .rel .tag{font-family:var(--mono);font-size:11.5px;color:var(--purple)}
+  .rel .when{font-size:11px;color:var(--faint);margin-left:auto;white-space:nowrap}
+  .rel .chev{transition:.2s;color:var(--faint);flex:none}
+  .rel[open] .chev{transform:rotate(90deg)}
+  .notes{padding:2px 15px 14px 15px;font-size:12.5px;color:var(--text)}
+  .notes .md-h{font-weight:700;margin:10px 0 5px;color:#fff;font-size:12.5px}
+  .notes .md-p{margin:5px 0;color:var(--muted)}
+  .notes .md-ul{margin:5px 0;padding-left:18px;color:var(--muted)}
+  .notes .md-ul li{margin:2px 0}
+  .notes code{font-family:var(--mono);background:#0b1017;border:1px solid var(--border);border-radius:5px;padding:.5px 4px;font-size:11.5px}
+  .notes a{color:var(--cyan);text-decoration:none;overflow-wrap:anywhere}
+  .notes a:hover{text-decoration:underline}
+  .notes .empty-note{color:var(--faint)}
+  .notes .gh-link{display:inline-block;margin-top:9px;font-size:12px;color:var(--accent)}
+
+  /* Commits */
+  .commit{padding:8px 15px;border-top:1px solid #1b2531;font-size:12.5px}
+  .commit:first-child{border-top:0}
+  .commit a{color:var(--text);text-decoration:none;overflow-wrap:anywhere}
+  .commit a:hover{color:var(--accent)}
+  .commit .meta{font-size:11px;color:var(--faint);margin-top:2px}
+  .commit .sha{font-family:var(--mono);color:var(--muted)}
+
+  .empty{color:var(--faint);font-size:12.5px;padding:12px 15px}
+  .loading{text-align:center;padding:70px 20px;color:var(--muted)}
+
+  footer{border-top:1px solid var(--border);color:var(--faint);font-size:12px;text-align:center;padding:22px 20px 40px}
+  footer a{color:var(--muted);text-decoration:none}
+  footer a:hover{color:var(--accent)}
+
+  @media (max-width:560px){
+    .wrap{padding:0 14px}
+    .grid{grid-template-columns:1fr}
+    h1{font-size:20px}
+    .search{min-width:100%;order:5}
   }
-  header{padding:28px 20px 16px; max-width:1200px; margin:0 auto}
-  h1{margin:0 0 6px; font-size:24px; display:flex; align-items:center; gap:10px}
-  h1 .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
-  .sub{color:var(--muted); font-size:14px}
-  .toolbar{max-width:1200px; margin:12px auto 0; padding:0 20px; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
-  .filters{display:flex; gap:6px; flex-wrap:wrap}
-  .filters button, .btn{
-    background:var(--panel); color:var(--text); border:1px solid var(--border);
-    padding:7px 14px; border-radius:20px; cursor:pointer; font-size:13px; transition:.15s;
-  }
-  .filters button:hover,.btn:hover{border-color:var(--accent)}
-  .filters button.active{background:var(--accent); color:#0d1117; border-color:var(--accent); font-weight:600}
-  .search{flex:1; min-width:180px; background:var(--panel); border:1px solid var(--border); color:var(--text); padding:8px 12px; border-radius:20px; font-size:13px}
-  main{max-width:1200px; margin:0 auto; padding:16px 20px 60px}
-  .section-title{font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:28px 0 12px; display:flex; align-items:center; gap:8px}
-  .section-title .count{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:1px 8px; font-size:11px}
-  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:16px}
-  .card{background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column}
-  .card.has-new{border-color:var(--new); box-shadow:0 0 0 1px var(--new)}
-  .card-head{padding:14px 16px 10px; border-bottom:1px solid var(--border)}
-  .card-head .repo-title{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
-  .card-head a.name{color:var(--accent); text-decoration:none; font-weight:600; font-size:15px}
-  .card-head a.name:hover{text-decoration:underline}
-  .badge{font-size:11px; padding:2px 8px; border-radius:10px; border:1px solid var(--border); color:var(--muted)}
-  .badge.new{background:var(--new); color:#fff; border-color:var(--new)}
-  .badge.pre{color:var(--amber); border-color:var(--amber)}
-  .badge.arch{color:var(--amber); border-color:var(--amber)}
-  .desc{color:var(--muted); font-size:12.5px; margin:6px 0 0}
-  .meta-row{display:flex; gap:14px; margin-top:8px; font-size:12px; color:var(--muted); flex-wrap:wrap}
-  .card-body{padding:6px 0; flex:1}
-  .rel, .branch{padding:8px 16px}
-  .rel:not(:last-child), .branch:not(:last-child){border-bottom:1px solid #21262d}
-  .rel a, .commit a{color:var(--text); text-decoration:none}
-  .rel a:hover, .commit a:hover{color:var(--accent)}
-  .rel .tag{font-family:var(--mono); font-size:12px; color:var(--purple)}
-  .rel .when, .commit .when{font-size:11px; color:var(--muted)}
-  .branch-name{font-family:var(--mono); font-size:12px; color:var(--green); display:flex; align-items:center; gap:6px; margin-bottom:4px}
-  .branch-name .lbl{color:var(--muted)}
-  .commit{font-size:12.5px; padding:3px 0 3px 14px; border-left:2px solid #21262d; margin-left:2px; margin-bottom:4px}
-  .commit .sha{font-family:var(--mono); color:var(--muted); font-size:11px}
-  .empty{color:var(--muted); font-size:12.5px; padding:8px 16px}
-  footer{max-width:1200px; margin:0 auto; padding:20px; color:var(--muted); font-size:12px; text-align:center}
-  .loading{text-align:center; padding:60px 20px; color:var(--muted)}
-  code{font-family:var(--mono)}
-  a.gh{color:var(--muted); font-size:12px; text-decoration:none}
-  a.gh:hover{color:var(--accent)}
 </style>
 </head>
 <body>
-<header>
-  <h1><span class="dot"></span> Proxy PULSE</h1>
-  <div class="sub" id="subtitle">Загрузка данных…</div>
-</header>
-
-<div class="toolbar">
-  <div class="filters" id="filters">
-    <button data-f="all" class="active">Все</button>
-    <button data-f="__new">Только новое</button>
-  </div>
-  <input class="search" id="search" placeholder="Поиск по репозиторию…">
-  <button class="btn" id="markSeen" title="Сбросить отметки NEW">Отметить всё прочитанным</button>
-</div>
-
-<main id="app"><div class="loading">Загрузка…</div></main>
-
-<footer>Обновляется автоматически через GitHub Actions · <a class="gh" id="repoLink" href="#" target="_blank" rel="noopener">GitHub</a></footer>
-
-<script>
-const LS_KEY = "repo-watcher-seen-v2";
-let DATA = null;
-let currentFilter = "all";   // "all" | "__new" | group.id
-let query = "";
-
-function loadSeen(){ try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch(e){ return {}; } }
-function saveSeen(o){ try { localStorage.setItem(LS_KEY, JSON.stringify(o)); } catch(e){} }
-
-function timeAgo(iso){
-  if(!iso) return "";
-  const d = new Date(iso), now = new Date();
-  const s = Math.floor((now - d)/1000);
-  if(s < 60) return "только что";
-  const m = Math.floor(s/60); if(m < 60) return m+" мин назад";
-  const h = Math.floor(m/60); if(h < 24) return h+" ч назад";
-  const days = Math.floor(h/24); if(days < 30) return days+" дн назад";
-  const mo = Math.floor(days/30); if(mo < 12) return mo+" мес назад";
-  return d.toLocaleDateString("ru-RU");
-}
-function esc(s){ return (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
-
-function repoIds(entry, track){
-  if(track === "commits"){
-    const ids = [];
-    (entry.branches||[]).forEach(b => (b.commits||[]).forEach(c => ids.push("c:"+b.name+":"+c.sha)));
-    return ids;
-  }
-  return (entry.releases||[]).map(r => "rel:"+(r.tag||r.name));
-}
-function hasNew(repo, ids, seen){ const s = seen[repo]||{}; return ids.some(id => !s[id]); }
-
-function relBody(entry, seen){
-  const repo = entry.repo;
-  return (entry.releases||[]).map(r => {
-    const id = "rel:"+(r.tag||r.name);
-    const seenIt = (seen[repo]||{})[id];
-    return `<div class="rel">
-      <div>${!seenIt?'<span class="badge new">NEW</span> ':''}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name||r.tag)}</a>
-        ${r.prerelease?'<span class="badge pre">pre</span>':''}</div>
-      <div><span class="tag">${esc(r.tag||"")}</span> <span class="when">${timeAgo(r.published_at)}</span></div>
-    </div>`;
-  }).join("") || `<div class="empty">Релизов не найдено</div>`;
-}
-
-function commitsBody(entry, seen, defaultBranch){
-  const repo = entry.repo;
-  return (entry.branches||[]).map(b => {
-    const commits = (b.commits||[]).map(c => {
-      const id = "c:"+b.name+":"+c.sha;
-      const seenIt = (seen[repo]||{})[id];
-      return `<div class="commit">${!seenIt?'<span class="badge new">NEW</span> ':''}<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.message)}</a>
-        <div><span class="sha">${esc(c.sha)}</span> · <span class="when">${esc(c.author||"")} · ${timeAgo(c.date)}</span></div></div>`;
-    }).join("");
-    const isDef = defaultBranch === b.name;
-    return `<div class="branch">
-      <div class="branch-name"><span class="lbl">⑂</span> ${esc(b.name)} ${isDef?'<span class="badge">default</span>':''}</div>
-      ${commits}
-    </div>`;
-  }).join("") || `<div class="empty">Веток/коммитов не найдено</div>`;
-}
-
-function renderCard(entry, track, seen){
-  const repo = entry.repo, m = entry.meta || {};
-  const isNew = hasNew(repo, repoIds(entry, track), seen);
-  const body = track === "commits" ? commitsBody(entry, seen, m.default_branch) : relBody(entry, seen);
-  return `<div class="card ${isNew?'has-new':''}" data-repo="${esc(repo)}">
-    <div class="card-head">
-      <div class="repo-title">
-        <a class="name" href="${esc(m.url||('https://github.com/'+repo))}" target="_blank" rel="noopener">${esc(entry.title||repo)}</a>
-        ${isNew?'<span class="badge new">обновления</span>':''}
-        ${m.archived?'<span class="badge arch">архив</span>':''}
-      </div>
-      ${m.description?`<div class="desc">${esc(m.description)}</div>`:''}
-      <div class="meta-row">
-        <span>★ ${m.stars ?? "–"}</span>
-        <span>${esc(repo)}</span>
-        ${m.pushed_at?`<span>push ${timeAgo(m.pushed_at)}</span>`:''}
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 64 40">
+          <polyline class="pulse-path" points="4,22 20,22 26,8 34,34 42,14 48,22 60,22" fill="none" stroke="#3fe08a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      <div>
+        <h1>Proxy <span class="px">PULSE</span></h1>
+        <div class="sub" id="subtitle"><span class="live"><span class="dot"></span>live</span> загрузка данных…</div>
       </div>
     </div>
-    <div class="card-body">${body}</div>
-  </div>`;
+  </header>
+
+  <div class="toolbar">
+    <div class="filters" id="filters">
+      <button class="chip active" data-f="all">Все</button>
+      <button class="chip" data-f="__new">Только новое</button>
+    </div>
+    <input class="search" id="search" placeholder="Поиск репозитория…" autocomplete="off">
+    <button class="ghost" id="markSeen" title="Сбросить отметки NEW">Прочитано</button>
+  </div>
+
+  <main id="app"><div class="loading">Загрузка…</div></main>
+</div>
+
+<footer>
+  Обновляется автоматически каждые 30 минут через GitHub Actions ·
+  <a id="repoLink" href="#" target="_blank" rel="noopener">исходники</a> ·
+  <a id="issueLink" href="#" target="_blank" rel="noopener">предложить репозиторий</a>
+</footer>
+
+<script>
+const LS_KEY="proxy-pulse-seen-v1";
+let DATA=null,currentFilter="all",query="";
+
+function loadSeen(){try{return JSON.parse(localStorage.getItem(LS_KEY))||{}}catch(e){return{}}}
+function saveSeen(o){try{localStorage.setItem(LS_KEY,JSON.stringify(o))}catch(e){}}
+function esc(s){return(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+
+function timeAgo(iso){
+  if(!iso)return"";
+  const d=new Date(iso),s=Math.floor((Date.now()-d)/1000);
+  if(s<60)return"только что";
+  const m=Math.floor(s/60);if(m<60)return m+" мин назад";
+  const h=Math.floor(m/60);if(h<24)return h+" ч назад";
+  const dd=Math.floor(h/24);if(dd<30)return dd+" дн назад";
+  const mo=Math.floor(dd/30);if(mo<12)return mo+" мес назад";
+  return d.toLocaleDateString("ru-RU");
 }
 
-function matches(entry){
-  if(!query) return true;
-  const hay = (entry.repo+" "+(entry.title||"")+" "+((entry.meta||{}).description||"")).toLowerCase();
-  return hay.includes(query);
+function mdlite(src){
+  if(!src||!src.trim())return'<div class="empty-note">Без описания.</div>';
+  let s=esc(src);
+  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
+  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+  s=s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+  s=s.replace(/(^|[\s(])((https?:\/\/[^\s<)]+))/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>');
+  const lines=s.split("\n");let out="",inList=false;
+  for(let ln of lines){
+    let t=ln.replace(/\s+$/,"");
+    let mH=t.match(/^\s*#{1,6}\s+(.*)$/);
+    let mL=t.match(/^\s*[-*]\s+(.*)$/);
+    if(mH){if(inList){out+="</ul>";inList=false}out+='<div class="md-h">'+mH[1]+"</div>";continue}
+    if(mL){if(!inList){out+='<ul class="md-ul">';inList=true}out+="<li>"+mL[1]+"</li>";continue}
+    if(!t.trim()){if(inList){out+="</ul>";inList=false}continue}
+    if(inList){out+="</ul>";inList=false}
+    out+='<p class="md-p">'+t+"</p>";
+  }
+  if(inList)out+="</ul>";
+  return out;
 }
+
+function relIds(entry){return(entry.releases||[]).map(r=>"rel:"+(r.tag||r.name))}
+function comIds(entry){const a=[];(entry.branches||[]).forEach(b=>(b.commits||[]).forEach(c=>a.push("c:"+b.name+":"+c.sha)));return a}
+function hasNew(repo,ids,seen){const s=seen[repo]||{};return ids.some(id=>!s[id])}
+
+function avatar(m){
+  const src=(m.avatar||("https://github.com/"+(m.owner||"")+".png"))+"&s=76";
+  return '<img class="avatar" loading="lazy" src="'+esc(src.replace("?&","?"))+'" alt="" onerror="this.style.visibility=\'hidden\'">';
+}
+
+function relItem(r,repo,seen){
+  const id="rel:"+(r.tag||r.name);
+  const isNew=!(seen[repo]||{})[id];
+  return '<details class="rel">'
+    +'<summary>'
+      +(isNew?'<span class="badge new">NEW</span>':'')
+      +'<span class="rname">'+esc(r.name||r.tag||"—")+'</span>'
+      +(r.tag&&r.tag!==(r.name||"")?'<span class="tag">'+esc(r.tag)+'</span>':'')
+      +'<span class="when">'+timeAgo(r.published_at)+'</span>'
+      +'<span class="chev">›</span>'
+    +'</summary>'
+    +'<div class="notes">'+mdlite(r.body)
+      +'<a class="gh-link" href="'+esc(r.url)+'" target="_blank" rel="noopener">Открыть релиз на GitHub ↗</a>'
+    +'</div>'
+  +'</details>';
+}
+
+function releaseBody(entry,seen){
+  const repo=entry.repo,rels=entry.releases||[];
+  const stable=rels.filter(r=>!r.prerelease),pre=rels.filter(r=>r.prerelease);
+  if(!rels.length)return'<div class="empty">Релизов не найдено</div>';
+  if(pre.length&&stable.length){
+    return '<div class="tabs">'
+      +'<button class="tab active" data-i="0">Релизы<span class="cnt">'+stable.length+'</span></button>'
+      +'<button class="tab" data-i="1">Пре-релизы<span class="cnt">'+pre.length+'</span></button>'
+      +'</div><div class="panes">'
+      +'<div class="pane active" data-i="0">'+stable.map(r=>relItem(r,repo,seen)).join("")+'</div>'
+      +'<div class="pane active" data-i="1" style="display:none">'+pre.map(r=>relItem(r,repo,seen)).join("")+'</div>'
+      +'</div>';
+  }
+  const list=(stable.length?stable:pre);
+  return '<div class="panes"><div class="pane active">'+list.map(r=>relItem(r,repo,seen)).join("")+'</div></div>';
+}
+
+function commitsBody(entry,seen,def){
+  const repo=entry.repo,branches=entry.branches||[];
+  if(!branches.length)return'<div class="empty">Коммитов не найдено</div>';
+  let active=branches.findIndex(b=>b.name===def);if(active<0)active=0;
+  const tabs=branches.map((b,i)=>'<button class="tab'+(i===active?' active':'')+'" data-i="'+i+'">'
+      +(b.name===def?'● ':'')+esc(b.name)+'<span class="cnt">'+b.commits.length+'</span></button>').join("");
+  const panes=branches.map((b,i)=>'<div class="pane'+(i===active?' active':'')+'" data-i="'+i+'"'+(i===active?'':' style="display:none"')+'>'
+      +b.commits.map(c=>{
+        const id="c:"+b.name+":"+c.sha,isNew=!(seen[repo]||{})[id];
+        return '<div class="commit">'+(isNew?'<span class="badge new">NEW</span> ':'')
+          +'<a href="'+esc(c.url)+'" target="_blank" rel="noopener">'+esc(c.message)+'</a>'
+          +'<div class="meta"><span class="sha">'+esc(c.sha)+'</span> · '+esc(c.author||"")+' · '+timeAgo(c.date)+'</div></div>';
+      }).join("")
+    +'</div>').join("");
+  return '<div class="tabs">'+tabs+'</div><div class="panes">'+panes+'</div>';
+}
+
+function card(entry,track,seen){
+  const m=entry.meta||{},repo=entry.repo;
+  const ids=track==="commits"?comIds(entry):relIds(entry);
+  const isNew=hasNew(repo,ids,seen);
+  const body=track==="commits"?commitsBody(entry,seen,m.default_branch):releaseBody(entry,seen);
+  return '<div class="card'+(isNew?' has-new':'')+'" data-repo="'+esc(repo)+'">'
+    +'<div class="card-head">'+avatar(m)+'<div class="head-main">'
+      +'<div class="repo-title"><a class="name" href="'+esc(m.url||("https://github.com/"+repo))+'" target="_blank" rel="noopener">'+esc(entry.title||repo)+'</a>'
+        +(isNew?'<span class="badge upd">обновления</span>':'')
+        +(m.archived?'<span class="badge arch">архив</span>':'')+'</div>'
+      +(m.description?'<div class="desc">'+esc(m.description)+'</div>':'')
+      +'<div class="meta-row"><span class="star">★ '+(m.stars==null?"–":m.stars)+'</span><span>'+esc(repo)+'</span>'
+        +(m.pushed_at?'<span>обновлён '+timeAgo(m.pushed_at)+'</span>':'')+'</div>'
+    +'</div></div>'
+    +'<div class="card-body">'+body+'</div>'
+  +'</div>';
+}
+
+function matches(e){if(!query)return true;return (e.repo+" "+(e.title||"")+" "+((e.meta||{}).description||"")).toLowerCase().includes(query)}
 
 function render(){
-  if(!DATA) return;
-  const seen = loadSeen();
-  let html = "";
+  if(!DATA)return;
+  const seen=loadSeen();let html="";
   for(const g of DATA.groups){
-    if(currentFilter !== "all" && currentFilter !== "__new" && currentFilter !== g.id) continue;
-    const cards = g.repos.filter(matches).map(entry => {
-      const isNew = hasNew(entry.repo, repoIds(entry, g.track), seen);
-      if(currentFilter === "__new" && !isNew) return "";
-      return renderCard(entry, g.track, seen);
+    if(currentFilter!=="all"&&currentFilter!=="__new"&&currentFilter!==g.id)continue;
+    const cards=g.repos.filter(matches).map(e=>{
+      const isNew=hasNew(e.repo,g.track==="commits"?comIds(e):relIds(e),seen);
+      if(currentFilter==="__new"&&!isNew)return"";
+      return card(e,g.track,seen);
     }).filter(Boolean);
     if(cards.length){
-      const label = g.track === "commits" ? "коммиты по веткам" : "релизы";
-      html += `<div class="section-title">${g.icon||""} ${esc(g.name)} — ${label} <span class="count">${cards.length}</span></div>
-        <div class="grid">${cards.join("")}</div>`;
+      const label=g.track==="commits"?"коммиты по веткам":"релизы";
+      html+='<div class="section-title"><span class="bar"></span>'+esc(g.name)+' — '+label+'<span class="cnt">'+cards.length+'</span></div><div class="grid">'+cards.join("")+'</div>';
     }
   }
-  document.getElementById("app").innerHTML = html || `<div class="loading">Ничего не найдено под текущий фильтр.</div>`;
+  document.getElementById("app").innerHTML=html||'<div class="loading">Ничего не найдено.</div>';
 }
 
 function markAllSeen(){
-  if(!DATA) return;
-  const seen = {};
-  for(const g of DATA.groups){
-    for(const entry of g.repos){
-      seen[entry.repo] = seen[entry.repo] || {};
-      repoIds(entry, g.track).forEach(id => seen[entry.repo][id] = true);
-    }
-  }
-  saveSeen(seen);
-  render();
+  if(!DATA)return;const seen={};
+  for(const g of DATA.groups)for(const e of g.repos){seen[e.repo]=seen[e.repo]||{};(g.track==="commits"?comIds(e):relIds(e)).forEach(id=>seen[e.repo][id]=true)}
+  saveSeen(seen);render();
 }
 
 function buildFilters(){
-  const wrap = document.getElementById("filters");
-  const frag = [];
-  frag.push(`<button data-f="all" class="active">Все</button>`);
-  for(const g of DATA.groups){
-    frag.push(`<button data-f="${esc(g.id)}">${g.icon||""} ${esc(g.name)}</button>`);
-  }
-  frag.push(`<button data-f="__new">Только новое</button>`);
-  wrap.innerHTML = frag.join("");
-  wrap.addEventListener("click", e => {
-    const b = e.target.closest("button"); if(!b) return;
-    wrap.querySelectorAll("button").forEach(x => x.classList.remove("active"));
-    b.classList.add("active");
-    currentFilter = b.dataset.f;
-    render();
-  });
+  const w=document.getElementById("filters");
+  let f='<button class="chip active" data-f="all">Все</button>';
+  for(const g of DATA.groups)f+='<button class="chip" data-f="'+esc(g.id)+'">'+esc(g.name)+'<span class="cnt">'+g.repos.length+'</span></button>';
+  f+='<button class="chip" data-f="__new">Только новое</button>';
+  w.innerHTML=f;
+  w.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b)return;
+    w.querySelectorAll(".chip").forEach(x=>x.classList.remove("active"));b.classList.add("active");
+    currentFilter=b.dataset.f;render();});
 }
+
+// делегирование кликов по вкладкам (ветки / пре-релизы)
+document.getElementById("app").addEventListener("click",e=>{
+  const tab=e.target.closest(".tab");if(!tab)return;
+  const card=tab.closest(".card-body");if(!card)return;
+  const i=tab.dataset.i;
+  card.querySelectorAll(".tab").forEach(x=>x.classList.toggle("active",x.dataset.i===i));
+  card.querySelectorAll(".pane").forEach(x=>{const on=x.dataset.i===i;x.classList.toggle("active",on);x.style.display=on?"":"none";});
+});
 
 async function init(){
   try{
-    const host = location.hostname, user = host.split(".")[0];
-    const repoName = location.pathname.split("/").filter(Boolean)[0] || (user+".github.io");
-    document.getElementById("repoLink").href = `https://github.com/${user}/${repoName}`;
+    const host=location.hostname,user=host.split(".")[0];
+    const repoName=location.pathname.split("/").filter(Boolean)[0]||(user+".github.io");
+    document.getElementById("repoLink").href="https://github.com/"+user+"/"+repoName;
+    document.getElementById("issueLink").href="https://github.com/"+user+"/"+repoName+"/issues/new?template=add-repo.yml";
   }catch(e){}
-
   try{
-    const res = await fetch("data.json?_=" + Date.now());
-    if(!res.ok) throw new Error("data.json не найден (HTTP "+res.status+")");
-    DATA = await res.json();
+    const res=await fetch("data.json?_="+Date.now());
+    if(!res.ok)throw new Error("data.json HTTP "+res.status);
+    DATA=await res.json();
   }catch(e){
-    document.getElementById("app").innerHTML =
-      `<div class="loading">Не удалось загрузить data.json.<br>Запусти workflow или локально <code>python scripts/fetch.py</code>.<br><br><small>${esc(e.message)}</small></div>`;
-    document.getElementById("subtitle").textContent = "Данные ещё не собраны";
-    return;
+    document.getElementById("app").innerHTML='<div class="loading">Не удалось загрузить data.json.<br><small>'+esc(e.message)+'</small></div>';
+    document.getElementById("subtitle").innerHTML='<span class="live"><span class="dot"></span>live</span> данные ещё не собраны';return;
   }
-
-  const when = DATA.generated_at ? new Date(DATA.generated_at) : null;
-  const total = (DATA.groups||[]).reduce((n,g)=>n+g.repos.length,0);
-  document.getElementById("subtitle").textContent =
-    `${total} репозиториев в ${DATA.groups.length} группах · обновлено ${when? when.toLocaleString("ru-RU") : "—"}`;
-
+  const when=DATA.generated_at?new Date(DATA.generated_at):null;
+  const total=DATA.groups.reduce((n,g)=>n+g.repos.length,0);
+  document.getElementById("subtitle").innerHTML='<span class="live"><span class="dot"></span>live</span> '+total+' репозиториев · '+DATA.groups.length+' групп · '+(when?when.toLocaleString("ru-RU"):"—");
   buildFilters();
-  document.getElementById("search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); render(); });
-  document.getElementById("markSeen").addEventListener("click", markAllSeen);
+  document.getElementById("search").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();render();});
+  document.getElementById("markSeen").addEventListener("click",markAllSeen);
   render();
 }
-
 init();
 </script>
 </body>
