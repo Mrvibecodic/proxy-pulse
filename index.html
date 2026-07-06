@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proxy PULSE — обновления репозиториев</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --border:#30363d;
+    --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; --green:#3fb950;
+    --amber:#d29922; --purple:#bc8cff; --new:#1f6feb;
+    --radius:12px; --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;
+  }
+  header{padding:28px 20px 16px; max-width:1200px; margin:0 auto}
+  h1{margin:0 0 6px; font-size:24px; display:flex; align-items:center; gap:10px}
+  h1 .dot{width:10px;height:10px;border-radius:50%;background:var(--green);box-shadow:0 0 10px var(--green)}
+  .sub{color:var(--muted); font-size:14px}
+  .toolbar{max-width:1200px; margin:12px auto 0; padding:0 20px; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+  .filters{display:flex; gap:6px; flex-wrap:wrap}
+  .filters button, .btn{
+    background:var(--panel); color:var(--text); border:1px solid var(--border);
+    padding:7px 14px; border-radius:20px; cursor:pointer; font-size:13px; transition:.15s;
+  }
+  .filters button:hover,.btn:hover{border-color:var(--accent)}
+  .filters button.active{background:var(--accent); color:#0d1117; border-color:var(--accent); font-weight:600}
+  .search{flex:1; min-width:180px; background:var(--panel); border:1px solid var(--border); color:var(--text); padding:8px 12px; border-radius:20px; font-size:13px}
+  main{max-width:1200px; margin:0 auto; padding:16px 20px 60px}
+  .section-title{font-size:13px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin:28px 0 12px; display:flex; align-items:center; gap:8px}
+  .section-title .count{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:1px 8px; font-size:11px}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:16px}
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column}
+  .card.has-new{border-color:var(--new); box-shadow:0 0 0 1px var(--new)}
+  .card-head{padding:14px 16px 10px; border-bottom:1px solid var(--border)}
+  .card-head .repo-title{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
+  .card-head a.name{color:var(--accent); text-decoration:none; font-weight:600; font-size:15px}
+  .card-head a.name:hover{text-decoration:underline}
+  .badge{font-size:11px; padding:2px 8px; border-radius:10px; border:1px solid var(--border); color:var(--muted)}
+  .badge.new{background:var(--new); color:#fff; border-color:var(--new)}
+  .badge.pre{color:var(--amber); border-color:var(--amber)}
+  .badge.arch{color:var(--amber); border-color:var(--amber)}
+  .desc{color:var(--muted); font-size:12.5px; margin:6px 0 0}
+  .meta-row{display:flex; gap:14px; margin-top:8px; font-size:12px; color:var(--muted); flex-wrap:wrap}
+  .card-body{padding:6px 0; flex:1}
+  .rel, .branch{padding:8px 16px}
+  .rel:not(:last-child), .branch:not(:last-child){border-bottom:1px solid #21262d}
+  .rel a, .commit a{color:var(--text); text-decoration:none}
+  .rel a:hover, .commit a:hover{color:var(--accent)}
+  .rel .tag{font-family:var(--mono); font-size:12px; color:var(--purple)}
+  .rel .when, .commit .when{font-size:11px; color:var(--muted)}
+  .branch-name{font-family:var(--mono); font-size:12px; color:var(--green); display:flex; align-items:center; gap:6px; margin-bottom:4px}
+  .branch-name .lbl{color:var(--muted)}
+  .commit{font-size:12.5px; padding:3px 0 3px 14px; border-left:2px solid #21262d; margin-left:2px; margin-bottom:4px}
+  .commit .sha{font-family:var(--mono); color:var(--muted); font-size:11px}
+  .empty{color:var(--muted); font-size:12.5px; padding:8px 16px}
+  footer{max-width:1200px; margin:0 auto; padding:20px; color:var(--muted); font-size:12px; text-align:center}
+  .loading{text-align:center; padding:60px 20px; color:var(--muted)}
+  code{font-family:var(--mono)}
+  a.gh{color:var(--muted); font-size:12px; text-decoration:none}
+  a.gh:hover{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="dot"></span> Proxy PULSE</h1>
+  <div class="sub" id="subtitle">Загрузка данных…</div>
+</header>
+
+<div class="toolbar">
+  <div class="filters" id="filters">
+    <button data-f="all" class="active">Все</button>
+    <button data-f="__new">Только новое</button>
+  </div>
+  <input class="search" id="search" placeholder="Поиск по репозиторию…">
+  <button class="btn" id="markSeen" title="Сбросить отметки NEW">Отметить всё прочитанным</button>
+</div>
+
+<main id="app"><div class="loading">Загрузка…</div></main>
+
+<footer>Обновляется автоматически через GitHub Actions · <a class="gh" id="repoLink" href="#" target="_blank" rel="noopener">GitHub</a></footer>
+
+<script>
+const LS_KEY = "repo-watcher-seen-v2";
+let DATA = null;
+let currentFilter = "all";   // "all" | "__new" | group.id
+let query = "";
+
+function loadSeen(){ try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch(e){ return {}; } }
+function saveSeen(o){ try { localStorage.setItem(LS_KEY, JSON.stringify(o)); } catch(e){} }
+
+function timeAgo(iso){
+  if(!iso) return "";
+  const d = new Date(iso), now = new Date();
+  const s = Math.floor((now - d)/1000);
+  if(s < 60) return "только что";
+  const m = Math.floor(s/60); if(m < 60) return m+" мин назад";
+  const h = Math.floor(m/60); if(h < 24) return h+" ч назад";
+  const days = Math.floor(h/24); if(days < 30) return days+" дн назад";
+  const mo = Math.floor(days/30); if(mo < 12) return mo+" мес назад";
+  return d.toLocaleDateString("ru-RU");
+}
+function esc(s){ return (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+
+function repoIds(entry, track){
+  if(track === "commits"){
+    const ids = [];
+    (entry.branches||[]).forEach(b => (b.commits||[]).forEach(c => ids.push("c:"+b.name+":"+c.sha)));
+    return ids;
+  }
+  return (entry.releases||[]).map(r => "rel:"+(r.tag||r.name));
+}
+function hasNew(repo, ids, seen){ const s = seen[repo]||{}; return ids.some(id => !s[id]); }
+
+function relBody(entry, seen){
+  const repo = entry.repo;
+  return (entry.releases||[]).map(r => {
+    const id = "rel:"+(r.tag||r.name);
+    const seenIt = (seen[repo]||{})[id];
+    return `<div class="rel">
+      <div>${!seenIt?'<span class="badge new">NEW</span> ':''}<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name||r.tag)}</a>
+        ${r.prerelease?'<span class="badge pre">pre</span>':''}</div>
+      <div><span class="tag">${esc(r.tag||"")}</span> <span class="when">${timeAgo(r.published_at)}</span></div>
+    </div>`;
+  }).join("") || `<div class="empty">Релизов не найдено</div>`;
+}
+
+function commitsBody(entry, seen, defaultBranch){
+  const repo = entry.repo;
+  return (entry.branches||[]).map(b => {
+    const commits = (b.commits||[]).map(c => {
+      const id = "c:"+b.name+":"+c.sha;
+      const seenIt = (seen[repo]||{})[id];
+      return `<div class="commit">${!seenIt?'<span class="badge new">NEW</span> ':''}<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.message)}</a>
+        <div><span class="sha">${esc(c.sha)}</span> · <span class="when">${esc(c.author||"")} · ${timeAgo(c.date)}</span></div></div>`;
+    }).join("");
+    const isDef = defaultBranch === b.name;
+    return `<div class="branch">
+      <div class="branch-name"><span class="lbl">⑂</span> ${esc(b.name)} ${isDef?'<span class="badge">default</span>':''}</div>
+      ${commits}
+    </div>`;
+  }).join("") || `<div class="empty">Веток/коммитов не найдено</div>`;
+}
+
+function renderCard(entry, track, seen){
+  const repo = entry.repo, m = entry.meta || {};
+  const isNew = hasNew(repo, repoIds(entry, track), seen);
+  const body = track === "commits" ? commitsBody(entry, seen, m.default_branch) : relBody(entry, seen);
+  return `<div class="card ${isNew?'has-new':''}" data-repo="${esc(repo)}">
+    <div class="card-head">
+      <div class="repo-title">
+        <a class="name" href="${esc(m.url||('https://github.com/'+repo))}" target="_blank" rel="noopener">${esc(entry.title||repo)}</a>
+        ${isNew?'<span class="badge new">обновления</span>':''}
+        ${m.archived?'<span class="badge arch">архив</span>':''}
+      </div>
+      ${m.description?`<div class="desc">${esc(m.description)}</div>`:''}
+      <div class="meta-row">
+        <span>★ ${m.stars ?? "–"}</span>
+        <span>${esc(repo)}</span>
+        ${m.pushed_at?`<span>push ${timeAgo(m.pushed_at)}</span>`:''}
+      </div>
+    </div>
+    <div class="card-body">${body}</div>
+  </div>`;
+}
+
+function matches(entry){
+  if(!query) return true;
+  const hay = (entry.repo+" "+(entry.title||"")+" "+((entry.meta||{}).description||"")).toLowerCase();
+  return hay.includes(query);
+}
+
+function render(){
+  if(!DATA) return;
+  const seen = loadSeen();
+  let html = "";
+  for(const g of DATA.groups){
+    if(currentFilter !== "all" && currentFilter !== "__new" && currentFilter !== g.id) continue;
+    const cards = g.repos.filter(matches).map(entry => {
+      const isNew = hasNew(entry.repo, repoIds(entry, g.track), seen);
+      if(currentFilter === "__new" && !isNew) return "";
+      return renderCard(entry, g.track, seen);
+    }).filter(Boolean);
+    if(cards.length){
+      const label = g.track === "commits" ? "коммиты по веткам" : "релизы";
+      html += `<div class="section-title">${g.icon||""} ${esc(g.name)} — ${label} <span class="count">${cards.length}</span></div>
+        <div class="grid">${cards.join("")}</div>`;
+    }
+  }
+  document.getElementById("app").innerHTML = html || `<div class="loading">Ничего не найдено под текущий фильтр.</div>`;
+}
+
+function markAllSeen(){
+  if(!DATA) return;
+  const seen = {};
+  for(const g of DATA.groups){
+    for(const entry of g.repos){
+      seen[entry.repo] = seen[entry.repo] || {};
+      repoIds(entry, g.track).forEach(id => seen[entry.repo][id] = true);
+    }
+  }
+  saveSeen(seen);
+  render();
+}
+
+function buildFilters(){
+  const wrap = document.getElementById("filters");
+  const frag = [];
+  frag.push(`<button data-f="all" class="active">Все</button>`);
+  for(const g of DATA.groups){
+    frag.push(`<button data-f="${esc(g.id)}">${g.icon||""} ${esc(g.name)}</button>`);
+  }
+  frag.push(`<button data-f="__new">Только новое</button>`);
+  wrap.innerHTML = frag.join("");
+  wrap.addEventListener("click", e => {
+    const b = e.target.closest("button"); if(!b) return;
+    wrap.querySelectorAll("button").forEach(x => x.classList.remove("active"));
+    b.classList.add("active");
+    currentFilter = b.dataset.f;
+    render();
+  });
+}
+
+async function init(){
+  try{
+    const host = location.hostname, user = host.split(".")[0];
+    const repoName = location.pathname.split("/").filter(Boolean)[0] || (user+".github.io");
+    document.getElementById("repoLink").href = `https://github.com/${user}/${repoName}`;
+  }catch(e){}
+
+  try{
+    const res = await fetch("data.json?_=" + Date.now());
+    if(!res.ok) throw new Error("data.json не найден (HTTP "+res.status+")");
+    DATA = await res.json();
+  }catch(e){
+    document.getElementById("app").innerHTML =
+      `<div class="loading">Не удалось загрузить data.json.<br>Запусти workflow или локально <code>python scripts/fetch.py</code>.<br><br><small>${esc(e.message)}</small></div>`;
+    document.getElementById("subtitle").textContent = "Данные ещё не собраны";
+    return;
+  }
+
+  const when = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  const total = (DATA.groups||[]).reduce((n,g)=>n+g.repos.length,0);
+  document.getElementById("subtitle").textContent =
+    `${total} репозиториев в ${DATA.groups.length} группах · обновлено ${when? when.toLocaleString("ru-RU") : "—"}`;
+
+  buildFilters();
+  document.getElementById("search").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); render(); });
+  document.getElementById("markSeen").addEventListener("click", markAllSeen);
+  render();
+}
+
+init();
+</script>
+</body>
+</html>
