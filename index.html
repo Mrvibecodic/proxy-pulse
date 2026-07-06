@@ -314,7 +314,8 @@ function render(){
   const seen=loadSeen();let html="";
   for(const g of DATA.groups){
     if(currentFilter!=="all"&&currentFilter!=="__new"&&currentFilter!==g.id)continue;
-    const cards=g.repos.filter(matches).map(e=>{
+    const repos=[...g.repos].sort((a,b)=>(b.repo.toLowerCase().startsWith("mrvibecodic/")?1:0)-(a.repo.toLowerCase().startsWith("mrvibecodic/")?1:0));
+    const cards=repos.filter(matches).map(e=>{
       const isNew=hasNew(e.repo,g.track==="commits"?comIds(e):relIds(e),seen);
       if(currentFilter==="__new"&&!isNew)return"";
       return card(e,g.track,seen);
