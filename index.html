@@ -184,7 +184,30 @@ function timeAgo(iso){
   return d.toLocaleDateString("ru-RU");
 }
 
+function cleanBody(src){
+  if(!src)return"";
+  let s=src.replace(/\r/g,"");
+  s=s.replace(/<!--[\s\S]*?-->/g,"");
+  s=s.replace(/<table[\s\S]*?<\/table>/gi,"");      // таблицы скачивания
+  s=s.replace(/<details[\s\S]*?<\/details>/gi,"");
+  s=s.replace(/<summary[\s\S]*?<\/summary>/gi,"");
+  s=s.replace(/<picture[\s\S]*?<\/picture>/gi,"");
+  s=s.replace(/!\[[^\]]*\]\([^)]*\)/g,"");           // markdown-картинки/бейджи
+  s=s.replace(/<\/?[a-zA-Z][^>]*>/g,"");             // остальные html-теги
+  const lines=s.split("\n"),out=[];let skip=false;
+  for(let ln of lines){
+    const h=ln.match(/^\s*#{1,6}\s+(.*)$/);
+    if(h){skip=/download|assets|скачать|загруз|checksum|sha256|hashes/i.test(h[1]);if(skip)continue;}
+    if(skip)continue;
+    if(/shields\.io/i.test(ln))continue;                                   // строки-бейджи
+    if(/^\s*(download|downloads|скачать|загрузк[аи])\b[^\n]*:\s*$/i.test(ln))continue;
+    if(/\|.*(download|\.exe|\.apk|\.zip|\.tar|\.dmg|\.deb|\.rpm|\.msi|releases\/download).*\|/i.test(ln))continue;
+    out.push(ln);
+  }
+  return out.join("\n").replace(/\n{3,}/g,"\n\n").trim();
+}
 function mdlite(src){
+  src=cleanBody(src);
   if(!src||!src.trim())return'<div class="empty-note">Без описания.</div>';
   let s=esc(src);
   s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
