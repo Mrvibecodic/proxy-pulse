@@ -1,0 +1,32 @@
+name: "➕ Добавить репозиторий"
+description: "Предложить новый репозиторий для отслеживания в Proxy PULSE"
+title: "[repo] "
+labels: ["repo-request"]
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: "Ссылка на репозиторий"
+      description: "URL или owner/name"
+      placeholder: "https://github.com/owner/name"
+    validations:
+      required: true
+  - type: dropdown
+    id: group
+    attributes:
+      label: "Категория"
+      options: ["Ядра", "Панели", "Клиенты", "Боты", "Разное"]
+    validations:
+      required: true
+  - type: dropdown
+    id: track
+    attributes:
+      label: "Что отслеживать"
+      options: ["Релизы", "Коммиты по веткам"]
+    validations:
+      required: true
+  - type: input
+    id: note
+    attributes:
+      label: "Комментарий (необязательно)"
+      placeholder: "Пара слов, зачем"

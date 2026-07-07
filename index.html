@@ -103,6 +103,7 @@
   .notes .md-ul{margin:5px 0;padding-left:18px;color:var(--muted)}
   .notes .md-ul li{margin:2px 0}
   .notes code{font-family:var(--mono);background:#0b1017;border:1px solid var(--border);border-radius:5px;padding:.5px 4px;font-size:11.5px}
+  .notes .md-code{font-family:var(--mono);background:#0b1017;border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:11.5px;overflow-x:auto;white-space:pre;color:var(--muted);margin:7px 0;line-height:1.5}
   .notes a{color:var(--cyan);text-decoration:none;overflow-wrap:anywhere}
   .notes a:hover{text-decoration:underline}
   .notes .empty-note{color:var(--faint)}
@@ -209,26 +210,38 @@ function cleanBody(src){
 function mdlite(src){
   src=cleanBody(src);
   if(!src||!src.trim())return'<div class="empty-note">Без описания.</div>';
-  let s=esc(src);
-  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
-  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
-  s=s.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
-  s=s.replace(/(^|[\s(])((https?:\/\/[^\s<)]+))/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>');
-  const lines=s.split("\n");let out="",inList=false;
+  function inline(t){
+    t=esc(t);
+    t=t.replace(/`([^`]+)`/g,'<code>$1</code>');
+    t=t.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
+    t=t.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+    t=t.replace(/(^|[\s(])((https?:\/\/[^\s<)]+))/g,'$1<a href="$2" target="_blank" rel="noopener">$2</a>');
+    return t;
+  }
+  const lines=src.split("\n");
+  let out="",inList=false,inCode=false,code=[];
+  const flush=()=>{if(inList){out+="</ul>";inList=false;}};
   for(let ln of lines){
+    if(/^\s*```/.test(ln)){
+      if(inCode){out+='<pre class="md-code">'+code.map(esc).join("\n").replace(/\n{2,}/g,"\n").trim()+'</pre>';code=[];inCode=false;}
+      else{flush();inCode=true;}
+      continue;
+    }
+    if(inCode){code.push(ln);continue;}
     let t=ln.replace(/\s+$/,"");
+    if(/^\s*`+\s*$/.test(t))continue;              // висячие backtick-строки
     let mH=t.match(/^\s*#{1,6}\s+(.*)$/);
     let mL=t.match(/^\s*[-*]\s+(.*)$/);
-    if(mH){if(inList){out+="</ul>";inList=false}out+='<div class="md-h">'+mH[1]+"</div>";continue}
-    if(mL){if(!inList){out+='<ul class="md-ul">';inList=true}out+="<li>"+mL[1]+"</li>";continue}
-    if(!t.trim()){if(inList){out+="</ul>";inList=false}continue}
-    if(inList){out+="</ul>";inList=false}
-    out+='<p class="md-p">'+t+"</p>";
+    if(mH){flush();out+='<div class="md-h">'+inline(mH[1])+"</div>";continue;}
+    if(mL){if(!inList){out+='<ul class="md-ul">';inList=true;}out+="<li>"+inline(mL[1])+"</li>";continue;}
+    if(!t.trim()){flush();continue;}
+    flush();
+    out+='<p class="md-p">'+inline(t)+"</p>";
   }
-  if(inList)out+="</ul>";
+  if(inCode&&code.length)out+='<pre class="md-code">'+code.map(esc).join("\n").replace(/\n{2,}/g,"\n").trim()+'</pre>';
+  flush();
   return out;
 }
-
 function relIds(entry){return(entry.releases||[]).map(r=>"rel:"+(r.tag||r.name))}
 function comIds(entry){const a=[];(entry.branches||[]).forEach(b=>(b.commits||[]).forEach(c=>a.push("c:"+b.name+":"+c.sha)));return a}
 function hasNew(repo,ids,seen){const s=seen[repo]||{};return ids.some(id=>!s[id])}
