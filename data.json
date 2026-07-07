@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:42:06.650715Z",
+  "generated_at": "2026-07-07T22:45:06.482452Z",
   "groups": [
     {
       "id": "cores",
@@ -701,6 +701,74 @@
             "branch": "main",
             "date": "2026-06-17T05:15:40Z",
             "url": "https://github.com/INCY-DEV/incy-platforms/commit/404995e27a0109b662182227d17ee4ecd569a4ee"
+          }
+        },
+        {
+          "repo": "throneproj/Throne",
+          "title": "Throne",
+          "track": "releases",
+          "meta": {
+            "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
+            "stars": 6363,
+            "url": "https://github.com/throneproj/Throne",
+            "default_branch": "dev",
+            "pushed_at": "2026-07-07T01:17:45Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
+            "owner": "throneproj"
+          },
+          "releases": [
+            {
+              "name": "1.2.0-beta.4",
+              "tag": "1.2.0-beta.4",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.4",
+              "published_at": "2026-07-05T11:29:55Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Refactor context menus\r\n* Improve Start/Stop button (Thanks @renkagod)\r\n* Allow disabling the traffic stats feature\r\n* Add remote route profile support **1**\r\n* Fix sub update logic **2**\r\n* Fix mieru Link format\r\n* Upgrade Xray core to `v26.6.27`\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nRoute profiles can now be remotely subscribed to, allowing a route profile that gets updated from a remote source. Adding it can be done via [Deeplinks](https://throneproj.github.io/advanced/deeplinks/) as well.\r\n\r\n**2**:\r\nPreviously, periodic jobs would run on an interval starting from the launch time, now they behave properly and trigger once the specified interval value has passed since the last update time."
+            },
+            {
+              "name": "1.2.0-beta.3",
+              "tag": "1.2.0-beta.3",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.3",
+              "published_at": "2026-06-26T04:38:58Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Fix testing current with default routing outbound direct using the wrong outbound\r\n* Make sniff and hijack-dns always on\r\n* Show current speed in connections Tab\r\n* Use Xray for reality by default and allow importing all VLESS in Xray\r\n* Update Sing-box to `v1.13.14`\r\n* System Tray menu improvements (Thanks @renkagod)\r\n* Add Mieru protocol support\r\n* Fixes and Improvements"
+            },
+            {
+              "name": "1.2.0-beta.2",
+              "tag": "1.2.0-beta.2",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.2",
+              "published_at": "2026-06-17T14:12:06Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Update Xray core And Improve its Tun Handling\r\n* Add Hiddify's TLS fragment and TLS Mixed-case\r\n* Add traffic statistics module **1**\r\n* Add Profile start/stop button **2**\r\n* Add Xray config validation\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nAggregates and summarizes the traffic used by configs/apps over the last 90 days for better insight into one's usage\r\n\r\n**2**:\r\nThe top toolbar has been changed to simplify operations and add room for future features"
+            },
+            {
+              "name": "1.2.0-beta.1",
+              "tag": "1.2.0-beta.1",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.1",
+              "published_at": "2026-06-11T22:28:50Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Allow generating warp config as Wiregaurd profile\r\n* Improve route profile import/export And add deeplink support for it\r\n* Add block and warp-bypass routing profile default outbounds **1**\r\n* Disable `auto_redirect` and fix Tun Exclude subnets\r\n* Add raw routing profile support **2**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nwarp-bypass will allow to customize what goes through warp and what uses the proxy directly. Works the same as proxy if warp is not enabled\r\n\r\n**2**:\r\nYou can write your own JSON routing section which will be used as the entire `route` section of sing-box, allowing for custom rule-sets and more control over the routing logic for advanced users"
+            },
+            {
+              "name": "1.1.6",
+              "tag": "1.1.6",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.1.6",
+              "published_at": "2026-06-08T22:37:29Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "* Fix system proxy\r\n* Use polling mode for windows process searcher\r\n* Improve Loopback detection rules\r\n* Fix some Xray fields being registered with wrong type\r\n* Minor fixes and improvements"
+            }
+          ],
+          "last_commit": {
+            "sha": "61ff7a3",
+            "branch": "dev",
+            "date": "2026-07-07T01:17:39Z",
+            "url": "https://github.com/throneproj/Throne/commit/61ff7a37eba72d6854d9d16ee79574c3aea37bb6"
           }
         }
       ]
