@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T00:11:35.282642+00:00",
+  "generated_at": "2026-07-07T00:19:34.169529+00:00",
   "groups": [
     {
       "id": "cores",
@@ -66,7 +66,13 @@
               "author": "RPRX",
               "body": "See https://github.com/XTLS/Xray-core/releases/tag/v26.5.9"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "5c6713c",
+            "branch": "cone",
+            "date": "2026-06-02T16:35:33Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/5c6713c66008b43accae64f7d035f97a02c2dee2"
+          }
         },
         {
           "repo": "SagerNet/sing-box",
@@ -127,7 +133,13 @@
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "010b1e7",
+            "branch": "dependabot/go_modules/test/go.opentelemetry.io/otel-1.41.0",
+            "date": "2026-05-18T01:15:03Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/010b1e74a3c2c4aa8eeedd1604ec2a04420967e9"
+          }
         },
         {
           "repo": "MetaCubeX/mihomo",
@@ -188,7 +200,13 @@
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* cacd01a3 feat: add h3 mode support for xhttp client (#2686) by @HanaHime\r\n* 61dc7b10 feat: add http1.1 mode support for xhttp client by @wwqgtxx\r\n* 2337d70d feat: support xhttp new options for bypassing CDN's potential detection by @wwqgtxx\r\n* 6791df12 feat: support `h-keep-alive-period` to xhttp reuse-settings by @wwqgtxx\r\n* 700e25fd feat: support `sc-max-buffered-posts` for xhttp listener by @wwqgtxx\r\n* f109b8b0 feat: support range format for xhttp `sc-max-each-post-bytes` by @wwqgtxx\r\n* ad91303f feat: support upload packet merging in packet-up mode and `sc-min-posts-interval-ms` settings for xhttp transport by @wwqgtxx\r\n* a8472466 feat: convert support new xhttp-opts fields (#2734) by @legiz-ru\r\n* 80072ebb feat: support range format for hysteria2 `hop-interval` by @wwqgtxx\r\n* 1b2ea145 feat: support ipv6 dual stack fallback for masque/trusttunnel/xhttp h3 mode by @wwqgtxx\r\n* 808c0d62 feat: support ipv6 dual stack fallback for hysteria2 by @wwqgtxx\r\n* fdafea36 feat: support ipv6 dual stack fallback for tuic by @wwqgtxx\r\n* 885244a9 feat: support `network: h2` for masque outbound by @wwqgtxx\r\n* db259326 feat: support `bbr-profile` for hysteria2/tuic/trusttunnel/masque by @wwqgtxx\r\n* d701d1c0 feat: add `-post-up` and `-post-down` flags for cmdline by @wwqgtxx\r\n* 8a029da5 feat: add `/storage` endpoint with Get, Put, and Delete methods for restful api by @Zephyruso\r\n\r\n## BUG & Fix\r\n* 0495d295 fix: convert normalize VLESS share-link transport mapping (#2694) by @slackworker\r\n* 0f71808c fix: masque h2 conn lifecycle management by @wwqgtxx\r\n* 299a63f8 fix: quic underlay packetConn maybe not closed in doh3/doq by @wwqgtxx\r\n* 299fd337 fix: race in websocket with early data by @wwqgtxx\r\n* 2fbed16d fix: don't add \":80\" to Host for vmess http obfs by @wwqgtxx\r\n* 4387c674 fix: race for hysteria2 salamander by @wwqgtxx\r\n* 4f927ca1 fix: CVE-2026-33814 for net/http by @wwqgtxx\r\n* 6fb9d9e4 fix: max payload size estimation on datagram queueing for quic-go by @wwqgtxx\r\n* 83ac220f fix: convert accept obfs/obfs-host as aliases for mode/host in ss v2ray-plugin URL (#2712) by @beck\r\n* 9613f02a fix: random panic by race in proxy id init by @wwqgtxx\r\n* 96a6962b fix: quic underlay packetConn maybe not closed in masque by @wwqgtxx\r\n* acc4f626 fix: quic underlay packetConn not closed in trusttunnel h3 mode by @wwqgtxx\r\n* b00c9857 fix: race in h2mux read by @wwqgtxx\r\n* d4b3d236 fix: race in trusttunnel read by @wwqgtxx\r\n* db63ffbb fix: quic underlay packetConn not closed in xhttp h3 mode by @wwqgtxx\r\n* e4099f0f fix: prevert body not close where conn is already closed before setup for sing-mux and trusttunnel by @wwqgtxx\r\n* ec664a51 fix: option name typo in listener by @wwqgtxx\r\n* f0ad835d fix: BBR scale window for datagram size by @wwqgtxx\r\n* fcbcd10b fix: race in quic get congestion by @wwqgtxx\r\n\r\n## Maintenance\r\n* 03253614 chore: add test for xhttp over vless encryption by @wwqgtxx\r\n* 0e0265fd chore: simplify gotConn handling by @wwqgtxx\r\n* 1bee5901 chore: reduce data copy in read packet for masque by @wwqgtxx\r\n* 20cb280c chore: simplify error handling code by @wwqgtxx\r\n* 2247c0eb chore: async xhttp RoundTrip to let some CDN/reverse proxy happy (#2719) by @kyber1024\r\n* 2cfff83e chore: let xhttp server passing stream-one and stream-up mode test under http1 by @wwqgtxx\r\n* 37942ce9 chore: remove unused timeout in socks5 over tls by @wwqgtxx\r\n* 3d6add33 chore: align internal logic by @wwqgtxx\r\n* 3f2b0ba6 chore: test dialer should be created by test tunnel by @wwqgtxx\r\n* 4814c727 chore: add mode restrictions test back by @wwqgtxx\r\n* 49858024 chore: add test for packet upload queue by @wwqgtxx\r\n* 5b013f25 chore: code cleanup by @wwqgtxx\r\n* 6b076839 chore: better DialQuic interface by @wwqgtxx\r\n* 6c407f0f chore: rebuild upload queue logic by @wwqgtxx\r\n* 7ab4eed8 chore: handling edge cases where the transport may dial more than once in test by @wwqgtxx\r\n* 7abf2904 chore: update quic congestion pacer by @wwqgtxx\r\n* 7b737755 chore: add short circuit logic for dual stack dial to decrease unnecessary goroutine by @wwqgtxx\r\n* 7e83399a chore: update comments to clarify why need retry in TestDialer by @wwqgtxx\r\n* 8c1b1a3e chore: check `sc-max-each-post-bytes` greater than zero if set by @wwqgtxx\r\n* a450080e chore: skip sudoku http mask test on windows again by @wwqgtxx\r\n* ab3746a1 chore: update mieru version (#2687) by @enfein\r\n* b0ea75bd chore: using NewClientConn directly instead of the built-in connection pool for masque h2 mode by @wwqgtxx\r\n* c39b680c chore: remove unused limit on concurrent dialing in xhttp client by @wwqgtxx\r\n* cac48917 chore: add deadline wrapper for trusttunnel server by @wwqgtxx\r\n* d4c4b285 chore: allow overriding sing-mux internal tcpTimeout value for testing by @wwqgtxx\r\n* d801e6b6 chore: align with trusttunnel's official session reuse logic (#2683) by @Maxim\r\n* d8cb32b8 chore: move tuic special types to a new package by @wwqgtxx\r\n* d9c447a8 chore: remove unneeded copy in uploadQueue by @wwqgtxx\r\n* df6a5d3f chore: add TestDialer to retry when dial fails for local testing by @wwqgtxx\r\n* dfc888d0 chore: update default headers in xhttp by @wwqgtxx\r\n* e0a42d4e chore: remove strict timeout restrictions in test for slow github action by @wwqgtxx\r\n* e1bdfba0 chore: update dlclark/regexp2 by @wwqgtxx\r\n* e38aa82a chore: don't force bind interface when using fd for tun by @wwqgtxx\r\n* ebc41ea8 chore: update mieru version (#2721) by @enfein\r\n* f425c81a chore: read as much data as possible from the reader by @wwqgtxx\r\n* f5183da5 chore: correct the xhttp reuse-settings item order by @wwqgtxx\r\n* fa081fb1 chore: rebuild masque h2 conn read logic by @wwqgtxx\r\n* fe7f3d61 chore: rebuild `max-connections` logic in `reuse-settings` by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.23...v1.19.24\r\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "3b85577",
+            "branch": "Alpha",
+            "date": "2026-07-06T16:35:01Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/3b85577f20bbe97f3c8b78ae9b697e3884864549"
+          }
         }
       ]
     },
@@ -257,7 +275,13 @@
               "author": "kastov",
               "body": "# 🌊 Remnawave v2.7.1\n\n<p align=\"center\">\n  <a href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <img src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\">\n  </a>\n</p>\n\n---\n\n## 💻 Frontend v2.7.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.1-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.1)\n- [Compare changes (2.7.0...2.7.1)](https://github.com/remnawave/frontend/compare/2.7.0...2.7.1)\n\n---\n\n## 🖥️ Backend v2.7.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.1-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.1)\n- [Compare changes (2.7.0...2.7.1)](https://github.com/remnawave/backend/compare/2.7.0...2.7.1)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.1\nghcr.io/remnawave/backend:2.7.1\n```\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "6fc8ca0",
+            "branch": "main",
+            "date": "2026-07-06T19:38:44Z",
+            "url": "https://github.com/remnawave/panel/commit/6fc8ca0720333252977d0e3f5c1c091897830408"
+          }
         },
         {
           "repo": "remnawave/node",
@@ -318,7 +342,13 @@
               "author": "kastov",
               "body": "🚀 Autogenerated release v2.5.5\n\n📝 Compare changes: [2.5.4...2.5.5](https://github.com/remnawave/node/compare/2.5.4...2.5.5)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.5.5`\n- `ghcr.io/remnawave/node:2.5.5`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.5.4...2.5.5"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "9cd01fc",
+            "branch": "dev",
+            "date": "2026-07-04T14:38:39Z",
+            "url": "https://github.com/remnawave/node/commit/9cd01fce6207a1f8b91de40d8f4d1aab55ea9bfb"
+          }
         },
         {
           "repo": "remnawave/subscription-page",
@@ -379,7 +409,13 @@
               "author": null,
               "body": ""
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "3888602",
+            "branch": "dev",
+            "date": "2026-07-06T21:52:37Z",
+            "url": "https://github.com/remnawave/subscription-page/commit/3888602d560a9637b1117573cddafcf6120efed9"
+          }
         }
       ]
     },
@@ -448,7 +484,13 @@
               "author": "github-actions[bot]",
               "body": "# Changelog\n - Merge remote-tracking branch 'origin/main'\n - minor ui fix\n - fix working ports without enabled sysproxy\n - minor ui fix\n - fixed rendering bug\n - fixed an issue where the proxy could not be disabled when switching to a different mode in the settings\n - minor ui improvements\n - fix white screen\n - fix memory leak\n - Update .gitignore\n - improve update button\n\n### Download link：\n\n#### Windows10/11：\n\n<a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64-setup.exe\"><img src=\"https://img.shields.io/badge/EXE-default?style=flat&logo=windows&label=64-bit\"></a> <a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64-setup.exe\"><img src=\"https://img.shields.io/badge/EXE-default?style=flat&logo=windows&label=ARM64\"></a>\n\n\n#### macOS 11+：\n\n<a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg\"><img src=\"https://img.shields.io/badge/PKG-default?style=flat&logo=apple&label=Intel\"></a> <a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.pkg\"><img src=\"https://img.shields.io/badge/PKG-default?style=flat&logo=apple&label=Apple%20Silicon\"></a>\n\n\n#### Linux：\n\n<a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_amd64.deb\"><img src=\"https://img.shields.io/badge/DEB-default?style=flat&logo=linux&label=64-bit\"></a> <a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.deb\"><img src=\"https://img.shields.io/badge/DEB-default?style=flat&logo=linux&label=ARM64\"></a>\n\n<a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x86_64.rpm\"><img src=\"https://img.shields.io/badge/RPM-default?style=flat&logo=linux&label=64-bit\"></a> <a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.rpm\"><img src=\"https://img.shields.io/badge/RPM-default?style=flat&logo=linux&label=ARM64\"></a>\n\n<a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg.tar.xz\"><img src=\"https://img.shields.io/badge/PACMAN-default?style=flat&logo=archlinux&label=64-bit\"></a> <a href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.pkg.tar.xz\"><img src=\"https://img.shields.io/badge/PACMAN-default?style=flat&logo=archlinux&label=ARM64\"></a>"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "abbe9f8",
+            "branch": "feature/aur-publish",
+            "date": "2026-06-10T15:16:07Z",
+            "url": "https://github.com/coolcoala/koala-clash/commit/abbe9f839f05186076356c99d6b9d91e3b8b8ef3"
+          }
         },
         {
           "repo": "pluralplay/FlClashX",
@@ -458,7 +500,7 @@
             "stars": 1162,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
-            "pushed_at": "2026-06-07T04:25:55Z",
+            "pushed_at": "2026-07-07T00:17:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
@@ -509,7 +551,13 @@
               "author": "github-actions[bot]",
               "body": "- vpntun stability, android stability, bug fixes\n\n<div align=center>\n\n⚠️ **Pre-release version** • For testing purposes only\n\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.13/total?style=flat-square&logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.13/)\n\n</div>\n\n**Download based on your OS:**\n\n<div align=left>\n<table>\n    <thead align=left>\n        <tr>\n            <th>OS</th>\n            <th>Download</th>\n        </tr>\n    </thead>\n    <tbody align=left>\n        <tr>\n        <td>Android</td>\n            <td>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-android-universal.apk\"><img src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-android-arm64-v8a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-android-armeabi-v7a.apk\"><img src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-android-x86_64.apk\"><img src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"></a>\n            </td>\n        </tr>\n        <tr>\n            <td>Windows</td>\n            <td>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-windows-amd64-setup.exe\"><img src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-windows-arm-setup.exe\"><img src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-windows-amd64.zip\"><img src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-windows-arm.zip\"><img src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"></a>\n            </td>\n        </tr>\n        <tr>\n            <td>macOS</td>\n            <td>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-macos-arm64.dmg\"><img src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-macos-amd64.dmg\"><img src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"></a><br>\n            </td>\n        </tr>\n        <tr>\n            <td>Linux</td>\n            <td>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-linux-amd64.AppImage\"><img src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-linux-amd64.deb\"><img src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"></a><br>\n                <a href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.13/FlClashX-linux-amd64.deb\"><img src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"></a><br>\n                <a href=\"https://aur.archlinux.org/packages/flclashx-git\"><img src=\"https://img.shields.io/aur/version/flclashx-git\"></a>\n            </td>\n        </tr>\n    </tbody>\n</table>\n\n</div>\n\n<div dir=\"ltr\">\n\n**Full changelog:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\n\n</div>\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "7d2f7e9",
+            "branch": "dev",
+            "date": "2026-07-07T00:06:44Z",
+            "url": "https://github.com/pluralplay/FlClashX/commit/7d2f7e97b850134c45604051ff11b9c89a3adfe4"
+          }
         }
       ]
     },
