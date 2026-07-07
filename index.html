@@ -353,9 +353,9 @@ function render(){
     if(currentFilter!=="all"&&currentFilter!=="__new"&&currentFilter!==g.id)continue;
     const repos=[...g.repos].sort((a,b)=>(b.repo.toLowerCase().startsWith("mrvibecodic/")?1:0)-(a.repo.toLowerCase().startsWith("mrvibecodic/")?1:0));
     const cards=repos.filter(matches).map(e=>{
-      const isNew=hasNew(e.repo,g.track==="commits"?comIds(e):relIds(e),seen);
+      const isNew=hasNew(e.repo,(e.track||g.track)==="commits"?comIds(e):relIds(e),seen);
       if(currentFilter==="__new"&&!isNew)return"";
-      return card(e,g.track,seen);
+      return card(e,e.track||g.track,seen);
     }).filter(Boolean);
     if(cards.length){
       const label=g.track==="commits"?"коммиты по веткам":"релизы";
@@ -365,7 +365,7 @@ function render(){
   document.getElementById("app").innerHTML=html||'<div class="loading">Ничего не найдено.</div>';
 }
 
-function allIds(){const m={};for(const g of DATA.groups)for(const e of g.repos){m[e.repo]=m[e.repo]||{};(g.track==="commits"?comIds(e):relIds(e)).forEach(id=>m[e.repo][id]=true)}return m;}
+function allIds(){const m={};for(const g of DATA.groups)for(const e of g.repos){m[e.repo]=m[e.repo]||{};((e.track||g.track)==="commits"?comIds(e):relIds(e)).forEach(id=>m[e.repo][id]=true)}return m;}
 function markAllSeen(){if(!DATA)return;SEEN=allIds();saveSeen(SEEN);render();}
 
 function buildFilters(){
