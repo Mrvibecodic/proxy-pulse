@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:53:23.149041Z",
+  "generated_at": "2026-07-07T21:08:46.194779Z",
   "groups": [
     {
       "id": "cores",
@@ -10,6 +10,7 @@
         {
           "repo": "XTLS/Xray-core",
           "title": "Xray-core",
+          "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
             "stars": 40219,
@@ -77,6 +78,7 @@
         {
           "repo": "SagerNet/sing-box",
           "title": "sing-box",
+          "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
             "stars": 35800,
@@ -144,6 +146,7 @@
         {
           "repo": "MetaCubeX/mihomo",
           "title": "mihomo",
+          "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
             "stars": 32040,
@@ -219,6 +222,7 @@
         {
           "repo": "remnawave/panel",
           "title": "Remnawave Panel",
+          "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
             "stars": 4548,
@@ -286,6 +290,7 @@
         {
           "repo": "remnawave/node",
           "title": "Remnawave Node",
+          "track": "releases",
           "meta": {
             "description": "Node component for Remnawave. Learn more at: https://docs.rw",
             "stars": 167,
@@ -353,6 +358,7 @@
         {
           "repo": "remnawave/subscription-page",
           "title": "Remnawave Subscription Page",
+          "track": "releases",
           "meta": {
             "description": null,
             "stars": 114,
@@ -428,6 +434,7 @@
         {
           "repo": "coolcoala/koala-clash",
           "title": "Koala Clash",
+          "track": "releases",
           "meta": {
             "description": "A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience",
             "stars": 637,
@@ -495,6 +502,7 @@
         {
           "repo": "pluralplay/FlClashX",
           "title": "FlClashX",
+          "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
             "stars": 1164,
@@ -562,6 +570,7 @@
         {
           "repo": "legiz-ru/Prizrak-Box",
           "title": "Prizrak-Box",
+          "track": "releases",
           "meta": {
             "description": "A Simple desktop GUI client for mihomo",
             "stars": 321,
@@ -637,6 +646,7 @@
         {
           "repo": "Mrvibecodic/xray-checker-statuspage",
           "title": "xray-checker-statuspage",
+          "track": "commits",
           "meta": {
             "description": "Простой статуспейдж поверх xray-checker с расширенными функциями управления через Telegram бота",
             "stars": 27,
@@ -647,27 +657,93 @@
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "go-build (rolling)",
-              "tag": "go-build",
-              "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/releases/tag/go-build",
-              "published_at": "2026-06-22T22:22:59Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": ""
+              "name": "go-build",
+              "commits": [
+                {
+                  "sha": "2e85079",
+                  "message": "bot: топики форума в NOTIFY_CHAT_IDS (chatID:threadID)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-06T19:08:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
+                },
+                {
+                  "sha": "1dc956c",
+                  "message": "bot: доставка алертов/сводки в доп. чаты/группы через NOTIFY_CHAT_IDS",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-05T22:25:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/1dc956c394eda443787b7d4ca87a295cc04a4e00"
+                },
+                {
+                  "sha": "69a773c",
+                  "message": "история: автоконсолидация по имени при смене stableId сервера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T01:21:18Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/69a773c231f663d8859ff97108fc50a836f9a173"
+                },
+                {
+                  "sha": "2eaa3a3",
+                  "message": "поддержка XRAY_JSON в прослойке /sub: проброс UA чекера + JSON-фильтр",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T00:59:10Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2eaa3a324a24e88f64edc55cfa514e7fa08b3556"
+                },
+                {
+                  "sha": "a256be4",
+                  "message": "группировка узлов балансира (чекер 1.3.0): одна плитка на группу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-28T23:43:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a256be47c252900a70d5c95c1500d4b47cc6aafd"
+                }
+              ]
+            },
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "30ba5c9",
+                  "message": "merge: bring dev into main — group sub-servers, global-outage confirm, admin stealth + token min-length, light-theme contrast, auto-hide a",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-16T19:50:51Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/30ba5c98776e00b68488462ba14384be0f795196"
+                },
+                {
+                  "sha": "cc1bac7",
+                  "message": "feature: auto-hide servers absent from checker (data kept); hide/restore + delete-from-DB in admin",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T12:54:52Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/cc1bac718b63d0550486446110972ac554d8e500"
+                },
+                {
+                  "sha": "96ff322",
+                  "message": "docs: credit ASTORKA as contributor",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T11:21:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/96ff3222deaa5a92282362ee3dc4e752e280ac47"
+                },
+                {
+                  "sha": "2d897a8",
+                  "message": "improvements: confirm global outages (no discard), admin stealth + token min-length, light-theme contrast",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T11:10:13Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2d897a88f710bc09ec5ccf1ae093ed93fcfd57ce"
+                },
+                {
+                  "sha": "af5a48c",
+                  "message": "feat(admin): тогл «игнорировать глобальные сбои» + CLAUDE.md",
+                  "author": "1",
+                  "date": "2026-06-11T19:08:08Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/af5a48c618febc822bf4803790671439f7bd7ab2"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "2e85079",
-            "branch": "go-build",
-            "date": "2026-07-06T19:08:44Z",
-            "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
-          }
+          ]
         },
         {
           "repo": "kutovoys/xray-checker",
           "title": "Xray Checker",
+          "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
             "stars": 844,
@@ -735,6 +811,7 @@
         {
           "repo": "louislam/uptime-kuma",
           "title": "Uptime Kuma",
+          "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
             "stars": 88860,
@@ -802,6 +879,7 @@
         {
           "repo": "henrygd/beszel",
           "title": "Beszel",
+          "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
             "stars": 23376,
@@ -877,6 +955,7 @@
         {
           "repo": "Mrvibecodic/chill-remna-bot",
           "title": "chill-remna-bot",
+          "track": "commits",
           "meta": {
             "description": "Легковесный и функциональный Telegram-бот для Remnawave",
             "stars": 11,
@@ -981,6 +1060,7 @@
         {
           "repo": "Mrvibecodic/remnawave-subscription-middleware",
           "title": "remnawave-subscription-middleware",
+          "track": "commits",
           "meta": {
             "description": "Прослойка-ру-зеркало для подписок Remnawave с расширенными возможностями",
             "stars": 26,
