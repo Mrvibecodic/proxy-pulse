@@ -286,9 +286,10 @@ function releaseBody(entry,seen){
 }
 
 function commitsBody(entry,seen,def){
-  const repo=entry.repo,branches=entry.branches||[];
-  if(!branches.length)return'<div class="empty">Коммитов не найдено</div>';
-  let active=branches.findIndex(b=>b.name===def);if(active<0)active=0;
+  const repo=entry.repo,raw=entry.branches||[];
+  if(!raw.length)return'<div class="empty">Коммитов не найдено</div>';
+  const branches=[...raw].sort((a,b)=>(b.name===def?1:0)-(a.name===def?1:0)); // дефолтная ветка первой
+  let active=0;
   const tabs=branches.map((b,i)=>'<button class="tab'+(i===active?' active':'')+'" data-i="'+i+'">'
       +(b.name===def?'● ':'')+esc(b.name)+'<span class="cnt">'+b.commits.length+'</span></button>').join("");
   const panes=branches.map((b,i)=>'<div class="pane'+(i===active?' active':'')+'" data-i="'+i+'"'+(i===active?'':' style="display:none"')+'>'
