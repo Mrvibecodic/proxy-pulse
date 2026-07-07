@@ -60,6 +60,8 @@
   .search:focus{border-color:var(--accent-dim);box-shadow:0 0 0 3px var(--accent-soft)}
   .ghost{background:transparent;color:var(--muted);border:1px solid var(--border);padding:8px 12px;border-radius:999px;cursor:pointer;font-size:12.5px}
   .ghost:hover{color:var(--text);border-color:var(--border2)}
+  .tgbtn{color:var(--cyan);border-color:#2b5a5e;text-decoration:none;display:inline-flex;align-items:center;gap:4px}
+  .tgbtn:hover{color:#fff;border-color:var(--cyan)}
 
   main{padding:6px 0 70px}
   .section-title{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:26px 0 12px;display:flex;align-items:center;gap:9px}
@@ -170,6 +172,7 @@
     </div>
     <input class="search" id="search" placeholder="Поиск репозитория…" autocomplete="off">
     <button class="ghost" id="markSeen" title="Сбросить отметки NEW">Прочитано</button>
+    <a class="ghost tgbtn" href="https://t.me/mrproxypulsebot" target="_blank" rel="noopener" title="Подписаться на обновления в Telegram">🔔 Telegram</a>
   </div>
 
   <main id="app"><div class="loading">Загрузка…</div></main>
@@ -177,7 +180,8 @@
 
 <footer>
   Обновляется автоматически каждые 30 минут через GitHub Actions ·
-  <a id="issueLink" href="#" target="_blank" rel="noopener">предложить репозиторий</a>
+  <a id="issueLink" href="#" target="_blank" rel="noopener">предложить репозиторий</a> ·
+  <a href="https://t.me/mrproxypulsebot" target="_blank" rel="noopener">Telegram-бот</a>
 </footer>
 
 <script>
