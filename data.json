@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T16:34:49.793960+00:00",
+  "generated_at": "2026-07-07T19:04:22.600Z",
   "groups": [
     {
       "id": "cores",
@@ -12,7 +12,7 @@
           "title": "Xray-core",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40212,
+            "stars": 40216,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-07T12:13:18Z",
@@ -68,10 +68,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5c6713c",
-            "branch": "cone",
-            "date": "2026-06-02T16:35:33Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/5c6713c66008b43accae64f7d035f97a02c2dee2"
+            "sha": "d7fa207",
+            "branch": "main",
+            "date": "2026-07-07T02:01:53Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/d7fa2076c3e5401173bf9b58f7b07f9aa5174443"
           }
         },
         {
@@ -79,15 +79,24 @@
           "title": "sing-box",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 35794,
+            "stars": 35799,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-07T16:34:40Z",
+            "pushed_at": "2026-07-07T17:46:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.40",
+              "tag": "v1.14.0-alpha.40",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.40",
+              "published_at": "2026-07-07T17:45:11Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add bridge outbound **1**\n* Fixes and improvements\n\n**1**:\n\nThe new `bridge` outbound is the L3 counterpart of `direct`: it forwards L3 traffic (TCP, UDP and ICMP) from a TUN or other L3 endpoints directly out of a network interface, without going through L3 to L4 translation. It requires privileges and is supported on Linux, macOS, rooted Android, and jailbroken iOS.\n\nSee [Bridge](https://sing-box.sagernet.org/configuration/outbound/bridge/).\n"
+            },
             {
               "name": "1.14.0-alpha.39",
               "tag": "v1.14.0-alpha.39",
@@ -123,22 +132,13 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-alpha.35",
-              "tag": "v1.14.0-alpha.35",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.35",
-              "published_at": "2026-06-25T11:15:18Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements\n"
             }
           ],
           "last_commit": {
-            "sha": "010b1e7",
-            "branch": "dependabot/go_modules/test/go.opentelemetry.io/otel-1.41.0",
-            "date": "2026-05-18T01:15:03Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/010b1e74a3c2c4aa8eeedd1604ec2a04420967e9"
+            "sha": "aaa1289",
+            "branch": "testing",
+            "date": "2026-07-07T16:34:32Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/aaa1289e5c05a6bfbfa4a81e058f2aaaadf9a783"
           }
         },
         {
@@ -146,10 +146,10 @@
           "title": "mihomo",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32037,
+            "stars": 32039,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-07-07T16:18:43Z",
+            "pushed_at": "2026-07-07T16:55:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -162,7 +162,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Tue Jul  7 21:11:43 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n<br>\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* feat: convert support session-table and session-length for xhttp-opts fields by @legiz-ru in https://github.com/MetaCubeX/mihomo/pull/2889\n* feat: add `rematch` outbound type and `REMATCH-NAME` rule type by @Medium1992 in https://github.com/MetaCubeX/mihomo/pull/2862\n* fix: guard snell pooled connection reuse state by @xream in https://github.com/MetaCubeX/mihomo/pull/2878\n* chore: bump mieru version to 3.34.0 by @enfein in https://github.com/MetaCubeX/mihomo/pull/2899\n* feat: support custom peer-info for openvpn outbound by @Easy-Ez in https://github.com/MetaCubeX/mihomo/pull/2926\n* fix: preserve shadow-tls in-user for snell listeners by @xream in https://github.com/MetaCubeX/mihomo/pull/2934\n* fix: add missing json tags to raw config structs by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/2939\n* fix: TUIC v5 fragmented UDP reads in quicStreamPacketConn.ReadFrom by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/2942\n* fix: apply TUIC v5 UDP relay size clamp when building server options by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/2943\n\n## New Contributors\n* @Medium1992 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/2862\n* @Easy-Ez made their first contribution in https://github.com/MetaCubeX/mihomo/pull/2926\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.27...Prerelease-Alpha"
+              "body": "Release created at  Wed Jul  8 00:55:44 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n<br>\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* feat: convert support session-table and session-length for xhttp-opts fields by @legiz-ru in https://github.com/MetaCubeX/mihomo/pull/2889\n* feat: add `rematch` outbound type and `REMATCH-NAME` rule type by @Medium1992 in https://github.com/MetaCubeX/mihomo/pull/2862\n* fix: guard snell pooled connection reuse state by @xream in https://github.com/MetaCubeX/mihomo/pull/2878\n* chore: bump mieru version to 3.34.0 by @enfein in https://github.com/MetaCubeX/mihomo/pull/2899\n* feat: support custom peer-info for openvpn outbound by @Easy-Ez in https://github.com/MetaCubeX/mihomo/pull/2926\n* fix: preserve shadow-tls in-user for snell listeners by @xream in https://github.com/MetaCubeX/mihomo/pull/2934\n* fix: add missing json tags to raw config structs by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/2939\n* fix: TUIC v5 fragmented UDP reads in quicStreamPacketConn.ReadFrom by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/2942\n* fix: apply TUIC v5 UDP relay size clamp when building server options by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/2943\n\n## New Contributors\n* @Medium1992 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/2862\n* @Easy-Ez made their first contribution in https://github.com/MetaCubeX/mihomo/pull/2926\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.27...Prerelease-Alpha"
             },
             {
               "name": "v1.19.27",
@@ -202,10 +202,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f62ebd0",
-            "branch": "Alpha",
-            "date": "2026-07-07T15:35:21Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/f62ebd0d04d86e6b857ccfd2c01768d497aac929"
+            "sha": "008b91b",
+            "branch": "main",
+            "date": "2025-02-21T05:06:54Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2"
           }
         }
       ]
@@ -344,10 +344,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9cd01fc",
-            "branch": "dev",
-            "date": "2026-07-04T14:38:39Z",
-            "url": "https://github.com/remnawave/node/commit/9cd01fce6207a1f8b91de40d8f4d1aab55ea9bfb"
+            "sha": "596f015",
+            "branch": "main",
+            "date": "2026-06-29T16:01:38Z",
+            "url": "https://github.com/remnawave/node/commit/596f015a5c8f876dc9a9d61b6cb78d35bd8e379b"
           }
         },
         {
@@ -411,10 +411,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3888602",
-            "branch": "dev",
-            "date": "2026-07-06T21:52:37Z",
-            "url": "https://github.com/remnawave/subscription-page/commit/3888602d560a9637b1117573cddafcf6120efed9"
+            "sha": "5fefecd",
+            "branch": "main",
+            "date": "2026-06-24T17:44:44Z",
+            "url": "https://github.com/remnawave/subscription-page/commit/5fefecdb0a610e6b4a7b286d31b9dc2adef69146"
           }
         }
       ]
@@ -486,10 +486,10 @@
             }
           ],
           "last_commit": {
-            "sha": "abbe9f8",
-            "branch": "feature/aur-publish",
-            "date": "2026-06-10T15:16:07Z",
-            "url": "https://github.com/coolcoala/koala-clash/commit/abbe9f839f05186076356c99d6b9d91e3b8b8ef3"
+            "sha": "7980927",
+            "branch": "main",
+            "date": "2026-05-12T02:33:59Z",
+            "url": "https://github.com/coolcoala/koala-clash/commit/79809279b5431e84313633a9ba39e8e5741ca003"
           }
         },
         {
@@ -553,10 +553,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d2f7e9",
-            "branch": "dev",
-            "date": "2026-07-07T00:06:44Z",
-            "url": "https://github.com/pluralplay/FlClashX/commit/7d2f7e97b850134c45604051ff11b9c89a3adfe4"
+            "sha": "235fe9d",
+            "branch": "main",
+            "date": "2026-04-24T02:14:09Z",
+            "url": "https://github.com/pluralplay/FlClashX/commit/235fe9de86de2d5797493f0c3d456ea08ac80f14"
           }
         }
       ]
@@ -679,7 +679,7 @@
             "stars": 26,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-06T21:03:28Z",
+            "pushed_at": "2026-07-07T18:44:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -688,6 +688,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "4fca2a1",
+                  "message": "fix(admin): снимать класс lp при старте LogPager, чтобы показывались страницы 2+ в лог-таблицах",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-07T18:44:11Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4fca2a132c7c12eee398bd11d8030abb4108337f"
+                },
                 {
                   "sha": "423576f",
                   "message": "chore(ci): обновление GitHub Actions на Node 24 (checkout@v5, docker/*@v4/v6/v7)",
@@ -715,13 +722,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-06T20:36:30Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/82a4ec203fc59bbfce9a9847b6cf79c82b662fdd"
-                },
-                {
-                  "sha": "191bacf",
-                  "message": "feat(proxy): опциональный приём ссылок /api/sub/<shortUuid>",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-05T14:45:29Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/191bacf110e1ea2434e566e91424ea792fbf1be2"
                 }
               ]
             },
@@ -772,7 +772,7 @@
           "title": "xray-checker-statuspage",
           "meta": {
             "description": "Простой статуспейдж поверх xray-checker с расширенными функциями управления через Telegram бота",
-            "stars": 26,
+            "stars": 27,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
             "pushed_at": "2026-07-06T19:08:53Z",
