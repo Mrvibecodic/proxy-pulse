@@ -167,7 +167,7 @@
 
 <script>
 const LS_KEY="proxy-pulse-seen-v1";
-let DATA=null,currentFilter="all",query="";
+let DATA=null,currentFilter="all",query="",SEEN={};
 
 function loadSeen(){try{return JSON.parse(localStorage.getItem(LS_KEY))||{}}catch(e){return{}}}
 function saveSeen(o){try{localStorage.setItem(LS_KEY,JSON.stringify(o))}catch(e){}}
@@ -311,7 +311,7 @@ function matches(e){if(!query)return true;return (e.repo+" "+(e.title||"")+" "+(
 
 function render(){
   if(!DATA)return;
-  const seen=loadSeen();let html="";
+  const seen=SEEN;let html="";
   for(const g of DATA.groups){
     if(currentFilter!=="all"&&currentFilter!=="__new"&&currentFilter!==g.id)continue;
     const repos=[...g.repos].sort((a,b)=>(b.repo.toLowerCase().startsWith("mrvibecodic/")?1:0)-(a.repo.toLowerCase().startsWith("mrvibecodic/")?1:0));
@@ -328,11 +328,8 @@ function render(){
   document.getElementById("app").innerHTML=html||'<div class="loading">Ничего не найдено.</div>';
 }
 
-function markAllSeen(){
-  if(!DATA)return;const seen={};
-  for(const g of DATA.groups)for(const e of g.repos){seen[e.repo]=seen[e.repo]||{};(g.track==="commits"?comIds(e):relIds(e)).forEach(id=>seen[e.repo][id]=true)}
-  saveSeen(seen);render();
-}
+function allIds(){const m={};for(const g of DATA.groups)for(const e of g.repos){m[e.repo]=m[e.repo]||{};(g.track==="commits"?comIds(e):relIds(e)).forEach(id=>m[e.repo][id]=true)}return m;}
+function markAllSeen(){if(!DATA)return;SEEN=allIds();saveSeen(SEEN);render();}
 
 function buildFilters(){
   const w=document.getElementById("filters");
@@ -372,10 +369,12 @@ async function init(){
   const when=DATA.generated_at?new Date(DATA.generated_at):null;
   const total=DATA.groups.reduce((n,g)=>n+g.repos.length,0);
   document.getElementById("subtitle").innerHTML='<span class="live"><span class="dot"></span>live</span> '+total+' репозиториев · '+DATA.groups.length+' групп · '+(when?when.toLocaleString("ru-RU"):"—");
+  SEEN=loadSeen();
   buildFilters();
   document.getElementById("search").addEventListener("input",e=>{query=e.target.value.trim().toLowerCase();render();});
   document.getElementById("markSeen").addEventListener("click",markAllSeen);
   render();
+  saveSeen(allIds()); // фиксируем текущее состояние как базу для следующего визита
 }
 init();
 </script>
