@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T05:45:42.805506Z",
+  "generated_at": "2026-07-09T05:48:34.187414Z",
   "groups": [
     {
       "id": "cores",
@@ -91,6 +91,15 @@
           },
           "releases": [
             {
+              "name": "1.14.0-alpha.41",
+              "tag": "v1.14.0-alpha.41",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.41",
+              "published_at": "2026-07-09T05:45:47Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add windows bridge **1**\n* Add `preferred_by` support for bridge **2**\n* Add hysteria2 realm IP version restriction **3**\n* Add hysteria2 realm port mapping **4**\n* Fixes and improvements\n\n**1**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound is now supported on Windows, implemented via WinDivert and requiring Administrator privileges.\n\n**2**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound now works with the [`preferred_by`](https://sing-box.sagernet.org/configuration/route/rule/#preferred_by) route rule item. It is recommended to use `preferred_by` as a gate in the `route` rule: it only matches in [pre-match](https://sing-box.sagernet.org/configuration/shared/pre-match/) and excludes local addresses that cannot be routed.\n\n**3**:\n\nThe new [`realm.ip_version`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmip_version) inbound and outbound field restricts realm connections (STUN, hole punching, and the resulting QUIC path) to a single IP version.\n\n**4**:\n\nThe new [`realm.port_mapping`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmport_mapping) inbound and outbound field maintains a UDP port mapping on the local gateway via UPnP or NAT-PMP, improving hole-punching reliability behind gateways that support it.\n"
+            },
+            {
               "name": "1.14.0-alpha.40",
               "tag": "v1.14.0-alpha.40",
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.40",
@@ -122,15 +131,6 @@
               "tag": "v1.14.0-alpha.37",
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.37",
               "published_at": "2026-06-29T04:16:50Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-alpha.36",
-              "tag": "v1.14.0-alpha.36",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.36",
-              "published_at": "2026-06-27T15:47:16Z",
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
