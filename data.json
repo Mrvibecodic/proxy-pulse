@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T06:40:22.897617Z",
+  "generated_at": "2026-07-10T06:43:21.113266Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 35872,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-10T06:01:04Z",
+            "pushed_at": "2026-07-10T06:42:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.42",
+              "tag": "v1.14.0-alpha.42",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.42",
+              "published_at": "2026-07-10T06:42:42Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.0-alpha.41",
               "tag": "v1.14.0-alpha.41",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add Snell protocol support **1**\n* Fixes and improvements\n\n**1**: Surge believes that being closed-source and not proliferated can keep [Snell](https://kb.nssurge.com/surge-knowledge-base/release-notes/snell) covert, but this is already impossible in 2026; considering that Snell still has advantages that other random-traffic protocols do not possess, such as multiplexing support with complete TCP semantics and traffic-characteristic diversity, we [implemented it in Go](https://github.com/SagerNet/sing-snell) instead of reinventing the wheel, with all features except the v5 QUIC proxy, behavior as consistent with the official implementation as possible, and performance at least on par with it.\n\nSee [Snell Inbound](https://sing-box.sagernet.org/configuration/inbound/snell/) and [Snell Outbound](https://sing-box.sagernet.org/configuration/outbound/snell/).\n"
-            },
-            {
-              "name": "1.14.0-alpha.37",
-              "tag": "v1.14.0-alpha.37",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.37",
-              "published_at": "2026-06-29T04:16:50Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
@@ -505,7 +505,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1171,
+            "stars": 1172,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-07-07T00:17:48Z",
@@ -950,7 +950,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 88954,
+            "stars": 88955,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-10T00:24:51Z",
