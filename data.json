@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T11:29:58.996989Z",
+  "generated_at": "2026-07-10T11:50:05.203001Z",
   "groups": [
     {
       "id": "cores",
@@ -712,12 +712,21 @@
             "stars": 6402,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-10T11:19:55Z",
+            "pushed_at": "2026-07-10T11:50:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.0-beta.5",
+              "tag": "1.2.0-beta.5",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.5",
+              "published_at": "2026-07-10T11:50:06Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add runtime stats Widget\r\n* Add full Xray JSON array subscription support\r\n* Use widgets for Tray server/routing profile selection\r\n* Fixes and Improvements"
+            },
             {
               "name": "1.2.0-beta.4",
               "tag": "1.2.0-beta.4",
@@ -753,15 +762,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Allow generating warp config as Wiregaurd profile\r\n* Improve route profile import/export And add deeplink support for it\r\n* Add block and warp-bypass routing profile default outbounds **1**\r\n* Disable `auto_redirect` and fix Tun Exclude subnets\r\n* Add raw routing profile support **2**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nwarp-bypass will allow to customize what goes through warp and what uses the proxy directly. Works the same as proxy if warp is not enabled\r\n\r\n**2**:\r\nYou can write your own JSON routing section which will be used as the entire `route` section of sing-box, allowing for custom rule-sets and more control over the routing logic for advanced users"
-            },
-            {
-              "name": "1.1.6",
-              "tag": "1.1.6",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.1.6",
-              "published_at": "2026-06-08T22:37:29Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "* Fix system proxy\r\n* Use polling mode for windows process searcher\r\n* Improve Loopback detection rules\r\n* Fix some Xray fields being registered with wrong type\r\n* Minor fixes and improvements"
             }
           ],
           "last_commit": {
