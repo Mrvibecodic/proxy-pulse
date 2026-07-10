@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T21:26:39.265279Z",
+  "generated_at": "2026-07-10T21:32:30.458426Z",
   "groups": [
     {
       "id": "cores",
@@ -1018,7 +1018,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23435,
+            "stars": 23436,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-06-29T04:59:54Z",
@@ -1202,7 +1202,7 @@
             "stars": 26,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-10T00:37:27Z",
+            "pushed_at": "2026-07-10T21:32:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1211,6 +1211,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "16a0b64",
+                  "message": "feat(connection): тумблер формата ссылки /api/sub, скрыты старые тумблеры",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T21:32:51Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/16a0b6407c9d30117e3084f9850b987b6769c783"
+                },
                 {
                   "sha": "d080b85",
                   "message": "ui(connection): подробности про TLS-проверку вынесены в справку «?»",
@@ -1238,13 +1245,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-07T18:44:11Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4fca2a132c7c12eee398bd11d8030abb4108337f"
-                },
-                {
-                  "sha": "423576f",
-                  "message": "chore(ci): обновление GitHub Actions на Node 24 (checkout@v5, docker/*@v4/v6/v7)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T21:03:27Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/423576fb75638873370997fa0962a308fdfbe4c7"
                 }
               ]
             },
