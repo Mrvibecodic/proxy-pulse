@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T16:24:07.462456Z",
+  "generated_at": "2026-07-11T16:35:23.365042Z",
   "groups": [
     {
       "id": "cores",
@@ -1202,7 +1202,7 @@
             "stars": 27,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-10T22:59:21Z",
+            "pushed_at": "2026-07-11T16:33:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1211,6 +1211,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "3bfce3f",
+                  "message": "feat(proxy): маскировка 404 под 502 (тумблер)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-11T16:33:49Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/3bfce3fb727b09f375b08332c0f48a8cecc07a6b"
+                },
                 {
                   "sha": "16a0b64",
                   "message": "feat(connection): тумблер формата ссылки /api/sub, скрыты старые тумблеры",
@@ -1238,13 +1245,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-08T22:40:27Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bcdc5b77598dc0fe4dc8411f2313276134b4b9d6"
-                },
-                {
-                  "sha": "4fca2a1",
-                  "message": "fix(admin): снимать класс lp при старте LogPager, чтобы показывались страницы 2+ в лог-таблицах",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-07T18:44:11Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4fca2a132c7c12eee398bd11d8030abb4108337f"
                 }
               ]
             },
