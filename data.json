@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T13:06:07.134449Z",
+  "generated_at": "2026-07-13T13:09:01.399584Z",
   "groups": [
     {
       "id": "cores",
@@ -712,12 +712,21 @@
             "stars": 6434,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-13T10:56:49Z",
+            "pushed_at": "2026-07-13T13:08:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.0-beta.6",
+              "tag": "1.2.0-beta.6",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.6",
+              "published_at": "2026-07-13T13:08:10Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Make Full Xray configs testable\r\n* Migrate interface binding and initial DNS resolution of Xray configs to our fork\r\n* Fixes and Improvements"
+            },
             {
               "name": "1.2.0-beta.5",
               "tag": "1.2.0-beta.5",
@@ -753,15 +762,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Update Xray core And Improve its Tun Handling\r\n* Add Hiddify's TLS fragment and TLS Mixed-case\r\n* Add traffic statistics module **1**\r\n* Add Profile start/stop button **2**\r\n* Add Xray config validation\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nAggregates and summarizes the traffic used by configs/apps over the last 90 days for better insight into one's usage\r\n\r\n**2**:\r\nThe top toolbar has been changed to simplify operations and add room for future features"
-            },
-            {
-              "name": "1.2.0-beta.1",
-              "tag": "1.2.0-beta.1",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.1",
-              "published_at": "2026-06-11T22:28:50Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Allow generating warp config as Wiregaurd profile\r\n* Improve route profile import/export And add deeplink support for it\r\n* Add block and warp-bypass routing profile default outbounds **1**\r\n* Disable `auto_redirect` and fix Tun Exclude subnets\r\n* Add raw routing profile support **2**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nwarp-bypass will allow to customize what goes through warp and what uses the proxy directly. Works the same as proxy if warp is not enabled\r\n\r\n**2**:\r\nYou can write your own JSON routing section which will be used as the entire `route` section of sing-box, allowing for custom rule-sets and more control over the routing logic for advanced users"
             }
           ],
           "last_commit": {
