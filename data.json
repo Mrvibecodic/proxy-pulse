@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:11:07.169183Z",
+  "generated_at": "2026-07-14T09:17:00.577638Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 35996,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-14T08:20:42Z",
+            "pushed_at": "2026-07-14T09:14:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.44",
+              "tag": "v1.14.0-alpha.44",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.44",
+              "published_at": "2026-07-14T09:14:36Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Introducing our [new Windows client application](https://sing-box.sagernet.org/clients/desktop/) **1**\n* Fixes and improvements\n\n**1**:\n\nThe new [Windows client](https://sing-box.sagernet.org/clients/desktop/) provides an experience equal to other standard sing-box graphical clients, is available for Windows 10+ (x64 / x86 / arm64), and is distributed as an installer from [GitHub Releases](https://github.com/SagerNet/sing-box/releases) (`SFW-\u003cversion\u003e-\u003carchitecture\u003e.exe`)."
+            },
             {
               "name": "1.14.0-alpha.43",
               "tag": "v1.14.0-alpha.43",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add bridge outbound **1**\n* Fixes and improvements\n\n**1**:\n\nThe new `bridge` outbound is the L3 counterpart of `direct`: it forwards L3 traffic (TCP, UDP and ICMP) from a TUN or other L3 endpoints directly out of a network interface, without going through L3 to L4 translation. It requires privileges and is supported on Linux, macOS, rooted Android, and jailbroken iOS.\n\nSee [Bridge](https://sing-box.sagernet.org/configuration/outbound/bridge/).\n"
-            },
-            {
-              "name": "1.14.0-alpha.39",
-              "tag": "v1.14.0-alpha.39",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.39",
-              "published_at": "2026-07-06T14:00:56Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Add L3 forwarding support **1**\n* Fixes and improvements\n\n**1**:\n\nBuilding on the ICMP proxy support introduced in sing-box 1.13.0, TCP and UDP traffic from L3 inbounds (TUN, WireGuard, and Tailscale) can now be forwarded directly to WireGuard and Tailscale endpoints at L3, without going through L3 to L4 translation.\n\nSee [Pre-match](https://sing-box.sagernet.org/configuration/shared/pre-match/).\n"
             }
           ],
           "last_commit": {
