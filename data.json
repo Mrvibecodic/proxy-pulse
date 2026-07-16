@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T22:22:51.155086Z",
+  "generated_at": "2026-07-16T23:35:08.027200Z",
   "groups": [
     {
       "id": "cores",
@@ -136,13 +136,13 @@
           "title": "mihomo",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
+            "stars": 32362,
             "url": "https://github.com/MetaCubeX/mihomo",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-16T15:42:56Z",
             "archived": false,
-            "avatar": "https://github.com/MetaCubeX.png",
+            "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
@@ -191,7 +191,13 @@
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* 571925d2 feat: add Tailscale outbound support (#2786) by @汐殇\r\n* 7af9eeb3 feat: add OpenVPN outbound support (#2785) by @Romanov Caesar\r\n* 6ea4373e feat: support auth-user-pass and AES-256-GCM for OpenVPN (#2787) by @Ekko\r\n* 5e220351 feat: add GOST relay outbound proxy type (#2795) by @ztywyj\r\n* 98aa7e63 feat: support `realm-opts` for hysteria2 outbound and listener by @wwqgtxx\r\n* 787dbfc5 feat: support setting `realm-opts.proxy` for hysteria2 listener by @wwqgtxx\r\n* 2ffd9628 feat: support hysteria2-realm listener by @wwqgtxx\r\n* 8b8eae56 feat: support simple-obfs for shadowsocks listener by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 0003e143 fix: trusttunnel listener panic by @wwqgtxx\r\n* 17bed79b fix: tsnet panic for tailscale by @wwqgtxx\r\n* 2f51cb03 fix: conn maybe not closed in error handling by @wwqgtxx\r\n* 2f6ce20f fix: tailscale not use configured dialer for captive detection by @wwqgtxx\r\n* 35d5d4e4 fix: CVE-2026-39825 for net/http by @wwqgtxx\r\n* 388d958a fix: remove unstable warning for tailscale by @wwqgtxx\r\n* 5df45b25 fix: typo in default alpn by @wwqgtxx\r\n* 7a646e8d fix: correctly configure the HTTP/2 scheduled ping parameters in masque h2 mode by @wwqgtxx\r\n* 802b0b24 fix: netlink permission denied on android for tailscale by @wwqgtxx\r\n* 8a28dce5 fix: validate Linux process netlink matches by @xream\r\n* 95946a5f fix: net/http.Transport's UnencryptedHTTP2 does not work TLS without ALPN by @wwqgtxx\r\n* 98aa42ed fix: convert place disguise host in h2-opts.host for legacy base64-JSON VMess (#2739) by @wangwei354\r\n* 9e97dc05 fix: tailscale not use configured dialer for netstack forwardTCP by @wwqgtxx\r\n* aae58120 fix: net/http.Server's UnencryptedHTTP2 does not work TLS without ALPN by @wwqgtxx\r\n* b3104a52 fix: panic in vless xhttp h3 mode when quic dial fails (#2736) by @beck\r\n* cc376acc fix: skip TTL update for OPT records by @wwqgtxx\r\n* d2acf450 fix: hysteria2 realm server reaper loop by @wwqgtxx\r\n* e933ca82 fix: netlink permission denied on android for tailscale by @wwqgtxx\r\n* f5cfb8d2 fix: convert emit HTTP2Options-shaped h2-opts for share-link HTTP/2 transport (#2737) by @wangwei354\r\n* fd314191 fix: wrong function call in SetWriteDeadline (#2790) by @Aaron Chen\r\n* ffe6e42c fix: conn maybe not closed in error handling by @wwqgtxx\r\n\r\n## Maintenance\r\n* 00e6df50 chore: close http2 connections when closing client in doh by @wwqgtxx\r\n* 028b480a chore: remove unused http server code by @wwqgtxx\r\n* 163ce6ab chore: add mlkem768x25519-sha256 key exchange algorithm to ssh outbound by @wwqgtxx\r\n* 1fea5515 chore: verify adapter can parse convert's result in its test by @wwqgtxx\r\n* 263d06d1 chore: allow passing tunnel when creating the proxy by @wwqgtxx\r\n* 2a8da25d chore: handle the possibility of multiple ClientTrace.GotConn calls by @wwqgtxx\r\n* 2d94970c chore: using new net/http api in masque h2 mode by @wwqgtxx\r\n* 2f11d963 chore: use our internal DNS resolution logic for tailscale by @wwqgtxx\r\n* 3d3af1f4 chore: respect outbound dns prefer when resolve UDP by @wwqgtxx\r\n* 3fb93bd7 chore: using new net/http api in gun and xhttp listener by @wwqgtxx\r\n* 44c94236 chore: code cleanup by @wwqgtxx\r\n* 81bea659 chore: using new net/http api in vmess h2 client by @wwqgtxx\r\n* 82621cd1 chore: always safe UUID generation by @wwqgtxx\r\n* 8bc7d3e5 chore: using new net/http api in doh client by @wwqgtxx\r\n* 8d539528 chore: remove unused xhttp options in download-settings by @wwqgtxx\r\n* 8f69ad9e chore: better uuid generation by @wwqgtxx\r\n* 993d1b64 chore: add stun retry and lazy server start for realm by @wwqgtxx\r\n* a1c68a43 chore: using new net/http api in reality client fallback by @wwqgtxx\r\n* ac6f6d04 chore: tailscale using ListenPacket for UDP by @wwqgtxx\r\n* b03aa5d5 chore: remove race code in wireguard implementation by @wwqgtxx\r\n* b8b44394 chore: using new net/http api in trusttunnel listener by @wwqgtxx\r\n* bb2f57b0 chore: using new net/http api in xhttp client by @wwqgtxx\r\n* c27446a5 chore: using new net/http api in gun client by @wwqgtxx\r\n* c59c99a0 chore: handle context cancellation in xhttp client dialing by @wwqgtxx\r\n* c98e67a1 chore: using new net/http api in trusttunnel client by @wwqgtxx\r\n* df1c5e54 chore: relax sudoku user configuration (#2757) by @saba-futai\r\n* f333359c chore: move magic close http2 connections function to own fork by @wwqgtxx\r\n* f5f9e599 chore: update sing-tun by @wwqgtxx\r\n* faa58f27 chore: add some comments for using the new net/http API by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.24...v1.19.25\r\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "a5167fa",
+            "branch": "Alpha",
+            "date": "2026-07-16T15:02:17Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/a5167fa4abae6e40b668eda558371e853d71eb64"
+          }
         }
       ]
     },
@@ -206,13 +212,13 @@
           "title": "Remnawave Panel",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
+            "stars": 4613,
             "url": "https://github.com/remnawave/panel",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-13T20:15:47Z",
             "archived": false,
-            "avatar": "https://github.com/remnawave.png",
+            "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
           "releases": [
@@ -261,20 +267,26 @@
               "author": "kastov",
               "body": "# 🌊 Remnawave v2.7.2\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/frontend/compare/2.7.1...2.7.2)\n\n---\n\n## 🖥️ Backend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/backend/compare/2.7.1...2.7.2)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.2\nghcr.io/remnawave/backend:2.7.2\n```\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "fc4c62c",
+            "branch": "main",
+            "date": "2026-07-13T20:15:33Z",
+            "url": "https://github.com/remnawave/panel/commit/fc4c62c436e963bf82f8da1f4f3d03ba7981cefa"
+          }
         },
         {
           "repo": "remnawave/node",
           "title": "Remnawave Node",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Node component for Remnawave. Learn more at: https://docs.rw",
+            "stars": 169,
             "url": "https://github.com/remnawave/node",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-13T15:01:14Z",
             "archived": false,
-            "avatar": "https://github.com/remnawave.png",
+            "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
           "releases": [
@@ -323,7 +335,13 @@
               "author": "kastov",
               "body": "🚀 Autogenerated release v2.5.5\n\n📝 Compare changes: [2.5.4...2.5.5](https://github.com/remnawave/node/compare/2.5.4...2.5.5)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.5.5`\n- `ghcr.io/remnawave/node:2.5.5`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.5.4...2.5.5"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "ce54c74",
+            "branch": "dev",
+            "date": "2026-07-13T15:00:56Z",
+            "url": "https://github.com/remnawave/node/commit/ce54c741a427af0ab0b0bd7b6d89ec35be30c3aa"
+          }
         },
         {
           "repo": "remnawave/subscription-page",
@@ -331,13 +349,66 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": null,
+            "stars": 114,
             "url": "https://github.com/remnawave/subscription-page",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-09T04:22:55Z",
             "archived": false,
-            "avatar": "https://github.com/remnawave.png",
+            "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
+          },
+          "releases": [
+            {
+              "name": "7.2.6",
+              "tag": "7.2.6",
+              "url": "https://github.com/remnawave/subscription-page/releases/tag/7.2.6",
+              "published_at": null,
+              "prerelease": false,
+              "author": null,
+              "body": ""
+            },
+            {
+              "name": "7.2.5",
+              "tag": "7.2.5",
+              "url": "https://github.com/remnawave/subscription-page/releases/tag/7.2.5",
+              "published_at": null,
+              "prerelease": false,
+              "author": null,
+              "body": ""
+            },
+            {
+              "name": "7.2.4",
+              "tag": "7.2.4",
+              "url": "https://github.com/remnawave/subscription-page/releases/tag/7.2.4",
+              "published_at": null,
+              "prerelease": false,
+              "author": null,
+              "body": ""
+            },
+            {
+              "name": "7.2.1",
+              "tag": "7.2.1",
+              "url": "https://github.com/remnawave/subscription-page/releases/tag/7.2.1",
+              "published_at": null,
+              "prerelease": false,
+              "author": null,
+              "body": ""
+            },
+            {
+              "name": "7.2.0",
+              "tag": "7.2.0",
+              "url": "https://github.com/remnawave/subscription-page/releases/tag/7.2.0",
+              "published_at": null,
+              "prerelease": false,
+              "author": null,
+              "body": ""
+            }
+          ],
+          "last_commit": {
+            "sha": "a9c8c2e",
+            "branch": "dev",
+            "date": "2026-07-09T04:21:59Z",
+            "url": "https://github.com/remnawave/subscription-page/commit/a9c8c2e38894ec826665bbac62c2eaff61f38a8d"
           }
         }
       ]
@@ -353,13 +424,13 @@
           "title": "Koala Clash",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience",
+            "stars": 646,
             "url": "https://github.com/coolcoala/koala-clash",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-06-10T15:16:10Z",
             "archived": false,
-            "avatar": "https://github.com/coolcoala.png",
+            "avatar": "https://avatars.githubusercontent.com/u/56764046?v=4",
             "owner": "coolcoala"
           },
           "releases": [
@@ -408,20 +479,26 @@
               "author": "github-actions[bot]",
               "body": "# Changelog\n - Merge remote-tracking branch 'origin/main'\n - minor ui fix\n - fix working ports without enabled sysproxy\n - minor ui fix\n - fixed rendering bug\n - fixed an issue where the proxy could not be disabled when switching to a different mode in the settings\n - minor ui improvements\n - fix white screen\n - fix memory leak\n - Update .gitignore\n - improve update button\n\n### Download link：\n\n#### Windows10/11：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\n#### macOS 11+：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Intel\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Apple%20Silicon\"\u003e\u003c/a\u003e\n\n\n#### Linux：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x86_64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=ARM64\"\u003e\u003c/a\u003e"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "abbe9f8",
+            "branch": "feature/aur-publish",
+            "date": "2026-06-10T15:16:07Z",
+            "url": "https://github.com/coolcoala/koala-clash/commit/abbe9f839f05186076356c99d6b9d91e3b8b8ef3"
+          }
         },
         {
           "repo": "pluralplay/FlClashX",
           "title": "FlClashX",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
+            "stars": 1198,
             "url": "https://github.com/pluralplay/FlClashX",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-16T10:24:03Z",
             "archived": false,
-            "avatar": "https://github.com/pluralplay.png",
+            "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
           },
           "releases": [
@@ -470,20 +547,26 @@
               "author": "github-actions[bot]",
               "body": "- fix emoji bar on location badge, fix iconpack in navbar, fix android stability, bump Mihomo Core 1.19.26\n\n- edit readme\n\n\u003cdiv align=center\u003e\n\n⚠️ **Pre-release version** • For testing purposes only\n\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.15/total?style=flat-square\u0026logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.15/)\n\n\u003c/div\u003e\n\n**Download based on your OS:**\n\n\u003cdiv align=left\u003e\n\u003ctable\u003e\n    \u003cthead align=left\u003e\n        \u003ctr\u003e\n            \u003cth\u003eOS\u003c/th\u003e\n            \u003cth\u003eDownload\u003c/th\u003e\n        \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody align=left\u003e\n        \u003ctr\u003e\n        \u003ctd\u003eAndroid\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eWindows\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-windows-amd64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-windows-arm-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-windows-arm.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003emacOS\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eLinux\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-linux-amd64.AppImage\"\u003e\u003cimg src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.15/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://aur.archlinux.org/packages/flclashx-git\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/flclashx-git\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n    \u003c/tbody\u003e\n\u003c/table\u003e\n\n\u003c/div\u003e\n\n\u003cdiv dir=\"ltr\"\u003e\n\n**Full changelog:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\n\n\u003c/div\u003e\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "1d8cc42",
+            "branch": "dev",
+            "date": "2026-07-16T10:23:31Z",
+            "url": "https://github.com/pluralplay/FlClashX/commit/1d8cc42862ea92aa20f903f2da215bac3e2756c8"
+          }
         },
         {
           "repo": "legiz-ru/Prizrak-Box",
           "title": "Prizrak-Box",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A Simple desktop GUI client for mihomo",
+            "stars": 330,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "v3",
+            "pushed_at": "2026-07-13T12:43:43Z",
             "archived": false,
-            "avatar": "https://github.com/legiz-ru.png",
+            "avatar": "https://avatars.githubusercontent.com/u/29365829?v=4",
             "owner": "legiz-ru"
           },
           "releases": [
@@ -532,20 +615,26 @@
               "author": "legiz-ru",
               "body": "desktop:\r\nfix: age-secret-key profiles import from panels\r\nstyle: yeat another connections views\r\nfix: start via service on autostart with tun\r\nandroid:\r\nfix: show smart group weights in other groups\n\n\u003cdiv align=center\u003e\n\n[![Release Downloads](https://img.shields.io/github/downloads/legiz-ru/Prizrak-Box/v1.0.21-alpha18/total?style=flat-square\u0026logo=github)](https://github.com/legiz-ru/Prizrak-Box/releases/v1.0.21-alpha18)\n\n\u003c/div\u003e\n\n**Download based on your OS:**\n\n\u003cdiv align=left\u003e\n\u003ctable\u003e\n    \u003cthead align=left\u003e\n        \u003ctr\u003e\n\u003cth\u003eOS\u003c/th\u003e\n\u003cth\u003eDownload\u003c/th\u003e\n        \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody align=left\u003e\n        \u003ctr\u003e\n\u003ctd colspan=\"2\" align=\"center\"\u003e\u003cstrong\u003eWails Experiment Builds\u003c/strong\u003e\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003eWindows\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-amd64-wails.msi\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-arm64-wails.msi\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-amd64-wails.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-arm64-wails.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003emacOS\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-arm64-wails.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-amd64-wails.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-arm64-wails.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-amd64-wails.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd colspan=\"2\" align=\"center\"\u003e\u003cstrong\u003eAndroid\u003c/strong\u003e\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003eAndroid\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/prizrak-box-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/prizrak-box-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/prizrak-box-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/prizrak-box-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd colspan=\"2\" align=\"center\"\u003e\u003cstrong\u003eElectron Builds\u003c/strong\u003e\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003eWindows\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-amd64.msi\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-arm64.msi\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/windows-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003emacOS\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n\u003ctd\u003eLinux\u003c/td\u003e\n\u003ctd\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/linux-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/linux-arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-arm64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://github.com/legiz-ru/Prizrak-Box/releases/download/v1.0.21-alpha18/linux-arm64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-arm64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\n    \u003ca href=\"https://aur.archlinux.org/packages/prizrak-box-bin\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/prizrak-box-bin\"\u003e\u003c/a\u003e\n\u003c/td\u003e\n        \u003c/tr\u003e\n    \u003c/tbody\u003e\n\u003c/table\u003e\n\u003c/div\u003e"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "5ac6301",
+            "branch": "claude/moshen-dependency-updates-66i23t",
+            "date": "2026-07-13T12:43:41Z",
+            "url": "https://github.com/legiz-ru/Prizrak-Box/commit/5ac6301cb219a974bb06d416326667720e2e87ff"
+          }
         },
         {
           "repo": "INCY-DEV/incy-platforms",
           "title": "Incy Platforms",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "INCY downloads and release info",
+            "stars": 723,
             "url": "https://github.com/INCY-DEV/incy-platforms",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-15T02:48:05Z",
             "archived": false,
-            "avatar": "https://github.com/INCY-DEV.png",
+            "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
@@ -567,20 +656,26 @@
               "author": "LLC-INCY",
               "body": "INCY Desktop v3.3.1 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "90c62a9",
+            "branch": "main",
+            "date": "2026-07-11T14:22:23Z",
+            "url": "https://github.com/INCY-DEV/incy-platforms/commit/90c62a9f94a7bc3e4ec12149a7faf3e7bada7f61"
+          }
         },
         {
           "repo": "throneproj/Throne",
           "title": "Throne",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
+            "stars": 6458,
             "url": "https://github.com/throneproj/Throne",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "dev",
+            "pushed_at": "2026-07-16T20:40:19Z",
             "archived": false,
-            "avatar": "https://github.com/throneproj.png",
+            "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
@@ -629,7 +724,13 @@
               "author": "github-actions[bot]",
               "body": "* Update Xray core And Improve its Tun Handling\r\n* Add Hiddify's TLS fragment and TLS Mixed-case\r\n* Add traffic statistics module **1**\r\n* Add Profile start/stop button **2**\r\n* Add Xray config validation\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nAggregates and summarizes the traffic used by configs/apps over the last 90 days for better insight into one's usage\r\n\r\n**2**:\r\nThe top toolbar has been changed to simplify operations and add room for future features"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "1bd3a32",
+            "branch": "dev",
+            "date": "2026-07-16T20:40:15Z",
+            "url": "https://github.com/throneproj/Throne/commit/1bd3a32122adaa8e6433b0d23e33e99e6425bcc7"
+          }
         }
       ]
     },
@@ -644,28 +745,110 @@
           "title": "xray-checker-statuspage",
           "track": "commits",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Простой статуспейдж поверх xray-checker с расширенными функциями управления через Telegram бота",
+            "stars": 30,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "go-build",
+            "pushed_at": "2026-07-08T22:03:21Z",
             "archived": false,
-            "avatar": "https://github.com/Mrvibecodic.png",
+            "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
-          }
+          },
+          "branches": [
+            {
+              "name": "go-build",
+              "commits": [
+                {
+                  "sha": "4fd47b0",
+                  "message": "deps: bump go-telegram/bot v1.22.0, x/crypto v0.54.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:03:16Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/4fd47b0bad1360e1204e3379d74703a0fc5d8313"
+                },
+                {
+                  "sha": "113bf73",
+                  "message": "build: Go 1.26 (go.mod/Dockerfile/CI)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T21:47:08Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/113bf7368eac202ffb9be6aeef9d2aec1d488d17"
+                },
+                {
+                  "sha": "2e85079",
+                  "message": "bot: топики форума в NOTIFY_CHAT_IDS (chatID:threadID)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-06T19:08:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
+                },
+                {
+                  "sha": "1dc956c",
+                  "message": "bot: доставка алертов/сводки в доп. чаты/группы через NOTIFY_CHAT_IDS",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-05T22:25:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/1dc956c394eda443787b7d4ca87a295cc04a4e00"
+                },
+                {
+                  "sha": "69a773c",
+                  "message": "история: автоконсолидация по имени при смене stableId сервера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T01:21:18Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/69a773c231f663d8859ff97108fc50a836f9a173"
+                }
+              ]
+            },
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "30ba5c9",
+                  "message": "merge: bring dev into main — group sub-servers, global-outage confirm, admin stealth + token min-length, light-theme contrast, auto-hide absent servers, themes",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-16T19:50:51Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/30ba5c98776e00b68488462ba14384be0f795196"
+                },
+                {
+                  "sha": "cc1bac7",
+                  "message": "feature: auto-hide servers absent from checker (data kept); hide/restore + delete-from-DB in admin",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T12:54:52Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/cc1bac718b63d0550486446110972ac554d8e500"
+                },
+                {
+                  "sha": "96ff322",
+                  "message": "docs: credit ASTORKA as contributor",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T11:21:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/96ff3222deaa5a92282362ee3dc4e752e280ac47"
+                },
+                {
+                  "sha": "2d897a8",
+                  "message": "improvements: confirm global outages (no discard), admin stealth + token min-length, light-theme contrast",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-14T11:10:13Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2d897a88f710bc09ec5ccf1ae093ed93fcfd57ce"
+                },
+                {
+                  "sha": "af5a48c",
+                  "message": "feat(admin): тогл «игнорировать глобальные сбои» + CLAUDE.md",
+                  "author": "1",
+                  "date": "2026-06-11T19:08:08Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/af5a48c618febc822bf4803790671439f7bd7ab2"
+                }
+              ]
+            }
+          ]
         },
         {
           "repo": "kutovoys/xray-checker",
           "title": "Xray Checker",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
+            "stars": 850,
             "url": "https://github.com/kutovoys/xray-checker",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-13T18:13:49Z",
             "archived": false,
-            "avatar": "https://github.com/kutovoys.png",
+            "avatar": "https://avatars.githubusercontent.com/u/10119698?v=4",
             "owner": "kutovoys"
           },
           "releases": [
@@ -714,20 +897,26 @@
               "author": "github-actions[bot]",
               "body": "## ✨ What's New\r\n\r\n### 🎨 Transparent Background for Badges\r\n\r\nBadges now support transparent backgrounds, making them easier to embed on any page.\r\n\r\n**Usage:**\r\n```\r\nhttps://your-server.com/?stableId=abc123\u0026transparent=true\r\n```\r\n\r\nThe Badge Playground in documentation also includes a new \"Transparent\" option in the theme selector.\r\n\r\n### 🖼️ Flexible Logo Customization\r\n\r\nYou can now use different logos for dark and light themes:\r\n\r\n- `logo-dark.svg` / `logo-dark.png` — for dark theme\r\n- `logo-light.svg` / `logo-light.png` — for light theme\r\n- `logo.svg` / `logo.png` — universal fallback\r\n\r\nPriority: theme-specific SVG → theme-specific PNG → universal SVG → universal PNG\r\n\r\n### 🔍 Improved Name Sorting\r\n\r\nNames with leading emojis are now sorted correctly by their text content, ignoring emoji prefixes.\r\n\r\n## 🐛 Bug Fixes\r\n\r\n### 🔄 Metrics Not Clearing on Subscription Update\r\n\r\nFixed a race condition where metrics for removed proxy locations would persist with status 0 after subscription updates.\r\n\r\n**Affected scenario:** When using `proxy-resolve-domains=true` and an IP was removed from DNS, the metric for that IP would remain in Prometheus.\r\n\r\n**Root cause:** Goroutines completing proxy checks could write metrics after `ClearMetrics()` had already run.\r\n\r\n**Fix:** Added generation tracking to skip metric updates when the proxy configuration has changed during a check cycle.\r\n\r\n## 📚 Documentation\r\n\r\n- Added live demo links throughout documentation and README\r\n- Updated architecture docs with Badge System and Asset Manager components\r\n- Added `WEB_PUBLIC` parameter to CLI and Docker examples\r\n- Improved code formatting in nginx configuration examples"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "ced4973",
+            "branch": "dependabot/go_modules/github.com/prometheus/common-0.70.0",
+            "date": "2026-07-13T18:13:49Z",
+            "url": "https://github.com/kutovoys/xray-checker/commit/ced4973f9966cf466401510d1f4c5b13b6a35e82"
+          }
         },
         {
           "repo": "louislam/uptime-kuma",
           "title": "Uptime Kuma",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "A fancy self-hosted monitoring tool",
+            "stars": 89201,
             "url": "https://github.com/louislam/uptime-kuma",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "master",
+            "pushed_at": "2026-07-16T06:40:35Z",
             "archived": false,
-            "avatar": "https://github.com/louislam.png",
+            "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
@@ -776,20 +965,26 @@
               "author": "louislam",
               "body": "### 🆕 New Features\r\n- #7109 feat: fluxer notification provider (Thanks @letruxux)\r\n- #7096 feat: set process.title to uptime-kuma (Thanks @Hill-98)\r\n\r\n### 🐞 Bug Fixes\r\n- #7121 fix: isParentActive return type to boolean (Thanks @terisikk)\r\n- #7110 fix(ui): fix fluxer input styling; make discord input hidden (Thanks @letruxux)\r\n- #6915 fix: removal of uptime ratio and avg. response time from prometheus metrics (Thanks @tr4nt0r)\r\n- #7101 fix: revert: remove @aws-sdk, @azure packages \r\n\r\n### ⬆️ Security Fixes\r\nGHSA-v832-4r73-wx5j - Another Server-side Template Injection (SSTI) in Notification Templates Allows Arbitrary File Read (fixed in upstream dependency LiquidJS, also see: https://github.com/harttle/liquidjs/security/advisories/GHSA-wmfp-5q7x-987x)\r\n\r\n### 🦎 Translation Contributions\r\n- #7119 #7099 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @cyril59310 @dodog @fabianovich @krmu @letruxux @maxisimonazzi @MrEddX)\r\n\r\n### Others\r\n- #7120 #7100 chore: Update dependencies \r\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "afaeab9",
+            "branch": "dev-mariadb-strict",
+            "date": "2026-07-16T06:40:28Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/afaeab96f9a181835feb770b5524098531da9ee6"
+          }
         },
         {
           "repo": "henrygd/beszel",
           "title": "Beszel",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
+            "stars": 23545,
             "url": "https://github.com/henrygd/beszel",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-06-29T04:59:54Z",
             "archived": false,
-            "avatar": "https://github.com/henrygd.png",
+            "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
           },
           "releases": [
@@ -838,7 +1033,13 @@
               "author": "henrygd",
               "body": "## Notice\r\n\r\n- The Windows agent's updated version of `LibreHardwareMonitorLib` now uses [PawnIO](https://pawnio.eu/) instead of WinRing0. If you lose temperature sensors, make sure PawnIO is installed. (See #1657 and #1697.)\r\n\r\n- Container `NetworkSent` and `NetworkRecv` fields have been deprecated in favor of `Bandwidth`. Agents will stop populating those fields in 0.19.0, so please update any integrations to prefer `Bandwidth`. It's available for all containers on hubs \u003e= 0.18.3.\r\n\r\n\r\n## What's Changed\r\n- Add experimental sysfs AMD GPU collector. (#737, #1569)\r\n- Improve container network stats accuracy.\r\n- Fix `SHARE_ALL_SYSTEMS` for system_details, smart_devices, and systemd_services. (#1660)\r\n- Improve CJK truncation in UI.\r\n- Fix container uptime sorting edge case. (#1696)\r\n- Remove stale systemd services from tracking after deletion. (#1594)\r\n- Update honeypot field name and autofill ignores. (#1011)\r\n- Write health_file to `/dev/shm` instead of `/tmp` if available. (#1455)\r\n- Ensure battery current charge doesn't exceed full capacity. (#1668)\r\n- Increase `smartctl --scan` timeout to 10 seconds. (#1465)\r\n- Update Go dependencies\r\n* Change usermod to addgroup for docker access by @wowi42 in https://github.com/henrygd/beszel/pull/1641\r\n* fix: update smartctlArgs call to use hasExistingData flag by @nemvince in https://github.com/henrygd/beszel/pull/1645\r\n* feat: add tooltip to system name in systems table by @Fahleen1 in https://github.com/henrygd/beszel/pull/1640\r\n* chore: update workflows and templates by @svenvg93 in https://github.com/henrygd/beszel/pull/1661\r\n* Add SMART_DEVICES_SEPARATOR + allow drives with the same name to be added with different types (e.g. raid controllers) by @jules2689 in https://github.com/henrygd/beszel/pull/1655\r\n* Chore: Remove Debian package goreleaser workaround by @svenvg93 in https://github.com/henrygd/beszel/pull/1677\r\n* [Agent] feat: parse ATA device statistics for temperature and future metrics by @sternma in https://github.com/henrygd/beszel/pull/1689\r\n* [Bug] Restore \"Add System\" button on mobile.  by @svenvg93 in https://github.com/henrygd/beszel/pull/1687\r\n* Bug: Apply SELinux context after binary replacement  by @svenvg93 in https://github.com/henrygd/beszel/pull/1678\r\n* feat: Added tooltips for navbar buttons to clear meaning of each one by @Fahleen1 in https://github.com/henrygd/beszel/pull/1636\r\n* Bug: Don't force lowercase text by @svenvg93 in https://github.com/henrygd/beszel/pull/1682\r\n* fix: update LibreHardwareMonitorLib to 0.9.5 by @bartvdbraak in https://github.com/henrygd/beszel/pull/1697\r\n* bug: ignore alt key combinations by @svenvg93 in https://github.com/henrygd/beszel/pull/1698\r\n\r\n## New Contributors\r\n* @wowi42 made their first contribution in https://github.com/henrygd/beszel/pull/1641\r\n* @nemvince made their first contribution in https://github.com/henrygd/beszel/pull/1645\r\n* @Fahleen1 made their first contribution in https://github.com/henrygd/beszel/pull/1640\r\n* @jules2689 made their first contribution in https://github.com/henrygd/beszel/pull/1655\r\n* @sternma made their first contribution in https://github.com/henrygd/beszel/pull/1689\r\n* @bartvdbraak made their first contribution in https://github.com/henrygd/beszel/pull/1697\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.2...v0.18.3"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "3534552",
+            "branch": "dev-probes",
+            "date": "2026-04-30T00:06:51Z",
+            "url": "https://github.com/henrygd/beszel/commit/3534552d371f0f5f345538a68aa5e310166a3e75"
+          }
         }
       ]
     },
@@ -853,15 +1054,97 @@
           "title": "chill-remna-bot",
           "track": "commits",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Легковесный и функциональный Telegram-бот для Remnawave",
+            "stars": 11,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-10T23:19:18Z",
             "archived": false,
-            "avatar": "https://github.com/Mrvibecodic.png",
+            "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
-          }
+          },
+          "branches": [
+            {
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "8e6ed47",
+                  "message": "fix(вайтлист): пометить безопасную SQL-конкатенацию как #nosec G202",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T23:16:04Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8e6ed4746d78a5561348b7b8b97c7709a1b31518"
+                },
+                {
+                  "sha": "2563771",
+                  "message": "fix(miniapp/cabinet): убрать иконки-щиты, почистить билет и стилизовать выбор файла",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T23:03:34Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/256377138e937bffb445f2e7038c63b26b2bc17d"
+                },
+                {
+                  "sha": "c025871",
+                  "message": "chore(deps): обновить зависимости до актуальных версий",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:19:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c025871ed3abab473f9e8468e0957af19e513eaf"
+                },
+                {
+                  "sha": "f8d7234",
+                  "message": "fix(рассылка): отчёт о завершении заменяет сообщение о запуске",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T15:32:39Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/f8d723405c5b9891353b566604242b097b6a74d9"
+                },
+                {
+                  "sha": "097934f",
+                  "message": "feat(устройства): кнопка сброса всех устройств для пользователя",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T15:22:44Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/097934f4183ca2f3dc8b3d73aff2aebc1e1b49c5"
+                }
+              ]
+            },
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "bbc75ff",
+                  "message": "Merge pull request #1 from Mrvibecodic/dev",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T23:19:18Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bbc75ff41e9009f382057180db3c5e6c7ff86c0b"
+                },
+                {
+                  "sha": "8e6ed47",
+                  "message": "fix(вайтлист): пометить безопасную SQL-конкатенацию как #nosec G202",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T23:16:04Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8e6ed4746d78a5561348b7b8b97c7709a1b31518"
+                },
+                {
+                  "sha": "2563771",
+                  "message": "fix(miniapp/cabinet): убрать иконки-щиты, почистить билет и стилизовать выбор файла",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T23:03:34Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/256377138e937bffb445f2e7038c63b26b2bc17d"
+                },
+                {
+                  "sha": "c025871",
+                  "message": "chore(deps): обновить зависимости до актуальных версий",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:19:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c025871ed3abab473f9e8468e0957af19e513eaf"
+                },
+                {
+                  "sha": "f8d7234",
+                  "message": "fix(рассылка): отчёт о завершении заменяет сообщение о запуске",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T15:32:39Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/f8d723405c5b9891353b566604242b097b6a74d9"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -876,15 +1159,97 @@
           "title": "remnawave-subscription-middleware",
           "track": "commits",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Прослойка-ру-зеркало для подписок Remnawave с расширенными возможностями",
+            "stars": 28,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-11T16:56:05Z",
             "archived": false,
-            "avatar": "https://github.com/Mrvibecodic.png",
+            "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
-          }
+          },
+          "branches": [
+            {
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "819ceae",
+                  "message": "fix(proxy): обезличенный пустой 404 вместо 502",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-11T16:56:03Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/819ceae8cac74de9867b05744372c3086d48db53"
+                },
+                {
+                  "sha": "3bfce3f",
+                  "message": "feat(proxy): маскировка 404 под 502 (тумблер)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-11T16:33:49Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/3bfce3fb727b09f375b08332c0f48a8cecc07a6b"
+                },
+                {
+                  "sha": "16a0b64",
+                  "message": "feat(connection): тумблер формата ссылки /api/sub, скрыты старые тумблеры",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T21:32:51Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/16a0b6407c9d30117e3084f9850b987b6769c783"
+                },
+                {
+                  "sha": "d080b85",
+                  "message": "ui(connection): подробности про TLS-проверку вынесены в справку «?»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-09T19:52:23Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/d080b854f4495f6bccc651d3893ddf458f1fb4b0"
+                },
+                {
+                  "sha": "54b8a38",
+                  "message": "ui(connection): группировка и скрытие полей subpage по режиму",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-09T19:45:21Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/54b8a384b21a529fa36a82af9b2ddd204c0b4818"
+                }
+              ]
+            },
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "b7e10aa",
+                  "message": "Merge pull request #4 from Mrvibecodic/dev",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T22:59:21Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/b7e10aa7204c00c49e8d61355d592383d3982285"
+                },
+                {
+                  "sha": "16a0b64",
+                  "message": "feat(connection): тумблер формата ссылки /api/sub, скрыты старые тумблеры",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-10T21:32:51Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/16a0b6407c9d30117e3084f9850b987b6769c783"
+                },
+                {
+                  "sha": "d080b85",
+                  "message": "ui(connection): подробности про TLS-проверку вынесены в справку «?»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-09T19:52:23Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/d080b854f4495f6bccc651d3893ddf458f1fb4b0"
+                },
+                {
+                  "sha": "54b8a38",
+                  "message": "ui(connection): группировка и скрытие полей subpage по режиму",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-09T19:45:21Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/54b8a384b21a529fa36a82af9b2ddd204c0b4818"
+                },
+                {
+                  "sha": "bcdc5b7",
+                  "message": "chore(ci): actions/checkout v5 -\u003e v6",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:40:27Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bcdc5b77598dc0fe4dc8411f2313276134b4b9d6"
+                }
+              ]
+            }
+          ]
         }
       ]
     }
