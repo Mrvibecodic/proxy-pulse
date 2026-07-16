@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T01:50:10.580787Z",
+  "generated_at": "2026-07-16T01:53:03.472642Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 36131,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-15T16:38:35Z",
+            "pushed_at": "2026-07-16T01:52:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.45",
+              "tag": "v1.14.0-alpha.45",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.45",
+              "published_at": "2026-07-16T01:53:00Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Improve the Windows client application **1**\n* Fixes and improvements\n\n**1**:\n\nThe [Windows client](https://sing-box.sagernet.org/clients/desktop/) now includes an updater, adds support for Windows native sharing of sing-box profile and JSON files, and fixes the Tailscale SSH terminal. The [Tailscale SSH server](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#ssh_server) can now open sessions for any local user in the graphical client, while the command line client remains limited to the user sing-box runs as. Additionally, configurations that use privileges unrelated to networking are now rejected by default; an insecure mode is available to allow them."
+            },
             {
               "name": "1.14.0-alpha.44",
               "tag": "v1.14.0-alpha.44",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add windows bridge **1**\n* Add `preferred_by` support for bridge **2**\n* Add hysteria2 realm IP version restriction **3**\n* Add hysteria2 realm port mapping **4**\n* Fixes and improvements\n\n**1**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound is now supported on Windows, implemented via WinDivert and requiring Administrator privileges.\n\n**2**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound now works with the [`preferred_by`](https://sing-box.sagernet.org/configuration/route/rule/#preferred_by) route rule item. It is recommended to use `preferred_by` as a gate in the `route` rule: it only matches in [pre-match](https://sing-box.sagernet.org/configuration/shared/pre-match/) and excludes local addresses that cannot be routed.\n\n**3**:\n\nThe new [`realm.ip_version`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmip_version) inbound and outbound field restricts realm connections (STUN, hole punching, and the resulting QUIC path) to a single IP version.\n\n**4**:\n\nThe new [`realm.port_mapping`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmport_mapping) inbound and outbound field maintains a UDP port mapping on the local gateway via UPnP or NAT-PMP, improving hole-punching reliability behind gateways that support it.\n"
-            },
-            {
-              "name": "1.14.0-alpha.40",
-              "tag": "v1.14.0-alpha.40",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.40",
-              "published_at": "2026-07-07T17:45:11Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add bridge outbound **1**\n* Fixes and improvements\n\n**1**:\n\nThe new `bridge` outbound is the L3 counterpart of `direct`: it forwards L3 traffic (TCP, UDP and ICMP) from a TUN or other L3 endpoints directly out of a network interface, without going through L3 to L4 translation. It requires privileges and is supported on Linux, macOS, rooted Android, and jailbroken iOS.\n\nSee [Bridge](https://sing-box.sagernet.org/configuration/outbound/bridge/).\n"
             }
           ],
           "last_commit": {
