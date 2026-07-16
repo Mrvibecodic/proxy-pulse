@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T23:35:08.027200Z",
+  "generated_at": "2026-07-16T23:50:36.183812Z",
   "groups": [
     {
       "id": "cores",
@@ -12,13 +12,13 @@
           "title": "Xray-core",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+            "stars": 40457,
             "url": "https://github.com/XTLS/Xray-core",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "main",
+            "pushed_at": "2026-07-16T21:17:46Z",
             "archived": false,
-            "avatar": "https://github.com/XTLS.png",
+            "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
           },
           "releases": [
@@ -67,20 +67,26 @@
               "author": "RPRX",
               "body": "See https://github.com/XTLS/Xray-core/releases/tag/v26.6.1"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "e1d4a04",
+            "branch": "QUIC-sniff",
+            "date": "2026-07-10T19:39:24Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/e1d4a04fb4e02430870cfd744d7df2df67653ce7"
+          }
         },
         {
           "repo": "SagerNet/sing-box",
           "title": "sing-box",
           "track": "releases",
           "meta": {
-            "description": null,
-            "stars": null,
+            "description": "The universal proxy platform",
+            "stars": 36174,
             "url": "https://github.com/SagerNet/sing-box",
-            "default_branch": null,
-            "pushed_at": null,
+            "default_branch": "testing",
+            "pushed_at": "2026-07-16T13:35:10Z",
             "archived": false,
-            "avatar": "https://github.com/SagerNet.png",
+            "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
@@ -129,7 +135,13 @@
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add windows bridge **1**\n* Add `preferred_by` support for bridge **2**\n* Add hysteria2 realm IP version restriction **3**\n* Add hysteria2 realm port mapping **4**\n* Fixes and improvements\n\n**1**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound is now supported on Windows, implemented via WinDivert and requiring Administrator privileges.\n\n**2**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound now works with the [`preferred_by`](https://sing-box.sagernet.org/configuration/route/rule/#preferred_by) route rule item. It is recommended to use `preferred_by` as a gate in the `route` rule: it only matches in [pre-match](https://sing-box.sagernet.org/configuration/shared/pre-match/) and excludes local addresses that cannot be routed.\n\n**3**:\n\nThe new [`realm.ip_version`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmip_version) inbound and outbound field restricts realm connections (STUN, hole punching, and the resulting QUIC path) to a single IP version.\n\n**4**:\n\nThe new [`realm.port_mapping`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmport_mapping) inbound and outbound field maintains a UDP port mapping on the local gateway via UPnP or NAT-PMP, improving hole-punching reliability behind gateways that support it.\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "010b1e7",
+            "branch": "dependabot/go_modules/test/go.opentelemetry.io/otel-1.41.0",
+            "date": "2026-05-18T01:15:03Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/010b1e74a3c2c4aa8eeedd1604ec2a04420967e9"
+          }
         },
         {
           "repo": "MetaCubeX/mihomo",
