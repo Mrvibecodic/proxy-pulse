@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T04:41:28.089648Z",
+  "generated_at": "2026-07-17T04:52:44.905843Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 36183,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-17T04:07:42Z",
+            "pushed_at": "2026-07-17T04:50:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.46",
+              "tag": "v1.14.0-alpha.46",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.46",
+              "published_at": "2026-07-17T04:50:20Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Add multiple tags support to rule-sets **1**\n* Add new UDP NAT options **2**\n* Fixes and improvements\n\n**1**:\n\nThe rule-set [`tag`](https://sing-box.sagernet.org/configuration/rule-set/#tag) field now accepts a list of tags to define multiple rule-sets sharing other options at once, with the `{tag}` placeholder in `path` or `url` replaced by each tag.\n\n**2**:\n\nThe new [UDP NAT](https://sing-box.sagernet.org/configuration/shared/udp-nat/) fields [`udp_mapping`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_mapping), [`udp_filtering`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_filtering) and [`udp_nat_max`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_nat_max) configure the NAT mapping and filtering behaviors and the maximum number of UDP NAT sessions for TUN and TProxy inbounds and the WireGuard endpoint."
+            },
             {
               "name": "1.14.0-alpha.45",
               "tag": "v1.14.0-alpha.45",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-alpha.41",
-              "tag": "v1.14.0-alpha.41",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.41",
-              "published_at": "2026-07-09T05:45:47Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add windows bridge **1**\n* Add `preferred_by` support for bridge **2**\n* Add hysteria2 realm IP version restriction **3**\n* Add hysteria2 realm port mapping **4**\n* Fixes and improvements\n\n**1**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound is now supported on Windows, implemented via WinDivert and requiring Administrator privileges.\n\n**2**:\n\nThe [`bridge`](https://sing-box.sagernet.org/configuration/outbound/bridge/) outbound now works with the [`preferred_by`](https://sing-box.sagernet.org/configuration/route/rule/#preferred_by) route rule item. It is recommended to use `preferred_by` as a gate in the `route` rule: it only matches in [pre-match](https://sing-box.sagernet.org/configuration/shared/pre-match/) and excludes local addresses that cannot be routed.\n\n**3**:\n\nThe new [`realm.ip_version`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmip_version) inbound and outbound field restricts realm connections (STUN, hole punching, and the resulting QUIC path) to a single IP version.\n\n**4**:\n\nThe new [`realm.port_mapping`](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#realmport_mapping) inbound and outbound field maintains a UDP port mapping on the local gateway via UPnP or NAT-PMP, improving hole-punching reliability behind gateways that support it.\n"
             }
           ],
           "last_commit": {
