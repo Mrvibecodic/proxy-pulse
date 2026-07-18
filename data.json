@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T02:24:50.356954Z",
+  "generated_at": "2026-07-18T02:30:31.520365Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 36203,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-18T01:47:44Z",
+            "pushed_at": "2026-07-18T02:30:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "",
+              "tag": "v1.14.0-alpha.47",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.47",
+              "published_at": "2026-07-18T02:28:26Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Add OpenVPN client and server support **1**\n* Add OpenConnect client support **2**\n* Fixes and improvements\n\n**1**:\n\nThe new [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/) and [OpenVPN Server](https://sing-box.sagernet.org/configuration/endpoint/openvpn-server/) endpoints are compatible with standard OpenVPN clients and servers. Interactive client authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard).\n\n**2**:\n\nThe new [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint supports Cisco AnyConnect, GlobalProtect, Fortinet, F5, Pulse Connect Secure, and Juniper Network Connect VPN servers. Interactive authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard)."
+            },
             {
               "name": "1.14.0-alpha.46",
               "tag": "v1.14.0-alpha.46",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Add network namespace support **1**\n* Fixes and improvements\n\n**1**:\n\nThe new [`network_namespaces`](https://sing-box.sagernet.org/configuration/network-namespace/) option defines Linux network namespaces for inbounds and outbounds, referenced by tag from the new tun [`netns`](https://sing-box.sagernet.org/configuration/inbound/tun/#netns) field and the existing [Listen](https://sing-box.sagernet.org/configuration/shared/listen/#netns) and [Dial](https://sing-box.sagernet.org/configuration/shared/dial/#netns) `netns` fields.\n\nThe [`unshare`](https://sing-box.sagernet.org/configuration/network-namespace/unshare/) type creates the namespace at startup without requiring root privileges: a rootless sing-box can provide a tun (including `auto_route` and `auto_redirect`) inside a namespace, which can be entered with `nsenter`.\n"
-            },
-            {
-              "name": "1.14.0-alpha.42",
-              "tag": "v1.14.0-alpha.42",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.42",
-              "published_at": "2026-07-10T06:42:42Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32407,
+            "stars": 32408,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-07-17T08:30:21Z",
