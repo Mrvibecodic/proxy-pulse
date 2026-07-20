@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T23:39:52.517486Z",
+  "generated_at": "2026-07-20T00:02:55.532841Z",
   "groups": [
     {
       "id": "cores",
@@ -1045,59 +1045,6 @@
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
-          },
-          "releases": [
-            {
-              "name": "v0.18.7",
-              "tag": "v0.18.7",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.7",
-              "published_at": "2026-04-05T20:31:06Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add more disk I/O metrics (utilization, read/write time, await, queue depth) (#1866)\r\n- Add ability to copy alerts between systems by @svenvg93 (#1853)\r\n- Add `SENSORS_TIMEOUT` environment variable (#1871)\r\n- Replace `distatus/battery` with an internal implementation by @svenvg93 (#1872)\r\n- Restrict universal token API to non-superuser accounts (#1870)\r\n- Fix macOS ARM64 crashes by upgrading `gopsutil` to v4.26.3 (#1881, #796)\r\n- Fix text size for system names in grid view by @Malith-Rukshan (#1860)\r\n- Fix NVMe capacity reporting for Apple SSDs by @svenvg93 (#1873)\r\n- Fix Windows root disk detection when the executable is not on the root disk (#1863)\r\n- Fix nested virtual filesystem inclusion in Docker when mounting host root by @svenvg93 (#1859)\r\n- Fix OPNsense installation persistence by using the daemon user by @svenvg93 (#1880)\r\n- Upgrade JS dependencies with dependabot security alerts by @svenvg93  (#1882)\r\n- Upgrade PocketBase to latest version\r\n\r\n## New Contributors\r\n* @Malith-Rukshan made their first contribution in https://github.com/henrygd/beszel/pull/1860\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.6...v0.18.7"
-            },
-            {
-              "name": "v0.18.6",
-              "tag": "v0.18.6",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.6",
-              "published_at": "2026-03-29T17:16:52Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add `apple-touch-icon` link by @y1zhou in https://github.com/henrygd/beszel/pull/1850\r\n- Fix regression in partition discovery on Docker (#1847)\r\n- Fix UI bug where charts did not display 1m max until next update\r\n- Fix agent detection of Podman when using socket proxy (#1846)\r\n- Fix NVML GPU collection being disabled when `nvidia-smi` is not in PATH (#1849)\r\n- Reset SMART interval on agent reconnect if the agent hasn't collected SMART data, allowing config changes to take effect immediately\r\n\r\n## New Contributors\r\n* @y1zhou made their first contribution in https://github.com/henrygd/beszel/pull/1850\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.5...v0.18.6"
-            },
-            {
-              "name": "v0.18.5",
-              "tag": "v0.18.5",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.5",
-              "published_at": "2026-03-27T20:47:35Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add \"update available\" notification in hub web UI with `CHECK_UPDATES=true` by @svenvg93 in https://github.com/henrygd/beszel/pull/1830\r\n- Add Linux mdraid health monitoring by @VACInc in https://github.com/henrygd/beszel/pull/1750\r\n- Add ports column to containers table (#1481)\r\n- Allow Linux systemd timer monitoring with `SERVICE_PATTERNS` (#1820)\r\n- Add ZFS ARC support on FreeBSD\r\n- Add optional tabs layout on web UI system page (#1513)\r\n- Improve web UI performance and mobile styles (thanks @steveiliop56 for new mobile menu in #1840)\r\n- Improve disk discovery and I/O device matching (#1811, #1772)\r\n- Improve (likely fix) status alert reliability (#1519)\r\n- Fix temperature collection blocking agent stats on some systems by @Jimbojones1 in https://github.com/henrygd/beszel/pull/1839\r\n- Fix `SMART_INTERVAL` consistency across agent reconnects (#1800)\r\n- Fix container health status for Podman (#1475)\r\n- Fix disk usage averaging for extra disk alerts using historical records  by @victoreduardo in https://github.com/henrygd/beszel/pull/1801\r\n- Fix bandwidth alert computation from byte-per-second source (#1770)\r\n- Fix 1m chart view leading to inflated Docker network IO during use\r\n- Fix daylight saving time offset handling in daily quiet hours by @svenvg93 in https://github.com/henrygd/beszel/pull/1827\r\n- Fix potential nil pointer panics in hub realtime worker and websocket ping\r\n- Fix: bypass NIC auto-filter when interface is explicitly whitelisted via NICS by @svenvg93 in https://github.com/henrygd/beszel/pull/1805\r\n- Fix ATA device statistics handling for negative values (#1791)\r\n- Fix AMD GPU sysfs filesize misreporting workaround (#1799)\r\n- Fix light flashes when refresh in dark mode by @svenvg93 in https://github.com/henrygd/beszel/pull/1832\r\n- Fix macOS agent path lookup for `macmon` (#1746)\r\n- Update Go version and dependencies\r\n\r\n## New Contributors\r\n* @guidNull made their first contribution in https://github.com/henrygd/beszel/pull/1764\r\n* @victoreduardo made their first contribution in https://github.com/henrygd/beszel/pull/1801\r\n* @Jimbojones1 made their first contribution in https://github.com/henrygd/beszel/pull/1839\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.4...v0.18.5"
-            },
-            {
-              "name": "v0.18.4",
-              "tag": "v0.18.4",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.4",
-              "published_at": "2026-02-20T21:10:52Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add outbound heartbeat monitoring to external services by @amirhmoradi in https://github.com/henrygd/beszel/pull/1729\r\n- Add experimental GPU monitoring for Apple Silicon by @raccettura. (#1747, #1746, [docs](https://beszel.dev/guide/gpu#apple))\r\n- Add `nvtop` integration for GPU monitoring. (#1508)\r\n- Add `GPU_COLLECTOR` environment variable to manually specify the GPU collector(s).\r\n- SMART: add eMMC health via sysfs by @VACInc in https://github.com/henrygd/beszel/pull/1736\r\n- Add `DISABLE_SSH` environment variable to disable SSH agent functionality. (#1061)\r\n- Add `fingerprint` command to the agent. (#1726)\r\n- Include GTT memory in AMD GPU metrics and improve device name lookup. (#1569)\r\n- Improve multiplexed logs detection for Podman. (#1755)\r\n- Harden against Docker API path traversal.\r\n- Fix issue where the agent could report incorrect root disk I/O when running in Docker. (#1737)\r\n- Show system uptime in the system table by @svenvg93 in https://github.com/henrygd/beszel/pull/1719\r\n- Retry Docker check on non-200 HTTP response by @ElioDiNino in https://github.com/henrygd/beszel/pull/1754\r\n- Allow precise value entry for alerts via text input by @svenvg93 in https://github.com/henrygd/beszel/pull/1718\r\n- Add version flag to agent by @svenvg93 in https://github.com/henrygd/beszel/pull/1639\r\n- Fix race issue with meter threshold colors.\r\n- Add `InstallMethod` parameter to Windows install script.\r\n- Update Go version and dependencies.\r\n\r\n## New Contributors\r\n* @VACInc made their first contribution in https://github.com/henrygd/beszel/pull/1736\r\n* @amirhmoradi made their first contribution in https://github.com/henrygd/beszel/pull/1729\r\n* @ElioDiNino made their first contribution in https://github.com/henrygd/beszel/pull/1754\r\n* @raccettura made their first contribution in https://github.com/henrygd/beszel/pull/1747\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.3...v0.18.4"
-            },
-            {
-              "name": "v0.18.3",
-              "tag": "v0.18.3",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.3",
-              "published_at": "2026-02-01T19:02:42Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## Notice\r\n\r\n- The Windows agent's updated version of `LibreHardwareMonitorLib` now uses [PawnIO](https://pawnio.eu/) instead of WinRing0. If you lose temperature sensors, make sure PawnIO is installed. (See #1657 and #1697.)\r\n\r\n- Container `NetworkSent` and `NetworkRecv` fields have been deprecated in favor of `Bandwidth`. Agents will stop populating those fields in 0.19.0, so please update any integrations to prefer `Bandwidth`. It's available for all containers on hubs \u003e= 0.18.3.\r\n\r\n\r\n## What's Changed\r\n- Add experimental sysfs AMD GPU collector. (#737, #1569)\r\n- Improve container network stats accuracy.\r\n- Fix `SHARE_ALL_SYSTEMS` for system_details, smart_devices, and systemd_services. (#1660)\r\n- Improve CJK truncation in UI.\r\n- Fix container uptime sorting edge case. (#1696)\r\n- Remove stale systemd services from tracking after deletion. (#1594)\r\n- Update honeypot field name and autofill ignores. (#1011)\r\n- Write health_file to `/dev/shm` instead of `/tmp` if available. (#1455)\r\n- Ensure battery current charge doesn't exceed full capacity. (#1668)\r\n- Increase `smartctl --scan` timeout to 10 seconds. (#1465)\r\n- Update Go dependencies\r\n* Change usermod to addgroup for docker access by @wowi42 in https://github.com/henrygd/beszel/pull/1641\r\n* fix: update smartctlArgs call to use hasExistingData flag by @nemvince in https://github.com/henrygd/beszel/pull/1645\r\n* feat: add tooltip to system name in systems table by @Fahleen1 in https://github.com/henrygd/beszel/pull/1640\r\n* chore: update workflows and templates by @svenvg93 in https://github.com/henrygd/beszel/pull/1661\r\n* Add SMART_DEVICES_SEPARATOR + allow drives with the same name to be added with different types (e.g. raid controllers) by @jules2689 in https://github.com/henrygd/beszel/pull/1655\r\n* Chore: Remove Debian package goreleaser workaround by @svenvg93 in https://github.com/henrygd/beszel/pull/1677\r\n* [Agent] feat: parse ATA device statistics for temperature and future metrics by @sternma in https://github.com/henrygd/beszel/pull/1689\r\n* [Bug] Restore \"Add System\" button on mobile.  by @svenvg93 in https://github.com/henrygd/beszel/pull/1687\r\n* Bug: Apply SELinux context after binary replacement  by @svenvg93 in https://github.com/henrygd/beszel/pull/1678\r\n* feat: Added tooltips for navbar buttons to clear meaning of each one by @Fahleen1 in https://github.com/henrygd/beszel/pull/1636\r\n* Bug: Don't force lowercase text by @svenvg93 in https://github.com/henrygd/beszel/pull/1682\r\n* fix: update LibreHardwareMonitorLib to 0.9.5 by @bartvdbraak in https://github.com/henrygd/beszel/pull/1697\r\n* bug: ignore alt key combinations by @svenvg93 in https://github.com/henrygd/beszel/pull/1698\r\n\r\n## New Contributors\r\n* @wowi42 made their first contribution in https://github.com/henrygd/beszel/pull/1641\r\n* @nemvince made their first contribution in https://github.com/henrygd/beszel/pull/1645\r\n* @Fahleen1 made their first contribution in https://github.com/henrygd/beszel/pull/1640\r\n* @jules2689 made their first contribution in https://github.com/henrygd/beszel/pull/1655\r\n* @sternma made their first contribution in https://github.com/henrygd/beszel/pull/1689\r\n* @bartvdbraak made their first contribution in https://github.com/henrygd/beszel/pull/1697\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.2...v0.18.3"
-            }
-          ],
-          "last_commit": {
-            "sha": "3534552",
-            "branch": "dev-probes",
-            "date": "2026-04-30T00:06:51Z",
-            "url": "https://github.com/henrygd/beszel/commit/3534552d371f0f5f345538a68aa5e310166a3e75"
           }
         }
       ]
