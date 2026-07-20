@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T20:27:16.376710Z",
+  "generated_at": "2026-07-20T20:35:49.766251Z",
   "groups": [
     {
       "id": "cores",
@@ -732,12 +732,21 @@
             "stars": 6493,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-20T16:37:35Z",
+            "pushed_at": "2026-07-20T20:33:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.0-beta.7",
+              "tag": "1.2.0-beta.7",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.7",
+              "published_at": "2026-07-20T20:33:49Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Disable strict route by default\r\n* Fix Xray full config issues\r\n* Add softPink theme\r\n* Use Google DoH as default remote DNS\r\n* Improve context menus\r\n* Update deep-link schemas\r\n* Add security view to Proxy Table\r\n* Add `Remove Insecure configs` menu action\r\n* Fixes and Improvements\r\n"
+            },
             {
               "name": "1.2.0-beta.6",
               "tag": "1.2.0-beta.6",
@@ -773,15 +782,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Fix testing current with default routing outbound direct using the wrong outbound\r\n* Make sniff and hijack-dns always on\r\n* Show current speed in connections Tab\r\n* Use Xray for reality by default and allow importing all VLESS in Xray\r\n* Update Sing-box to `v1.13.14`\r\n* System Tray menu improvements (Thanks @renkagod)\r\n* Add Mieru protocol support\r\n* Fixes and Improvements"
-            },
-            {
-              "name": "1.2.0-beta.2",
-              "tag": "1.2.0-beta.2",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.2",
-              "published_at": "2026-06-17T14:12:06Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Update Xray core And Improve its Tun Handling\r\n* Add Hiddify's TLS fragment and TLS Mixed-case\r\n* Add traffic statistics module **1**\r\n* Add Profile start/stop button **2**\r\n* Add Xray config validation\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nAggregates and summarizes the traffic used by configs/apps over the last 90 days for better insight into one's usage\r\n\r\n**2**:\r\nThe top toolbar has been changed to simplify operations and add room for future features"
             }
           ],
           "last_commit": {
