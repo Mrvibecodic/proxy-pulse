@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T10:50:25.884396Z",
+  "generated_at": "2026-07-20T10:56:10.926322Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40535,
+            "stars": 40534,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-17T22:28:59Z",
@@ -808,7 +808,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
-            "pushed_at": "2026-07-08T22:03:21Z",
+            "pushed_at": "2026-07-20T10:54:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -817,6 +817,27 @@
             {
               "name": "go-build",
               "commits": [
+                {
+                  "sha": "28b83b6",
+                  "message": "chore(cleanup): вырезать мёртвый server-disable слой и неиспользуемые команды",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T10:44:09Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/28b83b653cd3557e7a3889f3288d736d86b226a9"
+                },
+                {
+                  "sha": "38e0a48",
+                  "message": "fix(bot): не выдавать провал записи за успех + мелкие правки корректности",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T10:44:09Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/38e0a48ab30eb3ad06f653298bf50563614af20d"
+                },
+                {
+                  "sha": "e4dd335",
+                  "message": "fix(bot): не терять кнопки серверов с длинным именем (лимит callback_data 64Б)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T10:44:09Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/e4dd335b8e0295829660c3b30c341a5aa3f2ca6d"
+                },
                 {
                   "sha": "4fd47b0",
                   "message": "deps: bump go-telegram/bot v1.22.0, x/crypto v0.54.0",
@@ -830,27 +851,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-08T21:47:08Z",
                   "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/113bf7368eac202ffb9be6aeef9d2aec1d488d17"
-                },
-                {
-                  "sha": "2e85079",
-                  "message": "bot: топики форума в NOTIFY_CHAT_IDS (chatID:threadID)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T19:08:44Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
-                },
-                {
-                  "sha": "1dc956c",
-                  "message": "bot: доставка алертов/сводки в доп. чаты/группы через NOTIFY_CHAT_IDS",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-05T22:25:21Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/1dc956c394eda443787b7d4ca87a295cc04a4e00"
-                },
-                {
-                  "sha": "69a773c",
-                  "message": "история: автоконсолидация по имени при смене stableId сервера",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-29T01:21:18Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/69a773c231f663d8859ff97108fc50a836f9a173"
                 }
               ]
             },
