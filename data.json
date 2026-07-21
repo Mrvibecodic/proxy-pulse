@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:39:21.528230Z",
+  "generated_at": "2026-07-21T14:42:21.567613Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40559,
+            "stars": 40560,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-21T14:02:58Z",
@@ -89,808 +89,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "archive",
-              "commits": [
-                {
-                  "sha": "2e4eb9a",
-                  "message": "Update dockerfile",
-                  "author": "世界",
-                  "date": "2023-03-24T00:29:11Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/2e4eb9aa3952639314ca155adad49b650bcde460"
-                },
-                {
-                  "sha": "77fd284",
-                  "message": "documentation: Update changelog",
-                  "author": "世界",
-                  "date": "2023-03-24T00:04:36Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/77fd2847037e946aee79bb5f6ac7b855aef93583"
-                },
-                {
-                  "sha": "0a4517f",
-                  "message": "Update dependencies",
-                  "author": "世界",
-                  "date": "2023-03-23T23:06:36Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/0a4517f4b7efa3165a1621e01bbce9a932aaf5a9"
-                },
-                {
-                  "sha": "4395db3",
-                  "message": "documentation: Update set_system_proxy usage",
-                  "author": "世界",
-                  "date": "2023-03-23T13:23:20Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/4395db32061b0a69bf1711328053aec0c7cabd1e"
-                },
-                {
-                  "sha": "dd5b0ab",
-                  "message": "Fix slow open",
-                  "author": "世界",
-                  "date": "2023-03-23T09:14:38Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/dd5b0abc67b024e767aec09d4769a08cf07b72f6"
-                }
-              ]
+              "name": "1.14.0-alpha.48",
+              "tag": "v1.14.0-alpha.48",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.48",
+              "published_at": "2026-07-19T15:33:35Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Add SSO support for AnyConnect **1**\n* Add Linux support for the [desktop client application](https://sing-box.sagernet.org/clients/desktop/) **2**\n* Fixes and improvements\n\n**1**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint now supports SSO (single sign-on) authentication for Cisco AnyConnect servers, available through the sing-box graphical clients.\n\n**2**:\n\nThe [sing-box for Desktop](https://sing-box.sagernet.org/clients/desktop/) client is now available for Linux (x64 / arm64 / armv7l) from [GitHub Releases](https://github.com/SagerNet/sing-box/releases)."
             },
             {
-              "name": "ccm-ocm-improvements",
-              "commits": [
-                {
-                  "sha": "db8b42c",
-                  "message": "fix(ocm): map prolite to lower pro weight",
-                  "author": "Bruce Wayne",
-                  "date": "2026-04-11T17:44:42Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/db8b42c107c16164ccea885ac7283d23112512d0"
-                },
-                {
-                  "sha": "bf9e390",
-                  "message": "fix(ccm,ocm): allow reverse connector credentials to serve local requests",
-                  "author": "世界",
-                  "date": "2026-03-28T10:46:10Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/bf9e390cf4ce59cc6e31b117993f36b264c41ac6"
-                },
-                {
-                  "sha": "471c9c3",
-                  "message": "fix(ccm): make refresh failure fail fast",
-                  "author": "世界",
-                  "date": "2026-03-28T10:07:31Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/471c9c3b470ce492b0496e0e7b6895f8c3f81117"
-                },
-                {
-                  "sha": "e7478ce",
-                  "message": "fix(ccm): mark credential unavailable on refresh failure, handle poll 401",
-                  "author": "世界",
-                  "date": "2026-03-28T08:58:52Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/e7478ce9476711657313947dee15f13cc7240e64"
-                },
-                {
-                  "sha": "cf11e0e",
-                  "message": "Reuse SDK JSON types in ccm and ocm",
-                  "author": "世界",
-                  "date": "2026-03-28T03:20:24Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/cf11e0e74a530ebc4c1e0106e05210803c59d70f"
-                }
-              ]
+              "name": "1.14.0-alpha.47",
+              "tag": "v1.14.0-alpha.47",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.47",
+              "published_at": "2026-07-18T02:28:26Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Add OpenVPN client and server support **1**\n* Add OpenConnect client support **2**\n* Fixes and improvements\n\n**1**:\n\nThe new [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/) and [OpenVPN Server](https://sing-box.sagernet.org/configuration/endpoint/openvpn-server/) endpoints are compatible with standard OpenVPN clients and servers. Interactive client authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard).\n\n**2**:\n\nThe new [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint supports Cisco AnyConnect, GlobalProtect, Fortinet, F5, Pulse Connect Secure, and Juniper Network Connect VPN servers. Interactive authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard)."
             },
             {
-              "name": "cloudflared",
-              "commits": [
-                {
-                  "sha": "1f1ba54",
-                  "message": "Add cloudflared inbound support",
-                  "author": "世界",
-                  "date": "2026-04-08T06:39:41Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/1f1ba549fd971bd20eb3edf1ab9664c99d0335b0"
-                },
-                {
-                  "sha": "813b634",
-                  "message": "Bump version",
-                  "author": "世界",
-                  "date": "2026-04-06T14:33:45Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/813b634d08d85cbd6f44c29118233096cbb84e36"
-                },
-                {
-                  "sha": "d9b435f",
-                  "message": "Fix naive inbound padding bytes",
-                  "author": "hdrover",
-                  "date": "2026-04-06T10:38:47Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/d9b435fb62cd15f3ed48d8f8920e569ca6469509"
-                },
-                {
-                  "sha": "354b4b0",
-                  "message": "sing: Fix vectorised readv iovec length calculation",
-                  "author": "世界",
-                  "date": "2026-04-01T08:16:58Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/354b4b040e163110e1464f05e628f8ab1e3dfe6d"
-                },
-                {
-                  "sha": "7ffdc48",
-                  "message": "Bump version",
-                  "author": "世界",
-                  "date": "2026-03-30T14:42:01Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/7ffdc48b49718d6aeee19ede523a31d1286724cf"
-                }
-              ]
+              "name": "1.14.0-alpha.46",
+              "tag": "v1.14.0-alpha.46",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.46",
+              "published_at": "2026-07-17T04:50:20Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Add multiple tags support to rule-sets **1**\n* Add new UDP NAT options **2**\n* Fixes and improvements\n\n**1**:\n\nThe rule-set [`tag`](https://sing-box.sagernet.org/configuration/rule-set/#tag) field now accepts a list of tags to define multiple rule-sets sharing other options at once, with the `{tag}` placeholder in `path` or `url` replaced by each tag.\n\n**2**:\n\nThe new [UDP NAT](https://sing-box.sagernet.org/configuration/shared/udp-nat/) fields [`udp_mapping`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_mapping), [`udp_filtering`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_filtering) and [`udp_nat_max`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_nat_max) configure the NAT mapping and filtering behaviors and the maximum number of UDP NAT sessions for TUN and TProxy inbounds and the WireGuard endpoint."
             },
             {
-              "name": "copilot/improve-code-efficiency",
-              "commits": [
-                {
-                  "sha": "dfb4ef2",
-                  "message": "Initial plan",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2025-12-09T15:50:26Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/dfb4ef2deb364cbc88a25aa3567c38ce7694ef58"
-                },
-                {
-                  "sha": "9ec1549",
-                  "message": "Add naiveproxy outbound",
-                  "author": "世界",
-                  "date": "2025-12-09T11:31:29Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/9ec1549a23f8ebd50efee371c0bd19fff501162a"
-                },
-                {
-                  "sha": "76d447d",
-                  "message": "Add Windows WI-FI state support",
-                  "author": "世界",
-                  "date": "2025-12-07T07:47:08Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/76d447d7d99d08b8f3110d9127a4d3d62526e659"
-                },
-                {
-                  "sha": "ab3caab",
-                  "message": "Add Linux WI-FI state support",
-                  "author": "世界",
-                  "date": "2025-12-07T03:05:43Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/ab3caabde1e585725a6d85277b9e4a5dedcc3829"
-                },
-                {
-                  "sha": "1338c1e",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2025-10-25T08:44:58Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/1338c1e1a9a67c13a89cde40eac2018e88c6c7c1"
-                }
-              ]
+              "name": "1.14.0-alpha.45",
+              "tag": "v1.14.0-alpha.45",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.45",
+              "published_at": "2026-07-16T01:53:00Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Improve the Windows client application **1**\n* Fixes and improvements\n\n**1**:\n\nThe [Windows client](https://sing-box.sagernet.org/clients/desktop/) now includes an updater, adds support for Windows native sharing of sing-box profile and JSON files, and fixes the Tailscale SSH terminal. The [Tailscale SSH server](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#ssh_server) can now open sessions for any local user in the graphical client, while the command line client remains limited to the user sing-box runs as. Additionally, configurations that use privileges unrelated to networking are now rejected by default; an insecure mode is available to allow them."
             },
             {
-              "name": "dependabot/go_modules/github.com/go-jose/go-jose/v4-4.1.4",
-              "commits": [
-                {
-                  "sha": "2780400",
-                  "message": "build(deps): bump github.com/go-jose/go-jose/v4 from 4.1.3 to 4.1.4",
-                  "author": "dependabot[bot]",
-                  "date": "2026-04-16T08:39:49Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/2780400fe79b8ad5cdc7dd8283804da3ccf61ab4"
-                },
-                {
-                  "sha": "518aa0e",
-                  "message": "Fix cloudflared quic",
-                  "author": "世界",
-                  "date": "2026-04-16T08:38:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/518aa0e2656cec111e1c3f3540375b7fa66bef60"
-                },
-                {
-                  "sha": "5ab31cc",
-                  "message": "Fix use-after-free of pooled value buffers in bbolt Batch writes",
-                  "author": "世界",
-                  "date": "2026-04-15T16:27:14Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5ab31cceaf0be929a9a639d0ec52b1ba69c08f23"
-                },
-                {
-                  "sha": "368838d",
-                  "message": "Reject pure-IP rule-set references without match_response",
-                  "author": "世界",
-                  "date": "2026-04-15T13:02:40Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/368838d22d7a53103776ba74c94e804e3dbc03ea"
-                },
-                {
-                  "sha": "17c967f",
-                  "message": "Fix legacy rule-set download_detour blocked by empty direct check",
-                  "author": "世界",
-                  "date": "2026-04-15T12:50:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/17c967f7b94090fa21246c1421884f1d20e3730c"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/google.golang.org/grpc-1.79.3",
-              "commits": [
-                {
-                  "sha": "76273a3",
-                  "message": "build(deps): bump google.golang.org/grpc from 1.79.1 to 1.79.3",
-                  "author": "dependabot[bot]",
-                  "date": "2026-04-16T08:39:42Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/76273a3c6df5316cd3e1f2caf6cef903528083ab"
-                },
-                {
-                  "sha": "518aa0e",
-                  "message": "Fix cloudflared quic",
-                  "author": "世界",
-                  "date": "2026-04-16T08:38:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/518aa0e2656cec111e1c3f3540375b7fa66bef60"
-                },
-                {
-                  "sha": "5ab31cc",
-                  "message": "Fix use-after-free of pooled value buffers in bbolt Batch writes",
-                  "author": "世界",
-                  "date": "2026-04-15T16:27:14Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5ab31cceaf0be929a9a639d0ec52b1ba69c08f23"
-                },
-                {
-                  "sha": "368838d",
-                  "message": "Reject pure-IP rule-set references without match_response",
-                  "author": "世界",
-                  "date": "2026-04-15T13:02:40Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/368838d22d7a53103776ba74c94e804e3dbc03ea"
-                },
-                {
-                  "sha": "17c967f",
-                  "message": "Fix legacy rule-set download_detour blocked by empty direct check",
-                  "author": "世界",
-                  "date": "2026-04-15T12:50:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/17c967f7b94090fa21246c1421884f1d20e3730c"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/test/filippo.io/edwards25519-1.1.1",
-              "commits": [
-                {
-                  "sha": "8498668",
-                  "message": "build(deps): bump filippo.io/edwards25519 from 1.1.0 to 1.1.1 in /test",
-                  "author": "dependabot[bot]",
-                  "date": "2026-03-23T12:04:53Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/84986688f3fff35947b14744fb304ed7a01e5f0b"
-                },
-                {
-                  "sha": "71626be",
-                  "message": "Bump version",
-                  "author": "世界",
-                  "date": "2026-03-07T08:40:34Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/71626beaf84c8c41a65931a3b047891a75da3f66"
-                },
-                {
-                  "sha": "004a967",
-                  "message": "cronet-go: Update chromium to 145.0.7632.159",
-                  "author": "世界",
-                  "date": "2026-03-11T10:35:51Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/004a967e724a291983ce7101438344f8721d4f5d"
-                },
-                {
-                  "sha": "3ab8ba7",
-                  "message": "documentation: Update descriptions for neighbor rules",
-                  "author": "世界",
-                  "date": "2026-03-06T13:43:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/3ab8ba76d0a266d6c000be91fa95cc3d7f163ccc"
-                },
-                {
-                  "sha": "1edc8fd",
-                  "message": "Add macOS support for MAC and hostname rule items",
-                  "author": "世界",
-                  "date": "2026-03-06T00:47:37Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/1edc8fd855345228f207a5c852b06c6be0a0fdc0"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/test/github.com/docker/docker-28.0.0incompatible",
-              "commits": [
-                {
-                  "sha": "d82be7d",
-                  "message": "build(deps): bump github.com/docker/docker in /test",
-                  "author": "dependabot[bot]",
-                  "date": "2026-03-23T12:05:56Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/d82be7d86bf4a3362394f544a221e36e14abba4a"
-                },
-                {
-                  "sha": "64a5cc8",
-                  "message": "Refactor ACME support to certificate provider",
-                  "author": "nekohasekai",
-                  "date": "2026-03-23T12:04:36Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/64a5cc88e156d20c4411d2b4f5261606799906b2"
-                },
-                {
-                  "sha": "71626be",
-                  "message": "Bump version",
-                  "author": "世界",
-                  "date": "2026-03-07T08:40:34Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/71626beaf84c8c41a65931a3b047891a75da3f66"
-                },
-                {
-                  "sha": "004a967",
-                  "message": "cronet-go: Update chromium to 145.0.7632.159",
-                  "author": "世界",
-                  "date": "2026-03-11T10:35:51Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/004a967e724a291983ce7101438344f8721d4f5d"
-                },
-                {
-                  "sha": "3ab8ba7",
-                  "message": "documentation: Update descriptions for neighbor rules",
-                  "author": "世界",
-                  "date": "2026-03-06T13:43:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/3ab8ba76d0a266d6c000be91fa95cc3d7f163ccc"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/test/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp-1.43.0",
-              "commits": [
-                {
-                  "sha": "ece8a0b",
-                  "message": "build(deps): bump go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp from 1.31.0 to 1.43.0 in /test",
-                  "author": "dependabot[bot]",
-                  "date": "2026-04-16T08:40:09Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/ece8a0b062f013a675e3c9117f389edcbf49a4c6"
-                },
-                {
-                  "sha": "518aa0e",
-                  "message": "Fix cloudflared quic",
-                  "author": "世界",
-                  "date": "2026-04-16T08:38:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/518aa0e2656cec111e1c3f3540375b7fa66bef60"
-                },
-                {
-                  "sha": "5ab31cc",
-                  "message": "Fix use-after-free of pooled value buffers in bbolt Batch writes",
-                  "author": "世界",
-                  "date": "2026-04-15T16:27:14Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5ab31cceaf0be929a9a639d0ec52b1ba69c08f23"
-                },
-                {
-                  "sha": "368838d",
-                  "message": "Reject pure-IP rule-set references without match_response",
-                  "author": "世界",
-                  "date": "2026-04-15T13:02:40Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/368838d22d7a53103776ba74c94e804e3dbc03ea"
-                },
-                {
-                  "sha": "17c967f",
-                  "message": "Fix legacy rule-set download_detour blocked by empty direct check",
-                  "author": "世界",
-                  "date": "2026-04-15T12:50:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/17c967f7b94090fa21246c1421884f1d20e3730c"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/test/go.opentelemetry.io/otel-1.41.0",
-              "commits": [
-                {
-                  "sha": "010b1e7",
-                  "message": "Bump go.opentelemetry.io/otel from 1.38.0 to 1.41.0 in /test",
-                  "author": "dependabot[bot]",
-                  "date": "2026-05-18T01:15:03Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/010b1e74a3c2c4aa8eeedd1604ec2a04420967e9"
-                },
-                {
-                  "sha": "27f5835",
-                  "message": "cronet: Fix vendor package",
-                  "author": "世界",
-                  "date": "2026-05-18T01:11:29Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/27f583554770fe2dabdda09e64324585fe188bc8"
-                },
-                {
-                  "sha": "35cf647",
-                  "message": "Fix shadowtls handshake",
-                  "author": "世界",
-                  "date": "2026-05-17T13:57:33Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/35cf647c58a1c9e053fe5a08a02511d48c638794"
-                },
-                {
-                  "sha": "4138054",
-                  "message": "Rebase wireguard-go to official",
-                  "author": "世界",
-                  "date": "2026-05-17T12:43:04Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/4138054f547e1c3134c805ac511b7d5b1f54d27a"
-                },
-                {
-                  "sha": "646c7ac",
-                  "message": "dns: Fix DHCP reset",
-                  "author": "世界",
-                  "date": "2026-05-17T07:06:53Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/646c7ac0ab34e0a6294f927519e24c707a39bacc"
-                }
-              ]
-            },
-            {
-              "name": "dependabot/go_modules/test/google.golang.org/grpc-1.79.3",
-              "commits": [
-                {
-                  "sha": "096669d",
-                  "message": "build(deps): bump google.golang.org/grpc from 1.77.0 to 1.79.3 in /test",
-                  "author": "dependabot[bot]",
-                  "date": "2026-04-16T08:39:42Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/096669d0ac0e9646531a52f59dc04f9de93979b1"
-                },
-                {
-                  "sha": "518aa0e",
-                  "message": "Fix cloudflared quic",
-                  "author": "世界",
-                  "date": "2026-04-16T08:38:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/518aa0e2656cec111e1c3f3540375b7fa66bef60"
-                },
-                {
-                  "sha": "5ab31cc",
-                  "message": "Fix use-after-free of pooled value buffers in bbolt Batch writes",
-                  "author": "世界",
-                  "date": "2026-04-15T16:27:14Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5ab31cceaf0be929a9a639d0ec52b1ba69c08f23"
-                },
-                {
-                  "sha": "368838d",
-                  "message": "Reject pure-IP rule-set references without match_response",
-                  "author": "世界",
-                  "date": "2026-04-15T13:02:40Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/368838d22d7a53103776ba74c94e804e3dbc03ea"
-                },
-                {
-                  "sha": "17c967f",
-                  "message": "Fix legacy rule-set download_detour blocked by empty direct check",
-                  "author": "世界",
-                  "date": "2026-04-15T12:50:21Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/17c967f7b94090fa21246c1421884f1d20e3730c"
-                }
-              ]
-            },
-            {
-              "name": "dev-auto-redirect-firewalld",
-              "commits": [
-                {
-                  "sha": "1974c76",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2025-04-28T02:31:15Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/1974c767c95f5ffb69e0a1e6dcbcc6d211860da9"
-                },
-                {
-                  "sha": "2c286b7",
-                  "message": "Add firewalld compatibility for auto redirect",
-                  "author": "世界",
-                  "date": "2025-07-07T10:14:49Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/2c286b7adcdf68db948983a695b98d32dc614335"
-                },
-                {
-                  "sha": "e8b7016",
-                  "message": "Fix DNS reject check",
-                  "author": "世界",
-                  "date": "2025-07-07T06:12:43Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/e8b70162deee330848713ea2b4ae2ec7d4035d3a"
-                },
-                {
-                  "sha": "30cfd62",
-                  "message": "Improve copy",
-                  "author": "世界",
-                  "date": "2025-07-04T04:41:58Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/30cfd620c2f8a1cdd5f1ca5732e95011a4b025e5"
-                },
-                {
-                  "sha": "e8bd703",
-                  "message": "Increase default mtu under network extension to 4064",
-                  "author": "世界",
-                  "date": "2025-07-04T02:29:55Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/e8bd70341a3760f4a7b168f0a524e62a170eeb56"
-                }
-              ]
-            },
-            {
-              "name": "dev-daemon",
-              "commits": [
-                {
-                  "sha": "f48f8c5",
-                  "message": "Add daemon support",
-                  "author": "世界",
-                  "date": "2022-08-13T10:37:18Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/f48f8c5d1cf26b88ceec64bf416b15674f46c4e8"
-                },
-                {
-                  "sha": "a940703",
-                  "message": "Suppress expected error",
-                  "author": "世界",
-                  "date": "2022-08-25T02:56:57Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/a940703ae1c290b47d357e0fceef82a6e1c74f7e"
-                },
-                {
-                  "sha": "350729c",
-                  "message": "Remove TLS requirement on gRPC server",
-                  "author": "世界",
-                  "date": "2022-08-25T02:52:16Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/350729cde848aa938ecc13d7a46cf53045193624"
-                },
-                {
-                  "sha": "2e14cd6",
-                  "message": "Close websocket conn gracefully",
-                  "author": "世界",
-                  "date": "2022-08-25T02:44:58Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/2e14cd6d66b0c53bdfa3f12ae21c39b9dc9bf319"
-                },
-                {
-                  "sha": "f703524",
-                  "message": "Add stale workflow",
-                  "author": "世界",
-                  "date": "2022-08-25T02:24:11Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/f703524f0455f423a3b40f0ff1a980d85af294c4"
-                }
-              ]
-            },
-            {
-              "name": "dev-dns-timeout",
-              "commits": [
-                {
-                  "sha": "0d8c159",
-                  "message": "Add options to custom DNS query timeout",
-                  "author": "世界",
-                  "date": "2025-06-30T10:23:10Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/0d8c15932fd92547dc8fbd8b3611053ed67582be"
-                },
-                {
-                  "sha": "70371c3",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2025-04-28T02:31:15Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/70371c3cbe5201a3e0855ac50cc573dfc5365529"
-                },
-                {
-                  "sha": "32bc8b4",
-                  "message": "Improve nftables rules for openwrt",
-                  "author": "世界",
-                  "date": "2025-06-30T10:27:27Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/32bc8b48f193fa70947cce14eda7ea4a06259aeb"
-                },
-                {
-                  "sha": "b5df508",
-                  "message": "Fixed DoH server recover from conn freezes",
-                  "author": "世界",
-                  "date": "2025-06-29T11:23:26Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/b5df508bc91c2656d6fa6ef5fee1269ca7c29364"
-                },
-                {
-                  "sha": "4789846",
-                  "message": "Update libresolv usage",
-                  "author": "世界",
-                  "date": "2025-06-29T11:20:11Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/4789846113e03b0cc4b7ed585cad57699da44c38"
-                }
-              ]
-            },
-            {
-              "name": "dev-go124-ech",
-              "commits": [
-                {
-                  "sha": "658d4a1",
-                  "message": "Use stdlib ech",
-                  "author": "世界",
-                  "date": "2024-12-11T11:33:41Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/658d4a180b939a934117f80e6ce31661fbc80c0a"
-                },
-                {
-                  "sha": "93966bd",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2024-11-18T11:00:56Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/93966bdd36fc466de7b66d5e36900e3df568e936"
-                },
-                {
-                  "sha": "14a4b0f",
-                  "message": "Fix socks5 UDP implementation",
-                  "author": "世界",
-                  "date": "2024-12-10T12:36:09Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/14a4b0f922f8fe5d0cfa128da30c5f566f51382e"
-                },
-                {
-                  "sha": "919b08e",
-                  "message": "clash-api: Fix missing endpoints",
-                  "author": "世界",
-                  "date": "2024-12-06T08:47:30Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/919b08e64cdbf0a2c76ff4bbc5d530d8e4bd0aa0"
-                },
-                {
-                  "sha": "bdd2472",
-                  "message": "hysteria2: Add more masquerade options",
-                  "author": "世界",
-                  "date": "2024-11-28T14:39:19Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/bdd24720657641342f344b57f486d332fbcacfda"
-                }
-              ]
-            },
-            {
-              "name": "dev-l3-route",
-              "commits": [
-                {
-                  "sha": "9092139",
-                  "message": "Initialize L3 routing support",
-                  "author": "世界",
-                  "date": "2023-03-21T13:36:17Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/9092139e735ebb7d98368589a29a9f416d632fba"
-                },
-                {
-                  "sha": "9324a39",
-                  "message": "Fix import format",
-                  "author": "世界",
-                  "date": "2023-03-20T15:01:54Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/9324a39d4e19127bcc95b9155a818d291f2f3385"
-                },
-                {
-                  "sha": "84904c5",
-                  "message": "Create working directory if not exists",
-                  "author": "世界",
-                  "date": "2023-03-20T11:33:00Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/84904c52066ee42f600234913e7427e3a384db2e"
-                },
-                {
-                  "sha": "fe4b429",
-                  "message": "hysteria: Accept inbound configuration without users",
-                  "author": "世界",
-                  "date": "2023-03-20T11:22:46Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/fe4b429fc2ce4852d0c5fd0b42999126a8e4abc5"
-                },
-                {
-                  "sha": "f680d0a",
-                  "message": "Add `with_reality_server` to release build tags",
-                  "author": "世界",
-                  "date": "2023-03-20T09:36:59Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/f680d0acaf15b45d7c3230dff937eeca2af21372"
-                }
-              ]
-            },
-            {
-              "name": "dev-mitm",
-              "commits": [
-                {
-                  "sha": "0034237",
-                  "message": "mitm: Refactor \u0026 Add url",
-                  "author": "世界",
-                  "date": "2025-02-04T07:00:59Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/003423745ebd1e038a4be796dcd55e4a42ffc562"
-                },
-                {
-                  "sha": "fb3007f",
-                  "message": "mitm: Minor fixes",
-                  "author": "世界",
-                  "date": "2025-02-03T02:59:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/fb3007fa804ebcf5b7f89014eb70ab454d5d0559"
-                },
-                {
-                  "sha": "5361d2a",
-                  "message": "mitm: Add `/mitm/mobileconfig` and `/mitm/certificate` clash api endpoints",
-                  "author": "世界",
-                  "date": "2025-02-03T01:09:41Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5361d2acece0ab9889324fc5b9aa0ecab9b436bb"
-                },
-                {
-                  "sha": "1fe983a",
-                  "message": "mitm: Fix HTTP2 support \u0026 Add print",
-                  "author": "世界",
-                  "date": "2025-02-03T00:20:26Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/1fe983a81b145425ed81617a21a26877329c9ad8"
-                },
-                {
-                  "sha": "b01fe5d",
-                  "message": "Fix override address",
-                  "author": "世界",
-                  "date": "2025-02-02T15:17:31Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/b01fe5d36487d2336c7393976c84e6f68ccf582d"
-                }
-              ]
-            },
-            {
-              "name": "dev-mitm-2",
-              "commits": [
-                {
-                  "sha": "5cca889",
-                  "message": "Add Surge MITM and scripts",
-                  "author": "世界",
-                  "date": "2025-03-20T01:12:48Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5cca8893c9a351a1834b03b891cb46ff00d1e5e3"
-                },
-                {
-                  "sha": "58fdae3",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2025-02-23T23:23:46Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/58fdae33bbf830ce7cad1e40a19dbe0378ae42cc"
-                },
-                {
-                  "sha": "29ad1e3",
-                  "message": "Fail when default DNS server not found",
-                  "author": "世界",
-                  "date": "2025-03-24T12:23:55Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/29ad1e3888449271decf22a419619b40073b7766"
-                },
-                {
-                  "sha": "799a005",
-                  "message": "Update gVisor to 20250319.0",
-                  "author": "世界",
-                  "date": "2025-03-24T12:18:39Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/799a005eadaa3f61ddafe32985dfe71ac11785c2"
-                },
-                {
-                  "sha": "0d5737d",
-                  "message": "release: Do not build tailscale on iOS and tvOS",
-                  "author": "世界",
-                  "date": "2025-03-21T07:51:58Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/0d5737dded03642fe2b79001a05f871d4017dfa9"
-                }
-              ]
-            },
-            {
-              "name": "dev-mitm-3",
-              "commits": [
-                {
-                  "sha": "29bdf47",
-                  "message": "Add MITM",
-                  "author": "世界",
-                  "date": "2025-03-26T15:02:13Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/29bdf47e44830d4346b167bc952a39946f1696c1"
-                },
-                {
-                  "sha": "9656bc0",
-                  "message": "Fix tproxy inbound with netns",
-                  "author": "世界",
-                  "date": "2025-03-26T10:23:42Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/9656bc09380d2952b7c8e27a9ed67a516f4bbff2"
-                },
-                {
-                  "sha": "4fe48c1",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2025-02-23T23:23:46Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/4fe48c1a804cc731c09d96af614ea24987c72b8b"
-                },
-                {
-                  "sha": "f5ac128",
-                  "message": "Fix missing `with_tailscale` in Dockerfile",
-                  "author": "Rambling2076",
-                  "date": "2025-03-26T05:22:43Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/f5ac12870cf6ef3ea341f0fc63dd9dedc5f37a6c"
-                },
-                {
-                  "sha": "5de57fa",
-                  "message": "Fail when default DNS server not found",
-                  "author": "世界",
-                  "date": "2025-03-24T12:23:55Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/5de57fad5d0abff064c3faf0fb2c5b80bfcc5293"
-                }
-              ]
-            },
-            {
-              "name": "dev-ndis",
-              "commits": [
-                {
-                  "sha": "79d3649",
-                  "message": "Add NDIS inbound",
-                  "author": "世界",
-                  "date": "2025-01-03T10:34:07Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/79d3649a8b2dc20de469ad0896569c70ea242aa4"
-                },
-                {
-                  "sha": "e483c90",
-                  "message": "documentation: Bump version",
-                  "author": "世界",
-                  "date": "2024-11-18T11:00:56Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/e483c909b4a18b174dcc4ffcc47f6d44c6f11aa6"
-                },
-                {
-                  "sha": "d9579c2",
-                  "message": "Fix tests",
-                  "author": "世界",
-                  "date": "2024-11-18T10:59:19Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/d9579c26eed3800f5de18bd8d4b60629bfeef351"
-                },
-                {
-                  "sha": "48d3021",
-                  "message": "Add port hopping for hysteria2",
-                  "author": "世界",
-                  "date": "2024-12-29T00:52:12Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/48d3021b2c95024526c2846b6cb695ec228cbcf5"
-                },
-                {
-                  "sha": "ce0fcd5",
-                  "message": "Fix resolve action incorrectly overwriting UDP domain destination",
-                  "author": "世界",
-                  "date": "2024-12-28T07:05:05Z",
-                  "url": "https://github.com/SagerNet/sing-box/commit/ce0fcd5c8b8eec83acad60db2bda2d0c3b6d22aa"
-                }
-              ]
+              "name": "1.14.0-alpha.44",
+              "tag": "v1.14.0-alpha.44",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.44",
+              "published_at": "2026-07-14T09:14:36Z",
+              "prerelease": true,
+              "author": "nekohasekai",
+              "body": "## :memo: Release Notes\n\n* Introducing our [new Windows client application](https://sing-box.sagernet.org/clients/desktop/) **1**\n* Fixes and improvements\n\n**1**:\n\nThe new [Windows client](https://sing-box.sagernet.org/clients/desktop/) provides an experience equal to other standard sing-box graphical clients, is available for Windows 10+ (x64 / x86 / arm64), and is distributed as an installer from [GitHub Releases](https://github.com/SagerNet/sing-box/releases) (`SFW-\u003cversion\u003e-\u003carchitecture\u003e.exe`)."
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "010b1e7",
+            "branch": "dependabot/go_modules/test/go.opentelemetry.io/otel-1.41.0",
+            "date": "2026-05-18T01:15:03Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/010b1e74a3c2c4aa8eeedd1604ec2a04420967e9"
+          }
         },
         {
           "repo": "MetaCubeX/mihomo",
@@ -1371,88 +622,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "dev",
-              "commits": [
-                {
-                  "sha": "ce54c74",
-                  "message": "refactor: reorganize imports",
-                  "author": "kastov",
-                  "date": "2026-07-13T15:00:56Z",
-                  "url": "https://github.com/remnawave/node/commit/ce54c741a427af0ab0b0bd7b6d89ec35be30c3aa"
-                },
-                {
-                  "sha": "784a504",
-                  "message": "chore: update dependencies and configuration for rspack integration",
-                  "author": "kastov",
-                  "date": "2026-07-09T04:52:52Z",
-                  "url": "https://github.com/remnawave/node/commit/784a504edd4ffc2afce9a942bac4850e296026e0"
-                },
-                {
-                  "sha": "9cd01fc",
-                  "message": "chore: upgrade zod",
-                  "author": "kastov",
-                  "date": "2026-07-04T14:38:39Z",
-                  "url": "https://github.com/remnawave/node/commit/9cd01fce6207a1f8b91de40d8f4d1aab55ea9bfb"
-                },
-                {
-                  "sha": "cedd53c",
-                  "message": "chore: update S6_OVERLAY_VERSION in Dockerfile to 3.2.3.0",
-                  "author": "kastov",
-                  "date": "2026-06-29T14:42:59Z",
-                  "url": "https://github.com/remnawave/node/commit/cedd53c138a6e3adfe4fe62359a9a79bf23ea8dd"
-                },
-                {
-                  "sha": "156dd03",
-                  "message": "chore: update issue template links for bug reports and feature requests",
-                  "author": "kastov",
-                  "date": "2026-06-28T16:12:04Z",
-                  "url": "https://github.com/remnawave/node/commit/156dd03ae1a71e2e1b6d579f4bc5a3d00226891a"
-                }
-              ]
+              "name": "v2.8.0",
+              "tag": "2.8.0",
+              "url": "https://github.com/remnawave/node/releases/tag/2.8.0",
+              "published_at": "2026-06-29T16:04:37Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v2.8.0\n\n📝 Compare changes: [2.7.0...2.8.0](https://github.com/remnawave/node/compare/2.7.0...2.8.0)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.8.0`\n- `ghcr.io/remnawave/node:2.8.0`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.7.0...2.8.0"
             },
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "596f015",
-                  "message": "chore: release v2.8.0",
-                  "author": "kastov",
-                  "date": "2026-06-29T16:01:38Z",
-                  "url": "https://github.com/remnawave/node/commit/596f015a5c8f876dc9a9d61b6cb78d35bd8e379b"
-                },
-                {
-                  "sha": "cedd53c",
-                  "message": "chore: update S6_OVERLAY_VERSION in Dockerfile to 3.2.3.0",
-                  "author": "kastov",
-                  "date": "2026-06-29T14:42:59Z",
-                  "url": "https://github.com/remnawave/node/commit/cedd53c138a6e3adfe4fe62359a9a79bf23ea8dd"
-                },
-                {
-                  "sha": "156dd03",
-                  "message": "chore: update issue template links for bug reports and feature requests",
-                  "author": "kastov",
-                  "date": "2026-06-28T16:12:04Z",
-                  "url": "https://github.com/remnawave/node/commit/156dd03ae1a71e2e1b6d579f4bc5a3d00226891a"
-                },
-                {
-                  "sha": "6804676",
-                  "message": "chore: update @remnawave/xtls-sdk to version 0.16.0",
-                  "author": "kastov",
-                  "date": "2026-06-27T17:47:36Z",
-                  "url": "https://github.com/remnawave/node/commit/68046761c2cc2f91f591826444d67e4a1a39ff49"
-                },
-                {
-                  "sha": "7ca4d00",
-                  "message": "chore: update XRAY_CORE_VERSION in Dockerfile to v26.6.27, and adjust dependencies",
-                  "author": "kastov",
-                  "date": "2026-06-27T17:45:26Z",
-                  "url": "https://github.com/remnawave/node/commit/7ca4d00cd1540c382e7d01654a37ff61ca58b40e"
-                }
-              ]
+              "name": "v2.7.0",
+              "tag": "2.7.0",
+              "url": "https://github.com/remnawave/node/releases/tag/2.7.0",
+              "published_at": "2026-03-28T02:33:30Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v2.7.0\n\n📝 Compare changes: [2.6.1...2.7.0](https://github.com/remnawave/node/compare/2.6.1...2.7.0)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.7.0`\n- `ghcr.io/remnawave/node:2.7.0`\n\n\n## What's Changed\n* chore: release v2.7.0 by @kastov in https://github.com/remnawave/node/pull/34\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.6.1...2.7.0"
+            },
+            {
+              "name": "v2.6.1",
+              "tag": "2.6.1",
+              "url": "https://github.com/remnawave/node/releases/tag/2.6.1",
+              "published_at": "2026-02-24T17:44:08Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "🚀 Autogenerated release v2.6.1\n\n📝 Compare changes: [2.6.0...2.6.1](https://github.com/remnawave/node/compare/2.6.0...2.6.1)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.6.1`\n- `ghcr.io/remnawave/node:2.6.1`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.6.0...2.6.1"
+            },
+            {
+              "name": "v2.6.0",
+              "tag": "2.6.0",
+              "url": "https://github.com/remnawave/node/releases/tag/2.6.0",
+              "published_at": "2026-02-24T17:27:06Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "🚀 Autogenerated release v2.6.0\n\n📝 Compare changes: [2.5.5...2.6.0](https://github.com/remnawave/node/compare/2.5.5...2.6.0)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.6.0`\n- `ghcr.io/remnawave/node:2.6.0`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.5.5...2.6.0"
+            },
+            {
+              "name": "v2.5.5",
+              "tag": "2.5.5",
+              "url": "https://github.com/remnawave/node/releases/tag/2.5.5",
+              "published_at": "2026-02-16T16:15:35Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "🚀 Autogenerated release v2.5.5\n\n📝 Compare changes: [2.5.4...2.5.5](https://github.com/remnawave/node/compare/2.5.4...2.5.5)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:2.5.5`\n- `ghcr.io/remnawave/node:2.5.5`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/2.5.4...2.5.5"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "ce54c74",
+            "branch": "dev",
+            "date": "2026-07-13T15:00:56Z",
+            "url": "https://github.com/remnawave/node/commit/ce54c741a427af0ab0b0bd7b6d89ec35be30c3aa"
+          }
         },
         {
           "repo": "remnawave/subscription-page",
@@ -1777,48 +999,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "50d155b",
-                  "message": "Update version numbers for Android, Desktop, and iOS",
-                  "author": "LLC INCY",
-                  "date": "2026-07-19T21:17:01Z",
-                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
-                },
-                {
-                  "sha": "90c62a9",
-                  "message": "Change documentation link in README",
-                  "author": "LLC INCY",
-                  "date": "2026-07-11T14:22:23Z",
-                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/90c62a9f94a7bc3e4ec12149a7faf3e7bada7f61"
-                },
-                {
-                  "sha": "404995e",
-                  "message": "Update RELEASE.json",
-                  "author": "LLC INCY",
-                  "date": "2026-06-17T05:15:40Z",
-                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/404995e27a0109b662182227d17ee4ecd569a4ee"
-                },
-                {
-                  "sha": "4fbeffa",
-                  "message": "Update RELEASE.json",
-                  "author": "LLC INCY",
-                  "date": "2026-05-26T22:43:00Z",
-                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/4fbeffa5f312878e479c33f13bdb4b5f1b58fc9b"
-                },
-                {
-                  "sha": "9e1a6dc",
-                  "message": "Update RELEASE.json",
-                  "author": "LLC INCY",
-                  "date": "2026-05-26T02:59:58Z",
-                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/9e1a6dc493ec01f427aecf4a2fe0d060575127f3"
-                }
-              ]
+              "name": "Desktop v3.3.5",
+              "tag": "desktop-v3.3.5",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.5",
+              "published_at": "2026-07-21T01:23:49Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.3.5 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+            },
+            {
+              "name": "Desktop v3.3.4",
+              "tag": "desktop-v3.3.4",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.4",
+              "published_at": "2026-07-19T21:02:31Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.3.4 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+            },
+            {
+              "name": "Desktop v3.3.3",
+              "tag": "desktop-v3.3.3",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.3",
+              "published_at": "2026-07-17T06:21:25Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.3.3 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+            },
+            {
+              "name": "Desktop v3.3.2",
+              "tag": "desktop-v3.3.2",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.2",
+              "published_at": "2026-07-15T02:48:06Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.3.2 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+            },
+            {
+              "name": "Desktop v3.3.1",
+              "tag": "desktop-v3.3.1",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.1",
+              "published_at": "2026-07-11T14:23:26Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.3.1 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "50d155b",
+            "branch": "main",
+            "date": "2026-07-19T21:17:01Z",
+            "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
+          }
         },
         {
           "repo": "throneproj/Throne",
@@ -2007,59 +1240,808 @@
             "avatar": "https://avatars.githubusercontent.com/u/10119698?v=4",
             "owner": "kutovoys"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "v1.3.1",
-              "tag": "v1.3.1",
-              "url": "https://github.com/kutovoys/xray-checker/releases/tag/v1.3.1",
-              "published_at": "2026-07-01T22:49:29Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## ✨ What's New\n\n### ✨ Features\n- Add `PROXY_CHECK_CONCURRENCY` to cap how many proxies are checked in parallel per cycle (default `0` = unlimited, unchanged behavior) — useful for large subscriptions to limit peak load and open connections\n\n### 🐛 Bug Fixes\n- Fix `/config/{id}`, the dashboard and the JSON API reporting the wrong status when several proxies share the same name — status is now resolved by `stable_id`, consistent with `/metrics`\n- Fix multiple Hysteria2 proxies on the same server (same address, different auth) being checked as a single user, via the xray-core update\n\n### 🔄 Improvements\n- Update xray-core and libXray to v26.6.27\n- Skip the next scheduled check if a cycle overruns `PROXY_CHECK_INTERVAL` (instead of stacking overlapping runs), and log a warning\n- Upgrade the docs site (Astro 7 / Starlight 0.41) to clear dependency security advisories\n\n---\n\n**Full Changelog**: https://github.com/kutovoys/xray-checker/compare/v1.3.0...v1.3.1\n"
+              "name": "b1-stableid",
+              "commits": [
+                {
+                  "sha": "bd2a636",
+                  "message": "security(stableid): keep stableID out of low-entropy secrets",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:34:19Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bd2a636b63956cc3a4316f5bd4e84f677a3c7052"
+                },
+                {
+                  "sha": "395e7b2",
+                  "message": "fix(stableid): make stableID uniquely identify each endpoint (#149, #153, #141)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:01:26Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/395e7b2a430b8b75dc928c3082f9202082abf2b9"
+                },
+                {
+                  "sha": "1a03509",
+                  "message": "Merge pull request #162 from kutovoys/t2-metrics-blink",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T13:41:56Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/1a03509c9b7e4248d2641b09e766d60ba97e5235"
+                },
+                {
+                  "sha": "bdde658",
+                  "message": "fix(metrics): stop blanking metrics on subscription update (#148)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T13:37:34Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bdde6587946b02526b14abc47c0f92bffcfeddc8"
+                },
+                {
+                  "sha": "9f6f16e",
+                  "message": "Merge pull request #161 from kutovoys/t1-deps-hysteria",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T13:23:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9f6f16e0369cf1b6f9046e9ea901eebe96961857"
+                }
+              ]
             },
             {
-              "name": "v1.3.0",
-              "tag": "v1.3.0",
-              "url": "https://github.com/kutovoys/xray-checker/releases/tag/v1.3.0",
-              "published_at": "2026-06-28T22:22:43Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## ✨ What's New\n\n### ✨ Features\n- Add Hysteria2 protocol support (and bump xray-core to v1.260327.0)\n- Check WireGuard servers — via `wg://` links and `wireguard` outbounds in JSON subscriptions\n- Check SOCKS, HTTP and HTTPS forward proxies\n- Support full JSON / balancer subscriptions: every outbound in a balancer group is expanded into an individually checked proxy, with a grouped dashboard view\n- Show a protocol badge on dashboard cards (optional in public mode via `WEB_PUBLIC_SHOW_PROTOCOL`)\n- Export custom per-proxy Prometheus labels from a `metricsLabels` object in JSON outbounds\n- Expose `lastCheck`, `groupName` and `metricsLabels` in the API, and add `stable_id` / `group_name` metric labels\n\n### 🐛 Bug Fixes\n- Stop metrics from blanking out (blink to 0) after a subscription update\n- Fix empty dashboard / render crash when configs produced duplicate identifiers — every proxy now gets a unique `stable_id`\n- Make `hideBackground=true` actually render a transparent background for iframe embeds\n\n### 🔄 Improvements\n- Render metrics from the live proxy snapshot on each scrape (pull-based collector), so labels stay correct across subscription updates without resetting series\n- Add xhttp transport support and improve JSON parsing robustness\n- Bump kong and Prometheus client libraries\n\n---\n\n**Full Changelog**: https://github.com/kutovoys/xray-checker/compare/v1.2.4...v1.3.0\n"
+              "name": "b2-metrics-labels",
+              "commits": [
+                {
+                  "sha": "bbf1ed8",
+                  "message": "feat(metrics): add stable_id label so per-proxy series never collide (B2)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:47:07Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bbf1ed80367a23ba57f76597ba3c8f2f6c2ad750"
+                },
+                {
+                  "sha": "b81edcb",
+                  "message": "Merge pull request #163 from kutovoys/b1-stableid",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:38:50Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/b81edcbd6e74aae61bb45802451fba5cdf2533f4"
+                },
+                {
+                  "sha": "bd2a636",
+                  "message": "security(stableid): keep stableID out of low-entropy secrets",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:34:19Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bd2a636b63956cc3a4316f5bd4e84f677a3c7052"
+                },
+                {
+                  "sha": "395e7b2",
+                  "message": "fix(stableid): make stableID uniquely identify each endpoint (#149, #153, #141)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:01:26Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/395e7b2a430b8b75dc928c3082f9202082abf2b9"
+                },
+                {
+                  "sha": "1a03509",
+                  "message": "Merge pull request #162 from kutovoys/t2-metrics-blink",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T13:41:56Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/1a03509c9b7e4248d2641b09e766d60ba97e5235"
+                }
+              ]
             },
             {
-              "name": "v1.2.4",
-              "tag": "v1.2.4",
-              "url": "https://github.com/kutovoys/xray-checker/releases/tag/v1.2.4",
-              "published_at": "2026-03-15T20:10:26Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## ✨ What's New\n\n### 🐛 Bug Fixes\n- Fix subscription parsing failing entirely when a single broken config is present — add line-by-line fallback parsing that skips invalid configs and continues with valid ones\n- Fix web interface not rendering proxy cards when multiple subscriptions contain configs with duplicate names — use `stableId` instead of `name` as Alpine.js iteration key\n\n### 🔄 Improvements\n- Improve Pushgateway documentation with correct endpoint format and basic auth usage notes\n\n---\n\n**Full Changelog**: https://github.com/kutovoys/xray-checker/compare/v1.2.3...v1.2.4\n"
+              "name": "bug-fixes",
+              "commits": [
+                {
+                  "sha": "0d63aa5",
+                  "message": "feat: enhance PageData structure and update template rendering",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-11T20:41:57Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/0d63aa5bf221523efa986897be65a4e77143422a"
+                },
+                {
+                  "sha": "be7943d",
+                  "message": "refactor: improve metrics push handling and URL parsing",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-11T20:40:53Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/be7943dc5ff385dff2f77145863df13f38011ecd"
+                },
+                {
+                  "sha": "98321ce",
+                  "message": "Merge pull request #22 from kutovoys/check-in-actions",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-11T17:27:10Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/98321ce35f72a9727debe2815a19bc75b4de0ab8"
+                },
+                {
+                  "sha": "5d74a6a",
+                  "message": "Update README files to reflect GitHub Actions integration",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-11T17:25:22Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5d74a6a2e8e33cd89e483c8149362eb1ec225fcd"
+                },
+                {
+                  "sha": "eb7ce00",
+                  "message": "Merge pull request #21 from kutovoys/prom-push",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-10T22:17:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/eb7ce00c629ad7d58e7f79e999dbb5d033c07bb5"
+                }
+              ]
             },
             {
-              "name": "v1.2.3",
-              "tag": "v1.2.3",
-              "url": "https://github.com/kutovoys/xray-checker/releases/tag/v1.2.3",
-              "published_at": "2026-01-24T09:52:39Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## What's New\n\n### Bug Fixes\n- Fix stable ordering of resolved IPs when using proxy-resolve-domains. Previously, resolved IPs could appear in random order causing config churn and metrics instability. Now IPs are sorted by their stable ID for consistent ordering across restarts.\n\n---\n\n**Full Changelog**: https://github.com/kutovoys/xray-checker/compare/v1.2.2...v1.2.3\n"
+              "name": "c1-json-balancers",
+              "commits": [
+                {
+                  "sha": "1e7d724",
+                  "message": "feat: JSON/balancer subscriptions, grouped dashboard, xhttp \u0026 robustness",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T20:46:19Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/1e7d724327d63a5563111b8178e7e273a2336e95"
+                },
+                {
+                  "sha": "7cf7684",
+                  "message": "Merge pull request #164 from kutovoys/b2-metrics-labels",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:59:51Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/7cf7684f89c4e2b542c6970965d7f69fa907e1eb"
+                },
+                {
+                  "sha": "bbf1ed8",
+                  "message": "feat(metrics): add stable_id label so per-proxy series never collide (B2)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:47:07Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bbf1ed80367a23ba57f76597ba3c8f2f6c2ad750"
+                },
+                {
+                  "sha": "b81edcb",
+                  "message": "Merge pull request #163 from kutovoys/b1-stableid",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:38:50Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/b81edcbd6e74aae61bb45802451fba5cdf2533f4"
+                },
+                {
+                  "sha": "bd2a636",
+                  "message": "security(stableid): keep stableID out of low-entropy secrets",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-27T14:34:19Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/bd2a636b63956cc3a4316f5bd4e84f677a3c7052"
+                }
+              ]
             },
             {
-              "name": "v1.2.2",
-              "tag": "v1.2.2",
-              "url": "https://github.com/kutovoys/xray-checker/releases/tag/v1.2.2",
-              "published_at": "2026-01-23T21:59:04Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## ✨ What's New\r\n\r\n### 🎨 Transparent Background for Badges\r\n\r\nBadges now support transparent backgrounds, making them easier to embed on any page.\r\n\r\n**Usage:**\r\n```\r\nhttps://your-server.com/?stableId=abc123\u0026transparent=true\r\n```\r\n\r\nThe Badge Playground in documentation also includes a new \"Transparent\" option in the theme selector.\r\n\r\n### 🖼️ Flexible Logo Customization\r\n\r\nYou can now use different logos for dark and light themes:\r\n\r\n- `logo-dark.svg` / `logo-dark.png` — for dark theme\r\n- `logo-light.svg` / `logo-light.png` — for light theme\r\n- `logo.svg` / `logo.png` — universal fallback\r\n\r\nPriority: theme-specific SVG → theme-specific PNG → universal SVG → universal PNG\r\n\r\n### 🔍 Improved Name Sorting\r\n\r\nNames with leading emojis are now sorted correctly by their text content, ignoring emoji prefixes.\r\n\r\n## 🐛 Bug Fixes\r\n\r\n### 🔄 Metrics Not Clearing on Subscription Update\r\n\r\nFixed a race condition where metrics for removed proxy locations would persist with status 0 after subscription updates.\r\n\r\n**Affected scenario:** When using `proxy-resolve-domains=true` and an IP was removed from DNS, the metric for that IP would remain in Prometheus.\r\n\r\n**Root cause:** Goroutines completing proxy checks could write metrics after `ClearMetrics()` had already run.\r\n\r\n**Fix:** Added generation tracking to skip metric updates when the proxy configuration has changed during a check cycle.\r\n\r\n## 📚 Documentation\r\n\r\n- Added live demo links throughout documentation and README\r\n- Updated architecture docs with Badge System and Asset Manager components\r\n- Added `WEB_PUBLIC` parameter to CLI and Docker examples\r\n- Improved code formatting in nginx configuration examples"
+              "name": "check-in-actions",
+              "commits": [
+                {
+                  "sha": "5d74a6a",
+                  "message": "Update README files to reflect GitHub Actions integration",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-11T17:25:22Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5d74a6a2e8e33cd89e483c8149362eb1ec225fcd"
+                },
+                {
+                  "sha": "eb7ce00",
+                  "message": "Merge pull request #21 from kutovoys/prom-push",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-10T22:17:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/eb7ce00c629ad7d58e7f79e999dbb5d033c07bb5"
+                },
+                {
+                  "sha": "db97cbe",
+                  "message": "feat: enhance metrics handling and configuration options",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-10T22:11:21Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/db97cbee7b0c9187269e59a206783034532d63aa"
+                },
+                {
+                  "sha": "3498ad1",
+                  "message": "Merge pull request #18 from kutovoys/subs-update-interval",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T19:48:06Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/3498ad1a8eb3779ad6572cd26915003985c1c2f5"
+                },
+                {
+                  "sha": "2117650",
+                  "message": "feat: enhance subscription update handling and proxy checking logic",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T19:43:54Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/211765048298c2a896427c154585c7beb9e4af09"
+                }
+              ]
+            },
+            {
+              "name": "custom-labels-last-check",
+              "commits": [
+                {
+                  "sha": "5fa7975",
+                  "message": "fix(metrics): skip reserved \"__\" prefix in custom labels",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:43:33Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5fa7975362c98b0e1dcb8a6dfabe6e41226994b8"
+                },
+                {
+                  "sha": "172c969",
+                  "message": "docs: document custom metric labels and new API fields (en/ru/fa)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:22:24Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/172c969b444f8364df68bfdba064dbe67839755e"
+                },
+                {
+                  "sha": "6e1f128",
+                  "message": "feat(api): add lastCheck, groupName and metricsLabels to proxy endpoints",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:13:22Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/6e1f1284cfb8d5e44b7f31a5ef726f4a139f0b85"
+                },
+                {
+                  "sha": "edec3ee",
+                  "message": "feat(metrics): export custom outbound labels via a dynamic collector",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:04:07Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/edec3ee0850351d015888b8587701ecebcff418a"
+                },
+                {
+                  "sha": "6dd4a3a",
+                  "message": "Merge pull request #168 from kutovoys/web-protocol-badge",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T19:12:43Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/6dd4a3a487ca5a7c3cb372ca4305142dd6477318"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/go_modules/github.com/alecthomas/kong-1.16.0",
+              "commits": [
+                {
+                  "sha": "31600d0",
+                  "message": "build(deps): bump github.com/alecthomas/kong from 1.15.0 to 1.16.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-20T18:13:57Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/31600d03ce7f521092985148f555c8c5add4159a"
+                },
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/go_modules/github.com/prometheus/client_golang-1.24.0",
+              "commits": [
+                {
+                  "sha": "a3efba3",
+                  "message": "build(deps): bump github.com/prometheus/client_golang",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-20T18:13:53Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/a3efba3ae3e602f36a10921719f5bb353fec724d"
+                },
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/go_modules/github.com/prometheus/common-0.70.0",
+              "commits": [
+                {
+                  "sha": "ced4973",
+                  "message": "build(deps): bump github.com/prometheus/common from 0.69.0 to 0.70.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-13T18:13:49Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/ced4973f9966cf466401510d1f4c5b13b6a35e82"
+                },
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/go_modules/github.com/xtls/libxray-1.260711.0",
+              "commits": [
+                {
+                  "sha": "7b9dac8",
+                  "message": "build(deps): bump github.com/xtls/libxray from 1.260627.0 to 1.260711.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-13T18:13:43Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/7b9dac8492497dcbe70544c3aeaf15b1a97ce782"
+                },
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/npm_and_yarn/docs/astro-7.1.0",
+              "commits": [
+                {
+                  "sha": "3b89051",
+                  "message": "build(deps): bump astro from 7.0.5 to 7.1.0 in /docs",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-21T08:36:15Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/3b890513d352391ecec6390b8aed83d791b2ab03"
+                },
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                }
+              ]
+            },
+            {
+              "name": "docs",
+              "commits": [
+                {
+                  "sha": "5c042dd",
+                  "message": "Update README files to replace iframe with responsive image links for project statistics",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-22T14:58:22Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5c042dd011c7ffe6888cd073b67abbc398f4bc61"
+                },
+                {
+                  "sha": "a0b8e37",
+                  "message": "Update README files to replace star history links with embedded iframe",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-22T14:49:59Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/a0b8e3787e1aee1dfecd2835b97e7d02936f9d19"
+                },
+                {
+                  "sha": "8e1432a",
+                  "message": "Merge pull request #34 from kutovoys/web",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-22T14:48:39Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/8e1432a77a05cf118825b677af295bcb8abe0f91"
+                },
+                {
+                  "sha": "0250bc3",
+                  "message": "Enhance index.html with additional proxy information",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-22T14:39:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/0250bc3522d191d100f4e192eeecfa803babf337"
+                },
+                {
+                  "sha": "9649088",
+                  "message": "Merge pull request #33 from kutovoys/web",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-22T12:38:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9649088cd018f4a7c9c15b0be3e4852379c7a994"
+                }
+              ]
+            },
+            {
+              "name": "feat-check-concurrency",
+              "commits": [
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                },
+                {
+                  "sha": "11309fa",
+                  "message": "Merge pull request #174 from kutovoys/fix-status-lookup-by-stableid",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-30T21:12:01Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/11309fa26e1ebcc50e2ecaef0f6510e13296ba11"
+                },
+                {
+                  "sha": "ac95aed",
+                  "message": "chore(deps): bump xray-core and libXray to v26.6.27",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-30T20:53:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/ac95aeda28498cd8bf0bcdde2dcdcd0c2f720a73"
+                }
+              ]
+            },
+            {
+              "name": "features/host",
+              "commits": [
+                {
+                  "sha": "8b0daad",
+                  "message": "feat: add configurable metrics host and fix latency metrics cleanup",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-04-27T10:36:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/8b0daad8dbcb09323ca9eccd82c7a9afec0edc8d"
+                },
+                {
+                  "sha": "7b82d2f",
+                  "message": "Update docs",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-04-19T15:51:40Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/7b82d2f2ebf090660e77cf825b04616ac6eb7e80"
+                },
+                {
+                  "sha": "9f380e2",
+                  "message": "Add stable ID generation for proxy configurations and update related methods",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-04-19T14:39:16Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9f380e2eeedacb7526a37b21382837ef95efd380"
+                },
+                {
+                  "sha": "960e415",
+                  "message": "Merge pull request #56 from Akiyamov/main",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-04-15T05:57:07Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/960e4155717aa7dfc00d6bf957b0a57067d9f18d"
+                },
+                {
+                  "sha": "1638c67",
+                  "message": "Fix  field for XHTTP",
+                  "author": "Akiyamov",
+                  "date": "2025-04-14T06:25:10Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/1638c67b92a3e5857db54f9d9a89febd2789a292"
+                }
+              ]
+            },
+            {
+              "name": "fix-hide-background",
+              "commits": [
+                {
+                  "sha": "9283045",
+                  "message": "docs(web): fix stale comment about color-scheme in hideBackground fix",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T21:41:57Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9283045c584d0f254a2d5afa569ec0c448e06cc3"
+                },
+                {
+                  "sha": "82166eb",
+                  "message": "fix(web): make hideBackground=true actually transparent",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T21:32:38Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/82166ebc4c468f36de9219bf47a2c120c68f93f6"
+                },
+                {
+                  "sha": "62a00e0",
+                  "message": "Merge pull request #169 from kutovoys/custom-labels-last-check",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:50:08Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/62a00e036e879a086b6a86e81c168048b0e3a720"
+                },
+                {
+                  "sha": "5fa7975",
+                  "message": "fix(metrics): skip reserved \"__\" prefix in custom labels",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:43:33Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5fa7975362c98b0e1dcb8a6dfabe6e41226994b8"
+                },
+                {
+                  "sha": "172c969",
+                  "message": "docs: document custom metric labels and new API fields (en/ru/fa)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T20:22:24Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/172c969b444f8364df68bfdba064dbe67839755e"
+                }
+              ]
+            },
+            {
+              "name": "fix-status-lookup-by-stableid",
+              "commits": [
+                {
+                  "sha": "ac95aed",
+                  "message": "chore(deps): bump xray-core and libXray to v26.6.27",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-30T20:53:32Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/ac95aeda28498cd8bf0bcdde2dcdcd0c2f720a73"
+                },
+                {
+                  "sha": "9b11387",
+                  "message": "fix(web): resolve proxy status by stable_id, not name",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-30T17:00:16Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9b113870aee09879c83de6321f95f4fd94b07346"
+                },
+                {
+                  "sha": "9dc782d",
+                  "message": "Merge pull request #170 from kutovoys/fix-hide-background",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T21:44:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9dc782d126461890331f17747b909dfefdea659d"
+                },
+                {
+                  "sha": "9283045",
+                  "message": "docs(web): fix stale comment about color-scheme in hideBackground fix",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T21:41:57Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/9283045c584d0f254a2d5afa569ec0c448e06cc3"
+                },
+                {
+                  "sha": "82166eb",
+                  "message": "fix(web): make hideBackground=true actually transparent",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-28T21:32:38Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/82166ebc4c468f36de9219bf47a2c120c68f93f6"
+                }
+              ]
+            },
+            {
+              "name": "full-refactor",
+              "commits": [
+                {
+                  "sha": "4c2257f",
+                  "message": "Remove checkByDownload method from ProxyChecker to streamline code and improve maintainability.",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-01-05T22:57:34Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/4c2257f20a113ae05b1df102f780a7afe3584215"
+                },
+                {
+                  "sha": "97d2f3f",
+                  "message": "Refactor download error handling in ProxyChecker",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-01-05T22:43:45Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/97d2f3fb3dc06ed9b7a4823e4122c33ae7e7c17e"
+                },
+                {
+                  "sha": "3196542",
+                  "message": "Merge branch 'main' into full-refactor",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-01-05T22:04:58Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/31965420055bd06779327ac7aa1cae2a630a590a"
+                },
+                {
+                  "sha": "42b183b",
+                  "message": "Fix subscription update scheduler and single JSON config parsing",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-01-05T21:44:46Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/42b183b0c4b2a065da9de60b207dd20bed5e3d1b"
+                },
+                {
+                  "sha": "4f38a6c",
+                  "message": "Add Persian docs, REST API, favicons, and documentation updates",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-01-04T23:29:07Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/4f38a6c2f0c1656161f5afccef9a4776d141b78b"
+                }
+              ]
+            },
+            {
+              "name": "input-types",
+              "commits": [
+                {
+                  "sha": "ef428dc",
+                  "message": "deleted diagrams",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-21T18:38:52Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/ef428dc07dbef27e56d729855082591515bacfbb"
+                },
+                {
+                  "sha": "0ddc8e5",
+                  "message": "chore: update documentation and configuration for Xray Checker",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-21T18:06:50Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/0ddc8e573d63a08c407d66ad7e4462c54a7af14b"
+                },
+                {
+                  "sha": "b4822d2",
+                  "message": "refactor: restructure configuration handling and enhance subscription management",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-21T15:38:14Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/b4822d2fc9cbb1e72270f40bd72b7bbbdbae79b9"
+                },
+                {
+                  "sha": "f1f1d40",
+                  "message": "Merge pull request #28 from kutovoys/template",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-19T21:21:59Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f1f1d40e597ba4a2d1f7f633e1393244b328bff8"
+                },
+                {
+                  "sha": "57e2fec",
+                  "message": "refactor: removing inline comments for clarity.",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-19T21:20:33Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/57e2fec98475620b07c0dee320c6c413f6e13924"
+                }
+              ]
+            },
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "f829c2b",
+                  "message": "Merge pull request #175 from kutovoys/feat-check-concurrency",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T22:33:31Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f829c2b7d44670f4db0f7355f445771e7cde7158"
+                },
+                {
+                  "sha": "5b7fe9f",
+                  "message": "fix(checker): clarify overrun warning and de-flake concurrency test",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T21:44:44Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5b7fe9fa1476ff9df010b19dbd12845cb9f9c277"
+                },
+                {
+                  "sha": "5cb88d8",
+                  "message": "chore(docs): upgrade Astro to 7 and Starlight to 0.41 (security)",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:23Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/5cb88d88a89b34cefc9199d9f97e254a78aca96b"
+                },
+                {
+                  "sha": "f02dc96",
+                  "message": "feat(checker): bound parallel checks with PROXY_CHECK_CONCURRENCY",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-07-01T20:24:09Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/f02dc96becced86355aa2abc880a5c4403826677"
+                },
+                {
+                  "sha": "11309fa",
+                  "message": "Merge pull request #174 from kutovoys/fix-status-lookup-by-stableid",
+                  "author": "Sergey Kutovoy",
+                  "date": "2026-06-30T21:12:01Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/11309fa26e1ebcc50e2ecaef0f6510e13296ba11"
+                }
+              ]
+            },
+            {
+              "name": "prom-push",
+              "commits": [
+                {
+                  "sha": "db97cbe",
+                  "message": "feat: enhance metrics handling and configuration options",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-10T22:11:21Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/db97cbee7b0c9187269e59a206783034532d63aa"
+                },
+                {
+                  "sha": "3498ad1",
+                  "message": "Merge pull request #18 from kutovoys/subs-update-interval",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T19:48:06Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/3498ad1a8eb3779ad6572cd26915003985c1c2f5"
+                },
+                {
+                  "sha": "2117650",
+                  "message": "feat: enhance subscription update handling and proxy checking logic",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T19:43:54Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/211765048298c2a896427c154585c7beb9e4af09"
+                },
+                {
+                  "sha": "8ef5c3d",
+                  "message": "Merge pull request #17 from kastov/main",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T18:12:18Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/8ef5c3dcdbe33327a203cdfb1a9cc0cf6a979aa5"
+                },
+                {
+                  "sha": "752ff1b",
+                  "message": "docs: update README and README_RU to include new proxy latency metric and improve configuration table formatting",
+                  "author": "Sergey Kutovoy",
+                  "date": "2025-01-07T18:01:54Z",
+                  "url": "https://github.com/kutovoys/xray-checker/commit/752ff1b693ad0b17e7ca4303ad024a0f0291b05b"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "3b89051",
-            "branch": "dependabot/npm_and_yarn/docs/astro-7.1.0",
-            "date": "2026-07-21T08:36:15Z",
-            "url": "https://github.com/kutovoys/xray-checker/commit/3b890513d352391ecec6390b8aed83d791b2ab03"
-          }
+          ]
         },
         {
           "repo": "louislam/uptime-kuma",
@@ -2075,448 +2057,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "1.23.X",
-              "commits": [
-                {
-                  "sha": "e419433",
-                  "message": "Change hostname for group mail notification (#6253)",
-                  "author": "Max Michels",
-                  "date": "2025-10-25T09:52:12Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/e419433ae4907d9373e4fd53d99d595b9aa334b6"
-                },
-                {
-                  "sha": "40ec715",
-                  "message": "Update to 1.23.17",
-                  "author": "Louis Lam",
-                  "date": "2025-10-20T14:18:19Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/40ec7158534a28e6f8b431a628c53133c327c539"
-                },
-                {
-                  "sha": "8525f2f",
-                  "message": "[1.23.X] Maintenance and dependencies update (#6169)",
-                  "author": "Louis Lam",
-                  "date": "2025-10-08T23:26:31Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/8525f2f8efb4d82eda5cb8e9c6840bf6da77de51"
-                },
-                {
-                  "sha": "5bb329f",
-                  "message": "Update to 1.23.16",
-                  "author": "Louis Lam",
-                  "date": "2024-12-20T07:15:52Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/5bb329fa0e8af9395911f33d5a6d6bb9b128c0f7"
-                },
-                {
-                  "sha": "09dedc0",
-                  "message": "[1.23.X] Update dependencies (#5455)",
-                  "author": "Louis Lam",
-                  "date": "2024-12-20T07:11:24Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/09dedc07fb25bbbd7114ad31009cfaedfa895a3f"
-                }
-              ]
+              "name": "2.4.0",
+              "tag": "2.4.0",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.4.0",
+              "published_at": "2026-05-31T00:55:12Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🆕 New Features\r\n- #7434 feat(notification): add EgoSMS SMS provider for Uganda (Thanks @kristianinc @cursoragent)\r\n- #7420 feat: Add incidents to RSS (Thanks @dj-tuxis)\r\n- #7365 feat: Add VKTeams bot notification provider (Thanks @aleshasam)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7433 feat: add optional token field for gamedig monitors (Thanks @aminoacidity)\r\n- #7415 feat: Adding bearer token  (Thanks @aminoacidity @nyeswant)\r\n- #7431 fix: Add bearer token support to WebSocket upgrade monitor (Thanks @aminoacidity @nyeswant)\r\n- #7373 fix: update link to documentation about API keys (Thanks @eleanordoesntcode)\r\n\r\n### 🐞 Bug Fixes\r\n- ~#7453 fix(docker-only): add Let's Encrypt Gen Y root certificates~ (Please ignore this change)\r\n- #7451 fix: handling npm 11.16.0 \r\n- #7351 fix: NTLM monitor over plain HTTP fails with 400 Bad Request (Thanks @karzac)\r\n\r\n### ⬆️ Security Fixes\r\n-  (Admin only/Authenticated only) Fix: LiquidJS is Vulnerable to Remote Code Execution, a vulnerability from an upstream dependency. In Uptime Kuma, LiquidJS should be used in notification template. (https://github.com/advisories/GHSA-gf2q-c269-pqgc)\r\n\r\n### 🦎 Translation Contributions\r\n- #7366 #7353 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @Arden-Ahmad @bartoostveen @cyril59310 @dodog @Gringit @helakostain @ivanbratovic @Jumala9163 @Kf637 @master3395 @MrEddX @OnyxOracle @PolarniMeda @samsilveira @toniv90 @ttymayor @Virenbar @xuantan97)\r\n\r\n### Others\r\n- #7432 chore: Implement dev data directory handling for non-master branches \r\n- #7390 fix: normalize hidden log level lookup (Thanks @aqilaziz)"
             },
             {
-              "name": "2.2.X",
-              "commits": [
-                {
-                  "sha": "e31ef63",
-                  "message": "feat: Adds support for ntfy's phone call feature (#6640)",
-                  "author": "Erik Benoist",
-                  "date": "2026-01-08T00:16:49Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/e31ef63b013785f392bc9d3b57483b38c1bdc629"
-                },
-                {
-                  "sha": "d053039",
-                  "message": "feat: add `UPTIME_KUMA_DB_PASSWORD_FILE` and `UPTIME_KUMA_DB_USERNAME_FILE` for docker secrets control (#6629)",
-                  "author": "Pegasus",
-                  "date": "2026-01-07T04:38:38Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d05303963d48224853eae5e8c9b040c134945fc3"
-                },
-                {
-                  "sha": "41233b6",
-                  "message": "chore(ci): try using the `spec` test reporter instead of `tab` (#6632)",
-                  "author": "Frank Elsinga",
-                  "date": "2026-01-07T04:28:46Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/41233b6445212988eaa7842e05dad059454f7f44"
-                },
-                {
-                  "sha": "d707271",
-                  "message": "chore: remove unused jest config (#6631)",
-                  "author": "Frank Elsinga",
-                  "date": "2026-01-07T04:15:56Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d707271de71c1f06740760ec3ee79c3fb2ed2779"
-                },
-                {
-                  "sha": "5c2b659",
-                  "message": "chore: Add validation for retryInterval in Monitor.validate() (#6628)",
-                  "author": "Angel98518",
-                  "date": "2026-01-07T03:36:30Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/5c2b659f297034060819146de3f908236cf0a829"
-                }
-              ]
+              "name": "2.3.2",
+              "tag": "2.3.2",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.2",
+              "published_at": "2026-05-03T16:15:29Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7346 fix: Revert back from multiple connection to single connection for SQLite by default \r\n\r\n"
             },
             {
-              "name": "3.0.X",
-              "commits": [
-                {
-                  "sha": "7753d95",
-                  "message": "fix: some scripts did not migrate to loadEnvFile",
-                  "author": "Louis Lam",
-                  "date": "2026-07-16T05:30:18Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/7753d953777ca055da310d35c1efe92468c0bab0"
-                },
-                {
-                  "sha": "6ee755b",
-                  "message": "Remove CNAME",
-                  "author": "Louis Lam",
-                  "date": "2026-07-16T04:52:15Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/6ee755b883c744f168d44f28477e313a146ad55c"
-                },
-                {
-                  "sha": "55e07cf",
-                  "message": "chore: Update vite to 8 (#7600)",
-                  "author": "Louis Lam",
-                  "date": "2026-07-16T04:42:31Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/55e07cf42a8174658b6a8278ccc481c129837699"
-                },
-                {
-                  "sha": "9998be2",
-                  "message": "feat: Better Auth Implementation (#6276)",
-                  "author": "Louis Lam",
-                  "date": "2026-07-15T14:16:37Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/9998be2aade818b978d309b8f65ac9874b4facc3"
-                },
-                {
-                  "sha": "be51de4",
-                  "message": "fix: [3.0.X] Migrate to better-sqlite (#7568)",
-                  "author": "Louis Lam",
-                  "date": "2026-07-04T10:13:25Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/be51de4e73184420095a7784bce3e67258a8cafb"
-                }
-              ]
+              "name": "2.3.1",
+              "tag": "2.3.1",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.1",
+              "published_at": "2026-05-03T13:40:11Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7307 fix: Add `busy_timeout` to sqlite to avoid error `SQLITE_BUSY: database is locked` (Thanks @wagnerand)\r\n\r\n### Others\r\n- #7340 chore: Update dependencies \r\n- #7345 chore: update to 2.3.1\r\n- #7344 fix(push): use multi-arch Node base in push image Dockerfile (Thanks @herwinz)\r\n"
             },
             {
-              "name": "api-via-socketio-client",
-              "commits": [
-                {
-                  "sha": "49940a9",
-                  "message": "Add jsonschema",
-                  "author": "Louis Lam",
-                  "date": "2023-10-10T19:18:29Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/49940a9dad2c65d1db64aff6453a871078e4395e"
-                },
-                {
-                  "sha": "5fa2fcb",
-                  "message": "Move port and hostname to the server object",
-                  "author": "Louis Lam",
-                  "date": "2023-10-09T19:15:10Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/5fa2fcb0d937c71d67ee4d7adae6968f69599bf3"
-                },
-                {
-                  "sha": "d4f9ace",
-                  "message": "Add api-spec.json5",
-                  "author": "Louis Lam",
-                  "date": "2023-10-08T00:17:03Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d4f9acee6aa60e8d3785ed30651e6db0e8961bc0"
-                },
-                {
-                  "sha": "6d2f624",
-                  "message": "Update auth and skeleton of wrapper",
-                  "author": "Louis Lam",
-                  "date": "2023-10-07T21:33:08Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/6d2f6242427bdb68478a03ea9fa0d82ae0fc3d40"
-                },
-                {
-                  "sha": "5773eeb",
-                  "message": "Rename `apiAuth` to `basicAuthMiddleware` and it accepts API keys only",
-                  "author": "Louis Lam",
-                  "date": "2023-10-07T18:24:18Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/5773eeb6df0090b9a907a410c6e888d34213e0fd"
-                }
-              ]
+              "name": "2.3.0",
+              "tag": "2.3.0",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.0",
+              "published_at": "2026-05-01T04:01:17Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### ⚠️ Breaking changes\r\n- #7194 fix: Revert \"add sorting to status pages\"\r\n  - No more sorting feature in status pages.\r\n  - Due to bad performance.\r\n- #7312 fix(database): add `UPTIME_KUMA_SQLITE_SINGLE_CONNECTION`\r\n  - For Raspberry Pi users, you may have to set it to `true` to avoid SQLite locking issues. \r\n  - Mainly affected Raspberry Pi users only, you can ignore it if you are not using devices like Raspberry Pi.\r\n\r\n### 🆕 New Features\r\n- #7304 feat: websocket improve to fix issue #7268 including support authentication (Thanks @sofia-fernandez-six)\r\n- #7207 feat(notification): add custom message template support for Evolution provider (Thanks @kbrianps)\r\n- #7201 feat: add Telnyx messaging provider (Thanks @LuvForAirplanes)\r\n- #7182 feat: Add VK notification provider (Thanks @FunNikita)\r\n- #7160 feat: Add MAX messenger notification provider (Thanks @Redleks)\r\n- #7156 feat: add OracleDB monitor (Thanks @sitiom)\r\n- #7154 feat: add collapsible groups to status page (Thanks @marco-carvalho)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n- #7303 feat(ui): add a helptext that RTT for the ping monitor is not avaliable on linux (Thanks @stchigel)\r\n- #7300 feat(ux): changed warning msg (Thanks @hemanth5544)\r\n- #7128 fix: Update Home Assistant notification help text for HA 2024 Services→Actions rename (Thanks @tr4nt0r)\r\n\r\n### 🐞 Bug Fixes\r\n\r\n- #7248 fix(notification): check for monitorJSON in Stackfield provider (Thanks @jlbrt)\r\n- #7166 fix: Handle SSL in setup database temp server \r\n- #7235 fix(uptime): ensure correct handling of missing time buckets in uptime calculations (Thanks @adrianceding)\r\n- #7221 fix(notification): ensure applyExisting is not saved to database \r\n- #7198 fix: Domain expiry doesn't seem to update #7189 (Thanks @shanto)\r\n- #7155 fix: propagate create errors (Thanks @otbutz)\r\n- #7159 fix: monitor graph gaps for sub-millisecond TCP pings (Thanks @0xRozier)\r\n- #7125 fix: prometheus metrics have two series for a single monitor when that monitor has tags (Thanks @nicjansma)\r\n\r\n### 🦎 Translation Contributions\r\n- #7108 feat: Add English (United Kingdom) language support (Thanks @andibing)\r\n- #7292 #7197 #7132 chore: Translations Update from Weblate (Thanks @aindriu80 @Ale1x @Aluisio @andibing @AnnAngela @CammarataLudovico @cyril59310 @dodog @efenow @fcordeiro @firedur @FunNikita @Gringit @Hamstio1 @helakostain @ivanbratovic @kevinheyer-dev @mlopezcoria @Mo7amm1d @MrEddX @numarkpro @Redleks @rodis120 @samsilveira @thisisjaymehta @ttymayor @Virenbar @wibe01204 @Zeromskas)\r\n\r\n### Others\r\n- #7317 #7195 #7133 chore: Update dependencies \r\n- #7204 chore: Add agents.md - anti AI slop \r\n- #7146 chore: Add monthly workflow to build `push` Docker image "
             },
             {
-              "name": "copilot/change-selected-monitor-color",
-              "commits": [
-                {
-                  "sha": "5045255",
-                  "message": "style: improve selected monitor contrast in dark mode",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2026-05-11T12:43:14Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/5045255d8f79d11c80a85f383f6a7bae028da57c"
-                },
-                {
-                  "sha": "153b554",
-                  "message": "Initial plan",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2026-05-11T12:26:40Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/153b5549a82a9c9c3f09241e3a2992a8e5a7cf11"
-                },
-                {
-                  "sha": "0c5371a",
-                  "message": "fix: NTLM monitor over plain HTTP fails with 400 Bad Request (#7351)",
-                  "author": "Petr Dvořák",
-                  "date": "2026-05-10T12:15:41Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/0c5371afad4271cbf230d5f6fe2f0dd8a1b0a431"
-                },
-                {
-                  "sha": "3fcddaf",
-                  "message": "fix: update link to documentation about API keys (#7373)",
-                  "author": "éléanore is not coding in the slightest",
-                  "date": "2026-05-09T23:47:22Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/3fcddaf0b7879816ecc0a80fc5d391df2ce4b06a"
-                },
-                {
-                  "sha": "74c43a3",
-                  "message": "feat: Add VKTeams bot notification provider (#7365)",
-                  "author": "Alexey",
-                  "date": "2026-05-08T09:15:46Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/74c43a33f336e246fbb9ca51cd5798d4d77171ce"
-                }
-              ]
-            },
-            {
-              "name": "copilot/remove-duplicate-usetemplatedescription",
-              "commits": [
-                {
-                  "sha": "9f53149",
-                  "message": "Replace duplicate UseTemplateDescription keys with shared useTemplateDescription",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2026-04-14T18:05:53Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/9f53149c4eb3e49e43d04b30fa8a9f5dfd99c5f7"
-                },
-                {
-                  "sha": "07d28d8",
-                  "message": "fix(uptime): ensure correct handling of missing time buckets in uptime calculations (#7235)",
-                  "author": "噗噗",
-                  "date": "2026-04-10T14:22:01Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/07d28d818180796123b7876c161c2712d80cd0d1"
-                },
-                {
-                  "sha": "7136dd7",
-                  "message": "fix(notification): check for monitorJSON in Stackfield provider (#7248)",
-                  "author": "jlbrt",
-                  "date": "2026-04-07T10:50:38Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/7136dd7832971beb5691d09e86b28a0fcb5fa0fb"
-                },
-                {
-                  "sha": "a5f30d4",
-                  "message": "fix(notification): ensure applyExisting is not saved to database (#7221)",
-                  "author": "Louis Lam",
-                  "date": "2026-03-29T15:12:44Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/a5f30d4cc8edd5da76964a41e8148f2f45c53b15"
-                },
-                {
-                  "sha": "7188e05",
-                  "message": "feat(notification): add custom message template support for Evolution provider (#7207)",
-                  "author": "Brian Pravato",
-                  "date": "2026-03-27T19:57:18Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/7188e054d8a95f10d8f06cd4068d1d517cf98f8d"
-                }
-              ]
-            },
-            {
-              "name": "copilot/sub-pr-6355",
-              "commits": [
-                {
-                  "sha": "44afbc9",
-                  "message": "Initial plan",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2025-11-16T12:47:40Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/44afbc934b92220ab6154e4454927041b8d7b059"
-                },
-                {
-                  "sha": "f183b75",
-                  "message": "Update security reporting instructions in SECURITY.md",
-                  "author": "Louis Lam",
-                  "date": "2025-11-16T12:45:49Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/f183b75a07db0dd92c4ddc346f51c1ffdcd91d3b"
-                },
-                {
-                  "sha": "dda1a3f",
-                  "message": "Chore:extracted the redis monitor to a different monitoring type (#4393)",
-                  "author": "Frank Elsinga",
-                  "date": "2025-11-15T20:55:38Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/dda1a3f4427aa3431e717f00ee189a4fe056a02b"
-                },
-                {
-                  "sha": "319eddd",
-                  "message": "feat: Multi number notifications for SMSIR (#6346)",
-                  "author": "Amirparsa Baghdadi",
-                  "date": "2025-11-13T14:34:01Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/319edddae5633133b2c19c1518289fcbfcfb8a46"
-                },
-                {
-                  "sha": "a7b2624",
-                  "message": "SMSIR Notification Provider Support (#6334)",
-                  "author": "Amirparsa Baghdadi",
-                  "date": "2025-11-11T11:33:52Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/a7b2624c2d96b5ad390618ae6ad1196a8daec147"
-                }
-              ]
-            },
-            {
-              "name": "dev-better-auth-apikey",
-              "commits": [
-                {
-                  "sha": "f4f9c21",
-                  "message": "WIP",
-                  "author": "Louis Lam",
-                  "date": "2026-06-29T05:05:14Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/f4f9c21ed8f975102574af6756ddee2ae7cc5a96"
-                },
-                {
-                  "sha": "0e8437d",
-                  "message": "Add BetterAuth API Key dependency",
-                  "author": "Louis Lam",
-                  "date": "2026-06-29T04:16:43Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/0e8437df73561151a62e7ed5dd40d18e29234dc0"
-                },
-                {
-                  "sha": "6554622",
-                  "message": "Change to `node --import=tsx` to reduce overhead",
-                  "author": "Louis Lam",
-                  "date": "2026-06-28T17:13:00Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/6554622f2064f3f1ab3a729b3a7b1de5645b348f"
-                },
-                {
-                  "sha": "f7b67e1",
-                  "message": "Fix weird blocking shutdown. I must have to learn, don't put logic outside of function!!",
-                  "author": "Louis Lam",
-                  "date": "2026-06-28T17:04:08Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/f7b67e12c58f634e5fa44fb454235f4d3c260318"
-                },
-                {
-                  "sha": "ee39995",
-                  "message": "Rewrite the reset-password using better auth internal adapter (#7549)",
-                  "author": "Ionys",
-                  "date": "2026-06-28T16:26:06Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/ee39995e34606cd3c68be567836b730c8c66fac2"
-                }
-              ]
-            },
-            {
-              "name": "dev-mariadb-strict",
-              "commits": [
-                {
-                  "sha": "afaeab9",
-                  "message": "wip",
-                  "author": "Louis Lam",
-                  "date": "2026-07-16T06:40:28Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/afaeab96f9a181835feb770b5524098531da9ee6"
-                },
-                {
-                  "sha": "23e53e4",
-                  "message": "WIP",
-                  "author": "Louis Lam",
-                  "date": "2026-06-03T16:00:51Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/23e53e4964874fdf6a61c8dc9b42fd1601799b70"
-                },
-                {
-                  "sha": "10e087d",
-                  "message": "WIP",
-                  "author": "Louis Lam",
-                  "date": "2026-06-03T16:00:23Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/10e087d1db16935182051a022c8fc6723b32dbad"
-                },
-                {
-                  "sha": "d4e6395",
-                  "message": "WIP",
-                  "author": "Louis Lam",
-                  "date": "2026-06-02T18:35:20Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d4e639506344c940c8625e7260fdeeeb9e7cfffc"
-                },
-                {
-                  "sha": "2f8af85",
-                  "message": "WIP",
-                  "author": "Louis Lam",
-                  "date": "2026-06-02T18:29:28Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/2f8af8587a98f2ddc389986d795bf4510d9604cc"
-                }
-              ]
-            },
-            {
-              "name": "master",
-              "commits": [
-                {
-                  "sha": "d346387",
-                  "message": "feat: allow unlimited interval rather than 24 days (#7607)",
-                  "author": "Louis Lam",
-                  "date": "2026-07-18T05:14:25Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d3463870af879906f26466bad171fcbeba56c9e8"
-                },
-                {
-                  "sha": "082f101",
-                  "message": "fix(monitor): screenshot_delay not saved when editing browser engine monitor (#7515)",
-                  "author": "ghadi saab",
-                  "date": "2026-07-17T09:36:07Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/082f101cf4926315176013a3ef9c87ed9b07b03a"
-                },
-                {
-                  "sha": "73f199f",
-                  "message": "feat: add NTP monitor type for network time protocol monitoring (#7214)",
-                  "author": "Henri Cook",
-                  "date": "2026-07-17T00:37:46Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/73f199f4bd25baac094d6429931b29da7ff63eff"
-                },
-                {
-                  "sha": "937bfa3",
-                  "message": "feat: add voice call option to Plivo notification provider (#7597)",
-                  "author": "Sarvesh Patil",
-                  "date": "2026-07-15T10:14:37Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/937bfa38af494b5652add8f5a0b97e0758a0bfc1"
-                },
-                {
-                  "sha": "590f90e",
-                  "message": "feat(system-service): add PM2 picker and platform selection (#7114)",
-                  "author": "KraoESPfan1n",
-                  "date": "2026-07-13T21:13:11Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/590f90e3f96454dfc53566c4d8795b56c0c66943"
-                }
-              ]
-            },
-            {
-              "name": "npm-update",
-              "commits": [
-                {
-                  "sha": "cfdbe59",
-                  "message": "chore: Update dependencies",
-                  "author": "github-actions[bot]",
-                  "date": "2026-07-21T00:20:48Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/cfdbe59c2d7239e171b4333b5a39b4f518b27b90"
-                },
-                {
-                  "sha": "d346387",
-                  "message": "feat: allow unlimited interval rather than 24 days (#7607)",
-                  "author": "Louis Lam",
-                  "date": "2026-07-18T05:14:25Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/d3463870af879906f26466bad171fcbeba56c9e8"
-                },
-                {
-                  "sha": "082f101",
-                  "message": "fix(monitor): screenshot_delay not saved when editing browser engine monitor (#7515)",
-                  "author": "ghadi saab",
-                  "date": "2026-07-17T09:36:07Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/082f101cf4926315176013a3ef9c87ed9b07b03a"
-                },
-                {
-                  "sha": "73f199f",
-                  "message": "feat: add NTP monitor type for network time protocol monitoring (#7214)",
-                  "author": "Henri Cook",
-                  "date": "2026-07-17T00:37:46Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/73f199f4bd25baac094d6429931b29da7ff63eff"
-                },
-                {
-                  "sha": "937bfa3",
-                  "message": "feat: add voice call option to Plivo notification provider (#7597)",
-                  "author": "Sarvesh Patil",
-                  "date": "2026-07-15T10:14:37Z",
-                  "url": "https://github.com/louislam/uptime-kuma/commit/937bfa38af494b5652add8f5a0b97e0758a0bfc1"
-                }
-              ]
+              "name": "2.2.1",
+              "tag": "2.2.1",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.2.1",
+              "published_at": "2026-03-10T02:25:33Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🆕 New Features\r\n- #7109 feat: fluxer notification provider (Thanks @letruxux)\r\n- #7096 feat: set process.title to uptime-kuma (Thanks @Hill-98)\r\n\r\n### 🐞 Bug Fixes\r\n- #7121 fix: isParentActive return type to boolean (Thanks @terisikk)\r\n- #7110 fix(ui): fix fluxer input styling; make discord input hidden (Thanks @letruxux)\r\n- #6915 fix: removal of uptime ratio and avg. response time from prometheus metrics (Thanks @tr4nt0r)\r\n- #7101 fix: revert: remove @aws-sdk, @azure packages \r\n\r\n### ⬆️ Security Fixes\r\nGHSA-v832-4r73-wx5j - Another Server-side Template Injection (SSTI) in Notification Templates Allows Arbitrary File Read (fixed in upstream dependency LiquidJS, also see: https://github.com/harttle/liquidjs/security/advisories/GHSA-wmfp-5q7x-987x)\r\n\r\n### 🦎 Translation Contributions\r\n- #7119 #7099 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @cyril59310 @dodog @fabianovich @krmu @letruxux @maxisimonazzi @MrEddX)\r\n\r\n### Others\r\n- #7120 #7100 chore: Update dependencies \r\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "cfdbe59",
+            "branch": "npm-update",
+            "date": "2026-07-21T00:20:48Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/cfdbe59c2d7239e171b4333b5a39b4f518b27b90"
+          }
         },
         {
           "repo": "henrygd/beszel",
@@ -2524,7 +2117,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23644,
+            "stars": 23645,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
