@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:51:13.245058Z",
+  "generated_at": "2026-07-21T14:54:09.087473Z",
   "groups": [
     {
       "id": "cores",
@@ -233,88 +233,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "5dc9182",
-                  "message": "docs: response headers",
-                  "author": "kastov",
-                  "date": "2026-07-17T21:29:24Z",
-                  "url": "https://github.com/remnawave/panel/commit/5dc9182f62be1fea4db620e18825f666396792ac"
-                },
-                {
-                  "sha": "fc4c62c",
-                  "message": "docs: update typescript sdk",
-                  "author": "kastov",
-                  "date": "2026-07-13T20:15:33Z",
-                  "url": "https://github.com/remnawave/panel/commit/fc4c62c436e963bf82f8da1f4f3d03ba7981cefa"
-                },
-                {
-                  "sha": "6fc8ca0",
-                  "message": "docs: update HWID validation regex to include '=' character in device limit documentation",
-                  "author": "kastov",
-                  "date": "2026-07-06T19:38:44Z",
-                  "url": "https://github.com/remnawave/panel/commit/6fc8ca0720333252977d0e3f5c1c091897830408"
-                },
-                {
-                  "sha": "66a3835",
-                  "message": "docs: update HWID validation length in device limit documentation",
-                  "author": "kastov",
-                  "date": "2026-07-06T19:19:26Z",
-                  "url": "https://github.com/remnawave/panel/commit/66a3835155bc4e085097e1a23aadcda199eb0e58"
-                },
-                {
-                  "sha": "7b10022",
-                  "message": "docs: add HWID format validation details to device limit documentation",
-                  "author": "kastov",
-                  "date": "2026-07-06T19:14:49Z",
-                  "url": "https://github.com/remnawave/panel/commit/7b1002264bdab19d58b7b5833d6002d0ea5c3924"
-                }
-              ]
+              "name": "v2.8.1",
+              "tag": "2.8.1",
+              "url": "https://github.com/remnawave/panel/releases/tag/2.8.1",
+              "published_at": "2026-07-13T19:47:00Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "# 🌊 Remnawave v2.8.1\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.8.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.1-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.8.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.8.1)\n- [Compare changes (2.8.0...2.8.1)](https://github.com/remnawave/frontend/compare/2.8.0...2.8.1)\n\n---\n\n## 🖥️ Backend v2.8.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.1-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.8.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.8.1)\n- [Compare changes (2.8.0...2.8.1)](https://github.com/remnawave/backend/compare/2.8.0...2.8.1)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.8.1\nghcr.io/remnawave/backend:2.8.1\n```\n"
             },
             {
-              "name": "releases",
-              "commits": [
-                {
-                  "sha": "4f32e6b",
-                  "message": "Release v2.8.1",
-                  "author": "github-actions[bot]",
-                  "date": "2026-07-13T19:46:56Z",
-                  "url": "https://github.com/remnawave/panel/commit/4f32e6b2c88273b38730b4fa64fc8dbfa361c963"
-                },
-                {
-                  "sha": "7e00fa3",
-                  "message": "Release v2.8.0",
-                  "author": "github-actions[bot]",
-                  "date": "2026-06-29T16:11:25Z",
-                  "url": "https://github.com/remnawave/panel/commit/7e00fa328015feb7aeb00d5d59f29fa8d307c7f4"
-                },
-                {
-                  "sha": "610aac3",
-                  "message": "Release v2.7.4",
-                  "author": "github-actions[bot]",
-                  "date": "2026-03-30T00:24:24Z",
-                  "url": "https://github.com/remnawave/panel/commit/610aac3455c5b466dc17ee4d5ef2096aa7fe2596"
-                },
-                {
-                  "sha": "a486d4d",
-                  "message": "Release v2.7.3",
-                  "author": "github-actions[bot]",
-                  "date": "2026-03-29T22:26:19Z",
-                  "url": "https://github.com/remnawave/panel/commit/a486d4df431427e5ee52793ed32617467a63d7c6"
-                },
-                {
-                  "sha": "9670284",
-                  "message": "Release v2.7.2",
-                  "author": "github-actions[bot]",
-                  "date": "2026-03-28T16:27:43Z",
-                  "url": "https://github.com/remnawave/panel/commit/96702840bfeda54332a54d0c147c00ce9bb4ee19"
-                }
-              ]
+              "name": "v2.8.0",
+              "tag": "2.8.0",
+              "url": "https://github.com/remnawave/panel/releases/tag/2.8.0",
+              "published_at": "2026-06-29T16:11:31Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "# 🌊 Remnawave v2.8.0\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.8.0\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.0-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.8.0)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.8.0)\n- [Compare changes (2.7.4...2.8.0)](https://github.com/remnawave/frontend/compare/2.7.4...2.8.0)\n\n---\n\n## 🖥️ Backend v2.8.0\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.0-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.8.0)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.8.0)\n- [Compare changes (2.7.4...2.8.0)](https://github.com/remnawave/backend/compare/2.7.4...2.8.0)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.8.0\nghcr.io/remnawave/backend:2.8.0\n```\n"
+            },
+            {
+              "name": "v2.7.4",
+              "tag": "2.7.4",
+              "url": "https://github.com/remnawave/panel/releases/tag/2.7.4",
+              "published_at": "2026-03-30T00:24:27Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "# 🌊 Remnawave v2.7.4\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.4\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.4-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.4)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.4)\n- [Compare changes (2.7.3...2.7.4)](https://github.com/remnawave/frontend/compare/2.7.3...2.7.4)\n\n---\n\n## 🖥️ Backend v2.7.4\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.4-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.4)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.4)\n- [Compare changes (2.7.3...2.7.4)](https://github.com/remnawave/backend/compare/2.7.3...2.7.4)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.4\nghcr.io/remnawave/backend:2.7.4\n```\n"
+            },
+            {
+              "name": "v2.7.3",
+              "tag": "2.7.3",
+              "url": "https://github.com/remnawave/panel/releases/tag/2.7.3",
+              "published_at": "2026-03-29T22:26:22Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "# 🌊 Remnawave v2.7.3\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.3\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.3-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.3)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.3)\n- [Compare changes (2.7.2...2.7.3)](https://github.com/remnawave/frontend/compare/2.7.2...2.7.3)\n\n---\n\n## 🖥️ Backend v2.7.3\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.3-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.3)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.3)\n- [Compare changes (2.7.2...2.7.3)](https://github.com/remnawave/backend/compare/2.7.2...2.7.3)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.3\nghcr.io/remnawave/backend:2.7.3\n```\n"
+            },
+            {
+              "name": "v2.7.2",
+              "tag": "2.7.2",
+              "url": "https://github.com/remnawave/panel/releases/tag/2.7.2",
+              "published_at": "2026-03-28T16:27:46Z",
+              "prerelease": false,
+              "author": "kastov",
+              "body": "# 🌊 Remnawave v2.7.2\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/frontend/compare/2.7.1...2.7.2)\n\n---\n\n## 🖥️ Backend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/backend/compare/2.7.1...2.7.2)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.2\nghcr.io/remnawave/backend:2.7.2\n```\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "5dc9182",
+            "branch": "main",
+            "date": "2026-07-17T21:29:24Z",
+            "url": "https://github.com/remnawave/panel/commit/5dc9182f62be1fea4db620e18825f666396792ac"
+          }
         },
         {
           "repo": "remnawave/node",
@@ -503,59 +474,208 @@
             "avatar": "https://avatars.githubusercontent.com/u/56764046?v=4",
             "owner": "coolcoala"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "1.3.1",
-              "tag": "1.3.1",
-              "url": "https://github.com/coolcoala/koala-clash/releases/tag/1.3.1",
-              "published_at": "2026-05-12T02:34:55Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## 1.3.1\n\n- fixed system proxy\n- fixed bug from issue #89\n### Download link：\n\n#### Windows 10/11：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_x64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_arm64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\n#### macOS 11+：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_x64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Intel\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_arm64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Apple%20Silicon\"\u003e\u003c/a\u003e\n\n\n#### Linux：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_x86_64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_aarch64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_x64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.1/Koala.Clash_aarch64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=ARM64\"\u003e\u003c/a\u003e"
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "ac99277",
+                  "message": "v1.0.2",
+                  "author": "coolcoala",
+                  "date": "2026-03-03T17:36:37Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/ac99277c37c5be88cc9751d6c99be049c4eb8f5e"
+                },
+                {
+                  "sha": "38691e6",
+                  "message": "fixed profile logo",
+                  "author": "coolcoala",
+                  "date": "2026-03-03T17:35:43Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/38691e6bbae10ca7a62b8c5d2e1abc2f4c617a1a"
+                },
+                {
+                  "sha": "497b5bd",
+                  "message": "changed README.md",
+                  "author": "coolcoala",
+                  "date": "2026-03-03T17:35:22Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/497b5bda31251cc85610343ae06c770a3903fbf3"
+                },
+                {
+                  "sha": "54176b0",
+                  "message": "fix changelog",
+                  "author": "coolcoala",
+                  "date": "2026-03-03T14:50:33Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/54176b0071915f4d7a7f211c4a5fddb045917336"
+                },
+                {
+                  "sha": "68699e2",
+                  "message": "fix errors in typecheck",
+                  "author": "coolcoala",
+                  "date": "2026-03-03T14:50:19Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/68699e2e24c235155673179b5e8e2cb85230155a"
+                }
+              ]
             },
             {
-              "name": "pre-release",
-              "tag": "pre-release",
-              "url": "https://github.com/coolcoala/koala-clash/releases/tag/pre-release",
-              "published_at": "2026-03-03T20:20:04Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## 1.3.1\n\n- fixed system proxy\n- fixed bug from issue #89"
+              "name": "docs",
+              "commits": [
+                {
+                  "sha": "ad60552",
+                  "message": "update version to 1.1.0",
+                  "author": "github-actions[bot]",
+                  "date": "2026-03-18T01:59:44Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/ad6055271511a433aef2e670c98ba7dca9d46e6c"
+                },
+                {
+                  "sha": "7006d6c",
+                  "message": "added the ability to expand groups when opening a proxy page",
+                  "author": "coolcoala",
+                  "date": "2026-03-18T01:50:47Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/7006d6c398bb50e5b83b3caa9585682a19f83420"
+                },
+                {
+                  "sha": "cb2a6e9",
+                  "message": "added download profile logo for avoid dispay issues",
+                  "author": "coolcoala",
+                  "date": "2026-03-18T01:18:15Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/cb2a6e997be7fa038be218cd6e378068c7fb976c"
+                },
+                {
+                  "sha": "d9df48c",
+                  "message": "added pause logs when autoscroll disabled",
+                  "author": "coolcoala",
+                  "date": "2026-03-18T00:59:56Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/d9df48c0a94e1b0ae742862313c8bd5ce7314443"
+                },
+                {
+                  "sha": "c0f6fe0",
+                  "message": "fixed height for proxy selector",
+                  "author": "coolcoala",
+                  "date": "2026-03-18T00:28:32Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/c0f6fe05b8db6e21506089db99d1c304425bcade"
+                }
+              ]
             },
             {
-              "name": "1.3.0",
-              "tag": "1.3.0",
-              "url": "https://github.com/coolcoala/koala-clash/releases/tag/1.3.0",
-              "published_at": "2026-05-11T06:04:44Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## 1.3.0\n\n- new update notifier\n- improved ui on proxies page\n- added default values for route-exclude-address\n- added headers for hiding global mode and downloading custom css\n- added yaml view in rules editor\n- improved hwid (for Remnawave v2.8.0)\n- fix setup public dns on macos\n- added translations in monaco editor\n- fixed ui for overrided GLOBAL selector\n### Download link：\n\n#### Windows 10/11：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_x64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_arm64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\n#### macOS 11+：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_x64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Intel\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_arm64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Apple%20Silicon\"\u003e\u003c/a\u003e\n\n\n#### Linux：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_x86_64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_aarch64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_x64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.3.0/Koala.Clash_aarch64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=ARM64\"\u003e\u003c/a\u003e"
+              "name": "feature/aur-publish",
+              "commits": [
+                {
+                  "sha": "abbe9f8",
+                  "message": "Add AUR publish workflow for automated package updates",
+                  "author": "Ivan Kolesnikov",
+                  "date": "2026-06-10T15:16:07Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/abbe9f839f05186076356c99d6b9d91e3b8b8ef3"
+                },
+                {
+                  "sha": "0e45a23",
+                  "message": "Update AUR publish workflow to use GitHub Actions bot email",
+                  "author": "Ivan Kolesnikov",
+                  "date": "2026-06-10T06:54:00Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/0e45a23485c0dc08e013e41b6b17b14dd11e94fc"
+                },
+                {
+                  "sha": "c1a3be3",
+                  "message": "Add AUR publish workflow to automate package updates",
+                  "author": "Ivan Kolesnikov",
+                  "date": "2026-06-10T06:51:52Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/c1a3be3089e5279e5c9a298f576624ebe7c0fd37"
+                },
+                {
+                  "sha": "7980927",
+                  "message": "update version to 1.3.1",
+                  "author": "github-actions[bot]",
+                  "date": "2026-05-12T02:33:59Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/79809279b5431e84313633a9ba39e8e5741ca003"
+                },
+                {
+                  "sha": "afde773",
+                  "message": "Update changelog.md",
+                  "author": "coolcoala",
+                  "date": "2026-05-12T02:21:41Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/afde773ce27bfb6e54588d5e0bbc8444c6862e1d"
+                }
+              ]
             },
             {
-              "name": "1.2.0",
-              "tag": "1.2.0",
-              "url": "https://github.com/coolcoala/koala-clash/releases/tag/1.2.0",
-              "published_at": "2026-04-21T02:14:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## 1.2.0\n\n- reduced memory usage\n- fix problem with deeplink alert after restart with autostart enabled\n- implement hot reloading config\n- fix bug with adding a rule at the end\n- fixed an issue with retrieving data via a proxy\n- fixed an issue with profile updates (please test)\n- ui fixes\n- other optimizations\n### Download link：\n\n#### Windows 10/11：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_x64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_arm64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\n#### macOS 11+：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_x64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Intel\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_arm64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Apple%20Silicon\"\u003e\u003c/a\u003e\n\n\n#### Linux：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_x86_64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_aarch64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_x64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.2.0/Koala.Clash_aarch64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=ARM64\"\u003e\u003c/a\u003e"
+              "name": "legacy",
+              "commits": [
+                {
+                  "sha": "5a0e6b3",
+                  "message": "v0.2.10",
+                  "author": "coolcoala",
+                  "date": "2026-01-27T03:59:33Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/5a0e6b3f80285946d5840ccdd000607fb5e410d5"
+                },
+                {
+                  "sha": "130d1bf",
+                  "message": "updated UPDATELOG.md",
+                  "author": "coolcoala",
+                  "date": "2026-01-27T03:58:47Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/130d1bfaca64f8189d8143b48647f3543551cbe0"
+                },
+                {
+                  "sha": "551f57e",
+                  "message": "fix homepage",
+                  "author": "coolcoala",
+                  "date": "2026-01-27T03:57:37Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/551f57e3ce86e8dbc7ebcb1d3aa0ee77c5b9d384"
+                },
+                {
+                  "sha": "732ddd2",
+                  "message": "format code",
+                  "author": "coolcoala",
+                  "date": "2026-01-27T03:54:12Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/732ddd22e2855761e063e3c9f7bdcc73ed9c6dbc"
+                },
+                {
+                  "sha": "9e87321",
+                  "message": "v0.2.9",
+                  "author": "coolcoala",
+                  "date": "2026-01-18T09:14:51Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/9e87321c612d3977acaae508548dfcf7cc49618c"
+                }
+              ]
             },
             {
-              "name": "1.1.1",
-              "tag": "1.1.1",
-              "url": "https://github.com/coolcoala/koala-clash/releases/tag/1.1.1",
-              "published_at": "2026-04-16T01:16:49Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "# Changelog\n - Merge remote-tracking branch 'origin/main'\n - minor ui fix\n - fix working ports without enabled sysproxy\n - minor ui fix\n - fixed rendering bug\n - fixed an issue where the proxy could not be disabled when switching to a different mode in the settings\n - minor ui improvements\n - fix white screen\n - fix memory leak\n - Update .gitignore\n - improve update button\n\n### Download link：\n\n#### Windows10/11：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/EXE-default?style=flat\u0026logo=windows\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\n#### macOS 11+：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Intel\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.pkg\"\u003e\u003cimg src=\"https://img.shields.io/badge/PKG-default?style=flat\u0026logo=apple\u0026label=Apple%20Silicon\"\u003e\u003c/a\u003e\n\n\n#### Linux：\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x86_64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-default?style=flat\u0026logo=linux\u0026label=ARM64\"\u003e\u003c/a\u003e\n\n\u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_x64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=64-bit\"\u003e\u003c/a\u003e \u003ca href=\"https://github.com/coolcoala/koala-clash/releases/download/1.1.1/Koala.Clash_aarch64.pkg.tar.xz\"\u003e\u003cimg src=\"https://img.shields.io/badge/PACMAN-default?style=flat\u0026logo=archlinux\u0026label=ARM64\"\u003e\u003c/a\u003e"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "7980927",
+                  "message": "update version to 1.3.1",
+                  "author": "github-actions[bot]",
+                  "date": "2026-05-12T02:33:59Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/79809279b5431e84313633a9ba39e8e5741ca003"
+                },
+                {
+                  "sha": "afde773",
+                  "message": "Update changelog.md",
+                  "author": "coolcoala",
+                  "date": "2026-05-12T02:21:41Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/afde773ce27bfb6e54588d5e0bbc8444c6862e1d"
+                },
+                {
+                  "sha": "3991982",
+                  "message": "fix #89",
+                  "author": "coolcoala",
+                  "date": "2026-05-12T02:17:05Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/399198251db3c18cef26e1edadb1732cf4c68033"
+                },
+                {
+                  "sha": "c61643f",
+                  "message": "bugfix for sysproxy",
+                  "author": "coolcoala",
+                  "date": "2026-05-12T02:11:51Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/c61643f5a21cfcc85aad01014294bacb490ac6e3"
+                },
+                {
+                  "sha": "c9d55d4",
+                  "message": "update version to 1.3.0",
+                  "author": "github-actions[bot]",
+                  "date": "2026-05-11T06:03:51Z",
+                  "url": "https://github.com/coolcoala/koala-clash/commit/c9d55d425567a506bee5810cf1e9056800fcf52b"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "abbe9f8",
-            "branch": "feature/aur-publish",
-            "date": "2026-06-10T15:16:07Z",
-            "url": "https://github.com/coolcoala/koala-clash/commit/abbe9f839f05186076356c99d6b9d91e3b8b8ef3"
-          }
+          ]
         },
         {
           "repo": "pluralplay/FlClashX",
