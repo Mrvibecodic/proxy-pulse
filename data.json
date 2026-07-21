@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T14:45:18.215395Z",
+  "generated_at": "2026-07-21T14:48:16.639093Z",
   "groups": [
     {
       "id": "cores",
@@ -746,208 +746,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "deeplink",
-              "commits": [
-                {
-                  "sha": "7a83000",
-                  "message": "refactor: fetch built-in remote route profiles via deep link",
-                  "author": "parhelia512",
-                  "date": "2026-07-20T23:25:04Z",
-                  "url": "https://github.com/throneproj/Throne/commit/7a8300095d254731f0c8ce9fea017a09c25f3485"
-                },
-                {
-                  "sha": "f6dbb4b",
-                  "message": "feat: update deep-link schemes",
-                  "author": "parhelia512",
-                  "date": "2026-07-19T15:07:01Z",
-                  "url": "https://github.com/throneproj/Throne/commit/f6dbb4ba647e6ab28eabd1dfa2b2a7be65ff4ac0"
-                },
-                {
-                  "sha": "d0e1177",
-                  "message": "improve context menus",
-                  "author": "Nova",
-                  "date": "2026-07-19T07:31:43Z",
-                  "url": "https://github.com/throneproj/Throne/commit/d0e1177b48819261f5c9d4b7768905839040d295"
-                },
-                {
-                  "sha": "d843831",
-                  "message": "fix UI issues on small displays",
-                  "author": "Nova",
-                  "date": "2026-07-18T19:54:51Z",
-                  "url": "https://github.com/throneproj/Throne/commit/d843831df3a633efa73d5c3a7a91c3377dc67a45"
-                },
-                {
-                  "sha": "29c2a24",
-                  "message": "remove glow effect",
-                  "author": "Nova",
-                  "date": "2026-07-18T18:39:48Z",
-                  "url": "https://github.com/throneproj/Throne/commit/29c2a247ba5a78f0712d03b55a437155e9833de3"
-                }
-              ]
+              "name": "1.2.0-beta.7",
+              "tag": "1.2.0-beta.7",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.7",
+              "published_at": "2026-07-20T20:33:49Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Disable strict route by default\r\n* Fix Xray full config issues\r\n* Add softPink theme\r\n* Use Google DoH as default remote DNS\r\n* Improve context menus\r\n* Update deep-link schemas\r\n* Add security view to Proxy Table\r\n* Add `Remove Insecure configs` menu action\r\n* Fixes and Improvements\r\n"
             },
             {
-              "name": "dev",
-              "commits": [
-                {
-                  "sha": "681f973",
-                  "message": "fix linux build",
-                  "author": "parhelia512",
-                  "date": "2026-07-21T00:08:14Z",
-                  "url": "https://github.com/throneproj/Throne/commit/681f97344cbba0342625a3e135f6cd681f3d4def"
-                },
-                {
-                  "sha": "4eeef23",
-                  "message": "refactor: fetch built-in remote route profiles via deep link",
-                  "author": "parhelia512",
-                  "date": "2026-07-20T23:25:04Z",
-                  "url": "https://github.com/throneproj/Throne/commit/4eeef2310c66df6d08b6b097273dd0b6f87fa943"
-                },
-                {
-                  "sha": "cd7cb25",
-                  "message": "add security to config types \u0026\u0026",
-                  "author": "Nova",
-                  "date": "2026-07-20T16:37:30Z",
-                  "url": "https://github.com/throneproj/Throne/commit/cd7cb259ff4066c04a94be9c128297e9ae5c9a72"
-                },
-                {
-                  "sha": "45c4921",
-                  "message": "update amenzia",
-                  "author": "Nova",
-                  "date": "2026-07-20T12:08:38Z",
-                  "url": "https://github.com/throneproj/Throne/commit/45c492135555378ff9d47c7fe848203994499bf9"
-                },
-                {
-                  "sha": "e7eb043",
-                  "message": "feat: update deep-link schemes (#1655)",
-                  "author": "parhelia512",
-                  "date": "2026-07-20T10:38:59Z",
-                  "url": "https://github.com/throneproj/Throne/commit/e7eb04381b177753674989ba2fec29b7d76b3be0"
-                }
-              ]
+              "name": "1.2.0-beta.6",
+              "tag": "1.2.0-beta.6",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.6",
+              "published_at": "2026-07-13T13:08:10Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Make Full Xray configs testable\r\n* Migrate interface binding and initial DNS resolution of Xray configs to our fork\r\n* Fixes and Improvements"
             },
             {
-              "name": "dev-wayland-hotkey",
-              "commits": [
-                {
-                  "sha": "268bb25",
-                  "message": "disable unity build",
-                  "author": "Nova",
-                  "date": "2026-06-01T15:51:13Z",
-                  "url": "https://github.com/throneproj/Throne/commit/268bb25a9ce28be7b542b5b530cbc41c7216922b"
-                },
-                {
-                  "sha": "458a4ae",
-                  "message": "improve identity across restarts on Linux",
-                  "author": "Nova",
-                  "date": "2026-06-01T15:36:21Z",
-                  "url": "https://github.com/throneproj/Throne/commit/458a4aeacd7e04f07be8ff18b80c227ea82b3640"
-                },
-                {
-                  "sha": "31bd2a8",
-                  "message": "try adding xdg portal hotkey support",
-                  "author": "Nova",
-                  "date": "2026-06-01T10:37:05Z",
-                  "url": "https://github.com/throneproj/Throne/commit/31bd2a8edcf2c129e7f15632c130316287060b7a"
-                },
-                {
-                  "sha": "a23280e",
-                  "message": "improve wireguard ui",
-                  "author": "Nova",
-                  "date": "2026-06-01T09:25:07Z",
-                  "url": "https://github.com/throneproj/Throne/commit/a23280ec29af6fdd2e2b90703b0913b2e9ca2465"
-                },
-                {
-                  "sha": "347c895",
-                  "message": "fix wiregaurd addresses after import",
-                  "author": "Nova",
-                  "date": "2026-05-31T20:18:33Z",
-                  "url": "https://github.com/throneproj/Throne/commit/347c8956ea750de3c73a4062f49356f0efb57997"
-                }
-              ]
+              "name": "1.2.0-beta.5",
+              "tag": "1.2.0-beta.5",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.5",
+              "published_at": "2026-07-10T11:50:06Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add runtime stats Widget\r\n* Add full Xray JSON array subscription support\r\n* Use widgets for Tray server/routing profile selection\r\n* Fixes and Improvements"
             },
             {
-              "name": "stable",
-              "commits": [
-                {
-                  "sha": "1a0fa45",
-                  "message": "fix traffic looper issues with chains",
-                  "author": "Nova",
-                  "date": "2026-05-21T06:18:47Z",
-                  "url": "https://github.com/throneproj/Throne/commit/1a0fa45dd41cb2df8c0205c363844d34470aeb95"
-                },
-                {
-                  "sha": "799dbc4",
-                  "message": "also check the passed socket to belong to the parent on core",
-                  "author": "Nova",
-                  "date": "2026-05-19T22:08:28Z",
-                  "url": "https://github.com/throneproj/Throne/commit/799dbc42533644a34fd7571479056948f3a6f920"
-                },
-                {
-                  "sha": "12cfc89",
-                  "message": "improve group ui performance",
-                  "author": "Nova",
-                  "date": "2026-05-19T21:41:45Z",
-                  "url": "https://github.com/throneproj/Throne/commit/12cfc89b0b520e54d4d835e5508665e7fa767093"
-                },
-                {
-                  "sha": "4bf46dc",
-                  "message": "fix direct/proxy dns rule regression",
-                  "author": "Nova",
-                  "date": "2026-05-19T18:47:33Z",
-                  "url": "https://github.com/throneproj/Throne/commit/4bf46dcfd99f09d648551e451d2ed7f32e0b4673"
-                },
-                {
-                  "sha": "74a026d",
-                  "message": "fix chain context leak in build",
-                  "author": "Nova",
-                  "date": "2026-05-19T18:30:00Z",
-                  "url": "https://github.com/throneproj/Throne/commit/74a026d5c9034406cd04de211a30ab1dd90293e0"
-                }
-              ]
+              "name": "1.2.0-beta.4",
+              "tag": "1.2.0-beta.4",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.4",
+              "published_at": "2026-07-05T11:29:55Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Refactor context menus\r\n* Improve Start/Stop button (Thanks @renkagod)\r\n* Allow disabling the traffic stats feature\r\n* Add remote route profile support **1**\r\n* Fix sub update logic **2**\r\n* Fix mieru Link format\r\n* Upgrade Xray core to `v26.6.27`\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nRoute profiles can now be remotely subscribed to, allowing a route profile that gets updated from a remote source. Adding it can be done via [Deeplinks](https://throneproj.github.io/advanced/deeplinks/) as well.\r\n\r\n**2**:\r\nPreviously, periodic jobs would run on an interval starting from the launch time, now they behave properly and trigger once the specified interval value has passed since the last update time."
             },
             {
-              "name": "xhttp",
-              "commits": [
-                {
-                  "sha": "3b737ec",
-                  "message": "Update sing-box dependency version to v1.12.14",
-                  "author": "parhelia512",
-                  "date": "2025-12-30T03:22:05Z",
-                  "url": "https://github.com/throneproj/Throne/commit/3b737ec8cf29e03e4b7d5a09b1f502bdb8ef52e2"
-                },
-                {
-                  "sha": "49ef597",
-                  "message": "improve systemd dns handler",
-                  "author": "Nova",
-                  "date": "2025-12-23T02:36:09Z",
-                  "url": "https://github.com/throneproj/Throne/commit/49ef597af59037aae6740a0644ad6c885ea58055"
-                },
-                {
-                  "sha": "1adee51",
-                  "message": "Directly import our fork for clash2sing",
-                  "author": "Nova",
-                  "date": "2025-12-04T21:58:52Z",
-                  "url": "https://github.com/throneproj/Throne/commit/1adee517b46694009771598c49b484f0838b3bfe"
-                },
-                {
-                  "sha": "4a12252",
-                  "message": "force using xcb platform plugin on linux",
-                  "author": "parhelia512",
-                  "date": "2025-12-30T01:01:17Z",
-                  "url": "https://github.com/throneproj/Throne/commit/4a122520c8358591569f388754b82640b28cc762"
-                },
-                {
-                  "sha": "30a1cc5",
-                  "message": "fix orphan profile deletion",
-                  "author": "Nova",
-                  "date": "2025-12-23T03:05:48Z",
-                  "url": "https://github.com/throneproj/Throne/commit/30a1cc566d8f5c98349e9c10b8d83ff30beb9335"
-                }
-              ]
+              "name": "1.2.0-beta.3",
+              "tag": "1.2.0-beta.3",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.3",
+              "published_at": "2026-06-26T04:38:58Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Fix testing current with default routing outbound direct using the wrong outbound\r\n* Make sniff and hijack-dns always on\r\n* Show current speed in connections Tab\r\n* Use Xray for reality by default and allow importing all VLESS in Xray\r\n* Update Sing-box to `v1.13.14`\r\n* System Tray menu improvements (Thanks @renkagod)\r\n* Add Mieru protocol support\r\n* Fixes and Improvements"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "681f973",
+            "branch": "dev",
+            "date": "2026-07-21T00:08:14Z",
+            "url": "https://github.com/throneproj/Throne/commit/681f97344cbba0342625a3e135f6cd681f3d4def"
+          }
         }
       ]
     },
@@ -1136,59 +987,448 @@
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "2.4.0",
-              "tag": "2.4.0",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.4.0",
-              "published_at": "2026-05-31T00:55:12Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7434 feat(notification): add EgoSMS SMS provider for Uganda (Thanks @kristianinc @cursoragent)\r\n- #7420 feat: Add incidents to RSS (Thanks @dj-tuxis)\r\n- #7365 feat: Add VKTeams bot notification provider (Thanks @aleshasam)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7433 feat: add optional token field for gamedig monitors (Thanks @aminoacidity)\r\n- #7415 feat: Adding bearer token  (Thanks @aminoacidity @nyeswant)\r\n- #7431 fix: Add bearer token support to WebSocket upgrade monitor (Thanks @aminoacidity @nyeswant)\r\n- #7373 fix: update link to documentation about API keys (Thanks @eleanordoesntcode)\r\n\r\n### 🐞 Bug Fixes\r\n- ~#7453 fix(docker-only): add Let's Encrypt Gen Y root certificates~ (Please ignore this change)\r\n- #7451 fix: handling npm 11.16.0 \r\n- #7351 fix: NTLM monitor over plain HTTP fails with 400 Bad Request (Thanks @karzac)\r\n\r\n### ⬆️ Security Fixes\r\n-  (Admin only/Authenticated only) Fix: LiquidJS is Vulnerable to Remote Code Execution, a vulnerability from an upstream dependency. In Uptime Kuma, LiquidJS should be used in notification template. (https://github.com/advisories/GHSA-gf2q-c269-pqgc)\r\n\r\n### 🦎 Translation Contributions\r\n- #7366 #7353 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @Arden-Ahmad @bartoostveen @cyril59310 @dodog @Gringit @helakostain @ivanbratovic @Jumala9163 @Kf637 @master3395 @MrEddX @OnyxOracle @PolarniMeda @samsilveira @toniv90 @ttymayor @Virenbar @xuantan97)\r\n\r\n### Others\r\n- #7432 chore: Implement dev data directory handling for non-master branches \r\n- #7390 fix: normalize hidden log level lookup (Thanks @aqilaziz)"
+              "name": "1.23.X",
+              "commits": [
+                {
+                  "sha": "e419433",
+                  "message": "Change hostname for group mail notification (#6253)",
+                  "author": "Max Michels",
+                  "date": "2025-10-25T09:52:12Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/e419433ae4907d9373e4fd53d99d595b9aa334b6"
+                },
+                {
+                  "sha": "40ec715",
+                  "message": "Update to 1.23.17",
+                  "author": "Louis Lam",
+                  "date": "2025-10-20T14:18:19Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/40ec7158534a28e6f8b431a628c53133c327c539"
+                },
+                {
+                  "sha": "8525f2f",
+                  "message": "[1.23.X] Maintenance and dependencies update (#6169)",
+                  "author": "Louis Lam",
+                  "date": "2025-10-08T23:26:31Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/8525f2f8efb4d82eda5cb8e9c6840bf6da77de51"
+                },
+                {
+                  "sha": "5bb329f",
+                  "message": "Update to 1.23.16",
+                  "author": "Louis Lam",
+                  "date": "2024-12-20T07:15:52Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/5bb329fa0e8af9395911f33d5a6d6bb9b128c0f7"
+                },
+                {
+                  "sha": "09dedc0",
+                  "message": "[1.23.X] Update dependencies (#5455)",
+                  "author": "Louis Lam",
+                  "date": "2024-12-20T07:11:24Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/09dedc07fb25bbbd7114ad31009cfaedfa895a3f"
+                }
+              ]
             },
             {
-              "name": "2.3.2",
-              "tag": "2.3.2",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.2",
-              "published_at": "2026-05-03T16:15:29Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #7346 fix: Revert back from multiple connection to single connection for SQLite by default \r\n\r\n"
+              "name": "2.2.X",
+              "commits": [
+                {
+                  "sha": "e31ef63",
+                  "message": "feat: Adds support for ntfy's phone call feature (#6640)",
+                  "author": "Erik Benoist",
+                  "date": "2026-01-08T00:16:49Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/e31ef63b013785f392bc9d3b57483b38c1bdc629"
+                },
+                {
+                  "sha": "d053039",
+                  "message": "feat: add `UPTIME_KUMA_DB_PASSWORD_FILE` and `UPTIME_KUMA_DB_USERNAME_FILE` for docker secrets control (#6629)",
+                  "author": "Pegasus",
+                  "date": "2026-01-07T04:38:38Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d05303963d48224853eae5e8c9b040c134945fc3"
+                },
+                {
+                  "sha": "41233b6",
+                  "message": "chore(ci): try using the `spec` test reporter instead of `tab` (#6632)",
+                  "author": "Frank Elsinga",
+                  "date": "2026-01-07T04:28:46Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/41233b6445212988eaa7842e05dad059454f7f44"
+                },
+                {
+                  "sha": "d707271",
+                  "message": "chore: remove unused jest config (#6631)",
+                  "author": "Frank Elsinga",
+                  "date": "2026-01-07T04:15:56Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d707271de71c1f06740760ec3ee79c3fb2ed2779"
+                },
+                {
+                  "sha": "5c2b659",
+                  "message": "chore: Add validation for retryInterval in Monitor.validate() (#6628)",
+                  "author": "Angel98518",
+                  "date": "2026-01-07T03:36:30Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/5c2b659f297034060819146de3f908236cf0a829"
+                }
+              ]
             },
             {
-              "name": "2.3.1",
-              "tag": "2.3.1",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.1",
-              "published_at": "2026-05-03T13:40:11Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #7307 fix: Add `busy_timeout` to sqlite to avoid error `SQLITE_BUSY: database is locked` (Thanks @wagnerand)\r\n\r\n### Others\r\n- #7340 chore: Update dependencies \r\n- #7345 chore: update to 2.3.1\r\n- #7344 fix(push): use multi-arch Node base in push image Dockerfile (Thanks @herwinz)\r\n"
+              "name": "3.0.X",
+              "commits": [
+                {
+                  "sha": "7753d95",
+                  "message": "fix: some scripts did not migrate to loadEnvFile",
+                  "author": "Louis Lam",
+                  "date": "2026-07-16T05:30:18Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/7753d953777ca055da310d35c1efe92468c0bab0"
+                },
+                {
+                  "sha": "6ee755b",
+                  "message": "Remove CNAME",
+                  "author": "Louis Lam",
+                  "date": "2026-07-16T04:52:15Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/6ee755b883c744f168d44f28477e313a146ad55c"
+                },
+                {
+                  "sha": "55e07cf",
+                  "message": "chore: Update vite to 8 (#7600)",
+                  "author": "Louis Lam",
+                  "date": "2026-07-16T04:42:31Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/55e07cf42a8174658b6a8278ccc481c129837699"
+                },
+                {
+                  "sha": "9998be2",
+                  "message": "feat: Better Auth Implementation (#6276)",
+                  "author": "Louis Lam",
+                  "date": "2026-07-15T14:16:37Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/9998be2aade818b978d309b8f65ac9874b4facc3"
+                },
+                {
+                  "sha": "be51de4",
+                  "message": "fix: [3.0.X] Migrate to better-sqlite (#7568)",
+                  "author": "Louis Lam",
+                  "date": "2026-07-04T10:13:25Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/be51de4e73184420095a7784bce3e67258a8cafb"
+                }
+              ]
             },
             {
-              "name": "2.3.0",
-              "tag": "2.3.0",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.0",
-              "published_at": "2026-05-01T04:01:17Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### ⚠️ Breaking changes\r\n- #7194 fix: Revert \"add sorting to status pages\"\r\n  - No more sorting feature in status pages.\r\n  - Due to bad performance.\r\n- #7312 fix(database): add `UPTIME_KUMA_SQLITE_SINGLE_CONNECTION`\r\n  - For Raspberry Pi users, you may have to set it to `true` to avoid SQLite locking issues. \r\n  - Mainly affected Raspberry Pi users only, you can ignore it if you are not using devices like Raspberry Pi.\r\n\r\n### 🆕 New Features\r\n- #7304 feat: websocket improve to fix issue #7268 including support authentication (Thanks @sofia-fernandez-six)\r\n- #7207 feat(notification): add custom message template support for Evolution provider (Thanks @kbrianps)\r\n- #7201 feat: add Telnyx messaging provider (Thanks @LuvForAirplanes)\r\n- #7182 feat: Add VK notification provider (Thanks @FunNikita)\r\n- #7160 feat: Add MAX messenger notification provider (Thanks @Redleks)\r\n- #7156 feat: add OracleDB monitor (Thanks @sitiom)\r\n- #7154 feat: add collapsible groups to status page (Thanks @marco-carvalho)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n- #7303 feat(ui): add a helptext that RTT for the ping monitor is not avaliable on linux (Thanks @stchigel)\r\n- #7300 feat(ux): changed warning msg (Thanks @hemanth5544)\r\n- #7128 fix: Update Home Assistant notification help text for HA 2024 Services→Actions rename (Thanks @tr4nt0r)\r\n\r\n### 🐞 Bug Fixes\r\n\r\n- #7248 fix(notification): check for monitorJSON in Stackfield provider (Thanks @jlbrt)\r\n- #7166 fix: Handle SSL in setup database temp server \r\n- #7235 fix(uptime): ensure correct handling of missing time buckets in uptime calculations (Thanks @adrianceding)\r\n- #7221 fix(notification): ensure applyExisting is not saved to database \r\n- #7198 fix: Domain expiry doesn't seem to update #7189 (Thanks @shanto)\r\n- #7155 fix: propagate create errors (Thanks @otbutz)\r\n- #7159 fix: monitor graph gaps for sub-millisecond TCP pings (Thanks @0xRozier)\r\n- #7125 fix: prometheus metrics have two series for a single monitor when that monitor has tags (Thanks @nicjansma)\r\n\r\n### 🦎 Translation Contributions\r\n- #7108 feat: Add English (United Kingdom) language support (Thanks @andibing)\r\n- #7292 #7197 #7132 chore: Translations Update from Weblate (Thanks @aindriu80 @Ale1x @Aluisio @andibing @AnnAngela @CammarataLudovico @cyril59310 @dodog @efenow @fcordeiro @firedur @FunNikita @Gringit @Hamstio1 @helakostain @ivanbratovic @kevinheyer-dev @mlopezcoria @Mo7amm1d @MrEddX @numarkpro @Redleks @rodis120 @samsilveira @thisisjaymehta @ttymayor @Virenbar @wibe01204 @Zeromskas)\r\n\r\n### Others\r\n- #7317 #7195 #7133 chore: Update dependencies \r\n- #7204 chore: Add agents.md - anti AI slop \r\n- #7146 chore: Add monthly workflow to build `push` Docker image "
+              "name": "api-via-socketio-client",
+              "commits": [
+                {
+                  "sha": "49940a9",
+                  "message": "Add jsonschema",
+                  "author": "Louis Lam",
+                  "date": "2023-10-10T19:18:29Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/49940a9dad2c65d1db64aff6453a871078e4395e"
+                },
+                {
+                  "sha": "5fa2fcb",
+                  "message": "Move port and hostname to the server object",
+                  "author": "Louis Lam",
+                  "date": "2023-10-09T19:15:10Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/5fa2fcb0d937c71d67ee4d7adae6968f69599bf3"
+                },
+                {
+                  "sha": "d4f9ace",
+                  "message": "Add api-spec.json5",
+                  "author": "Louis Lam",
+                  "date": "2023-10-08T00:17:03Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d4f9acee6aa60e8d3785ed30651e6db0e8961bc0"
+                },
+                {
+                  "sha": "6d2f624",
+                  "message": "Update auth and skeleton of wrapper",
+                  "author": "Louis Lam",
+                  "date": "2023-10-07T21:33:08Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/6d2f6242427bdb68478a03ea9fa0d82ae0fc3d40"
+                },
+                {
+                  "sha": "5773eeb",
+                  "message": "Rename `apiAuth` to `basicAuthMiddleware` and it accepts API keys only",
+                  "author": "Louis Lam",
+                  "date": "2023-10-07T18:24:18Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/5773eeb6df0090b9a907a410c6e888d34213e0fd"
+                }
+              ]
             },
             {
-              "name": "2.2.1",
-              "tag": "2.2.1",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.2.1",
-              "published_at": "2026-03-10T02:25:33Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7109 feat: fluxer notification provider (Thanks @letruxux)\r\n- #7096 feat: set process.title to uptime-kuma (Thanks @Hill-98)\r\n\r\n### 🐞 Bug Fixes\r\n- #7121 fix: isParentActive return type to boolean (Thanks @terisikk)\r\n- #7110 fix(ui): fix fluxer input styling; make discord input hidden (Thanks @letruxux)\r\n- #6915 fix: removal of uptime ratio and avg. response time from prometheus metrics (Thanks @tr4nt0r)\r\n- #7101 fix: revert: remove @aws-sdk, @azure packages \r\n\r\n### ⬆️ Security Fixes\r\nGHSA-v832-4r73-wx5j - Another Server-side Template Injection (SSTI) in Notification Templates Allows Arbitrary File Read (fixed in upstream dependency LiquidJS, also see: https://github.com/harttle/liquidjs/security/advisories/GHSA-wmfp-5q7x-987x)\r\n\r\n### 🦎 Translation Contributions\r\n- #7119 #7099 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @cyril59310 @dodog @fabianovich @krmu @letruxux @maxisimonazzi @MrEddX)\r\n\r\n### Others\r\n- #7120 #7100 chore: Update dependencies \r\n"
+              "name": "copilot/change-selected-monitor-color",
+              "commits": [
+                {
+                  "sha": "5045255",
+                  "message": "style: improve selected monitor contrast in dark mode",
+                  "author": "copilot-swe-agent[bot]",
+                  "date": "2026-05-11T12:43:14Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/5045255d8f79d11c80a85f383f6a7bae028da57c"
+                },
+                {
+                  "sha": "153b554",
+                  "message": "Initial plan",
+                  "author": "copilot-swe-agent[bot]",
+                  "date": "2026-05-11T12:26:40Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/153b5549a82a9c9c3f09241e3a2992a8e5a7cf11"
+                },
+                {
+                  "sha": "0c5371a",
+                  "message": "fix: NTLM monitor over plain HTTP fails with 400 Bad Request (#7351)",
+                  "author": "Petr Dvořák",
+                  "date": "2026-05-10T12:15:41Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/0c5371afad4271cbf230d5f6fe2f0dd8a1b0a431"
+                },
+                {
+                  "sha": "3fcddaf",
+                  "message": "fix: update link to documentation about API keys (#7373)",
+                  "author": "éléanore is not coding in the slightest",
+                  "date": "2026-05-09T23:47:22Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/3fcddaf0b7879816ecc0a80fc5d391df2ce4b06a"
+                },
+                {
+                  "sha": "74c43a3",
+                  "message": "feat: Add VKTeams bot notification provider (#7365)",
+                  "author": "Alexey",
+                  "date": "2026-05-08T09:15:46Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/74c43a33f336e246fbb9ca51cd5798d4d77171ce"
+                }
+              ]
+            },
+            {
+              "name": "copilot/remove-duplicate-usetemplatedescription",
+              "commits": [
+                {
+                  "sha": "9f53149",
+                  "message": "Replace duplicate UseTemplateDescription keys with shared useTemplateDescription",
+                  "author": "copilot-swe-agent[bot]",
+                  "date": "2026-04-14T18:05:53Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/9f53149c4eb3e49e43d04b30fa8a9f5dfd99c5f7"
+                },
+                {
+                  "sha": "07d28d8",
+                  "message": "fix(uptime): ensure correct handling of missing time buckets in uptime calculations (#7235)",
+                  "author": "噗噗",
+                  "date": "2026-04-10T14:22:01Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/07d28d818180796123b7876c161c2712d80cd0d1"
+                },
+                {
+                  "sha": "7136dd7",
+                  "message": "fix(notification): check for monitorJSON in Stackfield provider (#7248)",
+                  "author": "jlbrt",
+                  "date": "2026-04-07T10:50:38Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/7136dd7832971beb5691d09e86b28a0fcb5fa0fb"
+                },
+                {
+                  "sha": "a5f30d4",
+                  "message": "fix(notification): ensure applyExisting is not saved to database (#7221)",
+                  "author": "Louis Lam",
+                  "date": "2026-03-29T15:12:44Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/a5f30d4cc8edd5da76964a41e8148f2f45c53b15"
+                },
+                {
+                  "sha": "7188e05",
+                  "message": "feat(notification): add custom message template support for Evolution provider (#7207)",
+                  "author": "Brian Pravato",
+                  "date": "2026-03-27T19:57:18Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/7188e054d8a95f10d8f06cd4068d1d517cf98f8d"
+                }
+              ]
+            },
+            {
+              "name": "copilot/sub-pr-6355",
+              "commits": [
+                {
+                  "sha": "44afbc9",
+                  "message": "Initial plan",
+                  "author": "copilot-swe-agent[bot]",
+                  "date": "2025-11-16T12:47:40Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/44afbc934b92220ab6154e4454927041b8d7b059"
+                },
+                {
+                  "sha": "f183b75",
+                  "message": "Update security reporting instructions in SECURITY.md",
+                  "author": "Louis Lam",
+                  "date": "2025-11-16T12:45:49Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/f183b75a07db0dd92c4ddc346f51c1ffdcd91d3b"
+                },
+                {
+                  "sha": "dda1a3f",
+                  "message": "Chore:extracted the redis monitor to a different monitoring type (#4393)",
+                  "author": "Frank Elsinga",
+                  "date": "2025-11-15T20:55:38Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/dda1a3f4427aa3431e717f00ee189a4fe056a02b"
+                },
+                {
+                  "sha": "319eddd",
+                  "message": "feat: Multi number notifications for SMSIR (#6346)",
+                  "author": "Amirparsa Baghdadi",
+                  "date": "2025-11-13T14:34:01Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/319edddae5633133b2c19c1518289fcbfcfb8a46"
+                },
+                {
+                  "sha": "a7b2624",
+                  "message": "SMSIR Notification Provider Support (#6334)",
+                  "author": "Amirparsa Baghdadi",
+                  "date": "2025-11-11T11:33:52Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/a7b2624c2d96b5ad390618ae6ad1196a8daec147"
+                }
+              ]
+            },
+            {
+              "name": "dev-better-auth-apikey",
+              "commits": [
+                {
+                  "sha": "f4f9c21",
+                  "message": "WIP",
+                  "author": "Louis Lam",
+                  "date": "2026-06-29T05:05:14Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/f4f9c21ed8f975102574af6756ddee2ae7cc5a96"
+                },
+                {
+                  "sha": "0e8437d",
+                  "message": "Add BetterAuth API Key dependency",
+                  "author": "Louis Lam",
+                  "date": "2026-06-29T04:16:43Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/0e8437df73561151a62e7ed5dd40d18e29234dc0"
+                },
+                {
+                  "sha": "6554622",
+                  "message": "Change to `node --import=tsx` to reduce overhead",
+                  "author": "Louis Lam",
+                  "date": "2026-06-28T17:13:00Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/6554622f2064f3f1ab3a729b3a7b1de5645b348f"
+                },
+                {
+                  "sha": "f7b67e1",
+                  "message": "Fix weird blocking shutdown. I must have to learn, don't put logic outside of function!!",
+                  "author": "Louis Lam",
+                  "date": "2026-06-28T17:04:08Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/f7b67e12c58f634e5fa44fb454235f4d3c260318"
+                },
+                {
+                  "sha": "ee39995",
+                  "message": "Rewrite the reset-password using better auth internal adapter (#7549)",
+                  "author": "Ionys",
+                  "date": "2026-06-28T16:26:06Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/ee39995e34606cd3c68be567836b730c8c66fac2"
+                }
+              ]
+            },
+            {
+              "name": "dev-mariadb-strict",
+              "commits": [
+                {
+                  "sha": "afaeab9",
+                  "message": "wip",
+                  "author": "Louis Lam",
+                  "date": "2026-07-16T06:40:28Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/afaeab96f9a181835feb770b5524098531da9ee6"
+                },
+                {
+                  "sha": "23e53e4",
+                  "message": "WIP",
+                  "author": "Louis Lam",
+                  "date": "2026-06-03T16:00:51Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/23e53e4964874fdf6a61c8dc9b42fd1601799b70"
+                },
+                {
+                  "sha": "10e087d",
+                  "message": "WIP",
+                  "author": "Louis Lam",
+                  "date": "2026-06-03T16:00:23Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/10e087d1db16935182051a022c8fc6723b32dbad"
+                },
+                {
+                  "sha": "d4e6395",
+                  "message": "WIP",
+                  "author": "Louis Lam",
+                  "date": "2026-06-02T18:35:20Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d4e639506344c940c8625e7260fdeeeb9e7cfffc"
+                },
+                {
+                  "sha": "2f8af85",
+                  "message": "WIP",
+                  "author": "Louis Lam",
+                  "date": "2026-06-02T18:29:28Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/2f8af8587a98f2ddc389986d795bf4510d9604cc"
+                }
+              ]
+            },
+            {
+              "name": "master",
+              "commits": [
+                {
+                  "sha": "d346387",
+                  "message": "feat: allow unlimited interval rather than 24 days (#7607)",
+                  "author": "Louis Lam",
+                  "date": "2026-07-18T05:14:25Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d3463870af879906f26466bad171fcbeba56c9e8"
+                },
+                {
+                  "sha": "082f101",
+                  "message": "fix(monitor): screenshot_delay not saved when editing browser engine monitor (#7515)",
+                  "author": "ghadi saab",
+                  "date": "2026-07-17T09:36:07Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/082f101cf4926315176013a3ef9c87ed9b07b03a"
+                },
+                {
+                  "sha": "73f199f",
+                  "message": "feat: add NTP monitor type for network time protocol monitoring (#7214)",
+                  "author": "Henri Cook",
+                  "date": "2026-07-17T00:37:46Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/73f199f4bd25baac094d6429931b29da7ff63eff"
+                },
+                {
+                  "sha": "937bfa3",
+                  "message": "feat: add voice call option to Plivo notification provider (#7597)",
+                  "author": "Sarvesh Patil",
+                  "date": "2026-07-15T10:14:37Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/937bfa38af494b5652add8f5a0b97e0758a0bfc1"
+                },
+                {
+                  "sha": "590f90e",
+                  "message": "feat(system-service): add PM2 picker and platform selection (#7114)",
+                  "author": "KraoESPfan1n",
+                  "date": "2026-07-13T21:13:11Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/590f90e3f96454dfc53566c4d8795b56c0c66943"
+                }
+              ]
+            },
+            {
+              "name": "npm-update",
+              "commits": [
+                {
+                  "sha": "cfdbe59",
+                  "message": "chore: Update dependencies",
+                  "author": "github-actions[bot]",
+                  "date": "2026-07-21T00:20:48Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/cfdbe59c2d7239e171b4333b5a39b4f518b27b90"
+                },
+                {
+                  "sha": "d346387",
+                  "message": "feat: allow unlimited interval rather than 24 days (#7607)",
+                  "author": "Louis Lam",
+                  "date": "2026-07-18T05:14:25Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/d3463870af879906f26466bad171fcbeba56c9e8"
+                },
+                {
+                  "sha": "082f101",
+                  "message": "fix(monitor): screenshot_delay not saved when editing browser engine monitor (#7515)",
+                  "author": "ghadi saab",
+                  "date": "2026-07-17T09:36:07Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/082f101cf4926315176013a3ef9c87ed9b07b03a"
+                },
+                {
+                  "sha": "73f199f",
+                  "message": "feat: add NTP monitor type for network time protocol monitoring (#7214)",
+                  "author": "Henri Cook",
+                  "date": "2026-07-17T00:37:46Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/73f199f4bd25baac094d6429931b29da7ff63eff"
+                },
+                {
+                  "sha": "937bfa3",
+                  "message": "feat: add voice call option to Plivo notification provider (#7597)",
+                  "author": "Sarvesh Patil",
+                  "date": "2026-07-15T10:14:37Z",
+                  "url": "https://github.com/louislam/uptime-kuma/commit/937bfa38af494b5652add8f5a0b97e0758a0bfc1"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "cfdbe59",
-            "branch": "npm-update",
-            "date": "2026-07-21T00:20:48Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/cfdbe59c2d7239e171b4333b5a39b4f518b27b90"
-          }
+          ]
         },
         {
           "repo": "henrygd/beszel",
