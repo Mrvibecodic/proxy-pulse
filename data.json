@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T00:42:37.838014Z",
+  "generated_at": "2026-07-22T00:48:26.468525Z",
   "groups": [
     {
       "id": "cores",
@@ -542,59 +542,88 @@
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "v0.4.2",
-              "tag": "v0.4.2",
-              "url": "https://github.com/pluralplay/FlClashX/releases/tag/v0.4.2",
-              "published_at": "2026-07-18T10:51:50Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "- fix macos zashboard webview lingering after close\r\n- macos config editor close without prompt when unchanged\r\n- fix macos editor window engine leak on close\r\n- macos config editor auto-update prompt\r\n- macos config editor in native window\r\n- macos zashboard in native webview window\r\n- fix server card and hero location display\r\n- fix file_picker oom, remove file upload buttons, local zashboard, fix fgs startForeground crash\r\n- fix macos zashboard, tv proxy dpad nav, zashboard auto controller, linux journal icons\r\n\r\n\u003cdiv align=center\u003e\r\n\r\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.2/total?style=flat-square\u0026logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.2/)\r\n\r\n\u003c/div\u003e\r\n\r\n**Download based on your OS:**\r\n\r\n\u003cdiv align=left\u003e\r\n\u003ctable\u003e\r\n    \u003cthead align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003cth\u003eOS\u003c/th\u003e\r\n            \u003cth\u003eDownload\u003c/th\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/thead\u003e\r\n    \u003ctbody align=left\u003e\r\n        \u003ctr\u003e\r\n        \u003ctd\u003eAndroid\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eWindows\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-windows-amd64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-windows-arm-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-windows-arm.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003emacOS\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eLinux\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-linux-amd64.AppImage\"\u003e\u003cimg src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.2/FlClashX-linux-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://aur.archlinux.org/packages/flclashx-bin\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/flclashx-bin\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\r\n\r\n\u003c/div\u003e\r\n\r\n\u003cdiv dir=\"ltr\"\u003e\r\n\r\n**List of all changes:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\r\n\r\n\u003c/div\u003e\r\n"
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "6cb392f",
+                  "message": "bump 0.4.3",
+                  "author": "pluralplay",
+                  "date": "2026-07-19T21:06:31Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/6cb392f12867061673c8c32b6d8ddf2d657ec291"
+                },
+                {
+                  "sha": "79b71b5",
+                  "message": "build-core: drop cmfa tag on desktop, fixes empty process",
+                  "author": "pluralplay",
+                  "date": "2026-07-19T21:02:45Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/79b71b5adcd418dd46353a36ce81c0ef4f263314"
+                },
+                {
+                  "sha": "c61d21f",
+                  "message": "harden fgs promote against notification build throw",
+                  "author": "pluralplay",
+                  "date": "2026-07-19T00:01:38Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/c61d21f3c7e4b8aa6cf9f1f2599a58643097f74c"
+                },
+                {
+                  "sha": "f5af13e",
+                  "message": "bump core 1.19.29",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T23:22:51Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/f5af13e9af5349819a266b392ca1b354592edf55"
+                },
+                {
+                  "sha": "cf8304f",
+                  "message": "macos core update restarts app not core",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T14:52:28Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/cf8304f42a36b2632957b590cfb93c8e8684f67f"
+                }
+              ]
             },
             {
-              "name": "Core v1.19.29",
-              "tag": "core-v1.19.29",
-              "url": "https://github.com/pluralplay/FlClashX/releases/tag/core-v1.19.29",
-              "published_at": "2026-07-19T21:09:46Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Desktop core v1.19.29"
-            },
-            {
-              "name": "v0.4.1",
-              "tag": "v0.4.1",
-              "url": "https://github.com/pluralplay/FlClashX/releases/tag/v0.4.1",
-              "published_at": "2026-07-17T21:42:41Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "- in-app zashboard webview (variable), proxy folded-group ping and tv focus, accesscontrol app list, global override order, group name in server card, app and core version in UA, bump 0.4.1\r\n- add AUR publish workflow (thanks @prettyleaf)\r\n- add firebase crashlytics\r\n- drop server from notification, wildcard rule types, mihomo core link\r\n\r\n\u003cdiv align=center\u003e\r\n\r\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.1/total?style=flat-square\u0026logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.1/)\r\n\r\n\u003c/div\u003e\r\n\r\n**Download based on your OS:**\r\n\r\n\u003cdiv align=left\u003e\r\n\u003ctable\u003e\r\n    \u003cthead align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003cth\u003eOS\u003c/th\u003e\r\n            \u003cth\u003eDownload\u003c/th\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/thead\u003e\r\n    \u003ctbody align=left\u003e\r\n        \u003ctr\u003e\r\n        \u003ctd\u003eAndroid\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eWindows\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-windows-amd64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-windows-arm-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-windows-arm.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003emacOS\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eLinux\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-linux-amd64.AppImage\"\u003e\u003cimg src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.1/FlClashX-linux-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://aur.archlinux.org/packages/flclashx-bin\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/flclashx-bin\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\r\n\r\n\u003c/div\u003e\r\n\r\n\u003cdiv dir=\"ltr\"\u003e\r\n\r\n**List of all changes:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\r\n\r\n\u003c/div\u003e\r\n"
-            },
-            {
-              "name": "v0.4.0",
-              "tag": "v0.4.0",
-              "url": "https://github.com/pluralplay/FlClashX/releases/tag/v0.4.0",
-              "published_at": "2026-07-16T00:34:53Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### New home screen\r\n\r\n- A new home screen look (enabled in theme settings or via a subscription header): service logo and name, a traffic \u0026 expiry card, an active-server panel with country flag, IP and ping, a large connect button and new bottom navigation.\r\n- \"Renew subscription\" and \"Buy more traffic\" buttons — appear automatically when the plan is running out and the links are provided in the subscription headers.\r\n- Rule/Global mode switch right on the home screen.\r\n\r\n### Connections\r\n\r\n- The page is fully reworked: \"Active\" and \"Log\" tabs in one place.\r\n- Every connection shows the app icon, destination country flag, traffic and the proxy chain.\r\n- Any connection can be closed individually; tapping the app icon filters by that app.\r\n- zashboard button — the web control panel in one click.\r\n\r\n### Android\r\n\r\n- Noticeably lower background battery drain: the app no longer keeps the device awake, the notification was slimmed down, and background checks don't wake the phone while the screen is off.\r\n- VPN reliability: autostart after reboot, Always-on VPN support, self-recovery after aggressive battery optimizers (MIUI, Samsung, etc.), reconnection on network change.\r\n- Home screen widgets: a VPN toggle and a mode switcher.\r\n- \"Start\" and \"Stop\" shortcuts on long-press of the app icon.\r\n- Haptic feedback on the start/stop button.\r\n- Smoother UI: fixed jank on Pixel devices, 120 Hz support.\r\n- Send a subscription from any phone to a TV via QR — the code is now readable by a regular QR scanner.\r\n\r\n### Windows / macOS / Linux\r\n\r\n- Core updates right from the app: check, download with progress and install without restarting the app — on Windows it works even for Program Files installs, with no UAC prompts.\r\n- If the core crashes, the app restarts it and restores the connection automatically.\r\n- The tray icon now follows the system theme.\r\n- macOS: fixed system DNS issues.\r\n- Linux: native .deb, .rpm and AppImage packages; new Windows ARM and Linux ARM builds.\r\n\r\n### Core \u0026 network\r\n\r\n- Core updated to mihomo 1.19.28 — switched from a fork to the original core.\r\n- Fresh browser TLS fingerprints (client-fingerprint: firefox / safari).\r\n- Faster startup, instant ping of the active server, more accurate delay testing through the core.\r\n- Switching and updating a profile on a running VPN — without restarting the tunnel.\r\n- Config editor: syntax highlighting, search and line numbers.\r\n\r\n### For providers\r\nAutomatic subscription migration to a new domain — no profile reinstall needed.\r\n\r\nMore customization via subscription headers: logo, service name, theme, background, payment buttons and more — full list at https://flclashx.app/\r\n\r\n\u003cdiv align=center\u003e\r\n\r\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0/total?style=flat-square\u0026logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0/)\r\n\r\n\u003c/div\u003e\r\n\r\n**Download based on your OS:**\r\n\r\n\u003cdiv align=left\u003e\r\n\u003ctable\u003e\r\n    \u003cthead align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003cth\u003eOS\u003c/th\u003e\r\n            \u003cth\u003eDownload\u003c/th\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/thead\u003e\r\n    \u003ctbody align=left\u003e\r\n        \u003ctr\u003e\r\n        \u003ctd\u003eAndroid\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eWindows\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-windows-amd64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-windows-arm-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-windows-arm.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003emacOS\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eLinux\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-linux-amd64.AppImage\"\u003e\u003cimg src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0/FlClashX-linux-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://aur.archlinux.org/packages/flclashx-bin\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/flclashx-bin\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\r\n\r\n\u003c/div\u003e\r\n\r\n\u003cdiv dir=\"ltr\"\u003e\r\n\r\n**List of all changes:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\r\n\r\n\u003c/div\u003e\r\n"
-            },
-            {
-              "name": "v0.4.0-pre.18",
-              "tag": "v0.4.0-pre.18",
-              "url": "https://github.com/pluralplay/FlClashX/releases/tag/v0.4.0-pre.18",
-              "published_at": "2026-07-07T00:40:06Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "- android stability and battery rework, screen-gated health checks, desktop core update and crash recovery, upstream utls, re_editor config editor\n\n- Fix RPM package link in release template\n- Fix RPM package link in pre-release template\n\n\u003cdiv align=center\u003e\n\n⚠️ **Pre-release version** • For testing purposes only\n\n[![Release Downloads](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.18/total?style=flat-square\u0026logo=github)](https://img.shields.io/github/downloads/pluralplay/FlClashX/v0.4.0-pre.18/)\n\n\u003c/div\u003e\n\n**Download based on your OS:**\n\n\u003cdiv align=left\u003e\n\u003ctable\u003e\n    \u003cthead align=left\u003e\n        \u003ctr\u003e\n            \u003cth\u003eOS\u003c/th\u003e\n            \u003cth\u003eDownload\u003c/th\u003e\n        \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody align=left\u003e\n        \u003ctr\u003e\n        \u003ctd\u003eAndroid\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-android-universal.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-universal-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-android-arm64-v8a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv8-168039.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-android-armeabi-v7a.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-ARMv7-45bf55.svg?logo=android\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-android-x86_64.apk\"\u003e\u003cimg src=\"https://img.shields.io/badge/APK-x64-96ed89.svg?logo=android\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eWindows\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-windows-amd64-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-windows-arm-setup.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-arm-2d7d9a.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-windows-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-windows-arm.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-arm-67b7d1.svg?logo=windows\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003emacOS\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-macos-arm64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Apple%20Silicon-%23000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-macos-amd64.dmg\"\u003e\u003cimg src=\"https://img.shields.io/badge/DMG-Intel%20X64-%2300A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eLinux\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-linux-amd64.AppImage\"\u003e\u003cimg src=\"https://img.shields.io/badge/AppImage-x64-f84e29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-linux-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/pluralplay/FlClashX/releases/download/v0.4.0-pre.18/FlClashX-linux-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://aur.archlinux.org/packages/flclashx-git\"\u003e\u003cimg src=\"https://img.shields.io/aur/version/flclashx-git\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n    \u003c/tbody\u003e\n\u003c/table\u003e\n\n\u003c/div\u003e\n\n\u003cdiv dir=\"ltr\"\u003e\n\n**Full changelog:** [ChangeLog](https://github.com/pluralplay/FlClashX/blob/main/CHANGELOG.md)\n\n\u003c/div\u003e\n"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "dc77f6f",
+                  "message": "docs: add obtanium badge and button",
+                  "author": "pluralplay",
+                  "date": "2026-07-21T22:36:39Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/dc77f6f9714958403e2bd7ccbe8bcac6f80855bb"
+                },
+                {
+                  "sha": "b18207a",
+                  "message": "add weekly clean actions workflow",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T11:19:22Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/b18207af3893fcc29679cde61f7d62accfa4946b"
+                },
+                {
+                  "sha": "42ac5cd",
+                  "message": "manual publish workflow, telegram after aur, html message",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T11:14:24Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/42ac5cd01d270b5923ead8b0afcb99e04c8847d9"
+                },
+                {
+                  "sha": "55dd7f8",
+                  "message": "Update changelog",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T10:50:04Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/55dd7f81a3e359f2662584ebb9c51017f2c0be4b"
+                },
+                {
+                  "sha": "fabbd8e",
+                  "message": "release 0.4.2",
+                  "author": "pluralplay",
+                  "date": "2026-07-18T10:27:08Z",
+                  "url": "https://github.com/pluralplay/FlClashX/commit/fabbd8ea72f26a802bc942d356f4ac5a7fd798be"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "dc77f6f",
-            "branch": "main",
-            "date": "2026-07-21T22:36:39Z",
-            "url": "https://github.com/pluralplay/FlClashX/commit/dc77f6f9714958403e2bd7ccbe8bcac6f80855bb"
-          }
+          ]
         },
         {
           "repo": "legiz-ru/Prizrak-Box",
@@ -678,59 +707,48 @@
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "Desktop v3.3.5",
-              "tag": "desktop-v3.3.5",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.5",
-              "published_at": "2026-07-21T01:23:49Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.5 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.4",
-              "tag": "desktop-v3.3.4",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.4",
-              "published_at": "2026-07-19T21:02:31Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.4 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.3",
-              "tag": "desktop-v3.3.3",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.3",
-              "published_at": "2026-07-17T06:21:25Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.3 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.2",
-              "tag": "desktop-v3.3.2",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.2",
-              "published_at": "2026-07-15T02:48:06Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.2 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.1",
-              "tag": "desktop-v3.3.1",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.1",
-              "published_at": "2026-07-11T14:23:26Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.1 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "50d155b",
+                  "message": "Update version numbers for Android, Desktop, and iOS",
+                  "author": "LLC INCY",
+                  "date": "2026-07-19T21:17:01Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
+                },
+                {
+                  "sha": "90c62a9",
+                  "message": "Change documentation link in README",
+                  "author": "LLC INCY",
+                  "date": "2026-07-11T14:22:23Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/90c62a9f94a7bc3e4ec12149a7faf3e7bada7f61"
+                },
+                {
+                  "sha": "404995e",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-06-17T05:15:40Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/404995e27a0109b662182227d17ee4ecd569a4ee"
+                },
+                {
+                  "sha": "4fbeffa",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-05-26T22:43:00Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/4fbeffa5f312878e479c33f13bdb4b5f1b58fc9b"
+                },
+                {
+                  "sha": "9e1a6dc",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-05-26T02:59:58Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/9e1a6dc493ec01f427aecf4a2fe0d060575127f3"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "50d155b",
-            "branch": "main",
-            "date": "2026-07-19T21:17:01Z",
-            "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
-          }
+          ]
         },
         {
           "repo": "throneproj/Throne",
