@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:12:18.810363Z",
+  "generated_at": "2026-07-22T19:21:05.675109Z",
   "groups": [
     {
       "id": "cores",
@@ -706,12 +706,21 @@
             "stars": 6508,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-22T18:47:59Z",
+            "pushed_at": "2026-07-22T19:19:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.0",
+              "tag": "1.2.0",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0",
+              "published_at": "2026-07-22T19:19:41Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## Throne is free and open-source, and will always remain so. If you'd like to support development, you can now do so via [GitHub Sponsors](https://github.com/sponsors/Mahdi-zarei).\r\n\r\n* Add remote route profile support **1**\r\n* Add `block` and `warp-bypass` default route support\r\n* Add Raw routing profile support\r\n* Improve Xray support\r\n* Add Hiddify's TLS fragment and TLS Mixed-case support\r\n* Add traffic statistics module **2**\r\n* Improve menus and Tool Buttons\r\n* Show connection speed in connections tab and allow sorting by it\r\n* Improve system tray menu\r\n* Add Mieru protocol\r\n* Add runtime stats widget\r\n* Disable strict route by default **3**\r\n* Use Google DoH as default remote DNS\r\n* Add security view to proxy Table's Type column **4**\r\n* Add Remove insecure configs action\r\n* Add Linux universal installer script (Thanks @thearialume)\r\n* Lots of Fixes and Improvements\r\n\r\n**1**:\r\nYou can now add remote routing profiles which can be updated remotely as well, refer to [Deeplink docs](https://throneproj.github.io/advanced/deeplinks/) for more information on how to add them via Deeplinks\r\n\r\n**2**:\r\nThis module keeps an aggregated statistics of the traffic usage grouped by config/application, and can be disabled in settings\r\n\r\n**3**:\r\nStrict route causes issues on certain windows environments, so it is disabled by default\r\n\r\n**4**:\r\nIt should be enabled in the settings and is not enabled by default"
+            },
             {
               "name": "1.2.0-beta.7",
               "tag": "1.2.0-beta.7",
@@ -747,15 +756,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Refactor context menus\r\n* Improve Start/Stop button (Thanks @renkagod)\r\n* Allow disabling the traffic stats feature\r\n* Add remote route profile support **1**\r\n* Fix sub update logic **2**\r\n* Fix mieru Link format\r\n* Upgrade Xray core to `v26.6.27`\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nRoute profiles can now be remotely subscribed to, allowing a route profile that gets updated from a remote source. Adding it can be done via [Deeplinks](https://throneproj.github.io/advanced/deeplinks/) as well.\r\n\r\n**2**:\r\nPreviously, periodic jobs would run on an interval starting from the launch time, now they behave properly and trigger once the specified interval value has passed since the last update time."
-            },
-            {
-              "name": "1.2.0-beta.3",
-              "tag": "1.2.0-beta.3",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.3",
-              "published_at": "2026-06-26T04:38:58Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Fix testing current with default routing outbound direct using the wrong outbound\r\n* Make sniff and hijack-dns always on\r\n* Show current speed in connections Tab\r\n* Use Xray for reality by default and allow importing all VLESS in Xray\r\n* Update Sing-box to `v1.13.14`\r\n* System Tray menu improvements (Thanks @renkagod)\r\n* Add Mieru protocol support\r\n* Fixes and Improvements"
             }
           ],
           "last_commit": {
