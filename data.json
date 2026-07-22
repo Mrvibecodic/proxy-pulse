@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T00:51:26.821544Z",
+  "generated_at": "2026-07-22T00:57:16.928432Z",
   "groups": [
     {
       "id": "cores",
@@ -233,59 +233,88 @@
             "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "v2.8.1",
-              "tag": "2.8.1",
-              "url": "https://github.com/remnawave/panel/releases/tag/2.8.1",
-              "published_at": "2026-07-13T19:47:00Z",
-              "prerelease": false,
-              "author": "kastov",
-              "body": "# 🌊 Remnawave v2.8.1\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.8.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.1-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.8.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.8.1)\n- [Compare changes (2.8.0...2.8.1)](https://github.com/remnawave/frontend/compare/2.8.0...2.8.1)\n\n---\n\n## 🖥️ Backend v2.8.1\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.1-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.8.1)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.8.1)\n- [Compare changes (2.8.0...2.8.1)](https://github.com/remnawave/backend/compare/2.8.0...2.8.1)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.8.1\nghcr.io/remnawave/backend:2.8.1\n```\n"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "5dc9182",
+                  "message": "docs: response headers",
+                  "author": "kastov",
+                  "date": "2026-07-17T21:29:24Z",
+                  "url": "https://github.com/remnawave/panel/commit/5dc9182f62be1fea4db620e18825f666396792ac"
+                },
+                {
+                  "sha": "fc4c62c",
+                  "message": "docs: update typescript sdk",
+                  "author": "kastov",
+                  "date": "2026-07-13T20:15:33Z",
+                  "url": "https://github.com/remnawave/panel/commit/fc4c62c436e963bf82f8da1f4f3d03ba7981cefa"
+                },
+                {
+                  "sha": "6fc8ca0",
+                  "message": "docs: update HWID validation regex to include '=' character in device limit documentation",
+                  "author": "kastov",
+                  "date": "2026-07-06T19:38:44Z",
+                  "url": "https://github.com/remnawave/panel/commit/6fc8ca0720333252977d0e3f5c1c091897830408"
+                },
+                {
+                  "sha": "66a3835",
+                  "message": "docs: update HWID validation length in device limit documentation",
+                  "author": "kastov",
+                  "date": "2026-07-06T19:19:26Z",
+                  "url": "https://github.com/remnawave/panel/commit/66a3835155bc4e085097e1a23aadcda199eb0e58"
+                },
+                {
+                  "sha": "7b10022",
+                  "message": "docs: add HWID format validation details to device limit documentation",
+                  "author": "kastov",
+                  "date": "2026-07-06T19:14:49Z",
+                  "url": "https://github.com/remnawave/panel/commit/7b1002264bdab19d58b7b5833d6002d0ea5c3924"
+                }
+              ]
             },
             {
-              "name": "v2.8.0",
-              "tag": "2.8.0",
-              "url": "https://github.com/remnawave/panel/releases/tag/2.8.0",
-              "published_at": "2026-06-29T16:11:31Z",
-              "prerelease": false,
-              "author": "kastov",
-              "body": "# 🌊 Remnawave v2.8.0\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.8.0\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.0-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.8.0)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.8.0)\n- [Compare changes (2.7.4...2.8.0)](https://github.com/remnawave/frontend/compare/2.7.4...2.8.0)\n\n---\n\n## 🖥️ Backend v2.8.0\n[![GitHub Release](https://img.shields.io/badge/release-v2.8.0-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.8.0)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.8.0)\n- [Compare changes (2.7.4...2.8.0)](https://github.com/remnawave/backend/compare/2.7.4...2.8.0)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.8.0\nghcr.io/remnawave/backend:2.8.0\n```\n"
-            },
-            {
-              "name": "v2.7.4",
-              "tag": "2.7.4",
-              "url": "https://github.com/remnawave/panel/releases/tag/2.7.4",
-              "published_at": "2026-03-30T00:24:27Z",
-              "prerelease": false,
-              "author": "kastov",
-              "body": "# 🌊 Remnawave v2.7.4\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.4\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.4-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.4)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.4)\n- [Compare changes (2.7.3...2.7.4)](https://github.com/remnawave/frontend/compare/2.7.3...2.7.4)\n\n---\n\n## 🖥️ Backend v2.7.4\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.4-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.4)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.4)\n- [Compare changes (2.7.3...2.7.4)](https://github.com/remnawave/backend/compare/2.7.3...2.7.4)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.4\nghcr.io/remnawave/backend:2.7.4\n```\n"
-            },
-            {
-              "name": "v2.7.3",
-              "tag": "2.7.3",
-              "url": "https://github.com/remnawave/panel/releases/tag/2.7.3",
-              "published_at": "2026-03-29T22:26:22Z",
-              "prerelease": false,
-              "author": "kastov",
-              "body": "# 🌊 Remnawave v2.7.3\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.3\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.3-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.3)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.3)\n- [Compare changes (2.7.2...2.7.3)](https://github.com/remnawave/frontend/compare/2.7.2...2.7.3)\n\n---\n\n## 🖥️ Backend v2.7.3\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.3-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.3)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.3)\n- [Compare changes (2.7.2...2.7.3)](https://github.com/remnawave/backend/compare/2.7.2...2.7.3)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.3\nghcr.io/remnawave/backend:2.7.3\n```\n"
-            },
-            {
-              "name": "v2.7.2",
-              "tag": "2.7.2",
-              "url": "https://github.com/remnawave/panel/releases/tag/2.7.2",
-              "published_at": "2026-03-28T16:27:46Z",
-              "prerelease": false,
-              "author": "kastov",
-              "body": "# 🌊 Remnawave v2.7.2\n\n\u003cp align=\"center\"\u003e\n  \u003ca href=\"https://t.me/remnawave\" target=\"_blank\" rel=\"noopener noreferrer\"\u003e\n    \u003cimg src=\"https://img.shields.io/badge/Join%20community-Telegram-26A5E4?style=for-the-badge\u0026logo=telegram\u0026logoColor=white\" alt=\"Join community on Telegram\" width=\"220\" height=\"auto\"\u003e\n  \u003c/a\u003e\n\u003c/p\u003e\n\n---\n\n## 💻 Frontend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/frontend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/frontend/compare/2.7.1...2.7.2)\n\n---\n\n## 🖥️ Backend v2.7.2\n[![GitHub Release](https://img.shields.io/badge/release-v2.7.2-blue.svg)](https://github.com/remnawave/backend/releases/tag/2.7.2)\n\n### 📋 Changes\n- [View full changelog](https://github.com/remnawave/backend/releases/tag/2.7.2)\n- [Compare changes (2.7.1...2.7.2)](https://github.com/remnawave/backend/compare/2.7.1...2.7.2)\n\n---\n\n## 🐳 Docker Images\n\n### Latest:\n```\nremnawave/backend:latest\nghcr.io/remnawave/backend:latest\n```\n\n### Versioned:\n```\nremnawave/backend:2.7.2\nghcr.io/remnawave/backend:2.7.2\n```\n"
+              "name": "releases",
+              "commits": [
+                {
+                  "sha": "4f32e6b",
+                  "message": "Release v2.8.1",
+                  "author": "github-actions[bot]",
+                  "date": "2026-07-13T19:46:56Z",
+                  "url": "https://github.com/remnawave/panel/commit/4f32e6b2c88273b38730b4fa64fc8dbfa361c963"
+                },
+                {
+                  "sha": "7e00fa3",
+                  "message": "Release v2.8.0",
+                  "author": "github-actions[bot]",
+                  "date": "2026-06-29T16:11:25Z",
+                  "url": "https://github.com/remnawave/panel/commit/7e00fa328015feb7aeb00d5d59f29fa8d307c7f4"
+                },
+                {
+                  "sha": "610aac3",
+                  "message": "Release v2.7.4",
+                  "author": "github-actions[bot]",
+                  "date": "2026-03-30T00:24:24Z",
+                  "url": "https://github.com/remnawave/panel/commit/610aac3455c5b466dc17ee4d5ef2096aa7fe2596"
+                },
+                {
+                  "sha": "a486d4d",
+                  "message": "Release v2.7.3",
+                  "author": "github-actions[bot]",
+                  "date": "2026-03-29T22:26:19Z",
+                  "url": "https://github.com/remnawave/panel/commit/a486d4df431427e5ee52793ed32617467a63d7c6"
+                },
+                {
+                  "sha": "9670284",
+                  "message": "Release v2.7.2",
+                  "author": "github-actions[bot]",
+                  "date": "2026-03-28T16:27:43Z",
+                  "url": "https://github.com/remnawave/panel/commit/96702840bfeda54332a54d0c147c00ce9bb4ee19"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "5dc9182",
-            "branch": "main",
-            "date": "2026-07-17T21:29:24Z",
-            "url": "https://github.com/remnawave/panel/commit/5dc9182f62be1fea4db620e18825f666396792ac"
-          }
+          ]
         },
         {
           "repo": "remnawave/node",
@@ -678,59 +707,48 @@
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "Desktop v3.3.5",
-              "tag": "desktop-v3.3.5",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.5",
-              "published_at": "2026-07-21T01:23:49Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.5 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.4",
-              "tag": "desktop-v3.3.4",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.4",
-              "published_at": "2026-07-19T21:02:31Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.4 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.3",
-              "tag": "desktop-v3.3.3",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.3",
-              "published_at": "2026-07-17T06:21:25Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.3 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.2",
-              "tag": "desktop-v3.3.2",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.2",
-              "published_at": "2026-07-15T02:48:06Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.2 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
-            {
-              "name": "Desktop v3.3.1",
-              "tag": "desktop-v3.3.1",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.3.1",
-              "published_at": "2026-07-11T14:23:26Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.3.1 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "50d155b",
+                  "message": "Update version numbers for Android, Desktop, and iOS",
+                  "author": "LLC INCY",
+                  "date": "2026-07-19T21:17:01Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
+                },
+                {
+                  "sha": "90c62a9",
+                  "message": "Change documentation link in README",
+                  "author": "LLC INCY",
+                  "date": "2026-07-11T14:22:23Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/90c62a9f94a7bc3e4ec12149a7faf3e7bada7f61"
+                },
+                {
+                  "sha": "404995e",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-06-17T05:15:40Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/404995e27a0109b662182227d17ee4ecd569a4ee"
+                },
+                {
+                  "sha": "4fbeffa",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-05-26T22:43:00Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/4fbeffa5f312878e479c33f13bdb4b5f1b58fc9b"
+                },
+                {
+                  "sha": "9e1a6dc",
+                  "message": "Update RELEASE.json",
+                  "author": "LLC INCY",
+                  "date": "2026-05-26T02:59:58Z",
+                  "url": "https://github.com/INCY-DEV/incy-platforms/commit/9e1a6dc493ec01f427aecf4a2fe0d060575127f3"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "50d155b",
-            "branch": "main",
-            "date": "2026-07-19T21:17:01Z",
-            "url": "https://github.com/INCY-DEV/incy-platforms/commit/50d155b3b8d169150167fb78c08b2af0e26a0d3b"
-          }
+          ]
         },
         {
           "repo": "throneproj/Throne",
