@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T03:02:35.013438Z",
+  "generated_at": "2026-07-22T03:13:54.795881Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 36332,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-22T02:36:23Z",
+            "pushed_at": "2026-07-22T03:12:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-alpha.50",
+              "tag": "v1.14.0-alpha.50",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.50",
+              "published_at": "2026-07-22T03:12:14Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Improve OpenVPN interoperability **1**\n* Improve OpenConnect interoperability **2**\n* Add Fortinet host check support **3**\n* Fixes and improvements\n\n**1**:\n\nThe OpenVPN client and server now interoperate with more existing deployments through static-key mode, additional legacy ciphers and digests, and OpenVPN-compatible certificate purpose, key usage, extended key usage, and certificate profile checks. They also support more OpenVPN options for tunnel addressing, MSS calculation, replay windows, timers, and TLS renegotiation. The new [OpenVPN DNS server](https://sing-box.sagernet.org/configuration/dns/server/openvpn/) can use both modern and legacy DNS options pushed by OpenVPN servers, while the sing-box server can push both forms.\n\n**2**:\n\nThe OpenConnect client now supports existing authentication sessions, OIDC Bearer authentication, additional platform and AnyConnect mobile identity fields, AnyConnect compression, and controls for MTU, DPD and reconnect timing, TCP keep alive, and TLS trust and certificate pinning. The new [OpenConnect DNS server](https://sing-box.sagernet.org/configuration/dns/server/openconnect/) can use pushed split-DNS resolvers and, when enabled, general pushed resolvers.\n\n**3**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint can now submit Fortinet host check results using the new [`fortinet_host_check`](https://sing-box.sagernet.org/configuration/endpoint/openconnect/#fortinet_host_check) option. This behavior is modeled after openfortivpn and is not an OpenConnect feature. sing-box only submits explicitly configured values when requested by the Fortinet server and does not collect system information automatically."
+            },
             {
               "name": "1.14.0-alpha.48",
               "tag": "v1.14.0-alpha.48",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Improve the Windows client application **1**\n* Fixes and improvements\n\n**1**:\n\nThe [Windows client](https://sing-box.sagernet.org/clients/desktop/) now includes an updater, adds support for Windows native sharing of sing-box profile and JSON files, and fixes the Tailscale SSH terminal. The [Tailscale SSH server](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#ssh_server) can now open sessions for any local user in the graphical client, while the command line client remains limited to the user sing-box runs as. Additionally, configurations that use privileges unrelated to networking are now rejected by default; an insecure mode is available to allow them."
-            },
-            {
-              "name": "1.14.0-alpha.44",
-              "tag": "v1.14.0-alpha.44",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.44",
-              "published_at": "2026-07-14T09:14:36Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Introducing our [new Windows client application](https://sing-box.sagernet.org/clients/desktop/) **1**\n* Fixes and improvements\n\n**1**:\n\nThe new [Windows client](https://sing-box.sagernet.org/clients/desktop/) provides an experience equal to other standard sing-box graphical clients, is available for Windows 10+ (x64 / x86 / arm64), and is distributed as an installer from [GitHub Releases](https://github.com/SagerNet/sing-box/releases) (`SFW-\u003cversion\u003e-\u003carchitecture\u003e.exe`)."
             }
           ],
           "last_commit": {
