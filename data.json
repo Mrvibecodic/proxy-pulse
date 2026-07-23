@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T00:34:52.029737Z",
+  "generated_at": "2026-07-23T00:52:10.222721Z",
   "groups": [
     {
       "id": "cores",
@@ -1392,7 +1392,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-07-10T23:19:18Z",
+            "pushed_at": "2026-07-23T00:52:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1401,6 +1401,20 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "5b8feee",
+                  "message": "feat(устройства): удаление HWID-устройств при сбросе + кнопка в мини-аппе и ЛК",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T00:46:03Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5b8feee76a20d57c0d34ea0b720e490c1acb8ebc"
+                },
+                {
+                  "sha": "2ca0f3b",
+                  "message": "fix: антидубль финализации платежа, подпись вебхука cryptobot и хардненинг",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T00:46:03Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/2ca0f3b40a0dc2f3c2e2ee883ee511dfc4147726"
+                },
                 {
                   "sha": "8e6ed47",
                   "message": "fix(вайтлист): пометить безопасную SQL-конкатенацию как #nosec G202",
@@ -1596,20 +1610,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-21T22:20:42Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/883920b5bb73df244362dba04b2456df29acd2df"
-                },
-                {
-                  "sha": "9c4ea0e",
-                  "message": "fix(referral admin): make the friend-bonus easy to enable",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T21:48:42Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/9c4ea0e40feefb6de7a74ae183501a504afee873"
-                },
-                {
-                  "sha": "2b58687",
-                  "message": "feat(promo): auto-apply a promo code from a deep link (start=promo_CODE)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T21:28:25Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/2b58687aabd0ccee44128757429d058a9394bbe6"
                 }
               ]
             },
