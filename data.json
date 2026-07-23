@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T22:28:39.204033Z",
+  "generated_at": "2026-07-23T22:39:00.271636Z",
   "groups": [
     {
       "id": "cores",
@@ -1259,7 +1259,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89435,
+            "stars": 89436,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-23T00:20:58Z",
@@ -1542,7 +1542,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-07-23T22:10:28Z",
+            "pushed_at": "2026-07-23T22:39:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1551,6 +1551,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "fc4a328",
+                  "message": "chore(sec): безопасные фиксы gosec без изменения поведения",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T22:39:55Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/fc4a32876b8182c214140104a02c45a332a39327"
+                },
                 {
                   "sha": "8d54748",
                   "message": "fix(лк): откат статического title/favicon — конфликтовал с серверной настройкой",
@@ -1753,13 +1760,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-21T23:03:28Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7dfb02a1f842d8361e5b55ed509d34d555f09110"
-                },
-                {
-                  "sha": "eab7327",
-                  "message": "harden(cabinet): rate-limit auth + security headers + stronger password",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:52:35Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/eab7327573a2d160a079e493ec6daeb6dd0af724"
                 }
               ]
             },
