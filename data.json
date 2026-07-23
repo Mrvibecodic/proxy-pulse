@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:47:10.063948Z",
+  "generated_at": "2026-07-23T13:50:11.075836Z",
   "groups": [
     {
       "id": "cores",
@@ -1847,7 +1847,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-23T13:40:21Z",
+            "pushed_at": "2026-07-23T13:49:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1856,6 +1856,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "8f8e484",
+                  "message": "fix(docker): увеличены буферы fastcgi в nginx для крупных заголовков php-fpm",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:49:35Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8f8e484af9d3fc3fb8129c287e4358f955ac8acd"
+                },
                 {
                   "sha": "579c1ba",
                   "message": "fix(addsub): слияние xray-json — доп-подписка отдельными конфигами массива",
@@ -2058,13 +2065,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-21T13:32:51Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f6dba4681f78f25a3faa17833c949ba98e6dd020"
-                },
-                {
-                  "sha": "61bc969",
-                  "message": "refactor(wg-pool): кеш резолва юзеров в таблицу (без гонки)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T00:15:05Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/61bc969be9c007d71ed287deb481c69e40af46ff"
                 }
               ]
             },
