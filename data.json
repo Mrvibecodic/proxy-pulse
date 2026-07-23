@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:08:32.613818Z",
+  "generated_at": "2026-07-23T13:17:19.602078Z",
   "groups": [
     {
       "id": "cores",
@@ -1847,7 +1847,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-11T16:56:05Z",
+            "pushed_at": "2026-07-23T13:16:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1856,6 +1856,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "db0a91a",
+                  "message": "fix(addsub): передавать исходные заголовки клиента при запросе второй подписки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:16:21Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/db0a91ad829b9502b45cca018b7a74e16c47d6d5"
+                },
                 {
                   "sha": "819ceae",
                   "message": "fix(proxy): обезличенный пустой 404 вместо 502",
@@ -2058,13 +2065,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-20T23:33:01Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9e91b7ef86d5ce785bc36ea92d004ae6889c7d4f"
-                },
-                {
-                  "sha": "e56ad71",
-                  "message": "fix(ui): починить пагинацию конфигов (регресс nth-child)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-20T23:16:36Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e56ad71d7b89ab5e8c25c398af8fde17126d01e8"
                 }
               ]
             },
