@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:50:11.075836Z",
+  "generated_at": "2026-07-23T13:56:05.514329Z",
   "groups": [
     {
       "id": "cores",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4669,
+            "stars": 4670,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-07-17T21:29:38Z",
@@ -1847,7 +1847,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-23T13:49:37Z",
+            "pushed_at": "2026-07-23T13:54:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -2072,6 +2072,48 @@
               "name": "main",
               "commits": [
                 {
+                  "sha": "638800a",
+                  "message": "Merge pull request #5 from Mrvibecodic/dev",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:54:08Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/638800a4ad60e788b70f218088bec74755856a3c"
+                },
+                {
+                  "sha": "8f8e484",
+                  "message": "fix(docker): увеличены буферы fastcgi в nginx для крупных заголовков php-fpm",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:49:35Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8f8e484af9d3fc3fb8129c287e4358f955ac8acd"
+                },
+                {
+                  "sha": "579c1ba",
+                  "message": "fix(addsub): слияние xray-json — доп-подписка отдельными конфигами массива",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:40:19Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/579c1baa2b02853b081c72c7b57f171a8d99928e"
+                },
+                {
+                  "sha": "db0a91a",
+                  "message": "fix(addsub): передавать исходные заголовки клиента при запросе второй подписки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T13:16:21Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/db0a91ad829b9502b45cca018b7a74e16c47d6d5"
+                },
+                {
+                  "sha": "819ceae",
+                  "message": "fix(proxy): обезличенный пустой 404 вместо 502",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-11T16:56:03Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/819ceae8cac74de9867b05744372c3086d48db53"
+                },
+                {
+                  "sha": "3bfce3f",
+                  "message": "feat(proxy): маскировка 404 под 502 (тумблер)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-11T16:33:49Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/3bfce3fb727b09f375b08332c0f48a8cecc07a6b"
+                },
+                {
                   "sha": "b7e10aa",
                   "message": "Merge pull request #4 from Mrvibecodic/dev",
                   "author": "Mrvibecodic",
@@ -2238,48 +2280,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-23T18:06:37Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/57b14aa38ebd1e3d6f578ba270f45d410d6add9f"
-                },
-                {
-                  "sha": "5d5a77e",
-                  "message": "ui(connection): расширить предупреждение о выключении проверки TLS",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T13:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5d5a77ea098f1281180ea8162369b8c05e0eb8b9"
-                },
-                {
-                  "sha": "c20d23a",
-                  "message": "fix(forward): проверять TLS при пересылке вебхуков (по настройке tls_verify)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T13:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c20d23ad7ce1212be1c96235516658f564ed4d8e"
-                },
-                {
-                  "sha": "f6dba46",
-                  "message": "fix(webhook): отклонять устаревшие вебхуки (anti-replay по X-Remnawave-Timestamp)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T13:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f6dba4681f78f25a3faa17833c949ba98e6dd020"
-                },
-                {
-                  "sha": "61bc969",
-                  "message": "refactor(wg-pool): кеш резолва юзеров в таблицу (без гонки)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T00:15:05Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/61bc969be9c007d71ed287deb481c69e40af46ff"
-                },
-                {
-                  "sha": "9e91b7e",
-                  "message": "fix(ui): постоянный скроллбар окна (overflow-y:scroll)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-20T23:33:01Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9e91b7ef86d5ce785bc36ea92d004ae6889c7d4f"
-                },
-                {
-                  "sha": "e56ad71",
-                  "message": "fix(ui): починить пагинацию конфигов (регресс nth-child)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-20T23:16:36Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e56ad71d7b89ab5e8c25c398af8fde17126d01e8"
                 }
               ]
             }
