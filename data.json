@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:02:29.295518Z",
+  "generated_at": "2026-07-24T17:05:55.640684Z",
   "groups": [
     {
       "id": "cores",
@@ -782,7 +782,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
-            "pushed_at": "2026-07-23T15:03:08Z",
+            "pushed_at": "2026-07-24T17:05:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -791,6 +791,27 @@
             {
               "name": "go-build",
               "commits": [
+                {
+                  "sha": "0efea15",
+                  "message": "bot: балансир-группа во всех меню одной кнопкой — видимость/мьют/обслуживание/инциденты по группе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T16:56:59Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/0efea152eb79da9ecead422f8a0b1c3e45a3a6cd"
+                },
+                {
+                  "sha": "9d52f93",
+                  "message": "fix(store): удалять балансир-группу целиком — узлы с одним grp, а не только одноимённые sid",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:21:06Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/9d52f9315fc225cd0bc8dd5002356d1bfb134823"
+                },
+                {
+                  "sha": "010c24c",
+                  "message": "bot: кнопка «Диагностика» в Подписке — где рвётся цепочка панель→/sub→чекер (формат, группы, вердикт)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:07:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/010c24c308958df07b1246303bdba07a414ae61d"
+                },
                 {
                   "sha": "ec66440",
                   "message": "sub: балансиры из коробки — X-Hwid к панели, SUBSCRIPTION_JSON_FORMAT в примере, лог смешанных форматов",
@@ -979,27 +1000,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-23T16:26:27Z",
                   "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/b8b8a1dc2f0617cca4f33d16b97bc704d4c50adb"
-                },
-                {
-                  "sha": "8fe514c",
-                  "message": "Бот: не слать пустой reply_markup (nil) — Telegram давал 'object expected as reply markup' на сообщениях «Обновляю…/Запускаю…/Подписка сохранена»",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T14:05:19Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/8fe514ceec9acc02928885d70e6bc0971478ee25"
-                },
-                {
-                  "sha": "e4b95ec",
-                  "message": "Поллер: анти-флап по серверам — сервер считается упавшим только со 2-го офлайн-цикла подряд (нет ложных «часть серверов лежит», пока чекер прогревается/перечитывает подписку)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T13:29:05Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/e4b95ec52dc979d4dce776b2335766773ce0789c"
-                },
-                {
-                  "sha": "7b44b05",
-                  "message": "xray-status (Go): статуспейдж + Telegram-бот для xray-checker",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T13:18:25Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/7b44b053e202b3a85e370f5680d5c71c4a0889f7"
                 }
               ]
             },
