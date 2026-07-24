@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T17:19:46.000014Z",
+  "generated_at": "2026-07-24T17:23:13.421509Z",
   "groups": [
     {
       "id": "cores",
@@ -782,7 +782,7 @@
             "stars": 30,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
-            "pushed_at": "2026-07-24T17:05:55Z",
+            "pushed_at": "2026-07-24T17:23:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -791,6 +791,13 @@
             {
               "name": "go-build",
               "commits": [
+                {
+                  "sha": "13797e3",
+                  "message": "bot: автоудаление алертов из чатов по сроку (наст-ка, потолок 48ч) + README про новые функции",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T17:14:01Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/13797e368ee246767c5537556d1c0e2e16e1e260"
+                },
                 {
                   "sha": "0efea15",
                   "message": "bot: балансир-группа во всех меню одной кнопкой — видимость/мьют/обслуживание/инциденты по группе",
@@ -993,13 +1000,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-23T20:07:01Z",
                   "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e6e97afa412b35f22811267dfac3b2220a789ea"
-                },
-                {
-                  "sha": "b8b8a1d",
-                  "message": "webctl: кэшируем self-signed серт в /data/certs (не пересоздаём на каждый рестарт веба) + фикс комментария Probe()",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T16:26:27Z",
-                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/b8b8a1dc2f0617cca4f33d16b97bc704d4c50adb"
                 }
               ]
             },
