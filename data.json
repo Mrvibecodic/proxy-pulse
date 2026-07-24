@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T07:07:36.549127Z",
+  "generated_at": "2026-07-24T07:11:05.065372Z",
   "groups": [
     {
       "id": "cores",
@@ -1398,7 +1398,7 @@
             "stars": 75752,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-24T07:07:10Z",
+            "pushed_at": "2026-07-24T07:11:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -2449,59 +2449,223 @@
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "0.30.0",
-              "tag": "0.30.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.30.0",
-              "published_at": "2026-07-22T11:27:10Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.30.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.29.1...0.30.0"
-            },
-            {
-              "name": "0.29.1",
-              "tag": "0.29.1",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.29.1",
-              "published_at": "2026-07-20T09:00:59Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.29.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.29.0...0.29.1"
-            },
-            {
-              "name": "0.29.0",
-              "tag": "0.29.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.29.0",
-              "published_at": "2026-07-18T13:50:02Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.29.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(providers): add Yandex Cloud connector, fix(analytics): count charges as spend for providers without top-ups by @sedyh in https://github.com/mishkatik/infra-billing/pull/8\n\n## New Contributors\n* @sedyh made their first contribution in https://github.com/mishkatik/infra-billing/pull/8\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.28.1...0.29.0"
-            },
-            {
-              "name": "0.28.1",
-              "tag": "0.28.1",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.28.1",
-              "published_at": "2026-07-17T16:14:58Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.28.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.28.0...0.28.1"
-            },
-            {
-              "name": "0.28.0",
-              "tag": "0.28.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.28.0",
-              "published_at": "2026-07-17T10:37:03Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.28.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.27.0...0.28.0"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "38c5097",
+                  "message": "chore(release): 0.30.0",
+                  "author": "mish",
+                  "date": "2026-07-22T11:23:12Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/38c5097e4bd3c370b1f0130ee5845119bf7c8859"
+                },
+                {
+                  "sha": "f1586c2",
+                  "message": "fix(services): set override flags only on real name or cost change",
+                  "author": "mish",
+                  "date": "2026-07-22T11:22:58Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/f1586c2bd02274efbf6eb141e69e59c811134c36"
+                },
+                {
+                  "sha": "1fac0f1",
+                  "message": "feat(services): add searchable country picker to the service form",
+                  "author": "mish",
+                  "date": "2026-07-22T11:22:53Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/1fac0f14817cc4a81f2d99d0a91b542a1179d523"
+                },
+                {
+                  "sha": "38dd80c",
+                  "message": "chore(release): 0.29.1",
+                  "author": "mish",
+                  "date": "2026-07-20T08:57:48Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/38dd80cc0023448745afd5b514ad3fbb9b49d04c"
+                },
+                {
+                  "sha": "ea024d3",
+                  "message": "fix(connectors): report billmgr anti-bot challenge pages clearly",
+                  "author": "mish",
+                  "date": "2026-07-20T08:57:33Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/ea024d3f441376bbc48dfd59b11862d6473eb829"
+                },
+                {
+                  "sha": "cb4fdf0",
+                  "message": "chore(release): 0.29.0",
+                  "author": "mish",
+                  "date": "2026-07-18T13:46:49Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/cb4fdf0bd1d7f17b739147775246c2c72ccec90e"
+                },
+                {
+                  "sha": "0c36dfa",
+                  "message": "feat(providers): add Yandex Cloud connector",
+                  "author": "Artem Sedykh",
+                  "date": "2026-07-18T13:45:45Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/0c36dfadc7aa6e181faf7c48d8dcbdb1b7a50aed"
+                },
+                {
+                  "sha": "c27c3a4",
+                  "message": "fix(analytics): count charges as spend for providers without top-ups",
+                  "author": "Artem Sedykh",
+                  "date": "2026-07-18T13:45:45Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/c27c3a476b1652049454b556b85e4ce485b9a696"
+                },
+                {
+                  "sha": "f703ec8",
+                  "message": "chore(release): 0.28.1",
+                  "author": "mish",
+                  "date": "2026-07-17T16:11:45Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/f703ec8eeef39cd8ac89878d8d4ded28f85d89b2"
+                },
+                {
+                  "sha": "613d120",
+                  "message": "fix(sync): raise provider request timeout and retry failed fetches",
+                  "author": "mish",
+                  "date": "2026-07-17T16:11:26Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/613d120ed12693afc94b262f47d97e6754a5aaf2"
+                },
+                {
+                  "sha": "3364df0",
+                  "message": "chore(release): 0.28.0",
+                  "author": "mish",
+                  "date": "2026-07-17T10:33:34Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/3364df08a9b6fd2f5ce62d659e622b021db77fd7"
+                },
+                {
+                  "sha": "f192eec",
+                  "message": "fix(billmgr): name Cloudflare blocks in sync error messages",
+                  "author": "mish",
+                  "date": "2026-07-17T10:33:17Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/f192eeced8f8e3100e033e520567caf061c92ecc"
+                },
+                {
+                  "sha": "776567d",
+                  "message": "feat(frontend): add RWP Shop promo to the header",
+                  "author": "mish",
+                  "date": "2026-07-17T10:33:08Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/776567d2c7125b01e0a9f892b5356ba53fd5f0bf"
+                },
+                {
+                  "sha": "0ddb79d",
+                  "message": "chore(release): 0.27.0",
+                  "author": "mish",
+                  "date": "2026-07-11T13:10:53Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/0ddb79d31a7a3cb3b2e821048ed8c111498b2e1e"
+                },
+                {
+                  "sha": "eefa2ac",
+                  "message": "feat: surface overdue billings on dashboard and in telegram",
+                  "author": "mish",
+                  "date": "2026-07-11T13:10:28Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/eefa2ac6c737752e9819d28e06c1ec0f07ab19ed"
+                },
+                {
+                  "sha": "87448a4",
+                  "message": "chore(release): 0.26.1",
+                  "author": "mish",
+                  "date": "2026-07-11T12:28:34Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/87448a440d21271563be9c3dcead1ae9b370a7ec"
+                },
+                {
+                  "sha": "5456c67",
+                  "message": "fix(frontend): show next-billing bump button for managed services",
+                  "author": "mish",
+                  "date": "2026-07-11T12:28:03Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/5456c672fdc21cb0bbf4035be7ac83bc76d8c326"
+                },
+                {
+                  "sha": "8e6e7a7",
+                  "message": "chore(release): 0.26.0",
+                  "author": "mish",
+                  "date": "2026-07-11T12:11:13Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/8e6e7a7535b6b8f1402640b0e0b0eabec80fdc0a"
+                },
+                {
+                  "sha": "47ee942",
+                  "message": "feat(frontend): add quick next-month bump for service billing date",
+                  "author": "mish",
+                  "date": "2026-07-11T12:10:38Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/47ee942f782d36a06e3fd99281b57eabd4d22bd0"
+                },
+                {
+                  "sha": "46f14bc",
+                  "message": "chore(release): 0.25.2",
+                  "author": "mish",
+                  "date": "2026-07-11T08:31:55Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/46f14bc49d740b4667997ab9080c66040e854696"
+                },
+                {
+                  "sha": "002d3a7",
+                  "message": "fix(connectors): discover billmgr item funcs from the client menu",
+                  "author": "mish",
+                  "date": "2026-07-11T08:31:30Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/002d3a7ff8eca2f664d5314aee85f9cafe59fd82"
+                },
+                {
+                  "sha": "a3f229c",
+                  "message": "chore(release): 0.25.1",
+                  "author": "mish",
+                  "date": "2026-07-10T10:02:30Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/a3f229c3a0b4f0c29aefd760e41df33a9b128caa"
+                },
+                {
+                  "sha": "4adeca7",
+                  "message": "fix(frontend): paginate the service payments modal",
+                  "author": "mish",
+                  "date": "2026-07-10T10:00:27Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/4adeca7aed15ed4261d213822fd5d925ad54fc4a"
+                },
+                {
+                  "sha": "79bb288",
+                  "message": "chore(release): 0.25.0",
+                  "author": "mish",
+                  "date": "2026-07-10T09:33:01Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/79bb288e6a67c32ee796245d808003d346f193b8"
+                },
+                {
+                  "sha": "f7f568c",
+                  "message": "feat(connectors): add VDSina connector (#3)",
+                  "author": "mish",
+                  "date": "2026-07-10T09:32:30Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/f7f568c88311a24bc08c287c4c0f798d0f2f0f94"
+                },
+                {
+                  "sha": "499e473",
+                  "message": "refactor(connectors): trim vdsina fields to actual response shapes",
+                  "author": "mish",
+                  "date": "2026-07-10T09:29:11Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/499e4733e854e37976aa7a3c2d61e9ed64823337"
+                },
+                {
+                  "sha": "b0acf3c",
+                  "message": "feat(connectors): support both vdsina branches via base url",
+                  "author": "mish",
+                  "date": "2026-07-10T09:16:29Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/b0acf3c6df1b05c5cb7ad44a26f66e31ceeb977a"
+                },
+                {
+                  "sha": "20e6f2d",
+                  "message": "fix(connectors): harden vdsina payments, pricing and error handling",
+                  "author": "mish",
+                  "date": "2026-07-10T09:02:50Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/20e6f2d26c9e31cde7e111abe71877ea124ce896"
+                },
+                {
+                  "sha": "a791ef5",
+                  "message": "Merge branch 'pr-3-vdsina' into feat/vdsina",
+                  "author": "mish",
+                  "date": "2026-07-10T08:37:17Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/a791ef59289fc7e9bdbc62b8b33dd8eeaf7804aa"
+                },
+                {
+                  "sha": "dfed55a",
+                  "message": "chore(release): 0.24.1",
+                  "author": "mish",
+                  "date": "2026-07-10T08:24:53Z",
+                  "url": "https://github.com/mishkatik/infra-billing/commit/dfed55ab7d542b5e29a4312d789c6cdbfffa0c89"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "38c5097",
-            "branch": "main",
-            "date": "2026-07-22T11:23:12Z",
-            "url": "https://github.com/mishkatik/infra-billing/commit/38c5097e4bd3c370b1f0130ee5845119bf7c8859"
-          }
+          ]
         }
       ]
     },
@@ -2517,10 +2681,10 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27640,
+            "stars": 27641,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-07-24T06:59:02Z",
+            "pushed_at": "2026-07-24T07:09:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2573,10 +2737,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ee2e25f",
+            "sha": "a39d5a5",
             "branch": "main",
-            "date": "2026-07-24T06:58:55Z",
-            "url": "https://github.com/openwrt/openwrt/commit/ee2e25f0097ecf4245f36edd9974a619c587fc1b"
+            "date": "2026-07-24T07:08:54Z",
+            "url": "https://github.com/openwrt/openwrt/commit/a39d5a535b37b4ba6f0c53f7ab21b65059b9f34e"
           }
         },
         {
