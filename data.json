@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T13:06:24.309636Z",
+  "generated_at": "2026-07-24T13:13:18.867078Z",
   "groups": [
     {
       "id": "cores",
@@ -1259,7 +1259,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89458,
+            "stars": 89459,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-24T00:19:43Z",
@@ -2588,7 +2588,7 @@
             "stars": 4566,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-24T08:50:58Z",
+            "pushed_at": "2026-07-24T13:12:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4748,6 +4748,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "23abaa6",
+                  "message": "bind: bump to 9.20.26",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-07-24T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/23abaa6f3b0fdfd76b570031107e5718476ff0c8"
+                },
+                {
                   "sha": "80fc5d6",
                   "message": "cgi-io: update to Git HEAD (2026-07-21)",
                   "author": "Hauke Mehrtens",
@@ -4949,19 +4956,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-06-30T16:03:55Z",
                   "url": "https://github.com/openwrt/packages/commit/87a7f5ac7c091e6016d6debf415126307c4ee941"
-                },
-                {
-                  "sha": "c5f4824",
-                  "message": "ci: update trigger to check_suite for test build",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-06-30T16:03:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5f48248f76f0e3d7a734d621c660a573baebf86"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "1e02e8d",
+                  "message": "bind: bump to 9.20.26",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-07-24T13:11:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/1e02e8d8f1feb74151ef1c06c16432eea774f7b8"
+                },
                 {
                   "sha": "614cc59",
                   "message": "openvpn: enable DCO by default",
@@ -5164,13 +5171,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-16T06:51:08Z",
                   "url": "https://github.com/openwrt/packages/commit/fb1f91cc5ec0efeb01e2d4fb1497df53ed26021a"
-                },
-                {
-                  "sha": "8272fcc",
-                  "message": "python-sqlparse: bump to 0.5.5",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-16T06:51:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/8272fcce5d6a053340db695b69f63f3e961f331d"
                 }
               ]
             }
