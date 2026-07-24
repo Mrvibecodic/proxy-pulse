@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T08:46:52.684072Z",
+  "generated_at": "2026-07-24T08:50:18.782295Z",
   "groups": [
     {
       "id": "cores",
@@ -1395,10 +1395,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 75752,
+            "stars": 75753,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-24T08:46:07Z",
+            "pushed_at": "2026-07-24T08:51:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -1466,7 +1466,7 @@
             "stars": 65281,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-07-23T23:06:40Z",
+            "pushed_at": "2026-07-24T08:51:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -2588,7 +2588,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-23T09:53:26Z",
+            "pushed_at": "2026-07-24T08:50:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3458,6 +3458,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "81d8103",
+                  "message": "bind: bump to 9.20.26",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-07-24T08:50:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/81d81033e6a278663c6e0414f0ec07d37b1141bd"
+                },
+                {
                   "sha": "198e8cc",
                   "message": "zoneinfo: use SPDX valid identifier Unlicense instead of Public-Domain",
                   "author": "Florian Eckert",
@@ -3659,13 +3666,6 @@
                   "author": "Dharmik Parmar",
                   "date": "2026-07-19T18:08:34Z",
                   "url": "https://github.com/openwrt/packages/commit/2e945de232bd84ad74ec2b0625e16b0ce9f40131"
-                },
-                {
-                  "sha": "a9f0e9f",
-                  "message": "nut: use common log functions instead of direct logger calls",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-19T09:23:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/a9f0e9fae4c33094a51a190ff06f6ea26acfbd92"
                 }
               ]
             },
