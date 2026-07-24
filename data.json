@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-24T14:15:34.087996Z",
+  "generated_at": "2026-07-24T14:19:01.112191Z",
   "groups": [
     {
       "id": "cores",
@@ -1259,7 +1259,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89461,
+            "stars": 89462,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-24T00:19:43Z",
@@ -1327,7 +1327,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23717,
+            "stars": 23718,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -1398,7 +1398,7 @@
             "stars": 75765,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-24T14:15:24Z",
+            "pushed_at": "2026-07-24T14:18:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -1542,7 +1542,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-07-24T14:13:32Z",
+            "pushed_at": "2026-07-24T14:19:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1767,11 +1767,95 @@
               "name": "main",
               "commits": [
                 {
+                  "sha": "bf2667f",
+                  "message": "Merge pull request #2 from Mrvibecodic/dev",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T14:19:32Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bf2667f48d55799c29ab8afc6236d98220d17758"
+                },
+                {
+                  "sha": "abbaa48",
+                  "message": "фикс(sec): пометить чтение кастомной статики как #nosec G304 (путь из конфига оператора)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T14:13:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/abbaa480fec02bbf62fa278a1322f23984904486"
+                },
+                {
+                  "sha": "779c3f4",
+                  "message": "фича: свой дизайн мини-аппа и кабинета — папка /custom поверх вшитой статики (CUSTOM_STATIC_DIR)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T14:02:49Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/779c3f4b8093baba4694864e9894a5e499fd220a"
+                },
+                {
+                  "sha": "147b0b8",
+                  "message": "фикс(кабинет): чип баланса не исчезал после выхода до перезагрузки страницы",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T14:02:49Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/147b0b8c16b67fe29260a0e8d8a191fcf0775ee8"
+                },
+                {
+                  "sha": "5e9d9de",
+                  "message": "docs: настройка веб-кабинета и Mini App за reverse-proxy (пример nginx, X-Forwarded-Proto)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T14:02:48Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5e9d9dedda9b52647004076a79782490387fa383"
+                },
+                {
+                  "sha": "fc4a328",
+                  "message": "chore(sec): безопасные фиксы gosec без изменения поведения",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T22:39:55Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/fc4a32876b8182c214140104a02c45a332a39327"
+                },
+                {
+                  "sha": "8d54748",
+                  "message": "fix(лк): откат статического title/favicon — конфликтовал с серверной настройкой",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T22:10:26Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8d5474803915e5d48dfc4d74ed5ca62c5be5b81b"
+                },
+                {
+                  "sha": "5ae7d30",
+                  "message": "feat(мини-апп/лк): подтверждение закрытия при оплате + фавикон и заголовок ЛК",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T21:54:54Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5ae7d305eb4c13782aea5b304ab5ade6ecaa4292"
+                },
+                {
+                  "sha": "514ede5",
+                  "message": "feat(устройства): ретрай удаления HWID до успеха, окно подтверждения в ЛК и тесты",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T11:40:20Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/514ede50b821dd9cb5e7afc6551d587b4f9cadba"
+                },
+                {
                   "sha": "c6560df",
                   "message": "docs(pages): карточка «Сброс устройств» с бейджем dev",
                   "author": "Mrvibecodic",
                   "date": "2026-07-23T01:25:34Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c6560dffed3745989fb97ad18c380542bfd6bb03"
+                },
+                {
+                  "sha": "843822c",
+                  "message": "docs(pages): карточка «Сброс устройств» с бейджем dev",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T01:25:33Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/843822c428c85cf244d5a8faf524e3bbc5cd09b3"
+                },
+                {
+                  "sha": "50efd93",
+                  "message": "feat(устройства): удаление HWID-устройств при сбросе + кнопка в мини-аппе и ЛК",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T01:25:33Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/50efd933142bbf0706999fa9ecf93a1511ca67c4"
+                },
+                {
+                  "sha": "34fb4d7",
+                  "message": "fix: антидубль финализации платежа, подпись вебхука cryptobot и хардненинг",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T01:25:33Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/34fb4d7e737e6cf4fb4b62c1a9a778d8026a72f4"
                 },
                 {
                   "sha": "bbc75ff",
@@ -1891,90 +1975,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-21T23:55:22Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/82de6035bf0ae4d1ca9e8f889243fe740b3e26f7"
-                },
-                {
-                  "sha": "1ee3660",
-                  "message": "feat(cabinet): custom title/description/favicon + anti-fingerprint mode",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:50:47Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/1ee366074637d6597820fa2175fa4a34466cda92"
-                },
-                {
-                  "sha": "93ad611",
-                  "message": "feat(payments): downloadable CSV of the full payment log",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:45:00Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/93ad611360ade244a81783eac61be737e023a95f"
-                },
-                {
-                  "sha": "1114f33",
-                  "message": "feat(cabinet): block search engines / crawlers",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:41:38Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/1114f33509c63817e31230a2dcec4bfd3690584b"
-                },
-                {
-                  "sha": "dfd5e9a",
-                  "message": "feat(cabinet): P2P payment in the web cabinet (card + screenshot upload)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:40:52Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/dfd5e9a39e5875847c3cf8ceca61c07c46956f32"
-                },
-                {
-                  "sha": "57e8401",
-                  "message": "feat(cabinet): admin approval of new web users + show their email in the bot",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:35:06Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/57e84016cc247a69deb3b1869040067f2b33307d"
-                },
-                {
-                  "sha": "ab0d3ee",
-                  "message": "feat(cabinet): correct web payment methods + responsive layout",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:06:32Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ab0d3ee5c86776e57a74c4b23fd076bdd7af7ef7"
-                },
-                {
-                  "sha": "7dfb02a",
-                  "message": "harden(cabinet): HTTPS-only, real client IP, block enforcement",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T23:03:28Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7dfb02a1f842d8361e5b55ed509d34d555f09110"
-                },
-                {
-                  "sha": "eab7327",
-                  "message": "harden(cabinet): rate-limit auth + security headers + stronger password",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:52:35Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/eab7327573a2d160a079e493ec6daeb6dd0af724"
-                },
-                {
-                  "sha": "b919a6b",
-                  "message": "feat(cabinet): admin screen to enable + set path (live, no restart)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:46:48Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b919a6b2a5c8e97d9bb2862f0d88ea38a5ad4b5e"
-                },
-                {
-                  "sha": "b6db972",
-                  "message": "feat(cabinet): SPA login screen (Telegram + email) reusing the mini-app UI",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:44:46Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b6db972a6ee9882fa951f0abaa053c6fea2a507f"
-                },
-                {
-                  "sha": "46f0cf0",
-                  "message": "feat(cabinet): web-cabinet backend foundation (auth, storage, routing)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:42:08Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/46f0cf04328564a69bcde7a59a5d37115d5e29cb"
-                },
-                {
-                  "sha": "883920b",
-                  "message": "polish(ui): clearer menu buttons and consistent navigation",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T22:20:42Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/883920b5bb73df244362dba04b2456df29acd2df"
                 }
               ]
             }
