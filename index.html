@@ -378,8 +378,7 @@ function render(){
       return card(e,e.track||g.track,seen);
     }).filter(Boolean);
     if(cards.length){
-      const label=g.track==="commits"?"коммиты по веткам":"релизы";
-      html+='<div class="section-title"><span class="bar"></span>'+esc(g.name)+' — '+label+'<span class="cnt">'+cards.length+'</span></div><div class="grid">'+cards.join("")+'</div>';
+      html+='<div class="section-title"><span class="bar"></span>'+esc(g.name)+'<span class="cnt">'+cards.length+'</span></div><div class="grid">'+cards.join("")+'</div>';
     }
   }
   document.getElementById("app").innerHTML=html||'<div class="loading">Ничего не найдено.</div>';
