@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T17:05:28.023411Z",
+  "generated_at": "2026-07-25T17:07:44.540368Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6543,
+            "stars": 6544,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-07-24T08:21:12Z",
@@ -5028,7 +5028,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65306,
+            "stars": 65307,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-07-25T02:13:07Z",
@@ -5562,7 +5562,7 @@
             "stars": 32,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-23T13:54:09Z",
+            "pushed_at": "2026-07-25T17:07:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5571,6 +5571,20 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "754ec85",
+                  "message": "fix(branding): проверять TLS при загрузке логотипа по настройке tls_verify",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-25T16:44:31Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/754ec8528132201c5cb2a121e53dfe1670cccdca"
+                },
+                {
+                  "sha": "7f1a7fa",
+                  "message": "fix(security): экранировать JSON-эмбеды в админке (XSS через чат и лог запросов)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-25T16:44:31Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/7f1a7faf8d4ad6922357393828cda0f352dd1a92"
+                },
                 {
                   "sha": "8f8e484",
                   "message": "fix(docker): увеличены буферы fastcgi в nginx для крупных заголовков php-fpm",
@@ -5766,26 +5780,33 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-21T13:32:51Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5d5a77ea098f1281180ea8162369b8c05e0eb8b9"
-                },
-                {
-                  "sha": "c20d23a",
-                  "message": "fix(forward): проверять TLS при пересылке вебхуков (по настройке tls_verify)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T13:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c20d23ad7ce1212be1c96235516658f564ed4d8e"
-                },
-                {
-                  "sha": "f6dba46",
-                  "message": "fix(webhook): отклонять устаревшие вебхуки (anti-replay по X-Remnawave-Timestamp)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-21T13:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f6dba4681f78f25a3faa17833c949ba98e6dd020"
                 }
               ]
             },
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "47c7ba4",
+                  "message": "Merge branch 'dev': фиксы XSS-эмбедов админки и TLS-проверки логотипа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-25T17:07:14Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/47c7ba406af64dceba9a18c787d4e90814f37588"
+                },
+                {
+                  "sha": "754ec85",
+                  "message": "fix(branding): проверять TLS при загрузке логотипа по настройке tls_verify",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-25T16:44:31Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/754ec8528132201c5cb2a121e53dfe1670cccdca"
+                },
+                {
+                  "sha": "7f1a7fa",
+                  "message": "fix(security): экранировать JSON-эмбеды в админке (XSS через чат и лог запросов)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-25T16:44:31Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/7f1a7faf8d4ad6922357393828cda0f352dd1a92"
+                },
                 {
                   "sha": "638800a",
                   "message": "Merge pull request #5 from Mrvibecodic/dev",
@@ -5974,27 +5995,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-23T23:37:40Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1a10c14dad0ba42a83ec8052973f0a6ef7e6326d"
-                },
-                {
-                  "sha": "8eda2bc",
-                  "message": "ui(wgpool): не сжимать ник бейджем клиента, переносить бейдж под ник",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T18:27:17Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8eda2bca519fadd4710e342bc29f80ff2e29a5aa"
-                },
-                {
-                  "sha": "81107c5",
-                  "message": "feat(wgpool): сохранять и показывать клиента выдачи в подсказке",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T18:06:37Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/81107c5a86957ee68bc77aeb7511b1fbcda25ef1"
-                },
-                {
-                  "sha": "57b14aa",
-                  "message": "fix(squadconf): не подмешивать AmneziaWG в Happ/Incy (base64)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T18:06:37Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/57b14aa38ebd1e3d6f578ba270f45d410d6add9f"
                 }
               ]
             }
