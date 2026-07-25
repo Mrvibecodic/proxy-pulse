@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T15:02:34.009080Z",
+  "generated_at": "2026-07-25T15:04:48.357457Z",
   "groups": [
     {
       "id": "cores",
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "69668f8",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-07-25T09:24:39Z",
             "url": "https://github.com/openwrt/openwrt/commit/69668f8f828b94a7d9fd908bf82d24e5a2a13d48"
           }
@@ -6016,6 +6016,15 @@
           },
           "releases": [
             {
+              "name": "0.32.0",
+              "tag": "0.32.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.32.0",
+              "published_at": "2026-07-25T15:03:00Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.32.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(providers): doubleservers, setup badges, and credential reveal by @sedyh in https://github.com/mishkatik/infra-billing/pull/9\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.31.0...0.32.0"
+            },
+            {
               "name": "0.31.0",
               "tag": "0.31.0",
               "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.31.0",
@@ -6050,15 +6059,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.29.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(providers): add Yandex Cloud connector, fix(analytics): count charges as spend for providers without top-ups by @sedyh in https://github.com/mishkatik/infra-billing/pull/8\n\n## New Contributors\n* @sedyh made their first contribution in https://github.com/mishkatik/infra-billing/pull/8\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.28.1...0.29.0"
-            },
-            {
-              "name": "0.28.1",
-              "tag": "0.28.1",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.28.1",
-              "published_at": "2026-07-17T16:14:58Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.28.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.28.0...0.28.1"
             }
           ],
           "last_commit": {
