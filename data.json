@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T05:48:01.186200Z",
+  "generated_at": "2026-07-25T06:01:09.665126Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40615,
+            "stars": 40616,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-21T14:02:58Z",
@@ -81,15 +81,24 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36412,
+            "stars": 36413,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-25T05:07:01Z",
+            "pushed_at": "2026-07-25T06:00:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.2",
+              "tag": "v1.14.0-beta.2",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.2",
+              "published_at": "2026-07-25T05:58:53Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add [JSON Schema](https://sing-box.sagernet.org/configuration/schema/) support **1**\n* Fixes and improvements\n\n**1**:\n\nsing-box now provides a JSON Schema for its configuration, enabling completion and validation in compatible editors. The schema published with the documentation can be selected with the new top-level `$schema` field, while the new `sing-box schema` command generates a schema matching the current binary and its build tags.\n\nWe have also improved the JSON editor experience in the graphical clients on macOS, Android, Windows, and Linux, and added schema-based completion support."
+            },
             {
               "name": "1.14.0-beta.1",
               "tag": "v1.14.0-beta.1",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Add OpenVPN client and server support **1**\n* Add OpenConnect client support **2**\n* Fixes and improvements\n\n**1**:\n\nThe new [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/) and [OpenVPN Server](https://sing-box.sagernet.org/configuration/endpoint/openvpn-server/) endpoints are compatible with standard OpenVPN clients and servers. Interactive client authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard).\n\n**2**:\n\nThe new [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint supports Cisco AnyConnect, GlobalProtect, Fortinet, F5, Pulse Connect Secure, and Juniper Network Connect VPN servers. Interactive authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard)."
-            },
-            {
-              "name": "1.14.0-alpha.46",
-              "tag": "v1.14.0-alpha.46",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.46",
-              "published_at": "2026-07-17T04:50:20Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Add multiple tags support to rule-sets **1**\n* Add new UDP NAT options **2**\n* Fixes and improvements\n\n**1**:\n\nThe rule-set [`tag`](https://sing-box.sagernet.org/configuration/rule-set/#tag) field now accepts a list of tags to define multiple rule-sets sharing other options at once, with the `{tag}` placeholder in `path` or `url` replaced by each tag.\n\n**2**:\n\nThe new [UDP NAT](https://sing-box.sagernet.org/configuration/shared/udp-nat/) fields [`udp_mapping`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_mapping), [`udp_filtering`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_filtering) and [`udp_nat_max`](https://sing-box.sagernet.org/configuration/shared/udp-nat/#udp_nat_max) configure the NAT mapping and filtering behaviors and the maximum number of UDP NAT sessions for TUN and TProxy inbounds and the WireGuard endpoint."
             }
           ],
           "last_commit": {
