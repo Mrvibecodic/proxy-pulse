@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T19:53:01.198217Z",
+  "generated_at": "2026-07-26T19:55:17.301387Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 800,
+            "stars": 801,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-07-25T09:49:32Z",
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "4b0f7eb",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-07-26T16:02:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/4b0f7ebab7f75e3a0564c3810ccf45ce30c773ac"
           }
@@ -850,7 +850,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-26T17:54:53Z",
+            "pushed_at": "2026-07-26T19:53:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0bcf4ca",
+                  "message": "adblock: keep the GeoIP map usable without a local uplink",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T19:53:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/0bcf4cab80fc81e77db9012bd6c76318f04a4fa0"
+                },
+                {
                   "sha": "e74adcb",
                   "message": "banip: fix the local uplink lookup of the GeoIP map",
                   "author": "Dirk Brenken",
@@ -1921,13 +1928,6 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-07-21T03:58:53Z",
                   "url": "https://github.com/openwrt/packages/commit/50dec501ab1bc86f844de2e40d4e4d0aaa613d20"
-                },
-                {
-                  "sha": "5dcb4b8",
-                  "message": "telegraf: update to 1.39.2",
-                  "author": "Niklas Thorild",
-                  "date": "2026-07-21T03:58:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/5dcb4b888f0d767e31a9890688bb6705960a0d23"
                 }
               ]
             },
@@ -3225,6 +3225,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "32bce39",
+                  "message": "adblock: keep the GeoIP map usable without a local uplink",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T19:53:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/32bce390629a8752d2ad787373bef86fe8b0c134"
+                },
+                {
                   "sha": "4ab7a80",
                   "message": "banip: fix the local uplink lookup of the GeoIP map",
                   "author": "Dirk Brenken",
@@ -3426,13 +3433,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-07-16T06:51:08Z",
                   "url": "https://github.com/openwrt/packages/commit/d5540bad18a319894af4d793166c8d1accce6df6"
-                },
-                {
-                  "sha": "b6d2506",
-                  "message": "django: bump to version 6.0.6",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-16T06:51:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/b6d2506585f3acd691c026e4e3b6d82ad29ba219"
                 }
               ]
             }
@@ -4892,7 +4892,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23769,
+            "stars": 23770,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
