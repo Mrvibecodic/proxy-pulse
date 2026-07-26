@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:32:34.818504Z",
+  "generated_at": "2026-07-26T13:34:48.944212Z",
   "groups": [
     {
       "id": "cores",
@@ -706,12 +706,21 @@
             "stars": 6555,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-26T13:17:27Z",
+            "pushed_at": "2026-07-26T13:34:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.1",
+              "tag": "1.2.1",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.1",
+              "published_at": "2026-07-26T13:34:29Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": ""
+            },
             {
               "name": "1.2.0",
               "tag": "1.2.0",
@@ -747,15 +756,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Add runtime stats Widget\r\n* Add full Xray JSON array subscription support\r\n* Use widgets for Tray server/routing profile selection\r\n* Fixes and Improvements"
-            },
-            {
-              "name": "1.2.0-beta.4",
-              "tag": "1.2.0-beta.4",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.4",
-              "published_at": "2026-07-05T11:29:55Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Refactor context menus\r\n* Improve Start/Stop button (Thanks @renkagod)\r\n* Allow disabling the traffic stats feature\r\n* Add remote route profile support **1**\r\n* Fix sub update logic **2**\r\n* Fix mieru Link format\r\n* Upgrade Xray core to `v26.6.27`\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nRoute profiles can now be remotely subscribed to, allowing a route profile that gets updated from a remote source. Adding it can be done via [Deeplinks](https://throneproj.github.io/advanced/deeplinks/) as well.\r\n\r\n**2**:\r\nPreviously, periodic jobs would run on an interval starting from the launch time, now they behave properly and trigger once the specified interval value has passed since the last update time."
             }
           ],
           "last_commit": {
