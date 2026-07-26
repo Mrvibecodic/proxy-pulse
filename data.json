@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T17:52:00.001239Z",
+  "generated_at": "2026-07-26T17:54:16.270060Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-26T04:49:47Z",
+            "pushed_at": "2026-07-26T17:54:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e74adcb",
+                  "message": "banip: fix the local uplink lookup of the GeoIP map",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T17:54:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/e74adcb2afdf62cb07e17aea7479bc276ba07b4b"
+                },
+                {
                   "sha": "b036203",
                   "message": "travelmate: fix loss of configured uplink mac address",
                   "author": "Dirk Brenken",
@@ -1921,13 +1928,6 @@
                   "author": "Niklas Thorild",
                   "date": "2026-07-21T03:58:05Z",
                   "url": "https://github.com/openwrt/packages/commit/5dcb4b888f0d767e31a9890688bb6705960a0d23"
-                },
-                {
-                  "sha": "7673cd9",
-                  "message": "snapcast: make build options explicit and per-package deps precise",
-                  "author": "Mirko Vogt",
-                  "date": "2026-07-20T17:02:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/7673cd9a3ed8e2f3d7be701a367b83b1270c3256"
                 }
               ]
             },
