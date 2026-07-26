@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T17:54:16.270060Z",
+  "generated_at": "2026-07-26T17:56:33.342933Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-26T17:54:18Z",
+            "pushed_at": "2026-07-26T17:54:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3225,6 +3225,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "4ab7a80",
+                  "message": "banip: fix the local uplink lookup of the GeoIP map",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T17:54:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/4ab7a800c5a4330b4b13b28bf89fd162e8361b56"
+                },
+                {
                   "sha": "7db9dfe",
                   "message": "travelmate: fix loss of configured uplink mac address",
                   "author": "Dirk Brenken",
@@ -3426,13 +3433,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-07-16T06:51:08Z",
                   "url": "https://github.com/openwrt/packages/commit/b6d2506585f3acd691c026e4e3b6d82ad29ba219"
-                },
-                {
-                  "sha": "0f41b7e",
-                  "message": "django: bump to version 6.0.5",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-16T06:51:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f41b7e9b223028e00401f6ae00daf7ca5c37bf2"
                 }
               ]
             }
