@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T04:47:57.851484Z",
+  "generated_at": "2026-07-26T04:50:14.829696Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40631,
+            "stars": 40632,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-26T00:13:37Z",
@@ -850,7 +850,7 @@
             "stars": 4567,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-25T22:53:58Z",
+            "pushed_at": "2026-07-26T04:49:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b036203",
+                  "message": "travelmate: fix loss of configured uplink mac address",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T04:48:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/b036203cbc27ef37c03ed1f8419d8d2b65e481f1"
+                },
+                {
                   "sha": "cb60600",
                   "message": "uvol: bump version to 1.1",
                   "author": "Daniel Golle",
@@ -1921,13 +1928,6 @@
                   "author": "Mirko Vogt",
                   "date": "2026-07-20T17:02:02Z",
                   "url": "https://github.com/openwrt/packages/commit/7673cd9a3ed8e2f3d7be701a367b83b1270c3256"
-                },
-                {
-                  "sha": "b442c04",
-                  "message": "fluent-bit: add init script",
-                  "author": "Sebastian Hamann",
-                  "date": "2026-07-20T09:10:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/b442c043a723f7909299cfc8953d6b7a0e0e51e0"
                 }
               ]
             },
@@ -3225,6 +3225,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7db9dfe",
+                  "message": "travelmate: fix loss of configured uplink mac address",
+                  "author": "Dirk Brenken",
+                  "date": "2026-07-26T04:49:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/7db9dfef44839a4610ffe686937b3b00c5a48f16"
+                },
+                {
                   "sha": "1e02e8d",
                   "message": "bind: bump to 9.20.26",
                   "author": "Noah Meyerhans",
@@ -3426,13 +3433,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-07-16T06:51:08Z",
                   "url": "https://github.com/openwrt/packages/commit/0f41b7e9b223028e00401f6ae00daf7ca5c37bf2"
-                },
-                {
-                  "sha": "fb1f91c",
-                  "message": "python3-django: update to 6.0.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-16T06:51:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/fb1f91cc5ec0efeb01e2d4fb1497df53ed26021a"
                 }
               ]
             }
