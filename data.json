@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T08:05:55.860921Z",
+  "generated_at": "2026-07-27T08:08:11.539217Z",
   "groups": [
     {
       "id": "cores",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a16936b",
+            "sha": "918129b",
             "branch": "stable",
-            "date": "2026-07-27T07:54:55Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/a16936b738c395acd07e989c6b5a8602fcf5dfc1"
+            "date": "2026-07-27T08:08:16Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/918129b3eec7a1fab9a03a1196f59db69ae3bbf0"
           }
         },
         {
@@ -6016,6 +6016,15 @@
           },
           "releases": [
             {
+              "name": "0.33.0",
+              "tag": "0.33.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.33.0",
+              "published_at": "2026-07-27T08:07:23Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.33.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* Panel polish, icon appearance, and Hostkey InvAPI provider by @sedyh in https://github.com/mishkatik/infra-billing/pull/13\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.32.0...0.33.0"
+            },
+            {
               "name": "0.32.0",
               "tag": "0.32.0",
               "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.32.0",
@@ -6050,15 +6059,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.29.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.29.0...0.29.1"
-            },
-            {
-              "name": "0.29.0",
-              "tag": "0.29.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.29.0",
-              "published_at": "2026-07-18T13:50:02Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.29.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(providers): add Yandex Cloud connector, fix(analytics): count charges as spend for providers without top-ups by @sedyh in https://github.com/mishkatik/infra-billing/pull/8\n\n## New Contributors\n* @sedyh made their first contribution in https://github.com/mishkatik/infra-billing/pull/8\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.28.1...0.29.0"
             }
           ],
           "last_commit": {
