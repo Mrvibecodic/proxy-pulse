@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T07:00:38.729569Z",
+  "generated_at": "2026-07-27T07:02:55.849544Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40664,
+            "stars": 40665,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-26T00:13:37Z",
@@ -850,7 +850,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-27T06:35:43Z",
+            "pushed_at": "2026-07-27T07:02:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3253c6c",
+                  "message": "apparmor: stage libapparmor headers via InstallDev",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-27T07:02:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/3253c6c9b51313af41433ac5401e45dbf2cd4dac"
+                },
+                {
                   "sha": "870abb8",
                   "message": "python-certifi: update to 2026.7.22",
                   "author": "Wei-Ting Yang",
@@ -1921,13 +1928,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-22T23:04:06Z",
                   "url": "https://github.com/openwrt/packages/commit/9058162e11dc2e0728aaa3380d975e4f412168b3"
-                },
-                {
-                  "sha": "084f892",
-                  "message": "snapcast: add libsoxr dependency to snapclient",
-                  "author": "Mirko Vogt",
-                  "date": "2026-07-22T14:14:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/084f89271e3d1c7b5eb1b7bc743f0b0939f6a07c"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75802,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-27T06:56:12Z",
+            "pushed_at": "2026-07-27T07:02:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
