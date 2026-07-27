@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:10:34.225541Z",
+  "generated_at": "2026-07-27T10:12:50.424275Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4567,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-27T07:02:16Z",
+            "pushed_at": "2026-07-27T10:10:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bd08229",
+                  "message": "radsecproxy: add config options for UCI, fix escaping",
+                  "author": "Jan-Frederik Rieckers",
+                  "date": "2026-07-27T10:10:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/bd08229d5e93b7753a384a49fa0258847988fc53"
+                },
+                {
                   "sha": "3253c6c",
                   "message": "apparmor: stage libapparmor headers via InstallDev",
                   "author": "Alexandru Ardelean",
@@ -1921,13 +1928,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-22T23:04:06Z",
                   "url": "https://github.com/openwrt/packages/commit/2616169cd42ae207254f9d4a9b59a4ca8d527210"
-                },
-                {
-                  "sha": "9058162",
-                  "message": "zabbix: preserve user config files across sysupgrade",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-22T23:04:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/9058162e11dc2e0728aaa3380d975e4f412168b3"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75806,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-27T10:10:15Z",
+            "pushed_at": "2026-07-27T10:12:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8c9b926",
-            "branch": "agent/datasource-diagnostics-querydata",
-            "date": "2026-07-27T10:05:27Z",
-            "url": "https://github.com/grafana/grafana/commit/8c9b926d725d92de9c0186aea2dfb83f04f8df18"
+            "sha": "b0fd2e3",
+            "branch": "mdv/errors-notice-UI-fixes",
+            "date": "2026-07-27T10:12:38Z",
+            "url": "https://github.com/grafana/grafana/commit/b0fd2e3ba071c5d3271ea920dd219c007cccd6bf"
           }
         },
         {
