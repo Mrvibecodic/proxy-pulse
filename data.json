@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T22:01:41.824162Z",
+  "generated_at": "2026-07-28T22:03:56.990287Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 824,
+            "stars": 825,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-07-25T09:49:32Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-28T21:11:54Z",
+            "pushed_at": "2026-07-28T22:03:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "efbd9b9",
+                  "message": "gperftools: allow building for powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-07-28T22:03:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/efbd9b9820ac17b6e2f76ad696d7a1665f87dc49"
+                },
+                {
                   "sha": "774ec30",
                   "message": "ci: add LLM review rules",
                   "author": "Josef Schlehofer",
@@ -1921,13 +1928,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-22T23:10:15Z",
                   "url": "https://github.com/openwrt/packages/commit/71223e9e07e54a5c5c7bad2913916510c767d0c9"
-                },
-                {
-                  "sha": "f33158e",
-                  "message": "hev-socks5-tunnel: update to 2.16.0",
-                  "author": "Ray Wang",
-                  "date": "2026-07-22T23:05:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/f33158e88ddc19190e2503a807e50629bf314849"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75817,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-28T22:01:44Z",
+            "pushed_at": "2026-07-28T22:01:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
