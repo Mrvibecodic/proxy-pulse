@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T06:55:54.435480Z",
+  "generated_at": "2026-07-28T06:58:08.861746Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4567,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-27T10:10:42Z",
+            "pushed_at": "2026-07-28T06:57:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b7defd3",
+                  "message": "lua-eco: update to 4.1.4",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-07-28T06:57:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/b7defd3980e653eecfb12bebb0a98a03103653dd"
+                },
+                {
                   "sha": "bd08229",
                   "message": "radsecproxy: add config options for UCI, fix escaping",
                   "author": "Jan-Frederik Rieckers",
@@ -1921,13 +1928,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-22T23:04:06Z",
                   "url": "https://github.com/openwrt/packages/commit/f1bf9f56d866dfe8192f82428e910a3420092039"
-                },
-                {
-                  "sha": "2616169",
-                  "message": "zabbix: reorganize files dir for clarity and to better follow the FHS",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-22T23:04:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/2616169cd42ae207254f9d4a9b59a4ca8d527210"
                 }
               ]
             },
@@ -4960,7 +4960,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 75819,
+            "stars": 75818,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-07-28T06:45:48Z",
