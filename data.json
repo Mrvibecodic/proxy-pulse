@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T21:10:07.627558Z",
+  "generated_at": "2026-07-28T21:12:22.605511Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-28T12:16:29Z",
+            "pushed_at": "2026-07-28T21:11:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "774ec30",
+                  "message": "ci: add LLM review rules",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-07-28T21:11:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/774ec304f73e7554592805d946abac09852fad8e"
+                },
+                {
                   "sha": "7933a6f",
                   "message": "freeradius3: fix recursive dependency from libopenssl-legacy",
                   "author": "Alexandru Ardelean",
@@ -1921,13 +1928,6 @@
                   "author": "Ray Wang",
                   "date": "2026-07-22T23:05:46Z",
                   "url": "https://github.com/openwrt/packages/commit/f33158e88ddc19190e2503a807e50629bf314849"
-                },
-                {
-                  "sha": "3e46007",
-                  "message": "zabbix: add php8-mod-simplexml dependency to frontend",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-22T23:04:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/3e46007e605a8e6da5abd56bd45b485ee769e19b"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75816,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-28T21:09:11Z",
+            "pushed_at": "2026-07-28T21:11:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
