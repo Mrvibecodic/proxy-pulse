@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T22:03:56.990287Z",
+  "generated_at": "2026-07-28T22:06:12.490500Z",
   "groups": [
     {
       "id": "cores",
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "520d6d9",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-07-28T18:29:54Z",
             "url": "https://github.com/openwrt/openwrt/commit/520d6d9784b6d396d9bbe41bbe0750537c458710"
           }
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-28T22:03:17Z",
+            "pushed_at": "2026-07-28T22:04:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3225,6 +3225,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7025def",
+                  "message": "gperftools: allow building for powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-07-28T22:04:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/7025def82b2bf3b796ade2efef0253933eef291b"
+                },
+                {
                   "sha": "3dc6fa0",
                   "message": "golang: bump 1.26 to 1.26.5",
                   "author": "Andy Chiang",
@@ -3426,13 +3433,6 @@
                   "author": "dependabot[bot]",
                   "date": "2026-07-19T20:35:02Z",
                   "url": "https://github.com/openwrt/packages/commit/f7a86dd5642347d5f9eeb2340ddc25083e69f182"
-                },
-                {
-                  "sha": "747627a",
-                  "message": "ci: migrate to webhook-based stale bot",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-19T20:34:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/747627ad8d47315344bcfd21cbc5898de2e40b8e"
                 }
               ]
             }
@@ -4824,7 +4824,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89576,
+            "stars": 89577,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-28T06:02:07Z",
@@ -4963,7 +4963,7 @@
             "stars": 75817,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-28T22:01:47Z",
+            "pushed_at": "2026-07-28T22:05:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
