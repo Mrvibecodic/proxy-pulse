@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:34:05.402511Z",
+  "generated_at": "2026-07-29T18:39:21.918914Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4564,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-29T17:33:40Z",
+            "pushed_at": "2026-07-29T18:34:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b0057be",
+                  "message": "libextractor: don't auto-link libapparmor",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T18:34:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/b0057be11ef066d6798f3355be0169f4723b48a0"
+                },
+                {
                   "sha": "25eb4a4",
                   "message": "arp-whisper: bump to 1.0.0",
                   "author": "Facundo Acevedo",
@@ -1921,13 +1928,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-07-23T05:28:58Z",
                   "url": "https://github.com/openwrt/packages/commit/1532e6d72a7c7e8118fb6053ace0094e61da2890"
-                },
-                {
-                  "sha": "cd3fe9e",
-                  "message": "openssh: fix BSD license identifier with a valid one",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/cd3fe9ec04c5446d2bc6525889e1b4f6ee2e7a6c"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75840,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T18:29:36Z",
+            "pushed_at": "2026-07-29T18:36:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7de4923",
-            "branch": "MissingRoberto/informer-relist-live-race",
-            "date": "2026-07-29T18:29:36Z",
-            "url": "https://github.com/grafana/grafana/commit/7de492350a0b917a30a5377e6f3c35847dac7355"
+            "sha": "b9fb991",
+            "branch": "colin-stuart/IAM-fix-team-membership-mode5",
+            "date": "2026-07-29T18:36:08Z",
+            "url": "https://github.com/grafana/grafana/commit/b9fb991ba83e0485e6c2e45001f349d1edcae0e2"
           }
         },
         {
