@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:04:45.040690Z",
+  "generated_at": "2026-07-29T14:10:01.723687Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36525,
+            "stars": 36526,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-29T13:44:39Z",
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "d0110a2",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-07-29T07:28:41Z",
             "url": "https://github.com/openwrt/openwrt/commit/d0110a25edf1854813fcb8f03f38d65679bd6378"
           }
@@ -850,7 +850,7 @@
             "stars": 4564,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-29T10:07:40Z",
+            "pushed_at": "2026-07-29T14:07:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "81a26b8",
+                  "message": "taglib: update to 2.3.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T14:07:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/81a26b8d4214ff0d50465ef6c6623b758bf73909"
+                },
+                {
+                  "sha": "736753e",
+                  "message": "sqlite3: update to 3.53.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T14:07:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/736753e514775248808b8b6dd6fe4aee8d29b751"
+                },
+                {
+                  "sha": "36f978e",
+                  "message": "lttng-ust: update to 2.15.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T14:07:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/36f978e97cfe8a7f0fc838cea36a11fb709f5fa8"
+                },
+                {
                   "sha": "16d35e0",
                   "message": "ngtcp2: update to 1.25.0",
                   "author": "Alexandru Ardelean",
@@ -1907,27 +1928,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-07-23T05:28:58Z",
                   "url": "https://github.com/openwrt/packages/commit/fe38641196f1a45c5c08a0ddfbd73f880487c8fc"
-                },
-                {
-                  "sha": "8fd900f",
-                  "message": "libnetfilter-cthelper: replace deprecated GPL-2.0+ with GPL-2.0-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/8fd900f4e18a19d511a5a7b220ccde37495c0fa2"
-                },
-                {
-                  "sha": "008c78e",
-                  "message": "libnetfilter-cttimeout: replace deprecated GPL-2.0+ with GPL-2.0-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/008c78ee682572408e89115f1d3cb1a66deb3234"
-                },
-                {
-                  "sha": "8ae0f28",
-                  "message": "libnetfilter-log: replace deprecated GPL-2.0+ with GPL-2.0-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/8ae0f28fe3e34947c0082fb4fc59dd67b3d6f818"
                 }
               ]
             },
@@ -4960,10 +4960,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 75835,
+            "stars": 75836,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T14:04:41Z",
+            "pushed_at": "2026-07-29T14:07:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6c72f7b",
-            "branch": "ywzheng1/homepage-alert-incident-card-team-dropdown-1",
-            "date": "2026-07-29T13:59:35Z",
-            "url": "https://github.com/grafana/grafana/commit/6c72f7b14a7688e3c4ac1a44ddb9e36127ca61e6"
+            "sha": "7c937d2",
+            "branch": "visual-refresh-mega-menu",
+            "date": "2026-07-29T14:07:36Z",
+            "url": "https://github.com/grafana/grafana/commit/7c937d2569459db18a504a0224dbfd1d15283317"
           }
         },
         {
