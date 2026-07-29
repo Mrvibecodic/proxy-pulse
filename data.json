@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T18:07:37.778832Z",
+  "generated_at": "2026-07-29T18:12:55.344339Z",
   "groups": [
     {
       "id": "cores",
@@ -3580,7 +3580,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 15928,
+            "stars": 15929,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4963,7 +4963,7 @@
             "stars": 75840,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T18:02:49Z",
+            "pushed_at": "2026-07-29T18:11:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "32da5f0",
-            "branch": "docs/diagnostic-bundle-user-guide",
-            "date": "2026-07-29T18:02:50Z",
-            "url": "https://github.com/grafana/grafana/commit/32da5f0cfa0a8bb63da37e1d7f689017f10504c2"
+            "sha": "88eddf7",
+            "branch": "ale/fix-user-attr",
+            "date": "2026-07-29T18:11:29Z",
+            "url": "https://github.com/grafana/grafana/commit/88eddf72ba842cd09d3d1071496fd3f3b8da43c7"
           }
         },
         {
@@ -6142,7 +6142,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6751,
+            "stars": 6752,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-07-29T18:00:12Z",
@@ -6151,6 +6151,15 @@
             "owner": "getarcaneapp"
           },
           "releases": [
+            {
+              "name": "v2.6.0",
+              "tag": "v2.6.0",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.6.0",
+              "published_at": "2026-07-29T18:09:25Z",
+              "prerelease": false,
+              "author": "kmendell",
+              "body": "\n### New features\n\n* raw docker CLI output for all operations + interactive watch mode ([#3376](https://github.com/getarcaneapp/arcane/pull/3376) by @kmendell)\n* clickable dashboard tiles, volumes tile, and default landing page ([#3383](https://github.com/getarcaneapp/arcane/pull/3383) by @kmendell)\n* add row, bulk, and Update All actions to the updates page ([#3398](https://github.com/getarcaneapp/arcane/pull/3398) by @kmendell)\n\n### Bug fixes\n\n* harden gRPC tunnel reliability and request lifecycle ([#3325](https://github.com/getarcaneapp/arcane/pull/3325) by @kmendell)\n* prevent image update checks from getting stuck in a running state ([#3327](https://github.com/getarcaneapp/arcane/pull/3327) by @kmendell)\n* preserve IPAM fields in network inspect responses ([#3335](https://github.com/getarcaneapp/arcane/pull/3335) by @kmendell)\n* remove full stack trace from logging([1bed071](https://github.com/getarcaneapp/arcane/commit/1bed0714fc36f9bd0d0c170f0fcedd1bfe33e380) by @kmendell)\n* correct swarm resource scoping and stack deploy conformance ([#3385](https://github.com/getarcaneapp/arcane/pull/3385) by @kmendell)\n* tear down abandoned dashboard and activity streams promptly ([#3388](https://github.com/getarcaneapp/arcane/pull/3388) by @kmendell)\n* skip unreadable directories instead of discarding the project file tree ([#3393](https://github.com/getarcaneapp/arcane/pull/3393) by @kmendell)\n* preserve duplicate diagnostic log entries ([#3390](https://github.com/getarcaneapp/arcane/pull/3390) by @Kstateag)\n* resolve relative compose paths that escape the projects mount ([#3401](https://github.com/getarcaneapp/arcane/pull/3401) by @kmendell)\n* harden credential targets and browse paths ([#3403](https://github.com/getarcaneapp/arcane/pull/3403) by @kmendell)\n* resolve nil dereferences and a database pool leak([c89ac52](https://github.com/getarcaneapp/arcane/commit/c89ac52288eadaea1a47354e0461644259272fc7) by @kmendell)\n* handle unchecked error returns across backend and CLI([e4a5420](https://github.com/getarcaneapp/arcane/commit/e4a54203bc955afe30d4fb5bf4c1726b3544d8ad) by @kmendell)\n* honor updater opt-out labels during image scans ([#3405](https://github.com/getarcaneapp/arcane/pull/3405) by @Kstateag)\n* stream environment liveness over a multiplexed client stream ([#3406](https://github.com/getarcaneapp/arcane/pull/3406) by @kmendell)\n* crashes, goroutine leaks, and hot-path performance in the backend ([#3425](https://github.com/getarcaneapp/arcane/pull/3425) by @kmendell)\n* enforce actor privilege checks in user service ([#3426](https://github.com/getarcaneapp/arcane/pull/3426) by @kmendell)\n\n### CLI - Bug fixes\n\n* align commands with backend API contract ([#3400](https://github.com/getarcaneapp/arcane/pull/3400) by @kmendell)\n\n### Dependencies\n\n* bump actions/setup-go from 6 to 7 ([#3342](https://github.com/getarcaneapp/arcane/pull/3342) by @dependabot[bot])\n* bump pnpm to v11.16.0([d0339d4](https://github.com/getarcaneapp/arcane/commit/d0339d4f22d19c0f427510e331776d9c330262b0) by @kmendell)\n* bump @tanstack/svelte-query from 6.1.36 to 6.1.37 ([#3363](https://github.com/getarcaneapp/arcane/pull/3363) by @dependabot[bot])\n* bump @fontsource-variable/montserrat from 5.2.8 to 5.3.0 ([#3360](https://github.com/getarcaneapp/arcane/pull/3360) by @dependabot[bot])\n* bump react-email from 6.8.1 to 6.9.0 ([#3352](https://github.com/getarcaneapp/arcane/pull/3352) by @dependabot[bot])\n* bump svelte from 5.56.4 to 5.56.7 ([#3351](https://github.com/getarcaneapp/arcane/pull/3351) by @dependabot[bot])\n* bump github.com/docker/cli from 29.6.1+incompatible to 29.6.2+incompatible in /backend ([#3340](https://github.com/getarcaneapp/arcane/pull/3340) by @dependabot[bot])\n* bump @fontsource-variable/geist-mono from 5.2.8 to 5.3.0 ([#3364](https://github.com/getarcaneapp/arcane/pull/3364) by @dependabot[bot])\n* bump github.com/klauspost/compress from 1.19.0 to 1.19.1 in /backend ([#3339](https://github.com/getarcaneapp/arcane/pull/3339) by @dependabot[bot])\n* bump google.golang.org/grpc from 1.82.0 to 1.82.1 in /backend ([#3337](https://github.com/getarcaneapp/arcane/pull/3337) by @dependabot[bot])\n* bump github.com/moby/buildkit from 0.31.1 to 0.31.2 in /backend ([#3336](https://github.com/getarcaneapp/arcane/pull/3336) by @dependabot[bot])\n* bump the tanstack-table group across 1 directory with 2 updates ([#3341](https://github.com/getarcaneapp/arcane/pull/3341) by @dependabot[bot])\n* bump @tanstack/virtual-core from 3.17.4 to 3.17.5 ([#3355](https://github.com/getarcaneapp/arcane/pull/3355) by @dependabot[bot])\n* bump @sveltejs/kit from 3.0.0-next.8 to 3.0.0-next.11 ([#3362](https://github.com/getarcaneapp/arcane/pull/3362) by @dependabot[bot])\n* bump @codemirror/lang-markdown from 6.5.0 to 6.5.1 in the codemirror group across 1 directory ([#3344](https://github.com/getarcaneapp/arcane/pull/3344) by @dependabot[bot])\n* bump github.com/nicholas-fedor/shoutrrr from 0.16.1 to 0.16.2 in /backend ([#3396](https://github.com/getarcaneapp/arcane/pull/3396) by @dependabot[bot])\n* bump the aws-sdk-go-v2 group in /backend with 3 updates ([#3394](https://github.com/getarcaneapp/arcane/pull/3394) by @dependabot[bot])\n* bump github.com/libtnb/sqlite from 1.2.0 to 1.2.1 in /backend ([#3395](https://github.com/getarcaneapp/arcane/pull/3395) by @dependabot[bot])\n* bump github.com/pressly/goose/v3 from 3.27.2 to 3.27.3 in /backend ([#3397](https://github.com/getarcaneapp/arcane/pull/3397) by @dependabot[bot])\n\n### Other\n\n* consolidate internal helpers ([#3320](https://github.com/getarcaneapp/arcane/pull/3320) by @kmendell)\n* standardize optional values with samber/mo ([#3322](https://github.com/getarcaneapp/arcane/pull/3322) by @kmendell)\n* replace google/wire DI with uber-go/fx ([#3323](https://github.com/getarcaneapp/arcane/pull/3323) by @kmendell)\n* centralize/replace manual caching with samber/hot ([#3324](https://github.com/getarcaneapp/arcane/pull/3324) by @kmendell)\n* unify error handling ([#3328](https://github.com/getarcaneapp/arcane/pull/3328) by @kmendell)\n* migrate from echo/v4 to echo/v5 ([#3365](https://github.com/getarcaneapp/arcane/pull/3365) by @kmendell)\n* redesign environment settings page layout and tabs ([#3377](https://github.com/getarcaneapp/arcane/pull/3377) by @kmendell)\n* move all appearance settings to the user profile view ([#3384](https://github.com/getarcaneapp/arcane/pull/3384) by @kmendell)\n* bump go.getarcane.app/updater to v0.7.0 ([#3387](https://github.com/getarcaneapp/arcane/pull/3387) by @kmendell)\n* cleanup docker info dialog([497d234](https://github.com/getarcaneapp/arcane/commit/497d2343340582df49d93c28b3a55f5a85cc2407) by @kmendell)\n* redesign update view and show environment version in the tables ([#3389](https://github.com/getarcaneapp/arcane/pull/3389) by @kmendell)\n* unify edge tunnel transport lifecycle and relocate proto to backend/proto ([#3416](https://github.com/getarcaneapp/arcane/pull/3416) by @kmendell)\n\n\n\n**Full Changelog**: https://github.com/getarcaneapp/arcane/compare/v2.5.0...v2.6.0"
+            },
             {
               "name": "v2.5.0",
               "tag": "v2.5.0",
@@ -6186,15 +6195,6 @@
               "prerelease": false,
               "author": "kmendell",
               "body": "\n### Bug fixes\n\n* discard env_file when loading projects to match compose CLI config-hash ([#3100](https://github.com/getarcaneapp/arcane/pull/3100) by @pkoutsovasilis)\n* set explicit gorm LRU cache TTL to avoid constantly rising heap memory ([#3102](https://github.com/getarcaneapp/arcane/pull/3102) by @kmendell)\n* only display memory usage thats non-reclaimable ([#3105](https://github.com/getarcaneapp/arcane/pull/3105) by @kmendell)\n\n### Dependencies\n\n* bump prettier from 3.9.0 to 3.9.3 ([#3116](https://github.com/getarcaneapp/arcane/pull/3116) by @dependabot[bot])\n* bump @tanstack/svelte-query from 6.1.35 to 6.1.36 ([#3115](https://github.com/getarcaneapp/arcane/pull/3115) by @dependabot[bot])\n* bump golangci/golangci-lint-action from 9.2.1 to 9.3.0 ([#3106](https://github.com/getarcaneapp/arcane/pull/3106) by @dependabot[bot])\n* bump the tanstack-table group across 1 directory with 2 updates ([#3126](https://github.com/getarcaneapp/arcane/pull/3126) by @dependabot[bot])\n* bump github.com/compose-spec/compose-go/v2 from 2.12.1 to 2.13.0 in /backend ([#3124](https://github.com/getarcaneapp/arcane/pull/3124) by @dependabot[bot])\n* bump github.com/compose-spec/compose-go/v2 from 2.12.1 to 2.13.0 in /types ([#3107](https://github.com/getarcaneapp/arcane/pull/3107) by @dependabot[bot])\n* bump github.com/shirou/gopsutil/v4 from 4.26.5 to 4.26.6 in /backend ([#3123](https://github.com/getarcaneapp/arcane/pull/3123) by @dependabot[bot])\n* bump github.com/getarcaneapp/arcane/types/v2 from 2.1.0 to 2.2.0 in /cli ([#3108](https://github.com/getarcaneapp/arcane/pull/3108) by @dependabot[bot])\n* bump the aws-sdk-go-v2 group in /backend with 3 updates ([#3130](https://github.com/getarcaneapp/arcane/pull/3130) by @dependabot[bot])\n* bump pnpm to v11.9.0([2a976b6](https://github.com/getarcaneapp/arcane/commit/2a976b6c74b9ab81e299fa5751aa0a5876cc2a27) by @kmendell)\n\n\n\n**Full Changelog**: https://github.com/getarcaneapp/arcane/compare/v2.3.0...v2.3.1"
-            },
-            {
-              "name": "v2.3.0",
-              "tag": "v2.3.0",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.3.0",
-              "published_at": "2026-07-01T04:40:55Z",
-              "prerelease": false,
-              "author": "kmendell",
-              "body": "\n### New features\n\n* add appearance toggles for blur and interface animations ([#3091](https://github.com/getarcaneapp/arcane/pull/3091) by @othyn)\n\n### Bug fixes\n\n* edge tunnel go routine leak ([#3073](https://github.com/getarcaneapp/arcane/pull/3073) by @kmendell)\n* users with env only scopes unable to access the UI ([#3081](https://github.com/getarcaneapp/arcane/pull/3081) by @kmendell)\n* use correct disabletlsverification parameter for ntfy ([#3084](https://github.com/getarcaneapp/arcane/pull/3084) by @kmendell)\n* dont create trivy cache in server/client mode ([#3087](https://github.com/getarcaneapp/arcane/pull/3087) by @kmendell)\n* stop phantom and duplicate projects from broken syncs ([#3088](https://github.com/getarcaneapp/arcane/pull/3088) by @kmendell)\n* image polling notifications context being canceled early or not registered at all ([#3089](https://github.com/getarcaneapp/arcane/pull/3089) by @kmendell)\n\n### Dependencies\n\n* bump svelte from 5.56.3 to 5.56.4 ([#3067](https://github.com/getarcaneapp/arcane/pull/3067) by @dependabot[bot])\n* align some backend dependencies to avoid tranisent imports ([#3068](https://github.com/getarcaneapp/arcane/pull/3068) by @kmendell)\n* bump github.com/google/go-containerregistry from 0.21.6 to 0.21.7 in /backend ([#3044](https://github.com/getarcaneapp/arcane/pull/3044) by @dependabot[bot])\n* bump gorm.io/gorm from 1.31.1 to 1.31.2 in /backend ([#3046](https://github.com/getarcaneapp/arcane/pull/3046) by @dependabot[bot])\n* bump prettier from 3.8.4 to 3.8.5 ([#3064](https://github.com/getarcaneapp/arcane/pull/3064) by @dependabot[bot])\n* bump @tanstack/virtual-core from 3.17.1 to 3.17.2 ([#3047](https://github.com/getarcaneapp/arcane/pull/3047) by @dependabot[bot])\n* bump @xyflow/svelte from 1.6.0 to 1.6.1 ([#3066](https://github.com/getarcaneapp/arcane/pull/3066) by @dependabot[bot])\n* bump react-email from 6.6.3 to 6.6.5 ([#3059](https://github.com/getarcaneapp/arcane/pull/3059) by @dependabot[bot])\n* bump @tanstack/svelte-query from 6.1.34 to 6.1.35 ([#3049](https://github.com/getarcaneapp/arcane/pull/3049) by @dependabot[bot])\n* bump actions/cache from 5.0.5 to 6.1.0 ([#3071](https://github.com/getarcaneapp/arcane/pull/3071) by @dependabot[bot])\n* bump go.yaml.in/yaml/v4 from 4.0.0-rc.4 to 4.0.0-rc.6 in /backend ([#3070](https://github.com/getarcaneapp/arcane/pull/3070) by @dependabot[bot])\n* bump @tanstack/svelte-table from 9.0.0-beta.17 to 9.0.0-beta.21 in the tanstack-svelte group across 1 directory ([#3072](https://github.com/getarcaneapp/arcane/pull/3072) by @dependabot[bot])\n\n### Other\n\n* use atomic file writes and atomic bools for tunnel connections ([#3097](https://github.com/getarcaneapp/arcane/pull/3097) by @kmendell)\n\n\n\n**Full Changelog**: https://github.com/getarcaneapp/arcane/compare/v2.2.0...v2.3.0"
             }
           ],
           "last_commit": {
