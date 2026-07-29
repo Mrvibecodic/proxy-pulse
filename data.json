@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T12:09:37.206933Z",
+  "generated_at": "2026-07-29T12:14:52.622570Z",
   "groups": [
     {
       "id": "cores",
@@ -81,15 +81,33 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36524,
+            "stars": 36525,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-07-29T11:17:57Z",
+            "pushed_at": "2026-07-29T12:11:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.3",
+              "tag": "v1.14.0-beta.3",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.3",
+              "published_at": "2026-07-29T12:11:43Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
+            {
+              "name": "1.13.15",
+              "tag": "v1.13.15",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.15",
+              "published_at": "2026-07-29T12:11:41Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.0-beta.2",
               "tag": "v1.14.0-beta.2",
@@ -116,24 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Improve OpenVPN interoperability **1**\n* Improve OpenConnect interoperability **2**\n* Add Fortinet host check support **3**\n* Fixes and improvements\n\n**1**:\n\nThe OpenVPN client and server now interoperate with more existing deployments through static-key mode, additional legacy ciphers and digests, and OpenVPN-compatible certificate purpose, key usage, extended key usage, and certificate profile checks. They also support more OpenVPN options for tunnel addressing, MSS calculation, replay windows, timers, and TLS renegotiation. The new [OpenVPN DNS server](https://sing-box.sagernet.org/configuration/dns/server/openvpn/) can use both modern and legacy DNS options pushed by OpenVPN servers, while the sing-box server can push both forms.\n\n**2**:\n\nThe OpenConnect client now supports existing authentication sessions, OIDC Bearer authentication, additional platform and AnyConnect mobile identity fields, AnyConnect compression, and controls for MTU, DPD and reconnect timing, TCP keep alive, and TLS trust and certificate pinning. The new [OpenConnect DNS server](https://sing-box.sagernet.org/configuration/dns/server/openconnect/) can use pushed split-DNS resolvers and, when enabled, general pushed resolvers.\n\n**3**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint can now submit Fortinet host check results using the new [`fortinet_host_check`](https://sing-box.sagernet.org/configuration/endpoint/openconnect/#fortinet_host_check) option. This behavior is modeled after openfortivpn and is not an OpenConnect feature. sing-box only submits explicitly configured values when requested by the Fortinet server and does not collect system information automatically."
-            },
-            {
-              "name": "1.14.0-alpha.48",
-              "tag": "v1.14.0-alpha.48",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.48",
-              "published_at": "2026-07-19T15:33:35Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Add SSO support for AnyConnect **1**\n* Add Linux support for the [desktop client application](https://sing-box.sagernet.org/clients/desktop/) **2**\n* Fixes and improvements\n\n**1**:\n\nThe [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint now supports SSO (single sign-on) authentication for Cisco AnyConnect servers, available through the sing-box graphical clients.\n\n**2**:\n\nThe [sing-box for Desktop](https://sing-box.sagernet.org/clients/desktop/) client is now available for Linux (x64 / arm64 / armv7l) from [GitHub Releases](https://github.com/SagerNet/sing-box/releases)."
-            },
-            {
-              "name": "1.14.0-alpha.47",
-              "tag": "v1.14.0-alpha.47",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-alpha.47",
-              "published_at": "2026-07-18T02:28:26Z",
-              "prerelease": true,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Add OpenVPN client and server support **1**\n* Add OpenConnect client support **2**\n* Fixes and improvements\n\n**1**:\n\nThe new [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/) and [OpenVPN Server](https://sing-box.sagernet.org/configuration/endpoint/openvpn-server/) endpoints are compatible with standard OpenVPN clients and servers. Interactive client authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard).\n\n**2**:\n\nThe new [OpenConnect Client](https://sing-box.sagernet.org/configuration/endpoint/openconnect/) endpoint supports Cisco AnyConnect, GlobalProtect, Fortinet, F5, Pulse Connect Secure, and Juniper Network Connect VPN servers. Interactive authentication is available through the sing-box graphical clients and [Dashboard](https://github.com/SagerNet/sing-box-dashboard)."
             }
           ],
           "last_commit": {
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "d0110a2",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-07-29T07:28:41Z",
             "url": "https://github.com/openwrt/openwrt/commit/d0110a25edf1854813fcb8f03f38d65679bd6378"
           }
@@ -4963,7 +4963,7 @@
             "stars": 75832,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T12:09:24Z",
+            "pushed_at": "2026-07-29T12:14:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "09b4e2f",
-            "branch": "MissingRoberto/jobqueue-event-delivery-metrics",
-            "date": "2026-07-29T12:09:25Z",
-            "url": "https://github.com/grafana/grafana/commit/09b4e2f7b216bb4b9abdc75ba59706ce987a8ecb"
+            "sha": "d66f67f",
+            "branch": "main",
+            "date": "2026-07-29T12:14:12Z",
+            "url": "https://github.com/grafana/grafana/commit/d66f67fed517904fbddf1160f8cb5d5fba8c71b0"
           }
         },
         {
