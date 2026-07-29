@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T17:30:42.312864Z",
+  "generated_at": "2026-07-29T17:35:57.801529Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4564,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-29T14:07:46Z",
+            "pushed_at": "2026-07-29T17:33:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "25eb4a4",
+                  "message": "arp-whisper: bump to 1.0.0",
+                  "author": "Facundo Acevedo",
+                  "date": "2026-07-29T17:33:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/25eb4a472a30d721bde6eb9e99e1430894618d83"
+                },
+                {
+                  "sha": "54f7d20",
+                  "message": "hev-socks5-tproxy: update to 2.12.0",
+                  "author": "Ray Wang",
+                  "date": "2026-07-29T17:32:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/54f7d202b7fc817773069a8c72e6d7819b308abf"
+                },
+                {
                   "sha": "81a26b8",
                   "message": "taglib: update to 2.3.1",
                   "author": "Alexandru Ardelean",
@@ -1914,20 +1928,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-07-23T05:28:58Z",
                   "url": "https://github.com/openwrt/packages/commit/cd3fe9ec04c5446d2bc6525889e1b4f6ee2e7a6c"
-                },
-                {
-                  "sha": "4b000f7",
-                  "message": "libjaylink: replace deprecated GPL-2.0+ with GPL-2.0-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b000f74823e23df982875ef6bb1c84f674f79b8"
-                },
-                {
-                  "sha": "fe38641",
-                  "message": "igmpproxy: replace deprecated GPL-2.0+ with GPL-2.0-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe38641196f1a45c5c08a0ddfbd73f880487c8fc"
                 }
               ]
             },
@@ -3225,6 +3225,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "193adf1",
+                  "message": "swgp-go: add at 1.10.0",
+                  "author": "Florian Klink",
+                  "date": "2026-07-29T17:33:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/193adf14e242dbeb9a2d62fa71cbe41500da7479"
+                },
+                {
                   "sha": "7025def",
                   "message": "gperftools: allow building for powerpc",
                   "author": "Josef Schlehofer",
@@ -3426,13 +3433,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-07-19T20:35:07Z",
                   "url": "https://github.com/openwrt/packages/commit/0b258084145ccb3bcf994b12a7101a6e0045f171"
-                },
-                {
-                  "sha": "f7a86dd",
-                  "message": "ci: bump lewagon/wait-on-check-action from 1.8.0 to 1.8.1",
-                  "author": "dependabot[bot]",
-                  "date": "2026-07-19T20:35:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/f7a86dd5642347d5f9eeb2340ddc25083e69f182"
                 }
               ]
             }
@@ -4963,7 +4963,7 @@
             "stars": 75840,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T17:28:42Z",
+            "pushed_at": "2026-07-29T17:34:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8818e95",
-            "branch": "fix-duplicate-exemplar-trace-links-128810",
-            "date": "2026-07-29T17:28:42Z",
-            "url": "https://github.com/grafana/grafana/commit/8818e95f119e79220dca1d0ecd0db77b18f8bca3"
+            "sha": "c1ad5a2",
+            "branch": "paulmarbach/panel-testing-strategy-skill",
+            "date": "2026-07-29T17:34:05Z",
+            "url": "https://github.com/grafana/grafana/commit/c1ad5a29614b549687a659bc794915b82d5ea027"
           }
         },
         {
