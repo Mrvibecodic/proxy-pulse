@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T20:35:31.549187Z",
+  "generated_at": "2026-07-29T20:40:49.098974Z",
   "groups": [
     {
       "id": "cores",
@@ -703,15 +703,24 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6590,
+            "stars": 6589,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-07-29T16:33:13Z",
+            "pushed_at": "2026-07-29T20:39:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.2.2",
+              "tag": "1.2.2",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.2",
+              "published_at": "2026-07-29T20:39:02Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "* Update sing-box **1**\r\n* Add Amnezia v3 support\r\n* Update Xray\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThis should fix the tun issues on Linux."
+            },
             {
               "name": "1.2.1",
               "tag": "1.2.1",
@@ -747,15 +756,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Make Full Xray configs testable\r\n* Migrate interface binding and initial DNS resolution of Xray configs to our fork\r\n* Fixes and Improvements"
-            },
-            {
-              "name": "1.2.0-beta.5",
-              "tag": "1.2.0-beta.5",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.5",
-              "published_at": "2026-07-10T11:50:06Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Add runtime stats Widget\r\n* Add full Xray JSON array subscription support\r\n* Use widgets for Tray server/routing profile selection\r\n* Fixes and Improvements"
             }
           ],
           "last_commit": {
@@ -4963,7 +4963,7 @@
             "stars": 75843,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T20:31:51Z",
+            "pushed_at": "2026-07-29T20:38:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -6142,7 +6142,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6761,
+            "stars": 6762,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-07-29T18:32:35Z",
