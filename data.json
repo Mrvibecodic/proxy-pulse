@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T10:07:17.391117Z",
+  "generated_at": "2026-07-29T10:09:33.730160Z",
   "groups": [
     {
       "id": "cores",
@@ -836,7 +836,7 @@
           ],
           "last_commit": {
             "sha": "d0110a2",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-07-29T07:28:41Z",
             "url": "https://github.com/openwrt/openwrt/commit/d0110a25edf1854813fcb8f03f38d65679bd6378"
           }
@@ -850,7 +850,7 @@
             "stars": 4564,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-28T22:04:13Z",
+            "pushed_at": "2026-07-29T10:07:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "16d35e0",
+                  "message": "ngtcp2: update to 1.25.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T10:07:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/16d35e04c9a11ea5b12b7dc672b47c0ddf72a179"
+                },
+                {
+                  "sha": "d04ade0",
+                  "message": "nghttp3: update to 1.18.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T10:07:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/d04ade044ef0fa4e43b4714bb73c828319d79ab3"
+                },
+                {
+                  "sha": "925ccf8",
+                  "message": "jsoncpp: update to 1.9.8",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-29T10:07:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/925ccf8f2c470a5d1895ee0808d73d79125f2da3"
+                },
+                {
                   "sha": "efbd9b9",
                   "message": "gperftools: allow building for powerpc",
                   "author": "Josef Schlehofer",
@@ -1907,27 +1928,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-07-23T05:28:58Z",
                   "url": "https://github.com/openwrt/packages/commit/8ae0f28fe3e34947c0082fb4fc59dd67b3d6f818"
-                },
-                {
-                  "sha": "8d0187d",
-                  "message": "rpcd-mod-wireguard: replace deprecated LGPL-2.1+ with LGPL-2.1-or-later",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/8d0187d3a3b235999299d96dc4e80c2658346c9b"
-                },
-                {
-                  "sha": "21234c4",
-                  "message": "xz: use correct SPDX license name",
-                  "author": "Florian Eckert",
-                  "date": "2026-07-23T05:28:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/21234c4da7ff3a0a1a304dd0b8432f52471dcf3c"
-                },
-                {
-                  "sha": "71223e9",
-                  "message": "freeradius3: update to 3.2.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-22T23:10:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/71223e9e07e54a5c5c7bad2913916510c767d0c9"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75830,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T10:05:41Z",
+            "pushed_at": "2026-07-29T10:08:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
