@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T22:20:56.087548Z",
+  "generated_at": "2026-07-29T22:26:11.758259Z",
   "groups": [
     {
       "id": "cores",
@@ -5562,7 +5562,7 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-29T10:38:59Z",
+            "pushed_at": "2026-07-29T22:26:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5571,6 +5571,27 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "bc11fcd",
+                  "message": "feat(addsub): параллельная загрузка обеих подписок — тумблер, по умолчанию выкл",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-29T22:25:16Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bc11fcdb49cb3f979591267fe388c26062a2bdb6"
+                },
+                {
+                  "sha": "0d5eff5",
+                  "message": "fix(addsub): переписывать адрес ручной доп-подписки со своего домена на прямой источник",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-29T22:25:16Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/0d5eff543a12b8869327668a856f0ec22307ee5d"
+                },
+                {
+                  "sha": "5b88889",
+                  "message": "ui(addsub): уточнить подсказку авто-привязки — полное имя + суффикс",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-29T22:25:16Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5b888897ef03539d3b57b13a89898c8f03bb5864"
+                },
                 {
                   "sha": "10f2c74",
                   "message": "feat(wg-pool): подпулы (группы) конфигов — по одному из каждой группы в дедикейт-режиме",
@@ -5759,27 +5780,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-26T15:06:33Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f33b8f93b32b1fdf7d4f9108daeb40cf9b98e128"
-                },
-                {
-                  "sha": "43da790",
-                  "message": "feat(ui): новая тема админки и лендингов + расширенная рандомизация фейк-страницы",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-25T00:06:01Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/43da790b71266321ca4ede32ea83733cab9da4e1"
-                },
-                {
-                  "sha": "8eda2bc",
-                  "message": "ui(wgpool): не сжимать ник бейджем клиента, переносить бейдж под ник",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T18:27:17Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8eda2bca519fadd4710e342bc29f80ff2e29a5aa"
-                },
-                {
-                  "sha": "81107c5",
-                  "message": "feat(wgpool): сохранять и показывать клиента выдачи в подсказке",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-23T18:06:37Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/81107c5a86957ee68bc77aeb7511b1fbcda25ef1"
                 }
               ]
             },
