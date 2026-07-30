@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T18:52:51.699132Z",
+  "generated_at": "2026-07-30T18:58:07.361097Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40752,
+            "stars": 40753,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-28T08:00:44Z",
@@ -5562,7 +5562,7 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T18:50:06Z",
+            "pushed_at": "2026-07-30T18:56:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5787,6 +5787,34 @@
               "name": "main",
               "commits": [
                 {
+                  "sha": "580db76",
+                  "message": "fix(addsub): не пробрасывать условные заголовки, когда тело подписки модифицируется",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-30T18:55:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/580db76d685de1222503b1282539514cd8d94a14"
+                },
+                {
+                  "sha": "d1e9b33",
+                  "message": "feat(addsub): параллельная загрузка обеих подписок — тумблер, по умолчанию выкл",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-30T18:55:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/d1e9b3384a715faaaa9a5babdb43856cfee1dd2f"
+                },
+                {
+                  "sha": "e298d4a",
+                  "message": "fix(addsub): переписывать адрес ручной доп-подписки со своего домена на прямой источник",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-30T18:55:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e298d4a29d470206f15f854294b48204921e8093"
+                },
+                {
+                  "sha": "305a379",
+                  "message": "ui(addsub): уточнить подсказку авто-привязки — полное имя + суффикс",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-30T18:55:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/305a379a1aa29889d0bb0d8395d99824f3563df4"
+                },
+                {
                   "sha": "fc5f510",
                   "message": "feat(wg-pool): подпулы (группы) конфигов — по одному из каждой группы в дедикейт-режиме",
                   "author": "Mrvibecodic",
@@ -5967,34 +5995,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-26T23:50:02Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5652430ecb7d829049174e2a7c0f2d46089b8e1f"
-                },
-                {
-                  "sha": "2b82f7e",
-                  "message": "fix(squadconf): инжект vless в xray-json без чужого балансера и обсерватории",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T17:40:35Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/2b82f7e3d0bc9cc001a568698d70f89f8041137a"
-                },
-                {
-                  "sha": "9715e87",
-                  "message": "ui(wgpool): не дублировать generic-иконку устройства рядом с иконкой ОС",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T15:33:01Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9715e87501b99ef3f460aadf0aecee3846624a5b"
-                },
-                {
-                  "sha": "ae279bf",
-                  "message": "feat(wgpool): блок «Правила отдачи по UA» в пуле WG/AWG",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T15:19:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ae279bf99710852e1016db2d0c01bf897ad3db28"
-                },
-                {
-                  "sha": "f33b8f9",
-                  "message": "feat(squadconf): правила отдачи WG/AmneziaWG по UA — гейт выдачи и лизинга",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T15:06:33Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f33b8f93b32b1fdf7d4f9108daeb40cf9b98e128"
                 }
               ]
             }
