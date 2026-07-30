@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T11:18:58.280680Z",
+  "generated_at": "2026-07-30T11:24:13.261760Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4563,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-30T09:43:04Z",
+            "pushed_at": "2026-07-30T11:23:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "286d846",
+                  "message": "lttng-tools: update to 2.15.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-30T11:23:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/286d84639cdc98d785a73253797ce51de31d1930"
+                },
+                {
+                  "sha": "2ff5f03",
+                  "message": "lttng-modules: update to 2.15.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-30T11:23:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/2ff5f037fda219c4464c53f03b85b6a3592435e4"
+                },
+                {
+                  "sha": "dfb4bd4",
+                  "message": "lua-eco: fix LUA_ECO_CRASH_BACKTRACE recursive dependency",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-30T11:23:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/dfb4bd477af8bd84c8482dbc73824919ea14515a"
+                },
+                {
+                  "sha": "833d665",
+                  "message": "pv: update to 1.11.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-30T11:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/833d665fe3bd6a4803ddd71bf70d9b77ead8d56f"
+                },
+                {
+                  "sha": "ee996e4",
+                  "message": "libssh: update to 0.12.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-30T11:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/ee996e4c93b16c58ae2e9fa40f1313af42581a18"
+                },
+                {
                   "sha": "7364629",
                   "message": "ddns-scripts: fix root command injection through ddns_dateformat",
                   "author": "Hauke Mehrtens",
@@ -1893,41 +1928,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T03:29:00Z",
                   "url": "https://github.com/openwrt/packages/commit/052a3b792ffa17393c1898d7ae252b1b7080ce4e"
-                },
-                {
-                  "sha": "d7634c1",
-                  "message": "v2ray-core: update to 5.51.2",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T03:28:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/d7634c152bb831a991a4041e024f2f85114cabde"
-                },
-                {
-                  "sha": "0bcf4ca",
-                  "message": "adblock: keep the GeoIP map usable without a local uplink",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T19:53:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/0bcf4cab80fc81e77db9012bd6c76318f04a4fa0"
-                },
-                {
-                  "sha": "e74adcb",
-                  "message": "banip: fix the local uplink lookup of the GeoIP map",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T17:54:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/e74adcb2afdf62cb07e17aea7479bc276ba07b4b"
-                },
-                {
-                  "sha": "b036203",
-                  "message": "travelmate: fix loss of configured uplink mac address",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T04:48:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/b036203cbc27ef37c03ed1f8419d8d2b65e481f1"
-                },
-                {
-                  "sha": "cb60600",
-                  "message": "uvol: bump version to 1.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-07-25T22:53:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/cb60600aec1b46b781c3bf72bdef2f4ce95fe9e1"
                 }
               ]
             },
@@ -4892,7 +4892,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23873,
+            "stars": 23874,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -4963,7 +4963,7 @@
             "stars": 75859,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T11:15:30Z",
+            "pushed_at": "2026-07-30T11:23:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a08c94e",
-            "branch": "MissingRoberto/nats-resource-version-consistency",
-            "date": "2026-07-30T11:15:31Z",
-            "url": "https://github.com/grafana/grafana/commit/a08c94e2c47025d570d13722c81698783bc03187"
+            "sha": "c4ff337",
+            "branch": "search/post-rank-authz-early-exit",
+            "date": "2026-07-30T11:23:29Z",
+            "url": "https://github.com/grafana/grafana/commit/c4ff3374c1541af5abb1c409f62b53cbf1c41d7b"
           }
         },
         {
@@ -6142,7 +6142,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6778,
+            "stars": 6779,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-07-30T09:38:25Z",
