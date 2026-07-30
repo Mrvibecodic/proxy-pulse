@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T06:55:14.487877Z",
+  "generated_at": "2026-07-30T07:00:30.028612Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36538,
+            "stars": 36539,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-29T13:44:39Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6590,
+            "stars": 6591,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-07-29T20:39:02Z",
@@ -850,7 +850,7 @@
             "stars": 4564,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-30T06:12:30Z",
+            "pushed_at": "2026-07-30T06:58:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3010,6 +3010,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f3c2b68",
+                  "message": "sane-backends: update to 1.4.0",
+                  "author": "Luiz Angelo Daros de Luca",
+                  "date": "2026-07-30T06:58:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/f3c2b6855fa18c4c4b71d307143b4c8190ee12b7"
+                },
+                {
                   "sha": "23abaa6",
                   "message": "bind: bump to 9.20.26",
                   "author": "Noah Meyerhans",
@@ -3211,13 +3218,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-06-30T21:08:05Z",
                   "url": "https://github.com/openwrt/packages/commit/550fadb3acc44c8d8fde3010e0b9ac338742918f"
-                },
-                {
-                  "sha": "87a7f5a",
-                  "message": "ci: trigger build on pull_request and wait for FormalityCheck",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-06-30T16:03:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/87a7f5ac7c091e6016d6debf415126307c4ee941"
                 }
               ]
             },
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "25e77aa",
-            "branch": "alexk/homepage-v2-left-card",
-            "date": "2026-07-30T06:45:57Z",
-            "url": "https://github.com/grafana/grafana/commit/25e77aac7f65af0f10c41c0cfc98b4f7f1676ff2"
+            "sha": "8c647bb",
+            "branch": "alexk/homepage-v2-telemetry-data",
+            "date": "2026-07-30T06:45:56Z",
+            "url": "https://github.com/grafana/grafana/commit/8c647bb2df0e8070574c9c1a9dc3c462d95324b3"
           }
         },
         {
@@ -6074,7 +6074,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3142,
+            "stars": 3143,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-07-27T08:58:51Z",
@@ -6142,7 +6142,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6770,
+            "stars": 6771,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-07-30T04:57:17Z",
