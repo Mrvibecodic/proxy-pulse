@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T09:38:50.308862Z",
+  "generated_at": "2026-07-30T09:44:07.683945Z",
   "groups": [
     {
       "id": "cores",
@@ -850,7 +850,7 @@
             "stars": 4563,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-30T06:58:19Z",
+            "pushed_at": "2026-07-30T09:43:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7364629",
+                  "message": "ddns-scripts: fix root command injection through ddns_dateformat",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-07-30T09:43:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/7364629d70df51f2f618a867e901151b6764ee5d"
+                },
+                {
                   "sha": "99c244f",
                   "message": "snapcast: fix \"dirty\" cmake-add-build-with-soxr-option.patch",
                   "author": "Mirko Vogt",
@@ -1921,13 +1928,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-07-25T22:53:57Z",
                   "url": "https://github.com/openwrt/packages/commit/cb60600aec1b46b781c3bf72bdef2f4ce95fe9e1"
-                },
-                {
-                  "sha": "a9fc86b",
-                  "message": "swgp-go: add at 1.10.0",
-                  "author": "Florian Klink",
-                  "date": "2026-07-25T22:16:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/a9fc86bec536913805453dda0cab3dbfe7601491"
                 }
               ]
             },
@@ -4963,7 +4963,7 @@
             "stars": 75859,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T09:30:58Z",
+            "pushed_at": "2026-07-30T09:44:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7b0194a",
-            "branch": "authz/unified-storage-exempt-resources",
-            "date": "2026-07-30T09:26:36Z",
-            "url": "https://github.com/grafana/grafana/commit/7b0194af4fe812763c98fb9e542a27654ca28d8a"
+            "sha": "f89a5ed",
+            "branch": "saved-query-follow-up",
+            "date": "2026-07-30T09:41:50Z",
+            "url": "https://github.com/grafana/grafana/commit/f89a5ed89a1f4e4ad4022f147cf0e81e0a16c931"
           }
         },
         {
