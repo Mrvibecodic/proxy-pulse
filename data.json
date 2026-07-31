@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:42:48.267323Z",
+  "generated_at": "2026-07-31T06:48:06.269451Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36593,
+            "stars": 36594,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T05:14:17Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T06:41:19Z",
+            "pushed_at": "2026-07-31T06:46:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "42be0c9",
+                  "message": "prosody: extend test.sh past the version string grep",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/42be0c979ddb3a39861df1f722fef62a60158f86"
+                },
+                {
+                  "sha": "1f5fdd7",
+                  "message": "prosody: update to 13.0.6",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/1f5fdd78eca67ca26081d72f66fbc2fe3b60dd64"
+                },
+                {
+                  "sha": "60f5e4b",
+                  "message": "luasec: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/60f5e4b230ff50a0f84a4fd93c6eea15b46bbb48"
+                },
+                {
+                  "sha": "2eaaed5",
+                  "message": "luasocket: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/2eaaed5cdfcf32a3c7b550d705fd7ca3e2860e73"
+                },
+                {
+                  "sha": "59977dc",
+                  "message": "luaexpat: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/59977dc387fb9fc2993c83182ccc2d54c1bc5bdf"
+                },
+                {
+                  "sha": "27152e6",
+                  "message": "luafilesystem: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/27152e6f34b97d85cc0a1355d885ca9ccd9be8d6"
+                },
+                {
+                  "sha": "3fe92e6",
+                  "message": "lua: look for lua5.4 modules under /usr instead of /usr/local",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:46:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/3fe92e63f5585b35875543c64f7612935b897373"
+                },
+                {
                   "sha": "664df28",
                   "message": "hwdata: update to 0.409",
                   "author": "Alexandru Ardelean",
@@ -1879,55 +1928,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-29T10:07:39Z",
                   "url": "https://github.com/openwrt/packages/commit/925ccf8f2c470a5d1895ee0808d73d79125f2da3"
-                },
-                {
-                  "sha": "efbd9b9",
-                  "message": "gperftools: allow building for powerpc",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-28T22:03:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/efbd9b9820ac17b6e2f76ad696d7a1665f87dc49"
-                },
-                {
-                  "sha": "774ec30",
-                  "message": "ci: add LLM review rules",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-28T21:11:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/774ec304f73e7554592805d946abac09852fad8e"
-                },
-                {
-                  "sha": "7933a6f",
-                  "message": "freeradius3: fix recursive dependency from libopenssl-legacy",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-28T12:16:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/7933a6fe8e85ea0bd9bfe33126e0858962eb5128"
-                },
-                {
-                  "sha": "b7defd3",
-                  "message": "lua-eco: update to 4.1.4",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-07-28T06:57:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/b7defd3980e653eecfb12bebb0a98a03103653dd"
-                },
-                {
-                  "sha": "bd08229",
-                  "message": "radsecproxy: add config options for UCI, fix escaping",
-                  "author": "Jan-Frederik Rieckers",
-                  "date": "2026-07-27T10:10:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/bd08229d5e93b7753a384a49fa0258847988fc53"
-                },
-                {
-                  "sha": "3253c6c",
-                  "message": "apparmor: stage libapparmor headers via InstallDev",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-27T07:02:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/3253c6c9b51313af41433ac5401e45dbf2cd4dac"
-                },
-                {
-                  "sha": "870abb8",
-                  "message": "python-certifi: update to 2026.7.22",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-27T06:35:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/870abb80edc0ca83e3d53f6ee0ea4f73e1489a3f"
                 }
               ]
             },
