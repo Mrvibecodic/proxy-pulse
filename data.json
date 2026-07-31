@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T18:18:24.216083Z",
+  "generated_at": "2026-07-31T18:23:43.179536Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36608,
+            "stars": 36609,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T08:47:27Z",
@@ -152,7 +152,7 @@
             "stars": 32828,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T17:46:00Z",
+            "pushed_at": "2026-07-31T18:23:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Thu Jul 30 16:02:50 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
+              "body": "Release created at  Sat Aug  1 02:23:17 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6606,
+            "stars": 6607,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-07-30T07:50:36Z",
@@ -5393,7 +5393,7 @@
             "stars": 75893,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T18:18:18Z",
+            "pushed_at": "2026-07-31T18:22:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5446,10 +5446,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e906aa9",
+            "sha": "cb9bb0b",
             "branch": "RafaelPaulovic/vp/enforce",
-            "date": "2026-07-31T18:18:10Z",
-            "url": "https://github.com/grafana/grafana/commit/e906aa99026165f7a631f821697bbd456da6889d"
+            "date": "2026-07-31T18:22:51Z",
+            "url": "https://github.com/grafana/grafana/commit/cb9bb0be3bff4bbf60efaadee18b1fba366309dc"
           }
         },
         {
