@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T06:37:32.368595Z",
+  "generated_at": "2026-07-31T06:42:48.267323Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36592,
+            "stars": 36593,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T05:14:17Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32810,
+            "stars": 32812,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-07-30T08:02:51Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T05:55:00Z",
+            "pushed_at": "2026-07-31T06:41:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "664df28",
+                  "message": "hwdata: update to 0.409",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:41:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/664df2843a188185f12db1bd82373cb7f25acab6"
+                },
+                {
+                  "sha": "9d155d9",
+                  "message": "checksec: update to 3.2.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:41:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/9d155d96f804a00e8fd46ecdbf960a48ceda4ac9"
+                },
+                {
+                  "sha": "b9fe9ba",
+                  "message": "openblas: update to 0.3.34",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T06:41:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9fe9ba44bafea2cae107cffb8f359f631771d19"
+                },
+                {
                   "sha": "2a28bbc",
                   "message": "unbound: update to 1.25.2",
                   "author": "Tyrel M. McQueen",
@@ -1907,27 +1928,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-07-27T06:35:43Z",
                   "url": "https://github.com/openwrt/packages/commit/870abb80edc0ca83e3d53f6ee0ea4f73e1489a3f"
-                },
-                {
-                  "sha": "9412243",
-                  "message": "python-idna: bump to 3.18",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-27T06:35:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/94122430527e1ddd8a754ec00cb81051711b83fe"
-                },
-                {
-                  "sha": "bf1bd0a",
-                  "message": "python-charset-normalizer: bump to 3.4.9",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-27T06:35:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/bf1bd0a50ad0fc65937b1fd104faa470955a1792"
-                },
-                {
-                  "sha": "649dff3",
-                  "message": "geoipupdate: update to 8.0.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:01:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/649dff397166ee773c334553c43b111337132548"
                 }
               ]
             },
@@ -4892,7 +4892,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23888,
+            "stars": 23889,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
