@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:41:33.132189Z",
+  "generated_at": "2026-07-31T17:46:48.688492Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36606,
+            "stars": 36607,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T08:47:27Z",
@@ -152,7 +152,7 @@
             "stars": 32828,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T08:02:51Z",
+            "pushed_at": "2026-07-31T17:46:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "26c635f",
+            "sha": "7198c9d",
             "branch": "Alpha",
-            "date": "2026-07-30T07:25:46Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/26c635f69bbeb8a06cbbf90c8cd8181e4755914c"
+            "date": "2026-07-31T17:46:00Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/7198c9dc1eeba39e12cf37176a6ad1ff9cda3732"
           }
         }
       ]
@@ -4347,12 +4347,442 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
-            "pushed_at": "2026-07-24T18:33:09Z",
+            "pushed_at": "2026-07-31T17:44:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "branches": [
+            {
+              "name": "dependabot/github_actions/docker/login-action-4.5.2",
+              "commits": [
+                {
+                  "sha": "cd9306c",
+                  "message": "ci: bump docker/login-action from 4 to 4.5.2",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-31T17:44:30Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/cd9306c5d5918070ee5b697345bc3641b5ec41ed"
+                },
+                {
+                  "sha": "2d3c621",
+                  "message": "merge: ci: bump softprops/action-gh-release from 2 to 3 (#6)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2d3c621061e13faa67f0e00c59ec073e0018cf05"
+                },
+                {
+                  "sha": "636b542",
+                  "message": "merge: ci: bump docker/login-action from 3 to 4 (#4)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/636b5427aac3164b550f95f8c6257537b70eacf1"
+                },
+                {
+                  "sha": "f243db1",
+                  "message": "merge: ci: bump actions/checkout from 4 to 7 (#5)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/f243db171dff2fad00ee9f2d2b4c6568f2212ce1"
+                },
+                {
+                  "sha": "63e40df",
+                  "message": "merge: ci: bump actions/setup-go from 5 to 7 (#3)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:31:49Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/63e40df7f66083a20d3cc02ade76ec1e3e0132c7"
+                },
+                {
+                  "sha": "3d86387",
+                  "message": "deps: bump modernc.org/sqlite from 1.53.0 to 1.54.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:33Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/3d863876ee571cdcff095a070def31f1d187a303"
+                },
+                {
+                  "sha": "5a0f6ad",
+                  "message": "ci: bump softprops/action-gh-release from 2 to 3",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/5a0f6ad6eb8886421450ed29de0336fc78692331"
+                },
+                {
+                  "sha": "5442338",
+                  "message": "ci: bump actions/checkout from 4 to 7",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/54423389aa30600ee69e3883e1d8efb39f82fe8b"
+                },
+                {
+                  "sha": "a64309a",
+                  "message": "ci: bump docker/login-action from 3 to 4",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a64309a5df45f496a725a405fe2253cdfdfc4bba"
+                },
+                {
+                  "sha": "f47b3a8",
+                  "message": "ci: bump actions/setup-go from 5 to 7",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:17Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/f47b3a82491861daedc816b1e57156e3a6de3cda"
+                },
+                {
+                  "sha": "45d93f4",
+                  "message": "ci: dependabot — еженедельные PR на обновления Go-зависимостей, экшенов и базовых образов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:25:48Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/45d93f499eef6ce682351e811774f465d23016f1"
+                },
+                {
+                  "sha": "4bf481c",
+                  "message": "ci+тесты: gofmt/staticcheck/race/govulncheck в CI; guard-тесты кнопок, uniqTokens и клиента чекера; правки по staticcheck",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:21:57Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/4bf481c0d7648e0035a844cb0b76e56e581059a5"
+                },
+                {
+                  "sha": "c10c1a4",
+                  "message": "bot: перегруппировка меню — ежедневное на главной (Подписки, Настройки), редкое в «Ещё» (Веб-сервер, Обновление)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:10:19Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/c10c1a4cf1ba812ac740848d03096b7a2a63d6d4"
+                },
+                {
+                  "sha": "13797e3",
+                  "message": "bot: автоудаление алертов из чатов по сроку (наст-ка, потолок 48ч) + README про новые функции",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T17:14:01Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/13797e368ee246767c5537556d1c0e2e16e1e260"
+                },
+                {
+                  "sha": "0efea15",
+                  "message": "bot: балансир-группа во всех меню одной кнопкой — видимость/мьют/обслуживание/инциденты по группе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T16:56:59Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/0efea152eb79da9ecead422f8a0b1c3e45a3a6cd"
+                },
+                {
+                  "sha": "9d52f93",
+                  "message": "fix(store): удалять балансир-группу целиком — узлы с одним grp, а не только одноимённые sid",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:21:06Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/9d52f9315fc225cd0bc8dd5002356d1bfb134823"
+                },
+                {
+                  "sha": "010c24c",
+                  "message": "bot: кнопка «Диагностика» в Подписке — где рвётся цепочка панель→/sub→чекер (формат, группы, вердикт)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:07:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/010c24c308958df07b1246303bdba07a414ae61d"
+                },
+                {
+                  "sha": "ec66440",
+                  "message": "sub: балансиры из коробки — X-Hwid к панели, SUBSCRIPTION_JSON_FORMAT в примере, лог смешанных форматов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T15:00:57Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/ec664408b70554cde3768f18768e95a8bfdf15b0"
+                },
+                {
+                  "sha": "aab7a74",
+                  "message": "fix(geo): не срезать префикс имени сервера, если это не код его страны",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T14:09:02Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/aab7a74d99a98a5d341d1749f5f5cffd85dad6e8"
+                },
+                {
+                  "sha": "d2b6407",
+                  "message": "chore(cleanup): вырезать мёртвый server-disable слой и неиспользуемые команды",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/d2b64071e19329343de3040ab1f441502509f4ee"
+                },
+                {
+                  "sha": "a60b04f",
+                  "message": "fix(bot): не выдавать провал записи за успех + мелкие правки корректности",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a60b04f8b80c4c57de2dffd49cf4b4b044a30d82"
+                },
+                {
+                  "sha": "e55a43e",
+                  "message": "fix(bot): не терять кнопки серверов с длинным именем (лимит callback_data 64Б)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/e55a43ee1a5a1cc5576c2af7d1e8dccf42a9cdcd"
+                },
+                {
+                  "sha": "4fd47b0",
+                  "message": "deps: bump go-telegram/bot v1.22.0, x/crypto v0.54.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:03:16Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/4fd47b0bad1360e1204e3379d74703a0fc5d8313"
+                },
+                {
+                  "sha": "113bf73",
+                  "message": "build: Go 1.26 (go.mod/Dockerfile/CI)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T21:47:08Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/113bf7368eac202ffb9be6aeef9d2aec1d488d17"
+                },
+                {
+                  "sha": "2e85079",
+                  "message": "bot: топики форума в NOTIFY_CHAT_IDS (chatID:threadID)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-06T19:08:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
+                },
+                {
+                  "sha": "1dc956c",
+                  "message": "bot: доставка алертов/сводки в доп. чаты/группы через NOTIFY_CHAT_IDS",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-05T22:25:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/1dc956c394eda443787b7d4ca87a295cc04a4e00"
+                },
+                {
+                  "sha": "69a773c",
+                  "message": "история: автоконсолидация по имени при смене stableId сервера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T01:22:54Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/69a773c231f663d8859ff97108fc50a836f9a173"
+                },
+                {
+                  "sha": "2eaa3a3",
+                  "message": "поддержка XRAY_JSON в прослойке /sub: проброс UA чекера + JSON-фильтр",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T00:59:10Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2eaa3a324a24e88f64edc55cfa514e7fa08b3556"
+                },
+                {
+                  "sha": "a256be4",
+                  "message": "группировка узлов балансира (чекер 1.3.0): одна плитка на группу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-28T23:43:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a256be47c252900a70d5c95c1500d4b47cc6aafd"
+                },
+                {
+                  "sha": "b5c84de",
+                  "message": "Темы: дата всегда у времени (ровные строки ленты инцидента) + «≈» вместо «примерно» в обслуживании",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-28T13:32:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/b5c84def1cc884f8bbfd18933e887445a8d28fa0"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/go_modules/modernc.org/sqlite-1.55.0",
+              "commits": [
+                {
+                  "sha": "078d240",
+                  "message": "deps: bump modernc.org/sqlite from 1.54.0 to 1.55.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-31T17:44:35Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/078d24059a280cb8fd1cbc7471dc725fe0f314e2"
+                },
+                {
+                  "sha": "2d3c621",
+                  "message": "merge: ci: bump softprops/action-gh-release from 2 to 3 (#6)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2d3c621061e13faa67f0e00c59ec073e0018cf05"
+                },
+                {
+                  "sha": "636b542",
+                  "message": "merge: ci: bump docker/login-action from 3 to 4 (#4)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/636b5427aac3164b550f95f8c6257537b70eacf1"
+                },
+                {
+                  "sha": "f243db1",
+                  "message": "merge: ci: bump actions/checkout from 4 to 7 (#5)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:32:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/f243db171dff2fad00ee9f2d2b4c6568f2212ce1"
+                },
+                {
+                  "sha": "63e40df",
+                  "message": "merge: ci: bump actions/setup-go from 5 to 7 (#3)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:31:49Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/63e40df7f66083a20d3cc02ade76ec1e3e0132c7"
+                },
+                {
+                  "sha": "3d86387",
+                  "message": "deps: bump modernc.org/sqlite from 1.53.0 to 1.54.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:33Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/3d863876ee571cdcff095a070def31f1d187a303"
+                },
+                {
+                  "sha": "5a0f6ad",
+                  "message": "ci: bump softprops/action-gh-release from 2 to 3",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:22Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/5a0f6ad6eb8886421450ed29de0336fc78692331"
+                },
+                {
+                  "sha": "5442338",
+                  "message": "ci: bump actions/checkout from 4 to 7",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/54423389aa30600ee69e3883e1d8efb39f82fe8b"
+                },
+                {
+                  "sha": "a64309a",
+                  "message": "ci: bump docker/login-action from 3 to 4",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a64309a5df45f496a725a405fe2253cdfdfc4bba"
+                },
+                {
+                  "sha": "f47b3a8",
+                  "message": "ci: bump actions/setup-go from 5 to 7",
+                  "author": "dependabot[bot]",
+                  "date": "2026-07-24T18:26:17Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/f47b3a82491861daedc816b1e57156e3a6de3cda"
+                },
+                {
+                  "sha": "45d93f4",
+                  "message": "ci: dependabot — еженедельные PR на обновления Go-зависимостей, экшенов и базовых образов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:25:48Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/45d93f499eef6ce682351e811774f465d23016f1"
+                },
+                {
+                  "sha": "4bf481c",
+                  "message": "ci+тесты: gofmt/staticcheck/race/govulncheck в CI; guard-тесты кнопок, uniqTokens и клиента чекера; правки по staticcheck",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:21:57Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/4bf481c0d7648e0035a844cb0b76e56e581059a5"
+                },
+                {
+                  "sha": "c10c1a4",
+                  "message": "bot: перегруппировка меню — ежедневное на главной (Подписки, Настройки), редкое в «Ещё» (Веб-сервер, Обновление)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T18:10:19Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/c10c1a4cf1ba812ac740848d03096b7a2a63d6d4"
+                },
+                {
+                  "sha": "13797e3",
+                  "message": "bot: автоудаление алертов из чатов по сроку (наст-ка, потолок 48ч) + README про новые функции",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T17:14:01Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/13797e368ee246767c5537556d1c0e2e16e1e260"
+                },
+                {
+                  "sha": "0efea15",
+                  "message": "bot: балансир-группа во всех меню одной кнопкой — видимость/мьют/обслуживание/инциденты по группе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T16:56:59Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/0efea152eb79da9ecead422f8a0b1c3e45a3a6cd"
+                },
+                {
+                  "sha": "9d52f93",
+                  "message": "fix(store): удалять балансир-группу целиком — узлы с одним grp, а не только одноимённые sid",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:21:06Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/9d52f9315fc225cd0bc8dd5002356d1bfb134823"
+                },
+                {
+                  "sha": "010c24c",
+                  "message": "bot: кнопка «Диагностика» в Подписке — где рвётся цепочка панель→/sub→чекер (формат, группы, вердикт)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-24T10:07:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/010c24c308958df07b1246303bdba07a414ae61d"
+                },
+                {
+                  "sha": "ec66440",
+                  "message": "sub: балансиры из коробки — X-Hwid к панели, SUBSCRIPTION_JSON_FORMAT в примере, лог смешанных форматов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T15:00:57Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/ec664408b70554cde3768f18768e95a8bfdf15b0"
+                },
+                {
+                  "sha": "aab7a74",
+                  "message": "fix(geo): не срезать префикс имени сервера, если это не код его страны",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-23T14:09:02Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/aab7a74d99a98a5d341d1749f5f5cffd85dad6e8"
+                },
+                {
+                  "sha": "d2b6407",
+                  "message": "chore(cleanup): вырезать мёртвый server-disable слой и неиспользуемые команды",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/d2b64071e19329343de3040ab1f441502509f4ee"
+                },
+                {
+                  "sha": "a60b04f",
+                  "message": "fix(bot): не выдавать провал записи за успех + мелкие правки корректности",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a60b04f8b80c4c57de2dffd49cf4b4b044a30d82"
+                },
+                {
+                  "sha": "e55a43e",
+                  "message": "fix(bot): не терять кнопки серверов с длинным именем (лимит callback_data 64Б)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-20T11:03:36Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/e55a43ee1a5a1cc5576c2af7d1e8dccf42a9cdcd"
+                },
+                {
+                  "sha": "4fd47b0",
+                  "message": "deps: bump go-telegram/bot v1.22.0, x/crypto v0.54.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T22:03:16Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/4fd47b0bad1360e1204e3379d74703a0fc5d8313"
+                },
+                {
+                  "sha": "113bf73",
+                  "message": "build: Go 1.26 (go.mod/Dockerfile/CI)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-08T21:47:08Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/113bf7368eac202ffb9be6aeef9d2aec1d488d17"
+                },
+                {
+                  "sha": "2e85079",
+                  "message": "bot: топики форума в NOTIFY_CHAT_IDS (chatID:threadID)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-06T19:08:44Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2e8507956e3cfbe9fedb5e3af1a6e146f7ef4de1"
+                },
+                {
+                  "sha": "1dc956c",
+                  "message": "bot: доставка алертов/сводки в доп. чаты/группы через NOTIFY_CHAT_IDS",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-05T22:25:21Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/1dc956c394eda443787b7d4ca87a295cc04a4e00"
+                },
+                {
+                  "sha": "69a773c",
+                  "message": "история: автоконсолидация по имени при смене stableId сервера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T01:22:54Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/69a773c231f663d8859ff97108fc50a836f9a173"
+                },
+                {
+                  "sha": "2eaa3a3",
+                  "message": "поддержка XRAY_JSON в прослойке /sub: проброс UA чекера + JSON-фильтр",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-29T00:59:10Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/2eaa3a324a24e88f64edc55cfa514e7fa08b3556"
+                },
+                {
+                  "sha": "a256be4",
+                  "message": "группировка узлов балансира (чекер 1.3.0): одна плитка на группу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-28T23:43:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/a256be47c252900a70d5c95c1500d4b47cc6aafd"
+                },
+                {
+                  "sha": "b5c84de",
+                  "message": "Темы: дата всегда у времени (ровные строки ленты инцидента) + «≈» вместо «примерно» в обслуживании",
+                  "author": "Mrvibecodic",
+                  "date": "2026-06-28T13:32:20Z",
+                  "url": "https://github.com/Mrvibecodic/xray-checker-statuspage/commit/b5c84def1cc884f8bbfd18933e887445a8d28fa0"
+                }
+              ]
+            },
             {
               "name": "go-build",
               "commits": [
@@ -4892,7 +5322,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23916,
+            "stars": 23917,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -4963,7 +5393,7 @@
             "stars": 75892,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T17:40:14Z",
+            "pushed_at": "2026-07-31T17:45:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5446,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2e8a63f",
-            "branch": "kevinwcyu/datasource-query-k8s-status-error-classification",
-            "date": "2026-07-31T17:40:15Z",
-            "url": "https://github.com/grafana/grafana/commit/2e8a63f1fb375149443cd599820382784cf91794"
+            "sha": "9cf79a8",
+            "branch": "unified-storage-vector-store-write-rpcs",
+            "date": "2026-07-31T17:45:52Z",
+            "url": "https://github.com/grafana/grafana/commit/9cf79a8e5bda964afd759ae523a39fd146dbbf7a"
           }
         },
         {
@@ -5031,7 +5461,7 @@
             "stars": 65391,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T13:59:32Z",
+            "pushed_at": "2026-07-31T17:42:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5084,10 +5514,10 @@
             }
           ],
           "last_commit": {
-            "sha": "117e337",
-            "branch": "deps-update/github.com-hashicorp-nomad-api-digest",
-            "date": "2026-07-31T13:59:20Z",
-            "url": "https://github.com/prometheus/prometheus/commit/117e33750834f2fca50eb4297c5bebe318437044"
+            "sha": "31e8dad",
+            "branch": "superq/bump_lint",
+            "date": "2026-07-31T17:42:38Z",
+            "url": "https://github.com/prometheus/prometheus/commit/31e8dad978e616318bae55fda2dbe1fda0fc4034"
           }
         }
       ]
