@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:47:15.040582Z",
+  "generated_at": "2026-07-31T09:52:30.378685Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40771,
+            "stars": 40772,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-31T00:12:29Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6603,
+            "stars": 6602,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-07-30T07:50:36Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T06:46:08Z",
+            "pushed_at": "2026-07-31T09:52:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fc921fc",
+                  "message": "less: update to 704",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T09:52:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc921fc0b2fcac912890330f02bf4d3376d0ac0a"
+                },
+                {
+                  "sha": "4504961",
+                  "message": "jq: update to 1.8.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T09:52:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/45049610637fb2241d1338f62f475b5b81ce7fd1"
+                },
+                {
+                  "sha": "66b8c2c",
+                  "message": "transmission: update to version 4.1.3",
+                  "author": "Richard Muzik",
+                  "date": "2026-07-31T09:52:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/66b8c2c9488cc8cf53dd370621acdfc830170cc5"
+                },
+                {
+                  "sha": "355665c",
+                  "message": "zabbix: bring proxy to parity with server and agentd",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-07-31T09:50:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/355665cfb5246a4a0e437bc367cb8c0cf7d20688"
+                },
+                {
+                  "sha": "ec54972",
+                  "message": "zabbix: tweak server initscript and bring agentd to parity",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-07-31T09:50:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec5497292452db0cfb0205fca16c6460607b5433"
+                },
+                {
+                  "sha": "589cf9a",
+                  "message": "zabbix: tweak patch agent and server patch configs",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-07-31T09:50:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/589cf9a73cdcbc3a0d23e096061f54624abb0cbd"
+                },
+                {
+                  "sha": "1340781",
+                  "message": "zabbix: use separate users for server and proxy",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-07-31T09:50:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/134078192468dfb4f9e4449db39258b39b8f98cf"
+                },
+                {
                   "sha": "42be0c9",
                   "message": "prosody: extend test.sh past the version string grep",
                   "author": "Alexandru Ardelean",
@@ -1879,55 +1928,6 @@
                   "author": "Facundo Acevedo",
                   "date": "2026-07-29T17:33:35Z",
                   "url": "https://github.com/openwrt/packages/commit/25eb4a472a30d721bde6eb9e99e1430894618d83"
-                },
-                {
-                  "sha": "54f7d20",
-                  "message": "hev-socks5-tproxy: update to 2.12.0",
-                  "author": "Ray Wang",
-                  "date": "2026-07-29T17:32:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/54f7d202b7fc817773069a8c72e6d7819b308abf"
-                },
-                {
-                  "sha": "81a26b8",
-                  "message": "taglib: update to 2.3.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T14:07:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/81a26b8d4214ff0d50465ef6c6623b758bf73909"
-                },
-                {
-                  "sha": "736753e",
-                  "message": "sqlite3: update to 3.53.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T14:07:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/736753e514775248808b8b6dd6fe4aee8d29b751"
-                },
-                {
-                  "sha": "36f978e",
-                  "message": "lttng-ust: update to 2.15.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T14:07:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/36f978e97cfe8a7f0fc838cea36a11fb709f5fa8"
-                },
-                {
-                  "sha": "16d35e0",
-                  "message": "ngtcp2: update to 1.25.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T10:07:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/16d35e04c9a11ea5b12b7dc672b47c0ddf72a179"
-                },
-                {
-                  "sha": "d04ade0",
-                  "message": "nghttp3: update to 1.18.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T10:07:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/d04ade044ef0fa4e43b4714bb73c828319d79ab3"
-                },
-                {
-                  "sha": "925ccf8",
-                  "message": "jsoncpp: update to 1.9.8",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T10:07:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/925ccf8f2c470a5d1895ee0808d73d79125f2da3"
                 }
               ]
             },
@@ -4892,7 +4892,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23897,
+            "stars": 23898,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -4963,7 +4963,7 @@
             "stars": 75882,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T09:45:58Z",
+            "pushed_at": "2026-07-31T09:48:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f5ed1de",
-            "branch": "ash/preferences-use-v1",
-            "date": "2026-07-31T09:45:59Z",
-            "url": "https://github.com/grafana/grafana/commit/f5ed1de1b14a540337abc68f40ed91bf02c80457"
+            "sha": "43fe126",
+            "branch": "ash/fix-timeseries-theme",
+            "date": "2026-07-31T09:48:11Z",
+            "url": "https://github.com/grafana/grafana/commit/43fe1264c8a3878587dcd9df16a1ef1d24e330c4"
           }
         },
         {
@@ -5028,7 +5028,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65383,
+            "stars": 65384,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-07-30T23:01:09Z",
