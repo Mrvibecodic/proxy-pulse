@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T10:50:26.291912Z",
+  "generated_at": "2026-07-31T10:55:42.472414Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40776,
+            "stars": 40777,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-31T00:12:29Z",
@@ -3444,7 +3444,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2029,
+            "stars": 2030,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-07-20T21:33:13Z",
@@ -6077,12 +6077,21 @@
             "stars": 3147,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T10:49:26Z",
+            "pushed_at": "2026-07-31T10:53:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.16.1",
+              "tag": "v3.16.1",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.16.1",
+              "published_at": "2026-07-31T10:52:42Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.16.1](https://github.com/Zephyruso/zashboard/compare/v3.16.0...v3.16.1) (2026-07-31)\n\n\n### Bug Fixes\n\n* prevent clear button from submitting the enclosing form ([0fb5daf](https://github.com/Zephyruso/zashboard/commit/0fb5daf369f0c61d0bb41e989b6c8a08904f5e3c)), closes [#591](https://github.com/Zephyruso/zashboard/issues/591)\n* **singbox:** test individual outbound from proxy card ([b4fc4fa](https://github.com/Zephyruso/zashboard/commit/b4fc4fabe7141ee3424e3575b4ef772bf8bbfd7d))\n* **singbox:** wait for pushed latency results ([51d3327](https://github.com/Zephyruso/zashboard/commit/51d3327714478dce8a9c08c1ef5f79b96178a751))\n* update sing-box icon ([29e2516](https://github.com/Zephyruso/zashboard/commit/29e251637f4d76db7141dedb9da938bb244cd824))"
+            },
             {
               "name": "v3.16.0",
               "tag": "v3.16.0",
@@ -6118,22 +6127,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.13.1](https://github.com/Zephyruso/zashboard/compare/v3.13.0...v3.13.1) (2026-07-03)\n\n\n### Bug Fixes\n\n* **router:** simplify setup redirection logic in beforeEach guard ([faa9f9e](https://github.com/Zephyruso/zashboard/commit/faa9f9e9e9d7ad352be77a66383b59f7ca6f27f5))\n* **sing-box-r:** add version check for provider latency fetching logic ([728588e](https://github.com/Zephyruso/zashboard/commit/728588e28264216746f47a5aed9f618f0b2f17a9))"
-            },
-            {
-              "name": "v3.13.0",
-              "tag": "v3.13.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.13.0",
-              "published_at": "2026-07-03T07:51:39Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.13.0](https://github.com/Zephyruso/zashboard/compare/v3.12.1...v3.13.0) (2026-07-03)\n\n\n### Features\n\n* **connections:** add local GeoIP attribution column ([6ac5eb0](https://github.com/Zephyruso/zashboard/commit/6ac5eb0e269473d902107b64b7414514d9b7979d))\n* enhance ConnectionCardSettings and TableSettings components with improved UI and functionality; add internationalization support for new labels ([b69559b](https://github.com/Zephyruso/zashboard/commit/b69559bdb2eedf586e301e653b614d2cff1152f8))\n\n\n### Bug Fixes\n\n* **overview:** source sing-box traffic totals from the status statistics stream ([67e5011](https://github.com/Zephyruso/zashboard/commit/67e501102d9459e05f24d9c08a2959eef0c894d3))\n* **proxies:** use provider-scoped healthcheck endpoint for provider node latency test ([bde2145](https://github.com/Zephyruso/zashboard/commit/bde214501be18fcaaad2245593d025600d770e05))\n* **singbox:** carry persistent subscriptions over WebSocket to free the HTTP connection pool ([e9880fa](https://github.com/Zephyruso/zashboard/commit/e9880fabad972edb252954efc8180959d24cbe96))\n* **tailscale:** clear stale ping results when peer dialog closes or switches peers ([fafc2fb](https://github.com/Zephyruso/zashboard/commit/fafc2fbb28afb701172a677bd18671cd3aeedd43))"
             }
           ],
           "last_commit": {
-            "sha": "41e7be6",
-            "branch": "gh-pages-no-fonts",
-            "date": "2026-07-31T10:49:27Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/41e7be6b7854e7db524c08fabf91b8c45293cec2"
+            "sha": "ff1eb15",
+            "branch": "gh-pages-misans-only",
+            "date": "2026-07-31T10:53:30Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/ff1eb15d673a015359e89ecbdd5590a099512aaf"
           }
         },
         {
