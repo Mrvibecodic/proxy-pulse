@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T05:50:14.926477Z",
+  "generated_at": "2026-07-31T05:55:30.006860Z",
   "groups": [
     {
       "id": "cores",
@@ -782,7 +782,7 @@
             "stars": 27805,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T19:48:38Z",
+            "pushed_at": "2026-07-31T05:51:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -835,10 +835,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ce16dd8",
-            "branch": "main",
-            "date": "2026-07-30T19:47:11Z",
-            "url": "https://github.com/openwrt/openwrt/commit/ce16dd8ff0be3f297786aeab66067d015e22490b"
+            "sha": "9495b6e",
+            "branch": "openwrt-25.12",
+            "date": "2026-07-31T05:51:22Z",
+            "url": "https://github.com/openwrt/openwrt/commit/9495b6e74aea9f56b1da345e26382fa37aef04f9"
           }
         },
         {
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-30T11:23:47Z",
+            "pushed_at": "2026-07-31T05:55:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2a28bbc",
+                  "message": "unbound: update to 1.25.2",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-07-31T05:55:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a28bbc943cf9d02cf6f911b5598b9733d2977d3"
+                },
+                {
+                  "sha": "919a54c",
+                  "message": "unbound: remove maintainer",
+                  "author": "Eric Luehrsen",
+                  "date": "2026-07-31T05:50:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/919a54c65a644cf0d0e06e14306e62a6ab6df296"
+                },
+                {
                   "sha": "286d846",
                   "message": "lttng-tools: update to 2.15.1",
                   "author": "Alexandru Ardelean",
@@ -1914,20 +1928,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:01:42Z",
                   "url": "https://github.com/openwrt/packages/commit/649dff397166ee773c334553c43b111337132548"
-                },
-                {
-                  "sha": "c409cd9",
-                  "message": "cloudflared: update to 2026.7.3",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:01:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/c409cd96eb8b0618021a8985ec6fbbddcc193aa3"
-                },
-                {
-                  "sha": "052a3b7",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T03:29:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/052a3b792ffa17393c1898d7ae252b1b7080ce4e"
                 }
               ]
             },
@@ -4824,7 +4824,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89647,
+            "stars": 89648,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-07-31T00:21:52Z",
@@ -6074,7 +6074,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3145,
+            "stars": 3146,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-07-27T08:58:51Z",
