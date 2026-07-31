@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:53:40.971154Z",
+  "generated_at": "2026-07-31T11:58:58.048439Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32820,
+            "stars": 32821,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-07-30T08:02:51Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6604,
+            "stars": 6605,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-07-30T07:50:36Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T11:15:39Z",
+            "pushed_at": "2026-07-31T11:57:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3010,6 +3010,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "6434bce",
+                  "message": "unbound: update to 1.25.2",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-07-31T11:57:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6434bce34aa9aee469ccf5b6486f2a0c5f7c4d17"
+                },
+                {
                   "sha": "f3c2b68",
                   "message": "sane-backends: update to 1.4.0",
                   "author": "Luiz Angelo Daros de Luca",
@@ -3211,19 +3218,19 @@
                   "author": "Stan Grishin",
                   "date": "2026-07-02T04:28:54Z",
                   "url": "https://github.com/openwrt/packages/commit/bfc3770415190927446c1b6e63f91ac741f48342"
-                },
-                {
-                  "sha": "550fadb",
-                  "message": "expat: update to 2.8.2",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-06-30T21:08:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/550fadb3acc44c8d8fde3010e0b9ac338742918f"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "b49a190",
+                  "message": "unbound: update to 1.25.2",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-07-31T11:57:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/b49a19078c452f0616ac489ce063bf75f8d0425b"
+                },
                 {
                   "sha": "193adf1",
                   "message": "swgp-go: add at 1.10.0",
@@ -3426,13 +3433,6 @@
                   "author": "Dharmik Parmar",
                   "date": "2026-07-21T07:32:48Z",
                   "url": "https://github.com/openwrt/packages/commit/8ecbd340482a1c2b7c190d082a470003f10abc57"
-                },
-                {
-                  "sha": "0b25808",
-                  "message": "ci: add nightly LLM review workflow",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-19T20:35:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/0b258084145ccb3bcf994b12a7101a6e0045f171"
                 }
               ]
             }
@@ -4756,7 +4756,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 867,
+            "stars": 868,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-07-25T22:08:29Z",
@@ -4963,7 +4963,7 @@
             "stars": 75882,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T11:53:20Z",
+            "pushed_at": "2026-07-31T11:58:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5016,10 +5016,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5dd2789",
-            "branch": "backport-12848-to-release-13.0.5",
-            "date": "2026-07-31T11:53:21Z",
-            "url": "https://github.com/grafana/grafana/commit/5dd27894ec5f26c83dae2a087863286139790361"
+            "sha": "1223e76",
+            "branch": "main",
+            "date": "2026-07-31T11:58:10Z",
+            "url": "https://github.com/grafana/grafana/commit/1223e76cf41c3f0774d84fdca508194dc0d7df6e"
           }
         },
         {
@@ -6074,7 +6074,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3147,
+            "stars": 3148,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-07-31T10:53:29Z",
