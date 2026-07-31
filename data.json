@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T21:23:50.764388Z",
+  "generated_at": "2026-07-31T21:29:07.700239Z",
   "groups": [
     {
       "id": "cores",
@@ -5393,7 +5393,7 @@
             "stars": 75892,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T21:22:20Z",
+            "pushed_at": "2026-07-31T21:26:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5446,10 +5446,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1bd2445",
-            "branch": "rodrigopk/import-settings-summary-accordion",
-            "date": "2026-07-31T21:22:21Z",
-            "url": "https://github.com/grafana/grafana/commit/1bd2445dfdfe63acd4e643110353a8bcd46f7bb9"
+            "sha": "f33793a",
+            "branch": "adela/text_v2_editor_options",
+            "date": "2026-07-31T21:26:54Z",
+            "url": "https://github.com/grafana/grafana/commit/f33793aee032093da1368a770f90104e6096be83"
           }
         },
         {
@@ -5992,7 +5992,7 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-07-30T18:56:24Z",
+            "pushed_at": "2026-07-31T21:28:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -6001,6 +6001,48 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "c426427",
+                  "message": "fix(hwid,grace): индекс по hwid, удаление всех устройств, сходимость пересчёта",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:28:04Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c4264278d24a97ac51cfa48713c1a28c6a29807e"
+                },
+                {
+                  "sha": "056ee24",
+                  "message": "docs: совместимость с Remnawave 2.7.4+ и 3.x, сжатие на стороне прокси",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:11:35Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/056ee244bad7e2dc2588186f52f0f6b579567c92"
+                },
+                {
+                  "sha": "c82443c",
+                  "message": "feat(admin): бейдж версии панели, кнопка обновления идентификаторов, HWID на новом id",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:11:35Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c82443cc424ec8934874a10bbd6cbac425ddd31a"
+                },
+                {
+                  "sha": "a106a52",
+                  "message": "fix(hwid): вебхук и пул устройств под панель 3.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:11:17Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/a106a5287a6ee63449919c6979782c3969c02877"
+                },
+                {
+                  "sha": "8ae42a8",
+                  "message": "fix(grace): работа с панелью 3.0 и миграция сохранённых идентификаторов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:11:17Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8ae42a869f3de0ae3f1c7f34183ec1954c6b1803"
+                },
+                {
+                  "sha": "0a92729",
+                  "message": "feat(api): идентификатор пользователя — uuid (2.x) или числовой id (3.x)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-07-31T21:11:01Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/0a92729fdc621b7741f3d94c8065868d1a7a8c74"
+                },
                 {
                   "sha": "11f1389",
                   "message": "fix(addsub): не пробрасывать условные заголовки, когда тело подписки модифицируется",
@@ -6168,48 +6210,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-29T17:20:54Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f6abd04033962c126dc8bf9d8712142f7441f56b"
-                },
-                {
-                  "sha": "1354104",
-                  "message": "fix(admin): резерв высоты лог-таблиц до JS — без скачка при пагинации",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-27T11:55:09Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/135410457082e795bc07b86ef1fafc4b94ff0236"
-                },
-                {
-                  "sha": "80b1568",
-                  "message": "ui(admin): упрощение текстов подсказок — справка и .hint",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-27T00:12:07Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/80b15688502d25bf9587574fb9d220d8adb1ab45"
-                },
-                {
-                  "sha": "5652430",
-                  "message": "docs(readme): переработка — быстрый старт, упрощение, актуализация",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T23:50:02Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5652430ecb7d829049174e2a7c0f2d46089b8e1f"
-                },
-                {
-                  "sha": "2b82f7e",
-                  "message": "fix(squadconf): инжект vless в xray-json без чужого балансера и обсерватории",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T17:40:35Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/2b82f7e3d0bc9cc001a568698d70f89f8041137a"
-                },
-                {
-                  "sha": "9715e87",
-                  "message": "ui(wgpool): не дублировать generic-иконку устройства рядом с иконкой ОС",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T15:33:01Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9715e87501b99ef3f460aadf0aecee3846624a5b"
-                },
-                {
-                  "sha": "ae279bf",
-                  "message": "feat(wgpool): блок «Правила отдачи по UA» в пуле WG/AWG",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T15:19:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ae279bf99710852e1016db2d0c01bf897ad3db28"
                 }
               ]
             },
