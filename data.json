@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:11:32.700553Z",
+  "generated_at": "2026-07-31T11:16:48.379240Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40777,
+            "stars": 40778,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-07-31T00:12:29Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36600,
+            "stars": 36601,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T08:47:27Z",
@@ -850,7 +850,7 @@
             "stars": 4565,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T09:52:43Z",
+            "pushed_at": "2026-07-31T11:15:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1720,6 +1720,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a256fb9",
+                  "message": "ngircd: update to 28",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T11:15:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/a256fb99b8dc3108d426bddb5e25fffb2aa9f82a"
+                },
+                {
+                  "sha": "418ba9a",
+                  "message": "cifs-utils: update to 7.7 + more tests + add python3-light dep",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-07-31T11:15:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/418ba9a99f0ab32265069810e646581a40dd62a6"
+                },
+                {
+                  "sha": "e4e2f07",
+                  "message": "dnscrypt-proxy2: update to 2.1.18",
+                  "author": "Paul Lipps",
+                  "date": "2026-07-31T11:14:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/e4e2f07d601f6f43cbf99e6e9dbee0e3edf3ac19"
+                },
+                {
                   "sha": "c34c055",
                   "message": "alsa-ucm-conf: update to 1.2.16.1",
                   "author": "Alexandru Ardelean",
@@ -1907,27 +1928,6 @@
                   "author": "Mirko Vogt",
                   "date": "2026-07-30T06:12:29Z",
                   "url": "https://github.com/openwrt/packages/commit/99c244f74472e67c703d6dee0f86a7d4667461f8"
-                },
-                {
-                  "sha": "12bb8b9",
-                  "message": "v4l2camera: update to v0.3.2",
-                  "author": "Michel Promonet",
-                  "date": "2026-07-29T19:49:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/12bb8b9cf936b5c72065b37e051c581692fb6230"
-                },
-                {
-                  "sha": "4b56ce2",
-                  "message": "dumb-init: bump to 1.2.5",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-07-29T19:48:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b56ce296e426455f30d0c10e0dc2f30247c2653"
-                },
-                {
-                  "sha": "b0057be",
-                  "message": "libextractor: don't auto-link libapparmor",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-29T18:34:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/b0057be11ef066d6798f3355be0169f4723b48a0"
                 }
               ]
             },
@@ -4892,7 +4892,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23900,
+            "stars": 23901,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
