@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T17:35:28.315284Z",
+  "generated_at": "2026-08-01T17:40:44.879141Z",
   "groups": [
     {
       "id": "cores",
@@ -904,7 +904,7 @@
           ],
           "last_commit": {
             "sha": "c718906",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-01T16:36:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/c7189066a583f2f241145bd60476d8b92f023b62"
           }
@@ -5441,6 +5441,15 @@
           },
           "releases": [
             {
+              "name": "2.5.0",
+              "tag": "2.5.0",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.0",
+              "published_at": "2026-08-01T16:35:53Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "## 2.5.0\r\n\r\n### Uncategorized\r\n\r\n### 🆕 New Features\r\n- #7645 Add `next-rootless` docker tag \r\n- #7607 feat: allow unlimited interval rather than 24 days \r\n- #7597 feat: add voice call option to Plivo notification provider (Thanks @sarveshpatil-plivo)\r\n- #7584 feat: add Plivo SMS notification provider (Thanks @sarveshpatil-plivo)\r\n- #7571 feat: add Ooredoo (Maldives) SMS notification provider (Thanks @islandboymv)\r\n- #7569 feat: Add WxPusher SPT (WxPusher simple push token) notification provider (Thanks @zjiecode)\r\n- #7546 feat: add Flowtriq DDoS detection notification provider (Thanks @jacob-masse @FlyingDove2493)\r\n- #7525 feat: add tracking support on status pages for rybbit analytics (Thanks @DanielOberlechner)\r\n- #7506 feat(notification): add additional headers option for SMTP (Thanks @dnagy)\r\n- #7214 feat: add NTP monitor type for network time protocol monitoring (Thanks @henricook)\r\n- #7114 feat(system-service): add PM2 picker and platform selection (Thanks @KraoESPfan1n)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n### 🐞 Bug Fixes\r\n- #7654 fix: correct 12 spelling errors across codebase (Thanks @jannikbx)\r\n- #7641 fix: RSS service status description is wrong \r\n- #7618 fix: widen stat_daily up/down columns from SMALLINT to unsigned INTEGER (Thanks @kushiemoon-dev)\r\n- #7599 fix: reduce rate-limit log spam when quota is healthy (Thanks @hexonal)\r\n- #7590 fix: double // in badgeUrl breaking Badge generator functionality (Thanks @jaimeagudo)\r\n- #7588 fix(domain-expiry): clarify unsupported RDAP warning (Thanks @arturict)\r\n- #7542 fix: resolve Steam monitor hostnames (Thanks @yuminn-k)\r\n- #7520 fix(discord): timezone with `dayjs.utc()` (Thanks @skkzsh)\r\n- #7516 fix: omit resolver port from DNS monitor service URL (Thanks @skkzsh)\r\n- #7515 fix(monitor): screenshot_delay not saved when editing browser engine monitor (Thanks @GhadiSaab)\r\n- #7472 fix: add timeout functionality to kafka (Thanks @jfgsilva)\r\n- #7465 fix: preserve saved protocol when loading Globalping ping monitor (Thanks @titojuanc)\r\n- #7460 fix: prevent tags dropdown from overflowing viewport (Thanks @Subrat-Dwivedi-22)\r\n- #7290 fix: allow mqtts:// in MQTT monitor (Thanks @Mrstragr @chennin)\r\n\r\n### ⬆️ Security Fixes\r\n- #7538 #7349 chore: Update dependencies \r\n- #7508 chore: Set 14 days cooldown for npm update to mininize the supply-chain-attack \r\n\r\n### 🦎 Translation Contributions\r\n- #7521 #7477 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @AntonPalmqvist @arcanjobr @bill162 @ctih1 @cyril59310 @dodog @firedur @Goudarz @Gringit @helakostain @ivanbratovic @kamine81 @kiznick @Mr-Mmmc @MrEddX @OnyxOracle @PolarniMeda @ramazansancar @samsilveira @superpep)\r\n\r\n### Others\r\n- #7544 chore: change analytics_type to string type from enum \r\n- #7543 chore: add build \"pr-test\" workflow, add a message for testing to new pr. \r\n- #7541 chore: Add an ability to enable node.js inspector \r\n- #7535 chore: Remove meaningless entries from en.json \r\n- #7496 chore: Login form minor changes \r\n\r\n"
+            },
+            {
               "name": "2.4.0",
               "tag": "2.4.0",
               "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.4.0",
@@ -5475,15 +5484,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### ⚠️ Breaking changes\r\n- #7194 fix: Revert \"add sorting to status pages\"\r\n  - No more sorting feature in status pages.\r\n  - Due to bad performance.\r\n- #7312 fix(database): add `UPTIME_KUMA_SQLITE_SINGLE_CONNECTION`\r\n  - For Raspberry Pi users, you may have to set it to `true` to avoid SQLite locking issues. \r\n  - Mainly affected Raspberry Pi users only, you can ignore it if you are not using devices like Raspberry Pi.\r\n\r\n### 🆕 New Features\r\n- #7304 feat: websocket improve to fix issue #7268 including support authentication (Thanks @sofia-fernandez-six)\r\n- #7207 feat(notification): add custom message template support for Evolution provider (Thanks @kbrianps)\r\n- #7201 feat: add Telnyx messaging provider (Thanks @LuvForAirplanes)\r\n- #7182 feat: Add VK notification provider (Thanks @FunNikita)\r\n- #7160 feat: Add MAX messenger notification provider (Thanks @Redleks)\r\n- #7156 feat: add OracleDB monitor (Thanks @sitiom)\r\n- #7154 feat: add collapsible groups to status page (Thanks @marco-carvalho)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n- #7303 feat(ui): add a helptext that RTT for the ping monitor is not avaliable on linux (Thanks @stchigel)\r\n- #7300 feat(ux): changed warning msg (Thanks @hemanth5544)\r\n- #7128 fix: Update Home Assistant notification help text for HA 2024 Services→Actions rename (Thanks @tr4nt0r)\r\n\r\n### 🐞 Bug Fixes\r\n\r\n- #7248 fix(notification): check for monitorJSON in Stackfield provider (Thanks @jlbrt)\r\n- #7166 fix: Handle SSL in setup database temp server \r\n- #7235 fix(uptime): ensure correct handling of missing time buckets in uptime calculations (Thanks @adrianceding)\r\n- #7221 fix(notification): ensure applyExisting is not saved to database \r\n- #7198 fix: Domain expiry doesn't seem to update #7189 (Thanks @shanto)\r\n- #7155 fix: propagate create errors (Thanks @otbutz)\r\n- #7159 fix: monitor graph gaps for sub-millisecond TCP pings (Thanks @0xRozier)\r\n- #7125 fix: prometheus metrics have two series for a single monitor when that monitor has tags (Thanks @nicjansma)\r\n\r\n### 🦎 Translation Contributions\r\n- #7108 feat: Add English (United Kingdom) language support (Thanks @andibing)\r\n- #7292 #7197 #7132 chore: Translations Update from Weblate (Thanks @aindriu80 @Ale1x @Aluisio @andibing @AnnAngela @CammarataLudovico @cyril59310 @dodog @efenow @fcordeiro @firedur @FunNikita @Gringit @Hamstio1 @helakostain @ivanbratovic @kevinheyer-dev @mlopezcoria @Mo7amm1d @MrEddX @numarkpro @Redleks @rodis120 @samsilveira @thisisjaymehta @ttymayor @Virenbar @wibe01204 @Zeromskas)\r\n\r\n### Others\r\n- #7317 #7195 #7133 chore: Update dependencies \r\n- #7204 chore: Add agents.md - anti AI slop \r\n- #7146 chore: Add monthly workflow to build `push` Docker image "
-            },
-            {
-              "name": "2.2.1",
-              "tag": "2.2.1",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.2.1",
-              "published_at": "2026-03-10T02:25:33Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7109 feat: fluxer notification provider (Thanks @letruxux)\r\n- #7096 feat: set process.title to uptime-kuma (Thanks @Hill-98)\r\n\r\n### 🐞 Bug Fixes\r\n- #7121 fix: isParentActive return type to boolean (Thanks @terisikk)\r\n- #7110 fix(ui): fix fluxer input styling; make discord input hidden (Thanks @letruxux)\r\n- #6915 fix: removal of uptime ratio and avg. response time from prometheus metrics (Thanks @tr4nt0r)\r\n- #7101 fix: revert: remove @aws-sdk, @azure packages \r\n\r\n### ⬆️ Security Fixes\r\nGHSA-v832-4r73-wx5j - Another Server-side Template Injection (SSTI) in Notification Templates Allows Arbitrary File Read (fixed in upstream dependency LiquidJS, also see: https://github.com/harttle/liquidjs/security/advisories/GHSA-wmfp-5q7x-987x)\r\n\r\n### 🦎 Translation Contributions\r\n- #7119 #7099 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @cyril59310 @dodog @fabianovich @krmu @letruxux @maxisimonazzi @MrEddX)\r\n\r\n### Others\r\n- #7120 #7100 chore: Update dependencies \r\n"
             }
           ],
           "last_commit": {
@@ -5499,7 +5499,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23945,
+            "stars": 23946,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -5782,7 +5782,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-07-31T21:44:14Z",
+            "pushed_at": "2026-08-01T17:36:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5791,6 +5791,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "b020108",
+                  "message": "feat: переезд с remnashop — импорт дампа его базы",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-01T17:16:59Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b020108d1dc947e067c192e2e3abdb5695f847b1"
+                },
                 {
                   "sha": "c1654c2",
                   "message": "доки: скоупы API-токена панели 3.x, нужные боту",
@@ -5993,13 +6000,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-06-22T16:02:28Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/1820c9e53e85d4203acedf2117f4cd99498559e1"
-                },
-                {
-                  "sha": "3b49388",
-                  "message": "docs(pages): бейджи фич dev→stable после слияния dev в main",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-22T16:00:22Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3b49388b0133810607b848eb1a90ad8ab1cce0ee"
                 }
               ]
             },
