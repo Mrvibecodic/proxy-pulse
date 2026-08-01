@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T18:17:56.365405Z",
+  "generated_at": "2026-08-01T18:23:12.981135Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36628,
+            "stars": 36629,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-07-31T23:49:53Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32853,
+            "stars": 32855,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-01T17:48:31Z",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4713,
+            "stars": 4714,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-07-31T20:17:05Z",
@@ -918,7 +918,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-07-31T20:17:17Z",
+            "pushed_at": "2026-08-01T18:19:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1788,6 +1788,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "927fc5e",
+                  "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-01T18:19:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/927fc5ea54e81e1f2c472a40db6a1db9908bbe5e"
+                },
+                {
                   "sha": "aad6a5a",
                   "message": "fwupd: update to 2.1.7",
                   "author": "Lukas Voegl",
@@ -1989,13 +1996,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-30T11:21:19Z",
                   "url": "https://github.com/openwrt/packages/commit/833d665fe3bd6a4803ddd71bf70d9b77ead8d56f"
-                },
-                {
-                  "sha": "ee996e4",
-                  "message": "libssh: update to 0.12.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-30T11:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/ee996e4c93b16c58ae2e9fa40f1313af42581a18"
                 }
               ]
             },
@@ -5431,7 +5431,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89694,
+            "stars": 89695,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-01T16:37:00Z",
