@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:26:32.738664Z",
+  "generated_at": "2026-08-02T14:31:51.099452Z",
   "groups": [
     {
       "id": "cores",
@@ -904,7 +904,7 @@
           ],
           "last_commit": {
             "sha": "6ca3332",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-02T13:08:54Z",
             "url": "https://github.com/openwrt/openwrt/commit/6ca3332676506e5315d0881ca98cd07c76dfe68b"
           }
@@ -5782,7 +5782,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 75922,
+            "stars": 75923,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-02T12:31:42Z",
@@ -5997,7 +5997,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-02T14:25:01Z",
+            "pushed_at": "2026-08-02T14:28:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -6006,6 +6006,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "9dd691c",
+                  "message": "чистка: #nosec G202 для новых запросов autopay/invites — тот же ложный паттерн на плейсхолдеры b.ph (алерты №104, №105)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T14:28:11Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/9dd691c65a77a6d9697b93f1a81b6cc16e5c5bf2"
+                },
                 {
                   "sha": "01a40e8",
                   "message": "чистка: аннотация #nosec G202 для INSERT web_users — ложное срабатывание на плейсхолдеры b.ph, как у соседних запросов (алерт №103 висел с июля)",
@@ -6208,13 +6215,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-23T01:25:33Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/34fb4d7e737e6cf4fb4b62c1a9a778d8026a72f4"
-                },
-                {
-                  "sha": "bbc75ff",
-                  "message": "Merge pull request #1 from Mrvibecodic/dev",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-10T23:19:18Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bbc75ff41e9009f382057180db3c5e6c7ff86c0b"
                 }
               ]
             },
