@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T07:18:20.179441Z",
+  "generated_at": "2026-08-02T07:23:37.573591Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32863,
+            "stars": 32864,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-02T04:37:46Z",
@@ -918,7 +918,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-01T21:15:30Z",
+            "pushed_at": "2026-08-02T07:18:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2003,6 +2003,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fade401",
+                  "message": "nghttp2: bump to 1.70.0",
+                  "author": "Hirokazu MORIKAWA",
+                  "date": "2026-08-02T07:18:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/fade4013e0a97ccefb3a36ac19b80fb97a67e0e3"
+                },
+                {
                   "sha": "927fc5e",
                   "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
                   "author": "Alexandru Ardelean",
@@ -2204,13 +2211,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-30T11:23:00Z",
                   "url": "https://github.com/openwrt/packages/commit/dfb4bd477af8bd84c8482dbc73824919ea14515a"
-                },
-                {
-                  "sha": "833d665",
-                  "message": "pv: update to 1.11.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-30T11:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/833d665fe3bd6a4803ddd71bf70d9b77ead8d56f"
                 }
               ]
             },
