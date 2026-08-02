@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:15:57.999136Z",
+  "generated_at": "2026-08-02T14:21:16.049135Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32869,
+            "stars": 32870,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-02T04:37:46Z",
@@ -5997,7 +5997,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-01T19:55:16Z",
+            "pushed_at": "2026-08-02T14:20:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -6006,6 +6006,55 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "a16f452",
+                  "message": "фикс: 429 от ЮKassa — временный лимит запросов, а не отказ карты",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T14:20:43Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/a16f452b2c333310ea2a47696a3cfd7b635b1db0"
+                },
+                {
+                  "sha": "d5a1cac",
+                  "message": "фикс: совместимость для обновляющихся — e-mail-аккаунты кабинета и экран ЮKassa",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T13:54:38Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/d5a1cacf97cc9b657b818710b904a2005e4e18a3"
+                },
+                {
+                  "sha": "b3ad352",
+                  "message": "фикс: миграция paid_period отдельным шагом 0038 + HTTP 400 как проблема магазина",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T13:23:35Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b3ad3526120b65badbc0c80cbd8147d172325fa1"
+                },
+                {
+                  "sha": "8079e3d",
+                  "message": "фикс: второй проход ревью автосписания — период оплаты, очередь платежей, валюта",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T12:57:42Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8079e3d1333fd5c06681061ace1f1f190f6945a7"
+                },
+                {
+                  "sha": "89fa5bc",
+                  "message": "фикс: разбор новых фич по ревью — роутинг кнопок, защита от двойного списания, закрытый бот в вебе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T12:37:24Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/89fa5bc232094d5e06a6fc4ce030cc0e5aaa306b"
+                },
+                {
+                  "sha": "36a8663",
+                  "message": "правка: автопродление подключается по согласию после оплаты",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T12:08:03Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/36a86631cd3133abab47acaa6f7279a582445aba"
+                },
+                {
+                  "sha": "4aa5bd6",
+                  "message": "фича: автопродление ЮKassa, P2P без одобрения и режимы публичности бота",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T12:01:56Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/4aa5bd6b8f759ab5290ab334342c21385721a909"
+                },
                 {
                   "sha": "2094f2b",
                   "message": "доки: отметил бейджами, что уже в dev, и пометил происхождение скриншотов",
@@ -6166,55 +6215,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-10T23:16:04Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8e6ed4746d78a5561348b7b8b97c7709a1b31518"
-                },
-                {
-                  "sha": "2563771",
-                  "message": "fix(miniapp/cabinet): убрать иконки-щиты, почистить билет и стилизовать выбор файла",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T23:03:34Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/256377138e937bffb445f2e7038c63b26b2bc17d"
-                },
-                {
-                  "sha": "c025871",
-                  "message": "chore(deps): обновить зависимости до актуальных версий",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T22:19:52Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c025871ed3abab473f9e8468e0957af19e513eaf"
-                },
-                {
-                  "sha": "f8d7234",
-                  "message": "fix(рассылка): отчёт о завершении заменяет сообщение о запуске",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T16:02:17Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/f8d723405c5b9891353b566604242b097b6a74d9"
-                },
-                {
-                  "sha": "097934f",
-                  "message": "feat(устройства): кнопка сброса всех устройств для пользователя",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T15:22:44Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/097934f4183ca2f3dc8b3d73aff2aebc1e1b49c5"
-                },
-                {
-                  "sha": "38def70",
-                  "message": "feat(рассылка): подстановка переменных получателя ({name}, {username}, {id}, {balance}, {expire})",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T15:22:44Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/38def70b152f01e4befdac6c0a08083fc8d9397f"
-                },
-                {
-                  "sha": "ab7fa12",
-                  "message": "fix(вайтлист): метка whitelisted в карточке после старта",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T14:54:38Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ab7fa1257242204898430fc8cc41c070326adaed"
-                },
-                {
-                  "sha": "8e62e58",
-                  "message": "fix(deps): обновление pgx до v5.9.2 (GO-2026-5004)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T14:44:03Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8e62e58267405e41dadd2aa2b87c1d0dea04d311"
                 }
               ]
             },
