@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:21:16.049135Z",
+  "generated_at": "2026-08-02T14:26:32.738664Z",
   "groups": [
     {
       "id": "cores",
@@ -904,7 +904,7 @@
           ],
           "last_commit": {
             "sha": "6ca3332",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-02T13:08:54Z",
             "url": "https://github.com/openwrt/openwrt/commit/6ca3332676506e5315d0881ca98cd07c76dfe68b"
           }
@@ -5997,7 +5997,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-02T14:20:54Z",
+            "pushed_at": "2026-08-02T14:25:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -6006,6 +6006,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "01a40e8",
+                  "message": "чистка: аннотация #nosec G202 для INSERT web_users — ложное срабатывание на плейсхолдеры b.ph, как у соседних запросов (алерт №103 висел с июля)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-02T14:24:59Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/01a40e8cf035ebc0183e32394028aef744e1f75e"
+                },
                 {
                   "sha": "a16f452",
                   "message": "фикс: 429 от ЮKassa — временный лимит запросов, а не отказ карты",
@@ -6208,13 +6215,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-10T23:19:18Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bbc75ff41e9009f382057180db3c5e6c7ff86c0b"
-                },
-                {
-                  "sha": "8e6ed47",
-                  "message": "fix(вайтлист): пометить безопасную SQL-конкатенацию как #nosec G202",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-10T23:16:04Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8e6ed4746d78a5561348b7b8b97c7709a1b31518"
                 }
               ]
             },
