@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T07:34:12.700528Z",
+  "generated_at": "2026-08-02T07:39:30.094369Z",
   "groups": [
     {
       "id": "cores",
@@ -918,7 +918,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-02T07:18:28Z",
+            "pushed_at": "2026-08-02T07:35:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2003,6 +2003,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a8b6b3b",
+                  "message": "node: bump to 22.23.2",
+                  "author": "Hirokazu MORIKAWA",
+                  "date": "2026-08-02T07:35:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/a8b6b3b5519331ba1edde8a903050fbd362d4b9a"
+                },
+                {
                   "sha": "fade401",
                   "message": "nghttp2: bump to 1.70.0",
                   "author": "Hirokazu MORIKAWA",
@@ -2204,13 +2211,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-30T11:23:47Z",
                   "url": "https://github.com/openwrt/packages/commit/2ff5f037fda219c4464c53f03b85b6a3592435e4"
-                },
-                {
-                  "sha": "dfb4bd4",
-                  "message": "lua-eco: fix LUA_ECO_CRASH_BACKTRACE recursive dependency",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-30T11:23:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/dfb4bd477af8bd84c8482dbc73824919ea14515a"
                 }
               ]
             },
@@ -7032,7 +7032,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6823,
+            "stars": 6824,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-02T02:43:51Z",
