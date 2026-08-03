@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:04:23.262187Z",
+  "generated_at": "2026-08-03T19:09:42.626418Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-03T15:13:27Z",
+            "pushed_at": "2026-08-03T19:09:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1976,6 +1976,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ad58a29",
+                  "message": "ci: bump lewagon/wait-on-check-action from 1.8.1 to 1.9.0",
+                  "author": "dependabot[bot]",
+                  "date": "2026-08-03T19:09:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/ad58a29f059c7fd8b378d3ddbfdc24222ab7f05e"
+                },
+                {
+                  "sha": "8e912e9",
+                  "message": "trafficshaper: avoid recursive dependency",
+                  "author": "Dharmik Parmar",
+                  "date": "2026-08-03T19:08:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/8e912e91d503f5f63abe552ffa3ceeb446d7d784"
+                },
+                {
                   "sha": "2c72717",
                   "message": "nano: update to 9.2",
                   "author": "Hannu Nyman",
@@ -2170,20 +2184,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-31T09:50:45Z",
                   "url": "https://github.com/openwrt/packages/commit/ec5497292452db0cfb0205fca16c6460607b5433"
-                },
-                {
-                  "sha": "589cf9a",
-                  "message": "zabbix: tweak patch agent and server patch configs",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-31T09:50:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/589cf9a73cdcbc3a0d23e096061f54624abb0cbd"
-                },
-                {
-                  "sha": "1340781",
-                  "message": "zabbix: use separate users for server and proxy",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-31T09:50:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/134078192468dfb4f9e4449db39258b39b8f98cf"
                 }
               ]
             },
@@ -5758,7 +5758,7 @@
             "stars": 76032,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T19:02:50Z",
+            "pushed_at": "2026-08-03T19:08:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
