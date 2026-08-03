@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T07:15:40.774922Z",
+  "generated_at": "2026-08-03T07:21:01.236706Z",
   "groups": [
     {
       "id": "cores",
@@ -4532,223 +4532,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/264475107?v=4",
             "owner": "timbrs"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "76211ad",
-                  "message": "AWG_NO_DF: опциональное снятие DF-бита с UDP-сокетов (обход DPI, режущих DF=1; по мотивам PR #32) + галочка в конфигураторе (Container ENV во всех режимах)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-17T17:48:21Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/76211ad48092697b66ce4864015595d101cb8be2"
-                },
-                {
-                  "sha": "d62eaec",
-                  "message": "AWG_SRC_PORT=random: эфемерный порт ядра без bind, новый при каждом реконнекте (по мотивам PR #32 от Kallyanbl4, соответствует поведению Go-версии)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-17T17:47:49Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/d62eaeca706068d6b0e9fee4147588ab3c8ff0ae"
-                },
-                {
-                  "sha": "3c483fa",
-                  "message": "Периодический DNS-ре-резолв AWG_REMOTE (AWG_DNS_REFRESH, 60с): реконнект при смене IP сервера без ожидания таймаута; юнит-тест test-dns",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-17T17:47:20Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/3c483fad8081a14213560cc48cee49f5135fdba0"
-                },
-                {
-                  "sha": "08c99f7",
-                  "message": "configurator: первый префикс awg-proxy-1 (убирает substring-коллизию) + guard/чистка",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-10T13:25:18Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/08c99f760b81e2ea396aa8529c22b4f7cb7a07e6"
-                },
-                {
-                  "sha": "9df1271",
-                  "message": "configurator: route-rule пиннинг зонда (probe-таблица + rule, единый 8.8.8.8)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-10T12:57:43Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/9df1271c301422faf347165ed259a23dedcb9827"
-                },
-                {
-                  "sha": "abda998",
-                  "message": "configurator: пиннинг netwatch-зонда к своему туннелю (фикс failback)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-10T12:32:21Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/abda998fc5de1f6d9ff8fdf6d607b5e316649589"
-                },
-                {
-                  "sha": "4221697",
-                  "message": "CI-публикация Docker-образа в ghcr.io (fix #34)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-06T18:11:03Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/422169782982627860cc82afe01c40e456574b19"
-                },
-                {
-                  "sha": "01db488",
-                  "message": "AWG 2.0 для s2s/server с v1-фолбэком (#35); armv5 для hEX refresh/S 2025 (#36)",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-06T15:36:57Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/01db488e072df18f0c049a7a835f41856d529b74"
-                },
-                {
-                  "sha": "39e76b7",
-                  "message": "Фолбэк на постоянный RU-список при запрете scheduler в device-mode",
-                  "author": "Timur Bayan",
-                  "date": "2026-07-06T07:15:34Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/39e76b74acd5c60d5f1493ddfd6d78e692e82e05"
-                },
-                {
-                  "sha": "4d7a636",
-                  "message": "Конфигуратор: устойчивый разбор больших списков AllowedIPs (split-tunnel)",
-                  "author": "Timur Bayan",
-                  "date": "2026-06-06T15:49:38Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/4d7a636b020e49f81d8a4ca317dbbeef65c58fae"
-                },
-                {
-                  "sha": "8d8ace2",
-                  "message": "Серверный режим: генерация .conf для прямого клиента AmneziaWG (full-tunnel)",
-                  "author": "Timur Bayan",
-                  "date": "2026-06-06T15:41:09Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/8d8ace29ab016a5b2784353d0fe1b76a49161a23"
-                },
-                {
-                  "sha": "577101f",
-                  "message": "Merge pull request #22 from mskvortsov/codex-bug-fix",
-                  "author": "timbrs",
-                  "date": "2026-06-06T13:38:36Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/577101f78dc739c45eb32c585abffe8eb82404b0"
-                },
-                {
-                  "sha": "559feea",
-                  "message": "Добавлен вариант генерации конфига .conf для клиентов в серверном режиме",
-                  "author": "Timur Bayan",
-                  "date": "2026-06-06T09:38:30Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/559feea7cddb1e53212842e3a44bbd08dc0abee1"
-                },
-                {
-                  "sha": "1f1bb61",
-                  "message": "Сценарий \"не-РФ трафик в туннель\": RAM-based RU list + исправление загрузки при ребуте",
-                  "author": "Timur Bayan",
-                  "date": "2026-05-03T16:58:23Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/1f1bb61266f0e3930c632914ecf99678429c5017"
-                },
-                {
-                  "sha": "53628e0",
-                  "message": "1. Добавлено больше логов для диагностики",
-                  "author": "Timur Bayan",
-                  "date": "2026-04-09T15:32:49Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/53628e0ef4d7a1ad288e56d43ea674cda2761d21"
-                },
-                {
-                  "sha": "c4bb70c",
-                  "message": "Reject overlapping H ranges",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:54:15Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/c4bb70c39a85864d26955f848a93fc9bc82310da"
-                },
-                {
-                  "sha": "f223799",
-                  "message": "Handle full-width H ranges safely",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:52:06Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/f22379978b61f81dff1a336be31fe085ba4b3741"
-                },
-                {
-                  "sha": "27eff9a",
-                  "message": "Drop oversized GRO packets before copying",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:49:22Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/27eff9a9bb7920a8adfeacd3ef72ecb499f734d5"
-                },
-                {
-                  "sha": "72c2103",
-                  "message": "Use checked sizes for junk buffers",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:48:54Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/72c210336dfcf0f348c8b2653f7399f406d71baf"
-                },
-                {
-                  "sha": "27c4352",
-                  "message": "Validate configured padding and headroom sizes",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:47:13Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/27c43529ec64b021988c05b2f09cd941f2fe07e4"
-                },
-                {
-                  "sha": "488eae6",
-                  "message": "Fix wide H4 range selection",
-                  "author": "Codex",
-                  "date": "2026-04-08T15:43:58Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/488eae63b84825967a22e9e0f733f9f5285fdfff"
-                },
-                {
-                  "sha": "817ddd1",
-                  "message": "При ошибке соединения по имени сервера, после 3х минут неудач, контейнер будет производить повторный DNS-resolve (вдруг сменился ip сервера)",
-                  "author": "Timur Bayan",
-                  "date": "2026-04-05T15:35:02Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/817ddd1ab3c196fcbbda14b5ea5f55773c4e67eb"
-                },
-                {
-                  "sha": "f553b8c",
-                  "message": "Docs update",
-                  "author": "Timur Bayan",
-                  "date": "2026-04-05T15:05:58Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/f553b8c5b8d331b7dbba9f779b7c2add8cd08804"
-                },
-                {
-                  "sha": "185f492",
-                  "message": "Merge pull request #18 from avirt007/feat/server-mode-multi-peer",
-                  "author": "timbrs",
-                  "date": "2026-04-05T12:44:57Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/185f492ea0b196ca4a60b945a6fa79c6e68acdb8"
-                },
-                {
-                  "sha": "f43617d",
-                  "message": "Add explicit multi-peer server-mode support",
-                  "author": "Andrew Voronin",
-                  "date": "2026-04-02T11:58:16Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/f43617d78c4f0a1d439141f0a6d685b299e54a20"
-                },
-                {
-                  "sha": "95b4a1e",
-                  "message": "Исправлен конфигуратор:",
-                  "author": "Timur Bayan",
-                  "date": "2026-03-30T20:12:47Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/95b4a1eea6a712c45ae036800183aac84ef82df9"
-                },
-                {
-                  "sha": "e530f3c",
-                  "message": "proxy: исправлены блокирующие sends для flow control, GSO/GRO на обоих направлениях",
-                  "author": "Timur Bayan",
-                  "date": "2026-03-30T19:11:35Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/e530f3c51f8ee1309b0b3bbbebedae0afb856b43"
-                },
-                {
-                  "sha": "d9ce11e",
-                  "message": "configurator: свои домены, World of Tanks, исправление NAT и exclusions",
-                  "author": "Timur Bayan",
-                  "date": "2026-03-30T19:10:31Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/d9ce11ec4f79c98c819b8f372c444acb0d9c5a7a"
-                },
-                {
-                  "sha": "4d268f0",
-                  "message": "Добавлен failover в конфигуратор",
-                  "author": "Timur Bayan",
-                  "date": "2026-03-26T18:34:19Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/4d268f0d2e979a3054da679ad1c3c2e7569dd1dc"
-                },
-                {
-                  "sha": "f04ae65",
-                  "message": "configurator: исправление non-RU сценария, обработка ошибок",
-                  "author": "Timur Bayan",
-                  "date": "2026-03-25T20:52:30Z",
-                  "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/f04ae65f378ea3ee99969c1b4d65eb6995841f7f"
-                }
-              ]
+              "name": "v1.1.4",
+              "tag": "v1.1.4",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.1.4",
+              "published_at": "2026-07-17T18:30:29Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "# awg-proxy v1.1.4\r\n\r\nТри новые возможности: периодический ре-резолв DNS, `AWG_SRC_PORT=random` и опциональное снятие DF-бита (обход DPI/ТСПУ). Дефолтное поведение не меняется — все три либо включаются явно, либо срабатывают только для hostname-эндпоинтов.\r\n\r\n## Изменения\r\n\r\n### Периодический DNS-ре-резолв (`AWG_DNS_REFRESH`)\r\nРаньше hostname из `AWG_REMOTE` перечитывался только при старте и реконнекте, а реконнект наступал лишь по таймауту молчания (`AWG_TIMEOUT`, ~180 с) или ошибке чтения — при смене IP сервера прокси долго слал на старый адрес.\r\n\r\nТеперь главный поток раз в `AWG_DNS_REFRESH` секунд (по умолчанию 60, `0` = выкл) заново резолвит hostname и, если текущий IP исчез из A-записей **две проверки подряд** (защита от round-robin DNS, отдающих ротационное подмножество адресов), инициирует штатный реконнект на новый адрес — не дожидаясь таймаута.\r\n\r\n- Только для hostname; для literal-IP проверка выключена.\r\n- Гранулярность 5 с (тик таймера прокси).\r\n- Реконнект сбрасывает сессию клиента (как при «remote silent») — WireGuard сам выполнит новый handshake.\r\n- Новый юнит-тест `test-dns` (входит в `make test`).\r\n\r\n### `AWG_SRC_PORT=random`\r\nНовое значение `random` для `AWG_SRC_PORT`: порт выбирает ядро (без bind), новый эфемерный порт при каждом реконнекте. Полезно за CGN/NAT провайдера, где переиспользование старой пары порт+сервер после обрыва может залипать. Значения `auto` (по умолчанию) и фиксированное число работают как прежде.\r\n\r\nСоответствует поведению Go-версии (`net.DialUDP(\"udp4\", nil, …)`). По мотивам PR #32 от Kallyanbl4.\r\n\r\n### `AWG_NO_DF` — снятие DF-бита (обход DPI/ТСПУ)\r\nОпция `AWG_NO_DF=1` снимает DF-бит (Don't Fragment) с UDP-сокетов прокси (`IP_MTU_DISCOVER=IP_PMTUDISC_DONT`). Часть DPI-оборудования (ТСПУ) на отдельных сетях хуже пропускает UDP с DF=1. Меняет заголовок IP на проводе, поэтому **выключено по умолчанию** — включать только при проблемах со связью (с DF=0 крупные пакеты могут фрагментироваться по пути).\r\n\r\nВ конфигураторе добавлена галочка «Убрать DF-бит с UDP (обход ТСПУ)» — прописывает `AWG_NO_DF=1` в переменные контейнера во всех режимах (container / standalone / server / site-to-site). По мотивам PR #32, но как opt-in, а не молчаливое включение для всех.\r\n\r\n## Документация\r\nОбновлены README.md и README_en.md: таблица переменных окружения и подробные описания `AWG_DNS_REFRESH`, `AWG_SRC_PORT=random`, `AWG_NO_DF`.\r\n\r\n## Верификация\r\n- Docker-сборка musl `-Werror` чистая; unit-тесты 94/94 PASS (включая новый `test-dns` 4/4).\r\n- e2e DNS-рефреша (подмена `/etc/hosts` в контейнере): смена IP → реконнект на новый адрес; старый IP среди A-записей → реконнекта нет; literal IP → чек выключен; сломанный резолвер → соединение живёт.\r\n- `make test-stress` 10/10 PASS, регрессий data-path нет.\r\n\r\n## Коммиты\r\n- `3c483fa` Периодический DNS-ре-резолв AWG_REMOTE (AWG_DNS_REFRESH, 60с): реконнект при смене IP сервера без ожидания таймаута; юнит-тест test-dns\r\n- `d62eaec` AWG_SRC_PORT=random: эфемерный порт ядра без bind, новый при каждом реконнекте (по мотивам PR #32 от Kallyanbl4, соответствует поведению Go-версии)\r\n- `76211ad` AWG_NO_DF: опциональное снятие DF-бита с UDP-сокетов (обход DPI, режущих DF=1; по мотивам PR #32) + галочка в конфигураторе (Container ENV во всех режимах)\r\n\r\n## Артефакты\r\n12 файлов: 4 статических бинарника (linux arm64/arm/armv5/amd64), 4 OCI-образа (RouterOS 7.21+), 4 classic-Docker (RouterOS 7.20 LT).\r\n"
+            },
+            {
+              "name": "v1.1.3",
+              "tag": "v1.1.3",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.1.3",
+              "published_at": "2026-07-06T17:00:56Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "# Исправления\r\n- #35: AWG 2.0 для site-to-site/server, лог I1–I5, двухпрофильный v1-фолбэк в прокси + тесты;                                                                                                                                                                 \r\n- #36: Конфигуратор: автовыбор awg-proxy-armv5 для hEX refresh (E50UG) и hEX S 2025 (E60iUGS), README-раздел про Illegal instruction. "
+            },
+            {
+              "name": "v1.1.2",
+              "tag": "v1.1.2",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.1.2",
+              "published_at": "2026-06-06T22:26:20Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "🚀 Что нового в версии 1.1.2\r\n  \r\n  🆕 Новые возможности\r\n\r\n🧩 Повышена [стабильность работы прокси](https://github.com/timbrs/amneziawg-mikrotik-c/pull/22), спасибо @mskvortsov\r\n  Несколько внутренних исправлений: корректная обработка параметров маскировки H1–H4, защита от слишком больших сетевых пакетов, проверки размеров буферов. Меньше шансов на сбои при нестандартных настройках.\r\n\r\nКонфигуратор:\r\n  📱 Прямое подключение телефона или ноутбука к MikroTik-хабу\r\n  В конфигураторе (серверный режим) появился вариант «Прямой клиент AmneziaWG». Теперь не обязательно ставить второй роутер: конфигуратор сразу делает готовый файл .conf для приложения AmneziaWG на телефоне или ноутбуке. Весь интернет устройства идёт через ваш хаб. Конфиг можно скопировать текстом или скачать кнопкой «Скачать .conf».\r\n\r\n  🌍 Режим «весь зарубежный трафик — в туннель»\r\n  Российский трафик идёт напрямую, а всё остальное — через VPN. Список российских сетей теперь хранится в оперативной памяти, и корректно подхватывается после перезагрузки роутера.\r\n\r\n  🛠Исправления\r\n\r\n  📋 Большие списки сетей больше не ломают конфигуратор\r\n  Раньше, если в конфиге было много сетей (тысячи строк в AllowedIPs — например, для раздельного туннелирования), конфигуратор выдавал ошибку «invalid format» и отказывался работать. Теперь:\r\n  - большие списки обрабатываются нормально;\r\n  - лишние запятые, пробелы и переносы строк больше не мешают;\r\n  - если какая-то сеть реально записана с ошибкой — конфигуратор покажет, какая именно, а не просто «неверный формат».\r\n\r\n  ⚙️ Техническое\r\n  - Автообновление онлайн-конфигуратора переведено на основную ветку."
+            },
+            {
+              "name": "v1.1.1",
+              "tag": "v1.1.1",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.1.1",
+              "published_at": "2026-04-09T15:35:24Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "1. Добавлено больше логов для диагностики при env: `AWG_LOG_LEVEL=debug`\r\n2. Контейнер не будет сдаваться на 5 попытку подключения по DNS и закрываться, а будет пытаться снова и снова."
+            },
+            {
+              "name": "v1.1.0",
+              "tag": "v1.1.0",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.1.0",
+              "published_at": "2026-04-05T12:51:31Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "1. Исправлен серверный режим: добавлена поддержка прямых AmneziaWG 2.0 клиентов (спасибо @avirt007)\r\n2. При ошибке соединения по имени сервера, после 3х минут неудач, контейнер будет производить повторный DNS-resolve (вдруг сменился ip сервера)\r\n\r\nРаньше server mode работал только с клиентами через прокси. Прямые AWG-клиенты (без клиентского прокси) не могли подключиться из-за некорректного MAC1 в handshake. Теперь можно указать реальные публичные ключи прямых клиентов через AWG_CLIENT_PUBS - сервер будет использовать правильный MAC1 для каждого клиента.\r\nСтарые proxy-only работают без изменений.\r\n\r\n\r\n\r\n## What's Changed\r\n* Add explicit multi-peer support for AWG_MODE=server by @avirt007 in https://github.com/timbrs/amneziawg-mikrotik-c/pull/18\r\n\r\n## New Contributors\r\n* @avirt007 made their first contribution in https://github.com/timbrs/amneziawg-mikrotik-c/pull/18\r\n\r\n**Full Changelog**: https://github.com/timbrs/amneziawg-mikrotik-c/compare/v1.0.9...v1.1.0"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "76211ad",
+            "branch": "main",
+            "date": "2026-07-17T18:20:16Z",
+            "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/76211ad48092697b66ce4864015595d101cb8be2"
+          }
         },
         {
           "repo": "StressOzz/Zapret-Manager",
@@ -5919,7 +5755,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76011,
+            "stars": 76013,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-03T07:09:04Z",
@@ -5987,7 +5823,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65507,
+            "stars": 65508,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-02T08:48:54Z",
