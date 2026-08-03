@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T14:37:42.909799Z",
+  "generated_at": "2026-08-03T14:43:02.540349Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 32892,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T14:02:58Z",
+            "pushed_at": "2026-08-03T14:37:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Mon Aug  3 20:51:39 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
+              "body": "Release created at  Mon Aug  3 22:37:55 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -5755,10 +5755,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76028,
+            "stars": 76029,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T14:37:19Z",
+            "pushed_at": "2026-08-03T14:37:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5811,10 +5811,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7b227d0",
-            "branch": "adela/text_v2_editor_options",
-            "date": "2026-08-03T14:37:20Z",
-            "url": "https://github.com/grafana/grafana/commit/7b227d04e2eeae70e25f2f73893c72a6e2921d74"
+            "sha": "a52f820",
+            "branch": "release-13.0.5",
+            "date": "2026-08-03T14:37:52Z",
+            "url": "https://github.com/grafana/grafana/commit/a52f820c4e4b3435204e4f9ac143c4c126a564ff"
           }
         },
         {
@@ -5823,7 +5823,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65515,
+            "stars": 65516,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-03T11:12:47Z",
@@ -7008,7 +7008,7 @@
             "stars": 6838,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T02:39:30Z",
+            "pushed_at": "2026-08-03T14:38:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
