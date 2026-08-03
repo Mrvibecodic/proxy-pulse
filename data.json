@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T09:07:23.880666Z",
+  "generated_at": "2026-08-03T09:12:41.499083Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-02T18:37:55Z",
+            "pushed_at": "2026-08-03T09:07:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1976,6 +1976,76 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "703e679",
+                  "message": "strongswan: bump PKG_RELEASE by one",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/703e679a7101c9e77b64373e07b7e932f7eb2d4b"
+                },
+                {
+                  "sha": "4c58caf",
+                  "message": "strongswan: write local_key to swanctl.conf",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/4c58cafc7e22ac109eef808fa9657485c37d24c6"
+                },
+                {
+                  "sha": "6e6de6a",
+                  "message": "strongswan: rename 'local_sourceip' to 'vips'",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e6de6aff91f57151186bd21c7d72fd7e3285163"
+                },
+                {
+                  "sha": "0745002",
+                  "message": "strongswan: rename 'local_ip' to 'local_addrs'",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/07450023bca29dec13b3ddeb349af1fb8eb62fbe"
+                },
+                {
+                  "sha": "b0c5835",
+                  "message": "strongswan: rename 'remote_gateway' to 'remote_addrs'",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/b0c5835445ff3cf471179f2bf4df1e6ab1ce8932"
+                },
+                {
+                  "sha": "d43fa0c",
+                  "message": "strongswan: rename 'gateway' to 'remote_gateway'",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/d43fa0cbd49796ecc53fd7f606ba3bf84dc39164"
+                },
+                {
+                  "sha": "9cea816",
+                  "message": "strongswan: migration and merge local_nat into local_subnet",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/9cea816088af618c372512847d7055eba7e71210"
+                },
+                {
+                  "sha": "eca6d15",
+                  "message": "strongswan: replace indentation spaces with tabs in swanctl.init",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/eca6d15e4596cf3ec973bf4fc0acbded1ea28cfe"
+                },
+                {
+                  "sha": "7f341b3",
+                  "message": "strongswan: reorder local var in config_remote function",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f341b3afc0b82f333251e81d32a8c17d07cfa0a"
+                },
+                {
+                  "sha": "1ac4335",
+                  "message": "strongswan: reorder local var in config_child function",
+                  "author": "Florian Eckert",
+                  "date": "2026-08-03T09:07:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/1ac4335cd6d652d67c75e49b0d619635b14f1019"
+                },
+                {
                   "sha": "7c3749d",
                   "message": "adblock: release 4.5.7-1",
                   "author": "Dirk Brenken",
@@ -2114,76 +2184,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-31T06:46:08Z",
                   "url": "https://github.com/openwrt/packages/commit/60f5e4b230ff50a0f84a4fd93c6eea15b46bbb48"
-                },
-                {
-                  "sha": "2eaaed5",
-                  "message": "luasocket: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:46:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/2eaaed5cdfcf32a3c7b550d705fd7ca3e2860e73"
-                },
-                {
-                  "sha": "59977dc",
-                  "message": "luaexpat: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:46:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/59977dc387fb9fc2993c83182ccc2d54c1bc5bdf"
-                },
-                {
-                  "sha": "27152e6",
-                  "message": "luafilesystem: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:46:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/27152e6f34b97d85cc0a1355d885ca9ccd9be8d6"
-                },
-                {
-                  "sha": "3fe92e6",
-                  "message": "lua: look for lua5.4 modules under /usr instead of /usr/local",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:46:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/3fe92e63f5585b35875543c64f7612935b897373"
-                },
-                {
-                  "sha": "664df28",
-                  "message": "hwdata: update to 0.409",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:41:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/664df2843a188185f12db1bd82373cb7f25acab6"
-                },
-                {
-                  "sha": "9d155d9",
-                  "message": "checksec: update to 3.2.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:41:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/9d155d96f804a00e8fd46ecdbf960a48ceda4ac9"
-                },
-                {
-                  "sha": "b9fe9ba",
-                  "message": "openblas: update to 0.3.34",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:41:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9fe9ba44bafea2cae107cffb8f359f631771d19"
-                },
-                {
-                  "sha": "2a28bbc",
-                  "message": "unbound: update to 1.25.2",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-07-31T05:55:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a28bbc943cf9d02cf6f911b5598b9733d2977d3"
-                },
-                {
-                  "sha": "919a54c",
-                  "message": "unbound: remove maintainer",
-                  "author": "Eric Luehrsen",
-                  "date": "2026-07-31T05:50:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/919a54c65a644cf0d0e06e14306e62a6ab6df296"
-                },
-                {
-                  "sha": "286d846",
-                  "message": "lttng-tools: update to 2.15.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-30T11:23:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/286d84639cdc98d785a73253797ce51de31d1930"
                 }
               ]
             },
@@ -3768,7 +3768,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 392,
+            "stars": 393,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -3836,7 +3836,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 15954,
+            "stars": 15955,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -5619,7 +5619,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89756,
+            "stars": 89757,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-03T00:21:52Z",
