@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:13:42.686030Z",
+  "generated_at": "2026-08-03T12:19:01.422373Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,30 @@
             "stars": 36681,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-03T11:22:03Z",
+            "pushed_at": "2026-08-03T12:16:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.5",
+              "tag": "v1.14.0-beta.5",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.5",
+              "published_at": "2026-08-03T12:14:25Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
+            },
+            {
+              "name": "1.13.16",
+              "tag": "v1.13.16",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.16",
+              "published_at": "2026-08-03T12:14:29Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
+            },
             {
               "name": "1.14.0-beta.4",
               "tag": "v1.14.0-beta.4",
@@ -116,31 +134,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-beta.2",
-              "tag": "v1.14.0-beta.2",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.2",
-              "published_at": "2026-07-25T05:58:53Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add [JSON Schema](https://sing-box.sagernet.org/configuration/schema/) support **1**\n* Fixes and improvements\n\n**1**:\n\nsing-box now provides a JSON Schema for its configuration, enabling completion and validation in compatible editors. The schema published with the documentation can be selected with the new top-level `$schema` field, while the new `sing-box schema` command generates a schema matching the current binary and its build tags.\n\nWe have also improved the JSON editor experience in the graphical clients on macOS, Android, Windows, and Linux, and added schema-based completion support."
-            },
-            {
-              "name": "1.14.0-beta.1",
-              "tag": "v1.14.0-beta.1",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.1",
-              "published_at": "2026-07-23T14:10:20Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Correct undefined rule-set matching semantics **1**\n* Add search domain rule items **2**\n* Add parallel DNS response evaluation support **3**\n* Fixes and improvements\n\n**1**:\n\nRule-set matching has always been described as merged matching: fields of rule-set rules are considered merged into the referencing rule. However, this description is only intuitive when a rule-set contains only a single `default` rule without `invert`. Merged matching is now limited to exactly this case; any other referenced rule-set is matched as an `other field`, which matches when any of its rules matches on its own. Since the previous behavior in the corrected cases was effectively undefined, counterintuitive, and hard to understand, we do not consider this a breaking change — except for configurations that worked without their author understanding why.\n\n**2**:\n\nThe new DNS rule items [`domain_label_count`](https://sing-box.sagernet.org/configuration/dns/rule/#domain_label_count) and [`search_domain_available`](https://sing-box.sagernet.org/configuration/dns/rule/#search_domain_available) match the number of labels in the query name and whether a DNS server currently holds search domains; combined with `racing`, they allow unqualified name queries to race a server that can expand them against a public resolver. Additionally, [`preferred_by`](https://sing-box.sagernet.org/configuration/dns/rule/#preferred_by) now matches search domain suffixes and supports `local` and `dhcp` servers.\n\n**3**:\n\nThe [`evaluate`](https://sing-box.sagernet.org/configuration/dns/rule_action/#evaluate) action can now assign a `tag` to each response, allowing multiple evaluated responses to coexist and be selected through tagged [`match_response`](https://sing-box.sagernet.org/configuration/dns/rule/#match_response) rules. The new [`race`](https://sing-box.sagernet.org/configuration/dns/rule_action/#race) field allows response-dependent rules to compete in parallel, with the first matching rule taking effect and the remaining queries canceled. The new `speculative` option can start `evaluate` and `route` queries while race rules are still pending, reducing latency at the cost of potentially unused queries."
             }
           ],
           "last_commit": {
-            "sha": "17ec3c7",
-            "branch": "stable",
-            "date": "2026-08-03T11:20:54Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/17ec3c71af8ca946dc50bf0d927c39fc77322aec"
+            "sha": "905b430",
+            "branch": "docs",
+            "date": "2026-08-03T12:16:20Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/905b430b6a7b521d38ddfdfe16b8130df0dd4c0d"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32889,
+            "stars": 32888,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-03T12:13:23Z",
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4ad27d8",
+            "sha": "9d901dc",
             "branch": "Alpha",
-            "date": "2026-08-03T07:43:55Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/4ad27d81730046e310ccb82a14dc7243ae093500"
+            "date": "2026-08-03T12:13:24Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/9d901dc7b5d7d330d4a6791e6b38014c20408791"
           }
         }
       ]
@@ -5619,7 +5619,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89759,
+            "stars": 89760,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-03T00:21:52Z",
@@ -5687,7 +5687,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 23986,
+            "stars": 23987,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -5758,7 +5758,7 @@
             "stars": 76026,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T12:13:11Z",
+            "pushed_at": "2026-08-03T12:16:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5811,10 +5811,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8bd1e74",
-            "branch": "main",
-            "date": "2026-08-03T12:02:52Z",
-            "url": "https://github.com/grafana/grafana/commit/8bd1e74b99cf2dfc9e72f9782f16d13a8eee955a"
+            "sha": "6818d0c",
+            "branch": "ash/remove-react19-flag",
+            "date": "2026-08-03T12:16:52Z",
+            "url": "https://github.com/grafana/grafana/commit/6818d0c3f418de77ed1342bafe7454b6d5eb76d0"
           }
         },
         {
