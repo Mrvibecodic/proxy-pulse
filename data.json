@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T19:57:54.399840Z",
+  "generated_at": "2026-08-03T20:03:14.450564Z",
   "groups": [
     {
       "id": "cores",
@@ -570,7 +570,7 @@
             "stars": 340,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
-            "pushed_at": "2026-08-03T19:57:33Z",
+            "pushed_at": "2026-08-03T19:59:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/29365829?v=4",
             "owner": "legiz-ru"
@@ -580,7 +580,7 @@
               "name": "v1.0.21-alpha23",
               "tag": "v1.0.21-alpha23",
               "url": "https://github.com/legiz-ru/Prizrak-Box/releases/tag/v1.0.21-alpha23",
-              "published_at": "2026-08-03T10:48:04Z",
+              "published_at": "2026-08-03T19:59:00Z",
               "prerelease": true,
               "author": "legiz-ru",
               "body": "### Desktop\r\n\r\n* **⬆️ Core Engine:** Upgraded moshen core to `v1.19.29-smart-moshen` — adds **JLS protocol** support (`jls-quic-go`, `jls-tls`), removes ShadowTLS, updates uTLS, sing-tun, mieru, AmneziaWG and other core dependencies.\r\n* **⬆️ Dependencies:** Upgraded Wails v3 from `alpha2.110` to **`v3.0.0-beta.2`** (first beta) with the JS runtime kept in permanent lockstep — the app now loads it from the Go binary itself (`/wails/runtime.js`), so the two sides can never drift apart.\r\n* **🔧 Fix (Windows):** Removed the window-resize workaround for the black screen on launch — the WebView2 controller visibility is now properly synchronized by the framework on first reveal, minimize and restore.\r\n* **🚀 New Feature (Windows):** Native **Snap Layouts** flyout over the custom titlebar maximize button (WebView2 composition hosting + non-client regions).\r\n* **🚀 New Feature (Windows):** Autostart now uses a **Task Scheduler** logon task with a 15-second delay instead of the registry Run key — no more missing tray icon after login; legacy Run entries are migrated automatically.\r\n* **🚀 New Feature:** Native notifications (`pxNotify`) — the \"update available\" alert is now a real Windows toast / Linux D-Bus notification.\r\n* **🚀 New Feature:** Global show/hide hotkey now works on **macOS** (was Windows-only); a hotkey already taken by another app is now reported in the UI instead of failing silently.\r\n* **⚙️ Settings Storage:** Settings moved from WebView2 localStorage to a persistent store **shared with the Electron build** (`px-electron.db/config.json`) — they survive webview cache clears and carry over when switching shells.\r\n* **🎨 UI Improvement:** The window pre-paint background now matches the last-used theme (dark/light) — no more black/white flash on startup.\r\n* **🔧 Fix:** Wails shell panics and internal errors are now written to `shell.log` instead of vanishing; WebView2 profile pinned to a stable location.\r\n* **⬆️ Dependencies (beta.2):** Dark-titlebar startup crash fix on Windows 10 LTSC 1809.\r\n\r\n### Android\r\n\r\n* **⬆️ Core Engine:** Upgraded moshen core to `v1.19.29-smart-moshen` — adds **JLS protocol** support (`jls-quic-go`, `jls-tls`), removes ShadowTLS, updates uTLS, sing-tun, mieru, AmneziaWG and other core dependencies.\r\n---\r\n\r\n📚 **Documentation \u0026 Guides:**\r\n\r\n* Official Docs: [[docs.prizrak.app](https://docs.prizrak.app/)](https://docs.prizrak.app/)\r\n* Cloudflare Mirror: [[cf.docs.prizrak.app](https://cf.docs.prizrak.app/)](https://cf.docs.prizrak.app/)"
@@ -5404,7 +5404,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89772,
+            "stars": 89773,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-03T00:21:52Z",
@@ -5540,10 +5540,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76031,
+            "stars": 76032,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T19:56:02Z",
+            "pushed_at": "2026-08-03T19:59:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5596,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5a0210a",
-            "branch": "nathanmarrs/librarypanels-frontend-client",
-            "date": "2026-08-03T19:56:02Z",
-            "url": "https://github.com/grafana/grafana/commit/5a0210aea48621116c5e2514bece57cdd386ee42"
+            "sha": "91f34bc",
+            "branch": "main",
+            "date": "2026-08-03T19:59:17Z",
+            "url": "https://github.com/grafana/grafana/commit/91f34bc5f4f9b23b6382ffadeca29e86b45dcbc2"
           }
         },
         {
