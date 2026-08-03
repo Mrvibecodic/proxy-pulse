@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:09:41.397547Z",
+  "generated_at": "2026-08-03T15:15:01.403725Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 851,
+            "stars": 852,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-03T05:30:13Z",
@@ -891,7 +891,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-03T11:03:31Z",
+            "pushed_at": "2026-08-03T15:13:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1976,6 +1976,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2c72717",
+                  "message": "nano: update to 9.2",
+                  "author": "Hannu Nyman",
+                  "date": "2026-08-03T15:10:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/2c72717c16c73df9cf05fc93ce21165452200169"
+                },
+                {
                   "sha": "7885dff",
                   "message": "modemmanager: skip virtual net devices in hotplug script",
                   "author": "Michael Pfeifroth",
@@ -2177,13 +2184,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-31T09:50:45Z",
                   "url": "https://github.com/openwrt/packages/commit/134078192468dfb4f9e4449db39258b39b8f98cf"
-                },
-                {
-                  "sha": "42be0c9",
-                  "message": "prosody: extend test.sh past the version string grep",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T06:46:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/42be0c979ddb3a39861df1f722fef62a60158f86"
                 }
               ]
             },
@@ -3266,6 +3266,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "fd6dc0f",
+                  "message": "nano: update to 9.2",
+                  "author": "Hannu Nyman",
+                  "date": "2026-08-03T15:13:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/fd6dc0fabd57f45d9b3d6f75bbe2f648f733fbf5"
+                },
+                {
                   "sha": "6434bce",
                   "message": "unbound: update to 1.25.2",
                   "author": "Tyrel M. McQueen",
@@ -3467,19 +3474,19 @@
                   "author": "Ray Wang",
                   "date": "2026-07-02T16:56:45Z",
                   "url": "https://github.com/openwrt/packages/commit/4849bdf9c2455494581b428057a7f5046b595fd0"
-                },
-                {
-                  "sha": "bfc3770",
-                  "message": "pbr: update to 1.2.2-18",
-                  "author": "Stan Grishin",
-                  "date": "2026-07-02T04:28:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/bfc3770415190927446c1b6e63f91ac741f48342"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "b3f6f6e",
+                  "message": "nano: update to 9.2",
+                  "author": "Hannu Nyman",
+                  "date": "2026-08-03T15:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/b3f6f6e171acf660eaaa5db062ec7799abb45bad"
+                },
                 {
                   "sha": "d0363b2",
                   "message": "adblock: release 4.5.7-1",
@@ -3682,13 +3689,6 @@
                   "author": "Dharmik Parmar",
                   "date": "2026-07-21T07:32:48Z",
                   "url": "https://github.com/openwrt/packages/commit/62cda43de31951fac8e5264ab723808e33574fe1"
-                },
-                {
-                  "sha": "1eb8198",
-                  "message": "watchcat: add optional failure timer reset",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-07-21T07:32:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/1eb8198d64e75db500786e4904d6eaff4c795184"
                 }
               ]
             }
@@ -5755,10 +5755,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76031,
+            "stars": 76032,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-03T15:08:14Z",
+            "pushed_at": "2026-08-03T15:12:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5811,10 +5811,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5a77529",
-            "branch": "main",
-            "date": "2026-08-03T15:07:14Z",
-            "url": "https://github.com/grafana/grafana/commit/5a775294405b537dbfdd30b0e3db677852ecb443"
+            "sha": "d10d56a",
+            "branch": "ryan/remove-influxdb",
+            "date": "2026-08-03T15:12:35Z",
+            "url": "https://github.com/grafana/grafana/commit/d10d56ad4b0d9e1449f1685c460026e9fb35f052"
           }
         },
         {
