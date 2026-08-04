@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:24:32.352772Z",
+  "generated_at": "2026-08-04T13:29:51.250648Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40863,
+            "stars": 40864,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-03T00:13:55Z",
@@ -679,7 +679,7 @@
             "stars": 6636,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-08-04T11:01:59Z",
+            "pushed_at": "2026-08-04T13:28:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -5543,12 +5543,21 @@
             "stars": 76019,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T13:22:24Z",
+            "pushed_at": "2026-08-04T13:29:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "12.4.7",
+              "tag": "v12.4.7",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.7",
+              "published_at": "2026-08-04T13:29:41Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **Dashboards:** Get annotations and dashboard endpoint performance improvements [#129780](https://github.com/grafana/grafana/pull/129780), [@filewalkwithme](https://github.com/filewalkwithme)\n\n### Bug fixes\n\n- **DashboardDS:** Fix Mixed panels with a time override stuck in permanent loading [#129289](https://github.com/grafana/grafana/pull/129289), [@oscarkilhed](https://github.com/oscarkilhed)"
+            },
             {
               "name": "12.3.10",
               "tag": "v12.3.10",
@@ -5584,22 +5593,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.4.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **Alerting:** Add protected fields authorization check to provisioning API [#127940](https://github.com/grafana/grafana/pull/127940), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Alerting:** Return 403 instead of 500 on contact point provenance mismatch [#127814](https://github.com/grafana/grafana/pull/127814), [@rwwiv](https://github.com/rwwiv)\n- **Go:** Update version to 1.26.5 [#128017](https://github.com/grafana/grafana/pull/128017), [@macabu](https://github.com/macabu)\n\n### Bug fixes\n\n- **Jaeger:** Handle gzip, deflate, and brotli compressed API responses [#128062](https://github.com/grafana/grafana/pull/128062), [@zoltanbedi](https://github.com/zoltanbedi)\n- **alerting:** fix ORM table mapping bug causing SELECT alert_rule columns FROM user on PostgreSQL [#128753](https://github.com/grafana/grafana/pull/128753), [@dhananjay6561](https://github.com/dhananjay6561)"
-            },
-            {
-              "name": "12.3.9",
-              "tag": "v12.3.9",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.3.9",
-              "published_at": "2026-07-21T12:43:24Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.3.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **Alerting:** Return 403 instead of 500 on contact point provenance mismatch [#127813](https://github.com/grafana/grafana/pull/127813), [@rwwiv](https://github.com/rwwiv)\n- **Go:** Update version to 1.26.5 [#128018](https://github.com/grafana/grafana/pull/128018), [@macabu](https://github.com/macabu)\n\n### Bug fixes\n\n- **alerting:** fix ORM table mapping bug causing SELECT alert_rule columns FROM user on PostgreSQL [#128754](https://github.com/grafana/grafana/pull/128754), [@dhananjay6561](https://github.com/dhananjay6561)"
             }
           ],
           "last_commit": {
-            "sha": "e3cbaeb",
-            "branch": "changelog/update-changelog-2026-08-04",
-            "date": "2026-08-04T13:01:08Z",
-            "url": "https://github.com/grafana/grafana/commit/e3cbaeb1a4bb41afc65a34d0f4de69c2c5fd7eb7"
+            "sha": "cc38e17",
+            "branch": "renovate/rc-component-tooltip-1.x-lockfile",
+            "date": "2026-08-04T13:05:07Z",
+            "url": "https://github.com/grafana/grafana/commit/cc38e178cfb8c48465d129c81d642cb301a00494"
           }
         },
         {
@@ -5676,7 +5676,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80011,
+            "stars": 80012,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-04T13:21:38Z",
