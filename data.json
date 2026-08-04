@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T12:52:28.810816Z",
+  "generated_at": "2026-08-04T12:57:48.572387Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32923,
+            "stars": 32924,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-04T11:54:35Z",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 857,
+            "stars": 858,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-04T02:39:44Z",
@@ -5543,12 +5543,21 @@
             "stars": 76017,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T12:51:44Z",
+            "pushed_at": "2026-08-04T12:55:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "12.3.10",
+              "tag": "v12.3.10",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.3.10",
+              "published_at": "2026-08-04T12:55:16Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.3.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
+            },
             {
               "name": "13.1.1",
               "tag": "v13.1.1",
@@ -5584,22 +5593,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.3.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **Alerting:** Return 403 instead of 500 on contact point provenance mismatch [#127813](https://github.com/grafana/grafana/pull/127813), [@rwwiv](https://github.com/rwwiv)\n- **Go:** Update version to 1.26.5 [#128018](https://github.com/grafana/grafana/pull/128018), [@macabu](https://github.com/macabu)\n\n### Bug fixes\n\n- **alerting:** fix ORM table mapping bug causing SELECT alert_rule columns FROM user on PostgreSQL [#128754](https://github.com/grafana/grafana/pull/128754), [@dhananjay6561](https://github.com/dhananjay6561)"
-            },
-            {
-              "name": "13.1.0",
-              "tag": "v13.1.0",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.0",
-              "published_at": "2026-07-01T15:18:01Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.0)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **A11y:** Remove interactivity from UserIcon if onClick is not provided [#120284](https://github.com/grafana/grafana/pull/120284), [@idastambuk](https://github.com/idastambuk)\n- **Accessibility:** Add `aria-pressed` state to `FilterPill` [#123069](https://github.com/grafana/grafana/pull/123069), [@ashharrison90](https://github.com/ashharrison90)\n- **Accessibility:** Colorblind-safe line style fill patterns [#121386](https://github.com/grafana/grafana/pull/121386), [@vijaygovindaraja](https://github.com/vijaygovindaraja)\n- **Alerting:** Add Mimir Alertmanager auto-sync configuration to settings page [#124855](https://github.com/grafana/grafana/pull/124855), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add alerting.rulesAPIV2 feature flag [#122606](https://github.com/grafana/grafana/pull/122606), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add common section to filter dropdown in Alerts Activity [#124547](https://github.com/grafana/grafana/pull/124547), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Add feature flag for notifications api migration [#124625](https://github.com/grafana/grafana/pull/124625), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add label section to enrichment view/edit drawers (Enterprise)\n- **Alerting:** Add reusable hook to add enrichment query param to url on drawer open [#123584](https://github.com/grafana/grafana/pull/123584), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Add support for label selectors in AlertRule and RecordingRule legacy storage [#122293](https://github.com/grafana/grafana/pull/122293), [@moustafab](https://github.com/moustafab)\n- **Alerting:** Alert activity UI improvements part 3 [#121790](https://github.com/grafana/grafana/pull/121790), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Alert activity groupBy not filtering by environment [#121952](https://github.com/grafana/grafana/pull/121952), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Alerts Activity Instance drawer drilldown, Silence flow [#122317](https://github.com/grafana/grafana/pull/122317), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Allow restricting contact point integration types [#118858](https://github.com/grafana/grafana/pull/118858), [@chriscerie](https://github.com/chriscerie)\n- **Alerting:** Block Viewers from Alert Group edit route [#125669](https://github.com/grafana/grafana/pull/125669), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Block editing plugin-provided and provisioned rule groups [#123214](https://github.com/grafana/grafana/pull/123214), [@konrad147](https://github.com/konrad147)\n- **Alerting:** Deduplicate and validate `groupBy` labels in alerts [#122983](https://github.com/grafana/grafana/pull/122983), [@yuri-tceretian](https://github.com/yuri-tceretian)\n- **Alerting:** Export external Alertmanager sender metrics with data source UIDs [#121996](https://github.com/grafana/grafana/pull/121996), [@santihernandezc](https://github.com/santihernandezc)\n- **Alerting:** Include error in Loki state history when exec_err_state is Alerting [#125775](https://github.com/grafana/grafana/pull/125775), [@imankurpatel000](https://github.com/imankurpatel000)\n- **Alerting:** Mark notification provisioning endpoints deprecated [#121995](https://github.com/grafana/grafana/pull/121995), [@titolins](https://github.com/titolins)\n- **Alerting:** Move filters to sidebar alerts activity [#121577](https://github.com/grafana/grafana/pull/121577), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Open new alert rule drawer from panel menu [#125712](https://github.com/grafana/grafana/pull/125712), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Preview notification routing in the alert instances table [#121699](https://github.com/grafana/grafana/pull/121699), [@ppcano](https://github.com/ppcano)\n- **Alerting:** Propagate plugin rule origin as X-Rule-Origin header [#125206](https://github.com/grafana/grafana/pull/125206), [@yuri-tceretian](https://github.com/yuri-tceretian)\n- **Alerting:** Remove alertRuleUseFiredAtForStartsAt feature toggle [#124677](https://github.com/grafana/grafana/pull/124677), [@fayzal-g](https://github.com/fayzal-g)\n- **Alerting:** Restrict email contact point recipients to org members [#123173](https://github.com/grafana/grafana/pull/123173), [@yuri-tceretian](https://github.com/yuri-tceretian)\n- **Alerting:** Set enrichment uid in url for enrichment view/edit drawer (Enterprise)\n- **Alerting:** Small improvements to instance drawer drilldown silence flow [#123429](https://github.com/grafana/grafana/pull/123429), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Alerting:** Support creating Grafana-managed rules without a group [#120228](https://github.com/grafana/grafana/pull/120228), [@moustafab](https://github.com/moustafab)\n- **Alerting:** Surface contact point save errors in the UI [#123211](https://github.com/grafana/grafana/pull/123211), [@konrad147](https://github.com/konrad147)\n- **Alerting:** Surface errors on contact point creation [#124339](https://github.com/grafana/grafana/pull/124339), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Surface save and bulk-delete errors to the user [#123690](https://github.com/grafana/grafana/pull/123690), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Use Rules API v2 in panel alert rule drawer [#125787](https://github.com/grafana/grafana/pull/125787), [@laurenashleigh](https://github.com/laurenashleigh)\n- **Annotations:** Clustering GA [#124173](https://github.com/grafana/grafana/pull/124173), [@gtk-grafana](https://github.com/gtk-grafana)\n- **Auth:** Support inline public keys for JWT authentication [#126184](https://github.com/grafana/grafana/pull/126184), [@cinaglia](https://github.com/cinaglia)\n- **Auth:** Use GrafanaComProxyAPIToken for managed plugin API requests (Enterprise)\n- **Auth:** Use dedicated token for requests to Grafana.com [#122269](https://github.com/grafana/grafana/pull/122269), [@s4kh](https://github.com/s4kh)\n- **Azure Monitor:** Pool gzip writers in Log Analytics deep-link encoder [#123555](https://github.com/grafana/grafana/pull/123555), [@adamyeats](https://github.com/adamyeats)\n- **Azure Monitor:** Refactor `fetchInitialRows` to improve async utilisation [#123278](https://github.com/grafana/grafana/pull/123278), [@adamyeats](https://github.com/adamyeats)\n- **Azure Monitor:** Stream-decode responses and typed structs for portal deep link [#123565](https://github.com/grafana/grafana/pull/123565), [@adamyeats](https://github.com/adamyeats)\n- **Browse Dashboards:** Change messaging of delete/move modal and add counts to tabs in folder detail [#124299](https://github.com/grafana/grafana/pull/124299), [@aocenas](https://github.com/aocenas)\n- **Browse Dashboards:** Refresh old parent folder on save dashboard [#125323](https://github.com/grafana/grafana/pull/125323), [@aocenas](https://github.com/aocenas)\n- **CloudWatch Logs:** Remove data links from results [#120348](https://github.com/grafana/grafana/pull/120348), [@iwysiu](https://github.com/iwysiu)\n- **Cloudwatch:** Add id to metric expression datalinks [#120526](https://github.com/grafana/grafana/pull/120526), [@iwysiu](https://github.com/iwysiu)\n- **Combobox:** Add isOpen and onIsOpenChangeHandler [#122992](https://github.com/grafana/grafana/pull/122992), [@L2D2Grafana](https://github.com/L2D2Grafana)\n- **ConvertFieldType:** Preserve null and empty string in string-to-number conversion [#120893](https://github.com/grafana/grafana/pull/120893), [@moktamd](https://github.com/moktamd)\n- **CsvExport:** Remove legacy CsvExportPage (Enterprise)\n- **Dashboard variables:** Improve accessibility [#120758](http"
             }
           ],
           "last_commit": {
-            "sha": "8756731",
-            "branch": "iortega/notebook-assistant-mutation",
-            "date": "2026-08-04T12:39:28Z",
-            "url": "https://github.com/grafana/grafana/commit/8756731cdce280bb3e3520ca6e5f6fde7d4df794"
+            "sha": "802828b",
+            "branch": "release-12.3.10",
+            "date": "2026-08-04T12:54:21Z",
+            "url": "https://github.com/grafana/grafana/commit/802828b1ed36dc6f71fa8088c281a47ad31c5e9e"
           }
         },
         {
@@ -5608,7 +5608,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65527,
+            "stars": 65528,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-04T12:33:58Z",
