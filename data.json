@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T22:03:46.278330Z",
+  "generated_at": "2026-08-04T22:09:05.475686Z",
   "groups": [
     {
       "id": "cores",
@@ -4485,7 +4485,7 @@
           "track": "commits",
           "meta": {
             "description": "Простой статуспейдж поверх xray-checker с расширенными функциями управления через Telegram бота",
-            "stars": 37,
+            "stars": 38,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
             "pushed_at": "2026-07-31T17:44:35Z",
@@ -5463,7 +5463,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24025,
+            "stars": 24026,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-04T18:12:45Z",
@@ -5534,7 +5534,7 @@
             "stars": 76054,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T22:03:49Z",
+            "pushed_at": "2026-08-04T22:07:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5587,10 +5587,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c3d64af",
-            "branch": "vector-upsert-strip-nul",
-            "date": "2026-08-04T21:43:39Z",
-            "url": "https://github.com/grafana/grafana/commit/c3d64af594bcbf9a145ac0804415faaece30dae3"
+            "sha": "6e31272",
+            "branch": "main",
+            "date": "2026-08-04T22:07:36Z",
+            "url": "https://github.com/grafana/grafana/commit/6e31272bad142e93e87093052d52cd993a1e1d45"
           }
         },
         {
@@ -5746,7 +5746,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T21:49:36Z",
+            "pushed_at": "2026-08-04T22:08:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5755,6 +5755,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "ebf2d43",
+                  "message": "дефолт compose — мажорный тег v1; CI публикует vX и vX.Y",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-04T22:08:13Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ebf2d434c4d919df3747ae7697295e2024eb38d0"
+                },
                 {
                   "sha": "458fadd",
                   "message": "доки и README к релизу 1.0.0",
@@ -5957,19 +5964,26 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-24T14:02:48Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5e9d9dedda9b52647004076a79782490387fa383"
-                },
-                {
-                  "sha": "fc4a328",
-                  "message": "chore(sec): безопасные фиксы gosec без изменения поведения",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-23T22:39:55Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/fc4a32876b8182c214140104a02c45a332a39327"
                 }
               ]
             },
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "54db9a5",
+                  "message": "релиз 1.0.1",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-04T22:08:28Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/54db9a56335b65c5e7a14df77c3646a809c2fc19"
+                },
+                {
+                  "sha": "ebf2d43",
+                  "message": "дефолт compose — мажорный тег v1; CI публикует vX и vX.Y",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-04T22:08:13Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ebf2d434c4d919df3747ae7697295e2024eb38d0"
+                },
                 {
                   "sha": "b8f5ba1",
                   "message": "релиз 1.0.0",
@@ -6165,20 +6179,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-24T14:19:32Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bf2667f48d55799c29ab8afc6236d98220d17758"
-                },
-                {
-                  "sha": "abbaa48",
-                  "message": "фикс(sec): пометить чтение кастомной статики как #nosec G304 (путь из конфига оператора)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-24T14:13:30Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/abbaa480fec02bbf62fa278a1322f23984904486"
-                },
-                {
-                  "sha": "779c3f4",
-                  "message": "фича: свой дизайн мини-аппа и кабинета — папка /custom поверх вшитой статики (CUSTOM_STATIC_DIR)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-24T14:02:49Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/779c3f4b8093baba4694864e9894a5e499fd220a"
                 }
               ]
             }
