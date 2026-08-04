@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T14:01:53.871314Z",
+  "generated_at": "2026-08-04T14:07:16.036697Z",
   "groups": [
     {
       "id": "cores",
@@ -4418,7 +4418,7 @@
           "track": "releases",
           "meta": {
             "description": "OpenWrt packages of https://github.com/bol-van/zapret",
-            "stars": 1346,
+            "stars": 1345,
             "url": "https://github.com/remittor/zapret-openwrt",
             "default_branch": "zap1",
             "pushed_at": "2026-04-22T17:19:51Z",
@@ -5472,7 +5472,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24012,
+            "stars": 24013,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-07-19T13:06:16Z",
@@ -5543,7 +5543,7 @@
             "stars": 76020,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T13:55:33Z",
+            "pushed_at": "2026-08-04T14:05:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5596,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eafd764",
-            "branch": "release/424/13.0.5",
-            "date": "2026-08-04T13:21:19Z",
-            "url": "https://github.com/grafana/grafana/commit/eafd764bc00ebbe8db9098f543dbec321ba9286e"
+            "sha": "26de6b3",
+            "branch": "bogdan/create-dashboard-assistant-new",
+            "date": "2026-08-04T13:50:26Z",
+            "url": "https://github.com/grafana/grafana/commit/26de6b3a1873e4237d14f5a8eead2f92ba28d1b9"
           }
         },
         {
@@ -5611,7 +5611,7 @@
             "stars": 65527,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T13:39:43Z",
+            "pushed_at": "2026-08-04T14:02:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5755,7 +5755,7 @@
             "stars": 14,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-02T14:28:12Z",
+            "pushed_at": "2026-08-04T14:07:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5764,6 +5764,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "354a247",
+                  "message": "поддержка CADDY_AUTH_API_TOKEN и экран «Доступ к панели»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-04T14:06:55Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/354a24736cec132551b055b91c93b5c2a8f77f3d"
+                },
                 {
                   "sha": "9dd691c",
                   "message": "чистка: #nosec G202 для новых запросов autopay/invites — тот же ложный паттерн на плейсхолдеры b.ph (алерты №104, №105)",
@@ -5966,13 +5973,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-23T01:25:33Z",
                   "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/50efd933142bbf0706999fa9ecf93a1511ca67c4"
-                },
-                {
-                  "sha": "34fb4d7",
-                  "message": "fix: антидубль финализации платежа, подпись вебхука cryptobot и хардненинг",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-23T01:25:33Z",
-                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/34fb4d7e737e6cf4fb4b62c1a9a778d8026a72f4"
                 }
               ]
             },
