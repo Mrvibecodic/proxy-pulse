@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T01:31:57.194307Z",
+  "generated_at": "2026-08-04T01:37:16.375963Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36698,
+            "stars": 36699,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-03T12:16:19Z",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "70b3f99",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-04T00:37:59Z",
             "url": "https://github.com/openwrt/openwrt/commit/70b3f992b81462f5cc5ba24ca41aaadd0186e1a4"
           }
@@ -891,7 +891,7 @@
             "stars": 4568,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-03T19:09:51Z",
+            "pushed_at": "2026-08-04T01:33:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fbac2e7",
+                  "message": "cryptsetup: update to 2.8.7",
+                  "author": "Rosen Penev",
+                  "date": "2026-08-04T01:33:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/fbac2e7861fb30661eef52a45223bb3a3a0d6d17"
+                },
+                {
                   "sha": "ad58a29",
                   "message": "ci: bump lewagon/wait-on-check-action from 1.8.1 to 1.9.0",
                   "author": "dependabot[bot]",
@@ -1962,13 +1969,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-31T09:50:45Z",
                   "url": "https://github.com/openwrt/packages/commit/355665cfb5246a4a0e437bc367cb8c0cf7d20688"
-                },
-                {
-                  "sha": "ec54972",
-                  "message": "zabbix: tweak server initscript and bring agentd to parity",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-31T09:50:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec5497292452db0cfb0205fca16c6460607b5433"
                 }
               ]
             },
@@ -6790,7 +6790,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6841,
+            "stars": 6842,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-04T01:29:48Z",
