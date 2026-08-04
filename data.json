@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T13:03:10.353456Z",
+  "generated_at": "2026-08-04T13:08:29.488184Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4571,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-04T12:12:35Z",
+            "pushed_at": "2026-08-04T13:05:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "37cd414",
+                  "message": "ovpn-dco: fix build on 6.18.40",
+                  "author": "Qingfang Deng",
+                  "date": "2026-08-04T13:05:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/37cd414b63fe019952b5f1c057ad3018f50a5bd1"
+                },
+                {
                   "sha": "c4f3f8d",
                   "message": "cligen: fix depends",
                   "author": "Andy Chiang",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-31T09:52:31Z",
                   "url": "https://github.com/openwrt/packages/commit/45049610637fb2241d1338f62f475b5b81ce7fd1"
-                },
-                {
-                  "sha": "66b8c2c",
-                  "message": "transmission: update to version 4.1.3",
-                  "author": "Richard Muzik",
-                  "date": "2026-07-31T09:52:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/66b8c2c9488cc8cf53dd370621acdfc830170cc5"
                 }
               ]
             },
@@ -5543,7 +5543,7 @@
             "stars": 76017,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T13:03:12Z",
+            "pushed_at": "2026-08-04T13:08:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5596,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9e67d98",
-            "branch": "jackw/rspack-custom-plugins",
-            "date": "2026-08-04T12:57:59Z",
-            "url": "https://github.com/grafana/grafana/commit/9e67d98e519a7a27215261beb9e937a9dbb63bed"
+            "sha": "28f41ed",
+            "branch": "renovate/rc-component-drawer-1.x-lockfile",
+            "date": "2026-08-04T13:04:12Z",
+            "url": "https://github.com/grafana/grafana/commit/28f41ed97dfaeb137c730268ffcc80cb63490436"
           }
         },
         {
@@ -5732,10 +5732,10 @@
             }
           ],
           "last_commit": {
-            "sha": "22edc6a",
+            "sha": "70adaa2",
             "branch": "master",
-            "date": "2026-08-04T11:57:00Z",
-            "url": "https://github.com/netdata/netdata/commit/22edc6a75045c363c7d9f59a91e1238009ae685e"
+            "date": "2026-08-04T13:01:20Z",
+            "url": "https://github.com/netdata/netdata/commit/70adaa2c6390794b605b02fea88875759d165dd4"
           }
         }
       ]
