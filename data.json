@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T15:54:11.378684Z",
+  "generated_at": "2026-08-04T15:59:31.890177Z",
   "groups": [
     {
       "id": "cores",
@@ -149,10 +149,10 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32925,
+            "stars": 32926,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T15:18:10Z",
+            "pushed_at": "2026-08-04T15:56:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Tue Aug  4 22:17:48 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
+              "body": "Release created at  Tue Aug  4 23:56:21 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "09b0ff3",
+            "sha": "d46944f",
             "branch": "Alpha",
-            "date": "2026-08-04T13:39:55Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/09b0ff3c52eb172d70bb8f0667bd4d7f80167997"
+            "date": "2026-08-04T15:18:11Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/d46944f32bfef1e362edb068e10073da9beab509"
           }
         }
       ]
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 859,
+            "stars": 860,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-04T02:39:44Z",
@@ -3621,7 +3621,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 15958,
+            "stars": 15959,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -5336,7 +5336,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 871,
+            "stars": 872,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-07-25T22:08:29Z",
@@ -5543,7 +5543,7 @@
             "stars": 76024,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T15:50:56Z",
+            "pushed_at": "2026-08-04T15:59:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5596,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9deed9a",
-            "branch": "nathanmarrs/playlist-item-options-frontend",
-            "date": "2026-08-04T15:15:54Z",
-            "url": "https://github.com/grafana/grafana/commit/9deed9a03d309ce5c66d269432b7af90cea92eb5"
+            "sha": "789cf92",
+            "branch": "nathanmarrs/playlist-item-options",
+            "date": "2026-08-04T15:58:37Z",
+            "url": "https://github.com/grafana/grafana/commit/789cf92504eba37c41c4d970221f39848ca6f64d"
           }
         },
         {
@@ -6793,7 +6793,7 @@
             "stars": 6848,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T15:52:35Z",
+            "pushed_at": "2026-08-04T15:58:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
