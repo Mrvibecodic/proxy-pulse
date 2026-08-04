@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T05:30:55.899066Z",
+  "generated_at": "2026-08-04T05:36:15.852980Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40856,
+            "stars": 40857,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-03T00:13:55Z",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4728,
+            "stars": 4729,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-04T02:27:09Z",
@@ -891,7 +891,7 @@
             "stars": 4569,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-04T01:33:27Z",
+            "pushed_at": "2026-08-04T05:33:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c4f3f8d",
+                  "message": "cligen: fix depends",
+                  "author": "Andy Chiang",
+                  "date": "2026-08-04T05:33:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/c4f3f8d0922a05d0e052c8835e05667a43be4160"
+                },
+                {
                   "sha": "fbac2e7",
                   "message": "cryptsetup: update to 2.8.7",
                   "author": "Rosen Penev",
@@ -1962,13 +1969,6 @@
                   "author": "Richard Muzik",
                   "date": "2026-07-31T09:52:18Z",
                   "url": "https://github.com/openwrt/packages/commit/66b8c2c9488cc8cf53dd370621acdfc830170cc5"
-                },
-                {
-                  "sha": "355665c",
-                  "message": "zabbix: bring proxy to parity with server and agentd",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-31T09:50:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/355665cfb5246a4a0e437bc367cb8c0cf7d20688"
                 }
               ]
             },
@@ -3553,7 +3553,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 403,
+            "stars": 404,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -5543,7 +5543,7 @@
             "stars": 76044,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T05:27:17Z",
+            "pushed_at": "2026-08-04T05:31:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5596,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7475adb",
-            "branch": "changelog/update-changelog-2026-08-04",
-            "date": "2026-08-04T05:26:13Z",
-            "url": "https://github.com/grafana/grafana/commit/7475adbef93cf4204be7554cf6118b50d75081f6"
+            "sha": "e216611",
+            "branch": "release/420/13.0.5",
+            "date": "2026-08-04T05:31:03Z",
+            "url": "https://github.com/grafana/grafana/commit/e2166115c01eb5070001ade49fb78965178cc4a5"
           }
         },
         {
