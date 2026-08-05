@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:59:24.680917Z",
+  "generated_at": "2026-08-05T19:04:40.661431Z",
   "groups": [
     {
       "id": "cores",
@@ -4747,7 +4747,7 @@
             "stars": 76108,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T18:58:34Z",
+            "pushed_at": "2026-08-05T19:04:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9eefbaa",
-            "branch": "main",
-            "date": "2026-08-05T18:50:59Z",
-            "url": "https://github.com/grafana/grafana/commit/9eefbaacfe3675d4c471385254002defac5fb0fa"
+            "sha": "fe6346a",
+            "branch": "nicwestvold/gra-1861",
+            "date": "2026-08-05T19:03:59Z",
+            "url": "https://github.com/grafana/grafana/commit/fe6346a5d17c4a3c530603d35e1bfdb8994a28fe"
           }
         },
         {
@@ -5017,7 +5017,7 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-04T10:57:31Z",
+            "pushed_at": "2026-08-05T19:01:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5026,6 +5026,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "1102775",
+                  "message": "fix(grace): старт грейса только на user.expired — убрана петля перевыдачи после конца грейса",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T18:59:06Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1102775602685c2c64da05244c51e9c61233f944"
+                },
                 {
                   "sha": "1e57293",
                   "message": "fix(admin): автозаполнение логина в менеджерах паролей",
@@ -5228,13 +5235,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-07T18:44:11Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4fca2a132c7c12eee398bd11d8030abb4108337f"
-                },
-                {
-                  "sha": "423576f",
-                  "message": "chore(ci): обновление GitHub Actions на Node 24 (checkout@v5, docker/*@v4/v6/v7)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T21:03:27Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/423576fb75638873370997fa0962a308fdfbe4c7"
                 }
               ]
             },
