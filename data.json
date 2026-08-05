@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:31:32.814393Z",
+  "generated_at": "2026-08-05T16:36:49.878647Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4573,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-05T16:27:31Z",
+            "pushed_at": "2026-08-05T16:36:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "9466674",
+                  "message": "adblock: report the last run timestamp as ISO 8601",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-05T16:27:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/9466674e50adac150b05cb7ea681e5fc5b48babd"
+                },
+                {
                   "sha": "cd7ba48",
                   "message": "node: bump to 22.23.2",
                   "author": "Hirokazu MORIKAWA",
@@ -3467,13 +3474,6 @@
                   "author": "Dharmik Parmar",
                   "date": "2026-07-21T07:32:48Z",
                   "url": "https://github.com/openwrt/packages/commit/320310783f01add9819dcecd71289ff5c5c4a602"
-                },
-                {
-                  "sha": "c5a67ea",
-                  "message": "watchcat: resolve logical interface names",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-07-21T07:32:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5a67ea9bb2231c4ce1cb724de7d1e63e4c4d9fb"
                 }
               ]
             }
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89853,
+            "stars": 89855,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-05T00:22:19Z",
@@ -4744,10 +4744,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76105,
+            "stars": 76107,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T16:27:26Z",
+            "pushed_at": "2026-08-05T16:36:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fa93725",
+            "sha": "88a7d9b",
             "branch": "main",
-            "date": "2026-08-05T16:26:35Z",
-            "url": "https://github.com/grafana/grafana/commit/fa9372561c6574158e8ce7f96f51a1314d4dd948"
+            "date": "2026-08-05T16:06:06Z",
+            "url": "https://github.com/grafana/grafana/commit/88a7d9bc461c69b10850502062829d53fd545443"
           }
         },
         {
