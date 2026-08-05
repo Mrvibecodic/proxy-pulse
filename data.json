@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T02:48:50.324019Z",
+  "generated_at": "2026-08-05T02:59:15.967883Z",
   "groups": [
     {
       "id": "cores",
@@ -84,21 +84,12 @@
             "stars": 36723,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-05T02:19:56Z",
+            "pushed_at": "2026-08-05T02:59:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
-            {
-              "name": "1.14.0-beta.6",
-              "tag": "v1.14.0-beta.6",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.6",
-              "published_at": "2026-08-05T02:20:00Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot).\n"
-            },
             {
               "name": "1.14.0-beta.5",
               "tag": "v1.14.0-beta.5",
@@ -132,6 +123,15 @@
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.3",
               "published_at": "2026-07-29T12:11:43Z",
               "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
+            {
+              "name": "1.13.15",
+              "tag": "v1.13.15",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.15",
+              "published_at": "2026-07-29T12:11:41Z",
+              "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 866,
+            "stars": 867,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-04T23:17:20Z",
