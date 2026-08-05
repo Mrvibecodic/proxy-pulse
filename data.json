@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:26:15.856213Z",
+  "generated_at": "2026-08-05T16:31:32.814393Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4573,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-04T13:09:47Z",
+            "pushed_at": "2026-08-05T16:27:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ec4ca5c",
+                  "message": "adblock: report the last run timestamp as ISO 8601",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-05T16:27:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec4ca5c917337e15a055d0550b6d409fedde033b"
+                },
+                {
                   "sha": "5c6578a",
                   "message": "strongswan: swanctl.init: remove invalid privkeys option",
                   "author": "Florian Eckert",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-31T09:52:43Z",
                   "url": "https://github.com/openwrt/packages/commit/c34c055b285a42730c2cd5da6a3ba2208e2373be"
-                },
-                {
-                  "sha": "fc921fc",
-                  "message": "less: update to 704",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T09:52:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc921fc0b2fcac912890330f02bf4d3376d0ac0a"
                 }
               ]
             },
@@ -4747,7 +4747,7 @@
             "stars": 76105,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T16:26:08Z",
+            "pushed_at": "2026-08-05T16:27:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fbed722",
-            "branch": "ash/visual-refresh-drawer",
-            "date": "2026-08-05T16:21:23Z",
-            "url": "https://github.com/grafana/grafana/commit/fbed722a87dde6a36bc1dcb7e6a900184db7f4b3"
+            "sha": "fa93725",
+            "branch": "main",
+            "date": "2026-08-05T16:26:35Z",
+            "url": "https://github.com/grafana/grafana/commit/fa9372561c6574158e8ce7f96f51a1314d4dd948"
           }
         },
         {
