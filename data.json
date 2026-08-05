@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:37:42.436592Z",
+  "generated_at": "2026-08-05T10:42:57.796659Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 32942,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T10:02:13Z",
+            "pushed_at": "2026-08-05T10:38:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Wed Aug  5 11:23:56 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n* fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion by @eivgogo in https://github.com/MetaCubeX/mihomo/pull/3079\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n* @eivgogo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3079\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
+              "body": "Release created at  Wed Aug  5 18:38:26 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n* fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion by @eivgogo in https://github.com/MetaCubeX/mihomo/pull/3079\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n* @eivgogo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3079\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -4508,7 +4508,7 @@
           "track": "releases",
           "meta": {
             "description": "Простой статуспейдж поверх xray-checker с расширенными функциями управления через Telegram бота",
-            "stars": 38,
+            "stars": 39,
             "url": "https://github.com/Mrvibecodic/xray-checker-statuspage",
             "default_branch": "go-build",
             "pushed_at": "2026-07-31T17:44:35Z",
@@ -4540,7 +4540,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 873,
+            "stars": 874,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-07-25T22:08:29Z",
@@ -4747,7 +4747,7 @@
             "stars": 76067,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T10:34:07Z",
+            "pushed_at": "2026-08-05T10:39:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9c3804d",
-            "branch": "ash/remove-react19-flag",
-            "date": "2026-08-05T10:12:01Z",
-            "url": "https://github.com/grafana/grafana/commit/9c3804d56d569fc2ff1c5a37dc750992c91b0938"
+            "sha": "4aca849",
+            "branch": "main",
+            "date": "2026-08-05T09:41:21Z",
+            "url": "https://github.com/grafana/grafana/commit/4aca84950eafb38bc0508349f3c5aad47a888feb"
           }
         },
         {
@@ -4936,10 +4936,10 @@
             }
           ],
           "last_commit": {
-            "sha": "07a49b6",
-            "branch": "docs/netdata-cloud-node-removal-not-allowed-in-room",
-            "date": "2026-08-05T10:32:04Z",
-            "url": "https://github.com/netdata/netdata/commit/07a49b60f1773a9b497280cbab5c789ca83293b5"
+            "sha": "6fd5780",
+            "branch": "docs/windows-apps-groups-conf-process-matching",
+            "date": "2026-08-05T10:06:10Z",
+            "url": "https://github.com/netdata/netdata/commit/6fd57807ae26ecfa28397c460bcb05bd036b530c"
           }
         }
       ]
@@ -5452,7 +5452,7 @@
           "track": "releases",
           "meta": {
             "description": "Self-hosted панель учёта расходов на инфраструктуру: автосинк серверов, балансов и платежей через API хостеров. Мультивалютность, прогнозы, Telegram-уведомления.",
-            "stars": 56,
+            "stars": 57,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
             "pushed_at": "2026-08-02T09:49:15Z",
@@ -5520,7 +5520,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3186,
+            "stars": 3187,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-08-05T10:32:16Z",
@@ -5576,10 +5576,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5378c1d",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-08-05T10:32:16Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/5378c1d3366aa4ea01dcc7f2f76b38c5fdf5a8be"
+            "sha": "a216d96",
+            "branch": "gh-pages-no-fonts",
+            "date": "2026-08-05T09:58:39Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/a216d96baa43468a3b21b4000ea42573583ed54b"
           }
         },
         {
