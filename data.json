@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T13:10:38.684614Z",
+  "generated_at": "2026-08-05T13:15:54.963024Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40888,
+            "stars": 40889,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-03T00:13:55Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36737,
+            "stars": 36736,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-05T10:33:42Z",
@@ -676,7 +676,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6643,
+            "stars": 6644,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-05T09:51:30Z",
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89848,
+            "stars": 89849,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-05T00:22:19Z",
@@ -4747,7 +4747,7 @@
             "stars": 76095,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T13:09:01Z",
+            "pushed_at": "2026-08-05T13:14:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0754ce7",
+            "sha": "eade7fe",
             "branch": "main",
-            "date": "2026-08-05T13:09:00Z",
-            "url": "https://github.com/grafana/grafana/commit/0754ce750b4eda54daacf2bcfab1ea2fec3cb220"
+            "date": "2026-08-05T13:08:51Z",
+            "url": "https://github.com/grafana/grafana/commit/eade7fe72e2bf7c18f257ad20e28d4e22f621d00"
           }
         },
         {
@@ -4966,6 +4966,15 @@
           },
           "releases": [
             {
+              "name": "1.0.2",
+              "tag": "v1.0.2",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.0.2",
+              "published_at": "2026-08-05T13:10:57Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Исправления по итогам сверки всех платёжек с официальными API:\n\n- Чеки «Мой налог» теперь формируются только по платежам ЮKassa.\n- Heleket: исправлено зависание бота при вводе валюты конвертации в админке; в журнале — фактически оплаченная сумма; валидация Return URL.\n- Tribute: полугодовой тариф выдаёт 6 месяцев (было 12); валютные платежи (EUR/USD) больше не считаются рублями в рефералке и статистике.\n- Platega: актуальный код карточного эквайринга (11), проверка подлинности колбэка, обработка chargeback с уведомлением админа.\n- CryptoBot: валюта счёта из прайса, понятные тексты ошибок API, потерянное пополнение зовёт админа вместо тихой потери.\n- ЮKassa: обработка отменённых платежей с причиной, защита от двойного автосписания, строгая валидация цены.\n- Stars: обработка возвратов звёзд, повторная доставка оплаты больше не пугает пользователя, оплата не блокирует другие платежи.\n- МойНалог: чек по московскому времени, повторы при сбоях, подробные ошибки ФНС в журнале."
+            },
+            {
               "name": "1.0.1",
               "tag": "v1.0.1",
               "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.0.1",
@@ -4985,10 +4994,10 @@
             }
           ],
           "last_commit": {
-            "sha": "71278c1",
-            "branch": "dev",
-            "date": "2026-08-05T01:30:18Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/71278c116cd0a5b587dbae270c904390e44703bd"
+            "sha": "2c898c8",
+            "branch": "main",
+            "date": "2026-08-05T13:10:40Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/2c898c835650e62a5d096eed782e5cc0dd6b4807"
           }
         }
       ]
