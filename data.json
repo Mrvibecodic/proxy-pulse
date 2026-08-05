@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:25:44.982968Z",
+  "generated_at": "2026-08-05T19:31:00.593249Z",
   "groups": [
     {
       "id": "cores",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4742,
+            "stars": 4741,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-04T02:27:09Z",
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89861,
+            "stars": 89862,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-05T00:22:19Z",
@@ -4676,7 +4676,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24050,
+            "stars": 24051,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-04T18:12:45Z",
@@ -4747,7 +4747,7 @@
             "stars": 76108,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T19:25:35Z",
+            "pushed_at": "2026-08-05T19:29:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "18e0990",
+            "sha": "836614c",
             "branch": "main",
-            "date": "2026-08-05T18:10:53Z",
-            "url": "https://github.com/grafana/grafana/commit/18e099098e412f1c052a62369656c98475e60db1"
+            "date": "2026-08-05T19:29:19Z",
+            "url": "https://github.com/grafana/grafana/commit/836614c8a8a3cdf4e6748ac893dadce7c2edff9d"
           }
         },
         {
@@ -5017,7 +5017,7 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-05T19:15:53Z",
+            "pushed_at": "2026-08-05T19:27:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5026,6 +5026,13 @@
             {
               "name": "dev",
               "commits": [
+                {
+                  "sha": "5722756",
+                  "message": "chore(release): стабильный тег v1 по умолчанию для Docker-установки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:24:27Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5722756413eca7c56f8d6635e18a3c55d12be37c"
+                },
                 {
                   "sha": "dc1c0d4",
                   "message": "feat(whlog): фильтр юзер-лога вебхуков по имени и shortUuid",
@@ -5228,19 +5235,110 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-09T19:45:21Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/54b8a384b21a529fa36a82af9b2ddd204c0b4818"
-                },
-                {
-                  "sha": "bcdc5b7",
-                  "message": "chore(ci): actions/checkout v5 -\u003e v6",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T22:40:27Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bcdc5b77598dc0fe4dc8411f2313276134b4b9d6"
                 }
               ]
             },
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "2b31797",
+                  "message": "chore(release): стабильный тег v1 по умолчанию для Docker-установки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:24:27Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/2b3179714de93ae268b46bb7eef1706c91c14c47"
+                },
+                {
+                  "sha": "bfcf628",
+                  "message": "feat(whlog): фильтр юзер-лога вебхуков по имени и shortUuid",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bfcf62855061f2f167328e388acd8b3b10c5234c"
+                },
+                {
+                  "sha": "5f9d872",
+                  "message": "fix(grace): старт грейса только на user.expired — убрана петля перевыдачи после конца грейса",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5f9d8722ba027f907abe5029b1e069f55357d55c"
+                },
+                {
+                  "sha": "625026d",
+                  "message": "fix(admin): автозаполнение логина в менеджерах паролей",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/625026d5073006848cb74a345c9b9c5677fa1d4a"
+                },
+                {
+                  "sha": "6ab0ff1",
+                  "message": "fix(hwid,grace): чистка кэша устройств по shortUuid, честные ошибки пересчёта",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/6ab0ff1dd089344636e2d15adecb29dc70353e6c"
+                },
+                {
+                  "sha": "59ce827",
+                  "message": "ui(webhooks): убрать блок «Вернуться в Брендинг»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/59ce82747dba7da0e68fb4a476f09edd316b4f52"
+                },
+                {
+                  "sha": "e6d2041",
+                  "message": "feat(api): конфигурация панели из /api/system/configuration (3.2.0+)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e6d2041d6bae3074d1c55928928f7fef4ed5a10c"
+                },
+                {
+                  "sha": "5f1fc40",
+                  "message": "fix(grace): не слать просроченный expireAt при возврате из грейса",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5f1fc40188817b107cd5cce94b67f0094329bbee"
+                },
+                {
+                  "sha": "dfc7fa4",
+                  "message": "fix(hwid,grace): индекс по hwid, удаление всех устройств, сходимость пересчёта",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/dfc7fa4fa02fd39f22ab90823d2e631326936b7e"
+                },
+                {
+                  "sha": "5cadfcb",
+                  "message": "docs: совместимость с Remnawave 2.7.4+ и 3.x, сжатие на стороне прокси",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5cadfcb79b8e91b5f01296cb6085ec3f0e3bf185"
+                },
+                {
+                  "sha": "9bf4bb9",
+                  "message": "feat(admin): бейдж версии панели, кнопка обновления идентификаторов, HWID на новом id",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9bf4bb97034f830a21116a7fa5c4f3919eee1871"
+                },
+                {
+                  "sha": "ab0c6c6",
+                  "message": "fix(hwid): вебхук и пул устройств под панель 3.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ab0c6c601b1cae119162c0169263c5b304a98c10"
+                },
+                {
+                  "sha": "0f8b812",
+                  "message": "fix(grace): работа с панелью 3.0 и миграция сохранённых идентификаторов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/0f8b8124d993b0e05b933836626e09ccc2070f90"
+                },
+                {
+                  "sha": "1b2e32b",
+                  "message": "feat(api): идентификатор пользователя — uuid (2.x) или числовой id (3.x)",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-05T19:22:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1b2e32beaf6e3ca92ee46a0c0d5986631c26a86c"
+                },
                 {
                   "sha": "580db76",
                   "message": "fix(addsub): не пробрасывать условные заголовки, когда тело подписки модифицируется",
@@ -5352,104 +5450,6 @@
                   "author": "Mrvibecodic",
                   "date": "2026-07-10T22:59:21Z",
                   "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/b7e10aa7204c00c49e8d61355d592383d3982285"
-                },
-                {
-                  "sha": "16a0b64",
-                  "message": "feat(connection): тумблер формата ссылки /api/sub, скрыты старые тумблеры",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-10T21:32:51Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/16a0b6407c9d30117e3084f9850b987b6769c783"
-                },
-                {
-                  "sha": "d080b85",
-                  "message": "ui(connection): подробности про TLS-проверку вынесены в справку «?»",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-09T19:52:23Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/d080b854f4495f6bccc651d3893ddf458f1fb4b0"
-                },
-                {
-                  "sha": "54b8a38",
-                  "message": "ui(connection): группировка и скрытие полей subpage по режиму",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-09T19:45:21Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/54b8a384b21a529fa36a82af9b2ddd204c0b4818"
-                },
-                {
-                  "sha": "bcdc5b7",
-                  "message": "chore(ci): actions/checkout v5 -\u003e v6",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-08T22:40:27Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bcdc5b77598dc0fe4dc8411f2313276134b4b9d6"
-                },
-                {
-                  "sha": "4fca2a1",
-                  "message": "fix(admin): снимать класс lp при старте LogPager, чтобы показывались страницы 2+ в лог-таблицах",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-07T18:44:11Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4fca2a132c7c12eee398bd11d8030abb4108337f"
-                },
-                {
-                  "sha": "423576f",
-                  "message": "chore(ci): обновление GitHub Actions на Node 24 (checkout@v5, docker/*@v4/v6/v7)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T21:03:27Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/423576fb75638873370997fa0962a308fdfbe4c7"
-                },
-                {
-                  "sha": "8943c85",
-                  "message": "ui(connection): скрывать выбор ключей HWID до включения парсинга из User-Agent",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T20:59:10Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8943c85ca543f70867134964f16c518dc7d0d40b"
-                },
-                {
-                  "sha": "1697a64",
-                  "message": "ui(connection): точнее описание тумблера страницы в режиме «Зеркало»",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T20:52:08Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1697a645c4f01ef26eeec359e484026b8f6f5255"
-                },
-                {
-                  "sha": "82a4ec2",
-                  "message": "feat(subpage): опциональная отдача страницы подписки в режиме «Зеркало»",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-06T20:36:30Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/82a4ec203fc59bbfce9a9847b6cf79c82b662fdd"
-                },
-                {
-                  "sha": "191bacf",
-                  "message": "feat(proxy): опциональный приём ссылок /api/sub/\u003cshortUuid\u003e",
-                  "author": "Mrvibecodic",
-                  "date": "2026-07-05T14:45:29Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/191bacf110e1ea2434e566e91424ea792fbf1be2"
-                },
-                {
-                  "sha": "f6abd04",
-                  "message": "fix(hwid): сайзинг пулов по userId и чтение вложенного payload user_hwid_devices (панель v2.8.x)",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-29T17:20:54Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f6abd04033962c126dc8bf9d8712142f7441f56b"
-                },
-                {
-                  "sha": "1354104",
-                  "message": "fix(admin): резерв высоты лог-таблиц до JS — без скачка при пагинации",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-27T11:55:09Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/135410457082e795bc07b86ef1fafc4b94ff0236"
-                },
-                {
-                  "sha": "80b1568",
-                  "message": "ui(admin): упрощение текстов подсказок — справка и .hint",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-27T00:12:07Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/80b15688502d25bf9587574fb9d220d8adb1ab45"
-                },
-                {
-                  "sha": "5652430",
-                  "message": "docs(readme): переработка — быстрый старт, упрощение, актуализация",
-                  "author": "Mrvibecodic",
-                  "date": "2026-06-26T23:50:02Z",
-                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5652430ecb7d829049174e2a7c0f2d46089b8e1f"
                 }
               ]
             }
