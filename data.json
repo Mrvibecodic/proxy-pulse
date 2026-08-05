@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:30:50.952443Z",
+  "generated_at": "2026-08-05T03:36:05.925367Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40875,
+            "stars": 40876,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-03T00:13:55Z",
@@ -84,12 +84,21 @@
             "stars": 36724,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-05T03:04:38Z",
+            "pushed_at": "2026-08-05T03:33:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.7",
+              "tag": "v1.14.0-beta.7",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.7",
+              "published_at": "2026-08-05T03:33:51Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot)."
+            },
             {
               "name": "1.14.0-beta.5",
               "tag": "v1.14.0-beta.5",
@@ -125,22 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.13.15",
-              "tag": "v1.13.15",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.15",
-              "published_at": "2026-07-29T12:11:41Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
-            "sha": "3001f03",
-            "branch": "testing",
-            "date": "2026-08-05T03:04:38Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/3001f038a2198673c0733e0c5fd19d5e3db4fad6"
+            "sha": "33ea1fe",
+            "branch": "docs",
+            "date": "2026-08-05T03:33:00Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/33ea1fed3dd90d87fc103ff20e769b306af4d981"
           }
         },
         {
