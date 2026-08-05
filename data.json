@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T02:17:11.768159Z",
+  "generated_at": "2026-08-05T02:22:25.798558Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 36722,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-05T00:30:07Z",
+            "pushed_at": "2026-08-05T02:19:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.6",
+              "tag": "v1.14.0-beta.6",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.6",
+              "published_at": "2026-08-05T02:20:00Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot).\n"
+            },
             {
               "name": "1.14.0-beta.5",
               "tag": "v1.14.0-beta.5",
@@ -125,22 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.13.15",
-              "tag": "v1.13.15",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.15",
-              "published_at": "2026-07-29T12:11:41Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
-            "sha": "b9dd081",
-            "branch": "testing",
-            "date": "2026-08-05T00:30:08Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/b9dd081cbb1e0889835259f6cc7f32d30ab9de46"
+            "sha": "07aec36",
+            "branch": "docs",
+            "date": "2026-08-05T02:19:04Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/07aec360f3e7f189dc3fdf8239432252455a4044"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 32934,
+            "stars": 32933,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-05T02:02:34Z",
