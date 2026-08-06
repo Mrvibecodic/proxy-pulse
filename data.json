@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T19:26:50.750384Z",
+  "generated_at": "2026-08-06T19:32:04.927848Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-06T14:01:17Z",
+            "pushed_at": "2026-08-06T19:28:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "23e2f53",
+                  "message": "banip: report the last run timestamp as ISO 8601",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-06T19:26:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/23e2f530fe990b03e5d87bad9a499914caef92ad"
+                },
+                {
                   "sha": "28da48b",
                   "message": "travelmate: release 2.4.7-1",
                   "author": "Dirk Brenken",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-31T11:15:38Z",
                   "url": "https://github.com/openwrt/packages/commit/418ba9a99f0ab32265069810e646581a40dd62a6"
-                },
-                {
-                  "sha": "e4e2f07",
-                  "message": "dnscrypt-proxy2: update to 2.1.18",
-                  "author": "Paul Lipps",
-                  "date": "2026-07-31T11:14:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/e4e2f07d601f6f43cbf99e6e9dbee0e3edf3ac19"
                 }
               ]
             },
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "da0b583",
+                  "message": "banip: report the last run timestamp as ISO 8601",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-06T19:28:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/da0b5834163a1855839f6d99d598724a42318827"
+                },
+                {
                   "sha": "277ad30",
                   "message": "travelmate: release 2.4.7-1",
                   "author": "Dirk Brenken",
@@ -3467,13 +3474,6 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-07-21T22:45:58Z",
                   "url": "https://github.com/openwrt/packages/commit/f36e3e98df4472c65e1e53c87a92894af0ac58ce"
-                },
-                {
-                  "sha": "e84caf6",
-                  "message": "telegraf: update to 1.39.2",
-                  "author": "Niklas Thorild",
-                  "date": "2026-07-21T15:04:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/e84caf60033751ad7881aeda992391fdfe4b39d2"
                 }
               ]
             }
@@ -4747,7 +4747,7 @@
             "stars": 76131,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-06T19:23:54Z",
+            "pushed_at": "2026-08-06T19:30:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "df8d2fa",
-            "branch": "MattIPv4/home-header-actions",
-            "date": "2026-08-06T17:28:25Z",
-            "url": "https://github.com/grafana/grafana/commit/df8d2fa2da56875ce91b65cca2f99aa9c3e537af"
+            "sha": "de38679",
+            "branch": "ihoryeromin/query-editor-remember-stacked-view",
+            "date": "2026-08-06T19:04:24Z",
+            "url": "https://github.com/grafana/grafana/commit/de38679b9c273da63e52f323705783821747d07f"
           }
         },
         {
