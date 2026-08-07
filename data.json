@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:31:04.879472Z",
+  "generated_at": "2026-08-07T10:36:18.615698Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33009,
+            "stars": 33010,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-07T08:06:06Z",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T08:42:26Z",
+            "pushed_at": "2026-08-07T10:34:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6b5954e",
+                  "message": "sudo: create sudo group",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T10:34:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b5954ef81534f775510a03ef2b529df4f634e42"
+                },
+                {
                   "sha": "ca04783",
                   "message": "erlang: remove quiet mode from grep in test version checks",
                   "author": "Josef Schlehofer",
@@ -1962,13 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/b0c5835445ff3cf471179f2bf4df1e6ab1ce8932"
-                },
-                {
-                  "sha": "d43fa0c",
-                  "message": "strongswan: rename 'gateway' to 'remote_gateway'",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/d43fa0cbd49796ecc53fd7f606ba3bf84dc39164"
                 }
               ]
             },
@@ -4744,7 +4744,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76145,
+            "stars": 76146,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-07T09:52:45Z",
