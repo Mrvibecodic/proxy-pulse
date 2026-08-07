@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:04:17.084704Z",
+  "generated_at": "2026-08-07T08:09:31.573684Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 33008,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T07:31:21Z",
+            "pushed_at": "2026-08-07T08:06:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Fri Aug  7 15:05:31 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n* fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion by @eivgogo in https://github.com/MetaCubeX/mihomo/pull/3079\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n* @eivgogo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3079\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
+              "body": "Release created at  Fri Aug  7 16:06:05 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n* fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion by @eivgogo in https://github.com/MetaCubeX/mihomo/pull/3079\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n* @eivgogo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3079\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "97cbdc5",
+            "sha": "1af24e9",
             "branch": "Alpha",
-            "date": "2026-08-07T06:27:38Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/97cbdc52d404fbceaeffd84edad831cd1ac4a91f"
+            "date": "2026-08-07T07:31:22Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/1af24e989c157dd506f0456b859e5bb5f3166bc1"
           }
         }
       ]
@@ -499,7 +499,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1288,
+            "stars": 1289,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-07-21T22:36:40Z",
@@ -4676,7 +4676,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24092,
+            "stars": 24093,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-06T22:31:28Z",
@@ -4747,7 +4747,7 @@
             "stars": 76141,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T07:49:11Z",
+            "pushed_at": "2026-08-07T08:06:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4812,7 +4812,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65609,
+            "stars": 65610,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-07T06:42:30Z",
@@ -5238,10 +5238,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bfc35fb",
-            "branch": "main",
-            "date": "2026-08-07T02:55:09Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/bfc35fbce03a59c6208b7087fd2ccf1ee856692b"
+            "sha": "ac7b99f",
+            "branch": "l10n_crowdin",
+            "date": "2026-08-07T08:02:10Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/ac7b99fb705abfd108bf83c6338238777fbdef74"
           }
         }
       ]
