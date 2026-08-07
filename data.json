@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:48:08.350246Z",
+  "generated_at": "2026-08-07T03:53:23.971055Z",
   "groups": [
     {
       "id": "cores",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "be2f856",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-06T22:16:02Z",
             "url": "https://github.com/openwrt/openwrt/commit/be2f85638c021d733ccf28f483178088fae66adf"
           }
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89921,
+            "stars": 89922,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-07T01:07:48Z",
@@ -5117,7 +5117,7 @@
             "stars": 3198,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T03:47:49Z",
+            "pushed_at": "2026-08-07T03:48:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
@@ -5130,7 +5130,7 @@
               "published_at": "2026-08-07T03:47:49Z",
               "prerelease": false,
               "author": "Zephyruso",
-              "body": "## [3.17.0](https://github.com/Zephyruso/zashboard/compare/v3.16.1...v3.17.0) (2026-08-07)\n\n\n### Features\n\n* add \"All\" connections tab keeping closed connections in place ([80e3410](https://github.com/Zephyruso/zashboard/commit/80e3410e8f818aace8ad09becb32be6cb01dfb98))\n* add EarthRenderer and GeoIP worker for visualizing global network routes ([4efd274](https://github.com/Zephyruso/zashboard/commit/4efd27467f782d628f3599eed8510040b714a3ed))\n* add initial location handling and visibility toggle titles for proxy groups ([ee7d379](https://github.com/Zephyruso/zashboard/commit/ee7d3798b7a8b09da9516c685f3baa268cf3bba5))\n* enhance EarthRenderer with endpoint glow effects and improved scaling ([7f43032](https://github.com/Zephyruso/zashboard/commit/7f430320df1ddf919fc458c15f8583fe1809c935))\n* enhance EarthRenderer with flow visualization and initialization optimizations ([2a45908](https://github.com/Zephyruso/zashboard/commit/2a4590825fdbfe83ce71494d428d298b757945b5))\n* enhance support for honk core and update related components ([80e5657](https://github.com/Zephyruso/zashboard/commit/80e5657714cbad5b924c84d3dfdbe7a3d8ec1b28))\n* implement dialog viewport height management and enhance modal transitions ([35e6881](https://github.com/Zephyruso/zashboard/commit/35e6881d8d1feeb4653a4ce34f96fdf28ee418b2))\n* **proxy-node:** add animations for proxy node transitions and latency highlights ([961fc0f](https://github.com/Zephyruso/zashboard/commit/961fc0fe0adaa4104fe6d7444a2d12dc20ea1415))\n\n\n### Bug Fixes\n\n* bundle size ([75d9624](https://github.com/Zephyruso/zashboard/commit/75d962464eb98b4b845e70caa6d9de781e057573))\n* enhance touch controls for EarthRenderer and prevent browser gestures ([db58640](https://github.com/Zephyruso/zashboard/commit/db58640bfc0f6113f5e17749c063eebe0c044738))\n* handle potential undefined processPath in connectionAccessor ([4cdbd85](https://github.com/Zephyruso/zashboard/commit/4cdbd85deb7aa9ca584da907ea8086fbf95b10d1))\n* LatencyTag component loading state transitions and CountUp optimization ([ebe891f](https://github.com/Zephyruso/zashboard/commit/ebe891f49b82f9d1912c1df32eef633c2563d396))\n* **proxy-node:** ensure accurate visibility check in scrollIntoCenter function ([c9b1e65](https://github.com/Zephyruso/zashboard/commit/c9b1e658966a50059303489061cf367c57eeb41e))"
+              "body": "## [3.17.0](https://github.com/Zephyruso/zashboard/compare/v3.16.1...v3.17.0) (2026-08-07)\r\n\r\n### Thanks to [Zayrick](https://github.com/Zayrick) for the Earth idea.\r\n\r\n### Features\r\n\r\n* add \"All\" connections tab keeping closed connections in place ([80e3410](https://github.com/Zephyruso/zashboard/commit/80e3410e8f818aace8ad09becb32be6cb01dfb98))\r\n* add EarthRenderer and GeoIP worker for visualizing global network routes ([4efd274](https://github.com/Zephyruso/zashboard/commit/4efd27467f782d628f3599eed8510040b714a3ed))\r\n* add initial location handling and visibility toggle titles for proxy groups ([ee7d379](https://github.com/Zephyruso/zashboard/commit/ee7d3798b7a8b09da9516c685f3baa268cf3bba5))\r\n* enhance EarthRenderer with endpoint glow effects and improved scaling ([7f43032](https://github.com/Zephyruso/zashboard/commit/7f430320df1ddf919fc458c15f8583fe1809c935))\r\n* enhance EarthRenderer with flow visualization and initialization optimizations ([2a45908](https://github.com/Zephyruso/zashboard/commit/2a4590825fdbfe83ce71494d428d298b757945b5))\r\n* enhance support for honk core and update related components ([80e5657](https://github.com/Zephyruso/zashboard/commit/80e5657714cbad5b924c84d3dfdbe7a3d8ec1b28))\r\n* implement dialog viewport height management and enhance modal transitions ([35e6881](https://github.com/Zephyruso/zashboard/commit/35e6881d8d1feeb4653a4ce34f96fdf28ee418b2))\r\n* **proxy-node:** add animations for proxy node transitions and latency highlights ([961fc0f](https://github.com/Zephyruso/zashboard/commit/961fc0fe0adaa4104fe6d7444a2d12dc20ea1415))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* bundle size ([75d9624](https://github.com/Zephyruso/zashboard/commit/75d962464eb98b4b845e70caa6d9de781e057573))\r\n* enhance touch controls for EarthRenderer and prevent browser gestures ([db58640](https://github.com/Zephyruso/zashboard/commit/db58640bfc0f6113f5e17749c063eebe0c044738))\r\n* handle potential undefined processPath in connectionAccessor ([4cdbd85](https://github.com/Zephyruso/zashboard/commit/4cdbd85deb7aa9ca584da907ea8086fbf95b10d1))\r\n* LatencyTag component loading state transitions and CountUp optimization ([ebe891f](https://github.com/Zephyruso/zashboard/commit/ebe891f49b82f9d1912c1df32eef633c2563d396))\r\n* **proxy-node:** ensure accurate visibility check in scrollIntoCenter function ([c9b1e65](https://github.com/Zephyruso/zashboard/commit/c9b1e658966a50059303489061cf367c57eeb41e))"
             },
             {
               "name": "v3.16.1",
@@ -5170,10 +5170,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5c22e5e",
-            "branch": "main",
-            "date": "2026-08-07T03:47:34Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/5c22e5e21fb2dea08947fad684d565eb694eb8d8"
+            "sha": "50a27be",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-08-07T03:48:39Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/50a27be6dd3058b5f6119b35705e4b470c19881b"
           }
         },
         {
