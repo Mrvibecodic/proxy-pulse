@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T20:23:29.926418Z",
+  "generated_at": "2026-08-07T20:28:43.383352Z",
   "groups": [
     {
       "id": "cores",
@@ -5026,12 +5026,21 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T11:47:31Z",
+            "pushed_at": "2026-08-07T20:28:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.0.2",
+              "tag": "v1.0.2",
+              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.2",
+              "published_at": "2026-08-07T20:28:35Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## Что изменилось\n\n### Исправления\n- **Лог запросов → «Активность по часам»:** график теперь показывает время в таймзоне браузера. Раньше подписи столбиков, ось и строка «пик в HH:MM» рендерились по дате сервера, а таблица запросов ниже — уже по локальному времени, из-за чего одно и то же событие выглядело как разное. Час бакета отдаётся epoch-ом, подписи проставляются на клиенте — в том числе после автообновления и обновления по кнопке.\n\nОбновление без миграций: изменения только в отрисовке админки, схема БД и настройки не трогаются.\n\n**Полный список изменений:** https://github.com/Mrvibecodic/remnawave-subscription-middleware/compare/v1.0.1...v1.0.2"
+            },
             {
               "name": "v1.0.1",
               "tag": "v1.0.1",
@@ -5052,10 +5061,10 @@
             }
           ],
           "last_commit": {
-            "sha": "95b71b4",
+            "sha": "4e71e3e",
             "branch": "main",
-            "date": "2026-08-07T11:47:05Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/95b71b43f5dffd80770ae453adae79bc365f7299"
+            "date": "2026-08-07T20:27:34Z",
+            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4e71e3e57c7e1f7c559176128d021e45fbeda9dd"
           }
         },
         {
