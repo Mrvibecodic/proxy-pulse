@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T11:44:19.410903Z",
+  "generated_at": "2026-08-07T11:49:32.315321Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33012,
+            "stars": 33013,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-07T08:06:06Z",
@@ -732,10 +732,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8994c46",
+            "sha": "951f3ea",
             "branch": "dev",
-            "date": "2026-08-07T10:13:51Z",
-            "url": "https://github.com/throneproj/Throne/commit/8994c467d36664418e3e2bf6829e9fdbbdf738b4"
+            "date": "2026-08-07T10:13:17Z",
+            "url": "https://github.com/throneproj/Throne/commit/951f3eacd52298a08cdc3b24f5bc7bcc9b548f82"
           }
         },
         {
@@ -4744,7 +4744,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76145,
+            "stars": 76146,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-07T10:58:31Z",
@@ -5026,12 +5026,21 @@
             "stars": 35,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T11:42:24Z",
+            "pushed_at": "2026-08-07T11:47:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.0.1",
+              "tag": "v1.0.1",
+              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.1",
+              "published_at": "2026-08-07T11:47:41Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Патч-релиз: исправления и доработки интерфейса, новых возможностей нет.\n\n## Что изменилось\n- **Лог запросов** — переработанная вкладка: сводка за сутки (обновившие подписку, устройства, запросы, блокировки HWID), гистограмма по часам, фильтры по решению, типу ответа и периоду, раскрытие строки с полной карточкой запроса. Для каждого запроса теперь сохраняются тип отданного ответа, его размер и состояние доп. подписки — эти поля видны только у новых записей.\n- **Лог вебхуков** — фильтры по событию, действию, подписи и периоду, фильтрация кликом по значению, выгрузка в CSV, выборка до 3000 записей; в hwid-событиях подставляется имя пользователя, старые записи дозаполняются.\n- **Вёрстка админки** — устранены подёргивания при загрузке страниц: блоки стилей подняты выше разметки, инлайновым SVG заданы явные размеры, длинные логи больше не отрисовываются целиком до старта пагинатора.\n\n## Обновление\nСхема базы обновляется автоматически при первом обращении к админке: в таблицу `request_log` добавляются четыре поля. Ручных действий не требуется, откат на предыдущую версию данные не ломает. Настройки, `config.php` и содержимое `data/` не затрагиваются.\n\n## Docker-теги\n- **`v1`** — стабильный, уже указывает на этот релиз;\n- `v1.0.1` — фиксированный тег релиза;\n- `latest` / `main` — ветка `main`;\n- `dev` — тестовая ветка."
+            },
             {
               "name": "v1.0.0",
               "tag": "v1.0.0",
