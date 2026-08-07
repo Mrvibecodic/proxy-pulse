@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:50:39.842471Z",
+  "generated_at": "2026-08-07T02:55:55.236723Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40920,
+            "stars": 40921,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-06T21:31:19Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36780,
+            "stars": 36781,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-07T01:39:44Z",
@@ -4747,12 +4747,21 @@
             "stars": 76138,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T02:50:23Z",
+            "pushed_at": "2026-08-07T02:55:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "12.4.8",
+              "tag": "v12.4.8",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.8",
+              "published_at": "2026-08-07T02:55:02Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.8)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
+            },
             {
               "name": "13.1.2",
               "tag": "v13.1.2",
@@ -4788,22 +4797,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.3.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
-            },
-            {
-              "name": "13.1.1",
-              "tag": "v13.1.1",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.1",
-              "published_at": "2026-07-21T10:58:35Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.1)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Features and enhancements\n\n- **Go:** Update version to 1.26.5 [#128015](https://github.com/grafana/grafana/pull/128015), [@macabu](https://github.com/macabu)\n- **Provisioning:** Improve form errors for github connections [#128177](https://github.com/grafana/grafana/pull/128177), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** make sync per-resource write timeout configurable [#127868](https://github.com/grafana/grafana/pull/127868), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n\n### Bug fixes\n\n- **Accessibility:** Ensure `InlineToast` contents are announced by screenreaders [#128687](https://github.com/grafana/grafana/pull/128687), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **DashboardDS:** Fix chained dashboard datasource panels showing stale data [#127248](https://github.com/grafana/grafana/pull/127248), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** make GitHub webhook creation idempotent (fix repos stuck unhealthy with HTTP 422) [#128201](https://github.com/grafana/grafana/pull/128201), [@floriecai](https://github.com/floriecai)\n\n### Plugin development fixes \u0026 changes\n\n- **Pagination:** Set `aria-current` on active page [#128518](https://github.com/grafana/grafana/pull/128518), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
             }
           ],
           "last_commit": {
-            "sha": "5b70e26",
-            "branch": "release/427/13.0.6",
-            "date": "2026-08-07T02:50:24Z",
-            "url": "https://github.com/grafana/grafana/commit/5b70e26a0495b3dc65e3f653101ff9e02412dcd8"
+            "sha": "1a9fbf8",
+            "branch": "release-12.4.8",
+            "date": "2026-08-07T02:54:09Z",
+            "url": "https://github.com/grafana/grafana/commit/1a9fbf81d3aa828e9a955a76a2aaaaa45ba65a97"
           }
         },
         {
@@ -5185,7 +5185,7 @@
             "stars": 6890,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T02:44:57Z",
+            "pushed_at": "2026-08-07T02:55:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5238,10 +5238,10 @@
             }
           ],
           "last_commit": {
-            "sha": "747066e",
-            "branch": "l10n_crowdin",
-            "date": "2026-08-07T02:44:58Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/747066efec534653924bac069366c38747dac8f9"
+            "sha": "bfc35fb",
+            "branch": "main",
+            "date": "2026-08-07T02:55:09Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/bfc35fbce03a59c6208b7087fd2ccf1ee856692b"
           }
         }
       ]
