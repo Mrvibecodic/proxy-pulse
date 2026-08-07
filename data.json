@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:34:59.664008Z",
+  "generated_at": "2026-08-07T02:40:13.356714Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T02:24:04Z",
+            "pushed_at": "2026-08-07T02:35:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3266,6 +3266,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "86c73a3",
+                  "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
+                  "author": "Etienne Champetier",
+                  "date": "2026-08-07T02:35:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/86c73a3c4aa9fec7a3d6f0a90192794c59093bca"
+                },
+                {
+                  "sha": "f39ad7f",
+                  "message": "simple-captive-portal: order nft chains predictably",
+                  "author": "Andris PE",
+                  "date": "2026-08-07T02:35:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/f39ad7f14c2d2d5e50d3cb5a1d5f553c815998fb"
+                },
+                {
                   "sha": "da0b583",
                   "message": "banip: report the last run timestamp as ISO 8601",
                   "author": "Dirk Brenken",
@@ -3460,20 +3474,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-07-24T13:11:52Z",
                   "url": "https://github.com/openwrt/packages/commit/1e02e8d8f1feb74151ef1c06c16432eea774f7b8"
-                },
-                {
-                  "sha": "614cc59",
-                  "message": "openvpn: enable DCO by default",
-                  "author": "Dennis Camera",
-                  "date": "2026-07-23T09:53:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/614cc596ed5cfa011c0418dcda45a393e3ebeacd"
-                },
-                {
-                  "sha": "f36e3e9",
-                  "message": "cgi-io: update to Git HEAD (2026-07-21)",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-07-21T22:45:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/f36e3e98df4472c65e1e53c87a92894af0ac58ce"
                 }
               ]
             }
@@ -4744,10 +4744,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76137,
+            "stars": 76138,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T02:34:40Z",
+            "pushed_at": "2026-08-07T02:39:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4f43c34",
+            "sha": "bfdcb53",
             "branch": "changelog/update-changelog-2026-08-07",
-            "date": "2026-08-07T02:33:21Z",
-            "url": "https://github.com/grafana/grafana/commit/4f43c3426d1af2b3e11a8d45f8a7e934cd81bd62"
+            "date": "2026-08-07T02:39:57Z",
+            "url": "https://github.com/grafana/grafana/commit/bfdcb53e75972a93a03d1eafa5ec456f33210a16"
           }
         },
         {
