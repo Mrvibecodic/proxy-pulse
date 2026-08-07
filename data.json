@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:36:18.615698Z",
+  "generated_at": "2026-08-07T10:41:33.397124Z",
   "groups": [
     {
       "id": "cores",
@@ -679,7 +679,7 @@
             "stars": 6669,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-08-07T10:13:50Z",
+            "pushed_at": "2026-08-07T10:38:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T10:34:12Z",
+            "pushed_at": "2026-08-07T10:37:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "900251a",
+                  "message": "rsyslog: track config files for procd restart",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T10:37:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/900251a607b782b912bf85cfd9ea68fd10b11efa"
+                },
+                {
                   "sha": "6b5954e",
                   "message": "sudo: create sudo group",
                   "author": "Michael Pfeifroth",
@@ -1962,13 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/07450023bca29dec13b3ddeb349af1fb8eb62fbe"
-                },
-                {
-                  "sha": "b0c5835",
-                  "message": "strongswan: rename 'remote_gateway' to 'remote_addrs'",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/b0c5835445ff3cf471179f2bf4df1e6ab1ce8932"
                 }
               ]
             },
@@ -3751,7 +3751,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5120,
+            "stars": 5121,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-07T01:18:00Z",
@@ -4936,10 +4936,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c5c68eb",
-            "branch": "master",
-            "date": "2026-08-07T08:29:15Z",
-            "url": "https://github.com/netdata/netdata/commit/c5c68eb13295657f3dbb3427abe535402abe9ddd"
+            "sha": "3e934ee",
+            "branch": "docs/netdata-parent-data-access-without-cloud",
+            "date": "2026-08-07T09:29:03Z",
+            "url": "https://github.com/netdata/netdata/commit/3e934ee8e1176795cd1bacd56241f7bee9e71f1f"
           }
         }
       ]
