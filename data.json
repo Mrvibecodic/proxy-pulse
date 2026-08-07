@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:27:12.308083Z",
+  "generated_at": "2026-08-07T05:32:25.547830Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40923,
+            "stars": 40924,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-06T21:31:19Z",
@@ -81,15 +81,24 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36787,
+            "stars": 36788,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-07T05:27:06Z",
+            "pushed_at": "2026-08-07T05:27:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.9",
+              "tag": "v1.14.0-beta.9",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.9",
+              "published_at": "2026-08-07T05:28:03Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.0-beta.8",
               "tag": "v1.14.0-beta.8",
@@ -125,22 +134,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
-            },
-            {
-              "name": "1.14.0-beta.4",
-              "tag": "v1.14.0-beta.4",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.4",
-              "published_at": "2026-07-31T08:47:29Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
-            "sha": "fe8bb7a",
-            "branch": "testing",
-            "date": "2026-08-07T05:01:09Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/fe8bb7ad008fbb43aa6ee6a16bed6db9bd9a6e8e"
+            "sha": "40263f4",
+            "branch": "docs",
+            "date": "2026-08-07T05:27:06Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/40263f42219d3390a2a76c774ca8b4167fd65f41"
           }
         },
         {
