@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T13:08:04.572037Z",
+  "generated_at": "2026-08-07T13:13:18.216600Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33015,
+            "stars": 33014,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-07T08:06:06Z",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T10:47:42Z",
+            "pushed_at": "2026-08-07T13:10:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0aba856",
+                  "message": "openssh: reindent Package/\u003cname\u003e metadata blocks to 2 spaces",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T13:10:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/0aba856a263c72969be0735987c83ce911974923"
+                },
+                {
+                  "sha": "830fca1",
+                  "message": "openssh: make libfido2 dependency conditional on sk-helper",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T13:10:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/830fca1ed782e1860aa4e43387f5be169c0ca647"
+                },
+                {
+                  "sha": "038f45a",
+                  "message": "liblo: update to 0.36",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T13:10:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/038f45a5221d655f0bbab7a5b8e48fe413555fe3"
+                },
+                {
+                  "sha": "f74de8f",
+                  "message": "libidn: update to 1.44",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T13:10:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/f74de8f2a445ac16a1fe59e62eb60dd923eabe06"
+                },
+                {
                   "sha": "edef6a4",
                   "message": "gpsd: run as dedicated 'gpsd' system user",
                   "author": "Michael Pfeifroth",
@@ -1941,34 +1969,6 @@
                   "author": "Hannu Nyman",
                   "date": "2026-08-03T15:10:36Z",
                   "url": "https://github.com/openwrt/packages/commit/2c72717c16c73df9cf05fc93ce21165452200169"
-                },
-                {
-                  "sha": "7885dff",
-                  "message": "modemmanager: skip virtual net devices in hotplug script",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-03T11:03:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/7885dff933e78a36108e277654df5accad953cdf"
-                },
-                {
-                  "sha": "187382d",
-                  "message": "modemmanager: skip live report when the service isn't up yet",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-03T11:03:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/187382d9d1444c0308355f2f34fc0c759ab73440"
-                },
-                {
-                  "sha": "703e679",
-                  "message": "strongswan: bump PKG_RELEASE by one",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/703e679a7101c9e77b64373e07b7e932f7eb2d4b"
-                },
-                {
-                  "sha": "4c58caf",
-                  "message": "strongswan: write local_key to swanctl.conf",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/4c58cafc7e22ac109eef808fa9657485c37d24c6"
                 }
               ]
             },
@@ -5052,10 +5052,10 @@
             }
           ],
           "last_commit": {
-            "sha": "61cd070",
-            "branch": "dev",
-            "date": "2026-08-07T11:42:24Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/61cd070f6bb45650d13f908e3a4643e5fd723a2d"
+            "sha": "95b71b4",
+            "branch": "main",
+            "date": "2026-08-07T11:47:05Z",
+            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/95b71b43f5dffd80770ae453adae79bc365f7299"
           }
         },
         {
