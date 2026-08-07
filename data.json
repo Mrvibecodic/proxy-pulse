@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T15:08:37.733595Z",
+  "generated_at": "2026-08-07T15:13:52.676573Z",
   "groups": [
     {
       "id": "cores",
@@ -686,15 +686,6 @@
           },
           "releases": [
             {
-              "name": "1.2.3",
-              "tag": "1.2.3",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.3",
-              "published_at": "2026-08-07T13:35:21Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "* Add Auto-selector **1**\r\n* Fix windows installer behavior\r\n* Fix Xray profiles being broken on certain windows systems\r\n* Add multiple file selection for importing from file\r\n* Fix Exclude private range in Tun mode\r\n* Lots of Fixes and Improvements\r\n\r\n**1**:\r\nYou can now create profiles that try to find a suitable set of profiles from a group and automatically choose the best one and run it, optionally you can load-balance your traffic amongst these profiles too. It can automatically detect failure and switch to other available profiles."
-            },
-            {
               "name": "1.2.2",
               "tag": "1.2.2",
               "url": "https://github.com/throneproj/Throne/releases/tag/1.2.2",
@@ -729,6 +720,15 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Disable strict route by default\r\n* Fix Xray full config issues\r\n* Add softPink theme\r\n* Use Google DoH as default remote DNS\r\n* Improve context menus\r\n* Update deep-link schemas\r\n* Add security view to Proxy Table\r\n* Add `Remove Insecure configs` menu action\r\n* Fixes and Improvements\r\n"
+            },
+            {
+              "name": "1.2.0-beta.6",
+              "tag": "1.2.0-beta.6",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.0-beta.6",
+              "published_at": "2026-07-13T13:08:10Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Make Full Xray configs testable\r\n* Migrate interface binding and initial DNS resolution of Xray configs to our fork\r\n* Fixes and Improvements"
             }
           ],
           "last_commit": {
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89938,
+            "stars": 89937,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-07T01:07:48Z",
@@ -4744,7 +4744,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76150,
+            "stars": 76149,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-07T14:31:02Z",
