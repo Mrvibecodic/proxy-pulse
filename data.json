@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:25:16.539874Z",
+  "generated_at": "2026-08-07T08:30:31.037818Z",
   "groups": [
     {
       "id": "cores",
@@ -499,7 +499,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1289,
+            "stars": 1290,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-07-21T22:36:40Z",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T07:12:06Z",
+            "pushed_at": "2026-08-07T08:27:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8e89b97",
+                  "message": "imagemagick: add test-version.sh version override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T08:27:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/8e89b97254ce8da89ddb89c2366578aff67ce292"
+                },
+                {
+                  "sha": "8d4f64d",
+                  "message": "graphicsmagick: expand test.sh coverage",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T08:27:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/8d4f64dc9ff6a63ee3851335bebcd4061a2ad505"
+                },
+                {
+                  "sha": "b0536d3",
+                  "message": "imagemagick: expand test.sh coverage",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T08:27:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/b0536d3ff62bdb635ef8cb0d469e6d90004e4cba"
+                },
+                {
+                  "sha": "98243ee",
+                  "message": "graphicsmagick: update to 1.3.48",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T08:27:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/98243ee6ef8a919df2fb83f0a182b8c66b28117f"
+                },
+                {
+                  "sha": "9c2eb54",
+                  "message": "imagemagick: update to 7.1.2.29",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-07T08:27:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/9c2eb543ebb31f5494d55e5cd97176740df0ead2"
+                },
+                {
                   "sha": "6de1828",
                   "message": "checksec: remove package",
                   "author": "Josef Schlehofer",
@@ -1934,41 +1969,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-02T18:32:12Z",
                   "url": "https://github.com/openwrt/packages/commit/7c3749d969522f1de1712c0501ae88bb2ac4d762"
-                },
-                {
-                  "sha": "a8b6b3b",
-                  "message": "node: bump to 22.23.2",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-08-02T07:35:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/a8b6b3b5519331ba1edde8a903050fbd362d4b9a"
-                },
-                {
-                  "sha": "fade401",
-                  "message": "nghttp2: bump to 1.70.0",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-08-02T07:18:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/fade4013e0a97ccefb3a36ac19b80fb97a67e0e3"
-                },
-                {
-                  "sha": "927fc5e",
-                  "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-01T18:19:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/927fc5ea54e81e1f2c472a40db6a1db9908bbe5e"
-                },
-                {
-                  "sha": "aad6a5a",
-                  "message": "fwupd: update to 2.1.7",
-                  "author": "Lukas Voegl",
-                  "date": "2026-07-31T20:17:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/aad6a5a68c592969eff2352154f157c6e0382436"
-                },
-                {
-                  "sha": "93f8e8c",
-                  "message": "libxmlb: update to 0.3.29",
-                  "author": "Lukas Voegl",
-                  "date": "2026-07-31T14:01:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/93f8e8cf7b56901aa331b47b88a78f45cb9d5ea5"
                 }
               ]
             },
@@ -3621,7 +3621,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 15977,
+            "stars": 15976,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4744,7 +4744,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76142,
+            "stars": 76143,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-07T08:06:09Z",
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b3e46a9",
-            "branch": "grambbledook/provisioningExport",
-            "date": "2026-08-07T08:05:51Z",
-            "url": "https://github.com/grafana/grafana/commit/b3e46a99becfeced173134aca433b2a75fdee839"
+            "sha": "9cd7220",
+            "branch": "main",
+            "date": "2026-08-07T07:49:09Z",
+            "url": "https://github.com/grafana/grafana/commit/9cd722075e0c29dad5250aa904a57c25e08e7413"
           }
         },
         {
@@ -4883,7 +4883,7 @@
             "stars": 80060,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T07:47:53Z",
+            "pushed_at": "2026-08-07T08:29:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
