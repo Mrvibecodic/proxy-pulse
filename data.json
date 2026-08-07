@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:41:04.357523Z",
+  "generated_at": "2026-08-07T08:46:17.728581Z",
   "groups": [
     {
       "id": "cores",
@@ -567,7 +567,7 @@
           "track": "releases",
           "meta": {
             "description": "A Simple desktop GUI client for mihomo",
-            "stars": 341,
+            "stars": 342,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
             "pushed_at": "2026-08-05T20:45:43Z",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T08:41:07Z",
+            "pushed_at": "2026-08-07T08:42:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ca04783",
+                  "message": "erlang: remove quiet mode from grep in test version checks",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-07T08:42:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca04783f334c5b70531106925a15f19b3b0494c5"
+                },
+                {
+                  "sha": "7fb98c1",
+                  "message": "erlang: stop shipping sasl in the base package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-07T08:42:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/7fb98c160db351c47c9af108901299eb0ba5928c"
+                },
+                {
+                  "sha": "bebf110",
+                  "message": "hev-socks5-tproxy: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-07T08:41:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/bebf1107a2ee63080f5c76dc4fb8b7e9cd5d54c6"
+                },
+                {
                   "sha": "a5bd28e",
                   "message": "hev-socks5-server: update to 2.13.0",
                   "author": "Ray Wang",
@@ -1948,27 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/d43fa0cbd49796ecc53fd7f606ba3bf84dc39164"
-                },
-                {
-                  "sha": "9cea816",
-                  "message": "strongswan: migration and merge local_nat into local_subnet",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/9cea816088af618c372512847d7055eba7e71210"
-                },
-                {
-                  "sha": "eca6d15",
-                  "message": "strongswan: replace indentation spaces with tabs in swanctl.init",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/eca6d15e4596cf3ec973bf4fc0acbded1ea28cfe"
-                },
-                {
-                  "sha": "7f341b3",
-                  "message": "strongswan: reorder local var in config_remote function",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f341b3afc0b82f333251e81d32a8c17d07cfa0a"
                 }
               ]
             },
@@ -3751,7 +3751,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5121,
+            "stars": 5120,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-07T01:18:00Z",
@@ -4812,7 +4812,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65611,
+            "stars": 65610,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-07T06:42:30Z",
@@ -4880,7 +4880,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80060,
+            "stars": 80059,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-07T08:29:14Z",
