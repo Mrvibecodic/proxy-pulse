@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:41:33.397124Z",
+  "generated_at": "2026-08-07T10:46:47.885966Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T10:37:50Z",
+            "pushed_at": "2026-08-07T10:45:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "dcc40b9",
+                  "message": "perl: fix arch in powerpc64 config",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T10:45:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/dcc40b9ad5c55484d8e722cc984f904b527578c1"
+                },
+                {
                   "sha": "900251a",
                   "message": "rsyslog: track config files for procd restart",
                   "author": "Michael Pfeifroth",
@@ -1962,13 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/6e6de6aff91f57151186bd21c7d72fd7e3285163"
-                },
-                {
-                  "sha": "0745002",
-                  "message": "strongswan: rename 'local_ip' to 'local_addrs'",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/07450023bca29dec13b3ddeb349af1fb8eb62fbe"
                 }
               ]
             },
@@ -4936,10 +4936,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3e934ee",
-            "branch": "docs/netdata-parent-data-access-without-cloud",
-            "date": "2026-08-07T09:29:03Z",
-            "url": "https://github.com/netdata/netdata/commit/3e934ee8e1176795cd1bacd56241f7bee9e71f1f"
+            "sha": "2d7b8c5",
+            "branch": "docs/snmp-vnode-labels",
+            "date": "2026-08-07T09:33:18Z",
+            "url": "https://github.com/netdata/netdata/commit/2d7b8c543cbc21b69a490ca933c5e5a25995fde3"
           }
         }
       ]
