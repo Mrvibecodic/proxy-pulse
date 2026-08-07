@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T03:42:56.387391Z",
+  "generated_at": "2026-08-07T03:48:08.350246Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36783,
+            "stars": 36784,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-07T01:39:44Z",
@@ -820,7 +820,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27883,
+            "stars": 27884,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-06T22:16:02Z",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "be2f856",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-06T22:16:02Z",
             "url": "https://github.com/openwrt/openwrt/commit/be2f85638c021d733ccf28f483178088fae66adf"
           }
@@ -4747,7 +4747,7 @@
             "stars": 76138,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T03:28:04Z",
+            "pushed_at": "2026-08-07T03:48:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a5bc7ed",
-            "branch": "rodrigopk/import-settings-promote-revert",
-            "date": "2026-08-07T03:26:41Z",
-            "url": "https://github.com/grafana/grafana/commit/a5bc7ed8163503d9ed1772bf5d82f58b4019385e"
+            "sha": "6042dcd",
+            "branch": "RafaelPaulovic/vp/kv-source",
+            "date": "2026-08-07T03:48:09Z",
+            "url": "https://github.com/grafana/grafana/commit/6042dcd7c0b17e227d4ca747a3f4719b3a309d30"
           }
         },
         {
@@ -5117,12 +5117,21 @@
             "stars": 3198,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T03:28:43Z",
+            "pushed_at": "2026-08-07T03:47:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.17.0",
+              "tag": "v3.17.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.17.0",
+              "published_at": "2026-08-07T03:47:49Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.17.0](https://github.com/Zephyruso/zashboard/compare/v3.16.1...v3.17.0) (2026-08-07)\n\n\n### Features\n\n* add \"All\" connections tab keeping closed connections in place ([80e3410](https://github.com/Zephyruso/zashboard/commit/80e3410e8f818aace8ad09becb32be6cb01dfb98))\n* add EarthRenderer and GeoIP worker for visualizing global network routes ([4efd274](https://github.com/Zephyruso/zashboard/commit/4efd27467f782d628f3599eed8510040b714a3ed))\n* add initial location handling and visibility toggle titles for proxy groups ([ee7d379](https://github.com/Zephyruso/zashboard/commit/ee7d3798b7a8b09da9516c685f3baa268cf3bba5))\n* enhance EarthRenderer with endpoint glow effects and improved scaling ([7f43032](https://github.com/Zephyruso/zashboard/commit/7f430320df1ddf919fc458c15f8583fe1809c935))\n* enhance EarthRenderer with flow visualization and initialization optimizations ([2a45908](https://github.com/Zephyruso/zashboard/commit/2a4590825fdbfe83ce71494d428d298b757945b5))\n* enhance support for honk core and update related components ([80e5657](https://github.com/Zephyruso/zashboard/commit/80e5657714cbad5b924c84d3dfdbe7a3d8ec1b28))\n* implement dialog viewport height management and enhance modal transitions ([35e6881](https://github.com/Zephyruso/zashboard/commit/35e6881d8d1feeb4653a4ce34f96fdf28ee418b2))\n* **proxy-node:** add animations for proxy node transitions and latency highlights ([961fc0f](https://github.com/Zephyruso/zashboard/commit/961fc0fe0adaa4104fe6d7444a2d12dc20ea1415))\n\n\n### Bug Fixes\n\n* bundle size ([75d9624](https://github.com/Zephyruso/zashboard/commit/75d962464eb98b4b845e70caa6d9de781e057573))\n* enhance touch controls for EarthRenderer and prevent browser gestures ([db58640](https://github.com/Zephyruso/zashboard/commit/db58640bfc0f6113f5e17749c063eebe0c044738))\n* handle potential undefined processPath in connectionAccessor ([4cdbd85](https://github.com/Zephyruso/zashboard/commit/4cdbd85deb7aa9ca584da907ea8086fbf95b10d1))\n* LatencyTag component loading state transitions and CountUp optimization ([ebe891f](https://github.com/Zephyruso/zashboard/commit/ebe891f49b82f9d1912c1df32eef633c2563d396))\n* **proxy-node:** ensure accurate visibility check in scrollIntoCenter function ([c9b1e65](https://github.com/Zephyruso/zashboard/commit/c9b1e658966a50059303489061cf367c57eeb41e))"
+            },
             {
               "name": "v3.16.1",
               "tag": "v3.16.1",
@@ -5158,22 +5167,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.14.0](https://github.com/Zephyruso/zashboard/compare/v3.13.1...v3.14.0) (2026-07-09)\n\n\n### Features\n\n* **confirm-dialog:** implement confirmation dialog for settings overrides and add ConfirmDialogHost component ([2fa7494](https://github.com/Zephyruso/zashboard/commit/2fa74942c9e8bb92c692cd615ce2e5320b4a988b))\n* **proxies:** add proxy group chain expand button and drill-in modal ([#714](https://github.com/Zephyruso/zashboard/issues/714)) ([36bed49](https://github.com/Zephyruso/zashboard/commit/36bed49439671855251041e46fc5bd5fe2272c28))\n* refactor data handling in charts to support HistoryPoint structure and improve tooltip formatting ([a6c4f6e](https://github.com/Zephyruso/zashboard/commit/a6c4f6e43ad06f08e5340d1a5789d08302e40616))\n* **settings:** add confirmation dialogs for settings overrides on sync and import ([6ad150f](https://github.com/Zephyruso/zashboard/commit/6ad150fcf8a15020883507b0b4cc2a8fb79a6742))\n\n\n### Bug Fixes\n\n* **proxy-group-chain-modal:** adjust height class for better layout consistency ([d5783eb](https://github.com/Zephyruso/zashboard/commit/d5783eb420c101cd0541db4dc3f230a43098cab3))\n* standardize toggle class by removing 'toggle-sm' from checkbox inputs ([59413bd](https://github.com/Zephyruso/zashboard/commit/59413bd98fa0667fed4c7053faff6592ff9d9e0c))"
-            },
-            {
-              "name": "v3.13.1",
-              "tag": "v3.13.1",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.13.1",
-              "published_at": "2026-07-03T13:09:18Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.13.1](https://github.com/Zephyruso/zashboard/compare/v3.13.0...v3.13.1) (2026-07-03)\n\n\n### Bug Fixes\n\n* **router:** simplify setup redirection logic in beforeEach guard ([faa9f9e](https://github.com/Zephyruso/zashboard/commit/faa9f9e9e9d7ad352be77a66383b59f7ca6f27f5))\n* **sing-box-r:** add version check for provider latency fetching logic ([728588e](https://github.com/Zephyruso/zashboard/commit/728588e28264216746f47a5aed9f618f0b2f17a9))"
             }
           ],
           "last_commit": {
-            "sha": "1affcb7",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-08-07T03:28:43Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/1affcb777c2f1ce8abd428dfb6cc88d7958ddbeb"
+            "sha": "5c22e5e",
+            "branch": "main",
+            "date": "2026-08-07T03:47:34Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/5c22e5e21fb2dea08947fad684d565eb694eb8d8"
           }
         },
         {
