@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:19:23.060175Z",
+  "generated_at": "2026-08-07T02:24:36.072026Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-06T19:28:23Z",
+            "pushed_at": "2026-08-07T02:24:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "91a6967",
+                  "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
+                  "author": "Etienne Champetier",
+                  "date": "2026-08-07T02:24:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/91a6967643c8b2ae69cd1515f4213f7b7310d6eb"
+                },
+                {
                   "sha": "23e2f53",
                   "message": "banip: report the last run timestamp as ISO 8601",
                   "author": "Dirk Brenken",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-31T11:15:38Z",
                   "url": "https://github.com/openwrt/packages/commit/a256fb99b8dc3108d426bddb5e25fffb2aa9f82a"
-                },
-                {
-                  "sha": "418ba9a",
-                  "message": "cifs-utils: update to 7.7 + more tests + add python3-light dep",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-31T11:15:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/418ba9a99f0ab32265069810e646581a40dd62a6"
                 }
               ]
             },
@@ -5114,7 +5114,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3197,
+            "stars": 3198,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-08-07T02:16:46Z",
