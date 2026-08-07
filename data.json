@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T08:35:48.464368Z",
+  "generated_at": "2026-08-07T08:41:04.357523Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T08:27:13Z",
+            "pushed_at": "2026-08-07T08:41:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a5bd28e",
+                  "message": "hev-socks5-server: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-07T08:41:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/a5bd28ed020605b0922dea9a865d28d42dc14bbe"
+                },
+                {
+                  "sha": "8230dc3",
+                  "message": "hev-socks5-tunnel: update to 2.17.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-07T08:40:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/8230dc3e5dbf7dea9d833bddb1b2bc2844048441"
+                },
+                {
                   "sha": "8e89b97",
                   "message": "imagemagick: add test-version.sh version override",
                   "author": "Alexandru Ardelean",
@@ -1955,20 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/7f341b3afc0b82f333251e81d32a8c17d07cfa0a"
-                },
-                {
-                  "sha": "1ac4335",
-                  "message": "strongswan: reorder local var in config_child function",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/1ac4335cd6d652d67c75e49b0d619635b14f1019"
-                },
-                {
-                  "sha": "7c3749d",
-                  "message": "adblock: release 4.5.7-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-02T18:32:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/7c3749d969522f1de1712c0501ae88bb2ac4d762"
                 }
               ]
             },
@@ -4747,7 +4747,7 @@
             "stars": 76143,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T08:06:09Z",
+            "pushed_at": "2026-08-07T08:39:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4812,7 +4812,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65610,
+            "stars": 65611,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-07T06:42:30Z",
