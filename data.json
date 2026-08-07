@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T10:46:47.885966Z",
+  "generated_at": "2026-08-07T10:52:00.921019Z",
   "groups": [
     {
       "id": "cores",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4761,
+            "stars": 4763,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-06T19:00:00Z",
@@ -891,7 +891,7 @@
             "stars": 4574,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T10:45:30Z",
+            "pushed_at": "2026-08-07T10:47:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "edef6a4",
+                  "message": "gpsd: run as dedicated 'gpsd' system user",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-08-07T10:47:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/edef6a49260f5697a90dc83b26d1a8709e5afa03"
+                },
+                {
                   "sha": "dcc40b9",
                   "message": "perl: fix arch in powerpc64 config",
                   "author": "Michael Pfeifroth",
@@ -1962,13 +1969,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-08-03T09:07:41Z",
                   "url": "https://github.com/openwrt/packages/commit/4c58cafc7e22ac109eef808fa9657485c37d24c6"
-                },
-                {
-                  "sha": "6e6de6a",
-                  "message": "strongswan: rename 'local_sourceip' to 'vips'",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-03T09:07:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/6e6de6aff91f57151186bd21c7d72fd7e3285163"
                 }
               ]
             },
@@ -4883,7 +4883,7 @@
             "stars": 80058,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T10:00:57Z",
+            "pushed_at": "2026-08-07T10:48:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4936,10 +4936,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2d7b8c5",
+            "sha": "07a738b",
             "branch": "docs/snmp-vnode-labels",
-            "date": "2026-08-07T09:33:18Z",
-            "url": "https://github.com/netdata/netdata/commit/2d7b8c543cbc21b69a490ca933c5e5a25995fde3"
+            "date": "2026-08-07T10:48:31Z",
+            "url": "https://github.com/netdata/netdata/commit/07a738b0db25985971f8883cee89ddaa846456c1"
           }
         }
       ]
@@ -5179,10 +5179,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e5f004d",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-08-07T09:14:04Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e5f004d560bb627737b269b8b81c921fb46008da"
+            "sha": "b0a7fd3",
+            "branch": "gh-pages-firasans-only",
+            "date": "2026-08-07T09:36:41Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/b0a7fd3d8c623117e7371d5afe864de91f0fc2bd"
           }
         },
         {
