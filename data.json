@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T12:18:21.191760Z",
+  "generated_at": "2026-08-08T12:23:34.063597Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36823,
+            "stars": 36824,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-08T03:31:49Z",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "652b2e9",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-08T09:39:35Z",
             "url": "https://github.com/openwrt/openwrt/commit/652b2e90b3c4d7f5b82ea3c7e67033ee1500f3b1"
           }
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-07T21:20:26Z",
+            "pushed_at": "2026-08-08T12:21:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7f99005",
+                  "message": "travelmate: treat an unresolvable captive portal as an error",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-08T12:20:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f99005b4cc9675108c1c1388bc5bd64c08f41e8"
+                },
+                {
                   "sha": "0aba856",
                   "message": "openssh: reindent Package/\u003cname\u003e metadata blocks to 2 spaces",
                   "author": "Michael Pfeifroth",
@@ -1962,13 +1969,6 @@
                   "author": "Dharmik Parmar",
                   "date": "2026-08-03T19:08:02Z",
                   "url": "https://github.com/openwrt/packages/commit/8e912e91d503f5f63abe552ffa3ceeb446d7d784"
-                },
-                {
-                  "sha": "2c72717",
-                  "message": "nano: update to 9.2",
-                  "author": "Hannu Nyman",
-                  "date": "2026-08-03T15:10:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/2c72717c16c73df9cf05fc93ce21165452200169"
                 }
               ]
             },
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "ca1e305",
+                  "message": "travelmate: treat an unresolvable captive portal as an error",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-08T12:21:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca1e305aef80f6a4163900e754410963bdd3d826"
+                },
+                {
                   "sha": "86c73a3",
                   "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
                   "author": "Etienne Champetier",
@@ -3467,13 +3474,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-07-26T04:49:36Z",
                   "url": "https://github.com/openwrt/packages/commit/7db9dfef44839a4610ffe686937b3b00c5a48f16"
-                },
-                {
-                  "sha": "1e02e8d",
-                  "message": "bind: bump to 9.20.26",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-07-24T13:11:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/1e02e8d8f1feb74151ef1c06c16432eea774f7b8"
                 }
               ]
             }
@@ -4391,7 +4391,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1671,
+            "stars": 1672,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-08-06T16:10:54Z",
