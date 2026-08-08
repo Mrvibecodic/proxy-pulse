@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:28:45.033795Z",
+  "generated_at": "2026-08-08T14:33:59.047419Z",
   "groups": [
     {
       "id": "cores",
@@ -81,15 +81,24 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36824,
+            "stars": 36825,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-08T13:14:20Z",
+            "pushed_at": "2026-08-08T14:31:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.10",
+              "tag": "v1.14.0-beta.10",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.10",
+              "published_at": "2026-08-08T14:31:24Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.0-beta.9",
               "tag": "v1.14.0-beta.9",
@@ -125,22 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
-            },
-            {
-              "name": "1.13.16",
-              "tag": "v1.13.16",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.16",
-              "published_at": "2026-08-03T12:14:29Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
             }
           ],
           "last_commit": {
-            "sha": "d51f03f",
-            "branch": "testing",
-            "date": "2026-08-08T13:14:21Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/d51f03f428e4873f94258a03d980565738ee2bbc"
+            "sha": "42d6e09",
+            "branch": "docs",
+            "date": "2026-08-08T14:30:35Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/42d6e09d5d33c748d31659f0661b2be77b10de94"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33054,
+            "stars": 33055,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-08T08:35:35Z",
@@ -676,7 +676,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6689,
+            "stars": 6688,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-08T09:04:55Z",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "652b2e9",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-08T09:39:35Z",
             "url": "https://github.com/openwrt/openwrt/commit/652b2e90b3c4d7f5b82ea3c7e67033ee1500f3b1"
           }
@@ -3751,7 +3751,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5127,
+            "stars": 5126,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-08T00:21:10Z",
@@ -4676,7 +4676,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24113,
+            "stars": 24114,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-06T22:31:28Z",
@@ -4747,7 +4747,7 @@
             "stars": 76163,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-08T14:07:31Z",
+            "pushed_at": "2026-08-08T14:30:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4800,10 +4800,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cd2eb72",
-            "branch": "unified-storage-embeddings-count-metrics",
-            "date": "2026-08-08T14:07:32Z",
-            "url": "https://github.com/grafana/grafana/commit/cd2eb72fba16a09751cab0dc455343638e6656af"
+            "sha": "eec4a1c",
+            "branch": "main",
+            "date": "2026-08-08T14:30:27Z",
+            "url": "https://github.com/grafana/grafana/commit/eec4a1c66b328851863369c9e031931c9b83cdbe"
           }
         },
         {
@@ -5092,6 +5092,15 @@
           },
           "releases": [
             {
+              "name": "0.37.0",
+              "tag": "0.37.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.37.0",
+              "published_at": "2026-08-08T14:29:58Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.37.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* OpenRouter connector, custom service types, and LLM vendor markers by @sedyh in https://github.com/mishkatik/infra-billing/pull/17\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.36.1...0.37.0"
+            },
+            {
               "name": "0.36.1",
               "tag": "0.36.1",
               "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.36.1",
@@ -5126,15 +5135,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.34.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(dashboard): pair runway alerts with badge rows like charge/top-up by @sedyh in https://github.com/mishkatik/infra-billing/pull/14\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.33.0...0.34.0"
-            },
-            {
-              "name": "0.33.0",
-              "tag": "0.33.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.33.0",
-              "published_at": "2026-07-27T08:07:23Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.33.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* Panel polish, icon appearance, and Hostkey InvAPI provider by @sedyh in https://github.com/mishkatik/infra-billing/pull/13\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.32.0...0.33.0"
             }
           ],
           "last_commit": {
