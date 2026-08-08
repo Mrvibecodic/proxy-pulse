@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:47:13.249872Z",
+  "generated_at": "2026-08-08T15:52:26.058762Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36826,
+            "stars": 36827,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-08T14:31:21Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-08T14:11:08Z",
+            "pushed_at": "2026-08-08T15:51:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "112a7e4",
+                  "message": "travelmate: update 2.4.7-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-08T15:50:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/112a7e4e9606b1421494cc02377ba5d2951262dc"
+                },
+                {
                   "sha": "58708c7",
                   "message": "tailscale: update to 1.102.2",
                   "author": "Sandro Jäckel",
@@ -1962,13 +1969,6 @@
                   "author": "Rosen Penev",
                   "date": "2026-08-04T01:33:26Z",
                   "url": "https://github.com/openwrt/packages/commit/fbac2e7861fb30661eef52a45223bb3a3a0d6d17"
-                },
-                {
-                  "sha": "ad58a29",
-                  "message": "ci: bump lewagon/wait-on-check-action from 1.8.1 to 1.9.0",
-                  "author": "dependabot[bot]",
-                  "date": "2026-08-03T19:09:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/ad58a29f059c7fd8b378d3ddbfdc24222ab7f05e"
                 }
               ]
             },
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "8321f2e",
+                  "message": "travelmate: update 2.4.7-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-08T15:51:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/8321f2e8b30c5031d2766bef694a38312e28052a"
+                },
+                {
                   "sha": "ca1e305",
                   "message": "travelmate: treat an unresolvable captive portal as an error",
                   "author": "Dirk Brenken",
@@ -3467,13 +3474,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-07-26T17:54:45Z",
                   "url": "https://github.com/openwrt/packages/commit/4ab7a800c5a4330b4b13b28bf89fd162e8361b56"
-                },
-                {
-                  "sha": "7db9dfe",
-                  "message": "travelmate: fix loss of configured uplink mac address",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T04:49:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/7db9dfef44839a4610ffe686937b3b00c5a48f16"
                 }
               ]
             }
@@ -4391,7 +4391,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1672,
+            "stars": 1671,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-08-06T16:10:54Z",
@@ -4608,7 +4608,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 89975,
+            "stars": 89976,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-08T00:09:47Z",
