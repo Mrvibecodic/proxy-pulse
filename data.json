@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T14:07:51.884391Z",
+  "generated_at": "2026-08-08T14:13:05.578537Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40946,
+            "stars": 40947,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-08T05:48:40Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-08T12:21:41Z",
+            "pushed_at": "2026-08-08T14:11:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "58708c7",
+                  "message": "tailscale: update to 1.102.2",
+                  "author": "Sandro Jäckel",
+                  "date": "2026-08-08T14:11:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/58708c70345b31897b08ad1697d8bf4f3c022972"
+                },
+                {
                   "sha": "7f99005",
                   "message": "travelmate: treat an unresolvable captive portal as an error",
                   "author": "Dirk Brenken",
@@ -1962,13 +1969,6 @@
                   "author": "dependabot[bot]",
                   "date": "2026-08-03T19:09:42Z",
                   "url": "https://github.com/openwrt/packages/commit/ad58a29f059c7fd8b378d3ddbfdc24222ab7f05e"
-                },
-                {
-                  "sha": "8e912e9",
-                  "message": "trafficshaper: avoid recursive dependency",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-08-03T19:08:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/8e912e91d503f5f63abe552ffa3ceeb446d7d784"
                 }
               ]
             },
