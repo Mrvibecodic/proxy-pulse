@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:05:24.596400Z",
+  "generated_at": "2026-08-09T17:11:15.579371Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33079,
+            "stars": 33080,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-09T16:42:05Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-09T17:00:40Z",
+            "pushed_at": "2026-08-09T17:10:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3051,6 +3051,41 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "cba4622",
+                  "message": "hev-socks5-server: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:11:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/cba46226f6a18de679c94f4c8ae8e2f00470b6f9"
+                },
+                {
+                  "sha": "adb2b45",
+                  "message": "hev-socks5-tproxy: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:11:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/adb2b4511a1da3bfa693950ceb2a00abcd3498ec"
+                },
+                {
+                  "sha": "fc16100",
+                  "message": "hev-socks5-tproxy: update to 2.12.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:11:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc16100a6efad16a0e51e5d1bb24a9d24f9f5335"
+                },
+                {
+                  "sha": "412c6ae",
+                  "message": "hev-socks5-tunnel: update to 2.17.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:11:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/412c6ae429628d8b3d7a540ee8de723a5b663204"
+                },
+                {
+                  "sha": "d396866",
+                  "message": "hev-socks5-tunnel: update to 2.16.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:11:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/d396866f7d95b0f17df700df0d4ab06729c04f84"
+                },
+                {
                   "sha": "fd6dc0f",
                   "message": "nano: update to 9.2",
                   "author": "Hannu Nyman",
@@ -3224,47 +3259,47 @@
                   "author": "Christian Lachner",
                   "date": "2026-07-05T12:46:27Z",
                   "url": "https://github.com/openwrt/packages/commit/d0c61658197e454e05aaf08fb5fbffe4cffb930b"
-                },
-                {
-                  "sha": "e401d90",
-                  "message": "vscode: update commit message validation line length",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-04T13:32:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/e401d906cace3fcea515728be6389acf9eaa4ddf"
-                },
-                {
-                  "sha": "ca812d6",
-                  "message": "radicale3: bump version and adjust dependencies",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-04T13:29:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/ca812d68bc5d851bdce486a63924e28d3f572db5"
-                },
-                {
-                  "sha": "08aeb45",
-                  "message": "vobject: update to 0.9.9; add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-04T13:29:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/08aeb45b92b5477c8bd6b3d0f76a9d67978c3af5"
-                },
-                {
-                  "sha": "13bd613",
-                  "message": "nano: update to 9.1",
-                  "author": "Hannu Nyman",
-                  "date": "2026-07-03T13:35:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/13bd613f60becd6202b2cbd106f9cbe920e0fa49"
-                },
-                {
-                  "sha": "4849bdf",
-                  "message": "fsh: fix a typo in fshs.init",
-                  "author": "Ray Wang",
-                  "date": "2026-07-02T16:56:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/4849bdf9c2455494581b428057a7f5046b595fd0"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "b13be99",
+                  "message": "hev-socks5-server: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:10:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/b13be99a2c276501e7c684258b86948ae5857a82"
+                },
+                {
+                  "sha": "a6b11e2",
+                  "message": "hev-socks5-tproxy: update to 2.13.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:10:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/a6b11e27b021c004b9ee0efdec74631f470dcded"
+                },
+                {
+                  "sha": "80610e3",
+                  "message": "hev-socks5-tproxy: update to 2.12.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:10:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/80610e3f100d8fc3f3449c48c1589541dc4e1157"
+                },
+                {
+                  "sha": "a1f9839",
+                  "message": "hev-socks5-tunnel: update to 2.17.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:10:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/a1f98397d1cc1cf2954ae90db32c9a8f87f18c3a"
+                },
+                {
+                  "sha": "7fe72c0",
+                  "message": "hev-socks5-tunnel: update to 2.16.0",
+                  "author": "Ray Wang",
+                  "date": "2026-08-09T17:10:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/7fe72c0f9f6150fd5deda6911c441e19474f1bdc"
+                },
                 {
                   "sha": "8321f2e",
                   "message": "travelmate: update 2.4.7-3",
@@ -3439,41 +3474,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:08:32Z",
                   "url": "https://github.com/openwrt/packages/commit/81794d2af528802d10c0c95447cb5b5cb923f113"
-                },
-                {
-                  "sha": "16e6b8c",
-                  "message": "cloudflared: support multiple upstream interfaces.",
-                  "author": "kouhei-ioroi",
-                  "date": "2026-07-27T04:08:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/16e6b8ce4c027da2cf856759544a087bf0c7b7f1"
-                },
-                {
-                  "sha": "f8beead",
-                  "message": "cloudreve: exclude tests pkg",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:08:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/f8beead72412246a9c48f26711a6a6b5f8eb06c9"
-                },
-                {
-                  "sha": "3b94707",
-                  "message": "cloudreve: Update to 4.16.1",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:08:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b94707371e5ec7642a7f2b26c03ca7748265a5f"
-                },
-                {
-                  "sha": "32bce39",
-                  "message": "adblock: keep the GeoIP map usable without a local uplink",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T19:53:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/32bce390629a8752d2ad787373bef86fe8b0c134"
-                },
-                {
-                  "sha": "4ab7a80",
-                  "message": "banip: fix the local uplink lookup of the GeoIP map",
-                  "author": "Dirk Brenken",
-                  "date": "2026-07-26T17:54:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/4ab7a800c5a4330b4b13b28bf89fd162e8361b56"
                 }
               ]
             }
@@ -5228,7 +5228,7 @@
             "stars": 6918,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-09T17:01:20Z",
+            "pushed_at": "2026-08-09T17:07:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
