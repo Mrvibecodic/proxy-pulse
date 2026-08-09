@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T08:39:00.023589Z",
+  "generated_at": "2026-08-09T08:44:12.723532Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36849,
+            "stars": 36850,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-09T07:55:07Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-09T05:43:25Z",
+            "pushed_at": "2026-08-09T08:43:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d04b36b",
+                  "message": "hev-socks5-tunnel: allow multiple instances",
+                  "author": "Sergei S.",
+                  "date": "2026-08-09T08:43:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/d04b36bbba607e65072ecd0abfae5a89af468607"
+                },
+                {
+                  "sha": "a8c37e3",
+                  "message": "python-cffi: fix cross-compilation on macOS hosts",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-09T08:42:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/a8c37e36c1e3a9b9db00a14d3e1fc98a79952f90"
+                },
+                {
+                  "sha": "762e3af",
+                  "message": "prosody: add test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-09T08:40:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/762e3affdd456781b50e73e4ee9bed778cd8fe92"
+                },
+                {
                   "sha": "5e84a98",
                   "message": "zabbix: bump version to 7.0.29",
                   "author": "Daniel F. Dickinson",
@@ -1948,27 +1969,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-06T14:00:06Z",
                   "url": "https://github.com/openwrt/packages/commit/28da48b9cb2e0cbd6f904e08dc3aa42297c16e20"
-                },
-                {
-                  "sha": "ec4ca5c",
-                  "message": "adblock: report the last run timestamp as ISO 8601",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-05T16:27:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec4ca5c917337e15a055d0550b6d409fedde033b"
-                },
-                {
-                  "sha": "5c6578a",
-                  "message": "strongswan: swanctl.init: remove invalid privkeys option",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-04T13:09:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5c6578a8b37a68263aafa600a9d193d9ac8f27cc"
-                },
-                {
-                  "sha": "37cd414",
-                  "message": "ovpn-dco: fix build on 6.18.40",
-                  "author": "Qingfang Deng",
-                  "date": "2026-08-04T13:05:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/37cd414b63fe019952b5f1c057ad3018f50a5bd1"
                 }
               ]
             },
