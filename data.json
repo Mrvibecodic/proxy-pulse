@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T06:07:15.449311Z",
+  "generated_at": "2026-08-09T06:12:39.624642Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40952,
+            "stars": 40953,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-08T05:48:40Z",
@@ -92,6 +92,15 @@
           "releases": [
             {
               "name": "",
+              "tag": "v1.14.0-beta.11",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.11",
+              "published_at": "2026-08-09T06:12:12Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": ""
+            },
+            {
+              "name": "",
               "tag": "v1.13.17",
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.17",
               "published_at": "2026-08-09T06:03:42Z",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-beta.7",
-              "tag": "v1.14.0-beta.7",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.7",
-              "published_at": "2026-08-05T03:33:51Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot)."
             }
           ],
           "last_commit": {
