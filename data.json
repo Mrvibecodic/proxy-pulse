@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T17:11:15.579371Z",
+  "generated_at": "2026-08-09T17:16:28.889290Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-09T17:10:54Z",
+            "pushed_at": "2026-08-09T17:12:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3051,6 +3051,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "73b468c",
+                  "message": "python-cffi: fix cross-compilation on macOS hosts",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-09T17:12:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/73b468c738b0f9c6302b079543877cd41b0d1420"
+                },
+                {
                   "sha": "cba4622",
                   "message": "hev-socks5-server: update to 2.13.0",
                   "author": "Ray Wang",
@@ -3252,13 +3259,6 @@
                   "author": "Michael Heimpold",
                   "date": "2026-07-05T20:01:33Z",
                   "url": "https://github.com/openwrt/packages/commit/76657866ad791468ee550774b158e3de3a7c871b"
-                },
-                {
-                  "sha": "d0c6165",
-                  "message": "haproxy: update to v3.0.25",
-                  "author": "Christian Lachner",
-                  "date": "2026-07-05T12:46:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/d0c61658197e454e05aaf08fb5fbffe4cffb930b"
                 }
               ]
             },
@@ -5228,7 +5228,7 @@
             "stars": 6918,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-09T17:07:45Z",
+            "pushed_at": "2026-08-09T17:15:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
