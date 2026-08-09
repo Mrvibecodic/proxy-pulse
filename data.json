@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T16:54:56.368238Z",
+  "generated_at": "2026-08-09T17:00:11.140921Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36864,
+            "stars": 36865,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-09T12:08:08Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-09T08:43:21Z",
+            "pushed_at": "2026-08-09T17:00:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c9f4712",
+                  "message": "python-setuptools-scm: bump to 10.2.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T17:00:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/c9f471249a5bafc5dca003d1c055be2b50f48b20"
+                },
+                {
+                  "sha": "0764982",
+                  "message": "python-hatchling: bump to 1.31.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T17:00:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/07649829b5d55251719f6dede151de27931ac208"
+                },
+                {
+                  "sha": "56740bd",
+                  "message": "python-flit-core: bump to 4.0.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T17:00:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/56740bd53b30d97b76ebb22141232a0fa966ba57"
+                },
+                {
+                  "sha": "df53053",
+                  "message": "python-packaging: bump to 26.3",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T16:59:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/df530538d0f1dd1fc9990ab6a035eedb930667bd"
+                },
+                {
+                  "sha": "e5a317c",
+                  "message": "python-argcomplete: bump to 3.7.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T16:59:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/e5a317cc70d3bf8fffc9b9fc81457bfcfd8214af"
+                },
+                {
+                  "sha": "e084962",
+                  "message": "python-anyio: bump to 4.14.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-09T16:59:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/e084962404b332b9937c7aacdb1f6c7d4ddfc33d"
+                },
+                {
                   "sha": "d04b36b",
                   "message": "hev-socks5-tunnel: allow multiple instances",
                   "author": "Sergei S.",
@@ -1927,48 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-07T08:27:13Z",
                   "url": "https://github.com/openwrt/packages/commit/b0536d3ff62bdb635ef8cb0d469e6d90004e4cba"
-                },
-                {
-                  "sha": "98243ee",
-                  "message": "graphicsmagick: update to 1.3.48",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/98243ee6ef8a919df2fb83f0a182b8c66b28117f"
-                },
-                {
-                  "sha": "9c2eb54",
-                  "message": "imagemagick: update to 7.1.2.29",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c2eb543ebb31f5494d55e5cd97176740df0ead2"
-                },
-                {
-                  "sha": "6de1828",
-                  "message": "checksec: remove package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T07:12:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/6de18286ee5b47352cc9d49a7a6097ec7c9da9a6"
-                },
-                {
-                  "sha": "91a6967",
-                  "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
-                  "author": "Etienne Champetier",
-                  "date": "2026-08-07T02:24:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/91a6967643c8b2ae69cd1515f4213f7b7310d6eb"
-                },
-                {
-                  "sha": "23e2f53",
-                  "message": "banip: report the last run timestamp as ISO 8601",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-06T19:26:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/23e2f530fe990b03e5d87bad9a499914caef92ad"
-                },
-                {
-                  "sha": "28da48b",
-                  "message": "travelmate: release 2.4.7-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-06T14:00:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/28da48b9cb2e0cbd6f904e08dc3aa42297c16e20"
                 }
               ]
             },
@@ -4615,7 +4615,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90016,
+            "stars": 90017,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-09T00:08:00Z",
@@ -5228,7 +5228,7 @@
             "stars": 6918,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-09T16:48:27Z",
+            "pushed_at": "2026-08-09T16:55:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
