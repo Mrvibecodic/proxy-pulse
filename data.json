@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:51:46.779220Z",
+  "generated_at": "2026-08-09T07:56:59.603683Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,30 @@
             "stars": 36848,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-09T06:58:21Z",
+            "pushed_at": "2026-08-09T07:55:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-beta.12",
+              "tag": "v1.14.0-beta.12",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.12",
+              "published_at": "2026-08-09T07:55:11Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements\n"
+            },
+            {
+              "name": "1.13.18",
+              "tag": "v1.13.18",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.18",
+              "published_at": "2026-08-09T07:55:08Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements\n"
+            },
             {
               "name": "1.14.0-beta.10",
               "tag": "v1.14.0-beta.10",
@@ -116,31 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-beta.7",
-              "tag": "v1.14.0-beta.7",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.7",
-              "published_at": "2026-08-05T03:33:51Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add Hysteria2 Chrome QUIC fingerprint parroting **1**\n* Update quic-go to v0.61.0\n* Update tailscale to v1.102.1\n* Update gvisor to 20260727.0\n* Fixes and improvements\n\n**1**:\n\nHysteria2 client connections now parrot Chrome's QUIC handshake by default, making the traffic harder to identify by handshake fingerprinting. Since Chrome does not declare support for Ed25519, servers using Ed25519 certificates will fail the handshake; see [disable_chrome_parrot](https://sing-box.sagernet.org/configuration/outbound/hysteria2/#disable_chrome_parrot)."
-            },
-            {
-              "name": "1.14.0-beta.5",
-              "tag": "v1.14.0-beta.5",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.5",
-              "published_at": "2026-08-03T12:14:25Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Remove client metadata from AnyTLS requests by default **1**\n* Update naiveproxy to v150.0.7871.63-1\n* Fixes and improvements\n\n**1**:\n\nWe found that the AnyTLS client implementation uploads metadata that is **not used by the open-source server**, and there are reports of vendors using it to profile and discriminate against users. We now leave it empty by default and allow you to customize it, see [AnyTLS client metadata](https://sing-box.sagernet.org/manual/misc/anytls-client-metadata/)."
             }
           ],
           "last_commit": {
-            "sha": "426c5fa",
-            "branch": "testing",
-            "date": "2026-08-09T06:58:22Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/426c5faf06b9eeacee631ee7c771250d6fe801d6"
+            "sha": "97671c8",
+            "branch": "docs",
+            "date": "2026-08-09T07:54:03Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/97671c8f5cbe3ade39fd439d14d093b208e1c1f4"
           }
         },
         {
@@ -4683,7 +4683,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24124,
+            "stars": 24125,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-09T02:14:08Z",
