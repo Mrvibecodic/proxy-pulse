@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:31:28.883690Z",
+  "generated_at": "2026-08-10T17:36:43.543137Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:27:58Z",
+            "pushed_at": "2026-08-10T17:36:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b1334f2",
+                  "message": "banip: fix cpu core calculation",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-10T17:36:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/b1334f27cadc77701748b1832ce55f905293ebc6"
+                },
+                {
                   "sha": "8853704",
                   "message": "python3-drf-nested-routers: update to 0.95.3",
                   "author": "Wei-Ting Yang",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-09T17:00:03Z",
                   "url": "https://github.com/openwrt/packages/commit/56740bd53b30d97b76ebb22141232a0fa966ba57"
-                },
-                {
-                  "sha": "df53053",
-                  "message": "python-packaging: bump to 26.3",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T16:59:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/df530538d0f1dd1fc9990ab6a035eedb930667bd"
                 }
               ]
             },
@@ -4398,7 +4398,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1678,
+            "stars": 1679,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-08-10T16:56:02Z",
@@ -4754,7 +4754,7 @@
             "stars": 76195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:29:43Z",
+            "pushed_at": "2026-08-10T17:34:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bfb99af",
-            "branch": "cinaglia/mt-authn-sa-token",
-            "date": "2026-08-10T16:39:46Z",
-            "url": "https://github.com/grafana/grafana/commit/bfb99afe87d4cc1707475961b0c7396186b50a77"
+            "sha": "42d91f7",
+            "branch": "navigation/plugin-path-nesting",
+            "date": "2026-08-10T16:40:18Z",
+            "url": "https://github.com/grafana/grafana/commit/42d91f748f4abd605f6a628cb76f6ae02f96ea02"
           }
         },
         {
@@ -4822,7 +4822,7 @@
             "stars": 65653,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:24:33Z",
+            "pushed_at": "2026-08-10T17:35:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
