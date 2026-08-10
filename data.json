@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:53:50.636851Z",
+  "generated_at": "2026-08-10T01:59:03.781319Z",
   "groups": [
     {
       "id": "cores",
@@ -820,7 +820,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27923,
+            "stars": 27924,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-09T14:49:28Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T00:45:34Z",
+            "pushed_at": "2026-08-10T01:58:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1754,221 +1754,6 @@
                   "author": "Hannu Nyman",
                   "date": "2019-03-17T16:30:06Z",
                   "url": "https://github.com/openwrt/packages/commit/11eebc6fa01c802d6655978b0ab1402f55fef76a"
-                }
-              ]
-            },
-            {
-              "name": "librespeed-cli-rust",
-              "commits": [
-                {
-                  "sha": "a35932f",
-                  "message": "librespeed-cli-rust: use the tagged release",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-10T00:45:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/a35932f3b58901f074ec778a12f1c336acb1f38e"
-                },
-                {
-                  "sha": "3fb05fd",
-                  "message": "librespeed-cli-rust: repin to a commit that still exists",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T22:35:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/3fb05fd7236830396ca816f23963638bdda6d7a7"
-                },
-                {
-                  "sha": "cdd3a28",
-                  "message": "librespeed-cli-rust: add run tests",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T20:56:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/cdd3a28971e4d7ff09639aa9d752547e1850c40a"
-                },
-                {
-                  "sha": "f5dd73c",
-                  "message": "librespeed-cli-rust: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T12:27:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/f5dd73c79d62efad0f97a656b9976773b185e9fa"
-                },
-                {
-                  "sha": "edef6a4",
-                  "message": "gpsd: run as dedicated 'gpsd' system user",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:47:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/edef6a49260f5697a90dc83b26d1a8709e5afa03"
-                },
-                {
-                  "sha": "dcc40b9",
-                  "message": "perl: fix arch in powerpc64 config",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:45:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcc40b9ad5c55484d8e722cc984f904b527578c1"
-                },
-                {
-                  "sha": "900251a",
-                  "message": "rsyslog: track config files for procd restart",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:37:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/900251a607b782b912bf85cfd9ea68fd10b11efa"
-                },
-                {
-                  "sha": "6b5954e",
-                  "message": "sudo: create sudo group",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:34:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/6b5954ef81534f775510a03ef2b529df4f634e42"
-                },
-                {
-                  "sha": "ca04783",
-                  "message": "erlang: remove quiet mode from grep in test version checks",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T08:42:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/ca04783f334c5b70531106925a15f19b3b0494c5"
-                },
-                {
-                  "sha": "7fb98c1",
-                  "message": "erlang: stop shipping sasl in the base package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T08:42:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/7fb98c160db351c47c9af108901299eb0ba5928c"
-                },
-                {
-                  "sha": "bebf110",
-                  "message": "hev-socks5-tproxy: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-07T08:41:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/bebf1107a2ee63080f5c76dc4fb8b7e9cd5d54c6"
-                },
-                {
-                  "sha": "a5bd28e",
-                  "message": "hev-socks5-server: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-07T08:41:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/a5bd28ed020605b0922dea9a865d28d42dc14bbe"
-                },
-                {
-                  "sha": "8230dc3",
-                  "message": "hev-socks5-tunnel: update to 2.17.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-07T08:40:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/8230dc3e5dbf7dea9d833bddb1b2bc2844048441"
-                },
-                {
-                  "sha": "8e89b97",
-                  "message": "imagemagick: add test-version.sh version override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/8e89b97254ce8da89ddb89c2366578aff67ce292"
-                },
-                {
-                  "sha": "8d4f64d",
-                  "message": "graphicsmagick: expand test.sh coverage",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/8d4f64dc9ff6a63ee3851335bebcd4061a2ad505"
-                },
-                {
-                  "sha": "b0536d3",
-                  "message": "imagemagick: expand test.sh coverage",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/b0536d3ff62bdb635ef8cb0d469e6d90004e4cba"
-                },
-                {
-                  "sha": "98243ee",
-                  "message": "graphicsmagick: update to 1.3.48",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/98243ee6ef8a919df2fb83f0a182b8c66b28117f"
-                },
-                {
-                  "sha": "9c2eb54",
-                  "message": "imagemagick: update to 7.1.2.29",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T08:27:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c2eb543ebb31f5494d55e5cd97176740df0ead2"
-                },
-                {
-                  "sha": "6de1828",
-                  "message": "checksec: remove package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T07:12:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/6de18286ee5b47352cc9d49a7a6097ec7c9da9a6"
-                },
-                {
-                  "sha": "91a6967",
-                  "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
-                  "author": "Etienne Champetier",
-                  "date": "2026-08-07T02:24:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/91a6967643c8b2ae69cd1515f4213f7b7310d6eb"
-                },
-                {
-                  "sha": "23e2f53",
-                  "message": "banip: report the last run timestamp as ISO 8601",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-06T19:26:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/23e2f530fe990b03e5d87bad9a499914caef92ad"
-                },
-                {
-                  "sha": "28da48b",
-                  "message": "travelmate: release 2.4.7-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-06T14:00:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/28da48b9cb2e0cbd6f904e08dc3aa42297c16e20"
-                },
-                {
-                  "sha": "ec4ca5c",
-                  "message": "adblock: report the last run timestamp as ISO 8601",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-05T16:27:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec4ca5c917337e15a055d0550b6d409fedde033b"
-                },
-                {
-                  "sha": "5c6578a",
-                  "message": "strongswan: swanctl.init: remove invalid privkeys option",
-                  "author": "Florian Eckert",
-                  "date": "2026-08-04T13:09:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5c6578a8b37a68263aafa600a9d193d9ac8f27cc"
-                },
-                {
-                  "sha": "37cd414",
-                  "message": "ovpn-dco: fix build on 6.18.40",
-                  "author": "Qingfang Deng",
-                  "date": "2026-08-04T13:05:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/37cd414b63fe019952b5f1c057ad3018f50a5bd1"
-                },
-                {
-                  "sha": "c4f3f8d",
-                  "message": "cligen: fix depends",
-                  "author": "Andy Chiang",
-                  "date": "2026-08-04T05:33:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/c4f3f8d0922a05d0e052c8835e05667a43be4160"
-                },
-                {
-                  "sha": "fbac2e7",
-                  "message": "cryptsetup: update to 2.8.7",
-                  "author": "Rosen Penev",
-                  "date": "2026-08-04T01:33:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/fbac2e7861fb30661eef52a45223bb3a3a0d6d17"
-                },
-                {
-                  "sha": "ad58a29",
-                  "message": "ci: bump lewagon/wait-on-check-action from 1.8.1 to 1.9.0",
-                  "author": "dependabot[bot]",
-                  "date": "2026-08-03T19:09:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/ad58a29f059c7fd8b378d3ddbfdc24222ab7f05e"
-                },
-                {
-                  "sha": "8e912e9",
-                  "message": "trafficshaper: avoid recursive dependency",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-08-03T19:08:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/8e912e91d503f5f63abe552ffa3ceeb446d7d784"
-                },
-                {
-                  "sha": "2c72717",
-                  "message": "nano: update to 9.2",
-                  "author": "Hannu Nyman",
-                  "date": "2026-08-03T15:10:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/2c72717c16c73df9cf05fc93ce21165452200169"
                 }
               ]
             },
