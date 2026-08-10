@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T19:21:40.072802Z",
+  "generated_at": "2026-08-10T19:26:54.727403Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40968,
+            "stars": 40969,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-10T05:44:23Z",
@@ -820,7 +820,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27938,
+            "stars": 27939,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-09T14:49:28Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:36:52Z",
+            "pushed_at": "2026-08-10T19:26:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f46fc0f",
+                  "message": "python-msgpack: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T19:26:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/f46fc0fed089402718fe5b637007bd10eacfb1ba"
+                },
+                {
+                  "sha": "4f7144e",
+                  "message": "python-eventlet: bump to 0.41.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T19:26:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/4f7144e2e1351d2b8a2b89221b48601b546f4de8"
+                },
+                {
+                  "sha": "2650954",
+                  "message": "python-msgpack: bump to 1.2.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T19:26:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/265095410283bbf0c16f999bbea68dcc761d39da"
+                },
+                {
+                  "sha": "a08c70b",
+                  "message": "python-gmpy2: bump to 2.3.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T19:26:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/a08c70b637bc2ddaaa37f601f42c989e73f0ad30"
+                },
+                {
                   "sha": "b1334f2",
                   "message": "banip: fix cpu core calculation",
                   "author": "Dirk Brenken",
@@ -1941,34 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-09T17:00:40Z",
                   "url": "https://github.com/openwrt/packages/commit/c5d531cf99cf3eee0886e3180826030957d5a922"
-                },
-                {
-                  "sha": "a3b6bdb",
-                  "message": "python-pybind11: bump to 3.1.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/a3b6bdbee565e3aac067d026d1e02e2b633cc68b"
-                },
-                {
-                  "sha": "c9f4712",
-                  "message": "python-setuptools-scm: bump to 10.2.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/c9f471249a5bafc5dca003d1c055be2b50f48b20"
-                },
-                {
-                  "sha": "0764982",
-                  "message": "python-hatchling: bump to 1.31.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/07649829b5d55251719f6dede151de27931ac208"
-                },
-                {
-                  "sha": "56740bd",
-                  "message": "python-flit-core: bump to 4.0.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/56740bd53b30d97b76ebb22141232a0fa966ba57"
                 }
               ]
             },
@@ -3485,7 +3485,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2046,
+            "stars": 2047,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-07-20T21:33:13Z",
@@ -4615,7 +4615,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90052,
+            "stars": 90053,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-10T00:09:16Z",
@@ -4754,7 +4754,7 @@
             "stars": 76198,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T19:17:29Z",
+            "pushed_at": "2026-08-10T19:25:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7566591",
-            "branch": "nicwestvold/rspack-plugin-configs",
-            "date": "2026-08-10T19:10:17Z",
-            "url": "https://github.com/grafana/grafana/commit/7566591d335888ebf607cec579b6fe8b646ffacf"
+            "sha": "8e23533",
+            "branch": "rodrigopk/mute-timings-show-disabled",
+            "date": "2026-08-10T19:25:40Z",
+            "url": "https://github.com/grafana/grafana/commit/8e23533490c0250d3a46e584fda03344710a906b"
           }
         },
         {
@@ -4887,7 +4887,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80107,
+            "stars": 80108,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-10T15:43:40Z",
