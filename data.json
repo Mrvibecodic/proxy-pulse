@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:59:29.461799Z",
+  "generated_at": "2026-08-10T08:04:44.357442Z",
   "groups": [
     {
       "id": "cores",
@@ -820,7 +820,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27930,
+            "stars": 27931,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-09T14:49:28Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T06:55:45Z",
+            "pushed_at": "2026-08-10T08:01:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "daf1e71",
+                  "message": "sscep: rename test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-10T08:01:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/daf1e717efd7ea3189d400f05727dd0dc1c092bd"
+                },
+                {
+                  "sha": "308a5db",
+                  "message": "tree-wide: remove quiet mode from grep in test version checks",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-10T08:01:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/308a5db9654b4cf9f8a97976e5a1657649ad683e"
+                },
+                {
                   "sha": "6de3f9b",
                   "message": "libsndfile: drop cmake4 patch for a policy override",
                   "author": "Alexandru Ardelean",
@@ -1955,20 +1969,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-07T08:42:25Z",
                   "url": "https://github.com/openwrt/packages/commit/ca04783f334c5b70531106925a15f19b3b0494c5"
-                },
-                {
-                  "sha": "7fb98c1",
-                  "message": "erlang: stop shipping sasl in the base package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-07T08:42:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/7fb98c160db351c47c9af108901299eb0ba5928c"
-                },
-                {
-                  "sha": "bebf110",
-                  "message": "hev-socks5-tproxy: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-07T08:41:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/bebf1107a2ee63080f5c76dc4fb8b7e9cd5d54c6"
                 }
               ]
             },
@@ -4683,7 +4683,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24157,
+            "stars": 24158,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-09T02:14:08Z",
@@ -4751,10 +4751,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76181,
+            "stars": 76182,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T07:57:43Z",
+            "pushed_at": "2026-08-10T08:02:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "476153b",
-            "branch": "main",
-            "date": "2026-08-10T07:57:41Z",
-            "url": "https://github.com/grafana/grafana/commit/476153b291fd25d39bc548eae6df78cf132716cb"
+            "sha": "c8f9b3c",
+            "branch": "alerting/remove-central-alert-history-flag",
+            "date": "2026-08-10T08:02:21Z",
+            "url": "https://github.com/grafana/grafana/commit/c8f9b3c703dcebd0257371f032df8aa7fa866775"
           }
         },
         {
