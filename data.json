@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:15:41.581430Z",
+  "generated_at": "2026-08-10T17:20:57.691162Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:15:35Z",
+            "pushed_at": "2026-08-10T17:17:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8c8875c",
+                  "message": "sudo: add test-version.sh and stop running sudo in tests",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T17:17:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/8c8875c1f6f8eb11ca504f2abb3145c960a59081"
+                },
+                {
+                  "sha": "bfb4cce",
+                  "message": "sudo: drop 020-no-owner-change.patch for a make override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T17:17:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/bfb4cce23ac9eff565d2bcd0fa57c6685326d5d9"
+                },
+                {
+                  "sha": "3caf694",
+                  "message": "python-installer: allow flit_core 4.x as the build backend",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T17:17:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/3caf694947323cba3e2ddbe90752188a2ed43ab6"
+                },
+                {
+                  "sha": "d32f366",
+                  "message": "python-pyproject-hooks: allow flit_core 4.x as the build backend",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T17:17:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/d32f366b1439f2b0de71900fcc3d7f59cbfc9ca4"
+                },
+                {
                   "sha": "9f8feb1",
                   "message": "adblock: fix cpu core calculation",
                   "author": "Dirk Brenken",
@@ -1941,34 +1969,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-09T05:43:25Z",
                   "url": "https://github.com/openwrt/packages/commit/5e84a9851b1651d650f1aae21209a12654cb90c9"
-                },
-                {
-                  "sha": "261d062",
-                  "message": "radicale3: bump to v3.7.8",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-09T04:37:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/261d062ea9b3bc2cf6582f70f9bc7d1e45848dba"
-                },
-                {
-                  "sha": "112a7e4",
-                  "message": "travelmate: update 2.4.7-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-08T15:50:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/112a7e4e9606b1421494cc02377ba5d2951262dc"
-                },
-                {
-                  "sha": "58708c7",
-                  "message": "tailscale: update to 1.102.2",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-08-08T14:11:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/58708c70345b31897b08ad1697d8bf4f3c022972"
-                },
-                {
-                  "sha": "7f99005",
-                  "message": "travelmate: treat an unresolvable captive portal as an error",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-08T12:20:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f99005b4cc9675108c1c1388bc5bd64c08f41e8"
                 }
               ]
             },
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "6a6240d",
+                  "message": "adblock: fix cpu core calculation",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-10T17:16:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/6a6240d788d1e06e5ff0be7d048c4d76240a404a"
+                },
+                {
                   "sha": "b13be99",
                   "message": "hev-socks5-server: update to 2.13.0",
                   "author": "Ray Wang",
@@ -3467,13 +3474,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:08:36Z",
                   "url": "https://github.com/openwrt/packages/commit/3fccac3719f2c7bb3ea4f93dbeca36a80d52a811"
-                },
-                {
-                  "sha": "81794d2",
-                  "message": "cloudflared: Update to 2026.6.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:08:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/81794d2af528802d10c0c95447cb5b5cb923f113"
                 }
               ]
             }
@@ -4754,7 +4754,7 @@
             "stars": 76195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:15:31Z",
+            "pushed_at": "2026-08-10T17:18:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "de938c0",
-            "branch": "MattIPv4/home-visual-refresh-background",
-            "date": "2026-08-10T17:15:32Z",
-            "url": "https://github.com/grafana/grafana/commit/de938c0fa6b2c1032fc9f0b0fc7d9c48794839d8"
+            "sha": "48ff1f9",
+            "branch": "MattIPv4/home-header-actions",
+            "date": "2026-08-10T17:18:27Z",
+            "url": "https://github.com/grafana/grafana/commit/48ff1f910e1780295b0183b2e01003be0bcc8ef0"
           }
         },
         {
