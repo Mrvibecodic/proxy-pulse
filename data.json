@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:36:43.543137Z",
+  "generated_at": "2026-08-10T17:41:57.480269Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:36:20Z",
+            "pushed_at": "2026-08-10T17:36:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3266,6 +3266,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "4c97420",
+                  "message": "banip: fix cpu core calculation",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-10T17:36:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/4c9742083b41dd00499de7579349b90b6e2d557c"
+                },
+                {
                   "sha": "6a6240d",
                   "message": "adblock: fix cpu core calculation",
                   "author": "Dirk Brenken",
@@ -3467,13 +3474,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:08:39Z",
                   "url": "https://github.com/openwrt/packages/commit/0e807c2a70c71f0488376d56c22d6670aa568b82"
-                },
-                {
-                  "sha": "3fccac3",
-                  "message": "dnslookup: Update to 1.12.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:08:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/3fccac3719f2c7bb3ea4f93dbeca36a80d52a811"
                 }
               ]
             }
@@ -3689,7 +3689,7 @@
           "track": "tags",
           "meta": {
             "description": "AmneziaWG Linux kernel module",
-            "stars": 464,
+            "stars": 465,
             "url": "https://github.com/amnezia-vpn/amneziawg-linux-kernel-module",
             "default_branch": "master",
             "pushed_at": "2026-08-10T14:49:03Z",
@@ -4754,7 +4754,7 @@
             "stars": 76195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:34:05Z",
+            "pushed_at": "2026-08-10T17:41:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "42d91f7",
-            "branch": "navigation/plugin-path-nesting",
-            "date": "2026-08-10T16:40:18Z",
-            "url": "https://github.com/grafana/grafana/commit/42d91f748f4abd605f6a628cb76f6ae02f96ea02"
+            "sha": "0b62fad",
+            "branch": "agent/mtea-oauth-refresh-prerequisite",
+            "date": "2026-08-10T17:41:38Z",
+            "url": "https://github.com/grafana/grafana/commit/0b62fad7a70ec2f18fe3c3796ae3556247177b0e"
           }
         },
         {
