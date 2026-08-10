@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T11:29:11.930665Z",
+  "generated_at": "2026-08-10T11:34:25.408860Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40978,
+            "stars": 40979,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-10T05:44:23Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T09:39:07Z",
+            "pushed_at": "2026-08-10T11:29:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9d1b631",
+                  "message": "python-wheel: allow flit_core 4.x as the build backend",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T11:29:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/9d1b631289e8a40f444016190fd29f85cfe383d6"
+                },
+                {
                   "sha": "2b4556e",
                   "message": "libmpc: update to 1.4.1 and drop only-src patch",
                   "author": "Alexandru Ardelean",
@@ -1962,13 +1969,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-08-07T10:45:30Z",
                   "url": "https://github.com/openwrt/packages/commit/dcc40b9ad5c55484d8e722cc984f904b527578c1"
-                },
-                {
-                  "sha": "900251a",
-                  "message": "rsyslog: track config files for procd restart",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:37:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/900251a607b782b912bf85cfd9ea68fd10b11efa"
                 }
               ]
             },
@@ -4754,7 +4754,7 @@
             "stars": 76189,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T11:23:50Z",
+            "pushed_at": "2026-08-10T11:30:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1d08e97",
-            "branch": "main",
-            "date": "2026-08-10T11:23:49Z",
-            "url": "https://github.com/grafana/grafana/commit/1d08e97e4ee7d8e6cb20a8652f4ce8d378e3ebb0"
+            "sha": "54fa44f",
+            "branch": "grafakus/e2e.migration-cleanup-2",
+            "date": "2026-08-10T11:30:53Z",
+            "url": "https://github.com/grafana/grafana/commit/54fa44f18589fbc4cbe7086712710adb053c465e"
           }
         },
         {
