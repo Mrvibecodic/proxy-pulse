@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:26:14.268579Z",
+  "generated_at": "2026-08-10T17:31:28.883690Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36887,
+            "stars": 36888,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-10T15:27:19Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:17:56Z",
+            "pushed_at": "2026-08-10T17:27:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8853704",
+                  "message": "python3-drf-nested-routers: update to 0.95.3",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-08-10T17:27:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/8853704806ff9be6687b8b68344f270f5adaa1fc"
+                },
+                {
+                  "sha": "8d58a98",
+                  "message": "django-restframework: update to 3.18.0",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-08-10T17:27:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/8d58a98809ffdbc509a51cf1157c5aafa4581bee"
+                },
+                {
+                  "sha": "47f7e0f",
+                  "message": "django: update to 6.1",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-08-10T17:27:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/47f7e0f67674f96b26215782dcabd5117f0b9f6a"
+                },
+                {
+                  "sha": "04e4f3f",
+                  "message": "python-asgiref: update to 3.12.1",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-08-10T17:27:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/04e4f3f808ee077d80277a043dd74868061b3bcc"
+                },
+                {
+                  "sha": "9e4789e",
+                  "message": "uradvd: fix the version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-10T17:27:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e4789e5f50b66aa125f6a8de21769b654f7728a"
+                },
+                {
+                  "sha": "22e7e54",
+                  "message": "syncthing: bump to 2.1.3",
+                  "author": "George Sapkin",
+                  "date": "2026-08-10T17:26:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/22e7e5414fbade427f4f5ec2e9e6b27124261a66"
+                },
+                {
                   "sha": "8c8875c",
                   "message": "sudo: add test-version.sh and stop running sudo in tests",
                   "author": "Alexandru Ardelean",
@@ -1927,48 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-09T16:59:57Z",
                   "url": "https://github.com/openwrt/packages/commit/df530538d0f1dd1fc9990ab6a035eedb930667bd"
-                },
-                {
-                  "sha": "e5a317c",
-                  "message": "python-argcomplete: bump to 3.7.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T16:59:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/e5a317cc70d3bf8fffc9b9fc81457bfcfd8214af"
-                },
-                {
-                  "sha": "e084962",
-                  "message": "python-anyio: bump to 4.14.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T16:59:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/e084962404b332b9937c7aacdb1f6c7d4ddfc33d"
-                },
-                {
-                  "sha": "d04b36b",
-                  "message": "hev-socks5-tunnel: allow multiple instances",
-                  "author": "Sergei S.",
-                  "date": "2026-08-09T08:43:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/d04b36bbba607e65072ecd0abfae5a89af468607"
-                },
-                {
-                  "sha": "a8c37e3",
-                  "message": "python-cffi: fix cross-compilation on macOS hosts",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-09T08:42:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/a8c37e36c1e3a9b9db00a14d3e1fc98a79952f90"
-                },
-                {
-                  "sha": "762e3af",
-                  "message": "prosody: add test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-09T08:40:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/762e3affdd456781b50e73e4ee9bed778cd8fe92"
-                },
-                {
-                  "sha": "5e84a98",
-                  "message": "zabbix: bump version to 7.0.29",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-09T05:43:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e84a9851b1651d650f1aae21209a12654cb90c9"
                 }
               ]
             },
@@ -4754,7 +4754,7 @@
             "stars": 76195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:24:08Z",
+            "pushed_at": "2026-08-10T17:29:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "980dc5f",
-            "branch": "MattIPv4/home-header-actions",
-            "date": "2026-08-10T16:35:01Z",
-            "url": "https://github.com/grafana/grafana/commit/980dc5f54e901e95250d94a722c703ce901de352"
+            "sha": "bfb99af",
+            "branch": "cinaglia/mt-authn-sa-token",
+            "date": "2026-08-10T16:39:46Z",
+            "url": "https://github.com/grafana/grafana/commit/bfb99afe87d4cc1707475961b0c7396186b50a77"
           }
         },
         {
@@ -5225,7 +5225,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6927,
+            "stars": 6928,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-10T04:46:37Z",
