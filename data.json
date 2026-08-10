@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:40:14.618932Z",
+  "generated_at": "2026-08-10T13:45:37.060582Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 40979,
+            "stars": 40975,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-10T05:44:23Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36888,
+            "stars": 36886,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-10T12:20:20Z",
@@ -499,7 +499,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1299,
+            "stars": 1298,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-07-21T22:36:40Z",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 916,
+            "stars": 913,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-04T23:17:20Z",
@@ -676,7 +676,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6715,
+            "stars": 6712,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-09T21:50:48Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T13:04:08Z",
+            "pushed_at": "2026-08-10T13:45:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "99a2de5",
+                  "message": "python-typing-extensions: allow flit_core 4.x as the build backend",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T13:45:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/99a2de54f592faef7caa56c80e86510d51d1dd11"
+                },
+                {
                   "sha": "53a269f",
                   "message": "python-vcs-versioning: bump to 2.2.4",
                   "author": "Alexandru Ardelean",
@@ -1962,13 +1969,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-08-07T13:10:48Z",
                   "url": "https://github.com/openwrt/packages/commit/830fca1ed782e1860aa4e43387f5be169c0ca647"
-                },
-                {
-                  "sha": "038f45a",
-                  "message": "liblo: update to 0.36",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T13:10:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/038f45a5221d655f0bbab7a5b8e48fe413555fe3"
                 }
               ]
             },
@@ -3807,10 +3807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "388f34e",
-            "branch": "main",
-            "date": "2026-08-04T09:17:05Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/388f34e5c7749ea9bc2d2068dafb569014ee32e7"
+            "sha": "8e29284",
+            "branch": "dependabot/mihomo-alpha",
+            "date": "2026-08-10T00:23:15Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/8e292845ee9d5e38a40c900a748030828b6756ec"
           }
         },
         {
@@ -4615,7 +4615,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90046,
+            "stars": 90047,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-10T00:09:16Z",
@@ -4754,7 +4754,7 @@
             "stars": 76191,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T13:39:21Z",
+            "pushed_at": "2026-08-10T13:43:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2e1f339",
-            "branch": "main",
-            "date": "2026-08-10T13:39:20Z",
-            "url": "https://github.com/grafana/grafana/commit/2e1f339eaa8b67a83d5d760766425cac9d2dcbd6"
+            "sha": "3d488ad",
+            "branch": "release-13.0.7",
+            "date": "2026-08-10T13:29:52Z",
+            "url": "https://github.com/grafana/grafana/commit/3d488ad0cf73fa0c2a8dfd99a6dc1372d0cdd44f"
           }
         },
         {
@@ -4819,10 +4819,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65655,
+            "stars": 65653,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T12:55:27Z",
+            "pushed_at": "2026-08-10T13:43:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4875,10 +4875,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aa7ec85",
-            "branch": "deps-update/eslint-compat-2.x",
-            "date": "2026-08-10T12:45:18Z",
-            "url": "https://github.com/prometheus/prometheus/commit/aa7ec858cd8a13a2e8cbcb5cf779a77992bb7910"
+            "sha": "5e74f1b",
+            "branch": "deps-update/modules",
+            "date": "2026-08-10T13:43:49Z",
+            "url": "https://github.com/prometheus/prometheus/commit/5e74f1bf8f34f4f46f68ced687760e3f3e5524ba"
           }
         },
         {
