@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T09:34:00.550032Z",
+  "generated_at": "2026-08-10T09:39:15.269771Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36878,
+            "stars": 36879,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-10T08:07:35Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T08:34:46Z",
+            "pushed_at": "2026-08-10T09:39:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2b4556e",
+                  "message": "libmpc: update to 1.4.1 and drop only-src patch",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T09:39:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/2b4556e32ecc2ca53e31db1e7f552db7f860a818"
+                },
+                {
                   "sha": "2605657",
                   "message": "librespeed-cli-rust: add new package",
                   "author": "Josef Schlehofer",
@@ -1962,13 +1969,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-08-07T10:37:49Z",
                   "url": "https://github.com/openwrt/packages/commit/900251a607b782b912bf85cfd9ea68fd10b11efa"
-                },
-                {
-                  "sha": "6b5954e",
-                  "message": "sudo: create sudo group",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:34:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/6b5954ef81534f775510a03ef2b529df4f634e42"
                 }
               ]
             },
@@ -4754,7 +4754,7 @@
             "stars": 76187,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T09:30:34Z",
+            "pushed_at": "2026-08-10T09:38:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ec4a721",
-            "branch": "RafaelPaulovic/score-field-default-all",
-            "date": "2026-08-10T09:17:51Z",
-            "url": "https://github.com/grafana/grafana/commit/ec4a721c092cc68ed7231db55990a5368d7d1215"
+            "sha": "866b436",
+            "branch": "alerting/remove-central-alert-history-flag",
+            "date": "2026-08-10T09:37:59Z",
+            "url": "https://github.com/grafana/grafana/commit/866b436553d9ed193d670d73e85f6e7e95d50232"
           }
         },
         {
@@ -4822,7 +4822,7 @@
             "stars": 65652,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T09:24:27Z",
+            "pushed_at": "2026-08-10T09:35:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4875,10 +4875,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8eee823",
-            "branch": "deps-update/github.com-klauspost-compress-1.x",
-            "date": "2026-08-10T09:18:07Z",
-            "url": "https://github.com/prometheus/prometheus/commit/8eee823c455e8775938364fdac8d3c031a4d31d4"
+            "sha": "de2bc59",
+            "branch": "main",
+            "date": "2026-08-10T09:35:58Z",
+            "url": "https://github.com/prometheus/prometheus/commit/de2bc59f94eca839121a2f3be2df82e915590845"
           }
         },
         {
