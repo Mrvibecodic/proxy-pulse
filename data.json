@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T13:03:34.369080Z",
+  "generated_at": "2026-08-10T13:08:48.564445Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T11:29:42Z",
+            "pushed_at": "2026-08-10T13:04:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "53a269f",
+                  "message": "python-vcs-versioning: bump to 2.2.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T13:04:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/53a269f85d3476f648b546fcd2987769d34f9a44"
+                },
+                {
+                  "sha": "63a2b3f",
+                  "message": "python-setuptools-rust: bump to 1.13.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T13:04:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/63a2b3f6d595bbe49ed93726fa2ff276943e0a32"
+                },
+                {
+                  "sha": "6211fee",
+                  "message": "python-setuptools: bump to 84.0.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-10T13:04:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/6211fee354f46e356cce4ce565741f105d976f73"
+                },
+                {
                   "sha": "9d1b631",
                   "message": "python-wheel: allow flit_core 4.x as the build backend",
                   "author": "Alexandru Ardelean",
@@ -1948,27 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-07T13:10:30Z",
                   "url": "https://github.com/openwrt/packages/commit/038f45a5221d655f0bbab7a5b8e48fe413555fe3"
-                },
-                {
-                  "sha": "f74de8f",
-                  "message": "libidn: update to 1.44",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-07T13:10:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/f74de8f2a445ac16a1fe59e62eb60dd923eabe06"
-                },
-                {
-                  "sha": "edef6a4",
-                  "message": "gpsd: run as dedicated 'gpsd' system user",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:47:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/edef6a49260f5697a90dc83b26d1a8709e5afa03"
-                },
-                {
-                  "sha": "dcc40b9",
-                  "message": "perl: fix arch in powerpc64 config",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T10:45:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcc40b9ad5c55484d8e722cc984f904b527578c1"
                 }
               ]
             },
@@ -4615,7 +4615,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90045,
+            "stars": 90044,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-10T00:09:16Z",
@@ -4754,7 +4754,7 @@
             "stars": 76189,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T13:01:13Z",
+            "pushed_at": "2026-08-10T13:07:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "be43dd5",
-            "branch": "haris/global-vars-opt-out-default",
-            "date": "2026-08-10T12:58:24Z",
-            "url": "https://github.com/grafana/grafana/commit/be43dd5ac78e936c600df822dcca887b50ed297c"
+            "sha": "bf6d238",
+            "branch": "main",
+            "date": "2026-08-10T13:07:24Z",
+            "url": "https://github.com/grafana/grafana/commit/bf6d23849d94d8532c8765eaab25a35b74f20f7c"
           }
         },
         {
@@ -4875,10 +4875,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88665ab",
-            "branch": "main",
-            "date": "2026-08-10T12:55:28Z",
-            "url": "https://github.com/prometheus/prometheus/commit/88665ab5178ad928651e97e4a12fb8769222d56f"
+            "sha": "aa7ec85",
+            "branch": "deps-update/eslint-compat-2.x",
+            "date": "2026-08-10T12:45:18Z",
+            "url": "https://github.com/prometheus/prometheus/commit/aa7ec858cd8a13a2e8cbcb5cf779a77992bb7910"
           }
         },
         {
