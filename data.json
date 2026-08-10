@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T17:10:23.883839Z",
+  "generated_at": "2026-08-10T17:15:41.581430Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T17:07:21Z",
+            "pushed_at": "2026-08-10T17:15:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9f8feb1",
+                  "message": "adblock: fix cpu core calculation",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-10T17:15:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/9f8feb10a359d62bf51a5391b2c05ad9969a1d34"
+                },
+                {
                   "sha": "17d0ee6",
                   "message": "samba4: bump to 4.24.5",
                   "author": "Aditya Nugraha",
@@ -1962,13 +1969,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-08T12:20:50Z",
                   "url": "https://github.com/openwrt/packages/commit/7f99005b4cc9675108c1c1388bc5bd64c08f41e8"
-                },
-                {
-                  "sha": "0aba856",
-                  "message": "openssh: reindent Package/\u003cname\u003e metadata blocks to 2 spaces",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-08-07T13:10:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/0aba856a263c72969be0735987c83ce911974923"
                 }
               ]
             },
@@ -4751,10 +4751,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76194,
+            "stars": 76195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T17:10:16Z",
+            "pushed_at": "2026-08-10T17:15:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e2aca0d",
-            "branch": "leeoniya/datetime-moves",
-            "date": "2026-08-10T17:08:40Z",
-            "url": "https://github.com/grafana/grafana/commit/e2aca0d070c3607e991aab2d11e534c042514eaf"
+            "sha": "de938c0",
+            "branch": "MattIPv4/home-visual-refresh-background",
+            "date": "2026-08-10T17:15:32Z",
+            "url": "https://github.com/grafana/grafana/commit/de938c0fa6b2c1032fc9f0b0fc7d9c48794839d8"
           }
         },
         {
