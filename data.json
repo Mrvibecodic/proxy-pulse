@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:15:48.861109Z",
+  "generated_at": "2026-08-11T08:21:02.106917Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T08:04:22Z",
+            "pushed_at": "2026-08-11T08:16:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9ab5244",
+                  "message": "pillow: drop the pybind11 build dependency",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T08:16:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ab5244d8ab6bd1909104b34a594797c6fb203a0"
+                },
+                {
                   "sha": "fbd7c9f",
                   "message": "python-marshmallow: add test script",
                   "author": "Alexandru Ardelean",
@@ -1962,13 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-10T17:17:38Z",
                   "url": "https://github.com/openwrt/packages/commit/d32f366b1439f2b0de71900fcc3d7f59cbfc9ca4"
-                },
-                {
-                  "sha": "9f8feb1",
-                  "message": "adblock: fix cpu core calculation",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-10T17:15:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f8feb10a359d62bf51a5391b2c05ad9969a1d34"
                 }
               ]
             },
@@ -4754,7 +4754,7 @@
             "stars": 76214,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T08:12:38Z",
+            "pushed_at": "2026-08-11T08:17:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "319898b",
-            "branch": "oscar/fix-splitter-collapsed-pane-resize",
-            "date": "2026-08-11T08:12:39Z",
-            "url": "https://github.com/grafana/grafana/commit/319898bd2675be937dd931c0e596bf23244e720f"
+            "sha": "0aa7cc2",
+            "branch": "main",
+            "date": "2026-08-11T08:17:36Z",
+            "url": "https://github.com/grafana/grafana/commit/0aa7cc2e406bf6abc0758e90b657cc2144c0a16e"
           }
         },
         {
@@ -4822,7 +4822,7 @@
             "stars": 65669,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-10T18:29:58Z",
+            "pushed_at": "2026-08-11T08:20:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
