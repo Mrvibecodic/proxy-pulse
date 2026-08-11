@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:32:23.751871Z",
+  "generated_at": "2026-08-11T12:37:37.855828Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36908,
+            "stars": 36909,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-11T04:55:47Z",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "82e2e4f",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-11T11:59:00Z",
             "url": "https://github.com/openwrt/openwrt/commit/82e2e4f492d58b5b6afaf5b55d8286c58da9c224"
           }
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T12:12:09Z",
+            "pushed_at": "2026-08-11T12:35:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1bae5ff",
+                  "message": "bird3: drop stale conffiles entries",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/1bae5fff87a8381be3a1dad4e7418a8c517f1b89"
+                },
+                {
+                  "sha": "e470a23",
+                  "message": "bird3: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/e470a236bd07c6cde6b981a5af209c95b7a19ee3"
+                },
+                {
+                  "sha": "1a45203",
+                  "message": "bird2: document the OSPF alignment patch",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/1a45203dcd4a68bd265bfa82c7dbc59245dccd6f"
+                },
+                {
+                  "sha": "ab72eb7",
+                  "message": "bird2: drop stale conffiles entries",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/ab72eb7c76cdf84da9d6ccba2236b4b338389f7b"
+                },
+                {
+                  "sha": "70c1d61",
+                  "message": "bird2: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/70c1d615ae146c2d4de516dfbeda14540f59c569"
+                },
+                {
                   "sha": "f61a21e",
                   "message": "librespeed-cli: update to 1.0.13",
                   "author": "Josef Schlehofer",
@@ -1934,41 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T08:04:22Z",
                   "url": "https://github.com/openwrt/packages/commit/fbd7c9fabbfea2fc1dddeeea249b97ee3b5298f0"
-                },
-                {
-                  "sha": "edc5f6e",
-                  "message": "python-platformdirs: bump to 4.11.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T08:04:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/edc5f6e971db9a6db82c98085f63958ed8bfd9ee"
-                },
-                {
-                  "sha": "d87ee1e",
-                  "message": "python-marshmallow: bump to 4.3.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T08:04:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/d87ee1e571ac7e002fe5d8111e36fbc16d9bdb55"
-                },
-                {
-                  "sha": "84beacb",
-                  "message": "python-mako: bump to 1.4.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T08:04:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/84beacb60617b23995a327379ec8dd1f487a7580"
-                },
-                {
-                  "sha": "8906f3f",
-                  "message": "python-flit-core: revert to 3.12.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T06:43:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/8906f3f08ac9bd1d741ccdcd3e2aa072d22d5518"
-                },
-                {
-                  "sha": "0538c8a",
-                  "message": "squeezelite: add version test override",
-                  "author": "Kel Modderman",
-                  "date": "2026-08-11T06:25:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/0538c8a1686cccc460a12e97195219ede20b26c7"
                 }
               ]
             },
@@ -3751,7 +3751,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5140,
+            "stars": 5139,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-11T00:22:20Z",
@@ -4754,7 +4754,7 @@
             "stars": 76218,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T12:20:44Z",
+            "pushed_at": "2026-08-11T12:33:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
