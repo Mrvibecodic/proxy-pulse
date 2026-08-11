@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:59:55.868947Z",
+  "generated_at": "2026-08-11T06:10:21.321147Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T05:50:35Z",
+            "pushed_at": "2026-08-11T06:09:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "835aa03",
+                  "message": "telegraf: update to 1.39.3",
+                  "author": "Niklas Thorild",
+                  "date": "2026-08-11T06:09:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/835aa0395e2227fa588aeea0bde2fd5c2bb8301d"
+                },
+                {
                   "sha": "b9b3c33",
                   "message": "redis: update to 8.8.0",
                   "author": "Alexandru Ardelean",
@@ -1962,13 +1969,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-10T08:01:46Z",
                   "url": "https://github.com/openwrt/packages/commit/daf1e717efd7ea3189d400f05727dd0dc1c092bd"
-                },
-                {
-                  "sha": "308a5db",
-                  "message": "tree-wide: remove quiet mode from grep in test version checks",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-10T08:01:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/308a5db9654b4cf9f8a97976e5a1657649ad683e"
                 }
               ]
             },
@@ -3051,6 +3051,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "9e6eb7a",
+                  "message": "openvpn: update to 2.6.22",
+                  "author": "Sander van Deijck",
+                  "date": "2026-08-11T06:10:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e6eb7adff58d85bd5589885a5f53c04f383f406"
+                },
+                {
+                  "sha": "7ce8dcd",
+                  "message": "ovpn-dco: update to 0.2.20260804",
+                  "author": "Sander van Deijck",
+                  "date": "2026-08-11T06:10:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/7ce8dcdfadd63c459ee4be94b70bf619207841bc"
+                },
+                {
                   "sha": "73b468c",
                   "message": "python-cffi: fix cross-compilation on macOS hosts",
                   "author": "Josef Schlehofer",
@@ -3245,20 +3259,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-09T17:41:20Z",
                   "url": "https://github.com/openwrt/packages/commit/caa06c5be105d2935d44f839624fe81f87e33c0d"
-                },
-                {
-                  "sha": "02163ee",
-                  "message": "uspot: update to Git HEAD (2026-06-30)",
-                  "author": "Thibaut VARÈNE",
-                  "date": "2026-07-07T02:17:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/02163ee23293621569cf57aa32e1ca6813f1f102"
-                },
-                {
-                  "sha": "7665786",
-                  "message": "ser2net: filter non-printable characters from custom options",
-                  "author": "Michael Heimpold",
-                  "date": "2026-07-05T20:01:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/76657866ad791468ee550774b158e3de3a7c871b"
                 }
               ]
             },
@@ -4819,7 +4819,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65664,
+            "stars": 65665,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-10T18:29:58Z",
