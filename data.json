@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T05:44:18.576296Z",
+  "generated_at": "2026-08-11T05:54:43.044355Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-10T19:26:22Z",
+            "pushed_at": "2026-08-11T05:50:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b9b3c33",
+                  "message": "redis: update to 8.8.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T05:50:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9b3c33d13228ce5053f129067a4d593f7121d3b"
+                },
+                {
+                  "sha": "96896a1",
+                  "message": "python-s3transfer: bump to 0.19.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T05:49:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/96896a109ec3157f128dd909c36d620d6db29730"
+                },
+                {
+                  "sha": "bd1f533",
+                  "message": "python-botocore: bump to 1.43.67",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T05:49:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/bd1f5330d56b69098c4d7b740d2318cfe44ca411"
+                },
+                {
+                  "sha": "206b501",
+                  "message": "python-boto3: bump to 1.43.67",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T05:49:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/206b50193d3a8d10f8e42b3e3ffb753ae32ec1f2"
+                },
+                {
                   "sha": "f46fc0f",
                   "message": "python-msgpack: add test script",
                   "author": "Alexandru Ardelean",
@@ -1941,34 +1969,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-10T08:01:46Z",
                   "url": "https://github.com/openwrt/packages/commit/308a5db9654b4cf9f8a97976e5a1657649ad683e"
-                },
-                {
-                  "sha": "6de3f9b",
-                  "message": "libsndfile: drop cmake4 patch for a policy override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T06:55:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/6de3f9be5c1e657d21d54f94b5e05e3bc4dfdb67"
-                },
-                {
-                  "sha": "a56b754",
-                  "message": "python-protobuf: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/a56b754b01d85d1f6f7b98d7f0adbd9d508f2601"
-                },
-                {
-                  "sha": "d0c1db8",
-                  "message": "python-rpds-py: bump to 2026.6.3",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/d0c1db8839934fd4c465021907b339c51aa47cb9"
-                },
-                {
-                  "sha": "c5d531c",
-                  "message": "python-protobuf: bump to 7.35.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-09T17:00:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5d531cf99cf3eee0886e3180826030957d5a922"
                 }
               ]
             },
@@ -4751,7 +4751,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76210,
+            "stars": 76211,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-11T04:52:28Z",
