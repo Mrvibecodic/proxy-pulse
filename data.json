@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:47:33.649972Z",
+  "generated_at": "2026-08-11T10:52:47.033367Z",
   "groups": [
     {
       "id": "cores",
@@ -877,7 +877,7 @@
           ],
           "last_commit": {
             "sha": "3d25753",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-11T10:14:30Z",
             "url": "https://github.com/openwrt/openwrt/commit/3d25753554e7b4dedfc561edb03e635f97854fa6"
           }
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T10:45:28Z",
+            "pushed_at": "2026-08-11T10:50:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5c5f97d",
+                  "message": "frp: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/5c5f97d98793241e4e7dece717407f998b87de50"
+                },
+                {
+                  "sha": "e96869d",
+                  "message": "hwdata: update to 0.410",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/e96869d3c6b633a9f960a19e3e81baf775c8684c"
+                },
+                {
+                  "sha": "81b92c6",
+                  "message": "frp: update to 0.70.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/81b92c6b06dd48e1efb265bb85ec903a60ce0fd4"
+                },
+                {
+                  "sha": "6fc57ac",
+                  "message": "delve: update to 1.27.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/6fc57ac0dc01c49f04ce4229bb00f7bd4ce1c6ce"
+                },
+                {
                   "sha": "11a4efe",
                   "message": "python-greenlet: bump to 3.5.4",
                   "author": "Alexandru Ardelean",
@@ -1941,34 +1969,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-08-11T06:18:30Z",
                   "url": "https://github.com/openwrt/packages/commit/d6f152ebe32c0c120176df920cc382259376180e"
-                },
-                {
-                  "sha": "835aa03",
-                  "message": "telegraf: update to 1.39.3",
-                  "author": "Niklas Thorild",
-                  "date": "2026-08-11T06:09:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/835aa0395e2227fa588aeea0bde2fd5c2bb8301d"
-                },
-                {
-                  "sha": "b9b3c33",
-                  "message": "redis: update to 8.8.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T05:50:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9b3c33d13228ce5053f129067a4d593f7121d3b"
-                },
-                {
-                  "sha": "96896a1",
-                  "message": "python-s3transfer: bump to 0.19.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T05:49:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/96896a109ec3157f128dd909c36d620d6db29730"
-                },
-                {
-                  "sha": "bd1f533",
-                  "message": "python-botocore: bump to 1.43.67",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T05:49:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/bd1f5330d56b69098c4d7b740d2318cfe44ca411"
                 }
               ]
             },
@@ -4683,7 +4683,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24191,
+            "stars": 24192,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-09T02:14:08Z",
@@ -4819,7 +4819,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65669,
+            "stars": 65668,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-11T08:20:48Z",
