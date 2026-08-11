@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:20:49.792018Z",
+  "generated_at": "2026-08-11T06:26:04.937531Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T06:19:03Z",
+            "pushed_at": "2026-08-11T06:25:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0538c8a",
+                  "message": "squeezelite: add version test override",
+                  "author": "Kel Modderman",
+                  "date": "2026-08-11T06:25:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/0538c8a1686cccc460a12e97195219ede20b26c7"
+                },
+                {
+                  "sha": "f81c231",
+                  "message": "squeezelite: update to 2.0.0.1584",
+                  "author": "Kel Modderman",
+                  "date": "2026-08-11T06:25:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/f81c23155312c6d03d55519e7abc1305462f9166"
+                },
+                {
                   "sha": "4ab4d12",
                   "message": "openvpn: update to 2.7.6",
                   "author": "Sander van Deijck",
@@ -1955,20 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-10T13:04:08Z",
                   "url": "https://github.com/openwrt/packages/commit/6211fee354f46e356cce4ce565741f105d976f73"
-                },
-                {
-                  "sha": "9d1b631",
-                  "message": "python-wheel: allow flit_core 4.x as the build backend",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T11:29:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/9d1b631289e8a40f444016190fd29f85cfe383d6"
-                },
-                {
-                  "sha": "2b4556e",
-                  "message": "libmpc: update to 1.4.1 and drop only-src patch",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T09:39:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/2b4556e32ecc2ca53e31db1e7f552db7f860a818"
                 }
               ]
             },
