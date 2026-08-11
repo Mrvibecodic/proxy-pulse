@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:42:20.343968Z",
+  "generated_at": "2026-08-11T10:47:33.649972Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T10:12:39Z",
+            "pushed_at": "2026-08-11T10:45:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "11a4efe",
+                  "message": "python-greenlet: bump to 3.5.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/11a4efe0135ebfabec566794053006325bfbce1b"
+                },
+                {
+                  "sha": "2940fb0",
+                  "message": "python-cython: bump to 3.2.9",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/2940fb048349ee0b35ac4ad1079e0c574c5d6c58"
+                },
+                {
+                  "sha": "088040f",
+                  "message": "python-cffi: bump to 2.1.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/088040f3ec1598cb1eb32d7a4fdacaf398707598"
+                },
+                {
+                  "sha": "bdef92a",
+                  "message": "python-pika: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/bdef92ab040bf2a6dfb05788ca1554f8c1a99bb4"
+                },
+                {
+                  "sha": "2b39468",
+                  "message": "python-click: bump to 8.4.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/2b3946849306f84935c1980e99216269a8ae7328"
+                },
+                {
+                  "sha": "c310f23",
+                  "message": "python-pika: bump to 1.4.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/c310f23e7f96e1b389e6b04822aba320606ae2fb"
+                },
+                {
+                  "sha": "59f9c1e",
+                  "message": "python-awscli: bump to 1.46.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:45:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/59f9c1e9f7389e8be2c2a830404fbf6107bf59e6"
+                },
+                {
                   "sha": "1967bdd",
                   "message": "python-pytest-forked: add test script",
                   "author": "Alexandru Ardelean",
@@ -1920,55 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T05:49:37Z",
                   "url": "https://github.com/openwrt/packages/commit/bd1f5330d56b69098c4d7b740d2318cfe44ca411"
-                },
-                {
-                  "sha": "206b501",
-                  "message": "python-boto3: bump to 1.43.67",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T05:49:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/206b50193d3a8d10f8e42b3e3ffb753ae32ec1f2"
-                },
-                {
-                  "sha": "f46fc0f",
-                  "message": "python-msgpack: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T19:26:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/f46fc0fed089402718fe5b637007bd10eacfb1ba"
-                },
-                {
-                  "sha": "4f7144e",
-                  "message": "python-eventlet: bump to 0.41.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T19:26:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/4f7144e2e1351d2b8a2b89221b48601b546f4de8"
-                },
-                {
-                  "sha": "2650954",
-                  "message": "python-msgpack: bump to 1.2.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T19:26:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/265095410283bbf0c16f999bbea68dcc761d39da"
-                },
-                {
-                  "sha": "a08c70b",
-                  "message": "python-gmpy2: bump to 2.3.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T19:26:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/a08c70b637bc2ddaaa37f601f42c989e73f0ad30"
-                },
-                {
-                  "sha": "b1334f2",
-                  "message": "banip: fix cpu core calculation",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-10T17:36:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/b1334f27cadc77701748b1832ce55f905293ebc6"
-                },
-                {
-                  "sha": "8853704",
-                  "message": "python3-drf-nested-routers: update to 0.95.3",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-08-10T17:27:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/8853704806ff9be6687b8b68344f270f5adaa1fc"
                 }
               ]
             },
@@ -4615,7 +4615,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90075,
+            "stars": 90076,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-11T10:11:14Z",
@@ -4754,7 +4754,7 @@
             "stars": 76217,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T10:42:25Z",
+            "pushed_at": "2026-08-11T10:44:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c48e796",
-            "branch": "cursor/split-dashboard-edit-actions-phase-b-7d34",
-            "date": "2026-08-11T10:42:26Z",
-            "url": "https://github.com/grafana/grafana/commit/c48e7965a17a4693ae4a39f7f5decd7f73619ef9"
+            "sha": "5b97ecf",
+            "branch": "grafakus/expand-pattern-edit-element-in-situ",
+            "date": "2026-08-11T10:44:08Z",
+            "url": "https://github.com/grafana/grafana/commit/5b97ecfafce26e267bc30a8fcb75f56daf77a891"
           }
         },
         {
