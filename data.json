@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T06:15:35.040365Z",
+  "generated_at": "2026-08-11T06:20:49.792018Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 913,
+            "stars": 912,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-04T23:17:20Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T06:10:53Z",
+            "pushed_at": "2026-08-11T06:19:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4ab4d12",
+                  "message": "openvpn: update to 2.7.6",
+                  "author": "Sander van Deijck",
+                  "date": "2026-08-11T06:18:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/4ab4d123e0b073a2c3172c412850c08920a51f60"
+                },
+                {
+                  "sha": "d6f152e",
+                  "message": "ovpn-dco: update to version 7.1.0.2026080300",
+                  "author": "Sander van Deijck",
+                  "date": "2026-08-11T06:18:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/d6f152ebe32c0c120176df920cc382259376180e"
+                },
+                {
                   "sha": "835aa03",
                   "message": "telegraf: update to 1.39.3",
                   "author": "Niklas Thorild",
@@ -1955,20 +1969,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-10T09:39:07Z",
                   "url": "https://github.com/openwrt/packages/commit/2b4556e32ecc2ca53e31db1e7f552db7f860a818"
-                },
-                {
-                  "sha": "2605657",
-                  "message": "librespeed-cli-rust: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-10T08:34:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/26056579538a238e7ac65575f3ed8970461e5a64"
-                },
-                {
-                  "sha": "daf1e71",
-                  "message": "sscep: rename test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-10T08:01:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/daf1e717efd7ea3189d400f05727dd0dc1c092bd"
                 }
               ]
             },
@@ -3266,6 +3266,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "5b3f980",
+                  "message": "radicale3: bump to v3.7.8",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-11T06:19:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/5b3f98094d0a6f2db5ddd7b076a155fe134a1cc6"
+                },
+                {
+                  "sha": "5bae464",
+                  "message": "radicale3: bump version to v3.7.7",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-11T06:19:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/5bae464e3ca89d683fa125027676a49630863239"
+                },
+                {
                   "sha": "b003ac1",
                   "message": "openvpn: update to 2.7.6",
                   "author": "Sander van Deijck",
@@ -3460,20 +3474,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:09:22Z",
                   "url": "https://github.com/openwrt/packages/commit/354b5fb51f18a85b5ee0493810cb972333085007"
-                },
-                {
-                  "sha": "cd11335",
-                  "message": "dnsproxy: Update to 0.81.4",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:09:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/cd11335d1fb767719f3c10887dd6b2ec5e16f5b2"
-                },
-                {
-                  "sha": "83d7e2b",
-                  "message": "cloudflared: Update to 2026.6.1",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:08:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/83d7e2b6db020c4a76fe3b1896b72f0dbf78af01"
                 }
               ]
             }
@@ -4398,7 +4398,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1681,
+            "stars": 1682,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-08-10T16:56:02Z",
@@ -4754,7 +4754,7 @@
             "stars": 76212,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T04:52:28Z",
+            "pushed_at": "2026-08-11T06:18:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2aaf50e",
-            "branch": "renovate/react-hook-form-7.x-lockfile",
-            "date": "2026-08-11T04:05:23Z",
-            "url": "https://github.com/grafana/grafana/commit/2aaf50e9c2709d8407b85b9e156d82b7c8b8864a"
+            "sha": "032b840",
+            "branch": "main",
+            "date": "2026-08-11T06:18:55Z",
+            "url": "https://github.com/grafana/grafana/commit/032b84000036c007f95d448fd07e7ceff6afcc9f"
           }
         },
         {
@@ -5160,7 +5160,7 @@
             "stars": 3224,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T06:15:40Z",
+            "pushed_at": "2026-08-11T06:16:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ab88220",
-            "branch": "release-please--branches--main--components--zashboard",
-            "date": "2026-08-11T06:15:41Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/ab882209dddec7c9e5c9bef806f9d82e6060dc53"
+            "sha": "f9bc3e1",
+            "branch": "gh-pages-no-fonts",
+            "date": "2026-08-11T06:16:13Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/f9bc3e190cf1c38d64a3cb515d892402fa77d50a"
           }
         },
         {
@@ -5225,7 +5225,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6931,
+            "stars": 6932,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-11T04:01:42Z",
