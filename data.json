@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:05:43.087167Z",
+  "generated_at": "2026-08-11T10:10:56.589762Z",
   "groups": [
     {
       "id": "cores",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T09:58:33Z",
+            "pushed_at": "2026-08-11T10:08:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3051,6 +3051,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "ed5b786",
+                  "message": "librespeed-cli-rust: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T10:08:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/ed5b786deef00ba8913c5cfde851951e17a50ebf"
+                },
+                {
                   "sha": "9e6eb7a",
                   "message": "openvpn: update to 2.6.22",
                   "author": "Sander van Deijck",
@@ -3252,19 +3259,19 @@
                   "author": "Eric Fahlgren",
                   "date": "2026-07-11T15:52:52Z",
                   "url": "https://github.com/openwrt/packages/commit/14a022cf5d09083a949228601353c47f78350393"
-                },
-                {
-                  "sha": "caa06c5",
-                  "message": "avahi: update to 0.9-rc5 / 0.9_rc5",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-09T17:41:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/caa06c5be105d2935d44f839624fe81f87e33c0d"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "d2236f3",
+                  "message": "librespeed-cli-rust: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T10:07:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/d2236f370fef888ba5d6ebb39cf19fd524d3420e"
+                },
                 {
                   "sha": "5b3f980",
                   "message": "radicale3: bump to v3.7.8",
@@ -3467,13 +3474,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-07-27T04:09:25Z",
                   "url": "https://github.com/openwrt/packages/commit/7bb1664eaa0b9c9e448afae89e8d8ccf972e97fe"
-                },
-                {
-                  "sha": "354b5fb",
-                  "message": "dnsproxy: Update to 0.82.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-07-27T04:09:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/354b5fb51f18a85b5ee0493810cb972333085007"
                 }
               ]
             }
@@ -4751,10 +4751,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76215,
+            "stars": 76216,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T10:05:38Z",
+            "pushed_at": "2026-08-11T10:07:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d8a87f",
-            "branch": "renovate/grafana-prometheus-13.x",
-            "date": "2026-08-11T10:05:39Z",
-            "url": "https://github.com/grafana/grafana/commit/7d8a87ff89c9fbde933ece985ff3e7fc6109c9d2"
+            "sha": "541157b",
+            "branch": "renovate/react-hook-form-7.x-lockfile",
+            "date": "2026-08-11T10:07:42Z",
+            "url": "https://github.com/grafana/grafana/commit/541157b2aa09e0945291f171abf042df827985bf"
           }
         },
         {
