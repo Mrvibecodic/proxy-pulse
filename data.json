@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:00:05.324396Z",
+  "generated_at": "2026-08-11T08:05:19.701173Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36900,
+            "stars": 36902,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-11T04:55:47Z",
@@ -225,7 +225,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4821,
+            "stars": 4822,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-10T21:06:54Z",
@@ -891,7 +891,7 @@
             "stars": 4576,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-11T06:43:47Z",
+            "pushed_at": "2026-08-11T08:04:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1761,6 +1761,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fbd7c9f",
+                  "message": "python-marshmallow: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T08:04:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/fbd7c9fabbfea2fc1dddeeea249b97ee3b5298f0"
+                },
+                {
+                  "sha": "edc5f6e",
+                  "message": "python-platformdirs: bump to 4.11.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T08:04:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/edc5f6e971db9a6db82c98085f63958ed8bfd9ee"
+                },
+                {
+                  "sha": "d87ee1e",
+                  "message": "python-marshmallow: bump to 4.3.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T08:04:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/d87ee1e571ac7e002fe5d8111e36fbc16d9bdb55"
+                },
+                {
+                  "sha": "84beacb",
+                  "message": "python-mako: bump to 1.4.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T08:04:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/84beacb60617b23995a327379ec8dd1f487a7580"
+                },
+                {
                   "sha": "8906f3f",
                   "message": "python-flit-core: revert to 3.12.0",
                   "author": "Alexandru Ardelean",
@@ -1941,34 +1969,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-10T17:15:29Z",
                   "url": "https://github.com/openwrt/packages/commit/9f8feb10a359d62bf51a5391b2c05ad9969a1d34"
-                },
-                {
-                  "sha": "17d0ee6",
-                  "message": "samba4: bump to 4.24.5",
-                  "author": "Aditya Nugraha",
-                  "date": "2026-08-10T17:07:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/17d0ee687e3433629a922eec17ae31bf2d1c4d4b"
-                },
-                {
-                  "sha": "99a2de5",
-                  "message": "python-typing-extensions: allow flit_core 4.x as the build backend",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T13:45:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/99a2de54f592faef7caa56c80e86510d51d1dd11"
-                },
-                {
-                  "sha": "53a269f",
-                  "message": "python-vcs-versioning: bump to 2.2.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T13:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/53a269f85d3476f648b546fcd2987769d34f9a44"
-                },
-                {
-                  "sha": "63a2b3f",
-                  "message": "python-setuptools-rust: bump to 1.13.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-10T13:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/63a2b3f6d595bbe49ed93726fa2ff276943e0a32"
                 }
               ]
             },
@@ -4683,7 +4683,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24188,
+            "stars": 24189,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-09T02:14:08Z",
@@ -4754,7 +4754,7 @@
             "stars": 76213,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-11T07:57:09Z",
+            "pushed_at": "2026-08-11T08:04:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4807,10 +4807,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f350083",
-            "branch": "mega-menu-below-topnav",
-            "date": "2026-08-11T07:57:10Z",
-            "url": "https://github.com/grafana/grafana/commit/f350083299c98896bc2fa4fbd386dbafc5e97fe2"
+            "sha": "62859f0",
+            "branch": "main",
+            "date": "2026-08-11T08:04:22Z",
+            "url": "https://github.com/grafana/grafana/commit/62859f09341b2d0620dc3f74f7f0fba329eece2c"
           }
         },
         {
@@ -4819,7 +4819,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65668,
+            "stars": 65669,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-10T18:29:58Z",
@@ -5225,7 +5225,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6932,
+            "stars": 6933,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-11T04:01:42Z",
