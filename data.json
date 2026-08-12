@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:47:30.198090Z",
+  "generated_at": "2026-08-12T20:52:43.958746Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 26,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T20:44:04Z",
+            "pushed_at": "2026-08-12T20:51:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.16",
+              "tag": "v26.8.16",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.16",
+              "published_at": "2026-08-12T20:52:10Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n- Replaces connection-context IP tracking with structural online-presence ownership.\n- Tracks direct sessions, SMUX/H2MUX streams, legacy Mux, XUDP attachments, reverse RVS slots, and authenticated WireGuard flows independently from carrier lifetime.\n- Atomically hands presence between trusted physical IPs on XUDP rebind and WireGuard roaming.\n- Preserves server-observed peer provenance across PROXY, TLS, REALITY, HTTP, and QUIC transports.\n- Removes the package-global XUDP manager and adds generation-safe lifecycle cleanup.\n\n## Reliability\n- Adds race/checkptr lifecycle coverage, critical interleaving stress, WireGuard authenticated interop and StatsService assertions, and complete Linux build-matrix validation.\n- Preserves reverse RVS continuity while a draining carrier is replaced.\n\nConfiguration and wire formats remain compatible with v26.8.15. Roll back by replacing the binary with v26.8.15; no configuration migration is required."
+            },
             {
               "name": "Xray-core v26.8.15",
               "tag": "v26.8.15",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Added opt-in H2MUX support with `\"protocol\": \"h2mux\"` for outbound sing-mux carriers and automatic inbound H2MUX detection.\n- Added opt-in TCP Brutal bandwidth negotiation through `brutal-opts`, shared by SMUX and H2MUX.\n- Published Linux-only release assets, with unpacked executables alongside ZIP archives and digest files.\n- Supersedes v26.8.11 with restored Linux/386 Brutal build compatibility.\n\n## Fork fixes\n\n- Implemented H2MUX on the existing authenticated carrier using HTTP/2 prior knowledge and one CONNECT exchange per logical stream.\n- Added bounded H2MUX stream lifecycle, cancellation, replay, TCP, UDP, padding, and carrier teardown handling.\n- Added strict Brutal rate parsing, bounded negotiation diagnostics, physical-connection publication, and Linux socket ABI checks.\n- Routed the Brutal socket option through Go's architecture-aware Linux wrapper, including the 386 `socketcall` ABI.\n\n## Upstream changes\n\n- Synchronized with upstream `main` through commit `bc6e966a`.\n- Updated `github.com/cloudflare/circl` to 1.6.5 and `docker/login-action` to 4.6.0.\n\n## Compatibility notes\n\n- Empty or omitted `smux.protocol` still selects SMUX; YAMUX remains unsupported.\n- Brutal is disabled unless explicitly enabled. Both configured rates must be at least 65,536 bytes per second.\n- Brutal runtime use requires the Linux `brutal` TCP congestion-control module. Negotiation or socket setup failure rejects the carrier instead of silently falling back.\n\n## Validation\n\n- Passed unit tests for `common/singmux`, `common/mux`, `app/proxyman/outbound`, and `infra/conf`.\n- Passed race tests for `common/singmux` and `common/mux`.\n- Passed all 40 H2MUX real-process interoperability scenarios across Xray, sing-box, Mihomo, VLESS, Trojan, TCP, UDP, and padding on/off.\n- Built all 15 Linux release targets locally, including Linux/386 and MIPS hard-float/soft-float variants.\n- Built static stripped Linux/386 and Linux/amd64 release executables.\n"
-            },
-            {
-              "name": "Xray-core v26.8.11",
-              "tag": "v26.8.11",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.11",
-              "published_at": "2026-08-10T09:36:21Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Added opt-in H2MUX support with `\"protocol\": \"h2mux\"` for outbound sing-mux carriers and automatic inbound H2MUX detection.\n- Added opt-in TCP Brutal bandwidth negotiation through `brutal-opts`, shared by SMUX and H2MUX.\n- Retained the Linux-only release matrix with unpacked executables published alongside ZIP archives and digest files.\n\n## Fork fixes\n\n- Implemented H2MUX independently on the existing authenticated carrier using HTTP/2 prior knowledge and one CONNECT exchange per logical stream.\n- Added bounded H2MUX stream lifecycle, cancellation, replay, TCP, UDP, padding, and carrier teardown handling.\n- Added strict Brutal rate parsing, bounded negotiation diagnostics, physical-connection publication, and Linux socket ABI checks.\n\n## Upstream changes\n\n- Synchronized with upstream `main` through commit `bc6e966a`.\n- Updated `github.com/cloudflare/circl` to 1.6.5 and `docker/login-action` to 4.6.0.\n\n## Compatibility notes\n\n- Empty or omitted `smux.protocol` still selects SMUX; YAMUX remains unsupported.\n- Brutal is disabled unless explicitly enabled. Both configured rates must be at least 65,536 bytes per second.\n- Brutal runtime use requires the Linux `brutal` TCP congestion-control module. Negotiation or socket setup failure rejects the carrier instead of silently falling back.\n\n## Validation\n\n- Passed unit tests for `common/singmux`, `common/mux`, `app/proxyman/outbound`, and `infra/conf`.\n- Passed race tests and 50 consecutive sing-mux package runs.\n- Passed all 40 H2MUX real-process interoperability scenarios across Xray, sing-box, Mihomo, VLESS, Trojan, TCP, UDP, and padding on/off.\n- Cross-compiled the Linux/amd64 sing-mux test binary, including the Brutal ABI tests.\n- Built a static stripped Linux/amd64 release ELF; SHA-256: `665eb858321035e2d9d7beb4ff4222a64b9e2cf68e4b9768d2f9743e3ab09979`.\n"
             }
           ],
           "last_commit": {
@@ -945,7 +945,7 @@
           ],
           "last_commit": {
             "sha": "ee91a6f",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-12T15:56:25Z",
             "url": "https://github.com/openwrt/openwrt/commit/ee91a6f9be69250b4f60c7b6a6ed8deffcec9b32"
           }
@@ -4836,7 +4836,7 @@
             "stars": 76263,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T20:44:33Z",
+            "pushed_at": "2026-08-12T20:49:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "238e4d6",
-            "branch": "table-content-aware-widths",
-            "date": "2026-08-12T20:44:46Z",
-            "url": "https://github.com/grafana/grafana/commit/238e4d676dbba8633a2e3607f59c491cd41929db"
+            "sha": "310238e",
+            "branch": "paulmarbach/tableng-jsdom-test-shims",
+            "date": "2026-08-12T20:49:22Z",
+            "url": "https://github.com/grafana/grafana/commit/310238e41e12caf5703a56c6828d345fe6f36b65"
           }
         },
         {
@@ -4969,7 +4969,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80150,
+            "stars": 80151,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-12T16:29:50Z",
@@ -5387,7 +5387,7 @@
             "stars": 6951,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T20:42:42Z",
+            "pushed_at": "2026-08-12T20:52:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5440,10 +5440,10 @@
             }
           ],
           "last_commit": {
-            "sha": "05fc451",
-            "branch": "l10n_crowdin",
-            "date": "2026-08-12T20:42:43Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/05fc4515166cac2d042a6e5cbb72d48f349a7280"
+            "sha": "35c6d66",
+            "branch": "08-12-perf_activity_batch_message_appends_and_drop_the_per-line_re-select",
+            "date": "2026-08-12T20:52:07Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/35c6d66ff59d8269dfb7bff62d2eef47fbb9d28c"
           }
         }
       ]
