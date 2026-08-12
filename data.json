@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:04:47.390841Z",
+  "generated_at": "2026-08-12T13:10:03.197501Z",
   "groups": [
     {
       "id": "cores",
@@ -959,7 +959,7 @@
             "stars": 4578,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-12T13:04:43Z",
+            "pushed_at": "2026-08-12T13:05:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3119,6 +3119,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "6d5dc98",
+                  "message": "librespeed-cli-rust: update to 0.1.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-12T13:04:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/6d5dc980db2c4c000b3a317c495e24c5d0b8d565"
+                },
+                {
                   "sha": "8b94be4",
                   "message": "librespeed-cli: fix build with Go 1.23",
                   "author": "Josef Schlehofer",
@@ -3320,13 +3327,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-07-18T04:53:20Z",
                   "url": "https://github.com/openwrt/packages/commit/d2941e844ad88fd05e48f53ea32ff046fc6d5fd4"
-                },
-                {
-                  "sha": "841f127",
-                  "message": "radicale3: tweak description for modern clients",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-18T04:53:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/841f1274d8d43fb3615310718e239009043d3686"
                 }
               ]
             },
@@ -4833,10 +4833,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76248,
+            "stars": 76249,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T13:04:45Z",
+            "pushed_at": "2026-08-12T13:06:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ab2155b",
+            "sha": "1fda22b",
             "branch": "main",
-            "date": "2026-08-12T12:59:48Z",
-            "url": "https://github.com/grafana/grafana/commit/ab2155bc7cba90f471d341a18a392be875dabf8f"
+            "date": "2026-08-12T13:05:47Z",
+            "url": "https://github.com/grafana/grafana/commit/1fda22b3c6f3ba359618d4dbac99de2cfd8026fb"
           }
         },
         {
@@ -4904,7 +4904,7 @@
             "stars": 65708,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T12:11:11Z",
+            "pushed_at": "2026-08-12T13:08:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4957,10 +4957,10 @@
             }
           ],
           "last_commit": {
-            "sha": "79430ae",
+            "sha": "0923fde",
             "branch": "main",
-            "date": "2026-08-12T12:11:12Z",
-            "url": "https://github.com/prometheus/prometheus/commit/79430aefc4819de1eba0849aa5d70783e6e2876d"
+            "date": "2026-08-12T13:08:21Z",
+            "url": "https://github.com/prometheus/prometheus/commit/0923fdef23c3468ce4afdb3f2cb6c14a79037214"
           }
         },
         {
