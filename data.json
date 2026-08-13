@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T16:39:52.250336Z",
+  "generated_at": "2026-08-13T16:45:08.149378Z",
   "groups": [
     {
       "id": "cores",
@@ -959,7 +959,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T14:25:49Z",
+            "pushed_at": "2026-08-13T16:43:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1829,6 +1829,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c11ef37",
+                  "message": "bcp38: clean up nft rule handling",
+                  "author": "Dharmik Parmar",
+                  "date": "2026-08-13T16:43:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/c11ef37d558291d272ffe6afc857afa4fd538dd4"
+                },
+                {
                   "sha": "7cb0c18",
                   "message": "tree-wide: rename version check test.sh to test-version.sh",
                   "author": "Josef Schlehofer",
@@ -2030,13 +2037,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T10:12:39Z",
                   "url": "https://github.com/openwrt/packages/commit/7d286b87f6889a175a4d5b255a2690b52a8ce370"
-                },
-                {
-                  "sha": "d29e862",
-                  "message": "python-uvicorn: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T09:58:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/d29e862afe407b7f3360d7b14f34ca179abdcd1d"
                 }
               ]
             },
@@ -3621,7 +3621,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 448,
+            "stars": 450,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e9f42b0",
-            "branch": "paulmarbach/rawprometheus-tableng-toggle",
-            "date": "2026-08-13T16:35:44Z",
-            "url": "https://github.com/grafana/grafana/commit/e9f42b0251ad52c4aeb59ecfdb1ef23c94ef503d"
+            "sha": "f8a18cd",
+            "branch": "linoman/sso-settings-redaction",
+            "date": "2026-08-13T16:38:34Z",
+            "url": "https://github.com/grafana/grafana/commit/f8a18cdad1c1e85049c76185a2a5b064ef8f852a"
           }
         },
         {
