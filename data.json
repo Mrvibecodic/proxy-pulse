@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T21:19:12.361945Z",
+  "generated_at": "2026-08-13T21:24:27.714366Z",
   "groups": [
     {
       "id": "cores",
@@ -888,7 +888,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27980,
+            "stars": 27981,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-13T21:12:19Z",
@@ -959,7 +959,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T16:43:55Z",
+            "pushed_at": "2026-08-13T21:21:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1829,6 +1829,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "61972da",
+                  "message": "olsrd: record why the version check logs \"Terminated\"",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/61972dae3af03f5f8ac757b9520eb6f2ebe2eb21"
+                },
+                {
+                  "sha": "9c79e6b",
+                  "message": "olsrd: report the packaged version in the binary",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/9c79e6bed31119abc517612ddb8a35af616b0d35"
+                },
+                {
+                  "sha": "d527650",
+                  "message": "olsrd: reject non-address input before eval in olsrd-neigh.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d52765005c75b829ae3b75ee27ac79e8da847723"
+                },
+                {
+                  "sha": "f33d1d1",
+                  "message": "olsrd: initialize the LQ multiplier list pointer in the ubus handler",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/f33d1d1f1ff6df97f92288bb8dd466ea6381c37e"
+                },
+                {
+                  "sha": "d4c843e",
+                  "message": "olsrd: add missing jshn dependency to olsrd-utils",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d4c843ea2fd80a91ba736b556750aac829130b8d"
+                },
+                {
+                  "sha": "9af67f0",
+                  "message": "olsrd: fix respawn_threshold lookup in the IPv6 init script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/9af67f00387e20b5c32f9f78f2b8486dfff0dbc3"
+                },
+                {
+                  "sha": "1d86a8f",
+                  "message": "olsrd: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/1d86a8fffc63e28b8f1ccd565dce933b5ff21e86"
+                },
+                {
                   "sha": "c11ef37",
                   "message": "bcp38: clean up nft rule handling",
                   "author": "Dharmik Parmar",
@@ -1988,55 +2037,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T10:45:20Z",
                   "url": "https://github.com/openwrt/packages/commit/bdef92ab040bf2a6dfb05788ca1554f8c1a99bb4"
-                },
-                {
-                  "sha": "2b39468",
-                  "message": "python-click: bump to 8.4.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:45:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/2b3946849306f84935c1980e99216269a8ae7328"
-                },
-                {
-                  "sha": "c310f23",
-                  "message": "python-pika: bump to 1.4.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:45:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/c310f23e7f96e1b389e6b04822aba320606ae2fb"
-                },
-                {
-                  "sha": "59f9c1e",
-                  "message": "python-awscli: bump to 1.46.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:45:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/59f9c1e9f7389e8be2c2a830404fbf6107bf59e6"
-                },
-                {
-                  "sha": "1967bdd",
-                  "message": "python-pytest-forked: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:12:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/1967bdda14512068e09322a212489da13f3be438"
-                },
-                {
-                  "sha": "5b731fd",
-                  "message": "python-pip: bump to 26.2.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:12:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/5b731fd69794e7fa33e0dc1206ca4f8aa02be123"
-                },
-                {
-                  "sha": "eba23de",
-                  "message": "python-pytest-forked: bump to 1.7.5",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:12:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/eba23de61ab47651afbe3cde0eb9760e19749e84"
-                },
-                {
-                  "sha": "7d286b8",
-                  "message": "python-pytest: bump to 9.1.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:12:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/7d286b87f6889a175a4d5b255a2690b52a8ce370"
                 }
               ]
             },
@@ -4836,7 +4836,7 @@
             "stars": 76294,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T21:13:37Z",
+            "pushed_at": "2026-08-13T21:24:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d6f1d4",
-            "branch": "leeoniya/state-timeline-value-mappings-2",
-            "date": "2026-08-13T21:13:38Z",
-            "url": "https://github.com/grafana/grafana/commit/7d6f1d41170a3fb2ee8c63a35e68334854790de0"
+            "sha": "61dddf2",
+            "branch": "ci/enable-go-build-cache",
+            "date": "2026-08-13T21:24:22Z",
+            "url": "https://github.com/grafana/grafana/commit/61dddf2baa322692576db47682f5b5b3a81fdd1b"
           }
         },
         {
