@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:32:37.981259Z",
+  "generated_at": "2026-08-13T07:37:51.825307Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 28,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T20:51:54Z",
+            "pushed_at": "2026-08-13T07:34:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.17",
+              "tag": "v26.8.17",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.17",
+              "published_at": "2026-08-13T07:35:09Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
+            },
             {
               "name": "Xray-core v26.8.16",
               "tag": "v26.8.16",
@@ -261,22 +270,13 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Fixed\n\n- Fixed a pooled buffer lifecycle race where a stale release could invalidate a live buffer and panic in Freedom/VLESS with XTLS Vision traffic.\n- Added regression coverage for pooled buffer ownership and dispatcher traffic accounting.\n\n## Compatibility\n\n- No configuration or wire protocol changes.\n"
-            },
-            {
-              "name": "v26.8.12",
-              "tag": "v26.8.12",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.12",
-              "published_at": "2026-08-10T09:53:51Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Added opt-in H2MUX support with `\"protocol\": \"h2mux\"` for outbound sing-mux carriers and automatic inbound H2MUX detection.\n- Added opt-in TCP Brutal bandwidth negotiation through `brutal-opts`, shared by SMUX and H2MUX.\n- Published Linux-only release assets, with unpacked executables alongside ZIP archives and digest files.\n- Supersedes v26.8.11 with restored Linux/386 Brutal build compatibility.\n\n## Fork fixes\n\n- Implemented H2MUX on the existing authenticated carrier using HTTP/2 prior knowledge and one CONNECT exchange per logical stream.\n- Added bounded H2MUX stream lifecycle, cancellation, replay, TCP, UDP, padding, and carrier teardown handling.\n- Added strict Brutal rate parsing, bounded negotiation diagnostics, physical-connection publication, and Linux socket ABI checks.\n- Routed the Brutal socket option through Go's architecture-aware Linux wrapper, including the 386 `socketcall` ABI.\n\n## Upstream changes\n\n- Synchronized with upstream `main` through commit `bc6e966a`.\n- Updated `github.com/cloudflare/circl` to 1.6.5 and `docker/login-action` to 4.6.0.\n\n## Compatibility notes\n\n- Empty or omitted `smux.protocol` still selects SMUX; YAMUX remains unsupported.\n- Brutal is disabled unless explicitly enabled. Both configured rates must be at least 65,536 bytes per second.\n- Brutal runtime use requires the Linux `brutal` TCP congestion-control module. Negotiation or socket setup failure rejects the carrier instead of silently falling back.\n\n## Validation\n\n- Passed unit tests for `common/singmux`, `common/mux`, `app/proxyman/outbound`, and `infra/conf`.\n- Passed race tests for `common/singmux` and `common/mux`.\n- Passed all 40 H2MUX real-process interoperability scenarios across Xray, sing-box, Mihomo, VLESS, Trojan, TCP, UDP, and padding on/off.\n- Built all 15 Linux release targets locally, including Linux/386 and MIPS hard-float/soft-float variants.\n- Built static stripped Linux/386 and Linux/amd64 release executables.\n"
             }
           ],
           "last_commit": {
-            "sha": "6c12a9a",
+            "sha": "90a89f7",
             "branch": "main",
-            "date": "2026-08-12T20:44:05Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/6c12a9abdf599939e2ff37992c49a9ac5d5a69ba"
+            "date": "2026-08-13T07:34:20Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/90a89f75ea0e95ca607fc06ca5b9484e444fdb8c"
           }
         }
       ]
@@ -4697,7 +4697,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90135,
+            "stars": 90136,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-13T00:14:12Z",
@@ -4836,7 +4836,7 @@
             "stars": 76278,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T07:24:14Z",
+            "pushed_at": "2026-08-13T07:36:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9cb8ff2",
-            "branch": "main",
-            "date": "2026-08-13T06:48:22Z",
-            "url": "https://github.com/grafana/grafana/commit/9cb8ff279f562ef48bf18b0de3ae198c666fa95c"
+            "sha": "b7b1342",
+            "branch": "idastambuk/variable-sidebar-improvements",
+            "date": "2026-08-13T07:36:55Z",
+            "url": "https://github.com/grafana/grafana/commit/b7b13421da85717b3fe199b75ef7688dfa3b5682"
           }
         },
         {
