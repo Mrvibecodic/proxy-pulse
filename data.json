@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:19:37.833258Z",
+  "generated_at": "2026-08-13T13:24:52.602432Z",
   "groups": [
     {
       "id": "cores",
@@ -959,7 +959,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T13:19:03Z",
+            "pushed_at": "2026-08-13T13:21:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1829,6 +1829,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7cb0c18",
+                  "message": "tree-wide: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T13:21:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/7cb0c183a9e98f71366c462f9a38c13246003764"
+                },
+                {
                   "sha": "8c7a569",
                   "message": "grep: set PKG_SUBDIRS instead of patching Makefile.in",
                   "author": "Wei-Ting Yang",
@@ -2030,13 +2037,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T09:58:32Z",
                   "url": "https://github.com/openwrt/packages/commit/d29e862afe407b7f3360d7b14f34ca179abdcd1d"
-                },
-                {
-                  "sha": "64b87f0",
-                  "message": "python-starlette: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T09:58:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/64b87f014586cdba51b6f82caf5bd032d3d75b6c"
                 }
               ]
             },
@@ -4836,7 +4836,7 @@
             "stars": 76283,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T13:19:27Z",
+            "pushed_at": "2026-08-13T13:24:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "095db54",
-            "branch": "dprokop/edit-as-code-diff",
-            "date": "2026-08-13T13:14:15Z",
-            "url": "https://github.com/grafana/grafana/commit/095db54b4f3206c32d67b60dc810909606f5fcc0"
+            "sha": "0982e1b",
+            "branch": "mckn/async-ds-datalinks-2",
+            "date": "2026-08-13T13:22:10Z",
+            "url": "https://github.com/grafana/grafana/commit/0982e1badc608d477988cfae319c5bd39e3a21b4"
           }
         },
         {
@@ -5040,7 +5040,7 @@
             "stars": 17521,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T13:15:34Z",
+            "pushed_at": "2026-08-13T13:23:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5093,10 +5093,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e55a5cf",
+            "sha": "1baf908",
             "branch": "cluster",
-            "date": "2026-08-13T13:15:34Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/e55a5cf23391affe1eefa09ec259791d9a217baf"
+            "date": "2026-08-13T13:23:48Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/1baf9080dfaad3eed0106188ac96285d98281dff"
           }
         }
       ]
@@ -5384,7 +5384,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6968,
+            "stars": 6969,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-13T10:18:58Z",
