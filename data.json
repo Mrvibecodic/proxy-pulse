@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T13:03:32.693107Z",
+  "generated_at": "2026-08-13T13:08:48.065118Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4839,
+            "stars": 4840,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-10T21:06:54Z",
@@ -945,7 +945,7 @@
           ],
           "last_commit": {
             "sha": "91a1245",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-13T08:44:49Z",
             "url": "https://github.com/openwrt/openwrt/commit/91a1245ad74b7c2882a53dac3b84ef90abfbc906"
           }
@@ -4765,7 +4765,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24226,
+            "stars": 24227,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-11T22:10:37Z",
@@ -4836,7 +4836,7 @@
             "stars": 76282,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T13:03:20Z",
+            "pushed_at": "2026-08-13T13:06:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4889,10 +4889,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cd8bdb0",
-            "branch": "mckn/async-ds-xray-link",
-            "date": "2026-08-13T13:03:08Z",
-            "url": "https://github.com/grafana/grafana/commit/cd8bdb059b5b8c2684131058f7a7021e42ee1c7e"
+            "sha": "54c2db8",
+            "branch": "mckn/async-datasource-log-check",
+            "date": "2026-08-13T13:06:39Z",
+            "url": "https://github.com/grafana/grafana/commit/54c2db8213433e59521d1d059dfbb612d67f79a3"
           }
         },
         {
@@ -5040,7 +5040,7 @@
             "stars": 17521,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T12:50:59Z",
+            "pushed_at": "2026-08-13T13:04:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5093,10 +5093,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a985f16",
-            "branch": "docs/vmanomaly-release-v1.30.2",
-            "date": "2026-08-13T12:51:00Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/a985f16a7f21d00207ead0b536f85a5ba7e20c80"
+            "sha": "0ff4bc3",
+            "branch": "cluster",
+            "date": "2026-08-13T13:04:17Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/0ff4bc3336e44d11514c6c2be448dfdce9eb336f"
           }
         }
       ]
@@ -5116,12 +5116,21 @@
             "stars": 16,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T13:00:51Z",
+            "pushed_at": "2026-08-13T13:04:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "1.2.1",
+              "tag": "v1.2.1",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.2.1",
+              "published_at": "2026-08-13T13:04:53Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "### Что нового\n\n**Образ теперь собирается под ARM64 (aarch64), а не только под x86-64.**\n\nМультиарх-манифест публикуется на все теги (`:latest`, `:v1`, `:v1.2`, `:v1.2.1`, `:dev`) — `docker pull` сам выбирает вариант под процессор сервера. Установка на ARM-серверах (Oracle Ampere, Hetzner CAX, Raspberry Pi, Apple Silicon) больше не падает с `no matching manifest for linux/arm64/v8`.\n\nЗакрывает #5.\n\n### Обновление\n\nНичего менять не нужно: на x86-64 всё работает как раньше, образ тот же.\n\n```bash\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n"
+            },
             {
               "name": "1.2.0",
               "tag": "v1.2.0",
@@ -5157,22 +5166,13 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Исправления по итогам сверки всех платёжек с официальными API:\n\n- Чеки «Мой налог» теперь формируются только по платежам ЮKassa.\n- Heleket: исправлено зависание бота при вводе валюты конвертации в админке; в журнале — фактически оплаченная сумма; валидация Return URL.\n- Tribute: полугодовой тариф выдаёт 6 месяцев (было 12); валютные платежи (EUR/USD) больше не считаются рублями в рефералке и статистике.\n- Platega: актуальный код карточного эквайринга (11), проверка подлинности колбэка, обработка chargeback с уведомлением админа.\n- CryptoBot: валюта счёта из прайса, понятные тексты ошибок API, потерянное пополнение зовёт админа вместо тихой потери.\n- ЮKassa: обработка отменённых платежей с причиной, защита от двойного автосписания, строгая валидация цены.\n- Stars: обработка возвратов звёзд, повторная доставка оплаты больше не пугает пользователя, оплата не блокирует другие платежи.\n- МойНалог: чек по московскому времени, повторы при сбоях, подробные ошибки ФНС в журнале."
-            },
-            {
-              "name": "1.0.1",
-              "tag": "v1.0.1",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.0.1",
-              "published_at": "2026-08-04T22:08:42Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Дефолт `docker-compose.yml` для новых установок — мажорный тег **`:v1`**: приходят все релизы 1.x.y, автоматического перехода на будущий 2.0.0 не будет. CI теперь публикует на каждый релиз также образы `:vX` и `:vX.Y`.\n\nСуществующие установки не затронуты: `:latest` и `:dev` обновляются как раньше, самообновление из бота работает без изменений."
             }
           ],
           "last_commit": {
-            "sha": "7d828ef",
-            "branch": "dev",
-            "date": "2026-08-13T13:00:52Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7d828ef911a8ab79e74ae1cf8c16f5ed2d4e717d"
+            "sha": "e088e0f",
+            "branch": "main",
+            "date": "2026-08-13T13:04:42Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/e088e0f46f67b6fdbf3dc4fbd3406da9d9c4bed1"
           }
         }
       ]
