@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T07:48:26.846291Z",
+  "generated_at": "2026-08-13T07:53:42.790998Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41011,
+            "stars": 41012,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-12T08:38:01Z",
@@ -220,12 +220,21 @@
             "stars": 28,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T07:42:46Z",
+            "pushed_at": "2026-08-13T07:50:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.18",
+              "tag": "v26.8.18",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.18",
+              "published_at": "2026-08-13T07:50:57Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n- Pass the repository formatting gate missed by v26.8.17.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
+            },
             {
               "name": "Xray-core v26.8.17",
               "tag": "v26.8.17",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Prevents a server-side panic when legacy Shadowsocks AEAD UDP responses approach Xray's 8 KiB buffer limit.\n- Publishes the fix as Xray-core v26.8.14 without configuration or wire-format changes.\n\n## Fork fixes\n\n- Fixed `panic: extending out of bound` in `shadowsocks.EncodeUDPPacket`. The encoder now reserves space for the salt, destination header, and AEAD tag, preserves the full UDP payload, reports write failures, and releases buffers on error paths.\n- Added a regression test that round-trips an 8192-byte UDP payload with `aes-128-gcm`.\n- Restored repository Go formatting compliance in existing H2MUX test and TLS source files.\n\n## Upstream changes\n\n- No additional upstream commits since v26.8.13.\n- Based on `upstream/main` at `bc6e966a` and retains all fork changes from v26.8.13.\n\n## Compatibility notes\n\n- No configuration migration is required.\n- Existing Shadowsocks `aes-128-gcm` TCP/UDP inbounds continue to use the same configuration and wire format.\n\n## Validation\n\n- Passed targeted unit tests for Shadowsocks, core, H2MUX, and TLS.\n- Passed Shadowsocks race, checkptr, and vet checks, including the new 8192-byte UDP regression.\n- Passed the repository Go formatting check and a static Linux amd64 build (`CGO_ENABLED=0`).\n- The external DoH test against `1.1.1.1` returned EOF in this environment and was accepted as a known external DNS limitation for this release.\n- Two Commander scenario tests hit a transient port-reservation collision in the parallel suite; both passed when rerun in isolation.\n"
-            },
-            {
-              "name": "Xray-core v26.8.13",
-              "tag": "v26.8.13",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.13",
-              "published_at": "2026-08-10T11:26:30Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Fixed\n\n- Fixed a pooled buffer lifecycle race where a stale release could invalidate a live buffer and panic in Freedom/VLESS with XTLS Vision traffic.\n- Added regression coverage for pooled buffer ownership and dispatcher traffic accounting.\n\n## Compatibility\n\n- No configuration or wire protocol changes.\n"
             }
           ],
           "last_commit": {
@@ -4765,7 +4765,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24220,
+            "stars": 24221,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-11T22:10:37Z",
@@ -5037,7 +5037,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17520,
+            "stars": 17519,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-08-13T06:39:20Z",
