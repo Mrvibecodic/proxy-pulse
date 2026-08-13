@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T14:22:44.568668Z",
+  "generated_at": "2026-08-13T14:28:02.807050Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41014,
+            "stars": 41013,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-12T08:38:01Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36974,
+            "stars": 36973,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-13T12:08:03Z",
@@ -945,7 +945,7 @@
           ],
           "last_commit": {
             "sha": "91a1245",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-13T08:44:49Z",
             "url": "https://github.com/openwrt/openwrt/commit/91a1245ad74b7c2882a53dac3b84ef90abfbc906"
           }
@@ -959,7 +959,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T13:21:26Z",
+            "pushed_at": "2026-08-13T14:25:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3334,6 +3334,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "fc8b2fe",
+                  "message": "nghttp2: bump to 1.70.0",
+                  "author": "Hirokazu MORIKAWA",
+                  "date": "2026-08-13T14:25:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc8b2fec0ba9bcda54c0cbb2968a33f6b4637006"
+                },
+                {
                   "sha": "232a463",
                   "message": "rsync: update to 3.5.0",
                   "author": "John Audia",
@@ -3535,13 +3542,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-08T12:21:32Z",
                   "url": "https://github.com/openwrt/packages/commit/ca1e305aef80f6a4163900e754410963bdd3d826"
-                },
-                {
-                  "sha": "86c73a3",
-                  "message": "simple-captive-portal: update to 2026.08.06 / use port 80",
-                  "author": "Etienne Champetier",
-                  "date": "2026-08-07T02:35:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/86c73a3c4aa9fec7a3d6f0a90192794c59093bca"
                 }
               ]
             }
@@ -4833,10 +4833,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76283,
+            "stars": 76285,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-13T14:19:38Z",
+            "pushed_at": "2026-08-13T14:26:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4969,7 +4969,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80169,
+            "stars": 80170,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-13T09:56:04Z",
