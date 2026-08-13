@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:05:49.177089Z",
+  "generated_at": "2026-08-13T12:11:03.753529Z",
   "groups": [
     {
       "id": "cores",
@@ -84,7 +84,7 @@
             "stars": 36969,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-13T05:32:05Z",
+            "pushed_at": "2026-08-13T12:08:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d4029f4",
+            "sha": "db1053f",
             "branch": "testing",
-            "date": "2026-08-13T05:32:06Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/d4029f4a5e988ef717be58c33b0528bbd62a1ae8"
+            "date": "2026-08-13T12:08:03Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/db1053f8bc16c860225afc97ac6417e42a81dc64"
           }
         },
         {
@@ -945,7 +945,7 @@
           ],
           "last_commit": {
             "sha": "91a1245",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-13T08:44:49Z",
             "url": "https://github.com/openwrt/openwrt/commit/91a1245ad74b7c2882a53dac3b84ef90abfbc906"
           }
@@ -959,7 +959,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T10:59:11Z",
+            "pushed_at": "2026-08-13T12:10:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1829,6 +1829,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "08e009c",
+                  "message": "rsync: update to 3.5.0",
+                  "author": "John Audia",
+                  "date": "2026-08-13T12:09:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/08e009c9b4e65d3e9626f1eabc7936a4e0ad7b4a"
+                },
+                {
                   "sha": "9587521",
                   "message": "librespeed-cli-rust: update to 0.1.1",
                   "author": "Josef Schlehofer",
@@ -2030,13 +2037,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T09:58:32Z",
                   "url": "https://github.com/openwrt/packages/commit/8059e92d150be7c120ad202abe4fbf775a3b7de5"
-                },
-                {
-                  "sha": "ba943d2",
-                  "message": "python-uvicorn: bump to 0.52.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T09:58:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/ba943d2243abf848d7b89e1e1c65330a9c23fabc"
                 }
               ]
             },
@@ -3334,6 +3334,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "232a463",
+                  "message": "rsync: update to 3.5.0",
+                  "author": "John Audia",
+                  "date": "2026-08-13T12:10:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/232a46385d11c9bd02c799a8a58dd2ea79ad7fa0"
+                },
+                {
+                  "sha": "838a58e",
+                  "message": "rsync: update to 3.4.4",
+                  "author": "John Audia",
+                  "date": "2026-08-13T12:10:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/838a58ebe9f91fc18a68d52dfe1ababd58196eef"
+                },
+                {
                   "sha": "a0c3b9b",
                   "message": "syncthing: bump to 2.1.3",
                   "author": "George Sapkin",
@@ -3528,20 +3542,6 @@
                   "author": "Etienne Champetier",
                   "date": "2026-08-07T02:35:37Z",
                   "url": "https://github.com/openwrt/packages/commit/86c73a3c4aa9fec7a3d6f0a90192794c59093bca"
-                },
-                {
-                  "sha": "f39ad7f",
-                  "message": "simple-captive-portal: order nft chains predictably",
-                  "author": "Andris PE",
-                  "date": "2026-08-07T02:35:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/f39ad7f14c2d2d5e50d3cb5a1d5f553c815998fb"
-                },
-                {
-                  "sha": "da0b583",
-                  "message": "banip: report the last run timestamp as ISO 8601",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-06T19:28:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/da0b5834163a1855839f6d99d598724a42318827"
                 }
               ]
             }
@@ -4969,7 +4969,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80165,
+            "stars": 80166,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-13T09:56:04Z",
