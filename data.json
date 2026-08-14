@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T16:28:54.789705Z",
+  "generated_at": "2026-08-14T16:34:09.131604Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 33,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T16:18:46Z",
+            "pushed_at": "2026-08-14T16:31:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.20",
+              "tag": "v26.8.20",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.20",
+              "published_at": "2026-08-14T16:31:48Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Completes the hardened Hysteria 2.12.1 transport integration proposed in XTLS/Xray-core#6565.\n- Fixes a rare SMUX stale-carrier recovery race found by the native Linux reconnect gate.\n- Restores predictable releases: publishing now starts only the binary matrix, while native validation remains a separate explicit pre-release workflow.\n- `v26.8.19` did not produce release assets; operators should use `v26.8.20`.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility coverage for the new QUIC options.\n- Adds optional Realm UPnP/NAT-PMP mapping with bounded discovery, lease renewal, rollback, zero-lifetime deletion, and deterministic cleanup.\n- Ensures Realm, Hysteria, and XHTTP/3 listener shutdown releases owned sockets, timers, goroutines, and mapping leases.\n- Clones shared TLS configuration before applying QUIC client behavior and propagates Brutal loss-compensation settings through every affected path.\n- Corrects SMUX response recovery when a stale write returns success after the peer carrier has failed. Readers now distinguish an early replacement from a completed writer and replay the bounded pre-response payload exactly once.\n- Moves validation into `.github/workflows/pre-release-validation.yml`; `.github/workflows/release.yml` is build-only and no longer runs on ordinary pushes or pull requests.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` remains an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated against the fork's current QUIC paths and completed with lifecycle, compatibility, and error-path hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their wire numbers; new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` for custom certificate callbacks or incompatible TLS behavior.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves prior behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6` and defaults to `dual`.\n- No SMUX wire bytes changed; the reconnect fix changes only local recovery coordination.\n\n## Validation\n\n- Affected unit, race, checkptr, vet, formatting, module-integrity, YAML, release-contract, and external-mux dependency gates passed on Go 1.26.5.\n- Xray, sing-box, and Mihomo Hysteria interoperability passed all 9/9 process executions.\n- The SMUX hardening harness passed 400/400 reconnect cycles across eight Xray/sing-box/Mihomo direction and carrier topologies on Darwin/arm64; this is harness evidence, not Linux capacity evidence.\n- The initial native Linux matrix passed six of eight 50-cycle SMUX topologies; its two Mihomo/VLESS failures exposed a restart-readiness flaw in the harness.\n- Native Linux follow-up run 31818742469 passed both corrected Mihomo/VLESS directions for 50/50 cycles each on the exact release commit; checked loopback error/drop deltas remained zero.\n"
+            },
             {
               "name": "Xray-core v26.8.19",
               "tag": "v26.8.19",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n- Replaces connection-context IP tracking with structural online-presence ownership.\n- Tracks direct sessions, SMUX/H2MUX streams, legacy Mux, XUDP attachments, reverse RVS slots, and authenticated WireGuard flows independently from carrier lifetime.\n- Atomically hands presence between trusted physical IPs on XUDP rebind and WireGuard roaming.\n- Preserves server-observed peer provenance across PROXY, TLS, REALITY, HTTP, and QUIC transports.\n- Removes the package-global XUDP manager and adds generation-safe lifecycle cleanup.\n\n## Reliability\n- Adds race/checkptr lifecycle coverage, critical interleaving stress, WireGuard authenticated interop and StatsService assertions, and complete Linux build-matrix validation.\n- Preserves reverse RVS continuity while a draining carrier is replaced.\n\nConfiguration and wire formats remain compatible with v26.8.15. Roll back by replacing the binary with v26.8.15; no configuration migration is required."
-            },
-            {
-              "name": "Xray-core v26.8.15",
-              "tag": "v26.8.15",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.15",
-              "published_at": "2026-08-11T00:12:51Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Adds complete server-side TCP Brutal support for the in-tree SMUX and H2MUX implementations.\n- Keeps Brutal opt-in and independently configurable per inbound, with no global state and no change for existing configurations.\n- Completes the existing outbound/client implementation so Xray can now negotiate Brutal end to end.\n\n## Brutal server\n\n- Added per-inbound configuration:\n\n  ```json\n  \"smux\": {\n    \"brutal-opts\": {\n      \"enabled\": true,\n      \"up\": \"1 Gbps\",\n      \"down\": \"1 Gbps\"\n    }\n  }\n  ```\n\n- Carries immutable inbound limits through the accepted connection context into `singmux.Service`.\n- Reserves `_BrutalBwExchange:0` inside the mux server before routing or DNS.\n- Applies `min(server up, client down)` to the physical TCP carrier and advertises `server down` to the client.\n- Allows one successful negotiation per carrier and shares the controller across all H2MUX streams.\n- Rejects disabled, malformed, duplicate, and out-of-range exchanges without routing them.\n- Closes the physical carrier if socket control or the post-activation response can leave asymmetric congestion control.\n\n## Compatibility notes\n\n- Brutal remains disabled by default; existing inbound and outbound configurations continue unchanged.\n- The server configuration is scoped to each inbound, so different inbounds may use different limits.\n- Linux servers still require the Brutal congestion-control kernel module for socket activation.\n- The SMUX/H2MUX wire format and ordinary TCP/UDP stream behavior are unchanged.\n\n## Validation\n\n- Passed focused unit tests for configuration propagation, bounded negotiation, rejection paths, carrier closure, routing isolation, and SMUX/H2MUX parity.\n- Passed race and checkptr suites for the mux stack.\n- Passed all 80 SMUX/H2MUX process interoperability scenarios with Xray, sing-box, and Mihomo.\n- Passed Go formatting and protobuf header checks.\n- Built a static stripped Linux amd64 binary with `CGO_ENABLED=0`.\n- The external DoH test against `1.1.1.1` returned EOF in this environment and is retained as the known external DNS limitation accepted for this release.\n"
             }
           ],
           "last_commit": {
@@ -4492,7 +4492,7 @@
             "stars": 1695,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-08-12T12:52:43Z",
+            "pushed_at": "2026-08-14T16:32:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4518,10 +4518,10 @@
             }
           ],
           "last_commit": {
-            "sha": "56134b0",
+            "sha": "43cb5fe",
             "branch": "main",
-            "date": "2026-08-12T12:52:43Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/56134b05cc09afc697084bad29e8b1a0a5d50a87"
+            "date": "2026-08-14T16:32:20Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/43cb5fed4463cf412ba8e6321220215b977d6afd"
           }
         },
         {
@@ -4845,7 +4845,7 @@
             "stars": 76309,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T16:28:35Z",
+            "pushed_at": "2026-08-14T16:30:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4898,10 +4898,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6197d8e",
-            "branch": "steady",
-            "date": "2026-08-14T16:22:25Z",
-            "url": "https://github.com/grafana/grafana/commit/6197d8e5f34898d2c8e4108f927b48ca8255b722"
+            "sha": "40b6340",
+            "branch": "jtroy/userimpl-template-migration-phase-1",
+            "date": "2026-08-14T16:29:22Z",
+            "url": "https://github.com/grafana/grafana/commit/40b6340478bf775b9da415f3d4014cae64589a84"
           }
         },
         {
@@ -4981,7 +4981,7 @@
             "stars": 80198,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-14T16:19:14Z",
+            "pushed_at": "2026-08-14T16:33:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5034,10 +5034,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dd7d25b",
+            "sha": "0503d46",
             "branch": "seo/collector-doc-descriptions",
-            "date": "2026-08-14T16:19:15Z",
-            "url": "https://github.com/netdata/netdata/commit/dd7d25b93e269497cdc611981a42c3f1145a3b4f"
+            "date": "2026-08-14T16:33:09Z",
+            "url": "https://github.com/netdata/netdata/commit/0503d463152fe1d377c8c977dd7dbaf818245e06"
           }
         },
         {
