@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:00:47.684808Z",
+  "generated_at": "2026-08-14T12:06:03.037820Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41021,
+            "stars": 41022,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-14T00:12:39Z",
@@ -897,7 +897,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 27986,
+            "stars": 27985,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-14T10:11:26Z",
@@ -968,7 +968,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-13T21:21:20Z",
+            "pushed_at": "2026-08-14T12:05:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1838,6 +1838,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3734909",
+                  "message": "btrfs-progs: remove no-mold flag as it builds fine with mold 2.42.0",
+                  "author": "Carsten Schuette",
+                  "date": "2026-08-14T12:05:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/37349095beac4157e0d340de80f888ceeb6652ef"
+                },
+                {
                   "sha": "61972da",
                   "message": "olsrd: record why the version check logs \"Terminated\"",
                   "author": "Josef Schlehofer",
@@ -2039,13 +2046,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T10:45:28Z",
                   "url": "https://github.com/openwrt/packages/commit/088040f3ec1598cb1eb32d7a4fdacaf398707598"
-                },
-                {
-                  "sha": "bdef92a",
-                  "message": "python-pika: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:45:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/bdef92ab040bf2a6dfb05788ca1554f8c1a99bb4"
                 }
               ]
             },
@@ -4774,7 +4774,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24248,
+            "stars": 24247,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-14T04:20:50Z",
@@ -4845,7 +4845,7 @@
             "stars": 76305,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T11:54:53Z",
+            "pushed_at": "2026-08-14T12:05:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4898,10 +4898,10 @@
             }
           ],
           "last_commit": {
-            "sha": "10312b9",
-            "branch": "main",
-            "date": "2026-08-14T11:54:53Z",
-            "url": "https://github.com/grafana/grafana/commit/10312b952203691141be3bd6d4ae28909e66c782"
+            "sha": "d31b24c",
+            "branch": "simple-ofrep-server",
+            "date": "2026-08-14T12:05:55Z",
+            "url": "https://github.com/grafana/grafana/commit/d31b24c0b0c6b522e181e88af7959a4662a9efb1"
           }
         },
         {
