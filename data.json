@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T13:03:51.883663Z",
+  "generated_at": "2026-08-14T13:09:06.275135Z",
   "groups": [
     {
       "id": "cores",
@@ -227,6 +227,15 @@
           },
           "releases": [
             {
+              "name": "Xray-core v26.8.19",
+              "tag": "v26.8.19",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.19",
+              "published_at": "2026-08-14T13:04:00Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Integrates the Hysteria 2.12.1 transport updates proposed in XTLS/Xray-core#6565 and completes the server-side lifecycle and error-handling work needed by this fork.\n- Adds optional UPnP and NAT-PMP port mapping for Realm, together with `ipMode` selection for dual-stack, IPv4-only, and IPv6-only deployments.\n- Adds QUIC controls for Chrome-style transport behavior, GSO, and Brutal loss compensation.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility tests to prevent wire/config regressions.\n- Makes Realm mapping leases deterministic: bounded discovery and requests, early renewal, rollback after ambiguous failures, real zero-lifetime NAT-PMP deletion, and cleanup error propagation.\n- Closes Realm constructor and shutdown leaks and serializes renew/close ownership to avoid timer and goroutine races.\n- Ensures Hysteria and XHTTP/3 listeners release UDP sockets and wait for owned accept/client goroutines during shutdown.\n- Clones TLS configuration before applying QUIC client behavior instead of mutating shared state.\n- Propagates Brutal loss-compensation configuration through every affected runtime path.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` is already an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated, reviewed against this fork's current QUIC paths, and completed with regression coverage and lifecycle hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their original numbers; the new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` when custom certificate callbacks or non-compatible TLS behavior require it.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves the previous behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6`, and defaults to `dual`.\n\n## Validation\n\n- Affected unit tests passed on Go 1.26.5.\n- Affected race, `checkptr`, `go vet`, formatting, module-integrity, and dependency-ban gates passed.\n- Xray, sing-box, and Mihomo Hysteria process interoperability passed 9/9 executions.\n- The XHTTP/3 HandlerService removal probe confirmed that the UDP listener is released.\n- A static Linux/amd64 release-style cross-build passed (`a3b07b4422695ebbdc1288a0f7830ef909516a92181323da68a116ebddad4d77`). Native Linux validation and the full platform asset matrix are enforced by the release workflow.\n"
+            },
+            {
               "name": "Xray-core v26.8.18",
               "tag": "v26.8.18",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.18",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Adds complete server-side TCP Brutal support for the in-tree SMUX and H2MUX implementations.\n- Keeps Brutal opt-in and independently configurable per inbound, with no global state and no change for existing configurations.\n- Completes the existing outbound/client implementation so Xray can now negotiate Brutal end to end.\n\n## Brutal server\n\n- Added per-inbound configuration:\n\n  ```json\n  \"smux\": {\n    \"brutal-opts\": {\n      \"enabled\": true,\n      \"up\": \"1 Gbps\",\n      \"down\": \"1 Gbps\"\n    }\n  }\n  ```\n\n- Carries immutable inbound limits through the accepted connection context into `singmux.Service`.\n- Reserves `_BrutalBwExchange:0` inside the mux server before routing or DNS.\n- Applies `min(server up, client down)` to the physical TCP carrier and advertises `server down` to the client.\n- Allows one successful negotiation per carrier and shares the controller across all H2MUX streams.\n- Rejects disabled, malformed, duplicate, and out-of-range exchanges without routing them.\n- Closes the physical carrier if socket control or the post-activation response can leave asymmetric congestion control.\n\n## Compatibility notes\n\n- Brutal remains disabled by default; existing inbound and outbound configurations continue unchanged.\n- The server configuration is scoped to each inbound, so different inbounds may use different limits.\n- Linux servers still require the Brutal congestion-control kernel module for socket activation.\n- The SMUX/H2MUX wire format and ordinary TCP/UDP stream behavior are unchanged.\n\n## Validation\n\n- Passed focused unit tests for configuration propagation, bounded negotiation, rejection paths, carrier closure, routing isolation, and SMUX/H2MUX parity.\n- Passed race and checkptr suites for the mux stack.\n- Passed all 80 SMUX/H2MUX process interoperability scenarios with Xray, sing-box, and Mihomo.\n- Passed Go formatting and protobuf header checks.\n- Built a static stripped Linux amd64 binary with `CGO_ENABLED=0`.\n- The external DoH test against `1.1.1.1` returned EOF in this environment and is retained as the known external DNS limitation accepted for this release.\n"
-            },
-            {
-              "name": "Xray-core v26.8.14",
-              "tag": "v26.8.14",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.14",
-              "published_at": "2026-08-10T23:02:19Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Prevents a server-side panic when legacy Shadowsocks AEAD UDP responses approach Xray's 8 KiB buffer limit.\n- Publishes the fix as Xray-core v26.8.14 without configuration or wire-format changes.\n\n## Fork fixes\n\n- Fixed `panic: extending out of bound` in `shadowsocks.EncodeUDPPacket`. The encoder now reserves space for the salt, destination header, and AEAD tag, preserves the full UDP payload, reports write failures, and releases buffers on error paths.\n- Added a regression test that round-trips an 8192-byte UDP payload with `aes-128-gcm`.\n- Restored repository Go formatting compliance in existing H2MUX test and TLS source files.\n\n## Upstream changes\n\n- No additional upstream commits since v26.8.13.\n- Based on `upstream/main` at `bc6e966a` and retains all fork changes from v26.8.13.\n\n## Compatibility notes\n\n- No configuration migration is required.\n- Existing Shadowsocks `aes-128-gcm` TCP/UDP inbounds continue to use the same configuration and wire format.\n\n## Validation\n\n- Passed targeted unit tests for Shadowsocks, core, H2MUX, and TLS.\n- Passed Shadowsocks race, checkptr, and vet checks, including the new 8192-byte UDP regression.\n- Passed the repository Go formatting check and a static Linux amd64 build (`CGO_ENABLED=0`).\n- The external DoH test against `1.1.1.1` returned EOF in this environment and was accepted as a known external DNS limitation for this release.\n- Two Commander scenario tests hit a transient port-reservation collision in the parallel suite; both passed when rerun in isolation.\n"
             }
           ],
           "last_commit": {
@@ -954,7 +954,7 @@
           ],
           "last_commit": {
             "sha": "fc636da",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-14T10:11:27Z",
             "url": "https://github.com/openwrt/openwrt/commit/fc636dac867fcd8c68dee0ad69fc15954e075715"
           }
@@ -3698,7 +3698,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16015,
+            "stars": 16016,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4845,7 +4845,7 @@
             "stars": 76306,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T13:02:21Z",
+            "pushed_at": "2026-08-14T13:08:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4898,10 +4898,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d87d09e",
-            "branch": "grafakus/edit-actions-panels-rows-tabs",
-            "date": "2026-08-14T13:02:22Z",
-            "url": "https://github.com/grafana/grafana/commit/d87d09ee947579aab2699a2f6925471ee4b02e6e"
+            "sha": "90f1c86",
+            "branch": "renovate/rc-component-tooltip-1.x-lockfile",
+            "date": "2026-08-14T13:07:14Z",
+            "url": "https://github.com/grafana/grafana/commit/90f1c867fcdbc6e54f9411f709a088ec1c433b35"
           }
         },
         {
@@ -4981,7 +4981,7 @@
             "stars": 80195,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-14T10:22:45Z",
+            "pushed_at": "2026-08-14T13:08:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5402,7 +5402,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 6982,
+            "stars": 6983,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-13T15:03:44Z",
