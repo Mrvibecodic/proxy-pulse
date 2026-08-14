@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T03:57:24.298300Z",
+  "generated_at": "2026-08-14T04:02:38.280170Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41016,
+            "stars": 41017,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-14T00:12:39Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 36980,
+            "stars": 36981,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-13T12:08:03Z",
@@ -945,7 +945,7 @@
           ],
           "last_commit": {
             "sha": "f6bc2a3",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-14T00:06:33Z",
             "url": "https://github.com/openwrt/openwrt/commit/f6bc2a3b294b3d6b298cf5a625e9923459d64edd"
           }
@@ -5319,12 +5319,21 @@
             "stars": 3241,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T01:40:56Z",
+            "pushed_at": "2026-08-14T04:02:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.19.0",
+              "tag": "v3.19.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.19.0",
+              "published_at": "2026-08-14T04:01:47Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.19.0](https://github.com/Zephyruso/zashboard/compare/v3.18.0...v3.19.0) (2026-08-14)\n\n\n### Features\n\n* add city labels to earth globe ([df067b3](https://github.com/Zephyruso/zashboard/commit/df067b3fd3d8aa38b462e02cdcf00890dbc46264)), closes [#743](https://github.com/Zephyruso/zashboard/issues/743)\n* add connection filter functionality and enhance topology controls ([58eb346](https://github.com/Zephyruso/zashboard/commit/58eb346b2846d72edc376647d9935bd65556669e))\n* add data-page-swipe-ignore attribute to various components and remove redundant touch event handlers ([fca53bc](https://github.com/Zephyruso/zashboard/commit/fca53bce168bf658b25fd16ebf3fe4f84089cb9f))\n* enhance logs and rules display with table view support ([dac63ed](https://github.com/Zephyruso/zashboard/commit/dac63ed748fba89433e071894b7ef447602bb8d0))\n* improve Earth GeoIP database handling ([271452c](https://github.com/Zephyruso/zashboard/commit/271452caf40640bb6be834c87a80d4d58ba5bd57))\n* integrate theme color scheme into ANSI text parsing and rendering ([ea6ac94](https://github.com/Zephyruso/zashboard/commit/ea6ac9475b99e807f700f785e694bf25b1d12c4f))\n\n\n### Bug Fixes\n\n* ensure correct query parameter handling for background image URL ([2181891](https://github.com/Zephyruso/zashboard/commit/2181891bfc0d4863b9e2917d2f331cc6eceb2f0f))\n* **proxies:** exclude reject outbounds from latency tests ([703bd01](https://github.com/Zephyruso/zashboard/commit/703bd01c092c6c714badc97f8cda832cf9543a21)), closes [#742](https://github.com/Zephyruso/zashboard/issues/742)\n* restore silent log level for sing-box ([f82ae78](https://github.com/Zephyruso/zashboard/commit/f82ae782a499fa5dcde6448d0fc31ae7f6f75790))\n* support silent log level by core ([5e26cc2](https://github.com/Zephyruso/zashboard/commit/5e26cc28ea8f0fbd2b4084aea22978233844c22e)), closes [#744](https://github.com/Zephyruso/zashboard/issues/744)\n* update GeoIP API requests ([fd4a41a](https://github.com/Zephyruso/zashboard/commit/fd4a41a4d65e3aeb739af0f0cead8104c45e1872)), closes [#746](https://github.com/Zephyruso/zashboard/issues/746) [#747](https://github.com/Zephyruso/zashboard/issues/747)"
+            },
             {
               "name": "v3.18.0",
               "tag": "v3.18.0",
@@ -5360,22 +5369,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.16.0](https://github.com/Zephyruso/zashboard/compare/v3.15.0...v3.16.0) (2026-07-22)\n\n\n### Features\n\n* add \"don't ask again\" option to settings override confirm ([af704c2](https://github.com/Zephyruso/zashboard/commit/af704c211ae611e125c06c2f850a101eafd752f0)), closes [#728](https://github.com/Zephyruso/zashboard/issues/728)\n* align with the upstream sing-box API ([f90e9e7](https://github.com/Zephyruso/zashboard/commit/f90e9e77236af98f7c0d6321f615c83184f1f40f))\n\n\n### Bug Fixes\n\n* stop backend streams when active backend is cleared ([#724](https://github.com/Zephyruso/zashboard/issues/724)) ([6676351](https://github.com/Zephyruso/zashboard/commit/66763518d462326c031561995aed2feb10c09335))\n\n\n### Performance Improvements\n\n* overhaul connections page hot path ([#727](https://github.com/Zephyruso/zashboard/issues/727)) ([d6211f2](https://github.com/Zephyruso/zashboard/commit/d6211f21cf3649909a227963e75bced36d3af9c0))"
-            },
-            {
-              "name": "v3.15.0",
-              "tag": "v3.15.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.15.0",
-              "published_at": "2026-07-13T02:11:17Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.15.0](https://github.com/Zephyruso/zashboard/compare/v3.14.0...v3.15.0) (2026-07-10)\n\n\n### Features\n\n* **overview:** aggregate traffic by proxy group ([2b70b72](https://github.com/Zephyruso/zashboard/commit/2b70b72a5eeafa96d162374768b18aed1c81803f))\n\n\n### Bug Fixes\n\n* resolve proxy group truncation in modal ([0fc4738](https://github.com/Zephyruso/zashboard/commit/0fc4738a2324792dd600622d51e7f6bfdda9a6e8))\n* **settings:** remove duplicate text between labels and action buttons ([a918f54](https://github.com/Zephyruso/zashboard/commit/a918f5498b3d38c2c735cff69553f39987a89d9b))\n* **settings:** update backend settings actions and improve visibility logic ([629be82](https://github.com/Zephyruso/zashboard/commit/629be82ebd66682d4c817054216f3a5747089b68))\n* **theme:** update light-neutral color palette for improved contrast ([dffcc2b](https://github.com/Zephyruso/zashboard/commit/dffcc2b6871de77baa2fb8e6a1a10b288e4a0b07))"
             }
           ],
           "last_commit": {
-            "sha": "a8e9704",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-08-14T01:40:57Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/a8e970475644b836ba9cf6b737f03cf5ae24763a"
+            "sha": "80a0ee0",
+            "branch": "gh-pages-pingfang-only",
+            "date": "2026-08-14T04:02:36Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/80a0ee0b3ab1f9aca76288a569cd6b66ced5cf51"
           }
         },
         {
