@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T11:39:31.548033Z",
+  "generated_at": "2026-08-14T11:44:47.072991Z",
   "groups": [
     {
       "id": "cores",
@@ -4845,7 +4845,7 @@
             "stars": 76305,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T11:36:12Z",
+            "pushed_at": "2026-08-14T11:40:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4898,10 +4898,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bb54a1b",
-            "branch": "RafaelPaulovic/vp/error-polish-test",
-            "date": "2026-08-14T11:36:13Z",
-            "url": "https://github.com/grafana/grafana/commit/bb54a1b2dd868cc76aeaf5b7e4817f8f2583f230"
+            "sha": "27ca604",
+            "branch": "jh/calendar-aria-patch",
+            "date": "2026-08-14T11:41:00Z",
+            "url": "https://github.com/grafana/grafana/commit/27ca604ca839d3b225e6af709a20299fc2b23ace"
           }
         },
         {
@@ -5201,12 +5201,21 @@
             "stars": 46,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T11:36:36Z",
+            "pushed_at": "2026-08-14T11:42:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.1.0",
+              "tag": "v1.1.0",
+              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.1.0",
+              "published_at": "2026-08-14T11:42:50Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Релиз v1.1.0 — защищённый канал подписки, каталог версий клиентов, чёрная тема.\n\n## Новое\n\n- **Защищённый канал подписки (Clod Clash).** Подписка забирается по нечитаемому адресу, ответ уходит сплошным шифротекстом одного размера — посредник, терминирующий TLS, не видит ни адреса, ни заголовков, ни тела. Работает только с клиентами Clod Clash (desktop и Android), включается на отдельную подписку, по умолчанию выключено. Вкладка «Защищённый канал»: готовность, ключ со сменой, жёсткий режим, диагностический журнал. Подробности — docs/chan.md.\n- **Версии клиентов.** Второй экран «Лога запросов»: каталог клиентских приложений с источником актуальной версии (GitHub, App Store, Google Play, F-Droid, Codeberg или вручную). Версия из User-Agent сравнивается с актуальной, отставшие клиенты помечаются в логе, на кнопке «Запросы» — счётчик устаревших. Проверка ленивая: фоновая автопроверка не чаще раза в сутки на строку, запросы уходят только со страниц админки.\n- **Чёрная тема (OLED).** Третья тема оформления админки к светлой и тёмной, с контраст-фиксами; по умолчанию — как в системе. Плюс липкая шапка таблиц.\n\n## Исправления\n\n- **Доп. конфиги в формате xray-json** собираются на шаблоне подписки из панели (по умолчанию `Default`, имя настраивается во вкладке «Доп. конфиги»), а не на копии первого профиля — раньше они наследовали правила маршрутизации случайного хоста. Для этого токену панели нужны права `subscription-template:list` и `subscription-template:get`; без них поведение прежнее, а во вкладке видна причина.\n- Платформа клиента в логе запросов берётся из заголовков устройства; знаменатель в плитке «Обновили подписку» не пропадает после автообновления; время каталога — в таймзоне браузера.\n- `install.sh` больше не пытается ставить несуществующий пакет `php-sodium`; вкладка канала показывает, какой PHP отвечает сайту.\n- Читаемый хеш коммита на кнопке «Обновить до».\n\n## Интерфейс\n\n- Один пункт меню «Лог вебхуков» с под-вкладками вместо двух.\n- Подсказки и выпадающие списки в стиле админки вместо системных.\n\n## Обновление\n\n- Docker: `docker compose pull \u0026\u0026 docker compose up -d` (тег `v1` уже указывает на этот релиз).\n- Файлами: вкладка «Обновление» в админке или `git pull`.\n- Если используете доп. конфиги с xray-json-клиентами (Happ) — добавьте API-токену панели права `subscription-template:list` и `subscription-template:get`."
+            },
             {
               "name": "v1.0.3",
               "tag": "v1.0.3",
@@ -5245,10 +5254,10 @@
             }
           ],
           "last_commit": {
-            "sha": "295f15d",
-            "branch": "dev",
-            "date": "2026-08-14T11:36:36Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/295f15d5b415b2649c09c0bbc57a6bd769d009b3"
+            "sha": "89412f8",
+            "branch": "main",
+            "date": "2026-08-14T11:42:15Z",
+            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/89412f8f556bcf3894e5961c3e166e13dfce6755"
           }
         },
         {
