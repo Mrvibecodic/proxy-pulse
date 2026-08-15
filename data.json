@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:23:04.251513Z",
+  "generated_at": "2026-08-15T21:33:31.221526Z",
   "groups": [
     {
       "id": "cores",
@@ -968,7 +968,7 @@
             "stars": 4580,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-15T21:12:32Z",
+            "pushed_at": "2026-08-15T21:31:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2053,6 +2053,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b8dc6c7",
+                  "message": "nodogsplash: fix config generation in the init script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T21:31:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/b8dc6c707750dc2fa26afef1aa71b20d2a89f775"
+                },
+                {
+                  "sha": "dcde8f0",
+                  "message": "nodogsplash: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T21:31:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/dcde8f02705e98a1f43ed386a2615a36b8ac120f"
+                },
+                {
                   "sha": "578758e",
                   "message": "luajit2: update to 2026-07-31",
                   "author": "Josef Schlehofer",
@@ -2247,20 +2261,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T10:50:26Z",
                   "url": "https://github.com/openwrt/packages/commit/e96869d3c6b633a9f960a19e3e81baf775c8684c"
-                },
-                {
-                  "sha": "81b92c6",
-                  "message": "frp: update to 0.70.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:50:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/81b92c6b06dd48e1efb265bb85ec903a60ce0fd4"
-                },
-                {
-                  "sha": "6fc57ac",
-                  "message": "delve: update to 1.27.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:50:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/6fc57ac0dc01c49f04ce4229bb00f7bd4ce1c6ce"
                 }
               ]
             },
@@ -4043,7 +4043,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5152,
+            "stars": 5153,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-15T00:15:49Z",
