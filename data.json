@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T08:44:21.526356Z",
+  "generated_at": "2026-08-15T08:49:35.727673Z",
   "groups": [
     {
       "id": "cores",
@@ -954,7 +954,7 @@
           ],
           "last_commit": {
             "sha": "0c159f4",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-15T08:07:27Z",
             "url": "https://github.com/openwrt/openwrt/commit/0c159f4105861153c12267d5fd515b41fd9b9317"
           }
@@ -968,7 +968,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-14T12:36:46Z",
+            "pushed_at": "2026-08-15T08:49:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3128,6 +3128,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "bc438f8",
+                  "message": "gperftools: allow building for powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T08:47:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/bc438f8c9e9cc7bab7e05a61e1db5a389274f73d"
+                },
+                {
                   "sha": "6d5dc98",
                   "message": "librespeed-cli-rust: update to 0.1.1",
                   "author": "Josef Schlehofer",
@@ -3329,13 +3336,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-07-18T19:42:28Z",
                   "url": "https://github.com/openwrt/packages/commit/4d002ad825c0dc86b7c30d222a341d860e2a43b7"
-                },
-                {
-                  "sha": "d2941e8",
-                  "message": "radicale3: bump version to 3.7.6",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-07-18T04:53:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/d2941e844ad88fd05e48f53ea32ff046fc6d5fd4"
                 }
               ]
             },
