@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T21:07:24.016796Z",
+  "generated_at": "2026-08-15T21:12:37.820909Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37019,
+            "stars": 37020,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-15T14:11:42Z",
@@ -954,7 +954,7 @@
           ],
           "last_commit": {
             "sha": "ee6ef8d",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-15T20:37:26Z",
             "url": "https://github.com/openwrt/openwrt/commit/ee6ef8d27ee0276d1d5405dcdafdb630266470ba"
           }
@@ -968,7 +968,7 @@
             "stars": 4580,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-15T10:37:06Z",
+            "pushed_at": "2026-08-15T21:12:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1186,6 +1186,221 @@
                   "author": "Rishabh",
                   "date": "2026-04-27T12:28:04Z",
                   "url": "https://github.com/openwrt/packages/commit/b3a0f57c4f9997cb62cfc69451d83fe8d01e4a87"
+                }
+              ]
+            },
+            {
+              "name": "dependabot/github_actions/lewagon/wait-on-check-action-1.9.1",
+              "commits": [
+                {
+                  "sha": "e56af42",
+                  "message": "ci: bump lewagon/wait-on-check-action from 1.9.0 to 1.9.1",
+                  "author": "dependabot[bot]",
+                  "date": "2026-08-15T21:12:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/e56af4286d0d548c07d3952bc252af78b823b3ed"
+                },
+                {
+                  "sha": "578758e",
+                  "message": "luajit2: update to 2026-07-31",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T10:26:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/578758e1f6788f4f28b8e3a160a375030f45851f"
+                },
+                {
+                  "sha": "a6b248d",
+                  "message": "luajit2: fix build and runtime on powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T09:29:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/a6b248d6b808710c325f1295773baf7b242123b7"
+                },
+                {
+                  "sha": "ae3874f",
+                  "message": "golang: bump 1.26 to 1.26.6",
+                  "author": "George Sapkin",
+                  "date": "2026-08-14T12:36:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/ae3874f304d85d8978422f8e466105b9bebf2e7f"
+                },
+                {
+                  "sha": "3734909",
+                  "message": "btrfs-progs: remove no-mold flag as it builds fine with mold 2.42.0",
+                  "author": "Carsten Schuette",
+                  "date": "2026-08-14T12:05:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/37349095beac4157e0d340de80f888ceeb6652ef"
+                },
+                {
+                  "sha": "61972da",
+                  "message": "olsrd: record why the version check logs \"Terminated\"",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/61972dae3af03f5f8ac757b9520eb6f2ebe2eb21"
+                },
+                {
+                  "sha": "9c79e6b",
+                  "message": "olsrd: report the packaged version in the binary",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/9c79e6bed31119abc517612ddb8a35af616b0d35"
+                },
+                {
+                  "sha": "d527650",
+                  "message": "olsrd: reject non-address input before eval in olsrd-neigh.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d52765005c75b829ae3b75ee27ac79e8da847723"
+                },
+                {
+                  "sha": "f33d1d1",
+                  "message": "olsrd: initialize the LQ multiplier list pointer in the ubus handler",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/f33d1d1f1ff6df97f92288bb8dd466ea6381c37e"
+                },
+                {
+                  "sha": "d4c843e",
+                  "message": "olsrd: add missing jshn dependency to olsrd-utils",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d4c843ea2fd80a91ba736b556750aac829130b8d"
+                },
+                {
+                  "sha": "9af67f0",
+                  "message": "olsrd: fix respawn_threshold lookup in the IPv6 init script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/9af67f00387e20b5c32f9f78f2b8486dfff0dbc3"
+                },
+                {
+                  "sha": "1d86a8f",
+                  "message": "olsrd: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T21:21:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/1d86a8fffc63e28b8f1ccd565dce933b5ff21e86"
+                },
+                {
+                  "sha": "c11ef37",
+                  "message": "bcp38: clean up nft rule handling",
+                  "author": "Dharmik Parmar",
+                  "date": "2026-08-13T16:43:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/c11ef37d558291d272ffe6afc857afa4fd538dd4"
+                },
+                {
+                  "sha": "7cb0c18",
+                  "message": "tree-wide: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-13T13:21:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/7cb0c183a9e98f71366c462f9a38c13246003764"
+                },
+                {
+                  "sha": "8c7a569",
+                  "message": "grep: set PKG_SUBDIRS instead of patching Makefile.in",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-08-13T13:19:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/8c7a5692a6833cf310b263d53319589b05d923e0"
+                },
+                {
+                  "sha": "08e009c",
+                  "message": "rsync: update to 3.5.0",
+                  "author": "John Audia",
+                  "date": "2026-08-13T12:09:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/08e009c9b4e65d3e9626f1eabc7936a4e0ad7b4a"
+                },
+                {
+                  "sha": "9587521",
+                  "message": "librespeed-cli-rust: update to 0.1.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-12T13:03:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/95875218de25e6340251910a8c996e5a811c69b8"
+                },
+                {
+                  "sha": "e99adbc",
+                  "message": "sing-box: bump to 1.13.18 without Naive outbound support",
+                  "author": "Sergei S.",
+                  "date": "2026-08-12T05:35:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/e99adbc49f7a11d0377c8135fe706c7757b9e68c"
+                },
+                {
+                  "sha": "06dd60f",
+                  "message": "bc: drop disable-doc patch for PKG_SUBDIRS",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T13:30:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/06dd60f40e8553bf0e9cecdba8bf5769305b50c3"
+                },
+                {
+                  "sha": "1bae5ff",
+                  "message": "bird3: drop stale conffiles entries",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/1bae5fff87a8381be3a1dad4e7418a8c517f1b89"
+                },
+                {
+                  "sha": "e470a23",
+                  "message": "bird3: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/e470a236bd07c6cde6b981a5af209c95b7a19ee3"
+                },
+                {
+                  "sha": "1a45203",
+                  "message": "bird2: document the OSPF alignment patch",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/1a45203dcd4a68bd265bfa82c7dbc59245dccd6f"
+                },
+                {
+                  "sha": "ab72eb7",
+                  "message": "bird2: drop stale conffiles entries",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/ab72eb7c76cdf84da9d6ccba2236b4b338389f7b"
+                },
+                {
+                  "sha": "70c1d61",
+                  "message": "bird2: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/70c1d615ae146c2d4de516dfbeda14540f59c569"
+                },
+                {
+                  "sha": "f61a21e",
+                  "message": "librespeed-cli: update to 1.0.13",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-11T12:02:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/f61a21e47213cda66781d49e77c832a16b49ad5d"
+                },
+                {
+                  "sha": "9bb7c9d",
+                  "message": "python-typing-extensions: bump to 4.16.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T11:39:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/9bb7c9d0fba9cc8b4b04668a77e145510e346bf7"
+                },
+                {
+                  "sha": "0dab5bb",
+                  "message": "python-pyasn1: bump to 0.6.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T11:39:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/0dab5bb13be8214b3698962ca30dc6c9a49ecbc3"
+                },
+                {
+                  "sha": "5c5f97d",
+                  "message": "frp: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/5c5f97d98793241e4e7dece717407f998b87de50"
+                },
+                {
+                  "sha": "e96869d",
+                  "message": "hwdata: update to 0.410",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/e96869d3c6b633a9f960a19e3e81baf775c8684c"
+                },
+                {
+                  "sha": "81b92c6",
+                  "message": "frp: update to 0.70.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-11T10:50:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/81b92c6b06dd48e1efb265bb85ec903a60ce0fd4"
                 }
               ]
             },
@@ -5046,7 +5261,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17538,
+            "stars": 17539,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-08-15T20:49:00Z",
