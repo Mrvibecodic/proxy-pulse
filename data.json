@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T10:34:19.285821Z",
+  "generated_at": "2026-08-15T10:39:33.620466Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41040,
+            "stars": 41041,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-14T00:12:39Z",
@@ -968,7 +968,7 @@
             "stars": 4579,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-15T10:26:13Z",
+            "pushed_at": "2026-08-15T10:37:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3128,6 +3128,41 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "40ab75a",
+                  "message": "luajit2: update to 2026-07-31",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T10:32:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/40ab75a27a65dd87448b6c179cd7791f8dbe0121"
+                },
+                {
+                  "sha": "73f669b",
+                  "message": "luajit2: fix build and runtime on powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T10:32:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/73f669b10a4544b643a9224569f7c6366b20b39b"
+                },
+                {
+                  "sha": "76d9e7f",
+                  "message": "luajit2: update test-version.sh to actual test",
+                  "author": "Seo Suchan",
+                  "date": "2026-08-15T10:32:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/76d9e7f587d79c09ef421e193ebb3489ce6186d0"
+                },
+                {
+                  "sha": "9a74700",
+                  "message": "luajit2: add test-version.sh",
+                  "author": "Seo Suchan",
+                  "date": "2026-08-15T10:32:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/9a747004be7f2ef966242ddf48f4f65a73128333"
+                },
+                {
+                  "sha": "db6a3df",
+                  "message": "luajit2: update to v2.1-20260227",
+                  "author": "Javier Marcet",
+                  "date": "2026-08-15T10:32:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/db6a3dfc68b21ab9128798c463ff89f2bc8cd043"
+                },
+                {
                   "sha": "bc438f8",
                   "message": "gperftools: allow building for powerpc",
                   "author": "Josef Schlehofer",
@@ -3301,41 +3336,6 @@
                   "author": "Paul Donald",
                   "date": "2026-07-19T19:42:59Z",
                   "url": "https://github.com/openwrt/packages/commit/d91bad6134c4a5d3a8504096122667392f0a0447"
-                },
-                {
-                  "sha": "2eea3e1",
-                  "message": "cgi-io: update to Git HEAD (2025-10-04)",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-07-19T19:42:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/2eea3e13a009599aa0097aec03c7c71e7a18f74d"
-                },
-                {
-                  "sha": "9418248",
-                  "message": "pbr: update to 1.2.2-20",
-                  "author": "Stan Grishin",
-                  "date": "2026-07-19T10:55:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/9418248cefb7629b489dbef266358e038be7fd8d"
-                },
-                {
-                  "sha": "a340a79",
-                  "message": "adblock-fast: update to 1.2.4-4",
-                  "author": "Stan Grishin",
-                  "date": "2026-07-19T10:54:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/a340a79a4df69a970dbdd1db8fa7e821c4f3e69a"
-                },
-                {
-                  "sha": "e985d16",
-                  "message": "https-dns-proxy: update to 2026.05.06-1",
-                  "author": "Stan Grishin",
-                  "date": "2026-07-19T10:54:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/e985d16da4e1ca4abc1bbedf5d814bb73665070e"
-                },
-                {
-                  "sha": "4d002ad",
-                  "message": "wget: rank wget-nossl below uclient-fetch for the wget alternative",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-07-18T19:42:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/4d002ad825c0dc86b7c30d222a341d860e2a43b7"
                 }
               ]
             },
