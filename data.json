@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T10:06:48.772651Z",
+  "generated_at": "2026-08-16T10:12:04.171174Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 33253,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-16T09:12:51Z",
+            "pushed_at": "2026-08-16T10:10:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "v1.19.30",
+              "tag": "v1.19.30",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30",
+              "published_at": "2026-08-16T10:11:34Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## What's Changed\n* 05b5334c feat: add `handshake-timeout` for hysteria2 by @wwqgtxx\n* 1265cb9a feat: add `ip-stack` option for masque outbound by @wwqgtxx\n* 4ad27d81 feat: add `ip-stack` option for ZeroTier by @wwqgtxx\n* 8453e589 feat: support AmneziaWG v3.0 by @wwqgtxx\n* 8b76447b feat: add `ip-stack` option for wireguard outbound by @wwqgtxx\n* 8c56780b feat: support AmneziaWG v3.1 by @wwqgtxx\n* b0825150 feat: add Zerotier outbound support by @wwqgtxx\n* b27c659a feat: add `client-metadata` configuration to anytls and DON'T sent by default by @wwqgtxx\n* bb80689b feat: support bbr3 for mipstack by @wwqgtxx\n* d46944f3 feat: add `ip-stack` option for openvpn outbound by @wwqgtxx\n* e40b5962 feat: add `rate-limit` for restls listener by @wwqgtxx\n* e889b689 feat: support H2C and QUICv2 sniffing (#3036) by @Kosta\n\n## BUG \u0026 Fix\n* 25ccc4dd fix: handle zerotier network lifecycle events correctly by @wwqgtxx\n* 2e8a04c9 fix: tailscale failed to recover after the network was restored by @wwqgtxx\n* 33154579 fix: CVE-2026-56862 for crypto/tls by @wwqgtxx\n* 3a779dda fix: typo in `uplinkHTTPMethod` (#3029) by @Kosta\n* 4fcf9aed fix: track QUIC crypto stream coverage without repeated range sorting by @wwqgtxx\n* 5e3cb10b fix: avoid reserved TLS suffixes in JLS FakeRandom by @wwqgtxx\n* 63f15f2d fix: keep connections open after initial sniffing failures by @wwqgtxx\n* 69a3142a fix: apply default uplink chunk size for xhttp (#3061) by @vanbujhm\n* 7ac597bd fix: domain resolve logic in zerotier outbound by @wwqgtxx\n* 8d1b6616 fix: avoid unnecessary waits in HTTP/2 sniffing by @wwqgtxx\n* 8d710081 fix: typo in error string (#3090) by @Rye Sears\n* 9574a46c fix: truncate udp dns replies to the client's advertised buffer size (#3043) by @TWO666\n* 95f7a0c5 fix: remove incorrect quic error wrapping by @wwqgtxx\n* 978d25ae fix: enforce ShadowQUIC JLS authentication in QUIC layer by @wwqgtxx\n* 98f1200d fix: panic when UDP is not supported in dns_dialer by @wwqgtxx\n* 9b9dc8a0 fix: survive server-initiated soft reset and rekey for openvpn (#3109) by @ayanami-desu\n* 9d901dc7 fix: prevent CUBIC ACKs from reducing cwnd for gvisor by @wwqgtxx\n* a2c9556a fix: HTTP/2 read loop spinning on underlying StreamError by @wwqgtxx\n* a939fc1c fix: compilation errors under specific circumstances by @wwqgtxx\n* ac017cdd fix: initialize DNS before NTP (#3103) by @xYx\n* ace20375 fix: echo edns0 opt in dns replies when the request carries one (#3041) by @TWO666\n* afeb0728 fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion (#3079) by @胡威\n* b9894451 fix: reduce PROTOCOL_VIOLATION errors on masque dialing by setting ConnectionIDLength by @wwqgtxx\n* c1603f4d fix: coordinate TCP sniffers on overlapping ports by @wwqgtxx\n* c7089c00 fix: include the upstream tailscale version for standardization (#3074) by @Feng.YJ\n* cd05b74f fix: harden zerotier runtime synchronization by @wwqgtxx\n* e18ef3a1 fix: harden ShadowQUIC JLS camouflage forwarding by @wwqgtxx\n* ea9c544e fix: avoid unnecessary waits in TLS and QUIC sniffing by @wwqgtxx\n* f298cd2e fix: normalize HTTP hosts and avoid unnecessary sniffing delays by @wwqgtxx\n* f5fddd37 fix: preserve WebSocket 0-RTT data order by @wwqgtxx\n* f83a0721 fix: let QUIC sniffer handle Retry key changes by @wwqgtxx\n* fb002210 fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates (#3037) by @TWO666\n\n## Maintenance\n* 09b0ff3c chore: reduce interface differences between gVisor and mipstack by @wwqgtxx\n* 0ba9f2f6 chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns (#3048) by @ayanamist\n* 1af24e98 chore: update tailscale to v1.102.2 by @wwqgtxx\n* 1ef16c71 chore: harden TCP pacing and handshake state handling by @wwqgtxx\n* 26c635f6 chore: avoid string reversal allocation in DomainSet.Has (#3049) by @Ember Moth\n* 2bade294 chore: allow the sniffer to read more data if possible by @wwqgtxx\n* 2ea54615 chore: adjust internal dialQuic api by @wwqgtxx\n* 3c16aaf1 chore: update quic-go to 0.61.0 by @wwqgtxx\n* 3cac8696 chore: reduce ZeroTier wire data-path overhead by @wwqgtxx\n* 4859d142 chore: let quic sniffer handle coalesced packets and larger client hello by @wwqgtxx\n* 49a5419d chore: update tailscale to v1.102.0 by @wwqgtxx\n* 63024e39 chore: remove unused imports in test by @wwqgtxx\n* 669db1ba chore: harden QUIC Initial packet processing by @wwqgtxx\n* 6bb8b983 chore: strictly verify the syntax for Clash-style domain wildcards by @wwqgtxx\n* 7259bbb8 chore: update mipstack for api adjustment by @wwqgtxx\n* 73b061a7 chore: split internal dns server handler by @wwqgtxx\n* 770800e9 chore: reduce packet-path and TCP allocation overhead by @wwqgtxx\n* 7ee0b05b chore: allow override `IV_VER` by `peer-info` for OpenVPN by @wwqgtxx\n* 7ff65441 chore: improve ZeroTier reliability and throughput under load by @wwqgtxx\n* 8df94628 chore: update mipstack for api adjustment by @wwqgtxx\n* 944e8e1a chore: align MIPS TCP keepalive defaults with sing-wireguard behavior by @wwqgtxx\n* 94a89fb7 chore: reject oversized sniff reads before filling the buffer by @wwqgtxx\n* 97cbdc52 chore: update gvisor by @wwqgtxx\n* 99ce79c9 chore: reduce packet queue contention and socket allocation churn by @wwqgtxx\n* 9a9c4c6e chore: improve zerotier event diagnostics by @wwqgtxx\n* a52c00b2 chore: expand datagram and raw IP socket support for mipstack by @wwqgtxx\n* b9faf971 chore: improve internal sharing mechanism for dnsClient by @wwqgtxx\n* c235dc18 chore: let the sniffer assemble client hello across TLS records by @wwqgtxx\n* c807c9a0 chore: let the HTTP/2 sniffer assemble header blocks across continuation frames by @wwqgtxx\n* cb8e9900 chore: let sniffer support multi-round reading by @wwqgtxx\n* cf98d2d5 chore: align ZeroTier link configuration and multicast state by @wwqgtxx\n* d8fbf85f chore: update bart by @wwqgtxx\n* dd7bc4c6 chore: reduce ZeroTier packet processing overhead by @wwqgtxx\n* dfd7e896 chore: align congestion control with Linux by @wwqgtxx\n* e183c580 chore: stabilize equal-quality peer path selection for ZeroTier by @wwqgtxx\n* e9f62979 chore: improve ZeroTier packet bridge throughput by @wwqgtxx\n* ee2db897 chore: let gVisor allow HandleLocal working with PromiscuousMode by @wwqgtxx\n* efd63d87 chore: extract bitmap handling from QUIC crypto reassembly by @wwqgtxx\n* f5fbe0c4 chore: update mieru version (#3046) by @enfein\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...v1.19.30\n"
+            },
             {
               "name": "Prerelease-Alpha",
               "tag": "Prerelease-Alpha",
@@ -193,21 +202,12 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* 90b1066e feat: add ping keepalive support for OpenVPN (#2859) by @puppywang\r\n* fd2112ec feat: add built-in proxy PASS-RULE (#2873) by @ECHSFXY\r\n* 1e62d554 feat: add `empty-fallback` to group options allows for customization instead of hardcoding `COMPATIBLE` by @wwqgtxx\r\n* 317bfc20 feat: add `allow-insecure` config to anytls/trojan/vless listeners for nginx/caddy front users by @wwqgtxx\r\n* 358fa5eb feat: add `age-secret-key` for proxy-provider and `-age-secret-key` for cmdline to support age armor format config decryption by @wwqgtxx\r\n* bd72c65b feat: remove `global-client-fingerprint`, please set `client-fingerprint` directly on the proxy instead by @wwqgtxx\r\n* e928ef59 feat: add `path-in-bundle` to rule-providers to support extract from BundleMRS.7z when the local file does not exist by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 11848509 fix: quic sniffer out-of-bounds read causes process crash via single UDP packet by @Guanni Qu\r\n* 1abd1261 fix: validation error handling for age-secret-key by @wwqgtxx\r\n* 5184081a fix: socks4 readUntilNull unbounded memory allocation by @Guanni Qu\r\n* 5bdb1cc7 fix: trojan protocol WaitReadFrom panic via oversized UDP relay length field by @Guanni Qu\r\n* 9761bcd7 fix: exchangeQUIC not fully respecting context by @wwqgtxx\r\n* c7100255 fix: readMsg in doq out-of-bounds access by @wwqgtxx\r\n* dafdd06b fix: variable capture in dns outbound by @wwqgtxx\r\n* dbaf85b7 fix: vision TLS filter out-of-bounds read via crafted session_id length by @Guanni Qu\r\n\r\n## Maintenance\r\n* 01edf45c chore: improve internal api by @wwqgtxx\r\n* 316f5df1 chore: add WithDialer option to component/http for api user by @wwqgtxx\r\n* ab56858d chore: sync sudoku v0.4.7 optimizations (#2879) by @saba-futai\r\n* b60e687e chore: support convert age-secret-key to age-public-key for build-in age tool by @wwqgtxx\r\n* d7ac7b52 chore: support std input/output for age encrypt/decrypt tool by @wwqgtxx\r\n* f99d4e1b chore: adjust internal age component api by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.26...v1.19.27\r\n"
-            },
-            {
-              "name": "v1.19.26",
-              "tag": "v1.19.26",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.26",
-              "published_at": "2026-05-31T16:53:56Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## What's Changed\r\n* 52edebd1 feat: add snell version 4/5 outbound and inbound (#2817) by @xream\r\n* 7a6a6509 feat: support OpenVPN CBC ciphers (#2818) by @Romanov Caesar\r\n* ff98700d feat: support CHACHA20-POLY1305 data cipher for OpenVPN (#2798) by @Lanlan13-14\r\n* fc8c5a24 feat: support comp-lzo for OpenVPN (#2841) by @Zhiqiang Zhang\r\n* 2dd7d599 feat: support MD5/SHA384/SHA512 OpenVPN auth methods by @wwqgtxx\r\n* f1c36561 feat: support AES-192-GCM/AES-192-CBC OpenVPN data ciphers by @wwqgtxx\r\n* f30a64f9 feat: support hysteria2 gecko obfs by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 03e1f449 fix: interface structs do not copy correctly by @wwqgtxx\r\n* 301d580d fix: compile issue of tailscale-wireguard-go dependency by @wwqgtxx\r\n* 3809a03c fix: stack panic after dispatcher attach nil by @wwqgtxx\r\n* 38cb06d3 fix: hysteria2 realm stun domain resolve by @wwqgtxx\r\n* 4065583a fix: masque retry condition by @wwqgtxx\r\n* 5639e93f fix: improve OpenVPN transport reliability (#2824) by @Romanov Caesar\r\n* 8c26d61c fix: tproxy did not pass the additions correctly by @wwqgtxx\r\n* a2aca027 fix: pinger in tailscale not under our control by @wwqgtxx\r\n* a52a27ed fix: errors.ErrUnsupported backport by @wwqgtxx\r\n* a531449b fix: missing param passing in vless listener config by @wwqgtxx\r\n* b230c90d fix: shadowtls v3 client HMAC handling for TLS 1.3 HelloRetryRequest by @wwqgtxx\r\n* d2fcf71c fix: tailscale panic when working with dialer-proxy by @wwqgtxx\r\n* f69331f4 fix: config struct not exported by @wwqgtxx\r\n\r\n## Maintenance\r\n* 060711fb chore: more netip.AddrPort using in tproxy by @wwqgtxx\r\n* 0ddf4bbf chore: update sing-tun by @wwqgtxx\r\n* 0dec35ed chore: always dial tcp on netstack for tailscale by @wwqgtxx\r\n* 31ece04a chore: upgrade the embedded xsync.Map to v4.5.0 by @wwqgtxx\r\n* 5b28a0ee chore: optimize sudoku packed hot paths (#2833) by @saba-futai\r\n* 6e15299c chore: remove AF_ALG in tailscale-wireguard-go by @wwqgtxx\r\n* 72f133f4 chore: more logging for tailscale debug by @wwqgtxx\r\n* 8f2d84f9 chore: update mieru version to v3.33.0 (#2840) by @enfein\r\n* a05c94b4 chore: make the proxydialer module no longer directly depend on the tunnel module by @wwqgtxx\r\n* b1a07d20 chore: remove unnecessary member variables added by xsync/v3 by @wwqgtxx\r\n* cb652ddb chore: make the handler-related SNAT key in NewPacket by @wwqgtxx\r\n* d27f3201 chore: use pre-go1.27 tls.QUICConfig.ClientHelloInfoConn API for quic-go to avoid cloning tls.Config by @wwqgtxx\r\n* d60b336d chore: use mihomo name \u0026 ver to tailscale reported ver to avoid update prompts (#2801) by @ayanamist\r\n* d610afef chore: clear parameter passing by @wwqgtxx\r\n* e9e23c4e chore: tailscale must be compiled under the `with_gvisor` build tag by @wwqgtxx\r\n* f2da5b7c chore: reduce internal circular dependencies by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.25...v1.19.26\r\n"
             }
           ],
           "last_commit": {
             "sha": "ac017cd",
-            "branch": "Alpha",
-            "date": "2026-08-16T08:35:58Z",
+            "branch": "Meta",
+            "date": "2026-08-16T10:10:40Z",
             "url": "https://github.com/MetaCubeX/mihomo/commit/ac017cdd246ce8bd547653d927e7bf77d7ee73d5"
           }
         },
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4857,
+            "stars": 4858,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-13T18:01:09Z",
@@ -361,7 +361,7 @@
           "track": "releases",
           "meta": {
             "description": "Node component for Remnawave. Learn more at: https://docs.rw",
-            "stars": 175,
+            "stars": 176,
             "url": "https://github.com/remnawave/node",
             "default_branch": "main",
             "pushed_at": "2026-08-15T01:14:16Z",
