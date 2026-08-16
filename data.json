@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:16:27.349227Z",
+  "generated_at": "2026-08-16T06:21:41.235754Z",
   "groups": [
     {
       "id": "cores",
@@ -968,7 +968,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-16T06:15:03Z",
+            "pushed_at": "2026-08-16T06:21:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3343,6 +3343,55 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "5b6cc21",
+                  "message": "rust: build soft-float on soft-float PowerPC subtargets",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T06:21:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/5b6cc215db64c81520bbd12f55e1044686c193c9"
+                },
+                {
+                  "sha": "c441809",
+                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T06:21:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/c4418092cd9ab1deded1f94f85a0fa48e21fd9ad"
+                },
+                {
+                  "sha": "f8b35d4",
+                  "message": "luajit2: update to 2026-07-31",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T10:27:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/f8b35d48b95aa65a537e551320c29e7660abe5c0"
+                },
+                {
+                  "sha": "a6a052e",
+                  "message": "luajit2: fix build and runtime on powerpc",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-15T10:27:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/a6a052ee8c001355aa48681c8b2258311b10791f"
+                },
+                {
+                  "sha": "f0c97a4",
+                  "message": "luajit2: update test-version.sh to actual test",
+                  "author": "Seo Suchan",
+                  "date": "2026-08-15T10:27:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/f0c97a4f8b5d49c6efdb89c33e93b5deb0ded678"
+                },
+                {
+                  "sha": "064e33e",
+                  "message": "luajit2: add test-version.sh",
+                  "author": "Seo Suchan",
+                  "date": "2026-08-15T10:27:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/064e33e045a707f583d572caf44ca38295975bd4"
+                },
+                {
+                  "sha": "4b017de",
+                  "message": "luajit2: update to v2.1-20260227",
+                  "author": "Javier Marcet",
+                  "date": "2026-08-15T10:27:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/4b017dedf3ad7c4dbca0d1b81a186cc68973fb3f"
+                },
+                {
                   "sha": "fc8b2fe",
                   "message": "nghttp2: bump to 1.70.0",
                   "author": "Hirokazu MORIKAWA",
@@ -3502,55 +3551,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-10T17:16:06Z",
                   "url": "https://github.com/openwrt/packages/commit/6a6240d788d1e06e5ff0be7d048c4d76240a404a"
-                },
-                {
-                  "sha": "b13be99",
-                  "message": "hev-socks5-server: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:10:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/b13be99a2c276501e7c684258b86948ae5857a82"
-                },
-                {
-                  "sha": "a6b11e2",
-                  "message": "hev-socks5-tproxy: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:10:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/a6b11e27b021c004b9ee0efdec74631f470dcded"
-                },
-                {
-                  "sha": "80610e3",
-                  "message": "hev-socks5-tproxy: update to 2.12.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:10:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/80610e3f100d8fc3f3449c48c1589541dc4e1157"
-                },
-                {
-                  "sha": "a1f9839",
-                  "message": "hev-socks5-tunnel: update to 2.17.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:10:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/a1f98397d1cc1cf2954ae90db32c9a8f87f18c3a"
-                },
-                {
-                  "sha": "7fe72c0",
-                  "message": "hev-socks5-tunnel: update to 2.16.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:10:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/7fe72c0f9f6150fd5deda6911c441e19474f1bdc"
-                },
-                {
-                  "sha": "8321f2e",
-                  "message": "travelmate: update 2.4.7-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-08T15:51:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/8321f2e8b30c5031d2766bef694a38312e28052a"
-                },
-                {
-                  "sha": "ca1e305",
-                  "message": "travelmate: treat an unresolvable captive portal as an error",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-08T12:21:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/ca1e305aef80f6a4163900e754410963bdd3d826"
                 }
               ]
             }
@@ -4981,7 +4981,7 @@
             "stars": 80194,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-16T06:03:19Z",
+            "pushed_at": "2026-08-16T06:18:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5034,10 +5034,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5cbbf9c",
+            "sha": "696301e",
             "branch": "master",
-            "date": "2026-08-16T06:03:21Z",
-            "url": "https://github.com/netdata/netdata/commit/5cbbf9c5c2f13c45ccb153c70badaf6081188050"
+            "date": "2026-08-16T06:18:07Z",
+            "url": "https://github.com/netdata/netdata/commit/696301e42b7145bb6cb7d768f786e317eac5d2d1"
           }
         },
         {
@@ -5122,7 +5122,7 @@
           "track": "releases",
           "meta": {
             "description": "Легковесный и функциональный Telegram-бот для Remnawave",
-            "stars": 16,
+            "stars": 17,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
             "pushed_at": "2026-08-14T11:07:40Z",
@@ -5402,7 +5402,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7009,
+            "stars": 7010,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-16T02:11:04Z",
