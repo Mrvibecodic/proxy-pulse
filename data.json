@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T07:34:58.008427Z",
+  "generated_at": "2026-08-16T07:40:12.334482Z",
   "groups": [
     {
       "id": "cores",
@@ -968,7 +968,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-16T06:21:21Z",
+            "pushed_at": "2026-08-16T07:40:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3128,6 +3128,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "860798e",
+                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T07:40:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/860798e4f62efac1620dc2ce86a63495c3ff897b"
+                },
+                {
+                  "sha": "6f68fdb",
+                  "message": "rust: build soft-float on soft-float PowerPC subtargets",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T07:39:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/6f68fdbf71460ecc27cebf3f0d95c481c1256b57"
+                },
+                {
                   "sha": "40ab75a",
                   "message": "luajit2: update to 2026-07-31",
                   "author": "Josef Schlehofer",
@@ -3322,20 +3336,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-07-19T20:35:31Z",
                   "url": "https://github.com/openwrt/packages/commit/37973d1cea50e5f1992ad95207433dacf40af06e"
-                },
-                {
-                  "sha": "9d4fb25",
-                  "message": "cgi-io: update to Git HEAD (2026-06-28)",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-07-19T19:42:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/9d4fb25d4fb330547f4835bda47a33a4e3573f7d"
-                },
-                {
-                  "sha": "d91bad6",
-                  "message": "cgi-io: update to Git 658b14bda (2025-12-11)",
-                  "author": "Paul Donald",
-                  "date": "2026-07-19T19:42:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/d91bad6134c4a5d3a8504096122667392f0a0447"
                 }
               ]
             },
