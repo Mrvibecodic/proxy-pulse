@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:11:13.159441Z",
+  "generated_at": "2026-08-16T06:16:27.349227Z",
   "groups": [
     {
       "id": "cores",
@@ -567,7 +567,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1312,
+            "stars": 1313,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-07-21T22:36:40Z",
@@ -968,7 +968,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-16T06:10:05Z",
+            "pushed_at": "2026-08-16T06:15:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1838,6 +1838,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "388c3b6",
+                  "message": "rust: build soft-float on soft-float PowerPC subtargets",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T06:15:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/388c3b6ad460779406989575711686f81f17f332"
+                },
+                {
+                  "sha": "9ea0d00",
+                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-16T06:13:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ea0d00d9315bea357d5f359606c8af5dbaa92b9"
+                },
+                {
                   "sha": "276c62d",
                   "message": "ci: bump lewagon/wait-on-check-action from 1.9.0 to 1.9.1",
                   "author": "dependabot[bot]",
@@ -2032,20 +2046,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-11T11:39:47Z",
                   "url": "https://github.com/openwrt/packages/commit/9bb7c9d0fba9cc8b4b04668a77e145510e346bf7"
-                },
-                {
-                  "sha": "0dab5bb",
-                  "message": "python-pyasn1: bump to 0.6.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T11:39:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/0dab5bb13be8214b3698962ca30dc6c9a49ecbc3"
-                },
-                {
-                  "sha": "5c5f97d",
-                  "message": "frp: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T10:50:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/5c5f97d98793241e4e7dece717407f998b87de50"
                 }
               ]
             },
@@ -3896,7 +3896,7 @@
           "track": "releases",
           "meta": {
             "description": "Automated RouterOS installer for mihomo, byedpi, zapret, zapret2 — zero-touch setup, popular resource preloads, full support for VLESS/SS/Trojan links, AWG (WireGuard) and HTTP(S) subscriptions and RemnaWave-panel subscriptions with HWID.",
-            "stars": 138,
+            "stars": 139,
             "url": "https://github.com/Medium1992/mihomo-proxy-ros",
             "default_branch": "main",
             "pushed_at": "2026-08-16T00:48:21Z",
@@ -5198,7 +5198,7 @@
           "track": "releases",
           "meta": {
             "description": "Прослойка-ру-зеркало для подписок Remnawave с расширенными возможностями",
-            "stars": 48,
+            "stars": 49,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
             "pushed_at": "2026-08-15T17:05:44Z",
