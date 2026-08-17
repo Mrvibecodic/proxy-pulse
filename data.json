@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T02:11:55.858934Z",
+  "generated_at": "2026-08-17T02:17:11.859914Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 33273,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T01:35:16Z",
+            "pushed_at": "2026-08-17T02:12:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "Prerelease-Alpha",
+              "tag": "Prerelease-Alpha",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
+              "published_at": "2024-08-12T17:01:02Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Release created at  Mon Aug 17 10:12:10 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
+            },
             {
               "name": "v1.19.30",
               "tag": "v1.19.30",
@@ -166,15 +175,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* e889b689 feat: support H2C and QUICv2 sniffing (#3036) by @Kosta\r\n* 05b5334c feat: add `handshake-timeout` for hysteria2 by @wwqgtxx\r\n* 1265cb9a feat: add `ip-stack` option for masque outbound by @wwqgtxx\r\n* 4ad27d81 feat: add `ip-stack` option for ZeroTier by @wwqgtxx\r\n* 8453e589 feat: support AmneziaWG v3.0 by @wwqgtxx\r\n* 8b76447b feat: add `ip-stack` option for wireguard outbound by @wwqgtxx\r\n* 8c56780b feat: support AmneziaWG v3.1 by @wwqgtxx\r\n* b0825150 feat: add Zerotier outbound support by @wwqgtxx\r\n* b27c659a feat: add `client-metadata` configuration to anytls and DON'T sent by default by @wwqgtxx\r\n* bb80689b feat: support bbr3 for mipstack by @wwqgtxx\r\n* d46944f3 feat: add `ip-stack` option for openvpn outbound by @wwqgtxx\r\n* e40b5962 feat: add `rate-limit` for restls listener by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 25ccc4dd fix: handle zerotier network lifecycle events correctly by @wwqgtxx\r\n* 2e8a04c9 fix: tailscale failed to recover after the network was restored by @wwqgtxx\r\n* 33154579 fix: CVE-2026-56862 for crypto/tls by @wwqgtxx\r\n* 3a779dda fix: typo in `uplinkHTTPMethod` (#3029) by @Kosta\r\n* 4fcf9aed fix: track QUIC crypto stream coverage without repeated range sorting by @wwqgtxx\r\n* 5e3cb10b fix: avoid reserved TLS suffixes in JLS FakeRandom by @wwqgtxx\r\n* 63f15f2d fix: keep connections open after initial sniffing failures by @wwqgtxx\r\n* 69a3142a fix: apply default uplink chunk size for xhttp (#3061) by @vanbujhm\r\n* 7ac597bd fix: domain resolve logic in zerotier outbound by @wwqgtxx\r\n* 8d1b6616 fix: avoid unnecessary waits in HTTP/2 sniffing by @wwqgtxx\r\n* 8d710081 fix: typo in error string (#3090) by @Rye Sears\r\n* 9574a46c fix: truncate udp dns replies to the client's advertised buffer size (#3043) by @TWO666\r\n* 95f7a0c5 fix: remove incorrect quic error wrapping by @wwqgtxx\r\n* 978d25ae fix: enforce ShadowQUIC JLS authentication in QUIC layer by @wwqgtxx\r\n* 98f1200d fix: panic when UDP is not supported in dns_dialer by @wwqgtxx\r\n* 9b9dc8a0 fix: survive server-initiated soft reset and rekey for openvpn (#3109) by @ayanami-desu\r\n* 9d901dc7 fix: prevent CUBIC ACKs from reducing cwnd for gvisor by @wwqgtxx\r\n* a2c9556a fix: HTTP/2 read loop spinning on underlying StreamError by @wwqgtxx\r\n* a939fc1c fix: compilation errors under specific circumstances by @wwqgtxx\r\n* ac017cdd fix: initialize DNS before NTP (#3103) by @xYx\r\n* ace20375 fix: echo edns0 opt in dns replies when the request carries one (#3041) by @TWO666\r\n* afeb0728 fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion (#3079) by @胡威\r\n* b9894451 fix: reduce PROTOCOL_VIOLATION errors on masque dialing by setting ConnectionIDLength by @wwqgtxx\r\n* c1603f4d fix: coordinate TCP sniffers on overlapping ports by @wwqgtxx\r\n* c7089c00 fix: include the upstream tailscale version for standardization (#3074) by @Feng.YJ\r\n* cd05b74f fix: harden zerotier runtime synchronization by @wwqgtxx\r\n* e18ef3a1 fix: harden ShadowQUIC JLS camouflage forwarding by @wwqgtxx\r\n* ea9c544e fix: avoid unnecessary waits in TLS and QUIC sniffing by @wwqgtxx\r\n* f298cd2e fix: normalize HTTP hosts and avoid unnecessary sniffing delays by @wwqgtxx\r\n* f5fddd37 fix: preserve WebSocket 0-RTT data order by @wwqgtxx\r\n* f83a0721 fix: let QUIC sniffer handle Retry key changes by @wwqgtxx\r\n* fb002210 fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates (#3037) by @TWO666\r\n\r\n## Maintenance\r\n* 09b0ff3c chore: reduce interface differences between gVisor and mipstack by @wwqgtxx\r\n* 0ba9f2f6 chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns (#3048) by @ayanamist\r\n* 1af24e98 chore: update tailscale to v1.102.2 by @wwqgtxx\r\n* 1ef16c71 chore: harden TCP pacing and handshake state handling by @wwqgtxx\r\n* 26c635f6 chore: avoid string reversal allocation in DomainSet.Has (#3049) by @Ember Moth\r\n* 2bade294 chore: allow the sniffer to read more data if possible by @wwqgtxx\r\n* 2ea54615 chore: adjust internal dialQuic api by @wwqgtxx\r\n* 3c16aaf1 chore: update quic-go to 0.61.0 by @wwqgtxx\r\n* 3cac8696 chore: reduce ZeroTier wire data-path overhead by @wwqgtxx\r\n* 4859d142 chore: let quic sniffer handle coalesced packets and larger client hello by @wwqgtxx\r\n* 49a5419d chore: update tailscale to v1.102.0 by @wwqgtxx\r\n* 63024e39 chore: remove unused imports in test by @wwqgtxx\r\n* 669db1ba chore: harden QUIC Initial packet processing by @wwqgtxx\r\n* 6bb8b983 chore: strictly verify the syntax for Clash-style domain wildcards by @wwqgtxx\r\n* 7259bbb8 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 73b061a7 chore: split internal dns server handler by @wwqgtxx\r\n* 770800e9 chore: reduce packet-path and TCP allocation overhead by @wwqgtxx\r\n* 7ee0b05b chore: allow override `IV_VER` by `peer-info` for OpenVPN by @wwqgtxx\r\n* 7ff65441 chore: improve ZeroTier reliability and throughput under load by @wwqgtxx\r\n* 8df94628 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 944e8e1a chore: align MIPS TCP keepalive defaults with sing-wireguard behavior by @wwqgtxx\r\n* 94a89fb7 chore: reject oversized sniff reads before filling the buffer by @wwqgtxx\r\n* 97cbdc52 chore: update gvisor by @wwqgtxx\r\n* 99ce79c9 chore: reduce packet queue contention and socket allocation churn by @wwqgtxx\r\n* 9a9c4c6e chore: improve zerotier event diagnostics by @wwqgtxx\r\n* a52c00b2 chore: expand datagram and raw IP socket support for mipstack by @wwqgtxx\r\n* b9faf971 chore: improve internal sharing mechanism for dnsClient by @wwqgtxx\r\n* c235dc18 chore: let the sniffer assemble client hello across TLS records by @wwqgtxx\r\n* c807c9a0 chore: let the HTTP/2 sniffer assemble header blocks across continuation frames by @wwqgtxx\r\n* cb8e9900 chore: let sniffer support multi-round reading by @wwqgtxx\r\n* cf98d2d5 chore: align ZeroTier link configuration and multicast state by @wwqgtxx\r\n* d8fbf85f chore: update bart by @wwqgtxx\r\n* dd7bc4c6 chore: reduce ZeroTier packet processing overhead by @wwqgtxx\r\n* dfd7e896 chore: align congestion control with Linux by @wwqgtxx\r\n* e183c580 chore: stabilize equal-quality peer path selection for ZeroTier by @wwqgtxx\r\n* e9f62979 chore: improve ZeroTier packet bridge throughput by @wwqgtxx\r\n* ee2db897 chore: let gVisor allow HandleLocal working with PromiscuousMode by @wwqgtxx\r\n* efd63d87 chore: extract bitmap handling from QUIC crypto reassembly by @wwqgtxx\r\n* f5fbe0c4 chore: update mieru version (#3046) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...v1.19.30\r\n"
-            },
-            {
-              "name": "Prerelease-Alpha",
-              "tag": "Prerelease-Alpha",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
-              "published_at": "2024-08-12T17:01:02Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Release created at  Sun Aug 16 17:12:51 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: typo in `uplinkHTTPMethod` by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3029\n* fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3037\n* feat: support H2C and QUICv2 sniffing by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3036\n* fix: echo edns0 opt in dns replies when the request carries one by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3041\n* fix: truncate udp dns replies to the client's advertised buffer size by @TWO666 in https://github.com/MetaCubeX/mihomo/pull/3043\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3046\n* chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns by @ayanamist in https://github.com/MetaCubeX/mihomo/pull/3048\n* perf: avoid string reversal allocation in DomainSet.Has by @Ember-Moth in https://github.com/MetaCubeX/mihomo/pull/3049\n* fix(xhttp): apply default uplink chunk size by @vanbujhm in https://github.com/MetaCubeX/mihomo/pull/3061\n* fix: include the upstream version for tailscale IPNVersion by @huiyifyj in https://github.com/MetaCubeX/mihomo/pull/3074\n* fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion by @eivgogo in https://github.com/MetaCubeX/mihomo/pull/3079\n* fix: typo in error string by @xlighting2017 in https://github.com/MetaCubeX/mihomo/pull/3090\n* fix(openvpn): survive server-initiated soft reset and rekey by @ayanami-desu in https://github.com/MetaCubeX/mihomo/pull/3109\n* fix: initialize DNS before NTP by @xYx-c in https://github.com/MetaCubeX/mihomo/pull/3103\n\n## New Contributors\n* @MakostaDev made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3029\n* @TWO666 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3037\n* @Ember-Moth made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3049\n* @vanbujhm made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3061\n* @huiyifyj made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3074\n* @eivgogo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3079\n* @xlighting2017 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3090\n* @ayanami-desu made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3109\n* @xYx-c made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3103\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...Prerelease-Alpha"
             },
             {
               "name": "v1.19.29",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4860,
+            "stars": 4861,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-13T18:01:09Z",
@@ -4781,7 +4781,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24315,
+            "stars": 24313,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-17T01:16:41Z",
