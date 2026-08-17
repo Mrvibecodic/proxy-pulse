@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:55:39.227355Z",
+  "generated_at": "2026-08-17T16:02:45.315030Z",
   "groups": [
     {
       "id": "cores",
@@ -19476,7 +19476,7 @@
           "track": "commits",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28010,
+            "stars": 28011,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-17T08:36:23Z",
@@ -25346,7 +25346,7 @@
         {
           "repo": "bol-van/zapret",
           "title": "Zapret",
-          "track": "releases",
+          "track": "commits",
           "meta": {
             "description": "DPI bypass multi platform",
             "stars": 16024,
@@ -25357,59 +25357,223 @@
             "avatar": "https://avatars.githubusercontent.com/u/9076680?v=4",
             "owner": "bol-van"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "v72.13",
-              "tag": "v72.13",
-              "url": "https://github.com/bol-van/zapret/releases/tag/v72.13",
-              "published_at": "2026-07-21T06:25:03Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### zapret v72.13\r\n\r\nmaintenance release\r\n\r\n* github: сборка под armv6. исправление illegal instruction (idiv) на старых armv7\r\n* init.d: добавление udp port range 19294-19344 для фильтров discord media\r\n* init.d: убран KillMode=none в systemd unit\r\n\r\n"
-            },
-            {
-              "name": "v72.12",
-              "tag": "v72.12",
-              "url": "https://github.com/bol-van/zapret/releases/tag/v72.12",
-              "published_at": "2026-03-12T11:43:51Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "* github: небольшое сокращение размера бинарников linux\r\n* github: линковка с max-page-size=16384 на android arm64 для совместимости с новейшими ядрами с 16K page size\r\n* nfqws: сборка quic crypto фрагментов с произвольным перекрытием или повторами"
-            },
-            {
-              "name": "v72.10",
-              "tag": "v72.10",
-              "url": "https://github.com/bol-van/zapret/releases/tag/v72.10",
-              "published_at": "2026-02-24T07:22:51Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### zapret v72.10\r\n\r\n* nfqws: исправление сломанного обновления wifi ssid cache\r\n* nfqws: различные мелкие AI фиксы\r\n"
-            },
-            {
-              "name": "v72.9",
-              "tag": "v72.9",
-              "url": "https://github.com/bol-van/zapret/releases/tag/v72.9",
-              "published_at": "2026-01-17T07:38:22Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### zapret v72.9\r\n\r\n* blockcheck: исправление детекции http redirect на заглушку при использовании domain/URI\r\n* install_easy: исправление неправильной записи переменных config после ask_list"
-            },
-            {
-              "name": "v72.8",
-              "tag": "v72.8",
-              "url": "https://github.com/bol-van/zapret/releases/tag/v72.8",
-              "published_at": "2026-01-13T15:10:10Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### zapret v72.8\r\n\r\n* nfqws: исправлена порча соединения, если включен ts fooling, но пакет пришел без timestamps (в этом случае если фулинг ts - единственный соединение поломается по другим причинам)\r\n* мелкие фиксы от AI роботов\r\n"
+              "name": "master",
+              "commits": [
+                {
+                  "sha": "87e0586",
+                  "message": "update docs",
+                  "author": "bol-van",
+                  "date": "2026-07-21T06:17:51Z",
+                  "url": "https://github.com/bol-van/zapret/commit/87e058624c72863db53bdaf7fb6f16576dddb6ab"
+                },
+                {
+                  "sha": "906665d",
+                  "message": "nfqws: fix minor compile warning",
+                  "author": "bol-van",
+                  "date": "2026-07-21T06:14:01Z",
+                  "url": "https://github.com/bol-van/zapret/commit/906665d9a5aab0f780828b5725be0c04ace8c226"
+                },
+                {
+                  "sha": "f97c22e",
+                  "message": "init.d: discord media add port range",
+                  "author": "bol-van",
+                  "date": "2026-07-21T06:10:49Z",
+                  "url": "https://github.com/bol-van/zapret/commit/f97c22e96f09a083c88cc6c59ee4670e59ad983f"
+                },
+                {
+                  "sha": "9fb1f24",
+                  "message": "init.d: remove KillMode=none in systemd unit",
+                  "author": "bol-van",
+                  "date": "2026-07-21T06:08:52Z",
+                  "url": "https://github.com/bol-van/zapret/commit/9fb1f2480808cdf749648aeb6c1e5dce370f5c0f"
+                },
+                {
+                  "sha": "1a1fc38",
+                  "message": "minor static analyzer fixes",
+                  "author": "bol-van",
+                  "date": "2026-06-06T07:09:35Z",
+                  "url": "https://github.com/bol-van/zapret/commit/1a1fc38c8ea05b481eebcbd338df48cdcca23c15"
+                },
+                {
+                  "sha": "42a9b8e",
+                  "message": "update docs",
+                  "author": "bol-van",
+                  "date": "2026-05-09T05:14:30Z",
+                  "url": "https://github.com/bol-van/zapret/commit/42a9b8e330082157c5ba7933d41bac20869f0f87"
+                },
+                {
+                  "sha": "363fbe6",
+                  "message": "github: remove sdiv crash on old armv7",
+                  "author": "bol-van",
+                  "date": "2026-03-12T17:55:17Z",
+                  "url": "https://github.com/bol-van/zapret/commit/363fbe6943b16b0acd4a0e9dae35fc5075069d0d"
+                },
+                {
+                  "sha": "5cc46a9",
+                  "message": "update changes.txt",
+                  "author": "bol-van",
+                  "date": "2026-03-12T11:36:58Z",
+                  "url": "https://github.com/bol-van/zapret/commit/5cc46a9815b00e97401b1459984dff44abfec411"
+                },
+                {
+                  "sha": "ef637c4",
+                  "message": "github: use 16K page size for android arm64 build",
+                  "author": "bol-van",
+                  "date": "2026-03-05T16:37:57Z",
+                  "url": "https://github.com/bol-van/zapret/commit/ef637c482c7e64f3063f35dc2b10201e98d18e6d"
+                },
+                {
+                  "sha": "acccfc7",
+                  "message": "nfqws: backport QUICDefragCrypto",
+                  "author": "bol-van",
+                  "date": "2026-03-05T07:32:26Z",
+                  "url": "https://github.com/bol-van/zapret/commit/acccfc75e963bfbb1a0b8b9e9b1a8f19353e3405"
+                },
+                {
+                  "sha": "a92b4a5",
+                  "message": "nfqws: backport QUICDefragCrypto",
+                  "author": "bol-van",
+                  "date": "2026-03-04T19:49:53Z",
+                  "url": "https://github.com/bol-van/zapret/commit/a92b4a543eea6d0dd5265396841d45b4525c5e58"
+                },
+                {
+                  "sha": "24e3b53",
+                  "message": "github: move arm to armv6",
+                  "author": "bol-van",
+                  "date": "2026-03-01T17:35:00Z",
+                  "url": "https://github.com/bol-van/zapret/commit/24e3b531650182a5ec42c642c42187c1b03f9ec2"
+                },
+                {
+                  "sha": "63e6215",
+                  "message": "github: use thumb in android armv7 build",
+                  "author": "bol-van",
+                  "date": "2026-03-01T15:32:26Z",
+                  "url": "https://github.com/bol-van/zapret/commit/63e6215be0c0220e5f82ebd0d35322a459aef83e"
+                },
+                {
+                  "sha": "cb38203",
+                  "message": "winws: -Wl,--gc-sections",
+                  "author": "bol-van",
+                  "date": "2026-03-01T11:38:11Z",
+                  "url": "https://github.com/bol-van/zapret/commit/cb382036f4a2281d59d185ec501e0ccd6e37d930"
+                },
+                {
+                  "sha": "928134c",
+                  "message": "update docs",
+                  "author": "bol-van",
+                  "date": "2026-03-01T11:15:36Z",
+                  "url": "https://github.com/bol-van/zapret/commit/928134ca36c6c7c166023c66a46041530ec9d5ba"
+                },
+                {
+                  "sha": "e5c3e4c",
+                  "message": "optimize binaries size",
+                  "author": "bol-van",
+                  "date": "2026-03-01T11:14:28Z",
+                  "url": "https://github.com/bol-van/zapret/commit/e5c3e4c706fe75b59b1e615e030355ddc3434f2c"
+                },
+                {
+                  "sha": "3784114",
+                  "message": "minor fixes",
+                  "author": "bol-van",
+                  "date": "2026-03-01T06:50:52Z",
+                  "url": "https://github.com/bol-van/zapret/commit/378411443f2ea713989d29d07f0aad39b3a51006"
+                },
+                {
+                  "sha": "74c5b58",
+                  "message": "AI fixes",
+                  "author": "bol-van",
+                  "date": "2026-02-28T07:10:12Z",
+                  "url": "https://github.com/bol-van/zapret/commit/74c5b58a1b5391bc1391b65e73e2f5141b84f30a"
+                },
+                {
+                  "sha": "934903d",
+                  "message": "nfqws: cosmetic",
+                  "author": "bol-van",
+                  "date": "2026-02-27T11:35:38Z",
+                  "url": "https://github.com/bol-van/zapret/commit/934903dfdf1d047f7386e903f3cc11169a3d948b"
+                },
+                {
+                  "sha": "6cb394d",
+                  "message": "Merge pull request #2096 from a1batross/master",
+                  "author": "bol-van",
+                  "date": "2026-02-26T13:30:36Z",
+                  "url": "https://github.com/bol-van/zapret/commit/6cb394de4d86af0dcb13d3cc5db995bc7c9fb30a"
+                },
+                {
+                  "sha": "003c540",
+                  "message": "tpws: fix building on e2k",
+                  "author": "Alibek Omarov",
+                  "date": "2026-02-26T13:33:30Z",
+                  "url": "https://github.com/bol-van/zapret/commit/003c540f24ee88b7c80a7603bf31b3ca1df45345"
+                },
+                {
+                  "sha": "0870120",
+                  "message": "nfqws: fix building on e2k",
+                  "author": "Alibek Omarov",
+                  "date": "2026-02-26T13:33:08Z",
+                  "url": "https://github.com/bol-van/zapret/commit/0870120cceb03bc2ebdae2fb5c956ed377238cb1"
+                },
+                {
+                  "sha": "f0b0d89",
+                  "message": "nfqws: relax stun detector",
+                  "author": "bol-van",
+                  "date": "2026-02-24T07:13:53Z",
+                  "url": "https://github.com/bol-van/zapret/commit/f0b0d89f02f44bb047fbfde5d96e9a1fc38e46f0"
+                },
+                {
+                  "sha": "a08a358",
+                  "message": "nfqws: fix broken wifi ssid update",
+                  "author": "bol-van",
+                  "date": "2026-02-24T07:12:38Z",
+                  "url": "https://github.com/bol-van/zapret/commit/a08a358342d9e390e8f8004dfa5eb2701da88eb6"
+                },
+                {
+                  "sha": "61edd29",
+                  "message": "Revert \"nfqws: fix broken wifi ssid update\"",
+                  "author": "bol-van",
+                  "date": "2026-02-24T07:11:45Z",
+                  "url": "https://github.com/bol-van/zapret/commit/61edd29b7eda89835cc7c2134afbb3409a568679"
+                },
+                {
+                  "sha": "7eb195e",
+                  "message": "nfqws: fix broken wifi ssid update",
+                  "author": "bol-van",
+                  "date": "2026-02-24T07:11:11Z",
+                  "url": "https://github.com/bol-van/zapret/commit/7eb195e533cc348ca2c4a3cf669d432ff102710d"
+                },
+                {
+                  "sha": "3d567b0",
+                  "message": "nfqws: optimize nfq buffers",
+                  "author": "bol-van",
+                  "date": "2026-02-22T14:32:49Z",
+                  "url": "https://github.com/bol-van/zapret/commit/3d567b0ac48f625988bfa6200d09ea05628e981b"
+                },
+                {
+                  "sha": "53eba04",
+                  "message": "nfqws: fix quicv2 recognition",
+                  "author": "bol-van",
+                  "date": "2026-02-19T07:05:09Z",
+                  "url": "https://github.com/bol-van/zapret/commit/53eba046ce1b6b8219bbefca6952dcc1c7bfb436"
+                },
+                {
+                  "sha": "5ef01d1",
+                  "message": "nfqws: fixes backport from z2",
+                  "author": "bol-van",
+                  "date": "2026-02-16T09:50:52Z",
+                  "url": "https://github.com/bol-van/zapret/commit/5ef01d14a92525e05a3c89099199b73094428b89"
+                },
+                {
+                  "sha": "0f0e748",
+                  "message": "nfqws2: ensure old toolchains do not break",
+                  "author": "bol-van",
+                  "date": "2026-02-16T09:03:42Z",
+                  "url": "https://github.com/bol-van/zapret/commit/0f0e748adb5234d3eab4db65ebcabbd49877c966"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "87e0586",
-            "branch": "master",
-            "date": "2026-07-21T06:17:51Z",
-            "url": "https://github.com/bol-van/zapret/commit/87e058624c72863db53bdaf7fb6f16576dddb6ab"
-          }
+          ]
         },
         {
           "repo": "amnezia-vpn/amneziawg-linux-kernel-module",
@@ -35727,7 +35891,7 @@
           "track": "commits",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24327,
+            "stars": 24328,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-17T01:16:41Z",
@@ -57317,7 +57481,7 @@
         {
           "repo": "Mrvibecodic/chill-remna-bot",
           "title": "chill-remna-bot",
-          "track": "releases",
+          "track": "commits",
           "meta": {
             "description": "Легковесный и функциональный Telegram-бот для Remnawave",
             "stars": 17,
@@ -57328,59 +57492,438 @@
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "1.3.0",
-              "tag": "v1.3.0",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.3.0",
-              "published_at": "2026-08-14T11:08:04Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "### Экран «Подключить»\n\n- Исправлен разбор конфига приложений актуальной страницы подписки (7.x): раньше бот не видел в нём приложения и список оставался пустым, теперь поддерживаются оба формата — старый и новый.\n- На панели 3.x список приложений берётся напрямую из панели по API, включая персональный конфиг, назначенный конкретной подписке. Страница подписки осталась запасным источником для старых панелей.\n- Платформы Android TV / Apple TV встали на своё место в списке; при неудачном разборе в логи пишется причина.\n\n### Пользователи\n\n- Появился поиск: по Telegram ID, нику, имени и e-mail веб-аккаунта, достаточно части строки. Из результатов открывается карточка, «Назад» возвращает в выдачу.\n\n### Доступ в бота\n\n- Закрытие публичного бота больше не выдаёт доступ всей базе молча — бот спрашивает: сохранить доступ уже зарегистрированным или закрыть всем. Это чинит ситуацию после импорта из RemnaShop, когда все импортированные оказывались в белом списке.\n- Экран «Список вайтлиста» теперь показывает всех, у кого доступ реально есть (с пагинацией), отдельно — заранее добавленные ID. Добавлена кнопка «Снять доступ у всех» с подтверждением.\n- Отчёт импорта предупреждает, что в закрытом боте импортированным нужно выдать доступ.\n- Предзаполненный вайтлист и приглашения теперь переезжают вместе с резервной копией базы.\n\n### Кошелёк\n\n- Пополнение баланса можно отключить (Продажи → 👛 Кошелёк): новые деньги не принимаются, а лежащие на балансах люди дожигают на подписку. Оплата с баланса, реферальные начисления и промокоды продолжают работать; уже выставленные счета на пополнение дозачисляются.\n- На экране настройки видно, сколько денег сейчас лежит на балансах и у скольких человек.\n- В кошельке и на экране пополнения явно указано: баланс тратится только на подписку, вывод средств невозможен.\n\n### Прочее\n\n- Go обновлён до 1.25.13 (закрывает уязвимости стандартной библиотеки).\n- Документация и README обновлены под перечисленное.\n"
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "5681444",
+                  "message": "доки: поиск, доступ, кошелёк, апки из панели",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:06:58Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/568144488e0384e5761cc92b6368bf8a486d4637"
+                },
+                {
+                  "sha": "c2f1ed4",
+                  "message": "свой конфиг приложений на подписку, сумма на балансах, поиск по «@», экранирование",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:50:31Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c2f1ed4477fda01560ebe78f94eb6456fd80f8d6"
+                },
+                {
+                  "sha": "b9d4815",
+                  "message": "go 1.25.13",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:50:31Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b9d48157887831ccf3967c6207a298167b54031b"
+                },
+                {
+                  "sha": "edb358f",
+                  "message": "кошелёк: пополнение можно выключить, вывод средств невозможен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:24:35Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/edb358f4f9f0f1c4db15466141ac90146cbeb291"
+                },
+                {
+                  "sha": "d297284",
+                  "message": "поиск пользователей по id, нику, имени и почте",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:18:41Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/d297284f1a8a79db4e5b93cdc1cef784f57668c8"
+                },
+                {
+                  "sha": "73ad96d",
+                  "message": "доступ: спрашиваем при закрытии бота, снятие у всех, честный список",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:11:03Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/73ad96d2b757e9139b6d5206db8e3a1f6946b379"
+                },
+                {
+                  "sha": "c2c6de6",
+                  "message": "список приложений берём из панели, страница подписки — запасной путь",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:02:20Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c2c6de6c5ac66b9aac9d65a5771fd8945376c925"
+                },
+                {
+                  "sha": "cdf9c77",
+                  "message": "конфиг приложений: имя платформы строкой или по языкам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T09:57:29Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/cdf9c77408fc9002a7168221e28d9fec1a240042"
+                },
+                {
+                  "sha": "7d828ef",
+                  "message": "сборка образа под arm64",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T12:59:57Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7d828ef911a8ab79e74ae1cf8c16f5ed2d4e717d"
+                },
+                {
+                  "sha": "faf1bd4",
+                  "message": "доки по тарифам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:15:09Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/faf1bd4677f0b8be159095486c212247ce77f272"
+                },
+                {
+                  "sha": "3cfe983",
+                  "message": "условия и значок тарифа в карточке",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:04:37Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3cfe9831094f5caa2bc1f5c994dd50fed558412e"
+                },
+                {
+                  "sha": "ac98805",
+                  "message": "зачёт остатка при смене тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T01:40:46Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ac98805e259525548971561b294c69a8f3908437"
+                },
+                {
+                  "sha": "c0c1c77",
+                  "message": "тариф в платежах, прогнозе и триале",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T01:06:42Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c0c1c77c8e6ccbaafd4116779b35ba7b0bcd06fb"
+                },
+                {
+                  "sha": "5728d02",
+                  "message": "гейты продажи и валидация цен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T00:08:39Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5728d021dca66f868118054db4ce6847be3b5ee9"
+                },
+                {
+                  "sha": "bde3b20",
+                  "message": "легаси-сквад P2P и старый экран цен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:28:38Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bde3b20104b1f49189818d1a3a7c3c67860e6699"
+                },
+                {
+                  "sha": "f252dc2",
+                  "message": "витрина мини-аппа по тарифам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:21:29Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/f252dc2352190f3f7e3c8222f79e197a590f60c1"
+                },
+                {
+                  "sha": "4aaf65b",
+                  "message": "сценарии продления и смена тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:07:10Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/4aaf65b754df5d9b868845fa0468605ac6e25de3"
+                },
+                {
+                  "sha": "4d478cd",
+                  "message": "витрина по тарифам в чате",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:04:40Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/4d478cdac1c5de51cfdd13551b55794d8839c3d1"
+                },
+                {
+                  "sha": "033680e",
+                  "message": "доп-подписка как опция тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:00:19Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/033680e7e1fe14c96f37622dfad8e8a2e57f1bde"
+                },
+                {
+                  "sha": "303c5c9",
+                  "message": "тесты продления и ссылок",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/303c5c92be8caea27718244da621abeb1f915ada"
+                },
+                {
+                  "sha": "e5047ab",
+                  "message": "предупреждения импорта и удаления",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/e5047ab24765dfc89edb68491e4da6835a190b20"
+                },
+                {
+                  "sha": "87faa66",
+                  "message": "пополнение с учётом цен тарифов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/87faa6612dc88df13a67e28aff434ef0532a765d"
+                },
+                {
+                  "sha": "a9345e1",
+                  "message": "продажа и продление по своему тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/a9345e13c565122dc4bf91dae433adfd5b65e88a"
+                },
+                {
+                  "sha": "3d2d715",
+                  "message": "чистка неиспользуемого",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3d2d7153f0cbbe568d069eeeeb9846bd68f365a8"
+                },
+                {
+                  "sha": "7a639e9",
+                  "message": "тесты доступности и продажи по тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7a639e93b7a9cdf1ef1480de2577fb01eb3813b4"
+                },
+                {
+                  "sha": "d7f31f2",
+                  "message": "экспорт и импорт тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/d7f31f2a68d6682de3502fa0d075e9e697010c6a"
+                },
+                {
+                  "sha": "dc8766e",
+                  "message": "доступность в админке и карточке пользователя",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/dc8766ea46ecb5a8f43fd43a8d49a418f11d6397"
+                },
+                {
+                  "sha": "c5602da",
+                  "message": "тариф по прямой ссылке",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c5602da20633d8a080a0544a1db85c23c44aeea0"
+                },
+                {
+                  "sha": "375de5d",
+                  "message": "режимы доступности и продажа по тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/375de5d2c5a5324d58485e4bd3543c04de4b258d"
+                },
+                {
+                  "sha": "9acbccf",
+                  "message": "списки допущенных к тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/9acbccff8d34c384ed17bbe86400b1fb74fb3833"
+                }
+              ]
             },
             {
-              "name": "1.2.1",
-              "tag": "v1.2.1",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.2.1",
-              "published_at": "2026-08-13T13:04:53Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "### Что нового\n\n**Образ теперь собирается под ARM64 (aarch64), а не только под x86-64.**\n\nМультиарх-манифест публикуется на все теги (`:latest`, `:v1`, `:v1.2`, `:v1.2.1`, `:dev`) — `docker pull` сам выбирает вариант под процессор сервера. Установка на ARM-серверах (Oracle Ampere, Hetzner CAX, Raspberry Pi, Apple Silicon) больше не падает с `no matching manifest for linux/arm64/v8`.\n\nЗакрывает #5.\n\n### Обновление\n\nНичего менять не нужно: на x86-64 всё работает как раньше, образ тот же.\n\n```bash\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n"
-            },
-            {
-              "name": "1.2.0",
-              "tag": "v1.2.0",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.2.0",
-              "published_at": "2026-08-12T09:16:23Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "## Что нового\n\n### 🧾 Тарифы\nВместо одной сетки цен — полноценные тарифы, сколько угодно (**Продажи → 🧾 Тарифы**):\n\n- У каждого тарифа свои **имя, значок, описание**, порядок в витрине, вкл/выкл, дублирование и удаление.\n- **💲 Цены и лимиты**: свои сроки и цены (в том числе по способам оплаты), валюта, трафик и лимит устройств (HWID), сквады — на тариф и с **переопределением на отдельный срок** (например, на годовой дать больше устройств).\n- **🔐 Доступность**: всем / только новым / только действующим / **по списку** (Telegram ID или почта веб-кабинета) / **по ссылке**.\n- **🔗 Продажа по прямой ссылке** `t.me/\u003cбот\u003e?start=plan_КОД`: тариф скрыт из витрины и открывается только по ссылке. Код неперебираем, попытки подбора троттлятся.\n- **📤 Экспорт / 📥 Импорт** тарифа JSON-файлом (условия + список допущенных) — перенос между установками в две кнопки.\n- **➕ Доп-подписка на уровне тарифа**: вкл / выкл / как в общих настройках, своё название и описание опции.\n\nОбновление ничего не требует: текущая сетка цен автоматически становится тарифом **«Базовый»**, быстрая и тонкая настройка продолжают работать и правят его же.\n\n### 🛒 Витрина и карточка тарифа\n- Несколько тарифов — список с ценами «от …», единственный открывается сразу карточкой.\n- В карточке: описание, доступные страны и **условия тарифа** — трафик (с учётом стратегии сброса) и лимит устройств; если условия различаются по срокам — с разбивкой по срокам.\n- Значок тарифа из админки показывается в заголовке карточки; стандартная коробка 📦 — только у тарифов без своего значка.\n\n### 💱 Смена тарифа и продление\n- Смена тарифа **не сжигает остаток**: неиспользованные дни зачитываются к новому тарифу по соотношению цен, точный сдвиг срока виден до оплаты.\n- Продление идёт по **своему** тарифу. Если его условия изменились с прошлой оплаты — предупреждение перед оплатой; если тариф стал недоступен — предложение выбрать новый без вреда действующей подписке.\n\n### 📜 Снимок условий сделки\nУсловия покупки (цена, лимиты, сквады) фиксируются **в момент выставления счёта** и применяются при оплате ровно такими, какими были проданы — последующие правки тарифа админом, рестарт бота или задержавшийся вебхук выдачу не меняют. Выбор срока и условия счетов хранятся в базе и переживают перезапуск.\n\n### 📱 Мини-апп и веб-кабинет\nВитрина по тарифам: карточки со сроками, странами, лимитами и подсветкой самого выгодного срока; зачёт остатка при смене тарифа виден до оплаты. Кошелёк, прогноз «на сколько хватит», триал и суммы пополнения учитывают цены тарифов.\n\n### 🔧 Исправления\nФиксы автосписания (ретраи, валюта, перепроверка сверки), сверки и продления, бонусных дней, статистики и бэкапа.\n"
-            },
-            {
-              "name": "v1.1.1",
-              "tag": "v1.1.1",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.1.1",
-              "published_at": "2026-08-07T21:07:26Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Чистка кода."
-            },
-            {
-              "name": "1.1.0",
-              "tag": "v1.1.0",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.1.0",
-              "published_at": "2026-08-07T10:08:56Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "## Что нового\n\n### 🚫 Торрент-блокер — полная интеграция с плагином панели\nЕсли на нодах включён плагин torrent-blocker (Панель и Node ≥ 2.7.0), бот обрабатывает отчёты панели о блокировках IP за торрент-трафик:\n\n- **Отчёт админу** по каждому срабатыванию: пользователь, номер нарушения за 30 дней, нода, IP, срок, протокол и адреса соединения. Кнопки прямо в отчёте: карточка пользователя, блокировка, **снятие блокировки IP** досрочно (Executor плагинов на всех нодах), **исключение пользователя из-под блокера** (`ignoreLists.userId` во всех конфигах плагинов).\n- **Предупреждение нарушителю** (с паузой от спама) и отдельное сообщение **«блокировка снята»** по истечении срока — текст настраивается с телеграм-форматированием, перед отправкой бот сверяет с панелью, что подписка не отключена.\n- **Журнал** отчётов на 180 дней с пагинацией и счётчиком повторов; в карточке пользователя — счётчик нарушений и личный журнал.\n- **Автоотключение подписки по порогу** нарушений за 30 дней (по умолчанию выключено; защита от повторного срабатывания по хвосту отчётов).\n- Новый раздел **Пользователи → 🚫 Торренты**; отчёты обрабатываются только при заданном **секрете вебхука** панели (защита от подделки). Для кнопок действий токену панели 3.x нужны скоупы `node-plugins:` list, get, update, executor.\n\n### ⏰ Напоминания об истечении на новых панелях\nПанели 2.8.0+ и 3.x заменили события `user.expires_in_*` на `user.expiration` — бот теперь понимает оба поколения. Напоминания «подписка скоро истечёт» снова работают на актуальных панелях (включите `EXPIRATION_NOTIFICATIONS_ENABLED` на панели); интервалы, кратные суткам, показываются в днях.\n\n### 🔄 Обновление бота\n- `/update` скачивает только образ бота — лимит Docker Hub на посторонние образы (postgres) больше не срывает обновление.\n- Ошибка pull теперь приходит админу текстом (раньше обновление молча «не происходило»).\n\n### 🛠 Исправления\n- Починен счётчик повторных нарушений на Postgres для Telegram ID больше 2³¹.\n- Сообщение «блокировка снята» больше не теряется при кратковременном сбое БД.\n- Экран «Торренты» предупреждает, если секрет вебхука панели не задан.\n\n## Обновление\n`/update` в боте, либо `docker compose pull \u0026\u0026 docker compose up -d`. Миграции БД применяются автоматически (новые таблицы журнала и отметок).\n\n**Docker-образы:** `:v1` / `:v1.1` / `:v1.1.0` / `:latest`\n"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "37b98de",
+                  "message": "релиз 1.3.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:07:28Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/37b98def737cbffb730a94081aa2a610a082b540"
+                },
+                {
+                  "sha": "5681444",
+                  "message": "доки: поиск, доступ, кошелёк, апки из панели",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:06:58Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/568144488e0384e5761cc92b6368bf8a486d4637"
+                },
+                {
+                  "sha": "c2f1ed4",
+                  "message": "свой конфиг приложений на подписку, сумма на балансах, поиск по «@», экранирование",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:50:31Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c2f1ed4477fda01560ebe78f94eb6456fd80f8d6"
+                },
+                {
+                  "sha": "b9d4815",
+                  "message": "go 1.25.13",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:50:31Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b9d48157887831ccf3967c6207a298167b54031b"
+                },
+                {
+                  "sha": "edb358f",
+                  "message": "кошелёк: пополнение можно выключить, вывод средств невозможен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:24:35Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/edb358f4f9f0f1c4db15466141ac90146cbeb291"
+                },
+                {
+                  "sha": "d297284",
+                  "message": "поиск пользователей по id, нику, имени и почте",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:18:41Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/d297284f1a8a79db4e5b93cdc1cef784f57668c8"
+                },
+                {
+                  "sha": "73ad96d",
+                  "message": "доступ: спрашиваем при закрытии бота, снятие у всех, честный список",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:11:03Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/73ad96d2b757e9139b6d5206db8e3a1f6946b379"
+                },
+                {
+                  "sha": "c2c6de6",
+                  "message": "список приложений берём из панели, страница подписки — запасной путь",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T10:02:20Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c2c6de6c5ac66b9aac9d65a5771fd8945376c925"
+                },
+                {
+                  "sha": "cdf9c77",
+                  "message": "конфиг приложений: имя платформы строкой или по языкам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T09:57:29Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/cdf9c77408fc9002a7168221e28d9fec1a240042"
+                },
+                {
+                  "sha": "e088e0f",
+                  "message": "релиз 1.2.1",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T13:03:55Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/e088e0f46f67b6fdbf3dc4fbd3406da9d9c4bed1"
+                },
+                {
+                  "sha": "7d828ef",
+                  "message": "сборка образа под arm64",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T12:59:57Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7d828ef911a8ab79e74ae1cf8c16f5ed2d4e717d"
+                },
+                {
+                  "sha": "c68d534",
+                  "message": "релиз 1.2.0",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:15:22Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c68d5343e06f9d5ed5c2bb99595911a4807adbef"
+                },
+                {
+                  "sha": "faf1bd4",
+                  "message": "доки по тарифам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:15:09Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/faf1bd4677f0b8be159095486c212247ce77f272"
+                },
+                {
+                  "sha": "3cfe983",
+                  "message": "условия и значок тарифа в карточке",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:04:37Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3cfe9831094f5caa2bc1f5c994dd50fed558412e"
+                },
+                {
+                  "sha": "ac98805",
+                  "message": "зачёт остатка при смене тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T01:40:46Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ac98805e259525548971561b294c69a8f3908437"
+                },
+                {
+                  "sha": "c0c1c77",
+                  "message": "тариф в платежах, прогнозе и триале",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T01:06:42Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c0c1c77c8e6ccbaafd4116779b35ba7b0bcd06fb"
+                },
+                {
+                  "sha": "5728d02",
+                  "message": "гейты продажи и валидация цен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T00:08:39Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/5728d021dca66f868118054db4ce6847be3b5ee9"
+                },
+                {
+                  "sha": "bde3b20",
+                  "message": "легаси-сквад P2P и старый экран цен",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:28:38Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/bde3b20104b1f49189818d1a3a7c3c67860e6699"
+                },
+                {
+                  "sha": "f252dc2",
+                  "message": "витрина мини-аппа по тарифам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:21:29Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/f252dc2352190f3f7e3c8222f79e197a590f60c1"
+                },
+                {
+                  "sha": "4aaf65b",
+                  "message": "сценарии продления и смена тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:07:10Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/4aaf65b754df5d9b868845fa0468605ac6e25de3"
+                },
+                {
+                  "sha": "4d478cd",
+                  "message": "витрина по тарифам в чате",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:04:40Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/4d478cdac1c5de51cfdd13551b55794d8839c3d1"
+                },
+                {
+                  "sha": "033680e",
+                  "message": "доп-подписка как опция тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T23:00:19Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/033680e7e1fe14c96f37622dfad8e8a2e57f1bde"
+                },
+                {
+                  "sha": "303c5c9",
+                  "message": "тесты продления и ссылок",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/303c5c92be8caea27718244da621abeb1f915ada"
+                },
+                {
+                  "sha": "e5047ab",
+                  "message": "предупреждения импорта и удаления",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/e5047ab24765dfc89edb68491e4da6835a190b20"
+                },
+                {
+                  "sha": "87faa66",
+                  "message": "пополнение с учётом цен тарифов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/87faa6612dc88df13a67e28aff434ef0532a765d"
+                },
+                {
+                  "sha": "a9345e1",
+                  "message": "продажа и продление по своему тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:20:52Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/a9345e13c565122dc4bf91dae433adfd5b65e88a"
+                },
+                {
+                  "sha": "3d2d715",
+                  "message": "чистка неиспользуемого",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3d2d7153f0cbbe568d069eeeeb9846bd68f365a8"
+                },
+                {
+                  "sha": "7a639e9",
+                  "message": "тесты доступности и продажи по тарифу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/7a639e93b7a9cdf1ef1480de2577fb01eb3813b4"
+                },
+                {
+                  "sha": "d7f31f2",
+                  "message": "экспорт и импорт тарифа",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/d7f31f2a68d6682de3502fa0d075e9e697010c6a"
+                },
+                {
+                  "sha": "dc8766e",
+                  "message": "доступность в админке и карточке пользователя",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-11T22:05:30Z",
+                  "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/dc8766ea46ecb5a8f43fd43a8d49a418f11d6397"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "37b98de",
-            "branch": "main",
-            "date": "2026-08-14T11:07:41Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/37b98def737cbffb730a94081aa2a610a082b540"
-          }
+          ]
         }
       ]
     },
