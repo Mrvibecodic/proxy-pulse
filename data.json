@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:26:46.056406Z",
+  "generated_at": "2026-08-17T21:32:00.427645Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4863,
+            "stars": 4864,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-13T18:01:09Z",
@@ -4781,15 +4781,24 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24339,
+            "stars": 24340,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T21:12:11Z",
+            "pushed_at": "2026-08-17T21:31:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
           },
           "releases": [
+            {
+              "name": "v0.18.8",
+              "tag": "v0.18.8",
+              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.8",
+              "published_at": "2026-08-17T21:31:00Z",
+              "prerelease": false,
+              "author": "henrygd",
+              "body": "## What's Changed\r\n- Add multi-battery monitoring\r\n- Add Linux fan RPM monitoring (#2032)\r\n- Add Intel GPU power monitoring through sysfs and Intel Arc GPU monitoring through `nvtop` (#2020, #2223)\r\n- Add CPU and ACPI thermal zone monitoring on FreeBSD (#2227)\r\n- Add popup-free OAuth login when `OAUTH_DISABLE_POPUP=true` (#2171)\r\n- Add a `:slim` NVIDIA agent container image (#2002, #2003)\r\n- Add ARMv5 and ARMv6 builds, and ARM64 support for the NVIDIA agent image (#1884, #2207)\r\n- Improve mdraid consistency checks (fixes false positives) (#2067)\r\n- Improve SMART device detection for shared paths and explicit device type hints (#2102)\r\n- Improve agent startup after OPNsense and pfSense reboots (#2089, #2214)\r\n- Improve SSH-pull agent reconnection when connections silently fail (#2126)\r\n- Add checksum verification and archive path containment to update process \r\n- Add public key display to universal token settings (#2028)\r\n- Add system theme selection in addition to light/dark mode (#1903)\r\n- Add support for showing all IP and port mappings for containers bound to multiple IPs (#1993)\r\n- Fix stale SMART records when drives are no longer reported (#2178)\r\n- Fix Docker memory charts and container statistics after malformed or backwards Docker counters (#2027, #2066, #2205)\r\n- Fix memory calculation underflow and Linux battery percentages (#1978, #1957)\r\n- Improve connection source IP detection behind proxies (#1973)\r\n- Add EXIT_ON_INITIAL_FAILURE environment variable by @utafrali in https://github.com/henrygd/beszel/pull/1929\r\n- Allow agent to connect to hub via SOCKS5 proxy by @marmelo in https://github.com/henrygd/beszel/pull/1919\r\n- Use rfcEmail validator to allow IDN/Punycode email addresses by @BootstrapperSBL in https://github.com/henrygd/beszel/pull/1935\r\n- Prevent a malformed Docker response from permanently breaking container stats by @Quadrubo in https://github.com/henrygd/beszel/pull/2066\r\n- Update Go and JavaScript dependencies (fixes Matrix notification issues)\r\n- Other small fixes and improvements\r\n\r\n## New Contributors\r\n* @y0tka made their first contribution in https://github.com/henrygd/beszel/pull/1903\r\n* @FlintyLemming made their first contribution in https://github.com/henrygd/beszel/pull/1899\r\n* @alrs made their first contribution in https://github.com/henrygd/beszel/pull/1908\r\n* @bl4ckswordsman made their first contribution in https://github.com/henrygd/beszel/pull/1906\r\n* @marmelo made their first contribution in https://github.com/henrygd/beszel/pull/1919\r\n* @utafrali made their first contribution in https://github.com/henrygd/beszel/pull/1929\r\n* @Iriome-Santana made their first contribution in https://github.com/henrygd/beszel/pull/2001\r\n* @dependabot[bot] made their first contribution in https://github.com/henrygd/beszel/pull/2187\r\n* @Anikesh348 made their first contribution in https://github.com/henrygd/beszel/pull/2214\r\n* @polter-rnd made their first contribution in https://github.com/henrygd/beszel/pull/2171\r\n* @Quadrubo made their first contribution in https://github.com/henrygd/beszel/pull/2066\r\n* @kobihikri made their first contribution in https://github.com/henrygd/beszel/pull/2159\r\n* @rajkumaar23 made their first contribution in https://github.com/henrygd/beszel/pull/2207\r\n* @ryanchou1994 made their first contribution in https://github.com/henrygd/beszel/pull/2205\r\n* @TowyTowy made their first contribution in https://github.com/henrygd/beszel/pull/2126\r\n* @mhlas7 made their first contribution in https://github.com/henrygd/beszel/pull/2089\r\n* @maxmaxme made their first contribution in https://github.com/henrygd/beszel/pull/2032\r\n* @venku122 made their first contribution in https://github.com/henrygd/beszel/pull/2020\r\n* @miloszkolber made their first contribution in https://github.com/henrygd/beszel/pull/2223\r\n* @SAY-5 made their first contribution in https://github.com/henrygd/beszel/pull/1968\r\n* @DQ-Kwon made their first contribution in https://github.com/henrygd/beszel/pull/2003\r\n* @QuantumFlux21 made their first contribution in https://github.com/henrygd/beszel/pull/2227\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.7...v0.18.8"
+            },
             {
               "name": "v0.18.7",
               "tag": "v0.18.7",
@@ -4825,15 +4834,6 @@
               "prerelease": false,
               "author": "henrygd",
               "body": "## What's Changed\r\n- Add outbound heartbeat monitoring to external services by @amirhmoradi in https://github.com/henrygd/beszel/pull/1729\r\n- Add experimental GPU monitoring for Apple Silicon by @raccettura. (#1747, #1746, [docs](https://beszel.dev/guide/gpu#apple))\r\n- Add `nvtop` integration for GPU monitoring. (#1508)\r\n- Add `GPU_COLLECTOR` environment variable to manually specify the GPU collector(s).\r\n- SMART: add eMMC health via sysfs by @VACInc in https://github.com/henrygd/beszel/pull/1736\r\n- Add `DISABLE_SSH` environment variable to disable SSH agent functionality. (#1061)\r\n- Add `fingerprint` command to the agent. (#1726)\r\n- Include GTT memory in AMD GPU metrics and improve device name lookup. (#1569)\r\n- Improve multiplexed logs detection for Podman. (#1755)\r\n- Harden against Docker API path traversal.\r\n- Fix issue where the agent could report incorrect root disk I/O when running in Docker. (#1737)\r\n- Show system uptime in the system table by @svenvg93 in https://github.com/henrygd/beszel/pull/1719\r\n- Retry Docker check on non-200 HTTP response by @ElioDiNino in https://github.com/henrygd/beszel/pull/1754\r\n- Allow precise value entry for alerts via text input by @svenvg93 in https://github.com/henrygd/beszel/pull/1718\r\n- Add version flag to agent by @svenvg93 in https://github.com/henrygd/beszel/pull/1639\r\n- Fix race issue with meter threshold colors.\r\n- Add `InstallMethod` parameter to Windows install script.\r\n- Update Go version and dependencies.\r\n\r\n## New Contributors\r\n* @VACInc made their first contribution in https://github.com/henrygd/beszel/pull/1736\r\n* @amirhmoradi made their first contribution in https://github.com/henrygd/beszel/pull/1729\r\n* @ElioDiNino made their first contribution in https://github.com/henrygd/beszel/pull/1754\r\n* @raccettura made their first contribution in https://github.com/henrygd/beszel/pull/1747\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.3...v0.18.4"
-            },
-            {
-              "name": "v0.18.3",
-              "tag": "v0.18.3",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.3",
-              "published_at": "2026-02-01T19:02:42Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## Notice\r\n\r\n- The Windows agent's updated version of `LibreHardwareMonitorLib` now uses [PawnIO](https://pawnio.eu/) instead of WinRing0. If you lose temperature sensors, make sure PawnIO is installed. (See #1657 and #1697.)\r\n\r\n- Container `NetworkSent` and `NetworkRecv` fields have been deprecated in favor of `Bandwidth`. Agents will stop populating those fields in 0.19.0, so please update any integrations to prefer `Bandwidth`. It's available for all containers on hubs \u003e= 0.18.3.\r\n\r\n\r\n## What's Changed\r\n- Add experimental sysfs AMD GPU collector. (#737, #1569)\r\n- Improve container network stats accuracy.\r\n- Fix `SHARE_ALL_SYSTEMS` for system_details, smart_devices, and systemd_services. (#1660)\r\n- Improve CJK truncation in UI.\r\n- Fix container uptime sorting edge case. (#1696)\r\n- Remove stale systemd services from tracking after deletion. (#1594)\r\n- Update honeypot field name and autofill ignores. (#1011)\r\n- Write health_file to `/dev/shm` instead of `/tmp` if available. (#1455)\r\n- Ensure battery current charge doesn't exceed full capacity. (#1668)\r\n- Increase `smartctl --scan` timeout to 10 seconds. (#1465)\r\n- Update Go dependencies\r\n* Change usermod to addgroup for docker access by @wowi42 in https://github.com/henrygd/beszel/pull/1641\r\n* fix: update smartctlArgs call to use hasExistingData flag by @nemvince in https://github.com/henrygd/beszel/pull/1645\r\n* feat: add tooltip to system name in systems table by @Fahleen1 in https://github.com/henrygd/beszel/pull/1640\r\n* chore: update workflows and templates by @svenvg93 in https://github.com/henrygd/beszel/pull/1661\r\n* Add SMART_DEVICES_SEPARATOR + allow drives with the same name to be added with different types (e.g. raid controllers) by @jules2689 in https://github.com/henrygd/beszel/pull/1655\r\n* Chore: Remove Debian package goreleaser workaround by @svenvg93 in https://github.com/henrygd/beszel/pull/1677\r\n* [Agent] feat: parse ATA device statistics for temperature and future metrics by @sternma in https://github.com/henrygd/beszel/pull/1689\r\n* [Bug] Restore \"Add System\" button on mobile.  by @svenvg93 in https://github.com/henrygd/beszel/pull/1687\r\n* Bug: Apply SELinux context after binary replacement  by @svenvg93 in https://github.com/henrygd/beszel/pull/1678\r\n* feat: Added tooltips for navbar buttons to clear meaning of each one by @Fahleen1 in https://github.com/henrygd/beszel/pull/1636\r\n* Bug: Don't force lowercase text by @svenvg93 in https://github.com/henrygd/beszel/pull/1682\r\n* fix: update LibreHardwareMonitorLib to 0.9.5 by @bartvdbraak in https://github.com/henrygd/beszel/pull/1697\r\n* bug: ignore alt key combinations by @svenvg93 in https://github.com/henrygd/beszel/pull/1698\r\n\r\n## New Contributors\r\n* @wowi42 made their first contribution in https://github.com/henrygd/beszel/pull/1641\r\n* @nemvince made their first contribution in https://github.com/henrygd/beszel/pull/1645\r\n* @Fahleen1 made their first contribution in https://github.com/henrygd/beszel/pull/1640\r\n* @jules2689 made their first contribution in https://github.com/henrygd/beszel/pull/1655\r\n* @sternma made their first contribution in https://github.com/henrygd/beszel/pull/1689\r\n* @bartvdbraak made their first contribution in https://github.com/henrygd/beszel/pull/1697\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.2...v0.18.3"
             }
           ],
           "last_commit": {
@@ -4852,7 +4852,7 @@
             "stars": 76252,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T21:26:54Z",
+            "pushed_at": "2026-08-17T21:30:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4905,10 +4905,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6e23c11",
-            "branch": "MattIPv4/remove-truncated-text-react-dom-server",
-            "date": "2026-08-17T21:26:36Z",
-            "url": "https://github.com/grafana/grafana/commit/6e23c11b7617f88d2b370757af210e9007ec3734"
+            "sha": "57a220f",
+            "branch": "docs/jaeger-quarterly-update-fy27q3",
+            "date": "2026-08-17T21:22:59Z",
+            "url": "https://github.com/grafana/grafana/commit/57a220ff99fbb579494041f34809f96948e3d860"
           }
         },
         {
@@ -5053,7 +5053,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17551,
+            "stars": 17550,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-08-17T18:06:18Z",
