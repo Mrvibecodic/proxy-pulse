@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T12:38:33.600802Z",
+  "generated_at": "2026-08-17T12:43:48.777682Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41081,
+            "stars": 41080,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-17T00:16:04Z",
@@ -3343,6 +3343,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "af41897",
+                  "message": "golang: bump 1.26 to 1.26.6",
+                  "author": "George Sapkin",
+                  "date": "2026-08-17T12:43:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/af41897f31a4b5405acb0ca9d7ecdd357d193a9d"
+                },
+                {
                   "sha": "64b6155",
                   "message": "librespeed-cli: update to 1.0.14",
                   "author": "Josef Schlehofer",
@@ -3544,13 +3551,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-08-11T06:10:52Z",
                   "url": "https://github.com/openwrt/packages/commit/b003ac1d5963536a1b3acfdafc7f8412e551225f"
-                },
-                {
-                  "sha": "be41c07",
-                  "message": "ovpn-dco: update to version 7.1.0.2026080300",
-                  "author": "Sander van Deijck",
-                  "date": "2026-08-11T06:10:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/be41c07e469f71aed463c70cf65bc7822460579b"
                 }
               ]
             }
@@ -4781,7 +4781,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24321,
+            "stars": 24322,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-17T01:16:41Z",
@@ -4852,7 +4852,7 @@
             "stars": 76252,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T12:33:07Z",
+            "pushed_at": "2026-08-17T12:41:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4905,10 +4905,10 @@
             }
           ],
           "last_commit": {
-            "sha": "630e4ac",
-            "branch": "grambbledook/provisioningExport-fe",
-            "date": "2026-08-17T12:01:05Z",
-            "url": "https://github.com/grafana/grafana/commit/630e4aca1e0271cbd9107a2802e85e9dcaf3dc14"
+            "sha": "f2d8356",
+            "branch": "main",
+            "date": "2026-08-17T11:27:13Z",
+            "url": "https://github.com/grafana/grafana/commit/f2d8356875ed9e13e4e855b9a6167081189cbfec"
           }
         },
         {
@@ -4917,7 +4917,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65686,
+            "stars": 65687,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-17T11:25:24Z",
