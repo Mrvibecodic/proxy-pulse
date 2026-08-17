@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T21:32:00.427645Z",
+  "generated_at": "2026-08-17T21:37:32.373809Z",
   "groups": [
     {
       "id": "cores",
@@ -4784,7 +4784,7 @@
             "stars": 24340,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T21:31:09Z",
+            "pushed_at": "2026-08-17T21:36:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4797,7 +4797,7 @@
               "published_at": "2026-08-17T21:31:00Z",
               "prerelease": false,
               "author": "henrygd",
-              "body": "## What's Changed\r\n- Add multi-battery monitoring\r\n- Add Linux fan RPM monitoring (#2032)\r\n- Add Intel GPU power monitoring through sysfs and Intel Arc GPU monitoring through `nvtop` (#2020, #2223)\r\n- Add CPU and ACPI thermal zone monitoring on FreeBSD (#2227)\r\n- Add popup-free OAuth login when `OAUTH_DISABLE_POPUP=true` (#2171)\r\n- Add a `:slim` NVIDIA agent container image (#2002, #2003)\r\n- Add ARMv5 and ARMv6 builds, and ARM64 support for the NVIDIA agent image (#1884, #2207)\r\n- Improve mdraid consistency checks (fixes false positives) (#2067)\r\n- Improve SMART device detection for shared paths and explicit device type hints (#2102)\r\n- Improve agent startup after OPNsense and pfSense reboots (#2089, #2214)\r\n- Improve SSH-pull agent reconnection when connections silently fail (#2126)\r\n- Add checksum verification and archive path containment to update process \r\n- Add public key display to universal token settings (#2028)\r\n- Add system theme selection in addition to light/dark mode (#1903)\r\n- Add support for showing all IP and port mappings for containers bound to multiple IPs (#1993)\r\n- Fix stale SMART records when drives are no longer reported (#2178)\r\n- Fix Docker memory charts and container statistics after malformed or backwards Docker counters (#2027, #2066, #2205)\r\n- Fix memory calculation underflow and Linux battery percentages (#1978, #1957)\r\n- Improve connection source IP detection behind proxies (#1973)\r\n- Add EXIT_ON_INITIAL_FAILURE environment variable by @utafrali in https://github.com/henrygd/beszel/pull/1929\r\n- Allow agent to connect to hub via SOCKS5 proxy by @marmelo in https://github.com/henrygd/beszel/pull/1919\r\n- Use rfcEmail validator to allow IDN/Punycode email addresses by @BootstrapperSBL in https://github.com/henrygd/beszel/pull/1935\r\n- Prevent a malformed Docker response from permanently breaking container stats by @Quadrubo in https://github.com/henrygd/beszel/pull/2066\r\n- Update Go and JavaScript dependencies (fixes Matrix notification issues)\r\n- Other small fixes and improvements\r\n\r\n## New Contributors\r\n* @y0tka made their first contribution in https://github.com/henrygd/beszel/pull/1903\r\n* @FlintyLemming made their first contribution in https://github.com/henrygd/beszel/pull/1899\r\n* @alrs made their first contribution in https://github.com/henrygd/beszel/pull/1908\r\n* @bl4ckswordsman made their first contribution in https://github.com/henrygd/beszel/pull/1906\r\n* @marmelo made their first contribution in https://github.com/henrygd/beszel/pull/1919\r\n* @utafrali made their first contribution in https://github.com/henrygd/beszel/pull/1929\r\n* @Iriome-Santana made their first contribution in https://github.com/henrygd/beszel/pull/2001\r\n* @dependabot[bot] made their first contribution in https://github.com/henrygd/beszel/pull/2187\r\n* @Anikesh348 made their first contribution in https://github.com/henrygd/beszel/pull/2214\r\n* @polter-rnd made their first contribution in https://github.com/henrygd/beszel/pull/2171\r\n* @Quadrubo made their first contribution in https://github.com/henrygd/beszel/pull/2066\r\n* @kobihikri made their first contribution in https://github.com/henrygd/beszel/pull/2159\r\n* @rajkumaar23 made their first contribution in https://github.com/henrygd/beszel/pull/2207\r\n* @ryanchou1994 made their first contribution in https://github.com/henrygd/beszel/pull/2205\r\n* @TowyTowy made their first contribution in https://github.com/henrygd/beszel/pull/2126\r\n* @mhlas7 made their first contribution in https://github.com/henrygd/beszel/pull/2089\r\n* @maxmaxme made their first contribution in https://github.com/henrygd/beszel/pull/2032\r\n* @venku122 made their first contribution in https://github.com/henrygd/beszel/pull/2020\r\n* @miloszkolber made their first contribution in https://github.com/henrygd/beszel/pull/2223\r\n* @SAY-5 made their first contribution in https://github.com/henrygd/beszel/pull/1968\r\n* @DQ-Kwon made their first contribution in https://github.com/henrygd/beszel/pull/2003\r\n* @QuantumFlux21 made their first contribution in https://github.com/henrygd/beszel/pull/2227\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.7...v0.18.8"
+              "body": "## What's Changed\r\n- Add multi-battery monitoring\r\n- Add Linux fan RPM monitoring (#2032)\r\n- Add Intel Arc GPU monitoring through `nvtop` (#2020, #2223)\r\n- Add CPU and ACPI thermal zone monitoring on FreeBSD (#2227)\r\n- Add popup-free OAuth login when `OAUTH_DISABLE_POPUP=true` (#2171)\r\n- Add a `:slim` NVIDIA agent container image (#2002, #2003)\r\n- Add Intel sysfs GPU power collector (Xe/i915 hwmon energy counters) - #2020\r\n- Add ARMv5 and ARMv6 builds, and ARM64 support for the NVIDIA agent image (#1884, #2207)\r\n- Improve mdraid consistency checks (fixes false positives) (#2067)\r\n- Improve SMART device detection for shared paths and explicit device type hints (#2102)\r\n- Improve agent startup after OPNsense and pfSense reboots (#2089, #2214)\r\n- Improve SSH-pull agent reconnection when connections silently fail (#2126)\r\n- Add checksum verification and archive path containment to update process \r\n- Add public key display to universal token settings (#2028)\r\n- Add system theme selection in addition to light/dark mode (#1903)\r\n- Add support for showing all IP and port mappings for containers bound to multiple IPs (#1993)\r\n- Fix stale SMART records when drives are no longer reported (#2178)\r\n- Fix Docker memory charts and container statistics after malformed or backwards Docker counters (#2027, #2066, #2205)\r\n- Fix memory calculation underflow and Linux battery percentages (#1978, #1957)\r\n- Improve connection source IP detection behind proxies (#1973)\r\n- Add EXIT_ON_INITIAL_FAILURE environment variable by @utafrali in https://github.com/henrygd/beszel/pull/1929\r\n- Allow agent to connect to hub via SOCKS5 proxy by @marmelo in https://github.com/henrygd/beszel/pull/1919\r\n- Use rfcEmail validator to allow IDN/Punycode email addresses by @BootstrapperSBL in https://github.com/henrygd/beszel/pull/1935\r\n- Prevent a malformed Docker response from permanently breaking container stats by @Quadrubo in https://github.com/henrygd/beszel/pull/2066\r\n- Update Go and JavaScript dependencies (fixes Matrix notification issues)\r\n- Other small fixes and improvements\r\n\r\n## New Contributors\r\n* @y0tka made their first contribution in https://github.com/henrygd/beszel/pull/1903\r\n* @FlintyLemming made their first contribution in https://github.com/henrygd/beszel/pull/1899\r\n* @alrs made their first contribution in https://github.com/henrygd/beszel/pull/1908\r\n* @bl4ckswordsman made their first contribution in https://github.com/henrygd/beszel/pull/1906\r\n* @marmelo made their first contribution in https://github.com/henrygd/beszel/pull/1919\r\n* @utafrali made their first contribution in https://github.com/henrygd/beszel/pull/1929\r\n* @Iriome-Santana made their first contribution in https://github.com/henrygd/beszel/pull/2001\r\n* @dependabot[bot] made their first contribution in https://github.com/henrygd/beszel/pull/2187\r\n* @Anikesh348 made their first contribution in https://github.com/henrygd/beszel/pull/2214\r\n* @polter-rnd made their first contribution in https://github.com/henrygd/beszel/pull/2171\r\n* @Quadrubo made their first contribution in https://github.com/henrygd/beszel/pull/2066\r\n* @kobihikri made their first contribution in https://github.com/henrygd/beszel/pull/2159\r\n* @rajkumaar23 made their first contribution in https://github.com/henrygd/beszel/pull/2207\r\n* @ryanchou1994 made their first contribution in https://github.com/henrygd/beszel/pull/2205\r\n* @TowyTowy made their first contribution in https://github.com/henrygd/beszel/pull/2126\r\n* @mhlas7 made their first contribution in https://github.com/henrygd/beszel/pull/2089\r\n* @maxmaxme made their first contribution in https://github.com/henrygd/beszel/pull/2032\r\n* @venku122 made their first contribution in https://github.com/henrygd/beszel/pull/2020\r\n* @miloszkolber made their first contribution in https://github.com/henrygd/beszel/pull/2223\r\n* @SAY-5 made their first contribution in https://github.com/henrygd/beszel/pull/1968\r\n* @DQ-Kwon made their first contribution in https://github.com/henrygd/beszel/pull/2003\r\n* @QuantumFlux21 made their first contribution in https://github.com/henrygd/beszel/pull/2227\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.7...v0.18.8"
             },
             {
               "name": "v0.18.7",
@@ -4837,10 +4837,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a6163e0",
-            "branch": "l10n_main_2",
-            "date": "2026-08-17T20:46:41Z",
-            "url": "https://github.com/henrygd/beszel/commit/a6163e0809e8aec9b958cb8eef34a6981425f9b1"
+            "sha": "54dae08",
+            "branch": "main",
+            "date": "2026-08-17T21:36:02Z",
+            "url": "https://github.com/henrygd/beszel/commit/54dae086316ad2be1679b59b0bd7cdcb6f47babf"
           }
         },
         {
@@ -4852,7 +4852,7 @@
             "stars": 76252,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-17T21:30:39Z",
+            "pushed_at": "2026-08-17T21:35:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4905,10 +4905,10 @@
             }
           ],
           "last_commit": {
-            "sha": "57a220f",
-            "branch": "docs/jaeger-quarterly-update-fy27q3",
-            "date": "2026-08-17T21:22:59Z",
-            "url": "https://github.com/grafana/grafana/commit/57a220ff99fbb579494041f34809f96948e3d860"
+            "sha": "d88d694",
+            "branch": "release-13.2.0",
+            "date": "2026-08-17T21:29:58Z",
+            "url": "https://github.com/grafana/grafana/commit/d88d694f2809a8d817d4a4cf1a2cf06a0a369b1a"
           }
         },
         {
@@ -5409,7 +5409,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7028,
+            "stars": 7030,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-08-17T20:08:09Z",
