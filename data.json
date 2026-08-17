@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:49:52.677747Z",
+  "generated_at": "2026-08-17T14:56:58.865817Z",
   "groups": [
     {
       "id": "cores",
@@ -8647,7 +8647,7 @@
           "track": "commits",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33295,
+            "stars": 33296,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-17T02:12:11Z",
@@ -19476,7 +19476,7 @@
           "track": "commits",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28009,
+            "stars": 28010,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-17T08:36:23Z",
@@ -27445,7 +27445,7 @@
         {
           "repo": "StressOzz/Zapret-Manager",
           "title": "Zapret Manager",
-          "track": "releases",
+          "track": "commits",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
             "stars": 1709,
@@ -27456,32 +27456,223 @@
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "ZapretOzz v0.6",
-              "tag": "ZapretOzz-v0.6",
-              "url": "https://github.com/StressOzz/Zapret-Manager/releases/tag/ZapretOzz-v0.6",
-              "published_at": "2026-07-05T17:23:39Z",
-              "prerelease": false,
-              "author": "StressOzz",
-              "body": "# Версия для Windows\r\n\r\nИзменения в **v0.6**:\r\n- изменён **fake** для Discord и игровой стратегии...\r\n\r\n---\r\n\r\n\u003e [!IMPORTANT]\r\n\u003e ### Если не работает, попробуйте версию **v0.5**\r\n\r\n---\r\n\r\n**Запуск:**\r\n- Скачайте **ZapretOzz.zip**\r\n- Распакуйте архив (в папку без спец.символов)\r\n- Запустите один из **ZapretOzz.bat**\r\n\r\n\u003e [!IMPORTANT]\r\n\u003e Для корректной работы некоторых стратегий, **в командной строке Windows** или в **PowerShell** необходимо **1 раз** выполнить:\r\n\u003e```\r\n\u003enetsh int tcp set global timestamps=enabled\r\n\u003e```"
-            },
-            {
-              "name": "ZapretOzz v0.5",
-              "tag": "ZapretOzz-v0.5",
-              "url": "https://github.com/StressOzz/Zapret-Manager/releases/tag/ZapretOzz-v0.5",
-              "published_at": "2026-05-06T15:18:56Z",
-              "prerelease": false,
-              "author": "StressOzz",
-              "body": "# Версия для Windows\r\n\r\n**Запуск:**\r\n- Скачайте **ZapretOzz.zip**\r\n- Распакуйте архив (в папку без спец.символов)\r\n- Запустите один из **ZapretOzz.bat**\r\n\r\n\u003e [!IMPORTANT]\r\n\u003e Для корректной работы стратегий, **в командной строке Windows** или в **PowerShell** необходимо **1 раз** выполнить:\r\n\u003e```\r\n\u003enetsh int tcp set global timestamps=enabled\r\n\u003e```"
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "5bf579b",
+                  "message": "Update readme.md",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T23:02:42Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/5bf579b06ce73bee1d6858b70c2299f782063021"
+                },
+                {
+                  "sha": "6dc0ad8",
+                  "message": "add expert mode",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T20:27:07Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/6dc0ad898c6e0f5d86b5ea1c87199914c0ad5c8c"
+                },
+                {
+                  "sha": "9512820",
+                  "message": "Refactor script to use wget for script execution",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T16:58:14Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/951282032e04226400d35459ebf5989fbdb38308"
+                },
+                {
+                  "sha": "3d6aaff",
+                  "message": "упростил генерацию warp",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T13:03:54Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/3d6aaff821c609843e1747e9ffbac0a96aa6baa8"
+                },
+                {
+                  "sha": "ee1d76a",
+                  "message": "Update TCP port ranges in Zapret-Manager.sh",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T11:20:59Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/ee1d76a50049fa5a108be87fceab3a5063edb8c1"
+                },
+                {
+                  "sha": "1e679c6",
+                  "message": "косметика",
+                  "author": "StressOzz",
+                  "date": "2026-08-15T11:17:14Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/1e679c67a954b22229b8c1bb34b2dbf94251047c"
+                },
+                {
+                  "sha": "8d45dc5",
+                  "message": "убрана проверка свободного места для MTProto Proxy",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T21:35:38Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/8d45dc54c8332c6ab875124ca5382162107d028c"
+                },
+                {
+                  "sha": "442e9fe",
+                  "message": "Update Zapret-Manager.sh",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T21:11:10Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/442e9fe9f2ec2848ab0dca7652a9e75702f5577f"
+                },
+                {
+                  "sha": "9ae83e5",
+                  "message": "Check for Zapret2 installation in zapret_key function",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:58:51Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/9ae83e5f158f022542e35c59c42c76668c16dede"
+                },
+                {
+                  "sha": "638fa34",
+                  "message": "Refactor DPI desync configurations in StrYoutube",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:52:07Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/638fa344c4e079f0946bdbe15997d17d48716a7a"
+                },
+                {
+                  "sha": "782b5e5",
+                  "message": "Update Strategies_For_Youtube.md",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:51:26Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/782b5e517d3e94e14e091cc3c2cf874e4cd393e2"
+                },
+                {
+                  "sha": "695fe0e",
+                  "message": "Fix echo statements for Zapret status output",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:44:00Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/695fe0e14bae959838e9c1e3e97e1bc5df46e0d0"
+                },
+                {
+                  "sha": "43cb5fe",
+                  "message": "v9.82",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:32:19Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/43cb5fed4463cf412ba8e6321220215b977d6afd"
+                },
+                {
+                  "sha": "b131a59",
+                  "message": "Update readme",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:30:28Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/b131a5982b05ef08030f7289c6cc31d86bd1cd1c"
+                },
+                {
+                  "sha": "5b1ae09",
+                  "message": "v9.82",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:30:14Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/5b1ae09826317553afdb9cc5caf33cc182456a66"
+                },
+                {
+                  "sha": "a04a3e4",
+                  "message": "Update StrYoutube configuration with new DPI settings",
+                  "author": "StressOzz",
+                  "date": "2026-08-14T16:29:47Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/a04a3e49f59044ebba751a6cfcf8cf663852a50a"
+                },
+                {
+                  "sha": "56134b0",
+                  "message": "Update StrYoutube",
+                  "author": "StressOzz",
+                  "date": "2026-08-12T12:52:43Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/56134b05cc09afc697084bad29e8b1a0a5d50a87"
+                },
+                {
+                  "sha": "fa26299",
+                  "message": "add Quad 9 DNS",
+                  "author": "StressOzz",
+                  "date": "2026-08-11T16:45:23Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/fa26299bba87d3eb7e2fd5d80637cf42a045bece"
+                },
+                {
+                  "sha": "0f6c060",
+                  "message": "Update zapret-hosts-user-exclude.txt",
+                  "author": "StressOzz",
+                  "date": "2026-08-10T16:56:01Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/0f6c060ea1b4ac7ff35c373bfb6be8883f8d9c06"
+                },
+                {
+                  "sha": "e50ba47",
+                  "message": "Update zapret-hosts-user-exclude.txt",
+                  "author": "StressOzz",
+                  "date": "2026-08-10T16:06:54Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/e50ba4702b2b91a1b538bb46957241cc80a454d3"
+                },
+                {
+                  "sha": "f9b8f6a",
+                  "message": "v9.81",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T17:39:42Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/f9b8f6a116470a0fe265ca7762d69731ffa56229"
+                },
+                {
+                  "sha": "8d6cfa9",
+                  "message": "Delete files/flowseal-str.zip",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T16:17:46Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/8d6cfa9c1c65a8810e73124774cdba0d28d2405d"
+                },
+                {
+                  "sha": "efe37bb",
+                  "message": "добавлены fake",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T16:15:28Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/efe37bb32950779170be10b128d239a0d4ce56d6"
+                },
+                {
+                  "sha": "8485434",
+                  "message": "add kaspersky.com",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T12:46:57Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/84854347ebbbfcf035c63e2a3f6d24a86c17b452"
+                },
+                {
+                  "sha": "7b218d8",
+                  "message": "Update Zapret-Manager.sh",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T11:26:03Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/7b218d887c59ede854b515efd493d77ec4c69beb"
+                },
+                {
+                  "sha": "e7b5480",
+                  "message": "Update readme.md",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T09:58:19Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/e7b5480f9f1e9a0193f0ef4e9875a505d916101a"
+                },
+                {
+                  "sha": "756fc41",
+                  "message": "v9.81",
+                  "author": "StressOzz",
+                  "date": "2026-08-09T09:36:50Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/756fc41e823753788c27f0998500e358521dbff2"
+                },
+                {
+                  "sha": "cc913cd",
+                  "message": "add tapeop.dev in hosts",
+                  "author": "StressOzz",
+                  "date": "2026-08-06T16:10:53Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/cc913cddccb75f20d32440aec04449a28cd98d3f"
+                },
+                {
+                  "sha": "89bd0e6",
+                  "message": "Modify DNS over HTTPS settings in Zapret-Manager",
+                  "author": "StressOzz",
+                  "date": "2026-08-06T14:51:41Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/89bd0e6c6230a41336ee25c39d41fdd9ba5415bf"
+                },
+                {
+                  "sha": "afad8af",
+                  "message": "Update readme.md",
+                  "author": "StressOzz",
+                  "date": "2026-08-04T21:56:36Z",
+                  "url": "https://github.com/StressOzz/Zapret-Manager/commit/afad8af03f38f452fed1f12203c9c59512420b3c"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "5bf579b",
-            "branch": "main",
-            "date": "2026-08-15T23:02:43Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/5bf579b06ce73bee1d6858b70c2299f782063021"
-          }
+          ]
         },
         {
           "repo": "remittor/zapret-openwrt",
@@ -57745,7 +57936,7 @@
         {
           "repo": "Mrvibecodic/remnawave-subscription-middleware",
           "title": "remnawave-subscription-middleware",
-          "track": "releases",
+          "track": "commits",
           "meta": {
             "description": "Прослойка-ру-зеркало для подписок Remnawave с расширенными возможностями",
             "stars": 49,
@@ -57756,59 +57947,438 @@
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "v1.1.0",
-              "tag": "v1.1.0",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.1.0",
-              "published_at": "2026-08-14T11:42:50Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Релиз v1.1.0 — защищённый канал подписки, каталог версий клиентов, чёрная тема.\n\n## Новое\n\n- **Защищённый канал подписки (Clod Clash).** Подписка забирается по нечитаемому адресу, ответ уходит сплошным шифротекстом одного размера — посредник, терминирующий TLS, не видит ни адреса, ни заголовков, ни тела. Работает только с клиентами Clod Clash (desktop и Android), включается на отдельную подписку, по умолчанию выключено. Вкладка «Защищённый канал»: готовность, ключ со сменой, жёсткий режим, диагностический журнал. Подробности — docs/chan.md.\n- **Версии клиентов.** Второй экран «Лога запросов»: каталог клиентских приложений с источником актуальной версии (GitHub, App Store, Google Play, F-Droid, Codeberg или вручную). Версия из User-Agent сравнивается с актуальной, отставшие клиенты помечаются в логе, на кнопке «Запросы» — счётчик устаревших. Проверка ленивая: фоновая автопроверка не чаще раза в сутки на строку, запросы уходят только со страниц админки.\n- **Чёрная тема (OLED).** Третья тема оформления админки к светлой и тёмной, с контраст-фиксами; по умолчанию — как в системе. Плюс липкая шапка таблиц.\n\n## Исправления\n\n- **Доп. конфиги в формате xray-json** собираются на шаблоне подписки из панели (по умолчанию `Default`, имя настраивается во вкладке «Доп. конфиги»), а не на копии первого профиля — раньше они наследовали правила маршрутизации случайного хоста. Для этого токену панели нужны права `subscription-template:list` и `subscription-template:get`; без них поведение прежнее, а во вкладке видна причина.\n- Платформа клиента в логе запросов берётся из заголовков устройства; знаменатель в плитке «Обновили подписку» не пропадает после автообновления; время каталога — в таймзоне браузера.\n- `install.sh` больше не пытается ставить несуществующий пакет `php-sodium`; вкладка канала показывает, какой PHP отвечает сайту.\n- Читаемый хеш коммита на кнопке «Обновить до».\n\n## Интерфейс\n\n- Один пункт меню «Лог вебхуков» с под-вкладками вместо двух.\n- Подсказки и выпадающие списки в стиле админки вместо системных.\n\n## Обновление\n\n- Docker: `docker compose pull \u0026\u0026 docker compose up -d` (тег `v1` уже указывает на этот релиз).\n- Файлами: вкладка «Обновление» в админке или `git pull`.\n- Если используете доп. конфиги с xray-json-клиентами (Happ) — добавьте API-токену панели права `subscription-template:list` и `subscription-template:get`."
+              "name": "dev",
+              "commits": [
+                {
+                  "sha": "00b8472",
+                  "message": "ui(nav): иконки сайдбара по смыслу пункта",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-16T10:38:37Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/00b84725782a49edec27960698931b4b7337a47a"
+                },
+                {
+                  "sha": "84347d4",
+                  "message": "style(fonts): Onest вместо Inter — один вариативный файл на сабсет",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-16T10:37:58Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/84347d4c846e815c18d9b1a9d15858b3a5cb5fa8"
+                },
+                {
+                  "sha": "e5d0b34",
+                  "message": "ui(clod): кнопки клиентов со звёздами GitHub вместо таблицы ссылок",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-15T17:05:19Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e5d0b34c8a4e0c68b2e3e1238ae45e3803d4d05e"
+                },
+                {
+                  "sha": "bc5f474",
+                  "message": "fix(clod): индекс меток — снимать метки удалённой подписки и считать их по самой таблице",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-15T17:05:00Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/bc5f474ef094fcf61a4e020ba3e1eefe121d65e3"
+                },
+                {
+                  "sha": "fc36b85",
+                  "message": "ui(sqcfg): поле шаблона xray-json — обычная строка настроек, статус вместо врезки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T12:11:00Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/fc36b85530b89cf73b3495a4282f32c93abf499f"
+                },
+                {
+                  "sha": "6563365",
+                  "message": "docs(readme): темы оформления админки в списке возможностей",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:40:57Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/656336598126691cf887672d6afef15675ec1527"
+                },
+                {
+                  "sha": "295f15d",
+                  "message": "fix(sqcfg): скелет доп. конфигов в xray-json из шаблона панели, а не из первого профиля",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:31:49Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/295f15d5b415b2649c09c0bbc57a6bd769d009b3"
+                },
+                {
+                  "sha": "cd97e58",
+                  "message": "fix(reqlog): знаменатель в плитке «Обновили подписку» не пропадает после автообновления",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T21:52:18Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/cd97e585b95f3ce2e21af07b3fc5d6c20e95e163"
+                },
+                {
+                  "sha": "ace3f17",
+                  "message": "fix(admin): читаемый хеш коммита на кнопке «Обновить до»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T20:38:00Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ace3f17dfd5c051b4eb93dc1e2bdf6cf87ae5990"
+                },
+                {
+                  "sha": "3b98413",
+                  "message": "ui(whlog): один пункт «Лог вебхуков» с под-вкладками вместо двух в меню",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T20:34:40Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/3b9841393a0b11a6ab8bc5d6664ab4bfd6416646"
+                },
+                {
+                  "sha": "429e0a2",
+                  "message": "ui(admin): третья тема «чёрная» (OLED), контраст-фиксы и липкая шапка таблиц",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T20:27:14Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/429e0a28ba74b49b1b2d720df301c0485f4c40b5"
+                },
+                {
+                  "sha": "e01d34e",
+                  "message": "fix(reqlog): каталог версий — фоновая автопроверка и дедлайн первого прогона",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T20:20:04Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e01d34e10e4eded8c541a486fad44a70121d27f7"
+                },
+                {
+                  "sha": "165a774",
+                  "message": "ui(reqlog): счётчик устаревших на кнопке «Запросы»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:37:04Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/165a774649ecf64dcbf0e336992c387c5a0ff7a4"
+                },
+                {
+                  "sha": "8490281",
+                  "message": "ui(admin): выпадающие списки в стиле админки, счётчик устаревших только на экране запросов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:34:49Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/84902819745944669891bebc98157527aab109b6"
+                },
+                {
+                  "sha": "e34573d",
+                  "message": "feat(reqlog): источники версий Google Play и F-Droid, Android-линии Happ и INCY через Play",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:26:40Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e34573dfe96bec325dcc7ce428c435d4184ef549"
+                },
+                {
+                  "sha": "9f52c44",
+                  "message": "ui(reqlog): точка версии по центру строки, спиннер на кнопке проверки и лимит времени на прогон источников",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:16:32Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/9f52c44d738ee7f47408af044a021d0dc87c195a"
+                },
+                {
+                  "sha": "e01717f",
+                  "message": "ui(admin): подсказки в стиле админки вместо системных тултипов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:06:41Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e01717ff7763a6d88d3c987b115cb4a43006904f"
+                },
+                {
+                  "sha": "795109b",
+                  "message": "fix(reqlog): платформа клиента из заголовков устройства, первый прогон каталога версий и время в таймзоне браузера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T19:02:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/795109b3780b126eb9dd533d623ce245d440635e"
+                },
+                {
+                  "sha": "ddbf114",
+                  "message": "feat(reqlog): каталог версий клиентов и отметка устаревших в логе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-13T18:50:16Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ddbf114286fd068b95427bb1d16e0ad9a6ed4d59"
+                },
+                {
+                  "sha": "8af12a4",
+                  "message": "docs(chan): описание защищённого канала в README и docs/chan.md",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T21:42:47Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8af12a4e537456d2c9af8467601752e94afdd209"
+                },
+                {
+                  "sha": "e04fcf2",
+                  "message": "feat(chan): диагностический журнал канала и сворачиваемые блоки вкладки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T21:40:11Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e04fcf21c52457103c3039ad39762180397500f9"
+                },
+                {
+                  "sha": "c2138ac",
+                  "message": "docs(chan): на вкладке канала — клиенты, устройство и что делать без sodium",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T21:25:50Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c2138ac10c21ead8f59dac523e46e9a39516d84c"
+                },
+                {
+                  "sha": "f2d91c5",
+                  "message": "fix(chan): показывать в готовности, какой PHP отвечает",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T21:17:55Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/f2d91c58db663673bcf445f0987093c5fdf52500"
+                },
+                {
+                  "sha": "91aa12d",
+                  "message": "fix(install): не ставить несуществующий пакет php-sodium",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T21:03:26Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/91aa12dc47205c2f769c9adc60b82a0ad0a73a7f"
+                },
+                {
+                  "sha": "c4cb936",
+                  "message": "feat(chan): защищённый канал c1 для клиентов Clod Clash",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T20:58:15Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/c4cb936814a8f8beff3e0ae847a114568cd6eec1"
+                },
+                {
+                  "sha": "327edf5",
+                  "message": "docs(readme): транспорты VLESS в доп. конфигах и лог запросов в списке возможностей",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:14:43Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/327edf58c6e86ba016d07fcf9e1b029c0799a200"
+                },
+                {
+                  "sha": "6a9ea37",
+                  "message": "fix(reqlog): показывать модель и ОС устройства из заголовков клиента",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:52:22Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/6a9ea3787b34712d5f011cc3d059d4d4595de59c"
+                },
+                {
+                  "sha": "339db58",
+                  "message": "fix(sqcfg): не подмешивать доп. конфиги, когда панель не выдаёт подписку",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:49:55Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/339db5890e91ede32c82fd0ab4e6bcf4fe5f867b"
+                },
+                {
+                  "sha": "2ab2a0c",
+                  "message": "fix(admin): предзагружать woff2 — иначе шрифт остаётся системным",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T09:30:30Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/2ab2a0cf96404afa9a2b9e49070bb27ccc8299e7"
+                },
+                {
+                  "sha": "abe0388",
+                  "message": "ui(sqcfg): подсказки о форматах доставки конфига и о правках шаблона xray-json",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-08T14:59:15Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/abe0388933dafe3f4e489a68e5332c33da48b631"
+                }
+              ]
             },
             {
-              "name": "v1.0.3",
-              "tag": "v1.0.3",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.3",
-              "published_at": "2026-08-12T10:16:17Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Патч-релиз: исправления и расширение поддержки клиентских ядер. Новых разделов админки нет, ручных действий при обновлении не требуется.\n\n## Исправления\n\n**Доп. конфиги и слияние подписок больше не уходят тем, кому панель подписку не выдаёт.** Раньше решение принималось только по своим оверрайдам, поэтому заблокированный, истёкший, исчерпавший трафик или упёршийся в лимит устройств пользователь получал заглушку от панели — и рядом с ней рабочий доп. конфиг. Теперь статус берётся из ответа панели (кешируется вместе со сквадами, сбрасывается вебхуком), а упор в лимит устройств определяется по заголовкам ответа `x-hwid-limit` / `x-hwid-max-devices-reached` / `x-hwid-not-supported`. В «Логе запросов» такой запрос помечается `skip`. Если панель недоступна — поведение прежнее.\n\n**Оверрайд от вебхука больше не снимается сам.** Блокировка и лимит трафика приходят вебхуком, а дата окончания у такого пользователя обычно ещё в будущем — из-за этого оверрайд удалялся при следующем же запросе, и подписка снова считалась обычной. Теперь он держится, пока панель считает пользователя неактивным, и не гасится порогом `expired_grace_days`. Реактивация работает как раньше: панель вернула `ACTIVE` — оверрайд снимается.\n\n**Колонка «Устройство» в «Логе запросов» заполняется.** Модель и ОС собирались только из User-Agent, поэтому у клиентов, которые шлют их отдельными заголовками (`x-device-model`, `x-device-os`, `x-ver-os`), стояло «клиент не прислал» — при том, что в панели те же данные видны в списке устройств. Теперь заголовки пишутся в запись лога и показываются в колонке и в карточке; разбор User-Agent остался запасным вариантом.\n\n**Шрифт админки больше не прыгает при загрузке.** `woff2` теперь предзагружается: без этого браузер успевал отрисовать страницу системным шрифтом и подменял его уже после.\n\n## Улучшения\n\n**VLESS в доп. конфигах: транспорты xhttp, mKCP, QUIC, h2 и http-обфускация.** Поддержка сверена с исходниками Xray, sing-box и mihomo — у ядер она разная (xhttp нет в sing-box, QUIC убран из Xray, у mihomo свои имена полей). В админке у каждого конфига видно, каким клиентам он уйдёт и почему остальным не подойдёт; несовместимому ядру конфиг просто не отдаётся — вместо порчи всей подписки пропускается только он.\n\n**Подсказки во вкладке «Доп. конфиги»** — про форматы доставки конфига и про правку шаблона xray-json.\n\n**README** — описание транспортов VLESS и «Лог запросов» в списке возможностей.\n\n## Обновление\n\nDocker:\n\n```bash\ncd /opt/remnawave\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n\nИз git: `git fetch origin \u0026\u0026 git reset --hard origin/main`, затем перезагрузить php-fpm.\n\nНовая колонка в служебном кеше сквадов добавляется автоматически при первом запросе, миграций вручную запускать не нужно. `config.php` и база не затрагиваются."
-            },
-            {
-              "name": "v1.0.2",
-              "tag": "v1.0.2",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.2",
-              "published_at": "2026-08-07T20:28:35Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## Что изменилось\n\n### Исправления\n- **Лог запросов → «Активность по часам»:** график теперь показывает время в таймзоне браузера. Раньше подписи столбиков, ось и строка «пик в HH:MM» рендерились по дате сервера, а таблица запросов ниже — уже по локальному времени, из-за чего одно и то же событие выглядело как разное. Час бакета отдаётся epoch-ом, подписи проставляются на клиенте — в том числе после автообновления и обновления по кнопке.\n\nОбновление без миграций: изменения только в отрисовке админки, схема БД и настройки не трогаются.\n\n**Полный список изменений:** https://github.com/Mrvibecodic/remnawave-subscription-middleware/compare/v1.0.1...v1.0.2"
-            },
-            {
-              "name": "v1.0.1",
-              "tag": "v1.0.1",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.1",
-              "published_at": "2026-08-07T11:47:41Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Патч-релиз: исправления и доработки интерфейса, новых возможностей нет.\n\n## Что изменилось\n- **Лог запросов** — переработанная вкладка: сводка за сутки (обновившие подписку, устройства, запросы, блокировки HWID), гистограмма по часам, фильтры по решению, типу ответа и периоду, раскрытие строки с полной карточкой запроса. Для каждого запроса теперь сохраняются тип отданного ответа, его размер и состояние доп. подписки — эти поля видны только у новых записей.\n- **Лог вебхуков** — фильтры по событию, действию, подписи и периоду, фильтрация кликом по значению, выгрузка в CSV, выборка до 3000 записей; в hwid-событиях подставляется имя пользователя, старые записи дозаполняются.\n- **Вёрстка админки** — устранены подёргивания при загрузке страниц: блоки стилей подняты выше разметки, инлайновым SVG заданы явные размеры, длинные логи больше не отрисовываются целиком до старта пагинатора.\n\n## Обновление\nСхема базы обновляется автоматически при первом обращении к админке: в таблицу `request_log` добавляются четыре поля. Ручных действий не требуется, откат на предыдущую версию данные не ломает. Настройки, `config.php` и содержимое `data/` не затрагиваются.\n\n## Docker-теги\n- **`v1`** — стабильный, уже указывает на этот релиз;\n- `v1.0.1` — фиксированный тег релиза;\n- `latest` / `main` — ветка `main`;\n- `dev` — тестовая ветка."
-            },
-            {
-              "name": "v1.0.0",
-              "tag": "v1.0.0",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.0",
-              "published_at": "2026-08-05T19:34:04Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Первый стабильный релиз прослойки.\n\n## Что внутри\n- Совместимость с панелью Remnawave **2.7.4 – 3.2.x**: идентификатор пользователя uuid (2.x) / числовой id (3.x), автоматическая миграция сохранённых идентификаторов, версия панели определяется по API.\n- Грейс-сквад: корректный старт/возврат, восстановление лимитов и даты истечения, грейс выдаётся только на настоящем событии `user.expired`.\n- Слияние подписок (addsub): авто/ручная привязка, параллельная загрузка (тумблер), корректные условные заголовки.\n- WG/AWG-пул: подпулы (группы) конфигов, выдача по одной из каждой группы в дедикейт-режиме.\n- Конфигурация панели из `/api/system/configuration` (панель 3.2.0+), лог вебхуков с фильтром по пользователю.\n\n## Docker-теги\n- **`v1`** — стабильный, двигается с каждым релизом `v1.x.y` (по умолчанию в `docker-compose.example.yml` и `install.sh`);\n- `v1.0.0` — этот релиз, фиксированный;\n- `latest` / `main` — ветка `main` (как раньше, ничего не меняется);\n- `dev` — тестовая ветка.\n\nСуществующие установки на `latest`/`dev` и обновление файлами через админку работают без изменений."
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "89412f8",
+                  "message": "docs(readme): темы оформления админки в списке возможностей",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:40:57Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/89412f8f556bcf3894e5961c3e166e13dfce6755"
+                },
+                {
+                  "sha": "a18c467",
+                  "message": "fix(sqcfg): скелет доп. конфигов в xray-json из шаблона панели, а не из первого профиля",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/a18c467c471dc508a57ba5420aa5f3a2f856eff1"
+                },
+                {
+                  "sha": "8e17abc",
+                  "message": "fix(reqlog): знаменатель в плитке «Обновили подписку» не пропадает после автообновления",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8e17abcca2a4905e1d155fd5c720d22af773a1ba"
+                },
+                {
+                  "sha": "8ecc85e",
+                  "message": "fix(admin): читаемый хеш коммита на кнопке «Обновить до»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/8ecc85ee76d4a0a226bf727807b964b5f8e4ac48"
+                },
+                {
+                  "sha": "37595be",
+                  "message": "ui(whlog): один пункт «Лог вебхуков» с под-вкладками вместо двух в меню",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/37595beeac55cf47016d95d01d24e9364bc0abc7"
+                },
+                {
+                  "sha": "a56d76e",
+                  "message": "ui(admin): третья тема «чёрная» (OLED), контраст-фиксы и липкая шапка таблиц",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/a56d76e6f36e74c3bb9c91c871d86f96bb58decf"
+                },
+                {
+                  "sha": "1290660",
+                  "message": "fix(reqlog): каталог версий — фоновая автопроверка и дедлайн первого прогона",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:39Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1290660147055010445c6e27a5a039ca2cceb37f"
+                },
+                {
+                  "sha": "7dabc64",
+                  "message": "ui(reqlog): счётчик устаревших на кнопке «Запросы»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/7dabc64c3052ad084ab6153eed24ba6d1030987a"
+                },
+                {
+                  "sha": "98e9bf3",
+                  "message": "ui(admin): выпадающие списки в стиле админки, счётчик устаревших только на экране запросов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/98e9bf3cdce2e31fdeae607b79c8d5d74bc1dbf4"
+                },
+                {
+                  "sha": "e01d8a2",
+                  "message": "feat(reqlog): источники версий Google Play и F-Droid, Android-линии Happ и INCY через Play",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/e01d8a2b266dabe69fd25a47d37631c29065da97"
+                },
+                {
+                  "sha": "97f2511",
+                  "message": "ui(reqlog): точка версии по центру строки, спиннер на кнопке проверки и лимит времени на прогон источников",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/97f251144c24ce142b848b43e20882ced252b3be"
+                },
+                {
+                  "sha": "008b52d",
+                  "message": "ui(admin): подсказки в стиле админки вместо системных тултипов",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/008b52d23986ba3d257a9d4b41fcb5e0b27213ff"
+                },
+                {
+                  "sha": "4e8267b",
+                  "message": "fix(reqlog): платформа клиента из заголовков устройства, первый прогон каталога версий и время в таймзоне браузера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4e8267be9640fe353e76b3d2fe5760e21ba72cc6"
+                },
+                {
+                  "sha": "7e962c8",
+                  "message": "feat(reqlog): каталог версий клиентов и отметка устаревших в логе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/7e962c87f377991b03802262c5c7b5c9c0d04773"
+                },
+                {
+                  "sha": "a75d34a",
+                  "message": "docs(chan): описание защищённого канала в README и docs/chan.md",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/a75d34a888815dda606431d5d9b22e299d2ca5c0"
+                },
+                {
+                  "sha": "72990be",
+                  "message": "feat(chan): диагностический журнал канала и сворачиваемые блоки вкладки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/72990be9e33de7cf83737b3e0847071cd8d8fa50"
+                },
+                {
+                  "sha": "56aa70e",
+                  "message": "docs(chan): на вкладке канала — клиенты, устройство и что делать без sodium",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/56aa70e6b9dc34c837105a49ae25bbd74989fa02"
+                },
+                {
+                  "sha": "1ee2943",
+                  "message": "fix(chan): показывать в готовности, какой PHP отвечает",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/1ee2943b84e8e5ccac53f50ca93a9fe883f7a019"
+                },
+                {
+                  "sha": "189e91a",
+                  "message": "fix(install): не ставить несуществующий пакет php-sodium",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/189e91a0b5737b8d3ca2c347e3de37eeae9940d9"
+                },
+                {
+                  "sha": "adaf705",
+                  "message": "feat(chan): защищённый канал c1 для клиентов Clod Clash",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-14T11:39:38Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/adaf705cf922edf32e9a7040a8ea50a7382b153a"
+                },
+                {
+                  "sha": "4670d9f",
+                  "message": "docs(readme): транспорты VLESS в доп. конфигах и лог запросов в списке возможностей",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:14:50Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4670d9fdf3192a69fe55988e24d99ea09077595a"
+                },
+                {
+                  "sha": "ada398d",
+                  "message": "fix(reqlog): показывать модель и ОС устройства из заголовков клиента",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:12:54Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/ada398d0b7202b1610bf70f2b8d5ae44b8de080e"
+                },
+                {
+                  "sha": "5c90c28",
+                  "message": "fix(sqcfg): не подмешивать доп. конфиги, когда панель не выдаёт подписку",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:12:54Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/5c90c289a3673df2203264a120a213e17d5a6588"
+                },
+                {
+                  "sha": "d0eb858",
+                  "message": "fix(admin): предзагружать woff2 — иначе шрифт остаётся системным",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:12:54Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/d0eb85887489db195a0ebea5864839ed3e16002b"
+                },
+                {
+                  "sha": "057a389",
+                  "message": "ui(sqcfg): подсказки о форматах доставки конфига и о правках шаблона xray-json",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:12:53Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/057a38944b311f8dd22377f5bffa9f2ff45956a6"
+                },
+                {
+                  "sha": "1901733",
+                  "message": "feat(vless): транспорты xhttp, kcp, quic и http-обфускация; матрица поддержки по ядрам",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-12T10:12:53Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/190173309175078e42213cd6e4774d3acca53c1f"
+                },
+                {
+                  "sha": "b37a251",
+                  "message": "docs(readme): раздел «Права API-токена» — минимальный набор прав для панели 2.8.0+/3.x",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-08T13:40:23Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/b37a251a84bc8821204dedc5c7ca3577ab552de9"
+                },
+                {
+                  "sha": "4e71e3e",
+                  "message": "fix(reqlog): график активности по часам — время в таймзоне браузера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-07T20:26:50Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/4e71e3e57c7e1f7c559176128d021e45fbeda9dd"
+                },
+                {
+                  "sha": "95b71b4",
+                  "message": "ui(reqlog): фон раскрытой карточки, свёрнутый блок доп. подписки, чистка кнопок",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-07T11:45:13Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/95b71b43f5dffd80770ae453adae79bc365f7299"
+                },
+                {
+                  "sha": "3200254",
+                  "message": "feat(admin): новый вид лога запросов — сводка, фильтры и раскрытие строки",
+                  "author": "Mrvibecodic",
+                  "date": "2026-08-07T11:45:13Z",
+                  "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/320025423ba6b2306f5b635e90892e76d511461e"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "00b8472",
-            "branch": "dev",
-            "date": "2026-08-16T10:38:51Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/00b84725782a49edec27960698931b4b7337a47a"
-          }
+          ]
         },
         {
           "repo": "mishkatik/infra-billing",
