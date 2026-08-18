@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T04:07:08.644519Z",
+  "generated_at": "2026-08-18T04:12:23.916912Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-17T12:43:54Z",
+            "pushed_at": "2026-08-18T04:09:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1847,6 +1847,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7b12d68",
+                  "message": "transmission: rebuild against the versioned libdht",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T04:09:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/7b12d68dd352028f8d3c5f09ba159322de74aaeb"
+                },
+                {
+                  "sha": "502da45",
+                  "message": "libdht: give the shared library a soname",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T04:09:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/502da457ccb6201dafaf666a5822f5b001c9eea4"
+                },
+                {
                   "sha": "77879de",
                   "message": "librespeed-cli: update to 1.0.14",
                   "author": "Josef Schlehofer",
@@ -2041,20 +2055,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-11T12:35:02Z",
                   "url": "https://github.com/openwrt/packages/commit/ab72eb7c76cdf84da9d6ccba2236b4b338389f7b"
-                },
-                {
-                  "sha": "70c1d61",
-                  "message": "bird2: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:35:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/70c1d615ae146c2d4de516dfbeda14540f59c569"
-                },
-                {
-                  "sha": "f61a21e",
-                  "message": "librespeed-cli: update to 1.0.13",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:02:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/f61a21e47213cda66781d49e77c832a16b49ad5d"
                 }
               ]
             },
