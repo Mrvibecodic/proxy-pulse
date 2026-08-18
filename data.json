@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:01:35.310513Z",
+  "generated_at": "2026-08-18T09:06:50.579214Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37092,
+            "stars": 37093,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-17T09:46:55Z",
@@ -977,227 +977,12 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T08:13:39Z",
+            "pushed_at": "2026-08-18T09:05:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
           },
           "branches": [
-            {
-              "name": "copilot/fix-gpgme-build-error",
-              "commits": [
-                {
-                  "sha": "4e207be",
-                  "message": "gpgme: fix build error with newer ln (double -sf flag)",
-                  "author": "copilot-swe-agent[bot]",
-                  "date": "2026-05-01T21:39:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/4e207bea4a691c54300dcd53bc29ac88d8025c85"
-                },
-                {
-                  "sha": "e6b5141",
-                  "message": "adguardhome: added ujail dependency",
-                  "author": "Alexander Krause",
-                  "date": "2026-05-01T18:06:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/e6b5141c7ea68f85b47abfd4904e0262782d43e3"
-                },
-                {
-                  "sha": "543e47f",
-                  "message": "zstd: add test.sh for script wrappers without --version",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/543e47f0a0bcb88e4a4e6cd032e5ce6040ef41a2"
-                },
-                {
-                  "sha": "5b9e2dd",
-                  "message": "dbus: add test.sh for binaries without --version",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/5b9e2dd55ea09b12c79357de68b9e1628d920adb"
-                },
-                {
-                  "sha": "3298822",
-                  "message": "bluez: add test.sh for binaries without --version",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/3298822f8d5deb2c2175cb979b031907a7440b1a"
-                },
-                {
-                  "sha": "07ae454",
-                  "message": "semodule-utils: update to 3.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/07ae454c3f8c09b85de7febb9425b8fc8c4a50dc"
-                },
-                {
-                  "sha": "58942fa",
-                  "message": "selinux-python: update to 3.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/58942fa12708980ac9c5c70db6028791f502241d"
-                },
-                {
-                  "sha": "badbdbe",
-                  "message": "python-semanage: update to 3.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/badbdbef9f22561c7cdaf1c99bca79e7f85be857"
-                },
-                {
-                  "sha": "381e4f4",
-                  "message": "python-selinux: update to 3.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T18:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/381e4f41bade4c4bc710970c8676d966b9bd55e5"
-                },
-                {
-                  "sha": "3f7ff4c",
-                  "message": "ci: relax subject and line length checks",
-                  "author": "George Sapkin",
-                  "date": "2026-05-01T13:13:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/3f7ff4c50cf72113f5ddde0cc40bf8150fa2526b"
-                },
-                {
-                  "sha": "20873ba",
-                  "message": "glib2: split package into separate libraries",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-05-01T04:54:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/20873ba57e0354051eac2e0fce4d7b4dd141b440"
-                },
-                {
-                  "sha": "12d8cda",
-                  "message": "attr: add test.sh to handle version check",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-04-30T17:40:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/12d8cda801cf2d3e1bc91d67501c6a040bbeae6a"
-                },
-                {
-                  "sha": "8238e4d",
-                  "message": "lua-openssl: fix CMake Lua detection in build",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-04-30T14:42:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/8238e4ddfa37ce29ed78997c311eb85eca11eca0"
-                },
-                {
-                  "sha": "e0669cb",
-                  "message": "banip: release 1.8.8-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-04-30T09:37:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/e0669cb1a8950fcdc50d46bf4e2683f3509c1abf"
-                },
-                {
-                  "sha": "459ceca",
-                  "message": "unzip: refresh patches",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-04-29T06:41:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/459ceca6573808f6e8bd36e8f7ba165dcb389efd"
-                },
-                {
-                  "sha": "3b680cc",
-                  "message": "coredns: fix netlink compat for wgsd plugin",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-04-29T03:42:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b680cc1663508e4eb84c721c42723f7d8a6ba02"
-                },
-                {
-                  "sha": "165cdb2",
-                  "message": "syslog-ng: update to version 4.11.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-04-28T21:13:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/165cdb2d3e80f341cfb89a28b7293fb7fde5558a"
-                },
-                {
-                  "sha": "fee669b",
-                  "message": "python3-ubus: update to 0.1.3",
-                  "author": "Erik Larsson",
-                  "date": "2026-04-28T21:12:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/fee669b6d4fa2e8011f5edc2790570ef3f418012"
-                },
-                {
-                  "sha": "bf50291",
-                  "message": "prosody: fix PKG_HASH for 0.12.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-04-28T21:10:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/bf50291ab1ec811352c547c701ec79eaea391f8a"
-                },
-                {
-                  "sha": "523c395",
-                  "message": "banip: release 1.8.7-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-04-28T18:01:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/523c395b17365f90759912f02526197b1f2d3b70"
-                },
-                {
-                  "sha": "ba381ab",
-                  "message": "mdio-netlink: update to Git HEAD (2026-04-14)",
-                  "author": "Robert Marko",
-                  "date": "2026-04-28T15:32:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/ba381ab5ff6a6a5040b0287f7ce62c428e7c99b9"
-                },
-                {
-                  "sha": "49a852f",
-                  "message": "snort3: update to 3.12.2.0",
-                  "author": "John Audia",
-                  "date": "2026-04-28T06:26:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/49a852ff9d51c33d017dd674704d0020c9238411"
-                },
-                {
-                  "sha": "ebb3665",
-                  "message": "zoneinfo: updated to 2026b release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-04-28T05:15:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/ebb3665d7499597a58f6df454d00b1616e9cd4e0"
-                },
-                {
-                  "sha": "2482fdd",
-                  "message": "keepalived: bump PKG_RELEASE to 3",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/2482fdd481529ae949b0611418c65029904fdce8"
-                },
-                {
-                  "sha": "0fc6a40",
-                  "message": "keepalived: update config for option track_script",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/0fc6a409c2196b86702111079669ee02d53a555c"
-                },
-                {
-                  "sha": "3fb01d6",
-                  "message": "keepalived: remove config section track_script",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/3fb01d67c73f4914ac3f9f3825da8e69f0e92fa2"
-                },
-                {
-                  "sha": "09143ea",
-                  "message": "keepalived: update config for vrrp_script section",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/09143ea2b26c7236eb66d87dcb4fe9dab72877f1"
-                },
-                {
-                  "sha": "777925d",
-                  "message": "keepalived: add option track_bfd in vrrp_instance",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/777925d4237e13d0568cecec0faf0bc38e15f94b"
-                },
-                {
-                  "sha": "7673eab",
-                  "message": "keepalived: add config for section peer",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/7673eab5651a6ab2e8a0132e0fe986d1097e8961"
-                },
-                {
-                  "sha": "b3a0f57",
-                  "message": "keepalived: add config for bfd_instance",
-                  "author": "Rishabh",
-                  "date": "2026-04-27T12:28:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/b3a0f57c4f9997cb62cfc69451d83fe8d01e4a87"
-                }
-              ]
-            },
             {
               "name": "for-14.07",
               "commits": [
@@ -1847,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "85f2da3",
+                  "message": "opennds: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T09:02:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/85f2da32984509bd6556123477ac4bb7a7b0cac3"
+                },
+                {
                   "sha": "7105157",
                   "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
                   "author": "Josef Schlehofer",
@@ -2048,13 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-13T21:21:19Z",
                   "url": "https://github.com/openwrt/packages/commit/d52765005c75b829ae3b75ee27ac79e8da847723"
-                },
-                {
-                  "sha": "f33d1d1",
-                  "message": "olsrd: initialize the LQ multiplier list pointer in the ubus handler",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/f33d1d1f1ff6df97f92288bb8dd466ea6381c37e"
                 }
               ]
             },
@@ -4914,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "721ba22",
-            "branch": "bogdan/default-grid-auto",
-            "date": "2026-08-18T08:40:26Z",
-            "url": "https://github.com/grafana/grafana/commit/721ba223f2d5b6ee66641adb8e635ef06e834da2"
+            "sha": "d0527a7",
+            "branch": "main",
+            "date": "2026-08-18T08:35:27Z",
+            "url": "https://github.com/grafana/grafana/commit/d0527a71a0619dc895620362a3f1e829ce8b65bc"
           }
         },
         {
@@ -4929,7 +4714,7 @@
             "stars": 65709,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T08:49:40Z",
+            "pushed_at": "2026-08-18T09:04:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4982,10 +4767,10 @@
             }
           ],
           "last_commit": {
-            "sha": "17cf393",
-            "branch": "main",
-            "date": "2026-08-18T08:15:03Z",
-            "url": "https://github.com/prometheus/prometheus/commit/17cf3936af0c7fee796e473c1a31e9106b7f6443"
+            "sha": "e5afe15",
+            "branch": "krajo/rw1-receiver-appenderv2",
+            "date": "2026-08-18T09:04:09Z",
+            "url": "https://github.com/prometheus/prometheus/commit/e5afe15a44f4aee8064391ed562487f3eedc12e3"
           }
         },
         {
