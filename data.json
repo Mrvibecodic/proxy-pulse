@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:46:56.081713Z",
+  "generated_at": "2026-08-18T10:52:11.356002Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33319,
+            "stars": 33320,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -4507,7 +4507,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90281,
+            "stars": 90282,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-18T08:58:29Z",
@@ -4767,10 +4767,10 @@
             }
           ],
           "last_commit": {
-            "sha": "adc2605",
-            "branch": "main",
-            "date": "2026-08-18T10:03:10Z",
-            "url": "https://github.com/prometheus/prometheus/commit/adc2605d29d363d43144fb1c6b73252e58fe1978"
+            "sha": "3bae123",
+            "branch": "krajo/rw1-receiver-appenderv2",
+            "date": "2026-08-18T09:57:35Z",
+            "url": "https://github.com/prometheus/prometheus/commit/3bae1232b213e058f14b01848a3efced47e6a4c1"
           }
         },
         {
@@ -5138,12 +5138,21 @@
             "stars": 3271,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T10:46:45Z",
+            "pushed_at": "2026-08-18T10:51:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.20.0",
+              "tag": "v3.20.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.20.0",
+              "published_at": "2026-08-18T10:50:34Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.20.0](https://github.com/Zephyruso/zashboard/compare/v3.19.0...v3.20.0) (2026-08-18)\n\n\n### Features\n\n* add resolveClientHostname setting and implement reverse DNS lookup functionality ([5abb091](https://github.com/Zephyruso/zashboard/commit/5abb09106319fd577d393db07d132fd3c161b107))\n* add Taildrop functionality for file sending and receiving ([cd194c3](https://github.com/Zephyruso/zashboard/commit/cd194c3058adf0db11f417bf9b7ce75eaa60444b))\n* enhance backend reachability and connection diagnostics ([43e471f](https://github.com/Zephyruso/zashboard/commit/43e471f751d2b826025c475123d9b1961bf677ea))\n* enhance BackendSwitch component with compact mode and status indicator ([19c86ef](https://github.com/Zephyruso/zashboard/commit/19c86ef04b13bf42acdecbdd8670076ba990028c))\n* enhance BackendSwitchToast with improved status display and retry functionality ([d87a204](https://github.com/Zephyruso/zashboard/commit/d87a20475f915e289a9bcdcf70b2daa6e3729825))\n* enhance protocol handling in query parameters and update UI components for consistency ([0d045d3](https://github.com/Zephyruso/zashboard/commit/0d045d30c9ed9744b0528d1158ffee7f9628cf29))\n* implement app toast notifications with animations and styles ([0287fb2](https://github.com/Zephyruso/zashboard/commit/0287fb232bf3e8f047e232679877e5fce81b98b2))\n* implement backend session management and connectivity notifications ([ba8bbf2](https://github.com/Zephyruso/zashboard/commit/ba8bbf2df148fefd81b3498c67762ecbfbdee681))\n* Refactor backend management and settings UI ([dd4b6c0](https://github.com/Zephyruso/zashboard/commit/dd4b6c03f26e9893c50f2e98bae22c51c90b0aa4))\n* replace native select elements with custom SelectInput component across various settings and components ([dc743ce](https://github.com/Zephyruso/zashboard/commit/dc743ce24cfbdfdf61bf7fad9ce9c7c40230950a))\n* replace tab navigation with SegmentedControl for improved user experience ([9eaa523](https://github.com/Zephyruso/zashboard/commit/9eaa523d78dd14ed3926ca5c7f4dca56480ed770))\n* replace useStorage imports from vueuse with custom implementation for better default handling ([3544c14](https://github.com/Zephyruso/zashboard/commit/3544c14759e4881d1582e2dbc52c28001fa14947))\n* update color scheme and improve chart themes for better visibility ([e23fd12](https://github.com/Zephyruso/zashboard/commit/e23fd124b5e05af134db0a9213d2901a9018ec5f))\n* update ProxyPreview component styles for improved visual consistency ([22da30d](https://github.com/Zephyruso/zashboard/commit/22da30db355e1ac4712de778b5c54fe56b480cc3))\n\n\n### Bug Fixes\n\n* enhance latency testing by adding group name support and improving history tracking ([57e3460](https://github.com/Zephyruso/zashboard/commit/57e3460f59c3aa6584a46938aba1ef731cc69b02))\n* filter out non-latency testable proxies in allProxiesLatencyTest ([2111ee1](https://github.com/Zephyruso/zashboard/commit/2111ee13f3875eef591de0168361e3c9580b1691))\n* process reader for sing-box API ([3eb8dac](https://github.com/Zephyruso/zashboard/commit/3eb8dac7ef603342844b98e7cf784a0f0ca838d2))\n* update ProxiesContent and ProxyProvider components to handle optional name prop and improve event handling ([677fd5c](https://github.com/Zephyruso/zashboard/commit/677fd5c692be5c91d213b0662abfc8f45834c176))"
+            },
             {
               "name": "v3.19.0",
               "tag": "v3.19.0",
@@ -5179,22 +5188,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.16.1](https://github.com/Zephyruso/zashboard/compare/v3.16.0...v3.16.1) (2026-07-31)\n\n\n### Bug Fixes\n\n* prevent clear button from submitting the enclosing form ([0fb5daf](https://github.com/Zephyruso/zashboard/commit/0fb5daf369f0c61d0bb41e989b6c8a08904f5e3c)), closes [#591](https://github.com/Zephyruso/zashboard/issues/591)\n* **singbox:** test individual outbound from proxy card ([b4fc4fa](https://github.com/Zephyruso/zashboard/commit/b4fc4fabe7141ee3424e3575b4ef772bf8bbfd7d))\n* **singbox:** wait for pushed latency results ([51d3327](https://github.com/Zephyruso/zashboard/commit/51d3327714478dce8a9c08c1ef5f79b96178a751))\n* update sing-box icon ([29e2516](https://github.com/Zephyruso/zashboard/commit/29e251637f4d76db7141dedb9da938bb244cd824))"
-            },
-            {
-              "name": "v3.16.0",
-              "tag": "v3.16.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.16.0",
-              "published_at": "2026-07-24T03:33:43Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.16.0](https://github.com/Zephyruso/zashboard/compare/v3.15.0...v3.16.0) (2026-07-22)\n\n\n### Features\n\n* add \"don't ask again\" option to settings override confirm ([af704c2](https://github.com/Zephyruso/zashboard/commit/af704c211ae611e125c06c2f850a101eafd752f0)), closes [#728](https://github.com/Zephyruso/zashboard/issues/728)\n* align with the upstream sing-box API ([f90e9e7](https://github.com/Zephyruso/zashboard/commit/f90e9e77236af98f7c0d6321f615c83184f1f40f))\n\n\n### Bug Fixes\n\n* stop backend streams when active backend is cleared ([#724](https://github.com/Zephyruso/zashboard/issues/724)) ([6676351](https://github.com/Zephyruso/zashboard/commit/66763518d462326c031561995aed2feb10c09335))\n\n\n### Performance Improvements\n\n* overhaul connections page hot path ([#727](https://github.com/Zephyruso/zashboard/issues/727)) ([d6211f2](https://github.com/Zephyruso/zashboard/commit/d6211f21cf3649909a227963e75bced36d3af9c0))"
             }
           ],
           "last_commit": {
-            "sha": "869430e",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-08-18T10:46:40Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/869430e8d08adb08b80cf43b5fb1790c6cb125a5"
+            "sha": "7c9cd3c",
+            "branch": "gh-pages",
+            "date": "2026-08-18T10:50:36Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/7c9cd3c4f8f704cdb96a035cb4b3b75fe2a19a6e"
           }
         },
         {
