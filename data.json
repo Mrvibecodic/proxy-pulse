@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:43:38.784254Z",
+  "generated_at": "2026-08-18T09:48:54.791259Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33318,
+            "stars": 33319,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -220,12 +220,21 @@
             "stars": 34,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-14T16:31:39Z",
+            "pushed_at": "2026-08-18T09:45:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.21",
+              "tag": "v26.8.21",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.21",
+              "published_at": "2026-08-18T09:45:53Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Torrent traffic detection now works end to end. Routing rules that match `protocol: [\"bittorrent\"]` now cover BitTorrent peer connections (TCP handshake and uTP), Mainline DHT (KRPC), and UDP trackers (BEP 15). Previously only the TCP handshake was detected; the uTP sniffer could never match any packet.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing repaired (correctness).** `SniffUTP` rejected every packet ever sent: its timestamp gate compared the packet's 32-bit monotonic clock value against Unix-epoch microseconds with a 24-hour window expressed in nanoseconds, while deployed stacks (libutp: `CLOCK_MONOTONIC`, libtorrent: `high_resolution_clock` truncated to 32 bits) put monotonic — not epoch — timestamps on the wire. The extension chain was also parsed before the fixed 20-byte header instead of after it per BEP 29, and libtorrent's close-reason extension (id 3) was rejected. Impact: uTP peer traffic from qBittorrent, Transmission, Deluge and other libtorrent/libutp clients — the dominant transport of modern torrent clients — was invisible to bittorrent routing rules.\n- **New: Mainline DHT detection.** KRPC bencode messages (queries, responses, errors) are structurally validated — message kind `y`, transaction id `t`, deployed query names, 20-byte node id in responses, `[code, message]` error lists — and reported as `bittorrent`.\n- **New: UDP tracker detection.** BEP 15 connect requests (protocol id `0x41727101980`), announces on cached connection ids (98 bytes, event and port sanity), and scrapes are reported as `bittorrent`.\n- **False-positive hardening.** WireGuard handshake initiations (`01 00 00 00` + key material), which pass every structural uTP check, are now rejected deterministically. The corpus verifies DNS, NTP, QUIC, WireGuard and random datagrams are not classified as torrents.\n\n## Upstream changes\n\n- None since v26.8.20: upstream/main is fully contained in this release; this version ships fork-only detection fixes.\n\n## Compatibility notes\n\n- No wire or protocol behavior changed; the sniffing improvements only affect sniffing-based routing. Rules using `sniffing` with `destOverride: [\"bittorrent\"]` or routing condition `protocol: [\"bittorrent\"]` now additionally match uTP, DHT and UDP tracker flows. Operators with rules that route or block by that condition should review the wider coverage.\n- Known limits: HTTP(S) tracker traffic is still sniffed as `http`/`tls` (domain routing preserved); a uTP session whose SYN carries connection id 0 (about 1 in 65536 sessions in deployed stacks) falls through the WireGuard-shaped guard.\n\n## Validation\n\n- Wire-format corpus built from the libutp and libtorrent (RC_2_0) sources: 108 subtests green, covering TCP handshakes of six client families, every uTP packet type with SACK and close-reason extension chains, every KRPC message kind (including BEP 44 mutable puts), and tracker requests; the false-positive corpus covers DNS, NTP, WireGuard, QUIC and random datagrams.\n- `go build ./...`, `go vet`, unit tests `-count=1`, and `-race` on changed packages green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `f6943625d8b12fe89e7587c58e0b4f571cb0193f1ef229bfd84fef67d2d5e6fb`.\n"
+            },
             {
               "name": "Xray-core v26.8.20",
               "tag": "v26.8.20",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
-            },
-            {
-              "name": "Xray-core v26.8.16",
-              "tag": "v26.8.16",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.16",
-              "published_at": "2026-08-12T20:52:10Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n- Replaces connection-context IP tracking with structural online-presence ownership.\n- Tracks direct sessions, SMUX/H2MUX streams, legacy Mux, XUDP attachments, reverse RVS slots, and authenticated WireGuard flows independently from carrier lifetime.\n- Atomically hands presence between trusted physical IPs on XUDP rebind and WireGuard roaming.\n- Preserves server-observed peer provenance across PROXY, TLS, REALITY, HTTP, and QUIC transports.\n- Removes the package-global XUDP manager and adds generation-safe lifecycle cleanup.\n\n## Reliability\n- Adds race/checkptr lifecycle coverage, critical interleaving stress, WireGuard authenticated interop and StatsService assertions, and complete Linux build-matrix validation.\n- Preserves reverse RVS continuity while a draining carrier is replaced.\n\nConfiguration and wire formats remain compatible with v26.8.15. Roll back by replacing the binary with v26.8.15; no configuration migration is required."
             }
           ],
           "last_commit": {
@@ -762,7 +762,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6780,
+            "stars": 6781,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-17T22:37:01Z",
@@ -4507,7 +4507,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90275,
+            "stars": 90276,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-18T08:58:29Z",
@@ -4646,7 +4646,7 @@
             "stars": 76265,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T09:37:42Z",
+            "pushed_at": "2026-08-18T09:48:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ca4ae87",
-            "branch": "serge/fix-v17-maxperrow-overflow",
-            "date": "2026-08-18T08:59:01Z",
-            "url": "https://github.com/grafana/grafana/commit/ca4ae87f237816f31ace16388f768cb703f57c90"
+            "sha": "dfa18e0",
+            "branch": "main",
+            "date": "2026-08-18T09:48:22Z",
+            "url": "https://github.com/grafana/grafana/commit/dfa18e0d6bfdc6e3b9b00f76d092bb5c975230e4"
           }
         },
         {
