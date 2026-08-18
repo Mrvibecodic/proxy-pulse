@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T12:58:19.848662Z",
+  "generated_at": "2026-08-18T13:03:35.105173Z",
   "groups": [
     {
       "id": "cores",
@@ -833,7 +833,7 @@
             "stars": 33,
             "url": "https://github.com/flowvy-proxy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T06:54:54Z",
+            "pushed_at": "2026-08-18T12:58:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy-proxy"
@@ -886,10 +886,10 @@
             }
           ],
           "last_commit": {
-            "sha": "82b74a0",
+            "sha": "57dfe0c",
             "branch": "badges",
-            "date": "2026-08-18T06:54:55Z",
-            "url": "https://github.com/flowvy-proxy/desktop/commit/82b74a039172cac558014286d029d3b5a93c767f"
+            "date": "2026-08-18T12:58:24Z",
+            "url": "https://github.com/flowvy-proxy/desktop/commit/57dfe0cfe753abc5ee66b7eae7c4be2ed772bee1"
           }
         }
       ]
@@ -909,7 +909,7 @@
             "stars": 28026,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T12:57:53Z",
+            "pushed_at": "2026-08-18T12:59:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -962,10 +962,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4a5c6b9",
-            "branch": "openwrt-25.12",
-            "date": "2026-08-18T09:09:06Z",
-            "url": "https://github.com/openwrt/openwrt/commit/4a5c6b90d21522d2663ce2718c973f9e845f2119"
+            "sha": "48ce7fb",
+            "branch": "main",
+            "date": "2026-08-18T12:58:55Z",
+            "url": "https://github.com/openwrt/openwrt/commit/48ce7fbdbdc18ba627f73aaffe9d1cba841f49ba"
           }
         },
         {
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T09:18:07Z",
+            "pushed_at": "2026-08-18T13:00:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "397c291",
+                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T13:00:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/397c29176b12908cc3e16c3ce0612a6441a9b00c"
+                },
+                {
                   "sha": "7bc6592",
                   "message": "openzwave: rename version check test.sh to test-version.sh",
                   "author": "Josef Schlehofer",
@@ -1833,13 +1840,6 @@
                   "author": "George Sapkin",
                   "date": "2026-08-14T12:36:45Z",
                   "url": "https://github.com/openwrt/packages/commit/ae3874f304d85d8978422f8e466105b9bebf2e7f"
-                },
-                {
-                  "sha": "3734909",
-                  "message": "btrfs-progs: remove no-mold flag as it builds fine with mold 2.42.0",
-                  "author": "Carsten Schuette",
-                  "date": "2026-08-14T12:05:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/37349095beac4157e0d340de80f888ceeb6652ef"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76290,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T12:52:41Z",
+            "pushed_at": "2026-08-18T13:03:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4660,6 +4660,15 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.0)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Features and enhancements\n\n- **Alerting:** Add Import tab in alerting settings page [#129051](https://github.com/grafana/grafana/pull/129051), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add notification template import to the import-to-GMA wizard [#128329](https://github.com/grafana/grafana/pull/128329), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add promote and auto sync to ImportToGMAWizard [#126907](https://github.com/grafana/grafana/pull/126907), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add staged configuration summary in import settings page [#129204](https://github.com/grafana/grafana/pull/129204), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Compute staged config origin server-side [#130727](https://github.com/grafana/grafana/pull/130727), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Migrate notifications API to v1beta1 [#124702](https://github.com/grafana/grafana/pull/124702), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Recognize \"default\" and \"user-defined\" as the default routing tree (1/4) [#127880](https://github.com/grafana/grafana/pull/127880), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Recognize \"default\" and \"user-defined\" as the default routing tree (2/4) [#127881](https://github.com/grafana/grafana/pull/127881), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Recognize \"default\" and \"user-defined\" as the default routing tree (3/4) [#127883](https://github.com/grafana/grafana/pull/127883), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Recognize \"default\" and \"user-defined\" as the default routing tree (4/4) [#127884](https://github.com/grafana/grafana/pull/127884), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Return 403 instead of 500 on contact point provenance mismatch [#127699](https://github.com/grafana/grafana/pull/127699), [@rwwiv](https://github.com/rwwiv)\n- **Alerting:** Revert a staged import configuration [#129243](https://github.com/grafana/grafana/pull/129243), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Show unusable time intervals as disabled in the mute timings selector [#130323](https://github.com/grafana/grafana/pull/130323), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Track import method analytics in import to gma [#128142](https://github.com/grafana/grafana/pull/128142), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** remove AlertingCentralHistory FT [#130164](https://github.com/grafana/grafana/pull/130164), [@konstantinmv](https://github.com/konstantinmv)\n- **Analytics:** Add public dashboard UID to loki usage insights events (Enterprise)\n- **Auditing:** Record the user name on user deletion audit logs (Enterprise)\n- **Azure Monitor:** Cache subscription lookups and collapse double Unmarshal in buildQuery [#123556](https://github.com/grafana/grafana/pull/123556), [@adamyeats](https://github.com/adamyeats)\n- **Azure monitor:** Azure Metrics Batch API Implementation backend [#123696](https://github.com/grafana/grafana/pull/123696), [@bossinc](https://github.com/bossinc)\n- **CloudWatch Logs:** Add frontend support for querying by data source [#123742](https://github.com/grafana/grafana/pull/123742), [@kevinwcyu](https://github.com/kevinwcyu)\n- **ColorScale:** Remove live hoverValue, remove from HeatMap tooltip [#128812](https://github.com/grafana/grafana/pull/128812), [@leeoniya](https://github.com/leeoniya)\n- **DashList:** Show dashboard description tooltip when it's available [#130006](https://github.com/grafana/grafana/pull/130006), [@DeeGeeGit](https://github.com/DeeGeeGit)\n- **Dashboard:** redirect from dashboard settings tabs to sidebar counterparts [#125966](https://github.com/grafana/grafana/pull/125966), [@bfmatei](https://github.com/bfmatei)\n- **Dashboards:** Allow threshold interpolation [#128451](https://github.com/grafana/grafana/pull/128451), [@mdvictor](https://github.com/mdvictor)\n- **Dashboards:** Deprecate scripted dashboards and disable them by default [#130207](https://github.com/grafana/grafana/pull/130207), [@kristinademeshchik](https://github.com/kristinademeshchik)\n- **Dashboards:** Enable new view panel controls by default [#129187](https://github.com/grafana/grafana/pull/129187), [@torkelo](https://github.com/torkelo)\n- **Dashboards:** Increase nesting depth to 4 and allow nested tabs [#129174](https://github.com/grafana/grafana/pull/129174), [@bfmatei](https://github.com/bfmatei)\n- **Dashboards:** Show panel query errors and notices in one UI [#127436](https://github.com/grafana/grafana/pull/127436), [@mdvictor](https://github.com/mdvictor)\n- **Developer Guide:** Add note about requiring signed commits [#127162](https://github.com/grafana/grafana/pull/127162), [@gelicia](https://github.com/gelicia)\n- **Docs:** document the tracing file exporter [#129339](https://github.com/grafana/grafana/pull/129339), [@leandro-deveikis](https://github.com/leandro-deveikis)\n- **Explore Logs:** log line highlight color lighten in dark, update deprecated pinned color [#130516](https://github.com/grafana/grafana/pull/130516), [@L2D2Grafana](https://github.com/L2D2Grafana)\n- **Folder API:** Replace legacy access control logic with app platform API call [#125642](https://github.com/grafana/grafana/pull/125642), [@aocenas](https://github.com/aocenas)\n- **Go:** Update version to 1.26.5 [#128011](https://github.com/grafana/grafana/pull/128011), [@macabu](https://github.com/macabu)\n- **GrafanaUI:** Add real magnification effect to GrotNotFound lens [#130118](https://github.com/grafana/grafana/pull/130118), [@xndcn](https://github.com/xndcn)\n- **Home:** Enable unified homepage for all users (remove flag) [#129054](https://github.com/grafana/grafana/pull/129054), [@MattIPv4](https://github.com/MattIPv4)\n- **Live:** Support redis:// and rediss:// (TLS) connection URLs in ha_engine_address [#129938](https://github.com/grafana/grafana/pull/129938), [@DeeGeeGit](https://github.com/DeeGeeGit)\n- **Logs:** Add more suggested fields and integrate with the new Logs Table [#128002](https://github.com/grafana/grafana/pull/128002), [@matyax](https://github.com/matyax)\n- **Logs:** use gray (dimgray) for debug level color [#129896](https://github.com/grafana/grafana/pull/129896), [@L2D2Grafana](https://github.com/L2D2Grafana)\n- **Plugins:** Force TLS 1.3 feature toggle [#130390](https://github.com/grafana/grafana/pull/130390), [@aangelisc](https://github.com/aangelisc)\n- **Provisioning (enterprise):** (4/8) Add OAuth app connections for GitLab and Bitbucket (Enterprise)\n- **Provisioning:** Add Dashboard Previews to GitHub Enterprise [#127614](https://github.com/grafana/grafana/pull/127614), [@floriecai](https://github.com/floriecai)\n- **Provisioning:** Add Github Enterprise frontend [#127209](https://github.com/grafana/grafana/pull/127209), [@floriecai](https://github.com/floriecai)\n- **Provisioning:** Add filter for out-of-sync resources in Resources tab [#128456](https://github.com/grafana/grafana/pull/128456), [@MissingRoberto](https://github.com/MissingRoberto)\n- **Provisioning:** Add option to author commits as the signer [#127970](https://github.com/grafana/grafana/pull/127970), [@amalavet](https://github.com/amalavet)\n- **Provisioning:** Add resource kind icons to job summary table [#127237](https://github.com/grafana/grafana/pull/127237), [@MissingRoberto](https://github.com/MissingRoberto)\n- **Provisioning:** Add webhook support for GithubEnterprise (Enterprise)\n- **Provisioning:** Allow overriding the Git Sync commit author [#130547](https://github.com/grafana/grafana/pull/130547), [@amalavet](https://github.com/amalavet)\n- **Provisioning:** Attribute jobs to their author and origin [#128819](https://github.com/grafana/grafana/pull/128819), [@amalavet](https://github"
+            },
+            {
+              "name": "13.1.4",
+              "tag": "v13.1.4",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.4",
+              "published_at": "2026-08-18T13:02:28Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.4)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Bug fixes\n\n- **Reporting:** batch dashboard lookups when listing reports (Enterprise)"
             },
             {
               "name": "13.1.3",
@@ -4687,22 +4696,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.4.8)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
-            },
-            {
-              "name": "13.1.2",
-              "tag": "v13.1.2",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.2",
-              "published_at": "2026-08-04T13:47:13Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.2)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Bug fixes\n\n- **Logs Table:** Fix missing results when logs stream [#128946](https://github.com/grafana/grafana/pull/128946), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Logs Table:** Fix mixed usage of field name and display name [#128698](https://github.com/grafana/grafana/pull/128698), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Security**: Fix CVE-2026-13438"
             }
           ],
           "last_commit": {
-            "sha": "885e2c5",
-            "branch": "changelog/update-changelog-2026-08-18",
-            "date": "2026-08-18T12:09:53Z",
-            "url": "https://github.com/grafana/grafana/commit/885e2c51664351fa2b1b188d076ad1d5ebabf3ca"
+            "sha": "3961bc1",
+            "branch": "main",
+            "date": "2026-08-18T12:03:13Z",
+            "url": "https://github.com/grafana/grafana/commit/3961bc1337e168549881553579d84c2c01f7ace1"
           }
         },
         {
