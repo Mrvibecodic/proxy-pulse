@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T18:45:54.017116Z",
+  "generated_at": "2026-08-18T18:51:10.149554Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33332,
+            "stars": 33333,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -833,7 +833,7 @@
             "stars": 33,
             "url": "https://github.com/flowvy-proxy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T12:58:24Z",
+            "pushed_at": "2026-08-18T18:48:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy-proxy"
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T17:14:08Z",
+            "pushed_at": "2026-08-18T18:50:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "94deb2a",
+                  "message": "travelmate: release 2.4.8-1",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-18T18:49:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/94deb2a1a9cb5ae61c42f017ba2838e9bd8ae96b"
+                },
+                {
                   "sha": "5ff48e8",
                   "message": "nodogsplash: minor cleanup",
                   "author": "Moritz Warning",
@@ -1833,13 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-16T06:15:03Z",
                   "url": "https://github.com/openwrt/packages/commit/388c3b6ad460779406989575711686f81f17f332"
-                },
-                {
-                  "sha": "9ea0d00",
-                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-16T06:13:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ea0d00d9315bea357d5f359606c8af5dbaa92b9"
                 }
               ]
             },
@@ -3137,6 +3137,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "f645601",
+                  "message": "travelmate: release 2.4.8-1",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-18T18:50:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/f645601dfe7d93ae308fcc6318920b0be7c9def5"
+                },
+                {
                   "sha": "890f799",
                   "message": "syslog-ng: update to version 4.12.0",
                   "author": "Josef Schlehofer",
@@ -3338,13 +3345,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-11T06:19:02Z",
                   "url": "https://github.com/openwrt/packages/commit/5b3f98094d0a6f2db5ddd7b076a155fe134a1cc6"
-                },
-                {
-                  "sha": "5bae464",
-                  "message": "radicale3: bump version to v3.7.7",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-11T06:19:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/5bae464e3ca89d683fa125027676a49630863239"
                 }
               ]
             }
@@ -4575,7 +4575,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24370,
+            "stars": 24371,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-18T17:53:07Z",
@@ -4646,7 +4646,7 @@
             "stars": 76293,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T18:44:49Z",
+            "pushed_at": "2026-08-18T18:50:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b25ce49",
-            "branch": "jotasolano/table-ad-hoc-prototypes",
-            "date": "2026-08-18T16:37:13Z",
-            "url": "https://github.com/grafana/grafana/commit/b25ce4922af2f3752e57cf618713918b370d9981"
+            "sha": "58e301f",
+            "branch": "haris/remove-old-dash-exporter",
+            "date": "2026-08-18T18:49:40Z",
+            "url": "https://github.com/grafana/grafana/commit/58e301f8158a732e74cc1db770c3927f01ff1a72"
           }
         },
         {
