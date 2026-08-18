@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:39:29.284077Z",
+  "generated_at": "2026-08-18T06:44:43.398278Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T06:39:25Z",
+            "pushed_at": "2026-08-18T06:40:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1847,6 +1847,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "cf71e9d",
+                  "message": "mesh11sd: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:40:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/cf71e9d2b3fc79937e039c66c64cd7a4ed5a6097"
+                },
+                {
                   "sha": "2312f86",
                   "message": "alfred: handle unreadable files in bat-hosts.lua",
                   "author": "Josef Schlehofer",
@@ -2048,13 +2055,6 @@
                   "author": "John Audia",
                   "date": "2026-08-13T12:09:35Z",
                   "url": "https://github.com/openwrt/packages/commit/08e009c9b4e65d3e9626f1eabc7936a4e0ad7b4a"
-                },
-                {
-                  "sha": "9587521",
-                  "message": "librespeed-cli-rust: update to 0.1.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-12T13:03:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/95875218de25e6340251910a8c996e5a811c69b8"
                 }
               ]
             },
@@ -4861,7 +4861,7 @@
             "stars": 76261,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T06:29:04Z",
+            "pushed_at": "2026-08-18T06:39:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4914,10 +4914,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb3cc39",
-            "branch": "simple-ofrep-server",
-            "date": "2026-08-18T06:29:05Z",
-            "url": "https://github.com/grafana/grafana/commit/eb3cc39cfcc06734c4131d41cdfd8343547cd2bd"
+            "sha": "41f59b4",
+            "branch": "alerting/discover-prom-plugin",
+            "date": "2026-08-18T06:39:52Z",
+            "url": "https://github.com/grafana/grafana/commit/41f59b4757879c6f5f9355fe4a7d83292d70bf77"
           }
         },
         {
@@ -4926,7 +4926,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65705,
+            "stars": 65706,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-17T15:42:27Z",
