@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:22:41.795632Z",
+  "generated_at": "2026-08-18T14:27:58.151397Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T13:00:51Z",
+            "pushed_at": "2026-08-18T14:25:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b11f5f2",
+                  "message": "comrade: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T14:25:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/b11f5f2495c8a8eba49b8db27b43eefb42b0c76c"
+                },
+                {
+                  "sha": "5865a8c",
+                  "message": "monocypher: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T14:25:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/5865a8cad3ffe71f1122399a983655b8079b1924"
+                },
+                {
+                  "sha": "8fcb108",
+                  "message": "kcp: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T14:25:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/8fcb1083a9472504e100092532c1ddcae5d195a6"
+                },
+                {
+                  "sha": "cacb362",
+                  "message": "libjuice: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-18T14:25:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/cacb362ff0948ef36119d944407ecf460cebf9a1"
+                },
+                {
                   "sha": "397c291",
                   "message": "syslog-ng: install the configuration with INSTALL_CONF",
                   "author": "Josef Schlehofer",
@@ -1812,34 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-15T21:31:16Z",
                   "url": "https://github.com/openwrt/packages/commit/b8dc6c707750dc2fa26afef1aa71b20d2a89f775"
-                },
-                {
-                  "sha": "dcde8f0",
-                  "message": "nodogsplash: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T21:31:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcde8f02705e98a1f43ed386a2615a36b8ac120f"
-                },
-                {
-                  "sha": "578758e",
-                  "message": "luajit2: update to 2026-07-31",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T10:26:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/578758e1f6788f4f28b8e3a160a375030f45851f"
-                },
-                {
-                  "sha": "a6b248d",
-                  "message": "luajit2: fix build and runtime on powerpc",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T09:29:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/a6b248d6b808710c325f1295773baf7b242123b7"
-                },
-                {
-                  "sha": "ae3874f",
-                  "message": "golang: bump 1.26 to 1.26.6",
-                  "author": "George Sapkin",
-                  "date": "2026-08-14T12:36:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/ae3874f304d85d8978422f8e466105b9bebf2e7f"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76290,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T14:20:39Z",
+            "pushed_at": "2026-08-18T14:27:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88f453d",
-            "branch": "main",
-            "date": "2026-08-18T12:59:59Z",
-            "url": "https://github.com/grafana/grafana/commit/88f453d2134b08ef0930b4132cbc9c20b118750d"
+            "sha": "bcdd639",
+            "branch": "release-13.0.7",
+            "date": "2026-08-18T14:06:17Z",
+            "url": "https://github.com/grafana/grafana/commit/bcdd63933d1d12d9335bccc2e32431f532d0aa2e"
           }
         },
         {
