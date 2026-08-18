@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:06:51.977557Z",
+  "generated_at": "2026-08-18T14:12:08.572628Z",
   "groups": [
     {
       "id": "cores",
@@ -3492,7 +3492,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16025,
+            "stars": 16024,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4578,7 +4578,7 @@
             "stars": 24361,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T14:01:29Z",
+            "pushed_at": "2026-08-18T14:10:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4646,7 +4646,7 @@
             "stars": 76289,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T14:06:19Z",
+            "pushed_at": "2026-08-18T14:10:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4671,6 +4671,24 @@
               "body": "[Download page](https://grafana.com/grafana/download/13.1.4)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Bug fixes\n\n- **Reporting:** batch dashboard lookups when listing reports (Enterprise)"
             },
             {
+              "name": "13.0.7",
+              "tag": "v13.0.7",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.7",
+              "published_at": "2026-08-18T14:08:57Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.0.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Bug fixes\n\n- **Reporting:** batch dashboard lookups when listing reports (Enterprise)"
+            },
+            {
+              "name": "12.4.9",
+              "tag": "v12.4.9",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.9",
+              "published_at": "2026-08-18T14:08:48Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Features and enhancements\n\n- **Dashboard Import:** Labels in v2 schema [#130428](https://github.com/grafana/grafana/pull/130428), [@harisrozajac](https://github.com/harisrozajac)\n\n### Bug fixes\n\n- **Azure Monitor:** fix migration for dimension filters [#130521](https://github.com/grafana/grafana/pull/130521), [@olivierlemasle](https://github.com/olivierlemasle)"
+            },
+            {
               "name": "12.3.11",
               "tag": "v12.3.11",
               "url": "https://github.com/grafana/grafana/releases/tag/v12.3.11",
@@ -4678,31 +4696,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.3.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183"
-            },
-            {
-              "name": "13.1.3",
-              "tag": "v13.1.3",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.3",
-              "published_at": "2026-08-07T03:03:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.3)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
-            },
-            {
-              "name": "13.0.6",
-              "tag": "v13.0.6",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.6",
-              "published_at": "2026-08-07T03:06:00Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n"
             }
           ],
           "last_commit": {
-            "sha": "272a063",
-            "branch": "nats-async-error-handling",
-            "date": "2026-08-18T13:03:10Z",
-            "url": "https://github.com/grafana/grafana/commit/272a06309cda272622566d2409c5c44db88d42f7"
+            "sha": "93e369f",
+            "branch": "tiehm/grpc-status-codes-in-metric-labels",
+            "date": "2026-08-18T12:38:25Z",
+            "url": "https://github.com/grafana/grafana/commit/93e369f3490d5a4d0d0d62097876f40ca1bf7f80"
           }
         },
         {
@@ -4850,7 +4850,7 @@
             "stars": 17559,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T14:06:59Z",
+            "pushed_at": "2026-08-18T14:09:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5138,7 +5138,7 @@
             "stars": 3273,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T13:38:43Z",
+            "pushed_at": "2026-08-18T14:10:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
