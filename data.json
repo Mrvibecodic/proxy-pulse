@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T17:00:44.763603Z",
+  "generated_at": "2026-08-18T17:05:59.526363Z",
   "groups": [
     {
       "id": "cores",
@@ -963,7 +963,7 @@
           ],
           "last_commit": {
             "sha": "cf198cc",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-08-18T14:57:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/cf198ccb5daf731f3d9f73b0d7786c6d11295384"
           }
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T14:25:48Z",
+            "pushed_at": "2026-08-18T17:03:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f69ab8a",
+                  "message": "adguardhome: bump to 0.107.79",
+                  "author": "George Sapkin",
+                  "date": "2026-08-18T17:03:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/f69ab8aacdb5dee1016ffa53985db41ff2161596"
+                },
+                {
                   "sha": "b11f5f2",
                   "message": "comrade: add package",
                   "author": "Daniel Golle",
@@ -1833,13 +1840,6 @@
                   "author": "dependabot[bot]",
                   "date": "2026-08-16T06:09:57Z",
                   "url": "https://github.com/openwrt/packages/commit/276c62df4530fdce91ac4a407cb722e86bcf6357"
-                },
-                {
-                  "sha": "b8dc6c7",
-                  "message": "nodogsplash: fix config generation in the init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T21:31:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/b8dc6c707750dc2fa26afef1aa71b20d2a89f775"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76293,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T17:00:50Z",
+            "pushed_at": "2026-08-18T17:03:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "af6e790",
-            "branch": "main",
-            "date": "2026-08-18T16:59:38Z",
-            "url": "https://github.com/grafana/grafana/commit/af6e7902970afb6ce93d8f516d1ed608663bf6cd"
+            "sha": "8490142",
+            "branch": "rodrigopk/import-wizard-autosync-step1",
+            "date": "2026-08-18T17:01:58Z",
+            "url": "https://github.com/grafana/grafana/commit/849014243e5323cb5f602a58f145d19609880d33"
           }
         },
         {
@@ -4711,7 +4711,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65738,
+            "stars": 65739,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-18T14:39:30Z",
