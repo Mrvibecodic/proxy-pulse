@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:52:11.393086Z",
+  "generated_at": "2026-08-18T15:57:26.485086Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33327,
+            "stars": 33328,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -220,12 +220,21 @@
             "stars": 34,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T09:45:29Z",
+            "pushed_at": "2026-08-18T15:55:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.22",
+              "tag": "v26.8.22",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.22",
+              "published_at": "2026-08-18T15:56:11Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- BitTorrent protocol detection no longer misfires on DNS: a query whose transaction id collides with the uTP header shape was routed to bittorrent rules roughly once per 13000 queries, intermittently breaking name resolution for proxied clients. This release is recommended for every deployment using routing rules on `protocol: [\"bittorrent\"]`, especially with automatic user enforcement (webhooks/panels).\n- New end-to-end process gate locks in the torrent detection behavior: a real Xray process must block uTP, DHT, UDP tracker and TCP handshake probes through SOCKS while DNS and plain UDP/TCP controls pass.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing no longer classifies DNS queries (false positive, production-verified).** A DNS query with transaction id 0x0100/0x1100/0x2100/0x3100/0x4100 passes the uTP type/version, extension and connection-id checks: the id reads as a valid type/version pair, the query flags 0x0100 read as a non-zero connection id, and no extension chain exists to validate. A production deployment observed 42 DNS flows routed to the bittorrent block outbound within 25 minutes. `SniffUTP` now explicitly passes over well-formed DNS queries (standard opcode, exactly one question, no answer/authority records, at most one EDNS0 additional record, valid labels, no trailing bytes without EDNS). A real uTP packet matching that shape would need its timestamp fields to read as those exact count values. Regression test `TestSniffUTPIgnoresDNSQueries` is built from the observed collision shape.\n- **New process-level e2e test** (`go test -tags integration ./app/dispatcher -run '^TestBitTorrentBlockProcessE2E$'`): real Xray + minimal SOCKS5 client; uTP/DHT/tracker datagrams and TCP handshakes must be dropped while DNS, plain UDP and plain TCP pass. Verified red against v26.8.20 (where the torrent probes leak) and green against this tree.\n\n## Upstream changes\n\n- None since v26.8.21; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries are never classified as `bittorrent`. Operators using the bittorrent protocol condition with automatic enforcement should upgrade: previous versions intermittently route unlucky DNS queries (about 1 in 13000) into the bittorrent outbound.\n- Detection coverage is otherwise unchanged from v26.8.21. Known residual gaps remain by design: MSE/protocol-encrypted TCP peer handshakes and HTTPS tracker traffic are not detectable by content; HTTP(S) trackers are sniffed as ordinary web traffic.\n\n## Validation\n\n- Unit corpus: 111 subtests green across TCP handshakes, uTP (all packet types, SACK and close-reason chains), DHT KRPC, UDP tracker forms, and non-torrent protocols including the DNS collision shapes; `go test -race` green on changed packages; `go vet` clean.\n- Process e2e gate green (torrent probes blocked, controls pass).\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `29c69dedb0f9d9db34955593d639588b6d68e3dd7c718bcca8facaff9a2dccc3`.\n"
+            },
             {
               "name": "Xray-core v26.8.21",
               "tag": "v26.8.21",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n- Pass the repository formatting gate missed by v26.8.17.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
-            },
-            {
-              "name": "Xray-core v26.8.17",
-              "tag": "v26.8.17",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.17",
-              "published_at": "2026-08-13T07:35:09Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
             }
           ],
           "last_commit": {
@@ -4631,10 +4631,10 @@
             }
           ],
           "last_commit": {
-            "sha": "65a6f60",
-            "branch": "main",
-            "date": "2026-08-18T14:10:14Z",
-            "url": "https://github.com/henrygd/beszel/commit/65a6f6030492c1cc7719e113d482a59243b6eaab"
+            "sha": "b5e4276",
+            "branch": "l10n_main_2",
+            "date": "2026-08-18T14:01:30Z",
+            "url": "https://github.com/henrygd/beszel/commit/b5e4276c8e4ac88770d58655e3d6686d8f7981b3"
           }
         },
         {
@@ -4646,7 +4646,7 @@
             "stars": 76291,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T15:51:39Z",
+            "pushed_at": "2026-08-18T15:56:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4850,7 +4850,7 @@
             "stars": 17559,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T15:01:09Z",
+            "pushed_at": "2026-08-18T15:55:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
