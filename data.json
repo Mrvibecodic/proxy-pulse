@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:08:50.744835Z",
+  "generated_at": "2026-08-18T08:14:05.153890Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37090,
+            "stars": 37091,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-17T09:46:55Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T08:04:03Z",
+            "pushed_at": "2026-08-18T08:13:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1847,6 +1847,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7105157",
+                  "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:13:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/710515739349051f03a9e10d1a90a994e1ef13fb"
+                },
+                {
+                  "sha": "121382f",
+                  "message": "syslog-ng: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:12:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/121382fd7ee527ce01e850081400e699199d6dd4"
+                },
+                {
                   "sha": "53bafc0",
                   "message": "batman-adv: fix build against kernels backporting kmalloc_obj",
                   "author": "Josef Schlehofer",
@@ -2041,20 +2055,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-13T21:21:19Z",
                   "url": "https://github.com/openwrt/packages/commit/f33d1d1f1ff6df97f92288bb8dd466ea6381c37e"
-                },
-                {
-                  "sha": "d4c843e",
-                  "message": "olsrd: add missing jshn dependency to olsrd-utils",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/d4c843ea2fd80a91ba736b556750aac829130b8d"
-                },
-                {
-                  "sha": "9af67f0",
-                  "message": "olsrd: fix respawn_threshold lookup in the IPv6 init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/9af67f00387e20b5c32f9f78f2b8486dfff0dbc3"
                 }
               ]
             },
@@ -5065,7 +5065,7 @@
             "stars": 17556,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T08:05:50Z",
+            "pushed_at": "2026-08-18T08:11:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
