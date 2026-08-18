@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T07:21:28.987715Z",
+  "generated_at": "2026-08-18T07:26:44.429875Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41093,
+            "stars": 41094,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:12:54Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33308,
+            "stars": 33310,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -906,7 +906,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28022,
+            "stars": 28023,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:03:11Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T07:20:18Z",
+            "pushed_at": "2026-08-18T07:21:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3137,6 +3137,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f629aca",
+                  "message": "syslog-ng: update to version 4.12.0",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T07:21:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/f629acaa1191f446e70b3dbe8bf34ca91dfb838d"
+                },
+                {
                   "sha": "860798e",
                   "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
                   "author": "Josef Schlehofer",
@@ -3338,19 +3345,19 @@
                   "author": "dependabot[bot]",
                   "date": "2026-07-19T20:35:35Z",
                   "url": "https://github.com/openwrt/packages/commit/38154a73edc2f425c6d0a9424879e9fd6f7d5e23"
-                },
-                {
-                  "sha": "37973d1",
-                  "message": "ci: migrate to webhook-based stale bot",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-19T20:35:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/37973d1cea50e5f1992ad95207433dacf40af06e"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "890f799",
+                  "message": "syslog-ng: update to version 4.12.0",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T07:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/890f7994e6ac585eee96a645b45b885b22f9c143"
+                },
                 {
                   "sha": "af41897",
                   "message": "golang: bump 1.26 to 1.26.6",
@@ -3553,13 +3560,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-11T06:19:02Z",
                   "url": "https://github.com/openwrt/packages/commit/5bae464e3ca89d683fa125027676a49630863239"
-                },
-                {
-                  "sha": "b003ac1",
-                  "message": "openvpn: update to 2.7.6",
-                  "author": "Sander van Deijck",
-                  "date": "2026-08-11T06:10:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/b003ac1d5963536a1b3acfdafc7f8412e551225f"
                 }
               ]
             }
@@ -5406,10 +5406,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ab3aa57",
-            "branch": "gh-pages-no-fonts",
-            "date": "2026-08-18T07:13:19Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/ab3aa5799a11887fb7ba271e1ab0c731d3a3c6df"
+            "sha": "c07c567",
+            "branch": "release-please--branches--main--components--zashboard",
+            "date": "2026-08-18T07:16:59Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/c07c5671a0c05896128df76c18ee3c0f0c9a1f9a"
           }
         },
         {
