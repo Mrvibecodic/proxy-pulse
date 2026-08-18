@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T08:03:34.710549Z",
+  "generated_at": "2026-08-18T08:08:50.744835Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37089,
+            "stars": 37090,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-17T09:46:55Z",
@@ -762,7 +762,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6778,
+            "stars": 6779,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-17T22:37:01Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T07:21:52Z",
+            "pushed_at": "2026-08-18T08:04:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1847,6 +1847,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "53bafc0",
+                  "message": "batman-adv: fix build against kernels backporting kmalloc_obj",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:04:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/53bafc09a375230009552845a86005148b57c73c"
+                },
+                {
+                  "sha": "fe1e65b",
+                  "message": "batman-adv: use return instead of continue in the migration script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:04:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe1e65bed7e3fd7e9b892724a1f039ade9ce4eb8"
+                },
+                {
+                  "sha": "8113f46",
+                  "message": "batman-adv: drop the vestigial conffiles entry",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:04:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/8113f464747d6f405ebe411f1c385bed4e6c3dae"
+                },
+                {
+                  "sha": "f45b457",
+                  "message": "batman-adv: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T08:04:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/f45b45747673e74430b172fad30fac40da157ea0"
+                },
+                {
                   "sha": "d2327b4",
                   "message": "syslog-ng: update to version 4.12.0",
                   "author": "Josef Schlehofer",
@@ -2027,34 +2055,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-13T21:21:19Z",
                   "url": "https://github.com/openwrt/packages/commit/9af67f00387e20b5c32f9f78f2b8486dfff0dbc3"
-                },
-                {
-                  "sha": "1d86a8f",
-                  "message": "olsrd: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/1d86a8fffc63e28b8f1ccd565dce933b5ff21e86"
-                },
-                {
-                  "sha": "c11ef37",
-                  "message": "bcp38: clean up nft rule handling",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-08-13T16:43:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/c11ef37d558291d272ffe6afc857afa4fd538dd4"
-                },
-                {
-                  "sha": "7cb0c18",
-                  "message": "tree-wide: rename version check test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T13:21:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/7cb0c183a9e98f71366c462f9a38c13246003764"
-                },
-                {
-                  "sha": "8c7a569",
-                  "message": "grep: set PKG_SUBDIRS instead of patching Makefile.in",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-08-13T13:19:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c7a5692a6833cf310b263d53319589b05d923e0"
                 }
               ]
             },
@@ -4926,7 +4926,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65708,
+            "stars": 65709,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-18T07:14:06Z",
@@ -5065,7 +5065,7 @@
             "stars": 17556,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T07:30:32Z",
+            "pushed_at": "2026-08-18T08:05:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "815f673",
-            "branch": "docs-single-ha",
-            "date": "2026-08-18T07:30:32Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/815f6735a5ef6e083bbbd560ef332d566e04f986"
+            "sha": "7ba71f7",
+            "branch": "master",
+            "date": "2026-08-18T08:05:49Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7ba71f7f6582c7fd7f071b53dc9eaae198399705"
           }
         }
       ]
@@ -5406,10 +5406,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1517da2",
-            "branch": "gh-pages-misans-only",
-            "date": "2026-08-18T07:46:01Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/1517da2a4969db1a368f85f4477654ceac414adc"
+            "sha": "8746843",
+            "branch": "gh-pages-pingfang-only",
+            "date": "2026-08-18T07:46:06Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/8746843aae59bd2e0c87297d9472ae88469ebe0e"
           }
         },
         {
