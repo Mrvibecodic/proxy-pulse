@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T09:17:21.866362Z",
+  "generated_at": "2026-08-18T09:22:37.712559Z",
   "groups": [
     {
       "id": "cores",
@@ -906,7 +906,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28023,
+            "stars": 28024,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-18T09:09:05Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T09:05:29Z",
+            "pushed_at": "2026-08-18T09:18:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7bc6592",
+                  "message": "openzwave: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T09:18:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/7bc659273b0e12b10bc1299a72528a28850e8f78"
+                },
+                {
+                  "sha": "cee7345",
+                  "message": "domoticz: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T09:18:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/cee73452be61ede0c92b221b87c500bc0f66c227"
+                },
+                {
+                  "sha": "44a0ea3",
+                  "message": "attr: check the version in test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T09:18:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/44a0ea3dd828d2eeea41be99dad7b8743cf7a0b4"
+                },
+                {
                   "sha": "85f2da3",
                   "message": "opennds: add new package",
                   "author": "Josef Schlehofer",
@@ -1819,27 +1840,6 @@
                   "author": "Carsten Schuette",
                   "date": "2026-08-14T12:05:38Z",
                   "url": "https://github.com/openwrt/packages/commit/37349095beac4157e0d340de80f888ceeb6652ef"
-                },
-                {
-                  "sha": "61972da",
-                  "message": "olsrd: record why the version check logs \"Terminated\"",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/61972dae3af03f5f8ac757b9520eb6f2ebe2eb21"
-                },
-                {
-                  "sha": "9c79e6b",
-                  "message": "olsrd: report the packaged version in the binary",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c79e6bed31119abc517612ddb8a35af616b0d35"
-                },
-                {
-                  "sha": "d527650",
-                  "message": "olsrd: reject non-address input before eval in olsrd-neigh.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-13T21:21:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/d52765005c75b829ae3b75ee27ac79e8da847723"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76265,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T08:59:02Z",
+            "pushed_at": "2026-08-18T09:22:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d0527a7",
-            "branch": "main",
-            "date": "2026-08-18T08:35:27Z",
-            "url": "https://github.com/grafana/grafana/commit/d0527a71a0619dc895620362a3f1e829ce8b65bc"
+            "sha": "eb370e5",
+            "branch": "backport-130895-to-release-13.2.0",
+            "date": "2026-08-18T08:59:03Z",
+            "url": "https://github.com/grafana/grafana/commit/eb370e5c2b02269fcf091b6a333175f4cd66e30c"
           }
         },
         {
@@ -4714,7 +4714,7 @@
             "stars": 65709,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T09:08:03Z",
+            "pushed_at": "2026-08-18T09:19:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4767,10 +4767,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e302919",
-            "branch": "deps-update/kubernetes-go-dependencies",
-            "date": "2026-08-18T08:49:34Z",
-            "url": "https://github.com/prometheus/prometheus/commit/e302919eaf2ba89a813ea2fbcc0c3f74ba768db7"
+            "sha": "a8f43b3",
+            "branch": "deps-update/go-golang.org-x-mod-vulnerability",
+            "date": "2026-08-18T08:48:58Z",
+            "url": "https://github.com/prometheus/prometheus/commit/a8f43b33aecdb737058298ea2e9c81959b5c976b"
           }
         },
         {
@@ -4903,10 +4903,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b899583",
-            "branch": "saturated-rw-ts-doc",
-            "date": "2026-08-18T08:35:21Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/b899583ed2e6d2fc1e1ef550ced6531e554ce64f"
+            "sha": "c08e589",
+            "branch": "vmagent-scrape-data-race",
+            "date": "2026-08-18T08:54:18Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/c08e589274dd4fd4f99d15be0646042388af4016"
           }
         }
       ]
@@ -5206,7 +5206,7 @@
             "stars": 7032,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T01:17:58Z",
+            "pushed_at": "2026-08-18T09:19:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5259,10 +5259,10 @@
             }
           ],
           "last_commit": {
-            "sha": "110ce7c",
-            "branch": "main",
-            "date": "2026-08-18T00:59:55Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/110ce7c1b0d4a4968722893723b0ec71a5620e0d"
+            "sha": "df66f1a",
+            "branch": "l10n_crowdin",
+            "date": "2026-08-18T09:19:12Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/df66f1a3e42409cd52ddef4c0969fb78eeef7274"
           }
         }
       ]
