@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T06:34:13.580713Z",
+  "generated_at": "2026-08-18T06:39:29.284077Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T04:09:33Z",
+            "pushed_at": "2026-08-18T06:39:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1847,6 +1847,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2312f86",
+                  "message": "alfred: handle unreadable files in bat-hosts.lua",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/2312f86f7e7b0eb7029596a04cc878ebe648b921"
+                },
+                {
+                  "sha": "d47aa37",
+                  "message": "alfred: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/d47aa37e76355b4d3b9afccdc156959855757612"
+                },
+                {
+                  "sha": "fd018fe",
+                  "message": "batctl: fix a typo and indent consistently",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/fd018fe12f700b45f531272b2ec88b2a1c349082"
+                },
+                {
+                  "sha": "dae3f09",
+                  "message": "batctl: pass the feature switches directly",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/dae3f09cfc94787f07d7f24936a9c451fad53557"
+                },
+                {
+                  "sha": "4215a89",
+                  "message": "batctl: drop the redundant PKG_BUILD_DIR override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/4215a8932fb2b74e3511764ecfc769280862cbf2"
+                },
+                {
+                  "sha": "9b5d7f6",
+                  "message": "batctl: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-18T06:39:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/9b5d7f662ec328cb392efc3233490cf995c2445c"
+                },
+                {
                   "sha": "7b12d68",
                   "message": "transmission: rebuild against the versioned libdht",
                   "author": "Daniel Golle",
@@ -2013,48 +2055,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-12T13:03:42Z",
                   "url": "https://github.com/openwrt/packages/commit/95875218de25e6340251910a8c996e5a811c69b8"
-                },
-                {
-                  "sha": "e99adbc",
-                  "message": "sing-box: bump to 1.13.18 without Naive outbound support",
-                  "author": "Sergei S.",
-                  "date": "2026-08-12T05:35:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/e99adbc49f7a11d0377c8135fe706c7757b9e68c"
-                },
-                {
-                  "sha": "06dd60f",
-                  "message": "bc: drop disable-doc patch for PKG_SUBDIRS",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-11T13:30:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/06dd60f40e8553bf0e9cecdba8bf5769305b50c3"
-                },
-                {
-                  "sha": "1bae5ff",
-                  "message": "bird3: drop stale conffiles entries",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:35:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/1bae5fff87a8381be3a1dad4e7418a8c517f1b89"
-                },
-                {
-                  "sha": "e470a23",
-                  "message": "bird3: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:35:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/e470a236bd07c6cde6b981a5af209c95b7a19ee3"
-                },
-                {
-                  "sha": "1a45203",
-                  "message": "bird2: document the OSPF alignment patch",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:35:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/1a45203dcd4a68bd265bfa82c7dbc59245dccd6f"
-                },
-                {
-                  "sha": "ab72eb7",
-                  "message": "bird2: drop stale conffiles entries",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:35:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/ab72eb7c76cdf84da9d6ccba2236b4b338389f7b"
                 }
               ]
             },
@@ -5406,10 +5406,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8749303",
-            "branch": "gh-pages-sarasa-only",
-            "date": "2026-08-18T06:33:03Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/8749303219cf4ca4796a36e6957665b1d3f1e728"
+            "sha": "282c0d7",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-08-18T06:32:55Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/282c0d78e3e7c53ebf90d340abbad6b488fd8c07"
           }
         },
         {
