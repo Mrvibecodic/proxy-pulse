@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T05:55:36.287151Z",
+  "generated_at": "2026-08-19T06:00:51.984952Z",
   "groups": [
     {
       "id": "cores",
@@ -906,7 +906,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28031,
+            "stars": 28030,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-19T00:03:26Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-18T18:50:37Z",
+            "pushed_at": "2026-08-19T05:56:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2edf6a0",
+                  "message": "strongswan: fix build with wolfSSL 5.9.2",
+                  "author": "Dharmik Parmar",
+                  "date": "2026-08-19T05:56:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/2edf6a0af0cc722436643e4bc4a1f72d670f8fc4"
+                },
+                {
                   "sha": "94deb2a",
                   "message": "travelmate: release 2.4.8-1",
                   "author": "Dirk Brenken",
@@ -1833,13 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-17T09:03:03Z",
                   "url": "https://github.com/openwrt/packages/commit/77879deb5a4b5cc6bf3cc99dac8fd3037a1aa4a2"
-                },
-                {
-                  "sha": "388c3b6",
-                  "message": "rust: build soft-float on soft-float PowerPC subtargets",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-16T06:15:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/388c3b6ad460779406989575711686f81f17f332"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76299,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T05:40:25Z",
+            "pushed_at": "2026-08-19T05:58:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4782,7 +4782,7 @@
             "stars": 80226,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T00:10:31Z",
+            "pushed_at": "2026-08-19T05:57:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4835,10 +4835,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f2799a6",
+            "sha": "8c707ef",
             "branch": "master",
-            "date": "2026-08-19T00:10:31Z",
-            "url": "https://github.com/netdata/netdata/commit/f2799a6c4a5e3628d002d3e5931c85a0d5657301"
+            "date": "2026-08-19T05:56:19Z",
+            "url": "https://github.com/netdata/netdata/commit/8c707ef779289e44180e0aa79caa83e9b5655655"
           }
         },
         {
@@ -4979,10 +4979,10 @@
             }
           ],
           "last_commit": {
-            "sha": "522e306",
-            "branch": "dev",
-            "date": "2026-08-18T22:19:09Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
+            "sha": "b22275d",
+            "branch": "main",
+            "date": "2026-08-18T22:19:10Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
           }
         }
       ]
