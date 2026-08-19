@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T10:34:06.840110Z",
+  "generated_at": "2026-08-19T10:39:22.054651Z",
   "groups": [
     {
       "id": "cores",
@@ -762,7 +762,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6798,
+            "stars": 6799,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-18T11:28:03Z",
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f944ce1",
-            "branch": "main",
-            "date": "2026-08-19T09:36:02Z",
-            "url": "https://github.com/grafana/grafana/commit/f944ce1caf2f2c1d7654e3bc834a43d93a7623f9"
+            "sha": "3806084",
+            "branch": "tiehm/unified-storage-grpc-client-handlers",
+            "date": "2026-08-19T09:42:04Z",
+            "url": "https://github.com/grafana/grafana/commit/3806084c8e6655882daba5a45db3c6ccfb2f6ace"
           }
         },
         {
@@ -5138,12 +5138,21 @@
             "stars": 3279,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T10:32:21Z",
+            "pushed_at": "2026-08-19T10:38:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.21.0",
+              "tag": "v3.21.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.21.0",
+              "published_at": "2026-08-19T10:37:43Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.21.0](https://github.com/Zephyruso/zashboard/compare/v3.20.0...v3.21.0) (2026-08-19)\n\n\n### Features\n\n* improve IP lookup API selection ([4ab1879](https://github.com/Zephyruso/zashboard/commit/4ab187937f9200ed09fad9d59b325623c008e922)), closes [#757](https://github.com/Zephyruso/zashboard/issues/757)\n\n\n### Bug Fixes\n\n* add confirmation dialogs for core upgrade and config reload actions ([8cb98d6](https://github.com/Zephyruso/zashboard/commit/8cb98d666767813099d4aeb5849eb5c1bc9df4b4))\n* adjust grid styling for responsive layout in ProviderTrafficOverview component ([5362606](https://github.com/Zephyruso/zashboard/commit/536260633b4dd06f5e3d8d5fd9c72112c3dc5b26))\n* adjust z-index values for backend panel components ([43e2afd](https://github.com/Zephyruso/zashboard/commit/43e2afd91db909fc506526cfad93d10a219fc9e7))\n* bring backend actions back into the sidebar backend menu ([e8a5dd5](https://github.com/Zephyruso/zashboard/commit/e8a5dd5ed404132dc72652d39dfb22d0f9ffa003)), closes [#765](https://github.com/Zephyruso/zashboard/issues/765)\n* replace legacy theme names with new mappings in settings ([c6510fe](https://github.com/Zephyruso/zashboard/commit/c6510fe96200980299a91713f460aab494cd7c52))\n* update backend status color and remove confirmation for config reload ([fe8784b](https://github.com/Zephyruso/zashboard/commit/fe8784bc220002a31c8a762f1fe1ec649ec35c6b))"
+            },
             {
               "name": "v3.20.0",
               "tag": "v3.20.0",
@@ -5179,15 +5188,6 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.17.0](https://github.com/Zephyruso/zashboard/compare/v3.16.1...v3.17.0) (2026-08-07)\r\n\r\n### Thanks to [Zayrick](https://github.com/Zayrick) for the Earth idea.\r\n\r\n### Features\r\n\r\n* add \"All\" connections tab keeping closed connections in place ([80e3410](https://github.com/Zephyruso/zashboard/commit/80e3410e8f818aace8ad09becb32be6cb01dfb98))\r\n* add EarthRenderer and GeoIP worker for visualizing global network routes ([4efd274](https://github.com/Zephyruso/zashboard/commit/4efd27467f782d628f3599eed8510040b714a3ed))\r\n* add initial location handling and visibility toggle titles for proxy groups ([ee7d379](https://github.com/Zephyruso/zashboard/commit/ee7d3798b7a8b09da9516c685f3baa268cf3bba5))\r\n* enhance EarthRenderer with endpoint glow effects and improved scaling ([7f43032](https://github.com/Zephyruso/zashboard/commit/7f430320df1ddf919fc458c15f8583fe1809c935))\r\n* enhance EarthRenderer with flow visualization and initialization optimizations ([2a45908](https://github.com/Zephyruso/zashboard/commit/2a4590825fdbfe83ce71494d428d298b757945b5))\r\n* enhance support for honk core and update related components ([80e5657](https://github.com/Zephyruso/zashboard/commit/80e5657714cbad5b924c84d3dfdbe7a3d8ec1b28))\r\n* implement dialog viewport height management and enhance modal transitions ([35e6881](https://github.com/Zephyruso/zashboard/commit/35e6881d8d1feeb4653a4ce34f96fdf28ee418b2))\r\n* **proxy-node:** add animations for proxy node transitions and latency highlights ([961fc0f](https://github.com/Zephyruso/zashboard/commit/961fc0fe0adaa4104fe6d7444a2d12dc20ea1415))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* bundle size ([75d9624](https://github.com/Zephyruso/zashboard/commit/75d962464eb98b4b845e70caa6d9de781e057573))\r\n* enhance touch controls for EarthRenderer and prevent browser gestures ([db58640](https://github.com/Zephyruso/zashboard/commit/db58640bfc0f6113f5e17749c063eebe0c044738))\r\n* handle potential undefined processPath in connectionAccessor ([4cdbd85](https://github.com/Zephyruso/zashboard/commit/4cdbd85deb7aa9ca584da907ea8086fbf95b10d1))\r\n* LatencyTag component loading state transitions and CountUp optimization ([ebe891f](https://github.com/Zephyruso/zashboard/commit/ebe891f49b82f9d1912c1df32eef633c2563d396))\r\n* **proxy-node:** ensure accurate visibility check in scrollIntoCenter function ([c9b1e65](https://github.com/Zephyruso/zashboard/commit/c9b1e658966a50059303489061cf367c57eeb41e))"
-            },
-            {
-              "name": "v3.16.1",
-              "tag": "v3.16.1",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.16.1",
-              "published_at": "2026-07-31T10:52:42Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.16.1](https://github.com/Zephyruso/zashboard/compare/v3.16.0...v3.16.1) (2026-07-31)\n\n\n### Bug Fixes\n\n* prevent clear button from submitting the enclosing form ([0fb5daf](https://github.com/Zephyruso/zashboard/commit/0fb5daf369f0c61d0bb41e989b6c8a08904f5e3c)), closes [#591](https://github.com/Zephyruso/zashboard/issues/591)\n* **singbox:** test individual outbound from proxy card ([b4fc4fa](https://github.com/Zephyruso/zashboard/commit/b4fc4fabe7141ee3424e3575b4ef772bf8bbfd7d))\n* **singbox:** wait for pushed latency results ([51d3327](https://github.com/Zephyruso/zashboard/commit/51d3327714478dce8a9c08c1ef5f79b96178a751))\n* update sing-box icon ([29e2516](https://github.com/Zephyruso/zashboard/commit/29e251637f4d76db7141dedb9da938bb244cd824))"
             }
           ],
           "last_commit": {
