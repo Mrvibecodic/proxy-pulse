@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:36:28.210322Z",
+  "generated_at": "2026-08-19T14:41:43.929069Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37127,
+            "stars": 37128,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-19T14:22:28Z",
@@ -220,12 +220,21 @@
             "stars": 35,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-18T15:55:26Z",
+            "pushed_at": "2026-08-19T14:38:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.23",
+              "tag": "v26.8.23",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.23",
+              "published_at": "2026-08-19T14:38:37Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- BitTorrent detection no longer misfires on real-world DNS queries. The v26.8.22 exclusion modeled textbook queries only; a deployment still classified a query to 8.8.8.8:53 as bittorrent and auto-banned the user. The shape space is now verified live against the world's most popular resolvers. Upgrade is strongly recommended for every deployment routing on `protocol: [\"bittorrent\"]` with automatic enforcement (webhooks, panels).\n\n## Fork fixes\n\n- **DNS false positives closed over the deployed query space (production-verified).** The v26.8.22 DNS exclusion required exactly one question, opcode QUERY, zero answer/authority records, at most one additional record and no trailing bytes. Live verification against Cloudflare, Google, Quad9, OpenDNS, AdGuard, Yandex, AliDNS and DNSPod confirmed 24 real query shapes (plain, EDNS0, EDNS cookie, padded, mixed-case, HTTPS/SVCB, PTR, SRV, long names, and more); five of them slipped past the strict model — EDNS with two additional records, two-question queries, trailing bytes with zero additional records, dynamic-update opcodes from Windows domain machines, and answer-carrying queries — accounting for 25 of 120 colliding replays. `isDNSQuery` now accepts request-bit-clear queries with a deployed opcode (query, iquery, status, notify, update), one or two questions and a structurally valid first question; record counts and trailing bytes are unconstrained. A real uTP packet passing this needs its connection id to clear the response bit and opcode nibble and its timestamp to read as a question count of one or two (on the order of 1e-7).\n- The verified shapes are pinned as a permanent regression test (`TestSniffUTPIgnoresDNSQueries`) with their resolver provenance; the uTP, DHT and UDP tracker corpora and the process e2e gate remain green, so torrent detection coverage is unchanged.\n\n## Upstream changes\n\n- None since v26.8.22; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries matching any deployed real-world shape are never classified as `bittorrent`. Deployments that ban users on the bittorrent rule should upgrade from v26.8.22, which intermittently auto-bans users over unlucky DNS transaction ids (roughly one query in 13000 with non-textbook shapes).\n- Torrent detection coverage is unchanged from v26.8.21+: plaintext TCP handshakes, uTP, DHT (KRPC) and UDP trackers are detected; MSE/protocol-encrypted peer handshakes and HTTPS tracker traffic remain undetectable by content.\n\n## Validation\n\n- Live-verified corpus: 24 query shapes x 8 popular resolvers, all answered; 5 previously failing shapes x 5 colliding transaction ids now produce 0 of 120 misclassifications.\n- Unit corpus, `-race`, `go vet`, dispatcher tests and the integration process e2e gate (torrent probes blocked, DNS/UDP/TCP controls pass) all green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `70d1faabcf658e20a83aeeabd8e31700d844b24b8ea0aa20b6a0fdb5f5d56e4a`.\n"
+            },
             {
               "name": "Xray-core v26.8.22",
               "tag": "v26.8.22",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Integrates the Hysteria 2.12.1 transport updates proposed in XTLS/Xray-core#6565 and completes the server-side lifecycle and error-handling work needed by this fork.\n- Adds optional UPnP and NAT-PMP port mapping for Realm, together with `ipMode` selection for dual-stack, IPv4-only, and IPv6-only deployments.\n- Adds QUIC controls for Chrome-style transport behavior, GSO, and Brutal loss compensation.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility tests to prevent wire/config regressions.\n- Makes Realm mapping leases deterministic: bounded discovery and requests, early renewal, rollback after ambiguous failures, real zero-lifetime NAT-PMP deletion, and cleanup error propagation.\n- Closes Realm constructor and shutdown leaks and serializes renew/close ownership to avoid timer and goroutine races.\n- Ensures Hysteria and XHTTP/3 listeners release UDP sockets and wait for owned accept/client goroutines during shutdown.\n- Clones TLS configuration before applying QUIC client behavior instead of mutating shared state.\n- Propagates Brutal loss-compensation configuration through every affected runtime path.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` is already an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated, reviewed against this fork's current QUIC paths, and completed with regression coverage and lifecycle hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their original numbers; the new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` when custom certificate callbacks or non-compatible TLS behavior require it.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves the previous behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6`, and defaults to `dual`.\n\n## Validation\n\n- Affected unit tests passed on Go 1.26.5.\n- Affected race, `checkptr`, `go vet`, formatting, module-integrity, and dependency-ban gates passed.\n- Xray, sing-box, and Mihomo Hysteria process interoperability passed 9/9 executions.\n- The XHTTP/3 HandlerService removal probe confirmed that the UDP listener is released.\n- A static Linux/amd64 release-style cross-build passed (`a3b07b4422695ebbdc1288a0f7830ef909516a92181323da68a116ebddad4d77`). Native Linux validation and the full platform asset matrix are enforced by the release workflow.\n"
-            },
-            {
-              "name": "Xray-core v26.8.18",
-              "tag": "v26.8.18",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.18",
-              "published_at": "2026-08-13T07:50:57Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Fixes\n\n- Make structural online presence ownership atomic across direct, legacy Mux, XUDP, reverse portal, and shutdown/rebind paths.\n- Prevent SMUX sessions from remaining stuck when receive capacity or a stream queue is full and the carrier disappears.\n- Preserve `CloseWrite` through PROXY protocol physical-peer wrappers so REALITY shutdown no longer panics on `*net.physicalPeerConn`.\n- Harden SMUX release stress coverage and its long-run timeout.\n- Pass the repository formatting gate missed by v26.8.17.\n\n## Compatibility\n\n- No mux, XUDP, RVS, WireGuard, protobuf, JSON configuration, StatsService, or CLI wire contract changes.\n- Verified against Xray, sing-box, and Mihomo process matrices."
             }
           ],
           "last_commit": {
@@ -977,7 +977,7 @@
             "stars": 4582,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T12:13:51Z",
+            "pushed_at": "2026-08-19T14:38:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2922,6 +2922,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "42525d3",
+                  "message": "libucontext: bump to 1.5.1 \u0026 glibc support",
+                  "author": "Aditya Nugraha",
+                  "date": "2026-08-19T14:37:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/42525d32c41080d8a2a9f1b7929f4207427d5ce8"
+                },
+                {
+                  "sha": "ee00b82",
+                  "message": "libucontext: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-08-19T14:37:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/ee00b82728ac921b2193c90977ca6e747dbc9dba"
+                },
+                {
                   "sha": "f629aca",
                   "message": "syslog-ng: update to version 4.12.0",
                   "author": "Josef Schlehofer",
@@ -3116,26 +3130,26 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-07-21T22:46:05Z",
                   "url": "https://github.com/openwrt/packages/commit/80fc5d639418d1f602dd23992fe047fb102780ec"
-                },
-                {
-                  "sha": "59906fb",
-                  "message": "ci: add nightly LLM review workflow",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-07-19T20:35:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/59906fb4137142706b189def94570abc1019d1be"
-                },
-                {
-                  "sha": "38154a7",
-                  "message": "ci: bump lewagon/wait-on-check-action from 1.8.0 to 1.8.1",
-                  "author": "dependabot[bot]",
-                  "date": "2026-07-19T20:35:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/38154a73edc2f425c6d0a9424879e9fd6f7d5e23"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "f46934b",
+                  "message": "libucontext: bump to 1.5.1 \u0026 glibc support",
+                  "author": "Aditya Nugraha",
+                  "date": "2026-08-19T14:38:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/f46934b820517bb9123b80c6312918dba3231187"
+                },
+                {
+                  "sha": "82e5891",
+                  "message": "libucontext: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-08-19T14:38:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/82e5891783d95ef592d56840805b082e1d88d67a"
+                },
                 {
                   "sha": "1fd3b0d",
                   "message": "zabbix: bump version to 7.0.29",
@@ -3331,20 +3345,6 @@
                   "author": "George Sapkin",
                   "date": "2026-08-13T10:59:10Z",
                   "url": "https://github.com/openwrt/packages/commit/1608b85ebcd26076a4f97970cb1df9c16a4a39d4"
-                },
-                {
-                  "sha": "2bff2fd",
-                  "message": "syncthing: bump to 2.1.1",
-                  "author": "George Sapkin",
-                  "date": "2026-08-13T10:59:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/2bff2fd78a338a9afef8765b5715861d9c135ebd"
-                },
-                {
-                  "sha": "410e8b3",
-                  "message": "adguardhome: bump to 0.107.78",
-                  "author": "George Sapkin",
-                  "date": "2026-08-13T10:58:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/410e8b36f7290a01240b05dc4ec027b2d0456616"
                 }
               ]
             }
@@ -4646,7 +4646,7 @@
             "stars": 76305,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T14:29:58Z",
+            "pushed_at": "2026-08-19T14:39:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4979,10 +4979,10 @@
             }
           ],
           "last_commit": {
-            "sha": "522e306",
-            "branch": "dev",
-            "date": "2026-08-18T22:19:09Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
+            "sha": "b22275d",
+            "branch": "main",
+            "date": "2026-08-18T22:19:10Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
           }
         }
       ]
@@ -5138,7 +5138,7 @@
             "stars": 3282,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T11:24:25Z",
+            "pushed_at": "2026-08-19T14:38:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
@@ -5259,10 +5259,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9050210",
+            "sha": "dd58684",
             "branch": "l10n_crowdin",
-            "date": "2026-08-19T10:51:05Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/9050210d6bd1d376736d4d1b72b95a918a3109e6"
+            "date": "2026-08-19T13:14:23Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/dd5868496c7b9d4c1dea1f8955425e88d8bc4b9e"
           }
         }
       ]
