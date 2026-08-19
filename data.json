@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T06:16:32.881086Z",
+  "generated_at": "2026-08-19T06:21:46.510019Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33344,
+            "stars": 33343,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -977,7 +977,7 @@
             "stars": 4581,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T05:56:37Z",
+            "pushed_at": "2026-08-19T06:20:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3137,6 +3137,83 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "1fd3b0d",
+                  "message": "zabbix: bump version to 7.0.29",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/1fd3b0ddb8d88bd3b84e6c6fa4c7f515267bbb5b"
+                },
+                {
+                  "sha": "d8f8ae0",
+                  "message": "zabbix: bring proxy to parity with server and agentd",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/d8f8ae086780f2e62c5d50133c9e6fada3c5f0ac"
+                },
+                {
+                  "sha": "1c2a4ad",
+                  "message": "zabbix: tweak server initscript and bring agentd to parity",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c2a4ad893842ba072ff83fef2ec5701a71ac1f7"
+                },
+                {
+                  "sha": "2a0e1e2",
+                  "message": "zabbix: tweak patch agent and server patch configs",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a0e1e250854bea7d30e97ce490aafea2960ab51"
+                },
+                {
+                  "sha": "af8ea0f",
+                  "message": "zabbix: use separate users for server and proxy",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/af8ea0f07df80466a1d2dee27accd76f47e30571"
+                },
+                {
+                  "sha": "fb283c3",
+                  "message": "zabbix: add php8-mod-simplexml dependency to frontend",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/fb283c37a49f6a87e07305404113cb05b41744a0"
+                },
+                {
+                  "sha": "2fc13d4",
+                  "message": "zabbix: stop shipping sysctl.d conf in package",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2fc13d4c40ee8666c17766a88ada398fa102e24f"
+                },
+                {
+                  "sha": "8247da1",
+                  "message": "zabbix: reorganize files dir for clarity and to better follow the FHS",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/8247da13f1212ec08ed9904740fcb1930722506c"
+                },
+                {
+                  "sha": "6cdfe2c",
+                  "message": "zabbix: preserve user config files across sysupgrade",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/6cdfe2c9720522f2daced9f644fe52a67405ed2e"
+                },
+                {
+                  "sha": "f3db069",
+                  "message": "zabbix: bump version to 7.0.28",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/f3db0690c4c876398625f5a4e257db8cc2fed71d"
+                },
+                {
+                  "sha": "ca566bb",
+                  "message": "zabbix: do not error in postinst when no ubusd",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T06:20:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca566bbe0f5f58ce2b57e0712f8768f5075b8818"
+                },
+                {
                   "sha": "f645601",
                   "message": "travelmate: release 2.4.8-1",
                   "author": "Dirk Brenken",
@@ -3268,83 +3345,6 @@
                   "author": "George Sapkin",
                   "date": "2026-08-13T10:58:34Z",
                   "url": "https://github.com/openwrt/packages/commit/410e8b36f7290a01240b05dc4ec027b2d0456616"
-                },
-                {
-                  "sha": "2a621bc",
-                  "message": "adguardhome: bump to 0.107.77",
-                  "author": "David Mandy",
-                  "date": "2026-08-13T10:58:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a621bc4473b0e4efeff563dfa281a06eb3e0af7"
-                },
-                {
-                  "sha": "f723ae0",
-                  "message": "yt-dlp: bump to 2026.07.04",
-                  "author": "George Sapkin",
-                  "date": "2026-08-13T08:51:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/f723ae04979f9636913f4c9d8adeed747dba0790"
-                },
-                {
-                  "sha": "0283a22",
-                  "message": "yt-dlp: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-08-13T08:51:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/0283a22d5745453e1b15e7718dcc374c63d7f0e4"
-                },
-                {
-                  "sha": "c3afe5d",
-                  "message": "yt-dlp: bump to 2026.06.09",
-                  "author": "George Sapkin",
-                  "date": "2026-08-13T08:51:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/c3afe5d253abe17dba64e1e655d5303fa0fb9407"
-                },
-                {
-                  "sha": "ec3a80b",
-                  "message": "librespeed-cli-rust: update to 0.1.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-12T13:04:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec3a80b65c2e2d06283658f568f68c0ae75cffbe"
-                },
-                {
-                  "sha": "25b7a87",
-                  "message": "transmission: update to version 4.1.3",
-                  "author": "Richard Muzik",
-                  "date": "2026-08-11T13:04:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/25b7a87f7c7c8d2be64cfb65cb67c475d4d6f500"
-                },
-                {
-                  "sha": "4e69462",
-                  "message": "rust: update to 1.96.0",
-                  "author": "hingbong",
-                  "date": "2026-08-11T12:51:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/4e6946299b2c1b333c68692ab7778745c1338b66"
-                },
-                {
-                  "sha": "ae448b9",
-                  "message": "librespeed-cli: update to 1.0.13",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:11:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/ae448b9e3bb2ac8df0811c32f915a1cdf10dd387"
-                },
-                {
-                  "sha": "04a736b",
-                  "message": "telegraf: update to 1.39.3",
-                  "author": "Niklas Thorild",
-                  "date": "2026-08-11T12:02:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/04a736ba4b80554d5d1c1f376022d1465d1554b2"
-                },
-                {
-                  "sha": "d2236f3",
-                  "message": "librespeed-cli-rust: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T10:07:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/d2236f370fef888ba5d6ebb39cf19fd524d3420e"
-                },
-                {
-                  "sha": "5b3f980",
-                  "message": "radicale3: bump to v3.7.8",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-11T06:19:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/5b3f98094d0a6f2db5ddd7b076a155fe134a1cc6"
                 }
               ]
             }
@@ -4507,7 +4507,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90327,
+            "stars": 90329,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-19T00:33:12Z",
@@ -4646,7 +4646,7 @@
             "stars": 76299,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T05:58:40Z",
+            "pushed_at": "2026-08-19T06:17:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "91a4d84",
-            "branch": "nathanmarrs/notebooks-undo-redo",
-            "date": "2026-08-19T05:58:40Z",
-            "url": "https://github.com/grafana/grafana/commit/91a4d84b680b25bc71f6568bb6981800b04d7978"
+            "sha": "b273958",
+            "branch": "issue-125089",
+            "date": "2026-08-19T06:17:43Z",
+            "url": "https://github.com/grafana/grafana/commit/b27395817880d97b561dd64acac7e3d4e545575c"
           }
         },
         {
