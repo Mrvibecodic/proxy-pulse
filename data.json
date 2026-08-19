@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:52:25.234204Z",
+  "generated_at": "2026-08-19T14:57:56.769686Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33359,
+            "stars": 33360,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -3424,7 +3424,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 467,
+            "stars": 468,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4507,7 +4507,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90344,
+            "stars": 90346,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-19T00:33:12Z",
@@ -4646,7 +4646,7 @@
             "stars": 76305,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T14:50:16Z",
+            "pushed_at": "2026-08-19T14:54:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "611d09c",
-            "branch": "rodrigopk/import-wizard-autosync-step1",
-            "date": "2026-08-19T13:24:04Z",
-            "url": "https://github.com/grafana/grafana/commit/611d09cfd904604bf6ceb2b6c96c6fa6bbf2e0ab"
+            "sha": "113d219",
+            "branch": "main",
+            "date": "2026-08-19T13:28:25Z",
+            "url": "https://github.com/grafana/grafana/commit/113d219ea2edf6a168e4c7081d086ea1038f6f1e"
           }
         },
         {
@@ -5002,12 +5002,21 @@
             "stars": 50,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T14:51:22Z",
+            "pushed_at": "2026-08-19T14:54:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.2.1",
+              "tag": "v1.2.1",
+              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.2.1",
+              "published_at": "2026-08-19T14:54:59Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## Исправления\n\n- «База данных»: в подтверждении сжатия базы кнопка называлась «Удалить» — теперь «Сжать», без красного цвета. Само действие всегда было сжатием, ничего не удалялось."
+            },
             {
               "name": "v1.2.0",
               "tag": "v1.2.0",
@@ -5043,15 +5052,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## Что изменилось\n\n### Исправления\n- **Лог запросов → «Активность по часам»:** график теперь показывает время в таймзоне браузера. Раньше подписи столбиков, ось и строка «пик в HH:MM» рендерились по дате сервера, а таблица запросов ниже — уже по локальному времени, из-за чего одно и то же событие выглядело как разное. Час бакета отдаётся epoch-ом, подписи проставляются на клиенте — в том числе после автообновления и обновления по кнопке.\n\nОбновление без миграций: изменения только в отрисовке админки, схема БД и настройки не трогаются.\n\n**Полный список изменений:** https://github.com/Mrvibecodic/remnawave-subscription-middleware/compare/v1.0.1...v1.0.2"
-            },
-            {
-              "name": "v1.0.1",
-              "tag": "v1.0.1",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.0.1",
-              "published_at": "2026-08-07T11:47:41Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Патч-релиз: исправления и доработки интерфейса, новых возможностей нет.\n\n## Что изменилось\n- **Лог запросов** — переработанная вкладка: сводка за сутки (обновившие подписку, устройства, запросы, блокировки HWID), гистограмма по часам, фильтры по решению, типу ответа и периоду, раскрытие строки с полной карточкой запроса. Для каждого запроса теперь сохраняются тип отданного ответа, его размер и состояние доп. подписки — эти поля видны только у новых записей.\n- **Лог вебхуков** — фильтры по событию, действию, подписи и периоду, фильтрация кликом по значению, выгрузка в CSV, выборка до 3000 записей; в hwid-событиях подставляется имя пользователя, старые записи дозаполняются.\n- **Вёрстка админки** — устранены подёргивания при загрузке страниц: блоки стилей подняты выше разметки, инлайновым SVG заданы явные размеры, длинные логи больше не отрисовываются целиком до старта пагинатора.\n\n## Обновление\nСхема базы обновляется автоматически при первом обращении к админке: в таблицу `request_log` добавляются четыре поля. Ручных действий не требуется, откат на предыдущую версию данные не ломает. Настройки, `config.php` и содержимое `data/` не затрагиваются.\n\n## Docker-теги\n- **`v1`** — стабильный, уже указывает на этот релиз;\n- `v1.0.1` — фиксированный тег релиза;\n- `latest` / `main` — ветка `main`;\n- `dev` — тестовая ветка."
             }
           ],
           "last_commit": {
