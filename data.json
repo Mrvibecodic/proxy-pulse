@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:26:48.470518Z",
+  "generated_at": "2026-08-19T19:32:03.023880Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4583,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T14:38:18Z",
+            "pushed_at": "2026-08-19T19:28:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5c41510",
+                  "message": "frp: migrate generated configuration from INI to TOML",
+                  "author": "Roc Lai",
+                  "date": "2026-08-19T19:28:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/5c4151039612910a89f082967842c387d1d972e3"
+                },
+                {
                   "sha": "15d8b0e",
                   "message": "knot: update to version 3.5.7",
                   "author": "Jan Hák",
@@ -1833,13 +1840,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-18T04:09:32Z",
                   "url": "https://github.com/openwrt/packages/commit/7b12d68dd352028f8d3c5f09ba159322de74aaeb"
-                },
-                {
-                  "sha": "502da45",
-                  "message": "libdht: give the shared library a soname",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-18T04:09:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/502da457ccb6201dafaf666a5822f5b001c9eea4"
                 }
               ]
             },
@@ -4575,7 +4575,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24386,
+            "stars": 24387,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-19T18:02:37Z",
@@ -4646,7 +4646,7 @@
             "stars": 76309,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T19:26:14Z",
+            "pushed_at": "2026-08-19T19:31:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6a9b416",
-            "branch": "renovate/rc-component-drawer-1.x-lockfile",
-            "date": "2026-08-19T16:06:45Z",
-            "url": "https://github.com/grafana/grafana/commit/6a9b416a0b3497a7bd6f0ac744e25b87cddd05e3"
+            "sha": "3ec2a21",
+            "branch": "adamyeats/openfeature-plugin-discovery",
+            "date": "2026-08-19T16:46:41Z",
+            "url": "https://github.com/grafana/grafana/commit/3ec2a212a3b092aa97e86e2e55b031ef6a23ed70"
           }
         },
         {
@@ -4711,7 +4711,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65753,
+            "stars": 65754,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-19T14:50:45Z",
@@ -4779,7 +4779,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80230,
+            "stars": 80231,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-19T16:35:58Z",
@@ -4979,10 +4979,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b22275d",
-            "branch": "main",
-            "date": "2026-08-18T22:19:10Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
+            "sha": "522e306",
+            "branch": "dev",
+            "date": "2026-08-18T22:19:09Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
           }
         }
       ]
