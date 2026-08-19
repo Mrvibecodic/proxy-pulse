@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:59:40.966253Z",
+  "generated_at": "2026-08-19T20:05:11.087629Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4583,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T19:28:51Z",
+            "pushed_at": "2026-08-19T20:00:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f444e3c",
+                  "message": "nut: drop unnecessary postinsts",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/f444e3c1eb8b5a611796324148ccb79802b6b9cc"
+                },
+                {
+                  "sha": "12154a0",
+                  "message": "nut: tweak configure settings for NUT 2.8.5+",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/12154a072810c630f0bc9bf05a6008f86ccad955"
+                },
+                {
+                  "sha": "b384d15",
+                  "message": "nut: enable shared NSS certificate/key database for upsd and upsmon",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/b384d15813a05efaee33fec3455f6bd7f77d83e2"
+                },
+                {
+                  "sha": "04533d5",
+                  "message": "nut: enable peer certificate verification",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/04533d520674578e01d4c05553077deadd4e3797"
+                },
+                {
+                  "sha": "79db1ee",
+                  "message": "nut: enable configuring more SSL-related options",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/79db1ee5737efc35c7aec2ab27dde761bb3c03cc"
+                },
+                {
+                  "sha": "27e39ec",
+                  "message": "nut: use spaces for all non-recipe whitespace",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/27e39ec97ca87a85faba30c2666ed774c20ece1b"
+                },
+                {
+                  "sha": "cdb56f2",
+                  "message": "nut: enable SSL via NSS by default",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-19T20:00:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/cdb56f2b0a14415d4043c05c55aed53643df47c8"
+                },
+                {
                   "sha": "5c41510",
                   "message": "frp: migrate generated configuration from INI to TOML",
                   "author": "Roc Lai",
@@ -1791,55 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T06:40:07Z",
                   "url": "https://github.com/openwrt/packages/commit/cf71e9d2b3fc79937e039c66c64cd7a4ed5a6097"
-                },
-                {
-                  "sha": "2312f86",
-                  "message": "alfred: handle unreadable files in bat-hosts.lua",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/2312f86f7e7b0eb7029596a04cc878ebe648b921"
-                },
-                {
-                  "sha": "d47aa37",
-                  "message": "alfred: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/d47aa37e76355b4d3b9afccdc156959855757612"
-                },
-                {
-                  "sha": "fd018fe",
-                  "message": "batctl: fix a typo and indent consistently",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/fd018fe12f700b45f531272b2ec88b2a1c349082"
-                },
-                {
-                  "sha": "dae3f09",
-                  "message": "batctl: pass the feature switches directly",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/dae3f09cfc94787f07d7f24936a9c451fad53557"
-                },
-                {
-                  "sha": "4215a89",
-                  "message": "batctl: drop the redundant PKG_BUILD_DIR override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/4215a8932fb2b74e3511764ecfc769280862cbf2"
-                },
-                {
-                  "sha": "9b5d7f6",
-                  "message": "batctl: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:39:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b5d7f662ec328cb392efc3233490cf995c2445c"
-                },
-                {
-                  "sha": "7b12d68",
-                  "message": "transmission: rebuild against the versioned libdht",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-18T04:09:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/7b12d68dd352028f8d3c5f09ba159322de74aaeb"
                 }
               ]
             },
@@ -4646,7 +4646,7 @@
             "stars": 76310,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T19:59:43Z",
+            "pushed_at": "2026-08-19T20:01:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5cd015b",
-            "branch": "mihai/mtfe-authz-03-server",
-            "date": "2026-08-19T17:35:33Z",
-            "url": "https://github.com/grafana/grafana/commit/5cd015b68c25f6c4fee96b7d58e73436de4fac3d"
+            "sha": "0101107",
+            "branch": "docs/elasticsearch-deprecate-frozen",
+            "date": "2026-08-19T16:46:27Z",
+            "url": "https://github.com/grafana/grafana/commit/010110701b9225a1efb287903f2a0baf6984785e"
           }
         },
         {
@@ -5191,10 +5191,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d2a26eb",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-08-19T16:22:39Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/d2a26eb52b4743187b5eb520630aef81dbdfe8fe"
+            "sha": "3554d9f",
+            "branch": "gh-pages-misans-only",
+            "date": "2026-08-19T16:44:54Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/3554d9fb320829c5ec58ec088b6e7d7c45b9175e"
           }
         },
         {
