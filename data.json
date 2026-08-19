@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T20:26:36.640386Z",
+  "generated_at": "2026-08-19T20:32:00.866728Z",
   "groups": [
     {
       "id": "cores",
@@ -977,7 +977,7 @@
             "stars": 4583,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-19T20:00:56Z",
+            "pushed_at": "2026-08-19T20:27:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1632,6 +1632,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "715c606",
+                  "message": "prosody: do not drive the service through prosodyctl",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-08-19T20:27:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/715c606e57664c78dddd4382ee08a3de9324cb02"
+                },
+                {
                   "sha": "f444e3c",
                   "message": "nut: drop unnecessary postinsts",
                   "author": "Daniel F. Dickinson",
@@ -1833,13 +1840,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T07:20:18Z",
                   "url": "https://github.com/openwrt/packages/commit/d2327b45c659702b3de78fee21a29b74086f3a5c"
-                },
-                {
-                  "sha": "cf71e9d",
-                  "message": "mesh11sd: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T06:40:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/cf71e9d2b3fc79937e039c66c64cd7a4ed5a6097"
                 }
               ]
             },
@@ -4278,10 +4278,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b5ba0df",
+            "sha": "8433f71",
             "branch": "main",
-            "date": "2026-08-19T18:07:44Z",
-            "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/b5ba0df0e0dd5ba33844b8973952ede1b85066e8"
+            "date": "2026-08-19T18:05:33Z",
+            "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/8433f71fa4b0a1a7cc38bb14a1a0844b199e8d84"
           }
         },
         {
@@ -4575,7 +4575,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24387,
+            "stars": 24388,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-19T18:02:37Z",
@@ -4646,7 +4646,7 @@
             "stars": 76312,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T20:26:34Z",
+            "pushed_at": "2026-08-19T20:31:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "514cd8c",
-            "branch": "ale/oauth-7-github-enterprise",
-            "date": "2026-08-19T18:39:23Z",
-            "url": "https://github.com/grafana/grafana/commit/514cd8c92f0035c1b1732d69636b3a5339616beb"
+            "sha": "ab8a7df",
+            "branch": "nicwestvold/rspack-build-dir-flag",
+            "date": "2026-08-19T17:13:33Z",
+            "url": "https://github.com/grafana/grafana/commit/ab8a7dfbea8981a04aa1cc0b05568d155c2ed8aa"
           }
         },
         {
@@ -4979,10 +4979,10 @@
             }
           ],
           "last_commit": {
-            "sha": "522e306",
-            "branch": "dev",
-            "date": "2026-08-18T22:19:09Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
+            "sha": "b22275d",
+            "branch": "main",
+            "date": "2026-08-18T22:19:10Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
           }
         }
       ]
