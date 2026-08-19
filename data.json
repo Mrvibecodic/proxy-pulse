@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:02:29.718517Z",
+  "generated_at": "2026-08-19T18:07:46.438401Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33362,
+            "stars": 33363,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-18T00:18:57Z",
@@ -4225,12 +4225,21 @@
             "stars": 288,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
-            "pushed_at": "2026-08-07T12:02:04Z",
+            "pushed_at": "2026-08-19T18:07:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/264475107?v=4",
             "owner": "timbrs"
           },
           "releases": [
+            {
+              "name": "v1.2.5 — AmneziaWG 3.1",
+              "tag": "v1.2.5",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.2.5",
+              "published_at": "2026-08-19T18:06:38Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "## Поддержка AmneziaWG 3.1\n\n12 августа в AmneziaWG вышла версия 3.1 с двумя новыми настройками маскировки. Обе теперь работают в прокси.\n\n**Случайный хвост у рукопожатий — `AWG_RANDOM_TRAILERS=on`**\n\nРаньше первый пакет туннеля всегда весил одно и то же: 148 байт плюс ваш `S1`. То же с ответом сервера и с cookie — по одному этому размеру AmneziaWG узнавался в потоке UDP, сколько бы junk-пакетов ни отправлялось. Теперь к каждому рукопожатию дописывается случайный хвост, а приходящие рукопожатия принимаются с хвостом любой длины.\n\nДлина хвоста не «с потолка»: верхняя граница — самая большая датаграмма, увиденная на этом соединении (но не меньше 500 байт и не больше 1500), так что дополненное рукопожатие попадает в тот же диапазон размеров, что и обычный трафик туннеля.\n\nПакеты с данными прокси не трогает: там хвост кладётся внутрь шифрования и снимается WireGuard'ом на той стороне.\n\n**Настройка должна совпадать с сервером:** сервер на 3.0 меряет размеры точно и дополненное рукопожатие отбросит. В цепочке отката хвост включается на каждой ступени отдельно (`AWG_FB_RANDOM_TRAILERS`), поэтому ступень для старого сервера остаётся прежней.\n\n**Cookie-ответы можно не выпускать — `AWG_DISABLE_COOKIES=on`**\n\nCookie — служебный ответ на рукопожатие, когда сервер под нагрузкой; по нему сервер удобно зондировать. С этой настройкой такой ответ наружу не уходит. Полезно в режимах `reverse` и `server`.\n\nОбе переменные принимают и `on`/`off` (как их пишет awg-tools в `.conf`), и `1`/`0`. При включённой хотя бы одной прокси пишет в лог `proto=v3.1`.\n\n## Конфигуратор\n\n`RandomTrailers` и `DisableCookies` из `.conf` переносятся в контейнер как есть; значение, которое не является булевым, отвергается с понятной ошибкой.\n\n## Сборка релиза в GitHub Actions\n\nНовый workflow: по тегу `v*` собираются все 12 артефактов и прикладываются к релизу.\n\n## Артефакты\n\n| Файл | Куда |\n|------|------|\n| `awg-proxy-\u003carch\u003e.tar.gz` | RouterOS 7.21+ (OCI) |\n| `awg-proxy-\u003carch\u003e-7.20-Docker.tar.gz` | RouterOS 7.20 LT (classic Docker) |\n| `awg-proxy-linux-\u003carch\u003e` | статический бинарник |\n\nАрхитектуры: `arm64`, `arm` (v7), `armv5`, `amd64`. hAP ax2 — `arm64`.\n"
+            },
             {
               "name": "v1.2.4",
               "tag": "v1.2.4",
@@ -4266,15 +4275,6 @@
               "prerelease": false,
               "author": "timbrs",
               "body": "**Full Changelog**: https://github.com/timbrs/amneziawg-mikrotik-c/compare/v1.2.0...v1.2.1\r\n\r\n## [v1.2.1] — 2026-08-05\r\n\r\n### Исправлено\r\n\r\n- **Конфигуратор: коллизия WG-портов у второго туннеля (#38).** Listen-port\r\n  выводился из хеша префикса по старшим битам (`12000 + ((h \u003e\u003e\u003e 18) % 20000)`),\r\n  а они не меняются от последней цифры имени: все `awg-proxy-1..5` получали\r\n  25343, все `awg-server-1..2` — 25081. Второй туннель на том же роутере не\r\n  поднимался — порт занят. Теперь порт случайный (10000–60000) во всех режимах;\r\n  серверный уезжает в share-ссылку, поэтому клиенты, добавленные по ней,\r\n  по-прежнему указывают на тот же порт. Veth-подсеть осталась детерминированной:\r\n  её пересчитывает из префикса скрипт удаления.\r\n- **Конфигуратор: фиксированные подсети туннеля.** `10.10.10.0/24` (сервер) и\r\n  `10.0.0.0/30` (site-to-site) выдавались всем, поэтому второй туннель занимал\r\n  те же адреса. Подсеть выбирается случайно при первой инициализации панели\r\n  (`10.20–250.x`); ручной ввод и значение из share-ссылки не перетираются.\r\n- **Конфигуратор: скрипт не запускался на CHR (#38).** Блок определения\r\n  архитектуры обращался к `/system/routerboard/get model`, которого на CHR нет:\r\n  RouterOS падал на разборе скрипта, до того как `on-error` мог сработать, и\r\n  контейнер не скачивался. Обращение обёрнуто в `:parse`, разбор откладывается\r\n  до выполнения.\r\n- **Конфигуратор (старый `configurator.html`): I1–I5 в серверном режиме (#38).**\r\n  CPS-шаблоны шли только в клиентский `.conf`, а серверный контейнер оставался\r\n  без них — хотя хаб тоже инициирует handshake и шлёт junk + CPS в обратную\r\n  сторону. `conf3.0.html` это уже делал.\r\n- **Сборка armv5.** Docker Hub убрал `linux/arm/v5` из манифеста\r\n  `debian:bookworm-slim`, из-за чего публикация образа на теге v1.2.0 упала, а\r\n  локальная сборка работала лишь на старом кеше. База вынесена в `ARG BASE`;\r\n  armv5 собирается из `arm32v5/debian:bookworm-slim`. Из матрицы CI платформа\r\n  armv5 убрана — артефакт для неё выпускается локально через `build-c.sh`.\r\n"
-            },
-            {
-              "name": "v1.2.0",
-              "tag": "v1.2.0",
-              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.2.0",
-              "published_at": "2026-08-05T09:01:30Z",
-              "prerelease": false,
-              "author": "timbrs",
-              "body": "## [v1.2.0] — 2026-08-05\r\n\r\n### AmneziaWG 3.0\r\n\r\n#### Реализована поддержка AmneziaWG 3.0:\r\n- **Header protection.** Заголовок пакета шифруется ChaCha20 (RFC 8439) на\r\n  `AWG_HEADER_PROTECTION_KEY`, nonce — первые 12 байт S-паддинга. У transport\r\n  шифруются 16 байт заголовка (`Type` + `Receiver` + `Counter`), у handshake\r\n  init/response/cookie reply — сообщение целиком. Отсюда требование\r\n  `AWG_S1`…`AWG_S4` \u003e= 12.\r\n- Без ключа поведение **байт в байт** совпадает с v2: ветка ChaCha20 не\r\n  вызывается ни разу — как и в `amneziawg-go` при нулевом ключе.\r\n- `AWG_REJECT_AFTER`, `AWG_CONTENT_PADDING`, `AWG_REKEY_AFTER`,\r\n  `AWG_REKEY_TIMEOUT`, `AWG_KEEPALIVE_TIMEOUT`, `AWG_MAX_HANDSHAKE_ATTEMPTS`\r\n  принимаются и пишутся в лог как неэмулируемые, чтобы `.conf` от провайдера\r\n  переносился без потерь. При `AWG_REJECT_AFTER` с нижней границей \u003c 150 с —\r\n  WARN о вероятных периодических обрывах.\r\n\r\n### IPv6 на плече до сервера\r\n\r\nТолько `AWG_REMOTE` (контейнер → AWG-сервер). Приём от WG-клиента\r\n(`AWG_LISTEN`) остаётся IPv4 — это veth внутри роутера.\r\n\r\n- Резолв на `AF_UNSPEC` с сохранением обеих записей, разбор `[addr]:port`,\r\n  `sockaddr_storage`, `IPV6_MTU_DISCOVER`, `IPV6_V6ONLY`, локальный bind по\r\n  семье выбранного адреса. Голый IPv6-литерал без скобок отвергается: порт\r\n  отделяется двоеточием, и без скобок форма неоднозначна.\r\n- **Happy Eyeballs (RFC 8305), адаптированный под UDP.** У UDP нет\r\n  рукопожатия, поэтому признак живости один — первый пакет от сервера. При\r\n  наличии A и AAAA поднимаются два сокета, IPv4 получает фору `AWG_HE_DELAY`\r\n  (250 мс), затем тот же пакет дублируется по IPv6. Обе копии несут один\r\n  TAI64N, так что сервер отвергает вторую как реплей и отвечает один раз.\r\n  Побеждает семья, чей пакет пришёл первым; проигравший сокет закрывается —\r\n  в установившемся режиме накладных расходов нет.\r\n- Периодический DNS-ре-резолв сравнивает записи **по семье и байтам адреса**:\r\n  иначе у dual-stack имени A-запись прикрывала бы исчезнувшую AAAA.\r\n- WARN с предельным MTU при фактическом подключении по IPv6.\r\n\r\n### MTU\r\n\r\n- Исправлена формула в README: раньше приводилась только для IPv4. Заголовок\r\n  IPv6 на 20 байт длиннее, и та же конфигурация даёт `1504 + S4` вместо\r\n  `1484 + S4` — предел 1500 пробит уже при `S4 = 0`.\r\n\r\n  ```\r\n  IPv4:  floor((1440 - S4) / 16) * 16      # S4=0 -\u003e 1440,  S4=16 -\u003e 1424\r\n  IPv6:  floor((1420 - S4) / 16) * 16      # S4=0 -\u003e 1408,  S4=16 -\u003e 1392\r\n  ```\r\n\r\n### Цепочка отката\r\n\r\n- Расширена до четырёх ступеней: `AWG_FB_*`, `AWG_FB2_*`, `AWG_FB3_*`\r\n  (типовая цепочка v3 → v2 → v1.5 → v1). Инициатор пробует следующую ступень\r\n  после `AWG_FB_AFTER` секунд тишины; в режиме `server` профиль запоминается\r\n  **на каждого клиента** отдельно, поэтому клиенты на разных версиях не\r\n  перебивают друг друга. Ненулевой `AWG_S4` в цепочке разрешён — headroom\r\n  буфера считается как максимум S4 по всем ступеням.\r\n\r\n### Конфигуратор\r\n\r\n- Новая страница `docs/conf3.0.html`: параметры v3, галочка «сервер доступен по\r\n  IPv6» с автовключением по литералу в endpoint, формула MTU по семье,\r\n  скобки в `AWG_REMOTE` и `Endpoint` для IPv6, блок `:resolve type=ipv6` на\r\n  роутере под `on-error` (параметр `type=` есть не во всех сборках\r\n  RouterOS 7.x — при его отсутствии установка не падает, MTU остаётся\r\n  IPv4-шным). Для IPv6-сервера пропускается защита от петли маршрутизации:\r\n  policy-routing всё равно только IPv4.\r\n- `docs/configurator.html` помечен устаревшим и заморожен.\r\n\r\n### Тесты\r\n\r\n- Новые таргеты `make test-chacha20`, `make test-gro`, `make test-mtu`;\r\n  `make test` — 142 проверки.\r\n- `make test-stress` — 13 сценариев, новые `ipv6_remote` и `happy_eyeballs`.\r\n- Интероп-стенд `bench/awg3-interop`: wireguard-go → awg-proxy →\r\n  amneziawg-go v3.0.3, плюс v0.2.19 как отдельная до-3.0 реализация. Матрица\r\n  54/54 — v1/v1.5/v2/v3 против обеих семей, негативные контроли header\r\n  protection, проверка типа на проводе, фрагментация по IPv6 с контролем,\r\n  Happy Eyeballs с чёрной дырой на IPv4.\r\n- `tests/conf3.0-ipv6.test.js` — 61 проверка конфигуратора на jsdom.\r\n\r\n### Новые переменные окружения\r\n\r\n`AWG_HEADER_PROTECTION_KEY`, `AWG_HE_DELAY`, `AWG_FB2_*`, `AWG_FB3_*`,\r\n`AWG_REJECT_AFTER`, `AWG_CONTENT_PADDING`, `AWG_REKEY_AFTER`,\r\n`AWG_REKEY_TIMEOUT`, `AWG_KEEPALIVE_TIMEOUT`, `AWG_MAX_HANDSHAKE_ATTEMPTS`.\r\n\r\n---"
             }
           ],
           "last_commit": {
@@ -4578,7 +4578,7 @@
             "stars": 24384,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T15:48:01Z",
+            "pushed_at": "2026-08-19T18:02:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4646,7 +4646,7 @@
             "stars": 76308,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-19T17:58:47Z",
+            "pushed_at": "2026-08-19T18:06:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4699,10 +4699,10 @@
             }
           ],
           "last_commit": {
-            "sha": "89d2e5d",
-            "branch": "kristina/time-compare-tooltip",
-            "date": "2026-08-19T16:23:46Z",
-            "url": "https://github.com/grafana/grafana/commit/89d2e5d665e1925553b345f0c0ecaa4d9786125a"
+            "sha": "7ceb833",
+            "branch": "backport-131047-to-release-13.0.8",
+            "date": "2026-08-19T15:35:09Z",
+            "url": "https://github.com/grafana/grafana/commit/7ceb83348cc2d27a77755caaf29a35d13270c703"
           }
         },
         {
@@ -4979,10 +4979,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b22275d",
-            "branch": "main",
-            "date": "2026-08-18T22:19:10Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
+            "sha": "522e306",
+            "branch": "dev",
+            "date": "2026-08-18T22:19:09Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
           }
         }
       ]
@@ -5191,10 +5191,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bc3987a",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-08-19T16:22:35Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/bc3987a389f456d5aec41bf12ffedb96ad7b3ed8"
+            "sha": "4a7d194",
+            "branch": "main",
+            "date": "2026-08-19T16:21:32Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/4a7d194a4b44f62e60435789532f2e0dacfebc3a"
           }
         },
         {
