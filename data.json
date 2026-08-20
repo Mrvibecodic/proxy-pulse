@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:19:37.676483Z",
+  "generated_at": "2026-08-20T20:24:51.997460Z",
   "groups": [
     {
       "id": "cores",
@@ -4234,7 +4234,7 @@
             "stars": 289,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
-            "pushed_at": "2026-08-20T20:17:38Z",
+            "pushed_at": "2026-08-20T20:22:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/264475107?v=4",
             "owner": "timbrs"
@@ -4247,7 +4247,7 @@
               "published_at": "2026-08-20T20:01:30Z",
               "prerelease": false,
               "author": "timbrs",
-              "body": "## Скорость\r\n\r\nОптимизация скорости и исправление потерь пакетов."
+              "body": "Оптимизация скорости и исправление потерь пакетов.\n\n## Что нового\n\n- **`AWG_STATS=\u003cсекунды\u003e`** — периодическая строка со счётчиками: сколько пакетов не смогли отправить мы, сколько выбросило ядро и какой из двух сокетов переполнился. Снаружи контейнера эти потери не видны. По умолчанию выключено.\n- **`AWG_SPIN=\u003cмкс\u003e`** — вместо сна поток перечитывает сокет неблокирующе, чтобы не терять всплески от WireGuard. `AWG_SPIN=auto` подбирает значение сам. По умолчанию 0.\n- **Предупреждение о фрагментации.** Если исходящая датаграмма не помещается в 1500 байт, прокси один раз пишет в лог готовое значение MTU для WireGuard-интерфейса.\n- **Отчёт о ручках ядра при старте** — какие приняты, какие отвергнуты и почему. `AWG_BUSY_POLL` на RouterOS не работает: ядро собрано без `CONFIG_NET_RX_BUSY_POLL`.\n- **Конфигуратор** раскладывает потоки прокси по разным ядрам на роутерах с 4+ ядрами.\n\n## Исправлено\n\n- **UDP GRO больше не выключается навсегда** — раньше он гас после нескольких «неслипшихся» чтений, которых хватало на простое от keepalive. Теперь переоткрывается.\n\n## Артефакты\n\n| Файл | Куда |\n|------|------|\n| `awg-proxy-\u003carch\u003e.tar.gz` | RouterOS 7.21+ (OCI) |\n| `awg-proxy-\u003carch\u003e-7.20-Docker.tar.gz` | RouterOS 7.20 LT (classic Docker) |\n| `awg-proxy-linux-\u003carch\u003e` | статический бинарник |\n\nАрхитектуры: `arm64`, `arm` (v7), `armv5`, `amd64`. hAP ax2 — `arm64`.\n"
             },
             {
               "name": "v1.2.5 — AmneziaWG 3.1",
@@ -4328,10 +4328,10 @@
             }
           ],
           "last_commit": {
-            "sha": "70daf71",
+            "sha": "8dbf252",
             "branch": "main",
-            "date": "2026-08-20T15:45:51Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/70daf711e4c91a873c36214c2e44ceeeac322fe8"
+            "date": "2026-08-20T17:25:43Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/8dbf252474338db8359121c257ea68b9b11396ed"
           }
         },
         {
@@ -4516,7 +4516,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90407,
+            "stars": 90406,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-20T00:33:05Z",
@@ -4584,7 +4584,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24425,
+            "stars": 24426,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-19T18:02:37Z",
@@ -4655,7 +4655,7 @@
             "stars": 76331,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-20T20:19:21Z",
+            "pushed_at": "2026-08-20T20:24:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4791,7 +4791,7 @@
             "stars": 80244,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-20T19:25:03Z",
+            "pushed_at": "2026-08-20T20:24:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4988,10 +4988,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b22275d",
-            "branch": "main",
-            "date": "2026-08-18T22:19:10Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
+            "sha": "522e306",
+            "branch": "dev",
+            "date": "2026-08-18T22:19:09Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
           }
         }
       ]
