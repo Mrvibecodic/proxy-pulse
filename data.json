@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:47:05.826065Z",
+  "generated_at": "2026-08-20T17:52:21.198175Z",
   "groups": [
     {
       "id": "cores",
@@ -986,7 +986,7 @@
             "stars": 4584,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-20T13:23:34Z",
+            "pushed_at": "2026-08-20T17:49:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "112e857",
+                  "message": "coredns: update to 1.14.7",
+                  "author": "Vladimir Ermakov",
+                  "date": "2026-08-20T17:49:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/112e8576d6449f0b85bd87096dc47267f29ad246"
+                },
+                {
+                  "sha": "904a465",
+                  "message": "docker-compose: update to version 5.5.0",
+                  "author": "Javier Marcet",
+                  "date": "2026-08-20T17:49:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/904a46524d9ea77f3bde046ba54f7b562c381548"
+                },
+                {
                   "sha": "79f567c",
                   "message": "golang: bump 1.26 to 1.26.7",
                   "author": "George Sapkin",
@@ -1835,20 +1849,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T08:04:02Z",
                   "url": "https://github.com/openwrt/packages/commit/53bafc09a375230009552845a86005148b57c73c"
-                },
-                {
-                  "sha": "fe1e65b",
-                  "message": "batman-adv: use return instead of continue in the migration script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T08:04:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe1e65bed7e3fd7e9b892724a1f039ade9ce4eb8"
-                },
-                {
-                  "sha": "8113f46",
-                  "message": "batman-adv: drop the vestigial conffiles entry",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T08:04:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/8113f464747d6f405ebe411f1c385bed4e6c3dae"
                 }
               ]
             },
@@ -4516,7 +4516,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90403,
+            "stars": 90404,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-20T00:33:05Z",
@@ -4652,10 +4652,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76327,
+            "stars": 76328,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-20T17:47:07Z",
+            "pushed_at": "2026-08-20T17:48:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e2cf36a",
-            "branch": "main",
-            "date": "2026-08-20T14:41:48Z",
-            "url": "https://github.com/grafana/grafana/commit/e2cf36a64979545f1c22a04fc8449e580040e801"
+            "sha": "ce01801",
+            "branch": "MattIPv4/lazy-codemirror",
+            "date": "2026-08-20T15:46:46Z",
+            "url": "https://github.com/grafana/grafana/commit/ce01801dc560458ff6d231f9441b9630fbe101eb"
           }
         },
         {
