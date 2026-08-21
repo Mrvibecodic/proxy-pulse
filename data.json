@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T17:14:36.190050Z",
+  "generated_at": "2026-08-21T17:20:06.431902Z",
   "groups": [
     {
       "id": "cores",
@@ -4584,7 +4584,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24507,
+            "stars": 24508,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-19T18:02:37Z",
@@ -4652,10 +4652,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76341,
+            "stars": 76342,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-21T17:13:53Z",
+            "pushed_at": "2026-08-21T17:18:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cae56d8",
-            "branch": "leeoniya/luxon-millis-truncate",
-            "date": "2026-08-21T17:13:54Z",
-            "url": "https://github.com/grafana/grafana/commit/cae56d878501ee56925cc66c843edadf5343d1f8"
+            "sha": "12241a7",
+            "branch": "fcai/resources-changed-bucket",
+            "date": "2026-08-21T17:18:01Z",
+            "url": "https://github.com/grafana/grafana/commit/12241a711f4817067f0db0b65825b28620c66eca"
           }
         },
         {
@@ -4935,7 +4935,7 @@
             "stars": 18,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-08-21T17:09:14Z",
+            "pushed_at": "2026-08-21T17:16:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -4945,10 +4945,10 @@
               "name": "1.4.3",
               "tag": "v1.4.3",
               "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.4.3",
-              "published_at": "2026-08-21T17:10:08Z",
+              "published_at": "2026-08-21T17:16:52Z",
               "prerelease": false,
               "author": "Mrvibecodic",
-              "body": "### Исправлено\n\n**Platega: оплата больше не «зависает» из-за покалеченного payload.** Platega вернула payload с известным получателем и без срока подписки — бот поднимал тревогу «срок определить не удалось», хотя срок лежал в строке счёта. Теперь строка счёта читается всегда, когда срока нет в payload (так уже работали ЮKassa и Heleket), а разбор payload терпит порчу разделителя. При настоящем отказе сырой payload попадает в журнал платежей.\n\nВыдача при этом не терялась и раньше: фоновая сверка счетов добивала подписку в течение минуты — но админ получал ложную тревогу, а покупатель успевал увидеть пугающее сообщение.\n\n**Сообщение «срок определить не удалось» покупателю.** Больше не уходит от способов с фоновой сверкой (ЮKassa, CryptoBot, Platega, Heleket) — там подписка обычно выдаётся сама. У Telegram Stars сверки нет, там сообщение осталось. В уведомление админа добавлен покупатель.\n\n---\n\nОбновление: `docker compose pull \u0026\u0026 docker compose up -d` (тег `:v1`) или `/update` из бота."
+              "body": "## 🐛 Исправлено\n\n1. **Platega — оплата с неполным `payload`.** Если платёжка вернула транзакцию без срока подписки, срок берётся из строки счёта (так уже работали ЮKassa и Heleket). Разбор `payload` терпит порчу разделителя, а при настоящем отказе строка пишется в журнал платежей.\n2. **Лишнее сообщение покупателю.** «Срок определить не удалось» больше не уходит от способов с фоновой сверкой счетов — ЮKassa, CryptoBot, Platega, Heleket: там выдача добивается сама. У Telegram Stars сверки нет, там сообщение осталось.\n3. **Уведомление админа.** В него добавлен покупатель — разбирать такие случаи теперь можно, не заглядывая в журнал.\n\n---\n\nОбновление: `docker compose pull \u0026\u0026 docker compose up -d` (тег `:v1`) или `/update` из бота."
             },
             {
               "name": "1.4.2",
