@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:57:55.755909Z",
+  "generated_at": "2026-08-21T10:03:10.729423Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41142,
+            "stars": 41143,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-21T09:35:30Z",
@@ -220,12 +220,21 @@
             "stars": 35,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-21T09:05:39Z",
+            "pushed_at": "2026-08-21T10:02:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.24",
+              "tag": "v26.8.24",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.24",
+              "published_at": "2026-08-21T10:03:14Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Fixed an H2MUX server lifecycle race that could panic with `Header called after Handler finished` when an upstream close raced a late response write/flush.\n- Updated the build toolchain to Go 1.27.0.\n- Improved cold H2MUX session readiness by requiring an HTTP/2 PING acknowledgement before publishing a client session.\n\n## Fork fixes\n\n- Made H2MUX stream close wait for active writes and reject writes after handler shutdown.\n- Aligned sing-mux padding lengths with the canonical 256–767 byte range.\n- Fixed SMUX v1 receive head-of-line stalls with balanced per-stream buffering and bounded one-frame ingress credit.\n- Hardened Mihomo startup/reconnect interoperability using its post-up readiness contract.\n\n## Upstream changes\n\n- Merged the current upstream Xray-core changes and dependency updates, including `golang.org/x/net` v0.58.0.\n\n## Compatibility notes\n\n- No configuration migration is required.\n- The padding reader remains compatible with valid non-canonical peer padding lengths and contents.\n- Built with Go 1.27.0 for the release workflow.\n\n## Validation\n\n- Unit, race, checkptr, SMUX/H2MUX/VLESS interoperability, reconnect stress, RemnaNode integration, and Linux/amd64 build checks were exercised.\n- The functional and stress suites passed. The pre-release performance comparison reported a VLESS median regression of 15–19% against its 10% policy threshold; this release was explicitly authorized despite that performance-only gate.\n"
+            },
             {
               "name": "Xray-core v26.8.23",
               "tag": "v26.8.23",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Completes the hardened Hysteria 2.12.1 transport integration proposed in XTLS/Xray-core#6565.\n- Fixes a rare SMUX stale-carrier recovery race found by the native Linux reconnect gate.\n- Restores predictable releases: publishing now starts only the binary matrix, while native validation remains a separate explicit pre-release workflow.\n- `v26.8.19` did not produce release assets; operators should use `v26.8.20`.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility coverage for the new QUIC options.\n- Adds optional Realm UPnP/NAT-PMP mapping with bounded discovery, lease renewal, rollback, zero-lifetime deletion, and deterministic cleanup.\n- Ensures Realm, Hysteria, and XHTTP/3 listener shutdown releases owned sockets, timers, goroutines, and mapping leases.\n- Clones shared TLS configuration before applying QUIC client behavior and propagates Brutal loss-compensation settings through every affected path.\n- Corrects SMUX response recovery when a stale write returns success after the peer carrier has failed. Readers now distinguish an early replacement from a completed writer and replay the bounded pre-response payload exactly once.\n- Moves validation into `.github/workflows/pre-release-validation.yml`; `.github/workflows/release.yml` is build-only and no longer runs on ordinary pushes or pull requests.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` remains an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated against the fork's current QUIC paths and completed with lifecycle, compatibility, and error-path hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their wire numbers; new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` for custom certificate callbacks or incompatible TLS behavior.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves prior behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6` and defaults to `dual`.\n- No SMUX wire bytes changed; the reconnect fix changes only local recovery coordination.\n\n## Validation\n\n- Affected unit, race, checkptr, vet, formatting, module-integrity, YAML, release-contract, and external-mux dependency gates passed on Go 1.26.5.\n- Xray, sing-box, and Mihomo Hysteria interoperability passed all 9/9 process executions.\n- The SMUX hardening harness passed 400/400 reconnect cycles across eight Xray/sing-box/Mihomo direction and carrier topologies on Darwin/arm64; this is harness evidence, not Linux capacity evidence.\n- The initial native Linux matrix passed six of eight 50-cycle SMUX topologies; its two Mihomo/VLESS failures exposed a restart-readiness flaw in the harness.\n- Native Linux follow-up run 31818742469 passed both corrected Mihomo/VLESS directions for 50/50 cycles each on the exact release commit; checked loopback error/drop deltas remained zero.\n"
-            },
-            {
-              "name": "Xray-core v26.8.19",
-              "tag": "v26.8.19",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.19",
-              "published_at": "2026-08-14T13:04:00Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Integrates the Hysteria 2.12.1 transport updates proposed in XTLS/Xray-core#6565 and completes the server-side lifecycle and error-handling work needed by this fork.\n- Adds optional UPnP and NAT-PMP port mapping for Realm, together with `ipMode` selection for dual-stack, IPv4-only, and IPv6-only deployments.\n- Adds QUIC controls for Chrome-style transport behavior, GSO, and Brutal loss compensation.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility tests to prevent wire/config regressions.\n- Makes Realm mapping leases deterministic: bounded discovery and requests, early renewal, rollback after ambiguous failures, real zero-lifetime NAT-PMP deletion, and cleanup error propagation.\n- Closes Realm constructor and shutdown leaks and serializes renew/close ownership to avoid timer and goroutine races.\n- Ensures Hysteria and XHTTP/3 listeners release UDP sockets and wait for owned accept/client goroutines during shutdown.\n- Clones TLS configuration before applying QUIC client behavior instead of mutating shared state.\n- Propagates Brutal loss-compensation configuration through every affected runtime path.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` is already an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated, reviewed against this fork's current QUIC paths, and completed with regression coverage and lifecycle hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their original numbers; the new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` when custom certificate callbacks or non-compatible TLS behavior require it.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves the previous behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6`, and defaults to `dual`.\n\n## Validation\n\n- Affected unit tests passed on Go 1.26.5.\n- Affected race, `checkptr`, `go vet`, formatting, module-integrity, and dependency-ban gates passed.\n- Xray, sing-box, and Mihomo Hysteria process interoperability passed 9/9 executions.\n- The XHTTP/3 HandlerService removal probe confirmed that the UDP listener is released.\n- A static Linux/amd64 release-style cross-build passed (`a3b07b4422695ebbdc1288a0f7830ef909516a92181323da68a116ebddad4d77`). Native Linux validation and the full platform asset matrix are enforced by the release workflow.\n"
             }
           ],
           "last_commit": {
@@ -915,7 +915,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28054,
+            "stars": 28055,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-21T09:38:04Z",
@@ -971,10 +971,10 @@
             }
           ],
           "last_commit": {
-            "sha": "feaa1e6",
-            "branch": "openwrt-25.12",
-            "date": "2026-08-21T09:38:05Z",
-            "url": "https://github.com/openwrt/openwrt/commit/feaa1e685a8f874a88ab96cd6aeb1858d01d3415"
+            "sha": "193648a",
+            "branch": "main",
+            "date": "2026-08-21T06:58:03Z",
+            "url": "https://github.com/openwrt/openwrt/commit/193648a73a472460620c74a96d6496b791185d2c"
           }
         },
         {
@@ -4584,7 +4584,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24492,
+            "stars": 24493,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-19T18:02:37Z",
@@ -4655,7 +4655,7 @@
             "stars": 76337,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-21T09:52:20Z",
+            "pushed_at": "2026-08-21T10:03:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d35291",
-            "branch": "alexk/homepage-synthetics",
-            "date": "2026-08-21T07:06:01Z",
-            "url": "https://github.com/grafana/grafana/commit/7d352910bb0c9ae4a4b6349f573212118f41cbbd"
+            "sha": "caeae20",
+            "branch": "MissingRoberto/provisioning-resource-size-histogram",
+            "date": "2026-08-21T10:03:02Z",
+            "url": "https://github.com/grafana/grafana/commit/caeae2026b5849db2e948ba1cd21aa95379e0105"
           }
         },
         {
