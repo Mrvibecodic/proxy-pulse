@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T11:48:23.295549Z",
+  "generated_at": "2026-08-21T11:53:37.897267Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37177,
+            "stars": 37178,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-21T04:43:19Z",
@@ -986,7 +986,7 @@
             "stars": 4585,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-20T17:49:51Z",
+            "pushed_at": "2026-08-21T11:50:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b785b5c",
+                  "message": "python-userpath: remove package",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-21T11:50:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/b785b5c631d4a100fabe0fba1c34146be3275246"
+                },
+                {
+                  "sha": "89ac973",
+                  "message": "pipx: remove package",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-21T11:50:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/89ac973b99b2d2decfc8aa69cb4c7e2ca3c2ab9b"
+                },
+                {
                   "sha": "112e857",
                   "message": "coredns: update to 1.14.7",
                   "author": "Vladimir Ermakov",
@@ -1835,20 +1849,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T08:13:38Z",
                   "url": "https://github.com/openwrt/packages/commit/710515739349051f03a9e10d1a90a994e1ef13fb"
-                },
-                {
-                  "sha": "121382f",
-                  "message": "syslog-ng: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T08:12:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/121382fd7ee527ce01e850081400e699199d6dd4"
-                },
-                {
-                  "sha": "53bafc0",
-                  "message": "batman-adv: fix build against kernels backporting kmalloc_obj",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T08:04:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/53bafc09a375230009552845a86005148b57c73c"
                 }
               ]
             },
@@ -4516,7 +4516,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90430,
+            "stars": 90431,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-21T10:54:22Z",
@@ -4655,7 +4655,7 @@
             "stars": 76335,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-21T11:43:11Z",
+            "pushed_at": "2026-08-21T11:53:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4791,7 +4791,7 @@
             "stars": 80249,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-21T11:48:18Z",
+            "pushed_at": "2026-08-21T11:52:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4988,10 +4988,10 @@
             }
           ],
           "last_commit": {
-            "sha": "522e306",
-            "branch": "dev",
-            "date": "2026-08-18T22:19:09Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/522e306854a43feedee9fdf085837ab8c850ba72"
+            "sha": "b22275d",
+            "branch": "main",
+            "date": "2026-08-18T22:19:10Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/b22275d9f03dd7e8de7792ac758f74024fda950e"
           }
         }
       ]
