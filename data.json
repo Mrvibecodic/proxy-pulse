@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T09:19:21.159811Z",
+  "generated_at": "2026-08-22T09:24:35.003335Z",
   "groups": [
     {
       "id": "cores",
@@ -3433,7 +3433,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 510,
+            "stars": 511,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4519,12 +4519,21 @@
             "stars": 90461,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-22T09:15:58Z",
+            "pushed_at": "2026-08-22T09:20:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.3",
+              "tag": "2.5.3",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.3",
+              "published_at": "2026-08-22T09:20:48Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7754 fix: release with wrong version number \r\n\r\n"
+            },
             {
               "name": "2.5.2",
               "tag": "2.5.2",
@@ -4560,15 +4569,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🆕 New Features\r\n- #7434 feat(notification): add EgoSMS SMS provider for Uganda (Thanks @kristianinc @cursoragent)\r\n- #7420 feat: Add incidents to RSS (Thanks @dj-tuxis)\r\n- #7365 feat: Add VKTeams bot notification provider (Thanks @aleshasam)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7433 feat: add optional token field for gamedig monitors (Thanks @aminoacidity)\r\n- #7415 feat: Adding bearer token  (Thanks @aminoacidity @nyeswant)\r\n- #7431 fix: Add bearer token support to WebSocket upgrade monitor (Thanks @aminoacidity @nyeswant)\r\n- #7373 fix: update link to documentation about API keys (Thanks @eleanordoesntcode)\r\n\r\n### 🐞 Bug Fixes\r\n- ~#7453 fix(docker-only): add Let's Encrypt Gen Y root certificates~ (Please ignore this change)\r\n- #7451 fix: handling npm 11.16.0 \r\n- #7351 fix: NTLM monitor over plain HTTP fails with 400 Bad Request (Thanks @karzac)\r\n\r\n### ⬆️ Security Fixes\r\n-  (Admin only/Authenticated only) Fix: LiquidJS is Vulnerable to Remote Code Execution, a vulnerability from an upstream dependency. In Uptime Kuma, LiquidJS should be used in notification template. (https://github.com/advisories/GHSA-gf2q-c269-pqgc)\r\n\r\n### 🦎 Translation Contributions\r\n- #7366 #7353 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @Arden-Ahmad @bartoostveen @cyril59310 @dodog @Gringit @helakostain @ivanbratovic @Jumala9163 @Kf637 @master3395 @MrEddX @OnyxOracle @PolarniMeda @samsilveira @toniv90 @ttymayor @Virenbar @xuantan97)\r\n\r\n### Others\r\n- #7432 chore: Implement dev data directory handling for non-master branches \r\n- #7390 fix: normalize hidden log level lookup (Thanks @aqilaziz)"
-            },
-            {
-              "name": "2.3.2",
-              "tag": "2.3.2",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.2",
-              "published_at": "2026-05-03T16:15:29Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #7346 fix: Revert back from multiple connection to single connection for SQLite by default \r\n\r\n"
             }
           ],
           "last_commit": {
