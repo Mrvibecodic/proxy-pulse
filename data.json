@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:59:52.695787Z",
+  "generated_at": "2026-08-22T15:05:09.391172Z",
   "groups": [
     {
       "id": "cores",
@@ -986,7 +986,7 @@
             "stars": 4585,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-22T14:58:43Z",
+            "pushed_at": "2026-08-22T14:59:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0521bb5",
+                  "message": "ccid: update to 1.8.2",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-22T14:59:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/0521bb56793387788798e4a69b84d96766ed54e2"
+                },
+                {
+                  "sha": "5e35ea6",
+                  "message": "pcsc-lite: update to 2.5.1",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-22T14:59:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e35ea65fefa9bfced23ff766c21b2a549733588"
+                },
+                {
                   "sha": "952f8de",
                   "message": "libp11: update to 0.4.20",
                   "author": "Daniel Golle",
@@ -1835,20 +1849,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-18T14:25:47Z",
                   "url": "https://github.com/openwrt/packages/commit/cacb362ff0948ef36119d944407ecf460cebf9a1"
-                },
-                {
-                  "sha": "397c291",
-                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T13:00:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/397c29176b12908cc3e16c3ce0612a6441a9b00c"
-                },
-                {
-                  "sha": "7bc6592",
-                  "message": "openzwave: rename version check test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T09:18:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/7bc659273b0e12b10bc1299a72528a28850e8f78"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76346,
+            "stars": 76347,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-22T14:15:39Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65769,
+            "stars": 65770,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-22T02:00:27Z",
