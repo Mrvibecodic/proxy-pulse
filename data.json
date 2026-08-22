@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T00:35:37.963577Z",
+  "generated_at": "2026-08-22T00:40:53.303583Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41150,
+            "stars": 41149,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-21T09:35:30Z",
@@ -986,7 +986,7 @@
             "stars": 4585,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-21T20:56:25Z",
+            "pushed_at": "2026-08-22T00:40:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6c1baac",
+                  "message": "python3: stop forcing the ncursesw/{ncurses,panel}.h checks to \"no\"",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-22T00:40:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c1baacc1d4ef443b2ca762384d68982832abc4a"
+                },
+                {
                   "sha": "7903ec3",
                   "message": "croc: update to v11.2.2",
                   "author": "Jonas Jelonek",
@@ -1842,13 +1849,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T09:18:07Z",
                   "url": "https://github.com/openwrt/packages/commit/cee73452be61ede0c92b221b87c500bc0f66c227"
-                },
-                {
-                  "sha": "44a0ea3",
-                  "message": "attr: check the version in test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T09:18:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/44a0ea3dd828d2eeea41be99dad7b8743cf7a0b4"
                 }
               ]
             },
