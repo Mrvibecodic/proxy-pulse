@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:44:15.868649Z",
+  "generated_at": "2026-08-22T14:59:52.695787Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33437,
+            "stars": 33438,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-21T16:42:40Z",
@@ -986,7 +986,7 @@
             "stars": 4585,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-22T00:40:54Z",
+            "pushed_at": "2026-08-22T14:58:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "952f8de",
+                  "message": "libp11: update to 0.4.20",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-22T14:58:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/952f8de4b51c6612a352bbf326da75692daf054a"
+                },
+                {
                   "sha": "6c1baac",
                   "message": "python3: stop forcing the ncursesw/{ncurses,panel}.h checks to \"no\"",
                   "author": "Daniel Golle",
@@ -1842,13 +1849,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T09:18:07Z",
                   "url": "https://github.com/openwrt/packages/commit/7bc659273b0e12b10bc1299a72528a28850e8f78"
-                },
-                {
-                  "sha": "cee7345",
-                  "message": "domoticz: rename version check test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T09:18:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/cee73452be61ede0c92b221b87c500bc0f66c227"
                 }
               ]
             },
@@ -4788,7 +4788,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80260,
+            "stars": 80261,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-22T13:15:54Z",
