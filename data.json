@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T08:42:25.135500Z",
+  "generated_at": "2026-08-22T08:47:38.532365Z",
   "groups": [
     {
       "id": "cores",
@@ -3501,7 +3501,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16042,
+            "stars": 16041,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4519,12 +4519,21 @@
             "stars": 90461,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-22T08:35:05Z",
+            "pushed_at": "2026-08-22T08:44:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.2",
+              "tag": "2.5.2",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.2",
+              "published_at": "2026-08-22T08:44:26Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n\r\nFix: Non-docker installation was broken in 2.5.1 (issue: #7752)"
+            },
             {
               "name": "2.5.1",
               "tag": "2.5.1",
@@ -4560,15 +4569,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n- #7346 fix: Revert back from multiple connection to single connection for SQLite by default \r\n\r\n"
-            },
-            {
-              "name": "2.3.1",
-              "tag": "2.3.1",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.1",
-              "published_at": "2026-05-03T13:40:11Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #7307 fix: Add `busy_timeout` to sqlite to avoid error `SQLITE_BUSY: database is locked` (Thanks @wagnerand)\r\n\r\n### Others\r\n- #7340 chore: Update dependencies \r\n- #7345 chore: update to 2.3.1\r\n- #7344 fix(push): use multi-arch Node base in push image Dockerfile (Thanks @herwinz)\r\n"
             }
           ],
           "last_commit": {
