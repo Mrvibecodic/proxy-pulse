@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T06:47:07.116720Z",
+  "generated_at": "2026-08-22T06:52:22.156921Z",
   "groups": [
     {
       "id": "cores",
@@ -3501,7 +3501,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16041,
+            "stars": 16042,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4519,12 +4519,21 @@
             "stars": 90458,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-22T06:40:43Z",
+            "pushed_at": "2026-08-22T06:50:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.1",
+              "tag": "2.5.1",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.1",
+              "published_at": "2026-08-22T06:50:57Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🆕 New Features\r\n- #7720 feat: add SMS Gateway notification provider (Thanks @mattboston)\r\n- #7677 feat: Add ClickUp notification provider (Thanks @nTraum)\r\n- #7640 feat: add TurboSMTP email notification provider (Thanks @NewtTheWolf)\r\n- #7638 feat(notification): add BearSMS SMS provider for Israel (Thanks @nitay12)\r\n- #7632 feat: Add Pinglet notification provider (Thanks @TheGlenn88)\r\n- #7609 feat: add Milky as Notification Provider (Thanks @nope-e)\r\n- #7555 feat: Add openwa notification (Thanks @ron007d)\r\n\r\n### 🐞 Bug Fixes\r\n- #7729 fix: analytics_type's enum check was not removed, even the data type changed to string on SQLite \r\n- #7702 fix(radius): treat Access-Challenge as successful response (#7700) (Thanks @rikkova)\r\n\r\n### 🦎 Translation Contributions\r\n- #7715 #7646 chore: Translations Update from Weblate (Thanks @Aluisio @AntonPalmqvist @ATLWongsatorn @Cutlets @cyril59310 @DJEDIVER @dodog @dukkk2 @Gringit @helakostain @kaindlnetwork @misaka10843 @olafrv @raulmouzo @Regard1ess @steliosk98 @WoutNerd @yeonzi @zazuu0)\r\n\r\n\r\n"
+            },
             {
               "name": "2.5.0",
               "tag": "2.5.0",
@@ -4560,15 +4569,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n- #7307 fix: Add `busy_timeout` to sqlite to avoid error `SQLITE_BUSY: database is locked` (Thanks @wagnerand)\r\n\r\n### Others\r\n- #7340 chore: Update dependencies \r\n- #7345 chore: update to 2.3.1\r\n- #7344 fix(push): use multi-arch Node base in push image Dockerfile (Thanks @herwinz)\r\n"
-            },
-            {
-              "name": "2.3.0",
-              "tag": "2.3.0",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.3.0",
-              "published_at": "2026-05-01T04:01:17Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### ⚠️ Breaking changes\r\n- #7194 fix: Revert \"add sorting to status pages\"\r\n  - No more sorting feature in status pages.\r\n  - Due to bad performance.\r\n- #7312 fix(database): add `UPTIME_KUMA_SQLITE_SINGLE_CONNECTION`\r\n  - For Raspberry Pi users, you may have to set it to `true` to avoid SQLite locking issues. \r\n  - Mainly affected Raspberry Pi users only, you can ignore it if you are not using devices like Raspberry Pi.\r\n\r\n### 🆕 New Features\r\n- #7304 feat: websocket improve to fix issue #7268 including support authentication (Thanks @sofia-fernandez-six)\r\n- #7207 feat(notification): add custom message template support for Evolution provider (Thanks @kbrianps)\r\n- #7201 feat: add Telnyx messaging provider (Thanks @LuvForAirplanes)\r\n- #7182 feat: Add VK notification provider (Thanks @FunNikita)\r\n- #7160 feat: Add MAX messenger notification provider (Thanks @Redleks)\r\n- #7156 feat: add OracleDB monitor (Thanks @sitiom)\r\n- #7154 feat: add collapsible groups to status page (Thanks @marco-carvalho)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n- #7303 feat(ui): add a helptext that RTT for the ping monitor is not avaliable on linux (Thanks @stchigel)\r\n- #7300 feat(ux): changed warning msg (Thanks @hemanth5544)\r\n- #7128 fix: Update Home Assistant notification help text for HA 2024 Services→Actions rename (Thanks @tr4nt0r)\r\n\r\n### 🐞 Bug Fixes\r\n\r\n- #7248 fix(notification): check for monitorJSON in Stackfield provider (Thanks @jlbrt)\r\n- #7166 fix: Handle SSL in setup database temp server \r\n- #7235 fix(uptime): ensure correct handling of missing time buckets in uptime calculations (Thanks @adrianceding)\r\n- #7221 fix(notification): ensure applyExisting is not saved to database \r\n- #7198 fix: Domain expiry doesn't seem to update #7189 (Thanks @shanto)\r\n- #7155 fix: propagate create errors (Thanks @otbutz)\r\n- #7159 fix: monitor graph gaps for sub-millisecond TCP pings (Thanks @0xRozier)\r\n- #7125 fix: prometheus metrics have two series for a single monitor when that monitor has tags (Thanks @nicjansma)\r\n\r\n### 🦎 Translation Contributions\r\n- #7108 feat: Add English (United Kingdom) language support (Thanks @andibing)\r\n- #7292 #7197 #7132 chore: Translations Update from Weblate (Thanks @aindriu80 @Ale1x @Aluisio @andibing @AnnAngela @CammarataLudovico @cyril59310 @dodog @efenow @fcordeiro @firedur @FunNikita @Gringit @Hamstio1 @helakostain @ivanbratovic @kevinheyer-dev @mlopezcoria @Mo7amm1d @MrEddX @numarkpro @Redleks @rodis120 @samsilveira @thisisjaymehta @ttymayor @Virenbar @wibe01204 @Zeromskas)\r\n\r\n### Others\r\n- #7317 #7195 #7133 chore: Update dependencies \r\n- #7204 chore: Add agents.md - anti AI slop \r\n- #7146 chore: Add monthly workflow to build `push` Docker image "
             }
           ],
           "last_commit": {
@@ -4655,7 +4655,7 @@
             "stars": 76337,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-22T06:43:14Z",
+            "pushed_at": "2026-08-22T06:50:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aab4376",
+            "sha": "4bcc36a",
             "branch": "leeoniya/alerting-lazy-2",
-            "date": "2026-08-22T06:43:15Z",
-            "url": "https://github.com/grafana/grafana/commit/aab437682e4c3cc2990a86895ba3f5962e213905"
+            "date": "2026-08-22T06:50:35Z",
+            "url": "https://github.com/grafana/grafana/commit/4bcc36a72e98e8d3e545e9cc483aabfe2a8deba4"
           }
         },
         {
@@ -4788,7 +4788,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80257,
+            "stars": 80258,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-22T06:37:22Z",
