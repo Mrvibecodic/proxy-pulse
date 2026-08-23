@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T12:49:45.843533Z",
+  "generated_at": "2026-08-23T12:55:00.080946Z",
   "groups": [
     {
       "id": "cores",
@@ -84,7 +84,7 @@
             "stars": 37213,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-23T10:03:34Z",
+            "pushed_at": "2026-08-23T12:53:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ae8e794",
+            "sha": "f63479e",
             "branch": "testing",
-            "date": "2026-08-23T10:03:35Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/ae8e794810061ba6d631d10ae8b59fc8699ac122"
+            "date": "2026-08-23T12:53:29Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/f63479e6feeaa6694b46eae366f166f45fe7e96a"
           }
         },
         {
@@ -842,7 +842,7 @@
             "stars": 33,
             "url": "https://github.com/flowvy-proxy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-23T01:48:49Z",
+            "pushed_at": "2026-08-23T12:53:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy-proxy"
@@ -895,10 +895,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1f66454",
+            "sha": "77f8553",
             "branch": "badges",
-            "date": "2026-08-23T01:48:49Z",
-            "url": "https://github.com/flowvy-proxy/desktop/commit/1f664547bdc8fefd8b928d0df7e786b95adef612"
+            "date": "2026-08-23T12:53:01Z",
+            "url": "https://github.com/flowvy-proxy/desktop/commit/77f8553bcb75a11d56c01d350e73461ad9a29be2"
           }
         }
       ]
@@ -5086,6 +5086,15 @@
           },
           "releases": [
             {
+              "name": "0.39.0",
+              "tag": "0.39.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.39.0",
+              "published_at": "2026-08-23T12:49:58Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.39.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* fix(billmgr): pull the panel favicon during sync by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/26\n* feat(dashboard): clickable providers and services by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/28\n* fix(hostbill): fall back to Basic auth when JWT login is broken by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/29\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.38.0...0.39.0"
+            },
+            {
               "name": "0.38.0",
               "tag": "0.38.0",
               "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.38.0",
@@ -5120,15 +5129,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.36.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.35.0...0.36.0"
-            },
-            {
-              "name": "0.35.0",
-              "tag": "0.35.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.35.0",
-              "published_at": "2026-07-28T10:37:46Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.35.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.34.0...0.35.0"
             }
           ],
           "last_commit": {
