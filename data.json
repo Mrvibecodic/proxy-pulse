@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:45:25.137405Z",
+  "generated_at": "2026-08-23T16:50:38.873311Z",
   "groups": [
     {
       "id": "cores",
@@ -972,7 +972,7 @@
           ],
           "last_commit": {
             "sha": "3d902d0",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-08-23T16:07:07Z",
             "url": "https://github.com/openwrt/openwrt/commit/3d902d07a9d3ac8dff5807aec18d54bbd25c2d28"
           }
@@ -986,7 +986,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T10:35:53Z",
+            "pushed_at": "2026-08-23T16:48:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "707ebe9",
+                  "message": "golang: drop 1.26",
+                  "author": "George Sapkin",
+                  "date": "2026-08-23T16:48:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/707ebe93597065684f8fdb0eb751a4061b4e8b56"
+                },
+                {
+                  "sha": "d451b34",
+                  "message": "golang: switch default to 1.27",
+                  "author": "George Sapkin",
+                  "date": "2026-08-23T16:48:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/d451b3421bf4badc9d495e27b25f3edc2bb101ff"
+                },
+                {
+                  "sha": "57b8455",
+                  "message": "golang: add 1.27.0",
+                  "author": "George Sapkin",
+                  "date": "2026-08-23T16:48:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/57b84553fe20f9a19f8c7367cdaacde8291e0f51"
+                },
+                {
+                  "sha": "591422e",
+                  "message": "golang: fix target binary stripping",
+                  "author": "George Sapkin",
+                  "date": "2026-08-23T16:48:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/591422e869075989673c1d78b10f0898098d53b3"
+                },
+                {
+                  "sha": "d2a4964",
+                  "message": "golang: remove redundant quotes in extra_provides",
+                  "author": "George Sapkin",
+                  "date": "2026-08-23T16:48:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/d2a4964a1a50129e174bc4f3bc87b4ae389991e6"
+                },
+                {
                   "sha": "f9e4d73",
                   "message": "tmux: update to 3.7c",
                   "author": "Maxim Storchak",
@@ -1814,41 +1849,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-18T18:49:20Z",
                   "url": "https://github.com/openwrt/packages/commit/94deb2a1a9cb5ae61c42f017ba2838e9bd8ae96b"
-                },
-                {
-                  "sha": "5ff48e8",
-                  "message": "nodogsplash: minor cleanup",
-                  "author": "Moritz Warning",
-                  "date": "2026-08-18T17:14:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/5ff48e80f3c582b71c40d072e04341516690592a"
-                },
-                {
-                  "sha": "f69ab8a",
-                  "message": "adguardhome: bump to 0.107.79",
-                  "author": "George Sapkin",
-                  "date": "2026-08-18T17:03:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/f69ab8aacdb5dee1016ffa53985db41ff2161596"
-                },
-                {
-                  "sha": "b11f5f2",
-                  "message": "comrade: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-18T14:25:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/b11f5f2495c8a8eba49b8db27b43eefb42b0c76c"
-                },
-                {
-                  "sha": "5865a8c",
-                  "message": "monocypher: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-18T14:25:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5865a8cad3ffe71f1122399a983655b8079b1924"
-                },
-                {
-                  "sha": "8fcb108",
-                  "message": "kcp: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-18T14:25:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/8fcb1083a9472504e100092532c1ddcae5d195a6"
                 }
               ]
             },
@@ -4519,7 +4519,7 @@
             "stars": 90509,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T14:28:09Z",
+            "pushed_at": "2026-08-23T16:47:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
