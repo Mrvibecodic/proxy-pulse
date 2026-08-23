@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T20:04:33.298639Z",
+  "generated_at": "2026-08-23T20:09:48.282908Z",
   "groups": [
     {
       "id": "cores",
@@ -986,7 +986,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T17:05:10Z",
+            "pushed_at": "2026-08-23T20:06:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "dcb2c2f",
+                  "message": "libmicrohttpd: update to 1.0.10",
+                  "author": "Alexander Couzens",
+                  "date": "2026-08-23T20:06:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/dcb2c2f692ed607f34e69009faf909d9ff64a70a"
+                },
+                {
                   "sha": "15b06ce",
                   "message": "postgresql: update to 18.6",
                   "author": "Daniel Golle",
@@ -1842,13 +1849,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T20:00:56Z",
                   "url": "https://github.com/openwrt/packages/commit/12154a072810c630f0bc9bf05a6008f86ccad955"
-                },
-                {
-                  "sha": "b384d15",
-                  "message": "nut: enable shared NSS certificate/key database for upsd and upsmon",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/b384d15813a05efaee33fec3455f6bd7f77d83e2"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76364,
+            "stars": 76365,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-08-23T18:54:14Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65786,
+            "stars": 65787,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-23T13:08:58Z",
@@ -4788,7 +4788,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80267,
+            "stars": 80268,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-23T19:42:26Z",
