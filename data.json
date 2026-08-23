@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T17:01:12.622084Z",
+  "generated_at": "2026-08-23T17:06:27.152263Z",
   "groups": [
     {
       "id": "cores",
@@ -986,7 +986,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T16:56:31Z",
+            "pushed_at": "2026-08-23T17:05:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "15b06ce",
+                  "message": "postgresql: update to 18.6",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T17:05:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/15b06ce6e3706983f5c62adf845194436b66e3fd"
+                },
+                {
+                  "sha": "2111f86",
+                  "message": "libxmp: update to 4.7.2",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T17:03:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/2111f8643898898bab579839837030acd631b7e8"
+                },
+                {
+                  "sha": "57b0c30",
+                  "message": "libwacom: update to 2.19.1",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T17:03:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/57b0c30ee691d878e374656fb446e7f3ed98f46d"
+                },
+                {
                   "sha": "01a0716",
                   "message": "hiredis: update to 1.4.1",
                   "author": "Daniel Golle",
@@ -1828,27 +1849,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T20:00:56Z",
                   "url": "https://github.com/openwrt/packages/commit/b384d15813a05efaee33fec3455f6bd7f77d83e2"
-                },
-                {
-                  "sha": "04533d5",
-                  "message": "nut: enable peer certificate verification",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/04533d520674578e01d4c05553077deadd4e3797"
-                },
-                {
-                  "sha": "79db1ee",
-                  "message": "nut: enable configuring more SSL-related options",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/79db1ee5737efc35c7aec2ab27dde761bb3c03cc"
-                },
-                {
-                  "sha": "27e39ec",
-                  "message": "nut: use spaces for all non-recipe whitespace",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/27e39ec97ca87a85faba30c2666ed774c20ece1b"
                 }
               ]
             },
