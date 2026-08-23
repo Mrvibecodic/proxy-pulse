@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T22:36:03.014025Z",
+  "generated_at": "2026-08-23T22:41:16.194197Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33476,
+            "stars": 33477,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-22T23:43:11Z",
@@ -986,7 +986,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T20:06:53Z",
+            "pushed_at": "2026-08-23T22:37:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5117f9b",
+                  "message": "oci-runtime-tools: skip the version check for oci-runtime-tests",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T22:37:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/5117f9b2a4847a264935925086433cf52d840b79"
+                },
+                {
+                  "sha": "c316c01",
+                  "message": "oci-runtime-tools: report the real version string",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T22:37:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/c316c01936aa5333f13ddafcc5ef3ee030b4ab00"
+                },
+                {
+                  "sha": "ce621e7",
+                  "message": "oci-runtime-tools: depend on 'unshare'",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T22:37:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce621e707e5e7ee5164f36b7840cfc39c9eb6790"
+                },
+                {
+                  "sha": "a2d0bdd",
+                  "message": "oci-runtime-tools: install the test rootfs archives on x86",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T22:37:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/a2d0bdddd4a92a15341d1a62febff1b8957a8f45"
+                },
+                {
+                  "sha": "fe9a06c",
+                  "message": "oci-runtime-tools: build runtimetest statically",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T22:37:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe9a06c343ce1c8b265909b3720eec2153c10b4a"
+                },
+                {
                   "sha": "dcb2c2f",
                   "message": "libmicrohttpd: update to 1.0.10",
                   "author": "Alexander Couzens",
@@ -1814,41 +1849,6 @@
                   "author": "Javier Marcet",
                   "date": "2026-08-20T17:49:01Z",
                   "url": "https://github.com/openwrt/packages/commit/904a46524d9ea77f3bde046ba54f7b562c381548"
-                },
-                {
-                  "sha": "79f567c",
-                  "message": "golang: bump 1.26 to 1.26.7",
-                  "author": "George Sapkin",
-                  "date": "2026-08-20T13:23:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/79f567c3b110a02cfc1eb6337c6d86771dcc5a8d"
-                },
-                {
-                  "sha": "3d5882c",
-                  "message": "ulogd: update output plugins config flags",
-                  "author": "Astrozen Zhou",
-                  "date": "2026-08-20T13:16:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/3d5882c5efefdf68f62050ad9f592c0741e00195"
-                },
-                {
-                  "sha": "715c606",
-                  "message": "prosody: do not drive the service through prosodyctl",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-19T20:27:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/715c606e57664c78dddd4382ee08a3de9324cb02"
-                },
-                {
-                  "sha": "f444e3c",
-                  "message": "nut: drop unnecessary postinsts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/f444e3c1eb8b5a611796324148ccb79802b6b9cc"
-                },
-                {
-                  "sha": "12154a0",
-                  "message": "nut: tweak configure settings for NUT 2.8.5+",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T20:00:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/12154a072810c630f0bc9bf05a6008f86ccad955"
                 }
               ]
             },
