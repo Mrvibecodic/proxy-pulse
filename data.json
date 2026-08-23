@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:50:38.873311Z",
+  "generated_at": "2026-08-23T16:55:55.544272Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4904,
+            "stars": 4905,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-22T17:33:10Z",
@@ -986,7 +986,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T16:48:34Z",
+            "pushed_at": "2026-08-23T16:55:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1641,6 +1641,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9e444a7",
+                  "message": "gpgme: update to 2.1.2",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T16:55:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e444a743ff3c88b0ba6091275d804b8118f6b05"
+                },
+                {
+                  "sha": "19599fa",
+                  "message": "gawk: update to 5.4.1",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T16:53:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/19599fa63de12545589a2a076506d65a43a04825"
+                },
+                {
+                  "sha": "bac27c5",
+                  "message": "exfatprogs: update to 1.4.3",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-23T16:51:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/bac27c56c10e92ad87305df6fd5ef309ef99e035"
+                },
+                {
                   "sha": "707ebe9",
                   "message": "golang: drop 1.26",
                   "author": "George Sapkin",
@@ -1828,27 +1849,6 @@
                   "author": "Roc Lai",
                   "date": "2026-08-19T19:28:50Z",
                   "url": "https://github.com/openwrt/packages/commit/5c4151039612910a89f082967842c387d1d972e3"
-                },
-                {
-                  "sha": "15d8b0e",
-                  "message": "knot: update to version 3.5.7",
-                  "author": "Jan Hák",
-                  "date": "2026-08-19T12:13:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/15d8b0e9cfea1599deb081495a599744b7a64b79"
-                },
-                {
-                  "sha": "2edf6a0",
-                  "message": "strongswan: fix build with wolfSSL 5.9.2",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-08-19T05:56:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/2edf6a0af0cc722436643e4bc4a1f72d670f8fc4"
-                },
-                {
-                  "sha": "94deb2a",
-                  "message": "travelmate: release 2.4.8-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-18T18:49:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/94deb2a1a9cb5ae61c42f017ba2838e9bd8ae96b"
                 }
               ]
             },
