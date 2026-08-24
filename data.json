@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T01:29:21.621344Z",
+  "generated_at": "2026-08-24T01:34:36.291318Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4587,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-23T22:37:55Z",
+            "pushed_at": "2026-08-24T01:30:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "38d078d",
+                  "message": "exim: update to 4.100",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-24T01:30:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/38d078d3198544ac2f724e9f014b514f5648c5b8"
+                },
+                {
                   "sha": "5117f9b",
                   "message": "oci-runtime-tools: skip the version check for oci-runtime-tests",
                   "author": "Daniel Golle",
@@ -1978,13 +1985,6 @@
                   "author": "Vladimir Ermakov",
                   "date": "2026-08-20T17:49:51Z",
                   "url": "https://github.com/openwrt/packages/commit/112e8576d6449f0b85bd87096dc47267f29ad246"
-                },
-                {
-                  "sha": "904a465",
-                  "message": "docker-compose: update to version 5.5.0",
-                  "author": "Javier Marcet",
-                  "date": "2026-08-20T17:49:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/904a46524d9ea77f3bde046ba54f7b562c381548"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90527,
+            "stars": 90528,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-23T16:47:35Z",
@@ -4927,7 +4927,7 @@
             "stars": 80267,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-24T01:25:31Z",
+            "pushed_at": "2026-08-24T01:30:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4980,10 +4980,10 @@
             }
           ],
           "last_commit": {
-            "sha": "196dc34",
-            "branch": "master",
-            "date": "2026-08-24T01:25:32Z",
-            "url": "https://github.com/netdata/netdata/commit/196dc34b885ea693de318a5e8f3447269bfc0aa3"
+            "sha": "c8e5218",
+            "branch": "integrations-regen",
+            "date": "2026-08-24T01:30:26Z",
+            "url": "https://github.com/netdata/netdata/commit/c8e52189fc3f6aa434981e78df4789c58374867a"
           }
         },
         {
