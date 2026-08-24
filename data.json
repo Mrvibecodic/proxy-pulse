@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T04:49:25.117292Z",
+  "generated_at": "2026-08-24T04:54:39.807128Z",
   "groups": [
     {
       "id": "cores",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24591,
+            "stars": 24590,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-23T16:32:06Z",
@@ -5283,12 +5283,21 @@
             "stars": 3300,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-24T04:04:50Z",
+            "pushed_at": "2026-08-24T04:50:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.22.0",
+              "tag": "v3.22.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.22.0",
+              "published_at": "2026-08-24T04:49:51Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.22.0](https://github.com/Zephyruso/zashboard/compare/v3.21.0...v3.22.0) (2026-08-24)\n\n\n### Features\n\n* add deprecation notice for sing-box support ([0ff25c1](https://github.com/Zephyruso/zashboard/commit/0ff25c116c2382e8315e744d859722cd89a18cbf))\n* enhance settings page with new customization options and search functionality ([435043a](https://github.com/Zephyruso/zashboard/commit/435043a2c20c1e98e69c3943fc8da6e9c68a9114))\n* implement settings page transitions and enhance swipe navigation ([fd6e1ed](https://github.com/Zephyruso/zashboard/commit/fd6e1ed8a94b52e09292fc51c4f854830cb386d8))\n\n\n### Bug Fixes\n\n* add need-blur class to enhance backdrop blur effect in settings components ([d11d521](https://github.com/Zephyruso/zashboard/commit/d11d5216dee05a3091e7aafd428604714f72be6d))\n* adjust transition handling for custom backgrounds to preserve backdrop blur in wallpaper mode ([be22920](https://github.com/Zephyruso/zashboard/commit/be229207ed16e4992107a0fca2cdf25343018225))\n* enhance background image handling and caching for improved performance ([952c9e5](https://github.com/Zephyruso/zashboard/commit/952c9e5ed47344c3669c53451edc1a822b289695))\n* improve settings page layout and enhance mobile index handling ([a815ded](https://github.com/Zephyruso/zashboard/commit/a815ded18f3068636af6e6a46332be4e337ad9ff))\n* optimize isProxyGroup function by using a Set for proxy group types ([b8e4322](https://github.com/Zephyruso/zashboard/commit/b8e432261068a9a5a0a09e841a903f2fc55935c8))\n* remove full-screen-mobile prop from DialogWrapper instances in settings components ([4a7d194](https://github.com/Zephyruso/zashboard/commit/4a7d194a4b44f62e60435789532f2e0dacfebc3a))"
+            },
             {
               "name": "v3.21.0",
               "tag": "v3.21.0",
@@ -5324,22 +5333,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.18.0](https://github.com/Zephyruso/zashboard/compare/v3.17.0...v3.18.0) (2026-08-08)\r\n\r\n出于跨主题风格显示的考虑，地球组件的默认显示方式已替换为新增的扁平化显示风格，如果你喜欢之前的写实风格，可在组件右上角切换为星空模式\r\n\r\nTo ensure a consistent visual style across different themes, the Earth component now uses the newly added flat style by default. If you prefer the previous realistic look, you can switch to Space mode from the top-right corner of the component.\r\n\r\n### Features\r\n\r\n* add visual mode selection for Earth globe and update color schemes ([990c0d1](https://github.com/Zephyruso/zashboard/commit/990c0d1b0068c9b38ef5b9953e2ebf5cf0cdff27))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* update coreUpdateCheck assignment and enhance getHistoryByName logic ([9802000](https://github.com/Zephyruso/zashboard/commit/980200083397e04de2ebef0db3aa7a7bd0f41600))"
-            },
-            {
-              "name": "v3.17.0",
-              "tag": "v3.17.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.17.0",
-              "published_at": "2026-08-07T03:47:49Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.17.0](https://github.com/Zephyruso/zashboard/compare/v3.16.1...v3.17.0) (2026-08-07)\r\n\r\n### Thanks to [Zayrick](https://github.com/Zayrick) for the Earth idea.\r\n\r\n### Features\r\n\r\n* add \"All\" connections tab keeping closed connections in place ([80e3410](https://github.com/Zephyruso/zashboard/commit/80e3410e8f818aace8ad09becb32be6cb01dfb98))\r\n* add EarthRenderer and GeoIP worker for visualizing global network routes ([4efd274](https://github.com/Zephyruso/zashboard/commit/4efd27467f782d628f3599eed8510040b714a3ed))\r\n* add initial location handling and visibility toggle titles for proxy groups ([ee7d379](https://github.com/Zephyruso/zashboard/commit/ee7d3798b7a8b09da9516c685f3baa268cf3bba5))\r\n* enhance EarthRenderer with endpoint glow effects and improved scaling ([7f43032](https://github.com/Zephyruso/zashboard/commit/7f430320df1ddf919fc458c15f8583fe1809c935))\r\n* enhance EarthRenderer with flow visualization and initialization optimizations ([2a45908](https://github.com/Zephyruso/zashboard/commit/2a4590825fdbfe83ce71494d428d298b757945b5))\r\n* enhance support for honk core and update related components ([80e5657](https://github.com/Zephyruso/zashboard/commit/80e5657714cbad5b924c84d3dfdbe7a3d8ec1b28))\r\n* implement dialog viewport height management and enhance modal transitions ([35e6881](https://github.com/Zephyruso/zashboard/commit/35e6881d8d1feeb4653a4ce34f96fdf28ee418b2))\r\n* **proxy-node:** add animations for proxy node transitions and latency highlights ([961fc0f](https://github.com/Zephyruso/zashboard/commit/961fc0fe0adaa4104fe6d7444a2d12dc20ea1415))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* bundle size ([75d9624](https://github.com/Zephyruso/zashboard/commit/75d962464eb98b4b845e70caa6d9de781e057573))\r\n* enhance touch controls for EarthRenderer and prevent browser gestures ([db58640](https://github.com/Zephyruso/zashboard/commit/db58640bfc0f6113f5e17749c063eebe0c044738))\r\n* handle potential undefined processPath in connectionAccessor ([4cdbd85](https://github.com/Zephyruso/zashboard/commit/4cdbd85deb7aa9ca584da907ea8086fbf95b10d1))\r\n* LatencyTag component loading state transitions and CountUp optimization ([ebe891f](https://github.com/Zephyruso/zashboard/commit/ebe891f49b82f9d1912c1df32eef633c2563d396))\r\n* **proxy-node:** ensure accurate visibility check in scrollIntoCenter function ([c9b1e65](https://github.com/Zephyruso/zashboard/commit/c9b1e658966a50059303489061cf367c57eeb41e))"
             }
           ],
           "last_commit": {
-            "sha": "d0739e1",
-            "branch": "gh-pages-sarasa-only",
-            "date": "2026-08-24T04:04:51Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/d0739e1d96237630623e975a8adf96f096faeb7a"
+            "sha": "4505e95",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-08-24T04:50:28Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/4505e95f44fc2c592fe4523c1503171f24f92f15"
           }
         },
         {
