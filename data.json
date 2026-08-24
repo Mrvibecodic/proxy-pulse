@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T17:17:22.384061Z",
+  "generated_at": "2026-08-24T17:22:39.475934Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4588,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-24T17:05:46Z",
+            "pushed_at": "2026-08-24T17:22:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "1db6cd8",
+                  "message": "golang: bump 1.26 to 1.26.7",
+                  "author": "George Sapkin",
+                  "date": "2026-08-24T17:22:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/1db6cd846c1c72d77ce38eec28b749affc44b7a0"
+                },
+                {
                   "sha": "57654a9",
                   "message": "banip: release 1.8.12-1",
                   "author": "Dirk Brenken",
@@ -3483,13 +3490,6 @@
                   "author": "John Audia",
                   "date": "2026-08-13T12:10:47Z",
                   "url": "https://github.com/openwrt/packages/commit/232a46385d11c9bd02c799a8a58dd2ea79ad7fa0"
-                },
-                {
-                  "sha": "838a58e",
-                  "message": "rsync: update to 3.4.4",
-                  "author": "John Audia",
-                  "date": "2026-08-13T12:10:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/838a58ebe9f91fc18a68d52dfe1ababd58196eef"
                 }
               ]
             }
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90561,
+            "stars": 90562,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-24T03:32:09Z",
@@ -4856,7 +4856,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65800,
+            "stars": 65801,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-24T16:57:12Z",
