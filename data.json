@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T17:01:34.944835Z",
+  "generated_at": "2026-08-24T17:06:50.758027Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4588,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-24T16:54:42Z",
+            "pushed_at": "2026-08-24T17:05:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "89f358c",
+                  "message": "tcpreplay: fix CI tests for the QEMU runtime",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/89f358cf36f4b45a0ed5d1411184a5de8be936c6"
+                },
+                {
+                  "sha": "6a33191",
+                  "message": "stress-ng: update to 0.21.04",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/6a33191fa01f847dbe63252883f9358b42cb5262"
+                },
+                {
+                  "sha": "dedfb99",
+                  "message": "tcpreplay: update to 4.6.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/dedfb99edb2b0e914e316b0b07339320d22515a8"
+                },
+                {
+                  "sha": "dfd046a",
+                  "message": "shadow: update to 4.20.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/dfd046a6b71b1707c70882af4cf4cf1c570e71a7"
+                },
+                {
+                  "sha": "cfe65a4",
+                  "message": "pillow: bump to 12.3.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/cfe65a4c24a3f8c863bf2ac7df02ca4ce2fe6034"
+                },
+                {
+                  "sha": "4e95a58",
+                  "message": "python3: update to 3.14.7",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-08-24T17:05:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/4e95a5895eea1a3ae752b7f65dfd80a3eba086bb"
+                },
+                {
                   "sha": "267a9c8",
                   "message": "uvol: update to 1.2, expose volume operations over ubus",
                   "author": "Daniel Golle",
@@ -1943,48 +1985,6 @@
                   "author": "George Sapkin",
                   "date": "2026-08-23T16:48:33Z",
                   "url": "https://github.com/openwrt/packages/commit/591422e869075989673c1d78b10f0898098d53b3"
-                },
-                {
-                  "sha": "d2a4964",
-                  "message": "golang: remove redundant quotes in extra_provides",
-                  "author": "George Sapkin",
-                  "date": "2026-08-23T16:48:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/d2a4964a1a50129e174bc4f3bc87b4ae389991e6"
-                },
-                {
-                  "sha": "f9e4d73",
-                  "message": "tmux: update to 3.7c",
-                  "author": "Maxim Storchak",
-                  "date": "2026-08-23T10:35:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9e4d73848816033077b724b746d9746def515a7"
-                },
-                {
-                  "sha": "0521bb5",
-                  "message": "ccid: update to 1.8.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-22T14:59:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/0521bb56793387788798e4a69b84d96766ed54e2"
-                },
-                {
-                  "sha": "5e35ea6",
-                  "message": "pcsc-lite: update to 2.5.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-22T14:59:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e35ea65fefa9bfced23ff766c21b2a549733588"
-                },
-                {
-                  "sha": "952f8de",
-                  "message": "libp11: update to 0.4.20",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-22T14:58:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/952f8de4b51c6612a352bbf326da75692daf054a"
-                },
-                {
-                  "sha": "6c1baac",
-                  "message": "python3: stop forcing the ncursesw/{ncurses,panel}.h checks to \"no\"",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-22T00:40:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/6c1baacc1d4ef443b2ca762384d68982832abc4a"
                 }
               ]
             },
@@ -3767,7 +3767,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5186,
+            "stars": 5187,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-08-23T00:16:43Z",
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90562,
+            "stars": 90561,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-24T03:32:09Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24614,
+            "stars": 24613,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4791,7 +4791,7 @@
             "stars": 76391,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-24T17:00:25Z",
+            "pushed_at": "2026-08-24T17:02:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "adc9f5a",
-            "branch": "fcai/pr-changes-count-metrics",
-            "date": "2026-08-24T15:22:37Z",
-            "url": "https://github.com/grafana/grafana/commit/adc9f5ab2d561369b006c0968ef40d25f040d228"
+            "sha": "38088d6",
+            "branch": "renovate/grafana-prometheus-13.x",
+            "date": "2026-08-24T15:17:56Z",
+            "url": "https://github.com/grafana/grafana/commit/38088d63778e344d25787ad80489040ced92c352"
           }
         },
         {
