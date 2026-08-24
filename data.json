@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T13:41:08.268255Z",
+  "generated_at": "2026-08-24T13:46:24.199447Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4588,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-24T01:30:57Z",
+            "pushed_at": "2026-08-24T13:45:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ca3322e",
+                  "message": "gnunet: update to 0.29.0",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-24T13:45:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca3322e9312ee44f0c6c619b004745ab3394fa08"
+                },
+                {
+                  "sha": "45cb8e6",
+                  "message": "libextractor: update to 1.19",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-24T13:45:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/45cb8e6cd51721a5762674a37bc54486d4c4cbad"
+                },
+                {
                   "sha": "38d078d",
                   "message": "exim: update to 4.100",
                   "author": "Daniel Golle",
@@ -1971,20 +1985,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-21T11:50:02Z",
                   "url": "https://github.com/openwrt/packages/commit/b785b5c631d4a100fabe0fba1c34146be3275246"
-                },
-                {
-                  "sha": "89ac973",
-                  "message": "pipx: remove package",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-21T11:50:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/89ac973b99b2d2decfc8aa69cb4c7e2ca3c2ab9b"
-                },
-                {
-                  "sha": "112e857",
-                  "message": "coredns: update to 1.14.7",
-                  "author": "Vladimir Ermakov",
-                  "date": "2026-08-20T17:49:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/112e8576d6449f0b85bd87096dc47267f29ad246"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90554,
+            "stars": 90555,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-24T03:32:09Z",
@@ -4788,10 +4788,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76385,
+            "stars": 76386,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-24T13:40:09Z",
+            "pushed_at": "2026-08-24T13:43:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4995,7 +4995,7 @@
             "stars": 17588,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-24T13:22:00Z",
+            "pushed_at": "2026-08-24T13:44:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
