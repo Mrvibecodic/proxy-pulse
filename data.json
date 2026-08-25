@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T11:49:39.223524Z",
+  "generated_at": "2026-08-25T11:54:55.454682Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-24T21:15:03Z",
+            "pushed_at": "2026-08-25T11:51:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.25",
+              "tag": "v26.8.25",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.25",
+              "published_at": "2026-08-25T11:51:53Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Preserves TCP half-close end to end: applications can finish uploads and continue reading complete responses across Freedom, VLESS, Trojan, VMess, Shadowsocks, SOCKS, HTTP, TLS, REALITY, and Vision paths.\n- Adds opt-in negotiated logical half-close for Xray-to-Xray SMUX while retaining byte-identical legacy behavior and automatic fallback for sing-box and Mihomo.\n- Hardens terminal payload and EOF handling in buffered readers and chained or masked connection wrappers.\n\n## Fork fixes\n\n- Fixed the common upload-EOF lifecycle bug where successful copy completion did not propagate CloseWrite to the next TCP boundary. EOF-dependent origins could wait until the inactivity timeout and their late responses were then truncated with EOF or reset.\n- Added explicit half-close propagation to Freedom, VLESS, Trojan, classic Shadowsocks, SOCKS, HTTP/1 CONNECT, HTTP/2 request bodies, VLESS encryption/statistics wrappers, chained CNC connections, and supported TCP header/final-mask wrappers.\n- Made Vision select raw FIN only after the uplink writer has atomically completed its direct-copy transition, avoiding an early FIN race across the TLS/VLESS boundary.\n- Fixed BufferedReader so payload returned with EOF or another terminal error is delivered before the deferred error across Read, ReadByte, ReadAtMost, and WriteTo.\n- Added SMUX carrier version 2 capability negotiation and negotiated command 4 for directional write-close. Legacy command 1 remains a full logical-stream close.\n- Added bounded auto downgrade on a fresh carrier and sticky per-client capability caching. Completed half-closed requests are not replayed after a carrier read failure.\n\n## Upstream changes\n\nMerged the latest upstream/main dependency maintenance:\n\n- github.com/stretchr/testify 1.12.1\n- google.golang.org/grpc 1.83.1\n- github.com/miekg/dns 1.1.73\n- github.com/pion/stun/v3 3.1.7\n\n## Compatibility notes\n\n- SMUX logicalHalfClose accepts off, auto, or require.\n- The default is off: existing v0/v1 carrier bytes, command-1 semantics, and sing-box/Mihomo interoperability are unchanged.\n- auto negotiates the Xray extension and opens one fresh legacy carrier when the peer does not support it. require rejects downgrade.\n- H2MUX keeps its native request-body half-close path and does not accept the SMUX-only option.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum when omitted.\n\n## Validation\n\n- 7-protocol TCP half-close process matrix, five runs: all passed.\n- TLS/REALITY x no-flow/Vision process matrix, five runs: all passed.\n- Negotiated SMUX TLS/REALITY x padding off/on plus automatic sing-box/Mihomo fallback, five runs: all passed.\n- Ordinary Xray/sing-box/Mihomo SMUX and H2MUX interoperability: passed.\n- Unit, race, strict checkptr, vet, Linux/amd64 static build, and protobuf/config gates: passed.\n- All process gates preserved the active NetBird and Mihomo service PIDs and states.\n"
+            },
             {
               "name": "Xray-core v26.8.24",
               "tag": "v26.8.24",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Torrent traffic detection now works end to end. Routing rules that match `protocol: [\"bittorrent\"]` now cover BitTorrent peer connections (TCP handshake and uTP), Mainline DHT (KRPC), and UDP trackers (BEP 15). Previously only the TCP handshake was detected; the uTP sniffer could never match any packet.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing repaired (correctness).** `SniffUTP` rejected every packet ever sent: its timestamp gate compared the packet's 32-bit monotonic clock value against Unix-epoch microseconds with a 24-hour window expressed in nanoseconds, while deployed stacks (libutp: `CLOCK_MONOTONIC`, libtorrent: `high_resolution_clock` truncated to 32 bits) put monotonic — not epoch — timestamps on the wire. The extension chain was also parsed before the fixed 20-byte header instead of after it per BEP 29, and libtorrent's close-reason extension (id 3) was rejected. Impact: uTP peer traffic from qBittorrent, Transmission, Deluge and other libtorrent/libutp clients — the dominant transport of modern torrent clients — was invisible to bittorrent routing rules.\n- **New: Mainline DHT detection.** KRPC bencode messages (queries, responses, errors) are structurally validated — message kind `y`, transaction id `t`, deployed query names, 20-byte node id in responses, `[code, message]` error lists — and reported as `bittorrent`.\n- **New: UDP tracker detection.** BEP 15 connect requests (protocol id `0x41727101980`), announces on cached connection ids (98 bytes, event and port sanity), and scrapes are reported as `bittorrent`.\n- **False-positive hardening.** WireGuard handshake initiations (`01 00 00 00` + key material), which pass every structural uTP check, are now rejected deterministically. The corpus verifies DNS, NTP, QUIC, WireGuard and random datagrams are not classified as torrents.\n\n## Upstream changes\n\n- None since v26.8.20: upstream/main is fully contained in this release; this version ships fork-only detection fixes.\n\n## Compatibility notes\n\n- No wire or protocol behavior changed; the sniffing improvements only affect sniffing-based routing. Rules using `sniffing` with `destOverride: [\"bittorrent\"]` or routing condition `protocol: [\"bittorrent\"]` now additionally match uTP, DHT and UDP tracker flows. Operators with rules that route or block by that condition should review the wider coverage.\n- Known limits: HTTP(S) tracker traffic is still sniffed as `http`/`tls` (domain routing preserved); a uTP session whose SYN carries connection id 0 (about 1 in 65536 sessions in deployed stacks) falls through the WireGuard-shaped guard.\n\n## Validation\n\n- Wire-format corpus built from the libutp and libtorrent (RC_2_0) sources: 108 subtests green, covering TCP handshakes of six client families, every uTP packet type with SACK and close-reason extension chains, every KRPC message kind (including BEP 44 mutable puts), and tracker requests; the false-positive corpus covers DNS, NTP, WireGuard, QUIC and random datagrams.\n- `go build ./...`, `go vet`, unit tests `-count=1`, and `-race` on changed packages green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `f6943625d8b12fe89e7587c58e0b4f571cb0193f1ef229bfd84fef67d2d5e6fb`.\n"
-            },
-            {
-              "name": "Xray-core v26.8.20",
-              "tag": "v26.8.20",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.20",
-              "published_at": "2026-08-14T16:31:48Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Completes the hardened Hysteria 2.12.1 transport integration proposed in XTLS/Xray-core#6565.\n- Fixes a rare SMUX stale-carrier recovery race found by the native Linux reconnect gate.\n- Restores predictable releases: publishing now starts only the binary matrix, while native validation remains a separate explicit pre-release workflow.\n- `v26.8.19` did not produce release assets; operators should use `v26.8.20`.\n\n## Fork fixes\n\n- Preserves existing `QuicParams` protobuf field numbers and adds compatibility coverage for the new QUIC options.\n- Adds optional Realm UPnP/NAT-PMP mapping with bounded discovery, lease renewal, rollback, zero-lifetime deletion, and deterministic cleanup.\n- Ensures Realm, Hysteria, and XHTTP/3 listener shutdown releases owned sockets, timers, goroutines, and mapping leases.\n- Clones shared TLS configuration before applying QUIC client behavior and propagates Brutal loss-compensation settings through every affected path.\n- Corrects SMUX response recovery when a stale write returns success after the peer carrier has failed. Readers now distinguish an early replacement from a completed writer and replay the bounded pre-response payload exactly once.\n- Moves validation into `.github/workflows/pre-release-validation.yml`; `.github/workflows/release.yml` is build-only and no longer runs on ordinary pushes or pull requests.\n\n## Upstream changes\n\n- No additional upstream stable release was merged for this version; upstream `main` at `7d214f8b` remains an ancestor of this fork release.\n- The pending changes from XTLS/Xray-core#6565 were integrated against the fork's current QUIC paths and completed with lifecycle, compatibility, and error-path hardening.\n\n## Compatibility notes\n\n- Existing `QuicParams` protobuf fields 1–13 retain their wire numbers; new options use fields 14–16.\n- Chrome-style QUIC behavior is enabled by default. Set `disableChromeParrot` for custom certificate callbacks or incompatible TLS behavior.\n- `disableGSO` is available for platforms or network stacks where UDP GSO must not be used.\n- Realm port mapping is opt-in through `portMapping.enabled`; omitted configuration preserves prior behavior.\n- Realm `ipMode` accepts `dual`, `v4`, or `v6` and defaults to `dual`.\n- No SMUX wire bytes changed; the reconnect fix changes only local recovery coordination.\n\n## Validation\n\n- Affected unit, race, checkptr, vet, formatting, module-integrity, YAML, release-contract, and external-mux dependency gates passed on Go 1.26.5.\n- Xray, sing-box, and Mihomo Hysteria interoperability passed all 9/9 process executions.\n- The SMUX hardening harness passed 400/400 reconnect cycles across eight Xray/sing-box/Mihomo direction and carrier topologies on Darwin/arm64; this is harness evidence, not Linux capacity evidence.\n- The initial native Linux matrix passed six of eight 50-cycle SMUX topologies; its two Mihomo/VLESS failures exposed a restart-readiness flaw in the harness.\n- Native Linux follow-up run 31818742469 passed both corrected Mihomo/VLESS directions for 50/50 cycles each on the exact release commit; checked loopback error/drop deltas remained zero.\n"
             }
           ],
           "last_commit": {
@@ -1051,7 +1051,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28095,
+            "stars": 28096,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-08-24T17:48:16Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24638,
+            "stars": 24639,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4788,10 +4788,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76407,
+            "stars": 76408,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T11:48:45Z",
+            "pushed_at": "2026-08-25T11:54:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "72f126a",
-            "branch": "update-app-sdk",
-            "date": "2026-08-25T08:50:18Z",
-            "url": "https://github.com/grafana/grafana/commit/72f126ac81202dc44cb081447c5e6cfee4468e45"
+            "sha": "97c3f6a",
+            "branch": "MissingRoberto/apiserver-watch-span",
+            "date": "2026-08-25T11:48:46Z",
+            "url": "https://github.com/grafana/grafana/commit/97c3f6a23d3051000d284a52a883f6b2e019d6ae"
           }
         },
         {
@@ -4927,7 +4927,7 @@
             "stars": 80286,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-25T11:35:07Z",
+            "pushed_at": "2026-08-25T11:54:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
