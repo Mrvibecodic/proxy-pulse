@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:05:22.109846Z",
+  "generated_at": "2026-08-25T23:10:37.624807Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T21:47:15Z",
+            "pushed_at": "2026-08-25T23:09:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.25-2147",
+              "tag": "v26.8.25-2147",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.25-2147",
+              "published_at": "2026-08-25T23:10:10Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Hardened BitTorrent UDP detection for punitive routing and blocking rules. New-flow uTP detection now relies on connection-opening ST_SYN invariants, while valid TURN, STUN, DNS, game-discovery, and DHT framing receive dedicated regression coverage. UDP tracker classification is limited to the BEP 15 connect request so cached announce/scrape shapes cannot mark ordinary game or media datagrams as BitTorrent.\n- Hardened online-presence source attribution across accepted PROXY protocol connections and HTTP-derived transports so accounting follows the trusted carrier peer instead of untrusted datagram metadata.\n- Made pre-response SMUX recovery evict each failed carrier owner and continue bounded replay across remaining siblings, dialing a new carrier only when the pool cannot serve the stream.\n- Reduced repository-wide CI log volume by keeping successful package output concise while preserving full logs on failures.\n- Recalibrated the mandatory 10% SMUX release budget to the previous published fork release `v26.8.25-1457` after the external sing-mux comparison proved historically unstable.\n\n## Fork fixes\n\n- Fixed broad stateless uTP matching that could classify established-state or media/game datagrams as BitTorrent.\n- Added command-specific BEP 5, BEP 44, and BEP 51 DHT validation and retained valid tracker extension handling on connect.\n- Added TURN ChannelData precedence for byte patterns that overlap uTP ST_SYN fields and removed an overbroad DNS exclusion that rejected valid uTP connection attempts.\n- Stopped classifying cached-connection-id UDP tracker announce and scrape requests. Those messages have no protocol id, and their remaining counters collide with ordinary UDP; a client whose cached id expires still sends connect and is detected.\n- Preserved accepted PROXY protocol provenance as the physical peer through TCP, gRPC, WebSocket, HTTP Upgrade, and SplitHTTP paths, while rejecting datagram proxy provenance for presence accounting.\n- Fixed a multi-carrier reconnect race where a single replay could reopen another reset session after a peer restart; recovery now retires each failed owner and may reuse a healthy sibling or dial if the remaining pool cannot serve.\n- Regenerated proxyman protobuf output with the repository-pinned protoc toolchain.\n\n## Upstream changes\n\n- Includes latest upstream main at f124daf5.\n- Observatory: stop spinning at 100% CPU when no outbound matches `subjectSelector`.\n- Router: copy-on-write rule and balancer reloads to fix the API data race. The fork's domain-index and PickRouteTag path is preserved on top of that publish model.\n- Upstream independently landed an ST_SYN-only SniffUTP change; this release keeps the already-reviewed fork detector, including TURN precedence and the connect-only tracker rule.\n\n## Compatibility notes\n\n- BitTorrent detector changes do not add configuration, API, or routing schema changes. Valid TCP BitTorrent handshakes, uTP connection attempts, DHT traffic, and UDP tracker connect requests remain classified as bittorrent. Cached announce/scrape-only first datagrams are no longer classified.\n- Accepted PROXY protocol peers may now affect the physical IP used for online-presence accounting; untrusted datagram-level proxy metadata is intentionally ignored.\n- REALITY continues to send numeric version bytes 26.8.25. The 2147 UTC component is display-only and keeps the panel, tag, and release title aligned as 26.8.25-2147.\n- Intentional fork behavior remains unchanged: REALITY client-version bounds have no implicit minimum, and production mux uses the in-tree SMUX implementation.\n- The hard Linux SMUX duration budget remains 10%, now against `v26.8.25-1457`. The live sing-mux comparison is diagnostic only.\n\n## Validation\n\n- Local format, version-contract, router/bittorrent/observatory unit and race, dispatcher, singmux retry unit/race, focused Mihomo Trojan peak stress, and release-gate contract tests passed with Go 1.27.0.\n- Candidate Tests and Checkings workflow passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32902846278\n- Pre-release Validation workflow, including pinned sing-box/Mihomo interop and the Linux structural gate, passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32903455529\n- Linux/amd64 local artifact SHA-256: 30f3ed88053c0d71a74fe7c69f4102f2fd8f639f947e903255181957cb14f052\n- Release commit: fd1ebbe703a27842c85035854203cc9227f219e4\n"
+            },
             {
               "name": "Xray-core v26.8.25-1457",
               "tag": "v26.8.25-1457",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- BitTorrent detection no longer misfires on real-world DNS queries. The v26.8.22 exclusion modeled textbook queries only; a deployment still classified a query to 8.8.8.8:53 as bittorrent and auto-banned the user. The shape space is now verified live against the world's most popular resolvers. Upgrade is strongly recommended for every deployment routing on `protocol: [\"bittorrent\"]` with automatic enforcement (webhooks, panels).\n\n## Fork fixes\n\n- **DNS false positives closed over the deployed query space (production-verified).** The v26.8.22 DNS exclusion required exactly one question, opcode QUERY, zero answer/authority records, at most one additional record and no trailing bytes. Live verification against Cloudflare, Google, Quad9, OpenDNS, AdGuard, Yandex, AliDNS and DNSPod confirmed 24 real query shapes (plain, EDNS0, EDNS cookie, padded, mixed-case, HTTPS/SVCB, PTR, SRV, long names, and more); five of them slipped past the strict model — EDNS with two additional records, two-question queries, trailing bytes with zero additional records, dynamic-update opcodes from Windows domain machines, and answer-carrying queries — accounting for 25 of 120 colliding replays. `isDNSQuery` now accepts request-bit-clear queries with a deployed opcode (query, iquery, status, notify, update), one or two questions and a structurally valid first question; record counts and trailing bytes are unconstrained. A real uTP packet passing this needs its connection id to clear the response bit and opcode nibble and its timestamp to read as a question count of one or two (on the order of 1e-7).\n- The verified shapes are pinned as a permanent regression test (`TestSniffUTPIgnoresDNSQueries`) with their resolver provenance; the uTP, DHT and UDP tracker corpora and the process e2e gate remain green, so torrent detection coverage is unchanged.\n\n## Upstream changes\n\n- None since v26.8.22; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries matching any deployed real-world shape are never classified as `bittorrent`. Deployments that ban users on the bittorrent rule should upgrade from v26.8.22, which intermittently auto-bans users over unlucky DNS transaction ids (roughly one query in 13000 with non-textbook shapes).\n- Torrent detection coverage is unchanged from v26.8.21+: plaintext TCP handshakes, uTP, DHT (KRPC) and UDP trackers are detected; MSE/protocol-encrypted peer handshakes and HTTPS tracker traffic remain undetectable by content.\n\n## Validation\n\n- Live-verified corpus: 24 query shapes x 8 popular resolvers, all answered; 5 previously failing shapes x 5 colliding transaction ids now produce 0 of 120 misclassifications.\n- Unit corpus, `-race`, `go vet`, dispatcher tests and the integration process e2e gate (torrent probes blocked, DNS/UDP/TCP controls pass) all green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `70d1faabcf658e20a83aeeabd8e31700d844b24b8ea0aa20b6a0fdb5f5d56e4a`.\n"
-            },
-            {
-              "name": "Xray-core v26.8.22",
-              "tag": "v26.8.22",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.22",
-              "published_at": "2026-08-18T15:56:11Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- BitTorrent protocol detection no longer misfires on DNS: a query whose transaction id collides with the uTP header shape was routed to bittorrent rules roughly once per 13000 queries, intermittently breaking name resolution for proxied clients. This release is recommended for every deployment using routing rules on `protocol: [\"bittorrent\"]`, especially with automatic user enforcement (webhooks/panels).\n- New end-to-end process gate locks in the torrent detection behavior: a real Xray process must block uTP, DHT, UDP tracker and TCP handshake probes through SOCKS while DNS and plain UDP/TCP controls pass.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing no longer classifies DNS queries (false positive, production-verified).** A DNS query with transaction id 0x0100/0x1100/0x2100/0x3100/0x4100 passes the uTP type/version, extension and connection-id checks: the id reads as a valid type/version pair, the query flags 0x0100 read as a non-zero connection id, and no extension chain exists to validate. A production deployment observed 42 DNS flows routed to the bittorrent block outbound within 25 minutes. `SniffUTP` now explicitly passes over well-formed DNS queries (standard opcode, exactly one question, no answer/authority records, at most one EDNS0 additional record, valid labels, no trailing bytes without EDNS). A real uTP packet matching that shape would need its timestamp fields to read as those exact count values. Regression test `TestSniffUTPIgnoresDNSQueries` is built from the observed collision shape.\n- **New process-level e2e test** (`go test -tags integration ./app/dispatcher -run '^TestBitTorrentBlockProcessE2E$'`): real Xray + minimal SOCKS5 client; uTP/DHT/tracker datagrams and TCP handshakes must be dropped while DNS, plain UDP and plain TCP pass. Verified red against v26.8.20 (where the torrent probes leak) and green against this tree.\n\n## Upstream changes\n\n- None since v26.8.21; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries are never classified as `bittorrent`. Operators using the bittorrent protocol condition with automatic enforcement should upgrade: previous versions intermittently route unlucky DNS queries (about 1 in 13000) into the bittorrent outbound.\n- Detection coverage is otherwise unchanged from v26.8.21. Known residual gaps remain by design: MSE/protocol-encrypted TCP peer handshakes and HTTPS tracker traffic are not detectable by content; HTTP(S) trackers are sniffed as ordinary web traffic.\n\n## Validation\n\n- Unit corpus: 111 subtests green across TCP handshakes, uTP (all packet types, SACK and close-reason chains), DHT KRPC, UDP tracker forms, and non-torrent protocols including the DNS collision shapes; `go test -race` green on changed packages; `go vet` clean.\n- Process e2e gate green (torrent probes blocked, controls pass).\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `29c69dedb0f9d9db34955593d639588b6d68e3dd7c718bcca8facaff9a2dccc3`.\n"
             }
           ],
           "last_commit": {
@@ -570,7 +570,7 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T23:04:38Z",
+            "pushed_at": "2026-08-25T23:06:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -623,10 +623,10 @@
             }
           ],
           "last_commit": {
-            "sha": "11cac6c",
+            "sha": "8e3c978",
             "branch": "main",
-            "date": "2026-08-25T22:23:29Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/11cac6c91afaeb9257212c3c28c556c5c542b996"
+            "date": "2026-08-25T23:06:55Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/8e3c9786fe9812ba84921dd1ea75a50df3a6639b"
           }
         },
         {
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90601,
+            "stars": 90602,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-25T07:02:15Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24656,
+            "stars": 24657,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4856,7 +4856,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65823,
+            "stars": 65824,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-25T14:04:47Z",
@@ -4927,7 +4927,7 @@
             "stars": 80297,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-25T20:59:31Z",
+            "pushed_at": "2026-08-25T23:07:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4980,10 +4980,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f658132",
+            "sha": "90b4c9b",
             "branch": "master",
-            "date": "2026-08-25T20:59:32Z",
-            "url": "https://github.com/netdata/netdata/commit/f6581325570ececf7d8cc5b5631749c25bc8b67a"
+            "date": "2026-08-25T23:07:36Z",
+            "url": "https://github.com/netdata/netdata/commit/90b4c9b7fe4c81c6bde5dabdd34253508c72e40d"
           }
         },
         {
