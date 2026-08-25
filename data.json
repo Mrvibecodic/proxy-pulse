@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:44:00.396903Z",
+  "generated_at": "2026-08-25T14:49:16.432661Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T11:51:40Z",
+            "pushed_at": "2026-08-25T14:45:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.26",
+              "tag": "v26.8.26",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.26",
+              "published_at": "2026-08-25T14:45:42Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "# Highlights\n\n- Operator panels now display `26.8.26.utc1442` from `xray version` / `core.Version()`.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n# Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n# Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n# Compatibility notes\n\n- Git tag and release remain `v26.8.26`. The panel-visible string is `26.8.26.utc1442`.\n- REALITY session identifiers still use numeric `26.8.26`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n# Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- `go vet ./core ./common/mux ./proxy/wireguard ./infra/conf`\n- Linux/amd64 static build (`CGO_ENABLED=0 GOAMD64=v1 -trimpath`); `xray version` reported `26.8.26.utc1442`.\n"
+            },
             {
               "name": "Xray-core v26.8.25",
               "tag": "v26.8.25",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- BitTorrent protocol detection no longer misfires on DNS: a query whose transaction id collides with the uTP header shape was routed to bittorrent rules roughly once per 13000 queries, intermittently breaking name resolution for proxied clients. This release is recommended for every deployment using routing rules on `protocol: [\"bittorrent\"]`, especially with automatic user enforcement (webhooks/panels).\n- New end-to-end process gate locks in the torrent detection behavior: a real Xray process must block uTP, DHT, UDP tracker and TCP handshake probes through SOCKS while DNS and plain UDP/TCP controls pass.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing no longer classifies DNS queries (false positive, production-verified).** A DNS query with transaction id 0x0100/0x1100/0x2100/0x3100/0x4100 passes the uTP type/version, extension and connection-id checks: the id reads as a valid type/version pair, the query flags 0x0100 read as a non-zero connection id, and no extension chain exists to validate. A production deployment observed 42 DNS flows routed to the bittorrent block outbound within 25 minutes. `SniffUTP` now explicitly passes over well-formed DNS queries (standard opcode, exactly one question, no answer/authority records, at most one EDNS0 additional record, valid labels, no trailing bytes without EDNS). A real uTP packet matching that shape would need its timestamp fields to read as those exact count values. Regression test `TestSniffUTPIgnoresDNSQueries` is built from the observed collision shape.\n- **New process-level e2e test** (`go test -tags integration ./app/dispatcher -run '^TestBitTorrentBlockProcessE2E$'`): real Xray + minimal SOCKS5 client; uTP/DHT/tracker datagrams and TCP handshakes must be dropped while DNS, plain UDP and plain TCP pass. Verified red against v26.8.20 (where the torrent probes leak) and green against this tree.\n\n## Upstream changes\n\n- None since v26.8.21; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries are never classified as `bittorrent`. Operators using the bittorrent protocol condition with automatic enforcement should upgrade: previous versions intermittently route unlucky DNS queries (about 1 in 13000) into the bittorrent outbound.\n- Detection coverage is otherwise unchanged from v26.8.21. Known residual gaps remain by design: MSE/protocol-encrypted TCP peer handshakes and HTTPS tracker traffic are not detectable by content; HTTP(S) trackers are sniffed as ordinary web traffic.\n\n## Validation\n\n- Unit corpus: 111 subtests green across TCP handshakes, uTP (all packet types, SACK and close-reason chains), DHT KRPC, UDP tracker forms, and non-torrent protocols including the DNS collision shapes; `go test -race` green on changed packages; `go vet` clean.\n- Process e2e gate green (torrent probes blocked, controls pass).\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `29c69dedb0f9d9db34955593d639588b6d68e3dd7c718bcca8facaff9a2dccc3`.\n"
-            },
-            {
-              "name": "Xray-core v26.8.21",
-              "tag": "v26.8.21",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.21",
-              "published_at": "2026-08-18T09:45:53Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Torrent traffic detection now works end to end. Routing rules that match `protocol: [\"bittorrent\"]` now cover BitTorrent peer connections (TCP handshake and uTP), Mainline DHT (KRPC), and UDP trackers (BEP 15). Previously only the TCP handshake was detected; the uTP sniffer could never match any packet.\n\n## Fork fixes\n\n- **BitTorrent uTP sniffing repaired (correctness).** `SniffUTP` rejected every packet ever sent: its timestamp gate compared the packet's 32-bit monotonic clock value against Unix-epoch microseconds with a 24-hour window expressed in nanoseconds, while deployed stacks (libutp: `CLOCK_MONOTONIC`, libtorrent: `high_resolution_clock` truncated to 32 bits) put monotonic — not epoch — timestamps on the wire. The extension chain was also parsed before the fixed 20-byte header instead of after it per BEP 29, and libtorrent's close-reason extension (id 3) was rejected. Impact: uTP peer traffic from qBittorrent, Transmission, Deluge and other libtorrent/libutp clients — the dominant transport of modern torrent clients — was invisible to bittorrent routing rules.\n- **New: Mainline DHT detection.** KRPC bencode messages (queries, responses, errors) are structurally validated — message kind `y`, transaction id `t`, deployed query names, 20-byte node id in responses, `[code, message]` error lists — and reported as `bittorrent`.\n- **New: UDP tracker detection.** BEP 15 connect requests (protocol id `0x41727101980`), announces on cached connection ids (98 bytes, event and port sanity), and scrapes are reported as `bittorrent`.\n- **False-positive hardening.** WireGuard handshake initiations (`01 00 00 00` + key material), which pass every structural uTP check, are now rejected deterministically. The corpus verifies DNS, NTP, QUIC, WireGuard and random datagrams are not classified as torrents.\n\n## Upstream changes\n\n- None since v26.8.20: upstream/main is fully contained in this release; this version ships fork-only detection fixes.\n\n## Compatibility notes\n\n- No wire or protocol behavior changed; the sniffing improvements only affect sniffing-based routing. Rules using `sniffing` with `destOverride: [\"bittorrent\"]` or routing condition `protocol: [\"bittorrent\"]` now additionally match uTP, DHT and UDP tracker flows. Operators with rules that route or block by that condition should review the wider coverage.\n- Known limits: HTTP(S) tracker traffic is still sniffed as `http`/`tls` (domain routing preserved); a uTP session whose SYN carries connection id 0 (about 1 in 65536 sessions in deployed stacks) falls through the WireGuard-shaped guard.\n\n## Validation\n\n- Wire-format corpus built from the libutp and libtorrent (RC_2_0) sources: 108 subtests green, covering TCP handshakes of six client families, every uTP packet type with SACK and close-reason extension chains, every KRPC message kind (including BEP 44 mutable puts), and tracker requests; the false-positive corpus covers DNS, NTP, WireGuard, QUIC and random datagrams.\n- `go build ./...`, `go vet`, unit tests `-count=1`, and `-race` on changed packages green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `f6943625d8b12fe89e7587c58e0b4f571cb0193f1ef229bfd84fef67d2d5e6fb`.\n"
             }
           ],
           "last_commit": {
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 4915,
+            "stars": 4916,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-08-22T17:33:10Z",
@@ -4791,7 +4791,7 @@
             "stars": 76409,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:43:59Z",
+            "pushed_at": "2026-08-25T14:48:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "97fa0bf",
+            "sha": "833095a",
             "branch": "main",
-            "date": "2026-08-25T14:34:28Z",
-            "url": "https://github.com/grafana/grafana/commit/97fa0bf31904866019342dc46f7c3c83d1e0259c"
+            "date": "2026-08-25T14:37:15Z",
+            "url": "https://github.com/grafana/grafana/commit/833095a581942691320058d8cb56b8ac4ee6f35d"
           }
         },
         {
@@ -4912,10 +4912,10 @@
             }
           ],
           "last_commit": {
-            "sha": "93b3b35",
-            "branch": "deps-update/modules",
-            "date": "2026-08-25T14:04:30Z",
-            "url": "https://github.com/prometheus/prometheus/commit/93b3b35d3579ea4b112d516c7c1b473ff9d77bc6"
+            "sha": "e85eea1",
+            "branch": "main",
+            "date": "2026-08-25T11:05:04Z",
+            "url": "https://github.com/prometheus/prometheus/commit/e85eea196ed73ddef40cea514e8cc4193602bdee"
           }
         },
         {
