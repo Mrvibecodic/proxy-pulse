@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:54:42.990771Z",
+  "generated_at": "2026-08-25T14:59:59.913540Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41211,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:28:37Z",
+            "pushed_at": "2026-08-25T14:57:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33540,
+            "stars": 33541,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-25T10:09:55Z",
@@ -220,7 +220,7 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:52:28Z",
+            "pushed_at": "2026-08-25T14:58:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -230,10 +230,10 @@
               "name": "Xray-core v26.8.26",
               "tag": "v26.8.26",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.26",
-              "published_at": "2026-08-25T14:52:41Z",
+              "published_at": "2026-08-25T14:59:10Z",
               "prerelease": false,
               "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Operator panels now display `26.8.25.1451` from `xray version` / `core.Version()` using year.month.day.HHMM UTC.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n## Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n## Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n## Compatibility notes\n\n- Git tag and release remain `v26.8.26`. The panel-visible string is `26.8.25.1451` (2026-08-25 14:51 UTC).\n- REALITY session identifiers use numeric `26.8.25`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n## Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- `go vet ./core ./common/mux ./proxy/wireguard ./infra/conf`\n- Version stamp test: `26.8.25.1451`.\n"
+              "body": "## Highlights\n\n- Operator panels now display `26.8.25-1457` from `xray version` / `core.Version()`.\n- The string follows year.month.day-HHMM UTC so it stays valid semver.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n## Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n## Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n## Compatibility notes\n\n- Git tag and release remain `v26.8.26`. The panel-visible string is `26.8.25-1457` (2026-08-25 14:57 UTC).\n- REALITY session identifiers use numeric `26.8.25`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n## Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- Version stamp test: `26.8.25-1457`.\n"
             },
             {
               "name": "Xray-core v26.8.25",
@@ -4791,7 +4791,7 @@
             "stars": 76409,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:52:46Z",
+            "pushed_at": "2026-08-25T14:57:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4924,10 +4924,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80286,
+            "stars": 80287,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-25T13:47:24Z",
+            "pushed_at": "2026-08-25T14:59:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
