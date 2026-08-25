@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T14:49:16.432661Z",
+  "generated_at": "2026-08-25T14:54:42.990771Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41210,
+            "stars": 41211,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-25T14:28:37Z",
@@ -220,7 +220,7 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:45:30Z",
+            "pushed_at": "2026-08-25T14:52:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -230,10 +230,10 @@
               "name": "Xray-core v26.8.26",
               "tag": "v26.8.26",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.26",
-              "published_at": "2026-08-25T14:45:42Z",
+              "published_at": "2026-08-25T14:52:41Z",
               "prerelease": false,
               "author": "Jolymmiles",
-              "body": "# Highlights\n\n- Operator panels now display `26.8.26.utc1442` from `xray version` / `core.Version()`.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n# Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n# Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n# Compatibility notes\n\n- Git tag and release remain `v26.8.26`. The panel-visible string is `26.8.26.utc1442`.\n- REALITY session identifiers still use numeric `26.8.26`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n# Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- `go vet ./core ./common/mux ./proxy/wireguard ./infra/conf`\n- Linux/amd64 static build (`CGO_ENABLED=0 GOAMD64=v1 -trimpath`); `xray version` reported `26.8.26.utc1442`.\n"
+              "body": "## Highlights\n\n- Operator panels now display `26.8.25.1451` from `xray version` / `core.Version()` using year.month.day.HHMM UTC.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n## Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n## Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n## Compatibility notes\n\n- Git tag and release remain `v26.8.26`. The panel-visible string is `26.8.25.1451` (2026-08-25 14:51 UTC).\n- REALITY session identifiers use numeric `26.8.25`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n## Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- `go vet ./core ./common/mux ./proxy/wireguard ./infra/conf`\n- Version stamp test: `26.8.25.1451`.\n"
             },
             {
               "name": "Xray-core v26.8.25",
@@ -570,7 +570,7 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:29:49Z",
+            "pushed_at": "2026-08-25T14:49:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90600,
+            "stars": 90599,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-25T07:02:15Z",
@@ -4791,7 +4791,7 @@
             "stars": 76409,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-25T14:48:58Z",
+            "pushed_at": "2026-08-25T14:52:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "833095a",
-            "branch": "main",
-            "date": "2026-08-25T14:37:15Z",
-            "url": "https://github.com/grafana/grafana/commit/833095a581942691320058d8cb56b8ac4ee6f35d"
+            "sha": "45eac9b",
+            "branch": "nicwestvold/storybook-rsbuild",
+            "date": "2026-08-25T14:44:00Z",
+            "url": "https://github.com/grafana/grafana/commit/45eac9b9d75b5e779ddacd216246d74675c8ef1d"
           }
         },
         {
@@ -5212,7 +5212,7 @@
           "track": "releases",
           "meta": {
             "description": "Self-hosted панель учёта расходов на инфраструктуру: автосинк серверов, балансов и платежей через API хостеров. Мультивалютность, прогнозы, Telegram-уведомления.",
-            "stars": 71,
+            "stars": 72,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
             "pushed_at": "2026-08-23T13:51:53Z",
