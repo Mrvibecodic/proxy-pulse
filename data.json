@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:03:26.035481Z",
+  "generated_at": "2026-08-26T13:08:41.996539Z",
   "groups": [
     {
       "id": "cores",
@@ -570,12 +570,21 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T12:44:19Z",
+            "pushed_at": "2026-08-26T13:04:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.18",
+              "tag": "android-v0.1.18",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-699d73656a103bd0b924",
+              "published_at": "2026-08-26T13:04:26Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.17",
               "tag": "android-v0.1.17",
@@ -611,22 +620,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n### Исправлено\n- Сброс зависших сессий при смене сети теперь работает для всех протоколов с\n  постоянными соединениями: gRPC-транспорт (vless/vmess/trojan), hysteria2,\n  tuic, anytls, ssh и мультиплекс поверх любого из них. Сервер больше не\n  «умирает» после переключения сети из-за застрявшего соединения старой сети.\n\n### Изменено\n- В начале каждого захвата лога пишется версия приложения — видно, на какой\n  сборке снят лог."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.13",
-              "tag": "android-v0.1.13",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.13",
-              "published_at": "2026-08-20T23:35:22Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n- Серверы с включённым мультиплексом больше не «умирают» на полминуты после\n  смены сети: сессии мультиплекса сбрасываются в момент переключения, и новые\n  подключения сразу идут по новой сети, а не встают в очередь в зависшую\n  сессию старой."
             }
           ],
           "last_commit": {
-            "sha": "4208efd",
+            "sha": "185ebcd",
             "branch": "main",
-            "date": "2026-08-26T12:43:53Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/4208efd0258d3166c8dee874fc2d49d62ae03353"
+            "date": "2026-08-26T13:04:27Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/185ebcd047dc2a1dc642473ac1fe7e064a714d97"
           }
         },
         {
@@ -978,7 +978,7 @@
             "stars": 37,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T06:59:21Z",
+            "pushed_at": "2026-08-26T13:05:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
@@ -3569,7 +3569,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 546,
+            "stars": 547,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -3637,7 +3637,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16054,
+            "stars": 16055,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4655,7 +4655,7 @@
             "stars": 90631,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-26T03:26:05Z",
+            "pushed_at": "2026-08-26T13:05:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "baf83f5",
-            "branch": "master",
-            "date": "2026-08-26T03:26:06Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/baf83f59dacdace44dc9bc61a5c167231dd28cef"
+            "sha": "dbb126c",
+            "branch": "3.0.X",
+            "date": "2026-08-26T13:05:52Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/dbb126c51ed338dde1ae2667654413e023bccf7a"
           }
         },
         {
@@ -4791,7 +4791,7 @@
             "stars": 76426,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:02:18Z",
+            "pushed_at": "2026-08-26T13:04:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "06a4172",
-            "branch": "rodrigopk/autosync-sync-health",
-            "date": "2026-08-26T12:58:39Z",
-            "url": "https://github.com/grafana/grafana/commit/06a41726e82e60c1412c45d8b6a0285b031cdfef"
+            "sha": "f0c7980",
+            "branch": "main",
+            "date": "2026-08-26T13:02:19Z",
+            "url": "https://github.com/grafana/grafana/commit/f0c7980b7938176d05dd17cb72a786f14e58af02"
           }
         },
         {
