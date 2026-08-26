@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:45:45.174807Z",
+  "generated_at": "2026-08-26T13:51:03.515649Z",
   "groups": [
     {
       "id": "cores",
@@ -511,11 +511,11 @@
             {
               "name": "Clod Clash clod-v0.1.7",
               "tag": "clod-v0.1.7",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-30432435a7e6714299b6",
-              "published_at": "2026-08-26T13:19:43Z",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.7",
+              "published_at": "2026-08-26T13:47:40Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- The subscription list shows which pasted links could not be parsed instead of dropping them silently\n- Log export keeps the tail of oversized log files with a note about how much was cut instead of skipping the file\n- Weekly dependency audit now covers the frontend as well\n\n### Changed\n\n- Provider links open only over https, tg and mailto; a subscription address is accepted only over https\n- Group icons are downloaded only from public https addresses, including after redirects\n- The IPv6 switch in the settings is disabled: the key is decided by the subscription\n- The «Export logs» and «Export backup» buttons ask where to save the file inside the app\n- Pre-releases are marked on GitHub by the version suffix\n- The «Update core» button uses the built-in core updater\n- Linux: the polkit prompt is shown by the system agent only\n\n### Fixed\n\n- A window stretched by hand is no longer pulled back by the auto-fit\n- Window size is checked in logical pixels, so hi-DPI setups no longer get reset\n- A failed subscription update reports the error instead of pretending it succeeded, and is shown only once\n- The first automatic update is counted from the last successful update, and a disabled timer no longer fires again\n- Reordering subscriptions with an unknown id no longer loses the list\n- Windows: the proxy bypass list uses the `;` separator; a failed system call is retried\n- After a core crash the log tail is kept, the TUN check ignores lines of the old process, and the health probe has a timeout\n- Version comparison understands pre-release suffixes\n- Error texts shown in the interface no longer contain paths or secrets\n- Every log line gets its own timestamp\n- Deep links with several addresses are processed in full; on macOS the app no longer switches to background mode while quitting\n- Linux: an installer killed by a signal is no longer reported as a polkit failure\n- The IPv6 fake-ip range uses the reserved block `2001:2::/64`\n- Subscription cards drag smoothly; the search box in proxy groups gets focus when opened\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- В списке подписок видно, какие вставленные ссылки не разобрались, вместо молчаливого пропуска\n- Выгрузка логов сохраняет хвост слишком больших файлов с пометкой, сколько отрезано, вместо пропуска файла\n- Еженедельный аудит зависимостей теперь проверяет и фронт\n\n### Изменено\n\n- Ссылки провайдера открываются только по https, tg и mailto; адрес подписки принимается только по https\n- Иконки групп скачиваются только с публичных https-адресов, в том числе после редиректов\n- Переключатель IPv6 в настройках отключён: ключ решает подписка\n- Кнопки «Выгрузить логи» и «Экспорт бэкапа» спрашивают, куда сохранить файл, внутри приложения\n- Пре-релиз помечается на GitHub по суффиксу версии\n- Кнопка «Обновить ядро» работает через встроенный обновитель ядра\n- Linux: запрос пароля polkit показывает только системный агент\n\n### Исправлено\n\n- Растянутое руками окно больше не откатывается подгоном под содержимое\n- Размер окна проверяется в логических пикселях, на hi-DPI окно больше не сбрасывается\n- Неудачное обновление подписки сообщает об ошибке, а не делает вид, что всё прошло, и показывает её один раз\n- Первое автообновление отсчитывается от последнего успешного, выключенный таймер больше не срабатывает\n- Перестановка подписок с неизвестным id больше не теряет список\n- Windows: список исключений прокси разделяется `;`; неудачный системный вызов повторяется\n- После падения ядра хвост лога сохраняется, проверка TUN не читает строки старого процесса, у пробы здоровья есть таймаут\n- Сравнение версий понимает суффиксы пре-релизов\n- Тексты ошибок в интерфейсе больше не содержат путей и секретов\n- Каждая строка лога получает своё время\n- Deep-link с несколькими адресами обрабатывается целиком; на macOS приложение при выходе больше не уходит в фоновый режим\n- Linux: установщик, убитый сигналом, больше не выдаётся за ошибку polkit\n- Диапазон fake-ip для IPv6 взят из зарезервированного блока `2001:2::/64`\n- Карточки подписок перетаскиваются плавно; поле поиска в группах получает фокус при открытии"
             },
             {
               "name": "Clod Clash clod-v0.1.6",
@@ -570,30 +570,12 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:45:26Z",
+            "pushed_at": "2026-08-26T13:50:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
-            {
-              "name": "Clod Clash для Android android-v0.1.18",
-              "tag": "android-v0.1.18",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-699d73656a103bd0b924",
-              "published_at": "2026-08-26T13:04:26Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.18",
-              "tag": "android-v0.1.18",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-e04390e7cf1fe6eaa9d0",
-              "published_at": "2026-08-26T13:14:53Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
-            },
             {
               "name": "Clod Clash для Android android-v0.1.18",
               "tag": "android-v0.1.18",
@@ -620,6 +602,24 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Служебный релиз для сборок до 0.1.18, которые ищут манифест здесь. Не скачивайте отсюда APK."
+            },
+            {
+              "name": "Clod Clash для Android android-v0.1.17",
+              "tag": "android-v0.1.17",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.17",
+              "published_at": "2026-08-23T20:29:28Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n- Документация с описанием экранов, настроек и ответами на частые вопросы:\n  https://mrvibecodic.github.io/clod-clash-android/\n\n### Изменено\n- Порт локального прокси больше не навязывается приложением: он берётся из\n  подписки, поверх применяется «Переопределение», а привычный 7890\n  подставляется, только если в конфигурации нет ни одного локального входа и\n  порт свободен. Действующий порт виден на вкладке «Сеть».\n- Полупрозрачные подложки пилюль и карточек состояния приведены к одному тону.\n\n### Исправлено\n- Выбранный в настройках язык доходит до уведомлений, ярлыков и виджета —\n  раньше они показывались на языке системы.\n- «Скрыть иконку» теперь снимает и уже созданные ярлыки. На телевизоре\n  переключателя нет: там нет ни виджета, ни плитки, и скрытая иконка лишала\n  приложение единственной точки входа — ранее скрытая, она вернётся при запуске.\n- Пустое поле порта в «Переопределении» означает «не менять» и больше не\n  выключает локальный вход; чтобы отключить его, введите ноль.\n\nЕсли вы обновляетесь с 0.1.15, в эту сборку входит и всё из предварительной\n0.1.16: выбор языка, резервная копия подписок, иконки групп, раскладка для\nпланшетов и телевизоров, тёмная тема на всех экранах и остальные исправления."
+            },
+            {
+              "name": "Clod Clash для Android android-v0.1.16-alpha",
+              "tag": "android-v0.1.16-alpha",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.16-alpha",
+              "published_at": "2026-08-22T14:10:48Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n- Выбор языка приложения в настройках: «Как в системе», English, Русский.\n- Резервная копия подписок: список ссылок сохраняется в файл и восстанавливается\n  из него. Файл храните при себе — по ссылкам открывается доступ к подпискам.\n- Иконки групп из подписки на вкладке «Серверы», если провайдер их присылает.\n  Отключаются в настройках приложения.\n- Тумблер уведомлений об успешном обновлении подписки — раньше отключить их\n  было нельзя.\n- Раскладка для планшетов и альбомной ориентации: навигация переезжает вбок,\n  содержимое не растягивается на всю ширину. На телевизоре фокус сразу встаёт\n  на кнопку подключения.\n\n### Изменено\n- Вкладка «Ещё» перегруппирована: четыре раздела вместо пяти, обновление\n  приложения переехало в «О программе».\n- В глобальном режиме на вкладке «Серверы» остаётся только группа GLOBAL —\n  выбор в остальных группах в этом режиме всё равно ни на что не влиял.\n- Если проверка задержек вручную не получила ответа ни от одного сервера,\n  об этом теперь говорится, а не остаются одни прочерки.\n\n### Исправлено\n- Тёмная тема применяется ко всем экранам: раньше выбор «Всегда тёмная» или\n  «Всегда светлая» часть экранов игнорировала и шла за системой.\n- Плитка в шторке, виджет и внешние команды показывают состояние по\n  работающему туннелю, а не по загруженной подписке: сразу после включения они\n  больше не выглядят выключенными и не пытаются запустить туннель второй раз.\n  Остановленная плитка больше не показывает имя прошлой подписки.\n- Пустое поле в «Переопределении» больше не затирает значение из подписки:\n  стёртая строка означает «не менять», как и кнопка сброса.\n- Когда туннель забирает другой VPN-клиент, приложение завершает работу\n  корректно и не оставляет висеть уведомление в шторке.\n- Восстановленная из копии подписка сохраняет интервал автообновления и не\n  остаётся черновиком.\n- Докачка обновления приложения снова работает на Android 6."
             }
           ],
           "last_commit": {
@@ -4791,7 +4791,7 @@
             "stars": 76426,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:45:42Z",
+            "pushed_at": "2026-08-26T13:47:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0f9eb85",
-            "branch": "collinfingar/notebooks-editable-title",
-            "date": "2026-08-26T13:36:55Z",
-            "url": "https://github.com/grafana/grafana/commit/0f9eb85864ffb132eb3b0086686541a2b8bbd002"
+            "sha": "e74cb2d",
+            "branch": "app-plugins-with-manifest",
+            "date": "2026-08-26T06:17:01Z",
+            "url": "https://github.com/grafana/grafana/commit/e74cb2db9802702a014aea804292f8c13fa36d9b"
           }
         },
         {
@@ -4859,7 +4859,7 @@
             "stars": 65833,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:45:37Z",
+            "pushed_at": "2026-08-26T13:46:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4924,7 +4924,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80302,
+            "stars": 80303,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-26T10:48:27Z",
