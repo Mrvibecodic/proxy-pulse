@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:19:22.030641Z",
+  "generated_at": "2026-08-26T13:24:37.651910Z",
   "groups": [
     {
       "id": "cores",
@@ -502,12 +502,21 @@
             "stars": 7,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:15:11Z",
+            "pushed_at": "2026-08-26T13:19:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.7",
+              "tag": "clod-v0.1.7",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-30432435a7e6714299b6",
+              "published_at": "2026-08-26T13:19:43Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash clod-v0.1.6",
               "tag": "clod-v0.1.6",
@@ -543,15 +552,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- TUN: the tunnel is now taken down by the app itself when the connection button is off, and is recreated at once if the tunnel is switched back on meanwhile\n- After the tunnel comes up its traffic is probed: if the local proxy answers but the direct path stays silent, a notice appears — on Windows with a hint about the firewall for the `system` and `mixed` stacks\n- The TUN dialog shows the stack the core actually applied, so with «Auto» it is visible what the subscription chose, and warns about `system` and `mixed` on Windows\n- Builds for Intel Macs: the release now carries an `x86_64` build next to the Apple Silicon one\n\n### Fixed\n\n- Windows: the app no longer freezes after the window is restored from the tray — debug tracing was getting into release builds and turned every event sent to the page into a wait on the main thread\n- Quitting now waits for the tunnel to really come down and the core to stop, so routes are not left hanging without internet until the next start\n- Windows: a core that survived a crash is swept away on start instead of living on with a raised tunnel and an old config\n- Windows: a busy service channel is no longer read as «no service» — that dropped the core into the unprivileged mode and the tunnel silently did not come up\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- TUN: туннель гаснет сам, если кнопка подключения выключена, и сразу пересоздаётся, если за это время туннель успели включить обратно\n- После подъёма туннеля проверяется трафик: если локальный прокси отвечает, а прямой путь молчит, появляется уведомление — на Windows с подсказкой про брандмауэр для стеков `system` и `mixed`\n- Диалог TUN показывает стек, фактически применённый ядром: при «Авто» видно, что выбрала подписка, — и предупреждает о выборе `system` или `mixed` на Windows\n- Сборка под маки с процессором Intel: в релизе рядом с версией для Apple Silicon появилась `x86_64`\n\n### Исправлено\n\n- Windows: приложение больше не зависает после разворачивания окна из трея — отладочная трассировка попадала в боевую сборку и превращала отправку каждого события странице в ожидание главного потока\n- Выход из приложения ждёт, пока туннель действительно снимется, а ядро остановится, — маршруты больше не остаются висеть без интернета до следующего запуска\n- Windows: ядро, пережившее аварийное завершение, подметается при старте, а не живёт дальше с поднятым туннелем и старым конфигом\n- Windows: занятый канал службы больше не читается как «службы нет» — из-за этого ядро уходило в режим без прав и туннель молча не поднимался"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.2",
-              "tag": "clod-v0.1.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.2",
-              "published_at": "2026-08-19T13:14:48Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- TUN: the network stack, strict routing and DNS interception can now follow the subscription («Auto») or be set by hand in Settings → TUN\n- A provider can hide latency numbers with the `clod-disable-ping` header: a server then shows a green check, a red cross or a dash\n- The logs screen got a «Save to file» button — it writes exactly what is on screen, with the current level, search and order\n\n### Fixed\n\n- The tunnel is raised again after a failed start, and comes back after sleep or a network change\n- A registered but stopped background service is started without asking for rights (Windows)\n- Linux: the service is no longer removed when the package is updated, so the password is not asked again\n- After a crash no orphaned core stays running (Linux, macOS)\n- A subscription link opens the app and imports the subscription even when the app was closed or hidden in the tray, and links with `\u0026` or `#` are no longer cut short\n- The right click shows the system menu in text fields again (Windows)\n- Connections really close when the server changes and the matching setting is on\n- Custom theme CSS is not lost when the settings window is closed\n- Checking for updates by hand goes through the local proxy when GitHub is not reachable directly\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- TUN: сетевой стек, строгая маршрутизация и перехват DNS теперь могут следовать за подпиской («Авто») или задаваться вручную в «Настройки → TUN»\n- Провайдер может скрыть цифры пинга заголовком `clod-disable-ping`: вместо миллисекунд у сервера появляется зелёная галочка, красный крестик или прочерк\n- На экране логов появилась кнопка «Сохранить в файл» — пишет ровно то, что на экране, с учётом уровня, поиска и порядка\n\n### Исправлено\n\n- Туннель поднимается повторно после неудачного старта и восстанавливается после сна и смены сети\n- Зарегистрированная, но остановленная фоновая служба запускается без запроса прав (Windows)\n- Linux: служба больше не удаляется при обновлении пакета, поэтому пароль не спрашивают заново\n- После аварийного завершения не остаётся запущенное ядро (Linux, macOS)\n- Ссылка на подписку открывает приложение и добавляет подписку, даже если оно было закрыто или свёрнуто в трей, а ссылки с `\u0026` и `#` больше не обрезаются\n- Правый клик в полях ввода снова показывает системное меню (Windows)\n- Соединения действительно закрываются при смене сервера, когда включена соответствующая настройка\n- Свой CSS темы не теряется при закрытии окна настроек\n- Проверка обновлений вручную проходит через локальный прокси, если GitHub напрямую недоступен"
             }
           ],
           "last_commit": {
@@ -3705,7 +3705,7 @@
           "track": "tags",
           "meta": {
             "description": "AmneziaWG Linux kernel module",
-            "stars": 479,
+            "stars": 480,
             "url": "https://github.com/amnezia-vpn/amneziawg-linux-kernel-module",
             "default_branch": "master",
             "pushed_at": "2026-08-12T22:38:49Z",
@@ -4791,7 +4791,7 @@
             "stars": 76426,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:12:54Z",
+            "pushed_at": "2026-08-26T13:21:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4376fe9",
+            "sha": "70d4f3e",
             "branch": "main",
-            "date": "2026-08-26T13:12:57Z",
-            "url": "https://github.com/grafana/grafana/commit/4376fe9d60b2f191058069033e2365b52d501d81"
+            "date": "2026-08-26T13:19:58Z",
+            "url": "https://github.com/grafana/grafana/commit/70d4f3ed845d85a6adef3d2bdb93a6fc494ea950"
           }
         },
         {
