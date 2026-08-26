@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:35:14.525672Z",
+  "generated_at": "2026-08-26T13:40:29.499104Z",
   "groups": [
     {
       "id": "cores",
@@ -570,7 +570,7 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:15:04Z",
+            "pushed_at": "2026-08-26T13:35:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -595,6 +595,15 @@
               "body": "Черновик — наполняется сборкой."
             },
             {
+              "name": "Clod Clash для Android android-v0.1.18",
+              "tag": "android-v0.1.18",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-29c450bfbd0881f9f597",
+              "published_at": "2026-08-26T13:35:46Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.17",
               "tag": "android-v0.1.17",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.17",
@@ -611,22 +620,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n- Выбор языка приложения в настройках: «Как в системе», English, Русский.\n- Резервная копия подписок: список ссылок сохраняется в файл и восстанавливается\n  из него. Файл храните при себе — по ссылкам открывается доступ к подпискам.\n- Иконки групп из подписки на вкладке «Серверы», если провайдер их присылает.\n  Отключаются в настройках приложения.\n- Тумблер уведомлений об успешном обновлении подписки — раньше отключить их\n  было нельзя.\n- Раскладка для планшетов и альбомной ориентации: навигация переезжает вбок,\n  содержимое не растягивается на всю ширину. На телевизоре фокус сразу встаёт\n  на кнопку подключения.\n\n### Изменено\n- Вкладка «Ещё» перегруппирована: четыре раздела вместо пяти, обновление\n  приложения переехало в «О программе».\n- В глобальном режиме на вкладке «Серверы» остаётся только группа GLOBAL —\n  выбор в остальных группах в этом режиме всё равно ни на что не влиял.\n- Если проверка задержек вручную не получила ответа ни от одного сервера,\n  об этом теперь говорится, а не остаются одни прочерки.\n\n### Исправлено\n- Тёмная тема применяется ко всем экранам: раньше выбор «Всегда тёмная» или\n  «Всегда светлая» часть экранов игнорировала и шла за системой.\n- Плитка в шторке, виджет и внешние команды показывают состояние по\n  работающему туннелю, а не по загруженной подписке: сразу после включения они\n  больше не выглядят выключенными и не пытаются запустить туннель второй раз.\n  Остановленная плитка больше не показывает имя прошлой подписки.\n- Пустое поле в «Переопределении» больше не затирает значение из подписки:\n  стёртая строка означает «не менять», как и кнопка сброса.\n- Когда туннель забирает другой VPN-клиент, приложение завершает работу\n  корректно и не оставляет висеть уведомление в шторке.\n- Восстановленная из копии подписка сохраняет интервал автообновления и не\n  остаётся черновиком.\n- Докачка обновления приложения снова работает на Android 6."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.15",
-              "tag": "android-v0.1.15",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.15",
-              "published_at": "2026-08-21T12:51:21Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n- При первом подключении приложение один раз предлагает две настройки Android,\n  без которых соединение может отвалиться ночью или после перезагрузки:\n  «Не ограничивать батарею» и «Постоянное соединение». Дальше обе настройки с\n  текущим состоянием живут во вкладке «Ещё», раздел «Надёжность соединения».\n\n### Исправлено\n- Сброс зависших соединений при смене сети теперь действительно доходит до\n  каждого сервера — раньше он молча не срабатывал, и серверы с постоянными\n  соединениями висели до минуты после перехода на другую сеть.\n- После пробуждения телефона серверы больше не помечаются «мёртвыми» на первые\n  секунды: проверка, стартовавшая раньше, чем поднялась сеть, не засчитывается.\n- Если после смены сети выбранный сервер автогруппы недоступен, группа\n  перепроверяется сразу и уходит на живой сервер, не дожидаясь планового\n  интервала."
             }
           ],
           "last_commit": {
-            "sha": "185ebcd",
+            "sha": "3cd21d5",
             "branch": "main",
-            "date": "2026-08-26T13:04:27Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/185ebcd047dc2a1dc642473ac1fe7e064a714d97"
+            "date": "2026-08-26T13:35:48Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3cd21d5d825da6f74d8c0923d874d67fae7f9b5e"
           }
         },
         {
@@ -4791,7 +4791,7 @@
             "stars": 76426,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:35:19Z",
+            "pushed_at": "2026-08-26T13:40:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d0f6241",
-            "branch": "ihoryeromin/metric-badge-missing-metadata",
-            "date": "2026-08-26T13:21:02Z",
-            "url": "https://github.com/grafana/grafana/commit/d0f6241c04189b76c0d7c029bf44d86f51295b7e"
+            "sha": "0f9eb85",
+            "branch": "collinfingar/notebooks-editable-title",
+            "date": "2026-08-26T13:36:55Z",
+            "url": "https://github.com/grafana/grafana/commit/0f9eb85864ffb132eb3b0086686541a2b8bbd002"
           }
         },
         {
@@ -4924,7 +4924,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80303,
+            "stars": 80302,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-26T10:48:27Z",
@@ -4995,7 +4995,7 @@
             "stars": 17597,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-26T13:00:09Z",
+            "pushed_at": "2026-08-26T13:38:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "190e8ce",
-            "branch": "concurrent-per-day-search",
-            "date": "2026-08-26T12:25:50Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/190e8ced55c4ffd474d2e152e9aba823ea7b10a6"
+            "sha": "ceea7a9",
+            "branch": "gh-11384",
+            "date": "2026-08-26T13:38:14Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/ceea7a984b643dc8c5313c22311c49673faf427f"
           }
         }
       ]
