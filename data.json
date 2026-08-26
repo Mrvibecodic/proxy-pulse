@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:30:15.754657Z",
+  "generated_at": "2026-08-26T05:35:30.840146Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41219,
+            "stars": 41220,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-25T18:30:33Z",
@@ -4791,7 +4791,7 @@
             "stars": 76421,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T04:42:18Z",
+            "pushed_at": "2026-08-26T05:31:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1f9d297",
-            "branch": "owen/hybrid-search-external-lexical",
-            "date": "2026-08-25T21:48:28Z",
-            "url": "https://github.com/grafana/grafana/commit/1f9d297d326236b815615de9e10131421ddd32e1"
+            "sha": "1119cd7",
+            "branch": "pstibrany/recently-deleted-via-trash",
+            "date": "2026-08-26T05:31:37Z",
+            "url": "https://github.com/grafana/grafana/commit/1119cd7d3654f88c2930c9b9cc9daf81280e9753"
           }
         },
         {
@@ -5283,12 +5283,21 @@
             "stars": 3327,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T05:14:14Z",
+            "pushed_at": "2026-08-26T05:34:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.23.0",
+              "tag": "v3.23.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.23.0",
+              "published_at": "2026-08-26T05:33:34Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.23.0](https://github.com/Zephyruso/zashboard/compare/v3.22.0...v3.23.0) (2026-08-26)\n\n\n### Features\n\n* add Earth projection functionality and related utilities ([cc2e235](https://github.com/Zephyruso/zashboard/commit/cc2e235fab23c21de3738e8fdec8855119e5ae69)), closes [#769](https://github.com/Zephyruso/zashboard/issues/769)\n* add HonkStats integration and related UI components ([1f6ba40](https://github.com/Zephyruso/zashboard/commit/1f6ba40854fca8ee5c0442b860f41b57878a6d33))\n* enhance routing and endpoint handling with direct connection support ([5d3cc03](https://github.com/Zephyruso/zashboard/commit/5d3cc036b2598fc7d41d106b6f913a14402e91c1))\n* implement action pending notifications and enhance error handling ([da5cf23](https://github.com/Zephyruso/zashboard/commit/da5cf23fda8c969897224b2dcc21ff99fa0c5c97))\n* remove sing-box support and related code ([4adb487](https://github.com/Zephyruso/zashboard/commit/4adb4872d90c8ec1b8bfab4b43308cdb2da12c3e))\n\n\n### Bug Fixes\n\n* update viewport handling and dialog dimensions for better keyboard support ([615506f](https://github.com/Zephyruso/zashboard/commit/615506fc093832ab3e2572d03e610e72594abec7))"
+            },
             {
               "name": "v3.22.0",
               "tag": "v3.22.0",
@@ -5324,22 +5333,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.19.0](https://github.com/Zephyruso/zashboard/compare/v3.18.0...v3.19.0) (2026-08-14)\n\n\n### Features\n\n* add city labels to earth globe ([df067b3](https://github.com/Zephyruso/zashboard/commit/df067b3fd3d8aa38b462e02cdcf00890dbc46264)), closes [#743](https://github.com/Zephyruso/zashboard/issues/743)\n* add connection filter functionality and enhance topology controls ([58eb346](https://github.com/Zephyruso/zashboard/commit/58eb346b2846d72edc376647d9935bd65556669e))\n* add data-page-swipe-ignore attribute to various components and remove redundant touch event handlers ([fca53bc](https://github.com/Zephyruso/zashboard/commit/fca53bce168bf658b25fd16ebf3fe4f84089cb9f))\n* enhance logs and rules display with table view support ([dac63ed](https://github.com/Zephyruso/zashboard/commit/dac63ed748fba89433e071894b7ef447602bb8d0))\n* improve Earth GeoIP database handling ([271452c](https://github.com/Zephyruso/zashboard/commit/271452caf40640bb6be834c87a80d4d58ba5bd57))\n* integrate theme color scheme into ANSI text parsing and rendering ([ea6ac94](https://github.com/Zephyruso/zashboard/commit/ea6ac9475b99e807f700f785e694bf25b1d12c4f))\n\n\n### Bug Fixes\n\n* ensure correct query parameter handling for background image URL ([2181891](https://github.com/Zephyruso/zashboard/commit/2181891bfc0d4863b9e2917d2f331cc6eceb2f0f))\n* **proxies:** exclude reject outbounds from latency tests ([703bd01](https://github.com/Zephyruso/zashboard/commit/703bd01c092c6c714badc97f8cda832cf9543a21)), closes [#742](https://github.com/Zephyruso/zashboard/issues/742)\n* restore silent log level for sing-box ([f82ae78](https://github.com/Zephyruso/zashboard/commit/f82ae782a499fa5dcde6448d0fc31ae7f6f75790))\n* support silent log level by core ([5e26cc2](https://github.com/Zephyruso/zashboard/commit/5e26cc28ea8f0fbd2b4084aea22978233844c22e)), closes [#744](https://github.com/Zephyruso/zashboard/issues/744)\n* update GeoIP API requests ([fd4a41a](https://github.com/Zephyruso/zashboard/commit/fd4a41a4d65e3aeb739af0f0cead8104c45e1872)), closes [#746](https://github.com/Zephyruso/zashboard/issues/746) [#747](https://github.com/Zephyruso/zashboard/issues/747)"
-            },
-            {
-              "name": "v3.18.0",
-              "tag": "v3.18.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.18.0",
-              "published_at": "2026-08-08T01:57:28Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.18.0](https://github.com/Zephyruso/zashboard/compare/v3.17.0...v3.18.0) (2026-08-08)\r\n\r\n出于跨主题风格显示的考虑，地球组件的默认显示方式已替换为新增的扁平化显示风格，如果你喜欢之前的写实风格，可在组件右上角切换为星空模式\r\n\r\nTo ensure a consistent visual style across different themes, the Earth component now uses the newly added flat style by default. If you prefer the previous realistic look, you can switch to Space mode from the top-right corner of the component.\r\n\r\n### Features\r\n\r\n* add visual mode selection for Earth globe and update color schemes ([990c0d1](https://github.com/Zephyruso/zashboard/commit/990c0d1b0068c9b38ef5b9953e2ebf5cf0cdff27))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* update coreUpdateCheck assignment and enhance getHistoryByName logic ([9802000](https://github.com/Zephyruso/zashboard/commit/980200083397e04de2ebef0db3aa7a7bd0f41600))"
             }
           ],
           "last_commit": {
-            "sha": "b326d44",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-08-26T05:14:12Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/b326d441186c87433a581ce4a6acb9e0ae103abc"
+            "sha": "84a9726",
+            "branch": "gh-pages-pingfang-only",
+            "date": "2026-08-26T05:34:15Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/84a9726f1511fcb12cfc7adc2a03d4304e241441"
           }
         },
         {
