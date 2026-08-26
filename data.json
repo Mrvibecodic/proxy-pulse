@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:19:41.561869Z",
+  "generated_at": "2026-08-26T10:24:58.769301Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T08:57:53Z",
+            "pushed_at": "2026-08-26T10:21:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.26-0855",
+              "tag": "v26.8.26-0855",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.26-0855",
+              "published_at": "2026-08-26T10:21:43Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Online-presence accounting behind trusted HTTP frontends now records the effective client address selected by `sockopt.trustedXForwardedFor`, instead of always preferring the accepted PROXY peer.\n\n## Fork fixes\n\n- Fixed presence identity for CDN/fronted inbounds that combine accepted PROXY protocol with a configured trusted X-Forwarded-For source. The trusted effective address now wins when usable.\n- Preserved the previous fail-closed provenance behavior: inbounds without `trustedXForwardedFor` are unchanged, and an unusable effective address falls back to the accepted PROXY source.\n- Clarified the trusted-XFF stream configuration helper naming after review.\n\n## Upstream changes\n\n- No new upstream merge was required for this release. `upstream/main` at `f124daf5` is already contained in the release commit.\n\n## Compatibility notes\n\n- The behavior change applies only when `sockopt.trustedXForwardedFor` is explicitly configured.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum.\n- The maintained mux implementation remains the in-tree SMUX stack under `common/singmux`.\n\n## Validation\n\n- Version identity test and CLI version output for `26.8.26-0855`.\n- Affected presence/provenance package tests, race detector, and vet.\n- Generated protobuf header consistency check.\n- Static Linux/amd64 `GOAMD64=v1` release build with Go 1.27.0 and embedded version verification.\n- GitHub `Tests and Checkings` and `Pre-release Validation` candidate workflows.\n"
+            },
             {
               "name": "Xray-core v26.8.25-2147",
               "tag": "v26.8.25-2147",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Fixed an H2MUX server lifecycle race that could panic with `Header called after Handler finished` when an upstream close raced a late response write/flush.\n- Updated the build toolchain to Go 1.27.0.\n- Improved cold H2MUX session readiness by requiring an HTTP/2 PING acknowledgement before publishing a client session.\n\n## Fork fixes\n\n- Made H2MUX stream close wait for active writes and reject writes after handler shutdown.\n- Aligned sing-mux padding lengths with the canonical 256–767 byte range.\n- Fixed SMUX v1 receive head-of-line stalls with balanced per-stream buffering and bounded one-frame ingress credit.\n- Hardened Mihomo startup/reconnect interoperability using its post-up readiness contract.\n\n## Upstream changes\n\n- Merged the current upstream Xray-core changes and dependency updates, including `golang.org/x/net` v0.58.0.\n\n## Compatibility notes\n\n- No configuration migration is required.\n- The padding reader remains compatible with valid non-canonical peer padding lengths and contents.\n- Built with Go 1.27.0 for the release workflow.\n\n## Validation\n\n- Unit, race, checkptr, SMUX/H2MUX/VLESS interoperability, reconnect stress, RemnaNode integration, and Linux/amd64 build checks were exercised.\n- The functional and stress suites passed. The pre-release performance comparison reported a VLESS median regression of 15–19% against its 10% policy threshold; this release was explicitly authorized despite that performance-only gate.\n"
-            },
-            {
-              "name": "Xray-core v26.8.23",
-              "tag": "v26.8.23",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.23",
-              "published_at": "2026-08-19T14:38:37Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- BitTorrent detection no longer misfires on real-world DNS queries. The v26.8.22 exclusion modeled textbook queries only; a deployment still classified a query to 8.8.8.8:53 as bittorrent and auto-banned the user. The shape space is now verified live against the world's most popular resolvers. Upgrade is strongly recommended for every deployment routing on `protocol: [\"bittorrent\"]` with automatic enforcement (webhooks, panels).\n\n## Fork fixes\n\n- **DNS false positives closed over the deployed query space (production-verified).** The v26.8.22 DNS exclusion required exactly one question, opcode QUERY, zero answer/authority records, at most one additional record and no trailing bytes. Live verification against Cloudflare, Google, Quad9, OpenDNS, AdGuard, Yandex, AliDNS and DNSPod confirmed 24 real query shapes (plain, EDNS0, EDNS cookie, padded, mixed-case, HTTPS/SVCB, PTR, SRV, long names, and more); five of them slipped past the strict model — EDNS with two additional records, two-question queries, trailing bytes with zero additional records, dynamic-update opcodes from Windows domain machines, and answer-carrying queries — accounting for 25 of 120 colliding replays. `isDNSQuery` now accepts request-bit-clear queries with a deployed opcode (query, iquery, status, notify, update), one or two questions and a structurally valid first question; record counts and trailing bytes are unconstrained. A real uTP packet passing this needs its connection id to clear the response bit and opcode nibble and its timestamp to read as a question count of one or two (on the order of 1e-7).\n- The verified shapes are pinned as a permanent regression test (`TestSniffUTPIgnoresDNSQueries`) with their resolver provenance; the uTP, DHT and UDP tracker corpora and the process e2e gate remain green, so torrent detection coverage is unchanged.\n\n## Upstream changes\n\n- None since v26.8.22; upstream/main is fully contained.\n\n## Compatibility notes\n\n- Routing behavior change: DNS queries matching any deployed real-world shape are never classified as `bittorrent`. Deployments that ban users on the bittorrent rule should upgrade from v26.8.22, which intermittently auto-bans users over unlucky DNS transaction ids (roughly one query in 13000 with non-textbook shapes).\n- Torrent detection coverage is unchanged from v26.8.21+: plaintext TCP handshakes, uTP, DHT (KRPC) and UDP trackers are detected; MSE/protocol-encrypted peer handshakes and HTTPS tracker traffic remain undetectable by content.\n\n## Validation\n\n- Live-verified corpus: 24 query shapes x 8 popular resolvers, all answered; 5 previously failing shapes x 5 colliding transaction ids now produce 0 of 120 misclassifications.\n- Unit corpus, `-race`, `go vet`, dispatcher tests and the integration process e2e gate (torrent probes blocked, DNS/UDP/TCP controls pass) all green.\n- Linux/amd64 build gate: `CGO_ENABLED=0 GOAMD64=v1 -trimpath` with release linker flags; static stripped ELF; sha256 `70d1faabcf658e20a83aeeabd8e31700d844b24b8ea0aa20b6a0fdb5f5d56e4a`.\n"
             }
           ],
           "last_commit": {
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24698,
+            "stars": 24699,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4791,7 +4791,7 @@
             "stars": 76427,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T10:17:59Z",
+            "pushed_at": "2026-08-26T10:19:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c8e1474",
-            "branch": "main",
-            "date": "2026-08-26T10:13:26Z",
-            "url": "https://github.com/grafana/grafana/commit/c8e14742c7f2176bb22e5e9035fdd327457f5c54"
+            "sha": "7a1a6aa",
+            "branch": "axelav/notebooks-autosave-new",
+            "date": "2026-08-26T10:19:58Z",
+            "url": "https://github.com/grafana/grafana/commit/7a1a6aa352fb023ba93d47614136b4e79e8791fb"
           }
         },
         {
