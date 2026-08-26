@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T06:22:51.265566Z",
+  "generated_at": "2026-08-26T06:28:06.655137Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37284,
+            "stars": 37285,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-25T02:42:20Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 987,
+            "stars": 988,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-24T02:14:33Z",
@@ -1122,7 +1122,7 @@
             "stars": 4589,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-25T20:23:25Z",
+            "pushed_at": "2026-08-26T06:24:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "69dc467",
+                  "message": "dcwapd: remove dcwapd and related packages",
+                  "author": "Yanase Yuki",
+                  "date": "2026-08-26T06:24:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/69dc467f94f14f4343938299f9d1044d54bdafaa"
+                },
+                {
                   "sha": "a583d91",
                   "message": "sqm-scripts: update to 1.8.0",
                   "author": "Dharmik Parmar",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T16:51:30Z",
                   "url": "https://github.com/openwrt/packages/commit/bac27c56c10e92ad87305df6fd5ef309ef99e035"
-                },
-                {
-                  "sha": "707ebe9",
-                  "message": "golang: drop 1.26",
-                  "author": "George Sapkin",
-                  "date": "2026-08-23T16:48:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/707ebe93597065684f8fdb0eb751a4061b4e8b56"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90619,
+            "stars": 90620,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-26T03:26:05Z",
@@ -4791,7 +4791,7 @@
             "stars": 76422,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T06:21:32Z",
+            "pushed_at": "2026-08-26T06:26:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b4da6aa",
-            "branch": "vr-filter-table",
-            "date": "2026-08-26T06:21:33Z",
-            "url": "https://github.com/grafana/grafana/commit/b4da6aa681eb25101bcc01288ea736970fb501e1"
+            "sha": "9e4bfca",
+            "branch": "app-plugins-with-manifest",
+            "date": "2026-08-26T06:26:53Z",
+            "url": "https://github.com/grafana/grafana/commit/9e4bfcafa60b82b09ec7429fe8e98de2e91cb1ff"
           }
         },
         {
@@ -4859,7 +4859,7 @@
             "stars": 65829,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T05:36:13Z",
+            "pushed_at": "2026-08-26T06:23:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4912,10 +4912,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9034c03",
+            "sha": "d63b161",
             "branch": "main",
-            "date": "2026-08-26T05:36:15Z",
-            "url": "https://github.com/prometheus/prometheus/commit/9034c03d9efa8441ca780fe3c4e15a94353fe32b"
+            "date": "2026-08-26T06:23:27Z",
+            "url": "https://github.com/prometheus/prometheus/commit/d63b1612eb9c6e798421488c48c9294abd4a119d"
           }
         },
         {
@@ -5280,7 +5280,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3327,
+            "stars": 3326,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-08-26T05:34:18Z",
