@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:14:05.899954Z",
+  "generated_at": "2026-08-26T13:19:22.030641Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 7,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:03:18Z",
+            "pushed_at": "2026-08-26T13:15:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -555,10 +555,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a479b38",
+            "sha": "ec7ed0d",
             "branch": "main",
-            "date": "2026-08-26T12:08:45Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/a479b38e1ab48143084bd531623b7881819fe2ef"
+            "date": "2026-08-26T13:15:12Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/ec7ed0dac49f3833b9de728f69325d3c262a049c"
           }
         },
         {
@@ -570,7 +570,7 @@
             "stars": 8,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T13:04:28Z",
+            "pushed_at": "2026-08-26T13:15:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -581,6 +581,15 @@
               "tag": "android-v0.1.18",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-699d73656a103bd0b924",
               "published_at": "2026-08-26T13:04:26Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
+            {
+              "name": "Clod Clash для Android android-v0.1.18",
+              "tag": "android-v0.1.18",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-e04390e7cf1fe6eaa9d0",
+              "published_at": "2026-08-26T13:14:53Z",
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Черновик — наполняется сборкой."
@@ -611,15 +620,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n- При первом подключении приложение один раз предлагает две настройки Android,\n  без которых соединение может отвалиться ночью или после перезагрузки:\n  «Не ограничивать батарею» и «Постоянное соединение». Дальше обе настройки с\n  текущим состоянием живут во вкладке «Ещё», раздел «Надёжность соединения».\n\n### Исправлено\n- Сброс зависших соединений при смене сети теперь действительно доходит до\n  каждого сервера — раньше он молча не срабатывал, и серверы с постоянными\n  соединениями висели до минуты после перехода на другую сеть.\n- После пробуждения телефона серверы больше не помечаются «мёртвыми» на первые\n  секунды: проверка, стартовавшая раньше, чем поднялась сеть, не засчитывается.\n- Если после смены сети выбранный сервер автогруппы недоступен, группа\n  перепроверяется сразу и уходит на живой сервер, не дожидаясь планового\n  интервала."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.14",
-              "tag": "android-v0.1.14",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.14",
-              "published_at": "2026-08-21T00:11:36Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n- Сброс зависших сессий при смене сети теперь работает для всех протоколов с\n  постоянными соединениями: gRPC-транспорт (vless/vmess/trojan), hysteria2,\n  tuic, anytls, ssh и мультиплекс поверх любого из них. Сервер больше не\n  «умирает» после переключения сети из-за застрявшего соединения старой сети.\n\n### Изменено\n- В начале каждого захвата лога пишется версия приложения — видно, на какой\n  сборке снят лог."
             }
           ],
           "last_commit": {
@@ -4708,10 +4708,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dbb126c",
+            "sha": "8696398",
             "branch": "3.0.X",
-            "date": "2026-08-26T13:05:52Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/dbb126c51ed338dde1ae2667654413e023bccf7a"
+            "date": "2026-08-26T13:11:29Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/8696398dafd7f0c7f0c9d930f9ec0c673f75399d"
           }
         },
         {
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24709,
+            "stars": 24710,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f0c7980",
+            "sha": "4376fe9",
             "branch": "main",
-            "date": "2026-08-26T13:02:19Z",
-            "url": "https://github.com/grafana/grafana/commit/f0c7980b7938176d05dd17cb72a786f14e58af02"
+            "date": "2026-08-26T13:12:57Z",
+            "url": "https://github.com/grafana/grafana/commit/4376fe9d60b2f191058069033e2365b52d501d81"
           }
         },
         {
@@ -4859,7 +4859,7 @@
             "stars": 65833,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T12:51:52Z",
+            "pushed_at": "2026-08-26T13:18:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4912,10 +4912,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c8fbef3",
+            "sha": "89ef560",
             "branch": "krajo/appenderv2-mandatory-exemplars",
-            "date": "2026-08-26T12:51:53Z",
-            "url": "https://github.com/prometheus/prometheus/commit/c8fbef3ddb5abf6ecc42048ba99aae4568419caa"
+            "date": "2026-08-26T13:18:07Z",
+            "url": "https://github.com/prometheus/prometheus/commit/89ef560b0ed25f4d956a848305f34fde63cb342b"
           }
         },
         {
@@ -5280,7 +5280,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3331,
+            "stars": 3332,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-08-26T11:38:26Z",
