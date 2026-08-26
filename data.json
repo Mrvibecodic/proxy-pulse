@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:59:29.870806Z",
+  "generated_at": "2026-08-26T15:04:47.703724Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4590,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-26T06:24:13Z",
+            "pushed_at": "2026-08-26T15:04:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a353d90",
+                  "message": "shunt: init fixes",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-26T15:04:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/a353d906fec1f43ac86a0ba5b44b59b0a11a4b60"
+                },
+                {
                   "sha": "69dc467",
                   "message": "dcwapd: remove dcwapd and related packages",
                   "author": "Yanase Yuki",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T16:53:55Z",
                   "url": "https://github.com/openwrt/packages/commit/19599fa63de12545589a2a076506d65a43a04825"
-                },
-                {
-                  "sha": "bac27c5",
-                  "message": "exfatprogs: update to 1.4.3",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T16:51:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/bac27c56c10e92ad87305df6fd5ef309ef99e035"
                 }
               ]
             },
@@ -3705,7 +3705,7 @@
           "track": "tags",
           "meta": {
             "description": "AmneziaWG Linux kernel module",
-            "stars": 481,
+            "stars": 482,
             "url": "https://github.com/amnezia-vpn/amneziawg-linux-kernel-module",
             "default_branch": "master",
             "pushed_at": "2026-08-12T22:38:49Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24712,
+            "stars": 24713,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-24T14:33:00Z",
@@ -4788,10 +4788,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76427,
+            "stars": 76428,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T14:59:15Z",
+            "pushed_at": "2026-08-26T15:02:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bdd133d",
-            "branch": "fcai/1314/file-not-found",
-            "date": "2026-08-26T14:54:38Z",
-            "url": "https://github.com/grafana/grafana/commit/bdd133d757c8723fbe4a888200ed5290bb89f932"
+            "sha": "6644ea9",
+            "branch": "linoman/auth/fix-token-rotation-cas",
+            "date": "2026-08-26T14:48:09Z",
+            "url": "https://github.com/grafana/grafana/commit/6644ea94338d28f6bd4225e4d100927fd7cb6173"
           }
         },
         {
