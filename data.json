@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T08:43:02.078254Z",
+  "generated_at": "2026-08-27T08:48:32.823029Z",
   "groups": [
     {
       "id": "cores",
@@ -233,7 +233,7 @@
               "published_at": "2026-08-27T08:39:00Z",
               "prerelease": false,
               "author": "Jolymmiles",
-              "body": "## Highlights\\n\\n- REALITY inbounds with  no longer crash the accept goroutine. A type assertion in the upstream REALITY handshake () panicked whenever the accepted PROXY protocol connection reached it without an outer provenance carrier; the wrapper now forwards half-close and RawConn to the physical connection.\\n- Fixed the same interface-conversion panic one layer up for REALITY behind the finalmask Minecraft () mask, whose server connection did not expose .\\n\\n## Fork fixes\\n\\n- : forward / through  ( keeps the underlying connection private). Underlying transports that cannot half-close now degrade fail-soft instead of crashing the server.\\n- : server connections forward half-close; fragment forwarding pinned as well.\\n- Regression coverage: REALITY capability contract tests for RAW TCP and unix PROXY inbounds, loopback contract tests across fragment/sudoku/custom masks plus conn-level probes for fragment and xmc.\\n\\n## Upstream changes\\n\\nMerged  (XTLS/Xray-core) through : TUN inbound Darwin kqueue wait (#6580), OpenBSD transparent proxy SO_REUSEPORT/IPv6 fixes (#6624), XHTTP client  for h2 replay after GOAWAY (#6632), XHTTP client race/data-race fix (#6665), Observatory CPU spin fix (#6669), router API data-race refactor (#6678), sniffer UTP fix (#6667).\\n\\n## Compatibility notes\\n\\n- No wire-protocol changes; VLESS, Trojan, REALITY, Vision, SMUX bytes unchanged.\\n- Operator-facing:  on RAW+REALITY inbounds is safe again with PROXY-capable fronting (nginx/caddy/haproxy).\\n- Upstream conflict resolution took upstream naming in ; no behavioral delta.\\n\\n## Validation\\n\\n-  — pass after merge.\\n-  over , ,  — pass.\\n-  — clean; protobuf header gate replicated locally — pass.\\n- Linux/amd64 build: , go1.27.0, sha256 .\\n- Known limitation recorded honestly: the 36-cell sing-box/Mihomo process matrix could not run on this host — external client checkouts are not present locally; reported as an unmet external environment requirement, not silently skipped."
+              "body": "## Highlights\n\n- REALITY inbounds with `sockopt.acceptProxyProtocol` no longer crash the accept goroutine. A type assertion in the upstream REALITY handshake (`reality.CloseWriteConn`) panicked whenever the accepted PROXY protocol connection reached it without an outer provenance carrier; the wrapper now forwards half-close and RawConn to the physical connection.\n- Fixed the same interface-conversion panic one layer up for REALITY behind the finalmask Minecraft (`xmc`) mask, whose server connection did not expose `CloseWrite`.\n\n## Fork fixes\n\n- `transport/internet/system_listener.go`: forward `CloseWrite`/`SyscallConn` through `acceptedProxyProtocolConn` (`pires/go-proxyproto v0.15.0` keeps the underlying connection private). Underlying transports that cannot half-close now degrade fail-soft instead of crashing the server.\n- `finalmask/xmc`: server connections forward half-close; fragment forwarding pinned as well.\n- Regression coverage: REALITY capability contract tests for RAW TCP and unix PROXY inbounds, loopback contract tests across fragment/sudoku/custom masks plus conn-level probes for fragment and xmc.\n\n## Upstream changes\n\nMerged `upstream/main` (XTLS/Xray-core) through `aa3d6589`: TUN inbound Darwin kqueue wait (XTLS#6580), OpenBSD transparent proxy SO_REUSEPORT/IPv6 fixes (XTLS#6624), XHTTP client `GetBody()` for h2 replay after GOAWAY (XTLS#6632), XHTTP client race/data-race fix (XTLS#6665), Observatory CPU spin fix (XTLS#6669), router API data-race refactor (XTLS#6678), sniffer UTP fix (XTLS#6667).\n\n## Compatibility notes\n\n- No wire-protocol changes; VLESS, Trojan, REALITY, Vision, SMUX bytes unchanged.\n- Operator-facing: `acceptProxyProtocol` on RAW+REALITY inbounds is safe again with PROXY-capable fronting (nginx/caddy/haproxy).\n- Upstream conflict resolution took upstream naming in `splithttp/dialer.go`; no behavioral delta.\n\n## Validation\n\n- `go test ./core ./common/net ./transport/internet/... ./proxy/vless/inbound -count=1` — pass after merge.\n- `go test -race` over `transport/internet/...`, `common/net`, `core` — pass.\n- Repository-wide `go test ./... -count=1` — pass.\n- `go vet ./transport/internet/... ./common/net ./proxy/...` — clean; protobuf header gate replicated locally — pass.\n- Linux/amd64 build: `CGO_ENABLED=0 GOAMD64=v1 -trimpath`, go1.27.0, sha256 `b2c2a1daf92f9a6171df1a6273ba161b7d7c426b133dd28769c47fd798e7688d` (local gate copy; official assets come from CI).\n- Known limitation recorded honestly: the 36-cell sing-box/Mihomo process matrix could not run on this host — external client checkouts are not present locally; reported as an unmet external environment requirement, not silently skipped.\n"
             },
             {
               "name": "Xray-core v26.8.26-0855",
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90657,
+            "stars": 90658,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-27T01:59:56Z",
@@ -4788,10 +4788,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76446,
+            "stars": 76447,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T08:42:19Z",
+            "pushed_at": "2026-08-27T08:46:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb1d473",
-            "branch": "eledobleefe/tag-visual-refresh",
-            "date": "2026-08-26T20:12:24Z",
-            "url": "https://github.com/grafana/grafana/commit/eb1d473cae7f11bd32facd710c8fdd496ac3699a"
+            "sha": "5032f88",
+            "branch": "main",
+            "date": "2026-08-27T08:36:08Z",
+            "url": "https://github.com/grafana/grafana/commit/5032f88f61ccf643a3248b7ca8e55900d88fd982"
           }
         },
         {
