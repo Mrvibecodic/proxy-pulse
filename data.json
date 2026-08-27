@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T09:04:22.465207Z",
+  "generated_at": "2026-08-27T09:09:39.464355Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1002,
+            "stars": 1003,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-24T02:14:33Z",
@@ -1122,7 +1122,7 @@
             "stars": 4590,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-26T15:04:30Z",
+            "pushed_at": "2026-08-27T09:07:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "de6ca75",
+                  "message": "banip: replace the CARTO basemap with local outlines",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-27T09:06:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/de6ca754b19118b2b28d0bc0a683edd19cb0ebee"
+                },
+                {
                   "sha": "a353d90",
                   "message": "shunt: init fixes",
                   "author": "Dirk Brenken",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T16:55:09Z",
                   "url": "https://github.com/openwrt/packages/commit/9e444a743ff3c88b0ba6091275d804b8118f6b05"
-                },
-                {
-                  "sha": "19599fa",
-                  "message": "gawk: update to 5.4.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T16:53:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/19599fa63de12545589a2a076506d65a43a04825"
                 }
               ]
             },
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "fe52fc4",
+                  "message": "banip: replace the CARTO basemap with local outlines",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-27T09:07:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe52fc4d16ceaabcc24af05d2bb801fa0a28934d"
+                },
+                {
                   "sha": "1db6cd8",
                   "message": "golang: bump 1.26 to 1.26.7",
                   "author": "George Sapkin",
@@ -3483,13 +3490,6 @@
                   "author": "Hirokazu MORIKAWA",
                   "date": "2026-08-13T14:25:49Z",
                   "url": "https://github.com/openwrt/packages/commit/fc8b2fec0ba9bcda54c0cbb2968a33f6b4637006"
-                },
-                {
-                  "sha": "232a463",
-                  "message": "rsync: update to 3.5.0",
-                  "author": "John Audia",
-                  "date": "2026-08-13T12:10:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/232a46385d11c9bd02c799a8a58dd2ea79ad7fa0"
                 }
               ]
             }
@@ -5283,7 +5283,7 @@
             "stars": 3338,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T06:39:06Z",
+            "pushed_at": "2026-08-27T09:09:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
