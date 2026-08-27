@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:52:54.685541Z",
+  "generated_at": "2026-08-27T11:58:12.154848Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41243,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-26T21:29:59Z",
+            "pushed_at": "2026-08-27T11:57:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -502,7 +502,7 @@
             "stars": 7,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T11:25:01Z",
+            "pushed_at": "2026-08-27T11:57:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1122,7 +1122,7 @@
             "stars": 4590,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-27T11:52:28Z",
+            "pushed_at": "2026-08-27T11:55:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7390f8e",
+                  "message": "fluidsynth: update to 2.6.0",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-27T11:55:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/7390f8e8fe88fd2bc037a5e4f37dca05a700ee3b"
+                },
+                {
+                  "sha": "a49d5cb",
+                  "message": "xdg-dbus-proxy: update to 0.1.8",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-27T11:55:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/a49d5cb8927c1dbcf3f717b27d08971aa4a48de8"
+                },
+                {
                   "sha": "9c79d69",
                   "message": "libudev-zero: update to 1.0.5",
                   "author": "Daniel Golle",
@@ -1971,20 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T17:03:59Z",
                   "url": "https://github.com/openwrt/packages/commit/2111f8643898898bab579839837030acd631b7e8"
-                },
-                {
-                  "sha": "57b0c30",
-                  "message": "libwacom: update to 2.19.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T17:03:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/57b0c30ee691d878e374656fb446e7f3ed98f46d"
-                },
-                {
-                  "sha": "01a0716",
-                  "message": "hiredis: update to 1.4.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T16:56:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/01a071685000c59b18782616ae20d6982fe921ee"
                 }
               ]
             },
@@ -3282,6 +3282,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "e5d9d77",
+                  "message": "exim: update to 4.100",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-27T11:55:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/e5d9d775f2b490e736b319956649849c1c61626f"
+                },
+                {
+                  "sha": "e13ff27",
+                  "message": "exim: update to version 4.99.4",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-27T11:55:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/e13ff277106738d3be435326384f8571fd056803"
+                },
+                {
+                  "sha": "5b51bcb",
+                  "message": "exim: update to 4.99.3 (security release)",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-27T11:55:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/5b51bcb10ab7008348d5379c1b796b5a6785843d"
+                },
+                {
                   "sha": "fe52fc4",
                   "message": "banip: replace the CARTO basemap with local outlines",
                   "author": "Dirk Brenken",
@@ -3469,27 +3490,6 @@
                   "author": "Seo Suchan",
                   "date": "2026-08-15T10:27:31Z",
                   "url": "https://github.com/openwrt/packages/commit/f0c97a4f8b5d49c6efdb89c33e93b5deb0ded678"
-                },
-                {
-                  "sha": "064e33e",
-                  "message": "luajit2: add test-version.sh",
-                  "author": "Seo Suchan",
-                  "date": "2026-08-15T10:27:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/064e33e045a707f583d572caf44ca38295975bd4"
-                },
-                {
-                  "sha": "4b017de",
-                  "message": "luajit2: update to v2.1-20260227",
-                  "author": "Javier Marcet",
-                  "date": "2026-08-15T10:27:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b017dedf3ad7c4dbca0d1b81a186cc68973fb3f"
-                },
-                {
-                  "sha": "fc8b2fe",
-                  "message": "nghttp2: bump to 1.70.0",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-08-13T14:25:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc8b2fec0ba9bcda54c0cbb2968a33f6b4637006"
                 }
               ]
             }
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90664,
+            "stars": 90663,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-27T01:59:56Z",
@@ -4791,7 +4791,7 @@
             "stars": 76446,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T11:48:05Z",
+            "pushed_at": "2026-08-27T11:56:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8e35061",
-            "branch": "cloudwatch-promql",
-            "date": "2026-08-27T11:35:08Z",
-            "url": "https://github.com/grafana/grafana/commit/8e35061c28c86d63cf280828410b90566f21a86c"
+            "sha": "33849ed",
+            "branch": "gtk-grafana/dataviz/system-transformation__replay-hook",
+            "date": "2026-08-27T11:48:06Z",
+            "url": "https://github.com/grafana/grafana/commit/33849edf68c2fb1399b44859b226471455ab15f3"
           }
         },
         {
