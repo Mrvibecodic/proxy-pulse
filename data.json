@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T12:40:30.027131Z",
+  "generated_at": "2026-08-27T12:45:45.137331Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33595,
+            "stars": 33596,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-27T08:12:53Z",
@@ -577,6 +577,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.19",
+              "tag": "android-v0.1.19",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-6dec4c394c4d5bbadf89",
+              "published_at": "2026-08-27T12:40:08Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.18",
               "tag": "android-v0.1.18",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.18",
@@ -611,15 +620,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n- Документация с описанием экранов, настроек и ответами на частые вопросы:\n  https://mrvibecodic.github.io/clod-clash-android/\n\n### Изменено\n- Порт локального прокси больше не навязывается приложением: он берётся из\n  подписки, поверх применяется «Переопределение», а привычный 7890\n  подставляется, только если в конфигурации нет ни одного локального входа и\n  порт свободен. Действующий порт виден на вкладке «Сеть».\n- Полупрозрачные подложки пилюль и карточек состояния приведены к одному тону.\n\n### Исправлено\n- Выбранный в настройках язык доходит до уведомлений, ярлыков и виджета —\n  раньше они показывались на языке системы.\n- «Скрыть иконку» теперь снимает и уже созданные ярлыки. На телевизоре\n  переключателя нет: там нет ни виджета, ни плитки, и скрытая иконка лишала\n  приложение единственной точки входа — ранее скрытая, она вернётся при запуске.\n- Пустое поле порта в «Переопределении» означает «не менять» и больше не\n  выключает локальный вход; чтобы отключить его, введите ноль.\n\nЕсли вы обновляетесь с 0.1.15, в эту сборку входит и всё из предварительной\n0.1.16: выбор языка, резервная копия подписок, иконки групп, раскладка для\nпланшетов и телевизоров, тёмная тема на всех экранах и остальные исправления."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.16-alpha",
-              "tag": "android-v0.1.16-alpha",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.16-alpha",
-              "published_at": "2026-08-22T14:10:48Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n- Выбор языка приложения в настройках: «Как в системе», English, Русский.\n- Резервная копия подписок: список ссылок сохраняется в файл и восстанавливается\n  из него. Файл храните при себе — по ссылкам открывается доступ к подпискам.\n- Иконки групп из подписки на вкладке «Серверы», если провайдер их присылает.\n  Отключаются в настройках приложения.\n- Тумблер уведомлений об успешном обновлении подписки — раньше отключить их\n  было нельзя.\n- Раскладка для планшетов и альбомной ориентации: навигация переезжает вбок,\n  содержимое не растягивается на всю ширину. На телевизоре фокус сразу встаёт\n  на кнопку подключения.\n\n### Изменено\n- Вкладка «Ещё» перегруппирована: четыре раздела вместо пяти, обновление\n  приложения переехало в «О программе».\n- В глобальном режиме на вкладке «Серверы» остаётся только группа GLOBAL —\n  выбор в остальных группах в этом режиме всё равно ни на что не влиял.\n- Если проверка задержек вручную не получила ответа ни от одного сервера,\n  об этом теперь говорится, а не остаются одни прочерки.\n\n### Исправлено\n- Тёмная тема применяется ко всем экранам: раньше выбор «Всегда тёмная» или\n  «Всегда светлая» часть экранов игнорировала и шла за системой.\n- Плитка в шторке, виджет и внешние команды показывают состояние по\n  работающему туннелю, а не по загруженной подписке: сразу после включения они\n  больше не выглядят выключенными и не пытаются запустить туннель второй раз.\n  Остановленная плитка больше не показывает имя прошлой подписки.\n- Пустое поле в «Переопределении» больше не затирает значение из подписки:\n  стёртая строка означает «не менять», как и кнопка сброса.\n- Когда туннель забирает другой VPN-клиент, приложение завершает работу\n  корректно и не оставляет висеть уведомление в шторке.\n- Восстановленная из копии подписка сохраняет интервал автообновления и не\n  остаётся черновиком.\n- Докачка обновления приложения снова работает на Android 6."
             }
           ],
           "last_commit": {
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience",
-            "stars": 674,
+            "stars": 675,
             "url": "https://github.com/coolcoala/koala-clash",
             "default_branch": "main",
             "pushed_at": "2026-08-23T23:36:54Z",
@@ -4423,10 +4423,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b55e16c",
+            "sha": "0fd159e",
             "branch": "main",
-            "date": "2026-08-26T16:40:30Z",
-            "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/b55e16c41e991a3558361f3ddb2e65204922b552"
+            "date": "2026-08-27T12:26:26Z",
+            "url": "https://github.com/timbrs/amneziawg-mikrotik-c/commit/0fd159edeaa1c2d90c6ad7a550e135036391b2ea"
           }
         },
         {
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90668,
+            "stars": 90669,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-27T01:59:56Z",
@@ -4791,7 +4791,7 @@
             "stars": 76448,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T12:39:10Z",
+            "pushed_at": "2026-08-27T12:44:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "081a0bb",
-            "branch": "main",
-            "date": "2026-08-27T12:09:51Z",
-            "url": "https://github.com/grafana/grafana/commit/081a0bb5fc3fc37c22c5f5b8ea648b041ab1e8c4"
+            "sha": "295d65d",
+            "branch": "mdv/panel-plugin-hide-non-applicable-filters",
+            "date": "2026-08-27T12:17:34Z",
+            "url": "https://github.com/grafana/grafana/commit/295d65dc27a59fbc65bd359e68336dfe8c6853fc"
           }
         },
         {
@@ -4927,7 +4927,7 @@
             "stars": 80319,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-08-27T12:37:06Z",
+            "pushed_at": "2026-08-27T12:42:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4980,10 +4980,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e5a88eb",
+            "sha": "c5c029e",
             "branch": "master",
-            "date": "2026-08-26T19:26:45Z",
-            "url": "https://github.com/netdata/netdata/commit/e5a88eba324130a1c6466dbb0189b85adc3f302b"
+            "date": "2026-08-27T12:37:07Z",
+            "url": "https://github.com/netdata/netdata/commit/c5c029ece7b848013e7d1a4c058da3006c23a002"
           }
         },
         {
