@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T11:58:12.154848Z",
+  "generated_at": "2026-08-27T12:03:28.411175Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6910,
+            "stars": 6911,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-26T19:05:13Z",
@@ -978,12 +978,21 @@
             "stars": 37,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T10:21:18Z",
+            "pushed_at": "2026-08-27T11:59:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "0.3.5",
+              "tag": "0.3.5",
+              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.5",
+              "published_at": "2026-08-27T11:59:35Z",
+              "prerelease": false,
+              "author": "this-xkit",
+              "body": "### New\n\n- Flowvy is now available for Intel-based Macs, with a separate signed installer and full in-app update support.\n\n### Improved\n\n- The bundled mihomo core is updated to the latest stable version for improved compatibility and reliability.\n\n### Fixed\n\n- Windows subscription requests now identify Windows 10 and Windows 11 by product name and include the OS build number, so providers can reliably select platform-specific configurations.\n"
+            },
             {
               "name": "0.3.4",
               "tag": "0.3.4",
@@ -1019,22 +1028,13 @@
               "prerelease": false,
               "author": "this-xkit",
               "body": "### Improved\n\n- Tidier, keyboard-friendly menus — the theme, language and profile-setting menus are now consistently sized (no more oversized, half-empty boxes), and you can open them and choose options from the keyboard, including type-to-jump.\n\n### Fixed\n\n- Changing the language now applies smoothly — switching your interface language no longer throws you back to the Profiles screen, and the tray popup switches to the new language too.\n"
-            },
-            {
-              "name": "0.3.0",
-              "tag": "0.3.0",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.0",
-              "published_at": "2026-06-21T01:26:09Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### New\n\n- Russian language — Flowvy is now available in Russian; pick your interface language in Settings → Interface. On first launch the app starts in your system language, and the Windows installer now appears in Russian on Russian systems.\n- Profile rules at a glance — a new Profile rules tab lists every rule from your subscription (including rules from rule providers) with per-rule hit counts, and lets you switch individual rules off without editing the config; your choices survive reconnects and updates. Rule providers are also shown separately and can be refreshed on their own.\n- Select and copy text where it matters — logs, the config editor, profile details, error messages and version info — with a native copy/paste menu.\n- Diagnostics mode on the Logs page — record detailed logs while reproducing a problem and save them as a password-protected archive for support. The Logs page is also redesigned with search, stream pause and expand-all.\n- Manual geo-database update on the About page — refresh location data on demand, even on restricted networks (it downloads through your active connection).\n- Lock the local proxy to Flowvy — the local proxy port is now private to Flowvy by default, so other apps can't use it or read your IP through it; you can share it from Settings when you need to.\n- Redesigned update notifications — a system notification when a new version is found, plus a full, scrollable release-notes view.\n- Localized release notes — the in-app update window now shows the changelog in your interface language (English or Russian).\n\n### Improved\n\n- Connections list is cleaner and adapts to the window size — columns stay readable at any width, the connection type (TCP/UDP) sits with the other details, the download, upload and time columns line up on the right, and the elapsed time is no longer cut off.\n- Sort the Connections list — order processes alphabetically or by number of active connections, and sort by the number of proxy chains in use.\n- Process icons show each app's real icon far more reliably — on Windows, macOS and Linux (including themed and SVG icons), on high-DPI displays, refreshing after an app updates, and no longer disappearing between sessions.\n- Faster, more reliable first launch — geo databases now ship with the installer (and location detection is more accurate), the dark theme is used by default (switch any time in Settings), and the tray popup opens on your first connect after importing a subscription.\n- Single-group subscriptions now list that group's servers directly in Rule mode, so you can pick a server in one tap.\n- Clearer labels — \"Unlimited\" and \"No expiry\" are shown consistently instead of raw numbers, blank dashes or mislabels.\n- Privacy — your browsing history is no longer written to the log file (it stays in the live Logs view only), and subscription links containing access tokens are masked in logs.\n- Settings respond instantly — switches react to your click right away (with a spinner if the change takes a moment), and Connect stays disabled until System Proxy or TUN is on, so the app can't \"connect\" without routing traffic.\n- Route Bypass page is easier to understand — ready-made presets and your own addresses are now separate groups.\n- Broader CPU support — the bundled proxy engine now runs on older Windows and macOS processors (2008 and newer), fixing \"illegal instruction\" crashes on pre-2013 hardware.\n- Smoother updates — you can install an update while connected (the connection closes automatically first), retry a failed install immediately, and the download progress bar is now visible.\n\n### Fixed\n\n- macOS: a freshly downloaded build now opens cleanly on first launch, even offline — with no Gatekeeper security warning.\n- TUN mode is more reliable — turning TUN off and connecting again no longer hangs on \"Connecting\", disconnecting shuts TUN down cleanly so the next connection starts, and updating the app no longer removes the helper service (TUN keeps working — you may be asked to reinstall the helper once when updating to this version, then never again). If the helper ever can't start, the app now repairs it automatically on the next connect.\n- Windows TUN: connecting now works when the app was installed by a different administrator account, and on systems with a non-English display language.\n- Updates: in-app updates now work on macOS; a new version is found automatically again (notification and About badge) instead of only after a manual check; and installing no longer hangs forever when the download can't reach the server — it stops with a clear \"check your connection\" message.\n- Profiles: updates and config edits now apply everywhere (no more outdated groups and hosts while disconnected), switching hosts while disconnected is instant, \"Last updated\" no longer freezes at \"just now\", and opening or saving a profile no longer reloads the proxy engine when nothing changed — so active connections and rule hit counts are kept.\n- Tray popup behaves correctly — it closes when it loses focus (only the pin keeps it open), no longer gets stuck on top, takes keyboard focus on macOS, and keyboard navigation no longer closes it.\n- Smaller fixes — long tooltips no longer run off screen, the occasional \"Failed to load profiles\" message after launch now recovers on its own, the right-click menu shows just copy and paste, removing the app and choosing to delete its data now clears everything, and the helper service log no longer grows without limit.\n\n### Security\n\n- Hardened the privileged component that powers TUN mode — stricter verification of the app and the configuration it runs, as a safeguard on shared and multi-user computers.\n"
             }
           ],
           "last_commit": {
-            "sha": "6940549",
+            "sha": "4f0f6ae",
             "branch": "badges",
-            "date": "2026-08-27T08:50:37Z",
-            "url": "https://github.com/flowvy-proxy/desktop/commit/69405494f0f4d31af5939dd2f7b32eb5ea6d3ed5"
+            "date": "2026-08-27T11:59:44Z",
+            "url": "https://github.com/flowvy-proxy/desktop/commit/4f0f6ae39d91eefa68921eea40358a3739a1d488"
           }
         }
       ]
@@ -1109,7 +1109,7 @@
           "last_commit": {
             "sha": "a865bd9",
             "branch": "main",
-            "date": "2026-08-27T00:06:32Z",
+            "date": "2026-08-27T00:09:27Z",
             "url": "https://github.com/openwrt/openwrt/commit/a865bd92e2a6223d92a758faa12f1520ae4e77f8"
           }
         },
@@ -1122,7 +1122,7 @@
             "stars": 4590,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-27T11:55:51Z",
+            "pushed_at": "2026-08-27T12:00:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ff5519f",
+                  "message": "adblock: replace the CARTO basemap with local outlines",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-27T12:00:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff5519f75032bcbcfe9db97a49c96f6ba5d65e89"
+                },
+                {
                   "sha": "7390f8e",
                   "message": "fluidsynth: update to 2.6.0",
                   "author": "Daniel Golle",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T17:05:09Z",
                   "url": "https://github.com/openwrt/packages/commit/15b06ce6e3706983f5c62adf845194436b66e3fd"
-                },
-                {
-                  "sha": "2111f86",
-                  "message": "libxmp: update to 4.7.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T17:03:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/2111f8643898898bab579839837030acd631b7e8"
                 }
               ]
             },
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "a970210",
+                  "message": "adblock: replace the CARTO basemap with local outlines",
+                  "author": "Dirk Brenken",
+                  "date": "2026-08-27T12:00:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/a970210a468e7effe44f50401e6595f82cc21919"
+                },
+                {
                   "sha": "e5d9d77",
                   "message": "exim: update to 4.100",
                   "author": "Daniel Golle",
@@ -3483,13 +3490,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-15T10:27:31Z",
                   "url": "https://github.com/openwrt/packages/commit/a6a052ee8c001355aa48681c8b2258311b10791f"
-                },
-                {
-                  "sha": "f0c97a4",
-                  "message": "luajit2: update test-version.sh to actual test",
-                  "author": "Seo Suchan",
-                  "date": "2026-08-15T10:27:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/f0c97a4f8b5d49c6efdb89c33e93b5deb0ded678"
                 }
               ]
             }
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90663,
+            "stars": 90664,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-27T01:59:56Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24740,
+            "stars": 24741,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-26T21:14:06Z",
@@ -4788,10 +4788,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76446,
+            "stars": 76447,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T11:56:02Z",
+            "pushed_at": "2026-08-27T11:58:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
