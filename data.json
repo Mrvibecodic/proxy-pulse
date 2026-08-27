@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T08:37:44.737572Z",
+  "generated_at": "2026-08-27T08:43:02.078254Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 36,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T00:59:57Z",
+            "pushed_at": "2026-08-27T08:38:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.27-0834",
+              "tag": "v26.8.27-0834",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.27-0834",
+              "published_at": "2026-08-27T08:39:00Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\\n\\n- REALITY inbounds with  no longer crash the accept goroutine. A type assertion in the upstream REALITY handshake () panicked whenever the accepted PROXY protocol connection reached it without an outer provenance carrier; the wrapper now forwards half-close and RawConn to the physical connection.\\n- Fixed the same interface-conversion panic one layer up for REALITY behind the finalmask Minecraft () mask, whose server connection did not expose .\\n\\n## Fork fixes\\n\\n- : forward / through  ( keeps the underlying connection private). Underlying transports that cannot half-close now degrade fail-soft instead of crashing the server.\\n- : server connections forward half-close; fragment forwarding pinned as well.\\n- Regression coverage: REALITY capability contract tests for RAW TCP and unix PROXY inbounds, loopback contract tests across fragment/sudoku/custom masks plus conn-level probes for fragment and xmc.\\n\\n## Upstream changes\\n\\nMerged  (XTLS/Xray-core) through : TUN inbound Darwin kqueue wait (#6580), OpenBSD transparent proxy SO_REUSEPORT/IPv6 fixes (#6624), XHTTP client  for h2 replay after GOAWAY (#6632), XHTTP client race/data-race fix (#6665), Observatory CPU spin fix (#6669), router API data-race refactor (#6678), sniffer UTP fix (#6667).\\n\\n## Compatibility notes\\n\\n- No wire-protocol changes; VLESS, Trojan, REALITY, Vision, SMUX bytes unchanged.\\n- Operator-facing:  on RAW+REALITY inbounds is safe again with PROXY-capable fronting (nginx/caddy/haproxy).\\n- Upstream conflict resolution took upstream naming in ; no behavioral delta.\\n\\n## Validation\\n\\n-  — pass after merge.\\n-  over , ,  — pass.\\n-  — clean; protobuf header gate replicated locally — pass.\\n- Linux/amd64 build: , go1.27.0, sha256 .\\n- Known limitation recorded honestly: the 36-cell sing-box/Mihomo process matrix could not run on this host — external client checkouts are not present locally; reported as an unmet external environment requirement, not silently skipped."
+            },
             {
               "name": "Xray-core v26.8.26-0855",
               "tag": "v26.8.26-0855",
@@ -261,22 +270,13 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Preserves TCP half-close end to end: applications can finish uploads and continue reading complete responses across Freedom, VLESS, Trojan, VMess, Shadowsocks, SOCKS, HTTP, TLS, REALITY, and Vision paths.\n- Adds opt-in negotiated logical half-close for Xray-to-Xray SMUX while retaining byte-identical legacy behavior and automatic fallback for sing-box and Mihomo.\n- Hardens terminal payload and EOF handling in buffered readers and chained or masked connection wrappers.\n\n## Fork fixes\n\n- Fixed the common upload-EOF lifecycle bug where successful copy completion did not propagate CloseWrite to the next TCP boundary. EOF-dependent origins could wait until the inactivity timeout and their late responses were then truncated with EOF or reset.\n- Added explicit half-close propagation to Freedom, VLESS, Trojan, classic Shadowsocks, SOCKS, HTTP/1 CONNECT, HTTP/2 request bodies, VLESS encryption/statistics wrappers, chained CNC connections, and supported TCP header/final-mask wrappers.\n- Made Vision select raw FIN only after the uplink writer has atomically completed its direct-copy transition, avoiding an early FIN race across the TLS/VLESS boundary.\n- Fixed BufferedReader so payload returned with EOF or another terminal error is delivered before the deferred error across Read, ReadByte, ReadAtMost, and WriteTo.\n- Added SMUX carrier version 2 capability negotiation and negotiated command 4 for directional write-close. Legacy command 1 remains a full logical-stream close.\n- Added bounded auto downgrade on a fresh carrier and sticky per-client capability caching. Completed half-closed requests are not replayed after a carrier read failure.\n\n## Upstream changes\n\nMerged the latest upstream/main dependency maintenance:\n\n- github.com/stretchr/testify 1.12.1\n- google.golang.org/grpc 1.83.1\n- github.com/miekg/dns 1.1.73\n- github.com/pion/stun/v3 3.1.7\n\n## Compatibility notes\n\n- SMUX logicalHalfClose accepts off, auto, or require.\n- The default is off: existing v0/v1 carrier bytes, command-1 semantics, and sing-box/Mihomo interoperability are unchanged.\n- auto negotiates the Xray extension and opens one fresh legacy carrier when the peer does not support it. require rejects downgrade.\n- H2MUX keeps its native request-body half-close path and does not accept the SMUX-only option.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum when omitted.\n\n## Validation\n\n- 7-protocol TCP half-close process matrix, five runs: all passed.\n- TLS/REALITY x no-flow/Vision process matrix, five runs: all passed.\n- Negotiated SMUX TLS/REALITY x padding off/on plus automatic sing-box/Mihomo fallback, five runs: all passed.\n- Ordinary Xray/sing-box/Mihomo SMUX and H2MUX interoperability: passed.\n- Unit, race, strict checkptr, vet, Linux/amd64 static build, and protobuf/config gates: passed.\n- All process gates preserved the active NetBird and Mihomo service PIDs and states.\n"
-            },
-            {
-              "name": "Xray-core v26.8.24",
-              "tag": "v26.8.24",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.24",
-              "published_at": "2026-08-21T10:03:14Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Fixed an H2MUX server lifecycle race that could panic with `Header called after Handler finished` when an upstream close raced a late response write/flush.\n- Updated the build toolchain to Go 1.27.0.\n- Improved cold H2MUX session readiness by requiring an HTTP/2 PING acknowledgement before publishing a client session.\n\n## Fork fixes\n\n- Made H2MUX stream close wait for active writes and reject writes after handler shutdown.\n- Aligned sing-mux padding lengths with the canonical 256–767 byte range.\n- Fixed SMUX v1 receive head-of-line stalls with balanced per-stream buffering and bounded one-frame ingress credit.\n- Hardened Mihomo startup/reconnect interoperability using its post-up readiness contract.\n\n## Upstream changes\n\n- Merged the current upstream Xray-core changes and dependency updates, including `golang.org/x/net` v0.58.0.\n\n## Compatibility notes\n\n- No configuration migration is required.\n- The padding reader remains compatible with valid non-canonical peer padding lengths and contents.\n- Built with Go 1.27.0 for the release workflow.\n\n## Validation\n\n- Unit, race, checkptr, SMUX/H2MUX/VLESS interoperability, reconnect stress, RemnaNode integration, and Linux/amd64 build checks were exercised.\n- The functional and stress suites passed. The pre-release performance comparison reported a VLESS median regression of 15–19% against its 10% policy threshold; this release was explicitly authorized despite that performance-only gate.\n"
             }
           ],
           "last_commit": {
-            "sha": "f8ae3e1",
+            "sha": "fddf062",
             "branch": "main",
-            "date": "2026-08-26T08:46:54Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/f8ae3e12a9a2d0e8c43476b0a17fa45c7ca736c4"
+            "date": "2026-08-27T08:38:30Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/fddf0629014d75b84baa75f06a05cf72d583ecf4"
           }
         }
       ]
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1001,
+            "stars": 1002,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-24T02:14:33Z",
@@ -4791,7 +4791,7 @@
             "stars": 76446,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T08:37:23Z",
+            "pushed_at": "2026-08-27T08:42:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "590c889",
-            "branch": "juanicabanas/notebook-query-cell-fe",
-            "date": "2026-08-26T19:57:46Z",
-            "url": "https://github.com/grafana/grafana/commit/590c889c39431d131e9c35e6542d3f613e11d5e2"
+            "sha": "eb1d473",
+            "branch": "eledobleefe/tag-visual-refresh",
+            "date": "2026-08-26T20:12:24Z",
+            "url": "https://github.com/grafana/grafana/commit/eb1d473cae7f11bd32facd710c8fdd496ac3699a"
           }
         },
         {
