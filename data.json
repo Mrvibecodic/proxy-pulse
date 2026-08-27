@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:43:46.265561Z",
+  "generated_at": "2026-08-27T13:49:01.945758Z",
   "groups": [
     {
       "id": "cores",
@@ -638,7 +638,7 @@
             "stars": 676,
             "url": "https://github.com/coolcoala/koala-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-23T23:36:54Z",
+            "pushed_at": "2026-08-27T13:48:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/56764046?v=4",
             "owner": "coolcoala"
@@ -4791,7 +4791,7 @@
             "stars": 76449,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T13:36:35Z",
+            "pushed_at": "2026-08-27T13:48:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bed7427",
-            "branch": "navigation/nav-section-explore",
-            "date": "2026-08-27T13:22:13Z",
-            "url": "https://github.com/grafana/grafana/commit/bed7427ff2c7c94b22d022c0d44451e52b044fab"
+            "sha": "0f44b14",
+            "branch": "mdv/assistant-panel-status-investigate-errors-v2",
+            "date": "2026-08-26T11:52:09Z",
+            "url": "https://github.com/grafana/grafana/commit/0f44b14a76aa4b5379bd33022dc53bcf978d12be"
           }
         },
         {
@@ -4995,7 +4995,7 @@
             "stars": 17599,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-27T13:15:34Z",
+            "pushed_at": "2026-08-27T13:47:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cba3b1a",
+            "sha": "7bcbdcf",
             "branch": "master",
-            "date": "2026-08-27T13:07:27Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/cba3b1a7de740d33e8d4e08e69108f31389258d7"
+            "date": "2026-08-27T13:47:12Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7bcbdcf82362b710d344882ecb4268931c741e5c"
           }
         }
       ]
@@ -5147,12 +5147,21 @@
             "stars": 60,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T13:43:36Z",
+            "pushed_at": "2026-08-27T13:46:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.5.0",
+              "tag": "v1.5.0",
+              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.5.0",
+              "published_at": "2026-08-27T13:46:34Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "# v1.5.0\n\nПоддержка штатного subscription-page с `CUSTOM_SUB_PREFIX` — прослойка теперь корректно работает перед подпиской вида `/\u003cprefix\u003e/\u003cshortUuid\u003e`.\n\n## Что нового\n\n### Префикс подписки (CUSTOM_SUB_PREFIX)\n\nОфициальная схема Remnawave «Subscription Page → Separate server» ставит subscription-page с параметром `CUSTOM_SUB_PREFIX`, и подписка живёт на `/\u003cprefix\u003e/\u003cshortUuid\u003e`. Раньше прослойка считала shortUuid первым сегментом пути — то есть самим префиксом: грейс, HWID, лог запросов и доп. конфиги склеивали всех пользователей в одну запись, а грейс по `user.expired` не срабатывал, потому что вебхук писал в базу настоящий shortUuid.\n\nТеперь префикс снимается с входящего пути до определения shortUuid, а к origin и внешней странице подписки запрос уходит с ним, как пришёл. Пути без префикса продолжают работать как раньше.\n\nГде: **Подключение → «Префикс подписки (CUSTOM_SUB_PREFIX)»** + поле значения (как в `.env` subscription-page, без слэшей). Второй тумблер **«Ссылки с префиксом»** появляется после включения первого и решает, показывать ли ссылки во вкладке «Пользователи» с префиксом (как у панели) или без — принимаются оба варианта. По умолчанию оба выключены, для установок без префикса ничего не меняется.\n\n## Исправлено\n\n- nginx-конфиги из `install.sh` и docker пускали на страницу подписки только `/assets/.app-config-v2.json` без префикса; путь с префиксом упирался в правило для файлов с точкой. Если прослойка ставилась до этой версии и вы включаете префикс — обновите правило в своём nginx (точная строка в справке тумблера).\n\n## Обновление\n\n- Docker: `docker compose pull \u0026\u0026 docker compose up -d` — тег `v1` подтянет релиз сам.\n- Файловая установка: вкладка «Обслуживание → Обновление» либо `git fetch \u0026\u0026 git reset --hard v1.5.0`.\n\nМиграций схемы нет — новые настройки хранятся в таблице `settings`. Новых прав API-токена не требуется."
+            },
             {
               "name": "v1.4.0",
               "tag": "v1.4.0",
@@ -5188,15 +5197,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## Исправления\n\n- «База данных»: в подтверждении сжатия базы кнопка называлась «Удалить» — теперь «Сжать», без красного цвета. Само действие всегда было сжатием, ничего не удалялось."
-            },
-            {
-              "name": "v1.2.0",
-              "tag": "v1.2.0",
-              "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/releases/tag/v1.2.0",
-              "published_at": "2026-08-19T14:51:31Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## Что нового\n\n### Очистка данных из админки\nВкладка «Миграция БД» стала вкладкой **«База данных»**. Кроме переезда SQLite ↔ MySQL на ней теперь есть:\n\n- **Разовая очистка** старых записей — лог запросов, лог вебхуков, лог пересылки, метрики по минутам и пики нагрузки. Выбираете период (старше 30 / 60 / 90 дней или всё) и таблицы; прослойка заранее показывает, сколько строк попадёт под удаление, и удаляет их порциями, не подвешивая страницу.\n- **Сжатие базы** — после чистки возвращает освободившееся место операционной системе (`VACUUM` для SQLite, `OPTIMIZE TABLE` для MySQL) с показом текущего размера базы.\n\nОчистка не трогает оверрайды, грейс, конфиги и настройки — только историю в журналах.\n\n### Интерфейс\n- Шрифт админки — **Onest** вместо Inter: один вариативный файл на сабсет, быстрее загрузка, меньше файлов.\n- Иконки сайдбара подобраны по смыслу пунктов.\n- «Пользователи»: таблица больше не мигает лишними строками при загрузке страницы.\n- «Защищённый канал»: клиенты показаны кнопками со звёздами GitHub вместо таблицы ссылок; индекс меток пересчитывается по самой таблице и снимает метки удалённых подписок.\n- «Доп. конфиги»: поле шаблона xray-json оформлено как обычная строка настроек.\n\n## Обновление\n\n- **Docker:** `docker compose pull \u0026\u0026 docker compose up -d` (тег `v1` подтянет релиз автоматически).\n- **Файловая установка:** вкладка «Обслуживание → Обновление» в админке, либо `git fetch \u0026\u0026 git reset --hard v1.2.0`.\n\nМиграций схемы нет — новых таблиц и колонок релиз не добавляет."
             }
           ],
           "last_commit": {
