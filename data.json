@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:01:01.974341Z",
+  "generated_at": "2026-08-27T16:06:19.028990Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 37,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T08:38:37Z",
+            "pushed_at": "2026-08-27T16:03:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.27-1556",
+              "tag": "v26.8.27-1556",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.27-1556",
+              "published_at": "2026-08-27T16:03:34Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- XDNS finalmask transport hardened end to end: a pre-auth memory-exhaustion vector, data races, silent packet loss and a busy-spin failure mode are fixed. The transport survived a full loopback E2E battery: 8 MB transfers with sha256 match, six-way concurrency, a second client instance and three restart cycles.\n\n## Fork fixes\n\n- xdns server: the per-client writeQueueMap is capped at 256 entries. Keys are attacker-chosen clientIDs decoded from query labels, so a unique-ID flood could previously pin unbounded memory (a 512-slot channel plus stash per entry) before the idle timeout ever fired. Over-limit clients are refused with an explicit error.\n- xdns client/server: removed data races on resolverIdx (sendLoop mutated it unlocked while WriteTo read it under the mutex) and on closed (raw reads in both recvLoops). Poll encoding now reads one consistent resolver slot.\n- xdns: packet loss is observable again. WriteTo reports errPayloadTooBig / errQueueFull (with a bounded 20 ms block so bursts keep mKCP pacing), encode errors propagate, and ReadFrom reports short consumer buffers instead of dropping silently. The dead len(p) \u003e= 224 gate is replaced by a per-resolver limit measured from the real codec at construction.\n- xdns: both recvLoops back off exponentially (10 ms base, 1 s cap) on transient UDP read errors instead of hot-spinning a core when an interface flaps.\n- xdns server: responses routed to an idle-pruned queue no longer produce empty-answer artifacts; a live queue still emits the legitimate empty ack that dnstt-style ramp-up relies on; queue retirement is exactly-once (the idle pruner and the shutdown sweep can no longer double-close channels, which panicked under -race).\n- xdns: hostile RDLENGTH values no longer allocate attacker-sized slices before validation (~66 KB to 432 B per crafted parse); the response batching window is armed once so stale timer ticks cannot collapse aggregation mid-batch; the grouping ladder is extracted into groupRecord with explicit emit/drop/stop outcomes.\n- xdns: per-type encoded payload ceilings are computed lazily (sync.OnceValue) instead of panicking at package init, and are pinned by tests (TXT 934, A 118, AAAA 462 on a 1232-byte budget). The dnstt-derived DNS wire-format codec is now attributed (MIT, David Fifield).\n- conf: xdns resolver and domain entries are validated at config-build time through shared runtime parsers (ValidateResolver / ValidateDomainSpec); the duplicated +udp:// substring check is gone, and non-IP resolver hosts fail early instead of at dial time.\n- xdns config: the dead outermost-level guard (commented-out FakePacketConn/UdpHop checks) is replaced by a documented nesting policy with a runtime warning when the transport is wrapped at a non-outermost layer.\n- tests: the vacuous len(encoded) \u003c 0 assertion in TestEncodeRDataTXT now checks the exact [00] wire answer, debug fmt.Println output is gone, and new lifecycle stress cells cover concurrent WriteTo/ReadFrom/Close for both wrappers.\n\n## Upstream changes\n\n- Merged upstream main at 65458e91 - \"Config: Fix some issues (#6640)\": config handling adjustments in infra/conf (xray/common), HTTP proxy client fixes and TCP hub housekeeping.\n\n## Compatibility notes\n\n- xdns requires a small mKCP MTU (for example 120; the config floor is 21) because the DNS query payload budget is roughly 137 bytes for the smallest domain suffixes and shrinks with longer domains.\n- xdns now returns typed errors on overflow/oversize instead of reporting success on silent drops; mKCP retransmission remains the recovery path, so well-formed deployments are unaffected, but loss is no longer invisible.\n- Malformed xdns resolvers / domains entries are rejected at config-build time (previously they surfaced as dial/listen errors).\n- mKCP header / seed remain removed in this fork; use finalmask/udp mkcp-original or mkcp-aes128gcm masking.\n\n## Validation\n\n- go test ./transport/internet/finalmask/xdns/... ./infra/conf ./core ./transport/internet/tcp -count=1 - green.\n- go test -race ./transport/internet/finalmask/xdns/ -count=1 - green, including new concurrent lifecycle stress cells.\n- go test -gcflags=all=-d=checkptr=2 ./transport/internet/finalmask/xdns/ -count=1 - green; go vet clean.\n- Loopback E2E over the real SOCKS -\u003e Xray(xdns/mkcp) -\u003e Xray -\u003e HTTP origin path: hello smoke, 64 KB and 8 MB transfers with sha256 match, six-way concurrent downloads, second client instance, three client restart cycles; queue_full events observed in logs under load with no hangs.\n- Linux/amd64 release-style build: CGO_ENABLED=0 GOAMD64=v1 -trimpath, xray version prints 26.8.27-1556; TestVersionFollowsYearMonthDayHHMM green.\n- check-proto: regeneration with the locally available protoc 33.5 + protoc-gen-go-grpc 1.5.1 diverges from committed generated files (it would drop fork fields such as dokodemo PortMap); committed generated files are kept and their headers already pin protoc v6.33.5 / protoc-gen-go v1.36.11. Recorded as a known limitation of this environment.\n"
+            },
             {
               "name": "Xray-core v26.8.27-0834",
               "tag": "v26.8.27-0834",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Operator panels now display `26.8.25-1457` from `xray version` / `core.Version()`.\n- The string and release name follow year.month.day-HHMM UTC so they stay valid semver.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n## Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n## Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n## Compatibility notes\n\n- Release tag and title are `v26.8.25-1457`. The panel-visible string is the same.\n- REALITY session identifiers use numeric `26.8.25`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n## Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- Version stamp test: `26.8.25-1457`.\n"
-            },
-            {
-              "name": "Xray-core v26.8.25",
-              "tag": "v26.8.25",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.25",
-              "published_at": "2026-08-25T11:51:53Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Preserves TCP half-close end to end: applications can finish uploads and continue reading complete responses across Freedom, VLESS, Trojan, VMess, Shadowsocks, SOCKS, HTTP, TLS, REALITY, and Vision paths.\n- Adds opt-in negotiated logical half-close for Xray-to-Xray SMUX while retaining byte-identical legacy behavior and automatic fallback for sing-box and Mihomo.\n- Hardens terminal payload and EOF handling in buffered readers and chained or masked connection wrappers.\n\n## Fork fixes\n\n- Fixed the common upload-EOF lifecycle bug where successful copy completion did not propagate CloseWrite to the next TCP boundary. EOF-dependent origins could wait until the inactivity timeout and their late responses were then truncated with EOF or reset.\n- Added explicit half-close propagation to Freedom, VLESS, Trojan, classic Shadowsocks, SOCKS, HTTP/1 CONNECT, HTTP/2 request bodies, VLESS encryption/statistics wrappers, chained CNC connections, and supported TCP header/final-mask wrappers.\n- Made Vision select raw FIN only after the uplink writer has atomically completed its direct-copy transition, avoiding an early FIN race across the TLS/VLESS boundary.\n- Fixed BufferedReader so payload returned with EOF or another terminal error is delivered before the deferred error across Read, ReadByte, ReadAtMost, and WriteTo.\n- Added SMUX carrier version 2 capability negotiation and negotiated command 4 for directional write-close. Legacy command 1 remains a full logical-stream close.\n- Added bounded auto downgrade on a fresh carrier and sticky per-client capability caching. Completed half-closed requests are not replayed after a carrier read failure.\n\n## Upstream changes\n\nMerged the latest upstream/main dependency maintenance:\n\n- github.com/stretchr/testify 1.12.1\n- google.golang.org/grpc 1.83.1\n- github.com/miekg/dns 1.1.73\n- github.com/pion/stun/v3 3.1.7\n\n## Compatibility notes\n\n- SMUX logicalHalfClose accepts off, auto, or require.\n- The default is off: existing v0/v1 carrier bytes, command-1 semantics, and sing-box/Mihomo interoperability are unchanged.\n- auto negotiates the Xray extension and opens one fresh legacy carrier when the peer does not support it. require rejects downgrade.\n- H2MUX keeps its native request-body half-close path and does not accept the SMUX-only option.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum when omitted.\n\n## Validation\n\n- 7-protocol TCP half-close process matrix, five runs: all passed.\n- TLS/REALITY x no-flow/Vision process matrix, five runs: all passed.\n- Negotiated SMUX TLS/REALITY x padding off/on plus automatic sing-box/Mihomo fallback, five runs: all passed.\n- Ordinary Xray/sing-box/Mihomo SMUX and H2MUX interoperability: passed.\n- Unit, race, strict checkptr, vet, Linux/amd64 static build, and protobuf/config gates: passed.\n- All process gates preserved the active NetBird and Mihomo service PIDs and states.\n"
             }
           ],
           "last_commit": {
@@ -4791,7 +4791,7 @@
             "stars": 76451,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T15:55:53Z",
+            "pushed_at": "2026-08-27T16:05:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9bab334",
-            "branch": "macabu/update-getkin-kin-openapi-147-try2",
-            "date": "2026-08-26T12:50:48Z",
-            "url": "https://github.com/grafana/grafana/commit/9bab334f472bedf8925d9f3ebdd6a24a18fd83b5"
+            "sha": "98908d2",
+            "branch": "agent/authn-cancellation-handling",
+            "date": "2026-08-27T15:28:10Z",
+            "url": "https://github.com/grafana/grafana/commit/98908d202ce404c635feb57b980a39d7600efb9b"
           }
         },
         {
@@ -4995,7 +4995,7 @@
             "stars": 17600,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-27T15:39:12Z",
+            "pushed_at": "2026-08-27T16:02:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1312c9d",
-            "branch": "add-too-many-error-logs",
-            "date": "2026-08-27T14:56:38Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/1312c9d66f0d99f8b66f1268ab0d1787a8083e41"
+            "sha": "9e85aab",
+            "branch": "ensure-no-unix-listener",
+            "date": "2026-08-26T12:52:43Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/9e85aabca7f0156009f223e642daabc204b87e77"
           }
         }
       ]
@@ -5200,10 +5200,10 @@
             }
           ],
           "last_commit": {
-            "sha": "139ce4c",
-            "branch": "main",
-            "date": "2026-08-26T12:10:46Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/139ce4c2367ef0c76c049bc75caa243c3b960e26"
+            "sha": "10c6eaf",
+            "branch": "dev",
+            "date": "2026-08-26T12:05:12Z",
+            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/10c6eafed1109286614a553c7a8e7a0baac48740"
           }
         },
         {
