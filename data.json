@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T09:13:07.457178Z",
+  "generated_at": "2026-08-28T09:18:22.947100Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4591,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-28T06:04:05Z",
+            "pushed_at": "2026-08-28T09:14:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bdcd738",
+                  "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-28T09:14:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/bdcd738a1b9d99f311f6af376a820ce139393523"
+                },
+                {
+                  "sha": "29a148b",
+                  "message": "libssh: update to 0.12.2",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-28T09:14:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/29a148ba4b67dc0c433f056708cfe4ee3aac2c42"
+                },
+                {
                   "sha": "1da75e8",
                   "message": "vim: update to 9.2.1014",
                   "author": "Peter Polonec",
@@ -1971,20 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-23T22:37:55Z",
                   "url": "https://github.com/openwrt/packages/commit/a2d0bdddd4a92a15341d1a62febff1b8957a8f45"
-                },
-                {
-                  "sha": "fe9a06c",
-                  "message": "oci-runtime-tools: build runtimetest statically",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-23T22:37:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe9a06c343ce1c8b265909b3720eec2153c10b4a"
-                },
-                {
-                  "sha": "dcb2c2f",
-                  "message": "libmicrohttpd: update to 1.0.10",
-                  "author": "Alexander Couzens",
-                  "date": "2026-08-23T20:06:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcb2c2f692ed607f34e69009faf909d9ff64a70a"
                 }
               ]
             },
@@ -4791,7 +4791,7 @@
             "stars": 76460,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-28T09:11:03Z",
+            "pushed_at": "2026-08-28T09:16:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7864249",
-            "branch": "main",
-            "date": "2026-08-27T13:00:39Z",
-            "url": "https://github.com/grafana/grafana/commit/7864249d005c419b14d6a7407e174ab33e62d787"
+            "sha": "4c03ccc",
+            "branch": "grafakus/reduce-circular-dependencies-1",
+            "date": "2026-08-28T08:18:57Z",
+            "url": "https://github.com/grafana/grafana/commit/4c03ccc69350aa520e3192c216f574f76c6bbb52"
           }
         },
         {
