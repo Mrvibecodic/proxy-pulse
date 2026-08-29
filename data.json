@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T18:46:54.038804Z",
+  "generated_at": "2026-08-29T18:52:08.627860Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4592,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-29T13:54:51Z",
+            "pushed_at": "2026-08-29T18:47:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "dee7db4",
+                  "message": "bsbf-resources: update to GIT HEAD of 2026-08-29",
+                  "author": "Chester A. Unal",
+                  "date": "2026-08-29T18:47:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/dee7db4e60378bed611083f87258a86b1b4d4406"
+                },
+                {
                   "sha": "4ce49b0",
                   "message": "ksmbd-tools: add package version test",
                   "author": "Andrea Pesaresi",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-24T13:45:02Z",
                   "url": "https://github.com/openwrt/packages/commit/ca3322e9312ee44f0c6c619b004745ab3394fa08"
-                },
-                {
-                  "sha": "45cb8e6",
-                  "message": "libextractor: update to 1.19",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-24T13:45:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/45cb8e6cd51721a5762674a37bc54486d4c4cbad"
                 }
               ]
             },
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c0e2470",
-            "branch": "app-plugins-with-manifest",
-            "date": "2026-08-29T13:53:26Z",
-            "url": "https://github.com/grafana/grafana/commit/c0e2470c90e3a12ae8d35131e0a846c1a5ebe285"
+            "sha": "e0ac166",
+            "branch": "joey/trace-header-status",
+            "date": "2026-08-28T09:24:47Z",
+            "url": "https://github.com/grafana/grafana/commit/e0ac166fc88b5db204132b838eeba1add615f589"
           }
         },
         {
