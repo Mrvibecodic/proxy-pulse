@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:14:35.989685Z",
+  "generated_at": "2026-08-29T11:19:50.279650Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,30 @@
             "stars": 37360,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-08-29T10:26:15Z",
+            "pushed_at": "2026-08-29T11:18:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.0-rc.3",
+              "tag": "v1.14.0-rc.3",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-rc.3",
+              "published_at": "2026-08-29T11:18:11Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
+            {
+              "name": "1.13.20",
+              "tag": "v1.13.20",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.20",
+              "published_at": "2026-08-29T11:17:50Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.0-rc.2",
               "tag": "v1.14.0-rc.2",
@@ -116,24 +134,6 @@
               "prerelease": true,
               "author": "nekohasekai",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.13.19",
-              "tag": "v1.13.19",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.19",
-              "published_at": "2026-08-17T09:47:06Z",
-              "prerelease": false,
-              "author": "nekohasekai",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.0-beta.15",
-              "tag": "v1.14.0-beta.15",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-beta.15",
-              "published_at": "2026-08-15T14:02:19Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add `api` command **1**\n* Add Taildrop support **2**\n* Add `listen_port` option to Tailscale endpoint\n* Fixes and improvements\n\n**1**:\n\nThe new `sing-box api` command is a CLI client for the [API service](https://sing-box.sagernet.org/configuration/service/api/), providing the same operations available in graphical clients and the Dashboard.\n\n**2**:\n\n[Tailscale](https://sing-box.sagernet.org/configuration/endpoint/tailscale/) endpoints now support [Taildrop](https://tailscale.com/kb/1106/taildrop), the Tailscale file sharing feature. Received files are stored in the directory configured by the new [`taildrop_directory`](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#taildrop_directory) option (`Taildrop` by default). Files can be sent and managed through the graphical clients, the Dashboard, or the new `sing-box api` command."
             }
           ],
           "last_commit": {
@@ -4655,7 +4655,7 @@
             "stars": 90727,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-08-29T09:04:10Z",
+            "pushed_at": "2026-08-29T11:18:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5336,10 +5336,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bf0c6cc",
-            "branch": "gh-pages-cdn-fonts",
+            "sha": "d0219b6",
+            "branch": "gh-pages-firasans-only",
             "date": "2026-08-28T03:36:57Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/bf0c6cc2d29a91372058c459c7f615f652a651e1"
+            "url": "https://github.com/Zephyruso/zashboard/commit/d0219b6fe3ed831439f6dd6eda5eb410cdf78516"
           }
         },
         {
