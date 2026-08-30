@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:23:34.607994Z",
+  "generated_at": "2026-08-30T10:28:49.507736Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33641,
+            "stars": 33642,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-29T13:41:51Z",
@@ -1122,7 +1122,7 @@
             "stars": 4592,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-30T09:50:14Z",
+            "pushed_at": "2026-08-30T10:27:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "34cd86c",
+                  "message": "bsbf-resources: update to GIT HEAD of 2026-08-29",
+                  "author": "Chester A. Unal",
+                  "date": "2026-08-30T10:27:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/34cd86c584c21ef2f1d9e9833055d1005dadf9a6"
+                },
+                {
                   "sha": "ccb80a6",
                   "message": "slide-switch: update to 1.0.1",
                   "author": "Jeffery To",
@@ -3483,13 +3490,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-16T06:21:15Z",
                   "url": "https://github.com/openwrt/packages/commit/5b6cc215db64c81520bbd12f55e1044686c193c9"
-                },
-                {
-                  "sha": "c441809",
-                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-16T06:21:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/c4418092cd9ab1deded1f94f85a0fa48e21fd9ad"
                 }
               ]
             }
@@ -4856,7 +4856,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65901,
+            "stars": 65902,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-08-30T08:50:48Z",
