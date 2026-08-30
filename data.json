@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:00:56.292964Z",
+  "generated_at": "2026-08-30T23:06:11.188890Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37398,
+            "stars": 37399,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-30T13:53:06Z",
@@ -220,12 +220,21 @@
             "stars": 37,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-27T16:15:08Z",
+            "pushed_at": "2026-08-30T23:03:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.8.30-2253",
+              "tag": "v26.8.30-2253",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.30-2253",
+              "published_at": "2026-08-30T23:04:10Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Synced the fork with upstream `5e245b08` and stamped the release as `26.8.30-2253` UTC.\n- Added QUIC v2 ClientHello sniffing while preserving strict QUIC Retry rejection.\n- Updated Hysteria transport behavior through the upstream 2.12.2 integration, including safer masquerade proxy handling and optional stateless-reset suppression.\n- Added FreeBSD TUN automatic routing-table and outbound-interface support.\n\n## Fork fixes\n\n- Preserved the fork's protobuf field numbers for existing QUIC and Hysteria settings, avoiding wire-incompatible renumbering during the upstream merge.\n- Preserved hardened Hysteria, XHTTP, Realm port-mapping, physical-peer provenance, cleanup, and shared TLS-config ownership behavior.\n- Kept QUIC Retry packets fail-closed instead of treating truncated Retry framing as incomplete Initial data.\n- Regenerated protobuf outputs with `protoc-gen-go v1.36.11` and `protoc v6.33.5`.\n\n## Upstream changes\n\n- Hysteria: upgraded the official integration to 2.12.2.\n- Transport: bind UDP outbound sockets in the destination address family.\n- TUN: support `autoSystemRoutingTable` and `autoOutboundsInterface` on FreeBSD.\n- Sniffing: support QUIC v2 Initial packets.\n- Routing: export `HealthCheckSettings`.\n\n## Compatibility notes\n\n- REALITY `minClientVer` and `maxClientVer` remain operator-controlled with no implicit minimum when omitted.\n- SMUX continues to use the maintained in-tree `common/singmux` implementation.\n- Existing serialized QUIC and Hysteria configuration field numbers remain stable. The new `disableStatelessReset` setting is additive.\n\n## Validation\n\n- Targeted unit tests for QUIC, Hysteria, XHTTP, Realm, TUN, transport configuration, VLESS, and REALITY passed.\n- Race, checkptr, vet, protobuf-header, formatting, SMUX unit/race, and SMUX coverage gates passed.\n- VLESS TCP TLS/REALITY interoperability passed 36/36 executions across Xray, sing-box 1.13.21, and Mihomo Meta 1.19.30.\n- SMUX process interoperability passed all 40 Xray/sing-box/Mihomo VLESS/Trojan TCP/UDP/padding cells.\n- Linux/amd64 static release build passed with Go 1.27.0 and `GOAMD64=v1`.\n- The repository-wide test run reached two environment-sensitive upstream failures: Cloudflare rejected the live ECH probe, and concurrent scenario tests collided on a loopback port; the isolated Dokodemo scenario passed. GitHub Tests and Checkings remains the clean-tree publication gate.\n"
+            },
             {
               "name": "Xray-core v26.8.27-1556",
               "tag": "v26.8.27-1556",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Hardened BitTorrent UDP detection for punitive routing and blocking rules. New-flow uTP detection now relies on connection-opening ST_SYN invariants, while valid TURN, STUN, DNS, game-discovery, and DHT framing receive dedicated regression coverage. UDP tracker classification is limited to the BEP 15 connect request so cached announce/scrape shapes cannot mark ordinary game or media datagrams as BitTorrent.\n- Hardened online-presence source attribution across accepted PROXY protocol connections and HTTP-derived transports so accounting follows the trusted carrier peer instead of untrusted datagram metadata.\n- Made pre-response SMUX recovery evict each failed carrier owner and continue bounded replay across remaining siblings, dialing a new carrier only when the pool cannot serve the stream.\n- Reduced repository-wide CI log volume by keeping successful package output concise while preserving full logs on failures.\n- Recalibrated the mandatory 10% SMUX release budget to the previous published fork release `v26.8.25-1457` after the external sing-mux comparison proved historically unstable.\n\n## Fork fixes\n\n- Fixed broad stateless uTP matching that could classify established-state or media/game datagrams as BitTorrent.\n- Added command-specific BEP 5, BEP 44, and BEP 51 DHT validation and retained valid tracker extension handling on connect.\n- Added TURN ChannelData precedence for byte patterns that overlap uTP ST_SYN fields and removed an overbroad DNS exclusion that rejected valid uTP connection attempts.\n- Stopped classifying cached-connection-id UDP tracker announce and scrape requests. Those messages have no protocol id, and their remaining counters collide with ordinary UDP; a client whose cached id expires still sends connect and is detected.\n- Preserved accepted PROXY protocol provenance as the physical peer through TCP, gRPC, WebSocket, HTTP Upgrade, and SplitHTTP paths, while rejecting datagram proxy provenance for presence accounting.\n- Fixed a multi-carrier reconnect race where a single replay could reopen another reset session after a peer restart; recovery now retires each failed owner and may reuse a healthy sibling or dial if the remaining pool cannot serve.\n- Regenerated proxyman protobuf output with the repository-pinned protoc toolchain.\n\n## Upstream changes\n\n- Includes latest upstream main at f124daf5.\n- Observatory: stop spinning at 100% CPU when no outbound matches `subjectSelector`.\n- Router: copy-on-write rule and balancer reloads to fix the API data race. The fork's domain-index and PickRouteTag path is preserved on top of that publish model.\n- Upstream independently landed an ST_SYN-only SniffUTP change; this release keeps the already-reviewed fork detector, including TURN precedence and the connect-only tracker rule.\n\n## Compatibility notes\n\n- BitTorrent detector changes do not add configuration, API, or routing schema changes. Valid TCP BitTorrent handshakes, uTP connection attempts, DHT traffic, and UDP tracker connect requests remain classified as bittorrent. Cached announce/scrape-only first datagrams are no longer classified.\n- Accepted PROXY protocol peers may now affect the physical IP used for online-presence accounting; untrusted datagram-level proxy metadata is intentionally ignored.\n- REALITY continues to send numeric version bytes 26.8.25. The 2147 UTC component is display-only and keeps the panel, tag, and release title aligned as 26.8.25-2147.\n- Intentional fork behavior remains unchanged: REALITY client-version bounds have no implicit minimum, and production mux uses the in-tree SMUX implementation.\n- The hard Linux SMUX duration budget remains 10%, now against `v26.8.25-1457`. The live sing-mux comparison is diagnostic only.\n\n## Validation\n\n- Local format, version-contract, router/bittorrent/observatory unit and race, dispatcher, singmux retry unit/race, focused Mihomo Trojan peak stress, and release-gate contract tests passed with Go 1.27.0.\n- Candidate Tests and Checkings workflow passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32902846278\n- Pre-release Validation workflow, including pinned sing-box/Mihomo interop and the Linux structural gate, passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32903455529\n- Linux/amd64 local artifact SHA-256: 30f3ed88053c0d71a74fe7c69f4102f2fd8f639f947e903255181957cb14f052\n- Release commit: fd1ebbe703a27842c85035854203cc9227f219e4\n"
-            },
-            {
-              "name": "Xray-core v26.8.25-1457",
-              "tag": "v26.8.25-1457",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.25-1457",
-              "published_at": "2026-08-25T15:05:52Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Operator panels now display `26.8.25-1457` from `xray version` / `core.Version()`.\n- The string and release name follow year.month.day-HHMM UTC so they stay valid semver.\n- Fixed a mux XUDP server panic (`close of closed channel`) when a worker finished after the shared Runtime had already started closing.\n\n## Fork fixes\n\n- A response sink created against an already-closing mux Runtime closed its stop channel without marking the sink closed. `ServerWorker.finish` then closed the same channel again and the process panicked. Rejected sinks now go through `markClosed()` so later teardown is idempotent.\n\n## Upstream changes\n\nMerged the latest `upstream/main`:\n\n- WireGuard outbound: add `remoteDNS` and honor TTL (#6620)\n\n## Compatibility notes\n\n- Release tag and title are `v26.8.25-1457`. The panel-visible string is the same.\n- REALITY session identifiers use numeric `26.8.25`. Client-version bounds stay operator-configurable with no implicit minimum when omitted.\n- Existing VLESS, Trojan, Vision, and SMUX wire bytes are unchanged.\n\n## Validation\n\n- Mux XUDP double-close regression: RED (`panic: close of closed channel`) then GREEN.\n- `go test ./core ./common/mux ./proxy/wireguard ./infra/conf -count=1`\n- `go test -race ./core ./common/mux ./proxy/wireguard -count=1`\n- Version stamp test: `26.8.25-1457`.\n"
             }
           ],
           "last_commit": {
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90780,
+            "stars": 90779,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-30T00:06:57Z",
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "53a959f",
-            "branch": "main",
-            "date": "2026-08-30T22:56:00Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/53a959f93e26193c6c9ac4bb4053555f18e8b2ff"
+            "sha": "61c741b",
+            "branch": "l10n_crowdin",
+            "date": "2026-08-30T19:59:13Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/61c741b3274d69f8c9907862dbdeb19fa454b9d6"
           }
         }
       ]
