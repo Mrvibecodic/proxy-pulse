@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:11:37.867792Z",
+  "generated_at": "2026-08-30T23:17:45.098052Z",
   "groups": [
     {
       "id": "cores",
@@ -233,7 +233,7 @@
               "published_at": "2026-08-30T23:04:10Z",
               "prerelease": false,
               "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Synced the fork with upstream `5e245b08` and stamped the release as `26.8.30-2253` UTC.\n- Added QUIC v2 ClientHello sniffing while preserving strict QUIC Retry rejection.\n- Updated Hysteria transport behavior through the upstream 2.12.2 integration, including safer masquerade proxy handling and optional stateless-reset suppression.\n- Added FreeBSD TUN automatic routing-table and outbound-interface support.\n\n## Fork fixes\n\n- Preserved the fork's protobuf field numbers for existing QUIC and Hysteria settings, avoiding wire-incompatible renumbering during the upstream merge.\n- Preserved hardened Hysteria, XHTTP, Realm port-mapping, physical-peer provenance, cleanup, and shared TLS-config ownership behavior.\n- Kept QUIC Retry packets fail-closed instead of treating truncated Retry framing as incomplete Initial data.\n- Regenerated protobuf outputs with `protoc-gen-go v1.36.11` and `protoc v6.33.5`.\n\n## Upstream changes\n\n- Hysteria: upgraded the official integration to 2.12.2.\n- Transport: bind UDP outbound sockets in the destination address family.\n- TUN: support `autoSystemRoutingTable` and `autoOutboundsInterface` on FreeBSD.\n- Sniffing: support QUIC v2 Initial packets.\n- Routing: export `HealthCheckSettings`.\n\n## Compatibility notes\n\n- REALITY `minClientVer` and `maxClientVer` remain operator-controlled with no implicit minimum when omitted.\n- SMUX continues to use the maintained in-tree `common/singmux` implementation.\n- Existing serialized QUIC and Hysteria configuration field numbers remain stable. The new `disableStatelessReset` setting is additive.\n\n## Validation\n\n- Targeted unit tests for QUIC, Hysteria, XHTTP, Realm, TUN, transport configuration, VLESS, and REALITY passed.\n- Race, checkptr, vet, protobuf-header, formatting, SMUX unit/race, and SMUX coverage gates passed.\n- VLESS TCP TLS/REALITY interoperability passed 36/36 executions across Xray, sing-box 1.13.21, and Mihomo Meta 1.19.30.\n- SMUX process interoperability passed all 40 Xray/sing-box/Mihomo VLESS/Trojan TCP/UDP/padding cells.\n- Linux/amd64 static release build passed with Go 1.27.0 and `GOAMD64=v1`.\n- The repository-wide test run reached two environment-sensitive upstream failures: Cloudflare rejected the live ECH probe, and concurrent scenario tests collided on a loopback port; the isolated Dokodemo scenario passed. GitHub Tests and Checkings remains the clean-tree publication gate.\n"
+              "body": "## Highlights\n\n- Synced the fork with upstream `5e245b08` and stamped the release as `26.8.30-2253` UTC.\n- Added QUIC v2 ClientHello sniffing while preserving strict QUIC Retry rejection.\n- Updated Hysteria transport behavior through the upstream 2.12.2 integration, including safer masquerade proxy handling and optional stateless-reset suppression.\n- Added FreeBSD TUN automatic routing-table and outbound-interface support.\n\n## Fork fixes\n\n- Preserved the fork's protobuf field numbers for existing QUIC and Hysteria settings, avoiding wire-incompatible renumbering during the upstream merge.\n- Preserved hardened Hysteria, XHTTP, Realm port-mapping, physical-peer provenance, cleanup, and shared TLS-config ownership behavior.\n- Kept QUIC Retry packets fail-closed instead of treating truncated Retry framing as incomplete Initial data.\n- Regenerated protobuf outputs with `protoc-gen-go v1.36.11` and `protoc v6.33.5`.\n\n## Upstream changes\n\n- Hysteria: upgraded the official integration to 2.12.2.\n- Transport: bind UDP outbound sockets in the destination address family.\n- TUN: support `autoSystemRoutingTable` and `autoOutboundsInterface` on FreeBSD.\n- Sniffing: support QUIC v2 Initial packets.\n- Routing: export `HealthCheckSettings`.\n\n## Compatibility notes\n\n- REALITY `minClientVer` and `maxClientVer` remain operator-controlled with no implicit minimum when omitted.\n- SMUX continues to use the maintained in-tree `common/singmux` implementation.\n- Existing serialized QUIC and Hysteria configuration field numbers remain stable. The new `disableStatelessReset` setting is additive.\n\n## Validation\n\n- Targeted unit tests for QUIC, Hysteria, XHTTP, Realm, TUN, transport configuration, VLESS, and REALITY passed.\n- Race, checkptr, vet, protobuf-header, formatting, SMUX unit/race, and SMUX coverage gates passed.\n- VLESS TCP TLS/REALITY interoperability passed 36/36 executions across Xray, sing-box 1.13.21, and Mihomo Meta 1.19.30.\n- SMUX process interoperability passed all 40 Xray/sing-box/Mihomo VLESS/Trojan TCP/UDP/padding cells.\n- Linux/amd64 static release build passed with Go 1.27.0 and `GOAMD64=v1`.\n- Clean-tree GitHub Tests and Checkings passed for both `main` and the release tag; the release matrix and multi-architecture container publication also completed successfully.\n"
             },
             {
               "name": "Xray-core v26.8.27-1556",
@@ -5351,7 +5351,7 @@
             "stars": 7193,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-08-30T23:11:20Z",
+            "pushed_at": "2026-08-30T23:15:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "61c741b",
+            "sha": "4db1013",
             "branch": "l10n_crowdin",
-            "date": "2026-08-30T19:59:13Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/61c741b3274d69f8c9907862dbdeb19fa454b9d6"
+            "date": "2026-08-30T23:15:23Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/4db101342f617bf55580ea49e555114e5450b21d"
           }
         }
       ]
