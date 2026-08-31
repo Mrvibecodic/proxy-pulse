@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:26:04.082935Z",
+  "generated_at": "2026-08-31T11:31:20.805850Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37425,
+            "stars": 37426,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-31T11:07:50Z",
@@ -579,11 +579,11 @@
             {
               "name": "Clod Clash для Android android-v0.1.21-alpha.1",
               "tag": "android-v0.1.21-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-19263975df1c46ba6eae",
-              "published_at": "2026-08-31T11:15:20Z",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.1",
+              "published_at": "2026-08-31T11:26:30Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
+              "body": "\n### Изменено\n\n- Приложение меньше работает вхолостую, когда на него никто не смотрит.\n  Проверка узлов запускается там, где её результат виден: при добавлении\n  подписки, при намеренном открытии вкладки «Серверы», при обновлении подписки\n  с главной и когда состав групп действительно поменялся. Залп проверок на\n  каждое включение экрана убран, редкие фоновые обновления счётчиков сведены к\n  одному расписанию.\n- В соединениях для локального порта показывается имя приложения, а не сам порт.\n\n### Исправлено\n\n- Трафик за сессию на главном экране больше не завышен в сто раз.\n- Трафик и остаток по подписке считаются по 1024, как в настольном клиенте:\n  раньше одни и те же байты показывались разными числами в разных местах\n  приложения.\n- Тексты «Запущен» и «Загрузка» в уведомлениях службы больше не зависят от того,\n  какой модуль их запросил: раньше в приложении жили две копии этих строк с\n  разным переводом, и вторая была недостижима."
             },
             {
               "name": "Clod Clash для Android android-v0.1.20",
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90791,
+            "stars": 90792,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-31T00:06:52Z",
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "81a63a4",
-            "branch": "master",
-            "date": "2026-08-31T10:57:02Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/81a63a4b631c46c575e5b036d7fb8f37f55d92f2"
+            "sha": "0e7f942",
+            "branch": "support-multiple-vmalert-proxy",
+            "date": "2026-08-31T05:19:08Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/0e7f94278fbe59185c12efaadc900db2fa42545d"
           }
         }
       ]
