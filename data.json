@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:09:59.954775Z",
+  "generated_at": "2026-08-31T11:15:17.842337Z",
   "groups": [
     {
       "id": "cores",
@@ -502,12 +502,21 @@
             "stars": 9,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-30T21:56:24Z",
+            "pushed_at": "2026-08-31T11:15:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.9-alpha.1",
+              "tag": "clod-v0.1.9-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-7b057656a7f933906ac6",
+              "published_at": "2026-08-31T11:15:08Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash clod-v0.1.8",
               "tag": "clod-v0.1.8",
@@ -543,15 +552,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- Provider links with `tg://` addresses (support, bot and the rest) now open in the Telegram app; a link that cannot be opened shows a message instead of failing silently\n- The «Fit window to content» setting survives an app restart and update: window moves during startup are no longer taken for a manual resize\n- The speed graph is removed from the «Network» card — it is four numbers again\n- The last-update hint on the «Refresh subscription» tile no longer gets cut off: it shows just the date and time\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- Ссылки провайдера с адресами `tg://` (поддержка, бот и остальные) открываются в приложении Telegram; если ссылку открыть не удалось, показывается сообщение, а не тишина\n- Настройка «Подгонять окно под содержимое» переживает перезапуск и обновление приложения: движения окна при старте больше не принимаются за ручное изменение размера\n- Из карточки «Сеть» убран график скорости — снова четыре числа\n- Подсказка о последнем обновлении на плитке «Обновить подписку» больше не обрезается: показываются только дата и время"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.4",
-              "tag": "clod-v0.1.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.4",
-              "published_at": "2026-08-20T21:05:26Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Windows: the installer now adds firewall rules for the core, so the `system` and `mixed` TUN stacks work without extra steps; uninstalling removes the rules\n- Windows: if inbound connections for the core are still blocked, the home screen shows a warning with a «Fix» button — one click and one admin prompt\n- The «Network» card draws a small graph of the recent download and upload speed\n- The «Refresh subscription» tile shows when the subscription was last updated\n\n### Changed\n\n- A refreshed look: cards sit on soft shadows instead of hard borders, a subtle accent gradient at the top of the window, pill-shaped buttons, card titles without all-caps\n- The row under the connect button became a pill with icons: what Connect drives and the routing mode\n- Quick actions got icons and the «Connection» / «Startup» groups; TUN and firewall warnings are shown as highlighted panels with the action right inside\n- The connect button glows green while connected; the toggles are larger, with the knob inside the track; cards lift slightly under the cursor\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Windows: установщик добавляет правила брандмауэра для ядра — стеки TUN `system` и `mixed` работают без лишних действий; при удалении приложения правила снимаются\n- Windows: если входящие подключения ядра всё же заблокированы, на главной появляется предупреждение с кнопкой «Починить» — один клик и один запрос прав\n- Карточка «Сеть» рисует небольшой график скорости загрузки и отдачи за последние минуты\n- Плитка «Обновить подписку» показывает, когда подписка обновлялась в последний раз\n\n### Изменено\n\n- Обновлённый вид: карточки на мягких тенях вместо жёстких рамок, лёгкий градиент акцента сверху окна, кнопки-пилюли, заголовки карточек без капса\n- Строка под кнопкой подключения стала пилюлей с иконками: что включает Connect и режим маршрутизации\n- У быстрых действий появились иконки и группы «Подключение» / «Запуск»; предупреждения TUN и брандмауэра — заметные плашки с кнопкой прямо в них\n- Кнопка подключения светится зелёным, пока соединение активно; тумблеры крупнее, с бегунком внутри трека; карточки слегка приподнимаются под курсором"
             }
           ],
           "last_commit": {
@@ -570,7 +570,7 @@
             "stars": 9,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T01:12:30Z",
+            "pushed_at": "2026-08-31T11:14:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
