@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:27:34.927450Z",
+  "generated_at": "2026-08-31T16:32:51.045841Z",
   "groups": [
     {
       "id": "cores",
@@ -502,12 +502,21 @@
             "stars": 9,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T16:11:48Z",
+            "pushed_at": "2026-08-31T16:30:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.9-alpha.3",
+              "tag": "clod-v0.1.9-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-b6d189940c8b07034675",
+              "published_at": "2026-08-31T16:30:21Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash clod-v0.1.9-alpha.2",
               "tag": "clod-v0.1.9-alpha.2",
@@ -543,15 +552,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- The subscription list shows which pasted links could not be parsed instead of dropping them silently\n- Log export keeps the tail of oversized log files with a note about how much was cut instead of skipping the file\n- Weekly dependency audit now covers the frontend as well\n\n### Changed\n\n- Provider links open only over https, tg and mailto; a subscription address is accepted only over https\n- Group icons are downloaded only from public https addresses, including after redirects\n- The IPv6 switch in the settings is disabled: the key is decided by the subscription\n- The «Export logs» and «Export backup» buttons ask where to save the file inside the app\n- Pre-releases are marked on GitHub by the version suffix\n- The «Update core» button uses the built-in core updater\n- Linux: the polkit prompt is shown by the system agent only\n\n### Fixed\n\n- A window stretched by hand is no longer pulled back by the auto-fit\n- Window size is checked in logical pixels, so hi-DPI setups no longer get reset\n- A failed subscription update reports the error instead of pretending it succeeded, and is shown only once\n- The first automatic update is counted from the last successful update, and a disabled timer no longer fires again\n- Reordering subscriptions with an unknown id no longer loses the list\n- Windows: the proxy bypass list uses the `;` separator; a failed system call is retried\n- After a core crash the log tail is kept, the TUN check ignores lines of the old process, and the health probe has a timeout\n- Version comparison understands pre-release suffixes\n- Error texts shown in the interface no longer contain paths or secrets\n- Every log line gets its own timestamp\n- Deep links with several addresses are processed in full; on macOS the app no longer switches to background mode while quitting\n- Linux: an installer killed by a signal is no longer reported as a polkit failure\n- The IPv6 fake-ip range uses the reserved block `2001:2::/64`\n- Subscription cards drag smoothly; the search box in proxy groups gets focus when opened\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- В списке подписок видно, какие вставленные ссылки не разобрались, вместо молчаливого пропуска\n- Выгрузка логов сохраняет хвост слишком больших файлов с пометкой, сколько отрезано, вместо пропуска файла\n- Еженедельный аудит зависимостей теперь проверяет и фронт\n\n### Изменено\n\n- Ссылки провайдера открываются только по https, tg и mailto; адрес подписки принимается только по https\n- Иконки групп скачиваются только с публичных https-адресов, в том числе после редиректов\n- Переключатель IPv6 в настройках отключён: ключ решает подписка\n- Кнопки «Выгрузить логи» и «Экспорт бэкапа» спрашивают, куда сохранить файл, внутри приложения\n- Пре-релиз помечается на GitHub по суффиксу версии\n- Кнопка «Обновить ядро» работает через встроенный обновитель ядра\n- Linux: запрос пароля polkit показывает только системный агент\n\n### Исправлено\n\n- Растянутое руками окно больше не откатывается подгоном под содержимое\n- Размер окна проверяется в логических пикселях, на hi-DPI окно больше не сбрасывается\n- Неудачное обновление подписки сообщает об ошибке, а не делает вид, что всё прошло, и показывает её один раз\n- Первое автообновление отсчитывается от последнего успешного, выключенный таймер больше не срабатывает\n- Перестановка подписок с неизвестным id больше не теряет список\n- Windows: список исключений прокси разделяется `;`; неудачный системный вызов повторяется\n- После падения ядра хвост лога сохраняется, проверка TUN не читает строки старого процесса, у пробы здоровья есть таймаут\n- Сравнение версий понимает суффиксы пре-релизов\n- Тексты ошибок в интерфейсе больше не содержат путей и секретов\n- Каждая строка лога получает своё время\n- Deep-link с несколькими адресами обрабатывается целиком; на macOS приложение при выходе больше не уходит в фоновый режим\n- Linux: установщик, убитый сигналом, больше не выдаётся за ошибку polkit\n- Диапазон fake-ip для IPv6 взят из зарезервированного блока `2001:2::/64`\n- Карточки подписок перетаскиваются плавно; поле поиска в группах получает фокус при открытии"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.6",
-              "tag": "clod-v0.1.6",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.6",
-              "published_at": "2026-08-23T20:58:22Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- «Advanced» has an «Export logs» button: the app and service logs are packed into one archive together with a support report, with addresses, keys and the home folder path hidden\n- Windows: when the TUN adapter is busy, the app says exactly that instead of a general start failure\n- Windows: if the interface stops responding, the app closes and starts itself again\n\n### Changed\n\n- The `ipv6` key is decided by the subscription: the switch in the settings applies only while the subscription does not set the key itself\n- Windows: only the `gvisor` TUN stack is taken from the subscription; `system` and `mixed` remain a manual choice in the settings\n- Linux: the TUN service is installed together with the package; when elevation is unavailable, an error with the command to run is shown instead of a silent attempt\n\n### Fixed\n\n- An update downloaded in the background is verified against its signature before it is installed at startup\n- The core archive is verified against the hash published together with the release\n- A backup can no longer be read, restored or deleted outside the backup folder\n- A damaged entry in the browser storage no longer breaks scrolling in the proxy list\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- В «Продвинутых» появилась кнопка «Выгрузить логи»: логи приложения и службы складываются в один архив вместе с отчётом для поддержки, адреса, ключи и путь к домашней папке в нём скрыты\n- Windows: если адаптер TUN занят, приложение так и говорит, а не сообщает об общей ошибке запуска\n- Windows: если интерфейс перестал отвечать, приложение закрывается и запускается снова\n\n### Изменено\n\n- Ключ `ipv6` решает подписка: переключатель в настройках действует, только пока подписка сама ключ не задаёт\n- Windows: из подписки принимается только стек TUN `gvisor`; `system` и `mixed` остаются ручным выбором в настройках\n- Linux: служба TUN ставится вместе с пакетом; если повысить права нечем, показывается ошибка с командой для запуска вручную, а не молчаливая попытка\n\n### Исправлено\n\n- Обновление, скачанное в фоне, перед установкой при старте сверяется с подписью\n- Архив ядра сверяется с хэшем, опубликованным вместе с релизом\n- Файл бэкапа больше нельзя прочитать, восстановить или удалить за пределами папки бэкапов\n- Испорченная запись в хранилище браузера больше не ломает прокрутку списка серверов"
             }
           ],
           "last_commit": {
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-31T15:06:42Z",
+            "pushed_at": "2026-08-31T16:31:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f5c4a7b",
+                  "message": "conmon: fall back to the runtime's exit status file",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-31T16:31:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/f5c4a7b3d1a256ae41a0a00559298448ff929300"
+                },
+                {
+                  "sha": "3b40dd1",
+                  "message": "lvm2: update to 2.03.42",
+                  "author": "Daniel Golle",
+                  "date": "2026-08-31T16:30:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/3b40dd12b62cb69781b8d52c72e58b3594e634cb"
+                },
+                {
                   "sha": "19021e4",
                   "message": "CONTRIBUTING.md: add pointers to LLM review prompts",
                   "author": "Daniel F. Dickinson",
@@ -1971,20 +1985,6 @@
                   "author": "Chris Swan",
                   "date": "2026-08-25T16:46:30Z",
                   "url": "https://github.com/openwrt/packages/commit/7fea15f314da3b49719297200e760acc4b5b1051"
-                },
-                {
-                  "sha": "89f358c",
-                  "message": "tcpreplay: fix CI tests for the QEMU runtime",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-24T17:05:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/89f358cf36f4b45a0ed5d1411184a5de8be936c6"
-                },
-                {
-                  "sha": "6a33191",
-                  "message": "stress-ng: update to 0.21.04",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-24T17:05:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/6a33191fa01f847dbe63252883f9358b42cb5262"
                 }
               ]
             },
@@ -3569,7 +3569,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 575,
+            "stars": 576,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24922,
+            "stars": 24921,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-30T19:44:18Z",
@@ -4859,7 +4859,7 @@
             "stars": 65922,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T11:45:07Z",
+            "pushed_at": "2026-08-31T16:30:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
