@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T17:09:49.337457Z",
+  "generated_at": "2026-08-31T17:15:07.244195Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33682,
+            "stars": 33683,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-31T07:59:25Z",
@@ -220,7 +220,7 @@
             "stars": 37,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T17:06:40Z",
+            "pushed_at": "2026-08-31T17:14:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -4438,7 +4438,7 @@
             "stars": 1774,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T17:05:46Z",
+            "pushed_at": "2026-08-31T17:12:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5222,6 +5222,15 @@
           },
           "releases": [
             {
+              "name": "0.40.0",
+              "tag": "0.40.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.40.0",
+              "published_at": "2026-08-31T17:10:44Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.40.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.39.3...0.40.0"
+            },
+            {
               "name": "0.39.3",
               "tag": "0.39.3",
               "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.39.3",
@@ -5256,15 +5265,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.39.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* fix(billmgr): pull the panel favicon during sync by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/26\n* feat(dashboard): clickable providers and services by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/28\n* fix(hostbill): fall back to Basic auth when JWT login is broken by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/29\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.38.0...0.39.0"
-            },
-            {
-              "name": "0.38.0",
-              "tag": "0.38.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.38.0",
-              "published_at": "2026-08-20T07:56:07Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.38.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* fix(vultr): store prepaid credit as a positive balance by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/23\n* feat(services): optional description (#22) by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/24\n* feat(connectors): Spaceship domain registrar by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/25\n\n## New Contributors\n* @vffuunnyy made their first contribution in https://github.com/mishkatik/infra-billing/pull/23\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.37.0...0.38.0"
             }
           ],
           "last_commit": {
