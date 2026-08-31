@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:29:36.940527Z",
+  "generated_at": "2026-08-31T15:34:52.650386Z",
   "groups": [
     {
       "id": "cores",
@@ -502,12 +502,21 @@
             "stars": 9,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T14:23:57Z",
+            "pushed_at": "2026-08-31T15:32:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.9-alpha.2",
+              "tag": "clod-v0.1.9-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-de82e89a10b52f7d87fc",
+              "published_at": "2026-08-31T15:32:22Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash clod-v0.1.9-alpha.1",
               "tag": "clod-v0.1.9-alpha.1",
@@ -543,15 +552,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- «Advanced» has an «Export logs» button: the app and service logs are packed into one archive together with a support report, with addresses, keys and the home folder path hidden\n- Windows: when the TUN adapter is busy, the app says exactly that instead of a general start failure\n- Windows: if the interface stops responding, the app closes and starts itself again\n\n### Changed\n\n- The `ipv6` key is decided by the subscription: the switch in the settings applies only while the subscription does not set the key itself\n- Windows: only the `gvisor` TUN stack is taken from the subscription; `system` and `mixed` remain a manual choice in the settings\n- Linux: the TUN service is installed together with the package; when elevation is unavailable, an error with the command to run is shown instead of a silent attempt\n\n### Fixed\n\n- An update downloaded in the background is verified against its signature before it is installed at startup\n- The core archive is verified against the hash published together with the release\n- A backup can no longer be read, restored or deleted outside the backup folder\n- A damaged entry in the browser storage no longer breaks scrolling in the proxy list\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- В «Продвинутых» появилась кнопка «Выгрузить логи»: логи приложения и службы складываются в один архив вместе с отчётом для поддержки, адреса, ключи и путь к домашней папке в нём скрыты\n- Windows: если адаптер TUN занят, приложение так и говорит, а не сообщает об общей ошибке запуска\n- Windows: если интерфейс перестал отвечать, приложение закрывается и запускается снова\n\n### Изменено\n\n- Ключ `ipv6` решает подписка: переключатель в настройках действует, только пока подписка сама ключ не задаёт\n- Windows: из подписки принимается только стек TUN `gvisor`; `system` и `mixed` остаются ручным выбором в настройках\n- Linux: служба TUN ставится вместе с пакетом; если повысить права нечем, показывается ошибка с командой для запуска вручную, а не молчаливая попытка\n\n### Исправлено\n\n- Обновление, скачанное в фоне, перед установкой при старте сверяется с подписью\n- Архив ядра сверяется с хэшем, опубликованным вместе с релизом\n- Файл бэкапа больше нельзя прочитать, восстановить или удалить за пределами папки бэкапов\n- Испорченная запись в хранилище браузера больше не ломает прокрутку списка серверов"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.5",
-              "tag": "clod-v0.1.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.5",
-              "published_at": "2026-08-20T23:13:25Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- Provider links with `tg://` addresses (support, bot and the rest) now open in the Telegram app; a link that cannot be opened shows a message instead of failing silently\n- The «Fit window to content» setting survives an app restart and update: window moves during startup are no longer taken for a manual resize\n- The speed graph is removed from the «Network» card — it is four numbers again\n- The last-update hint on the «Refresh subscription» tile no longer gets cut off: it shows just the date and time\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- Ссылки провайдера с адресами `tg://` (поддержка, бот и остальные) открываются в приложении Telegram; если ссылку открыть не удалось, показывается сообщение, а не тишина\n- Настройка «Подгонять окно под содержимое» переживает перезапуск и обновление приложения: движения окна при старте больше не принимаются за ручное изменение размера\n- Из карточки «Сеть» убран график скорости — снова четыре числа\n- Подсказка о последнем обновлении на плитке «Обновить подписку» больше не обрезается: показываются только дата и время"
             }
           ],
           "last_commit": {
@@ -3501,7 +3501,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2087,
+            "stars": 2088,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-08-18T16:08:02Z",
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90798,
+            "stars": 90799,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-31T00:06:52Z",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24919,
+            "stars": 24920,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-30T19:44:18Z",
