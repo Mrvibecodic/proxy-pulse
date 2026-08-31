@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:03:04.685579Z",
+  "generated_at": "2026-08-31T15:08:22.381564Z",
   "groups": [
     {
       "id": "cores",
@@ -1107,10 +1107,10 @@
             }
           ],
           "last_commit": {
-            "sha": "912d8b0",
+            "sha": "347ea96",
             "branch": "master",
-            "date": "2026-08-29T07:05:44Z",
-            "url": "https://github.com/openwrt/openwrt/commit/912d8b048565697d1509dbeaa22602e521bd8e57"
+            "date": "2026-08-31T14:37:44Z",
+            "url": "https://github.com/openwrt/openwrt/commit/347ea96b26eeeb6f46da9b880f35caf292f643ca"
           }
         },
         {
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-31T13:27:50Z",
+            "pushed_at": "2026-08-31T15:06:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "19021e4",
+                  "message": "CONTRIBUTING.md: add pointers to LLM review prompts",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-08-31T15:06:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/19021e460b6946ac14337cd0cd9c032be548b278"
+                },
+                {
                   "sha": "5f54a2b",
                   "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
                   "author": "Toke Høiland-Jørgensen",
@@ -1978,13 +1985,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-24T17:05:46Z",
                   "url": "https://github.com/openwrt/packages/commit/6a33191fa01f847dbe63252883f9358b42cb5262"
-                },
-                {
-                  "sha": "dedfb99",
-                  "message": "tcpreplay: update to 4.6.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-24T17:05:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/dedfb99edb2b0e914e316b0b07339320d22515a8"
                 }
               ]
             },
@@ -4652,7 +4652,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90796,
+            "stars": 90797,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-08-31T00:06:52Z",
@@ -4791,7 +4791,7 @@
             "stars": 76534,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T14:17:08Z",
+            "pushed_at": "2026-08-31T15:06:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
