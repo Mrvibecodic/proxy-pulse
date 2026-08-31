@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T12:29:25.214855Z",
+  "generated_at": "2026-08-31T12:34:57.205865Z",
   "groups": [
     {
       "id": "cores",
@@ -923,7 +923,7 @@
               "published_at": "2026-08-31T12:28:40Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": ""
+              "body": "* Fix Tun/DNS issues **1**\r\n* Add OTP management\r\n* Fix Windows Installer Location\r\n* Add OpenVPN/OpenConnect support\r\n* Add endpoints to route profiles\r\n* Add sing-box dashboard support\r\n* Add Hysteria Gecko obfs\r\n* Add snell support\r\n* Add L3 bridge support in Linux\r\n* Allow altering private ranges in Tun settings\r\n* Migrate to custom JSON editor\r\n* Add TLS Spoof support\r\n* Update amnesia wireguard\r\n* Add close connection support to connections table\r\n* Fix theme/color issues across certain setups\r\n* Fix windows Extra process privilege drop\r\n* Fix MacOS Tun DNS address\r\n* Fix Xray dns/loopback issues\r\n* Lots of fixes and improvements\r\n\r\n**1**:\r\nMany issues regarding looped connections in Tun mode have been fixed, it is suggested to upgrade Throne before submitting any more issues regarding such defects."
             },
             {
               "name": "1.2.4",
@@ -4924,7 +4924,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80372,
+            "stars": 80373,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-08-31T11:44:35Z",
@@ -4995,7 +4995,7 @@
             "stars": 17619,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-31T11:43:37Z",
+            "pushed_at": "2026-08-31T12:31:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "37ab1cd",
-            "branch": "pmm-6401-read-prometheus-data-files",
-            "date": "2026-08-31T11:43:35Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/37ab1cdedb9d56d86777ae23769258230ef07f7d"
+            "sha": "6befb1c",
+            "branch": "cluster",
+            "date": "2026-08-31T12:31:40Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/6befb1c67d0811d1eed4cc7d4339196d4f834535"
           }
         }
       ]
