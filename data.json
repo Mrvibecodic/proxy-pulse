@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T11:36:37.302691Z",
+  "generated_at": "2026-08-31T11:41:53.571056Z",
   "groups": [
     {
       "id": "cores",
@@ -511,11 +511,11 @@
             {
               "name": "Clod Clash clod-v0.1.9-alpha.1",
               "tag": "clod-v0.1.9-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-7b057656a7f933906ac6",
-              "published_at": "2026-08-31T11:15:08Z",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.9-alpha.1",
+              "published_at": "2026-08-31T11:41:34Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Connections tab: an optional grouping by application, node or rule, and a summary strip above the table — current speed, session volume, the four heaviest applications and the four exits the traffic actually took. Grouping is off by default, so the table looks exactly as before, and the strip can be hidden from the page header\n\n### Changed\n\n- A minimised window no longer works for nothing: delay tests are not started from the tray, the rule list is not re-read when the window hides, the profile card stops ticking, and the update check runs once a day instead of every three hours\n- Dead code left over from the upstream dashboard is removed from the backend, the window and the translations — no visible behaviour depends on it\n\n### Fixed\n\n- A left click on the tray icon under Linux opens the window, and the menu stays on the right button; on Windows and macOS the tray is untouched\n- The server drawer no longer closes after every pick, so several groups can be switched in one go\n- The tunnel explains in words why it failed to come up, and the raw core output stays in the log; port and profile errors are translated too\n- Built-in core outcomes — direct, reject and their kin — no longer count towards subscription usage\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Вкладка «Соединения»: группировка по приложению, узлу или правилу и полоса итогов над таблицей — текущая скорость, объём за сессию, четыре самых прожорливых приложения и четыре выхода, через которые трафик реально ушёл. Группировка по умолчанию выключена, поэтому таблица выглядит ровно как раньше, а полосу можно убрать кнопкой в шапке\n\n### Изменено\n\n- Свёрнутое окно больше не работает вхолостую: проверки задержек не запускаются из трея, список правил не перечитывается при уходе окна, карточка профиля перестаёт тикать, а проверка обновлений идёт раз в сутки вместо трёх часов\n- Из бэкенда, окна и переводов вычищен мёртвый код, доставшийся от исходного дашборда, — видимое поведение на нём не держалось\n\n### Исправлено\n\n- Левый клик по значку в трее под Linux открывает окно, меню осталось на правой кнопке; на Windows и macOS трей не изменился\n- Шторка выбора серверов не закрывается после каждого выбора — несколько групп можно сменить за один заход\n- Туннель объясняет словами, почему не поднялся, а сырой вывод ядра остаётся в журнале; ошибки портов и профиля тоже переведены\n- Служебные исходы ядра — прямой выход, блокировка и их родня — больше не идут в расход подписки"
             },
             {
               "name": "Clod Clash clod-v0.1.8",
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24911,
+            "stars": 24912,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-30T19:44:18Z",
