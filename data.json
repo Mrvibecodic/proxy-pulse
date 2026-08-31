@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T13:22:30.759335Z",
+  "generated_at": "2026-08-31T13:27:48.758361Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37431,
+            "stars": 37432,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-08-31T11:07:50Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 6959,
+            "stars": 6960,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-08-31T12:28:40Z",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-08-31T10:00:25Z",
+            "pushed_at": "2026-08-31T13:27:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5f54a2b",
+                  "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
+                  "author": "Toke Høiland-Jørgensen",
+                  "date": "2026-08-31T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/5f54a2b916cfc13b80ff094c98f43aa40f3769af"
+                },
+                {
                   "sha": "9d1f1f2",
                   "message": "hev-socks5-server: update to 2.13.1",
                   "author": "Ray Wang",
@@ -1978,13 +1985,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-08-24T17:05:46Z",
                   "url": "https://github.com/openwrt/packages/commit/dedfb99edb2b0e914e316b0b07339320d22515a8"
-                },
-                {
-                  "sha": "dfd046a",
-                  "message": "shadow: update to 4.20.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-08-24T17:05:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/dfd046a6b71b1707c70882af4cf4cf1c570e71a7"
                 }
               ]
             },
@@ -4995,7 +4995,7 @@
             "stars": 17619,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-08-31T12:31:39Z",
+            "pushed_at": "2026-08-31T13:23:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5215,12 +5215,21 @@
             "stars": 74,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-08-31T13:10:26Z",
+            "pushed_at": "2026-08-31T13:24:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.39.3",
+              "tag": "0.39.3",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.39.3",
+              "published_at": "2026-08-31T13:27:52Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.39.3`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.39.2...0.39.3"
+            },
             {
               "name": "0.39.2",
               "tag": "0.39.2",
@@ -5256,15 +5265,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.38.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* fix(vultr): store prepaid credit as a positive balance by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/23\n* feat(services): optional description (#22) by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/24\n* feat(connectors): Spaceship domain registrar by @vffuunnyy in https://github.com/mishkatik/infra-billing/pull/25\n\n## New Contributors\n* @vffuunnyy made their first contribution in https://github.com/mishkatik/infra-billing/pull/23\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.37.0...0.38.0"
-            },
-            {
-              "name": "0.37.0",
-              "tag": "0.37.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.37.0",
-              "published_at": "2026-08-08T14:29:58Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.37.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* OpenRouter connector, custom service types, and LLM vendor markers by @sedyh in https://github.com/mishkatik/infra-billing/pull/17\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.36.1...0.37.0"
             }
           ],
           "last_commit": {
