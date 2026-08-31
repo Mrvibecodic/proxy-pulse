@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:50:44.279961Z",
+  "generated_at": "2026-08-31T16:01:13.971786Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41323,
+            "stars": 41324,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-08-31T08:34:15Z",
@@ -511,11 +511,11 @@
             {
               "name": "Clod Clash clod-v0.1.9-alpha.2",
               "tag": "clod-v0.1.9-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-de82e89a10b52f7d87fc",
-              "published_at": "2026-08-31T15:32:22Z",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.9-alpha.2",
+              "published_at": "2026-08-31T15:59:29Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Pre-release builds have their own update channel at last: the «Pre-release builds» switch now really decides what the updater offers — the pre-release channel always carries the newest build, the regular one the latest stable release, and they can no longer overtake each other\n- Dependencies are updated: the h2 vulnerability reported by the audit is closed, and the dependency audit itself finally runs\n\n### Fixed\n\n- Linux: the window opens from the tray again and desktop notifications work. The tray dependency added in the previous build was quietly switching the D-Bus layer into a mode where every blocking call panicked, so the window was never created\n- The node selection is restored after a cold start too: it now waits for the groups to be filled by the core instead of trusting its first answer, which could wipe the choice stored in the profile\n- Connections tab: the speed column headers no longer run together\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- У предварительных сборок наконец свой канал обновлений: галочка «Предварительные сборки» действительно решает, что предложит апдейтер — в предварительном канале лежит самая свежая сборка, в обычном последний стабильный релиз, и обогнать друг друга они не могут\n- Обновлены зависимости: закрыта уязвимость в h2, найденная аудитом, а сам аудит зависимостей наконец выполняется\n\n### Исправлено\n\n- Linux: окно снова открывается из трея, и работают уведомления. Зависимость трея, добавленная в прошлой сборке, молча переключала слой D-Bus в режим, где любой блокирующий вызов паниковал, и окно не создавалось\n- Выбор узлов возвращается и после холодного старта: теперь он дожидается, пока ядро наполнит группы, а не верит первому ответу, по которому запись в профиле могла стереться\n- Вкладка «Соединения»: заголовки колонок скорости больше не слипаются"
             },
             {
               "name": "Clod Clash clod-v0.1.9-alpha.1",
