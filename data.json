@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T01:46:11.548636Z",
+  "generated_at": "2026-09-01T01:51:27.802233Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T00:17:39Z",
+            "pushed_at": "2026-09-01T01:47:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "63ba9c3",
+                  "message": "rclone: update to 1.75.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-01T01:47:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/63ba9c3bb4aa6070117289efc5a0e54226fe711e"
+                },
+                {
+                  "sha": "512b7df",
+                  "message": "openlist: update to 4.2.5",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-01T01:46:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/512b7df5f5a937a81121be805491692c31cafb64"
+                },
+                {
+                  "sha": "463f06b",
+                  "message": "yq: update to 4.53.6",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-01T01:45:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/463f06b22c6a8370cec9725beb931941b833628b"
+                },
+                {
+                  "sha": "9e13150",
+                  "message": "v2ray-core: update to 5.53.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-01T01:38:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e13150deee6e6f6459bb75d94d52ec8c8c6bfa8"
+                },
+                {
                   "sha": "088999e",
                   "message": "libjuice: fix SHA-1 on big-endian targets",
                   "author": "Daniel Golle",
@@ -1957,34 +1985,6 @@
                   "author": "John Audia",
                   "date": "2026-08-27T11:50:51Z",
                   "url": "https://github.com/openwrt/packages/commit/97e17c70fc9d4858d61a6bd4ba3472ed38c654fb"
-                },
-                {
-                  "sha": "de6ca75",
-                  "message": "banip: replace the CARTO basemap with local outlines",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-27T09:06:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/de6ca754b19118b2b28d0bc0a683edd19cb0ebee"
-                },
-                {
-                  "sha": "a353d90",
-                  "message": "shunt: init fixes",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-26T15:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/a353d906fec1f43ac86a0ba5b44b59b0a11a4b60"
-                },
-                {
-                  "sha": "69dc467",
-                  "message": "dcwapd: remove dcwapd and related packages",
-                  "author": "Yanase Yuki",
-                  "date": "2026-08-26T06:24:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/69dc467f94f14f4343938299f9d1044d54bdafaa"
-                },
-                {
-                  "sha": "a583d91",
-                  "message": "sqm-scripts: update to 1.8.0",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-08-25T20:23:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/a583d91170c55c0cedc1d41cb46037992e11eecb"
                 }
               ]
             },
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 24936,
+            "stars": 24937,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-08-30T19:44:18Z",
