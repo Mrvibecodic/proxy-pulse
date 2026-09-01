@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T06:25:17.565163Z",
+  "generated_at": "2026-09-01T06:30:34.008469Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T01:47:55Z",
+            "pushed_at": "2026-09-01T06:27:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "413aa84",
+                  "message": "ddns-scripts: add gandi pat support",
+                  "author": "Keith T. Garner",
+                  "date": "2026-09-01T06:26:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/413aa843b066dd0314c6ab36449fc5638285a94e"
+                },
+                {
                   "sha": "63ba9c3",
                   "message": "rclone: update to 1.75.0",
                   "author": "Tianling Shen",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-27T11:52:27Z",
                   "url": "https://github.com/openwrt/packages/commit/9c79d699d915227cfb2386dd1bcd88825209b7e2"
-                },
-                {
-                  "sha": "97e17c7",
-                  "message": "fscrypt: update to 0.3.7",
-                  "author": "John Audia",
-                  "date": "2026-08-27T11:50:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/97e17c70fc9d4858d61a6bd4ba3472ed38c654fb"
                 }
               ]
             },
@@ -4924,7 +4924,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80384,
+            "stars": 80385,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-01T00:27:47Z",
