@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:02:18.236263Z",
+  "generated_at": "2026-09-01T12:07:34.551716Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37489,
+            "stars": 37490,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-01T08:23:04Z",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T09:41:08Z",
+            "pushed_at": "2026-09-01T12:06:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3067,6 +3067,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "3b28a56",
+                  "message": "owut: remove comments and empty lines from the built package",
+                  "author": "Samuele Longhi",
+                  "date": "2026-09-01T12:06:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/3b28a568ba14b8fbad8dd4db3b2cb5fb0be6f5c9"
+                },
+                {
                   "sha": "bac040b",
                   "message": "slide-switch: update to 1.0.1",
                   "author": "Jeffery To",
@@ -3268,19 +3275,19 @@
                   "author": "Luiz Angelo Daros de Luca",
                   "date": "2026-07-30T06:58:12Z",
                   "url": "https://github.com/openwrt/packages/commit/f3c2b6855fa18c4c4b71d307143b4c8190ee12b7"
-                },
-                {
-                  "sha": "23abaa6",
-                  "message": "bind: bump to 9.20.26",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-07-24T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/23abaa6f3b0fdfd76b570031107e5718476ff0c8"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "8a9680f",
+                  "message": "owut: remove comments and empty lines from the built package",
+                  "author": "Samuele Longhi",
+                  "date": "2026-09-01T12:05:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/8a9680f97421f9bb3ce8c0a0c948921946a7085d"
+                },
                 {
                   "sha": "d77b592",
                   "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
@@ -3483,13 +3490,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T06:20:46Z",
                   "url": "https://github.com/openwrt/packages/commit/ca566bbe0f5f58ce2b57e0712f8768f5075b8818"
-                },
-                {
-                  "sha": "f645601",
-                  "message": "travelmate: release 2.4.8-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-18T18:50:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/f645601dfe7d93ae308fcc6318920b0be7c9def5"
                 }
               ]
             }
@@ -4980,10 +4980,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b2bd5af",
+            "sha": "b5b9916",
             "branch": "master",
-            "date": "2026-09-01T08:33:58Z",
-            "url": "https://github.com/netdata/netdata/commit/b2bd5af6f0e5c055fe708d3bf44c4f2d7fb88915"
+            "date": "2026-09-01T11:03:45Z",
+            "url": "https://github.com/netdata/netdata/commit/b5b99161fefae0de16228c6c89f16f0289f0e9af"
           }
         },
         {
@@ -4995,7 +4995,7 @@
             "stars": 17630,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T11:42:53Z",
+            "pushed_at": "2026-09-01T12:06:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
