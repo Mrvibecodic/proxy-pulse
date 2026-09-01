@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T09:40:04.314291Z",
+  "generated_at": "2026-09-01T09:45:20.417951Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33699,
+            "stars": 33700,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-08-31T07:59:25Z",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T07:21:48Z",
+            "pushed_at": "2026-09-01T09:41:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "d77b592",
+                  "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-01T09:41:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/d77b592c3d0aa7a7457758e6882751f29259b38c"
+                },
+                {
+                  "sha": "da7619c",
+                  "message": "fluent-bit: add init script",
+                  "author": "Sebastian Hamann",
+                  "date": "2026-09-01T09:41:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/da7619c629368275f62f9326a3a15c2c724db2a2"
+                },
+                {
+                  "sha": "e1792c6",
+                  "message": "fluent-bit: update to 5.0.8, adopt maintainer, fix musl startup segfault",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-01T09:41:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/e1792c6acfb1066021705cdd90d9a0cdd21ad3f3"
+                },
+                {
                   "sha": "ce07eb6",
                   "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
                   "author": "Toke Høiland-Jørgensen",
@@ -3469,27 +3490,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-08-18T18:50:24Z",
                   "url": "https://github.com/openwrt/packages/commit/f645601dfe7d93ae308fcc6318920b0be7c9def5"
-                },
-                {
-                  "sha": "890f799",
-                  "message": "syslog-ng: update to version 4.12.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T07:21:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/890f7994e6ac585eee96a645b45b885b22f9c143"
-                },
-                {
-                  "sha": "af41897",
-                  "message": "golang: bump 1.26 to 1.26.6",
-                  "author": "George Sapkin",
-                  "date": "2026-08-17T12:43:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/af41897f31a4b5405acb0ca9d7ecdd357d193a9d"
-                },
-                {
-                  "sha": "64b6155",
-                  "message": "librespeed-cli: update to 1.0.14",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-17T09:04:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/64b615550a1818e06ff9d978f24027131df704f7"
                 }
               ]
             }
@@ -4791,7 +4791,7 @@
             "stars": 76537,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-01T09:04:51Z",
+            "pushed_at": "2026-09-01T09:43:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4992,7 +4992,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17627,
+            "stars": 17628,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-01T07:08:35Z",
