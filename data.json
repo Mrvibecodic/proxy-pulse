@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T07:12:37.478447Z",
+  "generated_at": "2026-09-01T07:23:05.632226Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4595,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-01T06:39:11Z",
+            "pushed_at": "2026-09-01T07:21:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "ce07eb6",
+                  "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
+                  "author": "Toke Høiland-Jørgensen",
+                  "date": "2026-09-01T07:21:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce07eb65e4d4895525790a52f3b7f040e6f71335"
+                },
+                {
                   "sha": "3f6b95b",
                   "message": "uneighbord: add uneighbord",
                   "author": "Nick Hainke",
@@ -3483,13 +3490,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-17T09:04:09Z",
                   "url": "https://github.com/openwrt/packages/commit/64b615550a1818e06ff9d978f24027131df704f7"
-                },
-                {
-                  "sha": "cf82ed0",
-                  "message": "sing-box: bump to 1.13.18 without Naive outbound support",
-                  "author": "Sergei S.",
-                  "date": "2026-08-16T19:41:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/cf82ed0ac66dcaa585bed8c30f8ed69bae778f37"
                 }
               ]
             }
@@ -5280,7 +5280,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3357,
+            "stars": 3356,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-08-31T02:37:40Z",
