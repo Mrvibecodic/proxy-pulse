@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T06:55:15.218325Z",
+  "generated_at": "2026-09-02T07:01:36.777120Z",
   "groups": [
     {
       "id": "cores",
@@ -4791,12 +4791,21 @@
             "stars": 76554,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-02T06:55:36Z",
+            "pushed_at": "2026-09-02T07:00:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.2.1",
+              "tag": "v13.2.1",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
+              "published_at": "2026-09-02T07:00:31Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.2.1)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-14199\n\n### Bug fixes\n\n- **Dashboards:** Fix adhoc and groupby variable datasource on UI import [#131819](https://github.com/grafana/grafana/pull/131819), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Packaging:** Fix issue with bundled plugins not being moved properly [#131037](https://github.com/grafana/grafana/pull/131037), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **PanelEditor:** Fix options pane not resizable beyond the preview's content width [#131608](https://github.com/grafana/grafana/pull/131608), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
+            },
             {
               "name": "13.2.0",
               "tag": "v13.2.0",
@@ -4832,15 +4841,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.4.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Features and enhancements\n\n- **Dashboard Import:** Labels in v2 schema [#130428](https://github.com/grafana/grafana/pull/130428), [@harisrozajac](https://github.com/harisrozajac)\n\n### Bug fixes\n\n- **Azure Monitor:** fix migration for dimension filters [#130521](https://github.com/grafana/grafana/pull/130521), [@olivierlemasle](https://github.com/olivierlemasle)"
-            },
-            {
-              "name": "12.3.11",
-              "tag": "v12.3.11",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.3.11",
-              "published_at": "2026-08-18T13:20:15Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.3.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183"
             }
           ],
           "last_commit": {
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "edbe212",
-            "branch": "dependabot-npm_and_yarn-xyflow-svelte-1.6.5",
-            "date": "2026-09-02T00:05:51Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/edbe212cdc3ced3012ddc3e11304d2096a2a000c"
+            "sha": "21e48d5",
+            "branch": "dependabot-npm_and_yarn-svelte-5.57.0",
+            "date": "2026-09-02T00:19:36Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/21e48d5f1ea1814f72f68763b57706d4df130243"
           }
         }
       ]
