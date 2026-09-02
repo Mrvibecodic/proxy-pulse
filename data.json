@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T08:10:04.523751Z",
+  "generated_at": "2026-09-02T08:15:20.883072Z",
   "groups": [
     {
       "id": "cores",
@@ -4791,7 +4791,7 @@
             "stars": 76558,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-02T07:59:54Z",
+            "pushed_at": "2026-09-02T08:12:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4805,6 +4805,15 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.1)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-14199\n\n### Bug fixes\n\n- **Dashboards:** Fix adhoc and groupby variable datasource on UI import [#131819](https://github.com/grafana/grafana/pull/131819), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Packaging:** Fix issue with bundled plugins not being moved properly [#131037](https://github.com/grafana/grafana/pull/131037), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **PanelEditor:** Fix options pane not resizable beyond the preview's content width [#131608](https://github.com/grafana/grafana/pull/131608), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
+            },
+            {
+              "name": "13.1.5",
+              "tag": "v13.1.5",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.5",
+              "published_at": "2026-09-02T08:12:48Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.5)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-14199\n- Security: Fix CVE-2026-19475"
             },
             {
               "name": "13.2.0",
@@ -4832,15 +4841,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.0.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Bug fixes\n\n- **Reporting:** batch dashboard lookups when listing reports (Enterprise)"
-            },
-            {
-              "name": "12.4.9",
-              "tag": "v12.4.9",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.9",
-              "published_at": "2026-08-18T14:08:48Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.4.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- CVE-2026-17183\n\n### Features and enhancements\n\n- **Dashboard Import:** Labels in v2 schema [#130428](https://github.com/grafana/grafana/pull/130428), [@harisrozajac](https://github.com/harisrozajac)\n\n### Bug fixes\n\n- **Azure Monitor:** fix migration for dimension filters [#130521](https://github.com/grafana/grafana/pull/130521), [@olivierlemasle](https://github.com/olivierlemasle)"
             }
           ],
           "last_commit": {
@@ -4995,7 +4995,7 @@
             "stars": 17635,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-02T08:10:05Z",
+            "pushed_at": "2026-09-02T08:12:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d94e14",
-            "branch": "dependabot-npm_and_yarn-tanstack-svelte-query-6.1.48",
-            "date": "2026-09-02T00:48:07Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/7d94e142525064dff71f5ed630c17fe9ca9172ac"
+            "sha": "f8623cb",
+            "branch": "l10n_crowdin",
+            "date": "2026-09-02T01:26:13Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/f8623cb77cc89522b840f1519c3e1c1aaac9c0b2"
           }
         }
       ]
