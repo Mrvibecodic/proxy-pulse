@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T17:48:45.249312Z",
+  "generated_at": "2026-09-03T17:54:01.599032Z",
   "groups": [
     {
       "id": "cores",
@@ -4138,7 +4138,7 @@
             "stars": 9,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-03T17:46:01Z",
+            "pushed_at": "2026-09-03T17:51:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -4147,6 +4147,13 @@
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "681f912",
+                  "message": "Collapse the two publish workflows into one that follows the newest core",
+                  "author": "Medium1992",
+                  "date": "2026-09-03T17:49:59Z",
+                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/681f912777a59f421bf69cfc54aad05889e970b1"
+                },
                 {
                   "sha": "d40842b",
                   "message": "Merge branch 'main' of https://github.com/Medium1992/xray-proxy-ros",
@@ -4349,13 +4356,6 @@
                   "author": "Peter Solomon",
                   "date": "2026-03-10T12:31:53Z",
                   "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c46cd249364bd2f63db5d4a1da6a4ac2873f6d54"
-                },
-                {
-                  "sha": "f942853",
-                  "message": "Update entrypoint.sh",
-                  "author": "Peter Solomon",
-                  "date": "2026-03-10T12:31:32Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/f942853a7f5eedd0669bcdd036bf08c25369de3b"
                 }
               ]
             }
@@ -4992,7 +4992,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17647,
+            "stars": 17648,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-03T16:26:20Z",
