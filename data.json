@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:01:25.131886Z",
+  "generated_at": "2026-09-03T22:06:41.637125Z",
   "groups": [
     {
       "id": "cores",
@@ -3637,7 +3637,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16079,
+            "stars": 16080,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4138,7 +4138,7 @@
             "stars": 9,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-03T17:54:38Z",
+            "pushed_at": "2026-09-03T22:06:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -4147,6 +4147,20 @@
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "83ea49a",
+                  "message": "Move the core build into a Dockerfile-release of its own",
+                  "author": "Medium1992",
+                  "date": "2026-09-03T22:05:37Z",
+                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/83ea49a0dd2aa230a14514939cc5468b876dd26c"
+                },
+                {
+                  "sha": "c48de06",
+                  "message": "Build the Xray core ourselves, on a current Go, in both channels",
+                  "author": "Medium1992",
+                  "date": "2026-09-03T21:58:54Z",
+                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c48de06575d55b9ad9615136633a3a37cbac2d34"
+                },
                 {
                   "sha": "ad6255f",
                   "message": "Merge branch 'main' of https://github.com/Medium1992/xray-proxy-ros",
@@ -4342,20 +4356,6 @@
                   "author": "Peter Solomon",
                   "date": "2026-06-03T08:17:43Z",
                   "url": "https://github.com/Medium1992/xray-proxy-ros/commit/da44ef7ec88c549152f7cb35ed65237f0464f4dd"
-                },
-                {
-                  "sha": "3fa3486",
-                  "message": "Update entrypoint_armv5.sh",
-                  "author": "Peter Solomon",
-                  "date": "2026-06-03T07:52:29Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/3fa3486479b54629b821c7b39efb4cd2929781fa"
-                },
-                {
-                  "sha": "37391f6",
-                  "message": "Update entrypoint.sh",
-                  "author": "Peter Solomon",
-                  "date": "2026-06-03T07:51:30Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/37391f64f19e9fc935eac355e1905d89d24aa019"
                 }
               ]
             }
