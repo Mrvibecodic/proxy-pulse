@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T20:21:26.126624Z",
+  "generated_at": "2026-09-03T20:26:41.598570Z",
   "groups": [
     {
       "id": "cores",
@@ -978,12 +978,21 @@
             "stars": 43,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-08-30T20:53:59Z",
+            "pushed_at": "2026-09-03T20:22:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.1",
+              "tag": "1.0.0-beta.1",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.1",
+              "published_at": "2026-09-03T20:21:50Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
+            },
             {
               "name": "0.3.5",
               "tag": "0.3.5",
@@ -1019,15 +1028,6 @@
               "prerelease": false,
               "author": "this-xkit",
               "body": "### Fixed\n\n- Auto-connect at startup no longer cuts off your internet — when Flowvy connects automatically at system startup in TUN mode, it now waits for the network and retries, and if a connection attempt fails it restores your internet automatically (no need to close the app or end processes to get back online).\n"
-            },
-            {
-              "name": "0.3.1",
-              "tag": "0.3.1",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.1",
-              "published_at": "2026-06-21T04:12:29Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### Improved\n\n- Tidier, keyboard-friendly menus — the theme, language and profile-setting menus are now consistently sized (no more oversized, half-empty boxes), and you can open them and choose options from the keyboard, including type-to-jump.\n\n### Fixed\n\n- Changing the language now applies smoothly — switching your interface language no longer throws you back to the Profiles screen, and the tray popup switches to the new language too.\n"
             }
           ],
           "last_commit": {
@@ -1051,7 +1051,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28248,
+            "stars": 28249,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-03T17:25:15Z",
@@ -4584,7 +4584,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 892,
+            "stars": 893,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-09-02T07:20:41Z",
@@ -4776,10 +4776,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aa08324",
+            "sha": "256bbc5",
             "branch": "l10n_main_2",
-            "date": "2026-09-02T21:43:27Z",
-            "url": "https://github.com/henrygd/beszel/commit/aa08324bc74b63499d86a06a05793389028e3449"
+            "date": "2026-09-02T21:43:10Z",
+            "url": "https://github.com/henrygd/beszel/commit/256bbc5996c1102b9e1cd73832343c7f314895da"
           }
         },
         {
@@ -4992,7 +4992,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17648,
+            "stars": 17647,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-03T16:26:20Z",
