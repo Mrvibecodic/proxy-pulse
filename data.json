@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T15:31:17.622523Z",
+  "generated_at": "2026-09-03T15:36:33.201861Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37574,
+            "stars": 37575,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-03T07:14:54Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33769,
+            "stars": 33770,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-02T16:58:26Z",
@@ -4723,12 +4723,21 @@
             "stars": 25025,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-09-03T15:24:13Z",
+            "pushed_at": "2026-09-03T15:34:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
           },
           "releases": [
+            {
+              "name": "v0.19.0",
+              "tag": "v0.19.0",
+              "url": "https://github.com/henrygd/beszel/releases/tag/v0.19.0",
+              "published_at": "2026-09-03T15:34:30Z",
+              "prerelease": false,
+              "author": "henrygd",
+              "body": ":warning:  **Potential breaking change:** Agents now verify HTTPS certificates. If an agent connects to a hub using a self-signed or otherwise untrusted certificate, configure `CA_CERT_FILE` with the appropriate CA certificate or the connection will be rejected.\r\n\r\n## What's Changed\r\n- Add ZFS pool and dataset monitoring (#2209)\r\n- Add container health alerts with log excerpts in notifications (#2225)\r\n- Add alerts for failed systemd services (#2173)\r\n- Add alerts for CPU I/O wait and steal time (#2249)\r\n- Add cumulative disk read and write totals to the Disk I/O sheet (#2179)\r\n- Add Greek and Uzbek translations (#2034)\r\n- Add custom root disk names and sort disks alphabetically (#2006)\r\n- Improve alert security by enforcing system ownership and blocking additional internal notification URL ranges\r\n- Improve ATA SMART warnings for critical attributes (#2275)\r\n- Fix a hub crash caused by concurrent SSH client shutdown (#2277)\r\n- Fix host CPU and memory totals when Docker runs in a VM on macOS or Windows (#2272)\r\n- Fix multi-line `TOKEN_FILE` loading (#2276)\r\n- Fix QNAP MD RAID arrays being incorrectly reported as failed (#2065)\r\n- Fix Intel GPU power data disappearing between samples (#2256)\r\n- Fix swap usage calculations to include cached swap (#2267)\r\n- Fix agent payload failures caused by invalid UTF-8 in battery names (#2241)\r\n- Fix uptime reporting inside Linux containers (#2180)\r\n- Fix fan discovery on legacy hwmon devices (#2238)\r\n- Fix CPU model detection on MIPS systems (#2138)\r\n- Fix machine ID generation on FreeBSD and pfSense installations (#2274)\r\n- Fix agent environment variable updates during reinstall (#2107)\r\n- Fix the install script reporting the wrong listen address after upgrades (#2243)\r\n- Fix load average precision on macOS, BSD, and Windows (#2245)\r\n- Update the Go version and Go dependencies\r\n\r\n## New Contributors\r\n* @IlyaMur made their first contribution in https://github.com/henrygd/beszel/pull/2238\r\n* @alecrubin made their first contribution in https://github.com/henrygd/beszel/pull/2180\r\n* @toomore made their first contribution in https://github.com/henrygd/beszel/pull/2241\r\n* @mews-se made their first contribution in https://github.com/henrygd/beszel/pull/2243\r\n* @justadityaraj made their first contribution in https://github.com/henrygd/beszel/pull/2245\r\n* @wassupluke made their first contribution in https://github.com/henrygd/beszel/pull/2256\r\n* @ErkinjonYusupov made their first contribution in https://github.com/henrygd/beszel/pull/2034\r\n* @snh made their first contribution in https://github.com/henrygd/beszel/pull/2279\r\n* @spatiumstas made their first contribution in https://github.com/henrygd/beszel/pull/2249\r\n* @martinstenrose made their first contribution in https://github.com/henrygd/beszel/pull/2173\r\n* @mleczakm made their first contribution in https://github.com/henrygd/beszel/pull/2225\r\n* @santhiprakash made their first contribution in https://github.com/henrygd/beszel/pull/2269\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.8...v0.19.0"
+            },
             {
               "name": "v0.18.8",
               "tag": "v0.18.8",
@@ -4764,15 +4773,6 @@
               "prerelease": false,
               "author": "henrygd",
               "body": "## What's Changed\r\n- Add \"update available\" notification in hub web UI with `CHECK_UPDATES=true` by @svenvg93 in https://github.com/henrygd/beszel/pull/1830\r\n- Add Linux mdraid health monitoring by @VACInc in https://github.com/henrygd/beszel/pull/1750\r\n- Add ports column to containers table (#1481)\r\n- Allow Linux systemd timer monitoring with `SERVICE_PATTERNS` (#1820)\r\n- Add ZFS ARC support on FreeBSD\r\n- Add optional tabs layout on web UI system page (#1513)\r\n- Improve web UI performance and mobile styles (thanks @steveiliop56 for new mobile menu in #1840)\r\n- Improve disk discovery and I/O device matching (#1811, #1772)\r\n- Improve (likely fix) status alert reliability (#1519)\r\n- Fix temperature collection blocking agent stats on some systems by @Jimbojones1 in https://github.com/henrygd/beszel/pull/1839\r\n- Fix `SMART_INTERVAL` consistency across agent reconnects (#1800)\r\n- Fix container health status for Podman (#1475)\r\n- Fix disk usage averaging for extra disk alerts using historical records  by @victoreduardo in https://github.com/henrygd/beszel/pull/1801\r\n- Fix bandwidth alert computation from byte-per-second source (#1770)\r\n- Fix 1m chart view leading to inflated Docker network IO during use\r\n- Fix daylight saving time offset handling in daily quiet hours by @svenvg93 in https://github.com/henrygd/beszel/pull/1827\r\n- Fix potential nil pointer panics in hub realtime worker and websocket ping\r\n- Fix: bypass NIC auto-filter when interface is explicitly whitelisted via NICS by @svenvg93 in https://github.com/henrygd/beszel/pull/1805\r\n- Fix ATA device statistics handling for negative values (#1791)\r\n- Fix AMD GPU sysfs filesize misreporting workaround (#1799)\r\n- Fix light flashes when refresh in dark mode by @svenvg93 in https://github.com/henrygd/beszel/pull/1832\r\n- Fix macOS agent path lookup for `macmon` (#1746)\r\n- Update Go version and dependencies\r\n\r\n## New Contributors\r\n* @guidNull made their first contribution in https://github.com/henrygd/beszel/pull/1764\r\n* @victoreduardo made their first contribution in https://github.com/henrygd/beszel/pull/1801\r\n* @Jimbojones1 made their first contribution in https://github.com/henrygd/beszel/pull/1839\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.4...v0.18.5"
-            },
-            {
-              "name": "v0.18.4",
-              "tag": "v0.18.4",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.4",
-              "published_at": "2026-02-20T21:10:52Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add outbound heartbeat monitoring to external services by @amirhmoradi in https://github.com/henrygd/beszel/pull/1729\r\n- Add experimental GPU monitoring for Apple Silicon by @raccettura. (#1747, #1746, [docs](https://beszel.dev/guide/gpu#apple))\r\n- Add `nvtop` integration for GPU monitoring. (#1508)\r\n- Add `GPU_COLLECTOR` environment variable to manually specify the GPU collector(s).\r\n- SMART: add eMMC health via sysfs by @VACInc in https://github.com/henrygd/beszel/pull/1736\r\n- Add `DISABLE_SSH` environment variable to disable SSH agent functionality. (#1061)\r\n- Add `fingerprint` command to the agent. (#1726)\r\n- Include GTT memory in AMD GPU metrics and improve device name lookup. (#1569)\r\n- Improve multiplexed logs detection for Podman. (#1755)\r\n- Harden against Docker API path traversal.\r\n- Fix issue where the agent could report incorrect root disk I/O when running in Docker. (#1737)\r\n- Show system uptime in the system table by @svenvg93 in https://github.com/henrygd/beszel/pull/1719\r\n- Retry Docker check on non-200 HTTP response by @ElioDiNino in https://github.com/henrygd/beszel/pull/1754\r\n- Allow precise value entry for alerts via text input by @svenvg93 in https://github.com/henrygd/beszel/pull/1718\r\n- Add version flag to agent by @svenvg93 in https://github.com/henrygd/beszel/pull/1639\r\n- Fix race issue with meter threshold colors.\r\n- Add `InstallMethod` parameter to Windows install script.\r\n- Update Go version and dependencies.\r\n\r\n## New Contributors\r\n* @VACInc made their first contribution in https://github.com/henrygd/beszel/pull/1736\r\n* @amirhmoradi made their first contribution in https://github.com/henrygd/beszel/pull/1729\r\n* @ElioDiNino made their first contribution in https://github.com/henrygd/beszel/pull/1754\r\n* @raccettura made their first contribution in https://github.com/henrygd/beszel/pull/1747\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.3...v0.18.4"
             }
           ],
           "last_commit": {
