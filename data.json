@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:34:26.878790Z",
+  "generated_at": "2026-09-03T08:39:43.768763Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4597,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T08:24:53Z",
+            "pushed_at": "2026-09-03T08:37:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6b1b273",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:35:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b1b273e32abf1bc7cd4458cf2c9f437a75a8ef6"
+                },
+                {
                   "sha": "7ccd301",
                   "message": "dnsproxy: update to 0.84.1",
                   "author": "Tianling Shen",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-28T16:54:59Z",
                   "url": "https://github.com/openwrt/packages/commit/11474ce3b708e847ead9e7843a5bfb6ff065fcb5"
-                },
-                {
-                  "sha": "bdcd738",
-                  "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-28T09:14:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/bdcd738a1b9d99f311f6af376a820ce139393523"
                 }
               ]
             },
@@ -3067,6 +3067,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "4b4b1f5",
+                  "message": "hev-socks5-server: update to 2.13.1",
+                  "author": "Ray Wang",
+                  "date": "2026-09-03T08:37:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/4b4b1f5af9d7aec892ec9148aaccd88590d83982"
+                },
+                {
                   "sha": "3b28a56",
                   "message": "owut: remove comments and empty lines from the built package",
                   "author": "Samuele Longhi",
@@ -3268,19 +3275,19 @@
                   "author": "Tyrel M. McQueen",
                   "date": "2026-07-31T11:57:18Z",
                   "url": "https://github.com/openwrt/packages/commit/6434bce34aa9aee469ccf5b6486f2a0c5f7c4d17"
-                },
-                {
-                  "sha": "f3c2b68",
-                  "message": "sane-backends: update to 1.4.0",
-                  "author": "Luiz Angelo Daros de Luca",
-                  "date": "2026-07-30T06:58:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/f3c2b6855fa18c4c4b71d307143b4c8190ee12b7"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "10e3259",
+                  "message": "hev-socks5-server: update to 2.13.1",
+                  "author": "Ray Wang",
+                  "date": "2026-09-03T08:37:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/10e3259ba88ccd4e9fa71581fa93eed790092034"
+                },
                 {
                   "sha": "887504d",
                   "message": "rclone: update to 1.75.0",
@@ -3483,13 +3490,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T06:20:46Z",
                   "url": "https://github.com/openwrt/packages/commit/1fd3b0ddb8d88bd3b84e6c6fa4c7f515267bbb5b"
-                },
-                {
-                  "sha": "d8f8ae0",
-                  "message": "zabbix: bring proxy to parity with server and agentd",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/d8f8ae086780f2e62c5d50133c9e6fada3c5f0ac"
                 }
               ]
             }
@@ -5048,10 +5048,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c37a4da",
-            "branch": "fix-xss-metrics-relabel-debug",
-            "date": "2026-09-02T12:23:00Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/c37a4da97464de5735e311ae8abfddb93860ac2a"
+            "sha": "afd3ea4",
+            "branch": "indexdb-minor-fixes",
+            "date": "2026-09-02T11:20:18Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/afd3ea4d34242ff418dfea916d6afc1891bb8d9e"
           }
         }
       ]
@@ -5280,7 +5280,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3366,
+            "stars": 3367,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-09-03T07:06:36Z",
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5e8ecab",
+            "sha": "b9b8c81",
             "branch": "main",
-            "date": "2026-09-02T12:59:11Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/5e8ecabd4f0c2aa3c3011baab6761dc13aabc96f"
+            "date": "2026-09-02T02:46:23Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/b9b8c813f6d3735770f2bc1bf5c80b4967eb7e26"
           }
         }
       ]
