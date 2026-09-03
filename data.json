@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:27:48.517197Z",
+  "generated_at": "2026-09-03T22:33:05.134463Z",
   "groups": [
     {
       "id": "cores",
@@ -4132,234 +4132,34 @@
         {
           "repo": "Medium1992/xray-proxy-ros",
           "title": "xray-proxy-ros",
-          "track": "commits",
+          "track": "releases",
           "meta": {
             "description": "Simple XRAY container that accepts links for RouterOS",
             "stars": 9,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-03T22:26:29Z",
+            "pushed_at": "2026-09-03T22:28:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "1e8f704",
-                  "message": "Merge branch 'main' of https://github.com/Medium1992/xray-proxy-ros",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:26:26Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/1e8f7040b749ebd6d74499a8228998ac29777f03"
-                },
-                {
-                  "sha": "4ea93fe",
-                  "message": "Identify the alpha channel by its commit and nothing else",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:26:04Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/4ea93fe6978574551ee3b23186249d4b13b32924"
-                },
-                {
-                  "sha": "56d12e6",
-                  "message": "Title the alpha release by its commit alone",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:24:36Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/56d12e62db265a8e438b2699868a1a12a9095ae8"
-                },
-                {
-                  "sha": "0e7f6a1",
-                  "message": "Auto-update: VERSIONS_ALPHA",
-                  "author": "github-actions[bot]",
-                  "date": "2026-09-03T22:23:11Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/0e7f6a1f89f0ead661f83fcacbe74a54d6ba57ea"
-                },
-                {
-                  "sha": "1f7a5f7",
-                  "message": "Ship the amd64 and arm64 binaries unpacked alongside the archives",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:21:37Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/1f7a5f7eb0c48fd454d25ab8a46ee99c50b56a7c"
-                },
-                {
-                  "sha": "b943f63",
-                  "message": "Stop a missing rolling release from becoming the id we delete",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:13:45Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/b943f6338422f6319e6aba3ae9512c9231d18edc"
-                },
-                {
-                  "sha": "68a58bf",
-                  "message": "Retry the network steps of the core build, and name a default Go",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:08:50Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/68a58bf2ff04ecaabc727a462dbc416574096156"
-                },
-                {
-                  "sha": "83ea49a",
-                  "message": "Move the core build into a Dockerfile-release of its own",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T22:05:37Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/83ea49a0dd2aa230a14514939cc5468b876dd26c"
-                },
-                {
-                  "sha": "c48de06",
-                  "message": "Build the Xray core ourselves, on a current Go, in both channels",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T21:58:54Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c48de06575d55b9ad9615136633a3a37cbac2d34"
-                },
-                {
-                  "sha": "ad6255f",
-                  "message": "Merge branch 'main' of https://github.com/Medium1992/xray-proxy-ros",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T17:54:36Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/ad6255f3ade61f615a6d249e854fc9acaaabea8c"
-                },
-                {
-                  "sha": "fb54dc0",
-                  "message": "Let the packet range alone decide gecko, and keep it inside Xray's bounds",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T17:54:30Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/fb54dc05ae298bd4617f3512c625e2352d8254b4"
-                },
-                {
-                  "sha": "bdb67f6",
-                  "message": "Auto-update: VERSIONS",
-                  "author": "github-actions[bot]",
-                  "date": "2026-09-03T17:54:23Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/bdb67f6b7c7fabad2fc53dd0fcf556812836a909"
-                },
-                {
-                  "sha": "681f912",
-                  "message": "Collapse the two publish workflows into one that follows the newest core",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T17:49:59Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/681f912777a59f421bf69cfc54aad05889e970b1"
-                },
-                {
-                  "sha": "d40842b",
-                  "message": "Merge branch 'main' of https://github.com/Medium1992/xray-proxy-ros",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T17:45:59Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/d40842b303f7376427c259ec1ce1e339c5535f85"
-                },
-                {
-                  "sha": "daa17a0",
-                  "message": "Give latest to whichever Xray core is newest, stable or prerelease",
-                  "author": "Medium1992",
-                  "date": "2026-09-03T17:13:59Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/daa17a063a148217b4d57cbe6d8fea4407d4875d"
-                },
-                {
-                  "sha": "4f07be2",
-                  "message": "Update entrypoint_armv5.sh",
-                  "author": "Peter Solomon",
-                  "date": "2026-08-12T08:34:01Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/4f07be28fdc968a759dc45c8a4efadc7339b91dc"
-                },
-                {
-                  "sha": "dccb204",
-                  "message": "Update entrypoint.sh",
-                  "author": "Peter Solomon",
-                  "date": "2026-08-12T08:33:45Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/dccb2044c322aa7a26f28ad45ca83ca89e647c0e"
-                },
-                {
-                  "sha": "1621738",
-                  "message": "Add Hysteria2 Realm URI support",
-                  "author": "Medium1992",
-                  "date": "2026-08-08T19:19:33Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/16217384217f43f175fb3f2db7c1a69c1c66a9a6"
-                },
-                {
-                  "sha": "bcda737",
-                  "message": "Support official Hysteria2 URI details",
-                  "author": "Medium1992",
-                  "date": "2026-08-08T19:13:36Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/bcda7375253da2d376fda38ddb61446737aff1be"
-                },
-                {
-                  "sha": "2f7f6c9",
-                  "message": "Harden Xray release downloads",
-                  "author": "Medium1992",
-                  "date": "2026-08-08T19:06:50Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/2f7f6c9505f8e77893b59377d5a4368c999c76a1"
-                },
-                {
-                  "sha": "babb38d",
-                  "message": "Update TUN setup and URI compatibility",
-                  "author": "Medium1992",
-                  "date": "2026-08-08T19:02:12Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/babb38db62b7bb95cee54a3564ef1837107179af"
-                },
-                {
-                  "sha": "abe9729",
-                  "message": "Auto-update: VERSIONS_ALPHA",
-                  "author": "github-actions[bot]",
-                  "date": "2026-07-28T10:51:38Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/abe9729f465a5cad22d6bdedc441899232908d0f"
-                },
-                {
-                  "sha": "842ba5d",
-                  "message": "Auto-update: VERSIONS_ALPHA",
-                  "author": "github-actions[bot]",
-                  "date": "2026-07-11T19:17:35Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/842ba5d7459b23a30cba96b2cc2e93dd451a4adc"
-                },
-                {
-                  "sha": "c77ba5f",
-                  "message": "Auto-update: VERSIONS_ALPHA",
-                  "author": "github-actions[bot]",
-                  "date": "2026-06-27T19:40:51Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c77ba5ff2c33ff430c8452d9d2b33908333afed2"
-                },
-                {
-                  "sha": "0b31f3f",
-                  "message": "Auto-update: VERSIONS_ALPHA",
-                  "author": "github-actions[bot]",
-                  "date": "2026-06-22T20:34:41Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/0b31f3fc27407a08de0936fa5861b517f8c06a70"
-                },
-                {
-                  "sha": "13c382f",
-                  "message": "update rootfs armv5",
-                  "author": "Medium1992",
-                  "date": "2026-06-19T21:53:32Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/13c382f4d81f44f2fdee542400a9458c0fa23611"
-                },
-                {
-                  "sha": "1080d7c",
-                  "message": "refactor forward rules",
-                  "author": "Medium1992",
-                  "date": "2026-06-13T14:19:45Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/1080d7c9cd9f8d4ebd592d325429bea1788bea2e"
-                },
-                {
-                  "sha": "c396e3c",
-                  "message": "fix dns outbound",
-                  "author": "Medium1992",
-                  "date": "2026-06-10T05:29:02Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c396e3cb1fc4bb907dd06d2216ff5b3e231977ea"
-                },
-                {
-                  "sha": "11c2cbb",
-                  "message": "Change in the logic for creating files using an entrypoint",
-                  "author": "Medium1992",
-                  "date": "2026-06-10T05:23:20Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/11c2cbb5453116a14b95c1daefa9e668da986883"
-                },
-                {
-                  "sha": "b044286",
-                  "message": "Update README_RU.md",
-                  "author": "Peter Solomon",
-                  "date": "2026-06-10T05:13:56Z",
-                  "url": "https://github.com/Medium1992/xray-proxy-ros/commit/b044286b0d292faf86d8890cb0ea577038219a2e"
-                }
-              ]
+              "name": "Xray core v26.7.28",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-09-03T22:28:44Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.7.28\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "4f07be2",
+            "branch": "main",
+            "date": "2026-08-12T08:34:02Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/4f07be28fdc968a759dc45c8a4efadc7339b91dc"
+          }
         },
         {
           "repo": "timbrs/amneziawg-mikrotik-c",
@@ -5336,10 +5136,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b7eae40",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-09-03T10:51:23Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/b7eae40310114d071e7ec4f5892477f6a2902c54"
+            "sha": "980853f",
+            "branch": "gh-pages",
+            "date": "2026-09-03T11:37:41Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/980853f4bf8d18225481a3920af9e124aa85d662"
           }
         },
         {
