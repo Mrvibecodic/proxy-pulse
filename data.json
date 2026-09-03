@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:52:58.755322Z",
+  "generated_at": "2026-09-03T12:58:15.271190Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37572,
+            "stars": 37571,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-03T07:14:54Z",
@@ -1122,7 +1122,7 @@
             "stars": 4597,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T08:37:29Z",
+            "pushed_at": "2026-09-03T12:54:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4335f00",
+                  "message": "golang: add support for host-only version series",
+                  "author": "George Sapkin",
+                  "date": "2026-09-03T12:54:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/4335f00bdd790b8bc89b1e5c3dd4b9f225d131b0"
+                },
+                {
+                  "sha": "08da28b",
+                  "message": "librespeed-common: add measurement backend",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-03T12:53:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/08da28b3e81185053263ee262326c66b88760c0f"
+                },
+                {
                   "sha": "6b1b273",
                   "message": "v2ray-geodata: update to latest version",
                   "author": "Tianling Shen",
@@ -1971,20 +1985,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-29T12:14:22Z",
                   "url": "https://github.com/openwrt/packages/commit/070a2991e0a3737b1e12421c6643fd19a5af4ece"
-                },
-                {
-                  "sha": "501866e",
-                  "message": "nmap: update to 7.991",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-08-29T08:49:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/501866ed42c697d783b51ddc2ccaf5402e3913ac"
-                },
-                {
-                  "sha": "11474ce",
-                  "message": "comrade: update to 0.1.16, add a comrade-tests package and test.sh",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-28T16:54:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/11474ce3b708e847ead9e7843a5bfb6ff065fcb5"
                 }
               ]
             },
