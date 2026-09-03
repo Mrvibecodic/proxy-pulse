@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:11:18.924577Z",
+  "generated_at": "2026-09-03T09:16:34.877329Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37560,
+            "stars": 37561,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-03T07:14:54Z",
@@ -227,6 +227,15 @@
           },
           "releases": [
             {
+              "name": "Xray-core v26.9.3-0814",
+              "tag": "v26.9.3-0814",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.9.3-0814",
+              "published_at": "2026-09-03T09:11:37Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Added an opt-in per-inbound H2MUX `h2muxMaxReadFrameSize` setting. It controls the HTTP/2 `SETTINGS_MAX_FRAME_SIZE` advertised to H2MUX clients, allowing memory-constrained clients to reduce per-stream upload buffers without changing existing deployments by default.\n- Hardened VLESS Vision carrier resolution so inbound and outbound direct-copy decisions share one fail-closed classification of recognized TLS, uTLS, REALITY, and VLESS-encryption carriers.\n\n## Fork fixes\n\n- Kept the H2MUX frame-size setting isolated per inbound and restricted its consumer to the H2MUX server path. Ordinary SMUX framing and behavior remain unchanged. Invalid nonzero values outside `16384..16777215` are rejected; omission or `0` keeps the Go HTTP/2 default of 1 MiB.\n- Refactored TLS session resumption into a dedicated module while preserving fingerprint fidelity. Session caches remain isolated by configured TLS context and impersonated fingerprint, with bounded cache ownership and regression coverage.\n\n## Upstream changes\n\n- Merged upstream through `cd4ce973` (`WebSocket client: Avoid panic before real dialing in delayDialConn (#6544)`).\n- Closed Shadowsocks 2022 server connections on outbound early-return paths.\n- Fixed a potential HTTP inbound panic while handling `100 Continue`.\n- Included the Linux custom-sockopt formatting correction.\n\n## Compatibility notes\n\n- `smux.h2muxMaxReadFrameSize` affects only H2MUX carriers accepted by that inbound. Ordinary SMUX continues to use its in-tree SMUX v1 framing with a 32 KiB emitted data-frame size.\n- Existing configurations are unchanged when the new H2MUX setting is omitted or set to `0`.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum.\n- Official release artifacts are limited to Linux amd64 and Linux arm64.\n\n## Validation\n\n- GitHub `Tests and Checkings` passed on the stamped release commit, including formatting, protobuf-header, asset, and full Go test jobs.\n- Targeted unit, race, strict checkptr, and `go vet` gates passed for TLS, REALITY, VLESS, SMUX/H2MUX, mux, proxyman, HTTP, Shadowsocks 2022, and WebSocket paths.\n- The VLESS TLS/REALITY no-flow/Vision process matrix passed 36/36 executions across Xray, sing-box, and Mihomo.\n- The SMUX and H2MUX interoperability matrices each passed 40/40 scenarios. The peak reconnect profile passed 24/24 cycles, and the bounded hardening profile passed 400/400 cycles with zero loopback health-counter deltas.\n- Clean release-style Linux/amd64 and Linux/arm64 builds succeeded with Go 1.27.0. Performance comparisons ran as harness diagnostics only; native-host release budgets were not asserted.\n"
+            },
+            {
               "name": "Xray-core v26.8.30-2253",
               "tag": "v26.8.30-2253",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.30-2253",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Online-presence accounting behind trusted HTTP frontends now records the effective client address selected by `sockopt.trustedXForwardedFor`, instead of always preferring the accepted PROXY peer.\n\n## Fork fixes\n\n- Fixed presence identity for CDN/fronted inbounds that combine accepted PROXY protocol with a configured trusted X-Forwarded-For source. The trusted effective address now wins when usable.\n- Preserved the previous fail-closed provenance behavior: inbounds without `trustedXForwardedFor` are unchanged, and an unusable effective address falls back to the accepted PROXY source.\n- Clarified the trusted-XFF stream configuration helper naming after review.\n\n## Upstream changes\n\n- No new upstream merge was required for this release. `upstream/main` at `f124daf5` is already contained in the release commit.\n\n## Compatibility notes\n\n- The behavior change applies only when `sockopt.trustedXForwardedFor` is explicitly configured.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum.\n- The maintained mux implementation remains the in-tree SMUX stack under `common/singmux`.\n\n## Validation\n\n- Version identity test and CLI version output for `26.8.26-0855`.\n- Affected presence/provenance package tests, race detector, and vet.\n- Generated protobuf header consistency check.\n- Static Linux/amd64 `GOAMD64=v1` release build with Go 1.27.0 and embedded version verification.\n- GitHub `Tests and Checkings` and `Pre-release Validation` candidate workflows.\n"
-            },
-            {
-              "name": "Xray-core v26.8.25-2147",
-              "tag": "v26.8.25-2147",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.25-2147",
-              "published_at": "2026-08-25T23:10:10Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Hardened BitTorrent UDP detection for punitive routing and blocking rules. New-flow uTP detection now relies on connection-opening ST_SYN invariants, while valid TURN, STUN, DNS, game-discovery, and DHT framing receive dedicated regression coverage. UDP tracker classification is limited to the BEP 15 connect request so cached announce/scrape shapes cannot mark ordinary game or media datagrams as BitTorrent.\n- Hardened online-presence source attribution across accepted PROXY protocol connections and HTTP-derived transports so accounting follows the trusted carrier peer instead of untrusted datagram metadata.\n- Made pre-response SMUX recovery evict each failed carrier owner and continue bounded replay across remaining siblings, dialing a new carrier only when the pool cannot serve the stream.\n- Reduced repository-wide CI log volume by keeping successful package output concise while preserving full logs on failures.\n- Recalibrated the mandatory 10% SMUX release budget to the previous published fork release `v26.8.25-1457` after the external sing-mux comparison proved historically unstable.\n\n## Fork fixes\n\n- Fixed broad stateless uTP matching that could classify established-state or media/game datagrams as BitTorrent.\n- Added command-specific BEP 5, BEP 44, and BEP 51 DHT validation and retained valid tracker extension handling on connect.\n- Added TURN ChannelData precedence for byte patterns that overlap uTP ST_SYN fields and removed an overbroad DNS exclusion that rejected valid uTP connection attempts.\n- Stopped classifying cached-connection-id UDP tracker announce and scrape requests. Those messages have no protocol id, and their remaining counters collide with ordinary UDP; a client whose cached id expires still sends connect and is detected.\n- Preserved accepted PROXY protocol provenance as the physical peer through TCP, gRPC, WebSocket, HTTP Upgrade, and SplitHTTP paths, while rejecting datagram proxy provenance for presence accounting.\n- Fixed a multi-carrier reconnect race where a single replay could reopen another reset session after a peer restart; recovery now retires each failed owner and may reuse a healthy sibling or dial if the remaining pool cannot serve.\n- Regenerated proxyman protobuf output with the repository-pinned protoc toolchain.\n\n## Upstream changes\n\n- Includes latest upstream main at f124daf5.\n- Observatory: stop spinning at 100% CPU when no outbound matches `subjectSelector`.\n- Router: copy-on-write rule and balancer reloads to fix the API data race. The fork's domain-index and PickRouteTag path is preserved on top of that publish model.\n- Upstream independently landed an ST_SYN-only SniffUTP change; this release keeps the already-reviewed fork detector, including TURN precedence and the connect-only tracker rule.\n\n## Compatibility notes\n\n- BitTorrent detector changes do not add configuration, API, or routing schema changes. Valid TCP BitTorrent handshakes, uTP connection attempts, DHT traffic, and UDP tracker connect requests remain classified as bittorrent. Cached announce/scrape-only first datagrams are no longer classified.\n- Accepted PROXY protocol peers may now affect the physical IP used for online-presence accounting; untrusted datagram-level proxy metadata is intentionally ignored.\n- REALITY continues to send numeric version bytes 26.8.25. The 2147 UTC component is display-only and keeps the panel, tag, and release title aligned as 26.8.25-2147.\n- Intentional fork behavior remains unchanged: REALITY client-version bounds have no implicit minimum, and production mux uses the in-tree SMUX implementation.\n- The hard Linux SMUX duration budget remains 10%, now against `v26.8.25-1457`. The live sing-mux comparison is diagnostic only.\n\n## Validation\n\n- Local format, version-contract, router/bittorrent/observatory unit and race, dispatcher, singmux retry unit/race, focused Mihomo Trojan peak stress, and release-gate contract tests passed with Go 1.27.0.\n- Candidate Tests and Checkings workflow passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32902846278\n- Pre-release Validation workflow, including pinned sing-box/Mihomo interop and the Linux structural gate, passed: https://github.com/Jolymmiles/Xray-core/actions/runs/32903455529\n- Linux/amd64 local artifact SHA-256: 30f3ed88053c0d71a74fe7c69f4102f2fd8f639f947e903255181957cb14f052\n- Release commit: fd1ebbe703a27842c85035854203cc9227f219e4\n"
             }
           ],
           "last_commit": {
@@ -4720,7 +4720,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25014,
+            "stars": 25015,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-03T00:34:15Z",
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b9b8c81",
+            "sha": "5232b4d",
             "branch": "main",
-            "date": "2026-09-02T02:46:23Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/b9b8c813f6d3735770f2bc1bf5c80b4967eb7e26"
+            "date": "2026-09-02T12:39:05Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/5232b4d04bfb482ed9d3ec869f30ec2fee03ca30"
           }
         }
       ]
