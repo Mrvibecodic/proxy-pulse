@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:18:40.622306Z",
+  "generated_at": "2026-09-03T08:23:55.575600Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37558,
+            "stars": 37559,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-03T07:14:54Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1368,
+            "stars": 1367,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-09-02T12:05:37Z",
@@ -1122,7 +1122,7 @@
             "stars": 4597,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T08:13:23Z",
+            "pushed_at": "2026-09-03T08:21:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7ccd301",
+                  "message": "dnsproxy: update to 0.84.1",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:18:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/7ccd301404ed979706bc40715b648d7e2ed7e178"
+                },
+                {
                   "sha": "696b64d",
                   "message": "cloudflared: update to 2026.8.3",
                   "author": "Tianling Shen",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-28T09:14:51Z",
                   "url": "https://github.com/openwrt/packages/commit/bdcd738a1b9d99f311f6af376a820ce139393523"
-                },
-                {
-                  "sha": "29a148b",
-                  "message": "libssh: update to 0.12.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-28T09:14:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/29a148ba4b67dc0c433f056708cfe4ee3aac2c42"
                 }
               ]
             },
@@ -3282,6 +3282,41 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "19dcbdf",
+                  "message": "v2ray-core: update to 5.53.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:20:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/19dcbdf84f9f19069d101e261b9f569672e29b37"
+                },
+                {
+                  "sha": "2c0d375",
+                  "message": "geoipupdate: update to 8.0.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:19:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/2c0d375b7ea578d87c96e9b49650cc4b987a50a0"
+                },
+                {
+                  "sha": "1bf3123",
+                  "message": "cloudflared: update to 2026.7.3",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:19:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/1bf312360b75381310c1de302af6403235def14a"
+                },
+                {
+                  "sha": "d2a84b0",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:19:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/d2a84b0363715c4bfabdb2273dde9232ed37f147"
+                },
+                {
+                  "sha": "db06f4c",
+                  "message": "v2ray-core: update to 5.51.2",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:19:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/db06f4c653165616bc41b54e5f4e786bdad34687"
+                },
+                {
                   "sha": "6d7dc6d",
                   "message": "zabbix: bump to version 7.0.30",
                   "author": "Daniel F. Dickinson",
@@ -3455,41 +3490,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T06:20:46Z",
                   "url": "https://github.com/openwrt/packages/commit/af8ea0f07df80466a1d2dee27accd76f47e30571"
-                },
-                {
-                  "sha": "fb283c3",
-                  "message": "zabbix: add php8-mod-simplexml dependency to frontend",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/fb283c37a49f6a87e07305404113cb05b41744a0"
-                },
-                {
-                  "sha": "2fc13d4",
-                  "message": "zabbix: stop shipping sysctl.d conf in package",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/2fc13d4c40ee8666c17766a88ada398fa102e24f"
-                },
-                {
-                  "sha": "8247da1",
-                  "message": "zabbix: reorganize files dir for clarity and to better follow the FHS",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/8247da13f1212ec08ed9904740fcb1930722506c"
-                },
-                {
-                  "sha": "6cdfe2c",
-                  "message": "zabbix: preserve user config files across sysupgrade",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/6cdfe2c9720522f2daced9f644fe52a67405ed2e"
-                },
-                {
-                  "sha": "f3db069",
-                  "message": "zabbix: bump version to 7.0.28",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/f3db0690c4c876398625f5a4e257db8cc2fed71d"
                 }
               ]
             }
@@ -4655,7 +4655,7 @@
             "stars": 90916,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T08:12:55Z",
+            "pushed_at": "2026-09-03T08:19:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -4788,7 +4788,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76563,
+            "stars": 76560,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-03T08:01:17Z",
@@ -4844,10 +4844,10 @@
             }
           ],
           "last_commit": {
-            "sha": "200c91b",
-            "branch": "changelog/update-changelog-2026-09-02",
-            "date": "2026-09-02T07:25:57Z",
-            "url": "https://github.com/grafana/grafana/commit/200c91b70a2497abcf0bd92baf2613ed4f4eabb0"
+            "sha": "cf8c6a2",
+            "branch": "main",
+            "date": "2026-09-02T20:37:48Z",
+            "url": "https://github.com/grafana/grafana/commit/cf8c6a29e6e6fd0c597181c3bc4b8142f11ea1e0"
           }
         },
         {
@@ -4856,7 +4856,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65935,
+            "stars": 65929,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-02T17:29:48Z",
@@ -5404,10 +5404,10 @@
             }
           ],
           "last_commit": {
-            "sha": "50fb608",
+            "sha": "5e8ecab",
             "branch": "main",
-            "date": "2026-09-02T02:48:14Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/50fb6080e710acc1da9c28684dea58d981aaf3fc"
+            "date": "2026-09-02T12:59:11Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/5e8ecabd4f0c2aa3c3011baab6761dc13aabc96f"
           }
         }
       ]
