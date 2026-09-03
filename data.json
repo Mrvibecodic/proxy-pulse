@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:23:55.575600Z",
+  "generated_at": "2026-09-03T08:29:11.009102Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41374,
+            "stars": 41375,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-02T18:21:17Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37559,
+            "stars": 37560,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-03T07:14:54Z",
@@ -1051,7 +1051,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28222,
+            "stars": 28223,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-02T20:49:04Z",
@@ -1122,7 +1122,7 @@
             "stars": 4597,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T08:21:16Z",
+            "pushed_at": "2026-09-03T08:24:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "887504d",
+                  "message": "rclone: update to 1.75.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:24:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/887504d6160af076b770685c9268c7ca79ea04a5"
+                },
+                {
+                  "sha": "f3290d1",
+                  "message": "openlist: update to 4.2.5",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:24:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/f3290d146e4b931823c49667c3385b2d1e350990"
+                },
+                {
+                  "sha": "dd03427",
+                  "message": "yq: update to 4.53.6",
+                  "author": "Tianling Shen",
+                  "date": "2026-09-03T08:24:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/dd034274faa436afd47446e369137eb758ef3c9d"
+                },
+                {
                   "sha": "19dcbdf",
                   "message": "v2ray-core: update to 5.53.0",
                   "author": "Tianling Shen",
@@ -3469,27 +3490,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-08-19T06:20:46Z",
                   "url": "https://github.com/openwrt/packages/commit/d8f8ae086780f2e62c5d50133c9e6fada3c5f0ac"
-                },
-                {
-                  "sha": "1c2a4ad",
-                  "message": "zabbix: tweak server initscript and bring agentd to parity",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c2a4ad893842ba072ff83fef2ec5701a71ac1f7"
-                },
-                {
-                  "sha": "2a0e1e2",
-                  "message": "zabbix: tweak patch agent and server patch configs",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a0e1e250854bea7d30e97ce490aafea2960ab51"
-                },
-                {
-                  "sha": "af8ea0f",
-                  "message": "zabbix: use separate users for server and proxy",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-19T06:20:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/af8ea0f07df80466a1d2dee27accd76f47e30571"
                 }
               ]
             }
