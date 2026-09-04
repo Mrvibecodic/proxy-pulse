@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:21:20.964983Z",
+  "generated_at": "2026-09-04T22:26:36.762312Z",
   "groups": [
     {
       "id": "cores",
@@ -978,7 +978,7 @@
             "stars": 44,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-04T19:34:56Z",
+            "pushed_at": "2026-09-04T22:24:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
@@ -1021,13 +1021,13 @@
               "body": "### New\n\n- Flowvy is now available for Intel-based Macs, with a separate signed installer and full in-app update support.\n\n### Improved\n\n- The bundled mihomo core is updated to the latest stable version for improved compatibility and reliability.\n\n### Fixed\n\n- Windows subscription requests now identify Windows 10 and Windows 11 by product name and include the OS build number, so providers can reliably select platform-specific configurations.\n"
             },
             {
-              "name": "0.3.4",
-              "tag": "0.3.4",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.4",
-              "published_at": "2026-07-09T14:37:11Z",
-              "prerelease": false,
+              "name": "Temporary macOS updater E2E",
+              "tag": "macos-update-e2e-20260905",
+              "url": "https://github.com/flowvy/desktop/releases/tag/macos-update-e2e-20260905",
+              "published_at": "2026-09-04T22:24:13Z",
+              "prerelease": true,
               "author": "this-xkit",
-              "body": "### Fixed\n\n- Device verification is now accepted by providers that enforce a strict identifier format, so subscriptions that require HWID checks can import and update reliably.\n- macOS menu bar icon now stays visible against transparent and wallpaper-tinted menu bars.\n- Latency results you can trust — testing a host's delay no longer shows a false \"timeout\" for a host that's actually working, so the number you see reflects the real connection.\n- Manual local proxy access now works as a connection target: Flowvy can connect for apps you configure yourself even when System Proxy and TUN are off.\n\n### Improved\n\n- Connections search can now close only the matching results, even when they are grouped by process.\n- macOS: Flowvy can now stay in the menu bar without showing a Dock icon. Toggle it in Settings → Interface.\n"
+              "body": "Temporary isolated updater target for a single macOS validation. Not a product release."
             }
           ],
           "last_commit": {
