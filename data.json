@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:49:34.499521Z",
+  "generated_at": "2026-09-04T13:54:50.451997Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41396,
+            "stars": 41395,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-02T18:21:17Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37617,
+            "stars": 37618,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-04T08:55:44Z",
@@ -1122,7 +1122,7 @@
             "stars": 4596,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-03T15:46:54Z",
+            "pushed_at": "2026-09-04T13:53:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ebe93b3",
+                  "message": "sing-box: bump to 1.13.21",
+                  "author": "Sergei S.",
+                  "date": "2026-09-04T13:53:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/ebe93b31a83bdafd95256770afffb607b4baa9f7"
+                },
+                {
                   "sha": "126203c",
                   "message": "golang: bump 1.27 to 1.27.1",
                   "author": "George Sapkin",
@@ -1978,13 +1985,6 @@
                   "author": "Andrea Pesaresi",
                   "date": "2026-08-29T13:54:51Z",
                   "url": "https://github.com/openwrt/packages/commit/4ce49b0a9da18d847df2e6479e127d9c11a3f764"
-                },
-                {
-                  "sha": "665bb2e",
-                  "message": "ksmbd-tools: update to version 3.5.7",
-                  "author": "Andrea Pesaresi",
-                  "date": "2026-08-29T13:54:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/665bb2e5ce705565c8a078bb8094bfd7f627f1d7"
                 }
               ]
             },
@@ -4529,7 +4529,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25057,
+            "stars": 25058,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-03T18:33:04Z",
