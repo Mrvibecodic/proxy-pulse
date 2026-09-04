@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T19:32:24.087714Z",
+  "generated_at": "2026-09-04T19:37:42.842405Z",
   "groups": [
     {
       "id": "cores",
@@ -978,12 +978,21 @@
             "stars": 44,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-04T13:00:45Z",
+            "pushed_at": "2026-09-04T19:34:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.3",
+              "tag": "1.0.0-beta.3",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.3",
+              "published_at": "2026-09-04T19:34:56Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- Opening the popup on macOS keeps the current app active while preserving keyboard navigation and shortcuts inside Flowvy."
+            },
             {
               "name": "1.0.0-beta.2",
               "tag": "1.0.0-beta.2",
@@ -1019,15 +1028,6 @@
               "prerelease": false,
               "author": "this-xkit",
               "body": "### Fixed\n\n- Device verification is now accepted by providers that enforce a strict identifier format, so subscriptions that require HWID checks can import and update reliably.\n- macOS menu bar icon now stays visible against transparent and wallpaper-tinted menu bars.\n- Latency results you can trust — testing a host's delay no longer shows a false \"timeout\" for a host that's actually working, so the number you see reflects the real connection.\n- Manual local proxy access now works as a connection target: Flowvy can connect for apps you configure yourself even when System Proxy and TUN are off.\n\n### Improved\n\n- Connections search can now close only the matching results, even when they are grouped by process.\n- macOS: Flowvy can now stay in the menu bar without showing a Dock icon. Toggle it in Settings → Interface.\n"
-            },
-            {
-              "name": "0.3.3",
-              "tag": "0.3.3",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.3",
-              "published_at": "2026-06-22T08:46:52Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### Fixed\n\n- The tray menu no longer hides a connection option — when your subscription has a single group, the quick list now shows every option in it, including an automatic balancing one that could go missing before.\n\n### Improved\n\n- Clearer automatic groups — options that spread traffic across your hosts on their own are now marked as automatic, so it's obvious there's nothing to pick by hand.\n"
             }
           ],
           "last_commit": {
@@ -5145,10 +5145,10 @@
             }
           ],
           "last_commit": {
-            "sha": "63156ab",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-09-04T08:09:12Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/63156ab922c8491eb76d540a616f5b43a50d7726"
+            "sha": "3f27994",
+            "branch": "release-please--branches--main--components--zashboard",
+            "date": "2026-09-04T08:04:30Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/3f279946443ff6eb272da4cc650ffede7c543a75"
           }
         },
         {
@@ -5160,7 +5160,7 @@
             "stars": 7248,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-04T19:31:11Z",
+            "pushed_at": "2026-09-04T19:34:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6377912",
+            "sha": "0ed7475",
             "branch": "l10n_crowdin",
-            "date": "2026-09-04T07:14:49Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/6377912801537bde089aaa0cbb7fdb2fa6c5b031"
+            "date": "2026-09-04T08:27:08Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/0ed74755cc2bd093177c484b7c2dcc75102e04eb"
           }
         }
       ]
