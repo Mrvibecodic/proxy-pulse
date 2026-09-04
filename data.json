@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:56:48.219426Z",
+  "generated_at": "2026-09-04T13:02:04.741923Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41394,
+            "stars": 41396,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-02T18:21:17Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37616,
+            "stars": 37617,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-04T08:55:44Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1373,
+            "stars": 1374,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-09-02T12:05:37Z",
@@ -978,12 +978,21 @@
             "stars": 44,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-03T20:22:02Z",
+            "pushed_at": "2026-09-04T13:00:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.2",
+              "tag": "1.0.0-beta.2",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.2",
+              "published_at": "2026-09-04T13:00:45Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
+            },
             {
               "name": "1.0.0-beta.1",
               "tag": "1.0.0-beta.1",
@@ -1019,15 +1028,6 @@
               "prerelease": false,
               "author": "this-xkit",
               "body": "### Fixed\n\n- The tray menu no longer hides a connection option — when your subscription has a single group, the quick list now shows every option in it, including an automatic balancing one that could go missing before.\n\n### Improved\n\n- Clearer automatic groups — options that spread traffic across your hosts on their own are now marked as automatic, so it's obvious there's nothing to pick by hand.\n"
-            },
-            {
-              "name": "0.3.2",
-              "tag": "0.3.2",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.2",
-              "published_at": "2026-06-21T15:52:16Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### Fixed\n\n- Auto-connect at startup no longer cuts off your internet — when Flowvy connects automatically at system startup in TUN mode, it now waits for the network and retries, and if a connection attempt fails it restores your internet automatically (no need to close the app or end processes to get back online).\n"
             }
           ],
           "last_commit": {
@@ -4600,7 +4600,7 @@
             "stars": 76579,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-04T12:25:35Z",
+            "pushed_at": "2026-09-04T13:01:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
