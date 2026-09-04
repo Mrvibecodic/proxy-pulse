@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:00:06.779367Z",
+  "generated_at": "2026-09-04T14:05:24.667611Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41395,
+            "stars": 41396,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-02T18:21:17Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33794,
+            "stars": 33795,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-02T16:58:26Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1062,
+            "stars": 1063,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-08-31T01:29:51Z",
@@ -1122,7 +1122,7 @@
             "stars": 4596,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-04T13:53:45Z",
+            "pushed_at": "2026-09-04T14:04:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f3bc744",
+                  "message": "c-ares: bump to 1.34.8",
+                  "author": "Karen Khachatryan",
+                  "date": "2026-09-04T14:04:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/f3bc744d83800d067674e0c85bc00c6ae114e319"
+                },
+                {
+                  "sha": "42f0ddb",
+                  "message": "qemu: update to 11.1.1",
+                  "author": "Andy Chiang",
+                  "date": "2026-09-04T14:04:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/42f0ddbc8f577d7f2b83e4aee278fc552d902cdb"
+                },
+                {
                   "sha": "ebe93b3",
                   "message": "sing-box: bump to 1.13.21",
                   "author": "Sergei S.",
@@ -1971,20 +1985,6 @@
                   "author": "John Audia",
                   "date": "2026-08-30T09:10:40Z",
                   "url": "https://github.com/openwrt/packages/commit/b350b115589dd2db4d01b100a274d36ef4c504f5"
-                },
-                {
-                  "sha": "dee7db4",
-                  "message": "bsbf-resources: update to GIT HEAD of 2026-08-29",
-                  "author": "Chester A. Unal",
-                  "date": "2026-08-29T18:47:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/dee7db4e60378bed611083f87258a86b1b4d4406"
-                },
-                {
-                  "sha": "4ce49b0",
-                  "message": "ksmbd-tools: add package version test",
-                  "author": "Andrea Pesaresi",
-                  "date": "2026-08-29T13:54:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/4ce49b0a9da18d847df2e6479e127d9c11a3f764"
                 }
               ]
             },
@@ -4721,10 +4721,10 @@
             }
           ],
           "last_commit": {
-            "sha": "173731a",
+            "sha": "7bf2c45",
             "branch": "deps-update/mantine-ui",
-            "date": "2026-09-04T01:13:26Z",
-            "url": "https://github.com/prometheus/prometheus/commit/173731ab3f5530b50e1f420dde477d6ad46eef9b"
+            "date": "2026-09-02T17:29:40Z",
+            "url": "https://github.com/prometheus/prometheus/commit/7bf2c45e4813a20af3d20e83a33a1086a8e54701"
           }
         },
         {
@@ -4804,7 +4804,7 @@
             "stars": 17655,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-04T13:56:54Z",
+            "pushed_at": "2026-09-04T14:03:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
