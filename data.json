@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:52:56.258805Z",
+  "generated_at": "2026-09-04T22:58:10.688892Z",
   "groups": [
     {
       "id": "cores",
@@ -910,12 +910,21 @@
             "stars": 7023,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-09-04T22:19:29Z",
+            "pushed_at": "2026-09-04T22:55:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.3.0-beta.2",
+              "tag": "1.3.0-beta.2",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.3.0-beta.2",
+              "published_at": "2026-09-04T22:55:59Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add RPM Packaging (Thanks @bardiakz)\r\n* Update AmneziaWG\r\n* Fix URL scheme registration and allow users to opt out from it\r\n* Add Xray finalMask support (Thanks @VindEi)\r\n* Rewrite subscription import logic **1**\r\n* Lots of Fixes and Improvements\r\n\r\n**1**:\r\nThe behavior should remain the same, with the resource usage being significantly improved"
+            },
             {
               "name": "1.3.0-beta.1",
               "tag": "1.3.0-beta.1",
@@ -951,15 +960,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "* Update sing-box **1**\r\n* Add Amnezia v3 support\r\n* Update Xray\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThis should fix the tun issues on Linux."
-            },
-            {
-              "name": "1.2.1",
-              "tag": "1.2.1",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.1",
-              "published_at": "2026-07-26T13:34:29Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "* Improve certain UI sections\r\n* Re-Enable strict route on windows again, with warnings on faulty systems (Thanks @0x3mp7y)\r\n* Fix Xray downloadSetting interface binding (Thanks @0x3mp7y)\r\n* Re-add `auto_redirect` on Linux\r\n* Improve subscription update\r\n* Fix Xray core DNS issues (Thanks @x15rte)\r\n* Fixed and Improvements"
             }
           ],
           "last_commit": {
@@ -4665,7 +4665,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65946,
+            "stars": 65947,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-04T17:55:58Z",
