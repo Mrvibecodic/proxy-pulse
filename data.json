@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T08:53:56.501862Z",
+  "generated_at": "2026-09-04T08:59:12.195047Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 37613,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-04T08:16:00Z",
+            "pushed_at": "2026-09-04T08:55:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.1",
+              "tag": "v1.15.0-alpha.1",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.1",
+              "published_at": "2026-09-04T08:55:52Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Implement fully functional `auto_redirect` for Android **1**\n* Add `on_demand` endpoint option **2**\n* Add cache file write buffering **3**\n* Fixes and improvements\n\n**1**:\n\n`auto_redirect` is now fully supported on Android through the root service of the graphical client or a root shell.\n\nSee [TUN](https://sing-box.sagernet.org/configuration/inbound/tun/#auto_redirect).\n\n**2**:\n\nAllow the endpoint to be disconnected when necessary.\n\nSee [WireGuard](https://sing-box.sagernet.org/configuration/endpoint/wireguard/#on_demand), [Tailscale](https://sing-box.sagernet.org/configuration/endpoint/tailscale/#on_demand), [OpenVPN Client](https://sing-box.sagernet.org/configuration/endpoint/openvpn-client/#on_demand) and [OpenConnect](https://sing-box.sagernet.org/configuration/endpoint/openconnect/#on_demand).\n\n**3**:\n\nChanges to the cache file are now collected in a write buffer and committed in one transaction when the buffer is full, on memory pressure, or when sing-box exits.\n\nSee [Cache File](https://sing-box.sagernet.org/configuration/experimental/cache-file/#buffer_size).\n"
+            },
             {
               "name": "1.14.0",
               "tag": "v1.14.0",
@@ -123,15 +132,6 @@
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-rc.4",
               "published_at": "2026-08-29T12:54:20Z",
               "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.13.20",
-              "tag": "v1.13.20",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.20",
-              "published_at": "2026-08-29T11:17:50Z",
-              "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7009,
+            "stars": 7010,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-03T23:31:46Z",
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 90952,
+            "stars": 90953,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-04T00:10:16Z",
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0b44e8d",
-            "branch": "main",
-            "date": "2026-09-02T17:13:17Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/0b44e8dd5e16131015e18c70601c79b1c2cad9a9"
+            "sha": "0c4b96d",
+            "branch": "l10n_crowdin",
+            "date": "2026-09-02T23:58:33Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/0c4b96d830dc0cc283ed0e8d1461962c3af25463"
           }
         }
       ]
