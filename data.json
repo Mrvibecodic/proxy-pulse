@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T14:22:26.638944Z",
+  "generated_at": "2026-09-05T14:27:42.366821Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33825,
+            "stars": 33826,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-05T02:13:04Z",
@@ -978,12 +978,21 @@
             "stars": 45,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-04T22:32:07Z",
+            "pushed_at": "2026-09-05T14:27:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.4",
+              "tag": "1.0.0-beta.4",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.4",
+              "published_at": "2026-09-05T14:27:44Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- macOS disk images now open with a branded installation layout that clearly shows where to place Flowvy and keeps the optional uninstaller easy to find.\n\n### Fixed\n\n- After an in-app update on macOS, Flowvy opens again automatically and restores the connection that was active before the update, even when Launch at Login and Auto-connect are disabled.\n- If an in-app update fails after disconnecting, Flowvy reconnects automatically instead of leaving the connection off.\n- Launch at Login and Start minimized now apply only to actual login launches: opening Flowvy manually still shows the app, and failed autostart changes are no longer saved as successful.\n- macOS packages are now signed for compatibility with current system security checks, preventing the updated client from being blocked when it relaunches.\n- Reopening the menu bar popup on macOS no longer highlights a previously used button automatically; visible focus appears only when keyboard navigation begins."
+            },
             {
               "name": "1.0.0-beta.3",
               "tag": "1.0.0-beta.3",
@@ -1019,15 +1028,6 @@
               "prerelease": false,
               "author": "this-xkit",
               "body": "### New\n\n- Flowvy is now available for Intel-based Macs, with a separate signed installer and full in-app update support.\n\n### Improved\n\n- The bundled mihomo core is updated to the latest stable version for improved compatibility and reliability.\n\n### Fixed\n\n- Windows subscription requests now identify Windows 10 and Windows 11 by product name and include the OS build number, so providers can reliably select platform-specific configurations.\n"
-            },
-            {
-              "name": "0.3.4",
-              "tag": "0.3.4",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.4",
-              "published_at": "2026-07-09T14:37:11Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### Fixed\n\n- Device verification is now accepted by providers that enforce a strict identifier format, so subscriptions that require HWID checks can import and update reliably.\n- macOS menu bar icon now stays visible against transparent and wallpaper-tinted menu bars.\n- Latency results you can trust — testing a host's delay no longer shows a false \"timeout\" for a host that's actually working, so the number you see reflects the real connection.\n- Manual local proxy access now works as a connection target: Flowvy can connect for apps you configure yourself even when System Proxy and TUN are off.\n\n### Improved\n\n- Connections search can now close only the matching results, even when they are grouped by process.\n- macOS: Flowvy can now stay in the menu bar without showing a Dock icon. Toggle it in Settings → Interface.\n"
             }
           ],
           "last_commit": {
@@ -4733,7 +4733,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80433,
+            "stars": 80434,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-05T13:15:21Z",
@@ -4857,10 +4857,10 @@
             }
           ],
           "last_commit": {
-            "sha": "746cae5",
-            "branch": "add-too-many-error-logs",
-            "date": "2026-09-03T16:26:20Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/746cae5b1aa47f31424d4d4ed9e5a9afb0677813"
+            "sha": "f12255a",
+            "branch": "master",
+            "date": "2026-09-04T15:35:19Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/f12255a16aed9f8f60c0941f609e00f296631d3f"
           }
         }
       ]
@@ -5077,10 +5077,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9065e25",
+            "sha": "ee9ac4e",
             "branch": "main",
-            "date": "2026-09-04T15:41:23Z",
-            "url": "https://github.com/mishkatik/infra-billing/commit/9065e25cbe86df7095ad09a0759883c7b47ff79c"
+            "date": "2026-09-04T15:35:47Z",
+            "url": "https://github.com/mishkatik/infra-billing/commit/ee9ac4ef28e286aa5fa5ebd12cb81e8bc8bd3234"
           }
         },
         {
@@ -5157,7 +5157,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7255,
+            "stars": 7254,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-05T04:09:45Z",
