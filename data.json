@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T15:30:44.782842Z",
+  "generated_at": "2026-09-05T15:36:01.452708Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37650,
+            "stars": 37651,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-05T06:21:06Z",
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4a64993",
+                  "message": "radicale3: bump version to v3.8.0",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-05T15:36:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a64993c4e33fa88313b6a1965fea59c6c50b913"
+                },
+                {
                   "sha": "90a18fa",
                   "message": "msmtp: update to 1.8.34",
                   "author": "Romain Isnel",
@@ -1978,13 +1985,6 @@
                   "author": "Samuele Longhi",
                   "date": "2026-08-30T18:20:02Z",
                   "url": "https://github.com/openwrt/packages/commit/1c2ce769a8a87cc41caf23397628b1eaa8875c82"
-                },
-                {
-                  "sha": "d5c4e00",
-                  "message": "uneighbord: add uneighbord",
-                  "author": "Nick Hainke",
-                  "date": "2026-08-30T09:50:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/d5c4e00d9c2d81f5fcc4709428a0a5c273226780"
                 }
               ]
             },
@@ -4857,10 +4857,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dc24f78",
-            "branch": "add-too-many-error-logs",
-            "date": "2026-09-04T16:45:53Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/dc24f789a54d548022c110b37002aeb6182dc1ac"
+            "sha": "63b23d7",
+            "branch": "rewrite-searchmetricids",
+            "date": "2026-09-03T12:30:51Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/63b23d7c8a4331d0919ebc4f44e85aaf99018b02"
           }
         }
       ]
