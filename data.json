@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:31:19.696856Z",
+  "generated_at": "2026-09-05T10:36:34.970218Z",
   "groups": [
     {
       "id": "cores",
@@ -511,11 +511,11 @@
             {
               "name": "Clod Clash clod-v0.1.10-alpha.1",
               "tag": "clod-v0.1.10-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-eab3a103ead3985cf631",
-              "published_at": "2026-09-05T10:07:40Z",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.1",
+              "published_at": "2026-09-05T10:34:16Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Черновик — наполняется сборкой."
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The client stops staying silent: a core that started but does not answer, a proxy port held by another application, a tunnel that failed to come up, a subscription update that did not go through, a configuration the background service cannot take — each now shows a notification with the cause and, where possible, the action to take\n- The client stops deciding for you: your node selection is not reset, your settings are not rewritten with the client's own values, someone else's system proxy is left alone, and nothing is written while the proxy switch is off\n- Connections are no longer dropped without a reason: the core's listeners are recreated only when ports, the tunnel or LAN access actually change; on a network change only when the old path is really gone; after sleep — once\n\n### Fixed\n\n- Sleep is noticed on every platform, Windows included, where it was never detected before: stale connections are closed after waking, the tunnel and the system proxy are checked, and the log records how long the machine slept and what was done\n- A core crash under the background service is visible and healed: the node selection, the tray and the system proxy come back, and the crash is reported\n- The tunnel tells the truth about its state: the switch shows the fact, a failed start gets three attempts and then a named reason; switching it off takes the device down at once; after sleep a tunnel held down for lack of rights is not poked again\n- Subscription updates: a failed update no longer takes the working profile away, the failure is named, a configuration rejected by the core or the service is rolled back and marked «not applied», and the panel's answer wins the race against the stub one\n- Rule sets no longer go dead on an expired subscription, empty ones are re-fetched when the network comes back, and an empty node group yields REJECT instead of letting traffic bypass the tunnel\n- The system proxy is owned by the address in the system rather than by the history of writes, and the no-proxy window during rewrites is gone\n- The DNS page no longer slips in its own defaults or writes unverified values, and fake-ip mappings survive a core restart\n- Tray delays after a subscription update are measured four nodes at a time instead of in one burst\n- `log-level` and `unified-delay` from the subscription are respected, like `ipv6`; the client's own settings apply only when the subscription does not set them\n- Background load on the core and the service is reduced: the tunnel state poll no longer wakes the core while the tunnel is off, and the service capability is cached\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Клиент перестал молчать: ядро, которое запустилось и не отвечает, порт прокси, занятый другим приложением, не поднявшийся туннель, не прошедшее обновление подписки, конфиг, который фоновая служба не может взять — на каждый случай показывается уведомление с причиной и, где возможно, с действием\n- Клиент перестал решать за вас: выбор узла не сбрасывается, настройки не перезаписываются его значениями, чужой системный прокси не трогается, при выключенном тумблере прокси ничего не пишется\n- Соединения больше не рвутся без причины: слушатели ядра пересоздаются только когда действительно меняются порты, туннель или доступ из локальной сети; при смене сети — только если прежний путь и правда пропал; после сна — один раз\n\n### Исправлено\n\n- Сон замечается на всех платформах, включая Windows, где раньше не замечался вовсе: после пробуждения закрываются зависшие соединения, проверяются туннель и системный прокси, а в журнал пишется, сколько машина спала и что сделано\n- Падение ядра под фоновой службой видно и долечивается: выбор узла, трей и системный прокси возвращаются, о падении сообщается\n- Туннель говорит правду о своём состоянии: тумблер показывает факт, неудачный старт получает три попытки и затем названную причину; выключение снимает устройство сразу; после сна туннель, придержанный из-за нехватки прав, не дёргается заново\n- Обновление подписки: неудачное обновление не отбирает рабочий профиль, отказ назван, конфиг, отвергнутый ядром или службой, откатывается с пометкой «не применено», а ответ панели выигрывает гонку у заглушки\n- Наборы правил не глохнут на истёкшей подписке, пустые дозагружаются после возвращения сети, а пустая группа узлов даёт REJECT, а не пускает трафик мимо туннеля\n- Владение системным прокси определяется адресом в системе, а не историей записей; окно «без прокси» при перезаписи убрано\n- Страница DNS не подсовывает свои умолчания и не пишет непроверенное, подменные адреса переживают перезапуск ядра\n- Задержки для трея после обновления подписки меряются по четыре узла, а не залпом\n- `log-level` и `unified-delay` из подписки уважаются, как и `ipv6`; настройки клиента действуют только когда подписка их не задаёт\n- Снижена фоновая нагрузка на ядро и службу: опрос состояния туннеля не будит ядро при выключенном туннеле, способность службы кэшируется"
             },
             {
               "name": "Pre-release update manifest",
@@ -4857,10 +4857,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e673283",
-            "branch": "gh-11355",
-            "date": "2026-09-03T11:38:19Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/e673283765cb41f3d19a89b380886363900899a6"
+            "sha": "ac9c37f",
+            "branch": "master",
+            "date": "2026-09-04T11:52:20Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/ac9c37fdbfb933509a2a8894e4e2b947062ec445"
           }
         }
       ]
