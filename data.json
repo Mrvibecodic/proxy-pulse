@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:30:29.143462Z",
+  "generated_at": "2026-09-05T08:35:43.709183Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33815,
+            "stars": 33816,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-05T02:13:04Z",
@@ -1051,7 +1051,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28278,
+            "stars": 28277,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-04T20:31:24Z",
@@ -1122,7 +1122,7 @@
             "stars": 4596,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-04T18:54:35Z",
+            "pushed_at": "2026-09-05T08:33:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "53a674b",
+                  "message": "strongswan: fix build with wolfSSL 5.9.2",
+                  "author": "Dharmik Parmar",
+                  "date": "2026-09-05T08:33:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/53a674bf5c4ec272d163773754e927ce8ac245cd"
+                },
+                {
                   "sha": "f60a090",
                   "message": "golang: bump 1.26 to 1.26.8",
                   "author": "George Sapkin",
@@ -3483,13 +3490,6 @@
                   "author": "Aditya Nugraha",
                   "date": "2026-08-19T14:38:14Z",
                   "url": "https://github.com/openwrt/packages/commit/f46934b820517bb9123b80c6312918dba3231187"
-                },
-                {
-                  "sha": "82e5891",
-                  "message": "libucontext: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-08-19T14:38:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/82e5891783d95ef592d56840805b082e1d88d67a"
                 }
               ]
             }
@@ -4529,7 +4529,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25080,
+            "stars": 25079,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-03T18:33:04Z",
@@ -4597,7 +4597,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76589,
+            "stars": 76590,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-05T06:58:23Z",
