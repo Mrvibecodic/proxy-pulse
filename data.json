@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T08:35:43.709183Z",
+  "generated_at": "2026-09-05T08:40:59.863045Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37630,
+            "stars": 37631,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-05T06:21:06Z",
@@ -1122,7 +1122,7 @@
             "stars": 4596,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-05T08:33:21Z",
+            "pushed_at": "2026-09-05T08:36:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3282,6 +3282,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "15afcee",
+                  "message": "python-typing-extensions: bump to 4.16.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-05T08:36:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/15afcee6b78f3b63e7df1881887537a2230bc0be"
+                },
+                {
+                  "sha": "1c8a25b",
+                  "message": "python-typing-extensions: allow flit_core 4.x as the build backend",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-05T08:36:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c8a25b81edbcb7fb5b6402bfc42010c9781be89"
+                },
+                {
+                  "sha": "3059e44",
+                  "message": "python-typing-extensions: bump to 4.15.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-05T08:36:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/3059e44121b5e9f41566515b705e110151f46678"
+                },
+                {
                   "sha": "53a674b",
                   "message": "strongswan: fix build with wolfSSL 5.9.2",
                   "author": "Dharmik Parmar",
@@ -3469,27 +3490,6 @@
                   "author": "George Sapkin",
                   "date": "2026-08-24T17:22:34Z",
                   "url": "https://github.com/openwrt/packages/commit/1db6cd846c1c72d77ce38eec28b749affc44b7a0"
-                },
-                {
-                  "sha": "57654a9",
-                  "message": "banip: release 1.8.12-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-08-21T19:48:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/57654a9f48f82a2163a36de4123c2537abb5fce8"
-                },
-                {
-                  "sha": "c1e926d",
-                  "message": "hev-socks5-tunnel: allow multiple instances",
-                  "author": "Sergei S.",
-                  "date": "2026-08-20T10:18:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/c1e926d7222fc86defe8c3dda438a09a2082db82"
-                },
-                {
-                  "sha": "f46934b",
-                  "message": "libucontext: bump to 1.5.1 \u0026 glibc support",
-                  "author": "Aditya Nugraha",
-                  "date": "2026-08-19T14:38:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/f46934b820517bb9123b80c6312918dba3231187"
                 }
               ]
             }
