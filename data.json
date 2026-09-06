@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:57:05.279130Z",
+  "generated_at": "2026-09-06T12:02:19.574215Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37670,
+            "stars": 37671,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-06T08:28:22Z",
@@ -502,12 +502,21 @@
             "stars": 9,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-06T11:50:20Z",
+            "pushed_at": "2026-09-06T11:57:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.10-alpha.2",
+              "tag": "clod-v0.1.10-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-ed2ac186e028ce1db678",
+              "published_at": "2026-09-06T11:57:04Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash clod-v0.1.10-alpha.1",
               "tag": "clod-v0.1.10-alpha.1",
@@ -543,22 +552,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Pre-release builds have their own update channel at last: the «Pre-release builds» switch now really decides what the updater offers — the pre-release channel always carries the newest build, the regular one the latest stable release, and they can no longer overtake each other\n- Dependencies are updated: the h2 vulnerability reported by the audit is closed, and the dependency audit itself finally runs\n\n### Fixed\n\n- Linux: the window opens from the tray again and desktop notifications work. The tray dependency added in the previous build was quietly switching the D-Bus layer into a mode where every blocking call panicked, so the window was never created\n- The node selection is restored after a cold start too: it now waits for the groups to be filled by the core instead of trusting its first answer, which could wipe the choice stored in the profile\n- Connections tab: the speed column headers no longer run together\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- У предварительных сборок наконец свой канал обновлений: галочка «Предварительные сборки» действительно решает, что предложит апдейтер — в предварительном канале лежит самая свежая сборка, в обычном последний стабильный релиз, и обогнать друг друга они не могут\n- Обновлены зависимости: закрыта уязвимость в h2, найденная аудитом, а сам аудит зависимостей наконец выполняется\n\n### Исправлено\n\n- Linux: окно снова открывается из трея, и работают уведомления. Зависимость трея, добавленная в прошлой сборке, молча переключала слой D-Bus в режим, где любой блокирующий вызов паниковал, и окно не создавалось\n- Выбор узлов возвращается и после холодного старта: теперь он дожидается, пока ядро наполнит группы, а не верит первому ответу, по которому запись в профиле могла стереться\n- Вкладка «Соединения»: заголовки колонок скорости больше не слипаются"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.9-alpha.1",
-              "tag": "clod-v0.1.9-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.9-alpha.1",
-              "published_at": "2026-08-31T11:41:34Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Connections tab: an optional grouping by application, node or rule, and a summary strip above the table — current speed, session volume, the four heaviest applications and the four exits the traffic actually took. Grouping is off by default, so the table looks exactly as before, and the strip can be hidden from the page header\n\n### Changed\n\n- A minimised window no longer works for nothing: delay tests are not started from the tray, the rule list is not re-read when the window hides, the profile card stops ticking, and the update check runs once a day instead of every three hours\n- Dead code left over from the upstream dashboard is removed from the backend, the window and the translations — no visible behaviour depends on it\n\n### Fixed\n\n- A left click on the tray icon under Linux opens the window, and the menu stays on the right button; on Windows and macOS the tray is untouched\n- The server drawer no longer closes after every pick, so several groups can be switched in one go\n- The tunnel explains in words why it failed to come up, and the raw core output stays in the log; port and profile errors are translated too\n- Built-in core outcomes — direct, reject and their kin — no longer count towards subscription usage\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Вкладка «Соединения»: группировка по приложению, узлу или правилу и полоса итогов над таблицей — текущая скорость, объём за сессию, четыре самых прожорливых приложения и четыре выхода, через которые трафик реально ушёл. Группировка по умолчанию выключена, поэтому таблица выглядит ровно как раньше, а полосу можно убрать кнопкой в шапке\n\n### Изменено\n\n- Свёрнутое окно больше не работает вхолостую: проверки задержек не запускаются из трея, список правил не перечитывается при уходе окна, карточка профиля перестаёт тикать, а проверка обновлений идёт раз в сутки вместо трёх часов\n- Из бэкенда, окна и переводов вычищен мёртвый код, доставшийся от исходного дашборда, — видимое поведение на нём не держалось\n\n### Исправлено\n\n- Левый клик по значку в трее под Linux открывает окно, меню осталось на правой кнопке; на Windows и macOS трей не изменился\n- Шторка выбора серверов не закрывается после каждого выбора — несколько групп можно сменить за один заход\n- Туннель объясняет словами, почему не поднялся, а сырой вывод ядра остаётся в журнале; ошибки портов и профиля тоже переведены\n- Служебные исходы ядра — прямой выход, блокировка и их родня — больше не идут в расход подписки"
             }
           ],
           "last_commit": {
-            "sha": "e3e138d",
+            "sha": "c40cc15",
             "branch": "main",
-            "date": "2026-09-06T11:50:21Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/e3e138d8979f290b7469cc148d1b5625e090811a"
+            "date": "2026-09-06T11:57:06Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/c40cc150760961e59eeee9ed9eaff8323ef43fba"
           }
         },
         {
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91033,
+            "stars": 91034,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-06T00:07:00Z",
@@ -5145,10 +5145,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3692307",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-09-04T08:07:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/36923071560c36f2274349ba3fc0d78e7db50d1c"
+            "sha": "d7c35b9",
+            "branch": "gh-pages-sarasa-only",
+            "date": "2026-09-04T08:10:24Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/d7c35b91fcd08132ba3040ddc48f4637e76da5cd"
           }
         },
         {
