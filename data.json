@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T12:55:07.377465Z",
+  "generated_at": "2026-09-06T13:00:22.826531Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37674,
+            "stars": 37675,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-06T08:28:22Z",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.10-alpha.3",
+              "tag": "clod-v0.1.10-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-37a1244187ed08f2a190",
+              "published_at": "2026-09-06T12:54:58Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
+            {
               "name": "Clod Clash clod-v0.1.10-alpha.2",
               "tag": "clod-v0.1.10-alpha.2",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/untagged-4dc2f9b64953b2853780",
@@ -543,15 +552,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- Connections tab: the grouping option is now called after the table column it groups by, and it groups by the whole chain the row shows instead of its last hop only\n- The pre-release update channel is created on the first publish, so a build no longer stays invisible to the updater\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- Вкладка «Соединения»: пункт группировки назван так же, как колонка, по которой группирует, и группирует теперь по всей цепочке из строки, а не только по её последнему звену\n- Предварительный канал обновлений создаётся при первой же публикации, и сборка больше не остаётся невидимой для апдейтера"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.9-alpha.2",
-              "tag": "clod-v0.1.9-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.9-alpha.2",
-              "published_at": "2026-08-31T15:59:29Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Pre-release builds have their own update channel at last: the «Pre-release builds» switch now really decides what the updater offers — the pre-release channel always carries the newest build, the regular one the latest stable release, and they can no longer overtake each other\n- Dependencies are updated: the h2 vulnerability reported by the audit is closed, and the dependency audit itself finally runs\n\n### Fixed\n\n- Linux: the window opens from the tray again and desktop notifications work. The tray dependency added in the previous build was quietly switching the D-Bus layer into a mode where every blocking call panicked, so the window was never created\n- The node selection is restored after a cold start too: it now waits for the groups to be filled by the core instead of trusting its first answer, which could wipe the choice stored in the profile\n- Connections tab: the speed column headers no longer run together\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- У предварительных сборок наконец свой канал обновлений: галочка «Предварительные сборки» действительно решает, что предложит апдейтер — в предварительном канале лежит самая свежая сборка, в обычном последний стабильный релиз, и обогнать друг друга они не могут\n- Обновлены зависимости: закрыта уязвимость в h2, найденная аудитом, а сам аудит зависимостей наконец выполняется\n\n### Исправлено\n\n- Linux: окно снова открывается из трея, и работают уведомления. Зависимость трея, добавленная в прошлой сборке, молча переключала слой D-Bus в режим, где любой блокирующий вызов паниковал, и окно не создавалось\n- Выбор узлов возвращается и после холодного старта: теперь он дожидается, пока ядро наполнит группы, а не верит первому ответу, по которому запись в профиле могла стереться\n- Вкладка «Соединения»: заголовки колонок скорости больше не слипаются"
             }
           ],
           "last_commit": {
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1071,
+            "stars": 1072,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-09-06T12:34:00Z",
@@ -1122,7 +1122,7 @@
             "stars": 4597,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-05T15:39:02Z",
+            "pushed_at": "2026-09-06T13:00:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1056fa0",
+                  "message": "apfree-wifidog: update to 9.09.2938",
+                  "author": "Dengfeng Liu",
+                  "date": "2026-09-06T13:00:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/1056fa0f705e8ccdfed3ac252d4fe5e119871a70"
+                },
+                {
                   "sha": "928ac2b",
                   "message": "mutt: update to 2.4.2",
                   "author": "Romain Isnel",
@@ -1978,13 +1985,6 @@
                   "author": "Toke Høiland-Jørgensen",
                   "date": "2026-08-31T13:27:49Z",
                   "url": "https://github.com/openwrt/packages/commit/5f54a2b916cfc13b80ff094c98f43aa40f3769af"
-                },
-                {
-                  "sha": "9d1f1f2",
-                  "message": "hev-socks5-server: update to 2.13.1",
-                  "author": "Ray Wang",
-                  "date": "2026-08-31T10:00:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/9d1f1f2bf4360f2ca5b0db2a3df9ec0086b560a9"
                 }
               ]
             },
@@ -5145,10 +5145,10 @@
             }
           ],
           "last_commit": {
-            "sha": "829c97c",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-09-04T05:16:26Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/829c97c0134461cb6dc4c0aafa8f2a90776313a7"
+            "sha": "2fa8d35",
+            "branch": "main",
+            "date": "2026-09-04T09:17:28Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/2fa8d355d314dff5ff9ac4452ade9dd9ae07f242"
           }
         },
         {
@@ -5157,7 +5157,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7267,
+            "stars": 7268,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-06T02:38:44Z",
