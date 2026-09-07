@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T11:28:59.809879Z",
+  "generated_at": "2026-09-07T11:34:15.248104Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7041,
+            "stars": 7040,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-06T11:49:12Z",
@@ -1122,7 +1122,7 @@
             "stars": 4598,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-07T10:46:19Z",
+            "pushed_at": "2026-09-07T11:30:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "00ea941",
+                  "message": "curl: add krb5 support",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-07T11:30:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/00ea9414cab3161e41ec4f7957357a06272f1a31"
+                },
+                {
                   "sha": "76756aa",
                   "message": "modemmanager: bump PKG_RELEASE",
                   "author": "Florian Eckert",
@@ -1978,13 +1985,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-01T01:47:11Z",
                   "url": "https://github.com/openwrt/packages/commit/63ba9c3bb4aa6070117289efc5a0e54226fe711e"
-                },
-                {
-                  "sha": "512b7df",
-                  "message": "openlist: update to 4.2.5",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-01T01:46:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/512b7df5f5a937a81121be805491692c31cafb64"
                 }
               ]
             },
@@ -4600,7 +4600,7 @@
             "stars": 76650,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T11:25:08Z",
+            "pushed_at": "2026-09-07T11:30:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4653,10 +4653,10 @@
             }
           ],
           "last_commit": {
-            "sha": "482a0e0",
-            "branch": "main",
-            "date": "2026-09-07T11:25:08Z",
-            "url": "https://github.com/grafana/grafana/commit/482a0e077a874e36f6c50a33942d7a269e339ccb"
+            "sha": "55acba5",
+            "branch": "sunker/e2e-selectors-json",
+            "date": "2026-09-07T11:30:15Z",
+            "url": "https://github.com/grafana/grafana/commit/55acba5ef8b877451b878b55576b64aab6dad48c"
           }
         },
         {
