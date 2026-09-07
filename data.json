@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T09:54:19.735267Z",
+  "generated_at": "2026-09-07T10:04:47.958230Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41437,
+            "stars": 41438,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-06T15:14:40Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37709,
+            "stars": 37711,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-06T08:28:22Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33868,
+            "stars": 33870,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-07T01:23:41Z",
@@ -1108,7 +1108,7 @@
           ],
           "last_commit": {
             "sha": "e250cad",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-09-04T20:30:06Z",
             "url": "https://github.com/openwrt/openwrt/commit/e250cadb9d9be98e286e67cbbea64572ac1ea693"
           }
@@ -1122,7 +1122,7 @@
             "stars": 4598,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-06T13:00:24Z",
+            "pushed_at": "2026-09-07T10:03:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4c19a2e",
+                  "message": "ufp: bump PKG_RELEASE",
+                  "author": "Christian Korber",
+                  "date": "2026-09-07T10:03:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/4c19a2ea6b2315174c5c906fca18c4a4cd35bb98"
+                },
+                {
+                  "sha": "88b0483",
+                  "message": "ufp: add dependency ucode-mod-rtnl",
+                  "author": "Christian Korber",
+                  "date": "2026-09-07T10:03:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/88b04833fa6be380c58b3e9bd08a02ab123199cd"
+                },
+                {
+                  "sha": "ecb23cd",
+                  "message": "ufp: align dependencies",
+                  "author": "Christian Korber",
+                  "date": "2026-09-07T10:03:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/ecb23cd80040c0ac7369fbd96506128ee49e5c57"
+                },
+                {
                   "sha": "1056fa0",
                   "message": "apfree-wifidog: update to 9.09.2938",
                   "author": "Dengfeng Liu",
@@ -1964,27 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-31T16:31:29Z",
                   "url": "https://github.com/openwrt/packages/commit/f5c4a7b3d1a256ae41a0a00559298448ff929300"
-                },
-                {
-                  "sha": "3b40dd1",
-                  "message": "lvm2: update to 2.03.42",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-31T16:30:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b40dd12b62cb69781b8d52c72e58b3594e634cb"
-                },
-                {
-                  "sha": "19021e4",
-                  "message": "CONTRIBUTING.md: add pointers to LLM review prompts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-08-31T15:06:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/19021e460b6946ac14337cd0cd9c032be548b278"
-                },
-                {
-                  "sha": "5f54a2b",
-                  "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
-                  "author": "Toke Høiland-Jørgensen",
-                  "date": "2026-08-31T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/5f54a2b916cfc13b80ff094c98f43aa40f3769af"
                 }
               ]
             },
@@ -4600,7 +4600,7 @@
             "stars": 76649,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T09:54:09Z",
+            "pushed_at": "2026-09-07T10:04:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4653,10 +4653,10 @@
             }
           ],
           "last_commit": {
-            "sha": "413adde",
-            "branch": "ifrost/fix-panel-drag-after-rebuild",
-            "date": "2026-09-07T09:54:10Z",
-            "url": "https://github.com/grafana/grafana/commit/413adde0022e59fcd095cd2d573d3449452f284e"
+            "sha": "c497173",
+            "branch": "macabu/fix-ci-checks-cancel-skip",
+            "date": "2026-09-07T10:04:45Z",
+            "url": "https://github.com/grafana/grafana/commit/c49717330c9ca34036022a88ee4950eb9b809819"
           }
         },
         {
@@ -4665,10 +4665,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 65988,
+            "stars": 65987,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T09:38:20Z",
+            "pushed_at": "2026-09-07T10:02:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4721,10 +4721,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7bf676f",
-            "branch": "deps-update/github.com-moby-moby-client-0.x",
-            "date": "2026-09-07T09:23:47Z",
-            "url": "https://github.com/prometheus/prometheus/commit/7bf676fe1b1faa5356159f45ac8a85655dd2b86d"
+            "sha": "4bf2bf7",
+            "branch": "main",
+            "date": "2026-09-07T10:02:22Z",
+            "url": "https://github.com/prometheus/prometheus/commit/4bf2bf7b6de916c186aa3ad3dcf79eb32c984070"
           }
         },
         {
