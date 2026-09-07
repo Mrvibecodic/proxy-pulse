@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:10:03.208992Z",
+  "generated_at": "2026-09-07T10:15:19.460743Z",
   "groups": [
     {
       "id": "cores",
@@ -839,24 +839,15 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1079,
+            "stars": 1080,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-09-06T12:34:00Z",
+            "pushed_at": "2026-09-07T10:10:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
-            {
-              "name": "Desktop v3.8.1",
-              "tag": "desktop-v3.8.1",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.8.1",
-              "published_at": "2026-09-06T12:34:01Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.8.1 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
-            },
             {
               "name": "Desktop v3.7.2",
               "tag": "desktop-v3.7.2",
@@ -892,6 +883,15 @@
               "prerelease": false,
               "author": "LLC-INCY",
               "body": "INCY Desktop v3.5.0 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
+            },
+            {
+              "name": "Desktop v3.4.2",
+              "tag": "desktop-v3.4.2",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.4.2",
+              "published_at": "2026-08-18T01:03:04Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.4.2 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
             }
           ],
           "last_commit": {
@@ -1108,7 +1108,7 @@
           ],
           "last_commit": {
             "sha": "e250cad",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-09-04T20:30:06Z",
             "url": "https://github.com/openwrt/openwrt/commit/e250cadb9d9be98e286e67cbbea64572ac1ea693"
           }
@@ -1122,7 +1122,7 @@
             "stars": 4598,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-07T10:03:33Z",
+            "pushed_at": "2026-09-07T10:11:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "889e134",
+                  "message": "ddns-scripts: update hotplug script",
+                  "author": "Jimmy Qin",
+                  "date": "2026-09-07T10:11:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/889e13400748cf739fcb1a04b7e573de7370b35d"
+                },
+                {
                   "sha": "4c19a2e",
                   "message": "ufp: bump PKG_RELEASE",
                   "author": "Christian Korber",
@@ -1978,13 +1985,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-08-31T19:33:22Z",
                   "url": "https://github.com/openwrt/packages/commit/738480840d8c70346f4b0e07e4aa5747674e1842"
-                },
-                {
-                  "sha": "f5c4a7b",
-                  "message": "conmon: fall back to the runtime's exit status file",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-31T16:31:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/f5c4a7b3d1a256ae41a0a00559298448ff929300"
                 }
               ]
             },
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91074,
+            "stars": 91075,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-07T00:06:40Z",
@@ -4529,7 +4529,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25150,
+            "stars": 25151,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-06T17:32:50Z",
@@ -4600,7 +4600,7 @@
             "stars": 76649,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T10:08:40Z",
+            "pushed_at": "2026-09-07T10:15:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4653,10 +4653,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ef49a4d",
-            "branch": "renovate/rc-component-tooltip-1.x-lockfile",
-            "date": "2026-09-07T10:07:48Z",
-            "url": "https://github.com/grafana/grafana/commit/ef49a4d7f1d4b60bc2b0f769dee73f8017b328f5"
+            "sha": "3a6b8fa",
+            "branch": "release-12.4.11",
+            "date": "2026-09-07T10:15:03Z",
+            "url": "https://github.com/grafana/grafana/commit/3a6b8fae5acb505048a6009aeb3eaf749e85136f"
           }
         },
         {
