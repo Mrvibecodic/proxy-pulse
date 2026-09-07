@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T21:27:57.057795Z",
+  "generated_at": "2026-09-07T21:33:11.869148Z",
   "groups": [
     {
       "id": "cores",
@@ -978,12 +978,21 @@
             "stars": 46,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-05T14:27:57Z",
+            "pushed_at": "2026-09-07T21:32:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.5",
+              "tag": "1.0.0-beta.5",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.5",
+              "published_at": "2026-09-07T21:32:06Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- Hosts can be selected before connecting. Automatic groups have an explicit Auto select switch, and manual choices are restored when the connection starts.\n- Windows and macOS can download updates from an optional provider mirror, with automatic fallback to the official source. Update signatures remain mandatory; Linux continues to use the official source.\n\n### Improved\n\n- Single-host and group latency tests share a queue, avoid duplicate requests and show separate results for timeouts and other errors.\n- Connection changes and subscription updates are coordinated more reliably, with fewer unnecessary profile reloads and no stale results from previous routes.\n- Diagnostic logs distinguish latency-test failures and explain HTTP proxy access denials more clearly.\n\n### Fixed\n\n- Cascaded hosts supplied by a subscription are tested through the correct route. Equal names from different sources no longer silently select the wrong host.\n- Testing groups no longer copies an old host measurement or releases a manually selected route. Rejected configuration edits do not change which route is tested.\n- The connection remains active while an application update downloads and is restored if installation fails after disconnecting.\n- Subscriptions receive the device OS on the first request, while device identification still requires consent.\n- Provider-required profile widgets remain enabled, and Settings explains the restriction.\n- If a subscription removes its primary group, Flowvy falls back to an available group instead of keeping an invalid selection.\n- The Windows helper no longer requires a separately installed Visual C++ runtime.\n- Windows installation and removal wait for the client and helper to stop safely. Linux package removal stops the owning processes and keeps stable and beta service data separate; upgrades retain service registration.\n- Russian About text now displays the correct copyright year."
+            },
             {
               "name": "1.0.0-beta.4",
               "tag": "1.0.0-beta.4",
@@ -1019,15 +1028,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
-            },
-            {
-              "name": "0.3.5",
-              "tag": "0.3.5",
-              "url": "https://github.com/flowvy/desktop/releases/tag/0.3.5",
-              "published_at": "2026-08-27T11:59:35Z",
-              "prerelease": false,
-              "author": "this-xkit",
-              "body": "### New\n\n- Flowvy is now available for Intel-based Macs, with a separate signed installer and full in-app update support.\n\n### Improved\n\n- The bundled mihomo core is updated to the latest stable version for improved compatibility and reliability.\n\n### Fixed\n\n- Windows subscription requests now identify Windows 10 and Windows 11 by product name and include the OS build number, so providers can reliably select platform-specific configurations.\n"
             }
           ],
           "last_commit": {
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91092,
+            "stars": 91093,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-07T15:42:19Z",
@@ -4789,10 +4789,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5e76a5c",
+            "sha": "40f34c8",
             "branch": "master",
-            "date": "2026-09-05T18:11:31Z",
-            "url": "https://github.com/netdata/netdata/commit/5e76a5ca7f581f58bdd172630d366e758357cd9d"
+            "date": "2026-09-06T00:25:28Z",
+            "url": "https://github.com/netdata/netdata/commit/40f34c870f8a25e4bbdd839dbef91cdd7f2743bf"
           }
         },
         {
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7e9f15d",
-            "branch": "l10n_crowdin",
-            "date": "2026-09-07T21:25:42Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/7e9f15d2e79b9c240bb2345edeb12277048e3e64"
+            "sha": "26b36b7",
+            "branch": "fix_normalize_identity_and_display_text_with_kit_struct_tags",
+            "date": "2026-09-06T02:38:45Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/26b36b7e423e38a97a337101815ca277b66f71b3"
           }
         }
       ]
