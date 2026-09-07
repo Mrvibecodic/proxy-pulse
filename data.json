@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:41:39.376097Z",
+  "generated_at": "2026-09-07T10:46:54.152365Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 4598,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-07T10:11:58Z",
+            "pushed_at": "2026-09-07T10:46:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "76756aa",
+                  "message": "modemmanager: bump PKG_RELEASE",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-07T10:46:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/76756aad2e00c94a7f17a805dbc8a815950cd49f"
+                },
+                {
+                  "sha": "de35eab",
+                  "message": "modemmanager: make command timeout configurable",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-07T10:46:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/de35eab441958a7348b99165eeee59f2f96a1755"
+                },
+                {
+                  "sha": "3e61169",
+                  "message": "modemmanager: update logging messages",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-07T10:46:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/3e61169ebf2f0547a38053e81c00e40ad2e6e5a3"
+                },
+                {
+                  "sha": "ad08185",
+                  "message": "modemmanager: cleanup vars in proto_modemmanager_setup",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-07T10:46:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/ad081856526f41bfecffabeea1214d9d9accb307"
+                },
+                {
                   "sha": "889e134",
                   "message": "ddns-scripts: update hotplug script",
                   "author": "Jimmy Qin",
@@ -1957,34 +1985,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-01T01:46:40Z",
                   "url": "https://github.com/openwrt/packages/commit/512b7df5f5a937a81121be805491692c31cafb64"
-                },
-                {
-                  "sha": "463f06b",
-                  "message": "yq: update to 4.53.6",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-01T01:45:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/463f06b22c6a8370cec9725beb931941b833628b"
-                },
-                {
-                  "sha": "9e13150",
-                  "message": "v2ray-core: update to 5.53.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-01T01:38:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/9e13150deee6e6f6459bb75d94d52ec8c8c6bfa8"
-                },
-                {
-                  "sha": "088999e",
-                  "message": "libjuice: fix SHA-1 on big-endian targets",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-01T00:17:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/088999ef3d4a2065e9b36357c3c1365eb18783cd"
-                },
-                {
-                  "sha": "7384808",
-                  "message": "comrade: update to 0.1.17",
-                  "author": "Daniel Golle",
-                  "date": "2026-08-31T19:33:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/738480840d8c70346f4b0e07e4aa5747674e1842"
                 }
               ]
             },
@@ -4529,7 +4529,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25155,
+            "stars": 25157,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-06T17:32:50Z",
@@ -4600,7 +4600,7 @@
             "stars": 76650,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T10:38:28Z",
+            "pushed_at": "2026-09-07T10:46:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4653,10 +4653,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3cacf92",
-            "branch": "release-13.2.2",
-            "date": "2026-09-07T10:38:27Z",
-            "url": "https://github.com/grafana/grafana/commit/3cacf92076690cb5658080ffcc3aef6e6aa465e7"
+            "sha": "ed14e3b",
+            "branch": "eledobleefe/tag-visual-refresh",
+            "date": "2026-09-07T10:44:16Z",
+            "url": "https://github.com/grafana/grafana/commit/ed14e3b7324382ecd36dc2a09da78878e1f655ca"
           }
         },
         {
@@ -4736,7 +4736,7 @@
             "stars": 80453,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-07T08:22:56Z",
+            "pushed_at": "2026-09-07T10:42:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4789,10 +4789,10 @@
             }
           ],
           "last_commit": {
-            "sha": "52ac499",
+            "sha": "edc5362",
             "branch": "master",
-            "date": "2026-09-07T08:22:45Z",
-            "url": "https://github.com/netdata/netdata/commit/52ac499d0aaf9ac1ec3f7a0d9daced32e0fca4d0"
+            "date": "2026-09-07T10:42:42Z",
+            "url": "https://github.com/netdata/netdata/commit/edc536223b6dfc339c8caa48573f2fa0c26c702c"
           }
         },
         {
