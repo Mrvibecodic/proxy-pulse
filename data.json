@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T06:34:18.246529Z",
+  "generated_at": "2026-09-07T06:39:33.342256Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33860,
+            "stars": 33861,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-07T01:23:41Z",
@@ -4668,7 +4668,7 @@
             "stars": 65982,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T06:34:20Z",
+            "pushed_at": "2026-09-07T06:38:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4721,10 +4721,10 @@
             }
           ],
           "last_commit": {
-            "sha": "45612a5",
-            "branch": "deps-update/mantine-ui",
-            "date": "2026-09-04T10:35:48Z",
-            "url": "https://github.com/prometheus/prometheus/commit/45612a5dfad901ccf1f2cfc1fb71f4a4b2245261"
+            "sha": "54bc2c8",
+            "branch": "deps-update/modules",
+            "date": "2026-09-07T06:38:04Z",
+            "url": "https://github.com/prometheus/prometheus/commit/54bc2c894e55abadf2687b009641410054ab7fac"
           }
         },
         {
@@ -5092,12 +5092,21 @@
             "stars": 3384,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T05:37:30Z",
+            "pushed_at": "2026-09-07T06:37:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.26.0",
+              "tag": "v3.26.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.26.0",
+              "published_at": "2026-09-07T06:36:20Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.26.0](https://github.com/Zephyruso/zashboard/compare/v3.25.0...v3.26.0) (2026-09-07)\n\n\n### Features\n\n* implement collapse motion for cards and optimize virtual row shifting ([ac86982](https://github.com/Zephyruso/zashboard/commit/ac869828b38405e675a41eed670bbd5b90290df6))\n* implement virtual scrolling for proxies list and optimize latency handling ([fd8fc51](https://github.com/Zephyruso/zashboard/commit/fd8fc51bf703913e9275a164c7c8c75c76a1d3d0))\n* scroll to the active node on expand and fix node scroll positioning ([cb15575](https://github.com/Zephyruso/zashboard/commit/cb15575a025255e9968009a96eb4368cc9169ed4))\n\n\n### Bug Fixes\n\n* adjust virtual table layout for proper sticky header and background alignment ([4a7e06e](https://github.com/Zephyruso/zashboard/commit/4a7e06e9024aed107751b8656875f0cade13fc63))\n* ensure full proxy chain is always displayed in connection details ([c88976d](https://github.com/Zephyruso/zashboard/commit/c88976d668a25a12e0696007da19292919b5155d))\n* improve layout of connection metrics by adjusting icon positioning and spacing ([2b59feb](https://github.com/Zephyruso/zashboard/commit/2b59febc3bd2751934ff76fe29322d59afbdfd81))\n* update modal open state handling to prevent overflow issues during transitions ([bd65a45](https://github.com/Zephyruso/zashboard/commit/bd65a459555d98e5b2f26afeaa85879ed71ae345))"
+            },
             {
               "name": "v3.25.0",
               "tag": "v3.25.0",
@@ -5133,22 +5142,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.22.0](https://github.com/Zephyruso/zashboard/compare/v3.21.0...v3.22.0) (2026-08-24)\n\n\n### Features\n\n* add deprecation notice for sing-box support ([0ff25c1](https://github.com/Zephyruso/zashboard/commit/0ff25c116c2382e8315e744d859722cd89a18cbf))\n* enhance settings page with new customization options and search functionality ([435043a](https://github.com/Zephyruso/zashboard/commit/435043a2c20c1e98e69c3943fc8da6e9c68a9114))\n* implement settings page transitions and enhance swipe navigation ([fd6e1ed](https://github.com/Zephyruso/zashboard/commit/fd6e1ed8a94b52e09292fc51c4f854830cb386d8))\n\n\n### Bug Fixes\n\n* add need-blur class to enhance backdrop blur effect in settings components ([d11d521](https://github.com/Zephyruso/zashboard/commit/d11d5216dee05a3091e7aafd428604714f72be6d))\n* adjust transition handling for custom backgrounds to preserve backdrop blur in wallpaper mode ([be22920](https://github.com/Zephyruso/zashboard/commit/be229207ed16e4992107a0fca2cdf25343018225))\n* enhance background image handling and caching for improved performance ([952c9e5](https://github.com/Zephyruso/zashboard/commit/952c9e5ed47344c3669c53451edc1a822b289695))\n* improve settings page layout and enhance mobile index handling ([a815ded](https://github.com/Zephyruso/zashboard/commit/a815ded18f3068636af6e6a46332be4e337ad9ff))\n* optimize isProxyGroup function by using a Set for proxy group types ([b8e4322](https://github.com/Zephyruso/zashboard/commit/b8e432261068a9a5a0a09e841a903f2fc55935c8))\n* remove full-screen-mobile prop from DialogWrapper instances in settings components ([4a7d194](https://github.com/Zephyruso/zashboard/commit/4a7d194a4b44f62e60435789532f2e0dacfebc3a))"
-            },
-            {
-              "name": "v3.21.0",
-              "tag": "v3.21.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.21.0",
-              "published_at": "2026-08-19T10:37:43Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.21.0](https://github.com/Zephyruso/zashboard/compare/v3.20.0...v3.21.0) (2026-08-19)\n\n\n### Features\n\n* improve IP lookup API selection ([4ab1879](https://github.com/Zephyruso/zashboard/commit/4ab187937f9200ed09fad9d59b325623c008e922)), closes [#757](https://github.com/Zephyruso/zashboard/issues/757)\n\n\n### Bug Fixes\n\n* add confirmation dialogs for core upgrade and config reload actions ([8cb98d6](https://github.com/Zephyruso/zashboard/commit/8cb98d666767813099d4aeb5849eb5c1bc9df4b4))\n* adjust grid styling for responsive layout in ProviderTrafficOverview component ([5362606](https://github.com/Zephyruso/zashboard/commit/536260633b4dd06f5e3d8d5fd9c72112c3dc5b26))\n* adjust z-index values for backend panel components ([43e2afd](https://github.com/Zephyruso/zashboard/commit/43e2afd91db909fc506526cfad93d10a219fc9e7))\n* bring backend actions back into the sidebar backend menu ([e8a5dd5](https://github.com/Zephyruso/zashboard/commit/e8a5dd5ed404132dc72652d39dfb22d0f9ffa003)), closes [#765](https://github.com/Zephyruso/zashboard/issues/765)\n* replace legacy theme names with new mappings in settings ([c6510fe](https://github.com/Zephyruso/zashboard/commit/c6510fe96200980299a91713f460aab494cd7c52))\n* update backend status color and remove confirmation for config reload ([fe8784b](https://github.com/Zephyruso/zashboard/commit/fe8784bc220002a31c8a762f1fe1ec649ec35c6b))"
             }
           ],
           "last_commit": {
-            "sha": "a97b1e1",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-09-07T05:37:29Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/a97b1e105da05e303ce6de66fe5026acb874a180"
+            "sha": "e682703",
+            "branch": "gh-pages-misans-only",
+            "date": "2026-09-07T06:36:59Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/e682703172842f9bdaa03f37fa9113ad983b61d1"
           }
         },
         {
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "670ee2b",
-            "branch": "main",
-            "date": "2026-09-05T00:46:50Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/670ee2b34ea7b0fb2917643229b6ce9070ee9742"
+            "sha": "23ce1ef",
+            "branch": "l10n_crowdin",
+            "date": "2026-09-05T00:54:05Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/23ce1ef85a3d041305ef4c5ede95ad851d24b03e"
           }
         }
       ]
