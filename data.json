@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T06:54:33.034671Z",
+  "generated_at": "2026-09-08T06:59:48.602053Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41454,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T03:31:25Z",
+            "pushed_at": "2026-09-08T06:58:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3e2f040",
+            "sha": "f3199e6",
             "branch": "main",
-            "date": "2026-09-08T03:31:27Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/3e2f040cd80b33197d358da6bf0d859fae58f180"
+            "date": "2026-09-08T06:58:27Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/f3199e69e3a61ed9381173a5c3380e5e979c8d64"
           }
         },
         {
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37744,
+            "stars": 37745,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-08T06:49:05Z",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6adeb24",
-            "branch": "testing",
+            "sha": "b2a5ac3",
+            "branch": "stable",
             "date": "2026-09-08T06:49:06Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/6adeb242a0035c37ff78a83f55c6373ab2693bc9"
+            "url": "https://github.com/SagerNet/sing-box/commit/b2a5ac3f606965c8a8bb6a50932c06e71bf4ba27"
           }
         },
         {
@@ -152,7 +152,7 @@
             "stars": 33898,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T06:22:20Z",
+            "pushed_at": "2026-09-08T06:59:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Tue Sep  8 12:45:54 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
+              "body": "Release created at  Tue Sep  8 14:59:30 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
             },
             {
               "name": "v1.19.30",
@@ -4668,7 +4668,7 @@
             "stars": 66005,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T06:54:28Z",
+            "pushed_at": "2026-09-08T06:54:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5213,10 +5213,10 @@
             }
           ],
           "last_commit": {
-            "sha": "45b789b",
-            "branch": "l10n_crowdin",
-            "date": "2026-09-06T20:03:56Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/45b789b13aef04925c02b29cc798ca95eaa1295a"
+            "sha": "5c24e56",
+            "branch": "feat_stream_docker_daemon_events_to_arcanes_event_log",
+            "date": "2026-09-06T16:39:24Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/5c24e56b7fbd6de10768bc845a4c360c6c89262d"
           }
         }
       ]
