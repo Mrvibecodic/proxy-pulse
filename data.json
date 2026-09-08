@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T03:35:08.786318Z",
+  "generated_at": "2026-09-08T03:40:23.392328Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33886,
+            "stars": 33887,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-08T03:23:23Z",
@@ -4138,12 +4138,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T01:19:37Z",
+            "pushed_at": "2026-09-08T03:36:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha 3e2f040",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-09-08T03:35:20Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@3e2f040cd80b33197d358da6bf0d859fae58f180\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.7.28",
               "tag": "stable",
@@ -4152,15 +4161,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.7.28\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha eef6e63",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-09-08T01:18:40Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@eef6e63bc16d6e97fd98178556d49aad7978809a\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91104,
+            "stars": 91102,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-08T00:06:05Z",
