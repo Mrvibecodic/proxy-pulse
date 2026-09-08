@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:47:09.300132Z",
+  "generated_at": "2026-09-08T07:52:24.944906Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41455,
+            "stars": 41456,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-08T07:23:34Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37750,
+            "stars": 37751,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-08T07:20:42Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33900,
+            "stars": 33901,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-08T07:27:30Z",
@@ -1054,7 +1054,7 @@
             "stars": 28323,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-07T22:44:05Z",
+            "pushed_at": "2026-09-08T07:51:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1107,10 +1107,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e87bdaf",
+            "sha": "23aaf32",
             "branch": "master",
-            "date": "2026-09-06T16:03:47Z",
-            "url": "https://github.com/openwrt/openwrt/commit/e87bdafa704f1bd3238046f2a947391583413458"
+            "date": "2026-09-08T07:51:43Z",
+            "url": "https://github.com/openwrt/openwrt/commit/23aaf320ade912fc128070f562182a4c380718ec"
           }
         },
         {
@@ -1122,7 +1122,7 @@
             "stars": 4599,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-07T19:50:53Z",
+            "pushed_at": "2026-09-08T07:52:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1777,6 +1777,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "30de496",
+                  "message": "luasql: update to 2.7.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-08T07:52:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/30de4961d3a2543f75bdcad1d336f31edaa71c07"
+                },
+                {
+                  "sha": "2acc571",
+                  "message": "frp: update to 0.71.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-08T07:52:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/2acc571d0e3c4914803e379db8b1079546a57ec3"
+                },
+                {
+                  "sha": "675e1f9",
+                  "message": "git-lfs: update to 3.8.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-08T07:52:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/675e1f980f45be49fed9a05f44360aef93141631"
+                },
+                {
+                  "sha": "24928ba",
+                  "message": "stress-ng: update to 0.22.00",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-08T07:52:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/24928ba895e4603a6eb1f4e73965db60ea04a10a"
+                },
+                {
+                  "sha": "8de821c",
+                  "message": "tcpreplay: update to 4.6.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-08T07:52:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/8de821ca640d5326d0bdc99cda940585a476d7d0"
+                },
+                {
                   "sha": "b76e77d",
                   "message": "shunt: update to 0.1.6",
                   "author": "Dirk Brenken",
@@ -1950,41 +1985,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-03T08:18:15Z",
                   "url": "https://github.com/openwrt/packages/commit/7ccd301404ed979706bc40715b648d7e2ed7e178"
-                },
-                {
-                  "sha": "696b64d",
-                  "message": "cloudflared: update to 2026.8.3",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:12:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/696b64d79abc1479d8d30fa2a7e5a0a063be00b5"
-                },
-                {
-                  "sha": "fbde5d1",
-                  "message": "libdht: update to 2026-09-01",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-02T14:50:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/fbde5d1e31608aa13ad779f97da793e841bc214f"
-                },
-                {
-                  "sha": "712ee13",
-                  "message": "batman-adv: update to version 2026.3",
-                  "author": "Sven Eckelmann",
-                  "date": "2026-09-01T06:39:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/712ee13a837449fd91b5279048303d3a790d691b"
-                },
-                {
-                  "sha": "1c0fbc4",
-                  "message": "batctl: update to version 2026.3",
-                  "author": "Sven Eckelmann",
-                  "date": "2026-09-01T06:39:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c0fbc4095859dcdc183702e0a972a710d464439"
-                },
-                {
-                  "sha": "f69876f",
-                  "message": "alfred: update to version 2026.3",
-                  "author": "Sven Eckelmann",
-                  "date": "2026-09-01T06:39:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/f69876f1c6a6380390166d2fa211f78d1396c52f"
                 }
               ]
             },
@@ -4461,7 +4461,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91107,
+            "stars": 91108,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-08T05:00:24Z",
@@ -4600,7 +4600,7 @@
             "stars": 76666,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T07:44:19Z",
+            "pushed_at": "2026-09-08T07:48:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4653,10 +4653,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8eb136e",
-            "branch": "main",
-            "date": "2026-09-08T07:35:41Z",
-            "url": "https://github.com/grafana/grafana/commit/8eb136e3883f54d5f3be00330fce7d9f703d40b0"
+            "sha": "9bac8db",
+            "branch": "mdv/panel-plugin-hide-non-applicable-filters",
+            "date": "2026-09-08T07:48:02Z",
+            "url": "https://github.com/grafana/grafana/commit/9bac8db48cfbae26eec8ac06ba8fa2c939a63b0f"
           }
         },
         {
@@ -4789,10 +4789,10 @@
             }
           ],
           "last_commit": {
-            "sha": "66f0a08",
-            "branch": "master",
-            "date": "2026-09-08T06:29:13Z",
-            "url": "https://github.com/netdata/netdata/commit/66f0a08407fa300b676d43809cd4ef5e769c3408"
+            "sha": "0fa9760",
+            "branch": "docs-chart-annotations",
+            "date": "2026-09-06T13:23:14Z",
+            "url": "https://github.com/netdata/netdata/commit/0fa97609e63c3911c14e2b3b779b3e9e088529b3"
           }
         },
         {
