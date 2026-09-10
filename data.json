@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T01:30:45.352298Z",
+  "generated_at": "2026-09-10T01:36:00.911980Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 33951,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T00:59:06Z",
+            "pushed_at": "2026-09-10T01:35:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Thu Sep 10 08:56:30 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
+              "body": "Release created at  Thu Sep 10 09:35:12 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
             },
             {
               "name": "v1.19.30",
@@ -951,12 +951,21 @@
             "stars": 47,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-08T21:00:43Z",
+            "pushed_at": "2026-09-10T01:31:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.6",
+              "tag": "1.0.0-beta.6",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.6",
+              "published_at": "2026-09-10T01:31:18Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- Removed group status banners from the top of the popup and dashboard pages.\n- macOS shows when the helper needs system approval and provides an action to open the relevant settings.\n\n### Fixed\n\n- Subscription reordering no longer loses newly added profiles or restores an outdated order after a delayed response.\n- Updating one subscription no longer hides another subscription's device-consent request, error or retry action.\n- Disconnecting recovers correctly when stopping the connection fails.\n- Profile rules apply to the selected profile, retain unsaved edits and place appended rules before the final catch-all rule.\n- Subscription loading recovers more reliably, and repeated window activity no longer leaves duplicate event listeners.\n- Disconnecting preserves system proxy settings changed by another application.\n- Diagnostic files remain available when exporting an archive fails.\n- VLESS imports preserve supported transport settings and report unsupported transports instead of silently changing them.\n- Linux reports failures while changing persistent routes; macOS releases old tray images after icon updates.\n- macOS allows updates before the helper is first installed and stops the old helper before registering its replacement.\n\n### Security\n\n- macOS verifies a protected copy of the connection engine before starting it with elevated privileges and uses system-managed helper registration.\n- Subscription redirects restrict transfer of device identifiers and credentials. Device consent is tied to the subscription URL.\n- Remote profile images use a bounded cache and a placeholder when loading is rejected. Local-address URL checks are strengthened.\n- Subscription settings can no longer enable additional unprotected connection-control endpoints or an external dashboard."
+            },
             {
               "name": "1.0.0-beta.5",
               "tag": "1.0.0-beta.5",
@@ -992,15 +1001,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
-            },
-            {
-              "name": "1.0.0-beta.1",
-              "tag": "1.0.0-beta.1",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.1",
-              "published_at": "2026-09-03T20:21:50Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
             }
           ],
           "last_commit": {
@@ -3740,7 +3740,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5239,
+            "stars": 5240,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-10T00:33:58Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8478c23",
-            "branch": "adela/text_v2_fix_interpolation",
-            "date": "2026-09-08T15:22:00Z",
-            "url": "https://github.com/grafana/grafana/commit/8478c23ea790221b6f53107d1e48072241a70fe6"
+            "sha": "1784641",
+            "branch": "ifrost/unify-edit-as-code",
+            "date": "2026-09-09T20:01:59Z",
+            "url": "https://github.com/grafana/grafana/commit/17846413b4d04160cda3c99d2c430d3946e4ebf6"
           }
         },
         {
@@ -5186,10 +5186,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b524910",
+            "sha": "a8bf2ee",
             "branch": "main",
-            "date": "2026-09-09T22:06:05Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/b52491059590f30a2d098e06875adc9012ef9556"
+            "date": "2026-09-09T22:50:51Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/a8bf2eee2bf1f197cd254b356e89d80c3df08e3f"
           }
         }
       ]
