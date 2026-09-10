@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:30:32.201878Z",
+  "generated_at": "2026-09-10T14:35:49.519995Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 33974,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T13:54:48Z",
+            "pushed_at": "2026-09-10T14:32:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Thu Sep 10 19:40:44 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
+              "body": "Release created at  Thu Sep 10 22:31:29 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n* feat: convert support REALITY ML-KEM option by @Aethersailor in https://github.com/MetaCubeX/mihomo/pull/3199\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n* @Aethersailor made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3199\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
             },
             {
               "name": "v1.19.30",
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25267,
+            "stars": 25268,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-10T01:46:11Z",
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
