@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T03:58:13.179657Z",
+  "generated_at": "2026-09-10T04:03:27.858681Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37812,
+            "stars": 37813,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-09T14:44:23Z",
@@ -890,15 +890,6 @@
           },
           "releases": [
             {
-              "name": "1.3.0-beta.3",
-              "tag": "1.3.0-beta.3",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.3.0-beta.3",
-              "published_at": "2026-09-10T03:23:40Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Fix Auto selector not recovering from network outage\r\n* Fix Global insecure not applying to configs\r\n* Update sing-box\r\n* Update Xray-core to `v26.9.9`\r\n* Significantly optimize window process searcher\r\n* Migrate runtime stats to the main window\r\n* Allow directly adding domains/addresses from connections tab to routing profiles (Thanks @renkagod)\r\n* Fixes and Improvements\r\n"
-            },
-            {
               "name": "1.3.0-beta.2",
               "tag": "1.3.0-beta.2",
               "url": "https://github.com/throneproj/Throne/releases/tag/1.3.0-beta.2",
@@ -933,6 +924,15 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## This version has been re-released to fix a startup crash on Unix systems\r\n\r\n* Add Auto-selector **1**\r\n* Fix windows installer behavior\r\n* Fix Xray profiles being broken on certain windows systems\r\n* Add multiple file selection for importing from file\r\n* Fix Exclude private range in Tun mode\r\n* Lots of Fixes and Improvements\r\n\r\n**1**:\r\nYou can now create profiles that try to find a suitable set of profiles from a group and automatically choose the best one and run it, optionally you can load-balance your traffic amongst these profiles too. It can automatically detect failure and switch to other available profiles."
+            },
+            {
+              "name": "1.2.2",
+              "tag": "1.2.2",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.2.2",
+              "published_at": "2026-07-29T20:39:02Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "* Update sing-box **1**\r\n* Add Amnezia v3 support\r\n* Update Xray\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThis should fix the tun issues on Linux."
             }
           ],
           "last_commit": {
@@ -4573,7 +4573,7 @@
             "stars": 76661,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T03:47:46Z",
+            "pushed_at": "2026-09-10T03:58:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b5bf4a6",
-            "branch": "main",
-            "date": "2026-09-08T14:19:31Z",
-            "url": "https://github.com/grafana/grafana/commit/b5bf4a6e30d4e69719e89f91173bf5f44f479d48"
+            "sha": "e750847",
+            "branch": "ash/tinycolor-removal",
+            "date": "2026-09-08T14:24:43Z",
+            "url": "https://github.com/grafana/grafana/commit/e750847a9a2f62deb6daa8525c138df820c188de"
           }
         },
         {
