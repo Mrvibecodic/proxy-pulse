@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:21:36.555680Z",
+  "generated_at": "2026-09-10T08:26:52.053022Z",
   "groups": [
     {
       "id": "cores",
@@ -1027,7 +1027,7 @@
             "stars": 28347,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T08:14:18Z",
+            "pushed_at": "2026-09-10T08:22:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1080,10 +1080,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7691162",
+            "sha": "ac2ed40",
             "branch": "master",
-            "date": "2026-09-08T19:28:48Z",
-            "url": "https://github.com/openwrt/openwrt/commit/769116266bb9d67b5d0cd30c7eb018e796d6aa7e"
+            "date": "2026-09-10T08:22:34Z",
+            "url": "https://github.com/openwrt/openwrt/commit/ac2ed40b48b57390ade98101e625e5faf82dbed6"
           }
         },
         {
@@ -1095,7 +1095,7 @@
             "stars": 4602,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T08:20:51Z",
+            "pushed_at": "2026-09-10T08:24:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a091af0",
+                  "message": "mdns-repeater: bump to 2026.07.16~488feaf7, simplify MAKE_FLAGS",
+                  "author": "Foster Snowhill",
+                  "date": "2026-09-10T08:24:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/a091af03e4e9a8c889c1df54ee28094e0285b448"
+                },
+                {
+                  "sha": "2537757",
+                  "message": "nut: improve documentation",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/2537757a3be297b15a27867d25d951759c9eeced"
+                },
+                {
+                  "sha": "ef7cb68",
+                  "message": "nut: fix setting RUNAS and STATEPATH in hotplug scripts",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/ef7cb6819d8600009851e8003a32027d118bede7"
+                },
+                {
+                  "sha": "9ce5146",
+                  "message": "nut: fix matching hotplugged device",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ce5146f9fe2e5dbff998a76e80b89eed0baae26"
+                },
+                {
+                  "sha": "ca828ff",
+                  "message": "nut: prevent service thrashing on boot or hotplug",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca828ffc4fb971711616bdce2d31cd6b5e6b4cad"
+                },
+                {
+                  "sha": "5bdf894",
+                  "message": "nut: fix custom notification messages",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/5bdf89410255c73bfedfaf1ccaf83f6644a7c818"
+                },
+                {
+                  "sha": "cf415f3",
+                  "message": "nut: improve hotplug behaviour for remove",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-10T08:22:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/cf415f3e6438504c19e0dee88629dd1454323b01"
+                },
+                {
+                  "sha": "05f5683",
+                  "message": "sing-box: bump to 1.14.0",
+                  "author": "Sergei S.",
+                  "date": "2026-09-10T08:21:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/05f56830e92b38843b668f4ed454be6d05981ebd"
+                },
+                {
                   "sha": "bc8c5e8",
                   "message": "mariadb: init - check file versions",
                   "author": "Daniel Black",
@@ -1902,62 +1958,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-08T07:52:20Z",
                   "url": "https://github.com/openwrt/packages/commit/8de821ca640d5326d0bdc99cda940585a476d7d0"
-                },
-                {
-                  "sha": "b76e77d",
-                  "message": "shunt: update to 0.1.6",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-07T19:50:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/b76e77d4889d81e004c265de09e0ddef6fa8180b"
-                },
-                {
-                  "sha": "900d31c",
-                  "message": "travelmate: update 2.4.9-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-07T17:11:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/900d31c6c514d641a62fd43cae9b73807e6d47bb"
-                },
-                {
-                  "sha": "00ea941",
-                  "message": "curl: add krb5 support",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-07T11:30:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/00ea9414cab3161e41ec4f7957357a06272f1a31"
-                },
-                {
-                  "sha": "76756aa",
-                  "message": "modemmanager: bump PKG_RELEASE",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-07T10:46:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/76756aad2e00c94a7f17a805dbc8a815950cd49f"
-                },
-                {
-                  "sha": "de35eab",
-                  "message": "modemmanager: make command timeout configurable",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-07T10:46:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/de35eab441958a7348b99165eeee59f2f96a1755"
-                },
-                {
-                  "sha": "3e61169",
-                  "message": "modemmanager: update logging messages",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-07T10:46:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/3e61169ebf2f0547a38053e81c00e40ad2e6e5a3"
-                },
-                {
-                  "sha": "ad08185",
-                  "message": "modemmanager: cleanup vars in proto_modemmanager_setup",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-07T10:46:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/ad081856526f41bfecffabeea1214d9d9accb307"
-                },
-                {
-                  "sha": "889e134",
-                  "message": "ddns-scripts: update hotplug script",
-                  "author": "Jimmy Qin",
-                  "date": "2026-09-07T10:11:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/889e13400748cf739fcb1a04b7e573de7370b35d"
                 }
               ]
             },
@@ -3040,6 +3040,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "2536d97",
+                  "message": "hev-socks5-tunnel: allow multiple instances",
+                  "author": "Sergei S.",
+                  "date": "2026-09-10T08:23:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/2536d973c1ff1de6463fe249ee8d0ff1f747ff76"
+                },
+                {
                   "sha": "14d1ad4",
                   "message": "vim: update to 9.2.1014",
                   "author": "Peter Polonec",
@@ -3241,13 +3248,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-08-11T06:10:23Z",
                   "url": "https://github.com/openwrt/packages/commit/9e6eb7adff58d85bd5589885a5f53c04f383f406"
-                },
-                {
-                  "sha": "7ce8dcd",
-                  "message": "ovpn-dco: update to 0.2.20260804",
-                  "author": "Sander van Deijck",
-                  "date": "2026-08-11T06:10:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/7ce8dcdfadd63c459ee4be94b70bf619207841bc"
                 }
               ]
             },
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25258,
+            "stars": 25259,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-10T01:46:11Z",
@@ -4573,7 +4573,7 @@
             "stars": 76666,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T08:09:28Z",
+            "pushed_at": "2026-09-10T08:23:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80470,
+            "stars": 80471,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-10T07:02:55Z",
