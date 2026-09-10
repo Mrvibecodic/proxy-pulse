@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T07:50:00.590649Z",
+  "generated_at": "2026-09-10T07:55:16.023377Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37822,
+            "stars": 37823,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-10T07:19:15Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33960,
+            "stars": 33961,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-10T02:14:52Z",
@@ -3255,6 +3255,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "63fb07b",
+                  "message": "tvheadend: drop the handwritten version override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/63fb07b24fc8bc99bd7e2c4200f3f64c263e94bc"
+                },
+                {
+                  "sha": "f23ec5e",
+                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/f23ec5e1eaf03f5fe66448c1243a00d9840afed0"
+                },
+                {
+                  "sha": "2f19926",
+                  "message": "tvheadend: update to 2026-08-17",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/2f19926d71660fae905da150910c5bdecefe12c5"
+                },
+                {
                   "sha": "85b0c8e",
                   "message": "travelmate: update 2.4.9-2",
                   "author": "Dirk Brenken",
@@ -3442,27 +3463,6 @@
                   "author": "Toke Høiland-Jørgensen",
                   "date": "2026-09-01T07:21:47Z",
                   "url": "https://github.com/openwrt/packages/commit/ce07eb65e4d4895525790a52f3b7f040e6f71335"
-                },
-                {
-                  "sha": "3f6b95b",
-                  "message": "uneighbord: add uneighbord",
-                  "author": "Nick Hainke",
-                  "date": "2026-08-30T11:03:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/3f6b95b5158040c8b0ef3e7d5e456589344694d5"
-                },
-                {
-                  "sha": "34cd86c",
-                  "message": "bsbf-resources: update to GIT HEAD of 2026-08-29",
-                  "author": "Chester A. Unal",
-                  "date": "2026-08-30T10:27:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/34cd86c584c21ef2f1d9e9833055d1005dadf9a6"
-                },
-                {
-                  "sha": "ccb80a6",
-                  "message": "slide-switch: update to 1.0.1",
-                  "author": "Jeffery To",
-                  "date": "2026-08-28T06:04:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/ccb80a60ec7cd1ab35424964461ec048d83a4ced"
                 }
               ]
             }
@@ -4570,10 +4570,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76665,
+            "stars": 76666,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T07:49:38Z",
+            "pushed_at": "2026-09-10T07:52:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66017,
+            "stars": 66018,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-10T06:48:19Z",
