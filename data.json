@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T06:52:05.160271Z",
+  "generated_at": "2026-09-10T06:57:20.385178Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37819,
+            "stars": 37820,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-09T14:44:23Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33957,
+            "stars": 33958,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-10T02:14:52Z",
@@ -1095,7 +1095,7 @@
             "stars": 4602,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T06:04:01Z",
+            "pushed_at": "2026-09-10T06:53:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ef7283f",
+                  "message": "tvheadend: drop the handwritten version override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T06:53:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/ef7283f3118859fcd1f99e1b6a1bba8d3e89a49a"
+                },
+                {
+                  "sha": "f2c8300",
+                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T06:53:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/f2c8300e2521b085cafb129d84774049a92510e3"
+                },
+                {
+                  "sha": "4f1c698",
+                  "message": "tvheadend: update to 2026-08-17",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T06:53:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/4f1c6984a2dbb4c8c685d751e23b518a74d40011"
+                },
+                {
                   "sha": "aa93cec",
                   "message": "umurmur: update to 0.4.1",
                   "author": "Martin Johansson",
@@ -1937,27 +1958,6 @@
                   "author": "Christian Korber",
                   "date": "2026-09-07T10:03:33Z",
                   "url": "https://github.com/openwrt/packages/commit/ecb23cd80040c0ac7369fbd96506128ee49e5c57"
-                },
-                {
-                  "sha": "1056fa0",
-                  "message": "apfree-wifidog: update to 9.09.2938",
-                  "author": "Dengfeng Liu",
-                  "date": "2026-09-06T13:00:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/1056fa0f705e8ccdfed3ac252d4fe5e119871a70"
-                },
-                {
-                  "sha": "928ac2b",
-                  "message": "mutt: update to 2.4.2",
-                  "author": "Romain Isnel",
-                  "date": "2026-09-05T15:39:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/928ac2bcb5f1d76377b8ebc0ee966e83c0c2a288"
-                },
-                {
-                  "sha": "b3087fe",
-                  "message": "zabbix: remove unneeded postinsts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-05T15:37:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/b3087fee993569a6955703aeb4a5dd11ac6277f4"
                 }
               ]
             },
@@ -3610,7 +3610,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16109,
+            "stars": 16107,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4217,7 +4217,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt https://t.me/stressozz_manager",
-            "stars": 1800,
+            "stars": 1801,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-09-09T12:13:26Z",
@@ -4573,7 +4573,7 @@
             "stars": 76661,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T05:46:59Z",
+            "pushed_at": "2026-09-10T06:55:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6030525",
-            "branch": "gtk-grafana/dataviz/system-transformations__pipeline",
-            "date": "2026-09-08T20:39:42Z",
-            "url": "https://github.com/grafana/grafana/commit/6030525c408c705f6c3e6e84fa53a25af943c7f0"
+            "sha": "7301918",
+            "branch": "mdv/new-query-errors-inspector-on-icon-click",
+            "date": "2026-09-10T06:55:18Z",
+            "url": "https://github.com/grafana/grafana/commit/73019187ff4bb436ff95e609ea46471c0024cb80"
           }
         },
         {
@@ -4709,7 +4709,7 @@
             "stars": 80470,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T00:21:52Z",
+            "pushed_at": "2026-09-10T06:57:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
