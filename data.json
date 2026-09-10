@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:27:55.855978Z",
+  "generated_at": "2026-09-10T18:33:11.142287Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5033,
+            "stars": 5034,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-09-09T20:19:10Z",
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28353,
+            "stars": 28354,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-10T16:15:57Z",
@@ -1095,7 +1095,7 @@
             "stars": 4604,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T18:02:42Z",
+            "pushed_at": "2026-09-10T18:32:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c65b4d5",
+                  "message": "adblock: update 4.5.8-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-10T18:32:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/c65b4d5ab81fd9d7b9015087ca6b800762962e0b"
+                },
+                {
                   "sha": "b9e0cef",
                   "message": "banip: update 1.8.13-2",
                   "author": "Dirk Brenken",
@@ -1951,13 +1958,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-08T07:52:20Z",
                   "url": "https://github.com/openwrt/packages/commit/675e1f980f45be49fed9a05f44360aef93141631"
-                },
-                {
-                  "sha": "24928ba",
-                  "message": "stress-ng: update to 0.22.00",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-08T07:52:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/24928ba895e4603a6eb1f4e73965db60ea04a10a"
                 }
               ]
             },
@@ -3255,6 +3255,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "d0a1f0b",
+                  "message": "adblock: update 4.5.8-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-10T18:33:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/d0a1f0bc1e287629176eaffccc50536137adb3a9"
+                },
+                {
                   "sha": "3e7a7c5",
                   "message": "banip: update 1.8.13-2",
                   "author": "Dirk Brenken",
@@ -3456,13 +3463,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-03T08:19:42Z",
                   "url": "https://github.com/openwrt/packages/commit/1bf312360b75381310c1de302af6403235def14a"
-                },
-                {
-                  "sha": "d2a84b0",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:19:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/d2a84b0363715c4bfabdb2273dde9232ed37f147"
                 }
               ]
             }
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25273,
+            "stars": 25274,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-10T14:39:23Z",
@@ -4573,7 +4573,7 @@
             "stars": 76678,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T18:27:19Z",
+            "pushed_at": "2026-09-10T18:33:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66026,
+            "stars": 66027,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-10T16:12:45Z",
@@ -4777,7 +4777,7 @@
             "stars": 17692,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T18:27:21Z",
+            "pushed_at": "2026-09-10T18:30:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
