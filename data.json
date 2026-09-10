@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:00:31.598363Z",
+  "generated_at": "2026-09-10T08:05:47.608665Z",
   "groups": [
     {
       "id": "cores",
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28346,
+            "stars": 28347,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-09T22:41:15Z",
@@ -1095,7 +1095,7 @@
             "stars": 4602,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T07:59:03Z",
+            "pushed_at": "2026-09-10T08:04:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "14d1ad4",
+                  "message": "vim: update to 9.2.1014",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-10T08:04:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/14d1ad47f825ba343d683cc26e9ede7ad64c858b"
+                },
+                {
                   "sha": "0e36ae9",
                   "message": "tor: update to 0.4.9.11 stable",
                   "author": "Rui Salvaterra",
@@ -3241,19 +3248,26 @@
                   "author": "Sander van Deijck",
                   "date": "2026-08-11T06:10:23Z",
                   "url": "https://github.com/openwrt/packages/commit/7ce8dcdfadd63c459ee4be94b70bf619207841bc"
-                },
-                {
-                  "sha": "73b468c",
-                  "message": "python-cffi: fix cross-compilation on macOS hosts",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-09T17:12:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/73b468c738b0f9c6302b079543877cd41b0d1420"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "09037d5",
+                  "message": "vim: update to 9.2.1014",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-10T08:04:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/09037d5d6ec4a601c31ccd4dbe4612a2d4d5718a"
+                },
+                {
+                  "sha": "a6ed5f1",
+                  "message": "curl: update to 8.21.0",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-10T08:00:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/a6ed5f1358197dad706b089c99bf8c42e294eaf4"
+                },
                 {
                   "sha": "7712ef3",
                   "message": "tor: update to 0.4.9.11 stable",
@@ -3449,20 +3463,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-09-01T18:46:15Z",
                   "url": "https://github.com/openwrt/packages/commit/6d7dc6d5c0ef7655e53e9077076d931f13bf7ca0"
-                },
-                {
-                  "sha": "8a9680f",
-                  "message": "owut: remove comments and empty lines from the built package",
-                  "author": "Samuele Longhi",
-                  "date": "2026-09-01T12:05:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/8a9680f97421f9bb3ce8c0a0c948921946a7085d"
-                },
-                {
-                  "sha": "d77b592",
-                  "message": "fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-01T09:41:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/d77b592c3d0aa7a7457758e6882751f29259b38c"
                 }
               ]
             }
@@ -4573,7 +4573,7 @@
             "stars": 76666,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T07:52:23Z",
+            "pushed_at": "2026-09-10T08:03:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a45e7d0",
-            "branch": "renovate/openfeature-ofrep-web-provider-0.x-lockfile",
-            "date": "2026-09-08T22:04:10Z",
-            "url": "https://github.com/grafana/grafana/commit/a45e7d0b30deb24f840c83bd544e69b08d64ff2d"
+            "sha": "5741907",
+            "branch": "renovate/react-hook-form-7.x-lockfile",
+            "date": "2026-09-08T22:07:10Z",
+            "url": "https://github.com/grafana/grafana/commit/57419077300e813d395fa803a3c39a11ec2a80bc"
           }
         },
         {
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66018,
+            "stars": 66017,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-10T06:48:19Z",
