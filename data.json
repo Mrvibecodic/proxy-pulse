@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T16:31:57.883525Z",
+  "generated_at": "2026-09-10T16:37:16.389907Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 33977,
+            "stars": 33979,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-10T16:14:11Z",
@@ -570,12 +570,21 @@
             "stars": 10,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-10T16:31:21Z",
+            "pushed_at": "2026-09-10T16:35:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.21-alpha.5",
+              "tag": "android-v0.1.21-alpha.5",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/untagged-263624649f6b5fde9c34",
+              "published_at": "2026-09-10T16:34:40Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Черновик — наполняется сборкой."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.21-alpha.4",
               "tag": "android-v0.1.21-alpha.4",
@@ -611,22 +620,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Приложение меньше работает вхолостую, когда на него никто не смотрит.\n  Проверка узлов запускается там, где её результат виден: при добавлении\n  подписки, при намеренном открытии вкладки «Серверы», при обновлении подписки\n  с главной и когда состав групп действительно поменялся. Залп проверок на\n  каждое включение экрана убран, редкие фоновые обновления счётчиков сведены к\n  одному расписанию.\n- В соединениях для локального порта показывается имя приложения, а не сам порт.\n\n### Исправлено\n\n- Трафик за сессию на главном экране больше не завышен в сто раз.\n- Трафик и остаток по подписке считаются по 1024, как в настольном клиенте:\n  раньше одни и те же байты показывались разными числами в разных местах\n  приложения.\n- Тексты «Запущен» и «Загрузка» в уведомлениях службы больше не зависят от того,\n  какой модуль их запросил: раньше в приложении жили две копии этих строк с\n  разным переводом, и вторая была недостижима."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.20",
-              "tag": "android-v0.1.20",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.20",
-              "published_at": "2026-08-27T22:39:58Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n- Нажатие «Подключить» сразу после выключения снова поднимает туннель. Раньше\n  в первые секунды после остановки нажатие пропадало, подпись оставалась\n  «Отключено», а частые нажатия только удлиняли это окно. По той же причине не\n  срабатывал автоматический перезапуск после смены списка приложений, а нажатия\n  на плитке в шторке и на виджете иногда уходили впустую.\n- Поворот экрана и смена темы больше не запускают проверку задержек заново и не\n  выбрасывают уже измеренные значения: после поворота вкладка «Серверы»\n  показывает те же задержки, а не прочерки.\n- Сбой в одном запросе к службе больше не выключает туннель: раньше редкая\n  ошибка внутри запроса роняла фоновый процесс вместе с ядром.\n- Сворачивание приложения во время обновления подписки больше не обрывает связь\n  со службой посреди работы — приложение дожидается её завершения.\n- Одно необработанное падение в фоне больше не выключает виджет и обработку\n  системных событий до перезапуска приложения.\n- Если служба перезапустилась посреди изменения подписки, приложение показывает\n  ошибку вместо того, чтобы молча выполнить всё второй раз: добавление,\n  обновление, правка и удаление подписки больше не могут случиться дважды.\n- Главный экран переживает ошибку связи со службой: раньше он мог молча\n  перестать отвечать на нажатия и обновления до перезахода в приложение."
             }
           ],
           "last_commit": {
-            "sha": "16c35bc",
+            "sha": "91f28ea",
             "branch": "main",
-            "date": "2026-09-10T13:58:39Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/16c35bcc90a1b736a3bcbfc89835051b111c6678"
+            "date": "2026-09-10T16:35:20Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/91f28ea376937849adf6bc56cacadae75aeb567c"
           }
         },
         {
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d1904f7",
-            "branch": "matyax/logs-table-keyboard-navigation-2",
-            "date": "2026-09-10T16:31:10Z",
-            "url": "https://github.com/grafana/grafana/commit/d1904f7e890edb24ffdc17365adba4733b6987e7"
+            "sha": "8923221",
+            "branch": "ifrost/unify-edit-as-code",
+            "date": "2026-09-08T21:57:06Z",
+            "url": "https://github.com/grafana/grafana/commit/8923221b4475d1ddd8eb02dff86c89e6972ea690"
           }
         },
         {
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88b97ef",
-            "branch": "hide-pushmetrics.header",
-            "date": "2026-09-10T10:34:54Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/88b97ef08894ab6ecde25b7cce333131f94bdc11"
+            "sha": "5fdd26e",
+            "branch": "issue-11252",
+            "date": "2026-09-09T08:30:28Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/5fdd26eb062048b9de4d0964c39b7e95d490dda9"
           }
         }
       ]
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
