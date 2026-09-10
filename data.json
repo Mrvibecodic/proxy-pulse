@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:16:19.821812Z",
+  "generated_at": "2026-09-10T08:21:36.555680Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4602,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T08:12:08Z",
+            "pushed_at": "2026-09-10T08:20:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bc8c5e8",
+                  "message": "mariadb: init - check file versions",
+                  "author": "Daniel Black",
+                  "date": "2026-09-10T08:20:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/bc8c5e84c140449ea54fb29871f731aae25220f2"
+                },
+                {
                   "sha": "66d20fb",
                   "message": "openldap: update to 2.6.14",
                   "author": "Romain Isnel",
@@ -1951,13 +1958,6 @@
                   "author": "Jimmy Qin",
                   "date": "2026-09-07T10:11:58Z",
                   "url": "https://github.com/openwrt/packages/commit/889e13400748cf739fcb1a04b7e573de7370b35d"
-                },
-                {
-                  "sha": "4c19a2e",
-                  "message": "ufp: bump PKG_RELEASE",
-                  "author": "Christian Korber",
-                  "date": "2026-09-07T10:03:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/4c19a2ea6b2315174c5c906fca18c4a4cd35bb98"
                 }
               ]
             },
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91198,
+            "stars": 91199,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-10T05:12:39Z",
@@ -5186,10 +5186,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d32cb82",
-            "branch": "feat_support_hidden_containers_via_labels_and_compose_metadata",
-            "date": "2026-09-08T21:59:12Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/d32cb82b27052e2e96c35bf7e326ee18c20478e7"
+            "sha": "6a9ff7a",
+            "branch": "main",
+            "date": "2026-09-10T03:11:01Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/6a9ff7aa64fbec74e379b5dc9622699189093d73"
           }
         }
       ]
