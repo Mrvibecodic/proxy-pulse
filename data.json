@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T07:55:16.023377Z",
+  "generated_at": "2026-09-10T08:00:31.598363Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41498,
+            "stars": 41497,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-08T22:28:10Z",
@@ -1095,7 +1095,7 @@
             "stars": 4602,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-10T06:53:25Z",
+            "pushed_at": "2026-09-10T07:59:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,48 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "0e36ae9",
+                  "message": "tor: update to 0.4.9.11 stable",
+                  "author": "Rui Salvaterra",
+                  "date": "2026-09-10T07:58:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/0e36ae995c9ff209022188199d66303f63d74310"
+                },
+                {
+                  "sha": "7150a7c",
+                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:57:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/7150a7cf496a5f625d0bd90631e105ac4a19f6ea"
+                },
+                {
+                  "sha": "68b23b7",
+                  "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:56:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/68b23b746424ce290b73a83b63fd9719e0f743f9"
+                },
+                {
+                  "sha": "eceb9ba",
+                  "message": "tvheadend: drop the handwritten version override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/eceb9ba8f9c855c4669b0e602d20f1c90f69d517"
+                },
+                {
+                  "sha": "57f095a",
+                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/57f095a9bc181fb3c66e96af06c874cb1bc7e48e"
+                },
+                {
+                  "sha": "3599a82",
+                  "message": "tvheadend: update to 2026-08-17",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:55:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/3599a82683928a70e0fde20d80be6bbcd169e5c9"
+                },
+                {
                   "sha": "5967138",
                   "message": "librespeed-cli: fix upload speed being overestimated",
                   "author": "Josef Schlehofer",
@@ -3206,54 +3248,33 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-09T17:12:05Z",
                   "url": "https://github.com/openwrt/packages/commit/73b468c738b0f9c6302b079543877cd41b0d1420"
-                },
-                {
-                  "sha": "cba4622",
-                  "message": "hev-socks5-server: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:11:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/cba46226f6a18de679c94f4c8ae8e2f00470b6f9"
-                },
-                {
-                  "sha": "adb2b45",
-                  "message": "hev-socks5-tproxy: update to 2.13.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:11:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/adb2b4511a1da3bfa693950ceb2a00abcd3498ec"
-                },
-                {
-                  "sha": "fc16100",
-                  "message": "hev-socks5-tproxy: update to 2.12.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:11:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc16100a6efad16a0e51e5d1bb24a9d24f9f5335"
-                },
-                {
-                  "sha": "412c6ae",
-                  "message": "hev-socks5-tunnel: update to 2.17.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:11:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/412c6ae429628d8b3d7a540ee8de723a5b663204"
-                },
-                {
-                  "sha": "d396866",
-                  "message": "hev-socks5-tunnel: update to 2.16.0",
-                  "author": "Ray Wang",
-                  "date": "2026-08-09T17:11:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/d396866f7d95b0f17df700df0d4ab06729c04f84"
-                },
-                {
-                  "sha": "fd6dc0f",
-                  "message": "nano: update to 9.2",
-                  "author": "Hannu Nyman",
-                  "date": "2026-08-03T15:13:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/fd6dc0fabd57f45d9b3d6f75bbe2f648f733fbf5"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "7712ef3",
+                  "message": "tor: update to 0.4.9.11 stable",
+                  "author": "Rui Salvaterra",
+                  "date": "2026-09-10T07:58:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/7712ef3b6b24799ea41a31b3bc01d1bc0c1d729f"
+                },
+                {
+                  "sha": "098d69a",
+                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:57:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/098d69a3df96a69920b40d75694dbace000ea76f"
+                },
+                {
+                  "sha": "6958f54",
+                  "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-10T07:57:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/6958f54ce099d979a8fb1b4b412bb0e61fd4a642"
+                },
                 {
                   "sha": "63fb07b",
                   "message": "tvheadend: drop the handwritten version override",
@@ -3442,27 +3463,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-01T09:41:08Z",
                   "url": "https://github.com/openwrt/packages/commit/d77b592c3d0aa7a7457758e6882751f29259b38c"
-                },
-                {
-                  "sha": "da7619c",
-                  "message": "fluent-bit: add init script",
-                  "author": "Sebastian Hamann",
-                  "date": "2026-09-01T09:41:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/da7619c629368275f62f9326a3a15c2c724db2a2"
-                },
-                {
-                  "sha": "e1792c6",
-                  "message": "fluent-bit: update to 5.0.8, adopt maintainer, fix musl startup segfault",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-01T09:41:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/e1792c6acfb1066021705cdd90d9a0cdd21ad3f3"
-                },
-                {
-                  "sha": "ce07eb6",
-                  "message": "net/acme-acmesh: prevent concurrent execution of acme.sh instances",
-                  "author": "Toke Høiland-Jørgensen",
-                  "date": "2026-09-01T07:21:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/ce07eb65e4d4895525790a52f3b7f040e6f71335"
                 }
               ]
             }
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25255,
+            "stars": 25257,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-10T01:46:11Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "925d346",
-            "branch": "gtk-grafana/dataviz/system-transformations__editor-ui",
-            "date": "2026-09-10T02:22:47Z",
-            "url": "https://github.com/grafana/grafana/commit/925d3465cae7957f524338cddc753d41ab13ba30"
+            "sha": "a45e7d0",
+            "branch": "renovate/openfeature-ofrep-web-provider-0.x-lockfile",
+            "date": "2026-09-08T22:04:10Z",
+            "url": "https://github.com/grafana/grafana/commit/a45e7d0b30deb24f840c83bd544e69b08d64ff2d"
           }
         },
         {
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e70b139",
-            "branch": "gh-pages-no-fonts",
+            "sha": "1557596",
+            "branch": "gh-pages",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
+            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
           }
         },
         {
@@ -5186,10 +5186,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b8ccef5",
-            "branch": "dependabot-go_modules-backend-golang.org-x-sync-0.23.0",
-            "date": "2026-09-10T02:42:27Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/b8ccef54dce906491dff8d4a432b783889e55cff"
+            "sha": "d32cb82",
+            "branch": "feat_support_hidden_containers_via_labels_and_compose_metadata",
+            "date": "2026-09-08T21:59:12Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/d32cb82b27052e2e96c35bf7e326ee18c20478e7"
           }
         }
       ]
