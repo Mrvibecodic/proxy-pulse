@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T10:06:57.825798Z",
+  "generated_at": "2026-09-11T10:12:12.892715Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41527,
+            "stars": 41526,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-11T00:20:03Z",
@@ -1027,7 +1027,7 @@
             "stars": 28359,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-11T08:37:39Z",
+            "pushed_at": "2026-09-11T10:09:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1080,10 +1080,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c2864bc",
-            "branch": "openwrt-25.12",
-            "date": "2026-09-11T08:37:40Z",
-            "url": "https://github.com/openwrt/openwrt/commit/c2864bc7801bcb83950758879ac58c1bf6f8e8aa"
+            "sha": "d5658da",
+            "branch": "master",
+            "date": "2026-09-11T10:10:00Z",
+            "url": "https://github.com/openwrt/openwrt/commit/d5658dac8c7e1722a6bd9316a50787bb046e6d8d"
           }
         },
         {
@@ -3542,7 +3542,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 617,
+            "stars": 618,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4437,12 +4437,21 @@
             "stars": 91248,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-09-11T10:00:57Z",
+            "pushed_at": "2026-09-11T10:09:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.4",
+              "tag": "2.5.4",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.4",
+              "published_at": "2026-09-11T10:09:10Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🆕 New Features\r\n- #7801 feat(notification): add Signalgrid as notification provider (Thanks @signalgridco)\r\n- #7740 feat: add Notify! notification provider (Thanks @simplytoast1)\r\n- #7719 feat: add Amoot SMS notification provider (Thanks @sina3sd)\r\n- #7637 fix: omit content headers from cached 304 responses (Thanks @cyphercodes)\r\n- #7034 feat: add SFTP monitor type with password and private key authentication (Thanks @eXtgmA)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7672 feat(auth): hide/show password toggle in login page (Thanks @kilian-nagel)\r\n\r\n### 🐞 Bug Fixes\r\n- #7820 fix(real-browser): always close browser context (Thanks @EmptyPerson)\r\n- #7787 fix: iOS PWA icon has black background (Thanks @konstantintutsch)\r\n- #7739 fix: the two ping timeout ceilings were swapped in the monitor form (Thanks @evnchn)\r\n- #7718 fix:  move afterCreate to initial mariadb pool config (Thanks @otbutz)\r\n- #7690 fix: accepted status codes custom range discarded on tag creation (Thanks @AmanUllah687)\r\n\r\n### ⬆️ Security Fixes\r\n- #7838 fix: bump jsonata to 2.2.2 (CVE-2026-77415) (Thanks @Fierygit @cursoragent)\r\n- GHSA-wf2j-5mc7-5c4w DoS weakness\r\n\r\n### 🦎 Translation Contributions\r\n- #7812 #7757 chore: Translations Update from Weblate (Thanks @12LuA @aindriu80 @Aluisio @AnnAngela @AntonPalmqvist @cyril59310 @dodog @Gringit @helakostain @jamalkamaladdin @Kodashas @mcasellas @ueskici @xavivars)\r\n\r\n\r\n\r\n"
+            },
             {
               "name": "2.5.3",
               "tag": "2.5.3",
@@ -4478,15 +4487,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "## 2.5.0\r\n\r\n### Uncategorized\r\n\r\n### 🆕 New Features\r\n- #7645 Add `next-rootless` docker tag \r\n- #7607 feat: allow unlimited interval rather than 24 days \r\n- #7597 feat: add voice call option to Plivo notification provider (Thanks @sarveshpatil-plivo)\r\n- #7584 feat: add Plivo SMS notification provider (Thanks @sarveshpatil-plivo)\r\n- #7571 feat: add Ooredoo (Maldives) SMS notification provider (Thanks @islandboymv)\r\n- #7569 feat: Add WxPusher SPT (WxPusher simple push token) notification provider (Thanks @zjiecode)\r\n- #7546 feat: add Flowtriq DDoS detection notification provider (Thanks @jacob-masse @FlyingDove2493)\r\n- #7525 feat: add tracking support on status pages for rybbit analytics (Thanks @DanielOberlechner)\r\n- #7506 feat(notification): add additional headers option for SMTP (Thanks @dnagy)\r\n- #7214 feat: add NTP monitor type for network time protocol monitoring (Thanks @henricook)\r\n- #7114 feat(system-service): add PM2 picker and platform selection (Thanks @KraoESPfan1n)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n### 🐞 Bug Fixes\r\n- #7654 fix: correct 12 spelling errors across codebase (Thanks @jannikbx)\r\n- #7641 fix: RSS service status description is wrong \r\n- #7618 fix: widen stat_daily up/down columns from SMALLINT to unsigned INTEGER (Thanks @kushiemoon-dev)\r\n- #7599 fix: reduce rate-limit log spam when quota is healthy (Thanks @hexonal)\r\n- #7590 fix: double // in badgeUrl breaking Badge generator functionality (Thanks @jaimeagudo)\r\n- #7588 fix(domain-expiry): clarify unsupported RDAP warning (Thanks @arturict)\r\n- #7542 fix: resolve Steam monitor hostnames (Thanks @yuminn-k)\r\n- #7520 fix(discord): timezone with `dayjs.utc()` (Thanks @skkzsh)\r\n- #7516 fix: omit resolver port from DNS monitor service URL (Thanks @skkzsh)\r\n- #7515 fix(monitor): screenshot_delay not saved when editing browser engine monitor (Thanks @GhadiSaab)\r\n- #7472 fix: add timeout functionality to kafka (Thanks @jfgsilva)\r\n- #7465 fix: preserve saved protocol when loading Globalping ping monitor (Thanks @titojuanc)\r\n- #7460 fix: prevent tags dropdown from overflowing viewport (Thanks @Subrat-Dwivedi-22)\r\n- #7290 fix: allow mqtts:// in MQTT monitor (Thanks @Mrstragr @chennin)\r\n\r\n### ⬆️ Security Fixes\r\n- #7538 #7349 chore: Update dependencies \r\n- #7508 chore: Set 14 days cooldown for npm update to mininize the supply-chain-attack \r\n\r\n### 🦎 Translation Contributions\r\n- #7521 #7477 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @AntonPalmqvist @arcanjobr @bill162 @ctih1 @cyril59310 @dodog @firedur @Goudarz @Gringit @helakostain @ivanbratovic @kamine81 @kiznick @Mr-Mmmc @MrEddX @OnyxOracle @PolarniMeda @ramazansancar @samsilveira @superpep)\r\n\r\n### Others\r\n- #7544 chore: change analytics_type to string type from enum \r\n- #7543 chore: add build \"pr-test\" workflow, add a message for testing to new pr. \r\n- #7541 chore: Add an ability to enable node.js inspector \r\n- #7535 chore: Remove meaningless entries from en.json \r\n- #7496 chore: Login form minor changes \r\n\r\n"
-            },
-            {
-              "name": "2.4.0",
-              "tag": "2.4.0",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.4.0",
-              "published_at": "2026-05-31T00:55:12Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7434 feat(notification): add EgoSMS SMS provider for Uganda (Thanks @kristianinc @cursoragent)\r\n- #7420 feat: Add incidents to RSS (Thanks @dj-tuxis)\r\n- #7365 feat: Add VKTeams bot notification provider (Thanks @aleshasam)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7433 feat: add optional token field for gamedig monitors (Thanks @aminoacidity)\r\n- #7415 feat: Adding bearer token  (Thanks @aminoacidity @nyeswant)\r\n- #7431 fix: Add bearer token support to WebSocket upgrade monitor (Thanks @aminoacidity @nyeswant)\r\n- #7373 fix: update link to documentation about API keys (Thanks @eleanordoesntcode)\r\n\r\n### 🐞 Bug Fixes\r\n- ~#7453 fix(docker-only): add Let's Encrypt Gen Y root certificates~ (Please ignore this change)\r\n- #7451 fix: handling npm 11.16.0 \r\n- #7351 fix: NTLM monitor over plain HTTP fails with 400 Bad Request (Thanks @karzac)\r\n\r\n### ⬆️ Security Fixes\r\n-  (Admin only/Authenticated only) Fix: LiquidJS is Vulnerable to Remote Code Execution, a vulnerability from an upstream dependency. In Uptime Kuma, LiquidJS should be used in notification template. (https://github.com/advisories/GHSA-gf2q-c269-pqgc)\r\n\r\n### 🦎 Translation Contributions\r\n- #7366 #7353 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @Arden-Ahmad @bartoostveen @cyril59310 @dodog @Gringit @helakostain @ivanbratovic @Jumala9163 @Kf637 @master3395 @MrEddX @OnyxOracle @PolarniMeda @samsilveira @toniv90 @ttymayor @Virenbar @xuantan97)\r\n\r\n### Others\r\n- #7432 chore: Implement dev data directory handling for non-master branches \r\n- #7390 fix: normalize hidden log level lookup (Thanks @aqilaziz)"
             }
           ],
           "last_commit": {
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25288,
+            "stars": 25289,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-10T23:39:41Z",
@@ -4573,7 +4573,7 @@
             "stars": 76691,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-11T10:06:13Z",
+            "pushed_at": "2026-09-11T10:08:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "24fefeb",
-            "branch": "gtk-grafana/dataviz/system-transformations__pipeline",
-            "date": "2026-09-10T02:23:58Z",
-            "url": "https://github.com/grafana/grafana/commit/24fefeb2c03587d63a9841566d4cfd2208576ecf"
+            "sha": "c0f9e1d",
+            "branch": "router-service-cleanup",
+            "date": "2026-09-11T05:04:03Z",
+            "url": "https://github.com/grafana/grafana/commit/c0f9e1d28be45b931970ebcaa1f8e22a1d40ba4a"
           }
         },
         {
@@ -4777,7 +4777,7 @@
             "stars": 17696,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-11T10:00:01Z",
+            "pushed_at": "2026-09-11T10:10:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e70b139",
-            "branch": "gh-pages-no-fonts",
+            "sha": "1557596",
+            "branch": "gh-pages",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
+            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
           }
         },
         {
