@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T01:11:51.272386Z",
+  "generated_at": "2026-09-12T01:17:05.560716Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "52a412d",
-            "branch": "main",
-            "date": "2026-09-08T22:25:43Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120"
+            "sha": "953f82d",
+            "branch": "xdrive",
+            "date": "2026-09-11T00:20:03Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/953f82d46e507beacdaf8bc6a5e63e363136fa53"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34012,
+            "stars": 34013,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-11T02:20:09Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b78e524",
-            "branch": "codex/embedding-sweep-retries",
-            "date": "2026-09-11T18:16:16Z",
-            "url": "https://github.com/grafana/grafana/commit/b78e5249329fbeaa89eb2801eef49c76e263b1c1"
+            "sha": "4a6dee4",
+            "branch": "evictorero/notebook-view-exposed-component",
+            "date": "2026-09-11T18:38:49Z",
+            "url": "https://github.com/grafana/grafana/commit/4a6dee40ea4a7c1a5bf39c0282233e817ca6ac30"
           }
         },
         {
@@ -4762,10 +4762,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b65ba3f",
-            "branch": "master",
-            "date": "2026-09-10T19:41:34Z",
-            "url": "https://github.com/netdata/netdata/commit/b65ba3fdb5aead9b259919eefbf6a60d04b90441"
+            "sha": "e34abd5",
+            "branch": "fix/topology-typed-set-validation",
+            "date": "2026-09-11T18:35:20Z",
+            "url": "https://github.com/netdata/netdata/commit/e34abd5c2979f829e0012a56abb5b33f72c70b55"
           }
         },
         {
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
@@ -5139,6 +5139,15 @@
             "owner": "getarcaneapp"
           },
           "releases": [
+            {
+              "name": "v2.11.0",
+              "tag": "v2.11.0",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.11.0",
+              "published_at": "2026-09-12T01:15:38Z",
+              "prerelease": false,
+              "author": "kmendell",
+              "body": "\u003e [!NOTE]\n\u003e This release adds durable job execution, Docker event streaming, label-based container management, non-UTF-8 workspace uploads, and improved backup recovery. It also improves synchronization, auto-update recovery, project workflows, frontend performance, and error reporting.\n\n### Features and improvements\n\n- Added durable job execution with offline recovery (`58823c2ac4afd674f88bccee38b5da9e985da335`, #3863) (@kmendell).\n- Streamed Docker daemon events to the Arcane event log (`2a61718a3af98393ddcdef40d02d30fe416c70ec`, #3862) (@kmendell).\n- Added tag-based container updates (`f8f456a62b866108b3c8c433cb04f8d6f6c119bb`, #3865) (@kmendell).\n- Added filtering for containers and projects by labels, plus support for hiding containers through labels and Compose metadata (`5dfd281c628bac0b4880c465bd629040d94a301e`, #3874; `6006dbefd64e437e4935c80e38006b96d53c4b93`, #3875) (@kmendell).\n- Added support for uploading non-UTF-8 workspace files (`a38a0a2fbff09efeeda6430be15c933af00719fe`, #3859) (@neurekadev).\n- Linked Git-managed projects and synced files to their repositories (`6eed748e3fc976ebeaa8a227239ec8b7565ad86d`, #3879) (@FusselTV).\n- Added backup recovery key import and reset confirmation controls (`16db5a33747b49350407073aa0040baa5e151947`, #3884) (@neurekadev).\n- Improved environment synchronization by surfacing failures and recording manual sync activity (`c6ad1016d913efd100260967dc1a5da8cacb7e32`, #3854) (@kmendell).\n- Improved auto-update recovery, job activity integration, and per-container outcome reporting (`5d055f66d796ca79aabf59adfd3d4b7c3986404e`, #3867; `472b50ed15b7d550eee0173e01f1f77a129601bb`, #3872) (@kmendell).\n- Improved user validation and password policy feedback (`832cf6eca30be8fbf5f3eb19786f5d8a16c43751`, #3851) (@baejihoon).\n- Improved frontend table scrolling while preserving glass effects (`ca9917fc5cbdd462734754409c5657908bd30475`) (@kmendell).\n- Improved Easy Join discovery on non-manager environments (`436e20bcee37138fc369eecf02eab6b5f682ace2`, #3902) (@kmendell).\n- Improved diagnostics for projects with unreadable `.env` files (`e8c92c5e6bae99251268749c4d16c53ecbebd16f`, #3909) (@kmendell).\n\n### Fixes\n\n- Surfaced JWKS initialization errors instead of readiness timeouts (`eeb79a68e86702825eca2531b933c9bd801d6201`) (@kmendell).\n- Normalized identity and display text with Kit struct tags (`b51613f2c6d389e20be507be5db1f53f48600ac6`, #3856) (@kmendell).\n- Detected missing S3 repositories and paused remote backups (`4ff83971e1a20c80ceceba27153549047461898d`, #3869) (@kmendell).\n- Enforced administrator requirements for environment tokens (`4fe4c7ed9483dff7d43e3c4bee6a92037ce886b4`, #3881) (@kmendell).\n- Added missing edge tunnel routes (`88514f756319179e407c96a5b9226825944ccdc0`) (@kmendell).\n- Clarified credential requirements when changing repository URLs (`2081406e035b0f761533fa23fdae5e5c810ecdb7`, #3886) (@kmendell).\n- Fixed mobile navigation label stacking (`de66d6330d6cf19584b38aa201ae56f8047ebda1`) (@kmendell).\n\n### Refactoring\n\n- Centralized Compose workflows and consolidated project files (`9b45fd5572e59b0696ebfcb61a7d7a983ea0b4ce`, #3860) (@kmendell).\n- Consolidated frontend components (`1ad4f285c5a2b8ac471c9fa1b1100b1ab773d5fa`, #3864) (@kmendell).\n- Adopted Echo request IDs and SPA static middleware (`f8e4f75473950f4772bb141a8554ce22d9d99393`, #3873) (@kmendell).\n- Replaced `svelte-check-rs` with the official `svelte-check` (`3dac10c2d53e2cae90e63b18e468c9263347c693`) (@kmendell).\n- Cleaned up effect usage and adopted proper Svelte reactivity (`5df09ed475c4bac4ab6f54e1b9bdde1ac1c55105`, #3904) (@kmendell).\n- Aligned frontend stores and attachments with Svelte best practices (`2d0ac4a8c93c04d5657a7c3c5880b739703bc8cd`, #3907) (@kmendell).\n\n### Dependencies\n\n- Updated `go.getarcane.app/acfs` to v0.6.0 (`5ba5ad4d20d8302051112c9c18ad29edc90c2d9f`, #3857) (@kmendell).\n- Updated `charm.land/log/v2` from 2.0.0 to 2.0.1 (`57bd14795309fe11901cef510dc1cf8332c9a984`, #3890) (@dependabot[bot]).\n- Updated `github.com/containerd/containerd/v2` from 2.3.4 to 2.3.5 (`a8bf2eee2bf1f197cd254b356e89d80c3df08e3f`, #3895) (@dependabot[bot]).\n- Updated `golang.org/x/time` from 0.15.0 to 0.16.0 (`34e73a4648f34205a86f3bb460b0626307d72c8e`, #3894) (@dependabot[bot]).\n- Updated `golang.org/x/sys` from 0.47.0 to 0.48.0 (`987548b2a807d8d0916592faab55c589abb74a68`, #3889) (@dependabot[bot]).\n- Updated `golang.org/x/oauth2` from 0.36.0 to 0.37.0 (`6a9ff7aa64fbec74e379b5dc9622699189093d73`, #3892) (@dependabot[bot]).\n- Updated `golang.org/x/sync` from 0.22.0 to 0.23.0 (`a50ab984528cf443c07e1a58052a09af2632dd63`, #3893) (@dependabot[bot]).\n- Updated `golang.org/x/mod` from 0.40.0 to 0.41.0 (`a423806a3f1c99073382c6e3b0ce5184aecdd52b`, #3888) (@dependabot[bot]).\n- Updated `modernc.org/sqlite` from 1.57.0 to 1.58.0 (`da6712ddfee61340f5286aa9982fd5f8f87bc647`, #3891) (@dependabot[bot]).\n\n"
+            },
             {
               "name": "v2.10.2",
               "tag": "v2.10.2",
@@ -5174,15 +5183,6 @@
               "prerelease": false,
               "author": "kmendell",
               "body": "\u003e [!NOTE]\n\u003e This release adds automated S3 backups, standalone container editing, batched container-update notifications, and GitOps redeployment for stopped projects.\n\u003e It also expands the CLI with commands for vulnerabilities, activities, and webhooks while improving project handling, OIDC support, and API behavior.\n\n## Features\n\n- Add automated S3 backups — `555c5dfbac478e7bbe336fff29cfe4d6277b2d6d` (#3459) (@affeldt28)\n- Batch container-update notifications — `0239f62b45c7b2d485285a54fc54e44b6a0721e8` (#3650) (@wyx1818)\n- Add the ability to edit standalone containers — `24894fc7310b747e95d2b5d59e0a5100bb8bf12f` (#3646) (@kmendell)\n- Add renaming for unused volumes — `1e413ada2f2413fa2a7c97798288b73ddb9d6b6c` (#3704) (@neurekadev)\n- Pull and redeploy images after GitOps sync for stopped projects — `f17e84412ae41dac1945f5b6896bafce8c244bb9` (#3698) (@ohOgil)\n- Add CLI commands for the latest server features and adopt hyphen-free command naming — `d84511b8d67bef5fe3117832c9173ecc987e38da` (@kmendell)\n- Add CLI commands for vulnerabilities, activities, and webhooks with end-to-end coverage — `f4f9df0e8f1373a9e7fcba145383fcda8b4b3fc2` (@kmendell)\n\n## Fixes\n\n- Ensure stable ordering for page walks without an explicit sort — `bf783a828ef816acf789851dffb2b8b8ed249450` (#3648) (@kmendell)\n- Percent-decode API path parameters before use — `c469305cdacf49b80f7f5639f00eef597c1ca102` (#3682) (@kmendell)\n- Show Git-synced project files as read-only instead of hiding them or crashing — `da21e2694754434d9b6b936834aed44173378ef1` (#3690) (@kmendell)\n- Send the build directive for projects from the backend — `53017c67cf91656965d667bf23e80dc0b46bd482` (#3691) (@kmendell)\n- Allow assigning roles to OIDC users and handle username collisions during OIDC login — `c38c2580fb14f8a8f15f74ef9203bfdb9896c466` (#3692) (@kmendell)\n- Make the update-all dialog scroll correctly with large fleets — `b7a619b2c7f8f08f05cc78f3db51ac6aa63e9ef4` (@kmendell)\n- Validate cgroup-derived container IDs during self-detection with `network_mode: service` — `c24013107eff0adba0813b66b50350a03a487895` (#3710) (@kmendell)\n- Handle updates to discovered Compose projects — `275aface140f0d41e67adef402859f8a2a6ba207` (#3711) (@kmendell)\n\n## Refactoring\n\n- Upgrade to Go 1.27.0 — `b22edb6909c5497f3e72e27d4570551c7fb2fe91` (#3680) (@kmendell)\n- Use native Temporal for time and date parsing — `60c2dee13cd9405175b6e0a5d65053724bb005cd` (#3714) (@kmendell)\n- Use AI generation for GitHub release notes — `2240e8f0c7a49331f3ba7e385d7b793b844fbcaa` (#3739) (@kmendell)\n\n## Dependency updates\n\n- Bump `@sveltejs/kit` from 3.0.0-next.21 to 3.0.0-next.23, then to 3.0.0-next.25 — `cd8c48b36c926a5342a5b83f373269e4ec4093a1` (#3672), `70475a2cf7ca52f2d017422551ce645e4507aaa4` (#3727) (@dependabot[bot])\n- Bump `svelte` from 5.56.8 to 5.56.9, then to 5.56.10 — `d4d83941e2685a2273a6437670d17b71816d5620` (#3666), `1478dd7df710c42161b16f7cb07be79193e7570b` (#3724) (@dependabot[bot])\n- Bump `svelte-sonner` from 1.1.1 to 1.2.1 — `39ce639ebe506fb4b825fd08335a98bc55a7efd1` (#3670) (@dependabot[bot])\n- Bump `@xyflow/svelte` from 1.6.2 to 1.6.3 — `a59e1e8cdc38513921dc01c4e686581e208fd10d` (#3668) (@dependabot[bot])\n- Bump `charm.land/lipgloss/v2` from 2.0.5 to 2.0.6 in the CLI — `98f5cac2359a4b5dd42355b9c4da24ebc1a1739d` (#3662) (@dependabot[bot])\n- Bump `@codemirror/view` from 6.43.8 to 6.43.9 — `f2f34fac879a920afa772c0a6f0b509b7a74c478` (#3664) (@dependabot[bot])\n- Bump the AWS SDK for Go v2 dependency group with five updates in the backend — `ffc1f128f487d1942f56c636c1daeba757649e57` (#3731) (@dependabot[bot])\n- Bump `github.com/samber/slog-echo/v2` from 2.0.0 to 2.1.0 in the backend — `6c3f58f2b29acfb341d2071857e089b68f69529d` (#3735) (@dependabot[bot])\n- Bump `go.getarcane.app/acfs` from 0.4.1 to 0.4.2 in the CLI and backend — `65b97153f05e20107ca04c70c60f3c1210409ac3` (#3722), `8087a444b343b9e8099df3a40d3a6fbb67c85441` (#3732) (@dependabot[bot])\n- Bump `github.com/mattn/go-runewidth` from 0.0.27 to 0.0.28 in the CLI — `3f43202a9c7550d087f60077a53ae59616b925f7` (#3719) (@dependabot[bot])\n- Bump `go.getarcane.app/updater` from 0.7.2 to 0.7.3 in the backend — `d9b58268878a9a3de48013a6aa6d1f2b1681112b` (#3733) (@dependabot[bot])\n- Bump `go.getarcane.app/docker/convert` from 0.1.0 to 0.2.0 in the backend — `8d52e7a704f675fcc01a31a72b29b9a8e5799011` (#3734) (@dependabot[bot])\n- Bump `charm.land/bubbletea/v2` from 2.0.8 to 2.0.9 in the CLI — `f012dbf16a2473a78fa9c44e6b2e7c384e522679` (#3720) (@dependabot[bot])\n- Bump `charm.land/bubbles/v2` from 2.1.1 to 2.2.0 in the CLI — `29c5dc6afd682d08a26185ec5aa07a88e17ac6f9` (#3721) (@dependabot[bot])\n- Bump `@tanstack/svelte-query` from 6.1.38 to 6.1.39 — `d200e9f73555d23b26a7e80270283fa3a9302213` (#3725) (@dependabot[bot])\n- Bump `bits-ui` from 2.18.1 to 2.19.0 — `3646524258861b2f6d67f7bd67be4b96a830e0c0` (#3728) (@dependabot[bot])\n- Bump `marked` from 18.0.9 to 18.0.10 — `82a2771040785fd68d44d1c66d8691543b3c4d7a` (#3729) (@dependabot[bot])\n- Bump `vite-plus` to 0.3.0 — `f3002cbd30db67f0bd4e05feaf9dec830b1b35a3` (@kmendell)\n- Bump `@tanstack/virtual-core` from 3.17.7 to 3.17.8 — `ea1ab4b086e857166bdff9f43fabb92f7cdb7360` (#3723) (@dependabot[bot])\n\n"
-            },
-            {
-              "name": "v2.8.1",
-              "tag": "v2.8.1",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.8.1",
-              "published_at": "2026-08-19T01:33:15Z",
-              "prerelease": false,
-              "author": "kmendell",
-              "body": "\n### Bug fixes\n\n* report never-pulled image refs as a distinct 'not pulled' state instead of failing the update check ([#3631](https://github.com/getarcaneapp/arcane/pull/3631) by @kmendell)\n* localize category cards ([#3596](https://github.com/getarcaneapp/arcane/pull/3596) by @InfinityPacer)\n* coalesce concurrent Docker image/container list calls to cut duplicate decodes ([#3635](https://github.com/getarcaneapp/arcane/pull/3635) by @kmendell)\n* gate project archiving on live Docker state instead of stale persisted status([c487936](https://github.com/getarcaneapp/arcane/commit/c487936819c6dfbc8ed651293f149d89bf76edfd) by @kmendell)\n* use stored credentials for non-Docker Hub registries ([#3639](https://github.com/getarcaneapp/arcane/pull/3639) by @BobzTH)\n* add missing options to project redeploy dropdown([f7cb885](https://github.com/getarcaneapp/arcane/commit/f7cb8856213112e994132dbf8380bfca91dd4ecf) by @kmendell)\n* go1.26.6 h2c ReadHeaderTimeout regression([6d4f222](https://github.com/getarcaneapp/arcane/commit/6d4f222389cfa48e52d575bc3ae4a459904053cc) by @kmendell)\n* use errors.Is(err, fs.ErrNotExist) for acfs error checks ([#3647](https://github.com/getarcaneapp/arcane/pull/3647) by @rohitkumbhar)\n* unblock git sync workspaces and pre-deploy hooks on permission edges ([#3637](https://github.com/getarcaneapp/arcane/pull/3637) by @kmendell)\n\n### Dependencies\n\n* bump the aws-sdk-go-v2 group in /backend with 3 updates ([#3616](https://github.com/getarcaneapp/arcane/pull/3616) by @dependabot[bot])\n* bump golang.org/x/mod from 0.38.0 to 0.39.0 in /backend ([#3618](https://github.com/getarcaneapp/arcane/pull/3618) by @dependabot[bot])\n* bump the tanstack-table group across 1 directory with 2 updates ([#3613](https://github.com/getarcaneapp/arcane/pull/3613) by @dependabot[bot])\n* bump github.com/docker/compose to v5.5.0 ([#3643](https://github.com/getarcaneapp/arcane/pull/3643) by @kmendell)\n* bump to go v1.26.6([ce37184](https://github.com/getarcaneapp/arcane/commit/ce371847f03e061e4adabdbaf36b52933512b9cb) by @kmendell)\n\n### Other\n\n* move models into standalone domain packages ([#3636](https://github.com/getarcaneapp/arcane/pull/3636) by @kmendell)\n\n\n\n**Full Changelog**: https://github.com/getarcaneapp/arcane/compare/v2.8.0...v2.8.1"
             }
           ],
           "last_commit": {
