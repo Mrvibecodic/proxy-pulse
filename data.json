@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T13:25:37.092097Z",
+  "generated_at": "2026-09-12T13:30:51.687364Z",
   "groups": [
     {
       "id": "cores",
@@ -4570,7 +4570,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76708,
+            "stars": 76709,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-12T07:08:53Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5a7100f",
-            "branch": "kristina/time-compare-codeowners",
-            "date": "2026-09-11T19:39:51Z",
-            "url": "https://github.com/grafana/grafana/commit/5a7100f3f4c655f2375dc68af5f90ddec0cc8fa9"
+            "sha": "be3d792",
+            "branch": "MissingRoberto/secret-rotation-alert-scope",
+            "date": "2026-09-10T15:32:48Z",
+            "url": "https://github.com/grafana/grafana/commit/be3d7921de47b73bd3ff9d98f2c16707a78c478e"
           }
         },
         {
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66046,
+            "stars": 66047,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-11T14:00:07Z",
@@ -4853,12 +4853,21 @@
             "stars": 22,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-09-12T13:21:26Z",
+            "pushed_at": "2026-09-12T13:26:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.6.0",
+              "tag": "v1.6.0",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.6.0",
+              "published_at": "2026-09-12T13:27:04Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Человек теперь видит свои подключённые устройства, а не только их число: модель, приложение клиента, платформу и дату подключения. Какие из этих полей показывать — решает владелец бота. Плюс правка перевода на HTTPS в веб-слое.\n\n**✨ Добавлено**\n\n- Список подключённых устройств: в боте — по кнопке «📱 Мои устройства» на экране подписки, в Mini App и веб-кабинете — карточкой на главном экране. Первой строкой модель и приложение клиента («iPhone 15 · Happ/2.9.1»), второй — платформа с версией ОС, отпечаток и дата подключения. Сверху то, что подключалось последним.\n- Экран «Интерфейс → 📱 Устройства»: тумблеры полей — платформа и ОС, модель, приложение, отпечаток, дата подключения — и выключатель всего списка. По умолчанию включено всё, кроме отпечатка: он техническая строка и нужен лишь тогда, когда клиент не прислал ни модели, ни платформы. Ни одного поля не выбрано — списка нет, на экране подписки остаётся привычный счётчик.\n\n**🔧 Изменено**\n\n- Список берётся тем же запросом к панели, который и раньше давал счётчик, — обращений к панели не прибавилось.\n- Экран устройств идёт без картинки раздела: подпись под баннером кончается на 1000 знаках, и у человека с десятком устройств хвост списка обрезался бы. Если список не влезает и в обычное сообщение, он уходит несколькими — целиком.\n- Отдельное устройство по-прежнему не отключить, и на экране об этом сказано прямо: панель умеет только освободить его место, ключи при этом не меняются и клиент занимает место снова. Отрезает устройства по-настоящему лишь кнопка «Сбросить устройства» — она обновляет ключи доступа.\n\n**🔒 Безопасность**\n\n- Перевод с открытого HTTP на HTTPS больше не подставляет в адрес заголовок `Host` из запроса: адрес собирается из настроенного домена, а без него — только из проверенного имени хоста, иначе отдаётся отказ. Прежде подделанный `Host` превращал ссылку бота в переход на посторонний сайт. Путь и запрос берутся разобранными, поэтому абсолютная форма запроса чужой адрес больше не протаскивает.\n- Поля устройств приходят от клиента, поэтому они обрезаются по длине и экранируются перед показом.\n\n**📦 Зависимости**\n\n- js-yaml 4.3.2 в сборке документации.\n\n**📚 Документация**\n\n- Раздел «Устройства: что видит человек» в описании админки, строка в «Что умеет бот» и в README.\n\n**⬆️ Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n\nили `/update` в боте.\n"
+            },
             {
               "name": "v1.5.0",
               "tag": "v1.5.0",
@@ -4894,22 +4903,13 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Обновление зависимостей и сборочной базы. Поведение бота не менялось — тарифы, оплаты, админка и мини-апп работают ровно как в 1.4.1.\n\n**Зависимости**\n- go-telegram/bot 1.23.0\n- golang.org/x/crypto 0.55.0, golang.org/x/net 0.58.0\n- modernc.org/sqlite 1.56.0\n\n**Сборка**\n- Go 1.26.6 (в Dockerfile и во всех проверках CI)\n- рантайм-образ Alpine 3.24\n\n**Документация**\n- remna.shop: пересчитаны пропорции колонок — на ноутбуках текст больше не сжимается, на 2K-экранах не растягивается оглавление\n- длинные команды в блоках кода переносятся, а не уезжают вбок\n- поправлены плашки на главной в светлой теме\n\n**Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте."
-            },
-            {
-              "name": "1.4.1",
-              "tag": "v1.4.1",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.4.1",
-              "published_at": "2026-08-18T22:13:36Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Мелкий релиз вдогонку к [1.4.0](https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.4.0).\n\n## 📱 Экран «Документы» удобнее на телефоне\n\nКнопки админ-экрана **Интерфейс → Контакты → 📜 Документы** теперь идут в один столбец — по одной в строке. Раньше они стояли парами, и длинные подписи («Согласие перед покупкой: ✅» и т.п.) на телефоне обрезались многоточием.\n\n---\n\n**Обновление:** `/update` в боте или `docker compose pull \u0026\u0026 docker compose up -d`. Образы: `ghcr.io/mrvibecodic/chill-remna-bot:v1.4.1` (а также `:v1.4`, `:v1`, `:latest`).\n"
             }
           ],
           "last_commit": {
-            "sha": "8ef2c74",
-            "branch": "dev",
-            "date": "2026-09-12T13:15:05Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8ef2c745c19122e2fe5ce450a7f2a83f8d513f78"
+            "sha": "6c87b75",
+            "branch": "main",
+            "date": "2026-09-12T13:26:43Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/6c87b7595d2ffc19082972340a7f0894c273b8fd"
           }
         }
       ]
