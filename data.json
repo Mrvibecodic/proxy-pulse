@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T08:32:13.557104Z",
+  "generated_at": "2026-09-12T08:42:39.979196Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1396,
+            "stars": 1397,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-09-02T12:05:37Z",
@@ -771,7 +771,7 @@
           "track": "releases",
           "meta": {
             "description": "A Simple desktop GUI client for mihomo",
-            "stars": 365,
+            "stars": 366,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
             "pushed_at": "2026-09-11T20:48:47Z",
@@ -1081,7 +1081,7 @@
           ],
           "last_commit": {
             "sha": "c4dc320",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-09-11T10:28:24Z",
             "url": "https://github.com/openwrt/openwrt/commit/c4dc32021cf7c3a0396ae20ba140ec5f084e3db8"
           }
@@ -1095,7 +1095,7 @@
             "stars": 4606,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-12T00:46:54Z",
+            "pushed_at": "2026-09-12T08:41:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "16aaa68",
+                  "message": "django-restframework: update to 3.18.1",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-12T08:41:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/16aaa680ddbec779c8f5623d917cfcd32ab1f1a4"
+                },
+                {
+                  "sha": "994b3ff",
+                  "message": "django: update to 6.1.1",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-12T08:41:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/994b3ff8d2dadab9c01aab384becad97c3b72d0d"
+                },
+                {
+                  "sha": "9372875",
+                  "message": "python-sqlparse: update to 0.6.0",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-12T08:41:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/93728754561570f758b0557fa29f6b2aef6aea96"
+                },
+                {
                   "sha": "5a193ef",
                   "message": "netbird: update to 0.78.1",
                   "author": "Maksym Vasylchenko",
@@ -1937,27 +1958,6 @@
                   "author": "Remi Gacogne",
                   "date": "2026-09-09T10:52:50Z",
                   "url": "https://github.com/openwrt/packages/commit/259eb5fc32cd6ad62406868e3cfc165a7f240aaa"
-                },
-                {
-                  "sha": "acdc070",
-                  "message": "tcfilter: add package for persistent tc ingress filters",
-                  "author": "Mark Abe",
-                  "date": "2026-09-09T10:41:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/acdc070b06137a55bb74e20d1ebd0be34b7a6679"
-                },
-                {
-                  "sha": "aca7007",
-                  "message": "banip: release 1.8.13",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-08T15:58:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/aca7007595f4a5d468938cf8e1fea889ba7b5067"
-                },
-                {
-                  "sha": "54aae64",
-                  "message": "fwupd: backport upstream support for MxL862xx switches",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-08T10:25:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/54aae64f112527444095fecd4f481b3856950eb0"
                 }
               ]
             },
@@ -3610,7 +3610,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16119,
+            "stars": 16120,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2fd1321",
-            "branch": "grafakus/proto-lock-sidebar",
-            "date": "2026-09-10T08:03:22Z",
-            "url": "https://github.com/grafana/grafana/commit/2fd1321337c86bce7d4a5d44f94e17038c9fe3f9"
+            "sha": "2c7f260",
+            "branch": "matyax/logs-table-keyboard-navigation",
+            "date": "2026-09-10T08:23:17Z",
+            "url": "https://github.com/grafana/grafana/commit/2c7f260c18e79a49c000faa8a047d8cc21e51897"
           }
         },
         {
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
