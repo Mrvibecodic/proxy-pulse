@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T22:52:37.777168Z",
+  "generated_at": "2026-09-13T22:57:51.475967Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41566,
+            "stars": 41567,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-12T20:09:36Z",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-13T21:28:39Z",
+            "pushed_at": "2026-09-13T22:57:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "34f7cb6",
+                  "message": "podman: wire the podman bridges into dnsmasq and fw4",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-13T22:57:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/34f7cb606695cf162e52c1ab8d695193968a6087"
+                },
+                {
+                  "sha": "337361a",
+                  "message": "podman: select the nftables firewall driver",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-13T22:57:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/337361a6420f1e68c3a78a4aff863315b6716160"
+                },
+                {
+                  "sha": "6f80c0c",
+                  "message": "netavark: build with the nftables firewall driver",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-13T22:57:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/6f80c0ce99a8124c7ca62c5386d09b09ceb496d6"
+                },
+                {
                   "sha": "8de0abe",
                   "message": "tailscale: update to 1.102.3, disable the update feature",
                   "author": "Sandro Jäckel",
@@ -1937,27 +1958,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-10T06:53:25Z",
                   "url": "https://github.com/openwrt/packages/commit/ef7283f3118859fcd1f99e1b6a1bba8d3e89a49a"
-                },
-                {
-                  "sha": "f2c8300",
-                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T06:53:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/f2c8300e2521b085cafb129d84774049a92510e3"
-                },
-                {
-                  "sha": "4f1c698",
-                  "message": "tvheadend: update to 2026-08-17",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T06:53:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/4f1c6984a2dbb4c8c685d751e23b518a74d40011"
-                },
-                {
-                  "sha": "aa93cec",
-                  "message": "umurmur: update to 0.4.1",
-                  "author": "Martin Johansson",
-                  "date": "2026-09-10T06:04:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/aa93cec777c76c4685cb360e576e511a13befa97"
                 }
               ]
             },
