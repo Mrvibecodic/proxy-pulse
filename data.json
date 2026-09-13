@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:37:45.265376Z",
+  "generated_at": "2026-09-13T07:42:58.706104Z",
   "groups": [
     {
       "id": "cores",
@@ -1081,7 +1081,7 @@
           ],
           "last_commit": {
             "sha": "b88dfb6",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-09-13T06:21:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/b88dfb64d3620e97e79d49e1c0877b3a74083bd1"
           }
@@ -1095,7 +1095,7 @@
             "stars": 4608,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-13T07:00:47Z",
+            "pushed_at": "2026-09-13T07:41:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9c0c67b",
+                  "message": "chrony: update to 4.9",
+                  "author": "Miroslav Lichvar",
+                  "date": "2026-09-13T07:41:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/9c0c67bc2fd9c03d2349c3a971973bf1a85c6778"
+                },
+                {
                   "sha": "bc29809",
                   "message": "openwisp-config: fetch release tarball instead of git clone",
                   "author": "Gagan Deep",
@@ -1951,13 +1958,6 @@
                   "author": "Chris Swan",
                   "date": "2026-09-09T20:28:55Z",
                   "url": "https://github.com/openwrt/packages/commit/ec8e057db36ed1e751d36318fcd12a2b3b661482"
-                },
-                {
-                  "sha": "b65e695",
-                  "message": "xfrpc: update to 5.09.982",
-                  "author": "Dengfeng Liu",
-                  "date": "2026-09-09T20:21:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/b65e6951bc1a37c7de25c4c0d0cd9106dc76721f"
                 }
               ]
             },
@@ -3255,6 +3255,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "43cefae",
+                  "message": "radicale3: bump version to v3.8.0",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-13T07:41:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/43cefaef3066e0493bb26d2f4279ca96378eed41"
+                },
+                {
                   "sha": "d0a1f0b",
                   "message": "adblock: update 4.5.8-2",
                   "author": "Dirk Brenken",
@@ -3456,13 +3463,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-03T08:19:45Z",
                   "url": "https://github.com/openwrt/packages/commit/2c0d375b7ea578d87c96e9b49650cc4b987a50a0"
-                },
-                {
-                  "sha": "1bf3123",
-                  "message": "cloudflared: update to 2026.7.3",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:19:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/1bf312360b75381310c1de302af6403235def14a"
                 }
               ]
             }
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25341,
+            "stars": 25342,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-13T02:11:49Z",
