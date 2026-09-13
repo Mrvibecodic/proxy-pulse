@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T20:04:37.918558Z",
+  "generated_at": "2026-09-13T20:09:52.517395Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37955,
+            "stars": 37956,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-13T14:02:05Z",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-13T07:41:24Z",
+            "pushed_at": "2026-09-13T20:06:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "881a8c5",
+                  "message": "unbound: update to 1.26.0",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-13T20:06:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/881a8c5c5bfb6d341a50072b6e53186c7c5d09c0"
+                },
+                {
                   "sha": "9c0c67b",
                   "message": "chrony: update to 4.9",
                   "author": "Miroslav Lichvar",
@@ -1951,13 +1958,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-09-09T20:54:49Z",
                   "url": "https://github.com/openwrt/packages/commit/ba4e7795e6fa17001cc26b17dd3da5b2115b4fab"
-                },
-                {
-                  "sha": "ec8e057",
-                  "message": "csshnpd: bump to c1.1.1 release",
-                  "author": "Chris Swan",
-                  "date": "2026-09-09T20:28:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec8e057db36ed1e751d36318fcd12a2b3b661482"
                 }
               ]
             },
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88e85ad",
-            "branch": "main",
-            "date": "2026-09-11T16:18:39Z",
-            "url": "https://github.com/grafana/grafana/commit/88e85ad1743e60b9aacd7ae3d9c00c56823db3ea"
+            "sha": "b4ae553",
+            "branch": "renovate/ol-10.x-lockfile",
+            "date": "2026-09-11T14:47:36Z",
+            "url": "https://github.com/grafana/grafana/commit/b4ae553684ee143ae75cfbf2a4c4f884483764e3"
           }
         },
         {
