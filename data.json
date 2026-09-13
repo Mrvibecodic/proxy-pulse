@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:01:36.792615Z",
+  "generated_at": "2026-09-13T14:06:50.638292Z",
   "groups": [
     {
       "id": "cores",
@@ -81,15 +81,24 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37940,
+            "stars": 37942,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-13T13:44:15Z",
+            "pushed_at": "2026-09-13T14:02:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.3",
+              "tag": "v1.15.0-alpha.3",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.3",
+              "published_at": "2026-09-13T14:02:08Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Significantly improve TUN performance with a new TCP/IP stack **1**\n* Fixes and improvements\n\n**1**:\n\nSince 1.15.0, sing-tun uses its own TCP/IP stack, with substantial improvements over all previous implementations in peak performance, energy efficiency, and memory usage. Remove the `stack` option to use it.\n\nThe `stack` option is deprecated and will be removed in sing-box 1.17.0. See [Migration](https://sing-box.sagernet.org/migration/#migrate-tun-stack).\n"
+            },
             {
               "name": "1.15.0-alpha.2",
               "tag": "v1.15.0-alpha.2",
@@ -123,15 +132,6 @@
               "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.0-rc.5",
               "published_at": "2026-08-30T11:25:09Z",
               "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.13.21",
-              "tag": "v1.13.21",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.13.21",
-              "published_at": "2026-08-30T11:24:04Z",
-              "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91321,
+            "stars": 91322,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-13T00:06:33Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9f75e3f",
-            "branch": "main",
-            "date": "2026-09-11T15:39:52Z",
-            "url": "https://github.com/grafana/grafana/commit/9f75e3ffa85f6d77fbe364c1f446493f11a62c7e"
+            "sha": "a51e965",
+            "branch": "ale/explain",
+            "date": "2026-09-11T12:28:04Z",
+            "url": "https://github.com/grafana/grafana/commit/a51e9654f20f21be64fe649d30858b52c57f35a7"
           }
         },
         {
