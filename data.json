@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T03:46:11.012091Z",
+  "generated_at": "2026-09-13T03:51:24.876638Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1405,
+            "stars": 1406,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-09-02T12:05:37Z",
@@ -4111,12 +4111,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-09T03:39:57Z",
+            "pushed_at": "2026-09-13T03:47:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha c412e77",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-09-13T03:46:27Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@c412e77a9b712082ac9ebf27fa793951cb5a7d85\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.9.9",
               "tag": "stable",
@@ -4125,22 +4134,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.9\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha 52a412d",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-09-09T03:39:05Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@52a412d9e2f5c2a5142b1b4e2ab3771dacb8b120\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
-            "sha": "17e2f24",
+            "sha": "57cbe33",
             "branch": "main",
-            "date": "2026-09-09T03:39:58Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/17e2f248e29f9b4bb3d107a96ae1c00aa1f01caa"
+            "date": "2026-09-13T03:47:14Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/57cbe33f723315bf775df461822011a46ae66411"
           }
         },
         {
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91318,
+            "stars": 91319,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-13T00:06:33Z",
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "83a5bd9",
-            "branch": "agent/authn-oauth-latency",
-            "date": "2026-09-10T20:00:48Z",
-            "url": "https://github.com/grafana/grafana/commit/83a5bd93eb6411e41d670e5ba8d067f0bd2fee35"
+            "sha": "6da13fe",
+            "branch": "km/fe-overlay-via-resolver",
+            "date": "2026-09-11T07:02:21Z",
+            "url": "https://github.com/grafana/grafana/commit/6da13fe0da0227513ad49777e2d142558592e9bc"
           }
         },
         {
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
@@ -5133,7 +5133,7 @@
             "stars": 7352,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-13T03:26:44Z",
+            "pushed_at": "2026-09-13T03:48:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5186,10 +5186,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4b76d9c",
-            "branch": "refactor/cleanup-effects",
-            "date": "2026-09-10T21:06:43Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/4b76d9ccdce6b5e439046233f9f7a843c6d8a8b5"
+            "sha": "43b3a0a",
+            "branch": "fix_allow_disabling_vulnerability_management_per_environment",
+            "date": "2026-09-13T03:48:07Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/43b3a0ac164b33bdf5b72657be1f74950cc467a4"
           }
         }
       ]
