@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:25:35.018857Z",
+  "generated_at": "2026-09-14T21:30:50.510150Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-14T15:46:54Z",
+            "pushed_at": "2026-09-14T21:30:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0a78135",
+                  "message": "umurmur: update to 0.5.0",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-14T21:30:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/0a781352d2b26aa7caf75aa7034a2472322c1149"
+                },
+                {
                   "sha": "74fbbb4",
                   "message": "pulseaudio: detect intl and iconv through meson dependency objects",
                   "author": "Mirko Vogt",
@@ -1951,13 +1958,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-09-10T18:32:44Z",
                   "url": "https://github.com/openwrt/packages/commit/c65b4d5ab81fd9d7b9015087ca6b800762962e0b"
-                },
-                {
-                  "sha": "b9e0cef",
-                  "message": "banip: update 1.8.13-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-10T18:02:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9e0cefee0866381c146b32da2e1e81dbeffb368"
                 }
               ]
             },
@@ -3879,7 +3879,7 @@
             "stars": 8,
             "url": "https://github.com/Medium1992/mihomo-ros",
             "default_branch": "main",
-            "pushed_at": "2026-08-16T10:36:06Z",
+            "pushed_at": "2026-09-14T21:28:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -3888,6 +3888,13 @@
             {
               "name": "main",
               "commits": [
+                {
+                  "sha": "d4baf9d",
+                  "message": "Auto-update: mihomo v1.19.31",
+                  "author": "github-actions[bot]",
+                  "date": "2026-09-14T21:28:16Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/d4baf9defdd17813b5c75126c7860eb55379856d"
+                },
                 {
                   "sha": "2e7e8d1",
                   "message": "Add AmneziaWG 3.1 converter options",
@@ -4090,13 +4097,6 @@
                   "author": "Peter Solomon",
                   "date": "2026-06-14T13:07:31Z",
                   "url": "https://github.com/Medium1992/mihomo-ros/commit/2151494cd95e7f69982a618435eb47e8006c2ef0"
-                },
-                {
-                  "sha": "2a6ebbf",
-                  "message": "begin",
-                  "author": "Medium1992",
-                  "date": "2026-06-14T13:06:02Z",
-                  "url": "https://github.com/Medium1992/mihomo-ros/commit/2a6ebbfafd08f53be5ba9240ea101b7b61b390e2"
                 }
               ]
             }
@@ -4573,7 +4573,7 @@
             "stars": 76751,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-14T21:17:49Z",
+            "pushed_at": "2026-09-14T21:28:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5ac4817",
-            "branch": "featuretoggles/disable-legacy-toggles",
-            "date": "2026-09-14T16:43:14Z",
-            "url": "https://github.com/grafana/grafana/commit/5ac48177a367b72f3a492b68b1e2b0794b5de948"
+            "sha": "8a768ff",
+            "branch": "paulmarbach/table-zebra-striping",
+            "date": "2026-09-14T20:18:10Z",
+            "url": "https://github.com/grafana/grafana/commit/8a768fff98c46d5b47734e85c04145a96b21a6e6"
           }
         },
         {
@@ -4709,7 +4709,7 @@
             "stars": 80519,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-14T21:20:34Z",
+            "pushed_at": "2026-09-14T21:26:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4762,10 +4762,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2014fee",
+            "sha": "47d3921",
             "branch": "master",
-            "date": "2026-09-14T21:20:35Z",
-            "url": "https://github.com/netdata/netdata/commit/2014fee52893cf06a99d8589208b07404da909fb"
+            "date": "2026-09-14T21:26:37Z",
+            "url": "https://github.com/netdata/netdata/commit/47d392151b8b63e079cdeda02043731900944f03"
           }
         },
         {
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4aeed12",
+            "sha": "7e446a9",
             "branch": "rewrite-searchmetricids",
-            "date": "2026-09-14T16:05:46Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/4aeed12a8f164e6592bb0d21173cca096693e500"
+            "date": "2026-09-14T16:56:46Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7e446a96ca1745a1928826007c4f32c1f844adce"
           }
         }
       ]
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
