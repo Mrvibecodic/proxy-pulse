@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:48:12.727767Z",
+  "generated_at": "2026-09-14T07:53:30.182130Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41574,
+            "stars": 41575,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-14T00:16:39Z",
@@ -152,7 +152,7 @@
             "stars": 34068,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-14T06:41:58Z",
+            "pushed_at": "2026-09-14T07:48:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Mon Sep 14 14:39:15 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n* feat: convert support REALITY ML-KEM option by @Aethersailor in https://github.com/MetaCubeX/mihomo/pull/3199\n* feat: add EasyTier outbound by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3194\n* fix: mieru listener doesn't obey \"listen\" config by @enfein in https://github.com/MetaCubeX/mihomo/pull/3205\n* chore: reduce geodata loading overhead by @Huffer342-WSH in https://github.com/MetaCubeX/mihomo/pull/3185\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n* @Aethersailor made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3199\n* @MiaM1ku made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3194\n* @Huffer342-WSH made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3185\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
+              "body": "Release created at  Mon Sep 14 15:48:54 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n* feat: convert support REALITY ML-KEM option by @Aethersailor in https://github.com/MetaCubeX/mihomo/pull/3199\n* feat: add EasyTier outbound by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3194\n* fix: mieru listener doesn't obey \"listen\" config by @enfein in https://github.com/MetaCubeX/mihomo/pull/3205\n* chore: reduce geodata loading overhead by @Huffer342-WSH in https://github.com/MetaCubeX/mihomo/pull/3185\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n* @Aethersailor made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3199\n* @MiaM1ku made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3194\n* @Huffer342-WSH made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3185\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
             },
             {
               "name": "v1.19.30",
@@ -774,7 +774,7 @@
             "stars": 367,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
-            "pushed_at": "2026-09-14T07:44:48Z",
+            "pushed_at": "2026-09-14T07:49:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/29365829?v=4",
             "owner": "legiz-ru"
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28391,
+            "stars": 28390,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-14T07:17:55Z",
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25364,
+            "stars": 25365,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-13T16:40:21Z",
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80512,
+            "stars": 80513,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-14T07:37:10Z",
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1557596",
-            "branch": "gh-pages",
+            "sha": "e70b139",
+            "branch": "gh-pages-no-fonts",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
+            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
           }
         },
         {
