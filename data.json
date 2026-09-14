@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T15:42:41.745659Z",
+  "generated_at": "2026-09-14T15:47:58.060735Z",
   "groups": [
     {
       "id": "cores",
@@ -84,7 +84,7 @@
             "stars": 37988,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-14T14:54:04Z",
+            "pushed_at": "2026-09-14T15:43:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34076,
+            "stars": 34077,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-14T13:33:07Z",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-14T10:56:06Z",
+            "pushed_at": "2026-09-14T15:46:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "74fbbb4",
+                  "message": "pulseaudio: detect intl and iconv through meson dependency objects",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-14T15:46:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/74fbbb485adc2af69f378b736974972f82e351fa"
+                },
+                {
+                  "sha": "7d47935",
+                  "message": "pulseaudio: switch to git snapshot",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-14T15:46:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/7d479353dd78a5ba9e38aea4b7acf1171038d28d"
+                },
+                {
+                  "sha": "77492a6",
+                  "message": "pulseaudio: split out libpulse client library",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-14T15:46:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/77492a6b4e0aef5aba9bd6476ee844f4873570b6"
+                },
+                {
                   "sha": "ee2e26b",
                   "message": "comrade: update to 0.2.2",
                   "author": "Daniel Golle",
@@ -1937,27 +1958,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-09-10T18:02:03Z",
                   "url": "https://github.com/openwrt/packages/commit/b9e0cefee0866381c146b32da2e1e81dbeffb368"
-                },
-                {
-                  "sha": "a091af0",
-                  "message": "mdns-repeater: bump to 2026.07.16~488feaf7, simplify MAKE_FLAGS",
-                  "author": "Foster Snowhill",
-                  "date": "2026-09-10T08:24:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/a091af03e4e9a8c889c1df54ee28094e0285b448"
-                },
-                {
-                  "sha": "2537757",
-                  "message": "nut: improve documentation",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-10T08:22:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/2537757a3be297b15a27867d25d951759c9eeced"
-                },
-                {
-                  "sha": "ef7cb68",
-                  "message": "nut: fix setting RUNAS and STATEPATH in hotplug scripts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-10T08:22:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/ef7cb6819d8600009851e8003a32027d118bede7"
                 }
               ]
             },
@@ -4490,10 +4490,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5bfad58",
-            "branch": "dependabot/github_actions/github-actions-9ea0bdc383",
-            "date": "2026-09-14T15:07:12Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/5bfad58782c6be6cc680619a2edf3f2cfb241abd"
+            "sha": "2e61491",
+            "branch": "master",
+            "date": "2026-09-14T15:15:21Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/2e6149193fcf8e8197c93dfe1dc2eb23ba739fe4"
           }
         },
         {
@@ -4570,10 +4570,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76745,
+            "stars": 76746,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-14T15:41:53Z",
+            "pushed_at": "2026-09-14T15:45:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "901229f",
-            "branch": "hairyhenderson/docs-annotations-omit-alertid",
-            "date": "2026-09-14T15:09:29Z",
-            "url": "https://github.com/grafana/grafana/commit/901229f7c4291e0b0faae73174a709226d1bc364"
+            "sha": "8249d7a",
+            "branch": "gtk-grafana/dataviz/system-transformations__pipeline",
+            "date": "2026-09-14T13:33:20Z",
+            "url": "https://github.com/grafana/grafana/commit/8249d7a44f5f27c2fc04a8217d1f5802340226e2"
           }
         },
         {
@@ -4709,7 +4709,7 @@
             "stars": 80515,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-14T15:40:29Z",
+            "pushed_at": "2026-09-14T15:44:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e70b139",
-            "branch": "gh-pages-no-fonts",
+            "sha": "1557596",
+            "branch": "gh-pages",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
+            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
           }
         },
         {
