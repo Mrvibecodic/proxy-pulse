@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:50:22.125413Z",
+  "generated_at": "2026-09-14T11:55:37.983872Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41578,
+            "stars": 41579,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-14T00:16:39Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37976,
+            "stars": 37977,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-13T14:02:05Z",
@@ -951,12 +951,21 @@
             "stars": 48,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-12T15:24:20Z",
+            "pushed_at": "2026-09-14T11:55:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.6",
+              "tag": "1.0.0-beta.6",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.6",
+              "published_at": "2026-09-14T11:55:29Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- Removed group status banners from the top of the popup and dashboard pages.\n- macOS shows when the helper needs system approval and provides an action to open the relevant settings.\n\n### Fixed\n\n- Subscription reordering no longer loses newly added profiles or restores an outdated order after a delayed response.\n- Updating one subscription no longer hides another subscription's device-consent request, error or retry action.\n- Disconnecting recovers correctly when stopping the connection fails.\n- Profile rules apply to the selected profile, retain unsaved edits and place appended rules before the final catch-all rule.\n- Subscription loading recovers more reliably, and repeated window activity no longer leaves duplicate event listeners.\n- Disconnecting preserves system proxy settings changed by another application.\n- Diagnostic files remain available when exporting an archive fails.\n- VLESS imports preserve supported transport settings and report unsupported transports instead of silently changing them.\n- Linux reports failures while changing persistent routes; macOS releases old tray images after icon updates.\n- macOS allows updates before the helper is first installed. Replacing an older helper stops it first and briefly retries system registration instead of requiring a second click.\n\n### Security\n\n- macOS verifies a protected copy of the connection engine before starting it with elevated privileges and uses system-managed helper registration.\n- Subscription redirects restrict transfer of device identifiers and credentials. Device consent is tied to the subscription URL.\n- Remote profile images use a bounded cache and a placeholder when loading is rejected. Local-address URL checks are strengthened.\n- Subscription settings can no longer enable additional unprotected connection-control endpoints or an external dashboard."
+            },
             {
               "name": "1.0.0-beta.5",
               "tag": "1.0.0-beta.5",
@@ -992,15 +1001,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
-            },
-            {
-              "name": "1.0.0-beta.1",
-              "tag": "1.0.0-beta.1",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.1",
-              "published_at": "2026-09-03T20:21:50Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
             }
           ],
           "last_commit": {
@@ -4573,7 +4573,7 @@
             "stars": 76742,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-14T11:49:50Z",
+            "pushed_at": "2026-09-14T11:55:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c783fe",
-            "branch": "backport-132375-131962-to-release-13.2.2",
-            "date": "2026-09-14T11:40:30Z",
-            "url": "https://github.com/grafana/grafana/commit/1c783fe1a64f94b9c98fc84ad35641e1c192d0b1"
+            "sha": "cfaac03",
+            "branch": "aocenas/cmdk/new",
+            "date": "2026-09-14T11:53:04Z",
+            "url": "https://github.com/grafana/grafana/commit/cfaac03e87b8836da9651ced3376d558fc952083"
           }
         },
         {
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66062,
+            "stars": 66063,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-14T10:55:21Z",
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e70b139",
-            "branch": "gh-pages-no-fonts",
+            "sha": "1557596",
+            "branch": "gh-pages",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
+            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
           }
         },
         {
