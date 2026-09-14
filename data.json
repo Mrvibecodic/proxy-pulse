@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T05:47:16.826187Z",
+  "generated_at": "2026-09-14T05:52:31.829427Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-14T04:14:47Z",
+            "pushed_at": "2026-09-14T05:51:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f4370f9",
+                  "message": "unbound: update to 1.26.0",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-14T05:51:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/f4370f969afe948fc24e206666fa2ccca4307774"
+                },
+                {
                   "sha": "2536d97",
                   "message": "hev-socks5-tunnel: allow multiple instances",
                   "author": "Sergei S.",
@@ -3241,19 +3248,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-11T10:08:38Z",
                   "url": "https://github.com/openwrt/packages/commit/ed5b786deef00ba8913c5cfde851951e17a50ebf"
-                },
-                {
-                  "sha": "9e6eb7a",
-                  "message": "openvpn: update to 2.6.22",
-                  "author": "Sander van Deijck",
-                  "date": "2026-08-11T06:10:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/9e6eb7adff58d85bd5589885a5f53c04f383f406"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "9b356cf",
+                  "message": "unbound: update to 1.26.0",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-14T05:51:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/9b356cf578d102221926b71bbb0d2e51d3650620"
+                },
                 {
                   "sha": "46e1f86",
                   "message": "netbird: update to 0.78.1",
@@ -3456,13 +3463,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-03T08:24:27Z",
                   "url": "https://github.com/openwrt/packages/commit/dd034274faa436afd47446e369137eb758ef3c9d"
-                },
-                {
-                  "sha": "19dcbdf",
-                  "message": "v2ray-core: update to 5.53.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:20:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/19dcbdf84f9f19069d101e261b9f569672e29b37"
                 }
               ]
             }
