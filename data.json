@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T04:12:39.888588Z",
+  "generated_at": "2026-09-14T04:17:54.850833Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 37961,
+            "stars": 37962,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-13T14:02:05Z",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-13T23:52:09Z",
+            "pushed_at": "2026-09-14T04:14:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fecb5f2",
+                  "message": "hcxdumptool: pass TARGET_LDFLAGS and restore -std=gnu99",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/fecb5f2cbad1821296cab1019cabc001d328dfd6"
+                },
+                {
+                  "sha": "18a4b21",
+                  "message": "hcxtools: pass TARGET_LDFLAGS and restore -std=gnu99",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/18a4b21bdeac031469063c73c13c1b8aadbcef73"
+                },
+                {
+                  "sha": "099288e",
+                  "message": "hcxtools: update to version 7.1.2",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/099288e6fb3f70d47712654bde9407453de1150c"
+                },
+                {
+                  "sha": "ec542fe",
+                  "message": "hcxdumptool: build hcxdumptool target only",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec542feed47eb5cf7c0f64ebbb115710e9ee464f"
+                },
+                {
+                  "sha": "5f26abe",
+                  "message": "hcxdumptool: drop unused libopenssl dependency",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/5f26abefaba876a7f29a5fffc0e65820040d97f9"
+                },
+                {
+                  "sha": "59412cc",
+                  "message": "hcxdumptool: update to version 7.1.2",
+                  "author": "Atanas Vladimirov",
+                  "date": "2026-09-14T04:14:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/59412cc5b04307edcd51cfed6aa48fde82481a72"
+                },
+                {
                   "sha": "34f7cb6",
                   "message": "podman: wire the podman bridges into dnsmasq and fw4",
                   "author": "Daniel Golle",
@@ -1916,48 +1958,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-09-10T08:22:36Z",
                   "url": "https://github.com/openwrt/packages/commit/5bdf89410255c73bfedfaf1ccaf83f6644a7c818"
-                },
-                {
-                  "sha": "cf415f3",
-                  "message": "nut: improve hotplug behaviour for remove",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-10T08:22:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/cf415f3e6438504c19e0dee88629dd1454323b01"
-                },
-                {
-                  "sha": "05f5683",
-                  "message": "sing-box: bump to 1.14.0",
-                  "author": "Sergei S.",
-                  "date": "2026-09-10T08:21:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/05f56830e92b38843b668f4ed454be6d05981ebd"
-                },
-                {
-                  "sha": "bc8c5e8",
-                  "message": "mariadb: init - check file versions",
-                  "author": "Daniel Black",
-                  "date": "2026-09-10T08:20:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/bc8c5e84c140449ea54fb29871f731aae25220f2"
-                },
-                {
-                  "sha": "66d20fb",
-                  "message": "openldap: update to 2.6.14",
-                  "author": "Romain Isnel",
-                  "date": "2026-09-10T08:12:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/66d20fbcd0d9afaf82170ad915be6c9b8de786af"
-                },
-                {
-                  "sha": "c7a47d5",
-                  "message": "ocserv: update to 1.5.0",
-                  "author": "Jimmy Qin",
-                  "date": "2026-09-10T08:09:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/c7a47d583127961590dfd832c424441c6810952c"
-                },
-                {
-                  "sha": "ef7283f",
-                  "message": "tvheadend: drop the handwritten version override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T06:53:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/ef7283f3118859fcd1f99e1b6a1bba8d3e89a49a"
                 }
               ]
             },
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91343,
+            "stars": 91344,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-14T00:06:54Z",
@@ -5062,7 +5062,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3423,
+            "stars": 3424,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-09-07T06:47:50Z",
@@ -5118,10 +5118,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e70b139",
-            "branch": "gh-pages-no-fonts",
+            "sha": "1557596",
+            "branch": "gh-pages",
             "date": "2026-09-07T06:36:59Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/e70b13967a60ef205de00092ca66ed5f060bf849"
+            "url": "https://github.com/Zephyruso/zashboard/commit/15575961dc84cc614c66c3e9bd20e70b862b6734"
           }
         },
         {
@@ -5133,7 +5133,7 @@
             "stars": 7371,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-14T03:55:32Z",
+            "pushed_at": "2026-09-14T04:17:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5186,10 +5186,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c86ba88",
-            "branch": "fix_allow_defining_git_identity_for_pushes",
-            "date": "2026-09-14T03:55:32Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/c86ba8891625061d2eba613498b3d802158c6d7a"
+            "sha": "24a51e3",
+            "branch": "l10n_crowdin",
+            "date": "2026-09-14T04:17:13Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/24a51e3e075441a2c4f1de8c82f4de4e17d012f7"
           }
         }
       ]
