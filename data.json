@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:25:32.708216Z",
+  "generated_at": "2026-09-15T12:30:48.887377Z",
   "groups": [
     {
       "id": "cores",
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91391,
+            "stars": 91392,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-15T00:06:24Z",
@@ -4573,7 +4573,7 @@
             "stars": 76761,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T12:24:32Z",
+            "pushed_at": "2026-09-15T12:29:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4598,6 +4598,15 @@
               "body": "[Download page](https://grafana.com/grafana/download/13.1.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132090](https://github.com/grafana/grafana/pull/132090), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Fix folder rename UID collision during full sync [#132164](https://github.com/grafana/grafana/pull/132164), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
             },
             {
+              "name": "12.4.11",
+              "tag": "v12.4.11",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.11",
+              "published_at": "2026-09-15T12:27:34Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656"
+            },
+            {
               "name": "13.2.1",
               "tag": "v13.2.1",
               "url": "https://github.com/grafana/grafana/releases/tag/v13.2.1",
@@ -4614,22 +4623,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.1.5)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-14199\n- Security: Fix CVE-2026-19475"
-            },
-            {
-              "name": "13.0.8",
-              "tag": "v13.0.8",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.8",
-              "published_at": "2026-09-02T08:23:04Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.8)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-14199\n- Security: Fix CVE-2026-19475\n\n### Bug fixes\n\n- **Dashboards:** Fix version dates and user display names in the legacy version history page [#131809](https://github.com/grafana/grafana/pull/131809), [@ivanortegaalba](https://github.com/ivanortegaalba)"
             }
           ],
           "last_commit": {
-            "sha": "05757e7",
-            "branch": "release-12.4.11",
-            "date": "2026-09-15T12:24:25Z",
-            "url": "https://github.com/grafana/grafana/commit/05757e789657299d00314f8f96d49d1aca569f33"
+            "sha": "2543146",
+            "branch": "joey/goto-span",
+            "date": "2026-09-15T09:14:31Z",
+            "url": "https://github.com/grafana/grafana/commit/2543146bb039f1f39a764bb9ae8c735cffb30b0b"
           }
         },
         {
