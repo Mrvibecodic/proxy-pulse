@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T16:01:51.624814Z",
+  "generated_at": "2026-09-15T16:07:08.791966Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34109,
+            "stars": 34110,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-14T13:33:07Z",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T09:18:37Z",
+            "pushed_at": "2026-09-15T16:06:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "36c4c3f",
+                  "message": "zoneinfo: update to 2026d release",
+                  "author": "Vladimir Ulrich",
+                  "date": "2026-09-15T16:06:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/36c4c3f9d06584b2e4757de4ec1751901cfdb93c"
+                },
+                {
                   "sha": "85c59cc",
                   "message": "chrony: fix uci leapsecmode option",
                   "author": "Miroslav Lichvar",
@@ -1951,13 +1958,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-11T00:46:29Z",
                   "url": "https://github.com/openwrt/packages/commit/bd5899b75a6fa756e6b5d21190d436cc3bd1bbdb"
-                },
-                {
-                  "sha": "5b684a6",
-                  "message": "cryptsetup: fix Argon2 with OpenSSL built without it",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-11T00:46:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/5b684a6713c98507edadb70869cb1653044497fa"
                 }
               ]
             },
@@ -4573,7 +4573,7 @@
             "stars": 76761,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T16:01:10Z",
+            "pushed_at": "2026-09-15T16:06:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80536,
+            "stars": 80535,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-15T12:21:03Z",
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4d75732",
-            "branch": "remotewrite-body-race",
-            "date": "2026-09-15T16:00:53Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/4d757325f359001c96c451511a87e578a8349de6"
+            "sha": "80a6a3b",
+            "branch": "master",
+            "date": "2026-09-14T12:29:53Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/80a6a3b18ca514adff164404c8916265fdecd5ec"
           }
         }
       ]
@@ -5130,7 +5130,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7395,
+            "stars": 7396,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-15T03:58:19Z",
