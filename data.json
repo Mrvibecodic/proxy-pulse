@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T20:36:05.614237Z",
+  "generated_at": "2026-09-15T20:41:23.872430Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34116,
+            "stars": 34117,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28414,
+            "stars": 28415,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-15T18:58:18Z",
@@ -1095,7 +1095,7 @@
             "stars": 4608,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T17:08:45Z",
+            "pushed_at": "2026-09-15T20:40:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "87456bd",
+                  "message": "ffmpeg: change PKG_MAINTAINER",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-15T20:40:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/87456bddf4e98e3522cc22ecf66a325b44eb6a88"
+                },
+                {
+                  "sha": "e1a07d0",
+                  "message": "ffmpeg: add V4L2 hardware decoding patches from LibreELEC",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-15T20:40:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/e1a07d05b984d9bd14c0a4ad6c00ee617418ce6a"
+                },
+                {
+                  "sha": "83f634c",
+                  "message": "ffmpeg: add LibreELEC's Kodi compatibility patches",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-15T20:40:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/83f634c4b338398e71be82504998b1788faafe5b"
+                },
+                {
+                  "sha": "87a92bf",
+                  "message": "ffmpeg: re-add libpostproc as a source plugin",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-15T20:40:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/87a92bf18940b5245bb8f6ee129b9a0a19b3cad0"
+                },
+                {
+                  "sha": "7852102",
+                  "message": "ffmpeg: update to 9.0.1",
+                  "author": "Mirko Vogt",
+                  "date": "2026-09-15T20:40:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/785210230381467d60ecba4cb74b7aeffbd64b49"
+                },
+                {
                   "sha": "d2a2e7b",
                   "message": "rtorrent: stop discarding the target build flags",
                   "author": "Daniel Golle",
@@ -1923,41 +1958,6 @@
                   "author": "Gagan Deep",
                   "date": "2026-09-13T07:00:47Z",
                   "url": "https://github.com/openwrt/packages/commit/5c25f05e1e467bfaf4cd41442241f6e7643e4e98"
-                },
-                {
-                  "sha": "dbe9f7c",
-                  "message": "expat: update to 2.8.4",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-12T21:33:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/dbe9f7c5e1b1ef7d4b48a5fef513471aad2a2ef2"
-                },
-                {
-                  "sha": "16aaa68",
-                  "message": "django-restframework: update to 3.18.1",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-12T08:41:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/16aaa680ddbec779c8f5623d917cfcd32ab1f1a4"
-                },
-                {
-                  "sha": "994b3ff",
-                  "message": "django: update to 6.1.1",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-12T08:41:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/994b3ff8d2dadab9c01aab384becad97c3b72d0d"
-                },
-                {
-                  "sha": "9372875",
-                  "message": "python-sqlparse: update to 0.6.0",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-12T08:41:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/93728754561570f758b0557fa29f6b2aef6aea96"
-                },
-                {
-                  "sha": "5a193ef",
-                  "message": "netbird: update to 0.78.1",
-                  "author": "Maksym Vasylchenko",
-                  "date": "2026-09-12T00:46:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a193ef051c938a3ca434a16f988ceae4bc21455"
                 }
               ]
             },
@@ -5133,7 +5133,7 @@
             "stars": 7397,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T19:42:10Z",
+            "pushed_at": "2026-09-15T20:36:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
