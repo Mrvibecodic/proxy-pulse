@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:05:11.014840Z",
+  "generated_at": "2026-09-15T17:10:27.043190Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4607,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T16:06:36Z",
+            "pushed_at": "2026-09-15T17:08:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d2a2e7b",
+                  "message": "rtorrent: stop discarding the target build flags",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-15T17:08:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/d2a2e7b8dc1ed2dc2f962d0e87b383d653e3ff50"
+                },
+                {
+                  "sha": "ae34d29",
+                  "message": "libtorrent: stop discarding the target build flags",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-15T17:08:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/ae34d29eb6b31fd08c9568fe39fa95be29c4812e"
+                },
+                {
                   "sha": "36c4c3f",
                   "message": "zoneinfo: update to 2026d release",
                   "author": "Vladimir Ulrich",
@@ -1944,20 +1958,6 @@
                   "author": "Maksym Vasylchenko",
                   "date": "2026-09-12T00:46:54Z",
                   "url": "https://github.com/openwrt/packages/commit/5a193ef051c938a3ca434a16f988ceae4bc21455"
-                },
-                {
-                  "sha": "d50c9e2",
-                  "message": "ripe-atlas: update to 5130",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-11T05:44:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/d50c9e2ac63808f8ea487ef8bc91632e7a483804"
-                },
-                {
-                  "sha": "bd5899b",
-                  "message": "cryptsetup: update to 2.8.8",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-11T00:46:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/bd5899b75a6fa756e6b5d21190d436cc3bd1bbdb"
                 }
               ]
             },
@@ -3610,7 +3610,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16136,
+            "stars": 16137,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-07-21T06:19:36Z",
@@ -4573,7 +4573,7 @@
             "stars": 76763,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T17:04:31Z",
+            "pushed_at": "2026-09-15T17:10:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ab9143",
-            "branch": "ifrost/default-grid-drag-undo-redo",
-            "date": "2026-09-15T12:55:27Z",
-            "url": "https://github.com/grafana/grafana/commit/6ab9143ce7dd6fcd4164cae67d81c2c493183276"
+            "sha": "d9d9140",
+            "branch": "renovate/react-hook-form-7.x-lockfile",
+            "date": "2026-09-15T13:07:01Z",
+            "url": "https://github.com/grafana/grafana/commit/d9d9140b227c010141d8e793a74189e62532283d"
           }
         },
         {
@@ -4777,7 +4777,7 @@
             "stars": 17719,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T17:03:48Z",
+            "pushed_at": "2026-09-15T17:05:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
