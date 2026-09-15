@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:21:00.343050Z",
+  "generated_at": "2026-09-15T17:26:17.339892Z",
   "groups": [
     {
       "id": "cores",
@@ -958,6 +958,15 @@
           },
           "releases": [
             {
+              "name": "1.0.0-beta.6",
+              "tag": "1.0.0-beta.6",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.6",
+              "published_at": "2026-09-15T17:24:13Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- Removed group status banners from the top of the popup and dashboard pages.\n- macOS shows when the helper needs system approval and provides an action to open the relevant settings.\n\n### Fixed\n\n- macOS uninstallation no longer stops at helper removal when the helper has never been installed.\n- Subscription reordering no longer loses newly added profiles or restores an outdated order after a delayed response.\n- Updating one subscription no longer hides another subscription's device-consent request, error or retry action.\n- Disconnecting recovers correctly when stopping the connection fails.\n- Profile rules apply to the selected profile, retain unsaved edits and place appended rules before the final catch-all rule.\n- Subscription loading recovers more reliably, and repeated window activity no longer leaves duplicate event listeners.\n- Disconnecting preserves system proxy settings changed by another application.\n- Diagnostic files remain available when exporting an archive fails.\n- VLESS imports preserve supported transport settings and report unsupported transports instead of silently changing them.\n- Linux reports failures while changing persistent routes; macOS releases old tray images after icon updates.\n- macOS allows updates before the helper is first installed. Replacing an older helper preserves its system approval and completes registration in one step instead of requiring another installation attempt.\n\n### Security\n\n- macOS verifies a protected copy of the connection engine before starting it with elevated privileges and uses system-managed helper registration.\n- Subscription redirects restrict transfer of device identifiers and credentials. Device consent is tied to the subscription URL.\n- Remote profile images use a bounded cache and a placeholder when loading is rejected. Local-address URL checks are strengthened.\n- Subscription settings can no longer enable additional unprotected connection-control endpoints or an external dashboard."
+            },
+            {
               "name": "1.0.0-beta.5",
               "tag": "1.0.0-beta.5",
               "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.5",
@@ -992,15 +1001,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
-            },
-            {
-              "name": "1.0.0-beta.1",
-              "tag": "1.0.0-beta.1",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.1",
-              "published_at": "2026-09-03T20:21:50Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
             }
           ],
           "last_commit": {
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25403,
+            "stars": 25404,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-13T16:40:21Z",
@@ -4573,7 +4573,7 @@
             "stars": 76762,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T17:14:23Z",
+            "pushed_at": "2026-09-15T17:22:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "20b919c",
-            "branch": "MissingRoberto/mermaid-folder-readme",
-            "date": "2026-09-15T14:59:01Z",
-            "url": "https://github.com/grafana/grafana/commit/20b919c3647aea0a32b18f87b91a03c08a2f04c5"
+            "sha": "94a9b63",
+            "branch": "dashboard-subtitle-frontend",
+            "date": "2026-09-14T10:13:02Z",
+            "url": "https://github.com/grafana/grafana/commit/94a9b639bae41665e70f4e01a97cd82667cb25ab"
           }
         },
         {
