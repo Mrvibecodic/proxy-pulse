@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T14:32:06.158640Z",
+  "generated_at": "2026-09-15T14:37:23.620615Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41603,
+            "stars": 41604,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-14T18:00:17Z",
@@ -951,21 +951,12 @@
             "stars": 49,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T04:34:19Z",
+            "pushed_at": "2026-09-15T14:35:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
-            {
-              "name": "1.0.0-beta.6",
-              "tag": "1.0.0-beta.6",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.6",
-              "published_at": "2026-09-14T11:55:29Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### Improved\n\n- Removed group status banners from the top of the popup and dashboard pages.\n- macOS shows when the helper needs system approval and provides an action to open the relevant settings.\n\n### Fixed\n\n- Subscription reordering no longer loses newly added profiles or restores an outdated order after a delayed response.\n- Updating one subscription no longer hides another subscription's device-consent request, error or retry action.\n- Disconnecting recovers correctly when stopping the connection fails.\n- Profile rules apply to the selected profile, retain unsaved edits and place appended rules before the final catch-all rule.\n- Subscription loading recovers more reliably, and repeated window activity no longer leaves duplicate event listeners.\n- Disconnecting preserves system proxy settings changed by another application.\n- Diagnostic files remain available when exporting an archive fails.\n- VLESS imports preserve supported transport settings and report unsupported transports instead of silently changing them.\n- Linux reports failures while changing persistent routes; macOS releases old tray images after icon updates.\n- macOS allows updates before the helper is first installed. Replacing an older helper stops it first and briefly retries system registration instead of requiring a second click.\n\n### Security\n\n- macOS verifies a protected copy of the connection engine before starting it with elevated privileges and uses system-managed helper registration.\n- Subscription redirects restrict transfer of device identifiers and credentials. Device consent is tied to the subscription URL.\n- Remote profile images use a bounded cache and a placeholder when loading is rejected. Local-address URL checks are strengthened.\n- Subscription settings can no longer enable additional unprotected connection-control endpoints or an external dashboard."
-            },
             {
               "name": "1.0.0-beta.5",
               "tag": "1.0.0-beta.5",
@@ -1001,6 +992,15 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
+            },
+            {
+              "name": "1.0.0-beta.1",
+              "tag": "1.0.0-beta.1",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.1",
+              "published_at": "2026-09-03T20:21:50Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- Group icons support separate light and dark variants when provided by the subscription.\n\n### Improved\n\n- A more compact popup. Window sizes follow system display scaling, and the Dashboard fits the available work area. Manual popup resizing is removed.\n- Refined macOS Dashboard and popup appearance: matching title bar and sidebar styling, with no popup arrow or extra gap below the menu bar.\n- Updated macOS app icon, including its monochrome appearance. The menu bar icon retains a green indicator while connected.\n- Automatic Dock behavior on macOS: Flowvy appears when the Dashboard opens and returns to menu-bar-only operation when it closes. The separate Hide Dock Icon setting is removed.\n\n### Fixed\n\n- The Dock icon opens the Dashboard. Closing the Dashboard keeps the client running and the pinned popup usable.\n- Fixed potential native interface crashes on Intel Macs.\n- On macOS, system proxy and route bypass correctly identify renamed network services, and proxy exclusions are applied as individual addresses.\n- Fixed special-character handling in the app path when installing the macOS TUN service. Service startup failures are no longer reported as successful installation.\n"
             }
           ],
           "last_commit": {
@@ -1027,7 +1027,7 @@
             "stars": 28406,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T14:09:48Z",
+            "pushed_at": "2026-09-15T14:37:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4573,7 +4573,7 @@
             "stars": 76761,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T14:31:25Z",
+            "pushed_at": "2026-09-15T14:36:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "79c9027",
-            "branch": "ifrost/edit-as-code-undo-redo",
-            "date": "2026-09-15T14:30:41Z",
-            "url": "https://github.com/grafana/grafana/commit/79c9027c95553ce03e1510b4d75c796ec5587a9d"
+            "sha": "12fba8e",
+            "branch": "main",
+            "date": "2026-09-15T12:54:59Z",
+            "url": "https://github.com/grafana/grafana/commit/12fba8ea021dc190c03cd1ec7795943a661d99d1"
           }
         },
         {
@@ -4777,7 +4777,7 @@
             "stars": 17718,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T14:12:29Z",
+            "pushed_at": "2026-09-15T14:36:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5130,7 +5130,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7395,
+            "stars": 7396,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-15T03:58:19Z",
