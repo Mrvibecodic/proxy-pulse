@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:26:17.339892Z",
+  "generated_at": "2026-09-15T17:31:33.026964Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 34114,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T16:51:29Z",
+            "pushed_at": "2026-09-15T17:30:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "Prerelease-Alpha",
+              "tag": "Prerelease-Alpha",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
+              "published_at": "2024-08-12T17:01:02Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Release created at  Wed Sep 16 01:30:47 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
+            },
             {
               "name": "v1.19.31",
               "tag": "v1.19.31",
@@ -166,15 +175,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* dca26db0 feat: add EasyTier outbound (#3194) by @MiaM1ku\r\n* ab405bad feat: support `stack: mips` in tun configuration by @wwqgtxx\r\n* 390870c7 feat: support `identity-secret` for ZeroTier by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 0159cf47 fix: restore hysteria v1 udp handling (#3178) by @Chenx Dust\r\n* 04366507 fix: close connection after error handling in doq by @wwqgtxx\r\n* 06b2c5b8 fix: close connection after error handling in mkcp outbound by @wwqgtxx\r\n* 127b1392 fix: split-DNS UDP queries fail silently in tsnet mode when upstream is a tailnet peer by @wwqgtxx\r\n* 187c6342 fix: close connection after error handling in snell outbound by @wwqgtxx\r\n* 1cdca1a0 fix: handle decryption handshake errors in server by @wwqgtxx\r\n* 20bcda2d fix: avoid VLESS decryption cleanup panic (#3195) by @浅小沫\r\n* 5183232e fix: RandomPaddingAddition and DisableCookies for AmneziaWG v3 by @wwqgtxx\r\n* 5f951098 fix: DomainSet wildcard matching with overlapping rules by @wwqgtxx\r\n* 634b3199 fix: hysteria2 UDP sessions not closed on connection close by @wwqgtxx\r\n* 68ec4fae fix: ipv6 url parse in xhttp (#3160) by @CyberVacation\r\n* 6d179a1c fix: openvpn derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 (#3189) by @Token\r\n* 77b9393c fix: preserve domain rules across Foreach round trips by @wwqgtxx\r\n* 78210c9c fix: close connection after error handling in kcptun by @wwqgtxx\r\n* 7d7532d4 fix: error using of safeConnClose in sudoku outbound by @wwqgtxx\r\n* 94ccba56 fix: mieru listener doesn't obey \"listen\" config (#3205) by @enfein\r\n* 99c49780 fix: prevent nil pointer dereference in WireGuard initialization (#3148) by @Sinspired\r\n* a91201f1 fix: correct android amd64 core asset name in updater (#3167) by @NuoFang\r\n* c0e43ebe fix: tailscale should always use UserDial for upstream TCP DNS server by @wwqgtxx\r\n* d5f57a5e fix: missing NeedHandshake for shadowsocks none by @wwqgtxx\r\n* dc66a8a1 fix: close connection after error handling in handleContextListener by @wwqgtxx\r\n* e0f1d2b2 fix: close udp endpoint in mieru server by @wwqgtxx\r\n* faeb537a fix: close connection after error handling in tuic server by @wwqgtxx\r\n* fb66af81 fix: typo in config.yaml (#3145) by @Kosta\r\n* fd74ecb6 fix: trusttunnel client not waiting for TCP connection established by @wwqgtxx\r\n\r\n## Maintenance\r\n* 061966e7 chore: OpenVPN no longer relies on the underlying conn deadline functions by @wwqgtxx\r\n* 2ecceb5b chore: improve mipstack under device backpressure by @wwqgtxx\r\n* 2f7eae5a chore: report detailed errors for invalid Clash-style domain patterns by @wwqgtxx\r\n* 2fe7ecbf chore: change yaml library to go.yaml.in/yaml/v3 by @wwqgtxx\r\n* 4aa9cc17 chore: avoid redundant select calculations in DomainSet by @wwqgtxx\r\n* 4dfaa902 chore: align the APIs between mipstack and gvisor by @wwqgtxx\r\n* 518c7036 chore: convert support REALITY ML-KEM option (#3199) by @Aethersailor\r\n* 6087521e chore: avoid a separate rule slice in DumpMrs by @wwqgtxx\r\n* 65287f0e chore: reduce memory usage in converter (#3159) by @beck\r\n* 8e2f18a1 chore: avoid redundant rank calculations in DomainSet by @wwqgtxx\r\n* 8e6738fa chore: update tailscale to v1.102.3 by @wwqgtxx\r\n* 8f54283e chore: updated sudoku to v0.5.0 (#3187) by @saba-futai\r\n* 92433dba chore: reduce gVisor memory usage by @wwqgtxx\r\n* b59a7e7b chore: sharing synthetic datasets used for build benchmarking by @wwqgtxx\r\n* bbb8cb92 chore: add standalone DomainSetBuilder by @wwqgtxx\r\n* c210be21 chore: buffer geodata reads with a 16 KiB reader (#3185) by @Huffer\r\n* d37f58e7 chore: add new DomainMap implement based on succinct DomainSet by @wwqgtxx\r\n* dd26c524 chore: reduce connection memory and actor stack overhead for mipstack by @wwqgtxx\r\n* ebf82e29 chore: reuse queues during DomainSet build by @wwqgtxx\r\n* f295ba6d chore: update mipstack for api adjustment by @wwqgtxx\r\n* f6a038ce chore: add some benchmark code for new DomainMap by @wwqgtxx\r\n* fe22fdd2 chore: update mieru version (#3119) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...v1.19.31\r\n"
-            },
-            {
-              "name": "Prerelease-Alpha",
-              "tag": "Prerelease-Alpha",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
-              "published_at": "2024-08-12T17:01:02Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Release created at  Mon Sep 14 20:59:11 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3119\n* fix: typo in config.yaml by @MakostaDev in https://github.com/MetaCubeX/mihomo/pull/3145\n* fix(outbound): prevent nil pointer dereference in WireGuard initializ… by @sinspired in https://github.com/MetaCubeX/mihomo/pull/3148\n* chore: reduce memory usage in converter by @beck-8 in https://github.com/MetaCubeX/mihomo/pull/3159\n* fix: ipv6 url parse in xhttp by @CyberVacation in https://github.com/MetaCubeX/mihomo/pull/3160\n* update-tag v1-\u003ev3 by @8MiYile in https://github.com/MetaCubeX/mihomo/pull/3172\n* fix: restore hysteria v1 udp handling by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3178\n* chore. updated sudoku to v0.5.0 and split the large file into smaller, more readable files. by @saba-futai in https://github.com/MetaCubeX/mihomo/pull/3187\n* fix(openvpn): derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3189\n* fix: correct android amd64 core asset name in updater by @NuoFang6 in https://github.com/MetaCubeX/mihomo/pull/3167\n* fix: prevent nil dereference when VLESS listener initialization fails by @Truimo in https://github.com/MetaCubeX/mihomo/pull/3195\n* feat: convert support REALITY ML-KEM option by @Aethersailor in https://github.com/MetaCubeX/mihomo/pull/3199\n* feat: add EasyTier outbound by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3194\n* fix: mieru listener doesn't obey \"listen\" config by @enfein in https://github.com/MetaCubeX/mihomo/pull/3205\n* chore: reduce geodata loading overhead by @Huffer342-WSH in https://github.com/MetaCubeX/mihomo/pull/3185\n\n## New Contributors\n* @CyberVacation made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3160\n* @TokenPLS made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3189\n* @Truimo made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3195\n* @Aethersailor made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3199\n* @MiaM1ku made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3194\n* @Huffer342-WSH made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3185\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...Prerelease-Alpha"
             },
             {
               "name": "v1.19.30",
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25404,
+            "stars": 25405,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-13T16:40:21Z",
@@ -4573,7 +4573,7 @@
             "stars": 76762,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T17:22:55Z",
+            "pushed_at": "2026-09-15T17:29:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "94a9b63",
-            "branch": "dashboard-subtitle-frontend",
-            "date": "2026-09-14T10:13:02Z",
-            "url": "https://github.com/grafana/grafana/commit/94a9b639bae41665e70f4e01a97cd82667cb25ab"
+            "sha": "ecd1fdd",
+            "branch": "adela/text_v2_instrumentation",
+            "date": "2026-09-15T17:29:08Z",
+            "url": "https://github.com/grafana/grafana/commit/ecd1fdd4f84e06e26e0e7ca9af3c88f210754cc8"
           }
         },
         {
@@ -4706,10 +4706,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80535,
+            "stars": 80536,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T16:47:32Z",
+            "pushed_at": "2026-09-15T17:30:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
