@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:14:35.815188Z",
+  "generated_at": "2026-09-16T01:19:51.258363Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38035,
+            "stars": 38036,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-15T10:40:48Z",
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28418,
+            "stars": 28419,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-15T21:50:02Z",
@@ -5140,6 +5140,15 @@
           },
           "releases": [
             {
+              "name": "v2.12.0",
+              "tag": "v2.12.0",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.12.0",
+              "published_at": "2026-09-16T01:19:15Z",
+              "prerelease": false,
+              "author": "kmendell",
+              "body": "\u003e [!NOTE]\n\u003e This release adds more flexible Git-based backups, improved vulnerability scanning, and expanded container and network visibility. It also fixes several authentication, permissions, deployment, and agent-related issues.\n\n## Backups and Git sync\n\n- Added **Back up to Git** sync mode and the ability to link existing projects to syncs — `dadf87f93d9214dcd741c7ed503dfbf504c9df54` (#3932) (@kmendell)\n- Added configurable Git identity for pushes — `372f168940702645d63d34d0d6d80b742a7cb8da` (#3935) (@kmendell)\n- Added an explicit environment-backup switch with a warning for project backups — `9ba395d5272ee5a3506682e61b9d1e06c4752f16` (#3937) (@kmendell)\n- Added support for binary files in Git backups and reused the editor file tree in the sync dialog — `b80880fab4146572c02f071126d44751391031b9` (#3946) (@kmendell)\n- Preserved pre-deploy hooks and deployment options when importing GitOps syncs — `da22a65fac881f7b6ff6048bae91399608d2eeab` (#3952) (@kmendell)\n- Added S3 backup discovery and re-keyed volume backups to the recovery key — `02208f5cd24e028dfb0e2221305febbf3ee58837` (#3885) (@neurekadev)\n\n## Security and vulnerability scanning\n\n- Added CSV export to the security vulnerabilities table — `af5538dde929bcc0e94053fd9ad4f3d263820da7` (#3936) (@kmendell)\n- Added a **Fix available** filter to the security vulnerabilities table — `bf48ce6eebebca249607b02dcebb7df37079ab90` (#3944) (@kmendell)\n- Added vulnerability-count sorting to the images table — `9f89ceefbfcd6dd16581cf520b40d4b201d41801` (#3945) (@kmendell)\n- Added Trivy configuration and ignore-file settings for vulnerability scans — `eff16eb5688e981b36847f55995d92990d02d30c` (#3949) (@kmendell)\n- Added support for decimal CPU limits in Trivy scans — `02225a2d03529ef14ec7e4009f6f4b746feca2b6` (#3972) (@kmendell)\n\n## Containers and networks\n\n- Added subnet and gateway columns to the networks table — `146b4b9658d163c1290453203172b3cd286bdf3f` (#3942) (@kmendell)\n- Added IPv6 addresses for containers and network members — `8345e5669ac2580a0b67385fbb9868ab6468e97e` (#3957) (@kmendell)\n- Added optional IP ranges when creating networks — `38d3ed8c19faea20e4d9457395519196f074ce6a` (#3959) (@kmendell)\n- Linked container overview volume and network counts to their respective tabs — `f9988528d1a94e3440d2d295bfcd1c658aff1798` (#3958) (@kmendell)\n- Added support for downloading container logs — `9a83c5ac02944dc72c3fc4a39691eb8a1a832403` (#3960) (@kmendell)\n\n## Interface and settings\n\n- Added Shift-select range support to selectable tables — `472b01f5855c642afe192be448fe6339f6a6f74c` (#3943) (@kmendell)\n- Clarified ntfy token authentication, required Matrix credentials, and cleaned up test menu labels — `e68ab5ab4b8e3df7528b6f365846c383a49d381e` (#3951) (@kmendell)\n- Updated theme colors and added support for inheriting theme colors — `eee8a84bd5d467ca5f1f6dac4ca20768a377dcf4` (#3965) (@kmendell)\n\n## Authentication, permissions, and reliability\n\n- Surfaced OIDC and settings errors, allowed clearing the OIDC secret, and required it while OIDC is enabled — `70cf8a2596d32f2fd84685e5827bc79f95e2a3b7` (#3954) (@kmendell)\n- Hid the Automations tab and stopped job polling without `jobs:manage` permission — `94d6d79d533cd941d46d2cacaba391167d570c96` (#3963) (@kmendell)\n- Updated the legacy `users.roles` backfill to run only once — `a4ae1a0f20463c7dc018f7bae4996e3cab2e34ac` (#3964) (@kmendell)\n\n## Agents and edge tunnel\n\n- Fixed Docker snippets to use the port number from the agent address input — `2c34ade39db5f8686f73e7f76bb8df691f39cebc` (#3955) (@tinkrynite)\n- Added missing job commands to the edge tunnel — `6af4589a12376f7fe40a9f1d8778fbbe6e5afbf4` (@kmendell)\n\n"
+            },
+            {
               "name": "v2.11.1",
               "tag": "v2.11.1",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.11.1",
@@ -5174,22 +5183,13 @@
               "prerelease": false,
               "author": "kmendell",
               "body": "\u003e [!NOTE]\n\u003e This release fixes browser session cookie size issues and missing sidebar usernames.\n\u003e It also updates the gopsutil and zod dependencies.\n\n### Fixes\n\n- Issue compact browser session cookies instead of the larger ML-DSA access JWT — `df7c24c85e9d4fa9d380532db928ecc3aa13dc17` (@kmendell); `e874390f6b4ca611a4b5f733868cca1e01138aca` / #3813 (@kmendell).\n- Fall back to the username when the display name is unset in the sidebar user menu — `0c7174f1089079d79535563ac2d54b032ea6914a` (@kmendell).\n\n### Dependencies\n\n- Bump `github.com/shirou/gopsutil/v4`, including 4.26.7 to 4.26.8 — `c9ad2e6f9f9751764e5608128b7e55abf9349b88` (@dependabot[bot]); `dd02c011c575c298dbd3f3167e4ba291edc06c59` / #3798 (@kmendell).\n- Bump `zod` from 4.4.3 to 4.5.4 — `d95764cf15a2867e2ac573f8cf6f78654da597d7` / #3812 (@dependabot[bot]).\n\n"
-            },
-            {
-              "name": "v2.10.0",
-              "tag": "v2.10.0",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.10.0",
-              "published_at": "2026-08-31T22:33:36Z",
-              "prerelease": false,
-              "author": "kmendell",
-              "body": "\u003e [!NOTE]\n\u003e This release adds selective system restores, scheduled volume backups, Convert to Compose, direct image patching, Apple push notifications, and ML-DSA-87 signing for authentication and edge mTLS.\n\u003e It also improves upgrade reliability, image update discovery, project logs, Swarm access, backup downloads, and UI performance.\n\n## Backups and recovery\n\n- Add selective system restores and harden recovery — `874134cfedc2e8ae44e6f0cd7e957e87bc760988` (#3708) (@neurekadev)\n- Add system-managed volume backup scheduling — `53a959f93e26193c6c9ac4bb4053555f18e8b2ff` (#3737) (@neurekadev)\n- Reduce S3 backup download amplification — `538350af6c72d0e6d80164f6aacb3b8dd02cd1bd` (#3773) (@kmendell)\n\n## Containers, images, and projects\n\n- Add experimental Convert to Compose for running containers — `9aef34e4ea703cbee29d31a4338413018ce54f34` (#3746) (@kmendell)\n- Add direct Copacetic image patching — `3617720518f0bdfc4282a7b5844508f3b7da60ec` (#3744) (@kmendell)\n- Restrict Copa patches to OS-level issues — `e95c55326a59a615993113e0ee809df734a40b0a` (@kmendell)\n- Store raw Trivy reports in the database and fix patch-target pagination — `53e7e82715bfebd9ed0d1a27dc0b777d0bbd68b0` (@kmendell)\n- Honor UI container exclusions during image update discovery — `b9b2092c0e36d3eaba66335e003b7ecd5e858540` (#3763) (@kmendell)\n- Stop checking Arcane-built local images against registries — `8d10b7db2d34aefa44f0f9a684f3b84b2ae355d7` (@kmendell)\n- Query image update information directly instead of caching it per container listing — `509c6e81babef8c3ac0b4bf9c418c1d3115c50a8` (@kmendell)\n- Resolve upgrade target images for blank-target self-upgrades — `8bbd157a2963874998c481487d132f460cb15b1c` (#3772) (@kmendell)\n- Honor `COMPOSE_FILE` and other predefined environment variables in projects — `6e1dbb2d22858014970f3b235b73acea0fc70ad5` (#3709) (@kmendell)\n- Forward registry authentication when deploying Swarm stacks from Git Sync or source edits — `1570a1da7a00e20012dcdf3d5496e2d9f39f732f` (#3787) (@elfensky)\n\n## Reliability and operations\n\n- Return HTTP 200 from the environment health check — `6b46c36a237328fc0728ac8fd02e8bc79a149986` (@kmendell)\n- Write workspace files using the volume’s runtime identity instead of root — `f4958ae8c8318bd921ef5be4ae9a6436309b0cd5` (#3745) (@kmendell)\n- Match Docker CLI memory accounting for cgroup v1 containers — `4c479f1c5b01ae6932e2de2ad91ca79aa6874edc` (@kmendell)\n- Purge leftover Git clone scratch directories — `d57d18f1136c1e518be656615f6e2df01d777e34` (#3771) (@kmendell)\n- Preserve stderr streams and Docker timestamps in project logs — `cac8a9090baea3b44aa2868d195cd21c3dcf62f0` (#3770) (@kmendell)\n- Allow the Viewer role to browse Swarm resources — `3f205dea94fa6d40189cf80eec665e39c5131e60` (#3779) (@kmendell)\n- Trigger agent self-upgrades asynchronously and pass the manager’s resolved target version — `d857910d9b08f96e7739c679415b18fd192a01b4` (#3786) (@kmendell)\n- Serialize explicit empty values in partial-update DTOs with `omitzero` — `24592561d9154da35d7fecd380e12c50e3c5783a` (@kmendell)\n\n## Authentication and notifications\n\n- Add native Apple push notifications for the iOS app — `4b1abefec6b9b93ea331e1259e061c6862025a11` (#3783) (@kmendell)\n- Sign and verify sessions, OIDC, passkeys, and edge mTLS with ML-DSA-87 — `2993fd316d41fafc110476370870a49b9202969c` (#3785) (@kmendell)\n- Accept display names in email notification From addresses — `034e7e7efd4e756f0c3145099f24f2afe0bc7596` (#3776) (@ohOgil)\n\n## User interface\n\n- Improve table-scrolling performance across all views — `1243d8e0bafdc110b8443ef710d999e5104ce632` (@kmendell)\n- Keep dialog widths within the content area — `5e7acb61d3bb6ef4bc60a80266c424f1d40d02c2` (@kmendell)\n- Move frontend files into a more maintainable structure — `938882a174322a1bbc6fe50fe926a4c61820797b` (@kmendell)\n\n## Dependencies\n\n- Bump `github.com/aquasecurity/trivy` from 0.69.3 to 0.72.0 in `/backend` — `29784fead298d740fb07db2754d53ff55e3bb9c4` (#3748) (@dependabot[bot])\n- Bump `github.com/sirupsen/logrus` from 1.10.0 to 1.10.1 in `/backend` — `be4220fa2cc44c348177de5c39354b716a517413` (#3753) (@dependabot[bot])\n- Bump `github.com/quay/claircore` from 1.5.52 to 1.5.53 in `/backend` — `611b5d7ff298ccd51b0675874354282aa117356c` (#3747) (@dependabot[bot])\n- Bump `github.com/samber/hot` from 0.13.0 to 0.13.1 in `/backend` — `cecdb777ec0f3487ab442f2bd1a45dc1120f0564` (#3754) (@dependabot[bot])\n- Bump `charm.land/bubbles/v2` from 2.2.0 to 2.2.1 in `/cli` — `b631dd67c34ef642c3bb177ad3d9df09c0974b0d` (#3752) (@dependabot[bot])\n- Bump `@tanstack/svelte-query` from 6.1.39 to 6.1.43 — `55762896904d9453f2c2cbeb26645b6e0f6818a2` (#3761) (@dependabot[bot])\n- Bump `github.com/google/go-containerregistry` from 0.21.9 to 0.22.0 in `/backend` — `3c0aac7c557ace8a15ffbd60dd6dc4448ec43a93` (#3755) (@dependabot[bot])\n- Bump `marked` from 18.0.10 to 18.0.11 — `201a3ff183a0f07e342398d0b1b12ca3847777a5` (#3759) (@dependabot[bot])\n\n## Refactoring\n\n- Use generics to eliminate redundant logic — `671ebef57234c40acba287925c5ee6ac9efdd399` (#3683) (@kmendell)\n- Migrate JWT and JWKS handling to jwx v4 — `45b063a074f521f45591f58c7b1d89b4395dc267` (#3790) (@kmendell)\n\n"
             }
           ],
           "last_commit": {
-            "sha": "3089c2e",
+            "sha": "9e5bfea",
             "branch": "main",
-            "date": "2026-09-16T01:11:11Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/3089c2ec4a56da5ca934c37778e6aeb2f539862d"
+            "date": "2026-09-15T21:02:03Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/9e5bfea2f213a63f11c83f63f77e3c8499f23aba"
           }
         }
       ]
