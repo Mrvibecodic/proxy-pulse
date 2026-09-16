@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:41:17.179153Z",
+  "generated_at": "2026-09-16T21:46:34.103987Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4611,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T17:29:22Z",
+            "pushed_at": "2026-09-16T21:43:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "ce5977a",
+                  "message": "ifstat: fix build with GCC 15",
+                  "author": "Til Kaiser",
+                  "date": "2026-09-16T21:43:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce5977a26e08b1392d3891cb03384ef470bc6ace"
+                },
+                {
                   "sha": "90d5d42",
                   "message": "openwisp-config: fetch release tarball instead of git clone",
                   "author": "Gagan Deep",
@@ -3232,19 +3239,19 @@
                   "author": "Richard Muzik",
                   "date": "2026-08-11T13:04:57Z",
                   "url": "https://github.com/openwrt/packages/commit/38b9f2a3b920c34b4aaebb59b39335b3c28d9199"
-                },
-                {
-                  "sha": "9f1f0a5",
-                  "message": "rust: Update to 1.94.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-08-11T12:50:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f1f0a54e2a997418ccb8b02323677fb46448b27"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "79c186e",
+                  "message": "ifstat: fix build with GCC 15",
+                  "author": "Til Kaiser",
+                  "date": "2026-09-16T21:43:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/79c186e1ff3f7d2b49b587893a7eae1dc949dd76"
+                },
                 {
                   "sha": "8db338f",
                   "message": "openwisp-config: fetch release tarball instead of git clone",
@@ -3447,13 +3454,6 @@
                   "author": "Ray Wang",
                   "date": "2026-09-03T08:37:29Z",
                   "url": "https://github.com/openwrt/packages/commit/10e3259ba88ccd4e9fa71581fa93eed790092034"
-                },
-                {
-                  "sha": "887504d",
-                  "message": "rclone: update to 1.75.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:24:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/887504d6160af076b770685c9268c7ca79ea04a5"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91437,
+            "stars": 91438,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-16T15:56:43Z",
@@ -4564,7 +4564,7 @@
             "stars": 76776,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T21:40:21Z",
+            "pushed_at": "2026-09-16T21:42:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5db62b4",
-            "branch": "main",
-            "date": "2026-09-16T21:40:21Z",
-            "url": "https://github.com/grafana/grafana/commit/5db62b433603865ece3746c1873c8a4a963adec8"
+            "sha": "32edaff",
+            "branch": "dataviz/adhoc-transformations-api",
+            "date": "2026-09-16T20:21:42Z",
+            "url": "https://github.com/grafana/grafana/commit/32edaff315972d7c164cdc8a460a80139c3dd434"
           }
         },
         {
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "07efb82",
-            "branch": "integrations-regen",
-            "date": "2026-09-16T21:13:33Z",
-            "url": "https://github.com/netdata/netdata/commit/07efb82923f6b46313c48682922a5176d4131aa2"
+            "sha": "f2f517b",
+            "branch": "master",
+            "date": "2026-09-16T21:14:19Z",
+            "url": "https://github.com/netdata/netdata/commit/f2f517b35ed2b1def9e597e84c9367709ddcc0a2"
           }
         },
         {
