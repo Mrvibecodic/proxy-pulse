@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T11:34:53.852095Z",
+  "generated_at": "2026-09-16T11:40:10.536873Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-15T22:06:11Z",
+            "pushed_at": "2026-09-16T11:37:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- Connections tab: the grouping option is now called after the table column it groups by, and it groups by the whole chain the row shows instead of its last hop only\n- The pre-release update channel is created on the first publish, so a build no longer stays invisible to the updater\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- Вкладка «Соединения»: пункт группировки назван так же, как колонка, по которой группирует, и группирует теперь по всей цепочке из строки, а не только по её последнему звену\n- Предварительный канал обновлений создаётся при первой же публикации, и сборка больше не остаётся невидимой для апдейтера"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.9-alpha.2",
-              "tag": "clod-v0.1.9-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.9-alpha.2",
-              "published_at": "2026-08-31T15:59:29Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Pre-release builds have their own update channel at last: the «Pre-release builds» switch now really decides what the updater offers — the pre-release channel always carries the newest build, the regular one the latest stable release, and they can no longer overtake each other\n- Dependencies are updated: the h2 vulnerability reported by the audit is closed, and the dependency audit itself finally runs\n\n### Fixed\n\n- Linux: the window opens from the tray again and desktop notifications work. The tray dependency added in the previous build was quietly switching the D-Bus layer into a mode where every blocking call panicked, so the window was never created\n- The node selection is restored after a cold start too: it now waits for the groups to be filled by the core instead of trusting its first answer, which could wipe the choice stored in the profile\n- Connections tab: the speed column headers no longer run together\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- У предварительных сборок наконец свой канал обновлений: галочка «Предварительные сборки» действительно решает, что предложит апдейтер — в предварительном канале лежит самая свежая сборка, в обычном последний стабильный релиз, и обогнать друг друга они не могут\n- Обновлены зависимости: закрыта уязвимость в h2, найденная аудитом, а сам аудит зависимостей наконец выполняется\n\n### Исправлено\n\n- Linux: окно снова открывается из трея, и работают уведомления. Зависимость трея, добавленная в прошлой сборке, молча переключала слой D-Bus в режим, где любой блокирующий вызов паниковал, и окно не создавалось\n- Выбор узлов возвращается и после холодного старта: теперь он дожидается, пока ядро наполнит группы, а не верит первому ответу, по которому запись в профиле могла стереться\n- Вкладка «Соединения»: заголовки колонок скорости больше не слипаются"
             }
           ],
           "last_commit": {
@@ -1086,7 +1077,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-15T20:40:23Z",
+            "pushed_at": "2026-09-16T11:36:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1732,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "854113b",
+                  "message": "ovpn-dco: update to 7.2.0.2026082800",
+                  "author": "Qingfang Deng",
+                  "date": "2026-09-16T11:36:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/854113b40e4159536124e60e3b6cec93e4c7461e"
+                },
+                {
+                  "sha": "6edb4a4",
+                  "message": "openvpn: update to 2.7.7",
+                  "author": "Qingfang Deng",
+                  "date": "2026-09-16T11:36:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/6edb4a44c7f02e6f61d36fb31c12a7d0f7a4e439"
+                },
+                {
                   "sha": "87456bd",
                   "message": "ffmpeg: change PKG_MAINTAINER",
                   "author": "Mirko Vogt",
@@ -1935,20 +1940,6 @@
                   "author": "Miroslav Lichvar",
                   "date": "2026-09-13T07:41:23Z",
                   "url": "https://github.com/openwrt/packages/commit/9c0c67bc2fd9c03d2349c3a971973bf1a85c6778"
-                },
-                {
-                  "sha": "bc29809",
-                  "message": "openwisp-config: fetch release tarball instead of git clone",
-                  "author": "Gagan Deep",
-                  "date": "2026-09-13T07:00:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/bc29809524d7d8ee47ea14d90d2247bfd4c1325a"
-                },
-                {
-                  "sha": "5c25f05",
-                  "message": "openwisp-config: upgrade to 1.3.0",
-                  "author": "Gagan Deep",
-                  "date": "2026-09-13T07:00:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5c25f05e1e467bfaf4cd41442241f6e7643e4e98"
                 }
               ]
             },
@@ -4493,7 +4484,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25422,
+            "stars": 25423,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-16T10:11:51Z",
@@ -4551,7 +4542,7 @@
           "last_commit": {
             "sha": "6a7b277",
             "branch": "main",
-            "date": "2026-09-13T16:40:23Z",
+            "date": "2026-09-13T16:40:21Z",
             "url": "https://github.com/henrygd/beszel/commit/6a7b2772d90c732077a910ca03bb79b13c4fe8c6"
           }
         },
@@ -4561,7 +4552,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76771,
+            "stars": 76770,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-16T11:34:19Z",
@@ -4617,10 +4608,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3b55f3e",
-            "branch": "eledobleefe/tagitem-visual-refresh",
-            "date": "2026-09-16T11:34:20Z",
-            "url": "https://github.com/grafana/grafana/commit/3b55f3e0116ad6d6c701a1b7fd183830e976ffce"
+            "sha": "0515de3",
+            "branch": "assistant/dashboard-plan-review-feedback",
+            "date": "2026-09-16T08:31:38Z",
+            "url": "https://github.com/grafana/grafana/commit/0515de37c83b356553a8c395c576dfed04a0db93"
           }
         },
         {
@@ -4768,7 +4759,7 @@
             "stars": 17725,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T11:31:30Z",
+            "pushed_at": "2026-09-16T11:38:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4821,10 +4812,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f1101cc",
-            "branch": "sso2",
-            "date": "2026-09-16T10:36:02Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/f1101cc1c76e03d0b5ce66d3a71d98db95598fef"
+            "sha": "f5ca02f",
+            "branch": "fix/enable-tcp6",
+            "date": "2026-09-16T09:50:43Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/f5ca02fdf3bd2588d0de88a2ad153d94b47c36a8"
           }
         }
       ]
@@ -5109,10 +5100,10 @@
             }
           ],
           "last_commit": {
-            "sha": "54e3315",
-            "branch": "gh-pages-firasans-only",
-            "date": "2026-09-16T10:36:49Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/54e33159f60c0fe019420a12b55c19840db1adf5"
+            "sha": "44b1a1a",
+            "branch": "gh-pages-no-fonts",
+            "date": "2026-09-16T10:36:50Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/44b1a1afc02a79a1de52bc8cf4c8c04e344ef26b"
           }
         },
         {
