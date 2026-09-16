@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:30:51.514321Z",
+  "generated_at": "2026-09-16T13:36:08.054935Z",
   "groups": [
     {
       "id": "cores",
@@ -570,7 +570,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T08:49:35Z",
+            "pushed_at": "2026-09-16T13:33:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1083,7 +1083,7 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4610,
+            "stars": 4611,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
             "pushed_at": "2026-09-16T11:36:17Z",
@@ -4428,12 +4428,21 @@
             "stars": 91428,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T13:19:53Z",
+            "pushed_at": "2026-09-16T13:31:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.5",
+              "tag": "2.5.5",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.5",
+              "published_at": "2026-09-16T13:31:07Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7848 fix: Memory leak from tcp monitor \r\n\r\n\r\n\r\n"
+            },
             {
               "name": "2.5.4",
               "tag": "2.5.4",
@@ -4469,15 +4478,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🆕 New Features\r\n- #7720 feat: add SMS Gateway notification provider (Thanks @mattboston)\r\n- #7677 feat: Add ClickUp notification provider (Thanks @nTraum)\r\n- #7640 feat: add TurboSMTP email notification provider (Thanks @NewtTheWolf)\r\n- #7638 feat(notification): add BearSMS SMS provider for Israel (Thanks @nitay12)\r\n- #7632 feat: Add Pinglet notification provider (Thanks @TheGlenn88)\r\n- #7609 feat: add Milky as Notification Provider (Thanks @nope-e)\r\n- #7555 feat: Add openwa notification (Thanks @ron007d)\r\n\r\n### 🐞 Bug Fixes\r\n- #7729 fix: analytics_type's enum check was not removed, even the data type changed to string on SQLite \r\n- #7702 fix(radius): treat Access-Challenge as successful response (#7700) (Thanks @rikkova)\r\n\r\n### 🦎 Translation Contributions\r\n- #7715 #7646 chore: Translations Update from Weblate (Thanks @Aluisio @AntonPalmqvist @ATLWongsatorn @Cutlets @cyril59310 @DJEDIVER @dodog @dukkk2 @Gringit @helakostain @kaindlnetwork @misaka10843 @olafrv @raulmouzo @Regard1ess @steliosk98 @WoutNerd @yeonzi @zazuu0)\r\n\r\n\r\n"
-            },
-            {
-              "name": "2.5.0",
-              "tag": "2.5.0",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.0",
-              "published_at": "2026-08-01T16:35:53Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "## 2.5.0\r\n\r\n### Uncategorized\r\n\r\n### 🆕 New Features\r\n- #7645 Add `next-rootless` docker tag \r\n- #7607 feat: allow unlimited interval rather than 24 days \r\n- #7597 feat: add voice call option to Plivo notification provider (Thanks @sarveshpatil-plivo)\r\n- #7584 feat: add Plivo SMS notification provider (Thanks @sarveshpatil-plivo)\r\n- #7571 feat: add Ooredoo (Maldives) SMS notification provider (Thanks @islandboymv)\r\n- #7569 feat: Add WxPusher SPT (WxPusher simple push token) notification provider (Thanks @zjiecode)\r\n- #7546 feat: add Flowtriq DDoS detection notification provider (Thanks @jacob-masse @FlyingDove2493)\r\n- #7525 feat: add tracking support on status pages for rybbit analytics (Thanks @DanielOberlechner)\r\n- #7506 feat(notification): add additional headers option for SMTP (Thanks @dnagy)\r\n- #7214 feat: add NTP monitor type for network time protocol monitoring (Thanks @henricook)\r\n- #7114 feat(system-service): add PM2 picker and platform selection (Thanks @KraoESPfan1n)\r\n\r\n### 💇‍♀️ Improvements\r\n\r\n### 🐞 Bug Fixes\r\n- #7654 fix: correct 12 spelling errors across codebase (Thanks @jannikbx)\r\n- #7641 fix: RSS service status description is wrong \r\n- #7618 fix: widen stat_daily up/down columns from SMALLINT to unsigned INTEGER (Thanks @kushiemoon-dev)\r\n- #7599 fix: reduce rate-limit log spam when quota is healthy (Thanks @hexonal)\r\n- #7590 fix: double // in badgeUrl breaking Badge generator functionality (Thanks @jaimeagudo)\r\n- #7588 fix(domain-expiry): clarify unsupported RDAP warning (Thanks @arturict)\r\n- #7542 fix: resolve Steam monitor hostnames (Thanks @yuminn-k)\r\n- #7520 fix(discord): timezone with `dayjs.utc()` (Thanks @skkzsh)\r\n- #7516 fix: omit resolver port from DNS monitor service URL (Thanks @skkzsh)\r\n- #7515 fix(monitor): screenshot_delay not saved when editing browser engine monitor (Thanks @GhadiSaab)\r\n- #7472 fix: add timeout functionality to kafka (Thanks @jfgsilva)\r\n- #7465 fix: preserve saved protocol when loading Globalping ping monitor (Thanks @titojuanc)\r\n- #7460 fix: prevent tags dropdown from overflowing viewport (Thanks @Subrat-Dwivedi-22)\r\n- #7290 fix: allow mqtts:// in MQTT monitor (Thanks @Mrstragr @chennin)\r\n\r\n### ⬆️ Security Fixes\r\n- #7538 #7349 chore: Update dependencies \r\n- #7508 chore: Set 14 days cooldown for npm update to mininize the supply-chain-attack \r\n\r\n### 🦎 Translation Contributions\r\n- #7521 #7477 chore: Translations Update from Weblate (Thanks @aindriu80 @Aluisio @andibing @AnnAngela @AntonPalmqvist @arcanjobr @bill162 @ctih1 @cyril59310 @dodog @firedur @Goudarz @Gringit @helakostain @ivanbratovic @kamine81 @kiznick @Mr-Mmmc @MrEddX @OnyxOracle @PolarniMeda @ramazansancar @samsilveira @superpep)\r\n\r\n### Others\r\n- #7544 chore: change analytics_type to string type from enum \r\n- #7543 chore: add build \"pr-test\" workflow, add a message for testing to new pr. \r\n- #7541 chore: Add an ability to enable node.js inspector \r\n- #7535 chore: Remove meaningless entries from en.json \r\n- #7496 chore: Login form minor changes \r\n\r\n"
             }
           ],
           "last_commit": {
@@ -4549,10 +4549,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6a7b277",
-            "branch": "main",
-            "date": "2026-09-13T16:40:21Z",
-            "url": "https://github.com/henrygd/beszel/commit/6a7b2772d90c732077a910ca03bb79b13c4fe8c6"
+            "sha": "218c8b6",
+            "branch": "l10n_main_2",
+            "date": "2026-09-16T10:11:51Z",
+            "url": "https://github.com/henrygd/beszel/commit/218c8b65e5e78195dad925b487c81c57b5ac6856"
           }
         },
         {
@@ -4564,7 +4564,7 @@
             "stars": 76771,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T13:28:21Z",
+            "pushed_at": "2026-09-16T13:35:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "03edc3c",
-            "branch": "assistant/dashboard-plan-readonly",
-            "date": "2026-09-16T13:27:27Z",
-            "url": "https://github.com/grafana/grafana/commit/03edc3c248a89f3056abd81062814b3e434822bf"
+            "sha": "1f1eb25",
+            "branch": "main",
+            "date": "2026-09-16T12:27:43Z",
+            "url": "https://github.com/grafana/grafana/commit/1f1eb251e84c0c90a172810d709a0a2a48e6c697"
           }
         },
         {
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cb6d156",
+            "sha": "1dcd608",
             "branch": "master",
-            "date": "2026-09-16T12:15:42Z",
-            "url": "https://github.com/netdata/netdata/commit/cb6d156b0654fe10a2c2916f313b603a2718f7a3"
+            "date": "2026-09-16T12:43:35Z",
+            "url": "https://github.com/netdata/netdata/commit/1dcd608f8bdb91701a4e448b293d0230162dd884"
           }
         },
         {
