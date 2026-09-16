@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:32:20.804751Z",
+  "generated_at": "2026-09-16T15:37:37.868019Z",
   "groups": [
     {
       "id": "cores",
@@ -1015,7 +1015,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28426,
+            "stars": 28427,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-16T12:56:03Z",
@@ -1086,7 +1086,7 @@
             "stars": 4611,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T13:48:19Z",
+            "pushed_at": "2026-09-16T15:35:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,132 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "763e45c",
+                  "message": "ustreamer: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/763e45c8901b6fd95434175503cfea70cf94a5cc"
+                },
+                {
+                  "sha": "e2dd1dc",
+                  "message": "udpspeeder: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/e2dd1dc19d8259f4257724cedae421d2b705ea04"
+                },
+                {
+                  "sha": "a4700cc",
+                  "message": "sysrepo: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/a4700ccda3c98a23a6dc8a3f22eda56bd681af93"
+                },
+                {
+                  "sha": "3156347",
+                  "message": "srt: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/3156347f412633274b773ea230653cee39067f15"
+                },
+                {
+                  "sha": "4357925",
+                  "message": "ruby: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/435792539da61d6083968583a907322e64b65682"
+                },
+                {
+                  "sha": "cc100f7",
+                  "message": "rtorrent: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/cc100f7a59b29605d5b76ded83810b3382f84aec"
+                },
+                {
+                  "sha": "80d3aab",
+                  "message": "python3: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/80d3aabb68eb855872183ee050d4a7a981d5eec6"
+                },
+                {
+                  "sha": "b20484d",
+                  "message": "php8: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/b20484d843a28ac105dcf01d8790dd7a21ada0fb"
+                },
+                {
+                  "sha": "8c5df29",
+                  "message": "openal-soft: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/8c5df29a887321bfecc5dd8352843027b2deddd2"
+                },
+                {
+                  "sha": "b1d9115",
+                  "message": "nfdump: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/b1d91158c2215f0830f3704f1e2a9adbd0a36b20"
+                },
+                {
+                  "sha": "e99ffad",
+                  "message": "netatalk: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/e99ffadc692d8491a05ced50ff5817220d2d9397"
+                },
+                {
+                  "sha": "06ded6e",
+                  "message": "nanomq: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/06ded6eaa656053aa2e9d7530dbba824f1abc8c4"
+                },
+                {
+                  "sha": "c5fd093",
+                  "message": "libopen62541: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/c5fd093c3dd549f28ca52227b4ba1f454a54cda7"
+                },
+                {
+                  "sha": "30cfcf3",
+                  "message": "knot: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/30cfcf3ea3bc7e4cfd0665fc7fa59fccf26e36a7"
+                },
+                {
+                  "sha": "4b24b41",
+                  "message": "gstreamer1: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/4b24b41e7a4ae8ba697977f2ef258425729bfd32"
+                },
+                {
+                  "sha": "d3b00ed",
+                  "message": "gnutls: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d3b00edee42ead023521af8824ef031ecc8c1128"
+                },
+                {
+                  "sha": "d6f50e4",
+                  "message": "gnunet: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/d6f50e42d35ff682ab0ed1e03a9387942e766d20"
+                },
+                {
+                  "sha": "b8c4efa",
+                  "message": "bind: use ATOMIC64_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-16T15:35:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/b8c4efa23a7126727325d3b49ac5dd0780c60cd9"
+                },
+                {
                   "sha": "854113b",
                   "message": "ovpn-dco: update to 7.2.0.2026082800",
                   "author": "Qingfang Deng",
@@ -1823,132 +1949,6 @@
                   "author": "Martin Johansson",
                   "date": "2026-09-14T21:30:02Z",
                   "url": "https://github.com/openwrt/packages/commit/0a781352d2b26aa7caf75aa7034a2472322c1149"
-                },
-                {
-                  "sha": "74fbbb4",
-                  "message": "pulseaudio: detect intl and iconv through meson dependency objects",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-14T15:46:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/74fbbb485adc2af69f378b736974972f82e351fa"
-                },
-                {
-                  "sha": "7d47935",
-                  "message": "pulseaudio: switch to git snapshot",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-14T15:46:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/7d479353dd78a5ba9e38aea4b7acf1171038d28d"
-                },
-                {
-                  "sha": "77492a6",
-                  "message": "pulseaudio: split out libpulse client library",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-14T15:46:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/77492a6b4e0aef5aba9bd6476ee844f4873570b6"
-                },
-                {
-                  "sha": "ee2e26b",
-                  "message": "comrade: update to 0.2.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-14T10:56:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/ee2e26b639d45e67baadda63a8efa5238a96a5bd"
-                },
-                {
-                  "sha": "1bb94b9",
-                  "message": "prplmesh: add package",
-                  "author": "Andrei Ovcharenko",
-                  "date": "2026-09-14T08:45:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/1bb94b900fd4166ac8c36431ca7baed55c75a571"
-                },
-                {
-                  "sha": "462e6ce",
-                  "message": "dnsproxy: update to 0.84.2",
-                  "author": "Tawhidul Islam",
-                  "date": "2026-09-14T08:29:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/462e6ceda8fcf9e8ec7e6d01e65212f607c4d3e8"
-                },
-                {
-                  "sha": "fecb5f2",
-                  "message": "hcxdumptool: pass TARGET_LDFLAGS and restore -std=gnu99",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/fecb5f2cbad1821296cab1019cabc001d328dfd6"
-                },
-                {
-                  "sha": "18a4b21",
-                  "message": "hcxtools: pass TARGET_LDFLAGS and restore -std=gnu99",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/18a4b21bdeac031469063c73c13c1b8aadbcef73"
-                },
-                {
-                  "sha": "099288e",
-                  "message": "hcxtools: update to version 7.1.2",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/099288e6fb3f70d47712654bde9407453de1150c"
-                },
-                {
-                  "sha": "ec542fe",
-                  "message": "hcxdumptool: build hcxdumptool target only",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec542feed47eb5cf7c0f64ebbb115710e9ee464f"
-                },
-                {
-                  "sha": "5f26abe",
-                  "message": "hcxdumptool: drop unused libopenssl dependency",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5f26abefaba876a7f29a5fffc0e65820040d97f9"
-                },
-                {
-                  "sha": "59412cc",
-                  "message": "hcxdumptool: update to version 7.1.2",
-                  "author": "Atanas Vladimirov",
-                  "date": "2026-09-14T04:14:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/59412cc5b04307edcd51cfed6aa48fde82481a72"
-                },
-                {
-                  "sha": "34f7cb6",
-                  "message": "podman: wire the podman bridges into dnsmasq and fw4",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-13T22:57:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/34f7cb606695cf162e52c1ab8d695193968a6087"
-                },
-                {
-                  "sha": "337361a",
-                  "message": "podman: select the nftables firewall driver",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-13T22:57:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/337361a6420f1e68c3a78a4aff863315b6716160"
-                },
-                {
-                  "sha": "6f80c0c",
-                  "message": "netavark: build with the nftables firewall driver",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-13T22:57:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/6f80c0ce99a8124c7ca62c5386d09b09ceb496d6"
-                },
-                {
-                  "sha": "8de0abe",
-                  "message": "tailscale: update to 1.102.3, disable the update feature",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-09-13T21:28:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/8de0abeb462df4b2ec0634abce8119fd20da659a"
-                },
-                {
-                  "sha": "881a8c5",
-                  "message": "unbound: update to 1.26.0",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-09-13T20:06:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/881a8c5c5bfb6d341a50072b6e53186c7c5d09c0"
-                },
-                {
-                  "sha": "9c0c67b",
-                  "message": "chrony: update to 4.9",
-                  "author": "Miroslav Lichvar",
-                  "date": "2026-09-13T07:41:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c0c67bc2fd9c03d2349c3a971973bf1a85c6778"
                 }
               ]
             },
@@ -4493,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25425,
+            "stars": 25426,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-16T10:11:51Z",
@@ -4564,7 +4564,7 @@
             "stars": 76773,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T15:32:11Z",
+            "pushed_at": "2026-09-16T15:36:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c07a2f2",
-            "branch": "pstibrany/authz-folder-store-field-value-results",
-            "date": "2026-09-16T15:32:12Z",
-            "url": "https://github.com/grafana/grafana/commit/c07a2f20ec8be337cd4e5977e004c76e8058af45"
+            "sha": "f6f77b3",
+            "branch": "fcai/skip-mutate-subresources",
+            "date": "2026-09-16T14:11:02Z",
+            "url": "https://github.com/grafana/grafana/commit/f6f77b353c08c9e96f662485f69c36a10b462f24"
           }
         },
         {
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "68b1703",
+            "sha": "db0d154",
             "branch": "master",
-            "date": "2026-09-16T13:39:09Z",
-            "url": "https://github.com/netdata/netdata/commit/68b17034c7ffbf73b0e7f83e789a2f87cd6d578f"
+            "date": "2026-09-15T06:42:20Z",
+            "url": "https://github.com/netdata/netdata/commit/db0d154380a954c215e7a2e6c29f39a178dd0430"
           }
         },
         {
@@ -5053,7 +5053,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3446,
+            "stars": 3447,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-09-16T10:44:00Z",
