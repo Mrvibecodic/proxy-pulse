@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:46:39.974881Z",
+  "generated_at": "2026-09-16T13:51:59.437808Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4611,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T11:36:17Z",
+            "pushed_at": "2026-09-16T13:48:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "90d5d42",
+                  "message": "openwisp-config: fetch release tarball instead of git clone",
+                  "author": "Gagan Deep",
+                  "date": "2026-09-16T13:47:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/90d5d42530643bec42aa39fbce32b91a1c593920"
+                },
+                {
+                  "sha": "42a06f7",
+                  "message": "openwisp-config: upgrade to 1.3.0",
+                  "author": "Gagan Deep",
+                  "date": "2026-09-16T13:47:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/42a06f7a19cb495b20c567a2ec62deb97ee03d98"
+                },
+                {
                   "sha": "f4370f9",
                   "message": "unbound: update to 1.26.0",
                   "author": "Tyrel M. McQueen",
@@ -3225,26 +3239,26 @@
                   "author": "Tianling Shen",
                   "date": "2026-08-11T12:50:14Z",
                   "url": "https://github.com/openwrt/packages/commit/9f1f0a54e2a997418ccb8b02323677fb46448b27"
-                },
-                {
-                  "sha": "5cbb5f8",
-                  "message": "librespeed-cli: update to 1.0.13",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T12:12:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/5cbb5f80ffe5a3432b5dc0e73818b3d0c1474323"
-                },
-                {
-                  "sha": "ed5b786",
-                  "message": "librespeed-cli-rust: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-11T10:08:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/ed5b786deef00ba8913c5cfde851951e17a50ebf"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "8db338f",
+                  "message": "openwisp-config: fetch release tarball instead of git clone",
+                  "author": "Gagan Deep",
+                  "date": "2026-09-16T13:48:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/8db338fe2d731cd357c97de7b9857e2cb121103e"
+                },
+                {
+                  "sha": "e43c09b",
+                  "message": "openwisp-config: upgrade to 1.3.0",
+                  "author": "Gagan Deep",
+                  "date": "2026-09-16T13:48:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/e43c09b6cdc4aa3f0d0ce1be5ab40e0c92424e81"
+                },
                 {
                   "sha": "9b356cf",
                   "message": "unbound: update to 1.26.0",
@@ -3440,20 +3454,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-09-03T08:24:34Z",
                   "url": "https://github.com/openwrt/packages/commit/887504d6160af076b770685c9268c7ca79ea04a5"
-                },
-                {
-                  "sha": "f3290d1",
-                  "message": "openlist: update to 4.2.5",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:24:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/f3290d146e4b931823c49667c3385b2d1e350990"
-                },
-                {
-                  "sha": "dd03427",
-                  "message": "yq: update to 4.53.6",
-                  "author": "Tianling Shen",
-                  "date": "2026-09-03T08:24:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/dd034274faa436afd47446e369137eb758ef3c9d"
                 }
               ]
             }
@@ -4564,7 +4564,7 @@
             "stars": 76771,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T13:46:03Z",
+            "pushed_at": "2026-09-16T13:51:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "46c5594",
-            "branch": "MissingRoberto/mermaid-folder-readme",
-            "date": "2026-09-16T13:45:29Z",
-            "url": "https://github.com/grafana/grafana/commit/46c5594724cfbeacd70e4c04c32c7ca331e6f7ff"
+            "sha": "b5e778a",
+            "branch": "eledobleefe/mt-fallback-feature-toggle",
+            "date": "2026-09-16T10:25:18Z",
+            "url": "https://github.com/grafana/grafana/commit/b5e778a0e3f97699b3ecc92ed23708e394397fc6"
           }
         },
         {
@@ -4765,7 +4765,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17724,
+            "stars": 17725,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-16T12:09:25Z",
@@ -5109,10 +5109,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9469f72",
-            "branch": "gh-pages-sarasa-only",
-            "date": "2026-09-16T10:00:45Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/9469f72c726b1f1b71caf93932214f34abe93611"
+            "sha": "01b4b15",
+            "branch": "main",
+            "date": "2026-09-15T04:47:05Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/01b4b1518524f8a016d953e201ed7464dbc2a5c9"
           }
         },
         {
@@ -5121,7 +5121,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7414,
+            "stars": 7415,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-16T07:39:28Z",
