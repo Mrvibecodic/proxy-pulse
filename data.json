@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:30:18.539899Z",
+  "generated_at": "2026-09-16T16:35:33.531234Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34142,
+            "stars": 34143,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -1015,7 +1015,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28428,
+            "stars": 28429,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-16T16:25:02Z",
@@ -4493,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25427,
+            "stars": 25428,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-16T10:11:51Z",
@@ -4564,7 +4564,7 @@
             "stars": 76774,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T16:26:29Z",
+            "pushed_at": "2026-09-16T16:35:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1994530",
-            "branch": "paulmarbach/table-zebra-striping",
-            "date": "2026-09-16T14:46:37Z",
-            "url": "https://github.com/grafana/grafana/commit/19945304467ef2839d113da4b774e88c6e30f87a"
+            "sha": "369a4d0",
+            "branch": "navigation/plugin-meta-nav-fields",
+            "date": "2026-09-16T16:32:15Z",
+            "url": "https://github.com/grafana/grafana/commit/369a4d034f2447494046fb282b33fa0c44e6db30"
           }
         },
         {
@@ -4700,12 +4700,21 @@
             "stars": 80548,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-16T16:17:22Z",
+            "pushed_at": "2026-09-16T16:33:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
           },
           "releases": [
+            {
+              "name": "v2.11.1",
+              "tag": "v2.11.1",
+              "url": "https://github.com/netdata/netdata/releases/tag/v2.11.1",
+              "published_at": "2026-09-16T16:35:20Z",
+              "prerelease": false,
+              "author": "netdatabot",
+              "body": "# Release notes\r\n\r\nNetdata v2.11.1 is a patch release to address issues discovered since [v2.11.0](https://github.com/netdata/netdata/releases/tag/v2.11.0).\r\n\r\nThis is a larger-than-usual patch release focused on query correctness, database engine stability, Cloud connectivity robustness, health/alert efficiency, and shutdown and process-lifetime safety, along with a number of collector and platform fixes, including broader SQL Server coverage and Windows CPU and disk improvements.\r\n\r\n## Query engine\r\n\r\n- Preserved exact SUM values when a stored point spans result rows or an automatic storage-tier boundary, and preserved incremental-sum baselines so buckets holding only an opening sample no longer produce empty queries ([#23512](https://github.com/netdata/netdata/pull/23512), [#23505](https://github.com/netdata/netdata/pull/23505), [@ktsaou](https://github.com/ktsaou))\r\n- Kept API timestamps independent of each Agent's retention, so the same explicit or relative request returns the same row timestamps across Agents ([#23507](https://github.com/netdata/netdata/pull/23507), [@ktsaou](https://github.com/ktsaou))\r\n- Attributed tier-0 RESET and anomaly evidence to the result row that actually contains the source sample, and fixed anomaly-rate contributor counts in two-pass group-by queries ([#23504](https://github.com/netdata/netdata/pull/23504), [#23508](https://github.com/netdata/netdata/pull/23508), [@ktsaou](https://github.com/ktsaou))\r\n- Applied `options=absolute` to points fetched from the incoming tier during a plan switch, so a negative value can no longer cross a tier transition unchanged ([#23503](https://github.com/netdata/netdata/pull/23503), [@ktsaou](https://github.com/ktsaou))\r\n- Fixed a logical operator in the JSON wrapper so unqueried dimensions are excluded as expected unless all dimensions are requested ([#23639](https://github.com/netdata/netdata/pull/23639), [@stelfrag](https://github.com/stelfrag))\r\n\r\n## Database engine\r\n\r\n- Fixed a use-after-free and a fatal in merged extent queries by acquiring page-cache references before publishing page details and synchronizing merged extent query teardown under the extent spinlock ([#23475](https://github.com/netdata/netdata/pull/23475), [#23521](https://github.com/netdata/netdata/pull/23521), [@stelfrag](https://github.com/stelfrag))\r\n- Fixed a double free of stale MRG metrics during journal v2 migration, and an empty flush-batch counter leak that could leave shutdown or datafile rotation waiting indefinitely ([#23560](https://github.com/netdata/netdata/pull/23560), [#23699](https://github.com/netdata/netdata/pull/23699), [@stelfrag](https://github.com/stelfrag))\r\n- Prevented negative and epoch-based tier retention reporting: no 32-bit truncation when formatting durations, unknown or zero start times treated as unavailable, empty journals ignored, and extrapolated retention capped ([#23648](https://github.com/netdata/netdata/pull/23648), [@stelfrag](https://github.com/stelfrag))\r\n- Accepted valid page cadences longer than one day instead of treating them as invalid and emitting false repair telemetry ([#23514](https://github.com/netdata/netdata/pull/23514), [@ktsaou](https://github.com/ktsaou))\r\n- Avoided UUID map create/free churn and partition write-lock contention during MRG metric lookups, and included full cache and page identity in PGC fatal messages to make cache issues diagnosable ([#23538](https://github.com/netdata/netdata/pull/23538), [#23522](https://github.com/netdata/netdata/pull/23522), [@stelfrag](https://github.com/stelfrag))\r\n- Updated the bundled SQLite to 3.53.4 ([#23511](https://github.com/netdata/netdata/pull/23511), [@stelfrag](https://github.com/stelfrag))\r\n- Repaired the `-W createdataset` and dbengine stress-test workloads, which crashed on a NULL labels allocator, stamped every generated sample with the wall clock instead of the requested time range, and double-freed state at host teardown ([#23758](https://github.com/netdata/netdata/pull/23758), [@stelfrag](https://github.com/stelfrag))\r\n\r\n## Cloud connectivity (ACLK)\r\n\r\n- Added TLS hostname and IP verification for ACLK HTTPS requests, while preserving insecure-mode behavior ([#23463](https://github.com/netdata/netdata/pull/23463), [@stelfrag](https://github.com/stelfrag))\r\n- Stopped reporting waived self-signed certificates as certificate verification failures in insecure mode, so later I/O or HTTP errors are reported for what they are ([#23732](https://github.com/netdata/netdata/pull/23732), [@stelfrag](https://github.com/stelfrag))\r\n- Switched the HTTPS and MQTT clients to monotonic, microsecond-based timeouts with an I/O progress watchdog, and bounded pre-CONNACK polling to one second so a quiet peer can no longer delay shutdown by up to 60 seconds ([#23105](https://github.com/netdata/netdata/pull/23105), [#23733](https://github.com/netdata/netdata/pull/23733), [@stelfrag](https://github.com/stelfrag))\r\n- Stopped counting missing MQTT PUBACKs as successful acknowledgements, tracking them with a dedicated timeout counter that is now preserved across disconnects without touching a freed client ([#23486](https://github.com/netdata/netdata/pull/23486), [#23734](https://github.com/netdata/netdata/pull/23734), [@stelfrag](https://github.com/stelfrag))\r\n- Preserved pooled response buffers and their metadata for compressed ACLK responses, and fixed WebSocket masking of payloads spanning ring-buffer boundaries ([#23485](https://github.com/netdata/netdata/pull/23485), [@stelfrag](https://github.com/stelfrag))\r\n\r\n## Health and alerts\r\n\r\n- Fixed the Windows `10min_cpu_usage` alert attaching to `service.*_cpu_utilization` charts and firing false CRITICAL alarms ([#23559](https://github.com/netdata/netdata/pull/23559), [@thiagoftsm](https://github.com/thiagoftsm))\r\n- Indexed alerts by name per host, replacing full-host alert scans during health-variable resolution ([#23554](https://github.com/netdata/netdata/pull/23554), [@stelfrag](https://github.com/stelfrag))\r\n- Avoided re-initializing alert prototypes when chart metadata has not changed, so continuous child-chart re-registrations no longer trigger repeated health re-evaluation ([#23515](https://github.com/netdata/netdata/pull/23515), [@stelfrag](https://github.com/stelfrag))\r\n- Built raised-alert summaries only when a notification is actually sent, avoiding per-iteration work and a potential lock-order deadlock with chart removal ([#23544](https://github.com/netdata/netdata/pull/23544), [@stelfrag](https://github.com/stelfrag))\r\n- Fixed an incorrect error check on SQL statement preparation in the health database code, and removed two unused `health_log_detail` indexes to reduce parent database storage and B-tree maintenance ([#23545](https://github.com/netdata/netdata/pull/23545), [#23722](https://github.com/netdata/netdata/pull/23722), [@stelfrag](https://github.com/stelfrag))\r\n\r\n## Metadata, labels and internals\r\n\r\n- Deferred dictionary destruction while dictionary APIs are in flight, making set/get/delete and traversal safe against concurrent destruction during shutdown ([#23634](https://github.com/netdata/netdata/pull/23634), [@stelfrag](https://github.com/stelfrag))\r\n- Fixed a use-after-free in dictionary garbage collection when a delete callback re-entered the collector and freed the cached successor mid-walk, and stopped view collections leaving master-deleted items behind ([#23819](https://github.com/netdata/netdata/pull/23819), [@stelfrag](https://github.com/stelfrag))\r\n- Stopped the obsolete-chart reaper from freeing a chart another subsystem still references, which left an unindexed chart holding its destroy lock and could fatal a collector still writing to it ([#23761](https://github.com/netdata/netdata/pull/23761), [@stelfrag](https://github.com/stelfrag))\r\n- Deferred machine-learning worker queue teardown until after all collectors have stopped, so a collector that outlives the shutdown deadline can no longer abort on a destroyed queue mutex ([#23757](http"
+            },
             {
               "name": "v2.11.0",
               "tag": "v2.11.0",
@@ -4741,22 +4750,13 @@
               "prerelease": false,
               "author": "netdatabot",
               "body": "# Release notes\r\n\r\nNetdata v2.10.2 is a patch release to address issues discovered since [v2.10.1](https://github.com/netdata/netdata/releases/tag/v2.10.1).\r\n\r\nThis patch release provides the following bug fixes and updates:\r\n\r\n- Fixed ZFS-related crashes in diskspace.plugin by guarding a NULL filesystem field and replacing the blocking pool-capacity collector with a lightweight cache fed by existing statvfs calls, preventing coredumps on degraded or exporting ZFS pools ([#22188](https://github.com/netdata/netdata/pull/22188), [@thiagoftsm](https://github.com/thiagoftsm))\r\n- Reduced default SNMP MaxOIDs from 60 to 20 for more reliable polling, and removed 32-bit counter fallbacks from the IF-MIB profile to prevent counter type switching and overflow between collection cycles ([#22203](https://github.com/netdata/netdata/pull/22203), [@ilyam8](https://github.com/ilyam8))\r\n- Eliminated false-positive \"timed out waiting for enable/disable decision\" warnings by removing the wait-decision timeout and making the dyncfg command path non-droppable, so back-pressure flows upstream instead of producing 503 errors ([#22201](https://github.com/netdata/netdata/pull/22201), [@ilyam8](https://github.com/ilyam8))\r\n\r\n## Support options \u003ca id=\"v2102-support-options\"\u003e\u003c/a\u003e\r\n\r\nAs we grow, we stay committed to providing the best support ever seen from an open-source solution. Should you encounter an issue with any of the changes made in this release or any feature in the Netdata Agent, feel free to contact us through one of the following channels:\r\n\r\n- [Netdata Learn](https://learn.netdata.cloud): Find documentation, guides, and reference material for monitoring and troubleshooting your systems with Netdata.\r\n- [GitHub Issues](https://github.com/netdata/netdata/issues): Make use of the Netdata repository to report bugs or open a new feature request.\r\n- [GitHub Discussions](https://github.com/netdata/netdata/discussions): Join the conversation around the Netdata development process and be a part of it.\r\n- [Community Forums](https://community.netdata.cloud/): Visit the Community Forums and contribute to the collaborative knowledge base.\r\n- [Discord Server](https://discord.gg/2eduZdSeC7): Jump into the Netdata Discord and hang out with like-minded sysadmins, DevOps, SREs, and other troubleshooters. More than 2000 engineers are already using it!\r\n"
-            },
-            {
-              "name": "v2.10.1",
-              "tag": "v2.10.1",
-              "url": "https://github.com/netdata/netdata/releases/tag/v2.10.1",
-              "published_at": "2026-04-10T16:01:36Z",
-              "prerelease": false,
-              "author": "netdatabot",
-              "body": "# Release notes\r\n\r\nNetdata v2.10.1 is a patch release to address issues discovered since [v2.10.0](https://github.com/netdata/netdata/releases/tag/v2.10.0).\r\n\r\nThis patch release provides the following bug fixes and updates:\r\n\r\n- Added `ping_only` option to the SNMP collector, allowing collection of only ICMP round-trip time metrics while still using SNMP at startup for device identification and labeling ([#22180](https://github.com/netdata/netdata/pull/22180), [@ilyam8](https://github.com/ilyam8))\r\n- Fixed SNMP collector retries serialization so a zero value is correctly preserved, and disabled bulk walk detection when MaxRepetitions is set to 0 ([#22179](https://github.com/netdata/netdata/pull/22179), [@ilyam8](https://github.com/ilyam8))\r\n- Reduced transient 503 errors on dynamic configuration enable/disable by buffering the command channel and extending the handoff timeout in the go.d plugin ([#22183](https://github.com/netdata/netdata/pull/22183), [@ilyam8](https://github.com/ilyam8))\r\n\r\n## Support options \u003ca id=\"v2101-support-options\"\u003e\u003c/a\u003e\r\n\r\nAs we grow, we stay committed to providing the best support ever seen from an open-source solution. Should you encounter an issue with any of the changes made in this release or any feature in the Netdata Agent, feel free to contact us through one of the following channels:\r\n\r\n- [Netdata Learn](https://learn.netdata.cloud): Find documentation, guides, and reference material for monitoring and troubleshooting your systems with Netdata.\r\n- [GitHub Issues](https://github.com/netdata/netdata/issues): Make use of the Netdata repository to report bugs or open a new feature request.\r\n- [GitHub Discussions](https://github.com/netdata/netdata/discussions): Join the conversation around the Netdata development process and be a part of it.\r\n- [Community Forums](https://community.netdata.cloud/): Visit the Community Forums and contribute to the collaborative knowledge base.\r\n- [Discord Server](https://discord.gg/2eduZdSeC7): Jump into the Netdata Discord and hang out with like-minded sysadmins, DevOps, SREs, and other troubleshooters. More than 2000 engineers are already using it!\r\n"
             }
           ],
           "last_commit": {
-            "sha": "2d42cda",
+            "sha": "f5495af",
             "branch": "master",
-            "date": "2026-09-15T00:23:30Z",
-            "url": "https://github.com/netdata/netdata/commit/2d42cda54510818fbc8dcace8fc789995ab4d1a9"
+            "date": "2026-09-16T16:33:38Z",
+            "url": "https://github.com/netdata/netdata/commit/f5495af453f4527de127edb8adb0b33748c53b85"
           }
         },
         {
