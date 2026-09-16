@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:51:46.275092Z",
+  "generated_at": "2026-09-16T08:57:02.394480Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34132,
+            "stars": 34134,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -577,6 +577,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.21-alpha.6",
+              "tag": "android-v0.1.21-alpha.6",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.6",
+              "published_at": "2026-09-16T08:56:47Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Ядро обновлено до mihomo 1.19.31, сетевые библиотеки — до актуальных версий\n  с исправлениями безопасности.\n- Главный экран и вкладка «Серверы» работают легче: таймер сессии и счётчик\n  трафика обновляют только свою строку, а список серверов загружается меньшим\n  числом запросов и при входе на вкладку обновляет только выбранную группу."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.21-alpha.5",
               "tag": "android-v0.1.21-alpha.5",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.5",
@@ -605,10 +614,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d7af299",
+            "sha": "e4da09f",
             "branch": "main",
-            "date": "2026-09-16T08:38:24Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/d7af299369e4d05939291cd8e7cc5f75bf11396d"
+            "date": "2026-09-16T08:49:27Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/e4da09fb70f24c8886fe7d55d7094818530d5ede"
           }
         },
         {
@@ -1063,7 +1072,7 @@
           ],
           "last_commit": {
             "sha": "70a51c7",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-09-16T08:50:40Z",
             "url": "https://github.com/openwrt/openwrt/commit/70a51c7619bbbe74a06fbe9cc74848c6f071126a"
           }
@@ -4555,7 +4564,7 @@
             "stars": 76769,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T08:51:52Z",
+            "pushed_at": "2026-09-16T08:55:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4608,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "33f4663",
-            "branch": "assistant/dashboard-plan-review-feedback",
-            "date": "2026-09-16T08:50:37Z",
-            "url": "https://github.com/grafana/grafana/commit/33f46636395faa293d2aa9f330ff8f2de0065dd5"
+            "sha": "5a2d9cf",
+            "branch": "sarahzinger/downstream-errors",
+            "date": "2026-09-14T17:24:35Z",
+            "url": "https://github.com/grafana/grafana/commit/5a2d9cfd0ddce2d8809d62c993c69dcc7c0599a8"
           }
         },
         {
@@ -4623,7 +4632,7 @@
             "stars": 66088,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T05:01:29Z",
+            "pushed_at": "2026-09-16T08:56:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
