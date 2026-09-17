@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:52:48.907308Z",
+  "generated_at": "2026-09-17T14:58:05.362606Z",
   "groups": [
     {
       "id": "cores",
@@ -1015,7 +1015,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28441,
+            "stars": 28440,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-17T09:15:09Z",
@@ -1086,7 +1086,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-17T08:03:50Z",
+            "pushed_at": "2026-09-17T14:54:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f601e63",
+                  "message": "modemmanager: fix custom initial EPS bearer username",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-09-17T14:54:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/f601e632e7d72da45ea7ff6a0dba01433f187d0a"
+                },
+                {
+                  "sha": "baac458",
+                  "message": "swanmon: add version check override",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-17T14:53:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/baac45838ddf532188b86d9c72aeea12fb6bc8c1"
+                },
+                {
+                  "sha": "c9d3fae",
+                  "message": "swanmon: update to Git HEAD (2026-04-23)",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-17T14:53:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/c9d3faee513ef62b697dec77ee676c2aea99cc23"
+                },
+                {
                   "sha": "9c7f2f0",
                   "message": "CONTRIBUTING: document what a patch has to look like",
                   "author": "Josef Schlehofer",
@@ -1928,27 +1949,6 @@
                   "author": "Mirko Vogt",
                   "date": "2026-09-15T20:40:22Z",
                   "url": "https://github.com/openwrt/packages/commit/83f634c4b338398e71be82504998b1788faafe5b"
-                },
-                {
-                  "sha": "87a92bf",
-                  "message": "ffmpeg: re-add libpostproc as a source plugin",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-15T20:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/87a92bf18940b5245bb8f6ee129b9a0a19b3cad0"
-                },
-                {
-                  "sha": "7852102",
-                  "message": "ffmpeg: update to 9.0.1",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-15T20:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/785210230381467d60ecba4cb74b7aeffbd64b49"
-                },
-                {
-                  "sha": "d2a2e7b",
-                  "message": "rtorrent: stop discarding the target build flags",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-15T17:08:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/d2a2e7b8dc1ed2dc2f962d0e87b383d653e3ff50"
                 }
               ]
             },
@@ -3855,10 +3855,10 @@
             }
           ],
           "last_commit": {
-            "sha": "49b73e5",
+            "sha": "9449e9e",
             "branch": "main",
-            "date": "2026-09-16T02:35:19Z",
-            "url": "https://github.com/Medium1992/mihomo-proxy-ros/commit/49b73e55ce9b279221a889c707b93f4ce73e614c"
+            "date": "2026-09-17T11:35:06Z",
+            "url": "https://github.com/Medium1992/mihomo-proxy-ros/commit/9449e9e6a26180e16eee653a986117aa69d9aaf1"
           }
         },
         {
@@ -4564,7 +4564,7 @@
             "stars": 76790,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T14:50:43Z",
+            "pushed_at": "2026-09-17T14:57:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e9d7b24",
-            "branch": "codex/table-refresh-visuals",
-            "date": "2026-09-17T13:52:00Z",
-            "url": "https://github.com/grafana/grafana/commit/e9d7b249a3e196477aee1fe9c119e7d9334ab74d"
+            "sha": "d3ebffa",
+            "branch": "navigation/plugin-meta-nav-fields",
+            "date": "2026-09-17T14:56:09Z",
+            "url": "https://github.com/grafana/grafana/commit/d3ebffacc414973c9edddf69eb6edf8f7ff31881"
           }
         },
         {
@@ -5109,10 +5109,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ff06f68",
-            "branch": "main",
-            "date": "2026-09-16T09:18:41Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/ff06f68e4ae146b81dfdc4e595a3b46d701850dd"
+            "sha": "b8fa036",
+            "branch": "gh-pages",
+            "date": "2026-09-16T09:32:00Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/b8fa036e5cb9c576d520fa700792d45f300a7acb"
           }
         },
         {
