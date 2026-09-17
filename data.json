@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:41:30.120803Z",
+  "generated_at": "2026-09-17T17:46:46.371621Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38087,
+            "stars": 38088,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-17T16:43:44Z",
@@ -1086,7 +1086,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-17T14:54:36Z",
+            "pushed_at": "2026-09-17T17:45:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0616b9d",
+                  "message": "python-platformio: update to v6.2.0",
+                  "author": "Austin Lane",
+                  "date": "2026-09-17T17:45:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/0616b9d7f704678168433ad1c16cf77e34f3c385"
+                },
+                {
                   "sha": "f601e63",
                   "message": "modemmanager: fix custom initial EPS bearer username",
                   "author": "Michael Pfeifroth",
@@ -1942,13 +1949,6 @@
                   "author": "Mirko Vogt",
                   "date": "2026-09-15T20:40:22Z",
                   "url": "https://github.com/openwrt/packages/commit/e1a07d05b984d9bd14c0a4ad6c00ee617418ce6a"
-                },
-                {
-                  "sha": "83f634c",
-                  "message": "ffmpeg: add LibreELEC's Kodi compatibility patches",
-                  "author": "Mirko Vogt",
-                  "date": "2026-09-15T20:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/83f634c4b338398e71be82504998b1788faafe5b"
                 }
               ]
             },
@@ -3465,7 +3465,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2120,
+            "stars": 2121,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-08-18T16:08:02Z",
@@ -3533,7 +3533,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 666,
+            "stars": 667,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -3802,7 +3802,7 @@
             "stars": 140,
             "url": "https://github.com/Medium1992/mihomo-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T17:40:21Z",
+            "pushed_at": "2026-09-17T17:44:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -3855,10 +3855,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9449e9e",
+            "sha": "f0afda5",
             "branch": "main",
-            "date": "2026-09-17T11:35:06Z",
-            "url": "https://github.com/Medium1992/mihomo-proxy-ros/commit/9449e9e6a26180e16eee653a986117aa69d9aaf1"
+            "date": "2026-09-17T17:40:22Z",
+            "url": "https://github.com/Medium1992/mihomo-proxy-ros/commit/f0afda5da26187b3bd2fbb640c153f0da04b7d47"
           }
         },
         {
@@ -4128,10 +4128,10 @@
             }
           ],
           "last_commit": {
-            "sha": "57cbe33",
+            "sha": "d0cc7a1",
             "branch": "main",
-            "date": "2026-09-13T03:47:14Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/57cbe33f723315bf775df461822011a46ae66411"
+            "date": "2026-09-17T17:38:41Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/d0cc7a13576e266361fbf04b079b1044948f1134"
           }
         },
         {
@@ -4564,7 +4564,7 @@
             "stars": 76791,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T17:41:23Z",
+            "pushed_at": "2026-09-17T17:46:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "363b765",
-            "branch": "renovate/terser-webpack-plugin-5.x-lockfile",
-            "date": "2026-09-17T16:05:28Z",
-            "url": "https://github.com/grafana/grafana/commit/363b765ff5aca0a7ae84a878cd0b87dfc384e743"
+            "sha": "435fcd4",
+            "branch": "titolins/loki-alerting-datasource-health-example",
+            "date": "2026-09-17T14:45:28Z",
+            "url": "https://github.com/grafana/grafana/commit/435fcd4e567fb6a3b8d4b9298a6af9ecc69feb46"
           }
         },
         {
@@ -4844,12 +4844,21 @@
             "stars": 22,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T17:38:15Z",
+            "pushed_at": "2026-09-17T17:43:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "v1.6.2",
+              "tag": "v1.6.2",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.6.2",
+              "published_at": "2026-09-17T17:43:41Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Срочный выпуск: при включённой Platega бот переставал отвечать и оживал только перезапуском контейнера.\n\n**🐛 Исправлено**\n\n- Меню мини-аппа с включённой Platega подвешивало бота целиком: список способов оплаты собирался под главным замком приложения, а проверка валюты сетки брала тот же замок повторно. Обработчик замирал навсегда и держал замок, следом вставали чат, мини-апп, кабинет, сверка, автоплатёж и напоминания.\n- Признак зависания: бот молчит, в логе только ошибки рукопожатий TLS от сканеров, лечится лишь перезапуском контейнера.\n\n**⬆️ Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n\nили `/update` в боте.\n"
+            },
             {
               "name": "1.6.1",
               "tag": "v1.6.1",
@@ -4885,15 +4894,6 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Небольшой релиз про оплату переводом: бот перестал терять чек, если клиент прислал его файлом, а не скриншотом.\n\n✨ **Добавлено**\n\n- чек об оплате переводом принимается не только фотографией, но и PDF-файлом и картинкой, отправленной файлом «без сжатия» — и в чате бота, и в веб-кабинете\n- посторонний файл вместо чека получает понятное объяснение, при этом ожидание чека не сбрасывается — можно сразу дослать нужный\n- чек, присланный файлом, уходит администратору документом с теми же кнопками подтверждения\n\n🐛 **Исправлено**\n\n- PDF-чек раньше пропадал молча: заявка оставалась в ожидании, администратор ничего не получал\n- чек больше не теряется, если бот перезапустился между «Я оплатил» и отправкой чека — подхватывается последняя заявка пользователя, ожидающая оплату (в пределах суток)\n\n📦 **Зависимости**\n\n- go-telegram/bot 1.24.0, modernc.org/sqlite 1.57.0\n- astro 7.2.9 и Starlight 0.41.9 в документации\n\n🏗 **Сборка**\n\n- Go 1.27.1 в образе и во всех проверках CI\n- golangci-lint поднят до v2.13.2: прежняя версия падала на стандартной библиотеке 1.27\n\n📚 **Документация**\n\n- описание оплаты переводом обновлено под новые форматы чека\n\n⬆️ **Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n\nили `/update` в боте\n"
-            },
-            {
-              "name": "1.4.3",
-              "tag": "v1.4.3",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.4.3",
-              "published_at": "2026-08-21T17:16:52Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "## 🐛 Исправлено\n\n1. **Platega — оплата с неполным `payload`.** Если платёжка вернула транзакцию без срока подписки, срок берётся из строки счёта (так уже работали ЮKassa и Heleket). Разбор `payload` терпит порчу разделителя, а при настоящем отказе строка пишется в журнал платежей.\n2. **Лишнее сообщение покупателю.** «Срок определить не удалось» больше не уходит от способов с фоновой сверкой счетов — ЮKassa, CryptoBot, Platega, Heleket: там выдача добивается сама. У Telegram Stars сверки нет, там сообщение осталось.\n3. **Уведомление админа.** В него добавлен покупатель — разбирать такие случаи теперь можно, не заглядывая в журнал.\n\n---\n\nОбновление: `docker compose pull \u0026\u0026 docker compose up -d` (тег `:v1`) или `/update` из бота."
             }
           ],
           "last_commit": {
@@ -5121,10 +5121,10 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7456,
+            "stars": 7455,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T17:41:35Z",
+            "pushed_at": "2026-09-17T17:41:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5177,10 +5177,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb5ca00",
-            "branch": "l10n_crowdin",
-            "date": "2026-09-17T17:10:11Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/eb5ca00b9f4c304911df35d9dd6bbfa49e8fb83e"
+            "sha": "dc89ea0",
+            "branch": "main",
+            "date": "2026-09-17T16:27:42Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/dc89ea0b1920f4f2d6eefb92f2cafb9b528822ca"
           }
         }
       ]
