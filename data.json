@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T16:27:39.206979Z",
+  "generated_at": "2026-09-17T16:32:57.233813Z",
   "groups": [
     {
       "id": "cores",
@@ -84,7 +84,7 @@
             "stars": 38085,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-17T14:29:31Z",
+            "pushed_at": "2026-09-17T16:29:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "19eacee",
-            "branch": "testing",
-            "date": "2026-09-17T14:29:32Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/19eacee1e864a6586645d91287e5a7c21e0419e5"
+            "sha": "42ec517",
+            "branch": "stable",
+            "date": "2026-09-17T16:29:30Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/42ec517d56481167b537ec22915711dc042f4696"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34162,
+            "stars": 34163,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -871,7 +871,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7143,
+            "stars": 7144,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-17T14:41:21Z",
@@ -4564,7 +4564,7 @@
             "stars": 76790,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T16:23:30Z",
+            "pushed_at": "2026-09-17T16:28:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6dec6f9",
-            "branch": "codex/table-refresh-visuals",
-            "date": "2026-09-17T15:03:31Z",
-            "url": "https://github.com/grafana/grafana/commit/6dec6f95660f72a2eef9a1537addd59115df5b45"
+            "sha": "1c56301",
+            "branch": "jackw/csp-worker-src-cdn",
+            "date": "2026-09-17T15:23:37Z",
+            "url": "https://github.com/grafana/grafana/commit/1c56301981784ec2d20883da5a15344738ded2af"
           }
         },
         {
@@ -4700,7 +4700,7 @@
             "stars": 80560,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-17T16:25:24Z",
+            "pushed_at": "2026-09-17T16:30:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4844,12 +4844,21 @@
             "stars": 22,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T12:41:14Z",
+            "pushed_at": "2026-09-17T16:30:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "1.6.1",
+              "tag": "v1.6.1",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.6.1",
+              "published_at": "2026-09-17T16:30:52Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Адрес панели, API-token и домен подписки теперь меняются прямо в админке — без повторного прохода мастера.\n\n**🔧 Изменено**\n- Экран «Доступ к панели» стал «🔌 Подключение к панели» и виден в «Системе» всегда: адрес панели, API-token, ключ Caddy, кука eGames и домен подписки в одном месте\n- Адрес и токен проверяются на панели до сохранения; если панель не ответила, ничего не записывается, а бот предлагает «Сохранить без проверки» — для переезда, когда адрес и токен меняются по очереди\n- Адрес можно вводить без схемы, `/api` и слэш в конце отрезаются; `http://remnawave:3000` включает локальный режим, любой другой адрес — удалённый\n- При смене сервера ключ и кука прежнего прокси сбрасываются и на новый адрес не отправляются\n- Кнопка «Саб-домен» переехала из «Системы» на экран подключения\n- Подсказки в ошибках связи с панелью ведут на новый экран вместо мастера\n\n**🐛 Исправлено**\n- Домен подписки больше не сохраняет мусор, кириллический домен переводится в punycode, ошибка записи показывается и откатывается\n- Длинная ошибка панели с HTML-страницей больше не ломает экран\n- Проверка связи на экране ограничена 8 секундами и не задерживает остальных пользователей\n- Ошибка «бот не настроен» переведена для английского интерфейса\n\n**📚 Документация**\n- В разделе «Система» описан экран подключения к панели; обновлены мастер, диагностика, обзор админки и README\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
+            },
             {
               "name": "v1.6.0",
               "tag": "v1.6.0",
@@ -4885,22 +4894,13 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "## 🐛 Исправлено\n\n1. **Platega — оплата с неполным `payload`.** Если платёжка вернула транзакцию без срока подписки, срок берётся из строки счёта (так уже работали ЮKassa и Heleket). Разбор `payload` терпит порчу разделителя, а при настоящем отказе строка пишется в журнал платежей.\n2. **Лишнее сообщение покупателю.** «Срок определить не удалось» больше не уходит от способов с фоновой сверкой счетов — ЮKassa, CryptoBot, Platega, Heleket: там выдача добивается сама. У Telegram Stars сверки нет, там сообщение осталось.\n3. **Уведомление админа.** В него добавлен покупатель — разбирать такие случаи теперь можно, не заглядывая в журнал.\n\n---\n\nОбновление: `docker compose pull \u0026\u0026 docker compose up -d` (тег `:v1`) или `/update` из бота."
-            },
-            {
-              "name": "1.4.2",
-              "tag": "v1.4.2",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.4.2",
-              "published_at": "2026-08-21T14:37:46Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Обновление зависимостей и сборочной базы. Поведение бота не менялось — тарифы, оплаты, админка и мини-апп работают ровно как в 1.4.1.\n\n**Зависимости**\n- go-telegram/bot 1.23.0\n- golang.org/x/crypto 0.55.0, golang.org/x/net 0.58.0\n- modernc.org/sqlite 1.56.0\n\n**Сборка**\n- Go 1.26.6 (в Dockerfile и во всех проверках CI)\n- рантайм-образ Alpine 3.24\n\n**Документация**\n- remna.shop: пересчитаны пропорции колонок — на ноутбуках текст больше не сжимается, на 2K-экранах не растягивается оглавление\n- длинные команды в блоках кода переносятся, а не уезжают вбок\n- поправлены плашки на главной в светлой теме\n\n**Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте."
             }
           ],
           "last_commit": {
-            "sha": "3b94078",
-            "branch": "dev",
-            "date": "2026-09-17T12:32:04Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/3b940784ff6d92e4762dc0eedf1bb803ec06b5a7"
+            "sha": "8bd5bb5",
+            "branch": "main",
+            "date": "2026-09-17T16:30:36Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/8bd5bb5ed3236a900f4cc382efd59c745ea4972a"
           }
         }
       ]
@@ -5124,7 +5124,7 @@
             "stars": 7454,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T16:22:31Z",
+            "pushed_at": "2026-09-17T16:27:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5177,10 +5177,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b93eeb1",
-            "branch": "l10n_crowdin",
-            "date": "2026-09-15T19:41:45Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/b93eeb1341ce11ccf54d5b19b6d6bd78017defb6"
+            "sha": "f821ff0",
+            "branch": "fix_sort_containers_by_live_cpu_and_memory_usage_globally",
+            "date": "2026-09-17T15:43:19Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/f821ff0de59b6ca6d311da3838154890bb2fda68"
           }
         }
       ]
