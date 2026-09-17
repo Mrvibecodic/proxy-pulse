@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T06:52:29.594233Z",
+  "generated_at": "2026-09-17T06:57:44.959517Z",
   "groups": [
     {
       "id": "cores",
@@ -830,7 +830,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1148,
+            "stars": 1149,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-09-10T06:46:14Z",
@@ -4564,7 +4564,7 @@
             "stars": 76780,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T06:50:10Z",
+            "pushed_at": "2026-09-17T06:56:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "140983b",
-            "branch": "renovate/ol-10.x-lockfile",
-            "date": "2026-09-15T13:06:01Z",
-            "url": "https://github.com/grafana/grafana/commit/140983b1a264e753b2f101e12877eca27cb38a6b"
+            "sha": "eacb464",
+            "branch": "backport-131148-to-release-13.2.3",
+            "date": "2026-09-17T06:53:50Z",
+            "url": "https://github.com/grafana/grafana/commit/eacb464f45057c497ead31baa727d0676c909a2d"
           }
         },
         {
@@ -4632,7 +4632,7 @@
             "stars": 66102,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-16T19:30:20Z",
+            "pushed_at": "2026-09-17T06:53:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5056,12 +5056,21 @@
             "stars": 3450,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-09-17T06:48:51Z",
+            "pushed_at": "2026-09-17T06:55:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.28.0",
+              "tag": "v3.28.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.28.0",
+              "published_at": "2026-09-17T06:54:57Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.28.0](https://github.com/Zephyruso/zashboard/compare/v3.27.0...v3.28.0) (2026-09-17)\n\n\n### Features\n\n* add overscroll lock functionality for iOS to prevent page bounce ([50c873c](https://github.com/Zephyruso/zashboard/commit/50c873c8d75da33222391e265c311657be3c8091))\n* add tun stack configuration and localization support ([aadccc6](https://github.com/Zephyruso/zashboard/commit/aadccc64c85f6df8ab4807f2e400325b5696d029))\n* enhance sidebar and navigation components, improve performance and styling ([b541b9d](https://github.com/Zephyruso/zashboard/commit/b541b9d78fc1ac4a516ce94f909589842016b1e7))\n\n\n### Bug Fixes\n\n* enhance rule hit tooltip with formatted last hit time ([8b53171](https://github.com/Zephyruso/zashboard/commit/8b5317106feb349c6f2c2a8dc3cda3deccb284c4))\n* update primary color for light theme and adjust card background hover effect ([b106fa6](https://github.com/Zephyruso/zashboard/commit/b106fa60a3f397e06e0aa8a40ee1810ac7a46791))"
+            },
             {
               "name": "v3.27.0",
               "tag": "v3.27.0",
@@ -5097,22 +5106,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.24.0](https://github.com/Zephyruso/zashboard/compare/v3.23.0...v3.24.0) (2026-08-28)\n\n\n### Features\n\n* add endpoint legend with color coding and update translations ([eee0252](https://github.com/Zephyruso/zashboard/commit/eee0252ae74827f576cb0038df511b8b86e0f29b))\n* add expand/collapse all button for grouped connection cards ([234b93f](https://github.com/Zephyruso/zashboard/commit/234b93ff5a68e1726e0f309064c5519206462a50))\n* add grouping functionality for connection cards and enhance internationalization support ([d210f59](https://github.com/Zephyruso/zashboard/commit/d210f59378c57e08b7462864457ddd566ed18319)), closes [#759](https://github.com/Zephyruso/zashboard/issues/759)\n* enhance map zoom behavior and camera positioning for 2D projection ([40e68c2](https://github.com/Zephyruso/zashboard/commit/40e68c2ccd42935d7ebaee726aa0bdf3106128cb))\n* enhance sorting functionality with natural order and internationalization support ([4822fa3](https://github.com/Zephyruso/zashboard/commit/4822fa31924fbf33215546bff17c11e82a564d24))\n* implement swipe gesture handling for modal dialog with transition effects ([710e08b](https://github.com/Zephyruso/zashboard/commit/710e08b64813302a1fd56098d630130302aadd4b))"
-            },
-            {
-              "name": "v3.23.0",
-              "tag": "v3.23.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.23.0",
-              "published_at": "2026-08-26T05:33:34Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.23.0](https://github.com/Zephyruso/zashboard/compare/v3.22.0...v3.23.0) (2026-08-26)\n\n\n### Features\n\n* add Earth projection functionality and related utilities ([cc2e235](https://github.com/Zephyruso/zashboard/commit/cc2e235fab23c21de3738e8fdec8855119e5ae69)), closes [#769](https://github.com/Zephyruso/zashboard/issues/769)\n* add HonkStats integration and related UI components ([1f6ba40](https://github.com/Zephyruso/zashboard/commit/1f6ba40854fca8ee5c0442b860f41b57878a6d33))\n* enhance routing and endpoint handling with direct connection support ([5d3cc03](https://github.com/Zephyruso/zashboard/commit/5d3cc036b2598fc7d41d106b6f913a14402e91c1))\n* implement action pending notifications and enhance error handling ([da5cf23](https://github.com/Zephyruso/zashboard/commit/da5cf23fda8c969897224b2dcc21ff99fa0c5c97))\n* remove sing-box support and related code ([4adb487](https://github.com/Zephyruso/zashboard/commit/4adb4872d90c8ec1b8bfab4b43308cdb2da12c3e))\n\n\n### Bug Fixes\n\n* update viewport handling and dialog dimensions for better keyboard support ([615506f](https://github.com/Zephyruso/zashboard/commit/615506fc093832ab3e2572d03e610e72594abec7))"
             }
           ],
           "last_commit": {
-            "sha": "d7f0ab4",
-            "branch": "gh-pages-no-fonts",
-            "date": "2026-09-17T06:48:49Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/d7f0ab4d384777a3ba7cf13ee51e638c5c7c7516"
+            "sha": "3dc9398",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-09-17T06:55:49Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/3dc93984a6aff22902399e74b0d98859f5624da9"
           }
         },
         {
