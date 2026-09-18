@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T18:56:56.063749Z",
+  "generated_at": "2026-09-18T19:02:10.730576Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41663,
+            "stars": 41664,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-16T05:55:06Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38102,
+            "stars": 38103,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-18T02:59:04Z",
@@ -871,7 +871,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7160,
+            "stars": 7161,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-18T11:32:48Z",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:29:56Z",
+            "pushed_at": "2026-09-18T18:59:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "4d11a83",
+                  "message": "bind: bump to 9.20.29",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-09-18T18:59:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/4d11a836932c8f06139b2f51cdb255742ffb19b7"
+                },
+                {
                   "sha": "27631f4",
                   "message": "perl-www-curl: fix compilation error with new cURL version",
                   "author": "Christian Marangi",
@@ -3232,19 +3239,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-12T13:04:58Z",
                   "url": "https://github.com/openwrt/packages/commit/6d5dc980db2c4c000b3a317c495e24c5d0b8d565"
-                },
-                {
-                  "sha": "8b94be4",
-                  "message": "librespeed-cli: fix build with Go 1.23",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-12T09:56:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/8b94be4151a9ffb58caceff099e82bb05f941e15"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "12a3cea",
+                  "message": "bind: bump to 9.20.29",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-09-18T18:58:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/12a3ceaad155453e7355c9f4ec91ec3145979304"
+                },
                 {
                   "sha": "79c186e",
                   "message": "ifstat: fix build with GCC 15",
@@ -3447,13 +3454,6 @@
                   "author": "George Sapkin",
                   "date": "2026-09-03T13:16:04Z",
                   "url": "https://github.com/openwrt/packages/commit/f60a090afff932579d015045dd1eff9f744fa043"
-                },
-                {
-                  "sha": "10e3259",
-                  "message": "hev-socks5-server: update to 2.13.1",
-                  "author": "Ray Wang",
-                  "date": "2026-09-03T08:37:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/10e3259ba88ccd4e9fa71581fa93eed790092034"
                 }
               ]
             }
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "89ade4d",
-            "branch": "main",
-            "date": "2026-09-18T18:30:15Z",
-            "url": "https://github.com/grafana/grafana/commit/89ade4d5b856c88fbd04126509260929598600c5"
+            "sha": "5ca7a64",
+            "branch": "seangriffin/dpro-398-ini-support",
+            "date": "2026-09-17T18:12:42Z",
+            "url": "https://github.com/grafana/grafana/commit/5ca7a6440e7534a09bd6a1691d2757ee7efd19bc"
           }
         },
         {
@@ -4700,7 +4700,7 @@
             "stars": 80570,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T18:53:38Z",
+            "pushed_at": "2026-09-18T18:57:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
