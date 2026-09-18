@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:03:19.195126Z",
+  "generated_at": "2026-09-18T16:08:34.502751Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:02:55Z",
+            "pushed_at": "2026-09-18T16:04:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "854e9f7",
+                  "message": "openconnect: update to 9.21",
+                  "author": "Jimmy Qin",
+                  "date": "2026-09-18T16:04:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/854e9f78808bcb857e87972e0d1911c10b41e907"
+                },
+                {
+                  "sha": "041ed3a",
+                  "message": "pdns-recursor: security update to 5.2.13",
+                  "author": "Remi Gacogne",
+                  "date": "2026-09-18T16:04:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/041ed3a4755ac762545a6765436dc91bb081e66a"
+                },
+                {
                   "sha": "6b3e8fd",
                   "message": "dnsdist: update to 2.1.2",
                   "author": "Remi Gacogne",
@@ -1935,20 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/4b24b41e7a4ae8ba697977f2ef258425729bfd32"
-                },
-                {
-                  "sha": "d3b00ed",
-                  "message": "gnutls: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/d3b00edee42ead023521af8824ef031ecc8c1128"
-                },
-                {
-                  "sha": "d6f50e4",
-                  "message": "gnunet: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/d6f50e42d35ff682ab0ed1e03a9387942e766d20"
                 }
               ]
             },
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91526,
+            "stars": 91527,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4493,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25491,
+            "stars": 25492,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-17T17:48:47Z",
@@ -4564,7 +4564,7 @@
             "stars": 76797,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T16:02:11Z",
+            "pushed_at": "2026-09-18T16:07:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c767ba",
-            "branch": "main",
-            "date": "2026-09-18T15:36:42Z",
-            "url": "https://github.com/grafana/grafana/commit/1c767ba734930a5e2dd58ad3d55819a751d07686"
+            "sha": "231755b",
+            "branch": "jh/circular-dependency-leaves",
+            "date": "2026-09-18T15:59:39Z",
+            "url": "https://github.com/grafana/grafana/commit/231755be13f69b143eabf3310df9faca3e574424"
           }
         },
         {
@@ -4768,7 +4768,7 @@
             "stars": 17738,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T14:18:39Z",
+            "pushed_at": "2026-09-18T16:04:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4821,10 +4821,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bb95880",
-            "branch": "docs-refine-vmauth-security-section-add-recs",
-            "date": "2026-09-17T08:49:47Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/bb958800fb14b910180b85603fd47a6e424a6e38"
+            "sha": "bc1d8ec",
+            "branch": "sso2",
+            "date": "2026-09-18T16:04:10Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/bc1d8eca0e2259dd4db5ff489366b8823787162a"
           }
         }
       ]
@@ -5053,7 +5053,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3462,
+            "stars": 3463,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-09-18T13:28:54Z",
