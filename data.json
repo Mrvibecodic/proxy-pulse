@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:24:23.634410Z",
+  "generated_at": "2026-09-18T16:29:39.039214Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:16:29Z",
+            "pushed_at": "2026-09-18T16:26:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f85ebb9",
+                  "message": "acme-acmesh: update to 3.1.4",
+                  "author": "Christian Wengel",
+                  "date": "2026-09-18T16:26:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/f85ebb948874e4e80ef60222c8603d5972f1e69a"
+                },
+                {
                   "sha": "905a8ae",
                   "message": "restic: update to 0.19.1",
                   "author": "Romain Isnel",
@@ -1942,13 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/80d3aabb68eb855872183ee050d4a7a981d5eec6"
-                },
-                {
-                  "sha": "b20484d",
-                  "message": "php8: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/b20484d843a28ac105dcf01d8790dd7a21ada0fb"
                 }
               ]
             },
@@ -4561,10 +4561,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76797,
+            "stars": 76798,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T16:21:52Z",
+            "pushed_at": "2026-09-18T16:29:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c89e510",
-            "branch": "feat/support-bundle-journal-permissions",
-            "date": "2026-09-18T16:09:52Z",
-            "url": "https://github.com/netdata/netdata/commit/c89e510269ebd9a9b20450eceb262dc465b77037"
+            "sha": "cf4f61b",
+            "branch": "master",
+            "date": "2026-09-17T09:31:23Z",
+            "url": "https://github.com/netdata/netdata/commit/cf4f61b5997e83ff84c9e9a56f9f48aa52798183"
           }
         },
         {
