@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:08:34.502751Z",
+  "generated_at": "2026-09-18T16:13:50.138830Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38099,
+            "stars": 38100,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-18T02:59:04Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34195,
+            "stars": 34196,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:04:56Z",
+            "pushed_at": "2026-09-18T16:13:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e4f1163",
+                  "message": "mini-snmpd: update to v2.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-18T16:13:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/e4f1163ffb9a68bf670921f480eef0cc9abe97eb"
+                },
+                {
+                  "sha": "9746339",
+                  "message": "crowdsec-firewall-bouncer: update to 0.0.36",
+                  "author": "S. Brusch",
+                  "date": "2026-09-18T16:11:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/9746339bb924602e6c53210a742dfa9bb4eb5ba5"
+                },
+                {
+                  "sha": "225c1e7",
+                  "message": "kadnode: switch to source tarball",
+                  "author": "Moritz Warning",
+                  "date": "2026-09-18T16:10:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/225c1e7881b2cae17b0c957f36f708b21e1838a5"
+                },
+                {
+                  "sha": "59cc6ef",
+                  "message": "kadnode: update to 2.4.3",
+                  "author": "Moritz Warning",
+                  "date": "2026-09-18T16:10:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/59cc6ef0796e26fbd72032fb22994141970cb561"
+                },
+                {
+                  "sha": "e5417c8",
+                  "message": "mstflint: update to 4.37.0-1",
+                  "author": "Til Kaiser",
+                  "date": "2026-09-18T16:08:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/e5417c82717dd6752567b90642fca3d66e954f08"
+                },
+                {
                   "sha": "854e9f7",
                   "message": "openconnect: update to 9.21",
                   "author": "Jimmy Qin",
@@ -1914,41 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/b1d91158c2215f0830f3704f1e2a9adbd0a36b20"
-                },
-                {
-                  "sha": "e99ffad",
-                  "message": "netatalk: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/e99ffadc692d8491a05ced50ff5817220d2d9397"
-                },
-                {
-                  "sha": "06ded6e",
-                  "message": "nanomq: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/06ded6eaa656053aa2e9d7530dbba824f1abc8c4"
-                },
-                {
-                  "sha": "c5fd093",
-                  "message": "libopen62541: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5fd093c3dd549f28ca52227b4ba1f454a54cda7"
-                },
-                {
-                  "sha": "30cfcf3",
-                  "message": "knot: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/30cfcf3ea3bc7e4cfd0665fc7fa59fccf26e36a7"
-                },
-                {
-                  "sha": "4b24b41",
-                  "message": "gstreamer1: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b24b41e7a4ae8ba697977f2ef258425729bfd32"
                 }
               ]
             },
@@ -4208,7 +4208,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt https://t.me/stressozz_manager",
-            "stars": 1832,
+            "stars": 1831,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-09-18T15:41:17Z",
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91527,
+            "stars": 91528,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4564,7 +4564,7 @@
             "stars": 76797,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T16:07:21Z",
+            "pushed_at": "2026-09-18T16:13:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "231755b",
-            "branch": "jh/circular-dependency-leaves",
-            "date": "2026-09-18T15:59:39Z",
-            "url": "https://github.com/grafana/grafana/commit/231755be13f69b143eabf3310df9faca3e574424"
+            "sha": "f085524",
+            "branch": "main",
+            "date": "2026-09-18T15:46:27Z",
+            "url": "https://github.com/grafana/grafana/commit/f085524b1c939cb040779223dfb27c367ac3500c"
           }
         },
         {
@@ -4700,7 +4700,7 @@
             "stars": 80569,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:01:24Z",
+            "pushed_at": "2026-09-18T16:11:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
