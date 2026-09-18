@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:21:13.193109Z",
+  "generated_at": "2026-09-18T20:26:29.097097Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T19:49:55Z",
+            "pushed_at": "2026-09-18T20:24:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "d8ce3c0",
+                  "message": "expat: update to 2.8.4",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-18T20:24:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/d8ce3c0142174928804fa986d718b44aa7fa0942"
+                },
+                {
                   "sha": "a5cc282",
                   "message": "knot: update to version 3.5.7",
                   "author": "Jan Hák",
@@ -3232,19 +3239,26 @@
                   "author": "George Sapkin",
                   "date": "2026-08-19T14:37:35Z",
                   "url": "https://github.com/openwrt/packages/commit/ee00b82728ac921b2193c90977ca6e747dbc9dba"
-                },
-                {
-                  "sha": "f629aca",
-                  "message": "syslog-ng: update to version 4.12.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-18T07:21:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/f629acaa1191f446e70b3dbe8bf34ca91dfb838d"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "3fd8ff8",
+                  "message": "expat: update to 2.8.4",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-09-18T20:23:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/3fd8ff8bcc053f3ff2c5b351531e34364a8b58b7"
+                },
+                {
+                  "sha": "b963c90",
+                  "message": "ci: remove keys last used by travis CI",
+                  "author": "Etienne Champetier",
+                  "date": "2026-09-18T20:22:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/b963c9048fb5dd1883a000627005ffc4dde08125"
+                },
                 {
                   "sha": "e629a05",
                   "message": "knot: update to version 3.5.7",
@@ -3440,20 +3454,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-09-13T07:41:03Z",
                   "url": "https://github.com/openwrt/packages/commit/43cefaef3066e0493bb26d2f4279ca96378eed41"
-                },
-                {
-                  "sha": "d0a1f0b",
-                  "message": "adblock: update 4.5.8-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-10T18:33:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/d0a1f0bc1e287629176eaffccc50536137adb3a9"
-                },
-                {
-                  "sha": "3e7a7c5",
-                  "message": "banip: update 1.8.13-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-10T18:02:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/3e7a7c523411c67b6816f76265478b88183e4071"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91535,
+            "stars": 91536,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4564,7 +4564,7 @@
             "stars": 76801,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T20:14:26Z",
+            "pushed_at": "2026-09-18T20:24:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dee57f1",
-            "branch": "alert-button-tokens-update-torkelo",
-            "date": "2026-09-17T13:32:49Z",
-            "url": "https://github.com/grafana/grafana/commit/dee57f1e3b8fc2c60ad61b8b4c7f9c301c08b314"
+            "sha": "7fc47ac",
+            "branch": "codex/table-refresh-visuals",
+            "date": "2026-09-18T20:24:36Z",
+            "url": "https://github.com/grafana/grafana/commit/7fc47ac0c37e22e5dc7cdd1729f2fd51ca23df23"
           }
         },
         {
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "be1af59",
-            "branch": "integrations-regen",
-            "date": "2026-09-18T18:57:31Z",
-            "url": "https://github.com/netdata/netdata/commit/be1af59c43fbed4ecc0de5871977393a807835c7"
+            "sha": "74cfb1b",
+            "branch": "master",
+            "date": "2026-09-18T19:57:44Z",
+            "url": "https://github.com/netdata/netdata/commit/74cfb1b5fdbb672b5a6ab7e03ae82c5b988dd308"
           }
         },
         {
@@ -5124,7 +5124,7 @@
             "stars": 7436,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T20:14:44Z",
+            "pushed_at": "2026-09-18T20:23:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
