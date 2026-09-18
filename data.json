@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:02:10.730576Z",
+  "generated_at": "2026-09-18T19:07:26.785440Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T18:59:39Z",
+            "pushed_at": "2026-09-18T19:05:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3246,6 +3246,69 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "99f1293",
+                  "message": "umurmur: update to 0.5.0",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-18T19:05:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/99f1293f29878fd220e246ecf34210f02f505407"
+                },
+                {
+                  "sha": "9e37a7f",
+                  "message": "umurmur: update to 0.4.1",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-18T19:04:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e37a7f221b5829740aec82ab1dc1fd015c9a570"
+                },
+                {
+                  "sha": "bf1c512",
+                  "message": "openssh: update to 10.5_p1",
+                  "author": "John Audia",
+                  "date": "2026-09-18T19:02:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/bf1c512746e3ae684d2b7d2f6e945df57c6c5307"
+                },
+                {
+                  "sha": "347255f",
+                  "message": "openssh: reindent Package/\u003cname\u003e metadata blocks to 2 spaces",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-09-18T19:02:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/347255fb9908e2a3b424bf20e62dbb6b6f546685"
+                },
+                {
+                  "sha": "b6371ca",
+                  "message": "openssh: make libfido2 dependency conditional on sk-helper",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-09-18T19:02:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/b6371ca24627ad75480641878d089a7378ae8edf"
+                },
+                {
+                  "sha": "8c3ebc1",
+                  "message": "openssh: fix BSD license identifier with a valid one",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-18T19:01:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/8c3ebc16c070082c517b233c04e7b485295fce4f"
+                },
+                {
+                  "sha": "8abee48",
+                  "message": "openssh: add test-version.sh CI override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:01:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/8abee4894ddf4b22fdb1f2177c5e74615e2e44ec"
+                },
+                {
+                  "sha": "c784312",
+                  "message": "openssh: update to 10.4_p1",
+                  "author": "John Audia",
+                  "date": "2026-09-18T19:01:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/c78431245e8915ac89964e7bcc21de823df7c0ea"
+                },
+                {
+                  "sha": "c78c0e6",
+                  "message": "openssh: update Makefile to build without PKG_FIXUP",
+                  "author": "John Audia",
+                  "date": "2026-09-18T19:01:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/c78c0e6c14bcc83a30d4b83a8142781ea05a996d"
+                },
+                {
                   "sha": "12a3cea",
                   "message": "bind: bump to 9.20.29",
                   "author": "Noah Meyerhans",
@@ -3391,69 +3454,6 @@
                   "author": "George Sapkin",
                   "date": "2026-09-08T16:27:33Z",
                   "url": "https://github.com/openwrt/packages/commit/2ac0d9f83c95170b6a8c666f68ddd8df16027859"
-                },
-                {
-                  "sha": "1a6911d",
-                  "message": "banip: release 1.8.13",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-08T15:58:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/1a6911dc0b86cd4a00d8cc436fb11c5f93b81dba"
-                },
-                {
-                  "sha": "f24cbdf",
-                  "message": "travelmate: update 2.4.9-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-07T17:11:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/f24cbdf2484652525417c2f4f5064c22dfcf6ed7"
-                },
-                {
-                  "sha": "bc31bd6",
-                  "message": "sing-box: bump to 1.13.21",
-                  "author": "Sergei S.",
-                  "date": "2026-09-07T11:55:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/bc31bd613a8b67f97a4c4c3da688b4385452a31f"
-                },
-                {
-                  "sha": "5691561",
-                  "message": "c-ares: bump to 1.34.8",
-                  "author": "Karen Khachatryan",
-                  "date": "2026-09-07T11:55:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/5691561615176641246ac3262173ff554692fa9f"
-                },
-                {
-                  "sha": "15afcee",
-                  "message": "python-typing-extensions: bump to 4.16.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-05T08:36:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/15afcee6b78f3b63e7df1881887537a2230bc0be"
-                },
-                {
-                  "sha": "1c8a25b",
-                  "message": "python-typing-extensions: allow flit_core 4.x as the build backend",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-05T08:36:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c8a25b81edbcb7fb5b6402bfc42010c9781be89"
-                },
-                {
-                  "sha": "3059e44",
-                  "message": "python-typing-extensions: bump to 4.15.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-05T08:36:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/3059e44121b5e9f41566515b705e110151f46678"
-                },
-                {
-                  "sha": "53a674b",
-                  "message": "strongswan: fix build with wolfSSL 5.9.2",
-                  "author": "Dharmik Parmar",
-                  "date": "2026-09-05T08:33:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/53a674bf5c4ec272d163773754e927ce8ac245cd"
-                },
-                {
-                  "sha": "f60a090",
-                  "message": "golang: bump 1.26 to 1.26.8",
-                  "author": "George Sapkin",
-                  "date": "2026-09-03T13:16:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/f60a090afff932579d015045dd1eff9f744fa043"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91531,
+            "stars": 91532,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4493,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25493,
+            "stars": 25494,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-18T18:34:35Z",
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5ca7a64",
-            "branch": "seangriffin/dpro-398-ini-support",
-            "date": "2026-09-17T18:12:42Z",
-            "url": "https://github.com/grafana/grafana/commit/5ca7a6440e7534a09bd6a1691d2757ee7efd19bc"
+            "sha": "c7baec8",
+            "branch": "jacobsonmt/managed-routes-4",
+            "date": "2026-09-18T18:31:00Z",
+            "url": "https://github.com/grafana/grafana/commit/c7baec86728f6e1a9922d4bade716b60773f1133"
           }
         },
         {
