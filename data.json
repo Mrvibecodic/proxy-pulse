@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:49:40.704658Z",
+  "generated_at": "2026-09-18T19:54:55.867540Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T19:20:44Z",
+            "pushed_at": "2026-09-18T19:49:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,55 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "a5cc282",
+                  "message": "knot: update to version 3.5.7",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/a5cc282702689a39c41110138e9e4eeda42a75d4"
+                },
+                {
+                  "sha": "d804454",
+                  "message": "knot: update to version 3.5.6",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/d804454de5891c6fb3ea2e6772291974698431c3"
+                },
+                {
+                  "sha": "d1f8bb5",
+                  "message": "knot: update to version 3.5.5",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/d1f8bb5532e2da94c8341aa2876a2f6ad220ea61"
+                },
+                {
+                  "sha": "4684d0d",
+                  "message": "knot: drop kru.inc.c static_assert that requires lock-free 16-bit atomics",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:49:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/4684d0d856dd8257de7ba324d0d2fdd084cadf51"
+                },
+                {
+                  "sha": "49f8c6d",
+                  "message": "knot: update to version 3.5.4",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/49f8c6d446d15a10e63d83c97537617478cc82a5"
+                },
+                {
+                  "sha": "59ea7cc",
+                  "message": "knot: update to version 3.5.3",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/59ea7ccf68f7ac9cbaf4d0a22dbfd0ee40efccb5"
+                },
+                {
+                  "sha": "b08446d",
+                  "message": "knot: update to version 3.5.2",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:49:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/b08446dc3b950fe8b826a36b73bccc5e59d7d8fc"
+                },
+                {
                   "sha": "977b0b7",
                   "message": "freeradius3: bump to 3.2.8",
                   "author": "Paul Donald",
@@ -3190,55 +3239,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-08-18T07:21:46Z",
                   "url": "https://github.com/openwrt/packages/commit/f629acaa1191f446e70b3dbe8bf34ca91dfb838d"
-                },
-                {
-                  "sha": "860798e",
-                  "message": "rust: fix compare_exchange_weak never succeeding on mpc85xx",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-16T07:40:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/860798e4f62efac1620dc2ce86a63495c3ff897b"
-                },
-                {
-                  "sha": "6f68fdb",
-                  "message": "rust: build soft-float on soft-float PowerPC subtargets",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-16T07:39:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/6f68fdbf71460ecc27cebf3f0d95c481c1256b57"
-                },
-                {
-                  "sha": "40ab75a",
-                  "message": "luajit2: update to 2026-07-31",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T10:32:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/40ab75a27a65dd87448b6c179cd7791f8dbe0121"
-                },
-                {
-                  "sha": "73f669b",
-                  "message": "luajit2: fix build and runtime on powerpc",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T10:32:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/73f669b10a4544b643a9224569f7c6366b20b39b"
-                },
-                {
-                  "sha": "76d9e7f",
-                  "message": "luajit2: update test-version.sh to actual test",
-                  "author": "Seo Suchan",
-                  "date": "2026-08-15T10:32:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/76d9e7f587d79c09ef421e193ebb3489ce6186d0"
-                },
-                {
-                  "sha": "9a74700",
-                  "message": "luajit2: add test-version.sh",
-                  "author": "Seo Suchan",
-                  "date": "2026-08-15T10:32:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/9a747004be7f2ef966242ddf48f4f65a73128333"
-                },
-                {
-                  "sha": "db6a3df",
-                  "message": "luajit2: update to v2.1-20260227",
-                  "author": "Javier Marcet",
-                  "date": "2026-08-15T10:32:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/db6a3dfc68b21ab9128798c463ff89f2bc8cd043"
                 }
               ]
             },
@@ -4357,7 +4357,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 904,
+            "stars": 905,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-09-10T05:41:53Z",
@@ -4564,7 +4564,7 @@
             "stars": 76801,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T19:40:05Z",
+            "pushed_at": "2026-09-18T19:51:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
