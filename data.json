@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:18:02.987281Z",
+  "generated_at": "2026-09-18T19:23:20.437566Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T19:17:12Z",
+            "pushed_at": "2026-09-18T19:20:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "977b0b7",
+                  "message": "freeradius3: bump to 3.2.8",
+                  "author": "Paul Donald",
+                  "date": "2026-09-18T19:19:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/977b0b7a4bdab1caa4f59db6c1993e5bddd9cf04"
+                },
+                {
+                  "sha": "9a2e60e",
+                  "message": "freeradius3: bump to 3.2.7",
+                  "author": "Paul Donald",
+                  "date": "2026-09-18T19:19:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/9a2e60e318eebd7f56b9520bcc6d54d98a05bda7"
+                },
+                {
                   "sha": "4d11a83",
                   "message": "bind: bump to 9.20.29",
                   "author": "Noah Meyerhans",
@@ -3225,26 +3239,47 @@
                   "author": "Javier Marcet",
                   "date": "2026-08-15T10:32:16Z",
                   "url": "https://github.com/openwrt/packages/commit/db6a3dfc68b21ab9128798c463ff89f2bc8cd043"
-                },
-                {
-                  "sha": "bc438f8",
-                  "message": "gperftools: allow building for powerpc",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-15T08:47:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/bc438f8c9e9cc7bab7e05a61e1db5a389274f73d"
-                },
-                {
-                  "sha": "6d5dc98",
-                  "message": "librespeed-cli-rust: update to 0.1.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-08-12T13:04:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d5dc980db2c4c000b3a317c495e24c5d0b8d565"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "e629a05",
+                  "message": "knot: update to version 3.5.7",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:20:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/e629a05d6b132c79728d35cdc998b8fb9e6f07e8"
+                },
+                {
+                  "sha": "000b661",
+                  "message": "knot: update to version 3.5.6",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:20:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/000b6611f39f293739a0031c275aac89fb842bea"
+                },
+                {
+                  "sha": "0ee7935",
+                  "message": "knot: update to version 3.5.5",
+                  "author": "Jan Hák",
+                  "date": "2026-09-18T19:20:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/0ee7935405d08c084c8c339ce677e50e76d515b3"
+                },
+                {
+                  "sha": "fd913f6",
+                  "message": "freeradius3: fix recursive dependency from libopenssl-legacy",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:18:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/fd913f626bb4f345f18a9dc36a76a075da1fe8f3"
+                },
+                {
+                  "sha": "f67e9e5",
+                  "message": "freeradius3: update to 3.2.10",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:18:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/f67e9e588fdb412fee1e574a06e51f1368882ad3"
+                },
                 {
                   "sha": "26587c8",
                   "message": "v4l2camera: update to v0.3.2",
@@ -3419,41 +3454,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-09-10T18:02:34Z",
                   "url": "https://github.com/openwrt/packages/commit/3e7a7c523411c67b6816f76265478b88183e4071"
-                },
-                {
-                  "sha": "196fd50",
-                  "message": "owut: update to 2026.08.30",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-09-10T08:11:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/196fd50964d58ee85e21d28550e67876be5fce66"
-                },
-                {
-                  "sha": "09037d5",
-                  "message": "vim: update to 9.2.1014",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-10T08:04:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/09037d5d6ec4a601c31ccd4dbe4612a2d4d5718a"
-                },
-                {
-                  "sha": "a6ed5f1",
-                  "message": "curl: update to 8.21.0",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-09-10T08:00:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/a6ed5f1358197dad706b089c99bf8c42e294eaf4"
-                },
-                {
-                  "sha": "7712ef3",
-                  "message": "tor: update to 0.4.9.11 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-09-10T07:58:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/7712ef3b6b24799ea41a31b3bc01d1bc0c1d729f"
-                },
-                {
-                  "sha": "098d69a",
-                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:57:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/098d69a3df96a69920b40d75694dbace000ea76f"
                 }
               ]
             }
@@ -3731,7 +3731,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5278,
+            "stars": 5277,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-18T00:34:57Z",
@@ -4496,7 +4496,7 @@
             "stars": 25494,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T18:34:35Z",
+            "pushed_at": "2026-09-18T19:22:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4549,10 +4549,10 @@
             }
           ],
           "last_commit": {
-            "sha": "db3afea",
-            "branch": "main",
-            "date": "2026-09-18T18:34:35Z",
-            "url": "https://github.com/henrygd/beszel/commit/db3afeabd949eb3b58fb0acd65724a37212376b0"
+            "sha": "88e0674",
+            "branch": "l10n_main_2",
+            "date": "2026-09-18T19:22:29Z",
+            "url": "https://github.com/henrygd/beszel/commit/88e0674ca6af9b7b4cdcfb8946bab2dc2872f41a"
           }
         },
         {
@@ -4564,7 +4564,7 @@
             "stars": 76800,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T18:42:46Z",
+            "pushed_at": "2026-09-18T19:19:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
