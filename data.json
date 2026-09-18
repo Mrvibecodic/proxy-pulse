@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T09:32:45.399859Z",
+  "generated_at": "2026-09-18T09:38:00.765281Z",
   "groups": [
     {
       "id": "cores",
@@ -568,6 +568,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.21-alpha.8",
+              "tag": "android-v0.1.21-alpha.8",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.8",
+              "published_at": "2026-09-18T09:36:14Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Прерванный замер задержек больше не помечает узел как недоступный, а\n  неудавшийся замер не мешает запустить следующий.\n- Неудачный выбор узла не выдаётся за успешный, не рвёт текущие соединения\n  и не сбрасывает запомненный выбор группы.\n- Журнал ядра ограничен по размеру, не продолжает писаться после закрытия\n  экрана и не теряется при перезапуске фонового процесса.\n- Сбой внутри ядра при обращении из приложения больше не обрывает VPN\n  вместе с фоновым процессом.\n- Проверка целостности установленного приложения учитывает установку,\n  разбитую на несколько частей."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.21-alpha.7",
               "tag": "android-v0.1.21-alpha.7",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.7",
@@ -853,7 +862,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7151,
+            "stars": 7152,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-17T22:30:18Z",
@@ -1054,7 +1063,7 @@
           ],
           "last_commit": {
             "sha": "4858ed9",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-09-18T07:17:28Z",
             "url": "https://github.com/openwrt/openwrt/commit/4858ed9dbdaf60522472fc66a2be3b9cd677af7f"
           }
@@ -4546,7 +4555,7 @@
             "stars": 76796,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T09:32:10Z",
+            "pushed_at": "2026-09-18T09:37:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4803,10 +4812,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f4aa6af",
-            "branch": "docs-refine-vmauth-security-section-add-recs",
-            "date": "2026-09-17T08:56:44Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/f4aa6af128afbb93b78f9facbb6233ff6b4a738b"
+            "sha": "5087750",
+            "branch": "sso2",
+            "date": "2026-09-18T09:21:19Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/5087750af27b2654f6b1251ee004bb77b406db29"
           }
         }
       ]
