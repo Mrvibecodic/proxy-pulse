@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T19:12:47.229281Z",
+  "generated_at": "2026-09-18T19:18:02.987281Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T19:10:25Z",
+            "pushed_at": "2026-09-18T19:17:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3246,6 +3246,48 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "26587c8",
+                  "message": "v4l2camera: update to v0.3.2",
+                  "author": "Michel Promonet",
+                  "date": "2026-09-18T19:17:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/26587c89df9be4dca7e263550c2cb8b0bd2be8e1"
+                },
+                {
+                  "sha": "53c83ae",
+                  "message": "prosody: do not drive the service through prosodyctl",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-18T19:13:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/53c83ae1b4927c75380ce7b5e0211e95b790a322"
+                },
+                {
+                  "sha": "80de2df",
+                  "message": "prosody: add test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-18T19:13:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/80de2df9446c504a2baf29c708416460ee167747"
+                },
+                {
+                  "sha": "0764d70",
+                  "message": "prosody: extend test.sh past the version string grep",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/0764d7065b2c6a1e1a3ee52050ba298a2ca63011"
+                },
+                {
+                  "sha": "c1a4885",
+                  "message": "prosody: update to 13.0.6",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-18T19:13:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/c1a48852a227aa2c646026f8058f18d037044a91"
+                },
+                {
+                  "sha": "1c5beef",
+                  "message": "CONTRIBUTING.md: add pointers to LLM review prompts",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-09-18T19:11:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c5beef1ded11726ffcb6dcd50d889175f212533"
+                },
+                {
                   "sha": "55f9161",
                   "message": "mariadb: init - check file versions",
                   "author": "Daniel Black",
@@ -3412,48 +3454,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-10T07:57:25Z",
                   "url": "https://github.com/openwrt/packages/commit/098d69a3df96a69920b40d75694dbace000ea76f"
-                },
-                {
-                  "sha": "6958f54",
-                  "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:57:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/6958f54ce099d979a8fb1b4b412bb0e61fd4a642"
-                },
-                {
-                  "sha": "63fb07b",
-                  "message": "tvheadend: drop the handwritten version override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:55:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/63fb07b24fc8bc99bd7e2c4200f3f64c263e94bc"
-                },
-                {
-                  "sha": "f23ec5e",
-                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:55:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/f23ec5e1eaf03f5fe66448c1243a00d9840afed0"
-                },
-                {
-                  "sha": "2f19926",
-                  "message": "tvheadend: update to 2026-08-17",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:55:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/2f19926d71660fae905da150910c5bdecefe12c5"
-                },
-                {
-                  "sha": "85b0c8e",
-                  "message": "travelmate: update 2.4.9-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-09T20:55:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/85b0c8e33fca80d31d9cdc6396cc14a45b817190"
-                },
-                {
-                  "sha": "4a88b50",
-                  "message": "adblock: release 4.5.8-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-09T19:37:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/4a88b508f2de75d00e82732a259e329d32681e17"
                 }
               ]
             }
@@ -4211,7 +4211,7 @@
             "stars": 1831,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T15:41:17Z",
+            "pushed_at": "2026-09-18T19:12:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4237,10 +4237,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c9d0669",
+            "sha": "f04904d",
             "branch": "main",
-            "date": "2026-09-18T15:41:18Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/c9d0669b8425bf7b13a2e70e8c8074b6285ecb84"
+            "date": "2026-09-18T19:12:58Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/f04904d677627cc67c8525661b0f76753032d8be"
           }
         },
         {
