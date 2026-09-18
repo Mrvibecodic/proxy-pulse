@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:36:59.635410Z",
+  "generated_at": "2026-09-18T20:42:14.776756Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T20:35:45Z",
+            "pushed_at": "2026-09-18T20:41:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "cbb75ab",
+                  "message": "tar: fix typo in LDFLAGS variable name",
+                  "author": "Qin Guang",
+                  "date": "2026-09-18T20:41:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/cbb75abc13de7504e906981328d6548cf479104a"
+                },
+                {
                   "sha": "eeb14d3",
                   "message": "grep: update to 3.12",
                   "author": "Wei-Ting Yang",
@@ -3232,13 +3239,6 @@
                   "author": "Ray Wang",
                   "date": "2026-09-03T08:37:25Z",
                   "url": "https://github.com/openwrt/packages/commit/4b4b1f5af9d7aec892ec9148aaccd88590d83982"
-                },
-                {
-                  "sha": "3b28a56",
-                  "message": "owut: remove comments and empty lines from the built package",
-                  "author": "Samuele Longhi",
-                  "date": "2026-09-01T12:06:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b28a568ba14b8fbad8dd4db3b2cb5fb0be6f5c9"
                 }
               ]
             },
@@ -4493,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25495,
+            "stars": 25496,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-18T19:22:30Z",
@@ -4561,10 +4561,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76801,
+            "stars": 76802,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T20:31:59Z",
+            "pushed_at": "2026-09-18T20:42:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9318cbf",
-            "branch": "codex/table-adhoc-filter-sort",
-            "date": "2026-09-18T20:14:28Z",
-            "url": "https://github.com/grafana/grafana/commit/9318cbf649a1f828e104e35b5c78557093992618"
+            "sha": "236413f",
+            "branch": "main",
+            "date": "2026-09-17T13:51:13Z",
+            "url": "https://github.com/grafana/grafana/commit/236413f5fba78990ec2255e3b0394882426c4ed6"
           }
         },
         {
@@ -5177,10 +5177,10 @@
             }
           ],
           "last_commit": {
-            "sha": "58d4d73",
-            "branch": "l10n_crowdin",
-            "date": "2026-09-18T04:23:57Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/58d4d739909704781bdd53f1396ae8d2bf3c0713"
+            "sha": "ad8999a",
+            "branch": "main",
+            "date": "2026-09-18T20:23:22Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/ad8999a625c92ffb97d4fbed5a5532230d012346"
           }
         }
       ]
