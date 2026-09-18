@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:13:50.138830Z",
+  "generated_at": "2026-09-18T16:19:07.112055Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41660,
+            "stars": 41661,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-16T05:55:06Z",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T16:13:54Z",
+            "pushed_at": "2026-09-18T16:16:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "905a8ae",
+                  "message": "restic: update to 0.19.1",
+                  "author": "Romain Isnel",
+                  "date": "2026-09-18T16:16:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/905a8ae2e24b09af57a2eefd8a37378522d52315"
+                },
+                {
+                  "sha": "4df8cf1",
+                  "message": "meshtasticd: update to 2.7.26",
+                  "author": "Austin Lane",
+                  "date": "2026-09-18T16:14:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/4df8cf12e09be8230708f99075f3dea47e2b9958"
+                },
+                {
                   "sha": "e4f1163",
                   "message": "mini-snmpd: update to v2.1",
                   "author": "Ivan Pavlov",
@@ -1935,20 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/b20484d843a28ac105dcf01d8790dd7a21ada0fb"
-                },
-                {
-                  "sha": "8c5df29",
-                  "message": "openal-soft: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c5df29a887321bfecc5dd8352843027b2deddd2"
-                },
-                {
-                  "sha": "b1d9115",
-                  "message": "nfdump: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/b1d91158c2215f0830f3704f1e2a9adbd0a36b20"
                 }
               ]
             },
@@ -4564,7 +4564,7 @@
             "stars": 76797,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T16:13:00Z",
+            "pushed_at": "2026-09-18T16:18:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f085524",
-            "branch": "main",
-            "date": "2026-09-18T15:46:27Z",
-            "url": "https://github.com/grafana/grafana/commit/f085524b1c939cb040779223dfb27c367ac3500c"
+            "sha": "0174f51",
+            "branch": "fcai/reset-spec-on-update",
+            "date": "2026-09-18T16:05:38Z",
+            "url": "https://github.com/grafana/grafana/commit/0174f51881bc5f1b6c098e29bd73cc02591394e4"
           }
         },
         {
