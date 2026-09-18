@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:42:14.776756Z",
+  "generated_at": "2026-09-18T20:47:29.759432Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38105,
+            "stars": 38106,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-18T02:59:04Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34197,
+            "stars": 34198,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T20:41:28Z",
+            "pushed_at": "2026-09-18T20:44:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3031,6 +3031,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "83c16c1",
+                  "message": "ci: remove keys last used by travis CI",
+                  "author": "Etienne Champetier",
+                  "date": "2026-09-18T20:44:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/83c16c18bd72e254b26972ae228db071611bba4f"
+                },
+                {
+                  "sha": "9ccb41b",
+                  "message": "zsh: update to 5.9.2",
+                  "author": "John Audia",
+                  "date": "2026-09-18T20:43:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ccb41bbb604174297fdaf7dabd19b9c4162ff06"
+                },
+                {
+                  "sha": "f22f16a",
+                  "message": "zsh: update to 5.9.1",
+                  "author": "John Audia",
+                  "date": "2026-09-18T20:43:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/f22f16a9752c01c0554471bca96c7a27c015b64f"
+                },
+                {
+                  "sha": "0e19e96",
+                  "message": "zsh: fix shell not sourcing /etc/profile",
+                  "author": "John Audia",
+                  "date": "2026-09-18T20:43:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/0e19e96a1754731e7ff9839e0c68daac76f35ce9"
+                },
+                {
                   "sha": "cbb75ab",
                   "message": "tar: fix typo in LDFLAGS variable name",
                   "author": "Qin Guang",
@@ -3211,40 +3239,26 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-10T07:55:57Z",
                   "url": "https://github.com/openwrt/packages/commit/eceb9ba8f9c855c4669b0e602d20f1c90f69d517"
-                },
-                {
-                  "sha": "57f095a",
-                  "message": "tvheadend: require GNU libiconv and drop the iconv self-test patch",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:55:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/57f095a9bc181fb3c66e96af06c874cb1bc7e48e"
-                },
-                {
-                  "sha": "3599a82",
-                  "message": "tvheadend: update to 2026-08-17",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:55:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/3599a82683928a70e0fde20d80be6bbcd169e5c9"
-                },
-                {
-                  "sha": "5967138",
-                  "message": "librespeed-cli: fix upload speed being overestimated",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-09T19:58:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/59671380928138e8d84224b815b6cf5d3fb8509b"
-                },
-                {
-                  "sha": "4b4b1f5",
-                  "message": "hev-socks5-server: update to 2.13.1",
-                  "author": "Ray Wang",
-                  "date": "2026-09-03T08:37:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b4b1f5af9d7aec892ec9148aaccd88590d83982"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "fd6259a",
+                  "message": "zsh: update to 5.9.2",
+                  "author": "John Audia",
+                  "date": "2026-09-18T20:43:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/fd6259a12587702f23b1f8e2cd62b234d83a35bd"
+                },
+                {
+                  "sha": "12aa1bf",
+                  "message": "zsh: update to 5.9.1",
+                  "author": "John Audia",
+                  "date": "2026-09-18T20:42:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/12aa1bf713ac6b0c53d31b65d030c49bdb7c6e81"
+                },
                 {
                   "sha": "3fd8ff8",
                   "message": "expat: update to 2.8.4",
@@ -3440,20 +3454,6 @@
                   "author": "Tyrel M. McQueen",
                   "date": "2026-09-14T05:51:37Z",
                   "url": "https://github.com/openwrt/packages/commit/9b356cf578d102221926b71bbb0d2e51d3650620"
-                },
-                {
-                  "sha": "46e1f86",
-                  "message": "netbird: update to 0.78.1",
-                  "author": "Maksym Vasylchenko",
-                  "date": "2026-09-13T23:52:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/46e1f8651e9547b8e3f3634b1039247f47f0af59"
-                },
-                {
-                  "sha": "43cefae",
-                  "message": "radicale3: bump version to v3.8.0",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-13T07:41:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/43cefaef3066e0493bb26d2f4279ca96378eed41"
                 }
               ]
             }
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91536,
+            "stars": 91537,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4564,7 +4564,7 @@
             "stars": 76802,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T20:42:01Z",
+            "pushed_at": "2026-09-18T20:47:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "236413f",
-            "branch": "main",
-            "date": "2026-09-17T13:51:13Z",
-            "url": "https://github.com/grafana/grafana/commit/236413f5fba78990ec2255e3b0394882426c4ed6"
+            "sha": "c5a8f64",
+            "branch": "drew08t/geomap-carto-clamp-to-widest-tile",
+            "date": "2026-09-17T13:56:02Z",
+            "url": "https://github.com/grafana/grafana/commit/c5a8f6453bda58f165054b4a60a3eb0da9fd9e4e"
           }
         },
         {
@@ -4753,10 +4753,10 @@
             }
           ],
           "last_commit": {
-            "sha": "74cfb1b",
-            "branch": "master",
-            "date": "2026-09-18T19:57:44Z",
-            "url": "https://github.com/netdata/netdata/commit/74cfb1b5fdbb672b5a6ab7e03ae82c5b988dd308"
+            "sha": "3c91221",
+            "branch": "integrations-regen",
+            "date": "2026-09-18T20:02:02Z",
+            "url": "https://github.com/netdata/netdata/commit/3c912218aa21476d4cd46cbafbd0a5a2ce6269be"
           }
         },
         {
@@ -4765,7 +4765,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17739,
+            "stars": 17740,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-18T16:04:09Z",
