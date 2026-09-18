@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:58:02.509220Z",
+  "generated_at": "2026-09-18T16:03:19.195126Z",
   "groups": [
     {
       "id": "cores",
@@ -1071,10 +1071,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ee526db",
-            "branch": "master",
-            "date": "2026-09-18T15:05:28Z",
-            "url": "https://github.com/openwrt/openwrt/commit/ee526dbf016650ae5d8a0914372a021dc330dda0"
+            "sha": "4b3e132",
+            "branch": "main",
+            "date": "2026-09-18T15:09:36Z",
+            "url": "https://github.com/openwrt/openwrt/commit/4b3e132fb06be427469949ce52aab8deea6c74c9"
           }
         },
         {
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T15:46:41Z",
+            "pushed_at": "2026-09-18T16:02:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6b3e8fd",
+                  "message": "dnsdist: update to 2.1.2",
+                  "author": "Remi Gacogne",
+                  "date": "2026-09-18T16:02:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b3e8fdfa64baa15fe153ceb195cdbba1105ca96"
+                },
+                {
                   "sha": "7992657",
                   "message": "bind: bump to 9.20.29",
                   "author": "Noah Meyerhans",
@@ -1942,13 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/d6f50e42d35ff682ab0ed1e03a9387942e766d20"
-                },
-                {
-                  "sha": "b8c4efa",
-                  "message": "bind: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/b8c4efa23a7126727325d3b49ac5dd0780c60cd9"
                 }
               ]
             },
@@ -4425,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91525,
+            "stars": 91526,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-18T00:06:09Z",
@@ -4561,10 +4561,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76796,
+            "stars": 76797,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T15:56:43Z",
+            "pushed_at": "2026-09-18T16:02:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "53f11c9",
+            "sha": "1c767ba",
             "branch": "main",
-            "date": "2026-09-17T14:36:06Z",
-            "url": "https://github.com/grafana/grafana/commit/53f11c9f72e79ebea952dd0b4d457337e6fbc414"
+            "date": "2026-09-18T15:36:42Z",
+            "url": "https://github.com/grafana/grafana/commit/1c767ba734930a5e2dd58ad3d55819a751d07686"
           }
         },
         {
@@ -4629,7 +4629,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66116,
+            "stars": 66117,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-18T13:31:43Z",
@@ -4700,7 +4700,7 @@
             "stars": 80569,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T15:42:08Z",
+            "pushed_at": "2026-09-18T16:01:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4821,10 +4821,10 @@
             }
           ],
           "last_commit": {
-            "sha": "abb845c",
-            "branch": "sso2",
-            "date": "2026-09-17T14:22:06Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/abb845c850a8070758c3e498bc6ab9183e4a7eac"
+            "sha": "bb95880",
+            "branch": "docs-refine-vmauth-security-section-add-recs",
+            "date": "2026-09-17T08:49:47Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/bb958800fb14b910180b85603fd47a6e424a6e38"
           }
         }
       ]
