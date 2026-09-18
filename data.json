@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T02:58:30.553518Z",
+  "generated_at": "2026-09-18T03:03:46.069728Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38093,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-18T02:58:22Z",
+            "pushed_at": "2026-09-18T02:59:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.6",
+              "tag": "v1.15.0-alpha.6",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.6",
+              "published_at": "2026-09-18T02:59:14Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.15.0-alpha.5",
               "tag": "v1.15.0-alpha.5",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Significantly improve TUN performance with a new TCP/IP stack **1**\n* Fixes and improvements\n\n**1**:\n\nSince 1.15.0, sing-tun uses its own TCP/IP stack, with substantial improvements over all previous implementations in peak performance, energy efficiency, and memory usage. Remove the `stack` option to use it.\n\nThe `stack` option is deprecated and will be removed in sing-box 1.17.0. See [Migration](https://sing-box.sagernet.org/migration/#migrate-tun-stack).\n"
-            },
-            {
-              "name": "1.15.0-alpha.2",
-              "tag": "v1.15.0-alpha.2",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.2",
-              "published_at": "2026-09-05T06:21:10Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
@@ -939,7 +939,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern proxy client for mihomo (Meta) core with intuitive UI for Windows, macOS, and Linux",
-            "stars": 49,
+            "stars": 50,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
             "pushed_at": "2026-09-15T14:37:57Z",
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dd7e27b",
-            "branch": "keys/rollout",
-            "date": "2026-09-16T16:53:45Z",
-            "url": "https://github.com/grafana/grafana/commit/dd7e27ba45d0d54b875c02920fdbd61a7b828572"
+            "sha": "106af55",
+            "branch": "main",
+            "date": "2026-09-16T16:59:12Z",
+            "url": "https://github.com/grafana/grafana/commit/106af55d045756b583ba81f93c75f80b2f3ff0eb"
           }
         },
         {
