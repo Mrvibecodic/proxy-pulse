@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T15:42:13.725243Z",
+  "generated_at": "2026-09-18T15:47:31.303803Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41659,
+            "stars": 41660,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-16T05:55:06Z",
@@ -1086,7 +1086,7 @@
             "stars": 4610,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T14:06:52Z",
+            "pushed_at": "2026-09-18T15:46:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1741,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7992657",
+                  "message": "bind: bump to 9.20.29",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-09-18T15:46:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/799265743741fec9f44ad680957d6ce0c6902c2e"
+                },
+                {
+                  "sha": "66c7c55",
+                  "message": "gst1-libav: fix build with FFmpeg 9",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-18T15:44:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/66c7c55e4ac3756c689b7cc147c3e5139e093503"
+                },
+                {
                   "sha": "6990c0a",
                   "message": "shunt: update 0.1.10",
                   "author": "Dirk Brenken",
@@ -1935,20 +1949,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/b8c4efa23a7126727325d3b49ac5dd0780c60cd9"
-                },
-                {
-                  "sha": "854113b",
-                  "message": "ovpn-dco: update to 7.2.0.2026082800",
-                  "author": "Qingfang Deng",
-                  "date": "2026-09-16T11:36:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/854113b40e4159536124e60e3b6cec93e4c7461e"
-                },
-                {
-                  "sha": "6edb4a4",
-                  "message": "openvpn: update to 2.7.7",
-                  "author": "Qingfang Deng",
-                  "date": "2026-09-16T11:36:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/6edb4a44c7f02e6f61d36fb31c12a7d0f7a4e439"
                 }
               ]
             },
@@ -4564,7 +4564,7 @@
             "stars": 76796,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T15:40:43Z",
+            "pushed_at": "2026-09-18T15:46:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0d5ac90",
-            "branch": "collinfingar/notebooks-real-rbac",
-            "date": "2026-09-17T14:24:01Z",
-            "url": "https://github.com/grafana/grafana/commit/0d5ac9069270cde73adc7e7c21ff4e2f041b32c9"
+            "sha": "7487d57",
+            "branch": "docs/testdata-quarterly-update-fy27q3",
+            "date": "2026-09-18T15:16:59Z",
+            "url": "https://github.com/grafana/grafana/commit/7487d579e5f8e75a9551dbe32dcccd0e24428265"
           }
         },
         {
@@ -5121,7 +5121,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7436,
+            "stars": 7437,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-18T04:23:57Z",
