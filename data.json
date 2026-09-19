@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T17:45:51.955182Z",
+  "generated_at": "2026-09-19T17:51:08.398423Z",
   "groups": [
     {
       "id": "cores",
@@ -1077,7 +1077,7 @@
             "stars": 4609,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-18T20:44:19Z",
+            "pushed_at": "2026-09-19T17:50:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1732,6 +1732,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "72e4f90",
+                  "message": "banip: release 1.9.0",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-19T17:50:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/72e4f90d756b0cf9da01e7b955ad48279df0578c"
+                },
+                {
                   "sha": "d0106a0",
                   "message": "grilo-plugins: update to 0.3.18",
                   "author": "W. Michael Petullo",
@@ -1933,13 +1940,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/435792539da61d6083968583a907322e64b65682"
-                },
-                {
-                  "sha": "cc100f7",
-                  "message": "rtorrent: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/cc100f7a59b29605d5b76ded83810b3382f84aec"
                 }
               ]
             },
@@ -4484,7 +4484,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25532,
+            "stars": 25533,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-19T17:27:04Z",
