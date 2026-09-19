@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:41:12.376958Z",
+  "generated_at": "2026-09-19T10:46:27.448608Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.10-alpha.6",
+              "tag": "clod-v0.1.10-alpha.6",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.6",
+              "published_at": "2026-09-19T10:43:30Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The app talks to the core through a faster connection that reuses requests\n\n### Fixed\n\n- A failed subscription update is marked on its card and the mark clears after a successful update\n- A node pinned in an automatic group is restored from the profile, and a pin left by another profile is removed\n- vless links with the ws transport no longer get the HTTP Upgrade mode\n- Link parsing keeps only known keys in plugin options and headers and warns when decoding fails\n- The speed graph recovers when its data stream goes silent, and proxy providers load faster\n- Settings hints for defaults and the DNS override mode are clearer, the TUN dialog saves only its own fields, and a long provider announcement no longer stretches the window\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Приложение общается с ядром через более быстрое соединение, которое переиспользует запросы\n\n### Исправлено\n\n- Неудавшееся обновление подписки отмечается на её карточке, а отметка снимается после удачного обновления\n- Закреплённый узел в автоматической группе восстанавливается из профиля, а закрепление от другого профиля снимается\n- Ссылки vless с транспортом ws больше не получают режим HTTP Upgrade\n- Разбор ссылок оставляет в параметрах плагина и заголовках только известные ключи и предупреждает о неудавшемся декодировании\n- График скорости восстанавливается, если поток данных замолчал, а провайдеры прокси загружаются быстрее\n- Подсказки про умолчания и режим подмены DNS стали понятнее, диалог TUN сохраняет только свои поля, а длинное объявление провайдера больше не растягивает окно"
+            },
+            {
               "name": "Clod Clash clod-v0.1.10-alpha.5",
               "tag": "clod-v0.1.10-alpha.5",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.5",
@@ -853,7 +862,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7176,
+            "stars": 7178,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-19T01:13:55Z",
@@ -1054,7 +1063,7 @@
           ],
           "last_commit": {
             "sha": "d9fcbfc",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-09-19T10:02:40Z",
             "url": "https://github.com/openwrt/openwrt/commit/d9fcbfc5850f1faafd266b81af2ffeb17faf91dd"
           }
@@ -4546,7 +4555,7 @@
             "stars": 76806,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-19T10:33:08Z",
+            "pushed_at": "2026-09-19T10:41:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4599,10 +4608,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d872a9d",
-            "branch": "st-router-fallback",
-            "date": "2026-09-18T05:32:00Z",
-            "url": "https://github.com/grafana/grafana/commit/d872a9da7a9ee4101e6af52c6c9791fa47b11c39"
+            "sha": "d4d3861",
+            "branch": "dependabot/go_modules/github.com/go-sql-driver/mysql-1.10.1",
+            "date": "2026-09-18T05:34:09Z",
+            "url": "https://github.com/grafana/grafana/commit/d4d38612953f9720cae2cde49e9be5963605915c"
           }
         },
         {
@@ -4735,10 +4744,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2938767",
-            "branch": "master",
-            "date": "2026-09-18T05:01:43Z",
-            "url": "https://github.com/netdata/netdata/commit/29387672edb6427a48c453a1ce4fba1a8ac5f651"
+            "sha": "376b39f",
+            "branch": "fix/support-bundle-god-job-statuses",
+            "date": "2026-09-18T11:57:06Z",
+            "url": "https://github.com/netdata/netdata/commit/376b39feab9c3c4e2c8bacad86b0f5646399292f"
           }
         },
         {
