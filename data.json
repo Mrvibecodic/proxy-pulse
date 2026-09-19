@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:14:59.531956Z",
+  "generated_at": "2026-09-19T10:25:27.173561Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T17:28:37Z",
+            "pushed_at": "2026-09-19T10:22:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,22 +543,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The client stops staying silent: a core that started but does not answer, a proxy port held by another application, a tunnel that failed to come up, a subscription update that did not go through, a configuration the background service cannot take — each now shows a notification with the cause and, where possible, the action to take\n- The client stops deciding for you: your node selection is not reset, your settings are not rewritten with the client's own values, someone else's system proxy is left alone, and nothing is written while the proxy switch is off\n- Connections are no longer dropped without a reason: the core's listeners are recreated only when ports, the tunnel or LAN access actually change; on a network change only when the old path is really gone; after sleep — once\n\n### Fixed\n\n- Sleep is noticed on every platform, Windows included, where it was never detected before: stale connections are closed after waking, the tunnel and the system proxy are checked, and the log records how long the machine slept and what was done\n- A core crash under the background service is visible and healed: the node selection, the tray and the system proxy come back, and the crash is reported\n- The tunnel tells the truth about its state: the switch shows the fact, a failed start gets three attempts and then a named reason; switching it off takes the device down at once; after sleep a tunnel held down for lack of rights is not poked again\n- Subscription updates: a failed update no longer takes the working profile away, the failure is named, a configuration rejected by the core or the service is rolled back and marked «not applied», and the panel's answer wins the race against the stub one\n- Rule sets no longer go dead on an expired subscription, empty ones are re-fetched when the network comes back, and an empty node group yields REJECT instead of letting traffic bypass the tunnel\n- The system proxy is owned by the address in the system rather than by the history of writes, and the no-proxy window during rewrites is gone\n- The DNS page no longer slips in its own defaults or writes unverified values, and fake-ip mappings survive a core restart\n- Tray delays after a subscription update are measured four nodes at a time instead of in one burst\n- `log-level` and `unified-delay` from the subscription are respected, like `ipv6`; the client's own settings apply only when the subscription does not set them\n- Background load on the core and the service is reduced: the tunnel state poll no longer wakes the core while the tunnel is off, and the service capability is cached\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Клиент перестал молчать: ядро, которое запустилось и не отвечает, порт прокси, занятый другим приложением, не поднявшийся туннель, не прошедшее обновление подписки, конфиг, который фоновая служба не может взять — на каждый случай показывается уведомление с причиной и, где возможно, с действием\n- Клиент перестал решать за вас: выбор узла не сбрасывается, настройки не перезаписываются его значениями, чужой системный прокси не трогается, при выключенном тумблере прокси ничего не пишется\n- Соединения больше не рвутся без причины: слушатели ядра пересоздаются только когда действительно меняются порты, туннель или доступ из локальной сети; при смене сети — только если прежний путь и правда пропал; после сна — один раз\n\n### Исправлено\n\n- Сон замечается на всех платформах, включая Windows, где раньше не замечался вовсе: после пробуждения закрываются зависшие соединения, проверяются туннель и системный прокси, а в журнал пишется, сколько машина спала и что сделано\n- Падение ядра под фоновой службой видно и долечивается: выбор узла, трей и системный прокси возвращаются, о падении сообщается\n- Туннель говорит правду о своём состоянии: тумблер показывает факт, неудачный старт получает три попытки и затем названную причину; выключение снимает устройство сразу; после сна туннель, придержанный из-за нехватки прав, не дёргается заново\n- Обновление подписки: неудачное обновление не отбирает рабочий профиль, отказ назван, конфиг, отвергнутый ядром или службой, откатывается с пометкой «не применено», а ответ панели выигрывает гонку у заглушки\n- Наборы правил не глохнут на истёкшей подписке, пустые дозагружаются после возвращения сети, а пустая группа узлов даёт REJECT, а не пускает трафик мимо туннеля\n- Владение системным прокси определяется адресом в системе, а не историей записей; окно «без прокси» при перезаписи убрано\n- Страница DNS не подсовывает свои умолчания и не пишет непроверенное, подменные адреса переживают перезапуск ядра\n- Задержки для трея после обновления подписки меряются по четыре узла, а не залпом\n- `log-level` и `unified-delay` из подписки уважаются, как и `ipv6`; настройки клиента действуют только когда подписка их не задаёт\n- Снижена фоновая нагрузка на ядро и службу: опрос состояния туннеля не будит ядро при выключенном туннеле, способность службы кэшируется"
-            },
-            {
-              "name": "Pre-release update manifest",
-              "tag": "updater-prerelease",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/updater-prerelease",
-              "published_at": "2026-08-31T16:57:06Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Service release: latest.json of the newest build, pre-releases included. Do not download installers from here."
             }
           ],
           "last_commit": {
-            "sha": "3581994",
+            "sha": "21a5cb6",
             "branch": "main",
-            "date": "2026-09-18T17:21:18Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/3581994a617c597358f65b95caaba9d5e9d057d5"
+            "date": "2026-09-19T10:22:50Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/21a5cb69c248c13117f3b49740f01e1862f73c6d"
           }
         },
         {
@@ -570,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-18T20:34:04Z",
+            "pushed_at": "2026-09-19T10:22:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,15 +593,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Ядро обновлено до mihomo 1.19.31, сетевые библиотеки — до актуальных версий\n  с исправлениями безопасности.\n- Главный экран и вкладка «Серверы» работают легче: таймер сессии и счётчик\n  трафика обновляют только свою строку, а список серверов загружается меньшим\n  числом запросов и при входе на вкладку обновляет только выбранную группу."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.5",
-              "tag": "android-v0.1.21-alpha.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.5",
-              "published_at": "2026-09-10T16:47:11Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n\n- Если фоновый процесс всё-таки спотыкается, он больше не копит зависшие задачи\n  и не тратит память, пока журнал никто не читает: сообщение об ошибке либо\n  доходит до журнала, либо отбрасывается, а работа продолжается."
             }
           ],
           "last_commit": {
@@ -4564,7 +4546,7 @@
             "stars": 76806,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-19T07:08:07Z",
+            "pushed_at": "2026-09-19T10:21:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4599,10 @@
             }
           ],
           "last_commit": {
-            "sha": "69d7f7b",
-            "branch": "docs/testdata-quarterly-update-fy27q3",
-            "date": "2026-09-18T18:19:48Z",
-            "url": "https://github.com/grafana/grafana/commit/69d7f7b7cdeb2005411c01ec3aa3b8d37f241c31"
+            "sha": "0be6648",
+            "branch": "codex/table-refresh-visuals",
+            "date": "2026-09-18T05:05:08Z",
+            "url": "https://github.com/grafana/grafana/commit/0be6648445ec219bd13a552b076fe29ea360bced"
           }
         },
         {
