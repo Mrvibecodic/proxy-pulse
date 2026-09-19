@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T10:35:56.468290Z",
+  "generated_at": "2026-09-19T10:41:12.376958Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34209,
+            "stars": 34210,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-15T17:30:48Z",
@@ -567,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.21-alpha.10",
+              "tag": "android-v0.1.21-alpha.10",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.10",
+              "published_at": "2026-09-19T10:38:24Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Интервал автообновления подписки, заданный в панели провайдера, применяется\n  при каждом обновлении, пока вы не задали свой вручную. Кнопка «Как в панели»\n  в свойствах подписки возвращает интервал панели.\n\n### Исправлено\n\n- Автообновление подписки работает надёжнее: переживает перезагрузку телефона\n  и закрытие приложения системой, ручное обновление не теряется. Приложению\n  больше не нужно разрешение на точные будильники."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.21-alpha.8",
               "tag": "android-v0.1.21-alpha.8",
@@ -4590,10 +4599,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b575934",
-            "branch": "provisioning/mount-builder-resource-routes",
-            "date": "2026-09-19T10:33:09Z",
-            "url": "https://github.com/grafana/grafana/commit/b57593470f6a65e5eb6d7b977d29880b4b5d4963"
+            "sha": "d872a9d",
+            "branch": "st-router-fallback",
+            "date": "2026-09-18T05:32:00Z",
+            "url": "https://github.com/grafana/grafana/commit/d872a9da7a9ee4101e6af52c6c9791fa47b11c39"
           }
         },
         {
