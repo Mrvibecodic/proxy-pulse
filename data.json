@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:52:00.251104Z",
+  "generated_at": "2026-09-20T11:02:28.484988Z",
   "groups": [
     {
       "id": "cores",
@@ -1068,7 +1068,7 @@
             "stars": 4609,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-20T10:46:42Z",
+            "pushed_at": "2026-09-20T10:59:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1723,6 +1723,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "017888a",
+                  "message": "gst1-plugins-base: re-enable the NEON audio resampler on 32-bit ARM",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/017888a5cad41f10507aa23958b3e05c6ae2d3e5"
+                },
+                {
+                  "sha": "5405dd6",
+                  "message": "gst1-libav: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/5405dd6ff28830b7ceba6ef314e7dd5348aa013d"
+                },
+                {
+                  "sha": "393870a",
+                  "message": "gst1-plugins-ugly: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/393870af7318bff951940cf09174d94f30f89015"
+                },
+                {
+                  "sha": "2a6e651",
+                  "message": "gst1-plugins-bad: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a6e651c50f4b4a58dc2a9b1cf95ee6f632f7a9d"
+                },
+                {
+                  "sha": "2ed4d54",
+                  "message": "gst1-plugins-good: add the y4m plugin package",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2ed4d547ff94252ed4cc9a71f2a8d1d2c3d39bc4"
+                },
+                {
+                  "sha": "b518cab",
+                  "message": "gst1-plugins-good: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/b518cab35af067d0ab54757f90dde76df095a562"
+                },
+                {
+                  "sha": "2cfc0aa",
+                  "message": "gst1-plugins-base: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2cfc0aae493ccb8a26808657a562941fe45f3567"
+                },
+                {
+                  "sha": "20d0ffe",
+                  "message": "gstreamer1: update to 1.28.7",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-09-20T10:59:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/20d0ffe4d0b0a18cc32ac46e5266ed668f1da2e0"
+                },
+                {
                   "sha": "444f79c",
                   "message": "crowdsec-firewall-bouncer: fix version in binary",
                   "author": "Richard Kroegel",
@@ -1875,62 +1931,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-09-17T14:53:20Z",
                   "url": "https://github.com/openwrt/packages/commit/baac45838ddf532188b86d9c72aeea12fb6bc8c1"
-                },
-                {
-                  "sha": "c9d3fae",
-                  "message": "swanmon: update to Git HEAD (2026-04-23)",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-17T14:53:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/c9d3faee513ef62b697dec77ee676c2aea99cc23"
-                },
-                {
-                  "sha": "9c7f2f0",
-                  "message": "CONTRIBUTING: document what a patch has to look like",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-17T08:03:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c7f2f0429396f7d057020afc45d5997629ce7f9"
-                },
-                {
-                  "sha": "8c29bd7",
-                  "message": "vscode: exclude .patch files from trimTrailingWhitespace",
-                  "author": "Austin Lane",
-                  "date": "2026-09-17T05:21:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c29bd78acca44d2815f465d6208033e5114dcfe"
-                },
-                {
-                  "sha": "93a3479",
-                  "message": "shunt: update to 0.1.8",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-16T17:29:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/93a34793be4416febf6dd835ad3aa97c26b27dd7"
-                },
-                {
-                  "sha": "6fd8854",
-                  "message": "bash: update to 5.3 patch level 20",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-16T15:53:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/6fd88543e24553e4b78888548fb089332c98964e"
-                },
-                {
-                  "sha": "763e45c",
-                  "message": "ustreamer: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/763e45c8901b6fd95434175503cfea70cf94a5cc"
-                },
-                {
-                  "sha": "e2dd1dc",
-                  "message": "udpspeeder: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/e2dd1dc19d8259f4257724cedae421d2b705ea04"
-                },
-                {
-                  "sha": "a4700cc",
-                  "message": "sysrepo: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/a4700ccda3c98a23a6dc8a3f22eda56bd681af93"
                 }
               ]
             },
@@ -3583,7 +3583,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16160,
+            "stars": 16159,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-09-18T10:18:54Z",
@@ -4193,7 +4193,7 @@
             "stars": 1837,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T10:44:16Z",
+            "pushed_at": "2026-09-20T11:00:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5103,7 +5103,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7447,
+            "stars": 7448,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-19T19:32:32Z",
