@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T11:02:28.484988Z",
+  "generated_at": "2026-09-20T11:07:44.438641Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.10-alpha.7",
+              "tag": "clod-v0.1.10-alpha.7",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.7",
+              "published_at": "2026-09-20T11:06:38Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- After an update the core no longer stays without its port: if the port is taken, the core is moved under the service as soon as the service is ready\n- Before the update installer runs, settings are saved and the system proxy is removed, so a cancelled installation no longer leaves the proxy pointing at a dead port\n- Restarting after an update goes through the normal quit path, which stops the core and removes the system proxy\n- Launching the app again with a link or file anywhere in its arguments hands it to the running copy, and a launch without a link brings the running window up\n- Updating a provider, rule set or geo databases from the window waits as long as the core does, instead of reporting a false error\n- A toggle changed in settings no longer snaps back before the next refresh\n- Connection speed is calculated from the real interval between updates, so the \"Now\" card no longer shows traffic accumulated while the window was hidden as speed\n- A connection without a route is labelled \"Route unknown\", and the busy-port notification suggests a full restart from the tray\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- После обновления ядро больше не остаётся без порта: если порт занят, ядро переводится под службу, как только она готова\n- Перед запуском установщика обновления настройки сохраняются, а системный прокси снимается, поэтому отменённая установка не оставляет прокси на мёртвом порте\n- Перезапуск после обновления идёт через штатный выход, который останавливает ядро и снимает системный прокси\n- Повторный запуск с ссылкой или файлом в любом из аргументов передаёт их работающей копии, а запуск без ссылки показывает её окно\n- Обновление провайдера, набора правил и гео-баз из окна ждёт столько же, сколько ядро, и не выдаёт ложную ошибку\n- Переключатель в настройках больше не отскакивает назад до ближайшего обновления\n- Скорость соединений считается по реальному интервалу между снимками, и карточка «Сейчас» не выдаёт трафик, накопленный за время скрытого окна, за скорость\n- Соединение без маршрута подписано «Маршрут неизвестен», а уведомление о занятом порте подсказывает полностью перезапустить клиент через трей"
+            },
+            {
               "name": "Clod Clash clod-v0.1.10-alpha.6",
               "tag": "clod-v0.1.10-alpha.6",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.6",
@@ -812,7 +821,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1168,
+            "stars": 1169,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-09-10T06:46:14Z",
@@ -1054,8 +1063,8 @@
           ],
           "last_commit": {
             "sha": "e1520c0",
-            "branch": "main",
-            "date": "2026-09-20T09:20:22Z",
+            "branch": "master",
+            "date": "2026-09-20T09:20:23Z",
             "url": "https://github.com/openwrt/openwrt/commit/e1520c061949a70927308339d2a8bf037615b536"
           }
         },
@@ -4219,10 +4228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a1baa36",
+            "sha": "592463a",
             "branch": "main",
-            "date": "2026-09-20T10:44:17Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/a1baa3664b7726cae9eeb520412db951f615d71d"
+            "date": "2026-09-19T20:48:51Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/592463ad921b1e1212036dcb5844ad1c9311fd8f"
           }
         },
         {
@@ -5103,7 +5112,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7448,
+            "stars": 7450,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-19T19:32:32Z",
