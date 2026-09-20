@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:41:32.115565Z",
+  "generated_at": "2026-09-20T10:46:46.249310Z",
   "groups": [
     {
       "id": "cores",
@@ -568,6 +568,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.21-alpha.11",
+              "tag": "android-v0.1.21-alpha.11",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.11",
+              "published_at": "2026-09-20T10:46:47Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Правка файлов подписки больше не обнуляет в её карточке трафик, лимит и\n  срок действия.\n- Экран «Файлы» показывает ошибку чтения и кнопку «Повторить» вместо пустого\n  списка; переименование поверх существующего файла выдаёт ошибку, а не\n  затирает его.\n- Свойства подписки спрашивают перед выходом, если в её файлах остались\n  несохранённые правки.\n- Замер задержек на вкладке «Серверы» проверяет каждый узел один раз, даже\n  если он входит в несколько групп, а прерванный замер сообщает об ошибке.\n- Проверка узлов после смены сети больше не ждёт в очереди за замером с экрана."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.21-alpha.10",
               "tag": "android-v0.1.21-alpha.10",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.10",
@@ -1059,7 +1068,7 @@
             "stars": 4609,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-20T06:21:39Z",
+            "pushed_at": "2026-09-20T10:46:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1714,6 +1723,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "444f79c",
+                  "message": "crowdsec-firewall-bouncer: fix version in binary",
+                  "author": "Richard Kroegel",
+                  "date": "2026-09-20T10:46:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/444f79ce48f01d9b145bfbaac424a740dfe28e33"
+                },
+                {
                   "sha": "5174da3",
                   "message": "unbound: update to 1.26.1",
                   "author": "Tyrel M. McQueen",
@@ -1915,13 +1931,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/a4700ccda3c98a23a6dc8a3f22eda56bd681af93"
-                },
-                {
-                  "sha": "3156347",
-                  "message": "srt: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/3156347f412633274b773ea230653cee39067f15"
                 }
               ]
             },
@@ -4184,7 +4193,7 @@
             "stars": 1837,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T10:37:56Z",
+            "pushed_at": "2026-09-20T10:44:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4210,10 +4219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d264a52",
+            "sha": "a1baa36",
             "branch": "main",
-            "date": "2026-09-19T12:58:56Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/d264a52096fa5d1e11d3be0dd1a929ef52c881f7"
+            "date": "2026-09-20T10:44:17Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/a1baa3664b7726cae9eeb520412db951f615d71d"
           }
         },
         {
