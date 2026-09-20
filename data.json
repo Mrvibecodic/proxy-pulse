@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T06:03:56.635646Z",
+  "generated_at": "2026-09-20T06:09:10.692669Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38160,
+            "stars": 38161,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-20T04:33:29Z",
@@ -1077,7 +1077,7 @@
             "stars": 4609,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-19T17:51:27Z",
+            "pushed_at": "2026-09-20T06:08:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1732,6 +1732,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5174da3",
+                  "message": "unbound: update to 1.26.1",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-20T06:08:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/5174da3aa379d65cdf3247a3359241910b79ee1c"
+                },
+                {
                   "sha": "72e4f90",
                   "message": "banip: release 1.9.0",
                   "author": "Dirk Brenken",
@@ -1933,13 +1940,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-16T15:35:19Z",
                   "url": "https://github.com/openwrt/packages/commit/3156347f412633274b773ea230653cee39067f15"
-                },
-                {
-                  "sha": "4357925",
-                  "message": "ruby: use ATOMIC64_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-16T15:35:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/435792539da61d6083968583a907322e64b65682"
                 }
               ]
             },
@@ -4416,7 +4416,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91578,
+            "stars": 91580,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-20T02:43:24Z",
@@ -4756,7 +4756,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17743,
+            "stars": 17744,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-19T05:53:14Z",
