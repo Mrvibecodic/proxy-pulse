@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T10:36:17.996460Z",
+  "generated_at": "2026-09-20T10:41:32.115565Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41686,
+            "stars": 41687,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-20T09:10:20Z",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-19T23:23:12Z",
+            "pushed_at": "2026-09-20T10:39:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,22 +543,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Switching a node closes the connections of the previous one from the tray as well, not only from the Proxies page; a retry that succeeds now finishes the job instead of leaving the choice unsaved, the core client is not held busy, and the connections are closed in batches rather than one at a time\n- The log level and the precise delay follow the subscription or your own choice on top of it, the way the other core values already do; the settings show which value came from the subscription, and choosing «as in the subscription» now also moves the Logs page to the level the core actually writes\n- On macOS the system DNS substitution can be switched off, and its failure is no longer passed off as success\n\n### Fixed\n\n- Windows brings its own adapters up and down all the time — the transition tunnels (Teredo, 6to4, ISATAP) several times an hour, the sandbox switches of Docker, WSL, Hyper-V, VirtualBox and VMware whenever you start or stop them. Each of those was read as a lost network path and closed every connection the core had, cutting downloads and long-lived sessions for no reason\n- The system DNS substitution on macOS is applied only after the core has accepted the configuration: a configuration the core rejected used to leave the whole machine resolving through a public server, without a tunnel and without a word. It can no longer stay half-applied either, and quitting is given enough time to put the previous addresses back\n- A core binary that changed is refused as before, but a folder is now judged to be administrator-only by the beginning of its path rather than by a substring anywhere in it: your own `D:\\Program Files`, `~/Library` or `~/opt` no longer passes for a system one\n- Group icons are drawn from the cache instead of being fetched straight from the subscription's address, which the window's new content policy blocks\n- The tunnel check after start no longer runs twice or leaves its mark behind, the environment watchdog survives its own death, and the log no longer promises what did not happen\n- Restoring a backup keeps this machine's device fingerprint and its own record of the installed service, only the backup's own files are unpacked from the archive, and a successful restore no longer reports the archive's own folders as lost files\n- Waiting for the core client on exit is bounded by a timeout\n- The configuration editor no longer fetches schemas from the outside. The window's content security policy that came with it is withdrawn: it left the interface without any styling at all, so 0.1.10-alpha.2 was pulled and this build takes its place\n- The one-time migration of pinned core values no longer wipes the rest of the settings, and a value of the wrong type neither passes for «as in the subscription» nor overrides what the subscription set\n- Updating geodata no longer reports on the core's behalf, and files the core updated itself survive an application update\n- The settings page no longer scrolls sideways in a narrow window, and the choice of log level and precise delay shows in the list at once instead of waiting for the core to answer\n- On Linux the log is no longer flooded with desktop tracing; a failed autostart switch is no longer reported as success on macOS and Linux, and a successful one is no longer written as an error\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Смена узла закрывает соединения прежнего и при переключении из трея, а не только со страницы «Прокси»; удавшаяся со второго раза попытка доводит дело до конца, а не оставляет выбор незапомненным; клиент ядра при этом не занят, а соединения закрываются пачкой, а не по одному\n- Уровень журнала и точная задержка берутся «как в подписке» или задаются своим выбором поверх неё — как это уже сделано для остальных значений ядра; в настройках видно, какое значение пришло из подписки, а выбор «как в подписке» переводит и страницу «Журнал» на тот уровень, которым ядро действительно пишет\n- На macOS подмену системного DNS можно выключить, а её отказ больше не выдаётся за успех\n\n### Исправлено\n\n- Windows постоянно поднимает и гасит свои адаптеры: переходные туннели (Teredo, 6to4, ISATAP) — по нескольку раз в час, коммутаторы песочниц Docker, WSL, Hyper-V, VirtualBox и VMware — когда вы их запускаете или останавливаете. Каждый такой раз читался как потеря пути к сети, и клиент закрывал все соединения ядра, обрывая загрузки и долгие сессии на ровном месте\n- Подмена системного DNS на macOS ставится только после того, как ядро приняло конфиг: отвергнутый конфиг раньше оставлял весь резолв машины на публичном сервере, без туннеля и без единого слова. Наполовину применённой она тоже больше не остаётся, а на выходе есть время вернуть прежние адреса\n- Изменившийся бинарник ядра отвергается, как и раньше, но «папка только для администратора» теперь определяется по началу пути, а не по вхождению подстроки: своя `D:\\Program Files`, `~/Library` или `~/opt` больше не выдаёт себя за системную\n- Иконки групп рисуются из кэша, а не тянутся напрямую по адресу из подписки, который блокирует новая политика содержимого окна\n- Проверка туннеля после старта не запускается дважды и не оставляет за собой метку, сторож среды переживает собственную смерть, а журнал не обещает того, чего не было\n- Восстановление копии оставляет отпечаток устройства и отметку об установленной службе своей машине, из архива разворачиваются только файлы копии, а удачное восстановление больше не сообщает о собственных каталогах архива как о потерянных файлах\n- Ожидание клиента ядра при выходе ограничено таймаутом\n- Редактор конфигов не ходит за схемами наружу. Политика содержимого окна, приехавшая вместе с этим, отозвана: с ней интерфейс оставался вообще без оформления, поэтому сборка 0.1.10-alpha.2 снята, а эта её заменяет\n- Разовая миграция закреплённых значений ядра не стирает остальные настройки, а значение не того типа не выдаётся за «как в подписке» и не перекрывает то, что задала подписка\n- Обновление ге"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10-alpha.1",
-              "tag": "clod-v0.1.10-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.1",
-              "published_at": "2026-09-05T10:34:16Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The client stops staying silent: a core that started but does not answer, a proxy port held by another application, a tunnel that failed to come up, a subscription update that did not go through, a configuration the background service cannot take — each now shows a notification with the cause and, where possible, the action to take\n- The client stops deciding for you: your node selection is not reset, your settings are not rewritten with the client's own values, someone else's system proxy is left alone, and nothing is written while the proxy switch is off\n- Connections are no longer dropped without a reason: the core's listeners are recreated only when ports, the tunnel or LAN access actually change; on a network change only when the old path is really gone; after sleep — once\n\n### Fixed\n\n- Sleep is noticed on every platform, Windows included, where it was never detected before: stale connections are closed after waking, the tunnel and the system proxy are checked, and the log records how long the machine slept and what was done\n- A core crash under the background service is visible and healed: the node selection, the tray and the system proxy come back, and the crash is reported\n- The tunnel tells the truth about its state: the switch shows the fact, a failed start gets three attempts and then a named reason; switching it off takes the device down at once; after sleep a tunnel held down for lack of rights is not poked again\n- Subscription updates: a failed update no longer takes the working profile away, the failure is named, a configuration rejected by the core or the service is rolled back and marked «not applied», and the panel's answer wins the race against the stub one\n- Rule sets no longer go dead on an expired subscription, empty ones are re-fetched when the network comes back, and an empty node group yields REJECT instead of letting traffic bypass the tunnel\n- The system proxy is owned by the address in the system rather than by the history of writes, and the no-proxy window during rewrites is gone\n- The DNS page no longer slips in its own defaults or writes unverified values, and fake-ip mappings survive a core restart\n- Tray delays after a subscription update are measured four nodes at a time instead of in one burst\n- `log-level` and `unified-delay` from the subscription are respected, like `ipv6`; the client's own settings apply only when the subscription does not set them\n- Background load on the core and the service is reduced: the tunnel state poll no longer wakes the core while the tunnel is off, and the service capability is cached\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Клиент перестал молчать: ядро, которое запустилось и не отвечает, порт прокси, занятый другим приложением, не поднявшийся туннель, не прошедшее обновление подписки, конфиг, который фоновая служба не может взять — на каждый случай показывается уведомление с причиной и, где возможно, с действием\n- Клиент перестал решать за вас: выбор узла не сбрасывается, настройки не перезаписываются его значениями, чужой системный прокси не трогается, при выключенном тумблере прокси ничего не пишется\n- Соединения больше не рвутся без причины: слушатели ядра пересоздаются только когда действительно меняются порты, туннель или доступ из локальной сети; при смене сети — только если прежний путь и правда пропал; после сна — один раз\n\n### Исправлено\n\n- Сон замечается на всех платформах, включая Windows, где раньше не замечался вовсе: после пробуждения закрываются зависшие соединения, проверяются туннель и системный прокси, а в журнал пишется, сколько машина спала и что сделано\n- Падение ядра под фоновой службой видно и долечивается: выбор узла, трей и системный прокси возвращаются, о падении сообщается\n- Туннель говорит правду о своём состоянии: тумблер показывает факт, неудачный старт получает три попытки и затем названную причину; выключение снимает устройство сразу; после сна туннель, придержанный из-за нехватки прав, не дёргается заново\n- Обновление подписки: неудачное обновление не отбирает рабочий профиль, отказ назван, конфиг, отвергнутый ядром или службой, откатывается с пометкой «не применено», а ответ панели выигрывает гонку у заглушки\n- Наборы правил не глохнут на истёкшей подписке, пустые дозагружаются после возвращения сети, а пустая группа узлов даёт REJECT, а не пускает трафик мимо туннеля\n- Владение системным прокси определяется адресом в системе, а не историей записей; окно «без прокси» при перезаписи убрано\n- Страница DNS не подсовывает свои умолчания и не пишет непроверенное, подменные адреса переживают перезапуск ядра\n- Задержки для трея после обновления подписки меряются по четыре узла, а не залпом\n- `log-level` и `unified-delay` из подписки уважаются, как и `ipv6`; настройки клиента действуют только когда подписка их не задаёт\n- Снижена фоновая нагрузка на ядро и службу: опрос состояния туннеля не будит ядро при выключенном туннеле, способность службы кэшируется"
             }
           ],
           "last_commit": {
-            "sha": "30f33b1",
+            "sha": "8ac3c5c",
             "branch": "main",
-            "date": "2026-09-19T23:23:13Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/30f33b18a83feb9547befce86eec86cb777945b1"
+            "date": "2026-09-20T10:39:01Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/8ac3c5c47c3a81d7ff1a5621b15a6a6cd085cc20"
           }
         },
         {
@@ -570,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-19T19:13:00Z",
+            "pushed_at": "2026-09-20T10:38:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -593,22 +584,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Исправлено\n\n- Прерванный замер задержек больше не помечает узел как недоступный, а\n  неудавшийся замер не мешает запустить следующий.\n- Неудачный выбор узла не выдаётся за успешный, не рвёт текущие соединения\n  и не сбрасывает запомненный выбор группы.\n- Журнал ядра ограничен по размеру, не продолжает писаться после закрытия\n  экрана и не теряется при перезапуске фонового процесса.\n- Сбой внутри ядра при обращении из приложения больше не обрывает VPN\n  вместе с фоновым процессом.\n- Проверка целостности установленного приложения учитывает установку,\n  разбитую на несколько частей."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.7",
-              "tag": "android-v0.1.21-alpha.7",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.7",
-              "published_at": "2026-09-17T08:48:12Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- В диалоге обновления показывается размер загрузки.\n- На телевизорах и при управлении с пульта хорошо видно, какой элемент\n  сейчас выбран.\n\n### Изменено\n\n- Улучшена работа с экранными чтецами: строка защищённого канала читается\n  целиком, переключатели в списках озвучиваются как варианты выбора.\n\n### Исправлено\n\n- Обновлённые и импортированные маршрутные базы начинают действовать сразу,\n  без перезапуска приложения.\n- Экраны не теряют состояние при повороте: список приложений не сканируется\n  заново, на экране подписки сохраняются ошибка и идущая загрузка.\n- Сброс настроек очищает и ручные переопределения конфигурации, а удаление\n  подписки убирает связанную с ней группу.\n- Стартовый экран следует теме, выбранной в приложении, а не системной;\n  значок и таймер кнопки подключения хорошо видны в обеих темах.\n- Кнопка «Подробнее» у уведомления появляется, только когда есть что\n  показать сверх текста.\n- Сообщение об опасном перенаправлении на незашифрованный адрес снова\n  уточняет, что именно ушло бы в открытом виде."
             }
           ],
           "last_commit": {
-            "sha": "651d2ea",
+            "sha": "8ce7038",
             "branch": "main",
-            "date": "2026-09-19T10:22:34Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/651d2ea64d4c22b784c6b4de720f4208d329e7ed"
+            "date": "2026-09-20T10:38:32Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/8ce70385cd225ba98b3b1009e54a44ae65842b1a"
           }
         },
         {
@@ -4202,7 +4184,7 @@
             "stars": 1837,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T00:11:19Z",
+            "pushed_at": "2026-09-20T10:37:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
