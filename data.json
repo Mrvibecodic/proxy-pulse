@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T15:29:44.884336Z",
+  "generated_at": "2026-09-20T15:34:58.976060Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34260,
+            "stars": 34261,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-19T14:41:56Z",
@@ -1027,7 +1027,7 @@
             "stars": 28467,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T09:20:22Z",
+            "pushed_at": "2026-09-20T15:34:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1080,10 +1080,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e1520c0",
-            "branch": "main",
-            "date": "2026-09-20T09:20:13Z",
-            "url": "https://github.com/openwrt/openwrt/commit/e1520c061949a70927308339d2a8bf037615b536"
+            "sha": "cfbfca7",
+            "branch": "master",
+            "date": "2026-09-20T15:34:04Z",
+            "url": "https://github.com/openwrt/openwrt/commit/cfbfca7ee78cebf4aebbfdb98e99e5fa1ac589e9"
           }
         },
         {
@@ -4518,7 +4518,7 @@
               "published_at": "2026-09-19T15:33:25Z",
               "prerelease": false,
               "author": "henrygd",
-              "body": "## What's Changed\r\n- Add network monitoring from agents (#2266, #1911)\r\n- Add container image update available flag (#2211)\r\n- Add btrfs filesystem reporting as storage pools (#2315)\r\n- Add persistence of view preferences and language to user settings (#1831)\r\n- Add `TRUSTED_PROXY_IPS` allowlist for `TRUSTED_AUTH_HEADER` (#2327)\r\n- Add ZFS utilities to Intel and NVIDIA agent images (#2288, #2311)\r\n- Revert SMART warnings for certain attributes (#2296, #2308, #2347)\r\n- Improve NVMe data units display as human-readable GB/TB (#2303)\r\n- Fix agent disconnects during slow collections by extending WebSocket deadline (#2294)\r\n- Fix missing root CA certificates in base agent image (#2291)\r\n- Fix false RAID health warnings during healthy data scrubbing (#2109)\r\n- Fix ZFS monitoring when /dev/zfs is unavailable (#2325)\r\n- Fix spurious `HUB_URL` warning in SSH-only mode (#2316)\r\n- Fix idle GPU utilization display in systems table (#2312)\r\n- Fix session handling to clear auth store after token expiry (#2310)\r\n- Fix chart history handling when switching to live charts (#2333)\r\n- Update Go dependencies\r\n\r\n## New Contributors\r\n* @arnolicious made their first contribution in https://github.com/henrygd/beszel/pull/2288\r\n* @matth3wdsouza made their first contribution in https://github.com/henrygd/beszel/pull/2303\r\n* @anaisbetts made their first contribution in https://github.com/henrygd/beszel/pull/2315\r\n* @brunob45 made their first contribution in https://github.com/henrygd/beszel/pull/2211\r\n* @ChangkeunJ made their first contribution in https://github.com/henrygd/beszel/pull/2333\r\n* @rajtslegr made their first contribution in https://github.com/henrygd/beszel/pull/2328\r\n* @jmrplens made their first contribution in https://github.com/henrygd/beszel/pull/2327\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.19.0...v0.20.0"
+              "body": "## What's Changed\r\n- Add network monitoring from agents (#2266, #1911)\r\n- Add container image update available flag (#2211)\r\n- Add btrfs filesystem reporting as storage pools (#2315)\r\n- Add persistence of view preferences and language to user settings (#1831)\r\n- Add `TRUSTED_PROXY_IPS` allowlist for `TRUSTED_AUTH_HEADER` (#2327)\r\n- Add ZFS utilities to Intel and NVIDIA agent images (#2288, #2311)\r\n- Revert SMART warnings for certain attributes (#2296, #2308, #2347)\r\n- Improve NVMe data units display as human-readable GB/TB (#2303)\r\n- Fix agent disconnects during slow collections by extending WebSocket deadline (#2294)\r\n- Fix missing root CA certificates in base agent image (#2291)\r\n- Fix false RAID health warnings during healthy data scrubbing (#2109)\r\n- Fix ZFS monitoring when /dev/zfs is unavailable (#2325)\r\n- Fix spurious `HUB_URL` warning in SSH-only mode (#2316)\r\n- Fix idle GPU utilization display in systems table (#2312)\r\n- Fix session handling to clear auth store after token expiry (#2310)\r\n- Fix chart history handling when switching to live charts (#2333)\r\n- Update Go dependencies\r\n\r\n## New Contributors\r\n* @arnolicious made their first contribution in https://github.com/henrygd/beszel/pull/2288\r\n* @matth3wdsouza made their first contribution in https://github.com/henrygd/beszel/pull/2303\r\n* @anaisbetts made their first contribution in https://github.com/henrygd/beszel/pull/2315\r\n* @brunob45 made their first contribution in https://github.com/henrygd/beszel/pull/2211\r\n* @ChangkeunJ made their first contribution in https://github.com/henrygd/beszel/pull/2333\r\n* @rajtslegr made their first contribution in https://github.com/henrygd/beszel/pull/2328\r\n* @jmrplens made their first contribution in https://github.com/henrygd/beszel/pull/2327\r\n* @XiaoMiku01 made their first contribution in https://github.com/henrygd/beszel/pull/2266\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.19.0...v0.20.0"
             },
             {
               "name": "v0.19.0",
@@ -5130,7 +5130,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7452,
+            "stars": 7453,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-20T15:26:09Z",
