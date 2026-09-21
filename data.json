@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:26:27.221367Z",
+  "generated_at": "2026-09-21T01:42:05.911402Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41692,
+            "stars": 41693,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-21T00:15:34Z",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T10:39:00Z",
+            "pushed_at": "2026-09-21T01:37:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,22 +543,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The proxy port can be taken from the subscription, and the DNS page no longer switches off the system hosts file\n- Sharing to the local network follows the subscription's list of allowed addresses: a subscription can open sharing only to local networks, sharing switched off by hand stays off after a subscription update, and the list no longer locks the application out of its own proxy\n- Switching a server on the Home page no longer closes the connections\n- The stable update channel skips an address that serves a pre-release and reaches the regular build; the pre-release channel works on both ends\n- Log cleanup by age deletes old files again, and the default log size is the same everywhere\n\n### Fixed\n\n- The client no longer opens a DNS resolver to the network: the default block does not bring it up, and an address from the subscription is kept on the loopback\n- The system proxy is written only to a port the core has confirmed and never without a running core; a port taken by another application is always recognised, a failed removal is shown, your own auto-configuration is recognised and removed, and someone else's enabled proxy is left alone\n- A hung core is restarted even without the service, quitting no longer leaves a running core behind, and «no core» is shown in the tray and on the Home page\n- A failed core stop no longer looks like a missing core and no longer starts a second core process on top of the running one; a stop counts as done only when the process is actually gone\n- On quit the system proxy is removed within the first seconds and a cancelled quit puts it back; while quitting, the window, the tray and the hotkey no longer ask for permissions or close connections, and removing the service brings the core back up\n- The system proxy switch shows that it is working and ignores repeated clicks; the interface no longer freezes while the core client is busy\n- Connections are closed only when a real interface loses its address; virtual machine bridges are not taken for a path to the network, and every rule set gets its own time limit after the network returns\n- Factory geo databases reach installations that lack the marker, and «Update GeoData» under the service also updates the copies in the application folder\n- Backups no longer carry the device fingerprint, window geometry, file paths or core choice in either direction\n- Log masking survives a change of log settings, hides every address in a word and addresses with a path, and the report no longer reveals the subscription address\n- The ports dialog saves both halves of the settings, rejects a non-numeric port and keeps «as in the subscription»\n- The DNS page shows the old default :53 as an empty field; restoring DNS on macOS at quit has its own timeout\n- Notifications wait for the window when it is closed, a refusal during quit gets through, and there is no wall of repeats\n- The previous tray icon is removed only after the new one has been read; a downloaded update no longer stays in memory until restart\n- The connections summary counts applications correctly, core notifications show the version, and with the system proxy off the subscription is no longer requested twice\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Порт прокси можно брать из подписки, а страница DNS больше не выключает системный файл hosts\n- Раздача в локальную сеть работает по списку адресов из подписки: подписка может открыть раздачу только в локальные сети, выключенная руками раздача не возвращается после обновления подписки, а сам список больше не запирает приложение от собственного прокси\n- Смена сервера на главной больше не рвёт соединения\n- Стабильный канал обновлений обходит адрес с предварительной сборкой и доходит до обычной; канал предварительных сборок работает с обеих сторон\n- Автоочистка журналов по возрасту снова удаляет старые файлы, а умолчание размера журнала одно на всех\n\n### Исправлено\n\n- Клиент больше не открывает DNS-резолвер в сеть: заводской блок его не поднимает, а адрес из подписки держится в петле\n- Системный прокси пишется только на порт, подтверждённый ядром, и никогда без живого ядра; занятый чужим приложением порт распознаётся всегда, отказ снятия виден, своя автонастройка признаётся своей и снимается, а чужой включённый прокси не гасится\n- Зависшее ядро перезапускается и без службы, выход не бросает живое ядро, а «ядра нет» видно в трее и на главной\n- Неудавшаяся остановка ядра больше не выглядит как отсутствие ядра и не поднимает второй процесс поверх живого; остановка считается состоявшейся только по исчезновению процесса\n- При выходе системный прокси снимается в первые секунды, а отменённый выход возвращает его; во время выхода окно, трей и горячая клавиша не просят прав и не рвут соединения, а удаление службы поднимает ядро обратно\n- Тумблер системного прокси показывает работу и не принимает повторных нажатий; интерфейс не замирает, пока клиент ядра занят\n- Соединения рвутся только по исчезнувшему адресу настоящего интерфейса; мосты виртуальных машин не считаются путём наружу, а каждому набору правил после возврата сети — свой предел времени\n- Заводские гео-базы доезжают до установок без маркера, а «Обновить GeoData» под службой обновляет и копии в каталоге приложения\n- В резервную копию не уезжают и из неё не приезжают отпечаток устройства, геометрия окна, пути к файлам и выбор ядра\n- Маскировка секретов не теряется при смене настроек журнала, прячет все адреса в слове и адрес с путём, а отчёт не выдаёт адрес подписки\n- Диалог портов сохраняет обе половины настроек, отвергает нечисловой порт и не теряет «как в подписке»\n- Страница DNS показывает заводской :53 прежних сборок пустым полем; возврат DNS на macOS при выходе получил свой таймаут\n- Уведомления при закрытом окне ждут показа, отказ во время выхода доходит, стены повторов нет\n- Прежний значок трея удаляется толь\ufffd"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10-alpha.3",
-              "tag": "clod-v0.1.10-alpha.3",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.3",
-              "published_at": "2026-09-06T13:20:45Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Switching a node closes the connections of the previous one from the tray as well, not only from the Proxies page; a retry that succeeds now finishes the job instead of leaving the choice unsaved, the core client is not held busy, and the connections are closed in batches rather than one at a time\n- The log level and the precise delay follow the subscription or your own choice on top of it, the way the other core values already do; the settings show which value came from the subscription, and choosing «as in the subscription» now also moves the Logs page to the level the core actually writes\n- On macOS the system DNS substitution can be switched off, and its failure is no longer passed off as success\n\n### Fixed\n\n- Windows brings its own adapters up and down all the time — the transition tunnels (Teredo, 6to4, ISATAP) several times an hour, the sandbox switches of Docker, WSL, Hyper-V, VirtualBox and VMware whenever you start or stop them. Each of those was read as a lost network path and closed every connection the core had, cutting downloads and long-lived sessions for no reason\n- The system DNS substitution on macOS is applied only after the core has accepted the configuration: a configuration the core rejected used to leave the whole machine resolving through a public server, without a tunnel and without a word. It can no longer stay half-applied either, and quitting is given enough time to put the previous addresses back\n- A core binary that changed is refused as before, but a folder is now judged to be administrator-only by the beginning of its path rather than by a substring anywhere in it: your own `D:\\Program Files`, `~/Library` or `~/opt` no longer passes for a system one\n- Group icons are drawn from the cache instead of being fetched straight from the subscription's address, which the window's new content policy blocks\n- The tunnel check after start no longer runs twice or leaves its mark behind, the environment watchdog survives its own death, and the log no longer promises what did not happen\n- Restoring a backup keeps this machine's device fingerprint and its own record of the installed service, only the backup's own files are unpacked from the archive, and a successful restore no longer reports the archive's own folders as lost files\n- Waiting for the core client on exit is bounded by a timeout\n- The configuration editor no longer fetches schemas from the outside. The window's content security policy that came with it is withdrawn: it left the interface without any styling at all, so 0.1.10-alpha.2 was pulled and this build takes its place\n- The one-time migration of pinned core values no longer wipes the rest of the settings, and a value of the wrong type neither passes for «as in the subscription» nor overrides what the subscription set\n- Updating geodata no longer reports on the core's behalf, and files the core updated itself survive an application update\n- The settings page no longer scrolls sideways in a narrow window, and the choice of log level and precise delay shows in the list at once instead of waiting for the core to answer\n- On Linux the log is no longer flooded with desktop tracing; a failed autostart switch is no longer reported as success on macOS and Linux, and a successful one is no longer written as an error\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Смена узла закрывает соединения прежнего и при переключении из трея, а не только со страницы «Прокси»; удавшаяся со второго раза попытка доводит дело до конца, а не оставляет выбор незапомненным; клиент ядра при этом не занят, а соединения закрываются пачкой, а не по одному\n- Уровень журнала и точная задержка берутся «как в подписке» или задаются своим выбором поверх неё — как это уже сделано для остальных значений ядра; в настройках видно, какое значение пришло из подписки, а выбор «как в подписке» переводит и страницу «Журнал» на тот уровень, которым ядро действительно пишет\n- На macOS подмену системного DNS можно выключить, а её отказ больше не выдаётся за успех\n\n### Исправлено\n\n- Windows постоянно поднимает и гасит свои адаптеры: переходные туннели (Teredo, 6to4, ISATAP) — по нескольку раз в час, коммутаторы песочниц Docker, WSL, Hyper-V, VirtualBox и VMware — когда вы их запускаете или останавливаете. Каждый такой раз читался как потеря пути к сети, и клиент закрывал все соединения ядра, обрывая загрузки и долгие сессии на ровном месте\n- Подмена системного DNS на macOS ставится только после того, как ядро приняло конфиг: отвергнутый конфиг раньше оставлял весь резолв машины на публичном сервере, без туннеля и без единого слова. Наполовину применённой она тоже больше не остаётся, а на выходе есть время вернуть прежние адреса\n- Изменившийся бинарник ядра отвергается, как и раньше, но «папка только для администратора» теперь определяется по началу пути, а не по вхождению подстроки: своя `D:\\Program Files`, `~/Library` или `~/opt` больше не выдаёт себя за системную\n- Иконки групп рисуются из кэша, а не тянутся напрямую по адресу из подписки, который блокирует новая политика содержимого окна\n- Проверка туннеля после старта не запускается дважды и не оставляет за собой метку, сторож среды переживает собственную смерть, а журнал не обещает того, чего не было\n- Восстановление копии оставляет отпечаток устройства и отметку об установленной службе своей машине, из архива разворачиваются только файлы копии, а удачное восстановление больше не сообщает о собственных каталогах архива как о потерянных файлах\n- Ожидание клиента ядра при выходе ограничено таймаутом\n- Редактор конфигов не ходит за схемами наружу. Политика содержимого окна, приехавшая вместе с этим, отозвана: с ней интерфейс оставался вообще без оформления, поэтому сборка 0.1.10-alpha.2 снята, а эта её заменяет\n- Разовая миграция закреплённых значений ядра не стирает остальные настройки, а значение не того типа не выдаётся за «как в подписке» и не перекрывает то, что задала подписка\n- Обновление ге"
             }
           ],
           "last_commit": {
-            "sha": "8ac3c5c",
+            "sha": "929ca69",
             "branch": "main",
-            "date": "2026-09-20T10:39:01Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/8ac3c5c47c3a81d7ff1a5621b15a6a6cd085cc20"
+            "date": "2026-09-21T01:37:45Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/929ca695f313dcce6690f3c31833ed2fb1024e0a"
           }
         },
         {
@@ -570,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-20T23:55:31Z",
+            "pushed_at": "2026-09-21T01:37:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,22 +602,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- В диалоге обновления показывается размер загрузки.\n- На телевизорах и при управлении с пульта хорошо видно, какой элемент\n  сейчас выбран.\n\n### Изменено\n\n- Улучшена работа с экранными чтецами: строка защищённого канала читается\n  целиком, переключатели в списках озвучиваются как варианты выбора.\n\n### Исправлено\n\n- Обновлённые и импортированные маршрутные базы начинают действовать сразу,\n  без перезапуска приложения.\n- Экраны не теряют состояние при повороте: список приложений не сканируется\n  заново, на экране подписки сохраняются ошибка и идущая загрузка.\n- Сброс настроек очищает и ручные переопределения конфигурации, а удаление\n  подписки убирает связанную с ней группу.\n- Стартовый экран следует теме, выбранной в приложении, а не системной;\n  значок и таймер кнопки подключения хорошо видны в обеих темах.\n- Кнопка «Подробнее» у уведомления появляется, только когда есть что\n  показать сверх текста.\n- Сообщение об опасном перенаправлении на незашифрованный адрес снова\n  уточняет, что именно ушло бы в открытом виде."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.6",
-              "tag": "android-v0.1.21-alpha.6",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.6",
-              "published_at": "2026-09-16T08:56:47Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Изменено\n\n- Ядро обновлено до mihomo 1.19.31, сетевые библиотеки — до актуальных версий\n  с исправлениями безопасности.\n- Главный экран и вкладка «Серверы» работают легче: таймер сессии и счётчик\n  трафика обновляют только свою строку, а список серверов загружается меньшим\n  числом запросов и при входе на вкладку обновляет только выбранную группу."
             }
           ],
           "last_commit": {
-            "sha": "ca38c71",
+            "sha": "3489a46",
             "branch": "main",
-            "date": "2026-09-20T23:55:32Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/ca38c71cb26deaea3e1f99afc14f9bba9243f69f"
+            "date": "2026-09-21T01:37:46Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3489a4645b58192d0bd052cf1e5c080a13a6b550"
           }
         },
         {
