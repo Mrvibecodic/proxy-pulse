@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:20:11.852060Z",
+  "generated_at": "2026-09-22T13:25:29.173564Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 34311,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T12:46:47Z",
+            "pushed_at": "2026-09-22T13:25:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Tue Sep 22 18:06:55 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n* fix(anytls): potential race condition in c.idleSession.Len() in idleCleanupExpTime() by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3225\n\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
+              "body": "Release created at  Tue Sep 22 21:22:36 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n* fix(anytls): potential race condition in c.idleSession.Len() in idleCleanupExpTime() by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3225\n* fix: fix InUser for mieru by @echizenryoma in https://github.com/MetaCubeX/mihomo/pull/3236\n\n## New Contributors\n* @echizenryoma made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3236\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
             },
             {
               "name": "v1.19.31",
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "afe94da",
+            "sha": "3c947c7",
             "branch": "Alpha",
-            "date": "2026-09-22T12:46:48Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/afe94dafef8cb61472a0442d9af3a19c288a380e"
+            "date": "2026-09-22T13:25:30Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/3c947c76d4f48a938aace935a30a1da1364a1b1b"
           }
         },
         {
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T13:19:10Z",
+            "pushed_at": "2026-09-22T13:22:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3049,6 +3049,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f566bf8",
+                  "message": "php8-pecl-http: disable TLS-SRP detection",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:22:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/f566bf8a33b9dce2aecf7ef9c63a02dcd1a49f44"
+                },
+                {
+                  "sha": "9964072",
+                  "message": "curl: update to 8.22.0",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:21:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/9964072e203cc208ddd82a829d521ebab92d9b82"
+                },
+                {
+                  "sha": "3a97205",
+                  "message": "curl: add krb5 support",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-22T13:21:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/3a97205817b4fa8d2d4819e61a39ecf36deacc13"
+                },
+                {
+                  "sha": "c1ea88b",
+                  "message": "curl: update to 8.21.0",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-22T13:21:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/c1ea88b304b37f0fa7f83f9d97cabeb568f5084a"
+                },
+                {
                   "sha": "0fffa79",
                   "message": "unbound: update to 1.26.1",
                   "author": "Tyrel M. McQueen",
@@ -3229,40 +3257,33 @@
                   "author": "Tyrel M. McQueen",
                   "date": "2026-09-14T05:51:20Z",
                   "url": "https://github.com/openwrt/packages/commit/f4370f969afe948fc24e206666fa2ccca4307774"
-                },
-                {
-                  "sha": "2536d97",
-                  "message": "hev-socks5-tunnel: allow multiple instances",
-                  "author": "Sergei S.",
-                  "date": "2026-09-10T08:23:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/2536d973c1ff1de6463fe249ee8d0ff1f747ff76"
-                },
-                {
-                  "sha": "14d1ad4",
-                  "message": "vim: update to 9.2.1014",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-10T08:04:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/14d1ad47f825ba343d683cc26e9ede7ad64c858b"
-                },
-                {
-                  "sha": "0e36ae9",
-                  "message": "tor: update to 0.4.9.11 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-09-10T07:58:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/0e36ae995c9ff209022188199d66303f63d74310"
-                },
-                {
-                  "sha": "7150a7c",
-                  "message": "syslog-ng: install the configuration with INSTALL_CONF",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:57:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/7150a7cf496a5f625d0bd90631e105ac4a19f6ea"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "f5ce989",
+                  "message": "php8-pecl-http: disable TLS-SRP detection",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:20:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/f5ce9895f066cc252e74cb41ac7378904395aac0"
+                },
+                {
+                  "sha": "d8488f4",
+                  "message": "curl: update to 8.22.0",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:20:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/d8488f46b08db0467bb9c081fba79e1b2e9c43ac"
+                },
+                {
+                  "sha": "1672d66",
+                  "message": "curl: add krb5 support",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-22T13:20:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/1672d664bf7214a70184c2b2a3cf1531de7a91d4"
+                },
                 {
                   "sha": "acecdeb",
                   "message": "unbound: update to 1.26.1",
@@ -3451,27 +3472,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-18T19:01:54Z",
                   "url": "https://github.com/openwrt/packages/commit/8c3ebc16c070082c517b233c04e7b485295fce4f"
-                },
-                {
-                  "sha": "8abee48",
-                  "message": "openssh: add test-version.sh CI override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-18T19:01:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/8abee4894ddf4b22fdb1f2177c5e74615e2e44ec"
-                },
-                {
-                  "sha": "c784312",
-                  "message": "openssh: update to 10.4_p1",
-                  "author": "John Audia",
-                  "date": "2026-09-18T19:01:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/c78431245e8915ac89964e7bcc21de823df7c0ea"
-                },
-                {
-                  "sha": "c78c0e6",
-                  "message": "openssh: update Makefile to build without PKG_FIXUP",
-                  "author": "John Audia",
-                  "date": "2026-09-18T19:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/c78c0e6c14bcc83a30d4b83a8142781ea05a996d"
                 }
               ]
             }
@@ -4582,7 +4582,7 @@
             "stars": 76851,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T13:20:11Z",
+            "pushed_at": "2026-09-22T13:23:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "462816b",
-            "branch": "MissingRoberto/expose-failing-finalizer",
-            "date": "2026-09-22T11:39:46Z",
-            "url": "https://github.com/grafana/grafana/commit/462816bffe3edac3753335892835bca90caad15b"
+            "sha": "fa6108f",
+            "branch": "main",
+            "date": "2026-09-22T13:23:36Z",
+            "url": "https://github.com/grafana/grafana/commit/fa6108f54bc5aebcbe81e7b4e0515003a7217b4a"
           }
         },
         {
@@ -4715,7 +4715,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80620,
+            "stars": 80619,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-22T12:06:51Z",
