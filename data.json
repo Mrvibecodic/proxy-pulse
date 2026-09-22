@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:11:43.613454Z",
+  "generated_at": "2026-09-22T12:16:59.141261Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38210,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-22T11:32:39Z",
+            "pushed_at": "2026-09-22T12:14:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.7",
+              "tag": "v1.15.0-alpha.7",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.7",
+              "published_at": "2026-09-22T12:15:00Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add MASQUE client and server support **1**\n* Add HTTP/2, HTTP/3 and UDP support for HTTP proxy **2**\n* Add full certificate pinning for TLS **3**\n* Fixes and improvements\n\n**1**:\n\nThe new [MASQUE Client](https://sing-box.sagernet.org/configuration/endpoint/masque-client/) and [MASQUE Server](https://sing-box.sagernet.org/configuration/endpoint/masque-server/) endpoints provide IP proxying over HTTP (CONNECT-IP), supporting HTTP/1.1, HTTP/2 and HTTP/3, address assignment and route advertisement. They can use the internal network stack or a system TUN interface.\n\n**2**:\n\nThe HTTP proxy implementation has been rewritten, adding HTTP/2, HTTP/3 and UDP proxying through CONNECT-UDP to HTTP inbounds and outbounds.\n\nHTTP outbounds now use HTTP/2 by default with automatic fallback to HTTP/1.1. Configurations using `path` or the `Host` header continue to use HTTP/1.1. HTTP/3 can be enabled through the `version` option.\n\nThe term \"MASQUE VPN\" usually refers to CONNECT-IP, rather than a combination of CONNECT and CONNECT-UDP, which is an enhancement to HTTP proxying. CONNECT-UDP and CONNECT-IP are collectively known as [MASQUE](https://datatracker.ietf.org/wg/masque/about/) in the IETF; the traditional CONNECT method for TCP proxying is not itself a MASQUE protocol.\n\nSee [HTTP Inbound](https://sing-box.sagernet.org/configuration/inbound/http/) and [HTTP Outbound](https://sing-box.sagernet.org/configuration/outbound/http/).\n\n**3**:\n\nThe new `certificate_sha256` and `client_certificate_sha256` TLS options pin the SHA-256 hash of the whole certificate, complementing the existing public key pinning options.\n\nSee [TLS](https://sing-box.sagernet.org/configuration/shared/tls/).\n"
+            },
             {
               "name": "1.15.0-alpha.6",
               "tag": "v1.15.0-alpha.6",
@@ -125,15 +134,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.15.0-alpha.3",
-              "tag": "v1.15.0-alpha.3",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.3",
-              "published_at": "2026-09-13T14:02:08Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Significantly improve TUN performance with a new TCP/IP stack **1**\n* Fixes and improvements\n\n**1**:\n\nSince 1.15.0, sing-tun uses its own TCP/IP stack, with substantial improvements over all previous implementations in peak performance, energy efficiency, and memory usage. Remove the `stack` option to use it.\n\nThe `stack` option is deprecated and will be removed in sing-box 1.17.0. See [Migration](https://sing-box.sagernet.org/migration/#migrate-tun-stack).\n"
             }
           ],
           "last_commit": {
@@ -1033,7 +1033,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28484,
+            "stars": 28485,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-22T11:27:46Z",
@@ -4582,7 +4582,7 @@
             "stars": 76850,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T12:11:39Z",
+            "pushed_at": "2026-09-22T12:15:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "11001b6",
-            "branch": "leventebalogh/compat-package-changelog",
-            "date": "2026-09-22T11:34:01Z",
-            "url": "https://github.com/grafana/grafana/commit/11001b63ad4001e962c664b5fe3622f68357ec5e"
+            "sha": "258d3a4",
+            "branch": "trace-lbac-missing-service-traces",
+            "date": "2026-09-22T01:35:01Z",
+            "url": "https://github.com/grafana/grafana/commit/258d3a4c9f258780675bbdeaf03cbd7ebbf392a9"
           }
         },
         {
@@ -5195,10 +5195,10 @@
             }
           ],
           "last_commit": {
-            "sha": "76224e8",
+            "sha": "455237d",
             "branch": "l10n_crowdin",
-            "date": "2026-09-22T01:37:07Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/76224e85bd669d577fd1ade011834cf4ae3114d8"
+            "date": "2026-09-22T01:36:41Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/455237ddf0d6a36420488fb6ab368f99cbc60c71"
           }
         }
       ]
