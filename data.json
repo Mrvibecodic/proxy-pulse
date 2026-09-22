@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:09:39.734151Z",
+  "generated_at": "2026-09-22T13:14:56.062386Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T08:01:13Z",
+            "pushed_at": "2026-09-22T13:13:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3049,6 +3049,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "0fffa79",
+                  "message": "unbound: update to 1.26.1",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-22T13:12:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/0fffa79fb075573104f1ff24fd5d5003fd661946"
+                },
+                {
                   "sha": "13b3c23",
                   "message": "librespeed-cli-rust: update to version 1.2.0",
                   "author": "Josef Schlehofer",
@@ -3250,19 +3257,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-10T07:57:00Z",
                   "url": "https://github.com/openwrt/packages/commit/7150a7cf496a5f625d0bd90631e105ac4a19f6ea"
-                },
-                {
-                  "sha": "68b23b7",
-                  "message": "syslog-ng: do not install syslog-ng-update-virtualenv",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-10T07:56:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/68b23b746424ce290b73a83b63fd9719e0f743f9"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "acecdeb",
+                  "message": "unbound: update to 1.26.1",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-09-22T13:13:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/acecdebae420c4e5811a1c7703434916b196141e"
+                },
                 {
                   "sha": "8688f24",
                   "message": "librespeed-cli-rust: update to version 1.2.0",
@@ -3465,13 +3472,6 @@
                   "author": "John Audia",
                   "date": "2026-09-18T19:01:30Z",
                   "url": "https://github.com/openwrt/packages/commit/c78c0e6c14bcc83a30d4b83a8142781ea05a996d"
-                },
-                {
-                  "sha": "12a3cea",
-                  "message": "bind: bump to 9.20.29",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-09-18T18:58:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/12a3ceaad155453e7355c9f4ec91ec3145979304"
                 }
               ]
             }
@@ -4511,7 +4511,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25624,
+            "stars": 25626,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-22T03:34:45Z",
@@ -4582,7 +4582,7 @@
             "stars": 76851,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T13:09:30Z",
+            "pushed_at": "2026-09-22T13:10:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "92914a2",
-            "branch": "renovate/ol-10.x-lockfile",
-            "date": "2026-09-22T13:05:51Z",
-            "url": "https://github.com/grafana/grafana/commit/92914a2e11a92615e5bd718af2d7294774bf1277"
+            "sha": "462816b",
+            "branch": "MissingRoberto/expose-failing-finalizer",
+            "date": "2026-09-22T11:39:46Z",
+            "url": "https://github.com/grafana/grafana/commit/462816bffe3edac3753335892835bca90caad15b"
           }
         },
         {
