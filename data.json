@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:28:05.924587Z",
+  "generated_at": "2026-09-22T17:33:21.352328Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T13:22:32Z",
+            "pushed_at": "2026-09-22T17:28:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9f462c3",
+                  "message": "perl: add support for loongarch64",
+                  "author": "Xinhui Yang",
+                  "date": "2026-09-22T17:28:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/9f462c360f6039f679d4d2ef20dabf4d4e643f58"
+                },
+                {
                   "sha": "4faf9d3",
                   "message": "php8-pecl-http: disable TLS-SRP detection",
                   "author": "Peter Polonec",
@@ -1960,13 +1967,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-09-18T15:46:40Z",
                   "url": "https://github.com/openwrt/packages/commit/799265743741fec9f44ad680957d6ce0c6902c2e"
-                },
-                {
-                  "sha": "66c7c55",
-                  "message": "gst1-libav: fix build with FFmpeg 9",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-18T15:44:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/66c7c55e4ac3756c689b7cc147c3e5139e093503"
                 }
               ]
             },
@@ -4582,7 +4582,7 @@
             "stars": 76858,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T17:22:41Z",
+            "pushed_at": "2026-09-22T17:32:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "138ca37",
-            "branch": "ifrost/tab-drop-undo-redo",
-            "date": "2026-09-22T15:54:14Z",
-            "url": "https://github.com/grafana/grafana/commit/138ca379e0fae0cfa09c4c9d2a491e904b044307"
+            "sha": "ce80e3f",
+            "branch": "MissingRoberto/gitsync-repo-force-delete-frontend",
+            "date": "2026-09-22T15:55:21Z",
+            "url": "https://github.com/grafana/grafana/commit/ce80e3fdf15895409b2fbc4cf304c1b068948a3c"
           }
         },
         {
@@ -4715,7 +4715,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80625,
+            "stars": 80626,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-22T15:12:30Z",
@@ -4786,7 +4786,7 @@
             "stars": 17754,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T17:27:28Z",
+            "pushed_at": "2026-09-22T17:30:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4839,10 +4839,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5b84026",
+            "sha": "2041491",
             "branch": "issue-11252",
-            "date": "2026-09-22T16:07:48Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/5b840265a3f0e856354e0f3dd105b8d83de738d4"
+            "date": "2026-09-22T15:55:05Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/20414916427cd5c737df99196a75f26df0d3196d"
           }
         }
       ]
