@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T00:06:49.665870Z",
+  "generated_at": "2026-09-22T00:12:03.893644Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38199,
+            "stars": 38200,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-21T14:58:36Z",
@@ -4582,7 +4582,7 @@
             "stars": 76845,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-21T23:47:56Z",
+            "pushed_at": "2026-09-22T00:07:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7055349",
-            "branch": "ifrost/edit-as-code-undo-redo-sidebar-fix",
-            "date": "2026-09-21T20:44:12Z",
-            "url": "https://github.com/grafana/grafana/commit/7055349efa5f6a7d5b3736f9f9b159efdf813623"
+            "sha": "696f172",
+            "branch": "error-tracking",
+            "date": "2026-09-21T14:31:58Z",
+            "url": "https://github.com/grafana/grafana/commit/696f1727c1966e7dfeaab945fd1c6550c43390b1"
           }
         },
         {
@@ -5149,6 +5149,15 @@
           },
           "releases": [
             {
+              "name": "v2.13.1",
+              "tag": "v2.13.1",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.13.1",
+              "published_at": "2026-09-22T00:08:26Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\r\n\u003e This release fixes project directory creation, container update, and upgrade workflows.\r\n\u003e It also improves backup coverage and updates the Compose example configuration.\r\n\r\n### Project and Compose fixes\r\n\r\n- Create missing project bind directories as the runtime user — `8bcb59d538a28bcd149b42bcbb9e096d10eb1059` (#4138) (@kmendell)\r\n- Update the Compose example to include `DISTRIBUTION=1` — `1b21e5c3594d3e60d8f8a449981a078a989790d6` (@kmendell)\r\n\r\n### Container update and backup fixes\r\n\r\n- Allow manual updates for containers excluded from automatic updates — `6c227d02de0f412371f4124214934af2933fe7f5` (#4139) (@kmendell)\r\n- Preserve data volumes when recreating containers during upgrades — `75f6ddb2bb8cee8cec52259d11d5123fe7b97f4d` (#4141) (@kmendell)\r\n- Include separately mounted projects in system backups — `081e638de8000ec033a7fe4b4ac036ff8571e238` (#4144) (@kmendell)\r\n\r\n"
+            },
+            {
               "name": "v2.13.0",
               "tag": "v2.13.0",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.13.0",
@@ -5183,15 +5192,6 @@
               "prerelease": false,
               "author": "kmendell",
               "body": "\u003e [!NOTE]\n\u003e This release adds durable job execution, Docker event streaming, label-based container management, non-UTF-8 workspace uploads, and improved backup recovery. It also improves synchronization, auto-update recovery, project workflows, frontend performance, and error reporting.\n\n### Features and improvements\n\n- Added durable job execution with offline recovery (`58823c2ac4afd674f88bccee38b5da9e985da335`, #3863) (@kmendell).\n- Streamed Docker daemon events to the Arcane event log (`2a61718a3af98393ddcdef40d02d30fe416c70ec`, #3862) (@kmendell).\n- Added tag-based container updates (`f8f456a62b866108b3c8c433cb04f8d6f6c119bb`, #3865) (@kmendell).\n- Added filtering for containers and projects by labels, plus support for hiding containers through labels and Compose metadata (`5dfd281c628bac0b4880c465bd629040d94a301e`, #3874; `6006dbefd64e437e4935c80e38006b96d53c4b93`, #3875) (@kmendell).\n- Added support for uploading non-UTF-8 workspace files (`a38a0a2fbff09efeeda6430be15c933af00719fe`, #3859) (@neurekadev).\n- Linked Git-managed projects and synced files to their repositories (`6eed748e3fc976ebeaa8a227239ec8b7565ad86d`, #3879) (@FusselTV).\n- Added backup recovery key import and reset confirmation controls (`16db5a33747b49350407073aa0040baa5e151947`, #3884) (@neurekadev).\n- Improved environment synchronization by surfacing failures and recording manual sync activity (`c6ad1016d913efd100260967dc1a5da8cacb7e32`, #3854) (@kmendell).\n- Improved auto-update recovery, job activity integration, and per-container outcome reporting (`5d055f66d796ca79aabf59adfd3d4b7c3986404e`, #3867; `472b50ed15b7d550eee0173e01f1f77a129601bb`, #3872) (@kmendell).\n- Improved user validation and password policy feedback (`832cf6eca30be8fbf5f3eb19786f5d8a16c43751`, #3851) (@baejihoon).\n- Improved frontend table scrolling while preserving glass effects (`ca9917fc5cbdd462734754409c5657908bd30475`) (@kmendell).\n- Improved Easy Join discovery on non-manager environments (`436e20bcee37138fc369eecf02eab6b5f682ace2`, #3902) (@kmendell).\n- Improved diagnostics for projects with unreadable `.env` files (`e8c92c5e6bae99251268749c4d16c53ecbebd16f`, #3909) (@kmendell).\n\n### Fixes\n\n- Surfaced JWKS initialization errors instead of readiness timeouts (`eeb79a68e86702825eca2531b933c9bd801d6201`) (@kmendell).\n- Normalized identity and display text with Kit struct tags (`b51613f2c6d389e20be507be5db1f53f48600ac6`, #3856) (@kmendell).\n- Detected missing S3 repositories and paused remote backups (`4ff83971e1a20c80ceceba27153549047461898d`, #3869) (@kmendell).\n- Enforced administrator requirements for environment tokens (`4fe4c7ed9483dff7d43e3c4bee6a92037ce886b4`, #3881) (@kmendell).\n- Added missing edge tunnel routes (`88514f756319179e407c96a5b9226825944ccdc0`) (@kmendell).\n- Clarified credential requirements when changing repository URLs (`2081406e035b0f761533fa23fdae5e5c810ecdb7`, #3886) (@kmendell).\n- Fixed mobile navigation label stacking (`de66d6330d6cf19584b38aa201ae56f8047ebda1`) (@kmendell).\n\n### Refactoring\n\n- Centralized Compose workflows and consolidated project files (`9b45fd5572e59b0696ebfcb61a7d7a983ea0b4ce`, #3860) (@kmendell).\n- Consolidated frontend components (`1ad4f285c5a2b8ac471c9fa1b1100b1ab773d5fa`, #3864) (@kmendell).\n- Adopted Echo request IDs and SPA static middleware (`f8e4f75473950f4772bb141a8554ce22d9d99393`, #3873) (@kmendell).\n- Replaced `svelte-check-rs` with the official `svelte-check` (`3dac10c2d53e2cae90e63b18e468c9263347c693`) (@kmendell).\n- Cleaned up effect usage and adopted proper Svelte reactivity (`5df09ed475c4bac4ab6f54e1b9bdde1ac1c55105`, #3904) (@kmendell).\n- Aligned frontend stores and attachments with Svelte best practices (`2d0ac4a8c93c04d5657a7c3c5880b739703bc8cd`, #3907) (@kmendell).\n\n### Dependencies\n\n- Updated `go.getarcane.app/acfs` to v0.6.0 (`5ba5ad4d20d8302051112c9c18ad29edc90c2d9f`, #3857) (@kmendell).\n- Updated `charm.land/log/v2` from 2.0.0 to 2.0.1 (`57bd14795309fe11901cef510dc1cf8332c9a984`, #3890) (@dependabot[bot]).\n- Updated `github.com/containerd/containerd/v2` from 2.3.4 to 2.3.5 (`a8bf2eee2bf1f197cd254b356e89d80c3df08e3f`, #3895) (@dependabot[bot]).\n- Updated `golang.org/x/time` from 0.15.0 to 0.16.0 (`34e73a4648f34205a86f3bb460b0626307d72c8e`, #3894) (@dependabot[bot]).\n- Updated `golang.org/x/sys` from 0.47.0 to 0.48.0 (`987548b2a807d8d0916592faab55c589abb74a68`, #3889) (@dependabot[bot]).\n- Updated `golang.org/x/oauth2` from 0.36.0 to 0.37.0 (`6a9ff7aa64fbec74e379b5dc9622699189093d73`, #3892) (@dependabot[bot]).\n- Updated `golang.org/x/sync` from 0.22.0 to 0.23.0 (`a50ab984528cf443c07e1a58052a09af2632dd63`, #3893) (@dependabot[bot]).\n- Updated `golang.org/x/mod` from 0.40.0 to 0.41.0 (`a423806a3f1c99073382c6e3b0ce5184aecdd52b`, #3888) (@dependabot[bot]).\n- Updated `modernc.org/sqlite` from 1.57.0 to 1.58.0 (`da6712ddfee61340f5286aa9982fd5f8f87bc647`, #3891) (@dependabot[bot]).\n\n"
-            },
-            {
-              "name": "v2.10.2",
-              "tag": "v2.10.2",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.10.2",
-              "published_at": "2026-09-05T00:55:41Z",
-              "prerelease": false,
-              "author": "kmendell",
-              "body": "\u003e [!NOTE]\n\u003e This release adds performance improvements across authentication, Docker calls, scheduled scans, project loading, and CVE serving. It also fixes container shell handling, scheduler overlap, image digest display, authentication flows, agent reconnection, and several UI and integration issues.\n\n## Fixes\n\n- Surface container shell close reasons and disable WebSocket compression — `30e1bb590a34d9aeded744a71d39e8709b3b7b33`, `b9b8c813f6d3735770f2bc1bf5c80b4967eb7e26` / #3814 (@kmendell)\n- Skip overlapping scheduled cron job runs — `51cf6bb6a1049a01596a5933ddb2508de6938dea`, `5232b4d04bfb482ed9d3ec869f30ec2fee03ca30` / #3815 (@kmendell)\n- Refactor image digest inspection logic — `d256fc2787efd18341d84e63e59e7cd38300e99d` / #3826 (@jdrouhard)\n- Keep the first-login password dialog open and clear its flag after an admin password change — `6f90da73f3606e42e58a0f00c98208f5817c27c9` / #3831 (@kmendell)\n- Allow the frontend to recover from stale chunks after a redeploy — `8c294a7316f3616a704edfec366f4adccd91a577` (@kmendell)\n- Keep edge agents on gRPC after a manager restart — `4febf6d0dcf64997b53cba7743d082b4c7550979` (@kmendell)\n- Show digest-pinned image references — `5c0592994278ac9ab4600966dcdb460ecbef857b` / #3836 (@kmendell)\n- Hide passkey login when no credentials are registered — `b7b568e1a6911bf1b8369de129af792fb0f23e4e` (@kmendell)\n- Honor SSH usernames in Git repository URLs — `837fe10c92ddbb2391d7b13475d475a68f7fca2c` (@kmendell)\n- Support host memory accounting for Docker inside LXC — `416e93a4be282a5d26025f9fd00f3ae56c70bb71` / #3846 (@kmendell)\n- Load project digests automatically when entering the Updates page — `8d5eaeb9dda0072736eb67272de4d7d781d7472b` (@kmendell)\n- Sort environments by name while placing the current selection first — `4e0f1dcfc074a4562b59ef03ee49dabbd68f40f5` (@kmendell)\n- Rate-limit webhook triggers by token instead of client IP — `de1e978810a490fd7930a634bd4df765a50f65b2` / #3742 (@ohOgil)\n- Run backups in an activity instead of locking the UI — `dd16fd942afaed4db4d63ad4fa787bce20251f8d` / #3847 (@kmendell)\n\n## Performance\n\n- Serve cached authentication token state — `65fcfa637919992c81b373396265455a1f08ae3c`, `5e8ecabd4f0c2aa3c3011baab6761dc13aabc96f` / #3816 (@kmendell)\n- Route Docker daemon calls through singleflight callers — `64c2500b669f343451f2541a045b578e10ee172b` / #3818 (@kmendell)\n- Share one stream producer across all clients — `db9878d01dccfed0406cee7c5e573a7f2c8637fe` / #3819 (@kmendell)\n- Look up Copa targets by digest instead of issuing database queries — `ddcd50530759ed0b31d2f717e7d82a213bfd655d` / #3821 (@kmendell)\n- Validate the projects metadata cache by file modification time and resolve entries in parallel — `0b44e8dd5e16131015e18c70601c79b1c2cad9a9` / #3823 (@kmendell)\n- Serve the CVE list from a normalized table — `31a9896dfb052ece34d7ba4c14d8347b9ad8a8b5` / #3825 (@kmendell)\n- Bound scheduled scans, skip unchanged images, and avoid remounting during navigation — `8299a56c5430f9a04ee132b15f58a9e46f810dc0` / #3829 (@kmendell)\n- Dispatch notification providers concurrently — `767992dc34a4b98d35fb220425bf51ea9b123961` / #3820 (@kmendell)\n\n## Improvements and refactoring\n\n- Allow selecting registries for Arcane Tools and Trivy databases — `b85caceeef0ba5dd094ce1fcb82805acfd2a6445` / #3830 (@kmendell)\n- Clean up duplicate HTTP client logic — `8a74c1b729e6bd0b02e1bcf17a824cc445cb2eb3` (@kmendell)\n\n## Dependency updates\n\n- Bump `react-email` from 6.9.2 to 6.9.3 — `0cbb2590792d935ff2c7a20468e91edc3b318304` (@dependabot[bot]); `8dd0210aec7303fa506cdf77e235804961107a7d` / #3806 (@kmendell)\n- Update the `tanstack-table` group with two updates — `f58bc47404cbc61ca0c2a62a4d48436e5b2b5688` (@dependabot[bot]); `0a7ea50401c95aff42f90b94172b0c2f42ece4cb` / #3799 (@kmendell)\n- Bump `ky` from 2.0.2 to 2.1.0 — `5700fb7f52a95e3e21ab0fce8d5a7e453cb0201c` (@dependabot[bot]); `ab3eaae5751c0abe8ae326b35b565b43f2ed678f` / #3802 (@kmendell)\n- Bump `svelte` from 5.56.10 to 5.57.0 — `3db4f4a591fd43aff54d5d9ca679780f6d9c5e35` (@dependabot[bot]); `efb72f212b9795ecccfcf3b792a0e76dedebb1c6` / #3808 (@kmendell)\n- Bump `@tanstack/svelte-query` from 6.1.43 to 6.1.48 — `917e6c267748da315f93855dadbea3444466f12c` (@dependabot[bot]); `242744189b8e1065be494d5cd25c8a97ecb511c0` / #3807 (@kmendell)\n- Bump `pnpm` to v12.2.1 — `7d33837fd5a2d8bfd9617dabe7347f1ea06ca1c2` (@kmendell)\n- Bump `@xyflow/svelte` from 1.6.3 to 1.6.5 — `1829e66194ca404bd8ff4b211e693a7d149ac184` / #3810 (@dependabot[bot])\n- Bump `github.com/nicholas-fedor/shoutrrr` from 0.18.0 to 0.19.0 in `/backend` — `343dc2020f10c610f81bb5834bcc5b858377afbe` / #3840 (@dependabot[bot])\n- Bump `golang.org/x/crypto` from 0.55.0 to 0.56.0 in `/backend` — `37226ae35749563489551c840ca2b1620e07e3e6` / #3844 (@dependabot[bot])\n- Bump `github.com/coreos/go-oidc/v3` from 3.20.0 to 3.21.0 in `/backend` — `504e5b6dda7ea16bdab84eb6b72c1da47e90414d` / #3845 (@dependabot[bot])\n- Bump `github.com/pressly/goose/v3` from 3.27.3 to 3.28.0 in `/backend` — `d6271ea3045682a063b516ea0f1d71fc2f7e4a64` / #3841 (@dependabot[bot])\n- Bump `github.com/klauspost/compress` from 1.19.2 to 1.20.0 in `/backend` — `71d866fefdd79552afd4db123fd01cbd29199753` / #3843 (@dependabot[bot])\n- Bump `github.com/mattn/go-runewidth` from 0.0.28 to 0.0.29 in `/cli` — `5137b5dcb4efe2e6107adc7d316af4ec9132f01b` / #3838 (@dependabot[bot])\n\n"
             }
           ],
           "last_commit": {
