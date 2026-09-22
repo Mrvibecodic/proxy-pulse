@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:14:56.062386Z",
+  "generated_at": "2026-09-22T13:20:11.852060Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T13:13:03Z",
+            "pushed_at": "2026-09-22T13:19:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4faf9d3",
+                  "message": "php8-pecl-http: disable TLS-SRP detection",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:19:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/4faf9d37e928b7d4ef3ee7865d5d90eb5e78c294"
+                },
+                {
+                  "sha": "6fdf823",
+                  "message": "curl: update to 8.22.0",
+                  "author": "Peter Polonec",
+                  "date": "2026-09-22T13:19:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/6fdf82368fd855e452e8747fbb4c1bbe6c0fd752"
+                },
+                {
                   "sha": "f094afb",
                   "message": "modemmanager: suppress hotplug noise without breaking QMAP/QMI/MBIM mux",
                   "author": "Michael Pfeifroth",
@@ -1953,20 +1967,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-18T15:44:26Z",
                   "url": "https://github.com/openwrt/packages/commit/66c7c55e4ac3756c689b7cc147c3e5139e093503"
-                },
-                {
-                  "sha": "6990c0a",
-                  "message": "shunt: update 0.1.10",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-18T14:06:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/6990c0a844c5bdb6afc57f07b3e0bc01d3c56dac"
-                },
-                {
-                  "sha": "b47b9ae",
-                  "message": "xray-core: update to 26.9.9",
-                  "author": "Mikhail Stolyarov",
-                  "date": "2026-09-18T06:53:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/b47b9ae86190bc3d706976279152f35bfff0f5bd"
                 }
               ]
             },
@@ -4582,7 +4582,7 @@
             "stars": 76851,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T13:10:34Z",
+            "pushed_at": "2026-09-22T13:20:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4786,7 +4786,7 @@
             "stars": 17755,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T13:06:38Z",
+            "pushed_at": "2026-09-22T13:17:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4839,10 +4839,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a503f0b",
-            "branch": "cluster",
-            "date": "2026-09-22T13:06:39Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/a503f0b882d37341771c00111a51d2e058e5108c"
+            "sha": "84b2ec8",
+            "branch": "issue-11569",
+            "date": "2026-09-22T13:17:04Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/84b2ec883a7b72271b6bffc8ab3f1ab15672dc2f"
           }
         }
       ]
