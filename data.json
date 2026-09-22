@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:35:03.328986Z",
+  "generated_at": "2026-09-22T06:40:18.634580Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T06:32:00Z",
+            "pushed_at": "2026-09-22T06:37:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f094afb",
+                  "message": "modemmanager: suppress hotplug noise without breaking QMAP/QMI/MBIM mux",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-09-22T06:37:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/f094afbed0e80ca7bb1f97ebb7b7bace93ffb987"
+                },
+                {
                   "sha": "018c3f3",
                   "message": "librespeed-cli-rust: update to version 1.2.0",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "Mikhail Stolyarov",
                   "date": "2026-09-18T06:53:22Z",
                   "url": "https://github.com/openwrt/packages/commit/b47b9ae86190bc3d706976279152f35bfff0f5bd"
-                },
-                {
-                  "sha": "0616b9d",
-                  "message": "python-platformio: update to v6.2.0",
-                  "author": "Austin Lane",
-                  "date": "2026-09-17T17:45:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/0616b9d7f704678168433ad1c16cf77e34f3c385"
                 }
               ]
             },
@@ -4703,10 +4703,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4e6f631",
-            "branch": "deps-update/react-infinite-scroll-component-7.x",
-            "date": "2026-09-22T06:07:02Z",
-            "url": "https://github.com/prometheus/prometheus/commit/4e6f6315ca0f117ebee753c99673f37698c02bc7"
+            "sha": "2153807",
+            "branch": "main",
+            "date": "2026-09-22T06:04:39Z",
+            "url": "https://github.com/prometheus/prometheus/commit/21538072f6ae5f5da093834fe2be717bdd2b51a3"
           }
         },
         {
