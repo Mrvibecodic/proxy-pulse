@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T06:24:32.917905Z",
+  "generated_at": "2026-09-22T06:29:47.951003Z",
   "groups": [
     {
       "id": "cores",
@@ -4443,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91662,
+            "stars": 91663,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-22T00:06:13Z",
@@ -4582,7 +4582,7 @@
             "stars": 76845,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-22T06:13:47Z",
+            "pushed_at": "2026-09-22T06:24:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2f75de2",
-            "branch": "issue-127012-v1",
-            "date": "2026-09-22T06:13:47Z",
-            "url": "https://github.com/grafana/grafana/commit/2f75de20e997d1dc2ca81da1b7a8076588554da4"
+            "sha": "5bc41c5",
+            "branch": "leventebalogh/default-datasource",
+            "date": "2026-09-22T05:52:08Z",
+            "url": "https://github.com/grafana/grafana/commit/5bc41c5113a3950b0eeb7e68c1acb8d752571781"
           }
         },
         {
@@ -4703,10 +4703,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2c8ab95",
-            "branch": "main",
-            "date": "2026-09-22T06:04:12Z",
-            "url": "https://github.com/prometheus/prometheus/commit/2c8ab95911b534092260f03ce139ebbc5f4f24fc"
+            "sha": "4e6f631",
+            "branch": "deps-update/react-infinite-scroll-component-7.x",
+            "date": "2026-09-22T06:07:02Z",
+            "url": "https://github.com/prometheus/prometheus/commit/4e6f6315ca0f117ebee753c99673f37698c02bc7"
           }
         },
         {
@@ -5074,12 +5074,21 @@
             "stars": 3479,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-09-21T08:57:32Z",
+            "pushed_at": "2026-09-22T06:29:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.29.0",
+              "tag": "v3.29.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.29.0",
+              "published_at": "2026-09-22T06:28:29Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.29.0](https://github.com/Zephyruso/zashboard/compare/v3.28.0...v3.29.0) (2026-09-21)\n\n\n### Features\n\n* support dae API ([b54e357](https://github.com/Zephyruso/zashboard/commit/b54e3575e2178aa2eee8a86704d476eeaae114d4))\n\n\n### Bug Fixes\n\n* add backdrop blur effect to floating menu and action panels ([9406d36](https://github.com/Zephyruso/zashboard/commit/9406d36154d2f2d2421640a00bebbd6718375d6f))\n* improve accent color contrast in light and dark themes ([3c05df9](https://github.com/Zephyruso/zashboard/commit/3c05df92d08293ac5c3d4d03493d1d9e24822ab3))\n* **nav:** improve active state feedback and transition timing for nav items ([208ffe9](https://github.com/Zephyruso/zashboard/commit/208ffe9e4adaf9bd815534724be677bf51852510))\n* prevent dialog swipe from getting stuck in settling state ([e21ba6a](https://github.com/Zephyruso/zashboard/commit/e21ba6a797528a4bbc285158fd56d79ddcc8e2dd))\n* update default number of charts in sidebar to 1 ([b38eeba](https://github.com/Zephyruso/zashboard/commit/b38eeba58ffa9a11b17260b3cde59bd700b77a2b))\n* update estimated row height calculation and adjust padding for last row ([d6f69f7](https://github.com/Zephyruso/zashboard/commit/d6f69f771b9c540e636015aa5234ad811cb9c8a5))\n* update medium latency color for better contrast and consistency across themes ([035858d](https://github.com/Zephyruso/zashboard/commit/035858d5380c0ace98742228ab8649f8fbcfd920))\n* update ProxyNodeCard styles to apply background for active state ([412e8de](https://github.com/Zephyruso/zashboard/commit/412e8dec06329ea58f86ac8a6df9f55650c04235))"
+            },
             {
               "name": "v3.28.0",
               "tag": "v3.28.0",
@@ -5115,22 +5124,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.25.0](https://github.com/Zephyruso/zashboard/compare/v3.24.0...v3.25.0) (2026-08-31)\n\n\n### Features\n\n* support custom CSS in panel settings ([1da5989](https://github.com/Zephyruso/zashboard/commit/1da5989dfdac6331f6b56ddd8c0aaef3854a37b4))\n\n\n### Bug Fixes\n\n* navigate to proxies before syncing settings on first login ([f6dd9c0](https://github.com/Zephyruso/zashboard/commit/f6dd9c07e843ab89632cc373522254a1bfe6bbe5))"
-            },
-            {
-              "name": "v3.24.0",
-              "tag": "v3.24.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.24.0",
-              "published_at": "2026-08-28T03:36:17Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.24.0](https://github.com/Zephyruso/zashboard/compare/v3.23.0...v3.24.0) (2026-08-28)\n\n\n### Features\n\n* add endpoint legend with color coding and update translations ([eee0252](https://github.com/Zephyruso/zashboard/commit/eee0252ae74827f576cb0038df511b8b86e0f29b))\n* add expand/collapse all button for grouped connection cards ([234b93f](https://github.com/Zephyruso/zashboard/commit/234b93ff5a68e1726e0f309064c5519206462a50))\n* add grouping functionality for connection cards and enhance internationalization support ([d210f59](https://github.com/Zephyruso/zashboard/commit/d210f59378c57e08b7462864457ddd566ed18319)), closes [#759](https://github.com/Zephyruso/zashboard/issues/759)\n* enhance map zoom behavior and camera positioning for 2D projection ([40e68c2](https://github.com/Zephyruso/zashboard/commit/40e68c2ccd42935d7ebaee726aa0bdf3106128cb))\n* enhance sorting functionality with natural order and internationalization support ([4822fa3](https://github.com/Zephyruso/zashboard/commit/4822fa31924fbf33215546bff17c11e82a564d24))\n* implement swipe gesture handling for modal dialog with transition effects ([710e08b](https://github.com/Zephyruso/zashboard/commit/710e08b64813302a1fd56098d630130302aadd4b))"
             }
           ],
           "last_commit": {
-            "sha": "1d706f0",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-09-21T05:44:20Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/1d706f057cf1d12edde625d6b2fe0c4841e37fe4"
+            "sha": "3e9571c",
+            "branch": "gh-pages-misans-only",
+            "date": "2026-09-22T06:29:14Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/3e9571c9393b8a9bfb6a606e85c4a44a7b30a93e"
           }
         },
         {
@@ -5139,7 +5139,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7489,
+            "stars": 7490,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-22T01:37:06Z",
