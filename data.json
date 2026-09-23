@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:28:03.585704Z",
+  "generated_at": "2026-09-23T23:33:18.316663Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-23T19:18:06Z",
+            "pushed_at": "2026-09-23T23:29:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7f0f2d4",
+                  "message": "kea: create /var/lib/kea directory in init script",
+                  "author": "Stijn Tintel",
+                  "date": "2026-09-23T23:29:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f0f2d43acc004846be7208579dec79b4c109ee8"
+                },
+                {
+                  "sha": "1137f24",
+                  "message": "kea: fix /var/run/kea permissions",
+                  "author": "Stijn Tintel",
+                  "date": "2026-09-23T23:29:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/1137f24e4d91c5cdd6a59487f14e8d67ed8539f3"
+                },
+                {
                   "sha": "0ad9a3f",
                   "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
                   "author": "Josef Schlehofer",
@@ -3458,20 +3472,6 @@
                   "author": "Martin Johansson",
                   "date": "2026-09-18T19:04:56Z",
                   "url": "https://github.com/openwrt/packages/commit/9e37a7f221b5829740aec82ab1dc1fd015c9a570"
-                },
-                {
-                  "sha": "bf1c512",
-                  "message": "openssh: update to 10.5_p1",
-                  "author": "John Audia",
-                  "date": "2026-09-18T19:02:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/bf1c512746e3ae684d2b7d2f6e945df57c6c5307"
-                },
-                {
-                  "sha": "347255f",
-                  "message": "openssh: reindent Package/\u003cname\u003e metadata blocks to 2 spaces",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-09-18T19:02:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/347255fb9908e2a3b424bf20e62dbb6b6f546685"
                 }
               ]
             }
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c74195b",
-            "branch": "lucychen/querycaching/authz-caching-subresource",
-            "date": "2026-09-23T22:53:04Z",
-            "url": "https://github.com/grafana/grafana/commit/c74195b37f5df32832e8dc6fa9116e4f7eb52f8c"
+            "sha": "0e5f440",
+            "branch": "ywzheng1/homepage-team-filter-enhancement",
+            "date": "2026-09-23T21:03:48Z",
+            "url": "https://github.com/grafana/grafana/commit/0e5f440631fa3fa38453689bfce0bf87a3a6459c"
           }
         },
         {
