@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:16:54.626171Z",
+  "generated_at": "2026-09-23T08:22:09.294284Z",
   "groups": [
     {
       "id": "cores",
@@ -4582,7 +4582,7 @@
             "stars": 76869,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T08:16:45Z",
+            "pushed_at": "2026-09-23T08:17:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3a24c6a",
-            "branch": "ifrost/reorder-rows-undo-redo",
-            "date": "2026-09-23T08:16:45Z",
-            "url": "https://github.com/grafana/grafana/commit/3a24c6ab511fd89ba9e853c0545345733c6ac74f"
+            "sha": "8ab0c85",
+            "branch": "chore/migrate-dashboardNewLayouts-to-openfeature",
+            "date": "2026-09-23T07:58:22Z",
+            "url": "https://github.com/grafana/grafana/commit/8ab0c855907e471167e338ad26906f5e5d319ed2"
           }
         },
         {
@@ -4786,7 +4786,7 @@
             "stars": 17756,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-23T07:30:30Z",
+            "pushed_at": "2026-09-23T08:18:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4839,10 +4839,10 @@
             }
           ],
           "last_commit": {
-            "sha": "caf5524",
+            "sha": "cc5cb81",
             "branch": "issue-11252",
-            "date": "2026-09-23T07:30:30Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/caf5524df29977ef1c20979f7682792b267dbb26"
+            "date": "2026-09-23T08:18:09Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/cc5cb81d358617a3a4468549cb409cab924f5d43"
           }
         }
       ]
@@ -5074,12 +5074,21 @@
             "stars": 3479,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T08:16:21Z",
+            "pushed_at": "2026-09-23T08:18:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.29.1",
+              "tag": "v3.29.1",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.29.1",
+              "published_at": "2026-09-23T08:17:27Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.29.1](https://github.com/Zephyruso/zashboard/compare/v3.29.0...v3.29.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* enhance sidebar stats card with background color and improve table-glass styles ([4a29037](https://github.com/Zephyruso/zashboard/commit/4a2903752b2d0b0c711dc51f260e490ce7de4dfb))\n* normalize IPv6 zone in source IP labels and allow link-local reverse DNS ([686234a](https://github.com/Zephyruso/zashboard/commit/686234ab252e3517a2ca5113477eedc8376203d7)), closes [#798](https://github.com/Zephyruso/zashboard/issues/798)\n* overlay glass effect with backdrop filters across components ([ffcef39](https://github.com/Zephyruso/zashboard/commit/ffcef39706c3d0836eed8f750020bdaf61037946))\n* remove base color overlay on home page with custom background ([9cc981c](https://github.com/Zephyruso/zashboard/commit/9cc981cafa0114ff4a813e3e9f87217aedee83fb))\n* sync iOS status bar tint with theme and overlay dimming ([0d68259](https://github.com/Zephyruso/zashboard/commit/0d682591d9056dc7a24b3610f83f29abe4969413))\n* use tldts to extract registrable domain in connection history ([ce87647](https://github.com/Zephyruso/zashboard/commit/ce87647f35a01bc66208c298d3e0c58b558dba34)), closes [#797](https://github.com/Zephyruso/zashboard/issues/797)"
+            },
             {
               "name": "v3.29.0",
               "tag": "v3.29.0",
@@ -5115,22 +5124,13 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.26.0](https://github.com/Zephyruso/zashboard/compare/v3.25.0...v3.26.0) (2026-09-07)\n\n\n### Features\n\n* implement collapse motion for cards and optimize virtual row shifting ([ac86982](https://github.com/Zephyruso/zashboard/commit/ac869828b38405e675a41eed670bbd5b90290df6))\n* implement virtual scrolling for proxies list and optimize latency handling ([fd8fc51](https://github.com/Zephyruso/zashboard/commit/fd8fc51bf703913e9275a164c7c8c75c76a1d3d0))\n* scroll to the active node on expand and fix node scroll positioning ([cb15575](https://github.com/Zephyruso/zashboard/commit/cb15575a025255e9968009a96eb4368cc9169ed4))\n\n\n### Bug Fixes\n\n* adjust virtual table layout for proper sticky header and background alignment ([4a7e06e](https://github.com/Zephyruso/zashboard/commit/4a7e06e9024aed107751b8656875f0cade13fc63))\n* ensure full proxy chain is always displayed in connection details ([c88976d](https://github.com/Zephyruso/zashboard/commit/c88976d668a25a12e0696007da19292919b5155d))\n* improve layout of connection metrics by adjusting icon positioning and spacing ([2b59feb](https://github.com/Zephyruso/zashboard/commit/2b59febc3bd2751934ff76fe29322d59afbdfd81))\n* update modal open state handling to prevent overflow issues during transitions ([bd65a45](https://github.com/Zephyruso/zashboard/commit/bd65a459555d98e5b2f26afeaa85879ed71ae345))"
-            },
-            {
-              "name": "v3.25.0",
-              "tag": "v3.25.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.25.0",
-              "published_at": "2026-09-02T03:18:07Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.25.0](https://github.com/Zephyruso/zashboard/compare/v3.24.0...v3.25.0) (2026-08-31)\n\n\n### Features\n\n* support custom CSS in panel settings ([1da5989](https://github.com/Zephyruso/zashboard/commit/1da5989dfdac6331f6b56ddd8c0aaef3854a37b4))\n\n\n### Bug Fixes\n\n* navigate to proxies before syncing settings on first login ([f6dd9c0](https://github.com/Zephyruso/zashboard/commit/f6dd9c07e843ab89632cc373522254a1bfe6bbe5))"
             }
           ],
           "last_commit": {
-            "sha": "805552a",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-09-23T08:16:22Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/805552a0f7ccf01553a21c37e45a6abe009868a3"
+            "sha": "afbca09",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-09-23T08:18:09Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/afbca09ef25c2e37e905e44298c2c0a9ea2d8ae5"
           }
         },
         {
@@ -5139,7 +5139,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7540,
+            "stars": 7542,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-23T04:55:06Z",
