@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:34:01.592638Z",
+  "generated_at": "2026-09-23T05:39:16.145907Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-22T17:28:26Z",
+            "pushed_at": "2026-09-23T05:39:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "49f3441",
+                  "message": "ddns-scripts: remove discontinued providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-23T05:39:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/49f3441ee51bf7fac1eee70caee83fcc446ace7c"
+                },
+                {
                   "sha": "9f462c3",
                   "message": "perl: add support for loongarch64",
                   "author": "Xinhui Yang",
@@ -1960,13 +1967,6 @@
                   "author": "Remi Gacogne",
                   "date": "2026-09-18T16:02:54Z",
                   "url": "https://github.com/openwrt/packages/commit/6b3e8fdfa64baa15fe153ceb195cdbba1105ca96"
-                },
-                {
-                  "sha": "7992657",
-                  "message": "bind: bump to 9.20.29",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-09-18T15:46:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/799265743741fec9f44ad680957d6ce0c6902c2e"
                 }
               ]
             },
@@ -3264,6 +3264,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "6bdd3fd",
+                  "message": "modemmanager: suppress hotplug log noise",
+                  "author": "Michael Pfeifroth",
+                  "date": "2026-09-23T05:37:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/6bdd3fd033cc5aa6d24751509b58a9d7d0e25b5e"
+                },
+                {
                   "sha": "f5ce989",
                   "message": "php8-pecl-http: disable TLS-SRP detection",
                   "author": "Peter Polonec",
@@ -3465,13 +3472,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-09-18T19:02:14Z",
                   "url": "https://github.com/openwrt/packages/commit/b6371ca24627ad75480641878d089a7378ae8edf"
-                },
-                {
-                  "sha": "8c3ebc1",
-                  "message": "openssh: fix BSD license identifier with a valid one",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-18T19:01:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c3ebc16c070082c517b233c04e7b485295fce4f"
                 }
               ]
             }
