@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T01:16:42.406038Z",
+  "generated_at": "2026-09-23T01:21:57.121125Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34322,
+            "stars": 34323,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-22T14:03:31Z",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.11-alpha.1",
+              "tag": "clod-v0.1.11-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.1",
+              "published_at": "2026-09-23T01:20:04Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- A proxy chain is stored together with its subscription and never leaks into another one; each subscription keeps its own DNS page file\n- The provider filter lists exactly the proxy types the core supports\n- Lower background load: one core health watchdog for both the service and the standalone process, faster detection of the managed core, a hang probe before showing the window only with detailed diagnostics\n\n### Fixed\n\n- An empty node list no longer wipes an active proxy chain, and removing the last node clears the chain as well\n- The fake-ip range is no longer sent empty\n- The built-in \"leave it to the rules\" policy reaches the core and is shown in the interface\n- Profile files are deleted only together with the profile; a broken core cache is reset before start on Linux and macOS; the core log is flushed on a crash\n- A group icon with non-Latin characters no longer breaks the page, traffic around a thousand is shown without an exponent, an invalid test URL shows a warning, a failed update check is shown as a warning\n- A link passed from a second copy of the app is handed over safely, and the built-in server serves only the window request and the auto-config file\n- The system proxy watchdog waits for the previous pass to finish and reports a failure to start\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Цепочка прокси хранится вместе со своей подпиской и не уезжает в чужую; у каждой подписки свой файл страницы DNS\n- Фильтр провайдера предлагает ровно те типы прокси, что понимает ядро\n- Меньше фоновой нагрузки: один сторож здоровья ядра для службы и отдельного процесса, управляемое ядро узнаётся быстрее, проба зависания перед показом окна — только при подробной диагностике\n\n### Исправлено\n\n- Пустой список узлов больше не стирает поднятую цепочку, а удаление последнего узла тоже её разбирает\n- Диапазон fake-ip больше не уезжает пустым\n- Встроенная политика «решают правила» доходит до ядра и видна в интерфейсе\n- Файлы профилей удаляются только вместе с профилем; негодный кэш ядра сбрасывается перед запуском на Linux и macOS; журнал ядра дописывается при падении\n- Значок группы с нелатинскими символами не роняет страницу, трафик около тысячи показывается без экспоненты, негодный адрес проверки предупреждает, неудачная проверка обновлений показывается предупреждением\n- Ссылка от второй копии приложения передаётся безопасно, а встроенный сервер отдаёт только показ окна и файл автонастройки\n- Сторож системного прокси дожидается конца прошлого обхода и сообщает об отказе запуска"
+            },
             {
               "name": "Clod Clash clod-v0.1.10",
               "tag": "clod-v0.1.10",
@@ -5133,7 +5142,7 @@
             "stars": 7525,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T01:09:56Z",
+            "pushed_at": "2026-09-23T01:19:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5186,10 +5195,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9fc0086",
-            "branch": "main",
-            "date": "2026-09-23T00:31:11Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/9fc00866b9107366824b91cdd887de54c8b089d6"
+            "sha": "df529a1",
+            "branch": "l10n_crowdin",
+            "date": "2026-09-23T01:19:23Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/df529a12b843c0661a0247da73f770da34dce469"
           }
         }
       ]
