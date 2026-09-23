@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:32:48.206148Z",
+  "generated_at": "2026-09-23T13:38:04.530919Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41743,
+            "stars": 41744,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-23T04:05:27Z",
@@ -889,7 +889,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7233,
+            "stars": 7234,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-23T13:20:10Z",
@@ -4120,12 +4120,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T13:18:38Z",
+            "pushed_at": "2026-09-23T13:36:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.9.9",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-09-23T13:36:20Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.9\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha d562d89",
               "tag": "alpha",
@@ -4134,15 +4143,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@d562d8947d3175db86b4fa849742433a9876cb63\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.9.9",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-09-08T22:55:24Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.9\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -4443,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91726,
+            "stars": 91727,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-23T00:06:37Z",
@@ -4582,7 +4582,7 @@
             "stars": 76868,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T13:32:23Z",
+            "pushed_at": "2026-09-23T13:38:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6d51c1f",
-            "branch": "main",
-            "date": "2026-09-23T13:32:22Z",
-            "url": "https://github.com/grafana/grafana/commit/6d51c1faf6f7a96a8cb67bcc9c36b30386aff75c"
+            "sha": "030f27d",
+            "branch": "router-tracing",
+            "date": "2026-09-23T12:50:58Z",
+            "url": "https://github.com/grafana/grafana/commit/030f27d046f47e1ce578d880675b6ef85a75d31b"
           }
         },
         {
@@ -4650,7 +4650,7 @@
             "stars": 66191,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T13:27:27Z",
+            "pushed_at": "2026-09-23T13:34:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4703,10 +4703,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9d6d1b4",
-            "branch": "main",
-            "date": "2026-09-23T12:40:14Z",
-            "url": "https://github.com/prometheus/prometheus/commit/9d6d1b4d50e4a2945a5085d5073b600050fc6de2"
+            "sha": "f39bfc7",
+            "branch": "bwplotka/add_exemplar_appender_interface",
+            "date": "2026-09-23T13:34:08Z",
+            "url": "https://github.com/prometheus/prometheus/commit/f39bfc7c28bc2e59c98ed3a9ac02aa62e76331cd"
           }
         },
         {
@@ -4718,7 +4718,7 @@
             "stars": 80627,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-23T09:47:25Z",
+            "pushed_at": "2026-09-23T13:33:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4771,10 +4771,10 @@
             }
           ],
           "last_commit": {
-            "sha": "14689cf",
+            "sha": "9e0a8fb",
             "branch": "master",
-            "date": "2026-09-23T09:47:26Z",
-            "url": "https://github.com/netdata/netdata/commit/14689cff2026c3c17ff585ce13cf94b5c0d0102f"
+            "date": "2026-09-23T13:33:16Z",
+            "url": "https://github.com/netdata/netdata/commit/9e0a8fb86bfe9b61bed275a19bdb93fdf44fc8e9"
           }
         },
         {
