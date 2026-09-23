@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T13:01:07.667819Z",
+  "generated_at": "2026-09-23T13:06:27.741207Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-23T05:39:18Z",
+            "pushed_at": "2026-09-23T13:04:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4acd6e1",
+                  "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-23T13:02:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/4acd6e13fdbe85a1d5163145b9afacab418f3b75"
+                },
+                {
                   "sha": "49f3441",
                   "message": "ddns-scripts: remove discontinued providers",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "Remi Gacogne",
                   "date": "2026-09-18T16:04:16Z",
                   "url": "https://github.com/openwrt/packages/commit/041ed3a4755ac762545a6765436dc91bb081e66a"
-                },
-                {
-                  "sha": "6b3e8fd",
-                  "message": "dnsdist: update to 2.1.2",
-                  "author": "Remi Gacogne",
-                  "date": "2026-09-18T16:02:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/6b3e8fdfa64baa15fe153ceb195cdbba1105ca96"
                 }
               ]
             },
@@ -3049,6 +3049,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "4d3faef",
+                  "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-23T13:04:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/4d3faef86250473c5647bdfa4df226ad513a127f"
+                },
+                {
                   "sha": "f566bf8",
                   "message": "php8-pecl-http: disable TLS-SRP detection",
                   "author": "Peter Polonec",
@@ -3250,19 +3257,19 @@
                   "author": "Gagan Deep",
                   "date": "2026-09-16T13:47:54Z",
                   "url": "https://github.com/openwrt/packages/commit/42a06f7a19cb495b20c567a2ec62deb97ee03d98"
-                },
-                {
-                  "sha": "f4370f9",
-                  "message": "unbound: update to 1.26.0",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-09-14T05:51:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/f4370f969afe948fc24e206666fa2ccca4307774"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "0ad9a3f",
+                  "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-23T13:03:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/0ad9a3fc1e02d32b19f09c03aa9439e27b102b6a"
+                },
                 {
                   "sha": "6bdd3fd",
                   "message": "modemmanager: suppress hotplug log noise",
@@ -3465,13 +3472,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-09-18T19:02:19Z",
                   "url": "https://github.com/openwrt/packages/commit/347255fb9908e2a3b424bf20e62dbb6b6f546685"
-                },
-                {
-                  "sha": "b6371ca",
-                  "message": "openssh: make libfido2 dependency conditional on sk-helper",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-09-18T19:02:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/b6371ca24627ad75480641878d089a7378ae8edf"
                 }
               ]
             }
@@ -4582,7 +4582,7 @@
             "stars": 76868,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T12:58:13Z",
+            "pushed_at": "2026-09-23T13:05:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dc7bf9c",
-            "branch": "evictorero/notebooks-export-as-pdf",
-            "date": "2026-09-23T12:26:13Z",
-            "url": "https://github.com/grafana/grafana/commit/dc7bf9ce0ed347ffd868bee3f8c380cd3172257b"
+            "sha": "bd55c27",
+            "branch": "alerting/expression-query-schemas",
+            "date": "2026-09-23T13:03:32Z",
+            "url": "https://github.com/grafana/grafana/commit/bd55c279aaa3df4991239a73ab08ce2640effa74"
           }
         },
         {
@@ -4650,7 +4650,7 @@
             "stars": 66191,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T13:00:33Z",
+            "pushed_at": "2026-09-23T13:06:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4783,7 +4783,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17758,
+            "stars": 17759,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-23T11:55:27Z",
