@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T05:51:19.173902Z",
+  "generated_at": "2026-09-24T05:56:34.251210Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7741e9e",
-            "branch": "main",
-            "date": "2026-09-24T01:57:17Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/7741e9e77e64e8e46818714f7c4cd06075ba0b26"
+            "sha": "83bdd21",
+            "branch": "dependabot/go_modules/google.golang.org/grpc-1.84.0",
+            "date": "2026-09-24T01:59:23Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/83bdd2125d2a1406759a3062b08fa192fe9abbeb"
           }
         },
         {
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-23T23:29:45Z",
+            "pushed_at": "2026-09-24T05:53:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "50e1953",
+                  "message": "mox-pkcs11: fix broken Makefile",
+                  "author": "Trix Taiclet",
+                  "date": "2026-09-24T05:53:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/50e19530f59d1f273eba90cce70fd424c884e703"
+                },
+                {
                   "sha": "10f1f42",
                   "message": "bluez: ignore junk entries in characteristic discovery",
                   "author": "Daniel Golle",
@@ -1960,13 +1967,6 @@
                   "author": "Til Kaiser",
                   "date": "2026-09-18T16:08:53Z",
                   "url": "https://github.com/openwrt/packages/commit/e5417c82717dd6752567b90642fca3d66e954f08"
-                },
-                {
-                  "sha": "854e9f7",
-                  "message": "openconnect: update to 9.21",
-                  "author": "Jimmy Qin",
-                  "date": "2026-09-18T16:04:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/854e9f78808bcb857e87972e0d1911c10b41e907"
                 }
               ]
             },
@@ -3749,7 +3749,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5298,
+            "stars": 5299,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-23T00:33:30Z",
@@ -4511,7 +4511,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25691,
+            "stars": 25692,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-23T21:07:30Z",
