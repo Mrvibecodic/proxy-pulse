@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:12:05.231488Z",
+  "generated_at": "2026-09-24T11:17:23.590398Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T22:51:12Z",
+            "pushed_at": "2026-09-24T11:13:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The app talks to the core through a faster connection that reuses requests\n\n### Fixed\n\n- A failed subscription update is marked on its card and the mark clears after a successful update\n- A node pinned in an automatic group is restored from the profile, and a pin left by another profile is removed\n- vless links with the ws transport no longer get the HTTP Upgrade mode\n- Link parsing keeps only known keys in plugin options and headers and warns when decoding fails\n- The speed graph recovers when its data stream goes silent, and proxy providers load faster\n- Settings hints for defaults and the DNS override mode are clearer, the TUN dialog saves only its own fields, and a long provider announcement no longer stretches the window\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Приложение общается с ядром через более быстрое соединение, которое переиспользует запросы\n\n### Исправлено\n\n- Неудавшееся обновление подписки отмечается на её карточке, а отметка снимается после удачного обновления\n- Закреплённый узел в автоматической группе восстанавливается из профиля, а закрепление от другого профиля снимается\n- Ссылки vless с транспортом ws больше не получают режим HTTP Upgrade\n- Разбор ссылок оставляет в параметрах плагина и заголовках только известные ключи и предупреждает о неудавшемся декодировании\n- График скорости восстанавливается, если поток данных замолчал, а провайдеры прокси загружаются быстрее\n- Подсказки про умолчания и режим подмены DNS стали понятнее, диалог TUN сохраняет только свои поля, а длинное объявление провайдера больше не растягивает окно"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10-alpha.5",
-              "tag": "clod-v0.1.10-alpha.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.5",
-              "published_at": "2026-09-18T09:55:35Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The subscription update tile shows how long ago the subscription was updated and turns yellow after two days\n\n### Fixed\n\n- A core that survived a cancelled quit works normally again; an enabled system proxy waits for the core to start, and a failed first start is shown at once\n- A failed core restart leaves the previous core running and watched; an emergency restart stops its own core without cutting short a cleanup already in progress\n- On quit the DNS step gets a proper time limit, Windows session end is handled at its own pace, and an emergency restart with a frozen window still saves settings and removes the proxy\n- When the core refuses to stop, the message says the service was not removed\n- Only one copy of the application runs: a second launch waits for the first one to start and brings its window up, and a port refused by the system no longer blocks startup\n- A busy port no longer delays the verdict on core start, and the core socket uses the first usable folder\n- On Linux the tray icon waits for the icon service, survives its restart and comes back after a cancelled quit; the fallback tray appears only after the waiting time\n- A lost core under the service is reported correctly, telling a silent service from a silent core\n- The remembered server choice is saved only once the groups have settled\n- Restoring a backup keeps this machine's own settings, including the managed core, and a failure to apply the restored settings is shown in the window\n- Switching the pre-release channel drops an update found on the previous channel\n- Window auto-fit no longer turns itself off on resize events that do not change the height\n- Updated dependencies with security fixes\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Плитка обновления подписки показывает, сколько времени прошло с обновления, и желтеет через двое суток\n\n### Исправлено\n\n- Ядро, пережившее отменённый выход, снова работает как обычно; включённый системный прокси дожидается старта ядра, а провал первого старта виден сразу\n- Неудавшийся перезапуск ядра оставляет прежнее ядро рабочим и под присмотром; аварийный перезапуск останавливает своё ядро и не обрывает уже идущую уборку\n- При выходе шаг DNS получил правильный предел времени, завершение сеанса Windows идёт своим темпом, а аварийный перезапуск при зависшем окне всё равно сохраняет настройки и снимает прокси\n- Если ядро отказалось остановиться, сообщение говорит, что служба осталась неудалённой\n- Запускается только одна копия приложения: второй запуск дожидается старта первого и показывает его окно, а отказ системы в порте больше не мешает запуску\n- Занятый порт больше не задерживает вердикт о старте ядра, а сокет ядра использует первый пригодный каталог\n- Под Linux значок в трее дожидается службы значков, переживает её перезапуск и возвращается после отменённого выхода; запасной трей появляется только после срока ожидания\n- Потеря ядра под службой описывается верно: молчащая служба отличается от молчащего ядра\n- Запомненный выбор серверов сохраняется только после того, как группы устоялись\n- Восстановление резервной копии не трогает настройки этой машины, включая управляемое ядро, а отказ применить восстановленное виден в окне\n- Смена канала предварительных сборок сбрасывает обновление, найденное на прежнем канале\n- Подгон окна под содержимое больше не выключается от событий размера без смены высоты\n- Обновлены зависимости с исправлениями безопасности"
             }
           ],
           "last_commit": {
@@ -4582,7 +4573,7 @@
             "stars": 76885,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-24T11:11:56Z",
+            "pushed_at": "2026-09-24T11:15:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b16e0bb",
-            "branch": "joey/trace-view-refresh",
-            "date": "2026-09-24T07:45:50Z",
-            "url": "https://github.com/grafana/grafana/commit/b16e0bbc09128f1779d18911bec8b3853da93527"
+            "sha": "06863d3",
+            "branch": "macabu/csp-default-allow-blob-images-preview",
+            "date": "2026-09-24T10:33:04Z",
+            "url": "https://github.com/grafana/grafana/commit/06863d329663d29059a1e73684fee7004e13a740"
           }
         },
         {
@@ -4650,7 +4641,7 @@
             "stars": 66204,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-24T11:11:46Z",
+            "pushed_at": "2026-09-24T11:15:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4703,10 +4694,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2911b66",
-            "branch": "main",
-            "date": "2026-09-23T16:47:57Z",
-            "url": "https://github.com/prometheus/prometheus/commit/2911b66538385236d591b151c83f0f0b9946043e"
+            "sha": "6b95a40",
+            "branch": "deps-update/react-resize-detector-12.x",
+            "date": "2026-09-24T11:15:13Z",
+            "url": "https://github.com/prometheus/prometheus/commit/6b95a40d4e75362dcb9d0bcdfc4f3d9d4e23f30c"
           }
         },
         {
@@ -4786,7 +4777,7 @@
             "stars": 17763,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-24T10:37:16Z",
+            "pushed_at": "2026-09-24T11:16:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
