@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:38:29.261966Z",
+  "generated_at": "2026-09-24T11:43:44.221649Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.11-alpha.2",
+              "tag": "clod-v0.1.11-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.2",
+              "published_at": "2026-09-24T11:40:36Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Routing mode comes from the subscription; a mode chosen by hand is remembered per subscription and survives updates\n- Favorites star on the Proxies page too; favorite nodes come first in a group; one latency color scale on every screen\n- Groups are latency-tested in parallel with a shared load cap; the ping on the Proxies page is the same measurement the sorting uses\n- The selected node on the Home page keeps its ping fresh while the window is on screen\n- The service availability test page has been removed\n- Ports, controller address and CORS apply without needless core restarts\n- Interface texts unified: subscriptions are called subscriptions everywhere, counts use proper plural forms, autostart options have descriptive names\n\n### Fixed\n\n- Home page shows the real connection state, ping, subscription expiry and mode; a failed ping is shown instead of a stale value\n- Notifications that arrive while the window is hidden wait for it to be shown\n- Applying the current subscription restores the node selection; the first added subscription is applied at once\n- Subscription editors no longer close or lose text when the core rejects a change, and save exactly what is on screen\n- Bulk selection acts on visible cards only; editing a subscription sends only the changed fields\n- Repeating the already active mode no longer drops connections\n- Traffic speed and the connections table reset when the core goes away instead of freezing\n- Log page shows what the core writes at its current level and remembers a clear\n- Connections page shows the real state of the card, the table and closed connections\n- \"Update all\" reports which providers failed\n- Settings dialogs validate input; update, backup and action errors are shown\n- Crash screen offers to quit; relative times and service texts translated\n- Group latency test in global mode skips nodes hidden by the filter\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Режим маршрутизации берётся из подписки; выбранный руками режим помнится для каждой подписки и переживает обновления\n- Звёздочка избранного и на странице «Прокси»; избранные узлы стоят в группе первыми; одна шкала цвета задержки на всех экранах\n- Группы проверяются параллельно с общим потолком нагрузки; пинг на странице «Прокси» — тот же замер, что и сортировка\n- Выбранный узел на Главной обновляет пинг, пока окно на экране\n- Страница проверки доступности сервисов убрана\n- Порты, адрес контроллера и CORS применяются без лишних перезапусков ядра\n- Тексты приведены к одному: подписки везде называются подписками, числительные в правильных формах, автозапуск назван по смыслу\n\n### Исправлено\n\n- Главная показывает действительное состояние подключения, пинга, срока подписки и режима; провал замера виден вместо застывшей цифры\n- Уведомления, пришедшие в скрытое окно, ждут его показа\n- Применение текущей подписки возвращает выбор узлов; первая добавленная подписка применяется сразу\n- Редакторы подписки не закрываются и не теряют текст при отказе ядра, сохраняют ровно то, что на экране\n- Пакетный выбор действует на видимые карточки; правка подписки шлёт только изменённое\n- Повтор уже активного режима не рвёт соединения\n- Скорость и таблица соединений обнуляются при пропаже ядра, а не застывают\n- Журнал показывает то, что пишет ядро на текущем уровне, и помнит очистку\n- Страница соединений показывает настоящее состояние карточки, таблицы и закрытых соединений\n- «Обновить все» сообщает, какие провайдеры не обновились\n- Диалоги настроек проверяют ввод; ошибки обновления, резервных копий и действий видны\n- Экран аварии предлагает выход; относительное время и тексты про службу переведены\n- Проверка группы в глобальном режиме не мерит узлы, скрытые фильтром"
+            },
+            {
               "name": "Clod Clash clod-v0.1.11-alpha.1",
               "tag": "clod-v0.1.11-alpha.1",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.1",
@@ -561,7 +570,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-23T15:21:39Z",
+            "pushed_at": "2026-09-24T11:43:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,15 +611,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Интервал автообновления подписки, заданный в панели провайдера, применяется\n  при каждом обновлении, пока вы не задали свой вручную. Кнопка «Как в панели»\n  в свойствах подписки возвращает интервал панели.\n\n### Исправлено\n\n- Автообновление подписки работает надёжнее: переживает перезагрузку телефона\n  и закрытие приложения системой, ручное обновление не теряется. Приложению\n  больше не нужно разрешение на точные будильники."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.8",
-              "tag": "android-v0.1.21-alpha.8",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.8",
-              "published_at": "2026-09-18T09:36:14Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n\n- Прерванный замер задержек больше не помечает узел как недоступный, а\n  неудавшийся замер не мешает запустить следующий.\n- Неудачный выбор узла не выдаётся за успешный, не рвёт текущие соединения\n  и не сбрасывает запомненный выбор группы.\n- Журнал ядра ограничен по размеру, не продолжает писаться после закрытия\n  экрана и не теряется при перезапуске фонового процесса.\n- Сбой внутри ядра при обращении из приложения больше не обрывает VPN\n  вместе с фоновым процессом.\n- Проверка целостности установленного приложения учитывает установку,\n  разбитую на несколько частей."
             }
           ],
           "last_commit": {
@@ -883,7 +883,7 @@
             "stars": 7250,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-09-24T11:11:00Z",
+            "pushed_at": "2026-09-24T11:39:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -4573,7 +4573,7 @@
             "stars": 76886,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-24T11:32:14Z",
+            "pushed_at": "2026-09-24T11:41:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "305d9fe",
-            "branch": "gamab/iam-internal-storage-readers",
-            "date": "2026-09-24T08:06:29Z",
-            "url": "https://github.com/grafana/grafana/commit/305d9fe8f1320bba15c6299503db640dcb0dd332"
+            "sha": "36be2df",
+            "branch": "pstibrany/iam-user-search-selector",
+            "date": "2026-09-24T10:57:42Z",
+            "url": "https://github.com/grafana/grafana/commit/36be2df472f453625c05e6fe4bb890cc2064b92d"
           }
         },
         {
