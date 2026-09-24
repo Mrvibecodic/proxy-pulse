@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:43:44.221649Z",
+  "generated_at": "2026-09-24T11:48:59.244892Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41765,
+            "stars": 41766,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-24T05:46:26Z",
@@ -84,12 +84,30 @@
             "stars": 38265,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-09-24T10:52:46Z",
+            "pushed_at": "2026-09-24T11:47:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.8",
+              "tag": "v1.15.0-alpha.8",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.8",
+              "published_at": "2026-09-24T11:46:28Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Add `dns_server_address` and `dns_search_domain` rule items **1**\n* Fixes and improvements\n\n**1**:\n\nMatch the server addresses and search domains that DNS servers obtain from the system, DHCP or VPN.\n\nSee [Route Rule](https://sing-box.sagernet.org/configuration/route/rule/#dns_server_address) and [DNS Rule](https://sing-box.sagernet.org/configuration/dns/rule/#dns_server_address)."
+            },
+            {
+              "name": "1.14.2",
+              "tag": "v1.14.2",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.2",
+              "published_at": "2026-09-24T11:47:08Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.15.0-alpha.7",
               "tag": "v1.15.0-alpha.7",
@@ -116,24 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add Tailcat support **1**\n* Fixes and improvements\n\n**1**:\n\n[Tailcat](https://github.com/tailscale/tailcat) is Tailscale's data plane without its control plane: point-to-point WireGuard tunnels bootstrapped through DERP, with NAT traversal.\n\nSee [Tailcat Inbound](https://sing-box.sagernet.org/configuration/inbound/tailcat/) and [Tailcat Outbound](https://sing-box.sagernet.org/configuration/outbound/tailcat/).\n\nThe DERP service can verify Tailcat clients with the new `verify_client_inbound` and `verify_client_key` options, see [DERP Service](https://sing-box.sagernet.org/configuration/service/derp/#verify_client_inbound)."
-            },
-            {
-              "name": "1.15.0-alpha.4",
-              "tag": "v1.15.0-alpha.4",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.4",
-              "published_at": "2026-09-15T00:06:09Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.14.1",
-              "tag": "v1.14.1",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.1",
-              "published_at": "2026-09-15T00:06:50Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
@@ -4573,7 +4573,7 @@
             "stars": 76886,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-24T11:41:23Z",
+            "pushed_at": "2026-09-24T11:45:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "36be2df",
-            "branch": "pstibrany/iam-user-search-selector",
-            "date": "2026-09-24T10:57:42Z",
-            "url": "https://github.com/grafana/grafana/commit/36be2df472f453625c05e6fe4bb890cc2064b92d"
+            "sha": "3469a46",
+            "branch": "MissingRoberto/connection-queue-depth-32",
+            "date": "2026-09-24T09:45:21Z",
+            "url": "https://github.com/grafana/grafana/commit/3469a46b3760a0993127de531d736e60f5806010"
           }
         },
         {
@@ -4762,10 +4762,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b95a6db",
+            "sha": "94134f2",
             "branch": "master",
-            "date": "2026-09-24T08:15:24Z",
-            "url": "https://github.com/netdata/netdata/commit/b95a6db8fd65af8c91f8725c71763cf68910a8dd"
+            "date": "2026-09-24T10:58:37Z",
+            "url": "https://github.com/netdata/netdata/commit/94134f27adee3a09ea46b48c7bbfc15a36dccbcc"
           }
         },
         {
