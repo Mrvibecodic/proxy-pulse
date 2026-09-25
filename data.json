@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T06:14:53.307995Z",
+  "generated_at": "2026-09-25T06:20:09.375265Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5116,
+            "stars": 5117,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-09-12T15:07:11Z",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-24T06:34:21Z",
+            "pushed_at": "2026-09-25T06:18:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "55a465f",
+                  "message": "ddns-scripts: fix updating IPv6 for netcup",
+                  "author": "Martin Brodbeck",
+                  "date": "2026-09-25T06:18:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/55a465f3583b160258d735af063599324e6b7bff"
+                },
+                {
                   "sha": "4206464",
                   "message": "librespeed: fix the kconfig recursion between common and the clients",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "Moritz Warning",
                   "date": "2026-09-18T16:10:41Z",
                   "url": "https://github.com/openwrt/packages/commit/225c1e7881b2cae17b0c957f36f708b21e1838a5"
-                },
-                {
-                  "sha": "59cc6ef",
-                  "message": "kadnode: update to 2.4.3",
-                  "author": "Moritz Warning",
-                  "date": "2026-09-18T16:10:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/59cc6ef0796e26fbd72032fb22994141970cb561"
                 }
               ]
             },
@@ -4582,7 +4582,7 @@
             "stars": 76897,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T06:08:13Z",
+            "pushed_at": "2026-09-25T06:16:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
