@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T12:18:14.374871Z",
+  "generated_at": "2026-09-25T12:23:31.327650Z",
   "groups": [
     {
       "id": "cores",
@@ -1033,7 +1033,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28522,
+            "stars": 28523,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-25T09:14:22Z",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-25T09:10:48Z",
+            "pushed_at": "2026-09-25T12:22:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "99d036f",
+                  "message": "rsync: update to 3.5.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-25T12:22:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/99d036fa779811b7b39e7caebc9a57ea85fd67be"
+                },
+                {
+                  "sha": "d43c9a1",
+                  "message": "openldap: update to 2.6.15",
+                  "author": "Romain Isnel",
+                  "date": "2026-09-25T12:21:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/d43c9a10b0d934e7669817b26525f66434fbab2b"
+                },
+                {
+                  "sha": "d09be3c",
+                  "message": "haproxy: update to v3.4.5",
+                  "author": "Christian Lachner",
+                  "date": "2026-09-25T12:21:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/d09be3cb0ee6ded24d361a7eb472cb4416af6bfd"
+                },
+                {
                   "sha": "55a465f",
                   "message": "ddns-scripts: fix updating IPv6 for netcup",
                   "author": "Martin Brodbeck",
@@ -1946,27 +1967,6 @@
                   "author": "Austin Lane",
                   "date": "2026-09-18T16:14:06Z",
                   "url": "https://github.com/openwrt/packages/commit/4df8cf12e09be8230708f99075f3dea47e2b9958"
-                },
-                {
-                  "sha": "e4f1163",
-                  "message": "mini-snmpd: update to v2.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-09-18T16:13:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/e4f1163ffb9a68bf670921f480eef0cc9abe97eb"
-                },
-                {
-                  "sha": "9746339",
-                  "message": "crowdsec-firewall-bouncer: update to 0.0.36",
-                  "author": "S. Brusch",
-                  "date": "2026-09-18T16:11:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/9746339bb924602e6c53210a742dfa9bb4eb5ba5"
-                },
-                {
-                  "sha": "225c1e7",
-                  "message": "kadnode: switch to source tarball",
-                  "author": "Moritz Warning",
-                  "date": "2026-09-18T16:10:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/225c1e7881b2cae17b0c957f36f708b21e1838a5"
                 }
               ]
             },
@@ -4582,7 +4582,7 @@
             "stars": 76907,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T12:16:23Z",
+            "pushed_at": "2026-09-25T12:23:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9b189e5",
-            "branch": "evictoreor/shorturl-remove-useKubernetesShortURLsAPI",
-            "date": "2026-09-25T12:16:24Z",
-            "url": "https://github.com/grafana/grafana/commit/9b189e5392d87b85b3d29866e33e6c651634e540"
+            "sha": "68cb040",
+            "branch": "root-folder-name-normalization",
+            "date": "2026-09-25T12:23:14Z",
+            "url": "https://github.com/grafana/grafana/commit/68cb04090ce256ccb576e1256a266e48c78818a7"
           }
         },
         {
@@ -4786,7 +4786,7 @@
             "stars": 17767,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-25T10:09:09Z",
+            "pushed_at": "2026-09-25T12:21:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
