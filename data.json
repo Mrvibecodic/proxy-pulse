@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:48:45.866917Z",
+  "generated_at": "2026-09-25T10:54:01.563864Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38291,
+            "stars": 38290,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-24T11:47:05Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34401,
+            "stars": 34400,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-25T00:46:52Z",
@@ -576,6 +576,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.3",
+              "tag": "android-v0.1.22-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.3",
+              "published_at": "2026-09-25T10:50:56Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Режим «Правила / Глобальный / Прямой» переключается сразу, без перезагрузки\n  подписки и паузы трафика.\n- На главной видно, если система перезапускала фоновую часть или системный\n  прокси не объявлен.\n\n### Изменено\n\n- Обновление подписки с тем же содержимым не перезагружает ядро; недостающие\n  файлы провайдеров докачиваются до паузы трафика, а при первом подключении —\n  не задерживают подъём туннеля.\n- Ошибки обновления подписки названы понятными словами: отказ ядра принять\n  подписку отделён от сбоя загрузки, для него в уведомлении видна причина.\n- Сканер QR-кодов убран вместе с доступом к камере; окна имени файла и\n  экспорта журнала переделаны без сторонней библиотеки.\n- Не промеренный сервер показывается как «—», а не как «✕»; «ни один не\n  ответил» считается только по промеренным.\n\n### Исправлено\n\n- Отменённая проверка задержки больше не помечает сервер мёртвым, группы с\n  автовыбором не теряют закреплённый сервер.\n- Обновление подписки при отключении питания не оставляет пустой конфиг;\n  черновик свойств не попадает в момент подмены каталога подписки.\n- Одноимённые серверы из разных провайдеров не роняют список серверов.\n- Недокачанные файлы провайдеров, оставшиеся после гибели процесса, убираются\n  при старте.\n- Релиз собирается без ключа подписи, подпись идёт отдельным шагом с проверкой\n  сертификата."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.2",
               "tag": "android-v0.1.22-alpha.2",
@@ -4573,7 +4582,7 @@
             "stars": 76906,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T10:46:37Z",
+            "pushed_at": "2026-09-25T10:51:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5099a3f",
+            "sha": "d93b3da",
             "branch": "leeoniya/dash-lazy-5",
-            "date": "2026-09-25T08:25:07Z",
-            "url": "https://github.com/grafana/grafana/commit/5099a3f9a250d612a3272de90d8ccba870e05ddd"
+            "date": "2026-09-25T07:27:17Z",
+            "url": "https://github.com/grafana/grafana/commit/d93b3daf0673d94ca5c9bb21d4bc1b10917b8b65"
           }
         },
         {
@@ -4709,7 +4718,7 @@
             "stars": 80649,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-25T10:43:06Z",
+            "pushed_at": "2026-09-25T10:52:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4762,10 +4771,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3bd1295",
-            "branch": "master",
-            "date": "2026-09-25T10:38:13Z",
-            "url": "https://github.com/netdata/netdata/commit/3bd129555e1519d93af79427c8fc0987a28fb3e3"
+            "sha": "4df170e",
+            "branch": "netflow-plugin-publish-after-startup",
+            "date": "2026-09-25T10:52:17Z",
+            "url": "https://github.com/netdata/netdata/commit/4df170e12c0eef0217cdff0779d6055f5a145afc"
           }
         },
         {
