@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T21:11:17.257475Z",
+  "generated_at": "2026-09-25T21:16:32.697891Z",
   "groups": [
     {
       "id": "cores",
@@ -1090,8 +1090,8 @@
           ],
           "last_commit": {
             "sha": "e8ca976",
-            "branch": "main",
-            "date": "2026-09-25T19:46:46Z",
+            "branch": "master",
+            "date": "2026-09-25T19:46:47Z",
             "url": "https://github.com/openwrt/openwrt/commit/e8ca976eff4fe2ea9ac433ae615e4384b155b783"
           }
         },
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-25T12:22:54Z",
+            "pushed_at": "2026-09-25T21:12:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4a69a0b",
+                  "message": "banip: update 1.9.0-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-25T21:11:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a69a0b76759dcd6e2164c81d7260b5280d833c1"
+                },
+                {
                   "sha": "99d036f",
                   "message": "rsync: update to 3.5.1",
                   "author": "Ivan Pavlov",
@@ -1960,13 +1967,6 @@
                   "author": "Romain Isnel",
                   "date": "2026-09-18T16:16:28Z",
                   "url": "https://github.com/openwrt/packages/commit/905a8ae2e24b09af57a2eefd8a37378522d52315"
-                },
-                {
-                  "sha": "4df8cf1",
-                  "message": "meshtasticd: update to 2.7.26",
-                  "author": "Austin Lane",
-                  "date": "2026-09-18T16:14:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/4df8cf12e09be8230708f99075f3dea47e2b9958"
                 }
               ]
             },
@@ -3264,6 +3264,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "32dd807",
+                  "message": "banip: update 1.9.0-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-25T21:12:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/32dd807af85e709fb0965aae58be9f50f8bef412"
+                },
+                {
                   "sha": "4887ba9",
                   "message": "librespeed: fix the kconfig recursion between common and the clients",
                   "author": "Josef Schlehofer",
@@ -3465,13 +3472,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-09-18T19:11:51Z",
                   "url": "https://github.com/openwrt/packages/commit/1c5beef1ded11726ffcb6dcd50d889175f212533"
-                },
-                {
-                  "sha": "55f9161",
-                  "message": "mariadb: init - check file versions",
-                  "author": "Daniel Black",
-                  "date": "2026-09-18T19:10:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/55f9161efe3f13e22910862c8e128e8e01109226"
                 }
               ]
             }
@@ -4579,7 +4579,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76908,
+            "stars": 76909,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-25T21:03:24Z",
@@ -5142,7 +5142,7 @@
             "stars": 7603,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T21:08:25Z",
+            "pushed_at": "2026-09-25T21:12:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
