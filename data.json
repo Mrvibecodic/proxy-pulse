@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:11:49.455971Z",
+  "generated_at": "2026-09-25T10:17:09.662502Z",
   "groups": [
     {
       "id": "cores",
@@ -570,7 +570,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T10:03:24Z",
+            "pushed_at": "2026-09-25T10:16:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,15 +611,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Исправлено\n\n- Правка файлов подписки больше не обнуляет в её карточке трафик, лимит и\n  срок действия.\n- Экран «Файлы» показывает ошибку чтения и кнопку «Повторить» вместо пустого\n  списка; переименование поверх существующего файла выдаёт ошибку, а не\n  затирает его.\n- Свойства подписки спрашивают перед выходом, если в её файлах остались\n  несохранённые правки.\n- Замер задержек на вкладке «Серверы» проверяет каждый узел один раз, даже\n  если он входит в несколько групп, а прерванный замер сообщает об ошибке.\n- Проверка узлов после смены сети больше не ждёт в очереди за замером с экрана."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.10",
-              "tag": "android-v0.1.21-alpha.10",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.10",
-              "published_at": "2026-09-19T10:38:24Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Интервал автообновления подписки, заданный в панели провайдера, применяется\n  при каждом обновлении, пока вы не задали свой вручную. Кнопка «Как в панели»\n  в свойствах подписки возвращает интервал панели.\n\n### Исправлено\n\n- Автообновление подписки работает надёжнее: переживает перезагрузку телефона\n  и закрытие приложения системой, ручное обновление не теряется. Приложению\n  больше не нужно разрешение на точные будильники."
             }
           ],
           "last_commit": {
@@ -889,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7260,
+            "stars": 7261,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-24T22:51:03Z",
@@ -4443,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91804,
+            "stars": 91805,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-25T00:06:42Z",
@@ -4582,7 +4573,7 @@
             "stars": 76905,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T10:11:21Z",
+            "pushed_at": "2026-09-25T10:15:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cd291f4",
-            "branch": "renovate/react-hook-form-7.x-lockfile",
-            "date": "2026-09-25T10:09:25Z",
-            "url": "https://github.com/grafana/grafana/commit/cd291f4d2542d6e7acbd9e2947a9cb8bd3bfc2e2"
+            "sha": "33f2e5a",
+            "branch": "main",
+            "date": "2026-09-25T10:15:26Z",
+            "url": "https://github.com/grafana/grafana/commit/33f2e5a3f1b187737f66d6d792cff5a527d17d89"
           }
         },
         {
