@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:21:14.107959Z",
+  "generated_at": "2026-09-26T09:26:28.872177Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34420,
+            "stars": 34421,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-25T00:46:52Z",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.11-alpha.3",
+              "tag": "clod-v0.1.11-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.3",
+              "published_at": "2026-09-26T09:21:46Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Ping color thresholds can come from the subscription (`clod-ping` header)\n- `clod-lock-mode: lock` locks the routing mode permanently; `clod-announce` takes priority over the panel's `announce`\n- Option \"Close connections when picking a server on the Home page\"\n- macOS: the app bundle is signed without a certificate; installation with a single command, documented\n\n### Changed\n\n- Your own subscription name is stored separately from the panel's name; the update interval from the panel applies on every update\n- When the panel rejects the device, the previous servers are removed and mirrors are not polled; the device limit screen names the subscription and shows no device count\n- Ping scale as on Android (200/400 ms); latency is measured per node instead of the core's group test; provider nodes get fresh pings; no numbers in the tray\n- System proxy uses an external host only when LAN sharing is on, otherwise 127.0.0.1; the PAC address always stays on the loopback\n- Removed non-working settings: start page, backup on change, theme CSS, diagnostics export; the window always opens on Home\n- `clod-hwid-limit` and `clod-device-remove` headers are no longer read\n- Documentation updated to match the code, with a page on the `clod-*` headers\n\n### Fixed\n\n- The core is not reloaded with an unchanged config; a subscription update with unchanged content no longer duplicates auto-group tests\n- Skipping the reload takes empty rule sets into account\n- Changing a subscription address in the card no longer resets anything\n- Home page auto-test uses the fresh node list; the test queue does not survive a subscription switch; the proxy indicator waits for the core's answer\n- Backup schedule counts from the last backup, starts without waiting for a settings save and is not reset by unrelated saves\n- Support report shows the real proxy host; core connection errors get into the report and the log archive with addresses stripped\n- More precise hints for the proxy host, the managed core, built-in enhancements and the web UI\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`)\n- `clod-lock-mode: lock` — постоянный замок режима; `clod-announce` важнее панельного `announce`\n- Галка «Закрывать соединения при выборе сервера на главной»\n- macOS: пакет приложения подписывается без сертификата; установка одной командой описана в документации\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели; интервал обновления от панели применяется при каждом обновлении\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные адреса; окно лимита устройств называет подписку и не показывает число устройств\n- Шкала пинга как на Android (200/400 мс); замер по узлам вместо группового теста ядра, свежие пинги узлов провайдеров, без цифр в трее\n- Системный прокси использует внешний хост только при раздаче в локальную сеть, иначе 127.0.0.1; адрес PAC всегда на петле\n- Убраны неработающие пункты настроек: стартовая страница, копия при изменениях, CSS темы, экспорт диагностики; окно всегда открывается на Главной\n- Заголовки `clod-hwid-limit` и `clod-device-remove` больше не читаются\n- Документация приведена под код, добавлена страница заголовков `clod-*`\n\n### Исправлено\n\n- Ядро не перезагружается тем же конфигом; обновление подписки с прежним содержимым не дублирует замер авто-групп\n- Пропуск перезагрузки учитывает пустые наборы правил\n- Смена адреса подписки в карточке больше ничего не сбрасывает\n- Автозамер Главной берёт свежие узлы; очередь замера не переживает смену подписки; индикатор прокси ждёт ответа ядра\n- Расписание копий считает срок от последней копии, стартует без ожидания сохранения настроек и не сбивается посторонними сохранениями\n- Отчёт поддержки показывает реальный хост прокси; ошибки соединений ядра попадают в отчёт и архив логов без адресов\n- Точнее подсказки хоста прокси, управляемого ядра, встроенных улучшений и веб-интерфейса"
+            },
             {
               "name": "Clod Clash clod-v0.1.11-alpha.2",
               "tag": "clod-v0.1.11-alpha.2",
@@ -4434,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91837,
+            "stars": 91838,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-26T00:06:14Z",
@@ -4709,7 +4718,7 @@
             "stars": 80658,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-26T05:17:58Z",
+            "pushed_at": "2026-09-26T09:26:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4762,10 +4771,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b8d3f93",
+            "sha": "a4287b7",
             "branch": "master",
-            "date": "2026-09-25T18:19:27Z",
-            "url": "https://github.com/netdata/netdata/commit/b8d3f93269c9c7adcc961183ea57fecdb1df1e51"
+            "date": "2026-09-26T09:26:11Z",
+            "url": "https://github.com/netdata/netdata/commit/a4287b72d9662217a36d7f3ef754914bcfa0a57d"
           }
         },
         {
