@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T09:00:16.323613Z",
+  "generated_at": "2026-09-26T09:10:45.213503Z",
   "groups": [
     {
       "id": "cores",
@@ -568,6 +568,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.4",
+              "tag": "android-v0.1.22-alpha.4",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.4",
+              "published_at": "2026-09-26T09:07:39Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`).\n- `clod-lock-mode: lock` — постоянный замок режима, временный замок действует\n  ограниченный срок; `clod-announce` важнее панельного `announce`;\n  `clod-disable-ping` принимает только `true`.\n- Промо закрывается и показывается вместе с объявлением.\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели.\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные\n  адреса; тексты лимита устройств без числа устройств и без совета отключить\n  устройство в кабинете.\n- Заголовок `clod-hwid-limit` больше не читается.\n\n### Исправлено\n\n- Поправка часов защищённого канала хранится у каждой подписки своя."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.22-alpha.3",
               "tag": "android-v0.1.22-alpha.3",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.3",
@@ -871,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7275,
+            "stars": 7277,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-26T01:08:28Z",
@@ -4425,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91836,
+            "stars": 91837,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-26T00:06:14Z",
@@ -4564,7 +4573,7 @@
             "stars": 76918,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-26T08:44:32Z",
+            "pushed_at": "2026-09-26T09:07:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "79eb11e",
-            "branch": "nathanmarrs/notebooks-feedback-form",
-            "date": "2026-09-26T07:42:33Z",
-            "url": "https://github.com/grafana/grafana/commit/79eb11ed312ef62f24d41cd9be7636c83157fae7"
+            "sha": "404a82e",
+            "branch": "nathanmarrs/notebooks-content-search-backend",
+            "date": "2026-09-26T09:07:07Z",
+            "url": "https://github.com/grafana/grafana/commit/404a82efc0b58d4e8550909fd612ce8016385a2a"
           }
         },
         {
