@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:55:00.431448Z",
+  "generated_at": "2026-09-26T09:00:16.323613Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T21:27:32Z",
+            "pushed_at": "2026-09-26T08:55:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,22 +543,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- After an update the core no longer stays without its port: if the port is taken, the core is moved under the service as soon as the service is ready\n- Before the update installer runs, settings are saved and the system proxy is removed, so a cancelled installation no longer leaves the proxy pointing at a dead port\n- Restarting after an update goes through the normal quit path, which stops the core and removes the system proxy\n- Launching the app again with a link or file anywhere in its arguments hands it to the running copy, and a launch without a link brings the running window up\n- Updating a provider, rule set or geo databases from the window waits as long as the core does, instead of reporting a false error\n- A toggle changed in settings no longer snaps back before the next refresh\n- Connection speed is calculated from the real interval between updates, so the \"Now\" card no longer shows traffic accumulated while the window was hidden as speed\n- A connection without a route is labelled \"Route unknown\", and the busy-port notification suggests a full restart from the tray\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- После обновления ядро больше не остаётся без порта: если порт занят, ядро переводится под службу, как только она готова\n- Перед запуском установщика обновления настройки сохраняются, а системный прокси снимается, поэтому отменённая установка не оставляет прокси на мёртвом порте\n- Перезапуск после обновления идёт через штатный выход, который останавливает ядро и снимает системный прокси\n- Повторный запуск с ссылкой или файлом в любом из аргументов передаёт их работающей копии, а запуск без ссылки показывает её окно\n- Обновление провайдера, набора правил и гео-баз из окна ждёт столько же, сколько ядро, и не выдаёт ложную ошибку\n- Переключатель в настройках больше не отскакивает назад до ближайшего обновления\n- Скорость соединений считается по реальному интервалу между снимками, и карточка «Сейчас» не выдаёт трафик, накопленный за время скрытого окна, за скорость\n- Соединение без маршрута подписано «Маршрут неизвестен», а уведомление о занятом порте подсказывает полностью перезапустить клиент через трей"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10-alpha.6",
-              "tag": "clod-v0.1.10-alpha.6",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.6",
-              "published_at": "2026-09-19T10:43:30Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- The app talks to the core through a faster connection that reuses requests\n\n### Fixed\n\n- A failed subscription update is marked on its card and the mark clears after a successful update\n- A node pinned in an automatic group is restored from the profile, and a pin left by another profile is removed\n- vless links with the ws transport no longer get the HTTP Upgrade mode\n- Link parsing keeps only known keys in plugin options and headers and warns when decoding fails\n- The speed graph recovers when its data stream goes silent, and proxy providers load faster\n- Settings hints for defaults and the DNS override mode are clearer, the TUN dialog saves only its own fields, and a long provider announcement no longer stretches the window\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Приложение общается с ядром через более быстрое соединение, которое переиспользует запросы\n\n### Исправлено\n\n- Неудавшееся обновление подписки отмечается на её карточке, а отметка снимается после удачного обновления\n- Закреплённый узел в автоматической группе восстанавливается из профиля, а закрепление от другого профиля снимается\n- Ссылки vless с транспортом ws больше не получают режим HTTP Upgrade\n- Разбор ссылок оставляет в параметрах плагина и заголовках только известные ключи и предупреждает о неудавшемся декодировании\n- График скорости восстанавливается, если поток данных замолчал, а провайдеры прокси загружаются быстрее\n- Подсказки про умолчания и режим подмены DNS стали понятнее, диалог TUN сохраняет только свои поля, а длинное объявление провайдера больше не растягивает окно"
             }
           ],
           "last_commit": {
-            "sha": "5f5556f",
+            "sha": "a357215",
             "branch": "main",
-            "date": "2026-09-25T19:45:39Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/5f5556f7e6e11d36af2e89cc041a8de7929bd009"
+            "date": "2026-09-26T08:55:24Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/a357215b73de1d3f27f921dec1154f06b1355b51"
           }
         },
         {
@@ -570,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-25T20:22:22Z",
+            "pushed_at": "2026-09-26T08:55:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,15 +602,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Интервал автообновления подписки берётся из панели провайдера, пока вы не\n  задали свой; кнопка «Как в панели» возвращает его обратно.\n- В настройках сети можно выбрать сетевой стек MIPS — новую реализацию из ядра,\n  экономнее gVisor по памяти. Выбирается вручную.\n\n### Изменено\n\n- Главная кнопка во время подключения прерывает его, а в уведомлении появилась\n  кнопка «Отключить», работающая с первой секунды.\n- Сообщения об ошибках говорят, что произошло, чем это грозит и что делать.\n- Ядро обновлено до mihomo 1.19.31, сетевые библиотеки — до версий с\n  исправлениями безопасности.\n- Главный экран и вкладка «Серверы» работают легче, а в фоне приложение больше\n  не работает вхолостую.\n\n### Исправлено\n\n- Туннель поднимается только после загрузки профиля: трафик больше не уходит\n  мимо VPN в первые секунды после включения, а кнопка показывает, что идёт.\n- Подписка, список серверов которой ещё не скачан, больше не пускает трафик\n  напрямую в обход туннеля — соединения блокируются, и приложение говорит об этом.\n- Данные не уходят открытым текстом: перенаправление с https на http\n  отклоняется, а локальный порт не открывается в сеть без пароля.\n- Кнопки подключения предсказуемы, а внутренний сбой больше не обрывает туннель.\n- Подписка, не обновившаяся через VPN, повторяется напрямую; отказы объяснены\n  по-человечески. Автообновление переживает перезагрузку телефона.\n- Проверка задержек надёжна: отмена не помечает узел мёртвым, поворот экрана не\n  сбрасывает результат, а группа с автовыбором уходит с мёртвого узла.\n- Трафик за сессию больше не завышен, а расход по подписке считается как в\n  настольном клиенте."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.21-alpha.11",
-              "tag": "android-v0.1.21-alpha.11",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.21-alpha.11",
-              "published_at": "2026-09-20T10:46:47Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n\n- Правка файлов подписки больше не обнуляет в её карточке трафик, лимит и\n  срок действия.\n- Экран «Файлы» показывает ошибку чтения и кнопку «Повторить» вместо пустого\n  списка; переименование поверх существующего файла выдаёт ошибку, а не\n  затирает его.\n- Свойства подписки спрашивают перед выходом, если в её файлах остались\n  несохранённые правки.\n- Замер задержек на вкладке «Серверы» проверяет каждый узел один раз, даже\n  если он входит в несколько групп, а прерванный замер сообщает об ошибке.\n- Проверка узлов после смены сети больше не ждёт в очереди за замером с экрана."
             }
           ],
           "last_commit": {
@@ -4158,7 +4140,7 @@
           "track": "releases",
           "meta": {
             "description": "Container для Mikrotik, позволяющий подключаться к AmneziaWG серверам из Mikrotik. Полностью поддерживает протокол AWG 3.0. Этот контейнер также используется в: https://github.com/bivlked/amneziawg-installer",
-            "stars": 334,
+            "stars": 335,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
             "pushed_at": "2026-09-21T09:41:08Z",
@@ -5195,10 +5177,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d1f4df3",
-            "branch": "refactor_improve_risk_score_model",
-            "date": "2026-09-25T22:20:40Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/d1f4df38947867c6041defa3f201d70c5d233095"
+            "sha": "0238e14",
+            "branch": "main",
+            "date": "2026-09-25T22:35:22Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/0238e1414138788e1b674b1ae9d1ffc5b65adc38"
           }
         }
       ]
