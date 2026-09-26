@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T13:53:43.286823Z",
+  "generated_at": "2026-09-26T13:58:58.032292Z",
   "groups": [
     {
       "id": "cores",
@@ -576,6 +576,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.5",
+              "tag": "android-v0.1.22-alpha.5",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.5",
+              "published_at": "2026-09-26T13:56:25Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Подсветка слов цветом в объявлении и промо (`#RRGGBB` вплотную к слову),\n  как на десктопе; коды цвета не входят в лимит длины.\n- Подписка обновляется сама вскоре после истечения срока из панели — заглушки\n  или продление появляются сразу, а не с очередным периодом.\n\n### Исправлено\n\n- Префикс `base64:` в заголовках панели понимается в любом регистре\n  (`Base64:` из Remnawave показывался как сырой текст).\n- Узлы больше не лежат «✕» несколько минут после старта туннеля: сокеты ядра\n  защищены от своего VPN с начала сессии."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.4",
               "tag": "android-v0.1.22-alpha.4",
@@ -4217,7 +4226,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1868,
+            "stars": 1869,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-09-26T06:28:55Z",
@@ -4434,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91845,
+            "stars": 91844,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-26T00:06:14Z",
@@ -4502,7 +4511,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25762,
+            "stars": 25763,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-26T13:45:32Z",
@@ -4570,7 +4579,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76921,
+            "stars": 76922,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-09-26T13:13:22Z",
@@ -4774,7 +4783,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17770,
+            "stars": 17771,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-25T19:56:06Z",
@@ -4906,10 +4915,10 @@
             }
           ],
           "last_commit": {
-            "sha": "532759f",
-            "branch": "main",
+            "sha": "a57cca3",
+            "branch": "dev",
             "date": "2026-09-26T10:54:43Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/532759faefba709faf160247b9420b3a90b35a8b"
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/a57cca314b6cc83c5370cf729186992459556e56"
           }
         }
       ]
