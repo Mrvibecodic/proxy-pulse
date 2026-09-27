@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T19:00:16.325370Z",
+  "generated_at": "2026-09-27T19:05:32.617819Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41814,
+            "stars": 41813,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-27T18:42:53Z",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-25T21:12:46Z",
+            "pushed_at": "2026-09-27T19:01:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5e6d78f",
+                  "message": "banip: update 1.9.0-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T19:00:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e6d78f6d547694973848e45d77be4513d405dda"
+                },
+                {
                   "sha": "4a69a0b",
                   "message": "banip: update 1.9.0-2",
                   "author": "Dirk Brenken",
@@ -1960,13 +1967,6 @@
                   "author": "Christian Wengel",
                   "date": "2026-09-18T16:26:45Z",
                   "url": "https://github.com/openwrt/packages/commit/f85ebb948874e4e80ef60222c8603d5972f1e69a"
-                },
-                {
-                  "sha": "905a8ae",
-                  "message": "restic: update to 0.19.1",
-                  "author": "Romain Isnel",
-                  "date": "2026-09-18T16:16:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/905a8ae2e24b09af57a2eefd8a37378522d52315"
                 }
               ]
             },
@@ -3264,6 +3264,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "474b51e",
+                  "message": "banip: update 1.9.0-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T19:01:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/474b51ef1e1c4a5fa7581763713ed172df41783b"
+                },
+                {
                   "sha": "32dd807",
                   "message": "banip: update 1.9.0-2",
                   "author": "Dirk Brenken",
@@ -3465,13 +3472,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-18T19:13:12Z",
                   "url": "https://github.com/openwrt/packages/commit/c1a48852a227aa2c646026f8058f18d037044a91"
-                },
-                {
-                  "sha": "1c5beef",
-                  "message": "CONTRIBUTING.md: add pointers to LLM review prompts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-09-18T19:11:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c5beef1ded11726ffcb6dcd50d889175f212533"
                 }
               ]
             }
@@ -4443,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91875,
+            "stars": 91876,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-27T00:08:21Z",
@@ -4718,7 +4718,7 @@
             "stars": 80675,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-09-27T19:00:01Z",
+            "pushed_at": "2026-09-27T19:04:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -4771,10 +4771,10 @@
             }
           ],
           "last_commit": {
-            "sha": "47846b6",
-            "branch": "dependabot/go_modules/src/go/github.com/aws/aws-sdk-go-v2/service/cloudwatch-1.73.0",
-            "date": "2026-09-27T19:00:02Z",
-            "url": "https://github.com/netdata/netdata/commit/47846b632a5df065cd5dcf08510d5ec96d0b9cdb"
+            "sha": "ba6f90f",
+            "branch": "master",
+            "date": "2026-09-27T19:02:34Z",
+            "url": "https://github.com/netdata/netdata/commit/ba6f90fb3951eb70803a45ce5675328c2963b465"
           }
         },
         {
