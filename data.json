@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T09:12:05.881228Z",
+  "generated_at": "2026-09-27T09:17:33.371721Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-26T21:59:42Z",
+            "pushed_at": "2026-09-27T09:12:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,22 +543,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Connections tab: optional grouping by application, node or rule, and a summary strip above the table\n- Notifications with a cause instead of silence: a core that does not answer, a port held by another application, a tunnel that failed to come up, a subscription update that did not go through\n- Pre-release builds have their own update channel\n- The subscription card shows how long ago it was updated and marks a failed update\n\n### Changed\n\n- Connections are no longer closed for nothing: neither by Windows raising and dropping its own adapters, nor by a network change that left the path intact, nor by sleep more than once\n- The client no longer decides for you: your node selection, your settings and someone else's system proxy are left alone\n- A minimised window no longer works for nothing, and the load on the core is lower\n\n### Fixed\n\n- Sleep is noticed on every platform, Windows included: after waking, stale connections, the tunnel and the system proxy are checked\n- The client no longer opens a DNS resolver to the network; on macOS the system DNS is substituted only after the core has accepted the configuration\n- A hung or crashed core is restarted and healed even without the background service, quitting no longer leaves one behind, and after an update a core left without its port moves under the service\n- The system proxy is written only to a port the core has confirmed, and it is removed on quit\n- The tunnel switch shows the fact, your node selection survives a cold start, and only one copy of the application runs\n- Linux: the window opens from the tray again, and the tray icon survives a restart of the icon service\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Вкладка «Соединения»: группировка по приложению, узлу или правилу и полоса итогов над таблицей\n- Уведомления с причиной вместо тишины: ядро не отвечает, порт занят другим приложением, туннель не поднялся, обновление подписки не прошло\n- У предварительных сборок свой канал обновлений\n- Карточка подписки показывает давность обновления и отмечает неудавшееся\n\n### Изменено\n\n- Соединения больше не рвутся на ровном месте: ни от того, что Windows поднимает и гасит свои адаптеры, ни при смене сети, если прежний путь цел, ни дважды после сна\n- Клиент больше не решает за вас: выбор узла, ваши настройки и чужой системный прокси не трогаются\n- Свёрнутое окно не работает вхолостую, нагрузка на ядро ниже\n\n### Исправлено\n\n- Сон замечается на всех платформах, включая Windows: после пробуждения проверяются зависшие соединения, туннель и системный прокси\n- Клиент не открывает DNS-резолвер в сеть, а на macOS подменяет системный DNS только после того, как ядро приняло конфиг\n- Зависшее или упавшее ядро лечится даже без фоновой службы, выход не бросает живое ядро, а после обновления ядро, оставшееся без порта, уезжает под службу\n- Системный прокси пишется только на подтверждённый ядром порт и снимается при выходе\n- Тумблер туннеля показывает факт, выбор узлов переживает холодный старт, запускается только одна копия приложения\n- Linux: окно снова открывается из трея, значок переживает перезапуск службы значков"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10-alpha.7",
-              "tag": "clod-v0.1.10-alpha.7",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10-alpha.7",
-              "published_at": "2026-09-20T11:06:38Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Fixed\n\n- After an update the core no longer stays without its port: if the port is taken, the core is moved under the service as soon as the service is ready\n- Before the update installer runs, settings are saved and the system proxy is removed, so a cancelled installation no longer leaves the proxy pointing at a dead port\n- Restarting after an update goes through the normal quit path, which stops the core and removes the system proxy\n- Launching the app again with a link or file anywhere in its arguments hands it to the running copy, and a launch without a link brings the running window up\n- Updating a provider, rule set or geo databases from the window waits as long as the core does, instead of reporting a false error\n- A toggle changed in settings no longer snaps back before the next refresh\n- Connection speed is calculated from the real interval between updates, so the \"Now\" card no longer shows traffic accumulated while the window was hidden as speed\n- A connection without a route is labelled \"Route unknown\", and the busy-port notification suggests a full restart from the tray\n\n\u003c!-- lang:ru --\u003e\n\n### Исправлено\n\n- После обновления ядро больше не остаётся без порта: если порт занят, ядро переводится под службу, как только она готова\n- Перед запуском установщика обновления настройки сохраняются, а системный прокси снимается, поэтому отменённая установка не оставляет прокси на мёртвом порте\n- Перезапуск после обновления идёт через штатный выход, который останавливает ядро и снимает системный прокси\n- Повторный запуск с ссылкой или файлом в любом из аргументов передаёт их работающей копии, а запуск без ссылки показывает её окно\n- Обновление провайдера, набора правил и гео-баз из окна ждёт столько же, сколько ядро, и не выдаёт ложную ошибку\n- Переключатель в настройках больше не отскакивает назад до ближайшего обновления\n- Скорость соединений считается по реальному интервалу между снимками, и карточка «Сейчас» не выдаёт трафик, накопленный за время скрытого окна, за скорость\n- Соединение без маршрута подписано «Маршрут неизвестен», а уведомление о занятом порте подсказывает полностью перезапустить клиент через трей"
             }
           ],
           "last_commit": {
-            "sha": "01211b3",
+            "sha": "7017ae8",
             "branch": "main",
-            "date": "2026-09-26T21:59:43Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/01211b3382e127fcc8990e2cb9aacc8ffb927a15"
+            "date": "2026-09-27T09:12:27Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/7017ae8541fb3ff8d4e50a3d8e419f8405045844"
           }
         },
         {
@@ -570,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-26T20:06:26Z",
+            "pushed_at": "2026-09-27T09:12:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,15 +602,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Загрузку обновления можно отменить; отказ от установки в системном окне\n  возвращает к «Доступно обновление».\n- Удаление журнала спрашивает подтверждение, экспорт работает и без окна выбора\n  файла.\n\n### Изменено\n\n- Список приложений применяется при уходе с экрана «Приложения», экран\n  закрывается сразу; «Выделить всё» и «Снять выделение» действуют на видимый\n  список, импорт из буфера заменяет выбор целиком.\n- Переопределения записываются в ядро только после правок, сброс доходит до\n  ядра, режим при замке провайдера не сбрасывается.\n- Свои гео-базы переживают обновление приложения; дубль «Загрузить базу стран»\n  убран.\n- Тумблер называется «Запускать после перезагрузки»; «Скрыть значок» доступно\n  с Android 7, на Android 6 и ТВ значок возвращается.\n- Виджет гаснет после перезапуска фоновой части, сам просит разрешение VPN,\n  показывает «Подключение…»; отказ запуска с виджета, плитки, ярлыков и после\n  перезагрузки приходит уведомлением с причиной.\n- Единые слова везде: «журнал», «сервер», «подписка»; время «сколько назад»,\n  размер и дата в одном формате; английские подписи в обычном регистре.\n- Скрытая сортировка серверов, которую нельзя было переключить, убрана.\n\n### Исправлено\n\n- Понятные ошибки при добавлении и сохранении подписки, ответ на повторное\n  нажатие во время загрузки.\n- Экран «Файлы»: отмена в окне имени ничего не меняет, имя берётся из\n  провайдера, отказ переименования называется по-человечески.\n- Строки hosts без «=» не проходят, подсказка порта по смыслу, выключенные\n  строки приглушены.\n- «Нет приложения, чтобы открыть ссылку» с адресом вместо технической ошибки.\n- Дата в подписках по языку приложения."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.22-alpha.1",
-              "tag": "android-v0.1.22-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.1",
-              "published_at": "2026-09-23T01:01:27Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Режим (по правилам, глобальный, прямой) запоминается для каждой подписки\n  отдельно; подписка без режима работает по правилам.\n- Главная показывает сервер главной группы подписки, а тумблер «Все группы на\n  Главной» выводит выбранный сервер каждой группы с задержкой.\n- Ручную проверку обновления можно отменить.\n\n### Изменено\n\n- В выборе режима первым стоит «По правилам», пункт «Как в подписке» убран.\n- Имя подписки везде берётся из панели, «безлимит» показывается только когда\n  панель прислала квоту, срок действия считается по часам панели.\n- Сбои описаны человеческим текстом, техническая причина — в деталях;\n  «служба не отвечает» видна текстом на всех экранах.\n- Главная честно пишет про прямой режим и про блокировку, если главная группа\n  ведёт на неё.\n- Скринридер озвучивает выбранный сервер, активную подписку и состояние кнопки\n  питания.\n\n### Исправлено\n\n- Выбор уже активной подписки и повтор того же режима больше не перезагружают\n  ядро.\n- Без ядра группа выбора показывает тот узел, который выберет само ядро.\n- Список серверов больше не выдаётся за полный, если догрузился не целиком,\n  и открывается быстрее.\n- Страница вместо подписки не считается успешным обновлением — пробуются\n  запасные адреса провайдера.\n- Подтверждение установки обновления не теряется при свёрнутом приложении,\n  неудачная установка убирает за собой файл.\n- «Не сейчас» в запросе уведомлений откладывает вопрос, а не отменяет его\n  навсегда.\n- Тумблеры обновлений не мигают значением по умолчанию при открытии экрана."
             }
           ],
           "last_commit": {
@@ -1036,7 +1018,7 @@
             "stars": 28540,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-27T08:58:22Z",
+            "pushed_at": "2026-09-27T09:12:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1089,10 +1071,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d592680",
-            "branch": "master",
-            "date": "2026-09-27T08:58:23Z",
-            "url": "https://github.com/openwrt/openwrt/commit/d592680cc501cd7decdffb50b80c964d128c22ef"
+            "sha": "492a0ff",
+            "branch": "main",
+            "date": "2026-09-27T09:12:46Z",
+            "url": "https://github.com/openwrt/openwrt/commit/492a0ff6b13aead1dc2a54def9160cc38550c032"
           }
         },
         {
