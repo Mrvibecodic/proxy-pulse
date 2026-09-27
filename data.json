@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T09:22:51.168920Z",
+  "generated_at": "2026-09-27T09:28:06.966503Z",
   "groups": [
     {
       "id": "cores",
@@ -567,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.6",
+              "tag": "android-v0.1.22-alpha.6",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.6",
+              "published_at": "2026-09-27T09:24:26Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Стек туннеля берётся из подписки, включая MIPS.\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor.\n- Туннель пересобирается, когда меняется состав приложений в «Доступе\n  приложений», стек или приложение из списка переустановлено; открытые\n  соединения при этом рвутся.\n\n### Исправлено\n\n- Нечитаемые настройки больше не открываются пустыми и не записываются поверх\n  настоящих — экран показывает карточку со сбросом; неудачная запись или сброс\n  не выдаются за успех.\n- Сбой ядра посреди применения конфига не выдаётся за «оставлен прежний\n  профиль».\n- Сбой запроса групп при живом ядре не уводит главный экран в офлайн-список;\n  главный экран не падает при отказе службы.\n- Профилировщик pprof есть только в отладочной сборке."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.5",
               "tag": "android-v0.1.22-alpha.5",
@@ -3731,7 +3740,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5307,
+            "stars": 5306,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-25T00:35:50Z",
@@ -4208,7 +4217,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1876,
+            "stars": 1877,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-09-26T21:11:19Z",
