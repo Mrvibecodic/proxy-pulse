@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T23:11:27.618837Z",
+  "generated_at": "2026-09-27T23:16:42.456865Z",
   "groups": [
     {
       "id": "cores",
@@ -1033,7 +1033,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28546,
+            "stars": 28547,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-27T23:06:29Z",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-27T20:10:56Z",
+            "pushed_at": "2026-09-27T23:14:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ce188c6",
+                  "message": "exim: update to 4.100.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce188c6505f932db88efc356f3161cb31068de43"
+                },
+                {
+                  "sha": "a983abe",
+                  "message": "exim: add download URL for superseded releases",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/a983abe73090b5247ecea8c2e69d80f26e046a21"
+                },
+                {
                   "sha": "a637759",
                   "message": "adblock: update 4.5.8-3",
                   "author": "Dirk Brenken",
@@ -1953,20 +1967,6 @@
                   "author": "Richard Kroegel",
                   "date": "2026-09-20T10:46:41Z",
                   "url": "https://github.com/openwrt/packages/commit/444f79ce48f01d9b145bfbaac424a740dfe28e33"
-                },
-                {
-                  "sha": "5174da3",
-                  "message": "unbound: update to 1.26.1",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-09-20T06:08:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/5174da3aa379d65cdf3247a3359241910b79ee1c"
-                },
-                {
-                  "sha": "72e4f90",
-                  "message": "banip: release 1.9.0",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-19T17:50:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/72e4f90d756b0cf9da01e7b955ad48279df0578c"
                 }
               ]
             },
