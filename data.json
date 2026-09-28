@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:30:26.347570Z",
+  "generated_at": "2026-09-28T14:35:43.920167Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38389,
+            "stars": 38391,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-28T04:03:49Z",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T14:24:18Z",
+            "pushed_at": "2026-09-28T14:34:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3255,6 +3255,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "22e5a43",
+                  "message": "krb5: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:34:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/22e5a43f0cbf3fb8122d9688129b756d74137803"
+                },
+                {
                   "sha": "02f5976",
                   "message": "tvheadend: skip the DVB permission fix without adapters",
                   "author": "Josef Schlehofer",
@@ -3456,13 +3463,6 @@
                   "author": "Stijn Tintel",
                   "date": "2026-09-23T23:29:44Z",
                   "url": "https://github.com/openwrt/packages/commit/7f0f2d43acc004846be7208579dec79b4c109ee8"
-                },
-                {
-                  "sha": "1137f24",
-                  "message": "kea: fix /var/run/kea permissions",
-                  "author": "Stijn Tintel",
-                  "date": "2026-09-23T23:29:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/1137f24e4d91c5cdd6a59487f14e8d67ed8539f3"
                 }
               ]
             }
@@ -4573,7 +4573,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:29:35Z",
+            "pushed_at": "2026-09-28T14:34:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "363a7bf",
-            "branch": "RafaelPaulovic/nats-watch-invalidation-lifecycle",
-            "date": "2026-09-28T14:25:53Z",
-            "url": "https://github.com/grafana/grafana/commit/363a7bfd85a6b1260e708551cd6f0dd83edb1c8e"
+            "sha": "5095b8d",
+            "branch": "main",
+            "date": "2026-09-28T12:51:05Z",
+            "url": "https://github.com/grafana/grafana/commit/5095b8d6d0c6e0987d8946319001af9a928127f1"
           }
         },
         {
