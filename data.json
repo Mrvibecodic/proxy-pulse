@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:14:36.731130Z",
+  "generated_at": "2026-09-28T14:19:52.649949Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34486,
+            "stars": 34487,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-27T01:50:41Z",
@@ -880,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7295,
+            "stars": 7296,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-28T00:54:03Z",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T11:03:35Z",
+            "pushed_at": "2026-09-28T14:19:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "42b445d",
+                  "message": "dbus: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:19:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/42b445d3b4316cbb022ac562ed8ead2d2ee76727"
+                },
+                {
+                  "sha": "a13f8a2",
+                  "message": "giflib: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:19:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/a13f8a2615875a398520af8b64ada2830e0a1814"
+                },
+                {
+                  "sha": "c1c1ff8",
+                  "message": "coreutils: add generic version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:19:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/c1c1ff8afb940000cdb0efe2404d24eeb3291d7b"
+                },
+                {
+                  "sha": "33d3a12",
+                  "message": "bind: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:19:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/33d3a128094e48f62142a740dfc14bf1877e97af"
+                },
+                {
                   "sha": "653f642",
                   "message": "xz: update to 5.8.3",
                   "author": "Hannu Nyman",
@@ -3220,40 +3248,33 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-09-18T20:24:11Z",
                   "url": "https://github.com/openwrt/packages/commit/d8ce3c0142174928804fa986d718b44aa7fa0942"
-                },
-                {
-                  "sha": "a5cc282",
-                  "message": "knot: update to version 3.5.7",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/a5cc282702689a39c41110138e9e4eeda42a75d4"
-                },
-                {
-                  "sha": "d804454",
-                  "message": "knot: update to version 3.5.6",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/d804454de5891c6fb3ea2e6772291974698431c3"
-                },
-                {
-                  "sha": "d1f8bb5",
-                  "message": "knot: update to version 3.5.5",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/d1f8bb5532e2da94c8341aa2876a2f6ad220ea61"
-                },
-                {
-                  "sha": "4684d0d",
-                  "message": "knot: drop kru.inc.c static_assert that requires lock-free 16-bit atomics",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-18T19:49:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/4684d0d856dd8257de7ba324d0d2fdd084cadf51"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "fe94ae1",
+                  "message": "giflib: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:18:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe94ae1556db76457295d6606cb08f6ab295d412"
+                },
+                {
+                  "sha": "deca004",
+                  "message": "coreutils: add generic version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:18:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/deca004d4003280596086575206c0f16810ad17e"
+                },
+                {
+                  "sha": "98ac584",
+                  "message": "bind: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:18:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/98ac58472655bc6953c2226c030c1e196eec3f94"
+                },
                 {
                   "sha": "c99b0fa",
                   "message": "dbus: add version check override",
@@ -3442,27 +3463,6 @@
                   "author": "Peter Polonec",
                   "date": "2026-09-22T13:20:56Z",
                   "url": "https://github.com/openwrt/packages/commit/d8488f46b08db0467bb9c081fba79e1b2e9c43ac"
-                },
-                {
-                  "sha": "1672d66",
-                  "message": "curl: add krb5 support",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-22T13:20:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/1672d664bf7214a70184c2b2a3cf1531de7a91d4"
-                },
-                {
-                  "sha": "acecdeb",
-                  "message": "unbound: update to 1.26.1",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-09-22T13:13:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/acecdebae420c4e5811a1c7703434916b196141e"
-                },
-                {
-                  "sha": "8688f24",
-                  "message": "librespeed-cli-rust: update to version 1.2.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-22T08:00:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/8688f24f39fc349b246c55632672448135dd0763"
                 }
               ]
             }
@@ -3811,7 +3811,7 @@
             "stars": 143,
             "url": "https://github.com/Medium1992/mihomo-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:05:08Z",
+            "pushed_at": "2026-09-28T14:19:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25814,
+            "stars": 25815,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-28T11:54:16Z",
@@ -4573,7 +4573,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:12:51Z",
+            "pushed_at": "2026-09-28T14:17:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e466023",
-            "branch": "release-13.2.3",
-            "date": "2026-09-28T05:45:18Z",
-            "url": "https://github.com/grafana/grafana/commit/e4660236641d3d28342a68489b48fb48d2014840"
+            "sha": "76de21f",
+            "branch": "justinrandell/query-service-forward-bytes",
+            "date": "2026-09-28T14:17:05Z",
+            "url": "https://github.com/grafana/grafana/commit/76de21febf79310bbcf3e3efe3ed987b62056171"
           }
         },
         {
@@ -4777,7 +4777,7 @@
             "stars": 17777,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T13:05:10Z",
+            "pushed_at": "2026-09-28T14:18:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "41e6368",
-            "branch": "issue-11640",
-            "date": "2026-09-28T13:05:11Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/41e636846a9b01a5242ca1eda95fe5def2bb7298"
+            "sha": "b77b632",
+            "branch": "master",
+            "date": "2026-09-28T14:17:45Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/b77b63277c8ecf1e0dddecc15af2573ecba4d1c6"
           }
         }
       ]
