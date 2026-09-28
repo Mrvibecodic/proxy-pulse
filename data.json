@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:35:43.920167Z",
+  "generated_at": "2026-09-28T14:40:59.688487Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41829,
+            "stars": 41830,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-28T14:24:45Z",
@@ -1027,7 +1027,7 @@
             "stars": 28556,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T13:58:40Z",
+            "pushed_at": "2026-09-28T14:36:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1080,10 +1080,10 @@
             }
           ],
           "last_commit": {
-            "sha": "220a7ac",
+            "sha": "0613979",
             "branch": "master",
-            "date": "2026-09-28T13:58:44Z",
-            "url": "https://github.com/openwrt/openwrt/commit/220a7ac9905230fc6b51de268fb60e1cea9afd9a"
+            "date": "2026-09-28T14:36:01Z",
+            "url": "https://github.com/openwrt/openwrt/commit/061397968df2f89b2aa2157c74c7cadd651a48f7"
           }
         },
         {
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T14:34:58Z",
+            "pushed_at": "2026-09-28T14:40:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "01f463c",
+                  "message": "sqlite3: fix CI test",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:38:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/01f463c4c20713d2b9386c73c6ef7918fc11d32c"
+                },
+                {
+                  "sha": "4a8e559",
+                  "message": "sqlite3: add CI version check",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:38:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a8e5594449828a3d70f016cbd5ccaff4a8c4455"
+                },
+                {
+                  "sha": "ff75efd",
+                  "message": "unbound: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:36:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff75efd4c2f74ef72ff64a18b4873b0e7463202d"
+                },
+                {
+                  "sha": "b9565e9",
+                  "message": "unbound: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T14:36:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9565e9b056beef1efd75273b09a75a9fa5e5770"
+                },
+                {
                   "sha": "519e810",
                   "message": "tvheadend: skip the DVB permission fix without adapters",
                   "author": "Josef Schlehofer",
@@ -3220,40 +3248,26 @@
                   "author": "John Audia",
                   "date": "2026-09-18T20:43:28Z",
                   "url": "https://github.com/openwrt/packages/commit/f22f16a9752c01c0554471bca96c7a27c015b64f"
-                },
-                {
-                  "sha": "0e19e96",
-                  "message": "zsh: fix shell not sourcing /etc/profile",
-                  "author": "John Audia",
-                  "date": "2026-09-18T20:43:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/0e19e96a1754731e7ff9839e0c68daac76f35ce9"
-                },
-                {
-                  "sha": "cbb75ab",
-                  "message": "tar: fix typo in LDFLAGS variable name",
-                  "author": "Qin Guang",
-                  "date": "2026-09-18T20:41:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/cbb75abc13de7504e906981328d6548cf479104a"
-                },
-                {
-                  "sha": "eeb14d3",
-                  "message": "grep: update to 3.12",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-18T20:35:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/eeb14d3ce93ba9f60f0805fa2eab788d9da27bc5"
-                },
-                {
-                  "sha": "0152bcf",
-                  "message": "grep: fix that egrep and fgrep workaround doesn't work",
-                  "author": "Kazuhiro Ito",
-                  "date": "2026-09-18T20:35:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/0152bcff796a3055e90f8e2a2cc75de77037a843"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "b9c0c76",
+                  "message": "unbound: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T14:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9c0c76e661d2e14e7610c4867742bc6716ad806"
+                },
+                {
+                  "sha": "ddc652f",
+                  "message": "unbound: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T14:36:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/ddc652f6cf789510d210e2fc9ed9d90d6a4e7df3"
+                },
                 {
                   "sha": "22e5a43",
                   "message": "krb5: add version check override",
@@ -3449,20 +3463,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-25T09:10:48Z",
                   "url": "https://github.com/openwrt/packages/commit/4887ba99a723a5f4e0e0a3626fef0ae7ce70a3f6"
-                },
-                {
-                  "sha": "8cf7cb5",
-                  "message": "librespeed-common: add measurement backend",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-25T09:10:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/8cf7cb51080fb23b69d0afa21144b41f795120d9"
-                },
-                {
-                  "sha": "7f0f2d4",
-                  "message": "kea: create /var/lib/kea directory in init script",
-                  "author": "Stijn Tintel",
-                  "date": "2026-09-23T23:29:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f0f2d43acc004846be7208579dec79b4c109ee8"
                 }
               ]
             }
@@ -4437,7 +4437,7 @@
             "stars": 91907,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T00:07:16Z",
+            "pushed_at": "2026-09-28T14:39:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -4573,7 +4573,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:34:50Z",
+            "pushed_at": "2026-09-28T14:39:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5095b8d",
-            "branch": "main",
-            "date": "2026-09-28T12:51:05Z",
-            "url": "https://github.com/grafana/grafana/commit/5095b8d6d0c6e0987d8946319001af9a928127f1"
+            "sha": "989c509",
+            "branch": "forsethc/feat/iam-resource-permissions-startup-evaluation",
+            "date": "2026-09-28T14:34:51Z",
+            "url": "https://github.com/grafana/grafana/commit/989c50988b2a4e15697a2cd8a6ae4770a17b0ea3"
           }
         },
         {
