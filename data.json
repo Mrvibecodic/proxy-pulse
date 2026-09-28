@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T06:01:24.689355Z",
+  "generated_at": "2026-09-28T06:11:51.219916Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T06:01:09Z",
+            "pushed_at": "2026-09-28T06:11:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0f85be3",
+                  "message": "ddns-scripts: use HTTPS for variomedia.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/0f85be35c647379a45d690d414520e65bf2dff26"
+                },
+                {
+                  "sha": "6260e64",
+                  "message": "ddns-scripts: remove ddnss.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/6260e64719713f64c4c84cbbfe709714b56a763f"
+                },
+                {
+                  "sha": "019ce1b",
+                  "message": "ddns-scripts: remove defunct providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/019ce1b87c29bc40fc6d6d020c658e2080b86828"
+                },
+                {
                   "sha": "10f86ed",
                   "message": "gpsd: install gps2udp client",
                   "author": "Jose Luis Sanroma Tato",
@@ -1946,27 +1967,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-20T10:59:46Z",
                   "url": "https://github.com/openwrt/packages/commit/2ed4d547ff94252ed4cc9a71f2a8d1d2c3d39bc4"
-                },
-                {
-                  "sha": "b518cab",
-                  "message": "gst1-plugins-good: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/b518cab35af067d0ab54757f90dde76df095a562"
-                },
-                {
-                  "sha": "2cfc0aa",
-                  "message": "gst1-plugins-base: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/2cfc0aae493ccb8a26808657a562941fe45f3567"
-                },
-                {
-                  "sha": "20d0ffe",
-                  "message": "gstreamer1: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/20d0ffe4d0b0a18cc32ac46e5266ed668f1da2e0"
                 }
               ]
             },
