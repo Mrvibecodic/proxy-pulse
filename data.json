@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:09:01.607837Z",
+  "generated_at": "2026-09-28T10:14:21.132424Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T10:03:34Z",
+            "pushed_at": "2026-09-28T10:11:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -534,22 +534,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Routing mode comes from the subscription; a mode chosen by hand is remembered per subscription and survives updates\n- Favorites star on the Proxies page too; favorite nodes come first in a group; one latency color scale on every screen\n- Groups are latency-tested in parallel with a shared load cap; the ping on the Proxies page is the same measurement the sorting uses\n- The selected node on the Home page keeps its ping fresh while the window is on screen\n- The service availability test page has been removed\n- Ports, controller address and CORS apply without needless core restarts\n- Interface texts unified: subscriptions are called subscriptions everywhere, counts use proper plural forms, autostart options have descriptive names\n\n### Fixed\n\n- Home page shows the real connection state, ping, subscription expiry and mode; a failed ping is shown instead of a stale value\n- Notifications that arrive while the window is hidden wait for it to be shown\n- Applying the current subscription restores the node selection; the first added subscription is applied at once\n- Subscription editors no longer close or lose text when the core rejects a change, and save exactly what is on screen\n- Bulk selection acts on visible cards only; editing a subscription sends only the changed fields\n- Repeating the already active mode no longer drops connections\n- Traffic speed and the connections table reset when the core goes away instead of freezing\n- Log page shows what the core writes at its current level and remembers a clear\n- Connections page shows the real state of the card, the table and closed connections\n- \"Update all\" reports which providers failed\n- Settings dialogs validate input; update, backup and action errors are shown\n- Crash screen offers to quit; relative times and service texts translated\n- Group latency test in global mode skips nodes hidden by the filter\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Режим маршрутизации берётся из подписки; выбранный руками режим помнится для каждой подписки и переживает обновления\n- Звёздочка избранного и на странице «Прокси»; избранные узлы стоят в группе первыми; одна шкала цвета задержки на всех экранах\n- Группы проверяются параллельно с общим потолком нагрузки; пинг на странице «Прокси» — тот же замер, что и сортировка\n- Выбранный узел на Главной обновляет пинг, пока окно на экране\n- Страница проверки доступности сервисов убрана\n- Порты, адрес контроллера и CORS применяются без лишних перезапусков ядра\n- Тексты приведены к одному: подписки везде называются подписками, числительные в правильных формах, автозапуск назван по смыслу\n\n### Исправлено\n\n- Главная показывает действительное состояние подключения, пинга, срока подписки и режима; провал замера виден вместо застывшей цифры\n- Уведомления, пришедшие в скрытое окно, ждут его показа\n- Применение текущей подписки возвращает выбор узлов; первая добавленная подписка применяется сразу\n- Редакторы подписки не закрываются и не теряют текст при отказе ядра, сохраняют ровно то, что на экране\n- Пакетный выбор действует на видимые карточки; правка подписки шлёт только изменённое\n- Повтор уже активного режима не рвёт соединения\n- Скорость и таблица соединений обнуляются при пропаже ядра, а не застывают\n- Журнал показывает то, что пишет ядро на текущем уровне, и помнит очистку\n- Страница соединений показывает настоящее состояние карточки, таблицы и закрытых соединений\n- «Обновить все» сообщает, какие провайдеры не обновились\n- Диалоги настроек проверяют ввод; ошибки обновления, резервных копий и действий видны\n- Экран аварии предлагает выход; относительное время и тексты про службу переведены\n- Проверка группы в глобальном режиме не мерит узлы, скрытые фильтром"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11-alpha.1",
-              "tag": "clod-v0.1.11-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.1",
-              "published_at": "2026-09-23T01:20:04Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- A proxy chain is stored together with its subscription and never leaks into another one; each subscription keeps its own DNS page file\n- The provider filter lists exactly the proxy types the core supports\n- Lower background load: one core health watchdog for both the service and the standalone process, faster detection of the managed core, a hang probe before showing the window only with detailed diagnostics\n\n### Fixed\n\n- An empty node list no longer wipes an active proxy chain, and removing the last node clears the chain as well\n- The fake-ip range is no longer sent empty\n- The built-in \"leave it to the rules\" policy reaches the core and is shown in the interface\n- Profile files are deleted only together with the profile; a broken core cache is reset before start on Linux and macOS; the core log is flushed on a crash\n- A group icon with non-Latin characters no longer breaks the page, traffic around a thousand is shown without an exponent, an invalid test URL shows a warning, a failed update check is shown as a warning\n- A link passed from a second copy of the app is handed over safely, and the built-in server serves only the window request and the auto-config file\n- The system proxy watchdog waits for the previous pass to finish and reports a failure to start\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Цепочка прокси хранится вместе со своей подпиской и не уезжает в чужую; у каждой подписки свой файл страницы DNS\n- Фильтр провайдера предлагает ровно те типы прокси, что понимает ядро\n- Меньше фоновой нагрузки: один сторож здоровья ядра для службы и отдельного процесса, управляемое ядро узнаётся быстрее, проба зависания перед показом окна — только при подробной диагностике\n\n### Исправлено\n\n- Пустой список узлов больше не стирает поднятую цепочку, а удаление последнего узла тоже её разбирает\n- Диапазон fake-ip больше не уезжает пустым\n- Встроенная политика «решают правила» доходит до ядра и видна в интерфейсе\n- Файлы профилей удаляются только вместе с профилем; негодный кэш ядра сбрасывается перед запуском на Linux и macOS; журнал ядра дописывается при падении\n- Значок группы с нелатинскими символами не роняет страницу, трафик около тысячи показывается без экспоненты, негодный адрес проверки предупреждает, неудачная проверка обновлений показывается предупреждением\n- Ссылка от второй копии приложения передаётся безопасно, а встроенный сервер отдаёт только показ окна и файл автонастройки\n- Сторож системного прокси дожидается конца прошлого обхода и сообщает об отказе запуска"
             }
           ],
           "last_commit": {
-            "sha": "794c757",
+            "sha": "9c09b98",
             "branch": "main",
-            "date": "2026-09-28T10:03:35Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/794c757a1180213eac9c7ee93ef359ec59c5c325"
+            "date": "2026-09-28T10:11:20Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/9c09b980075da36545ba6b67f9438d5d396b04c4"
           }
         },
         {
@@ -880,7 +871,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7295,
+            "stars": 7294,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-28T00:54:03Z",
@@ -4570,10 +4561,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76962,
+            "stars": 76961,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T10:08:59Z",
+            "pushed_at": "2026-09-28T10:13:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9510441",
-            "branch": "backport-133661-to-release-13.2.3",
-            "date": "2026-09-28T10:07:56Z",
-            "url": "https://github.com/grafana/grafana/commit/9510441e49be77f770e22210dab86a04ded42cee"
+            "sha": "8dec808",
+            "branch": "renovate/ol-10.x-lockfile",
+            "date": "2026-09-28T10:09:46Z",
+            "url": "https://github.com/grafana/grafana/commit/8dec808cbbcf98a27ef13b7b42fcddd7e519f36d"
           }
         },
         {
