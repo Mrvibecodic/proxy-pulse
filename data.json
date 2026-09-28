@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:19:52.649949Z",
+  "generated_at": "2026-09-28T14:25:09.243106Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41829,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T09:49:57Z",
+            "pushed_at": "2026-09-28T14:24:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5136,
+            "stars": 5137,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-09-12T15:07:11Z",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T14:19:11Z",
+            "pushed_at": "2026-09-28T14:24:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0d7ca56",
+                  "message": "tvheadend: skip the DVB permission fix without adapters",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/0d7ca569ebd1ed871a2ac209a3208fffa55f4abf"
+                },
+                {
+                  "sha": "3726fde",
+                  "message": "tvheadend: update to 2026-09-24",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/3726fde8fbfd524dc72986bb59a193382acb19aa"
+                },
+                {
                   "sha": "9274fde",
                   "message": "python3: match packages by pattern in version check override",
                   "author": "Josef Schlehofer",
@@ -1944,20 +1958,6 @@
                   "author": "Javier Marcet",
                   "date": "2026-09-20T11:36:54Z",
                   "url": "https://github.com/openwrt/packages/commit/6e46ddbe2ddaee2b4381dbf1a5046ef942b8265b"
-                },
-                {
-                  "sha": "017888a",
-                  "message": "gst1-plugins-base: re-enable the NEON audio resampler on 32-bit ARM",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/017888a5cad41f10507aa23958b3e05c6ae2d3e5"
-                },
-                {
-                  "sha": "5405dd6",
-                  "message": "gst1-libav: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/5405dd6ff28830b7ceba6ef314e7dd5348aa013d"
                 }
               ]
             },
@@ -3040,6 +3040,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "519e810",
+                  "message": "tvheadend: skip the DVB permission fix without adapters",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:24:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/519e8101a0c885da197d2c87b5c99eff89da433c"
+                },
+                {
+                  "sha": "fd2d04b",
+                  "message": "tvheadend: update to 2026-09-24",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:24:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/fd2d04b1a180c20f4d74d9d2e130a2e7a993a761"
+                },
+                {
                   "sha": "42b445d",
                   "message": "dbus: add version check override",
                   "author": "George Sapkin",
@@ -3234,26 +3248,40 @@
                   "author": "Kazuhiro Ito",
                   "date": "2026-09-18T20:35:32Z",
                   "url": "https://github.com/openwrt/packages/commit/0152bcff796a3055e90f8e2a2cc75de77037a843"
-                },
-                {
-                  "sha": "0f02ae2",
-                  "message": "gawk: update to version 5.3.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-18T20:33:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f02ae234303b0ad96ba4b8a7a02fd7e7500aaff"
-                },
-                {
-                  "sha": "d8ce3c0",
-                  "message": "expat: update to 2.8.4",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-18T20:24:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/d8ce3c0142174928804fa986d718b44aa7fa0942"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "02f5976",
+                  "message": "tvheadend: skip the DVB permission fix without adapters",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:23:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/02f59768077482ca727038b188e0e67373e18ebc"
+                },
+                {
+                  "sha": "4363fe3",
+                  "message": "tvheadend: update to 2026-09-24",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:23:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/4363fe3876d9e175fd92f0f7d8bc22c8d87f4c31"
+                },
+                {
+                  "sha": "afd7412",
+                  "message": "rtl-sdr: add test.sh",
+                  "author": "Seo Suchan",
+                  "date": "2026-09-28T14:20:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/afd7412aee7a211437d92e1229d2badb2591d82e"
+                },
+                {
+                  "sha": "96cc410",
+                  "message": "rtl-sdr: update to 2.0.2",
+                  "author": "Seo Suchan",
+                  "date": "2026-09-28T14:20:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/96cc41065687d454f3ef2d720245f7a99bf02a33"
+                },
                 {
                   "sha": "fe94ae1",
                   "message": "giflib: add version check override",
@@ -3435,34 +3463,6 @@
                   "author": "Stijn Tintel",
                   "date": "2026-09-23T23:29:44Z",
                   "url": "https://github.com/openwrt/packages/commit/1137f24e4d91c5cdd6a59487f14e8d67ed8539f3"
-                },
-                {
-                  "sha": "0ad9a3f",
-                  "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-23T13:03:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/0ad9a3fc1e02d32b19f09c03aa9439e27b102b6a"
-                },
-                {
-                  "sha": "6bdd3fd",
-                  "message": "modemmanager: suppress hotplug log noise",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-09-23T05:37:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/6bdd3fd033cc5aa6d24751509b58a9d7d0e25b5e"
-                },
-                {
-                  "sha": "f5ce989",
-                  "message": "php8-pecl-http: disable TLS-SRP detection",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-22T13:20:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/f5ce9895f066cc252e74cb41ac7378904395aac0"
-                },
-                {
-                  "sha": "d8488f4",
-                  "message": "curl: update to 8.22.0",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-22T13:20:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/d8488f46b08db0467bb9c081fba79e1b2e9c43ac"
                 }
               ]
             }
@@ -4505,7 +4505,7 @@
             "stars": 25815,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T11:54:16Z",
+            "pushed_at": "2026-09-28T14:25:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4573,7 +4573,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:17:04Z",
+            "pushed_at": "2026-09-28T14:23:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "76de21f",
-            "branch": "justinrandell/query-service-forward-bytes",
-            "date": "2026-09-28T14:17:05Z",
-            "url": "https://github.com/grafana/grafana/commit/76de21febf79310bbcf3e3efe3ed987b62056171"
+            "sha": "d0ccf1d",
+            "branch": "fastfrwrd/meticulous-stuff",
+            "date": "2026-09-28T14:23:17Z",
+            "url": "https://github.com/grafana/grafana/commit/d0ccf1deabc923c8fb91e84869cf215ea475377b"
           }
         },
         {
