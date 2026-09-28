@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T10:03:42.151735Z",
+  "generated_at": "2026-09-28T10:09:01.607837Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34477,
+            "stars": 34478,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-27T01:50:41Z",
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- A proxy chain is stored together with its subscription and never leaks into another one; each subscription keeps its own DNS page file\n- The provider filter lists exactly the proxy types the core supports\n- Lower background load: one core health watchdog for both the service and the standalone process, faster detection of the managed core, a hang probe before showing the window only with detailed diagnostics\n\n### Fixed\n\n- An empty node list no longer wipes an active proxy chain, and removing the last node clears the chain as well\n- The fake-ip range is no longer sent empty\n- The built-in \"leave it to the rules\" policy reaches the core and is shown in the interface\n- Profile files are deleted only together with the profile; a broken core cache is reset before start on Linux and macOS; the core log is flushed on a crash\n- A group icon with non-Latin characters no longer breaks the page, traffic around a thousand is shown without an exponent, an invalid test URL shows a warning, a failed update check is shown as a warning\n- A link passed from a second copy of the app is handed over safely, and the built-in server serves only the window request and the auto-config file\n- The system proxy watchdog waits for the previous pass to finish and reports a failure to start\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Цепочка прокси хранится вместе со своей подпиской и не уезжает в чужую; у каждой подписки свой файл страницы DNS\n- Фильтр провайдера предлагает ровно те типы прокси, что понимает ядро\n- Меньше фоновой нагрузки: один сторож здоровья ядра для службы и отдельного процесса, управляемое ядро узнаётся быстрее, проба зависания перед показом окна — только при подробной диагностике\n\n### Исправлено\n\n- Пустой список узлов больше не стирает поднятую цепочку, а удаление последнего узла тоже её разбирает\n- Диапазон fake-ip больше не уезжает пустым\n- Встроенная политика «решают правила» доходит до ядра и видна в интерфейсе\n- Файлы профилей удаляются только вместе с профилем; негодный кэш ядра сбрасывается перед запуском на Linux и macOS; журнал ядра дописывается при падении\n- Значок группы с нелатинскими символами не роняет страницу, трафик около тысячи показывается без экспоненты, негодный адрес проверки предупреждает, неудачная проверка обновлений показывается предупреждением\n- Ссылка от второй копии приложения передаётся безопасно, а встроенный сервер отдаёт только показ окна и файл автонастройки\n- Сторож системного прокси дожидается конца прошлого обхода и сообщает об отказе запуска"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.10",
-              "tag": "clod-v0.1.10",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.10",
-              "published_at": "2026-09-21T02:04:52Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Connections tab: optional grouping by application, node or rule, and a summary strip above the table\n- Notifications with a cause instead of silence: a core that does not answer, a port held by another application, a tunnel that failed to come up, a subscription update that did not go through\n- Pre-release builds have their own update channel\n- The subscription card shows how long ago it was updated and marks a failed update\n\n### Changed\n\n- Connections are no longer closed for nothing: neither by Windows raising and dropping its own adapters, nor by a network change that left the path intact, nor by sleep more than once\n- The client no longer decides for you: your node selection, your settings and someone else's system proxy are left alone\n- A minimised window no longer works for nothing, and the load on the core is lower\n\n### Fixed\n\n- Sleep is noticed on every platform, Windows included: after waking, stale connections, the tunnel and the system proxy are checked\n- The client no longer opens a DNS resolver to the network; on macOS the system DNS is substituted only after the core has accepted the configuration\n- A hung or crashed core is restarted and healed even without the background service, quitting no longer leaves one behind, and after an update a core left without its port moves under the service\n- The system proxy is written only to a port the core has confirmed, and it is removed on quit\n- The tunnel switch shows the fact, your node selection survives a cold start, and only one copy of the application runs\n- Linux: the window opens from the tray again, and the tray icon survives a restart of the icon service\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Вкладка «Соединения»: группировка по приложению, узлу или правилу и полоса итогов над таблицей\n- Уведомления с причиной вместо тишины: ядро не отвечает, порт занят другим приложением, туннель не поднялся, обновление подписки не прошло\n- У предварительных сборок свой канал обновлений\n- Карточка подписки показывает давность обновления и отмечает неудавшееся\n\n### Изменено\n\n- Соединения больше не рвутся на ровном месте: ни от того, что Windows поднимает и гасит свои адаптеры, ни при смене сети, если прежний путь цел, ни дважды после сна\n- Клиент больше не решает за вас: выбор узла, ваши настройки и чужой системный прокси не трогаются\n- Свёрнутое окно не работает вхолостую, нагрузка на ядро ниже\n\n### Исправлено\n\n- Сон замечается на всех платформах, включая Windows: после пробуждения проверяются зависшие соединения, туннель и системный прокси\n- Клиент не открывает DNS-резолвер в сеть, а на macOS подменяет системный DNS только после того, как ядро приняло конфиг\n- Зависшее или упавшее ядро лечится даже без фоновой службы, выход не бросает живое ядро, а после обновления ядро, оставшееся без порта, уезжает под службу\n- Системный прокси пишется только на подтверждённый ядром порт и снимается при выходе\n- Тумблер туннеля показывает факт, выбор узлов переживает холодный старт, запускается только одна копия приложения\n- Linux: окно снова открывается из трея, значок переживает перезапуск службы значков"
             }
           ],
           "last_commit": {
@@ -4582,7 +4573,7 @@
             "stars": 76962,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T10:00:58Z",
+            "pushed_at": "2026-09-28T10:08:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b3ffe67",
-            "branch": "main",
-            "date": "2026-09-28T10:00:57Z",
-            "url": "https://github.com/grafana/grafana/commit/b3ffe679f6a33623f8f451dae125914ff4e269a7"
+            "sha": "9510441",
+            "branch": "backport-133661-to-release-13.2.3",
+            "date": "2026-09-28T10:07:56Z",
+            "url": "https://github.com/grafana/grafana/commit/9510441e49be77f770e22210dab86a04ded42cee"
           }
         },
         {
