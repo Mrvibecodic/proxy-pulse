@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T05:56:10.455461Z",
+  "generated_at": "2026-09-28T06:01:24.689355Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41819,
+            "stars": 41820,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-28T05:02:00Z",
@@ -1104,7 +1104,7 @@
             "stars": 4612,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-27T23:14:33Z",
+            "pushed_at": "2026-09-28T06:01:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "10f86ed",
+                  "message": "gpsd: install gps2udp client",
+                  "author": "Jose Luis Sanroma Tato",
+                  "date": "2026-09-28T06:01:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/10f86ed4bcf607e3634c6a97540ad45198d67071"
+                },
+                {
                   "sha": "ce188c6",
                   "message": "exim: update to 4.100.1",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "W. Michael Petullo",
                   "date": "2026-09-20T10:59:46Z",
                   "url": "https://github.com/openwrt/packages/commit/20d0ffe4d0b0a18cc32ac46e5266ed668f1da2e0"
-                },
-                {
-                  "sha": "444f79c",
-                  "message": "crowdsec-firewall-bouncer: fix version in binary",
-                  "author": "Richard Kroegel",
-                  "date": "2026-09-20T10:46:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/444f79ce48f01d9b145bfbaac424a740dfe28e33"
                 }
               ]
             },
@@ -4582,7 +4582,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T05:51:20Z",
+            "pushed_at": "2026-09-28T05:59:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ea4acea",
-            "branch": "enfource-discovery-bounds",
-            "date": "2026-09-28T05:51:21Z",
-            "url": "https://github.com/grafana/grafana/commit/ea4acea302b0c7c3eb13f3bc76fa23d5cf75e0fb"
+            "sha": "f910100",
+            "branch": "pstibrany/alerting-search-selector",
+            "date": "2026-09-28T05:59:20Z",
+            "url": "https://github.com/grafana/grafana/commit/f910100677a479afc89ea5f9115de33489cfa66a"
           }
         },
         {
@@ -5139,7 +5139,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7629,
+            "stars": 7630,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-28T05:00:12Z",
