@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T11:02:23.881953Z",
+  "generated_at": "2026-09-28T11:07:43.280911Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34482,
+            "stars": 34481,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-27T01:50:41Z",
@@ -567,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.7",
+              "tag": "android-v0.1.22-alpha.7",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.7",
+              "published_at": "2026-09-28T11:06:04Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Восстановление подписок из файла сначала показывает список и спрашивает\n  подтверждение, а ход восстановления виден в том же окне.\n\n### Изменено\n\n- Облачный бэкап и перенос данных на новое устройство выключены: подписки и\n  ключи не покидают телефон.\n- Убрано добавление подписки через сторонние приложения-поставщики.\n- Диапазон fake-ip по умолчанию — 198.18.0.1/16, как у ядра и на ПК; кэш\n  прежнего диапазона сбрасывается один раз после обновления.\n- «Защищённое соединение» на экране добавления: название и переключатель в\n  одну строку, под ними — напоминание проверить поддержку у провайдера.\n\n### Исправлено\n\n- Интерфейс не подвисает в ожидании фонового процесса и системы; главный экран\n  отвечает сразу.\n- Из серии быстрых нажатий по узлам применяется последнее; выбор не теряется,\n  если экран повернуть или закрыть, пока ядро занято.\n- Подтверждение и ход восстановления подписок не пропадают при повороте экрана,\n  смене темы, старте и остановке VPN.\n- Напоминания о сроке и трафике подписки проверяются и при остановке VPN, а не\n  только при открытом главном экране.\n- Туннель не закрывается на главном потоке; новая сессия ядра ждёт, пока\n  закончится прошлая.\n- Крэш-дамп и журнал сети не содержат адресов устройства."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.6",
               "tag": "android-v0.1.22-alpha.6",
@@ -1086,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T08:43:32Z",
+            "pushed_at": "2026-09-28T11:03:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1741,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9274fde",
+                  "message": "python3: match packages by pattern in version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T11:03:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/9274fde0baf0e9f34d7b0e9b33054c4fff1ad3e0"
+                },
+                {
                   "sha": "f108c5f",
                   "message": "tinc: report the real version",
                   "author": "Josef Schlehofer",
@@ -1942,13 +1958,6 @@
                   "author": "W. Michael Petullo",
                   "date": "2026-09-20T10:59:46Z",
                   "url": "https://github.com/openwrt/packages/commit/5405dd6ff28830b7ceba6ef314e7dd5348aa013d"
-                },
-                {
-                  "sha": "393870a",
-                  "message": "gst1-plugins-ugly: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/393870af7318bff951940cf09174d94f30f89015"
                 }
               ]
             },
@@ -3246,6 +3255,41 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "c99b0fa",
+                  "message": "dbus: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-28T11:02:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/c99b0fa8932bff6dd71711c1a4febedeec927274"
+                },
+                {
+                  "sha": "a149847",
+                  "message": "python3: update to 3.13.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T11:02:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/a149847ebe1c78ea36564019a5d6424b7d5c332c"
+                },
+                {
+                  "sha": "16ebd8d",
+                  "message": "selinux-python: fix cross-compilation, add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T11:02:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/16ebd8daf2e6e9a88ff6c0bbcb37bb1e01b07f80"
+                },
+                {
+                  "sha": "3685975",
+                  "message": "python-semanage: fix cross-compilation, add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T11:02:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/3685975072c9432d623c7c8f1a549962ae5dea7e"
+                },
+                {
+                  "sha": "a90cfdc",
+                  "message": "python-selinux: fix cross-compilation, add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T11:02:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/a90cfdcd367d903a69016813945a586f7da9db79"
+                },
+                {
                   "sha": "eb27e99",
                   "message": "xz: update to 5.8.3",
                   "author": "Hannu Nyman",
@@ -3419,41 +3463,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-22T08:00:52Z",
                   "url": "https://github.com/openwrt/packages/commit/8688f24f39fc349b246c55632672448135dd0763"
-                },
-                {
-                  "sha": "2f6bf10",
-                  "message": "bash: update to 5.3 patch level 20",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-21T08:26:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/2f6bf10ac19a65d77a6973cd11a3ae0450ef6a3c"
-                },
-                {
-                  "sha": "0a0450b",
-                  "message": "unzip: refresh patches",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-20T06:21:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/0a0450bf779f43d3692caa6d0be2419b7961634a"
-                },
-                {
-                  "sha": "8942be4",
-                  "message": "banip: release 1.9.0",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-19T17:51:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/8942be4f6036d37a25cf82e38eeb22a11bca5655"
-                },
-                {
-                  "sha": "fd6259a",
-                  "message": "zsh: update to 5.9.2",
-                  "author": "John Audia",
-                  "date": "2026-09-18T20:43:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/fd6259a12587702f23b1f8e2cd62b234d83a35bd"
-                },
-                {
-                  "sha": "12aa1bf",
-                  "message": "zsh: update to 5.9.1",
-                  "author": "John Audia",
-                  "date": "2026-09-18T20:42:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/12aa1bf713ac6b0c53d31b65d030c49bdb7c6e81"
                 }
               ]
             }
@@ -3731,7 +3740,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5310,
+            "stars": 5311,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-28T00:41:15Z",
@@ -4564,7 +4573,7 @@
             "stars": 76961,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T10:58:55Z",
+            "pushed_at": "2026-09-28T11:06:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "085b367",
-            "branch": "main",
-            "date": "2026-09-28T10:55:36Z",
-            "url": "https://github.com/grafana/grafana/commit/085b3679328b0ffe8faa1f07872d8087bd1dda13"
+            "sha": "082f7c6",
+            "branch": "release-13.1.7",
+            "date": "2026-09-28T11:06:10Z",
+            "url": "https://github.com/grafana/grafana/commit/082f7c63710fa009a7c52c49719e8cb5e97f08a9"
           }
         },
         {
