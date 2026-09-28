@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T08:39:05.244838Z",
+  "generated_at": "2026-09-28T08:44:20.955919Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38377,
+            "stars": 38378,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-28T04:03:49Z",
@@ -1104,7 +1104,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T08:12:18Z",
+            "pushed_at": "2026-09-28T08:43:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f108c5f",
+                  "message": "tinc: report the real version",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T08:41:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/f108c5ff17af754fa48e9dce8c40e2b5396b94c7"
+                },
+                {
                   "sha": "7cda9bb",
                   "message": "xz: update to 5.8.4",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "W. Michael Petullo",
                   "date": "2026-09-20T10:59:46Z",
                   "url": "https://github.com/openwrt/packages/commit/393870af7318bff951940cf09174d94f30f89015"
-                },
-                {
-                  "sha": "2a6e651",
-                  "message": "gst1-plugins-bad: update to 1.28.7",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-09-20T10:59:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a6e651c50f4b4a58dc2a9b1cf95ee6f632f7a9d"
                 }
               ]
             },
@@ -3049,6 +3049,27 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "653f642",
+                  "message": "xz: update to 5.8.3",
+                  "author": "Hannu Nyman",
+                  "date": "2026-09-28T08:42:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/653f642ddde90edf3af27d3bf01e52a5765075fb"
+                },
+                {
+                  "sha": "6ad4a1f",
+                  "message": "xz: update to 5.8.2",
+                  "author": "Hannu Nyman",
+                  "date": "2026-09-28T08:42:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/6ad4a1f0fe96e01999fa42e75d7b9e5900038701"
+                },
+                {
+                  "sha": "161c407",
+                  "message": "xz: update to 5.8.1",
+                  "author": "Fengyu Wu",
+                  "date": "2026-09-28T08:42:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/161c407209ed75af4d5ce3215dfbe94b412ccc71"
+                },
+                {
                   "sha": "98a1772",
                   "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
                   "author": "Daniel Golle",
@@ -3236,33 +3257,89 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-18T19:49:24Z",
                   "url": "https://github.com/openwrt/packages/commit/4684d0d856dd8257de7ba324d0d2fdd084cadf51"
-                },
-                {
-                  "sha": "49f8c6d",
-                  "message": "knot: update to version 3.5.4",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/49f8c6d446d15a10e63d83c97537617478cc82a5"
-                },
-                {
-                  "sha": "59ea7cc",
-                  "message": "knot: update to version 3.5.3",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/59ea7ccf68f7ac9cbaf4d0a22dbfd0ee40efccb5"
-                },
-                {
-                  "sha": "b08446d",
-                  "message": "knot: update to version 3.5.2",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:49:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/b08446dc3b950fe8b826a36b73bccc5e59d7d8fc"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "eb27e99",
+                  "message": "xz: update to 5.8.3",
+                  "author": "Hannu Nyman",
+                  "date": "2026-09-28T08:43:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/eb27e992814f219f1e3902e63af78b01446dac83"
+                },
+                {
+                  "sha": "e55f085",
+                  "message": "xz: update to 5.8.2",
+                  "author": "Hannu Nyman",
+                  "date": "2026-09-28T08:43:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/e55f0855c8e9ae8d03b1fd17596cc79164edd620"
+                },
+                {
+                  "sha": "313ee1c",
+                  "message": "ovpn-dco: update to 7.2.0.2026082800",
+                  "author": "Qingfang Deng",
+                  "date": "2026-09-28T08:43:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/313ee1ccca29bd56017862e5b011df37f852bb4c"
+                },
+                {
+                  "sha": "33378cd",
+                  "message": "openvpn: update to 2.7.7",
+                  "author": "Qingfang Deng",
+                  "date": "2026-09-28T08:43:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/33378cdc87bab5712a96486c7602054c7b608dc8"
+                },
+                {
+                  "sha": "36c03b7",
+                  "message": "tcpreplay: fix CI tests for the QEMU runtime",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T08:42:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/36c03b70fe4ed2a1fd85b3aafbce745c02e3331a"
+                },
+                {
+                  "sha": "41411ee",
+                  "message": "tcpreplay: add libxdp as dependency",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T08:42:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/41411ee1839a6a340e9526743d9cbfd9edafe370"
+                },
+                {
+                  "sha": "f9e3cf7",
+                  "message": "tcpreplay: add libbpf dependency",
+                  "author": "TeleostNaCl Dai",
+                  "date": "2026-09-28T08:42:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/f9e3cf7f0722a7a16a2c0d28f6400370961cd3b6"
+                },
+                {
+                  "sha": "409f2d5",
+                  "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-28T08:41:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/409f2d51a99a4909979d127db1f1e96421212bdc"
+                },
+                {
+                  "sha": "fc2e81e",
+                  "message": "libssh: update to 0.12.2",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-28T08:41:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc2e81e948ae153d28baa14fc9d5dfad65e589a2"
+                },
+                {
+                  "sha": "0a1417d",
+                  "message": "libssh: update to 0.12.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T08:41:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/0a1417d8f12a13c8caecebb9e368c533dfe7e0b5"
+                },
+                {
+                  "sha": "ff8477f",
+                  "message": "libssh: update to 0.12.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-09-28T08:41:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff8477fe301d4a42a356af2f283ca550e49b97ca"
+                },
                 {
                   "sha": "86e14ad",
                   "message": "adblock: update 4.5.8-3",
@@ -3395,83 +3472,6 @@
                   "author": "John Audia",
                   "date": "2026-09-18T20:42:56Z",
                   "url": "https://github.com/openwrt/packages/commit/12aa1bf713ac6b0c53d31b65d030c49bdb7c6e81"
-                },
-                {
-                  "sha": "3fd8ff8",
-                  "message": "expat: update to 2.8.4",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-09-18T20:23:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/3fd8ff8bcc053f3ff2c5b351531e34364a8b58b7"
-                },
-                {
-                  "sha": "b963c90",
-                  "message": "ci: remove keys last used by travis CI",
-                  "author": "Etienne Champetier",
-                  "date": "2026-09-18T20:22:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/b963c9048fb5dd1883a000627005ffc4dde08125"
-                },
-                {
-                  "sha": "e629a05",
-                  "message": "knot: update to version 3.5.7",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:20:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/e629a05d6b132c79728d35cdc998b8fb9e6f07e8"
-                },
-                {
-                  "sha": "000b661",
-                  "message": "knot: update to version 3.5.6",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:20:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/000b6611f39f293739a0031c275aac89fb842bea"
-                },
-                {
-                  "sha": "0ee7935",
-                  "message": "knot: update to version 3.5.5",
-                  "author": "Jan Hák",
-                  "date": "2026-09-18T19:20:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/0ee7935405d08c084c8c339ce677e50e76d515b3"
-                },
-                {
-                  "sha": "fd913f6",
-                  "message": "freeradius3: fix recursive dependency from libopenssl-legacy",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-18T19:18:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/fd913f626bb4f345f18a9dc36a76a075da1fe8f3"
-                },
-                {
-                  "sha": "f67e9e5",
-                  "message": "freeradius3: update to 3.2.10",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-18T19:18:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/f67e9e588fdb412fee1e574a06e51f1368882ad3"
-                },
-                {
-                  "sha": "26587c8",
-                  "message": "v4l2camera: update to v0.3.2",
-                  "author": "Michel Promonet",
-                  "date": "2026-09-18T19:17:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/26587c89df9be4dca7e263550c2cb8b0bd2be8e1"
-                },
-                {
-                  "sha": "53c83ae",
-                  "message": "prosody: do not drive the service through prosodyctl",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-18T19:13:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/53c83ae1b4927c75380ce7b5e0211e95b790a322"
-                },
-                {
-                  "sha": "80de2df",
-                  "message": "prosody: add test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-18T19:13:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/80de2df9446c504a2baf29c708416460ee167747"
-                },
-                {
-                  "sha": "0764d70",
-                  "message": "prosody: extend test.sh past the version string grep",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-18T19:13:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/0764d7065b2c6a1e1a3ee52050ba298a2ca63011"
                 }
               ]
             }
@@ -4443,7 +4443,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91896,
+            "stars": 91898,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-28T00:07:16Z",
@@ -4582,7 +4582,7 @@
             "stars": 76962,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T08:36:25Z",
+            "pushed_at": "2026-09-28T08:43:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4635,10 +4635,10 @@
             }
           ],
           "last_commit": {
-            "sha": "55ad1c4",
-            "branch": "unified-storage-watch-delete-events",
-            "date": "2026-09-28T08:36:26Z",
-            "url": "https://github.com/grafana/grafana/commit/55ad1c4fdf0e7f4297f711abe4911c42872cacf0"
+            "sha": "a66fac2",
+            "branch": "main",
+            "date": "2026-09-28T08:43:27Z",
+            "url": "https://github.com/grafana/grafana/commit/a66fac2f925b1a8768d9e8a5e47d36c7a90178ec"
           }
         },
         {
