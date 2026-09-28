@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:40:59.688487Z",
+  "generated_at": "2026-09-28T14:46:20.444466Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T14:40:39Z",
+            "pushed_at": "2026-09-28T14:44:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8f9ad50",
+                  "message": "setools: fix the version reported by the tools",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/8f9ad5085e0e401e4327638a4e05258e1c5d4569"
+                },
+                {
+                  "sha": "17283f7",
+                  "message": "selinux-python: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/17283f7e83dfc43ffd2a9dc5ffaebb62661c70f7"
+                },
+                {
                   "sha": "0d7ca56",
                   "message": "tvheadend: skip the DVB permission fix without adapters",
                   "author": "Josef Schlehofer",
@@ -1944,20 +1958,6 @@
                   "author": "Michael Pfeifroth",
                   "date": "2026-09-22T06:37:11Z",
                   "url": "https://github.com/openwrt/packages/commit/f094afbed0e80ca7bb1f97ebb7b7bace93ffb987"
-                },
-                {
-                  "sha": "018c3f3",
-                  "message": "librespeed-cli-rust: update to version 1.2.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-22T06:31:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/018c3f3886075a0738a1dc2a44ee5a56c1072b88"
-                },
-                {
-                  "sha": "6e46ddb",
-                  "message": "docker-compose: update to version 5.5.1",
-                  "author": "Javier Marcet",
-                  "date": "2026-09-20T11:36:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/6e46ddbe2ddaee2b4381dbf1a5046ef942b8265b"
                 }
               ]
             },
@@ -3040,6 +3040,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "3532ad3",
+                  "message": "sqlite3: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:43:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/3532ad3de100dec4512593a0a1b975fd0feadc68"
+                },
+                {
+                  "sha": "1d1e636",
+                  "message": "python3: update to 3.11.16",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:43:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/1d1e6361d3d9c7eb52d21023d8799be9248ddf9a"
+                },
+                {
                   "sha": "01f463c",
                   "message": "sqlite3: fix CI test",
                   "author": "George Sapkin",
@@ -3234,20 +3248,6 @@
                   "author": "Etienne Champetier",
                   "date": "2026-09-18T20:44:14Z",
                   "url": "https://github.com/openwrt/packages/commit/83c16c18bd72e254b26972ae228db071611bba4f"
-                },
-                {
-                  "sha": "9ccb41b",
-                  "message": "zsh: update to 5.9.2",
-                  "author": "John Audia",
-                  "date": "2026-09-18T20:43:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ccb41bbb604174297fdaf7dabd19b9c4162ff06"
-                },
-                {
-                  "sha": "f22f16a",
-                  "message": "zsh: update to 5.9.1",
-                  "author": "John Audia",
-                  "date": "2026-09-18T20:43:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/f22f16a9752c01c0554471bca96c7a27c015b64f"
                 }
               ]
             },
@@ -4573,7 +4573,7 @@
             "stars": 76963,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T14:39:38Z",
+            "pushed_at": "2026-09-28T14:46:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "989c509",
-            "branch": "forsethc/feat/iam-resource-permissions-startup-evaluation",
-            "date": "2026-09-28T14:34:51Z",
-            "url": "https://github.com/grafana/grafana/commit/989c50988b2a4e15697a2cd8a6ae4770a17b0ea3"
+            "sha": "67ec5ac",
+            "branch": "MattIPv4/rudderstack-beacon",
+            "date": "2026-09-28T14:41:36Z",
+            "url": "https://github.com/grafana/grafana/commit/67ec5acb04d86011344f5c98d245bbab0fff3f97"
           }
         },
         {
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80677,
+            "stars": 80678,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-28T10:41:29Z",
@@ -5130,7 +5130,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7634,
+            "stars": 7635,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-28T05:00:12Z",
