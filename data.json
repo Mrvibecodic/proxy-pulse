@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T22:45:58.194894Z",
+  "generated_at": "2026-09-28T22:51:13.537872Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T14:44:39Z",
+            "pushed_at": "2026-09-28T22:47:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "75438c8",
+                  "message": "uvol: pad the MBR disk signature when matching root=",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-28T22:46:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/75438c8934f2a506eb6a75b0f0e017c5ca70bccf"
+                },
+                {
                   "sha": "8f9ad50",
                   "message": "setools: fix the version reported by the tools",
                   "author": "Josef Schlehofer",
@@ -1951,13 +1958,6 @@
                   "author": "Peter Polonec",
                   "date": "2026-09-22T13:19:09Z",
                   "url": "https://github.com/openwrt/packages/commit/6fdf82368fd855e452e8747fbb4c1bbe6c0fd752"
-                },
-                {
-                  "sha": "f094afb",
-                  "message": "modemmanager: suppress hotplug noise without breaking QMAP/QMI/MBIM mux",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-09-22T06:37:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/f094afbed0e80ca7bb1f97ebb7b7bace93ffb987"
                 }
               ]
             },
@@ -4505,7 +4505,7 @@
             "stars": 25826,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T22:23:16Z",
+            "pushed_at": "2026-09-28T22:49:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -4853,7 +4853,7 @@
             "stars": 23,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-09-27T22:12:04Z",
+            "pushed_at": "2026-09-28T22:49:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
