@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:52:17.694775Z",
+  "generated_at": "2026-09-29T15:57:34.159943Z",
   "groups": [
     {
       "id": "cores",
@@ -951,12 +951,21 @@
             "stars": 55,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T13:34:55Z",
+            "pushed_at": "2026-09-29T15:57:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.7",
+              "tag": "1.0.0-beta.7",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.7",
+              "published_at": "2026-09-29T15:57:13Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- Choose a compact, standard or large tray popup size in Settings. The standard size is now 400×560.\n\n### Improved\n\n- New builds include the latest stable proxy engine available at build time, with its download checked for integrity.\n\n### Fixed\n\n- Dashboard and popup controls on macOS respond to the first click when their window is inactive.\n- Connection errors in the popup show relevant actions, including retry, helper update, provider support and logs when available.\n- Host country flags stay visible when a custom icon fails to load.\n- Switching hosts no longer shows a connection cleanup error when there are no connections to close."
+            },
             {
               "name": "1.0.0-beta.6",
               "tag": "1.0.0-beta.6",
@@ -992,15 +1001,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### Improved\n\n- Opening the popup on macOS keeps the current app active while preserving keyboard navigation and shortcuts inside Flowvy."
-            },
-            {
-              "name": "1.0.0-beta.2",
-              "tag": "1.0.0-beta.2",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.2",
-              "published_at": "2026-09-04T13:00:45Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### New\n\n- macOS gains a Flowvy uninstaller with an option to keep profiles and settings. Open it from the client settings or directly from the DMG.\n\n### Improved\n\n- Uninstallation shows progress and clear error messages in English and Russian.\n- Installers include up-to-date geodata with integrity verification.\n\n### Fixed\n\n- Removing Flowvy on macOS also cleans up runtime files that require administrator permissions.\n- Starting Flowvy on macOS no longer briefly adds it to the Dock before the Dashboard opens.\n- Subscription import links are retained when they launch the client, including while its interface is loading."
             }
           ],
           "last_commit": {
@@ -4573,7 +4573,7 @@
             "stars": 76992,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T15:49:33Z",
+            "pushed_at": "2026-09-29T15:56:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3addca4",
-            "branch": "pstibrany/global-search-sync-type",
-            "date": "2026-09-29T15:35:56Z",
-            "url": "https://github.com/grafana/grafana/commit/3addca46b1c67acd0c63bb3622bceb0531661316"
+            "sha": "aab5846",
+            "branch": "backport-133192-to-release-13.1.8",
+            "date": "2026-09-29T15:55:12Z",
+            "url": "https://github.com/grafana/grafana/commit/aab58462fe03c37c28e158db8f2976b067603d37"
           }
         },
         {
@@ -5133,7 +5133,7 @@
             "stars": 7648,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T04:21:40Z",
+            "pushed_at": "2026-09-29T15:56:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
