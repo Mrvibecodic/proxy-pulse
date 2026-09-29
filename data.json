@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:48:09.073456Z",
+  "generated_at": "2026-09-29T09:53:25.971120Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T19:55:04Z",
+            "pushed_at": "2026-09-29T09:53:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -534,22 +534,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Ping color thresholds can come from the subscription (`clod-ping` header)\n- `clod-lock-mode: lock` locks the routing mode permanently; `clod-announce` takes priority over the panel's `announce`\n- Option \"Close connections when picking a server on the Home page\"\n- macOS: the app bundle is signed without a certificate; installation with a single command, documented\n\n### Changed\n\n- Your own subscription name is stored separately from the panel's name; the update interval from the panel applies on every update\n- When the panel rejects the device, the previous servers are removed and mirrors are not polled; the device limit screen names the subscription and shows no device count\n- Ping scale as on Android (200/400 ms); latency is measured per node instead of the core's group test; provider nodes get fresh pings; no numbers in the tray\n- System proxy uses an external host only when LAN sharing is on, otherwise 127.0.0.1; the PAC address always stays on the loopback\n- Removed non-working settings: start page, backup on change, theme CSS, diagnostics export; the window always opens on Home\n- `clod-hwid-limit` and `clod-device-remove` headers are no longer read\n- Documentation updated to match the code, with a page on the `clod-*` headers\n\n### Fixed\n\n- The core is not reloaded with an unchanged config; a subscription update with unchanged content no longer duplicates auto-group tests\n- Skipping the reload takes empty rule sets into account\n- Changing a subscription address in the card no longer resets anything\n- Home page auto-test uses the fresh node list; the test queue does not survive a subscription switch; the proxy indicator waits for the core's answer\n- Backup schedule counts from the last backup, starts without waiting for a settings save and is not reset by unrelated saves\n- Support report shows the real proxy host; core connection errors get into the report and the log archive with addresses stripped\n- More precise hints for the proxy host, the managed core, built-in enhancements and the web UI\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`)\n- `clod-lock-mode: lock` — постоянный замок режима; `clod-announce` важнее панельного `announce`\n- Галка «Закрывать соединения при выборе сервера на главной»\n- macOS: пакет приложения подписывается без сертификата; установка одной командой описана в документации\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели; интервал обновления от панели применяется при каждом обновлении\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные адреса; окно лимита устройств называет подписку и не показывает число устройств\n- Шкала пинга как на Android (200/400 мс); замер по узлам вместо группового теста ядра, свежие пинги узлов провайдеров, без цифр в трее\n- Системный прокси использует внешний хост только при раздаче в локальную сеть, иначе 127.0.0.1; адрес PAC всегда на петле\n- Убраны неработающие пункты настроек: стартовая страница, копия при изменениях, CSS темы, экспорт диагностики; окно всегда открывается на Главной\n- Заголовки `clod-hwid-limit` и `clod-device-remove` больше не читаются\n- Документация приведена под код, добавлена страница заголовков `clod-*`\n\n### Исправлено\n\n- Ядро не перезагружается тем же конфигом; обновление подписки с прежним содержимым не дублирует замер авто-групп\n- Пропуск перезагрузки учитывает пустые наборы правил\n- Смена адреса подписки в карточке больше ничего не сбрасывает\n- Автозамер Главной берёт свежие узлы; очередь замера не переживает смену подписки; индикатор прокси ждёт ответа ядра\n- Расписание копий считает срок от последней копии, стартует без ожидания сохранения настроек и не сбивается посторонними сохранениями\n- Отчёт поддержки показывает реальный хост прокси; ошибки соединений ядра попадают в отчёт и архив логов без адресов\n- Точнее подсказки хоста прокси, управляемого ядра, встроенных улучшений и веб-интерфейса"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11-alpha.2",
-              "tag": "clod-v0.1.11-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.2",
-              "published_at": "2026-09-24T11:40:36Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Changed\n\n- Routing mode comes from the subscription; a mode chosen by hand is remembered per subscription and survives updates\n- Favorites star on the Proxies page too; favorite nodes come first in a group; one latency color scale on every screen\n- Groups are latency-tested in parallel with a shared load cap; the ping on the Proxies page is the same measurement the sorting uses\n- The selected node on the Home page keeps its ping fresh while the window is on screen\n- The service availability test page has been removed\n- Ports, controller address and CORS apply without needless core restarts\n- Interface texts unified: subscriptions are called subscriptions everywhere, counts use proper plural forms, autostart options have descriptive names\n\n### Fixed\n\n- Home page shows the real connection state, ping, subscription expiry and mode; a failed ping is shown instead of a stale value\n- Notifications that arrive while the window is hidden wait for it to be shown\n- Applying the current subscription restores the node selection; the first added subscription is applied at once\n- Subscription editors no longer close or lose text when the core rejects a change, and save exactly what is on screen\n- Bulk selection acts on visible cards only; editing a subscription sends only the changed fields\n- Repeating the already active mode no longer drops connections\n- Traffic speed and the connections table reset when the core goes away instead of freezing\n- Log page shows what the core writes at its current level and remembers a clear\n- Connections page shows the real state of the card, the table and closed connections\n- \"Update all\" reports which providers failed\n- Settings dialogs validate input; update, backup and action errors are shown\n- Crash screen offers to quit; relative times and service texts translated\n- Group latency test in global mode skips nodes hidden by the filter\n\n\u003c!-- lang:ru --\u003e\n\n### Изменено\n\n- Режим маршрутизации берётся из подписки; выбранный руками режим помнится для каждой подписки и переживает обновления\n- Звёздочка избранного и на странице «Прокси»; избранные узлы стоят в группе первыми; одна шкала цвета задержки на всех экранах\n- Группы проверяются параллельно с общим потолком нагрузки; пинг на странице «Прокси» — тот же замер, что и сортировка\n- Выбранный узел на Главной обновляет пинг, пока окно на экране\n- Страница проверки доступности сервисов убрана\n- Порты, адрес контроллера и CORS применяются без лишних перезапусков ядра\n- Тексты приведены к одному: подписки везде называются подписками, числительные в правильных формах, автозапуск назван по смыслу\n\n### Исправлено\n\n- Главная показывает действительное состояние подключения, пинга, срока подписки и режима; провал замера виден вместо застывшей цифры\n- Уведомления, пришедшие в скрытое окно, ждут его показа\n- Применение текущей подписки возвращает выбор узлов; первая добавленная подписка применяется сразу\n- Редакторы подписки не закрываются и не теряют текст при отказе ядра, сохраняют ровно то, что на экране\n- Пакетный выбор действует на видимые карточки; правка подписки шлёт только изменённое\n- Повтор уже активного режима не рвёт соединения\n- Скорость и таблица соединений обнуляются при пропаже ядра, а не застывают\n- Журнал показывает то, что пишет ядро на текущем уровне, и помнит очистку\n- Страница соединений показывает настоящее состояние карточки, таблицы и закрытых соединений\n- «Обновить все» сообщает, какие провайдеры не обновились\n- Диалоги настроек проверяют ввод; ошибки обновления, резервных копий и действий видны\n- Экран аварии предлагает выход; относительное время и тексты про службу переведены\n- Проверка группы в глобальном режиме не мерит узлы, скрытые фильтром"
             }
           ],
           "last_commit": {
-            "sha": "72876fe",
+            "sha": "71d3c12",
             "branch": "main",
-            "date": "2026-09-28T12:51:20Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/72876fe5ebbd976034ace584e2972944e7e17e4c"
+            "date": "2026-09-29T09:53:05Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/71d3c12b28d75133b9deeae5188de3ddea3f9fe7"
           }
         },
         {
@@ -561,7 +552,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-28T16:05:49Z",
+            "pushed_at": "2026-09-29T09:53:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,15 +593,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`).\n- `clod-lock-mode: lock` — постоянный замок режима, временный замок действует\n  ограниченный срок; `clod-announce` важнее панельного `announce`;\n  `clod-disable-ping` принимает только `true`.\n- Промо закрывается и показывается вместе с объявлением.\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели.\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные\n  адреса; тексты лимита устройств без числа устройств и без совета отключить\n  устройство в кабинете.\n- Заголовок `clod-hwid-limit` больше не читается.\n\n### Исправлено\n\n- Поправка часов защищённого канала хранится у каждой подписки своя."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.22-alpha.3",
-              "tag": "android-v0.1.22-alpha.3",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.3",
-              "published_at": "2026-09-25T10:50:56Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Режим «Правила / Глобальный / Прямой» переключается сразу, без перезагрузки\n  подписки и паузы трафика.\n- На главной видно, если система перезапускала фоновую часть или системный\n  прокси не объявлен.\n\n### Изменено\n\n- Обновление подписки с тем же содержимым не перезагружает ядро; недостающие\n  файлы провайдеров докачиваются до паузы трафика, а при первом подключении —\n  не задерживают подъём туннеля.\n- Ошибки обновления подписки названы понятными словами: отказ ядра принять\n  подписку отделён от сбоя загрузки, для него в уведомлении видна причина.\n- Сканер QR-кодов убран вместе с доступом к камере; окна имени файла и\n  экспорта журнала переделаны без сторонней библиотеки.\n- Не промеренный сервер показывается как «—», а не как «✕»; «ни один не\n  ответил» считается только по промеренным.\n\n### Исправлено\n\n- Отменённая проверка задержки больше не помечает сервер мёртвым, группы с\n  автовыбором не теряют закреплённый сервер.\n- Обновление подписки при отключении питания не оставляет пустой конфиг;\n  черновик свойств не попадает в момент подмены каталога подписки.\n- Одноимённые серверы из разных провайдеров не роняют список серверов.\n- Недокачанные файлы провайдеров, оставшиеся после гибели процесса, убираются\n  при старте.\n- Релиз собирается без ключа подписи, подпись идёт отдельным шагом с проверкой\n  сертификата."
             }
           ],
           "last_commit": {
@@ -4573,7 +4555,7 @@
             "stars": 76983,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T09:44:28Z",
+            "pushed_at": "2026-09-29T09:50:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
