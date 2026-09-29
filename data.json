@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T20:32:00.831715Z",
+  "generated_at": "2026-09-29T20:37:16.837616Z",
   "groups": [
     {
       "id": "cores",
@@ -561,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T19:47:12Z",
+            "pushed_at": "2026-09-29T20:35:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,15 +602,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Подсветка слов цветом в объявлении и промо (`#RRGGBB` вплотную к слову),\n  как на десктопе; коды цвета не входят в лимит длины.\n- Подписка обновляется сама вскоре после истечения срока из панели — заглушки\n  или продление появляются сразу, а не с очередным периодом.\n\n### Исправлено\n\n- Префикс `base64:` в заголовках панели понимается в любом регистре\n  (`Base64:` из Remnawave показывался как сырой текст).\n- Узлы больше не лежат «✕» несколько минут после старта туннеля: сокеты ядра\n  защищены от своего VPN с начала сессии."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.22-alpha.4",
-              "tag": "android-v0.1.22-alpha.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.4",
-              "published_at": "2026-09-26T09:07:39Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`).\n- `clod-lock-mode: lock` — постоянный замок режима, временный замок действует\n  ограниченный срок; `clod-announce` важнее панельного `announce`;\n  `clod-disable-ping` принимает только `true`.\n- Промо закрывается и показывается вместе с объявлением.\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели.\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные\n  адреса; тексты лимита устройств без числа устройств и без совета отключить\n  устройство в кабинете.\n- Заголовок `clod-hwid-limit` больше не читается.\n\n### Исправлено\n\n- Поправка часов защищённого канала хранится у каждой подписки своя."
             }
           ],
           "last_commit": {
@@ -830,7 +821,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1246,
+            "stars": 1248,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-09-22T15:08:20Z",
@@ -4573,7 +4564,7 @@
             "stars": 76995,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T20:27:30Z",
+            "pushed_at": "2026-09-29T20:36:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
