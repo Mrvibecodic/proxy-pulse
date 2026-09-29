@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:03:55.851147Z",
+  "generated_at": "2026-09-29T10:09:11.069741Z",
   "groups": [
     {
       "id": "cores",
@@ -558,6 +558,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.22-alpha.8",
+              "tag": "android-v0.1.22-alpha.8",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.8",
+              "published_at": "2026-09-29T10:05:07Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Сборка: официальный Go с go.dev со сверкой контрольной суммы; плагин сборки\n  Go и kaidl лежат в самом репозитории, а не на стороннем зеркале.\n\n### Исправлено\n\n- После падения службы экраны закрываются сразу; несохранённые правки\n  дописываются, когда служба вернётся.\n- Режим и группы на главной всегда относятся к показанной подписке; выбор узла\n  пишется той подписке, что загружена в ядро.\n- Активация новой подписки не останавливается, если уйти из приложения во\n  время добавления.\n- Запись журнала заканчивается, когда система перестаёт поднимать фоновый\n  процесс, а не ждёт вечно.\n- Отказ «черновик подписки изменился» показывается понятной фразой."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.7",
               "tag": "android-v0.1.22-alpha.7",
@@ -4555,7 +4564,7 @@
             "stars": 76984,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T10:02:47Z",
+            "pushed_at": "2026-09-29T10:08:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4608,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "86eeb66",
-            "branch": "annelaurefroment-patch-1",
-            "date": "2026-09-29T10:02:48Z",
-            "url": "https://github.com/grafana/grafana/commit/86eeb6640d19f0dd0ce1ad5c8d29b64e9ea860f4"
+            "sha": "04d6d34",
+            "branch": "ash/update-visual-refresh-alert",
+            "date": "2026-09-29T10:07:51Z",
+            "url": "https://github.com/grafana/grafana/commit/04d6d34f6d69ee57c2b96df2cc37b413a3c4d423"
           }
         },
         {
@@ -5112,7 +5121,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7645,
+            "stars": 7646,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-29T04:21:40Z",
