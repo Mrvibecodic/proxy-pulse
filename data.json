@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:43:46.642633Z",
+  "generated_at": "2026-09-29T06:49:01.924909Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T06:08:19Z",
+            "pushed_at": "2026-09-29T06:46:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3040,6 +3040,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "d0013a1",
+                  "message": "libxslt: add test-version.sh",
+                  "author": "Seo Suchan",
+                  "date": "2026-09-29T06:46:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/d0013a19d173a8b4b8b96f3cb93d9a27e36cb986"
+                },
+                {
                   "sha": "3532ad3",
                   "message": "sqlite3: add version check override",
                   "author": "Josef Schlehofer",
@@ -3241,19 +3248,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-22T08:01:09Z",
                   "url": "https://github.com/openwrt/packages/commit/13b3c23e018b9505076a724ce4a4182ec6e9c820"
-                },
-                {
-                  "sha": "83c16c1",
-                  "message": "ci: remove keys last used by travis CI",
-                  "author": "Etienne Champetier",
-                  "date": "2026-09-18T20:44:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/83c16c18bd72e254b26972ae228db071611bba4f"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "c3d309e",
+                  "message": "libxslt: add test-version.sh",
+                  "author": "Seo Suchan",
+                  "date": "2026-09-29T06:46:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/c3d309efab5fa5479d855870c15d839474df4879"
+                },
                 {
                   "sha": "e674e03",
                   "message": "ddns-scripts: use HTTPS for variomedia.de",
@@ -3456,13 +3463,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-28T11:02:36Z",
                   "url": "https://github.com/openwrt/packages/commit/a149847ebe1c78ea36564019a5d6424b7d5c332c"
-                },
-                {
-                  "sha": "16ebd8d",
-                  "message": "selinux-python: fix cross-compilation, add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T11:02:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/16ebd8daf2e6e9a88ff6c0bbcb37bb1e01b07f80"
                 }
               ]
             }
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "48a2289",
-            "branch": "ferruvich/none-role-provisioning-perms",
-            "date": "2026-09-29T06:37:45Z",
-            "url": "https://github.com/grafana/grafana/commit/48a2289081a34125a49f6e63d220f1f3d8749e76"
+            "sha": "430ad4b",
+            "branch": "charandas/ds-derive-id-token-on-egress",
+            "date": "2026-09-29T01:00:58Z",
+            "url": "https://github.com/grafana/grafana/commit/430ad4ba2d6ab86ac97b30523f133d48d7c02e00"
           }
         },
         {
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66305,
+            "stars": 66304,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-28T16:14:58Z",
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80713,
+            "stars": 80714,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-29T06:41:27Z",
