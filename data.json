@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:17:19.555376Z",
+  "generated_at": "2026-09-29T22:22:36.074435Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41857,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T21:52:25Z",
+            "pushed_at": "2026-09-29T22:22:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -561,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T22:09:09Z",
+            "pushed_at": "2026-09-29T22:21:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -575,6 +575,15 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Режим «По правилам / Глобальный / Прямой» запоминается для каждой подписки\n  и переключается сразу, без перезагрузки подписки и паузы трафика.\n- Главная показывает сервер главной группы подписки; тумблер «Все группы на\n  Главной» выводит выбранный сервер каждой группы.\n- Восстановление подписок из файла сначала показывает список и спрашивает\n  подтверждение, ход восстановления виден в том же окне.\n- Загрузку обновления и ручную проверку обновления можно отменить.\n- Подписка обновляется сама вскоре после истечения срока из панели.\n- Стек туннеля может задаваться подпиской, включая MIPS.\n- Новые заголовки провайдера: запасной адрес подписки и перевод на него\n  (`clod-new-sub`, `clod-move-sub`), границы цвета пинга (`clod-ping`),\n  постоянный замок режима (`clod-lock-mode: lock`), подсветка слов цветом в\n  объявлении и промо.\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor; туннель пересобирается,\n  когда меняется список приложений или стек.\n- Диапазон fake-ip по умолчанию — 198.18.0.1/16, как у ядра и на ПК.\n- Облачный бэкап и перенос на новое устройство выключены: подписки и ключи не\n  покидают телефон.\n- Убраны сканер QR-кодов вместе с доступом к камере и добавление подписки\n  через сторонние приложения; заголовки `fallback-*` и `new-*` больше не\n  читаются — запасной адрес теперь задаёт `clod-new-sub`.\n- Своё название подписки хранится отдельно от названия из панели; отказ панели\n  по лимиту устройств убирает прежние серверы.\n- Единые слова и форматы на всех экранах, понятные тексты ошибок; скринридер\n  озвучивает выбранный сервер, активную подписку и кнопку питания.\n- При включённых пре-релизах проверка обновлений читает только их канал.\n\n### Исправлено\n\n- Узлы больше не лежат «✕» несколько минут после старта туннеля.\n- Интерфейс не подвисает в ожидании фоновой части; из серии быстрых нажатий\n  по узлам применяется последнее, выбор не теряется при повороте и закрытии\n  экрана.\n- Обновление подписки с тем же содержимым не перезагружает ядро, а отключение\n  питания во время обновления не оставляет пустой конфиг.\n- Отменённая проверка задержки не помечает сервер мёртвым; не промеренный\n  сервер показывается как «—».\n- Пустой ответ или страница вместо подписки не считаются обновлением, причина\n  объяснена понятными словами.\n- Нечитаемые настройки не открываются пустыми и не затираются.\n- Свои гео-базы переживают обновление приложения.\n- Виджет, плитка и ярлыки сообщают причину, если VPN не запустился.\n- Напоминания о сроке и трафике подписки приходят и при выключенном VPN.\n- Крэш-дамп и журнал сети не содержат адресов устройства."
+            },
+            {
+              "name": "Clod Clash для Android android-v0.1.23-alpha.1",
+              "tag": "android-v0.1.23-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.1",
+              "published_at": "2026-09-29T22:17:20Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Ядро — Clod Core, наш форк стабильного mihomo: новая библиотека TLS-отпечатков\n  (utls v1.9.0-mod-meta), узел не помечается мёртвым после одной зависшей\n  проверки, нестабильный узел проигрывает стабильному в автовыборе, узлы на\n  одном сервере проверяются не залпом, базы правил не портятся при сбое записи.\n- Свежий сетевой стек MIPS с исправлениями TCP и ICMP; «Авто» без стека в\n  подписке теперь означает MIPS. После обновления туннель один раз\n  пересоберётся."
             },
             {
               "name": "Clod Clash для Android android-v0.1.22-alpha.8",
@@ -605,10 +614,10 @@
             }
           ],
           "last_commit": {
-            "sha": "27b6263",
+            "sha": "8a28c0f",
             "branch": "main",
-            "date": "2026-09-29T22:09:08Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/27b6263efd36939b4dc81ff1f495b93035c5d4e5"
+            "date": "2026-09-29T22:21:44Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/8a28c0f729a62da80f6811a3bd8b5d380298c006"
           }
         },
         {
@@ -874,7 +883,7 @@
             "stars": 7312,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-09-29T20:49:34Z",
+            "pushed_at": "2026-09-29T22:22:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -1018,7 +1027,7 @@
             "stars": 28571,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T20:01:23Z",
+            "pushed_at": "2026-09-29T22:19:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4564,7 +4573,7 @@
             "stars": 76995,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T22:10:15Z",
+            "pushed_at": "2026-09-29T22:17:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "426c832",
-            "branch": "jh/explore-dashboard-picker",
-            "date": "2026-09-29T15:10:25Z",
-            "url": "https://github.com/grafana/grafana/commit/426c832871b2923b338c0068d30a2a51ef94d2f8"
+            "sha": "4838fe1",
+            "branch": "folder-controller-oom-metadata-list",
+            "date": "2026-09-29T02:47:34Z",
+            "url": "https://github.com/grafana/grafana/commit/4838fe1c4f4cf2c8f0d1cecd60abdf685ed52d0e"
           }
         },
         {
@@ -4753,10 +4762,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b1a322e",
+            "sha": "556e5f6",
             "branch": "master",
-            "date": "2026-09-29T21:47:16Z",
-            "url": "https://github.com/netdata/netdata/commit/b1a322ebf6377f1bf6e00db965928b7890ca57e9"
+            "date": "2026-09-29T15:18:39Z",
+            "url": "https://github.com/netdata/netdata/commit/556e5f66c73643900790e5f707acd2ec955f75c9"
           }
         },
         {
@@ -5124,7 +5133,7 @@
             "stars": 7653,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T21:20:24Z",
+            "pushed_at": "2026-09-29T22:20:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
