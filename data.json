@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:54:17.768450Z",
+  "generated_at": "2026-09-29T06:59:33.950316Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T06:53:57Z",
+            "pushed_at": "2026-09-29T06:56:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "059ba7d",
+                  "message": "minisatip: stop gating libdvbcsa on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/059ba7d4fda5cb00f429f49b1061fb81e121456c"
+                },
+                {
+                  "sha": "974cc0d",
+                  "message": "tvheadend: stop gating CSA support on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/974cc0daf551c13821d30c2f6f738e1bbc1a1f69"
+                },
+                {
+                  "sha": "fc712cb",
+                  "message": "libdvbcsa: remove BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc712cb8b39b9f41afe310ee49df660951ea6187"
+                },
+                {
                   "sha": "73d502f",
                   "message": "shine: skip version check for shineenc",
                   "author": "Marcin Maj",
@@ -1937,27 +1958,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-23T19:18:06Z",
                   "url": "https://github.com/openwrt/packages/commit/10f1f42ef46f7a8e81394ca0066ebf9806faff1d"
-                },
-                {
-                  "sha": "4acd6e1",
-                  "message": "tvheadend: handle DVB device nodes on dvb hotplug events",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-23T13:02:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/4acd6e13fdbe85a1d5163145b9afacab418f3b75"
-                },
-                {
-                  "sha": "49f3441",
-                  "message": "ddns-scripts: remove discontinued providers",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-23T05:39:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/49f3441ee51bf7fac1eee70caee83fcc446ace7c"
-                },
-                {
-                  "sha": "9f462c3",
-                  "message": "perl: add support for loongarch64",
-                  "author": "Xinhui Yang",
-                  "date": "2026-09-22T17:28:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f462c360f6039f679d4d2ef20dabf4d4e643f58"
                 }
               ]
             },
@@ -4573,7 +4573,7 @@
             "stars": 76978,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T06:37:44Z",
+            "pushed_at": "2026-09-29T06:54:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80714,
+            "stars": 80715,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-29T06:41:27Z",
