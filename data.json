@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:50:09.720494Z",
+  "generated_at": "2026-09-29T08:55:25.476988Z",
   "groups": [
     {
       "id": "cores",
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91927,
+            "stars": 91928,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-29T04:00:07Z",
@@ -4573,12 +4573,21 @@
             "stars": 76982,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T08:50:16Z",
+            "pushed_at": "2026-09-29T08:55:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.0.10",
+              "tag": "v13.0.10",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.10",
+              "published_at": "2026-09-29T08:54:36Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.0.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-81842"
+            },
             {
               "name": "12.4.12",
               "tag": "v12.4.12",
@@ -4614,22 +4623,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.0.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132088](https://github.com/grafana/grafana/pull/132088), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
-            },
-            {
-              "name": "12.4.11",
-              "tag": "v12.4.11",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.11",
-              "published_at": "2026-09-15T12:27:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.4.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-12704\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656"
             }
           ],
           "last_commit": {
-            "sha": "6791dc2",
-            "branch": "urbiz-gs-export-tweaks",
-            "date": "2026-09-29T08:34:42Z",
-            "url": "https://github.com/grafana/grafana/commit/6791dc2c8fb9cd15dcf28b51344ca422f7ca637c"
+            "sha": "20b13d7",
+            "branch": "pstibrany/proto-ci-checks",
+            "date": "2026-09-29T08:55:22Z",
+            "url": "https://github.com/grafana/grafana/commit/20b13d7d30e5f8fa8fb8ea69408639d3e16cf8ab"
           }
         },
         {
