@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:00:40.641965Z",
+  "generated_at": "2026-09-29T09:05:58.766334Z",
   "groups": [
     {
       "id": "cores",
@@ -4570,15 +4570,24 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 76982,
+            "stars": 76983,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T09:00:37Z",
+            "pushed_at": "2026-09-29T09:02:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.2.3",
+              "tag": "v13.2.3",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.3",
+              "published_at": "2026-09-29T09:02:18Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.2.3)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841"
+            },
             {
               "name": "13.1.7",
               "tag": "v13.1.7",
@@ -4614,22 +4623,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.2)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132089](https://github.com/grafana/grafana/pull/132089), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Fix folder rename UID collision during full sync [#132157](https://github.com/grafana/grafana/pull/132157), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
-            },
-            {
-              "name": "13.1.6",
-              "tag": "v13.1.6",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.6",
-              "published_at": "2026-09-15T12:25:01Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132090](https://github.com/grafana/grafana/pull/132090), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Fix folder rename UID collision during full sync [#132164](https://github.com/grafana/grafana/pull/132164), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
             }
           ],
           "last_commit": {
-            "sha": "7b961a9",
-            "branch": "main",
-            "date": "2026-09-29T09:00:35Z",
-            "url": "https://github.com/grafana/grafana/commit/7b961a988cd1ff42eecd9db96549fbce3a90d74c"
+            "sha": "39e1673",
+            "branch": "backport-126675-13.0.10",
+            "date": "2026-09-28T15:27:58Z",
+            "url": "https://github.com/grafana/grafana/commit/39e1673168e088a856af634e11fa618aa3d6dc92"
           }
         },
         {
@@ -4774,7 +4774,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17783,
+            "stars": 17784,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-29T08:21:13Z",
@@ -5130,7 +5130,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7642,
+            "stars": 7643,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-29T04:21:40Z",
