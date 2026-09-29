@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:55:25.476988Z",
+  "generated_at": "2026-09-29T09:00:40.641965Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34513,
+            "stars": 34514,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-27T01:50:41Z",
@@ -4502,7 +4502,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25835,
+            "stars": 25836,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-28T23:48:58Z",
@@ -4573,12 +4573,21 @@
             "stars": 76982,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T08:55:21Z",
+            "pushed_at": "2026-09-29T09:00:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.1.7",
+              "tag": "v13.1.7",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.7",
+              "published_at": "2026-09-29T08:57:58Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841"
+            },
             {
               "name": "13.0.10",
               "tag": "v13.0.10",
@@ -4614,22 +4623,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.1.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132090](https://github.com/grafana/grafana/pull/132090), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Fix folder rename UID collision during full sync [#132164](https://github.com/grafana/grafana/pull/132164), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
-            },
-            {
-              "name": "13.0.9",
-              "tag": "v13.0.9",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.9",
-              "published_at": "2026-09-15T12:43:46Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132088](https://github.com/grafana/grafana/pull/132088), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
             }
           ],
           "last_commit": {
-            "sha": "20b13d7",
-            "branch": "pstibrany/proto-ci-checks",
-            "date": "2026-09-29T08:55:22Z",
-            "url": "https://github.com/grafana/grafana/commit/20b13d7d30e5f8fa8fb8ea69408639d3e16cf8ab"
+            "sha": "7b961a9",
+            "branch": "main",
+            "date": "2026-09-29T09:00:35Z",
+            "url": "https://github.com/grafana/grafana/commit/7b961a988cd1ff42eecd9db96549fbce3a90d74c"
           }
         },
         {
@@ -4638,7 +4638,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66304,
+            "stars": 66305,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-29T08:49:33Z",
