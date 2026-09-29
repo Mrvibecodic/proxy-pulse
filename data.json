@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:06:59.084509Z",
+  "generated_at": "2026-09-29T06:12:14.208744Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38417,
+            "stars": 38416,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-28T04:03:49Z",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-28T22:47:02Z",
+            "pushed_at": "2026-09-29T06:08:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3255,6 +3255,125 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "e674e03",
+                  "message": "ddns-scripts: use HTTPS for variomedia.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/e674e03b6bc30d1af18f9d25e51d350a6e0a4e9e"
+                },
+                {
+                  "sha": "a099462",
+                  "message": "ddns-scripts: remove ddnss.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/a0994628f8f78e1d20c1effa79ba20dab5d9bade"
+                },
+                {
+                  "sha": "63bb68b",
+                  "message": "ddns-scripts: remove defunct providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/63bb68b742474a369c85f26d4bc19243d11ae072"
+                },
+                {
+                  "sha": "1465994",
+                  "message": "ddns-scripts: fix updating IPv6 for netcup",
+                  "author": "Martin Brodbeck",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/1465994ecf8cb3428e9883ed41085242bb499061"
+                },
+                {
+                  "sha": "6f7d56e",
+                  "message": "ddns-scripts: remove discontinued providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6f7d56e3ba814bd9b78b360fb6c87a7fd336d94c"
+                },
+                {
+                  "sha": "a67e845",
+                  "message": "ddns-scripts: update hotplug script",
+                  "author": "Jimmy Qin",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/a67e8456be650d94472b059c5ffdb39690718c26"
+                },
+                {
+                  "sha": "4465c55",
+                  "message": "ddns-scripts: add gandi pat support",
+                  "author": "Keith T. Garner",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/4465c556a4d138ec61b6d5fc705774030302eff9"
+                },
+                {
+                  "sha": "90a538e",
+                  "message": "ddns-scripts: fix root command injection through ddns_dateformat",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/90a538e3fa282e3bd71d8617aa2b4fa1efec7bce"
+                },
+                {
+                  "sha": "565d7b0",
+                  "message": "ddns-scripts: update to 2.8.4",
+                  "author": "Jiang Tengfei",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/565d7b0e5c4dc2483d050361fcc36b0e340ca799"
+                },
+                {
+                  "sha": "3e95375",
+                  "message": "ddns-scripts: fix one.com prerm test syntax",
+                  "author": "Jiang Tengfei",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/3e95375823d7997f5e670866ce75e355b9f6241c"
+                },
+                {
+                  "sha": "f62c6e4",
+                  "message": "ddns-scripts: support version output in frontend",
+                  "author": "Jiang Tengfei",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/f62c6e4c9147a75d8e88e566b376ed50c22f2f15"
+                },
+                {
+                  "sha": "d1cc4fa",
+                  "message": "ddns-scripts: add curl source IP bind fallback",
+                  "author": "Jiang Tengfei",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/d1cc4fa6599326970ba5ac80e72f49266df7dc3a"
+                },
+                {
+                  "sha": "8a16fee",
+                  "message": "ddns-scripts: add EuroDNS provider",
+                  "author": "Angus Young",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/8a16feeed164e9bd06c482d729895cd932b925d9"
+                },
+                {
+                  "sha": "6c92932",
+                  "message": "ddns-scripts: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c92932fd449e005bbbbfb2e51b62084c5d315c4"
+                },
+                {
+                  "sha": "69501ba",
+                  "message": "ddns-scripts: add fallback for default values",
+                  "author": "Andy Chiang",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/69501ba96df55f84a2b479a41ca07308f8e5af1c"
+                },
+                {
+                  "sha": "c5022e9",
+                  "message": "ddns-scripts: fix log noise",
+                  "author": "Andy Chiang",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/c5022e9d7345ef7c8e743063af2b340de09b95c0"
+                },
+                {
+                  "sha": "44fd87e",
+                  "message": "ddns-scripts: add blazingfast.io Anycast DNS provider",
+                  "author": "Fotios Kitsantas",
+                  "date": "2026-09-29T06:08:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/44fd87e893a443da8da82346e34c53724a444594"
+                },
+                {
                   "sha": "b9c0c76",
                   "message": "unbound: add version check override",
                   "author": "George Sapkin",
@@ -3344,125 +3463,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-09-28T11:02:36Z",
                   "url": "https://github.com/openwrt/packages/commit/16ebd8daf2e6e9a88ff6c0bbcb37bb1e01b07f80"
-                },
-                {
-                  "sha": "3685975",
-                  "message": "python-semanage: fix cross-compilation, add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T11:02:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/3685975072c9432d623c7c8f1a549962ae5dea7e"
-                },
-                {
-                  "sha": "a90cfdc",
-                  "message": "python-selinux: fix cross-compilation, add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T11:02:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/a90cfdcd367d903a69016813945a586f7da9db79"
-                },
-                {
-                  "sha": "eb27e99",
-                  "message": "xz: update to 5.8.3",
-                  "author": "Hannu Nyman",
-                  "date": "2026-09-28T08:43:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/eb27e992814f219f1e3902e63af78b01446dac83"
-                },
-                {
-                  "sha": "e55f085",
-                  "message": "xz: update to 5.8.2",
-                  "author": "Hannu Nyman",
-                  "date": "2026-09-28T08:43:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/e55f0855c8e9ae8d03b1fd17596cc79164edd620"
-                },
-                {
-                  "sha": "313ee1c",
-                  "message": "ovpn-dco: update to 7.2.0.2026082800",
-                  "author": "Qingfang Deng",
-                  "date": "2026-09-28T08:43:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/313ee1ccca29bd56017862e5b011df37f852bb4c"
-                },
-                {
-                  "sha": "33378cd",
-                  "message": "openvpn: update to 2.7.7",
-                  "author": "Qingfang Deng",
-                  "date": "2026-09-28T08:43:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/33378cdc87bab5712a96486c7602054c7b608dc8"
-                },
-                {
-                  "sha": "36c03b7",
-                  "message": "tcpreplay: fix CI tests for the QEMU runtime",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:42:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/36c03b70fe4ed2a1fd85b3aafbce745c02e3331a"
-                },
-                {
-                  "sha": "41411ee",
-                  "message": "tcpreplay: add libxdp as dependency",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:42:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/41411ee1839a6a340e9526743d9cbfd9edafe370"
-                },
-                {
-                  "sha": "f9e3cf7",
-                  "message": "tcpreplay: add libbpf dependency",
-                  "author": "TeleostNaCl Dai",
-                  "date": "2026-09-28T08:42:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9e3cf7f0722a7a16a2c0d28f6400370961cd3b6"
-                },
-                {
-                  "sha": "409f2d5",
-                  "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-28T08:41:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/409f2d51a99a4909979d127db1f1e96421212bdc"
-                },
-                {
-                  "sha": "fc2e81e",
-                  "message": "libssh: update to 0.12.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-28T08:41:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc2e81e948ae153d28baa14fc9d5dfad65e589a2"
-                },
-                {
-                  "sha": "0a1417d",
-                  "message": "libssh: update to 0.12.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:41:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/0a1417d8f12a13c8caecebb9e368c533dfe7e0b5"
-                },
-                {
-                  "sha": "ff8477f",
-                  "message": "libssh: update to 0.12.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:41:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/ff8477fe301d4a42a356af2f283ca550e49b97ca"
-                },
-                {
-                  "sha": "86e14ad",
-                  "message": "adblock: update 4.5.8-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-27T20:10:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/86e14ad80eac5d9eda5992c6e4fbc1b3ad461357"
-                },
-                {
-                  "sha": "474b51e",
-                  "message": "banip: update 1.9.0-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-27T19:01:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/474b51ef1e1c4a5fa7581763713ed172df41783b"
-                },
-                {
-                  "sha": "32dd807",
-                  "message": "banip: update 1.9.0-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-25T21:12:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/32dd807af85e709fb0965aae58be9f50f8bef412"
-                },
-                {
-                  "sha": "4887ba9",
-                  "message": "librespeed: fix the kconfig recursion between common and the clients",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-25T09:10:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/4887ba99a723a5f4e0e0a3626fef0ae7ce70a3f6"
                 }
               ]
             }
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91916,
+            "stars": 91917,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-29T04:00:07Z",
@@ -4706,7 +4706,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80710,
+            "stars": 80711,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-29T02:24:14Z",
@@ -4774,7 +4774,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17780,
+            "stars": 17781,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-09-28T17:37:04Z",
