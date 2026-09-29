@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:02:15.628453Z",
+  "generated_at": "2026-09-29T19:07:31.455826Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "35e616d",
-            "branch": "main",
-            "date": "2026-09-29T18:34:03Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/35e616d3b93d9fbaa1592f98235641a2c526b181"
+            "sha": "eb29a4e",
+            "branch": "windows-tun-fix",
+            "date": "2026-09-29T11:21:21Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/eb29a4e3de94935b94d583a5d820e65e236c5ce0"
           }
         },
         {
@@ -951,12 +951,21 @@
             "stars": 55,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T15:57:12Z",
+            "pushed_at": "2026-09-29T19:05:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.8",
+              "tag": "1.0.0-beta.8",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.8",
+              "published_at": "2026-09-29T19:05:36Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Improved\n\n- The popup size setting is easier to read, with the size choices closer to their label.\n\n### Fixed\n\n- Starting with this version, future macOS updates relaunch Flowvy more reliably."
+            },
             {
               "name": "1.0.0-beta.7",
               "tag": "1.0.0-beta.7",
@@ -992,15 +1001,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### Improved\n\n- macOS disk images now open with a branded installation layout that clearly shows where to place Flowvy and keeps the optional uninstaller easy to find.\n\n### Fixed\n\n- After an in-app update on macOS, Flowvy opens again automatically and restores the connection that was active before the update, even when Launch at Login and Auto-connect are disabled.\n- If an in-app update fails after disconnecting, Flowvy reconnects automatically instead of leaving the connection off.\n- Launch at Login and Start minimized now apply only to actual login launches: opening Flowvy manually still shows the app, and failed autostart changes are no longer saved as successful.\n- macOS packages are now signed for compatibility with current system security checks, preventing the updated client from being blocked when it relaunches.\n- Reopening the menu bar popup on macOS no longer highlights a previously used button automatically; visible focus appears only when keyboard navigation begins."
-            },
-            {
-              "name": "1.0.0-beta.3",
-              "tag": "1.0.0-beta.3",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.3",
-              "published_at": "2026-09-04T19:34:56Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### Improved\n\n- Opening the popup on macOS keeps the current app active while preserving keyboard navigation and shortcuts inside Flowvy."
             }
           ],
           "last_commit": {
@@ -3542,7 +3542,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 716,
+            "stars": 717,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4573,7 +4573,7 @@
             "stars": 76993,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T18:52:02Z",
+            "pushed_at": "2026-09-29T19:05:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3b0a1ce",
-            "branch": "collinfingar/hackathon-saved-views-02-frontend-core",
-            "date": "2026-09-28T20:40:02Z",
-            "url": "https://github.com/grafana/grafana/commit/3b0a1ce5e90f7b4a63f949237ac45a8d7a976594"
+            "sha": "7d1470e",
+            "branch": "main",
+            "date": "2026-09-29T19:05:05Z",
+            "url": "https://github.com/grafana/grafana/commit/7d1470ebb2946ea1bcf7e7cfd0d4d99b472b02b8"
           }
         },
         {
