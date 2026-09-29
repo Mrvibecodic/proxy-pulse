@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T06:49:01.924909Z",
+  "generated_at": "2026-09-29T06:54:17.768450Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T06:46:44Z",
+            "pushed_at": "2026-09-29T06:53:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,6 +1750,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "73d502f",
+                  "message": "shine: skip version check for shineenc",
+                  "author": "Marcin Maj",
+                  "date": "2026-09-29T06:53:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/73d502ffaff38bce9ca0d4a514ee7aa9dbb8b84d"
+                },
+                {
+                  "sha": "3c451de",
+                  "message": "umurmur: update to 0.5.1",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-29T06:52:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/3c451dea27dd430bd19c2761a9f0933cdcf624d6"
+                },
+                {
                   "sha": "75438c8",
                   "message": "uvol: pad the MBR disk signature when matching root=",
                   "author": "Daniel Golle",
@@ -1944,20 +1958,6 @@
                   "author": "Xinhui Yang",
                   "date": "2026-09-22T17:28:26Z",
                   "url": "https://github.com/openwrt/packages/commit/9f462c360f6039f679d4d2ef20dabf4d4e643f58"
-                },
-                {
-                  "sha": "4faf9d3",
-                  "message": "php8-pecl-http: disable TLS-SRP detection",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-22T13:19:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/4faf9d37e928b7d4ef3ee7865d5d90eb5e78c294"
-                },
-                {
-                  "sha": "6fdf823",
-                  "message": "curl: update to 8.22.0",
-                  "author": "Peter Polonec",
-                  "date": "2026-09-22T13:19:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/6fdf82368fd855e452e8747fbb4c1bbe6c0fd752"
                 }
               ]
             },
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91917,
+            "stars": 91918,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-29T04:00:07Z",
