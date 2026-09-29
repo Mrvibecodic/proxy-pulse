@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:06:34.149836Z",
+  "generated_at": "2026-09-29T14:11:49.912956Z",
   "groups": [
     {
       "id": "cores",
@@ -1027,7 +1027,7 @@
             "stars": 28570,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T12:31:53Z",
+            "pushed_at": "2026-09-29T14:08:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1080,10 +1080,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3f1de27",
+            "sha": "3ee26fd",
             "branch": "master",
-            "date": "2026-09-29T07:59:30Z",
-            "url": "https://github.com/openwrt/openwrt/commit/3f1de27621fcbc06ece334c3e9eafd3e89d968d2"
+            "date": "2026-09-29T14:08:33Z",
+            "url": "https://github.com/openwrt/openwrt/commit/3ee26fd4178e680d3ddc54d26251d4cbadac8623"
           }
         },
         {
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T13:12:42Z",
+            "pushed_at": "2026-09-29T14:07:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3255,6 +3255,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "42cd716",
+                  "message": "exim: update to 4.100.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T14:07:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/42cd716d5df2a9694752098540af2a3def989f82"
+                },
+                {
+                  "sha": "fb7d7b3",
+                  "message": "exim: add download URL for superseded releases",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-29T14:07:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/fb7d7b3ab5eb3a67938bc165caa05b286281e290"
+                },
+                {
                   "sha": "9f43907",
                   "message": "rsync: update to 3.5.1",
                   "author": "Ivan Pavlov",
@@ -3449,20 +3463,6 @@
                   "author": "Seo Suchan",
                   "date": "2026-09-28T14:20:24Z",
                   "url": "https://github.com/openwrt/packages/commit/96cc41065687d454f3ef2d720245f7a99bf02a33"
-                },
-                {
-                  "sha": "fe94ae1",
-                  "message": "giflib: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:18:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe94ae1556db76457295d6606cb08f6ab295d412"
-                },
-                {
-                  "sha": "deca004",
-                  "message": "coreutils: add generic version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:18:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/deca004d4003280596086575206c0f16810ad17e"
                 }
               ]
             }
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91946,
+            "stars": 91947,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-29T04:00:07Z",
@@ -4573,7 +4573,7 @@
             "stars": 76993,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T14:02:55Z",
+            "pushed_at": "2026-09-29T14:07:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4626,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bb47638",
-            "branch": "release-13.2.4",
-            "date": "2026-09-29T13:59:57Z",
-            "url": "https://github.com/grafana/grafana/commit/bb476388ff3a92442a2dc46d2da3b472a6170c06"
+            "sha": "9deb5a3",
+            "branch": "main",
+            "date": "2026-09-29T14:07:53Z",
+            "url": "https://github.com/grafana/grafana/commit/9deb5a360a36ded0b1e3b97fb4ac5262ec31ed07"
           }
         },
         {
@@ -4641,7 +4641,7 @@
             "stars": 66309,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-09-29T13:52:05Z",
+            "pushed_at": "2026-09-29T14:06:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -4694,10 +4694,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e7e644a",
-            "branch": "bwplotka/rw_receiver_appender_v2",
-            "date": "2026-09-29T13:52:06Z",
-            "url": "https://github.com/prometheus/prometheus/commit/e7e644aa0da2a5750e9aa7467f14b33fd06d99ed"
+            "sha": "6733617",
+            "branch": "main",
+            "date": "2026-09-29T14:07:01Z",
+            "url": "https://github.com/prometheus/prometheus/commit/6733617c8b5b541fe15d5f8d904928f8ff1d9d58"
           }
         },
         {
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7e60e16",
+            "sha": "f01eddf",
             "branch": "master",
-            "date": "2026-09-29T07:20:27Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7e60e167bf1008117b623c690677c0185c5f5583"
+            "date": "2026-09-29T08:19:23Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/f01eddfdd0819ae3cc354eb5b743cb1d81c27b45"
           }
         }
       ]
