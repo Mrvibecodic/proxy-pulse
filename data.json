@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:08:24.629366Z",
+  "generated_at": "2026-09-29T13:13:40.701958Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5143,
+            "stars": 5144,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-09-12T15:07:11Z",
@@ -361,7 +361,7 @@
           "track": "releases",
           "meta": {
             "description": "Node component for Remnawave. Learn more at: https://docs.rw",
-            "stars": 185,
+            "stars": 186,
             "url": "https://github.com/remnawave/node",
             "default_branch": "main",
             "pushed_at": "2026-08-30T21:44:39Z",
@@ -880,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7306,
+            "stars": 7307,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-29T02:36:22Z",
@@ -1095,7 +1095,7 @@
             "stars": 4613,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T06:56:19Z",
+            "pushed_at": "2026-09-29T13:12:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3255,6 +3255,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "9f43907",
+                  "message": "rsync: update to 3.5.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-29T13:12:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/9f439079f970d257c54f99afecc7640cab67185b"
+                },
+                {
+                  "sha": "a14cd33",
+                  "message": "rsync: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-09-29T13:12:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/a14cd33125d0b8b84939559a497e1f218315268c"
+                },
+                {
+                  "sha": "a0f47dd",
+                  "message": "net/rsync: fix PKG_CPE_ID",
+                  "author": "Fabrice Fontaine",
+                  "date": "2026-09-29T13:12:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/a0f47dd3dfeab078c45b0943aba5ca5f6a7966fc"
+                },
+                {
                   "sha": "c3d309e",
                   "message": "libxslt: add test-version.sh",
                   "author": "Seo Suchan",
@@ -3442,27 +3463,6 @@
                   "author": "George Sapkin",
                   "date": "2026-09-28T14:18:48Z",
                   "url": "https://github.com/openwrt/packages/commit/deca004d4003280596086575206c0f16810ad17e"
-                },
-                {
-                  "sha": "98ac584",
-                  "message": "bind: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:18:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/98ac58472655bc6953c2226c030c1e196eec3f94"
-                },
-                {
-                  "sha": "c99b0fa",
-                  "message": "dbus: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T11:02:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/c99b0fa8932bff6dd71711c1a4febedeec927274"
-                },
-                {
-                  "sha": "a149847",
-                  "message": "python3: update to 3.13.15",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T11:02:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/a149847ebe1c78ea36564019a5d6424b7d5c332c"
                 }
               ]
             }
@@ -4777,7 +4777,7 @@
             "stars": 17784,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-09-29T12:24:09Z",
+            "pushed_at": "2026-09-29T13:10:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -4830,10 +4830,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dfc647c",
-            "branch": "fix-flaky-cluster-apptests",
-            "date": "2026-09-29T12:15:52Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/dfc647caddc2633573dae26e7288dad16557c25a"
+            "sha": "7e60e16",
+            "branch": "master",
+            "date": "2026-09-29T07:20:27Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7e60e167bf1008117b623c690677c0185c5f5583"
           }
         }
       ]
