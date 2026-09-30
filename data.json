@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:25:22.824298Z",
+  "generated_at": "2026-09-30T09:30:39.947149Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T00:32:05Z",
+            "pushed_at": "2026-09-30T09:27:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -534,15 +534,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Second built-in core: Clod Core (our Mihomo fork with patches) next to stock Mihomo; both are in the \"Clash core\" window\n- The core \"Update\" button asks the core itself to upgrade, each from its own source (Mihomo from MetaCubeX, Clod Core from clod-core releases)\n- MIPS TUN stack in the \"TUN mode\" dialog and from the subscription template\n- A subscription is reloaded shortly after its expiry date from the panel, so stubs or a renewal show up at once; a failed reload is retried from 15 min up to 5 h\n\n### Changed\n\n- \"Auto\" TUN stack without a stack in the subscription now means gVisor; an unknown stack value in the template is dropped instead of breaking the profile\n- Picking a core turns the managed core off, so the chosen core always runs\n- The core \"Update\" button works under the service always, and without the service only where the core folder is writable and not on Windows; otherwise it shows a hint\n- The \"Clod\" channel of the managed core is removed (replaced by the built-in Clod Core)\n- New installs no longer store the default connection method as a user choice, so `clod-connect-mode` from the subscription applies\n- Simpler README and documentation, Clod Core described\n\n### Fixed\n\n- The support report names the running core (Mihomo / Clod Core), says \"not running\" when it is stopped and counts the connection method the same way as the button\n- Subscription update queue is re-armed by the wall clock after sleep\n- The \"General\" group hint no longer promises notifications\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Второе встроенное ядро — Clod Core (наш форк Mihomo с патчами) рядом со стоковым Mihomo; оба в окне «Ядро Clash»\n- Кнопка «Обновить» у ядра просит само ядро обновиться, каждое из своего источника (Mihomo — MetaCubeX, Clod Core — релизы clod-core)\n- Стек TUN MIPS в диалоге «Режим TUN» и из шаблона подписки\n- Подписка загружается заново вскоре после истечения срока из панели — заглушки или продление видны сразу; неудача повторяется с паузой от 15 мин до 5 ч\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor; незнакомый стек в шаблоне отбрасывается, а не ломает профиль\n- Выбор ядра выключает управляемое ядро — выбранное запускается всегда\n- Кнопка «Обновить» у ядра работает под службой всегда, без службы — только если папка ядра доступна на запись и не на Windows; иначе показывает подсказку\n- Канал «Clod» у управляемого ядра убран (его заменило встроенное Clod Core)\n- Новые установки не записывают способ подключения по умолчанию как выбор пользователя — `clod-connect-mode` из подписки действует\n- Проще README и документация, описано Clod Core\n\n### Исправлено\n\n- Отчёт для поддержки называет работающее ядро (Mihomo / Clod Core), при остановленном пишет «не запущено» и считает способ подключения так же, как кнопка\n- Очередь обновления подписок после сна перевзводится по настенным часам\n- Подсказка группы «Основные» больше не обещает уведомления"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11-alpha.3",
-              "tag": "clod-v0.1.11-alpha.3",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.3",
-              "published_at": "2026-09-26T09:21:46Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Ping color thresholds can come from the subscription (`clod-ping` header)\n- `clod-lock-mode: lock` locks the routing mode permanently; `clod-announce` takes priority over the panel's `announce`\n- Option \"Close connections when picking a server on the Home page\"\n- macOS: the app bundle is signed without a certificate; installation with a single command, documented\n\n### Changed\n\n- Your own subscription name is stored separately from the panel's name; the update interval from the panel applies on every update\n- When the panel rejects the device, the previous servers are removed and mirrors are not polled; the device limit screen names the subscription and shows no device count\n- Ping scale as on Android (200/400 ms); latency is measured per node instead of the core's group test; provider nodes get fresh pings; no numbers in the tray\n- System proxy uses an external host only when LAN sharing is on, otherwise 127.0.0.1; the PAC address always stays on the loopback\n- Removed non-working settings: start page, backup on change, theme CSS, diagnostics export; the window always opens on Home\n- `clod-hwid-limit` and `clod-device-remove` headers are no longer read\n- Documentation updated to match the code, with a page on the `clod-*` headers\n\n### Fixed\n\n- The core is not reloaded with an unchanged config; a subscription update with unchanged content no longer duplicates auto-group tests\n- Skipping the reload takes empty rule sets into account\n- Changing a subscription address in the card no longer resets anything\n- Home page auto-test uses the fresh node list; the test queue does not survive a subscription switch; the proxy indicator waits for the core's answer\n- Backup schedule counts from the last backup, starts without waiting for a settings save and is not reset by unrelated saves\n- Support report shows the real proxy host; core connection errors get into the report and the log archive with addresses stripped\n- More precise hints for the proxy host, the managed core, built-in enhancements and the web UI\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Границы цвета пинга могут задаваться подпиской (заголовок `clod-ping`)\n- `clod-lock-mode: lock` — постоянный замок режима; `clod-announce` важнее панельного `announce`\n- Галка «Закрывать соединения при выборе сервера на главной»\n- macOS: пакет приложения подписывается без сертификата; установка одной командой описана в документации\n\n### Изменено\n\n- Своё название подписки хранится отдельно от названия панели; интервал обновления от панели применяется при каждом обновлении\n- Отказ панели по устройству убирает прежние серверы и не опрашивает запасные адреса; окно лимита устройств называет подписку и не показывает число устройств\n- Шкала пинга как на Android (200/400 мс); замер по узлам вместо группового теста ядра, свежие пинги узлов провайдеров, без цифр в трее\n- Системный прокси использует внешний хост только при раздаче в локальную сеть, иначе 127.0.0.1; адрес PAC всегда на петле\n- Убраны неработающие пункты настроек: стартовая страница, копия при изменениях, CSS темы, экспорт диагностики; окно всегда открывается на Главной\n- Заголовки `clod-hwid-limit` и `clod-device-remove` больше не читаются\n- Документация приведена под код, добавлена страница заголовков `clod-*`\n\n### Исправлено\n\n- Ядро не перезагружается тем же конфигом; обновление подписки с прежним содержимым не дублирует замер авто-групп\n- Пропуск перезагрузки учитывает пустые наборы правил\n- Смена адреса подписки в карточке больше ничего не сбрасывает\n- Автозамер Главной берёт свежие узлы; очередь замера не переживает смену подписки; индикатор прокси ждёт ответа ядра\n- Расписание копий считает срок от последней копии, стартует без ожидания сохранения настроек и не сбивается посторонними сохранениями\n- Отчёт поддержки показывает реальный хост прокси; ошибки соединений ядра попадают в отчёт и архив логов без адресов\n- Точнее подсказки хоста прокси, управляемого ядра, встроенных улучшений и веб-интерфейса"
             }
           ],
           "last_commit": {
@@ -1080,10 +1071,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ad13aa",
-            "branch": "openwrt-25.12",
-            "date": "2026-09-30T07:50:11Z",
-            "url": "https://github.com/openwrt/openwrt/commit/6ad13aa7290135ac6e1778be95d11b3034b9a416"
+            "sha": "bfb9858",
+            "branch": "main",
+            "date": "2026-09-29T11:58:18Z",
+            "url": "https://github.com/openwrt/openwrt/commit/bfb985894411647c61d48f92946c6b2fc775f83a"
           }
         },
         {
@@ -4137,10 +4128,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ea1378a",
+            "sha": "c467844",
             "branch": "main",
-            "date": "2026-09-30T08:13:14Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/ea1378ad33c02899624270c470b82a9601cb9936"
+            "date": "2026-09-30T08:25:14Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/c4678445b19b283f4cb11fea65850a7b101690f2"
           }
         },
         {
@@ -4434,7 +4425,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91981,
+            "stars": 91982,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-30T00:06:45Z",
@@ -4502,7 +4493,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25862,
+            "stars": 25863,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-09-29T23:56:57Z",
@@ -4573,7 +4564,7 @@
             "stars": 77003,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T09:22:01Z",
+            "pushed_at": "2026-09-30T09:29:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4626,10 +4617,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bdcc720",
-            "branch": "main",
-            "date": "2026-09-30T09:21:29Z",
-            "url": "https://github.com/grafana/grafana/commit/bdcc7205e9b75d7954acd25e5e734d714ef77596"
+            "sha": "d5709ef",
+            "branch": "fix/alerting-list-empty-datasources",
+            "date": "2026-09-29T11:58:01Z",
+            "url": "https://github.com/grafana/grafana/commit/d5709ef195aff877b49d99147feb2a11850d62c0"
           }
         },
         {
