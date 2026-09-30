@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T23:14:17.003538Z",
+  "generated_at": "2026-09-30T23:19:32.523219Z",
   "groups": [
     {
       "id": "cores",
@@ -1095,7 +1095,7 @@
             "stars": 4616,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-30T09:58:51Z",
+            "pushed_at": "2026-09-30T23:18:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3255,6 +3255,48 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "92bc644",
+                  "message": "golang: mark 1.27 as host-only",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/92bc64441b8508979d1242145ff82d26e378a4a4"
+                },
+                {
+                  "sha": "880b3ba",
+                  "message": "golang: bump 1.27 to 1.27.1",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/880b3baf844cc21307bcdaa86fc8a5e2773a90d0"
+                },
+                {
+                  "sha": "2558a94",
+                  "message": "golang: add support for host-only version series",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/2558a94e1bcf3fe7dbb88b963cc7581b8d385811"
+                },
+                {
+                  "sha": "4aba19f",
+                  "message": "golang: add 1.27.0",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/4aba19f29ea17d134e2993fbd451f63373520b57"
+                },
+                {
+                  "sha": "2c3fb32",
+                  "message": "golang: fix target binary stripping",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/2c3fb3263e1bab8c2832a4aa0f95366d28e71534"
+                },
+                {
+                  "sha": "05772f3",
+                  "message": "golang: remove redundant quotes in extra_provides",
+                  "author": "George Sapkin",
+                  "date": "2026-09-30T23:18:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/05772f3b8f4b27df67faceb8eb239e5a74b06ba0"
+                },
+                {
                   "sha": "42cd716",
                   "message": "exim: update to 4.100.1",
                   "author": "Josef Schlehofer",
@@ -3421,48 +3463,6 @@
                   "author": "George Sapkin",
                   "date": "2026-09-28T14:36:37Z",
                   "url": "https://github.com/openwrt/packages/commit/b9c0c76e661d2e14e7610c4867742bc6716ad806"
-                },
-                {
-                  "sha": "ddc652f",
-                  "message": "unbound: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T14:36:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/ddc652f6cf789510d210e2fc9ed9d90d6a4e7df3"
-                },
-                {
-                  "sha": "22e5a43",
-                  "message": "krb5: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:34:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/22e5a43f0cbf3fb8122d9688129b756d74137803"
-                },
-                {
-                  "sha": "02f5976",
-                  "message": "tvheadend: skip the DVB permission fix without adapters",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:23:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/02f59768077482ca727038b188e0e67373e18ebc"
-                },
-                {
-                  "sha": "4363fe3",
-                  "message": "tvheadend: update to 2026-09-24",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:23:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/4363fe3876d9e175fd92f0f7d8bc22c8d87f4c31"
-                },
-                {
-                  "sha": "afd7412",
-                  "message": "rtl-sdr: add test.sh",
-                  "author": "Seo Suchan",
-                  "date": "2026-09-28T14:20:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/afd7412aee7a211437d92e1229d2badb2591d82e"
-                },
-                {
-                  "sha": "96cc410",
-                  "message": "rtl-sdr: update to 2.0.2",
-                  "author": "Seo Suchan",
-                  "date": "2026-09-28T14:20:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/96cc41065687d454f3ef2d720245f7a99bf02a33"
                 }
               ]
             },
