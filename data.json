@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:41:14.593487Z",
+  "generated_at": "2026-09-30T09:46:30.685759Z",
   "groups": [
     {
       "id": "cores",
@@ -1086,7 +1086,7 @@
             "stars": 4614,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-30T09:34:42Z",
+            "pushed_at": "2026-09-30T09:42:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3456,6 +3456,436 @@
                   "url": "https://github.com/openwrt/packages/commit/96cc41065687d454f3ef2d720245f7a99bf02a33"
                 }
               ]
+            },
+            {
+              "name": "rb-dmx",
+              "commits": [
+                {
+                  "sha": "02e85ea",
+                  "message": "dmx_usb_module: build through KERNEL_MAKE",
+                  "author": "Paul Spooren",
+                  "date": "2026-09-30T09:41:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/02e85ea6468d7adb80ea64d8865d71e4e90b1bc3"
+                },
+                {
+                  "sha": "6e7270b",
+                  "message": "libevdev: depend on input-support for the evdev nodes",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e7270bc8e23481084818ece6e93107f9d6fae5e"
+                },
+                {
+                  "sha": "be93cc5",
+                  "message": "libdrm: depend on video-support for the DRM nodes",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/be93cc553ba362be3ac64659b737226523bcbd13"
+                },
+                {
+                  "sha": "05dc176",
+                  "message": "sane-backends: depend on scanner-support for the group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/05dc1768cbe3221af8c448c783ddfc58f2b95564"
+                },
+                {
+                  "sha": "a09a32e",
+                  "message": "tvheadend: depend on dvb-support for the dvb group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/a09a32e9bf57ba98ade2c323598926f826c9889d"
+                },
+                {
+                  "sha": "df0592a",
+                  "message": "treewide: depend on audio-support for the audio group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/df0592a8407a14d631ca43cb61ef1fabdfee6c9c"
+                },
+                {
+                  "sha": "059ba7d",
+                  "message": "minisatip: stop gating libdvbcsa on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/059ba7d4fda5cb00f429f49b1061fb81e121456c"
+                },
+                {
+                  "sha": "974cc0d",
+                  "message": "tvheadend: stop gating CSA support on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/974cc0daf551c13821d30c2f6f738e1bbc1a1f69"
+                },
+                {
+                  "sha": "fc712cb",
+                  "message": "libdvbcsa: remove BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc712cb8b39b9f41afe310ee49df660951ea6187"
+                },
+                {
+                  "sha": "73d502f",
+                  "message": "shine: skip version check for shineenc",
+                  "author": "Marcin Maj",
+                  "date": "2026-09-29T06:53:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/73d502ffaff38bce9ca0d4a514ee7aa9dbb8b84d"
+                },
+                {
+                  "sha": "3c451de",
+                  "message": "umurmur: update to 0.5.1",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-29T06:52:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/3c451dea27dd430bd19c2761a9f0933cdcf624d6"
+                },
+                {
+                  "sha": "75438c8",
+                  "message": "uvol: pad the MBR disk signature when matching root=",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-28T22:46:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/75438c8934f2a506eb6a75b0f0e017c5ca70bccf"
+                },
+                {
+                  "sha": "8f9ad50",
+                  "message": "setools: fix the version reported by the tools",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/8f9ad5085e0e401e4327638a4e05258e1c5d4569"
+                },
+                {
+                  "sha": "17283f7",
+                  "message": "selinux-python: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/17283f7e83dfc43ffd2a9dc5ffaebb62661c70f7"
+                },
+                {
+                  "sha": "0d7ca56",
+                  "message": "tvheadend: skip the DVB permission fix without adapters",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/0d7ca569ebd1ed871a2ac209a3208fffa55f4abf"
+                },
+                {
+                  "sha": "3726fde",
+                  "message": "tvheadend: update to 2026-09-24",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/3726fde8fbfd524dc72986bb59a193382acb19aa"
+                },
+                {
+                  "sha": "9274fde",
+                  "message": "python3: match packages by pattern in version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T11:03:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/9274fde0baf0e9f34d7b0e9b33054c4fff1ad3e0"
+                },
+                {
+                  "sha": "f108c5f",
+                  "message": "tinc: report the real version",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T08:41:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/f108c5ff17af754fa48e9dce8c40e2b5396b94c7"
+                },
+                {
+                  "sha": "7cda9bb",
+                  "message": "xz: update to 5.8.4",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T08:10:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/7cda9bbbe8f33b6d551bdfdc48138242ecaf4772"
+                },
+                {
+                  "sha": "0f85be3",
+                  "message": "ddns-scripts: use HTTPS for variomedia.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/0f85be35c647379a45d690d414520e65bf2dff26"
+                },
+                {
+                  "sha": "6260e64",
+                  "message": "ddns-scripts: remove ddnss.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/6260e64719713f64c4c84cbbfe709714b56a763f"
+                },
+                {
+                  "sha": "019ce1b",
+                  "message": "ddns-scripts: remove defunct providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/019ce1b87c29bc40fc6d6d020c658e2080b86828"
+                },
+                {
+                  "sha": "10f86ed",
+                  "message": "gpsd: install gps2udp client",
+                  "author": "Jose Luis Sanroma Tato",
+                  "date": "2026-09-28T06:01:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/10f86ed4bcf607e3634c6a97540ad45198d67071"
+                },
+                {
+                  "sha": "ce188c6",
+                  "message": "exim: update to 4.100.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce188c6505f932db88efc356f3161cb31068de43"
+                },
+                {
+                  "sha": "a983abe",
+                  "message": "exim: add download URL for superseded releases",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/a983abe73090b5247ecea8c2e69d80f26e046a21"
+                },
+                {
+                  "sha": "a637759",
+                  "message": "adblock: update 4.5.8-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T20:10:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/a637759c3aae15f112bff2f3a845c74ee331b978"
+                },
+                {
+                  "sha": "3638045",
+                  "message": "telegraf: update to 1.40.1",
+                  "author": "Niklas Thorild",
+                  "date": "2026-09-27T19:18:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/363804555b7c2d33e4abb84a6fc6d761b0cbcf6e"
+                },
+                {
+                  "sha": "5e6d78f",
+                  "message": "banip: update 1.9.0-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T19:00:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e6d78f6d547694973848e45d77be4513d405dda"
+                },
+                {
+                  "sha": "4a69a0b",
+                  "message": "banip: update 1.9.0-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-25T21:11:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a69a0b76759dcd6e2164c81d7260b5280d833c1"
+                },
+                {
+                  "sha": "99d036f",
+                  "message": "rsync: update to 3.5.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-25T12:22:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/99d036fa779811b7b39e7caebc9a57ea85fd67be"
+                }
+              ]
+            },
+            {
+              "name": "rb-v4l2loopback",
+              "commits": [
+                {
+                  "sha": "eeb50d1",
+                  "message": "v4l2loopback: build through KERNEL_MAKE",
+                  "author": "Paul Spooren",
+                  "date": "2026-09-30T09:40:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/eeb50d10528e277a5b597d5147e86be6262b5c59"
+                },
+                {
+                  "sha": "6e7270b",
+                  "message": "libevdev: depend on input-support for the evdev nodes",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e7270bc8e23481084818ece6e93107f9d6fae5e"
+                },
+                {
+                  "sha": "be93cc5",
+                  "message": "libdrm: depend on video-support for the DRM nodes",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/be93cc553ba362be3ac64659b737226523bcbd13"
+                },
+                {
+                  "sha": "05dc176",
+                  "message": "sane-backends: depend on scanner-support for the group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/05dc1768cbe3221af8c448c783ddfc58f2b95564"
+                },
+                {
+                  "sha": "a09a32e",
+                  "message": "tvheadend: depend on dvb-support for the dvb group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/a09a32e9bf57ba98ade2c323598926f826c9889d"
+                },
+                {
+                  "sha": "df0592a",
+                  "message": "treewide: depend on audio-support for the audio group",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-29T17:14:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/df0592a8407a14d631ca43cb61ef1fabdfee6c9c"
+                },
+                {
+                  "sha": "059ba7d",
+                  "message": "minisatip: stop gating libdvbcsa on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/059ba7d4fda5cb00f429f49b1061fb81e121456c"
+                },
+                {
+                  "sha": "974cc0d",
+                  "message": "tvheadend: stop gating CSA support on BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/974cc0daf551c13821d30c2f6f738e1bbc1a1f69"
+                },
+                {
+                  "sha": "fc712cb",
+                  "message": "libdvbcsa: remove BUILD_PATENTED",
+                  "author": "Rosen Penev",
+                  "date": "2026-09-29T06:56:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc712cb8b39b9f41afe310ee49df660951ea6187"
+                },
+                {
+                  "sha": "73d502f",
+                  "message": "shine: skip version check for shineenc",
+                  "author": "Marcin Maj",
+                  "date": "2026-09-29T06:53:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/73d502ffaff38bce9ca0d4a514ee7aa9dbb8b84d"
+                },
+                {
+                  "sha": "3c451de",
+                  "message": "umurmur: update to 0.5.1",
+                  "author": "Martin Johansson",
+                  "date": "2026-09-29T06:52:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/3c451dea27dd430bd19c2761a9f0933cdcf624d6"
+                },
+                {
+                  "sha": "75438c8",
+                  "message": "uvol: pad the MBR disk signature when matching root=",
+                  "author": "Daniel Golle",
+                  "date": "2026-09-28T22:46:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/75438c8934f2a506eb6a75b0f0e017c5ca70bccf"
+                },
+                {
+                  "sha": "8f9ad50",
+                  "message": "setools: fix the version reported by the tools",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/8f9ad5085e0e401e4327638a4e05258e1c5d4569"
+                },
+                {
+                  "sha": "17283f7",
+                  "message": "selinux-python: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:44:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/17283f7e83dfc43ffd2a9dc5ffaebb62661c70f7"
+                },
+                {
+                  "sha": "0d7ca56",
+                  "message": "tvheadend: skip the DVB permission fix without adapters",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/0d7ca569ebd1ed871a2ac209a3208fffa55f4abf"
+                },
+                {
+                  "sha": "3726fde",
+                  "message": "tvheadend: update to 2026-09-24",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T14:21:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/3726fde8fbfd524dc72986bb59a193382acb19aa"
+                },
+                {
+                  "sha": "9274fde",
+                  "message": "python3: match packages by pattern in version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T11:03:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/9274fde0baf0e9f34d7b0e9b33054c4fff1ad3e0"
+                },
+                {
+                  "sha": "f108c5f",
+                  "message": "tinc: report the real version",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T08:41:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/f108c5ff17af754fa48e9dce8c40e2b5396b94c7"
+                },
+                {
+                  "sha": "7cda9bb",
+                  "message": "xz: update to 5.8.4",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T08:10:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/7cda9bbbe8f33b6d551bdfdc48138242ecaf4772"
+                },
+                {
+                  "sha": "0f85be3",
+                  "message": "ddns-scripts: use HTTPS for variomedia.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/0f85be35c647379a45d690d414520e65bf2dff26"
+                },
+                {
+                  "sha": "6260e64",
+                  "message": "ddns-scripts: remove ddnss.de",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/6260e64719713f64c4c84cbbfe709714b56a763f"
+                },
+                {
+                  "sha": "019ce1b",
+                  "message": "ddns-scripts: remove defunct providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-28T06:11:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/019ce1b87c29bc40fc6d6d020c658e2080b86828"
+                },
+                {
+                  "sha": "10f86ed",
+                  "message": "gpsd: install gps2udp client",
+                  "author": "Jose Luis Sanroma Tato",
+                  "date": "2026-09-28T06:01:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/10f86ed4bcf607e3634c6a97540ad45198d67071"
+                },
+                {
+                  "sha": "ce188c6",
+                  "message": "exim: update to 4.100.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce188c6505f932db88efc356f3161cb31068de43"
+                },
+                {
+                  "sha": "a983abe",
+                  "message": "exim: add download URL for superseded releases",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-09-27T23:14:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/a983abe73090b5247ecea8c2e69d80f26e046a21"
+                },
+                {
+                  "sha": "a637759",
+                  "message": "adblock: update 4.5.8-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T20:10:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/a637759c3aae15f112bff2f3a845c74ee331b978"
+                },
+                {
+                  "sha": "3638045",
+                  "message": "telegraf: update to 1.40.1",
+                  "author": "Niklas Thorild",
+                  "date": "2026-09-27T19:18:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/363804555b7c2d33e4abb84a6fc6d761b0cbcf6e"
+                },
+                {
+                  "sha": "5e6d78f",
+                  "message": "banip: update 1.9.0-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-27T19:00:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e6d78f6d547694973848e45d77be4513d405dda"
+                },
+                {
+                  "sha": "4a69a0b",
+                  "message": "banip: update 1.9.0-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-09-25T21:11:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a69a0b76759dcd6e2164c81d7260b5280d833c1"
+                },
+                {
+                  "sha": "99d036f",
+                  "message": "rsync: update to 3.5.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-09-25T12:22:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/99d036fa779811b7b39e7caebc9a57ea85fd67be"
+                }
+              ]
             }
           ]
         },
@@ -3731,7 +4161,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5316,
+            "stars": 5317,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-30T00:39:18Z",
@@ -4564,7 +4994,7 @@
             "stars": 77003,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T09:36:41Z",
+            "pushed_at": "2026-09-30T09:44:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -4617,10 +5047,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3cbed13",
-            "branch": "ferruvich/gitlab-401-metric-classification",
-            "date": "2026-09-30T08:14:46Z",
-            "url": "https://github.com/grafana/grafana/commit/3cbed13c507d5d74b71d04809b00a8daff545756"
+            "sha": "5c9502d",
+            "branch": "main",
+            "date": "2026-09-30T09:44:19Z",
+            "url": "https://github.com/grafana/grafana/commit/5c9502d425adc0c76009174f2868d16bd30a03bd"
           }
         },
         {
@@ -4697,7 +5127,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80750,
+            "stars": 80751,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-09-30T00:24:53Z",
@@ -5121,7 +5551,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7655,
+            "stars": 7656,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-09-30T03:25:41Z",
