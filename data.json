@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:41:31.414236Z",
+  "generated_at": "2026-09-30T18:46:48.685335Z",
   "groups": [
     {
       "id": "cores",
@@ -567,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.23-alpha.2",
+              "tag": "android-v0.1.23-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.2",
+              "published_at": "2026-09-30T18:43:16Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Узел, закреплённый вручную в группе «Авто» (url-test и fallback), подписан\n  «Закреплён»; повторное нажатие снимает закрепление.\n\n### Изменено\n\n- Ядро Clod Core теперь на стабильном mihomo v1.19.32: исправления\n  мультиплекса, HTTP/2 и сетевого стека MIPS.\n- Узлы, которыми группы пользуются сейчас, проверяются первыми. Проверка в\n  приложении идёт той же пробой, что и у ядра: провал подтверждается второй\n  пробой.\n- При смене сети соединения рвутся сразу, не дожидаясь закрытия сессий узлов;\n  сброс закрывает и соединения XHTTP, trusttunnel и vmess mekya. Проверка после\n  подтверждения сети идёт без задержки.\n\n### Исправлено\n\n- Узел не помечается мёртвым из-за проверки, которой не хватило времени в\n  очереди к серверу или на краю круга проверки.\n- В «Авто» удалённый узел не подменяется одноимённым узлом из другого провайдера узлов.\n- VPN всегда опирается на предпочтительную сеть устройства, а не на ту, у\n  которой только что сменились свойства.\n- Копия профиля не заставляет ядро раньше времени перекачивать наборы правил и\n  провайдеры; логотип подписки не пропадает после неудачной загрузки.\n- В сведениях о ядре показана версия mihomo, а не имя ветки или старая версия.\n- У стека «Авто» убрана приписка «из подписки»."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.22",
               "tag": "android-v0.1.22",
@@ -4161,7 +4170,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5317,
+            "stars": 5318,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-09-30T00:39:18Z",
@@ -4994,7 +5003,7 @@
             "stars": 77012,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T18:33:25Z",
+            "pushed_at": "2026-09-30T18:46:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5047,10 +5056,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7f3af9e",
-            "branch": "main",
-            "date": "2026-09-29T17:42:18Z",
-            "url": "https://github.com/grafana/grafana/commit/7f3af9ebaa8ca93b4bea878f3b7f375cc431453b"
+            "sha": "42faa98",
+            "branch": "linoman/sso/ssosettings-rbac",
+            "date": "2026-09-29T15:26:59Z",
+            "url": "https://github.com/grafana/grafana/commit/42faa98c9582a29a792902056ea24392fb943af1"
           }
         },
         {
@@ -5251,10 +5260,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0023a7a",
-            "branch": "master",
-            "date": "2026-09-30T14:52:17Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/0023a7ab0c7a37981287599e2652ddd01f9539d4"
+            "sha": "bf29e2d",
+            "branch": "slowdown-unauthorized-user",
+            "date": "2026-09-30T17:29:58Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/bf29e2d2a8c0a1a0259acc36259cc053a10a92e3"
           }
         }
       ]
