@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T18:30:53.908877Z",
+  "generated_at": "2026-09-30T18:36:12.926689Z",
   "groups": [
     {
       "id": "cores",
@@ -561,7 +561,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T17:10:11Z",
+            "pushed_at": "2026-09-30T18:33:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,15 +602,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Восстановление подписок из файла сначала показывает список и спрашивает\n  подтверждение, а ход восстановления виден в том же окне.\n\n### Изменено\n\n- Облачный бэкап и перенос данных на новое устройство выключены: подписки и\n  ключи не покидают телефон.\n- Убрано добавление подписки через сторонние приложения-поставщики.\n- Диапазон fake-ip по умолчанию — 198.18.0.1/16, как у ядра и на ПК; кэш\n  прежнего диапазона сбрасывается один раз после обновления.\n- «Защищённое соединение» на экране добавления: название и переключатель в\n  одну строку, под ними — напоминание проверить поддержку у провайдера.\n\n### Исправлено\n\n- Интерфейс не подвисает в ожидании фонового процесса и системы; главный экран\n  отвечает сразу.\n- Из серии быстрых нажатий по узлам применяется последнее; выбор не теряется,\n  если экран повернуть или закрыть, пока ядро занято.\n- Подтверждение и ход восстановления подписок не пропадают при повороте экрана,\n  смене темы, старте и остановке VPN.\n- Напоминания о сроке и трафике подписки проверяются и при остановке VPN, а не\n  только при открытом главном экране.\n- Туннель не закрывается на главном потоке; новая сессия ядра ждёт, пока\n  закончится прошлая.\n- Крэш-дамп и журнал сети не содержат адресов устройства."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.22-alpha.6",
-              "tag": "android-v0.1.22-alpha.6",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.6",
-              "published_at": "2026-09-27T09:24:26Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Стек туннеля берётся из подписки, включая MIPS.\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor.\n- Туннель пересобирается, когда меняется состав приложений в «Доступе\n  приложений», стек или приложение из списка переустановлено; открытые\n  соединения при этом рвутся.\n\n### Исправлено\n\n- Нечитаемые настройки больше не открываются пустыми и не записываются поверх\n  настоящих — экран показывает карточку со сбросом; неудачная запись или сброс\n  не выдаются за успех.\n- Сбой ядра посреди применения конфига не выдаётся за «оставлен прежний\n  профиль».\n- Сбой запроса групп при живом ядре не уводит главный экран в офлайн-список;\n  главный экран не падает при отказе службы.\n- Профилировщик pprof есть только в отладочной сборке."
             }
           ],
           "last_commit": {
@@ -1024,7 +1015,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28578,
+            "stars": 28579,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-30T14:32:13Z",
@@ -4238,7 +4229,7 @@
           "track": "releases",
           "meta": {
             "description": "Automated RouterOS installer for mihomo, byedpi, zapret, zapret2 — zero-touch setup, popular resource preloads, full support for VLESS/SS/Trojan links, AWG (WireGuard) and HTTP(S) subscriptions and RemnaWave-panel subscriptions with HWID.",
-            "stars": 143,
+            "stars": 144,
             "url": "https://github.com/Medium1992/mihomo-proxy-ros",
             "default_branch": "main",
             "pushed_at": "2026-09-30T17:54:18Z",
@@ -5000,10 +4991,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77011,
+            "stars": 77012,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T18:27:07Z",
+            "pushed_at": "2026-09-30T18:33:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5068,7 +5059,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66322,
+            "stars": 66323,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-09-30T14:40:07Z",
