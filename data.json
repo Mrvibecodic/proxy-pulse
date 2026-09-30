@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:57:03.275790Z",
+  "generated_at": "2026-09-30T10:02:18.571999Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41869,
+            "stars": 41870,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-09-30T07:41:08Z",
@@ -1024,7 +1024,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28574,
+            "stars": 28575,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-09-30T09:12:48Z",
@@ -1095,7 +1095,7 @@
             "stars": 4614,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-09-30T09:42:04Z",
+            "pushed_at": "2026-09-30T09:58:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1750,214 +1750,214 @@
               "name": "master",
               "commits": [
                 {
-                  "sha": "6e7270b",
-                  "message": "libevdev: depend on input-support for the evdev nodes",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-29T17:14:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/6e7270bc8e23481084818ece6e93107f9d6fae5e"
+                  "sha": "95d73eb",
+                  "message": "strongswan: bump PKG_RELEASE by one",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/95d73ebcc95ade2ea78b0a281898cf8b6ec7b7f9"
                 },
                 {
-                  "sha": "be93cc5",
-                  "message": "libdrm: depend on video-support for the DRM nodes",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-29T17:14:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/be93cc553ba362be3ac64659b737226523bcbd13"
+                  "sha": "b2f6de7",
+                  "message": "strongswan: rename child local/remote_subnet to local/remote_ts",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/b2f6de780d82d83f8302a50885d77f62bfa45428"
                 },
                 {
-                  "sha": "05dc176",
-                  "message": "sane-backends: depend on scanner-support for the group",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-29T17:14:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/05dc1768cbe3221af8c448c783ddfc58f2b95564"
+                  "sha": "e5e3198",
+                  "message": "strongswan: move local and remote into own uci sections",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/e5e31986517861006cb8bbf0d2a307d296ac877b"
                 },
                 {
-                  "sha": "a09a32e",
-                  "message": "tvheadend: depend on dvb-support for the dvb group",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-29T17:14:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/a09a32e9bf57ba98ade2c323598926f826c9889d"
+                  "sha": "ac80ae3",
+                  "message": "strongswan: use global secret/authority uci sections",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/ac80ae3fe97c629261365ad5d8da27e6f9f18c43"
                 },
                 {
-                  "sha": "df0592a",
-                  "message": "treewide: depend on audio-support for the audio group",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-29T17:14:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/df0592a8407a14d631ca43cb61ef1fabdfee6c9c"
+                  "sha": "7561ce7",
+                  "message": "strongswan: replace mschapv2_secrets with generic secret type",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/7561ce78193b2a77a072bf345f6d61c9a3eaf1f5"
                 },
                 {
-                  "sha": "059ba7d",
-                  "message": "minisatip: stop gating libdvbcsa on BUILD_PATENTED",
-                  "author": "Rosen Penev",
-                  "date": "2026-09-29T06:56:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/059ba7d4fda5cb00f429f49b1061fb81e121456c"
+                  "sha": "3d0c229",
+                  "message": "strongswan: add authority section handling",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/3d0c229dc8addc2dd4c493064712c6f013dcc99c"
                 },
                 {
-                  "sha": "974cc0d",
-                  "message": "tvheadend: stop gating CSA support on BUILD_PATENTED",
-                  "author": "Rosen Penev",
-                  "date": "2026-09-29T06:56:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/974cc0daf551c13821d30c2f6f738e1bbc1a1f69"
+                  "sha": "fe46e14",
+                  "message": "strongswan: rename uci remote section type to connection",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe46e1435bbb35f2781c15f3af1e68f866082855"
                 },
                 {
-                  "sha": "fc712cb",
-                  "message": "libdvbcsa: remove BUILD_PATENTED",
-                  "author": "Rosen Penev",
-                  "date": "2026-09-29T06:56:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc712cb8b39b9f41afe310ee49df660951ea6187"
+                  "sha": "d5f33e6",
+                  "message": "strongswan: support optional UCI session staging in migrate-ipsec-to-swanctl",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/d5f33e6410cfd9b30d0b25702663e7b67695925d"
                 },
                 {
-                  "sha": "73d502f",
-                  "message": "shine: skip version check for shineenc",
-                  "author": "Marcin Maj",
-                  "date": "2026-09-29T06:53:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/73d502ffaff38bce9ca0d4a514ee7aa9dbb8b84d"
+                  "sha": "d2074f2",
+                  "message": "strongswan: add back legacy config generation for old uci ipsec",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/d2074f20b83363da549e3051432036ea51084199"
                 },
                 {
-                  "sha": "3c451de",
-                  "message": "umurmur: update to 0.5.1",
-                  "author": "Martin Johansson",
-                  "date": "2026-09-29T06:52:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/3c451dea27dd430bd19c2761a9f0933cdcf624d6"
+                  "sha": "24d9cac",
+                  "message": "strongswan: add migrate command to swanctl.init",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/24d9cac253f1c6f9356b8d89a5b104547a5f930a"
                 },
                 {
-                  "sha": "75438c8",
-                  "message": "uvol: pad the MBR disk signature when matching root=",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-28T22:46:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/75438c8934f2a506eb6a75b0f0e017c5ca70bccf"
+                  "sha": "76c6805",
+                  "message": "strongswan: stop automatic migration via uci-defaults",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/76c6805c540e4473191dc530c3adb87a670ba6ca"
                 },
                 {
-                  "sha": "8f9ad50",
-                  "message": "setools: fix the version reported by the tools",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:44:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/8f9ad5085e0e401e4327638a4e05258e1c5d4569"
+                  "sha": "85a54e8",
+                  "message": "strongswan: also reload strongswan.conf on service reload",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/85a54e82026916329c7ad9805da4c1f5d0cffd87"
                 },
                 {
-                  "sha": "17283f7",
-                  "message": "selinux-python: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:44:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/17283f7e83dfc43ffd2a9dc5ffaebb62661c70f7"
+                  "sha": "d406256",
+                  "message": "strongswan: add kernel-netlink plugin config generation for install_routes_xfrmi",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/d406256cfab8c6b571c6810c5b5081f47e68991f"
                 },
                 {
-                  "sha": "0d7ca56",
-                  "message": "tvheadend: skip the DVB permission fix without adapters",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:21:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/0d7ca569ebd1ed871a2ac209a3208fffa55f4abf"
+                  "sha": "c60672a",
+                  "message": "strongswan: add uci shunt configuration",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/c60672a300bd651e820ee9b780a0938e2e83a9b0"
                 },
                 {
-                  "sha": "3726fde",
-                  "message": "tvheadend: update to 2026-09-24",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:21:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/3726fde8fbfd524dc72986bb59a193382acb19aa"
+                  "sha": "46f564f",
+                  "message": "strongswan: fix ipsec globals section type",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/46f564fada3da3cf85b2b6ff6cc0e120642fda75"
                 },
                 {
-                  "sha": "9274fde",
-                  "message": "python3: match packages by pattern in version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T11:03:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/9274fde0baf0e9f34d7b0e9b33054c4fff1ad3e0"
+                  "sha": "86e8350",
+                  "message": "strongswan: rename dpddelay to dpd_delay in remote",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/86e83506749d9d6f2f2582ae5651709df2ee744a"
                 },
                 {
-                  "sha": "f108c5f",
-                  "message": "tinc: report the real version",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T08:41:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/f108c5ff17af754fa48e9dce8c40e2b5396b94c7"
+                  "sha": "5dc436d",
+                  "message": "strongswan: rename overtime to over_time in remote",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/5dc436db28cb08b31c79aad62ffa9e863229e9e3"
                 },
                 {
-                  "sha": "7cda9bb",
-                  "message": "xz: update to 5.8.4",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T08:10:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/7cda9bbbe8f33b6d551bdfdc48138242ecaf4772"
+                  "sha": "6e880e5",
+                  "message": "strongswan: rename rekeytime to rekey_time in remote",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e880e5a41bffae6e454b3398bea8773e07b7873"
                 },
                 {
-                  "sha": "0f85be3",
-                  "message": "ddns-scripts: use HTTPS for variomedia.de",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T06:11:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f85be35c647379a45d690d414520e65bf2dff26"
+                  "sha": "d477322",
+                  "message": "strongswan: rename lifepackets to life_packets in child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/d4773220db71e962a45910bbd365055da0e05e9c"
                 },
                 {
-                  "sha": "6260e64",
-                  "message": "ddns-scripts: remove ddnss.de",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T06:11:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/6260e64719713f64c4c84cbbfe709714b56a763f"
+                  "sha": "a7b6ddd",
+                  "message": "strongswan: rename rekeypackets to rekey_packets child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/a7b6ddd89a51cc99200c4daf26b18b3c983c8c5d"
                 },
                 {
-                  "sha": "019ce1b",
-                  "message": "ddns-scripts: remove defunct providers",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T06:11:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/019ce1b87c29bc40fc6d6d020c658e2080b86828"
+                  "sha": "2a94bbc",
+                  "message": "strongswan: rename lifebytes to life_bytes in child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a94bbcb206cb64858fd9022e7f423dbb86d7d1b"
                 },
                 {
-                  "sha": "10f86ed",
-                  "message": "gpsd: install gps2udp client",
-                  "author": "Jose Luis Sanroma Tato",
-                  "date": "2026-09-28T06:01:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/10f86ed4bcf607e3634c6a97540ad45198d67071"
+                  "sha": "995e170",
+                  "message": "strongswan: rename rekeybytes to rekey_bytes child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/995e170cce62944abf6935676020ae7f5c148902"
                 },
                 {
-                  "sha": "ce188c6",
-                  "message": "exim: update to 4.100.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-27T23:14:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/ce188c6505f932db88efc356f3161cb31068de43"
+                  "sha": "6bba5f5",
+                  "message": "strongswan: rename lifetime to life_time in child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/6bba5f54b1c460d7bd487a8657cfec78939d1edf"
                 },
                 {
-                  "sha": "a983abe",
-                  "message": "exim: add download URL for superseded releases",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-27T23:14:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/a983abe73090b5247ecea8c2e69d80f26e046a21"
+                  "sha": "2d4c8ac",
+                  "message": "strongswan: rename rekeytime to rekey_time in child",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/2d4c8ac5b70afe95a1c167da22358fb2e791b385"
                 },
                 {
-                  "sha": "a637759",
-                  "message": "adblock: update 4.5.8-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-27T20:10:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/a637759c3aae15f112bff2f3a845c74ee331b978"
+                  "sha": "d4d0fdc",
+                  "message": "strongswan: rename startaction to start_action",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/d4d0fdc9a179cc9e06974e6ce65d75b39598c9a4"
                 },
                 {
-                  "sha": "3638045",
-                  "message": "telegraf: update to 1.40.1",
-                  "author": "Niklas Thorild",
-                  "date": "2026-09-27T19:18:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/363804555b7c2d33e4abb84a6fc6d761b0cbcf6e"
+                  "sha": "3b9bf10",
+                  "message": "strongswan: rename closeaction to close_action",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/3b9bf104ff1d6a74988c925340baf65561e03758"
                 },
                 {
-                  "sha": "5e6d78f",
-                  "message": "banip: update 1.9.0-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-27T19:00:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e6d78f6d547694973848e45d77be4513d405dda"
+                  "sha": "7243d32",
+                  "message": "strongswan: migrate legacy dpdaction option to dpd_action",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/7243d324fc9bcdc3b036f5ac42532778e15c3f97"
                 },
                 {
-                  "sha": "4a69a0b",
-                  "message": "banip: update 1.9.0-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-09-25T21:11:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/4a69a0b76759dcd6e2164c81d7260b5280d833c1"
+                  "sha": "371f6df",
+                  "message": "strongswan: add support for custom_proposal option",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/371f6df8e162c21db59673a55029e07c82b67d66"
                 },
                 {
-                  "sha": "99d036f",
-                  "message": "rsync: update to 3.5.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-09-25T12:22:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/99d036fa779811b7b39e7caebc9a57ea85fd67be"
+                  "sha": "01ccc1b",
+                  "message": "strongswan: move globals debug option to dedicated syslog plugin section",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/01ccc1b71a8ed7c6e2231211f70403f442667835"
                 },
                 {
-                  "sha": "d43c9a1",
-                  "message": "openldap: update to 2.6.15",
-                  "author": "Romain Isnel",
-                  "date": "2026-09-25T12:21:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/d43c9a10b0d934e7669817b26525f66434fbab2b"
+                  "sha": "9fce366",
+                  "message": "strongswan: unify tunnel/transport child sections to add further child modes",
+                  "author": "Florian Eckert",
+                  "date": "2026-09-30T09:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/9fce366fe5171b076fef9dc18a44408e6d2a26af"
                 }
               ]
             },
@@ -5003,7 +5003,7 @@
             "stars": 77003,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T09:55:39Z",
+            "pushed_at": "2026-09-30T09:59:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5548,10 +5548,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0b3a2f9",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-09-30T08:32:49Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/0b3a2f9c9a0c1311059860744d3170381b71866d"
+            "sha": "cc348ed",
+            "branch": "gh-pages-misans-only",
+            "date": "2026-09-30T08:32:51Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/cc348ed9109a963b40fb807f90df847e1dff1433"
           }
         },
         {
