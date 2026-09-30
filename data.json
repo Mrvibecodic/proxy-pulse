@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:22:05.242071Z",
+  "generated_at": "2026-09-30T08:27:23.801987Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 34534,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T07:47:28Z",
+            "pushed_at": "2026-09-30T08:25:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Wed Sep 30 00:45:49 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n* fix(anytls): potential race condition in c.idleSession.Len() in idleCleanupExpTime() by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3225\n* fix: fix InUser for mieru by @echizenryoma in https://github.com/MetaCubeX/mihomo/pull/3236\n* feat: convert support xhttp extra.headers by @Medium1992 in https://github.com/MetaCubeX/mihomo/pull/3230\n* feat: add load-balance hash-key to pin a session on the inbound user by @jianzhichun in https://github.com/MetaCubeX/mihomo/pull/3133\n* fix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN by @FlyingSB in https://github.com/MetaCubeX/mihomo/pull/3237\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3242\n\n## New Contributors\n* @echizenryoma made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3236\n* @jianzhichun made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3133\n* @FlyingSB made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3237\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
+              "body": "Release created at  Wed Sep 30 16:25:06 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n* fix(anytls): potential race condition in c.idleSession.Len() in idleCleanupExpTime() by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3225\n* fix: fix InUser for mieru by @echizenryoma in https://github.com/MetaCubeX/mihomo/pull/3236\n* feat: convert support xhttp extra.headers by @Medium1992 in https://github.com/MetaCubeX/mihomo/pull/3230\n* feat: add load-balance hash-key to pin a session on the inbound user by @jianzhichun in https://github.com/MetaCubeX/mihomo/pull/3133\n* fix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN by @FlyingSB in https://github.com/MetaCubeX/mihomo/pull/3237\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3242\n\n## New Contributors\n* @echizenryoma made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3236\n* @jianzhichun made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3133\n* @FlyingSB made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3237\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
             },
             {
               "name": "v1.19.31",
@@ -880,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7319,
+            "stars": 7320,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-09-29T22:26:52Z",
@@ -4111,12 +4111,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T08:13:13Z",
+            "pushed_at": "2026-09-30T08:25:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.9.30",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-09-30T08:23:38Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha e51b3c3",
               "tag": "alpha",
@@ -4125,15 +4134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@e51b3c362198519370962576f6735418a6c84b10\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.9.9",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-09-23T13:36:20Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.9\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -4434,7 +4434,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 91977,
+            "stars": 91979,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-09-30T00:06:45Z",
@@ -4570,10 +4570,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77001,
+            "stars": 77002,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T08:14:45Z",
+            "pushed_at": "2026-09-30T08:23:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
