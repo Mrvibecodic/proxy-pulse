@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:40:38.153368Z",
+  "generated_at": "2026-10-01T12:45:57.018120Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4617,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T05:57:24Z",
+            "pushed_at": "2026-10-01T12:43:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a97c6d1",
+                  "message": "libvpx: update to 1.17.0",
+                  "author": "Luiz Angelo Daros de Luca",
+                  "date": "2026-10-01T12:43:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/a97c6d1bc1d48842dd405eaeb0d3b836495df0c6"
+                },
+                {
                   "sha": "5ff92c7",
                   "message": "ddns-scripts: add alviy.com provider",
                   "author": "Elly Sai",
@@ -1960,13 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/371f6df8e162c21db59673a55029e07c82b67d66"
-                },
-                {
-                  "sha": "01ccc1b",
-                  "message": "strongswan: move globals debug option to dedicated syslog plugin section",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/01ccc1b71a8ed7c6e2231211f70403f442667835"
                 }
               ]
             },
@@ -5009,7 +5009,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77029,
+            "stars": 77030,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-01T12:17:22Z",
