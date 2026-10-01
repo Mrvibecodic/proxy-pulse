@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:41:07.925031Z",
+  "generated_at": "2026-10-01T09:46:24.367220Z",
   "groups": [
     {
       "id": "cores",
@@ -558,6 +558,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.23-alpha.3",
+              "tag": "android-v0.1.23-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.3",
+              "published_at": "2026-10-01T09:43:38Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Подписка, пропустившая автообновление, помечается: после первого пропуска — строка «Не обновилась» на карточке, после второго — карточка в рамке с кнопкой «Обновить» и подсвеченная кнопка обновления на Главной. Удачное обновление всё снимает.\n\n### Изменено\n\n- Версия ядра в приложении показывается с номером сборки Clod Core (например, v1.19.32-clod.2).\n- Узел помечается мёртвым только после второй неудачной проверки — в том числе при закрытом порте, неизвестном хосте или неверном коде ответа; медленные узлы тоже получают вторую проверку.\n- Группа «Авто», у которой «мёртвый» узел на деле пропускает трафик, перепроверяется раньше.\n- После обновления провайдера узлов оставшиеся узлы сохраняют результаты проверок, а новые проверяются сразу; fallback, закреплённый на пропавшем узле, переходит на первый живой.\n\n### Исправлено\n\n- Правила по UID больше не ищут приложение на каждое соединение и не засоряют журнал."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.23-alpha.2",
               "tag": "android-v0.1.23-alpha.2",
@@ -4985,7 +4994,7 @@
             "stars": 77029,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-01T09:41:07Z",
+            "pushed_at": "2026-10-01T09:46:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5038,10 +5047,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e940f49",
-            "branch": "jackw/migrate-oxlint",
-            "date": "2026-10-01T09:39:39Z",
-            "url": "https://github.com/grafana/grafana/commit/e940f495a79cf645fff6fe17fba5f65db8036683"
+            "sha": "4bae02a",
+            "branch": "ifrost/undo-redo/more-tracking",
+            "date": "2026-10-01T09:41:08Z",
+            "url": "https://github.com/grafana/grafana/commit/4bae02a1dbe91a08ff0d229c7667a13af67ba46e"
           }
         },
         {
@@ -5118,7 +5127,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80767,
+            "stars": 80768,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-01T01:25:05Z",
