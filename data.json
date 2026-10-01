@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:17:40.987027Z",
+  "generated_at": "2026-10-01T16:22:57.921341Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4617,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T15:48:43Z",
+            "pushed_at": "2026-10-01T16:19:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "edf3fca",
+                  "message": "ocserv: disable TCP wrappers",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-01T16:19:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/edf3fcab2c50a046ae5282618c3711b7db861bda"
+                },
+                {
                   "sha": "c101d7a",
                   "message": "xfrpc: do not link wolfSSL",
                   "author": "Alexandru Ardelean",
@@ -1960,13 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/3b9bf104ff1d6a74988c925340baf65561e03758"
-                },
-                {
-                  "sha": "7243d32",
-                  "message": "strongswan: migrate legacy dpdaction option to dpd_action",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/7243d324fc9bcdc3b036f5ac42532778e15c3f97"
                 }
               ]
             },
@@ -4873,7 +4873,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92012,
+            "stars": 92013,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-01T00:07:25Z",
