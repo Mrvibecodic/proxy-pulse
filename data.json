@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T13:22:57.976740Z",
+  "generated_at": "2026-10-01T13:28:17.125101Z",
   "groups": [
     {
       "id": "cores",
@@ -1090,7 +1090,7 @@
           ],
           "last_commit": {
             "sha": "31ef805",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-10-01T11:57:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/31ef8052449426249b8ea364444df9adab80bfef"
           }
@@ -1104,7 +1104,7 @@
             "stars": 4617,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T12:43:09Z",
+            "pushed_at": "2026-10-01T13:27:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "19fd107",
+                  "message": "pdns: security update to 4.9.17",
+                  "author": "Remi Gacogne",
+                  "date": "2026-10-01T13:27:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/19fd1072a2ae1dafa3a7b703e269344c00404ecc"
+                },
+                {
+                  "sha": "dd6a979",
+                  "message": "pdns: update config arguments",
+                  "author": "George Sapkin",
+                  "date": "2026-10-01T13:27:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/dd6a9799f8ce113228a6e10237578293ea0ae161"
+                },
+                {
+                  "sha": "51ad82a",
+                  "message": "pdns-recursor: security update to 5.2.13",
+                  "author": "Remi Gacogne",
+                  "date": "2026-10-01T13:27:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/51ad82abd391d7217d181e4e81d585d637be698e"
+                },
+                {
                   "sha": "92bc644",
                   "message": "golang: mark 1.27 as host-only",
                   "author": "George Sapkin",
@@ -3451,27 +3472,6 @@
                   "author": "Andy Chiang",
                   "date": "2026-09-29T06:08:18Z",
                   "url": "https://github.com/openwrt/packages/commit/69501ba96df55f84a2b479a41ca07308f8e5af1c"
-                },
-                {
-                  "sha": "c5022e9",
-                  "message": "ddns-scripts: fix log noise",
-                  "author": "Andy Chiang",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5022e9d7345ef7c8e743063af2b340de09b95c0"
-                },
-                {
-                  "sha": "44fd87e",
-                  "message": "ddns-scripts: add blazingfast.io Anycast DNS provider",
-                  "author": "Fotios Kitsantas",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/44fd87e893a443da8da82346e34c53724a444594"
-                },
-                {
-                  "sha": "b9c0c76",
-                  "message": "unbound: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:36:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9c0c76e661d2e14e7610c4867742bc6716ad806"
                 }
               ]
             },
@@ -5216,7 +5216,7 @@
             "stars": 17798,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T13:06:49Z",
+            "pushed_at": "2026-10-01T13:26:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
