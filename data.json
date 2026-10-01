@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:45:58.899167Z",
+  "generated_at": "2026-10-01T15:51:17.053268Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34561,
+            "stars": 34563,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-30T17:08:35Z",
@@ -1090,7 +1090,7 @@
           ],
           "last_commit": {
             "sha": "31ef805",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-10-01T11:57:53Z",
             "url": "https://github.com/openwrt/openwrt/commit/31ef8052449426249b8ea364444df9adab80bfef"
           }
@@ -1104,7 +1104,7 @@
             "stars": 4617,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T13:59:10Z",
+            "pushed_at": "2026-10-01T15:48:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "9b9199a",
+                  "message": "telegraf: target go 1.27 on openwrt-25.12",
+                  "author": "Niklas Thorild",
+                  "date": "2026-10-01T15:48:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/9b9199ae43c4c18177274468b61317b267fd3e71"
+                },
+                {
+                  "sha": "d78ab19",
+                  "message": "telegraf: update to 1.40.1",
+                  "author": "Niklas Thorild",
+                  "date": "2026-10-01T15:48:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/d78ab19f48729767dfeb8bea37530462f24cb06e"
+                },
+                {
                   "sha": "19fd107",
                   "message": "pdns: security update to 4.9.17",
                   "author": "Remi Gacogne",
@@ -3458,20 +3472,6 @@
                   "author": "Angus Young",
                   "date": "2026-09-29T06:08:18Z",
                   "url": "https://github.com/openwrt/packages/commit/8a16feeed164e9bd06c482d729895cd932b925d9"
-                },
-                {
-                  "sha": "6c92932",
-                  "message": "ddns-scripts: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/6c92932fd449e005bbbbfb2e51b62084c5d315c4"
-                },
-                {
-                  "sha": "69501ba",
-                  "message": "ddns-scripts: add fallback for default values",
-                  "author": "Andy Chiang",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/69501ba96df55f84a2b479a41ca07308f8e5af1c"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77033,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-01T15:44:09Z",
+            "pushed_at": "2026-10-01T15:49:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5216,7 +5216,7 @@
             "stars": 17799,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T13:37:15Z",
+            "pushed_at": "2026-10-01T15:50:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
