@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T17:10:37.439598Z",
+  "generated_at": "2026-10-01T17:15:54.425908Z",
   "groups": [
     {
       "id": "cores",
@@ -960,12 +960,21 @@
             "stars": 56,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-10-01T12:56:16Z",
+            "pushed_at": "2026-10-01T17:10:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.9",
+              "tag": "1.0.0-beta.9",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.9",
+              "published_at": "2026-10-01T17:10:42Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### New\n\n- Providers can customize the active subscription's accent color across the dashboard and popup, with readable light and dark themes.\n- macOS routes system DNS through the active TUN by default, including DNS requests normally sent to a local router. This can be turned off in Settings. The physical network's DNS remains available to the connection engine and follows network changes; system DNS returns automatically after disconnecting or a client, engine or helper crash.\n\n### Improved\n\n- TUN respects the stack specified by the subscription. When none is specified, it uses the connection engine's default; explicitly saved subscription overrides are preserved.\n- Profile configuration, runtime configuration and the VLESS converter share a YAML editor with field suggestions, schema diagnostics, hover help and formatting, available without external downloads.\n- Selectors in Settings, subscription overrides and rule forms stay compact, fit narrow windows and support more reliable keyboard navigation.\n- TUN uses an updated helper; older installations offer a helper update when needed.\n- TUN can follow the active subscription or stay enabled or disabled for all subscriptions. Existing on/off choices are preserved after updating. System Proxy turns off while TUN is enabled.\n- Subscription settings take precedence over unnecessary client defaults. IPv6, TUN routing, DNS and geodata settings follow the subscription or the connection engine's defaults.\n- The local proxy port can be set globally or reset to automatic selection. Beta keeps its separate port so it can run alongside the stable client.\n- Importing a subscription can offer helper installation without connecting. Cancelled installation prompts no longer resume an outdated connection or switch to another subscription.\n\n### Fixed\n\n- The TUN stack specified in a profile's YAML is respected when subscription overrides are disabled or locked by the provider.\n- Single-line popup announcements stay compact and no longer show an unnecessary expand button.\n- Schema warnings no longer prevent applying otherwise valid YAML; the connection engine still validates changes before they are saved.\n- macOS TUN connections start correctly when both IPv4 and IPv6 DNS endpoints are enabled.\n- Removing the helper disconnects TUN and System Proxy and restores system DNS before removal. Connecting again without TUN works without the helper.\n- Failed subscription changes preserve the previous connection and settings. Provider caches stay separate for each subscription and can be reused safely after changing or restoring a source.\n- Profiles with file-based providers keep using their original files; deleting a subscription does not delete those files."
+            },
             {
               "name": "1.0.0-beta.8",
               "tag": "1.0.0-beta.8",
@@ -1001,15 +1010,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- Hosts can be selected before connecting. Automatic groups have an explicit Auto select switch, and manual choices are restored when the connection starts.\n- Windows and macOS can download updates from an optional provider mirror, with automatic fallback to the official source. Update signatures remain mandatory; Linux continues to use the official source.\n- An optional setting closes existing connections for a group when switching its host. Connections through other groups remain active.\n\n### Improved\n\n- Single-host and group latency tests share a queue, avoid duplicate requests and show separate results for timeouts and other errors.\n- Connection changes and subscription updates are coordinated more reliably, with fewer unnecessary profile reloads and no stale results from previous routes.\n- Diagnostic logs distinguish latency-test failures and explain HTTP proxy access denials more clearly.\n- Groups remain visible when the core cannot start. Flowvy explains whether the list comes from saved data or the current profile and does not show an offline choice as an active connection.\n- Service errors distinguish an outdated helper from a temporary connection failure, and diagnostic output remains bounded during repeated failures.\n\n### Fixed\n\n- Cascaded hosts supplied by a subscription are tested through the correct route. Equal names from different sources no longer silently select the wrong host.\n- Testing groups no longer copies an old host measurement or releases a manually selected route. Rejected configuration edits do not change which route is tested.\n- The connection remains active while an application update downloads and is restored if installation fails after disconnecting.\n- Subscriptions receive the device OS on the first request, while device identification still requires consent.\n- Provider-required profile widgets remain enabled, and Settings explains the restriction.\n- If a subscription removes its primary group, Flowvy falls back to an available group instead of keeping an invalid selection.\n- The Windows helper no longer requires a separately installed Visual C++ runtime.\n- Windows installation no longer reports that an already stopped FlowvyServiceBeta could not be stopped. The helper also shuts down correctly while a client is connected but is not sending commands.\n- Linux package removal stops the owning processes and keeps stable and beta service data separate. In-app updates let the waiting client receive the installation result; upgrades retain service registration.\n- Manual host choices follow the current profile and subscription contents: delayed host lists do not overwrite a newer choice, and removed hosts do not linger in saved lists.\n- Invalid configuration changes are rejected before replacing the working configuration. Failed application or saving restores the previous state and reports when restoration also fails; the editor detects conflicting subscription updates.\n- Recovery after a core crash has a retry limit and stops when disconnecting, switching profiles, updating or quitting. Exited processes are no longer treated as running.\n- An occupied proxy port no longer produces a successful connection status when the proxy cannot accept connections.\n- On macOS, system proxy settings follow changes to the active network while connected.\n- Linux update notifications no longer trigger a runtime panic when contacting the desktop notification service.\n- Stable and beta installers keep their own files and update signatures when built in the same output directory.\n- Russian About text now displays the correct copyright year.\n\n### Security\n\n- Downloaded subscription resources use separate, validated cache locations, preventing one source from overwriting another source's data or writing outside the intended cache."
-            },
-            {
-              "name": "1.0.0-beta.4",
-              "tag": "1.0.0-beta.4",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.4",
-              "published_at": "2026-09-05T14:27:44Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### Improved\n\n- macOS disk images now open with a branded installation layout that clearly shows where to place Flowvy and keeps the optional uninstaller easy to find.\n\n### Fixed\n\n- After an in-app update on macOS, Flowvy opens again automatically and restores the connection that was active before the update, even when Launch at Login and Auto-connect are disabled.\n- If an in-app update fails after disconnecting, Flowvy reconnects automatically instead of leaving the connection off.\n- Launch at Login and Start minimized now apply only to actual login launches: opening Flowvy manually still shows the app, and failed autostart changes are no longer saved as successful.\n- macOS packages are now signed for compatibility with current system security checks, preventing the updated client from being blocked when it relaunches.\n- Reopening the menu bar popup on macOS no longer highlights a previously used button automatically; visible focus appears only when keyboard navigation begins."
             }
           ],
           "last_commit": {
@@ -5009,10 +5009,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77034,
+            "stars": 77033,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-01T17:05:28Z",
+            "pushed_at": "2026-10-01T17:12:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
