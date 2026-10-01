@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:30:35.429126Z",
+  "generated_at": "2026-10-01T09:35:51.882938Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38478,
+            "stars": 38479,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-09-30T05:03:34Z",
@@ -502,7 +502,7 @@
             "stars": 11,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T22:55:06Z",
+            "pushed_at": "2026-10-01T09:33:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -534,22 +534,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- The DNS page stores only what differs from the subscription; everything else always comes from the fresh subscription. \"As in subscription\" resets the page; an existing page is converted on the first start\n- Merge and script chains may now change `tun` and `dns` keys the app does not own itself; keys the app manages are dropped with a one-time notice per set\n- macOS: switching the primary network service (Wi-Fi ↔ cable) re-applies the system proxy within a second\n- The \"next update\" hint shows the real time of the next attempt, including retries\n\n### Changed\n\n- A config the core rejects at startup is no longer replaced by an empty default: the core does not start and the reason is shown; the first accepted config (profile switch, subscription update, TUN toggle, merge/script save) lifts it. If the check itself could not run, the core starts and judges the config itself\n- A subscription is checked by the core before it is written to disk; the previous file is kept as `.prev`\n- A failed scheduled subscription update is retried from 15 min up to 5 h; a subscription the core rejected waits for the regular time; one toast per series\n- One update per subscription at a time; scheduled downloads run at most three in parallel\n- With TUN on, no rights and no service, the core starts right away without TUN instead of waiting; TUN returns by itself once the service appears\n- Old installs: the connection method written by the previous template is cleared once, so `clod-connect-mode` from the subscription applies\n- Tauri 2.12: tray icon click on macOS 26/27\n- Managed core check compares with the last downloaded managed core while Clod Core is running; re-downloading the same version only switches to it\n- Core version line without the \"Mihomo\" suffix; core switch toast without the slot name\n\n### Fixed\n\n- Mode switch from the tray or hotkey while a config is being applied waits up to 3 s instead of racing it\n- A latency test URL that is not valid is highlighted and blocks saving the \"Misc\" dialog until fixed\n- Windows: window subscriptions are closed before the core stops at session end\n- Release notes in the update dialog are sanitized\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Страница DNS хранит только отличия от подписки; остальное всегда берётся из свежей подписки. «Как в подписке» сбрасывает страницу; старая страница переводится при первом запуске\n- Цепочки merge и script теперь могут менять ключи `tun` и `dns`, которыми приложение само не владеет; записи в ключи приложения отбрасываются с уведомлением один раз на набор\n- macOS: смена первичной сетевой службы (Wi-Fi ↔ кабель) переприменяет системный прокси в течение секунды\n- Подсказка «следующее обновление» показывает реальный срок следующей попытки, с учётом повторов\n\n### Изменено\n\n- Конфиг, отвергнутый ядром при запуске, больше не подменяется пустым умолчанием: ядро не запускается, причина показывается; первый принятый конфиг (смена профиля, обновление подписки, тумблер TUN, сохранение merge/script) снимает отказ. Если сама проверка не запустилась, ядро стартует и судит конфиг само\n- Подписка проверяется ядром до записи на диск; прежний файл сохраняется как `.prev`\n- Неудачное плановое обновление подписки повторяется с паузой от 15 мин до 5 ч; отвергнутая ядром подписка ждёт обычного срока; один тост на серию\n- Одно обновление подписки за раз; плановых загрузок — не больше трёх параллельно\n- При включённом TUN без прав и без службы ядро стартует сразу без TUN, а не ждёт; TUN возвращается сам, когда появится служба\n- Старые установки: способ подключения, записанный прежним шаблоном, снимается один раз, чтобы действовал `clod-connect-mode` из подписки\n- Tauri 2.12: клик по значку в трее на macOS 26/27\n- Проверка управляемого ядра при работающем Clod Core сравнивает с последним скачанным управляемым ядром; повторная загрузка той же версии только переключает на него\n- Строка версии ядра без подписи «Mihomo»; тост смены ядра без имени слота\n\n### Исправлено\n\n- Смена режима из трея или горячей клавишей во время применения конфига ждёт до 3 с, а не соревнуется с ним\n- Негодный адрес проверки задержки подсвечивается и не даёт сохранить диалог «Разное», пока не исправлен\n- Windows: подписки окна закрываются до остановки ядра при завершении сеанса\n- Примечания к выпуску в диалоге обновления проходят очистку"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11-alpha.4",
-              "tag": "clod-v0.1.11-alpha.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.4",
-              "published_at": "2026-09-27T09:41:03Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Second built-in core: Clod Core (our Mihomo fork with patches) next to stock Mihomo; both are in the \"Clash core\" window\n- The core \"Update\" button asks the core itself to upgrade, each from its own source (Mihomo from MetaCubeX, Clod Core from clod-core releases)\n- MIPS TUN stack in the \"TUN mode\" dialog and from the subscription template\n- A subscription is reloaded shortly after its expiry date from the panel, so stubs or a renewal show up at once; a failed reload is retried from 15 min up to 5 h\n\n### Changed\n\n- \"Auto\" TUN stack without a stack in the subscription now means gVisor; an unknown stack value in the template is dropped instead of breaking the profile\n- Picking a core turns the managed core off, so the chosen core always runs\n- The core \"Update\" button works under the service always, and without the service only where the core folder is writable and not on Windows; otherwise it shows a hint\n- The \"Clod\" channel of the managed core is removed (replaced by the built-in Clod Core)\n- New installs no longer store the default connection method as a user choice, so `clod-connect-mode` from the subscription applies\n- Simpler README and documentation, Clod Core described\n\n### Fixed\n\n- The support report names the running core (Mihomo / Clod Core), says \"not running\" when it is stopped and counts the connection method the same way as the button\n- Subscription update queue is re-armed by the wall clock after sleep\n- The \"General\" group hint no longer promises notifications\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Второе встроенное ядро — Clod Core (наш форк Mihomo с патчами) рядом со стоковым Mihomo; оба в окне «Ядро Clash»\n- Кнопка «Обновить» у ядра просит само ядро обновиться, каждое из своего источника (Mihomo — MetaCubeX, Clod Core — релизы clod-core)\n- Стек TUN MIPS в диалоге «Режим TUN» и из шаблона подписки\n- Подписка загружается заново вскоре после истечения срока из панели — заглушки или продление видны сразу; неудача повторяется с паузой от 15 мин до 5 ч\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor; незнакомый стек в шаблоне отбрасывается, а не ломает профиль\n- Выбор ядра выключает управляемое ядро — выбранное запускается всегда\n- Кнопка «Обновить» у ядра работает под службой всегда, без службы — только если папка ядра доступна на запись и не на Windows; иначе показывает подсказку\n- Канал «Clod» у управляемого ядра убран (его заменило встроенное Clod Core)\n- Новые установки не записывают способ подключения по умолчанию как выбор пользователя — `clod-connect-mode` из подписки действует\n- Проще README и документация, описано Clod Core\n\n### Исправлено\n\n- Отчёт для поддержки называет работающее ядро (Mihomo / Clod Core), при остановленном пишет «не запущено» и считает способ подключения так же, как кнопка\n- Очередь обновления подписок после сна перевзводится по настенным часам\n- Подсказка группы «Основные» больше не обещает уведомления"
             }
           ],
           "last_commit": {
-            "sha": "923be6a",
+            "sha": "384ad9f",
             "branch": "main",
-            "date": "2026-09-29T22:34:52Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/923be6a18671ebe93b6cf14d9dabf311246ca418"
+            "date": "2026-10-01T09:33:21Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/384ad9f3591e7dda9775a0f2f7c156556a5fe4ea"
           }
         },
         {
@@ -561,7 +552,7 @@
             "stars": 12,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-09-30T19:48:34Z",
+            "pushed_at": "2026-10-01T09:33:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -602,22 +593,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Сборка: официальный Go с go.dev со сверкой контрольной суммы; плагин сборки\n  Go и kaidl лежат в самом репозитории, а не на стороннем зеркале.\n\n### Исправлено\n\n- После падения службы экраны закрываются сразу; несохранённые правки\n  дописываются, когда служба вернётся.\n- Режим и группы на главной всегда относятся к показанной подписке; выбор узла\n  пишется той подписке, что загружена в ядро.\n- Активация новой подписки не останавливается, если уйти из приложения во\n  время добавления.\n- Запись журнала заканчивается, когда система перестаёт поднимать фоновый\n  процесс, а не ждёт вечно.\n- Отказ «черновик подписки изменился» показывается понятной фразой."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.22-alpha.7",
-              "tag": "android-v0.1.22-alpha.7",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.22-alpha.7",
-              "published_at": "2026-09-28T11:06:04Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Восстановление подписок из файла сначала показывает список и спрашивает\n  подтверждение, а ход восстановления виден в том же окне.\n\n### Изменено\n\n- Облачный бэкап и перенос данных на новое устройство выключены: подписки и\n  ключи не покидают телефон.\n- Убрано добавление подписки через сторонние приложения-поставщики.\n- Диапазон fake-ip по умолчанию — 198.18.0.1/16, как у ядра и на ПК; кэш\n  прежнего диапазона сбрасывается один раз после обновления.\n- «Защищённое соединение» на экране добавления: название и переключатель в\n  одну строку, под ними — напоминание проверить поддержку у провайдера.\n\n### Исправлено\n\n- Интерфейс не подвисает в ожидании фонового процесса и системы; главный экран\n  отвечает сразу.\n- Из серии быстрых нажатий по узлам применяется последнее; выбор не теряется,\n  если экран повернуть или закрыть, пока ядро занято.\n- Подтверждение и ход восстановления подписок не пропадают при повороте экрана,\n  смене темы, старте и остановке VPN.\n- Напоминания о сроке и трафике подписки проверяются и при остановке VPN, а не\n  только при открытом главном экране.\n- Туннель не закрывается на главном потоке; новая сессия ядра ждёт, пока\n  закончится прошлая.\n- Крэш-дамп и журнал сети не содержат адресов устройства."
             }
           ],
           "last_commit": {
-            "sha": "ad4c2c9",
+            "sha": "d7a7a1c",
             "branch": "main",
-            "date": "2026-09-30T18:56:19Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/ad4c2c9f1e641830e944a8d86319078009d718ff"
+            "date": "2026-10-01T09:33:24Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/d7a7a1ca853da1f09be2c24d75614263e55079b4"
           }
         },
         {
@@ -3972,7 +3954,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 722,
+            "stars": 723,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4988,10 +4970,10 @@
             }
           ],
           "last_commit": {
-            "sha": "33a2d7c",
+            "sha": "8f41b44",
             "branch": "l10n_main_2",
-            "date": "2026-10-01T02:41:35Z",
-            "url": "https://github.com/henrygd/beszel/commit/33a2d7cae2608f427f29db89cfdb7fb468c9609b"
+            "date": "2026-10-01T02:41:19Z",
+            "url": "https://github.com/henrygd/beszel/commit/8f41b445ace1f8e523f5fc14df8cb14364b97fb3"
           }
         },
         {
@@ -5003,7 +4985,7 @@
             "stars": 77029,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-01T09:30:13Z",
+            "pushed_at": "2026-10-01T09:35:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5056,10 +5038,10 @@
             }
           ],
           "last_commit": {
-            "sha": "49af07d",
+            "sha": "11f2223",
             "branch": "urbiz-g133-apis",
-            "date": "2026-10-01T09:21:00Z",
-            "url": "https://github.com/grafana/grafana/commit/49af07d32da4a763791ffb4eee9cc9496d583fc9"
+            "date": "2026-10-01T09:35:02Z",
+            "url": "https://github.com/grafana/grafana/commit/11f2223b082ff2260662a98424f81432ef70c8e8"
           }
         },
         {
@@ -5207,7 +5189,7 @@
             "stars": 17798,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T09:30:15Z",
+            "pushed_at": "2026-10-01T09:32:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5260,10 +5242,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d20910b",
-            "branch": "gh-11355",
-            "date": "2026-09-30T20:21:37Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/d20910b807931ccf3aa52d7ab86d830773e95822"
+            "sha": "9c3bf52",
+            "branch": "cluster",
+            "date": "2026-10-01T09:32:55Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/9c3bf5257f3ac84b826c26e716d199c959ef241d"
           }
         }
       ]
@@ -5616,10 +5598,10 @@
             }
           ],
           "last_commit": {
-            "sha": "569de32",
-            "branch": "refactor_use_std_lib_errors",
-            "date": "2026-10-01T07:02:10Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/569de32130cd492328c69c47f598f28e8bc56447"
+            "sha": "60a703d",
+            "branch": "refactor_use_francis_for_distrbuted_actors",
+            "date": "2026-10-01T03:26:33Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/60a703d8078f3652e281cadcd1a83807fd5d5128"
           }
         }
       ]
