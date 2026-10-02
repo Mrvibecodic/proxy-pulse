@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T17:31:55.793113Z",
+  "generated_at": "2026-10-02T17:37:12.968919Z",
   "groups": [
     {
       "id": "cores",
@@ -4873,7 +4873,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92060,
+            "stars": 92061,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-02T00:07:14Z",
@@ -4944,12 +4944,21 @@
             "stars": 25909,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T17:16:35Z",
+            "pushed_at": "2026-10-02T17:34:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
           },
           "releases": [
+            {
+              "name": "v0.21.0",
+              "tag": "v0.21.0",
+              "url": "https://github.com/henrygd/beszel/releases/tag/v0.21.0",
+              "published_at": "2026-10-02T17:34:33Z",
+              "prerelease": false,
+              "author": "henrygd",
+              "body": "## What's Changed\r\n- Add pending package updates list to the system page (#2357, #2427)\r\n- Add Wi-Fi signal strength monitoring (#2367)\r\n- Add TLS certificate expiry check to HTTPS network monitors (#2401)\r\n- Add systemd service logs to service details (#2440)\r\n- Add option to set the DNS server queried by DNS monitors (#2389)\r\n- Add network monitor comparison across systems and within the same system (#2442, #2477)\r\n- Add `SYNC_SYSTEM_NAMES` environment variable to sync system names with hostnames (#1917)\r\n- Add `DISABLE_SSH` option to the hub to skip SSH fallback (#2469)\r\n- Add environment variable to disable container image update checks (#2371)\r\n- Add MB/s and GB/s unit selection to bandwidth alerts\r\n- Add log timestamp toggle (#2471)\r\n- Add view settings to the network monitors table (#2396)\r\n- Add Twemoji Country Flags font so flags always render (#2363)\r\n- Change active alerts grid to a banner and sheet (#2445)\r\n- Change network packet loss to a red line (#2377)\r\n- Improve Intel GPU monitoring by parsing `intel_gpu_top` JSON output (#2387)\r\n- Improve LXC guest CPU usage reporting using cgroup accounting (#2341)\r\n- Improve WebSocket and SSH fallback handling (#2441)\r\n- Fix LVM volumes not mapping to disk I/O by resolving device symlinks (#2486)\r\n- Fix ZFS pool I/O stats to include snapshot reads (#2474)\r\n- Fix inaccurate disk I/O on the first sample of an interval (#2420)\r\n- Fix Windows volume names being altered when matching I/O devices (#2419)\r\n- Fix 32-bit wrap of disk I/O time counters (#2407)\r\n- Fix partial NVMe SMART data handling (#2340)\r\n- Fix NVMe power-cycle SMART fields overflowing (#2484)\r\n- Fix `nvethernet` network counters (#2090)\r\n- Fix agent not reconnecting after an async WebSocket handshake failure (#2329, #2326)\r\n- Fix WebSocket reconnect loops on slow agent collections (#2294)\r\n- Fix `SKIP_GPU` not excluding GPU hwmon temperatures and fans (#2313)\r\n- Fix Docker image update check across all image repository digests (#2393)\r\n- Fix status alerts being lost during pending recovery (#2375)\r\n- Fix hub requiring system access for alert subscriptions and delivery (#2455)\r\n- Fix hub not honoring SSH request cancellation (#2450)\r\n- Fix hub not restarting `beszel-hub.service` after update (#2410)\r\n- Fix IP targets being accepted for DNS monitors (#2483)\r\n- Fix short monitor IDs failing schema validation (#2454)\r\n- Fix network monitor charts to show gaps for failed probes and disconnects (#2428)\r\n- Fix duplicate y-axis labels on network monitor response charts (#2426)\r\n- Fix translations not refreshing on locale change (#2405)\r\n- Fix scrollbar layout shifts (#2406)\r\n- Fix hub returning 200 for unknown frontend routes (#2414)\r\n- Fix proxy caching of systemd details (#2456)\r\n- Fix agent not exiting with code 0 when run without a key on Windows (#2376, #2247)\r\n- Fix OpenWrt user account handling in the install script (#2370)\r\n- Update Go dependencies\r\n\r\n## New Contributors\r\n* @adrienboulle made their first contribution in https://github.com/henrygd/beszel/pull/2397\r\n* @Mario-Mohar made their first contribution in https://github.com/henrygd/beszel/pull/2410\r\n* @LudwigJMarx made their first contribution in https://github.com/henrygd/beszel/pull/2407\r\n* @anandghegde made their first contribution in https://github.com/henrygd/beszel/pull/2357\r\n* @Yi-111-a made their first contribution in https://github.com/henrygd/beszel/pull/2419\r\n* @lukyjay made their first contribution in https://github.com/henrygd/beszel/pull/2387\r\n* @user01010111 made their first contribution in https://github.com/henrygd/beszel/pull/2461\r\n* @Juankers made their first contribution in https://github.com/henrygd/beszel/pull/2470\r\n* @Bartuzen made their first contribution in https://github.com/henrygd/beszel/pull/2484\r\n* @jeroendewilde made their first contribution in https://github.com/henrygd/beszel/pull/2471\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.20.0...v0.21.0"
+            },
             {
               "name": "v0.20.0",
               "tag": "v0.20.0",
@@ -4985,22 +4994,13 @@
               "prerelease": false,
               "author": "henrygd",
               "body": "## What's Changed\r\n- Add more disk I/O metrics (utilization, read/write time, await, queue depth) (#1866)\r\n- Add ability to copy alerts between systems by @svenvg93 (#1853)\r\n- Add `SENSORS_TIMEOUT` environment variable (#1871)\r\n- Replace `distatus/battery` with an internal implementation by @svenvg93 (#1872)\r\n- Restrict universal token API to non-superuser accounts (#1870)\r\n- Fix macOS ARM64 crashes by upgrading `gopsutil` to v4.26.3 (#1881, #796)\r\n- Fix text size for system names in grid view by @Malith-Rukshan (#1860)\r\n- Fix NVMe capacity reporting for Apple SSDs by @svenvg93 (#1873)\r\n- Fix Windows root disk detection when the executable is not on the root disk (#1863)\r\n- Fix nested virtual filesystem inclusion in Docker when mounting host root by @svenvg93 (#1859)\r\n- Fix OPNsense installation persistence by using the daemon user by @svenvg93 (#1880)\r\n- Upgrade JS dependencies with dependabot security alerts by @svenvg93  (#1882)\r\n- Upgrade PocketBase to latest version\r\n\r\n## New Contributors\r\n* @Malith-Rukshan made their first contribution in https://github.com/henrygd/beszel/pull/1860\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.6...v0.18.7"
-            },
-            {
-              "name": "v0.18.6",
-              "tag": "v0.18.6",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.6",
-              "published_at": "2026-03-29T17:16:52Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add `apple-touch-icon` link by @y1zhou in https://github.com/henrygd/beszel/pull/1850\r\n- Fix regression in partition discovery on Docker (#1847)\r\n- Fix UI bug where charts did not display 1m max until next update\r\n- Fix agent detection of Podman when using socket proxy (#1846)\r\n- Fix NVML GPU collection being disabled when `nvidia-smi` is not in PATH (#1849)\r\n- Reset SMART interval on agent reconnect if the agent hasn't collected SMART data, allowing config changes to take effect immediately\r\n\r\n## New Contributors\r\n* @y1zhou made their first contribution in https://github.com/henrygd/beszel/pull/1850\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.5...v0.18.6"
             }
           ],
           "last_commit": {
-            "sha": "78a3b21",
-            "branch": "l10n_main_2",
-            "date": "2026-10-02T17:15:18Z",
-            "url": "https://github.com/henrygd/beszel/commit/78a3b21a318657924503f3346c1925efe0720f96"
+            "sha": "1c02f04",
+            "branch": "automation/update-helm-app-version",
+            "date": "2026-10-02T17:34:46Z",
+            "url": "https://github.com/henrygd/beszel/commit/1c02f04ec326460814248595428dd09aa138a444"
           }
         },
         {
@@ -5009,10 +5009,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77036,
+            "stars": 77038,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T17:28:59Z",
+            "pushed_at": "2026-10-02T17:36:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5077,7 +5077,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66337,
+            "stars": 66338,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-02T14:46:17Z",
@@ -5625,10 +5625,10 @@
             }
           ],
           "last_commit": {
-            "sha": "09606d5",
-            "branch": "main",
-            "date": "2026-10-01T05:09:15Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/09606d5987bf64545b16d6973270b167015770d3"
+            "sha": "7c02809",
+            "branch": "dependabot-devcontainers-ghcr.io-devcontainers-features-go-1.4.0",
+            "date": "2026-10-01T06:00:24Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/7c0280982effda11356628ef8ad0a8f0c1845ff3"
           }
         }
       ]
