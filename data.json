@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:51:24.998843Z",
+  "generated_at": "2026-10-02T04:56:40.267003Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34574,
+            "stars": 34575,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-09-30T17:08:35Z",
@@ -1104,7 +1104,7 @@
             "stars": 4618,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-01T16:44:58Z",
+            "pushed_at": "2026-10-02T04:56:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8801905",
+                  "message": "watchcat: resolve interface resolution race",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-02T04:56:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/88019052fa25d86bfed3106edb3ba3022d8611c1"
+                },
+                {
+                  "sha": "e8f3c85",
+                  "message": "watchcat: silence shellcheck false positives",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-02T04:56:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/e8f3c850a609c8b18a3024391674e84319a5aed0"
+                },
+                {
                   "sha": "c637ea9",
                   "message": "minidlna: fix build with FFmpeg 7 and later",
                   "author": "Marcin Maj",
@@ -1953,20 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/6bba5f54b1c460d7bd487a8657cfec78939d1edf"
-                },
-                {
-                  "sha": "2d4c8ac",
-                  "message": "strongswan: rename rekeytime to rekey_time in child",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/2d4c8ac5b70afe95a1c167da22358fb2e791b385"
-                },
-                {
-                  "sha": "d4d0fdc",
-                  "message": "strongswan: rename startaction to start_action",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/d4d0fdc9a179cc9e06974e6ce65d75b39598c9a4"
                 }
               ]
             },
