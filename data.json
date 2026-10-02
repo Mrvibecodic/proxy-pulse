@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:42:49.523004Z",
+  "generated_at": "2026-10-02T14:48:05.774239Z",
   "groups": [
     {
       "id": "cores",
@@ -4944,7 +4944,7 @@
             "stars": 25907,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T14:34:35Z",
+            "pushed_at": "2026-10-02T14:43:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -5012,7 +5012,7 @@
             "stars": 77037,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T14:32:01Z",
+            "pushed_at": "2026-10-02T14:43:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5080,12 +5080,21 @@
             "stars": 66337,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T14:40:12Z",
+            "pushed_at": "2026-10-02T14:46:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
           },
           "releases": [
+            {
+              "name": "3.13.4 / 2026-09-29",
+              "tag": "v3.13.4",
+              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.4",
+              "published_at": "2026-10-02T14:46:21Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "- [SECURITY] Bump google.golang.org/grpc to v1.83.1 to fix HTTP/2 DATA frame fragmentation memory exhaustion (GO-2026-6348). #19834\r\n- [SECURITY] UI: Update vulnerable npm dependencies. #19834\r\n- [BUGFIX] Agent: Ignore unknown WAL record types to allow rolling back from newer versions. #19814\r\n- [BUGFIX] Federation: Fix corruption of float native histograms. #19679\r\n- [BUGFIX] Scrape: Fix failing scrapes of protobuf float histograms with zero sample, zero and bucket counts, such as the result of recording `rate(x[1m])` over a constant histogram. #19682\r\n"
+            },
             {
               "name": "3.15.0 / 2026-09-24",
               "tag": "v3.15.0",
@@ -5121,22 +5130,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "- [SECURITY] Bump github.com/klauspost/compress to v1.18.7 (GO-2026-5841) and golang.org/x/crypto to v0.55.0 (GO-2026-6303).\r\n- [BUGFIX] Docker SD: Fix panic in Docker Swarm service discovery when a service runs as a plugin or network-attachment. #19102\r\n- [BUGFIX] PromQL: Fix case-insensitive regex label matchers silently dropping matching values. #19167\r\n- [BUGFIX] Scrape: Fix scrape manager spinning at 100% CPU on shutdown. #19149\r\n- [BUGFIX] Alerting: Fix 100% CPU usage on shutdown that could delay graceful shutdown and trigger timeout-based kills. #17859\r\n- [BUGFIX] TSDB: Fix out-of-order queries blocking compaction for hours, causing memory usage to grow. #19013\r\n- [BUGFIX] TSDB: Fix deleted series causing missing samples and errors after restart. #19140\r\n- [BUGFIX] TSDB: Fix goroutine and file handle leaks when Prometheus fails to open a corrupt TSDB. On Windows, the leaked directory handle also prevented TSDB directory removal. #18291\r\n"
-            },
-            {
-              "name": "3.14.0 / 2026-08-17",
-              "tag": "v3.14.0",
-              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.14.0",
-              "published_at": "2026-08-18T08:49:40Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "- [CHANGE] API: Deprecate the `stats` query parameter of `/api/v1/query` and `/api/v1/query_range` for values other than `true` and `all`. Other values still enable basic statistics but now return a deprecation warning; they will be rejected in the next major release. #19124\r\n- [CHANGE] API: `/api/v1/status/config` now correctly shows `separator: \"\"` and `replacement: \"\"` in relabel configs when explicitly set to empty, instead of omitting them. #18653\r\n- [CHANGE] Discovery/Hetzner: Drop the `__meta_hetzner_datacenter` label for `hcloud` targets, following its removal from the Hetzner Cloud API. #19269\r\n- [CHANGE] PromQL: Enable duration expressions by default. The `promql-duration-expr` feature flag is now a no-op. #19033\r\n- [CHANGE] PromQL: Promote `first_over_time` to stable. It no longer requires the `promql-experimental-functions` feature flag. #19093\r\n- [FEATURE] Discovery: Add Oracle Cloud Infrastructure compute service discovery (`oci_sd_configs`). #18919\r\n- [FEATURE] PromQL: Add experimental `start_timestamp(instant-vector)` function returning the start timestamp of each sample in the given vector. Requires the `use-start-timestamps` feature flag. #19089\r\n- [FEATURE] PromQL: Allow `rate()` and `increase()` to use start timestamps as an alternative for rate extrapolation. Hidden behind the `use-start-timestamps` feature flag. #18619\r\n- [FEATURE] TSDB: Add experimental support for encoding start timestamps in histograms and float histograms. Hidden behind the `histograms-st-encoding` feature flag. #18609\r\n- [ENHANCEMENT] OTLP: Emit a warning when OTLP attribute names collide into the same Prometheus label after sanitization (e.g. `k8s.pod.name` and `k8s_pod_name` both become `k8s_pod_name`), and expose the `prometheus_api_otlp_translation_warnings_total` counter labelled by `category` to track such warnings. #18957\r\n- [ENHANCEMENT] Promtool: Add `--remote-write.path` flag to `push metrics` for backends that use a non-default remote-write endpoint. #19086\r\n- [ENHANCEMENT] Remote write: Forward histogram start timestamps in the remote write V2 protocol. #18903\r\n- [ENHANCEMENT] TSDB: Add `prometheus_tsdb_head_native_histogram_series` and `prometheus_tsdb_head_native_histogram_buckets` gauges tracking the number of native histogram series and buckets in the head. #19170\r\n- [ENHANCEMENT] UI: Add syntax highlighting, autocompletion, and linting for PromQL duration expressions (`step()`, `range()`, `min_of()`, `max_of()`) in range selectors and subqueries. #18625\r\n- [ENHANCEMENT] UI: Add copy button next to rule names on the Rules and Alerts pages. #18706\r\n- [ENHANCEMENT] UI: Improve rule group title contrast on the Rules page. #19181\r\n- [PERF] Speed up regex label matchers matching a set of literal values (e.g. `{job=~\"foo|bar|baz\"}`). #18833\r\n- [PERF] Remote read: Improve remote read throughput by removing unnecessary per-write flushing. #18470\r\n- [PERF] Scrape: Parse text and OpenMetrics formats without recursion, preventing stack overflow from deeply nested or malicious exposition input. #19143\r\n- [PERF] Scrape: Reduce native histogram scrape parsing allocations by ~49%. #19282\r\n- [PERF] TSDB: Speed up queries on series with many in-memory chunks. #18300\r\n- [BUGFIX] Alerting: Fix 100% CPU usage on shutdown that could delay graceful shutdown and trigger timeout-based kills. #17859\r\n- [BUGFIX] Discovery/AWS: Stop `promtool check config` from making AWS metadata service (IMDS) network calls when the `region` field is omitted in EC2, ECS, RDS, MSK, ElastiCache, and Lightsail service discovery configs. #19037\r\n- [BUGFIX] Discovery/Docker: Set a request timeout for `docker_sd` and `dockerswarm_sd` on `unix`, `npipe`, and `tcp` hosts. Previously an unresponsive daemon could freeze discovery indefinitely, silently pinning targets to a stale snapshot. #19237\r\n- [BUGFIX] Discovery/Docker: Fix panic in Docker Swarm service discovery when a service runs as a plugin or network-attachment. #19102\r\n- [BUGFIX] Discovery/Docker: Fix discovery of IPv6-only containers. #18778\r\n- [BUGFIX] PromQL: Fix case-insensitive regex label matchers silently dropping matching values. #19167\r\n- [BUGFIX] PromQL: Fix `mad_over_time` returning 0 instead of `NaN` when the range contains a `NaN` sample. #19040\r\n- [BUGFIX] Promtool: Accept `--enable-feature=promql-binop-fill-modifiers` in `check rules`, which previously rejected valid `fill()`/`fill_left()`/`fill_right()` expressions. #19153\r\n- [BUGFIX] Remote write: Respect the `AZURE_FEDERATED_TOKEN_FILE` environment variable for workload identity authentication instead of hardcoding the token file path. #18973\r\n- [BUGFIX] Rules: Clean up stale `rule_group_last_rule_duration_sum_seconds` and `rule_group_last_restore_duration_seconds` series when a rule group is removed or renamed on reload. Previously each reload leaked two series per dropped group, growing `/metrics` cardinality over time. #19107\r\n- [BUGFIX] Scrape: Fix scrape manager spinning at 100% CPU on shutdown. #19149\r\n- [BUGFIX] TSDB: Fix silent data loss and potential crash loop when `stale_series_compaction_threshold` is used in the config file. #19016\r\n- [BUGFIX] TSDB: Fix potential data loss on restart when out-of-order ingestion is enabled and blocks are compacted. #19016\r\n- [BUGFIX] TSDB: Fix `prometheus_tsdb_head_stale_series` over-counting and early eviction of series that change between float, integer histogram, and float histogram sample types. #19183\r\n- [BUGFIX] TSDB: Fix goroutine and file handle leaks when Prometheus fails to open a corrupt TSDB. On Windows, the leaked directory handle also prevented TSDB directory removal. #18291\r\n- [BUGFIX] TSDB: Fix out-of-order queries blocking compaction for hours, causing memory usage to grow. #19013\r\n- [BUGFIX] TSDB: Fix deleted series causing missing samples and errors after restart. #19140\r\n- [BUGFIX] TSDB: Fix native histogram data becoming incorrect after restart. #19202\r\n- [BUGFIX] TSDB: Surface query errors that were previously silently discarded. #19120\r\n- [BUGFIX] TSDB: Honour the configured float chunk encoding when compaction rewrites chunks; previously chunks encoded with `--enable-feature=xor2-encoding` could silently revert to XOR after compaction. #19145\r\n- [BUGFIX] UI: Show the delete-series form on the TSDB Status page when `--web.enable-admin-api` is enabled. #19025\r\n"
             }
           ],
           "last_commit": {
-            "sha": "50c4423",
-            "branch": "bwplotka/pr-18048-non-histogram-edge-cases",
-            "date": "2026-10-02T11:55:52Z",
-            "url": "https://github.com/prometheus/prometheus/commit/50c44237a1b9c47731eae26bf4e4269b9ac50e2d"
+            "sha": "c8b1bfc",
+            "branch": "bwplotka/om2-lazy-allocs",
+            "date": "2026-10-02T14:46:18Z",
+            "url": "https://github.com/prometheus/prometheus/commit/c8b1bfcb369f4832395ba29bd9b06180c12080b6"
           }
         },
         {
@@ -5148,7 +5148,7 @@
             "stars": 80782,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-02T13:26:35Z",
+            "pushed_at": "2026-10-02T14:44:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5201,10 +5201,10 @@
             }
           ],
           "last_commit": {
-            "sha": "83511f1",
-            "branch": "integrations-regen",
-            "date": "2026-10-01T01:03:21Z",
-            "url": "https://github.com/netdata/netdata/commit/83511f1707adcacbb6a0bebfd70a233dfa5057ba"
+            "sha": "a80f0e3",
+            "branch": "master",
+            "date": "2026-10-02T14:44:16Z",
+            "url": "https://github.com/netdata/netdata/commit/a80f0e3dc065d0b0a61816d1b5b28007b38c5252"
           }
         },
         {
@@ -5569,7 +5569,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7686,
+            "stars": 7687,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-02T13:28:27Z",
