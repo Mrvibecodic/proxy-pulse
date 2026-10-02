@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:43:57.295813Z",
+  "generated_at": "2026-10-02T05:50:13.413421Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 34574,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T05:07:23Z",
+            "pushed_at": "2026-10-02T05:44:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "Prerelease-Alpha",
+              "tag": "Prerelease-Alpha",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
+              "published_at": "2024-08-12T17:01:02Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Release created at  Fri Oct  2 13:44:29 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.32...Prerelease-Alpha"
+            },
             {
               "name": "v1.19.32",
               "tag": "v1.19.32",
@@ -166,15 +175,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\n* 3025efad feat: add load-balance hash-key to pin a session on the inbound user (#3133) by @简直蠢丶\n\n## BUG \u0026 Fix\n* 409ee57e fix: populate HWCap from auxv on linux by @artbred\n* 41b8a059 fix: account for TCP options in effective MSS by @wwqgtxx\n* 5019cc09 fix: potential race condition in c.idleSession.Len() in idleCleanupExpTime() for anytls (#3225) by @Chenx Dust\n* 60f70cec fix: align unconnected UDP and raw IP ICMP errors with Linux for mipstack by @wwqgtxx\n* 88dcbf7f fix: default listener tun to mips stack (#3264) by @Jiawen Geng\n* 8d57a8c5 fix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN (#3237) by @FlyingSB\n* 8fa048d3 fix: half-close in sing-mux by @proxi\n* ac652970 fix: nil pconn deref when ctx is canceled during h2 ClientConn setup by @BESTRUI\n* afe94daf fix: set udp InUser metadata for mieru inbound (#3236) by @Ryoma Dev\n* fbb67422 fix: restart EasyTier outbound after silent overlay failure (#3215) by @MiaM1ku\n\n## Maintenance\n* 13417699 chore: support RX checksum offload for mipstack by @wwqgtxx\n* 3c947c76 chore: convert support xhttp `extra.headers` (#3230) by @Peter Solomon\n* 63bd52ec chore: change default IP stack mode to mips and support `congestion-controller` option for tun by @wwqgtxx\n* 91dd03a9 chore: support lazy receive buffer reads for mipstack and gvisor by @wwqgtxx\n* f103639c chore: update mieru version (#3242) by @enfein\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...v1.19.32\n"
-            },
-            {
-              "name": "Prerelease-Alpha",
-              "tag": "Prerelease-Alpha",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
-              "published_at": "2024-08-12T17:01:02Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Release created at  Wed Sep 30 23:25:18 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: restart EasyTier outbound after silent overlay failure by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3215\n* fix(anytls): potential race condition in c.idleSession.Len() in idleCleanupExpTime() by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3225\n* fix: fix InUser for mieru by @echizenryoma in https://github.com/MetaCubeX/mihomo/pull/3236\n* feat: convert support xhttp extra.headers by @Medium1992 in https://github.com/MetaCubeX/mihomo/pull/3230\n* feat: add load-balance hash-key to pin a session on the inbound user by @jianzhichun in https://github.com/MetaCubeX/mihomo/pull/3133\n* fix: exclude opcode from P_DATA_V1 AEAD additional data for OpenVPN by @FlyingSB in https://github.com/MetaCubeX/mihomo/pull/3237\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3242\n* fix: default listener tun to mips stack by @gengjiawen in https://github.com/MetaCubeX/mihomo/pull/3264\n\n## New Contributors\n* @echizenryoma made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3236\n* @jianzhichun made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3133\n* @FlyingSB made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3237\n* @gengjiawen made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3264\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.31...Prerelease-Alpha"
             },
             {
               "name": "v1.19.31",
@@ -5012,7 +5012,7 @@
             "stars": 77044,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-02T01:55:43Z",
+            "pushed_at": "2026-10-02T05:48:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
