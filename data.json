@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T07:56:34.281220Z",
+  "generated_at": "2026-10-02T08:01:50.288225Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4618,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-02T04:56:11Z",
+            "pushed_at": "2026-10-02T08:01:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6fef7b9",
+                  "message": "mesh11sd: update to version 7.3.0",
+                  "author": "Rob White",
+                  "date": "2026-10-02T08:01:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/6fef7b9142b5d595385fa7d054b1a7ea977d3dc2"
+                },
+                {
                   "sha": "8801905",
                   "message": "watchcat: resolve interface resolution race",
                   "author": "Daniel F. Dickinson",
@@ -1960,13 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/995e170cce62944abf6935676020ae7f5c148902"
-                },
-                {
-                  "sha": "6bba5f5",
-                  "message": "strongswan: rename lifetime to life_time in child",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/6bba5f54b1c460d7bd487a8657cfec78939d1edf"
                 }
               ]
             },
@@ -4873,7 +4873,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92043,
+            "stars": 92044,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-02T00:07:14Z",
@@ -5133,10 +5133,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d180b0",
-            "branch": "main",
-            "date": "2026-10-02T06:11:09Z",
-            "url": "https://github.com/prometheus/prometheus/commit/7d180b0c7e40f60672b49a0888326278bd872a8e"
+            "sha": "ca42408",
+            "branch": "deps-update/bootstrap-5.x",
+            "date": "2026-09-30T23:44:53Z",
+            "url": "https://github.com/prometheus/prometheus/commit/ca4240891203633a9945d0bd428955b6278e2bf7"
           }
         },
         {
