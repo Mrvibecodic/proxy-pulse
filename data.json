@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T11:13:52.676386Z",
+  "generated_at": "2026-10-03T11:19:07.494822Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38530,
+            "stars": 38531,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-03T10:53:35Z",
@@ -1104,7 +1104,7 @@
             "stars": 4621,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-03T06:27:29Z",
+            "pushed_at": "2026-10-03T11:16:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "dbd4c11",
+                  "message": "zerotier: update to 1.16.2",
+                  "author": "Moritz Warning",
+                  "date": "2026-10-03T11:16:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/dbd4c11515d062e08f427c49d8a48e8ec145567c"
+                },
+                {
+                  "sha": "8195da5",
+                  "message": "net/zerotier: assign PKG_CPE_ID",
+                  "author": "Fabrice Fontaine",
+                  "date": "2026-10-03T11:16:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/8195da5fd09e6ad6db3b9bfa4a9d873e2633fb6e"
+                },
+                {
+                  "sha": "295217c",
+                  "message": "zerotier: apply upstream license change to `MPL-2.0`",
+                  "author": "Mai Thanh Minh",
+                  "date": "2026-10-03T11:16:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/295217cc346d7883777989eb2bdfe7f2f4c91864"
+                },
+                {
                   "sha": "8c55f32",
                   "message": "zoneinfo: update to 2026d release",
                   "author": "Vladimir Ulrich",
@@ -3451,27 +3472,6 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-09-29T06:08:18Z",
                   "url": "https://github.com/openwrt/packages/commit/90a538e3fa282e3bd71d8617aa2b4fa1efec7bce"
-                },
-                {
-                  "sha": "565d7b0",
-                  "message": "ddns-scripts: update to 2.8.4",
-                  "author": "Jiang Tengfei",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/565d7b0e5c4dc2483d050361fcc36b0e340ca799"
-                },
-                {
-                  "sha": "3e95375",
-                  "message": "ddns-scripts: fix one.com prerm test syntax",
-                  "author": "Jiang Tengfei",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/3e95375823d7997f5e670866ce75e355b9f6241c"
-                },
-                {
-                  "sha": "f62c6e4",
-                  "message": "ddns-scripts: support version output in frontend",
-                  "author": "Jiang Tengfei",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/f62c6e4c9147a75d8e88e566b376ed50c22f2f15"
                 }
               ]
             },
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1e6b7f8",
-            "branch": "release-13.2.4",
-            "date": "2026-10-02T20:15:01Z",
-            "url": "https://github.com/grafana/grafana/commit/1e6b7f88afe0ccc784a42458ecc20e56f676b605"
+            "sha": "7ec059f",
+            "branch": "unified-storage-pruner-fix",
+            "date": "2026-10-01T22:44:17Z",
+            "url": "https://github.com/grafana/grafana/commit/7ec059f1aa00df4ef505ee72d73788c2169964ab"
           }
         },
         {
