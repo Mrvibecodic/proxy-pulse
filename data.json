@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T03:47:39.294388Z",
+  "generated_at": "2026-10-03T03:52:54.058327Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38519,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-10-02T12:47:13Z",
+            "pushed_at": "2026-10-03T03:52:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.10",
+              "tag": "v1.15.0-alpha.10",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.10",
+              "published_at": "2026-10-03T03:52:29Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.15.0-alpha.9",
               "tag": "v1.15.0-alpha.9",
@@ -125,22 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add MASQUE client and server support **1**\n* Add HTTP/2, HTTP/3 and UDP support for HTTP proxy **2**\n* Add full certificate pinning for TLS **3**\n* Fixes and improvements\n\n**1**:\n\nThe new [MASQUE Client](https://sing-box.sagernet.org/configuration/endpoint/masque-client/) and [MASQUE Server](https://sing-box.sagernet.org/configuration/endpoint/masque-server/) endpoints provide IP proxying over HTTP (CONNECT-IP), supporting HTTP/1.1, HTTP/2 and HTTP/3, address assignment and route advertisement. They can use the internal network stack or a system TUN interface.\n\n**2**:\n\nThe HTTP proxy implementation has been rewritten, adding HTTP/2, HTTP/3 and UDP proxying through CONNECT-UDP to HTTP inbounds and outbounds.\n\nHTTP outbounds now use HTTP/2 by default with automatic fallback to HTTP/1.1. Configurations using `path` or the `Host` header continue to use HTTP/1.1. HTTP/3 can be enabled through the `version` option.\n\nThe term \"MASQUE VPN\" usually refers to CONNECT-IP, rather than a combination of CONNECT and CONNECT-UDP, which is an enhancement to HTTP proxying. CONNECT-UDP and CONNECT-IP are collectively known as [MASQUE](https://datatracker.ietf.org/wg/masque/about/) in the IETF; the traditional CONNECT method for TCP proxying is not itself a MASQUE protocol.\n\nSee [HTTP Inbound](https://sing-box.sagernet.org/configuration/inbound/http/) and [HTTP Outbound](https://sing-box.sagernet.org/configuration/outbound/http/).\n\n**3**:\n\nThe new `certificate_sha256` and `client_certificate_sha256` TLS options pin the SHA-256 hash of the whole certificate, complementing the existing public key pinning options.\n\nSee [TLS](https://sing-box.sagernet.org/configuration/shared/tls/).\n"
-            },
-            {
-              "name": "1.15.0-alpha.6",
-              "tag": "v1.15.0-alpha.6",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.6",
-              "published_at": "2026-09-18T02:59:14Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
-            "sha": "c992297",
-            "branch": "testing",
-            "date": "2026-10-02T12:47:14Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/c992297988288565a24a6d36e2cf4d77cb835fcd"
+            "sha": "14d66d4",
+            "branch": "docs",
+            "date": "2026-10-03T03:51:43Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/14d66d4311c92d1e08dcf45e8797482f280761e3"
           }
         },
         {
