@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:43:19.362408Z",
+  "generated_at": "2026-10-04T08:48:34.830932Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34620,
+            "stars": 34619,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-02T05:44:30Z",
@@ -1104,7 +1104,7 @@
             "stars": 4621,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T07:45:33Z",
+            "pushed_at": "2026-10-04T08:45:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3049,6 +3049,41 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "91f7e4c",
+                  "message": "rsync: update to 3.5.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-04T08:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/91f7e4c24d2b24480cc513bbab9e8348051e4c1e"
+                },
+                {
+                  "sha": "44942b3",
+                  "message": "rsync: update to 3.5.0",
+                  "author": "John Audia",
+                  "date": "2026-10-04T08:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/44942b348b9fa2dda9c7aed725b1f8464fb2b7df"
+                },
+                {
+                  "sha": "8748e43",
+                  "message": "rsync: update to 3.4.4",
+                  "author": "John Audia",
+                  "date": "2026-10-04T08:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/8748e430e65cf582729146398c7c869d0885f449"
+                },
+                {
+                  "sha": "c6ebc95",
+                  "message": "rsync: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-04T08:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6ebc95e9e2634d9981520e7a7f82cf33daf8be2"
+                },
+                {
+                  "sha": "4b0d98c",
+                  "message": "net/rsync: fix PKG_CPE_ID",
+                  "author": "Fabrice Fontaine",
+                  "date": "2026-10-04T08:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/4b0d98ceab44e5feb0dfd8e8487e3b5bc1a3cb55"
+                },
+                {
                   "sha": "566bed7",
                   "message": "zoneinfo: update to 2026d release",
                   "author": "Vladimir Ulrich",
@@ -3222,41 +3257,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-28T08:12:18Z",
                   "url": "https://github.com/openwrt/packages/commit/98a1772bf33dcce6dba355891bab3986e1c22dd2"
-                },
-                {
-                  "sha": "0698637",
-                  "message": "libssh: update to 0.12.2",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/069863763ddc56ca70a1034b460e1d09a4798e91"
-                },
-                {
-                  "sha": "21a0c53",
-                  "message": "libssh: update to 0.12.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/21a0c532b68f882442e006526654046f69403ce0"
-                },
-                {
-                  "sha": "0ac2692",
-                  "message": "libssh: update to 0.12.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/0ac26922c308f61df61debc26fdf72a7b4ac5532"
-                },
-                {
-                  "sha": "f7183d4",
-                  "message": "libssh: bump to 0.11.3",
-                  "author": "Nick Hainke",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/f7183d47f8634572b7b3382e00897a802f3931cb"
-                },
-                {
-                  "sha": "361a402",
-                  "message": "libssh: add compatibility with cmake 4.x, remove absent maintainer",
-                  "author": "Hannu Nyman",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/361a4023d24240ea49c9e0a962e3970f38d6583c"
                 }
               ]
             },
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "08b6bc0",
-            "branch": "ferruvich/none-role-provisioning-perms",
-            "date": "2026-10-02T14:01:42Z",
-            "url": "https://github.com/grafana/grafana/commit/08b6bc090f58b44368771023ba4ca2623af6651f"
+            "sha": "ef81657",
+            "branch": "erhilse/navigation-prototype-solutions",
+            "date": "2026-10-02T14:53:02Z",
+            "url": "https://github.com/grafana/grafana/commit/ef81657f66a224a1bd4447944a8061d0cc45ba28"
           }
         },
         {
