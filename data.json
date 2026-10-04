@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T15:53:23.024623Z",
+  "generated_at": "2026-10-04T15:58:36.382402Z",
   "groups": [
     {
       "id": "cores",
@@ -1036,7 +1036,7 @@
             "stars": 28629,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-04T15:15:09Z",
+            "pushed_at": "2026-10-04T15:53:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1089,10 +1089,10 @@
             }
           ],
           "last_commit": {
-            "sha": "255b53f",
-            "branch": "master",
-            "date": "2026-10-04T12:04:19Z",
-            "url": "https://github.com/openwrt/openwrt/commit/255b53f9c95ec4fae39b271f97ce7963d503ecb8"
+            "sha": "8a6ae95",
+            "branch": "main",
+            "date": "2026-10-04T15:53:52Z",
+            "url": "https://github.com/openwrt/openwrt/commit/8a6ae9552699da72bddb810781f8cce15c2b0fac"
           }
         },
         {
@@ -1104,7 +1104,7 @@
             "stars": 4621,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T10:27:19Z",
+            "pushed_at": "2026-10-04T15:56:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "fbe4677",
+                  "message": "selinux-python: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-04T15:56:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/fbe467795427bf6837acb7722e4c72a89b9405ff"
+                },
+                {
+                  "sha": "0c9829c",
+                  "message": "python3: match packages by pattern in version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-04T15:56:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/0c9829c65f3b06aafd00ccf6835b0aefec80eb0a"
+                },
+                {
+                  "sha": "39754e6",
+                  "message": "python3: move version checks to override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-04T15:56:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/39754e6b289d99cbed62ce4400dd88d1371e33e8"
+                },
+                {
                   "sha": "bb83dc2",
                   "message": "ksmbd-tools: add package version test",
                   "author": "Andrea Pesaresi",
@@ -3451,27 +3472,6 @@
                   "author": "Fabrice Fontaine",
                   "date": "2026-09-29T13:12:41Z",
                   "url": "https://github.com/openwrt/packages/commit/a0f47dd3dfeab078c45b0943aba5ca5f6a7966fc"
-                },
-                {
-                  "sha": "c3d309e",
-                  "message": "libxslt: add test-version.sh",
-                  "author": "Seo Suchan",
-                  "date": "2026-09-29T06:46:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/c3d309efab5fa5479d855870c15d839474df4879"
-                },
-                {
-                  "sha": "e674e03",
-                  "message": "ddns-scripts: use HTTPS for variomedia.de",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/e674e03b6bc30d1af18f9d25e51d350a6e0a4e9e"
-                },
-                {
-                  "sha": "a099462",
-                  "message": "ddns-scripts: remove ddnss.de",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-29T06:08:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/a0994628f8f78e1d20c1effa79ba20dab5d9bade"
                 }
               ]
             },
@@ -5009,7 +5009,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77070,
+            "stars": 77071,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-04T15:48:29Z",
@@ -5148,7 +5148,7 @@
             "stars": 80790,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T15:51:06Z",
+            "pushed_at": "2026-10-04T15:58:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5201,10 +5201,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d3807a",
+            "sha": "ca7eee0",
             "branch": "master",
-            "date": "2026-10-04T12:43:57Z",
-            "url": "https://github.com/netdata/netdata/commit/7d3807a61e3be8c1a8194c3a47c49ba3a789827c"
+            "date": "2026-10-04T15:58:10Z",
+            "url": "https://github.com/netdata/netdata/commit/ca7eee0cdc97e534bdd966e50921fe64422027cd"
           }
         },
         {
