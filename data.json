@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:54:46.762128Z",
+  "generated_at": "2026-10-04T20:00:00.397384Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34634,
+            "stars": 34635,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-02T05:44:30Z",
@@ -1104,7 +1104,7 @@
             "stars": 4621,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T15:56:53Z",
+            "pushed_at": "2026-10-04T19:59:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6c393a8",
+                  "message": "transmission: grant r/w access to config dir",
+                  "author": "Ludvig Liu Holtze",
+                  "date": "2026-10-04T19:58:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c393a8732c33436260b1db8b5407c3ce8b17826"
+                },
+                {
                   "sha": "dee4f5f",
                   "message": "nginx: update to 1.30.5",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/46f564fada3da3cf85b2b6ff6cc0e120642fda75"
-                },
-                {
-                  "sha": "86e8350",
-                  "message": "strongswan: rename dpddelay to dpd_delay in remote",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/86e83506749d9d6f2f2582ae5651709df2ee744a"
                 }
               ]
             },
@@ -5501,7 +5501,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3527,
+            "stars": 3528,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-09-30T08:33:25Z",
