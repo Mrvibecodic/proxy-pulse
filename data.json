@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:45:01.499654Z",
+  "generated_at": "2026-10-05T06:55:30.791552Z",
   "groups": [
     {
       "id": "cores",
@@ -4550,12 +4550,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T04:42:09Z",
+            "pushed_at": "2026-10-05T06:52:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.9.30",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-10-05T06:53:00Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha 5121c28",
               "tag": "alpha",
@@ -4564,15 +4573,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@5121c28b855c9d7f12deaeb1352116eb490754bb\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.9.30",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-09-30T10:50:48Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5012,7 +5012,7 @@
             "stars": 77080,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T06:31:18Z",
+            "pushed_at": "2026-10-05T06:54:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5077,7 +5077,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66366,
+            "stars": 66367,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-04T12:12:59Z",
@@ -5201,10 +5201,10 @@
             }
           ],
           "last_commit": {
-            "sha": "62eb7ed",
+            "sha": "4ec404a",
             "branch": "master",
-            "date": "2026-10-03T18:50:32Z",
-            "url": "https://github.com/netdata/netdata/commit/62eb7edc70c5aba5f07245acd66126d114208452"
+            "date": "2026-10-03T18:42:28Z",
+            "url": "https://github.com/netdata/netdata/commit/4ec404a69e57b452a44206c543bfd9bca8dab347"
           }
         },
         {
