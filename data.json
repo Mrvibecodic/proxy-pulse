@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T13:56:58.621071Z",
+  "generated_at": "2026-10-05T14:02:15.710112Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "af86257",
-            "branch": "main",
-            "date": "2026-10-05T13:32:27Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/af8625721a4c982bb2e4aaee0a5982168621ec12"
+            "sha": "6a8d04e",
+            "branch": "remove-vmess",
+            "date": "2026-10-05T10:05:35Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/6a8d04ed41b9cbe9348b57853e475e338daeb36f"
           }
         }
       ]
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T13:30:14Z",
+            "pushed_at": "2026-10-05T13:58:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3049,6 +3049,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "2b88ac2",
+                  "message": "weechat: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T13:58:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/2b88ac27f0d0a7a924839a1238902e5db2716740"
+                },
+                {
                   "sha": "d33857a",
                   "message": "ddns-scripts: add version check override",
                   "author": "Josef Schlehofer",
@@ -3250,19 +3257,19 @@
                   "author": "George Sapkin",
                   "date": "2026-09-28T14:19:10Z",
                   "url": "https://github.com/openwrt/packages/commit/42b445d3b4316cbb022ac562ed8ead2d2ee76727"
-                },
-                {
-                  "sha": "a13f8a2",
-                  "message": "giflib: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:19:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/a13f8a2615875a398520af8b64ada2830e0a1814"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "25af8ce",
+                  "message": "weechat: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T13:58:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/25af8cefadad15aef9c65e4f6011cdb3b9b8641a"
+                },
                 {
                   "sha": "2679d62",
                   "message": "dnsdist: update to 2.0.9",
@@ -3465,13 +3472,6 @@
                   "author": "W. Michael Petullo",
                   "date": "2026-10-05T06:00:26Z",
                   "url": "https://github.com/openwrt/packages/commit/b897f6e9647cbfeeab51ccbbf2856cc21e8aed41"
-                },
-                {
-                  "sha": "d02cd17",
-                  "message": "mdnsresponder: add version check override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/d02cd17c9b183152808be642e7af4894c406ac24"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77087,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T13:54:38Z",
+            "pushed_at": "2026-10-05T13:59:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ce0dcd0",
-            "branch": "main",
-            "date": "2026-10-05T09:57:12Z",
-            "url": "https://github.com/grafana/grafana/commit/ce0dcd0e6aad0cab7cb86e47f5962d4bdee52b80"
+            "sha": "01ee847",
+            "branch": "MissingRoberto/root-permissions-dashboards-folders",
+            "date": "2026-10-05T13:59:59Z",
+            "url": "https://github.com/grafana/grafana/commit/01ee84784ee479a7bc42579c2e36d305a78ca71b"
           }
         },
         {
@@ -5077,7 +5077,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66369,
+            "stars": 66370,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-05T11:56:46Z",
@@ -5216,7 +5216,7 @@
             "stars": 17824,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T13:25:36Z",
+            "pushed_at": "2026-10-05T14:00:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5269,10 +5269,10 @@
             }
           ],
           "last_commit": {
-            "sha": "49d9302",
-            "branch": "master",
-            "date": "2026-10-05T13:23:57Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/49d93028c55a2c4ceae78462f84a29874a623e06"
+            "sha": "ef621d2",
+            "branch": "fix-register-metric-names",
+            "date": "2026-10-05T14:00:40Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/ef621d22cd2e82530e605e200a6b884cb050a6c4"
           }
         }
       ]
@@ -5625,10 +5625,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a3b1471",
-            "branch": "l10n_crowdin",
-            "date": "2026-10-03T21:44:06Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/a3b1471e9c7578b5ede7d75c74a546fc31ce7a27"
+            "sha": "08a7a65",
+            "branch": "feat_projects_add_custom_labels_to_compose_metadata_links",
+            "date": "2026-10-04T03:49:18Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/08a7a656609322e8a1fccc6bfc3f2db122347492"
           }
         }
       ]
