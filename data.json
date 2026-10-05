@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:02:15.710112Z",
+  "generated_at": "2026-10-05T14:07:32.911519Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T13:58:44Z",
+            "pushed_at": "2026-10-05T14:07:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3049,6 +3049,76 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "be5b4c6",
+                  "message": "ripe-atlas: take over maintainership",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:07:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/be5b4c640ed13d9ff3ed1bc8cb3e875e99155cee"
+                },
+                {
+                  "sha": "1510af4",
+                  "message": "ripe-atlas: migrate from atlas-sw-probe",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:07:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/1510af408143f63df953c4e47bf16637fb03260a"
+                },
+                {
+                  "sha": "00075f8",
+                  "message": "ripe-atlas: clean up the Makefile",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:07:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/00075f81a4c16cb0be42524918bad3338585946e"
+                },
+                {
+                  "sha": "fe15bc0",
+                  "message": "ripe-atlas: run the probe as root without ujail",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:07:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe15bc0bae5985e0090ed10009699f1c2917bdfe"
+                },
+                {
+                  "sha": "f5852b0",
+                  "message": "ripe-atlas: fix the init script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:06:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/f5852b08f794e42c545268dcfd935c78388d7ee6"
+                },
+                {
+                  "sha": "b745444",
+                  "message": "ripe-atlas: update to 5130",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T14:06:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/b7454446125b3f0c591bcd137cad52e52006128c"
+                },
+                {
+                  "sha": "ca4523c",
+                  "message": "ripe-atlas: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T14:06:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca4523c4be80d123054919e63ca8d8bb039c5c65"
+                },
+                {
+                  "sha": "4285f26",
+                  "message": "ripe-atlas: add new package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:06:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/4285f262ec58bc397fdf4d4758f096f56c32a3a9"
+                },
+                {
+                  "sha": "e7c2720",
+                  "message": "atlas-sw-probe: remove package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:06:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/e7c2720cb6aba5a3420145ab9a77953ab8eda00b"
+                },
+                {
+                  "sha": "eff66bd",
+                  "message": "atlas-probe: remove package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:05:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/eff66bdec4fdec9aa16adba0f1c2cb14020eed7a"
+                },
+                {
                   "sha": "2b88ac2",
                   "message": "weechat: add new package",
                   "author": "Josef Schlehofer",
@@ -3187,82 +3257,89 @@
                   "author": "Daniel Golle",
                   "date": "2026-09-30T09:34:41Z",
                   "url": "https://github.com/openwrt/packages/commit/cca5f9413555032ca3d5613b212e62af59cca313"
-                },
-                {
-                  "sha": "d0013a1",
-                  "message": "libxslt: add test-version.sh",
-                  "author": "Seo Suchan",
-                  "date": "2026-09-29T06:46:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/d0013a19d173a8b4b8b96f3cb93d9a27e36cb986"
-                },
-                {
-                  "sha": "3532ad3",
-                  "message": "sqlite3: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:43:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/3532ad3de100dec4512593a0a1b975fd0feadc68"
-                },
-                {
-                  "sha": "1d1e636",
-                  "message": "python3: update to 3.11.16",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:43:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/1d1e6361d3d9c7eb52d21023d8799be9248ddf9a"
-                },
-                {
-                  "sha": "01f463c",
-                  "message": "sqlite3: fix CI test",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:38:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/01f463c4c20713d2b9386c73c6ef7918fc11d32c"
-                },
-                {
-                  "sha": "4a8e559",
-                  "message": "sqlite3: add CI version check",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:38:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/4a8e5594449828a3d70f016cbd5ccaff4a8c4455"
-                },
-                {
-                  "sha": "ff75efd",
-                  "message": "unbound: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:36:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/ff75efd4c2f74ef72ff64a18b4873b0e7463202d"
-                },
-                {
-                  "sha": "b9565e9",
-                  "message": "unbound: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-09-28T14:36:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9565e9b056beef1efd75273b09a75a9fa5e5770"
-                },
-                {
-                  "sha": "519e810",
-                  "message": "tvheadend: skip the DVB permission fix without adapters",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:24:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/519e8101a0c885da197d2c87b5c99eff89da433c"
-                },
-                {
-                  "sha": "fd2d04b",
-                  "message": "tvheadend: update to 2026-09-24",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-28T14:24:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/fd2d04b1a180c20f4d74d9d2e130a2e7a993a761"
-                },
-                {
-                  "sha": "42b445d",
-                  "message": "dbus: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:19:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/42b445d3b4316cbb022ac562ed8ead2d2ee76727"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "4f03c21",
+                  "message": "atlas-sw-probe: remove package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:04:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/4f03c21a2b09ad0d52cdd1fbdbcb29f88c0ce16f"
+                },
+                {
+                  "sha": "0faabfc",
+                  "message": "atlas-probe: remove package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:04:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/0faabfce3454e67d202b4d3f81a007bc612ab88e"
+                },
+                {
+                  "sha": "1c6c451",
+                  "message": "ripe-atlas: take over maintainership",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:02:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c6c45116db6275da6998fab9f8121e38185e9aa"
+                },
+                {
+                  "sha": "25a854c",
+                  "message": "ripe-atlas: migrate from atlas-sw-probe",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:02:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/25a854c9af70966a5470c3b7e9763845f4077df8"
+                },
+                {
+                  "sha": "3270c30",
+                  "message": "ripe-atlas: clean up the Makefile",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:02:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/3270c30833cb7310a5c7ea0a1a8aa3527f9aeefb"
+                },
+                {
+                  "sha": "4fc8efb",
+                  "message": "ripe-atlas: restart the probe on config changes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:02:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/4fc8efbc6009702741c15eca6484be87d90970c3"
+                },
+                {
+                  "sha": "721d21c",
+                  "message": "ripe-atlas: run the probe as root without ujail",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:02:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/721d21c37bcc0d118a430c8a6e7b7eaa25100497"
+                },
+                {
+                  "sha": "83345b7",
+                  "message": "ripe-atlas: fix the init script",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T14:01:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/83345b76c08240037529eb0724b1ac9fd70b85cb"
+                },
+                {
+                  "sha": "e2ec929",
+                  "message": "ripe-atlas: update to 5130",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T14:01:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/e2ec9292a7aebf1b55f6518ca0ab6ffa9b655bf5"
+                },
+                {
+                  "sha": "c190580",
+                  "message": "ripe-atlas: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T14:01:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/c1905802664846964e8dbfc5f1b1648606b45e81"
+                },
+                {
+                  "sha": "e99411a",
+                  "message": "ripe-atlas: add new package",
+                  "author": "Tiago Gaspar",
+                  "date": "2026-10-05T14:00:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/e99411a304d48aa3c32abd60f95b532f5d5ef644"
+                },
                 {
                   "sha": "25af8ce",
                   "message": "weechat: add new package",
@@ -3395,83 +3472,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-05T06:01:04Z",
                   "url": "https://github.com/openwrt/packages/commit/d378253983bb526db2b2b1d885f2b1ad2c78d89e"
-                },
-                {
-                  "sha": "7868b56",
-                  "message": "prometheus-node-exporter-ucode: fixup CI",
-                  "author": "Etienne Champetier",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/7868b56a0220b3e90af2b3b950309dc5addcebda"
-                },
-                {
-                  "sha": "7bb75c8",
-                  "message": "nss: add version override",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/7bb75c8619a7c595bc54bcaa7b6b38a9c5cfab16"
-                },
-                {
-                  "sha": "ac7570d",
-                  "message": "tree-wide: remove redundant test.sh files",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/ac7570de89f79cb2d85e5f4df89cca8806d9a872"
-                },
-                {
-                  "sha": "f201df2",
-                  "message": "uspot: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/f201df2e2c05d10cae030a3bedc71ce716a6c743"
-                },
-                {
-                  "sha": "f30f114",
-                  "message": "python-rsa: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/f30f11474c74986915f95b8415b850fdf7856f21"
-                },
-                {
-                  "sha": "2341db9",
-                  "message": "expat: add version check override",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/2341db9c0f69733b2aa15713af5d2bb49cc0a38e"
-                },
-                {
-                  "sha": "18e7c67",
-                  "message": "cgi-io: add generic version check override",
-                  "author": "Stijn Tintel",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/18e7c673a93011a5b0ddeb7b7bb3f99dc6ca7f62"
-                },
-                {
-                  "sha": "bfa87fa",
-                  "message": "python-incremental: add test-version.sh generic version-check override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/bfa87fa6a499bff7f3587ed38d70247071b1a23e"
-                },
-                {
-                  "sha": "6d28d97",
-                  "message": "python-rsa: add test-version.sh generic version-check override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d28d9725b6402cf36fec43b668643b3ae4fab2b"
-                },
-                {
-                  "sha": "23de678",
-                  "message": "quickjs: add basic evaluation test",
-                  "author": "George Sapkin",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/23de678eaab0aa5cb600b079645cababef68a4b5"
-                },
-                {
-                  "sha": "b897f6e",
-                  "message": "openldap: add version check override",
-                  "author": "W. Michael Petullo",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/b897f6e9647cbfeeab51ccbbf2856cc21e8aed41"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77087,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T13:59:58Z",
+            "pushed_at": "2026-10-05T14:05:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "01ee847",
-            "branch": "MissingRoberto/root-permissions-dashboards-folders",
-            "date": "2026-10-05T13:59:59Z",
-            "url": "https://github.com/grafana/grafana/commit/01ee84784ee479a7bc42579c2e36d305a78ca71b"
+            "sha": "8e6a053",
+            "branch": "iam2436/legacy-check-on-authz-side",
+            "date": "2026-10-05T12:27:25Z",
+            "url": "https://github.com/grafana/grafana/commit/8e6a0537e97da79715583ddfd3100d05e57d01bb"
           }
         },
         {
@@ -5216,7 +5216,7 @@
             "stars": 17824,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T14:00:39Z",
+            "pushed_at": "2026-10-05T14:05:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5269,10 +5269,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ef621d2",
-            "branch": "fix-register-metric-names",
-            "date": "2026-10-05T14:00:40Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/ef621d22cd2e82530e605e200a6b884cb050a6c4"
+            "sha": "313f195",
+            "branch": "master",
+            "date": "2026-10-05T14:05:55Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/313f195ffb961749326da1956c81b031bae2d06f"
           }
         }
       ]
@@ -5569,7 +5569,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7730,
+            "stars": 7731,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-05T05:52:43Z",
