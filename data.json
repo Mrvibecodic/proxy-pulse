@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T20:12:05.608072Z",
+  "generated_at": "2026-10-05T20:17:21.388296Z",
   "groups": [
     {
       "id": "cores",
@@ -227,6 +227,15 @@
           },
           "releases": [
             {
+              "name": "Xray-core v26.10.5-1858",
+              "tag": "v26.10.5-1858",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.10.5-1858",
+              "published_at": "2026-10-05T20:15:39Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- Fixes a Hysteria server crash: a late write on a released UDP link panicked in a detached goroutine and took the whole process down.\n- Mux.Cool over a Hysteria server no longer corrupts streams. Concurrent sessions used to interleave frame headers and payloads.\n- The REALITY server again authenticates clients whose Client Hello does not offer X25519MLKEM768, such as sing-box with a Chrome fingerprint. Before this release they fell back to the cover target.\n- XHTTP inbounds accept Mux.Cool TCP sessions; upstream accepts only pure XUDP there. In packet-up and stream-up, the server can optionally poke an idle downlink with a padded Mux.Cool KeepAlive, so CDNs and reverse proxies do not cut it as idle (#16, contributed by Medium1992).\n- Merges upstream Xray-core v26.9.8, v26.9.9, v26.9.30, and later upstream/main fixes through `7da5dae6`. This adds the MASQUE inbound/outbound/transport, the XDRIVE transport, the rewritten XDNS finalmask, and the FinalMask-based transport dialer/listener.\n- Builds with Go 1.27.1 and `-tags http2legacy`. While a TLS handshake hangs, XHTTP over HTTP/2 shares one pending dial again instead of opening a connection per request (XTLS/Xray-core#6797).\n\n## Fork fixes\n\n- **Hysteria server link ownership.** `Server.Process` took UDP readers, writers and links from a `sync.Pool` and released them when `DispatchLink` returned. Outbound tasks and mux/XUDP workers keep using the link after that point, so a late write hit a nil writer and panicked. A reused pooled object could also deliver data to another session. Links are now allocated per session and the pools are removed; per-packet zero-copy parsing is unchanged. The unused pooled-writer API in `common/buf` is removed with them.\n- **Hysteria TCP and Mux.Cool framing.** The TCP link writer now serializes whole frames. Before, an Xray client with mux enabled could receive another session's frame headers inside its TCP data.\n- **Mux.Cool carrier check.** Mux.Cool workers start only for TCP destinations. A UDP packet addressed to `v1.mux.cool`, for example over a Hysteria UDP session, is dispatched like any other packet.\n- **REALITY key shares.** Upstream `xtls/reality` 20260908062103 rejects every Client Hello without an X25519MLKEM768 key share. The server now runs from an in-tree copy of that module version, `third_party/reality`, with one change: a hello that offers the hybrid group in neither `supported_groups` nor `key_share` authenticates through its X25519 key share. Hellos that offer the hybrid group keep upstream's rules. Unauthenticated connections still reach the cover target unchanged.\n- **XDNS finalmask hardening** (on top of the upstream rewrite):\n  - A fragmented query shorter than its fragment header no longer panics the server before authentication.\n  - DNS-over-TCP resolvers send the RFC 1035 two-byte length prefix.\n  - Per-client fragment counters no longer accumulate.\n  - A full send queue returns an error instead of blocking.\n  - TCP and UDP resolvers can be closed during a stalled write.\n  - Resolver redials publish their address atomically.\n- **FinalMask settings.** An unknown, corrupt or misplaced mask now returns an error instead of panicking. This applies both when loading a configuration and when adding inbounds/outbounds through the HandlerService API.\n- **MASQUE resource lifetime:**\n  - The server releases every queued packet when a tunnel closes, including when it closes before its writer starts.\n  - The client sends Packet Too Big ICMP replies through one bounded writer instead of starting a goroutine per oversized packet.\n- **XHTTP Mux.Cool KeepAlive shutdown.** The idle-downlink KeepAlive loop could write a frame after a Mux.Cool worker reported closed. It now checks for shutdown after building each frame and right before writing it. Shutdown itself never waits for the loop, so a write stuck on a stalled connection cannot hold `Close`. The idle timer uses the monotonic clock, so a wall-clock step cannot stretch or skip a KeepAlive.\n- **Build tooling.** `vformat` skips vendored `third_party` modules so they stay byte-identical to upstream. The codename now reads `(Jolymmiles)`.\n\n## Upstream changes\n\nPrevious fork releases were based on upstream v26.7.28. This release merges upstream v26.9.8, v26.9.9 and v26.9.30, plus upstream/main through `7da5dae6`. Notable changes:\n\n- **New protocols and transports:**\n  - MASQUE (IETF CONNECT-IP, RFC 9484) inbound, outbound and transport, including HTTP/2 Extended CONNECT.\n  - XDRIVE remote-storage transport with Google Drive and template backends.\n- **Transport and FinalMask:**\n  - Transports are built on FinalMask's dialer and listener.\n  - `udpHop` is a FinalMask UDP mask; noise masks support `exp`.\n  - XDNS finalmask is rewritten and gains new parameters, and its resolver-close deadlock and socket leaks are fixed.\n- **Proxies:**\n  - Shadowsocks 2022 is refactored without sing* dependencies.\n  - XTLS Vision suppresses the outer CloseNotify after switching to direct copy.\n  - Blackhole supports a custom response.\n  - Freedom compatibility and `dialerProxy` handling are improved.\n  - HTTPUpgrade sends Sec-WebSocket-* headers.\n  - The Hysteria outbound no longer truncates UDP datagrams with ChromeParrot.\n- **WireGuard:**\n  - Startup, close and packet-view release are fixed.\n  - The outbound endpoint IP is fixed.\n  - Idle UDP flows hold less memory.\n  - The inbound answers ICMP ping.\n  - kernelTun IPv6 table allocation is fixed.\n- **TUN and system:**\n  - Linux gains `autoSystemDNS`; Windows gains `autoSystemWfpBlockLeak`, adapter reuse, and startup when IPv6 is disabled.\n  - UDP packet destinations are preserved with traffic stats.\n- **Clients and runtime:**\n  - The mux client `Dispatch`/`SessionManager.Close` race is fixed.\n  - The gRPC client no longer redials with a canceled first-request context.\n  - The XHTTP `WaitReadCloser` data race is fixed.\n  - The buffered writer handles payloads larger than its remaining capacity.\n  - The QUIC sniffer handles zero-filled datagram tails.\n  - Geodata matchers use less memory.\n- **Dependencies:** Go 1.27.x, `golang.org/x/net` 0.59.0, `google.golang.org/grpc` 1.84.0.\n\n## Compatibility notes\n\n- **Build tag.** Release assets are built with Go 1.27.1 and `-tags http2legacy`. Builds from source should use the same tag. Without it, Go 1.27's x/net HTTP/2 client opens one connection per waiting request while a TLS handshake hangs, so `xmux.maxConnections` no longer bounds XHTTP connections. The tag also keeps the H2MUX and MASQUE servers on x/net's own HTTP/2 server, as in Go 1.26 builds. Moving the XHTTP client to `net/http.Transport` so the tag can be dropped is planned separately.\n- **REALITY.** The client-version check stays outside the key-share change. `minClientVer` and `maxClientVer` remain optional operator settings with no implicit minimum. The HHMM stamp is display-only: REALITY still sends the three version bytes, now 26.10.5.\n- **XDNS configuration changed upstream.** `domains` entries take `names`, `types` and limits; `resolvers` entries take `addrs`. Update XDNS configurations, and run clients and servers from compatible versions.\n- **`udpHop`** is configured as a FinalMask UDP mask (`udphop`) instead of under `quicParams`. QuicParams protobuf field 5 is reserved.\n- **WireGuard outbound.** The `remoteDNS` \"local\" mode and `domainStrategy` were removed upstream.\n- **FakeDNS.** The default IPv6 pool changed upstream to `2001:2::/48`.\n- **Mux.Cool.** Only TCP carriers start Mux.Cool, which matches every client implementation.\n- **Mux.Cool over XHTTP.** This is intentional fork behavior; upstream (XTLS/Xray-core#4128) discourages stacking it on XHTTP's own multiplexing. Server-side KeepAlive options:\n  - `xhttpSettings.muxKeepAliveSecs`: a seconds range, e.g. `\"20-25\"`.\n  - `xhttpSettings.muxKeepAliveBytes`: a padding range, capped at 1024 bytes.\n  - Both are off by default. stream-one is never poked, and only Xray clients use Mux.Cool.\n  - When enabled"
+            },
+            {
               "name": "Xray-core v26.9.5-0936",
               "tag": "v26.9.5-0936",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.9.5-0936",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Synced the fork with upstream `5e245b08` and stamped the release as `26.8.30-2253` UTC.\n- Added QUIC v2 ClientHello sniffing while preserving strict QUIC Retry rejection.\n- Updated Hysteria transport behavior through the upstream 2.12.2 integration, including safer masquerade proxy handling and optional stateless-reset suppression.\n- Added FreeBSD TUN automatic routing-table and outbound-interface support.\n\n## Fork fixes\n\n- Preserved the fork's protobuf field numbers for existing QUIC and Hysteria settings, avoiding wire-incompatible renumbering during the upstream merge.\n- Preserved hardened Hysteria, XHTTP, Realm port-mapping, physical-peer provenance, cleanup, and shared TLS-config ownership behavior.\n- Kept QUIC Retry packets fail-closed instead of treating truncated Retry framing as incomplete Initial data.\n- Regenerated protobuf outputs with `protoc-gen-go v1.36.11` and `protoc v6.33.5`.\n\n## Upstream changes\n\n- Hysteria: upgraded the official integration to 2.12.2.\n- Transport: bind UDP outbound sockets in the destination address family.\n- TUN: support `autoSystemRoutingTable` and `autoOutboundsInterface` on FreeBSD.\n- Sniffing: support QUIC v2 Initial packets.\n- Routing: export `HealthCheckSettings`.\n\n## Compatibility notes\n\n- REALITY `minClientVer` and `maxClientVer` remain operator-controlled with no implicit minimum when omitted.\n- SMUX continues to use the maintained in-tree `common/singmux` implementation.\n- Existing serialized QUIC and Hysteria configuration field numbers remain stable. The new `disableStatelessReset` setting is additive.\n\n## Validation\n\n- Targeted unit tests for QUIC, Hysteria, XHTTP, Realm, TUN, transport configuration, VLESS, and REALITY passed.\n- Race, checkptr, vet, protobuf-header, formatting, SMUX unit/race, and SMUX coverage gates passed.\n- VLESS TCP TLS/REALITY interoperability passed 36/36 executions across Xray, sing-box 1.13.21, and Mihomo Meta 1.19.30.\n- SMUX process interoperability passed all 40 Xray/sing-box/Mihomo VLESS/Trojan TCP/UDP/padding cells.\n- Linux/amd64 static release build passed with Go 1.27.0 and `GOAMD64=v1`.\n- Clean-tree GitHub Tests and Checkings passed for both `main` and the release tag; the release matrix and multi-architecture container publication also completed successfully.\n"
-            },
-            {
-              "name": "Xray-core v26.8.27-1556",
-              "tag": "v26.8.27-1556",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.27-1556",
-              "published_at": "2026-08-27T16:03:34Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- XDNS finalmask transport hardened end to end: a pre-auth memory-exhaustion vector, data races, silent packet loss and a busy-spin failure mode are fixed. The transport survived a full loopback E2E battery: 8 MB transfers with sha256 match, six-way concurrency, a second client instance and three restart cycles.\n\n## Fork fixes\n\n- xdns server: the per-client writeQueueMap is capped at 256 entries. Keys are attacker-chosen clientIDs decoded from query labels, so a unique-ID flood could previously pin unbounded memory (a 512-slot channel plus stash per entry) before the idle timeout ever fired. Over-limit clients are refused with an explicit error.\n- xdns client/server: removed data races on resolverIdx (sendLoop mutated it unlocked while WriteTo read it under the mutex) and on closed (raw reads in both recvLoops). Poll encoding now reads one consistent resolver slot.\n- xdns: packet loss is observable again. WriteTo reports errPayloadTooBig / errQueueFull (with a bounded 20 ms block so bursts keep mKCP pacing), encode errors propagate, and ReadFrom reports short consumer buffers instead of dropping silently. The dead len(p) \u003e= 224 gate is replaced by a per-resolver limit measured from the real codec at construction.\n- xdns: both recvLoops back off exponentially (10 ms base, 1 s cap) on transient UDP read errors instead of hot-spinning a core when an interface flaps.\n- xdns server: responses routed to an idle-pruned queue no longer produce empty-answer artifacts; a live queue still emits the legitimate empty ack that dnstt-style ramp-up relies on; queue retirement is exactly-once (the idle pruner and the shutdown sweep can no longer double-close channels, which panicked under -race).\n- xdns: hostile RDLENGTH values no longer allocate attacker-sized slices before validation (~66 KB to 432 B per crafted parse); the response batching window is armed once so stale timer ticks cannot collapse aggregation mid-batch; the grouping ladder is extracted into groupRecord with explicit emit/drop/stop outcomes.\n- xdns: per-type encoded payload ceilings are computed lazily (sync.OnceValue) instead of panicking at package init, and are pinned by tests (TXT 934, A 118, AAAA 462 on a 1232-byte budget). The dnstt-derived DNS wire-format codec is now attributed (MIT, David Fifield).\n- conf: xdns resolver and domain entries are validated at config-build time through shared runtime parsers (ValidateResolver / ValidateDomainSpec); the duplicated +udp:// substring check is gone, and non-IP resolver hosts fail early instead of at dial time.\n- xdns config: the dead outermost-level guard (commented-out FakePacketConn/UdpHop checks) is replaced by a documented nesting policy with a runtime warning when the transport is wrapped at a non-outermost layer.\n- tests: the vacuous len(encoded) \u003c 0 assertion in TestEncodeRDataTXT now checks the exact [00] wire answer, debug fmt.Println output is gone, and new lifecycle stress cells cover concurrent WriteTo/ReadFrom/Close for both wrappers.\n\n## Upstream changes\n\n- Merged upstream main at 65458e91 - \"Config: Fix some issues (#6640)\": config handling adjustments in infra/conf (xray/common), HTTP proxy client fixes and TCP hub housekeeping.\n\n## Compatibility notes\n\n- xdns requires a small mKCP MTU (for example 120; the config floor is 21) because the DNS query payload budget is roughly 137 bytes for the smallest domain suffixes and shrinks with longer domains.\n- xdns now returns typed errors on overflow/oversize instead of reporting success on silent drops; mKCP retransmission remains the recovery path, so well-formed deployments are unaffected, but loss is no longer invisible.\n- Malformed xdns resolvers / domains entries are rejected at config-build time (previously they surfaced as dial/listen errors).\n- mKCP header / seed remain removed in this fork; use finalmask/udp mkcp-original or mkcp-aes128gcm masking.\n\n## Validation\n\n- go test ./transport/internet/finalmask/xdns/... ./infra/conf ./core ./transport/internet/tcp -count=1 - green.\n- go test -race ./transport/internet/finalmask/xdns/ -count=1 - green, including new concurrent lifecycle stress cells.\n- go test -gcflags=all=-d=checkptr=2 ./transport/internet/finalmask/xdns/ -count=1 - green; go vet clean.\n- Loopback E2E over the real SOCKS -\u003e Xray(xdns/mkcp) -\u003e Xray -\u003e HTTP origin path: hello smoke, 64 KB and 8 MB transfers with sha256 match, six-way concurrent downloads, second client instance, three client restart cycles; queue_full events observed in logs under load with no hangs.\n- Linux/amd64 release-style build: CGO_ENABLED=0 GOAMD64=v1 -trimpath, xray version prints 26.8.27-1556; TestVersionFollowsYearMonthDayHHMM green.\n- check-proto: regeneration with the locally available protoc 33.5 + protoc-gen-go-grpc 1.5.1 diverges from committed generated files (it would drop fork fields such as dokodemo PortMap); committed generated files are kept and their headers already pin protoc v6.33.5 / protoc-gen-go v1.36.11. Recorded as a known limitation of this environment.\n"
             }
           ],
           "last_commit": {
@@ -1036,7 +1036,7 @@
             "stars": 28647,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T19:32:55Z",
+            "pushed_at": "2026-10-05T20:17:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1089,10 +1089,10 @@
             }
           ],
           "last_commit": {
-            "sha": "416e4e7",
+            "sha": "1d7dace",
             "branch": "master",
-            "date": "2026-10-04T07:19:45Z",
-            "url": "https://github.com/openwrt/openwrt/commit/416e4e7ea30599d1404bad00fd3c83f6e603b78b"
+            "date": "2026-10-05T20:15:25Z",
+            "url": "https://github.com/openwrt/openwrt/commit/1d7dacee9a0d0fd0c70c0fd31fd1921f221a14c1"
           }
         },
         {
@@ -4941,7 +4941,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 25980,
+            "stars": 25981,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-05T18:55:47Z",
@@ -5012,7 +5012,7 @@
             "stars": 77092,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T20:08:12Z",
+            "pushed_at": "2026-10-05T20:16:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2155775",
-            "branch": "papagian/setting-nats-watch",
-            "date": "2026-10-05T14:11:28Z",
-            "url": "https://github.com/grafana/grafana/commit/2155775056769d1043d25b698396601d2c801e58"
+            "sha": "5bce4e1",
+            "branch": "jessica.1013.remove-ensureV1Response",
+            "date": "2026-10-05T20:16:31Z",
+            "url": "https://github.com/grafana/grafana/commit/5bce4e13cf743a8a202c51c8dbef5ed8003f6bfa"
           }
         },
         {
@@ -5148,7 +5148,7 @@
             "stars": 80800,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T20:11:05Z",
+            "pushed_at": "2026-10-05T20:14:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5213,7 +5213,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17826,
+            "stars": 17827,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-05T14:44:49Z",
@@ -5625,10 +5625,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c7e269",
+            "sha": "616a809",
             "branch": "l10n_crowdin",
-            "date": "2026-10-05T19:32:30Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/1c7e269ccfdeab5138ba054723a1108a93d085d8"
+            "date": "2026-10-04T17:45:01Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/616a809b75a881249ab5cfcd49ffd0b0b3e28026"
           }
         }
       ]
