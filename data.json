@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T05:57:53.135123Z",
+  "generated_at": "2026-10-05T06:03:08.086228Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4622,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T19:59:01Z",
+            "pushed_at": "2026-10-05T06:01:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,214 +3264,214 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
-                  "sha": "fbe4677",
-                  "message": "selinux-python: add version check override",
+                  "sha": "6d84e04",
+                  "message": "shine: skip version check for shineenc",
+                  "author": "Marcin Maj",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/6d84e0488109f8ae61ab7d32d125b6d8d2b20901"
+                },
+                {
+                  "sha": "c8f7891",
+                  "message": "swanmon: add version check override",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/c8f78914c69cd75d95b9c77ff8f44ca0ec3d50f9"
+                },
+                {
+                  "sha": "b07c39d",
+                  "message": "syslog-ng: add version check override",
                   "author": "Josef Schlehofer",
-                  "date": "2026-10-04T15:56:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/fbe467795427bf6837acb7722e4c72a89b9405ff"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/b07c39db89782bd6d8f9c55dddc10f118d48955f"
                 },
                 {
-                  "sha": "0c9829c",
-                  "message": "python3: match packages by pattern in version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-04T15:56:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/0c9829c65f3b06aafd00ccf6835b0aefec80eb0a"
-                },
-                {
-                  "sha": "39754e6",
-                  "message": "python3: move version checks to override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-04T15:56:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/39754e6b289d99cbed62ce4400dd88d1371e33e8"
-                },
-                {
-                  "sha": "bb83dc2",
-                  "message": "ksmbd-tools: add package version test",
-                  "author": "Andrea Pesaresi",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/bb83dc2f980089e13b7832ca08b472f5402cfb85"
-                },
-                {
-                  "sha": "d797860",
-                  "message": "tree-wide: rename version check test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/d7978609eca78ee2886f9ffb9a382e4e443d8082"
-                },
-                {
-                  "sha": "e255d83",
-                  "message": "alsa-lib: add version check override",
+                  "sha": "ce25493",
+                  "message": "frp: add test script",
                   "author": "Alexandru Ardelean",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/e255d83c5467ac09afe58ceb70e87c334056e7d8"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce25493b0b97d8ec1c925ae520e30534758a7def"
                 },
                 {
-                  "sha": "4b73d17",
-                  "message": "lksctp-tools: add generic version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b73d17d5f698b27b3ac07e440712f0311c4ae55"
-                },
-                {
-                  "sha": "1a7b286",
-                  "message": "alsa-lib: add test.sh for aserver without --version",
+                  "sha": "5811127",
+                  "message": "python-pika: add test script",
                   "author": "Alexandru Ardelean",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/1a7b286daef015f24135572c2d037cbc087a2b0d"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/5811127331d1ae444fc306155820790143959666"
                 },
                 {
-                  "sha": "73be450",
-                  "message": "bluez: add test.sh for binaries without --version",
+                  "sha": "f7640dc",
+                  "message": "python-pytest-forked: add test script",
                   "author": "Alexandru Ardelean",
-                  "date": "2026-10-04T07:45:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/73be450b0e175f32e986645829dfb4e91638620d"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/f7640dcf59ae6556e57114592a8469c9d978e0c6"
                 },
                 {
-                  "sha": "dbd4c11",
-                  "message": "zerotier: update to 1.16.2",
-                  "author": "Moritz Warning",
-                  "date": "2026-10-03T11:16:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/dbd4c11515d062e08f427c49d8a48e8ec145567c"
+                  "sha": "07f92a4",
+                  "message": "squeezelite: add version test override",
+                  "author": "Kel Modderman",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/07f92a4ca1463bde346c963f050badaf884d4abf"
                 },
                 {
-                  "sha": "8195da5",
-                  "message": "net/zerotier: assign PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2026-10-03T11:16:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/8195da5fd09e6ad6db3b9bfa4a9d873e2633fb6e"
+                  "sha": "5a36c0d",
+                  "message": "python-msgpack: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/5a36c0d4e618acbf81f3c0d69eba8f5df910cfb6"
                 },
                 {
-                  "sha": "295217c",
-                  "message": "zerotier: apply upstream license change to `MPL-2.0`",
-                  "author": "Mai Thanh Minh",
-                  "date": "2026-10-03T11:16:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/295217cc346d7883777989eb2bdfe7f2f4c91864"
-                },
-                {
-                  "sha": "8c55f32",
-                  "message": "zoneinfo: update to 2026d release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-10-02T09:44:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c55f325c98f8ef09906fce123e83314f02470ee"
-                },
-                {
-                  "sha": "dda3da4",
-                  "message": "zoneinfo: updated to 2026c release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-10-02T09:44:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/dda3da453b866a1d01f0d5b50c5c8f0cca078319"
-                },
-                {
-                  "sha": "9b9199a",
-                  "message": "telegraf: target go 1.27 on openwrt-25.12",
-                  "author": "Niklas Thorild",
-                  "date": "2026-10-01T15:48:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b9199ae43c4c18177274468b61317b267fd3e71"
-                },
-                {
-                  "sha": "d78ab19",
-                  "message": "telegraf: update to 1.40.1",
-                  "author": "Niklas Thorild",
-                  "date": "2026-10-01T15:48:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/d78ab19f48729767dfeb8bea37530462f24cb06e"
-                },
-                {
-                  "sha": "19fd107",
-                  "message": "pdns: security update to 4.9.17",
-                  "author": "Remi Gacogne",
-                  "date": "2026-10-01T13:27:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/19fd1072a2ae1dafa3a7b703e269344c00404ecc"
-                },
-                {
-                  "sha": "dd6a979",
-                  "message": "pdns: update config arguments",
-                  "author": "George Sapkin",
-                  "date": "2026-10-01T13:27:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/dd6a9799f8ce113228a6e10237578293ea0ae161"
-                },
-                {
-                  "sha": "51ad82a",
-                  "message": "pdns-recursor: security update to 5.2.13",
-                  "author": "Remi Gacogne",
-                  "date": "2026-10-01T13:27:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/51ad82abd391d7217d181e4e81d585d637be698e"
-                },
-                {
-                  "sha": "92bc644",
-                  "message": "golang: mark 1.27 as host-only",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/92bc64441b8508979d1242145ff82d26e378a4a4"
-                },
-                {
-                  "sha": "880b3ba",
-                  "message": "golang: bump 1.27 to 1.27.1",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/880b3baf844cc21307bcdaa86fc8a5e2773a90d0"
-                },
-                {
-                  "sha": "2558a94",
-                  "message": "golang: add support for host-only version series",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/2558a94e1bcf3fe7dbb88b963cc7581b8d385811"
-                },
-                {
-                  "sha": "4aba19f",
-                  "message": "golang: add 1.27.0",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/4aba19f29ea17d134e2993fbd451f63373520b57"
-                },
-                {
-                  "sha": "2c3fb32",
-                  "message": "golang: fix target binary stripping",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/2c3fb3263e1bab8c2832a4aa0f95366d28e71534"
-                },
-                {
-                  "sha": "05772f3",
-                  "message": "golang: remove redundant quotes in extra_provides",
-                  "author": "George Sapkin",
-                  "date": "2026-09-30T23:18:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/05772f3b8f4b27df67faceb8eb239e5a74b06ba0"
-                },
-                {
-                  "sha": "42cd716",
-                  "message": "exim: update to 4.100.1",
+                  "sha": "953c2f8",
+                  "message": "uradvd: fix the version check override",
                   "author": "Josef Schlehofer",
-                  "date": "2026-09-29T14:07:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/42cd716d5df2a9694752098540af2a3def989f82"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/953c2f8ae1f200934fec081965ba681af2a62c1e"
                 },
                 {
-                  "sha": "fb7d7b3",
-                  "message": "exim: add download URL for superseded releases",
+                  "sha": "0ef6320",
+                  "message": "sudo: add test-version.sh and stop running sudo in tests",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/0ef6320345e5c30ceaf270c28f5ea55d24354338"
+                },
+                {
+                  "sha": "0b01031",
+                  "message": "imagemagick: add test-version.sh version override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/0b010310240daacbeb4f9c86cd6549d40b163930"
+                },
+                {
+                  "sha": "97e4036",
+                  "message": "libpam: add test-version.sh CI override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/97e40363f1ba641ddb3b8da1d12da34ce7c98193"
+                },
+                {
+                  "sha": "d378253",
+                  "message": "apache: add version overrides",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/d378253983bb526db2b2b1d885f2b1ad2c78d89e"
+                },
+                {
+                  "sha": "7868b56",
+                  "message": "prometheus-node-exporter-ucode: fixup CI",
+                  "author": "Etienne Champetier",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/7868b56a0220b3e90af2b3b950309dc5addcebda"
+                },
+                {
+                  "sha": "7bb75c8",
+                  "message": "nss: add version override",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/7bb75c8619a7c595bc54bcaa7b6b38a9c5cfab16"
+                },
+                {
+                  "sha": "ac7570d",
+                  "message": "tree-wide: remove redundant test.sh files",
                   "author": "Josef Schlehofer",
-                  "date": "2026-09-29T14:07:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/fb7d7b3ab5eb3a67938bc165caa05b286281e290"
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/ac7570de89f79cb2d85e5f4df89cca8806d9a872"
                 },
                 {
-                  "sha": "9f43907",
-                  "message": "rsync: update to 3.5.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-09-29T13:12:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f439079f970d257c54f99afecc7640cab67185b"
+                  "sha": "f201df2",
+                  "message": "uspot: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:01:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/f201df2e2c05d10cae030a3bedc71ce716a6c743"
                 },
                 {
-                  "sha": "a14cd33",
-                  "message": "rsync: add version check override",
+                  "sha": "f30f114",
+                  "message": "python-rsa: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/f30f11474c74986915f95b8415b850fdf7856f21"
+                },
+                {
+                  "sha": "2341db9",
+                  "message": "expat: add version check override",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/2341db9c0f69733b2aa15713af5d2bb49cc0a38e"
+                },
+                {
+                  "sha": "18e7c67",
+                  "message": "cgi-io: add generic version check override",
+                  "author": "Stijn Tintel",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/18e7c673a93011a5b0ddeb7b7bb3f99dc6ca7f62"
+                },
+                {
+                  "sha": "bfa87fa",
+                  "message": "python-incremental: add test-version.sh generic version-check override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/bfa87fa6a499bff7f3587ed38d70247071b1a23e"
+                },
+                {
+                  "sha": "6d28d97",
+                  "message": "python-rsa: add test-version.sh generic version-check override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/6d28d9725b6402cf36fec43b668643b3ae4fab2b"
+                },
+                {
+                  "sha": "23de678",
+                  "message": "quickjs: add basic evaluation test",
                   "author": "George Sapkin",
-                  "date": "2026-09-29T13:12:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/a14cd33125d0b8b84939559a497e1f218315268c"
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/23de678eaab0aa5cb600b079645cababef68a4b5"
                 },
                 {
-                  "sha": "a0f47dd",
-                  "message": "net/rsync: fix PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2026-09-29T13:12:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/a0f47dd3dfeab078c45b0943aba5ca5f6a7966fc"
+                  "sha": "b897f6e",
+                  "message": "openldap: add version check override",
+                  "author": "W. Michael Petullo",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/b897f6e9647cbfeeab51ccbbf2856cc21e8aed41"
+                },
+                {
+                  "sha": "d02cd17",
+                  "message": "mdnsresponder: add version check override",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/d02cd17c9b183152808be642e7af4894c406ac24"
+                },
+                {
+                  "sha": "e8566b6",
+                  "message": "strongswan: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/e8566b60f01c4cc55afdcb61245d4e417c92c115"
+                },
+                {
+                  "sha": "3f7ba5a",
+                  "message": "python-argcomplete: add test-version.sh for CI",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/3f7ba5aa840ce48b3a432d9eccbd7764395b234b"
+                },
+                {
+                  "sha": "465c440",
+                  "message": "rtklib: add test.sh and test-version.sh for CI",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/465c4400138eef8df05cf58795ec8577233e3702"
+                },
+                {
+                  "sha": "b4b4dec",
+                  "message": "rtklib: disable MIPS16 to work around GCC ICE",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/b4b4decedc8f00d88e2859ac2b6e108ca6f0f84b"
+                },
+                {
+                  "sha": "5ff3e88",
+                  "message": "xupnpd: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-05T06:00:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/5ff3e884a40198de3af0c30fe69b1c5b9a24d7c6"
                 }
               ]
             },
