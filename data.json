@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T03:46:31.738812Z",
+  "generated_at": "2026-10-05T03:51:46.762182Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 41936,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T03:31:46Z",
+            "pushed_at": "2026-10-05T03:50:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eddad37",
+            "sha": "92f7e72",
             "branch": "main",
-            "date": "2026-10-05T03:31:48Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/eddad37c69114e5ca31564a3ba5b093781f78cab"
+            "date": "2026-10-05T03:50:24Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/92f7e72490d44685cf8758b0fc381875d96476df"
           }
         },
         {
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38571,
+            "stars": 38572,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-03T10:53:35Z",
@@ -4550,12 +4550,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T03:42:21Z",
+            "pushed_at": "2026-10-05T03:48:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha eddad37",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-10-05T03:47:28Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@eddad37c69114e5ca31564a3ba5b093781f78cab\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.9.30",
               "tag": "stable",
@@ -4564,15 +4573,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha b26a91d",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-09-30T17:50:49Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@b26a91de4f3294e26a0ad0a970b81a386a41f789\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
