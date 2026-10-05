@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:17:34.057110Z",
+  "generated_at": "2026-10-05T09:22:51.052398Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T09:12:07Z",
+            "pushed_at": "2026-10-05T09:19:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f626f9c",
+                  "message": "mwan3: strip dead flag from copied routes",
+                  "author": "Gleb Pesin",
+                  "date": "2026-10-05T09:19:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/f626f9c5025b118c069a3b867c6443b65f3cb462"
+                },
+                {
                   "sha": "ab97fca",
                   "message": "modemmanager: rework initial EPS bearer modes",
                   "author": "Michael Pfeifroth",
@@ -1960,13 +1967,6 @@
                   "author": "Elly Sai",
                   "date": "2026-10-01T05:57:23Z",
                   "url": "https://github.com/openwrt/packages/commit/5ff92c77ade64e4b36c0412f0a114c9690bca47d"
-                },
-                {
-                  "sha": "95d73eb",
-                  "message": "strongswan: bump PKG_RELEASE by one",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/95d73ebcc95ade2ea78b0a281898cf8b6ec7b7f9"
                 }
               ]
             },
@@ -4656,7 +4656,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1917,
+            "stars": 1918,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-04T09:50:52Z",
@@ -5012,7 +5012,7 @@
             "stars": 77082,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T09:17:33Z",
+            "pushed_at": "2026-10-05T09:21:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6b48765",
-            "branch": "MissingRoberto/issue-127254-fix",
-            "date": "2026-10-05T09:11:01Z",
-            "url": "https://github.com/grafana/grafana/commit/6b48765dc8a440038766f2f1e7a2091d0167082d"
+            "sha": "5f34015",
+            "branch": "tinitiuset/tab-titles-session-expiry",
+            "date": "2026-10-05T09:19:54Z",
+            "url": "https://github.com/grafana/grafana/commit/5f34015593134a963f7a09bc404f3d59263632ac"
           }
         },
         {
@@ -5148,7 +5148,7 @@
             "stars": 80790,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T09:00:08Z",
+            "pushed_at": "2026-10-05T09:18:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5216,7 +5216,7 @@
             "stars": 17823,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T09:17:08Z",
+            "pushed_at": "2026-10-05T09:18:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5269,10 +5269,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5b6fd4d",
+            "sha": "d96b5e5",
             "branch": "vmalert-notifier-retry-failed-reload",
-            "date": "2026-10-05T09:17:09Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/5b6fd4d32357339527d4f3086c3a40c2144f9d0f"
+            "date": "2026-10-05T09:18:04Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/d96b5e55db2e6efc0eff81be9d8e650b76613ac7"
           }
         }
       ]
