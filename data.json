@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:53:22.163875Z",
+  "generated_at": "2026-10-05T07:58:37.327401Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4622,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T07:04:46Z",
+            "pushed_at": "2026-10-05T07:55:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3264,6 +3264,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "2679d62",
+                  "message": "dnsdist: update to 2.0.9",
+                  "author": "Remi Gacogne",
+                  "date": "2026-10-05T07:55:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/2679d620657a87b8669775f6817747e3815ffb6f"
+                },
+                {
+                  "sha": "a751e88",
+                  "message": "dnsdist: update to 2.0.6",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-05T07:55:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/a751e88689e4245abe591283f35f5037bcc2dcd8"
+                },
+                {
                   "sha": "2ccadf6",
                   "message": "libtorrent-rasterbar: fix the python bindings",
                   "author": "Josef Schlehofer",
@@ -3458,20 +3472,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T06:00:26Z",
                   "url": "https://github.com/openwrt/packages/commit/d02cd17c9b183152808be642e7af4894c406ac24"
-                },
-                {
-                  "sha": "e8566b6",
-                  "message": "strongswan: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/e8566b60f01c4cc55afdcb61245d4e417c92c115"
-                },
-                {
-                  "sha": "3f7ba5a",
-                  "message": "python-argcomplete: add test-version.sh for CI",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/3f7ba5aa840ce48b3a432d9eccbd7764395b234b"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77080,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T07:51:45Z",
+            "pushed_at": "2026-10-05T07:58:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "961d972",
+            "sha": "07c2c35",
             "branch": "main",
-            "date": "2026-10-05T07:51:44Z",
-            "url": "https://github.com/grafana/grafana/commit/961d9728a0e595918a3953c6e55882ea913d0cfe"
+            "date": "2026-10-05T07:58:04Z",
+            "url": "https://github.com/grafana/grafana/commit/07c2c351ae1ceb74405d7085e6b136e81882cb3d"
           }
         },
         {
