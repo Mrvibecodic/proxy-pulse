@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:56:30.668126Z",
+  "generated_at": "2026-10-05T09:01:46.248786Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41941,
+            "stars": 41940,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-05T08:49:16Z",
@@ -1033,7 +1033,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28634,
+            "stars": 28635,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-05T08:26:22Z",
@@ -1090,7 +1090,7 @@
           ],
           "last_commit": {
             "sha": "735d7ef",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-10-05T08:26:23Z",
             "url": "https://github.com/openwrt/openwrt/commit/735d7ef3c538465382f63d40d4d797c3b0bd4320"
           }
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T07:55:25Z",
+            "pushed_at": "2026-10-05T09:01:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3f87f7a",
+                  "message": "luaossl: fix Lua 5.4 module installation paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-05T09:01:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/3f87f7ae8341e5f84478facbd3fc62b243ef8732"
+                },
+                {
+                  "sha": "76ed3f9",
+                  "message": "cqueues: fix Lua 5.4 module installation paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-05T09:01:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/76ed3f94adc0f731b3c7f7af005c48e6f8ca0eea"
+                },
+                {
+                  "sha": "16757d0",
+                  "message": "lua-ffi: fix Lua 5.4 module installation path",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-05T09:01:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/16757d0c2af6b7e6f6f1b420a4d9de5d714b818a"
+                },
+                {
+                  "sha": "b5ec105",
+                  "message": "lua-cjson: fix Lua 5.4 module installation path",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-05T09:01:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/b5ec1052da002518c24aac92ffe6d66fa756ac92"
+                },
+                {
+                  "sha": "afb69d9",
+                  "message": "lua-eco: align module installation with Lua 5.4 search paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-05T09:01:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/afb69d99c7d3cfe791af68df248a4771565e01a3"
+                },
+                {
                   "sha": "349c2ca",
                   "message": "xz: use --enable-small only on SMALL_FLASH targets",
                   "author": "Julius Bairaktaris",
@@ -1932,41 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/b2f6de780d82d83f8302a50885d77f62bfa45428"
-                },
-                {
-                  "sha": "e5e3198",
-                  "message": "strongswan: move local and remote into own uci sections",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/e5e31986517861006cb8bbf0d2a307d296ac877b"
-                },
-                {
-                  "sha": "ac80ae3",
-                  "message": "strongswan: use global secret/authority uci sections",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/ac80ae3fe97c629261365ad5d8da27e6f9f18c43"
-                },
-                {
-                  "sha": "7561ce7",
-                  "message": "strongswan: replace mschapv2_secrets with generic secret type",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/7561ce78193b2a77a072bf345f6d61c9a3eaf1f5"
-                },
-                {
-                  "sha": "3d0c229",
-                  "message": "strongswan: add authority section handling",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/3d0c229dc8addc2dd4c493064712c6f013dcc99c"
-                },
-                {
-                  "sha": "fe46e14",
-                  "message": "strongswan: rename uci remote section type to connection",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe46e1435bbb35f2781c15f3af1e68f866082855"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77081,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T08:55:55Z",
+            "pushed_at": "2026-10-05T09:00:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c07efb5",
-            "branch": "pstibrany/require-holds-deleted-documents",
-            "date": "2026-10-05T08:55:56Z",
-            "url": "https://github.com/grafana/grafana/commit/c07efb541de2b0775a289a3febc8917ed963b48b"
+            "sha": "ba6d0aa",
+            "branch": "main",
+            "date": "2026-10-05T09:00:03Z",
+            "url": "https://github.com/grafana/grafana/commit/ba6d0aa43a03e47c5aca481f93432b2b91f462b5"
           }
         },
         {
@@ -5145,10 +5145,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80791,
+            "stars": 80790,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T08:28:22Z",
+            "pushed_at": "2026-10-05T09:00:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5201,10 +5201,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2068d70",
-            "branch": "dependabot/go_modules/src/go/github.com/moby/moby/client-0.6.1",
-            "date": "2026-10-05T08:28:23Z",
-            "url": "https://github.com/netdata/netdata/commit/2068d708e84fdfc3b9781b9eb231018e412d6a20"
+            "sha": "b39037b",
+            "branch": "master",
+            "date": "2026-10-05T09:00:09Z",
+            "url": "https://github.com/netdata/netdata/commit/b39037b5f335d7175a4a5e44293ad0e076ffe3a6"
           }
         },
         {
@@ -5213,7 +5213,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17824,
+            "stars": 17823,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-05T07:05:17Z",
