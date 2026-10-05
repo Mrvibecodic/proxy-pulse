@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T06:34:30.930081Z",
+  "generated_at": "2026-10-05T06:39:45.663126Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34640,
+            "stars": 34641,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-02T05:44:30Z",
@@ -1104,7 +1104,7 @@
             "stars": 4622,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T06:01:04Z",
+            "pushed_at": "2026-10-05T06:38:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e3a761d",
+                  "message": "libtorrent-rasterbar: fix the python bindings",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:37:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/e3a761dd665ac386d1935a51994d67c10c701e2f"
+                },
+                {
+                  "sha": "a05f401",
+                  "message": "libtorrent-rasterbar: add test.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:37:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/a05f401f40cc3998f5a01fc1a69e4aacd907abce"
+                },
+                {
+                  "sha": "b13caa1",
+                  "message": "libtorrent-rasterbar: update to 2.0.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:37:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/b13caa1227fcf1ebf294574ab4bc9582b81ce4a6"
+                },
+                {
                   "sha": "6c393a8",
                   "message": "transmission: grant r/w access to config dir",
                   "author": "Ludvig Liu Holtze",
@@ -1946,27 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/85a54e82026916329c7ad9805da4c1f5d0cffd87"
-                },
-                {
-                  "sha": "d406256",
-                  "message": "strongswan: add kernel-netlink plugin config generation for install_routes_xfrmi",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/d406256cfab8c6b571c6810c5b5081f47e68991f"
-                },
-                {
-                  "sha": "c60672a",
-                  "message": "strongswan: add uci shunt configuration",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/c60672a300bd651e820ee9b780a0938e2e83a9b0"
-                },
-                {
-                  "sha": "46f564f",
-                  "message": "strongswan: fix ipsec globals section type",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/46f564fada3da3cf85b2b6ff6cc0e120642fda75"
                 }
               ]
             },
@@ -3264,6 +3264,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "2ccadf6",
+                  "message": "libtorrent-rasterbar: fix the python bindings",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:38:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/2ccadf6d98458b42780bd9e3206045e96c1d4c82"
+                },
+                {
+                  "sha": "71bae16",
+                  "message": "libtorrent-rasterbar: add test.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:38:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/71bae164ea262e09e4ca31909e571b9418664ba3"
+                },
+                {
+                  "sha": "0db01e0",
+                  "message": "libtorrent-rasterbar: update to 2.0.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T06:37:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/0db01e0e2b3cee988c583a40d8156510bb1c4b86"
+                },
+                {
                   "sha": "6d84e04",
                   "message": "shine: skip version check for shineenc",
                   "author": "Marcin Maj",
@@ -3451,27 +3472,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T06:00:26Z",
                   "url": "https://github.com/openwrt/packages/commit/3f7ba5aa840ce48b3a432d9eccbd7764395b234b"
-                },
-                {
-                  "sha": "465c440",
-                  "message": "rtklib: add test.sh and test-version.sh for CI",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/465c4400138eef8df05cf58795ec8577233e3702"
-                },
-                {
-                  "sha": "b4b4dec",
-                  "message": "rtklib: disable MIPS16 to work around GCC ICE",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/b4b4decedc8f00d88e2859ac2b6e108ca6f0f84b"
-                },
-                {
-                  "sha": "5ff3e88",
-                  "message": "xupnpd: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-05T06:00:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/5ff3e884a40198de3af0c30fe69b1c5b9a24d7c6"
                 }
               ]
             },
@@ -4576,10 +4576,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6234d62",
+            "sha": "d8e994f",
             "branch": "main",
-            "date": "2026-10-05T04:42:09Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/6234d62ac57db6f7c963afb1aad97bc22fe911fc"
+            "date": "2026-10-05T03:48:21Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/d8e994ffead3d154a907d5ce0a1ead0953230deb"
           }
         },
         {
