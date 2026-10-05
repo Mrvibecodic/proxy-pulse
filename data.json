@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:44:32.487903Z",
+  "generated_at": "2026-10-05T14:49:48.981591Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T14:07:20Z",
+            "pushed_at": "2026-10-05T14:47:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6d81d44",
+                  "message": "duperemove: add new package",
+                  "author": "Keith T. Garner",
+                  "date": "2026-10-05T14:47:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/6d81d44935103f7c2f0e5b7239220c41a3f487da"
+                },
+                {
                   "sha": "5a5ec84",
                   "message": "weechat: add new package",
                   "author": "Josef Schlehofer",
@@ -1960,13 +1967,6 @@
                   "author": "Christian Lachner",
                   "date": "2026-10-02T09:01:07Z",
                   "url": "https://github.com/openwrt/packages/commit/2a70ef94898443549229e15b38b3c20bfaf4895c"
-                },
-                {
-                  "sha": "6fef7b9",
-                  "message": "mesh11sd: update to version 7.3.0",
-                  "author": "Rob White",
-                  "date": "2026-10-02T08:01:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/6fef7b9142b5d595385fa7d054b1a7ea977d3dc2"
                 }
               ]
             },
@@ -5012,7 +5012,7 @@
             "stars": 77089,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T14:43:32Z",
+            "pushed_at": "2026-10-05T14:49:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5133,10 +5133,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2536057",
-            "branch": "main",
-            "date": "2026-10-05T10:04:01Z",
-            "url": "https://github.com/prometheus/prometheus/commit/25360572f3b31e9962f464dbadcfca064e91d9b9"
+            "sha": "971abc8",
+            "branch": "deps-update/jquery-4.x",
+            "date": "2026-10-04T11:28:17Z",
+            "url": "https://github.com/prometheus/prometheus/commit/971abc81b085886dc972ca573346e76708aebff1"
           }
         },
         {
@@ -5216,7 +5216,7 @@
             "stars": 17824,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T14:41:49Z",
+            "pushed_at": "2026-10-05T14:44:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5269,10 +5269,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c89655",
-            "branch": "vmalert-notifier-retry-failed-reload",
-            "date": "2026-10-05T10:27:05Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/1c89655ba90e57f9bb46cf4516ce4be43aae3fd8"
+            "sha": "742778e",
+            "branch": "cluster",
+            "date": "2026-10-05T14:44:50Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/742778ebf1baf37459d520764861689e542da2c5"
           }
         }
       ]
