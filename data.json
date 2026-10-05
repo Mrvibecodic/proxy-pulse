@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T19:19:21.582176Z",
+  "generated_at": "2026-10-05T19:24:38.096301Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T18:36:48Z",
+            "pushed_at": "2026-10-05T19:20:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "cdcbc11",
+                  "message": "shunt: fix rpcd status call",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-05T19:19:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/cdcbc11db8a4c187087ca79358d752824d72f14a"
+                },
+                {
                   "sha": "fa45216",
                   "message": "shunt: update to 0.1.11",
                   "author": "Dirk Brenken",
@@ -1960,13 +1967,6 @@
                   "author": "John Audia",
                   "date": "2026-10-03T06:27:06Z",
                   "url": "https://github.com/openwrt/packages/commit/a36c2b8736a8b2c189f52ff4ae2f26436c164347"
-                },
-                {
-                  "sha": "493b2ae",
-                  "message": "motion: update to 4.7.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-02T17:30:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/493b2ae11c3148f43b3ab680ac2b2bb78cc8430c"
                 }
               ]
             },
@@ -4656,7 +4656,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1922,
+            "stars": 1923,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-05T13:15:59Z",
@@ -5012,7 +5012,7 @@
             "stars": 77091,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T19:08:17Z",
+            "pushed_at": "2026-10-05T19:21:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "63b5a13",
-            "branch": "release-13.1.8",
-            "date": "2026-10-05T13:36:07Z",
-            "url": "https://github.com/grafana/grafana/commit/63b5a13ad03b3620d0a585b27f15722df7ea9d4c"
+            "sha": "09ba9ef",
+            "branch": "moustafab/cel-policy-engine",
+            "date": "2026-10-05T19:21:50Z",
+            "url": "https://github.com/grafana/grafana/commit/09ba9ef9de8a66277fd24616098af5e0462e1862"
           }
         },
         {
@@ -5145,7 +5145,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80797,
+            "stars": 80798,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-05T16:45:05Z",
