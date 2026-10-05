@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T07:00:48.255297Z",
+  "generated_at": "2026-10-05T07:06:04.993354Z",
   "groups": [
     {
       "id": "cores",
@@ -1089,10 +1089,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4dbdfec",
+            "sha": "e77f27e",
             "branch": "master",
-            "date": "2026-10-03T17:13:45Z",
-            "url": "https://github.com/openwrt/openwrt/commit/4dbdfecf0c15f769c10a2ebf2d3e5919401ce177"
+            "date": "2026-10-03T18:56:15Z",
+            "url": "https://github.com/openwrt/openwrt/commit/e77f27eda82334a9fc0f496a3f2e560cfb734c43"
           }
         },
         {
@@ -1104,7 +1104,7 @@
             "stars": 4622,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-05T06:55:49Z",
+            "pushed_at": "2026-10-05T07:04:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "349c2ca",
+                  "message": "xz: use --enable-small only on SMALL_FLASH targets",
+                  "author": "Julius Bairaktaris",
+                  "date": "2026-10-05T07:04:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/349c2ca5c8a058b30d42c537faa4c9e94e997106"
+                },
+                {
                   "sha": "ec41f81",
                   "message": "python-vcs-versioning: update to 2.5.0",
                   "author": "Alexandru Ardelean",
@@ -1960,13 +1967,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-09-30T09:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/fe46e1435bbb35f2781c15f3af1e68f866082855"
-                },
-                {
-                  "sha": "d5f33e6",
-                  "message": "strongswan: support optional UCI session staging in migrate-ipsec-to-swanctl",
-                  "author": "Florian Eckert",
-                  "date": "2026-09-30T09:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/d5f33e6410cfd9b30d0b25702663e7b67695925d"
                 }
               ]
             },
@@ -3049,6 +3049,48 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "d33857a",
+                  "message": "ddns-scripts: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/d33857a6b3c8614c2b4331a1d7c65c67db0193a3"
+                },
+                {
+                  "sha": "a80aa26",
+                  "message": "ddns-scripts: change servercow.de to new dns api",
+                  "author": "Patrick Hemmen",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/a80aa26eb502d09478fe3f51bab8c02560ec7b41"
+                },
+                {
+                  "sha": "6c9c7a5",
+                  "message": "ddns-scripts: remove discontinued providers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c9c7a57ba78760dbb644ee83dde7aeae78f536b"
+                },
+                {
+                  "sha": "eb87263",
+                  "message": "ddns-scripts: fix one.com prerm test syntax",
+                  "author": "Jiang Tengfei",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/eb872637287ce60c91b95cb5c519180d20ecc8f6"
+                },
+                {
+                  "sha": "c1af5fb",
+                  "message": "ddns-scripts: use parameter-based authentication for he.net",
+                  "author": "Karol Babioch",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/c1af5fb9c2edfba41bb0a141267fb77c50a6b335"
+                },
+                {
+                  "sha": "a78a2f3",
+                  "message": "ddns-scripts: fix root command injection through ddns_dateformat",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-10-05T07:02:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/a78a2f3b1fd537cf013bbae7ad017a843f52b0ca"
+                },
+                {
                   "sha": "91f7e4c",
                   "message": "rsync: update to 3.5.1",
                   "author": "Ivan Pavlov",
@@ -3215,48 +3257,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-28T14:19:10Z",
                   "url": "https://github.com/openwrt/packages/commit/a13f8a2615875a398520af8b64ada2830e0a1814"
-                },
-                {
-                  "sha": "c1c1ff8",
-                  "message": "coreutils: add generic version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:19:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/c1c1ff8afb940000cdb0efe2404d24eeb3291d7b"
-                },
-                {
-                  "sha": "33d3a12",
-                  "message": "bind: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-09-28T14:19:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/33d3a128094e48f62142a740dfc14bf1877e97af"
-                },
-                {
-                  "sha": "653f642",
-                  "message": "xz: update to 5.8.3",
-                  "author": "Hannu Nyman",
-                  "date": "2026-09-28T08:42:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/653f642ddde90edf3af27d3bf01e52a5765075fb"
-                },
-                {
-                  "sha": "6ad4a1f",
-                  "message": "xz: update to 5.8.2",
-                  "author": "Hannu Nyman",
-                  "date": "2026-09-28T08:42:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/6ad4a1f0fe96e01999fa42e75d7b9e5900038701"
-                },
-                {
-                  "sha": "161c407",
-                  "message": "xz: update to 5.8.1",
-                  "author": "Fengyu Wu",
-                  "date": "2026-09-28T08:42:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/161c407209ed75af4d5ce3215dfbe94b412ccc71"
-                },
-                {
-                  "sha": "98a1772",
-                  "message": "libssh: fix big-endian -R forwarding and crash without entropy source",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-28T08:12:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/98a1772bf33dcce6dba355891bab3986e1c22dd2"
                 }
               ]
             },
@@ -5216,7 +5216,7 @@
             "stars": 17824,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-04T23:54:23Z",
+            "pushed_at": "2026-10-05T07:05:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5569,7 +5569,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7727,
+            "stars": 7728,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-05T05:52:43Z",
