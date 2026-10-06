@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:31:51.640488Z",
+  "generated_at": "2026-10-06T17:37:07.875692Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34672,
+            "stars": 34673,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-02T05:44:30Z",
@@ -4668,7 +4668,7 @@
             "stars": 1926,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T15:39:15Z",
+            "pushed_at": "2026-10-06T17:33:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5021,7 +5021,7 @@
             "stars": 77115,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T17:28:43Z",
+            "pushed_at": "2026-10-06T17:37:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4f411d2",
-            "branch": "alexk/homepage-app-o11y",
-            "date": "2026-10-06T10:42:06Z",
-            "url": "https://github.com/grafana/grafana/commit/4f411d29045e391bd067955580103329bca5bb56"
+            "sha": "3dd753a",
+            "branch": "ale/provisioning-generic-git-oauth",
+            "date": "2026-10-06T17:37:09Z",
+            "url": "https://github.com/grafana/grafana/commit/3dd753a5f62b849d3951b0ed6cf32a0297b04dcb"
           }
         },
         {
@@ -5301,12 +5301,21 @@
             "stars": 28,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T16:45:25Z",
+            "pushed_at": "2026-10-06T17:34:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "1.9.2",
+              "tag": "v1.9.2",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.9.2",
+              "published_at": "2026-10-06T17:34:26Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Патч: экран тарифа больше не нагружает процессор на больших базах, в документации появилась страница с требованиями к серверу.\n\n**🐛 Исправлено**\n- Строка «Чаще всего выбирают» на экране тарифа считалась по всей таблице платежей при каждом показе — на базах с сотнями тысяч оплат это съедало процессор. Теперь результат хранится 10 минут.\n\n**📚 Документация**\n- Новая страница [«Требования к серверу»](https://remna.shop/start/server/): рекомендованные ресурсы и результаты нагрузочных симуляций (SQLite и PostgreSQL, 10 и 100 тыс. пользователей) — #26.\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
+            },
             {
               "name": "1.9.1",
               "tag": "v1.9.1",
@@ -5342,22 +5351,13 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Tribute работает со всей тарифной сеткой: у каждого тарифа своя подписка Tribute, а кнопка оплаты через Tribute снова есть у «Базового».\n\n**✨ Добавлено**\n\n- Привязка тарифов к подпискам Tribute: **🎁 Tribute → 🧾 Тарифы и подписки** — выбор подписки из списка по API или ввод ID, ссылка оплаты на каждый тариф.\n- Тариф определяется по ID подписки из вебхука, срок — по её периоду; в карточке тарифа видно, какие периоды подписки покрыты сроками тарифа.\n- Прежние подписки тарифа после перепривязки или отвязки продолжают выдавать его подписчикам; подписки удалённых тарифов отклоняются с уведомлением; кнопка ♻️ забывает подписку совсем.\n- ID подписки у «Базового» включает строгий режим: подписки других ваших каналов больше не выдают доступ.\n- Рядом с кнопкой Tribute (чат, мини-апп, веб-кабинет) перечислены сроки, которые выдаются по подписке.\n- Уведомление админу об оплате Tribute без Telegram ID покупателя (вход в Tribute по почте).\n\n**🔧 Изменено**\n\n- После оплаты через Tribute автопродление картой ЮKassa выключается с уведомлением покупателю: подписку продлевает Tribute.\n- Аккаунтам веб-кабинета без привязанного Telegram Tribute не показывается.\n- Недельная оплата Tribute: остаток при смене тарифа пересчитывается как у остальных способов, трафик обнуляется только в начале нового периода.\n- Вебхук Tribute отвечает `{\"status\":\"ok\"}`, как ждёт Tribute.\n\n**🐛 Исправлено**\n\n- Кнопка «Оплатить через Tribute» пропала у «Базового» после появления витрины тарифов.\n- Уведомление админу об отклонённой оплате Tribute печаталось со сломанным шаблоном.\n- Гейты доступности «только новым» и «только действующим» проверялись уже после покупки и не срабатывали ни у одного способа оплаты.\n- Сумма в рублях, уплаченная за тариф в другой валюте, записывалась в условия сделки как сумма в валюте тарифа.\n- API-ключ Tribute не уходит на адрес редиректа при запросе списка подписок.\n\n**📦 Зависимости**\n\n- go-telegram/bot 1.27.0, pgx 5.11.0, modernc.org/sqlite 1.59.0, x/crypto 0.57.0, x/net 0.59.0.\n- Сайт документации: astro 7.3.5, starlight 0.42.4, devalue 5.9.4.\n\n**📚 Документация**\n\n- Новая страница «Платежи → Tribute»: настройка в Tribute и в боте, соответствие периодов и сроков, продления, отказы и нюансы.\n- Откат на 1.6.x: старая версия при первом сохранении настроек стирает привязки тарифов к подпискам Tribute — после повторного обновления их нужно задать заново.\n\n**⬆️ Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте."
-            },
-            {
-              "name": "v1.6.2",
-              "tag": "v1.6.2",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.6.2",
-              "published_at": "2026-09-17T17:43:41Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Срочный выпуск: при включённой Platega бот переставал отвечать и оживал только перезапуском контейнера.\n\n**🐛 Исправлено**\n\n- Меню мини-аппа с включённой Platega подвешивало бота целиком: список способов оплаты собирался под главным замком приложения, а проверка валюты сетки брала тот же замок повторно. Обработчик замирал навсегда и держал замок, следом вставали чат, мини-апп, кабинет, сверка, автоплатёж и напоминания.\n- Признак зависания: бот молчит, в логе только ошибки рукопожатий TLS от сканеров, лечится лишь перезапуском контейнера.\n\n**⬆️ Обновление**\n\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\n\nили `/update` в боте.\n"
             }
           ],
           "last_commit": {
-            "sha": "fe53df9",
-            "branch": "dev",
-            "date": "2026-10-05T10:19:34Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/fe53df94e42d27290d691d2f36d95630f25d55de"
+            "sha": "79e7942",
+            "branch": "main",
+            "date": "2026-10-06T17:34:10Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/79e7942dbb8a58ada666ca40e49a915d5e44d73b"
           }
         }
       ]
