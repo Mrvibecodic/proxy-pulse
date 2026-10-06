@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T07:51:13.807295Z",
+  "generated_at": "2026-10-06T07:56:29.746988Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "00cde72",
-            "branch": "main",
-            "date": "2026-10-05T02:13:04Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/00cde72a9b95105123255b035df357d4c8159ff7"
+            "sha": "8d80e99",
+            "branch": "lua",
+            "date": "2026-10-05T01:06:32Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/8d80e9924ffde644ee80679702692dbdb0a1fac2"
           }
         },
         {
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1288,
+            "stars": 1289,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:29:29Z",
@@ -1113,7 +1113,7 @@
             "stars": 4623,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T07:40:22Z",
+            "pushed_at": "2026-10-06T07:53:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "670a7b3",
+                  "message": "strongswan: stage the migration in the LuCI session through ubus",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-10-06T07:53:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/670a7b3b0ebee25b76d78d6387be1bcb7ae9e676"
+                },
+                {
                   "sha": "c9a8662",
                   "message": "tio: use Lua 5.4",
                   "author": "Mirko Vogt",
@@ -1969,13 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T06:55:48Z",
                   "url": "https://github.com/openwrt/packages/commit/ccf12c6e0c4628fe10e607fce517eebc51d54f13"
-                },
-                {
-                  "sha": "e3a761d",
-                  "message": "libtorrent-rasterbar: fix the python bindings",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:37:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/e3a761dd665ac386d1935a51994d67c10c701e2f"
                 }
               ]
             },
@@ -5021,7 +5021,7 @@
             "stars": 77096,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T07:49:24Z",
+            "pushed_at": "2026-10-06T07:54:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5634,10 +5634,10 @@
             }
           ],
           "last_commit": {
-            "sha": "42418c1",
-            "branch": "fix_move_francis_actor_state_into_its_own_sqlite_database",
-            "date": "2026-10-05T22:55:31Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/42418c10da1be98a2a1abc90876e9c730ccd0ec7"
+            "sha": "ee4e129",
+            "branch": "fix_keep_selected_tag_on_self-update_and_refresh_stale_project_update_status",
+            "date": "2026-10-05T23:39:40Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/ee4e129b300d067f14c56463a0b1528ffbc49011"
           }
         }
       ]
