@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:22:32.430674Z",
+  "generated_at": "2026-10-06T19:27:47.568013Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38615,
+            "stars": 38614,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-06T12:45:37Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34675,
+            "stars": 34674,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-02T05:44:30Z",
@@ -1042,7 +1042,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28658,
+            "stars": 28659,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-06T18:06:45Z",
@@ -1113,7 +1113,7 @@
             "stars": 4624,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T19:12:48Z",
+            "pushed_at": "2026-10-06T19:26:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3242c61",
+                  "message": "mpd: match the version in the binary for the CI tests",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-06T19:26:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/3242c61757773b78ce214e47e21eead3348cb533"
+                },
+                {
+                  "sha": "bcaee80",
+                  "message": "mpd: update to 0.24.15",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-06T19:26:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/bcaee80190a29f6cf8696f32f4b5b53e9615ca60"
+                },
+                {
+                  "sha": "1bb0691",
+                  "message": "mpd: fix the pulseaudio rpath-link guard",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-06T19:26:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/1bb0691c2e43996507e0e5d6f9293272e51f5005"
+                },
+                {
                   "sha": "990a907",
                   "message": "travelmate: minor cp fixes",
                   "author": "Dirk Brenken",
@@ -1955,27 +1976,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-05T09:01:29Z",
                   "url": "https://github.com/openwrt/packages/commit/16757d0c2af6b7e6f6f1b420a4d9de5d714b818a"
-                },
-                {
-                  "sha": "b5ec105",
-                  "message": "lua-cjson: fix Lua 5.4 module installation path",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-05T09:01:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/b5ec1052da002518c24aac92ffe6d66fa756ac92"
-                },
-                {
-                  "sha": "afb69d9",
-                  "message": "lua-eco: align module installation with Lua 5.4 search paths",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-05T09:01:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/afb69d99c7d3cfe791af68df248a4771565e01a3"
-                },
-                {
-                  "sha": "349c2ca",
-                  "message": "xz: use --enable-small only on SMALL_FLASH targets",
-                  "author": "Julius Bairaktaris",
-                  "date": "2026-10-05T07:04:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/349c2ca5c8a058b30d42c537faa4c9e94e997106"
                 }
               ]
             },
@@ -5021,7 +5021,7 @@
             "stars": 77116,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T19:20:30Z",
+            "pushed_at": "2026-10-06T19:25:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
