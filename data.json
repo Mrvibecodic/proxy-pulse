@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:19:16.287851Z",
+  "generated_at": "2026-10-06T18:24:32.672483Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4624,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T18:18:20Z",
+            "pushed_at": "2026-10-06T18:20:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3058,6 +3058,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "14dd33e",
+                  "message": "ripe-atlas: fit get_key to the installed variant",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:20:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/14dd33e8f27ff625562b4117456186217f122764"
+                },
+                {
+                  "sha": "3756b31",
+                  "message": "ripe-atlas: provide atlas-probe from ripe-atlas-probe",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:20:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/3756b31699e7bf8020956d0ba9c1560d540d1eac"
+                },
+                {
                   "sha": "655af82",
                   "message": "ripe-atlas: add get_key and probeid to init script",
                   "author": "Josef Schlehofer",
@@ -3252,26 +3266,26 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-09-30T09:34:41Z",
                   "url": "https://github.com/openwrt/packages/commit/e7437c8f6ca7893c7de397f9a79d2ad033363b0a"
-                },
-                {
-                  "sha": "85cfd92",
-                  "message": "exim: add download URL for superseded releases",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-09-30T09:34:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/85cfd92af37631c1b92ac15826b5afa7cbeb56bf"
-                },
-                {
-                  "sha": "f7d5c59",
-                  "message": "exim: update to 4.100",
-                  "author": "Daniel Golle",
-                  "date": "2026-09-30T09:34:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/f7d5c590854c6e35bdd432f212adaf4d02465233"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "835252a",
+                  "message": "ripe-atlas: fit get_key to the installed variant",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:20:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/835252a892e95797b8ab1cc79253c98e769f65f9"
+                },
+                {
+                  "sha": "cc31d1f",
+                  "message": "ripe-atlas: provide atlas-probe from ripe-atlas-probe",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:20:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/cc31d1fc4a68ae5558d13f0c4f45ea717d7a3b74"
+                },
                 {
                   "sha": "ee3df65",
                   "message": "python-setuptools: add python3-xml to python3-pkg-resources",
@@ -3467,20 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T06:01:04Z",
                   "url": "https://github.com/openwrt/packages/commit/953c2f8ae1f200934fec081965ba681af2a62c1e"
-                },
-                {
-                  "sha": "0ef6320",
-                  "message": "sudo: add test-version.sh and stop running sudo in tests",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/0ef6320345e5c30ceaf270c28f5ea55d24354338"
-                },
-                {
-                  "sha": "0b01031",
-                  "message": "imagemagick: add test-version.sh version override",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/0b010310240daacbeb4f9c86cd6549d40b163930"
                 }
               ]
             },
@@ -4559,12 +4559,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T15:28:40Z",
+            "pushed_at": "2026-10-06T18:19:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.9.30",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-10-06T18:19:56Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha 7da5dae",
               "tag": "alpha",
@@ -4573,15 +4582,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@7da5dae6502b787fc6d903863e9a6c5043d107a2\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.9.30",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-10-05T06:53:00Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5021,7 +5021,7 @@
             "stars": 77114,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T18:09:37Z",
+            "pushed_at": "2026-10-06T18:23:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c2dd05",
-            "branch": "fix/table-refresh-shadow-width",
-            "date": "2026-10-06T17:17:01Z",
-            "url": "https://github.com/grafana/grafana/commit/1c2dd05f950dc0be595ee7064cc7ad025c1b1923"
+            "sha": "07e5d93",
+            "branch": "adhoc/01-runtime-api",
+            "date": "2026-10-06T17:27:37Z",
+            "url": "https://github.com/grafana/grafana/commit/07e5d93396410d6113c4b3cbf2318b9d24b508e7"
           }
         },
         {
