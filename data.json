@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T00:56:09.645256Z",
+  "generated_at": "2026-10-06T01:01:24.652755Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5177,
+            "stars": 5178,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-09-12T15:07:11Z",
@@ -1089,10 +1089,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3797d22",
+            "sha": "7ca66eb",
             "branch": "master",
-            "date": "2026-10-04T16:58:59Z",
-            "url": "https://github.com/openwrt/openwrt/commit/3797d2292b0a04cfd4826b58f581efa7365dde3d"
+            "date": "2026-10-05T20:17:02Z",
+            "url": "https://github.com/openwrt/openwrt/commit/7ca66ebf0c4c20541ed765bb74363e3f1aa2e913"
           }
         },
         {
@@ -4550,12 +4550,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T06:52:59Z",
+            "pushed_at": "2026-10-06T01:01:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha 7da5dae",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-10-06T01:01:18Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@7da5dae6502b787fc6d903863e9a6c5043d107a2\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.9.30",
               "tag": "stable",
@@ -4564,22 +4573,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha 5121c28",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-10-05T04:41:27Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@5121c28b855c9d7f12deaeb1352116eb490754bb\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
-            "sha": "d8e994f",
+            "sha": "d4a68ff",
             "branch": "main",
-            "date": "2026-10-05T03:48:21Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/d8e994ffead3d154a907d5ce0a1ead0953230deb"
+            "date": "2026-10-06T00:56:42Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/d4a68fffe7d84e4838f1246716d9152c1e9ec402"
           }
         },
         {
@@ -5009,10 +5009,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77094,
+            "stars": 77095,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T00:45:02Z",
+            "pushed_at": "2026-10-06T00:57:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4171d44",
-            "branch": "kindstore-conversions",
-            "date": "2026-10-06T00:45:03Z",
-            "url": "https://github.com/grafana/grafana/commit/4171d44ee6f444a778f305a8c5f840de1da882a7"
+            "sha": "8c75caf",
+            "branch": "ds-shimmy",
+            "date": "2026-10-06T00:57:07Z",
+            "url": "https://github.com/grafana/grafana/commit/8c75cafb083c20b7f5c384a4ae67ecb3ccbd6267"
           }
         },
         {
