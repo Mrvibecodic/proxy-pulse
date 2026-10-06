@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:14:00.177116Z",
+  "generated_at": "2026-10-06T18:19:16.287851Z",
   "groups": [
     {
       "id": "cores",
@@ -969,7 +969,7 @@
             "stars": 56,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T20:31:17Z",
+            "pushed_at": "2026-10-06T18:14:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
@@ -1113,7 +1113,7 @@
             "stars": 4624,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T07:53:01Z",
+            "pushed_at": "2026-10-06T18:18:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "13ac2fd",
+                  "message": "ripe-atlas: fit get_key to the installed variant",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:18:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/13ac2fde6209e90a935e24c75eff2a527ff40e0f"
+                },
+                {
+                  "sha": "09bf3f2",
+                  "message": "ripe-atlas: provide atlas-probe from ripe-atlas-probe",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-06T18:18:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/09bf3f2e6bd5e99d50798379935aecbb03289708"
+                },
+                {
+                  "sha": "cd3c451",
+                  "message": "realtek-poe: increase version to v1.3.2",
+                  "author": "Martin Kennedy",
+                  "date": "2026-10-06T18:17:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/cd3c451cda1e76ea30d4bed5061df9072f77fa56"
+                },
+                {
                   "sha": "670a7b3",
                   "message": "strongswan: stage the migration in the LuCI session through ubus",
                   "author": "Hauke Mehrtens",
@@ -1955,27 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T06:55:48Z",
                   "url": "https://github.com/openwrt/packages/commit/ec41f810e00eed409fc8f51d846eef858a0904f4"
-                },
-                {
-                  "sha": "eec0050",
-                  "message": "python-pyopenssl: bump to 26.4.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:55:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/eec0050c5319142bfd9f115b4786f5ab64e5bd8c"
-                },
-                {
-                  "sha": "6d14d77",
-                  "message": "python-service-identity: bump to 26.1.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:55:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d14d771a91c1086073fdca90275bcf80cb85d8f"
-                },
-                {
-                  "sha": "ccf12c6",
-                  "message": "python-engineio: bump to 4.14.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:55:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/ccf12c6e0c4628fe10e607fce517eebc51d54f13"
                 }
               ]
             },
@@ -4188,7 +4188,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5329,
+            "stars": 5330,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-03T00:35:32Z",
