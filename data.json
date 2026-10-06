@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:48:51.537127Z",
+  "generated_at": "2026-10-06T19:54:08.160905Z",
   "groups": [
     {
       "id": "cores",
@@ -220,7 +220,7 @@
             "stars": 45,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T19:04:38Z",
+            "pushed_at": "2026-10-06T19:49:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "629f940",
+            "sha": "65e7117",
             "branch": "fix/hysteria2-udp-buffer-panic",
-            "date": "2026-10-05T11:41:57Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/629f9409d5ff8daeb1e5a97d125754275efde35f"
+            "date": "2026-10-05T12:54:24Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/65e71171fa398c95df96a2c363ca35e39eca56e7"
           }
         }
       ]
@@ -1113,7 +1113,7 @@
             "stars": 4624,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T19:26:58Z",
+            "pushed_at": "2026-10-06T19:49:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "24d2074",
+                  "message": "shunt: ignore unspecified netifd nexthop",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-06T19:49:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/24d2074662472662eb3a540b535b0cab8f7d7460"
+                },
+                {
                   "sha": "3242c61",
                   "message": "mpd: match the version in the binary for the CI tests",
                   "author": "Alexandru Ardelean",
@@ -1969,13 +1976,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-05T09:01:29Z",
                   "url": "https://github.com/openwrt/packages/commit/76ed3f94adc0f731b3c7f7af005c48e6f8ca0eea"
-                },
-                {
-                  "sha": "16757d0",
-                  "message": "lua-ffi: fix Lua 5.4 module installation path",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-05T09:01:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/16757d0c2af6b7e6f6f1b420a4d9de5d714b818a"
                 }
               ]
             },
@@ -5018,10 +5018,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77116,
+            "stars": 77113,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T19:47:05Z",
+            "pushed_at": "2026-10-06T19:51:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5086,7 +5086,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66398,
+            "stars": 66396,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-06T14:30:07Z",
@@ -5445,7 +5445,7 @@
             "stars": 84,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-10-05T16:22:55Z",
+            "pushed_at": "2026-10-06T19:53:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
