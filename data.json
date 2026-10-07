@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T13:07:46.270033Z",
+  "generated_at": "2026-10-07T13:13:02.823294Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 41972,
+            "stars": 41973,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-05T14:52:41Z",
@@ -1113,7 +1113,7 @@
             "stars": 4625,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-07T10:07:17Z",
+            "pushed_at": "2026-10-07T13:12:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "db09fc6",
+                  "message": "frr: update to 10.7.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/db09fc6eebf41ba0498c73e8c9c6df9088d79435"
+                },
+                {
+                  "sha": "850c6d3",
+                  "message": "frr: add test.sh and test-version.sh, keep libmlag_pb.so symlinks",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/850c6d3053290ea78b824eea39f039188d834143"
+                },
+                {
+                  "sha": "f1603ff",
+                  "message": "netopeer2: update to 2.8.7",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/f1603ffa9dfce433c2878cb440a8533695ae0102"
+                },
+                {
+                  "sha": "b9191b8",
+                  "message": "sysrepo: update to 5.1.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9191b85ee4faba49720506ea79e013e05a5d820"
+                },
+                {
+                  "sha": "5450e21",
+                  "message": "libnetconf2: update to 4.4.10",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/5450e21134915a7527dc5e1aa577958cf5a854a1"
+                },
+                {
+                  "sha": "48ad858",
+                  "message": "libyang: update to 5.8.6",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/48ad8589bca2dba56a4d0ebd94efe9e4d57d2578"
+                },
+                {
+                  "sha": "f1e0401",
+                  "message": "libyang-legacy: split a v3 ABI compat package from libyang",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T13:12:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/f1e040104b9fcdd15f9ab25abc822d70b287a43d"
+                },
+                {
                   "sha": "a7de9a5",
                   "message": "radicale3: bump version 3.8.2",
                   "author": "Daniel F. Dickinson",
@@ -1927,55 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-06T07:40:22Z",
                   "url": "https://github.com/openwrt/packages/commit/6c5a3c4d7845fb7e2f49313c4db8abe3439974db"
-                },
-                {
-                  "sha": "21b1fef",
-                  "message": "ripe-atlas: add get_key and probeid to init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T20:56:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/21b1fefb4172f8ce7c75ac84bfa3bd88b4c79e39"
-                },
-                {
-                  "sha": "cdcbc11",
-                  "message": "shunt: fix rpcd status call",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-05T19:19:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/cdcbc11db8a4c187087ca79358d752824d72f14a"
-                },
-                {
-                  "sha": "fa45216",
-                  "message": "shunt: update to 0.1.11",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-05T18:35:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/fa452167642442bd96f29fc7d21b01aee4c0e9e1"
-                },
-                {
-                  "sha": "0448a82",
-                  "message": "zoneinfo: update to 2026e release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-10-05T17:40:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/0448a82c2a349c5d9825f5147cad2f4f1ee72032"
-                },
-                {
-                  "sha": "6d81d44",
-                  "message": "duperemove: add new package",
-                  "author": "Keith T. Garner",
-                  "date": "2026-10-05T14:47:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d81d44935103f7c2f0e5b7239220c41a3f487da"
-                },
-                {
-                  "sha": "5a5ec84",
-                  "message": "weechat: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T13:30:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a5ec845cde715f7f2ba04865f769ede97b6e7ea"
-                },
-                {
-                  "sha": "d884296",
-                  "message": "ripe-atlas: take over maintainership",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T13:29:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/d884296e01ffcf80da458ef983e09d9d7250eb0a"
                 }
               ]
             },
@@ -4953,7 +4953,7 @@
             "stars": 26016,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T16:10:12Z",
+            "pushed_at": "2026-10-07T13:10:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -5021,7 +5021,7 @@
             "stars": 77120,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-07T13:06:06Z",
+            "pushed_at": "2026-10-07T13:12:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "865900f",
-            "branch": "cleanup-unified-migration-groups",
-            "date": "2026-10-07T09:57:33Z",
-            "url": "https://github.com/grafana/grafana/commit/865900ff5e5cea8a7d621bda0c58c01213030115"
+            "sha": "9785525",
+            "branch": "iortega/multivalue-var-apply-spec",
+            "date": "2026-10-07T08:58:07Z",
+            "url": "https://github.com/grafana/grafana/commit/978552555a468d01bd9f174b540923d64c33b0d2"
           }
         },
         {
