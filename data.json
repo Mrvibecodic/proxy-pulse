@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T01:47:55.680526Z",
+  "generated_at": "2026-10-07T01:53:12.971964Z",
   "groups": [
     {
       "id": "cores",
@@ -555,10 +555,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f13e3c5",
+            "sha": "b82ea69",
             "branch": "main",
-            "date": "2026-10-06T16:15:31Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/f13e3c554a0925264bdb4a369c67c4db6941218c"
+            "date": "2026-10-06T22:33:49Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/b82ea699de0b5d7fa130bcb2bd242515b31c2404"
           }
         },
         {
@@ -5588,6 +5588,15 @@
           },
           "releases": [
             {
+              "name": "v2.15.1",
+              "tag": "v2.15.1",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.15.1",
+              "published_at": "2026-10-07T01:48:50Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release fixes Compose path and image handling, improves backup and update reliability, and adds a setting for Signal notifications.\n\u003e It also includes fixes for remote environments, authentication, and environment navigation.\n\n### Compose and updates\n- Interpolate variables in Compose include paths (#4298) — @kmendell\n- Preserve Compose image spelling during project updates and self-updates (#4330) — @kmendell\n- Keep the selected tag during self-updates and refresh stale project update status (commit `e862615fc4e47c8bf7fbfc089254bf509d0a82c7`) — @kmendell\n\n### Environments, notifications, and authentication\n- Resolve webhook target names in remote environments (#4299) — @kmendell\n- Default `notifySelf` to `true` and add a setting for Signal notifications (#4302) — @Shraymonks\n- Prevent logout from hanging on permission errors after OIDC login (#4309) — @kmendell\n- Navigate to the selected environment on environment-scoped routes (#4320) — @kmendell\n\n### Backups and maintenance\n- Prevent system backups from failing when project files are in use (#4311) — @kmendell\n- Allow deleting backups when their S3 repository no longer exists (#4319) — @kmendell\n- Report accurate reclaimed space in scheduled pruning (#4317) — @kmendell\n- Store Francis actor state in its own SQLite database (commit `93a740597df7a6aa47d5925d9d8dc5499934af05`) — @kmendell\n- Use persistent Git storage for SSH host keys on native installs (#4300) — @kmendell\n\n### Interface and platform\n- Remove table header blur (commit `4d9bca092d6006b7265a6ce07928860b47ab84a5`) — @kmendell\n- Release `arcane-cli` only for Apple Silicon (arm64), dropping amd64 support (commit `b3acb52dd02f39e39489203ce04ab316b47de8f6`) — @kmendell\n\n### Internal changes\n- Move the Docker utils package to `go.getarcane.app/docker` (#4296) — @kmendell\n- Inline logic in project services (commit `73b43dba1e83f9a630b81e21381b533e50cdc57d`) — @kmendell\n\n"
+            },
+            {
               "name": "v2.15.0",
               "tag": "v2.15.0",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.15.0",
@@ -5622,15 +5631,6 @@
               "prerelease": false,
               "author": "kmendell",
               "body": "\u003e [!NOTE]\n\u003e This release adds richer log controls, Telegram topic destinations, bulk container updates, retained logs, and project editor preferences.\n\u003e It also improves update workflows, registry handling, UI behavior, and performance across projects, activity, and image updates.\n\n## Features\n\n- Added a stream label toggle for distinguishing STDOUT and STDERR in logs. (#3976, `4f10dee49f7a3c4b32a695cc9f05584403ea674d`) — @kmendell\n- Added Telegram topic destinations for notifications. (#3978, `e47164421a22b8a9f12714a923be566889d2cbe1`) — @kmendell\n- Added a timestamp toggle to the log viewer controls. (#3979, `9fa57c867b1085a7142d7e755f87ddd9318b1a1d`) — @kmendell\n- Added personal defaults for the project editor layout. (#3986, `67b34b9c032d8f56379ed60322839d39dc5af855`) — @kmendell\n- Added bulk updates for selected containers. (#3971, `0365c6861d50ef5fc5aaf7f816e370955eadc398`) — @mewajda\n- Added retained log viewing for stopped projects. (#4097, `b350d394cd19027e90bb8dd581474de54745c434`) — @kmendell\n\n## Fixes and UI improvements\n\n- Nested Compose services and networks under their respective sections in the outline. (#3985, `f4573188664d88d6d3a8ac0427c34611211dcb72`) — @angst911\n- Let the backend generate run IDs for manually submitted jobs. (#3987, `af96a6e99b3fdc0b64cd8b26552e624be7732e54`) — @kmendell\n- Added a separate tag-listing timeout for large registries. (#3990, `5262d2f33af966b856a10b8572c061bf7ba8fc18`) — @kmendell\n- Updated the sidebar update item. (#4003, `476d8b17fc4f695e90a2758740fa77acf8ab42aa`) — @kmendell\n- Sorted containers globally by live CPU and memory usage. (#4099, `18e4e3f5b1b2d8abf3999008cf3a0934bae6d4f3`) — @kmendell\n- Surfaced Update All startup errors and adopted already-running jobs. (#4104, `dc89ea0b1920f4f2d6eefb92f2cafb9b528822ca`) — @kmendell\n- Sorted network subnet and gateway columns numerically. (#4119, `324adf3585ece4ecd1f4f3317875521398028ea7`) — @kmendell\n- Prevented header actions from overlapping badges and added per-device layout modes. (#4121, `9454ce57db6763263e4628cc58a4c2e1c169183d`) — @kmendell\n- Included container image references in update discovery. (#4126, `e0357ec8468fadb8a8daba7804ec20594092d3b0`) — @kmendell\n- Displayed project-scoped versions instead of image digests. (#4127, `ddead64b8b96e0929a0e79acd8d1a4f350e2f5a3`) — @kmendell\n\n## Performance\n\n- Skipped repeated per-message visibility reads and source lookups on the local activity stream. (#4105, `423cd549b74271f8a4b3992cf04e5920d6a06dc5`) — @kmendell\n- Resolved GitOps Compose paths once per project list request. (#4106, `f5d6f37dba1c9cab72271d6e9d183cbe1f7fd79e`) — @kmendell\n- Enriched filtered project lists after pagination. (#4108, `92349aa97949e54ee2409a1c4a3c35758df60e8a`) — @kmendell\n- Deduplicated and parallelized container tag checks. (#4109, `57812f8f0511e9f2d3f6b6fa17242da6db98d592`) — @kmendell\n- Replaced repeated update-record scans with indexed lookups. (#4110, `109f22402d059167b079f735b19b72e4029ca4ef`) — @kmendell\n\n"
-            },
-            {
-              "name": "v2.12.0",
-              "tag": "v2.12.0",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.12.0",
-              "published_at": "2026-09-16T01:19:15Z",
-              "prerelease": false,
-              "author": "kmendell",
-              "body": "\u003e [!NOTE]\n\u003e This release adds more flexible Git-based backups, improved vulnerability scanning, and expanded container and network visibility. It also fixes several authentication, permissions, deployment, and agent-related issues.\n\n## Backups and Git sync\n\n- Added **Back up to Git** sync mode and the ability to link existing projects to syncs — `dadf87f93d9214dcd741c7ed503dfbf504c9df54` (#3932) (@kmendell)\n- Added configurable Git identity for pushes — `372f168940702645d63d34d0d6d80b742a7cb8da` (#3935) (@kmendell)\n- Added an explicit environment-backup switch with a warning for project backups — `9ba395d5272ee5a3506682e61b9d1e06c4752f16` (#3937) (@kmendell)\n- Added support for binary files in Git backups and reused the editor file tree in the sync dialog — `b80880fab4146572c02f071126d44751391031b9` (#3946) (@kmendell)\n- Preserved pre-deploy hooks and deployment options when importing GitOps syncs — `da22a65fac881f7b6ff6048bae91399608d2eeab` (#3952) (@kmendell)\n- Added S3 backup discovery and re-keyed volume backups to the recovery key — `02208f5cd24e028dfb0e2221305febbf3ee58837` (#3885) (@neurekadev)\n\n## Security and vulnerability scanning\n\n- Added CSV export to the security vulnerabilities table — `af5538dde929bcc0e94053fd9ad4f3d263820da7` (#3936) (@kmendell)\n- Added a **Fix available** filter to the security vulnerabilities table — `bf48ce6eebebca249607b02dcebb7df37079ab90` (#3944) (@kmendell)\n- Added vulnerability-count sorting to the images table — `9f89ceefbfcd6dd16581cf520b40d4b201d41801` (#3945) (@kmendell)\n- Added Trivy configuration and ignore-file settings for vulnerability scans — `eff16eb5688e981b36847f55995d92990d02d30c` (#3949) (@kmendell)\n- Added support for decimal CPU limits in Trivy scans — `02225a2d03529ef14ec7e4009f6f4b746feca2b6` (#3972) (@kmendell)\n\n## Containers and networks\n\n- Added subnet and gateway columns to the networks table — `146b4b9658d163c1290453203172b3cd286bdf3f` (#3942) (@kmendell)\n- Added IPv6 addresses for containers and network members — `8345e5669ac2580a0b67385fbb9868ab6468e97e` (#3957) (@kmendell)\n- Added optional IP ranges when creating networks — `38d3ed8c19faea20e4d9457395519196f074ce6a` (#3959) (@kmendell)\n- Linked container overview volume and network counts to their respective tabs — `f9988528d1a94e3440d2d295bfcd1c658aff1798` (#3958) (@kmendell)\n- Added support for downloading container logs — `9a83c5ac02944dc72c3fc4a39691eb8a1a832403` (#3960) (@kmendell)\n\n## Interface and settings\n\n- Added Shift-select range support to selectable tables — `472b01f5855c642afe192be448fe6339f6a6f74c` (#3943) (@kmendell)\n- Clarified ntfy token authentication, required Matrix credentials, and cleaned up test menu labels — `e68ab5ab4b8e3df7528b6f365846c383a49d381e` (#3951) (@kmendell)\n- Updated theme colors and added support for inheriting theme colors — `eee8a84bd5d467ca5f1f6dac4ca20768a377dcf4` (#3965) (@kmendell)\n\n## Authentication, permissions, and reliability\n\n- Surfaced OIDC and settings errors, allowed clearing the OIDC secret, and required it while OIDC is enabled — `70cf8a2596d32f2fd84685e5827bc79f95e2a3b7` (#3954) (@kmendell)\n- Hid the Automations tab and stopped job polling without `jobs:manage` permission — `94d6d79d533cd941d46d2cacaba391167d570c96` (#3963) (@kmendell)\n- Updated the legacy `users.roles` backfill to run only once — `a4ae1a0f20463c7dc018f7bae4996e3cab2e34ac` (#3964) (@kmendell)\n\n## Agents and edge tunnel\n\n- Fixed Docker snippets to use the port number from the agent address input — `2c34ade39db5f8686f73e7f76bb8df691f39cebc` (#3955) (@tinkrynite)\n- Added missing job commands to the edge tunnel — `6af4589a12376f7fe40a9f1d8778fbbe6e5afbf4` (@kmendell)\n\n"
             }
           ],
           "last_commit": {
