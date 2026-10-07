@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T06:31:56.500353Z",
+  "generated_at": "2026-10-07T06:37:11.752947Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38627,
+            "stars": 38628,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-06T12:45:37Z",
@@ -1113,7 +1113,7 @@
             "stars": 4624,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-06T19:49:25Z",
+            "pushed_at": "2026-10-07T06:36:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b931f93",
+                  "message": "xz: drop relative-pkg-config-paths patch for a SED",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T06:36:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/b931f9376a3ae368671ce61ece61ffa868d0da9c"
+                },
+                {
+                  "sha": "f6e2e28",
+                  "message": "miniupnpd: add test script",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T06:35:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/f6e2e2815ab4c978a4804c0cfbc798b4b99b8569"
+                },
+                {
+                  "sha": "983e263",
+                  "message": "miniupnpd: update to 2.3.11",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T06:35:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/983e2638683bc313cc8333c3ca4c7b89a953dff4"
+                },
+                {
+                  "sha": "1340fb4",
+                  "message": "radsecproxy: update to 1.11.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T06:35:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/1340fb4ca16cc34aa3c9a8fcab7c79cb75ad849a"
+                },
+                {
+                  "sha": "d679df4",
+                  "message": "privoxy: update to 4.2.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-07T06:35:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/d679df409aa812f7c8804d8ff83fff5f5a88b23e"
+                },
+                {
                   "sha": "24d2074",
                   "message": "shunt: ignore unspecified netifd nexthop",
                   "author": "Dirk Brenken",
@@ -1941,41 +1976,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T13:29:39Z",
                   "url": "https://github.com/openwrt/packages/commit/7ddb6d130c5ad881ae7f543ea5e5bafeecab39e1"
-                },
-                {
-                  "sha": "e610dc7",
-                  "message": "ripe-atlas: fix the init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T13:29:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/e610dc7556d257b983763f2684afc1498a9a30f3"
-                },
-                {
-                  "sha": "f626f9c",
-                  "message": "mwan3: strip dead flag from copied routes",
-                  "author": "Gleb Pesin",
-                  "date": "2026-10-05T09:19:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/f626f9c5025b118c069a3b867c6443b65f3cb462"
-                },
-                {
-                  "sha": "ab97fca",
-                  "message": "modemmanager: rework initial EPS bearer modes",
-                  "author": "Michael Pfeifroth",
-                  "date": "2026-10-05T09:12:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/ab97fcad725008830ed067dea07f64a0eeb56715"
-                },
-                {
-                  "sha": "3f87f7a",
-                  "message": "luaossl: fix Lua 5.4 module installation paths",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-05T09:01:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/3f87f7ae8341e5f84478facbd3fc62b243ef8732"
-                },
-                {
-                  "sha": "76ed3f9",
-                  "message": "cqueues: fix Lua 5.4 module installation paths",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-05T09:01:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/76ed3f94adc0f731b3c7f7af005c48e6f8ca0eea"
                 }
               ]
             },
@@ -4882,7 +4882,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92172,
+            "stars": 92173,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-07T00:07:07Z",
@@ -5021,7 +5021,7 @@
             "stars": 77120,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-07T06:24:53Z",
+            "pushed_at": "2026-10-07T06:33:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "461315a",
-            "branch": "jdb/2026-10-deploy-preview-smoke-test",
-            "date": "2026-10-06T08:44:02Z",
-            "url": "https://github.com/grafana/grafana/commit/461315aff9c5009a4ace62925146d03261a301e3"
+            "sha": "13d7ae5",
+            "branch": "ferruvich/investigate-issue-1352",
+            "date": "2026-10-06T09:13:57Z",
+            "url": "https://github.com/grafana/grafana/commit/13d7ae533312e143f2e267a85ad75a7fdf28fe61"
           }
         },
         {
