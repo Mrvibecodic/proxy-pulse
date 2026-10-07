@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T23:57:23.741039Z",
+  "generated_at": "2026-10-07T00:02:39.555661Z",
   "groups": [
     {
       "id": "cores",
@@ -227,6 +227,15 @@
           },
           "releases": [
             {
+              "name": "Xray-core v26.10.6-2241",
+              "tag": "v26.10.6-2241",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.10.6-2241",
+              "published_at": "2026-10-06T23:58:27Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- One stalled client can no longer hang a Mux.Cool server's shutdown. If a client stopped reading while an XUDP response was being written to it, closing its mux connection, and with it the whole mux server, could wait as long as that client kept the connection open.\n\nThis release is v26.10.5-1858 plus that fix; see [v26.10.5-1858](https://github.com/Jolymmiles/Xray-core/releases/tag/v26.10.5-1858) for the upstream sync and the other fork fixes.\n\n## Fork fixes\n\n- **XUDP response shutdown (Mux.Cool).** Closing a Mux.Cool connection waited for any XUDP response write already under way. A VLESS inbound's link writer cannot be interrupted, so when the client stopped reading, that write ended only when the connection closed. The inbound, however, closes the connection only after the mux worker has finished, so the wait was circular and lasted as long as the client kept its TCP window at zero. Every worker shares one XUDP runtime, which `Server.Close` shuts down, so the same write also held the shutdown or reload of the whole mux server.\n  - Closing now releases the queued responses and no longer waits for a write already under way; that write fails once the connection closes.\n  - A response not yet being written when closing starts is released unsent.\n  - The XHTTP Mux.Cool KeepAlive in v26.10.5-1858 follows the same rule (#18 and #20).\n- **Process-test port allocation (test-only).** The process tests got their listener ports from the kernel's automatic source-port range. An outbound connection could take such a port before Xray or a client bound it, so release-gate runs failed intermittently with `bind: address already in use`; this hit the VLESS and XHTTP Mux.Cool gates for this release. One allocator now hands out ports outside that range, starts at a random offset, checks that the needed transports can bind, and never hands out a port twice. It also fixes a helper that returned the same port on two consecutive calls (#21, #22). Shipped binaries are unaffected.\n\n## Upstream changes\n\nNo new upstream changes; upstream/main is still `7da5dae6`, as in v26.10.5-1858.\n\n## Compatibility notes\n\n- No wire format or configuration changes. VLESS, Trojan, REALITY, Vision, SMUX and Mux.Cool bytes are unchanged.\n- An XUDP response write that started before shutdown may still complete or fail after the mux worker reports closed. Session End frames and KeepAlive frames already behaved this way.\n- Release assets are built with Go 1.27.1 and `-tags http2legacy`, as in v26.10.5-1858. The compatibility notes of that release still apply.\n- The REALITY version bytes are now 26.10.6. The HHMM stamp is display-only.\n\n## Validation\n\nAll local gates ran on Linux/amd64 with Go 1.27.1 and `GOFLAGS=-tags=http2legacy`.\n\n- **Regression tests.** The new tests drive the production VLESS writer chain: a `PrefixWriter` over a `net.Pipe` whose peer never reads, in synctest. Each failed before the fix:\n  - `TestResponseSinkCloseDoesNotWaitForStuckWrite`\n  - `TestRuntimeCloseDoesNotWaitForStuckResponseWrite`\n  - `TestServerWorkerCloseDoesNotWaitForStuckXUDPResponse`\n- **Pull-request gates (#20):**\n  - race on `./common/mux/...` three times, and the XUDP tests 30 times;\n  - the XUDP, legacy-mux and reverse version-skew gates, 9/9.\n- **Release commit `86135d2a`, local gates:**\n  - vformat, protobuf-header check, `go vet ./...`, `go test ./...`;\n  - race and checkptr;\n  - version test (`26.10.6-2241`).\n- **Process interoperability.** An Xray server on the release commit was tested with Xray, sing-box and Mihomo clients:\n  - VLESS TCP TLS/REALITY × no-flow/Vision 36/36 (three runs);\n  - SMUX 24/24 and H2MUX 24/24;\n  - Hysteria 3/3, plus Mux.Cool over Hysteria with carrier teardown;\n  - Mux.Cool over XHTTP 6/6.\n- **[Pre-release Validation](https://github.com/Jolymmiles/Xray-core/actions/runs/37542795103)** passed on `86135d2a`: 529 tests passed, none failed. It covers:\n  - repository-wide unit, race and checkptr;\n  - the SMUX and H2MUX matrices, three runs each;\n  - stress, reconnect and hardening profiles;\n  - the direct, legacy-mux, XUDP, reverse and WireGuard version-skew gates;\n  - the candidate-versus-v26.8.25-1457 performance and resource budgets, three runs;\n  - the RemnaNode configuration contract;\n  - a 30-minute mixed-path soak, 67 cycles.\n- **[Tests and Checkings](https://github.com/Jolymmiles/Xray-core/actions/runs/37542794602)** passed on the same commit.\n- **Release-flag Linux/amd64 build:** static, `-tags=http2legacy`, `GOAMD64=v1`, `CGO_ENABLED=0`, `-trimpath`.\n- **Code review.** Review bots reviewed #20, #21 and #22. Every finding was either fixed with a test (the port-check findings in #22) or answered with a written reason in the pull request (the late-write window in #20).\n- These results are correctness and compatibility evidence. No performance improvement or traffic-camouflage gain is claimed.\n"
+            },
+            {
               "name": "Xray-core v26.10.5-1858",
               "tag": "v26.10.5-1858",
               "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.10.5-1858",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\n- Added an opt-in per-inbound H2MUX `h2muxMaxReadFrameSize` setting. It controls the HTTP/2 `SETTINGS_MAX_FRAME_SIZE` advertised to H2MUX clients, allowing memory-constrained clients to reduce per-stream upload buffers without changing existing deployments by default.\n- Hardened VLESS Vision carrier resolution so inbound and outbound direct-copy decisions share one fail-closed classification of recognized TLS, uTLS, REALITY, and VLESS-encryption carriers.\n\n## Fork fixes\n\n- Kept the H2MUX frame-size setting isolated per inbound and restricted its consumer to the H2MUX server path. Ordinary SMUX framing and behavior remain unchanged. Invalid nonzero values outside `16384..16777215` are rejected; omission or `0` keeps the Go HTTP/2 default of 1 MiB.\n- Refactored TLS session resumption into a dedicated module while preserving fingerprint fidelity. Session caches remain isolated by configured TLS context and impersonated fingerprint, with bounded cache ownership and regression coverage.\n\n## Upstream changes\n\n- Merged upstream through `cd4ce973` (`WebSocket client: Avoid panic before real dialing in delayDialConn (#6544)`).\n- Closed Shadowsocks 2022 server connections on outbound early-return paths.\n- Fixed a potential HTTP inbound panic while handling `100 Continue`.\n- Included the Linux custom-sockopt formatting correction.\n\n## Compatibility notes\n\n- `smux.h2muxMaxReadFrameSize` affects only H2MUX carriers accepted by that inbound. Ordinary SMUX continues to use its in-tree SMUX v1 framing with a 32 KiB emitted data-frame size.\n- Existing configurations are unchanged when the new H2MUX setting is omitted or set to `0`.\n- REALITY client-version bounds remain operator-configurable with no implicit minimum.\n- Official release artifacts are limited to Linux amd64 and Linux arm64.\n\n## Validation\n\n- GitHub `Tests and Checkings` passed on the stamped release commit, including formatting, protobuf-header, asset, and full Go test jobs.\n- Targeted unit, race, strict checkptr, and `go vet` gates passed for TLS, REALITY, VLESS, SMUX/H2MUX, mux, proxyman, HTTP, Shadowsocks 2022, and WebSocket paths.\n- The VLESS TLS/REALITY no-flow/Vision process matrix passed 36/36 executions across Xray, sing-box, and Mihomo.\n- The SMUX and H2MUX interoperability matrices each passed 40/40 scenarios. The peak reconnect profile passed 24/24 cycles, and the bounded hardening profile passed 400/400 cycles with zero loopback health-counter deltas.\n- Clean release-style Linux/amd64 and Linux/arm64 builds succeeded with Go 1.27.0. Performance comparisons ran as harness diagnostics only; native-host release budgets were not asserted.\n"
-            },
-            {
-              "name": "Xray-core v26.8.30-2253",
-              "tag": "v26.8.30-2253",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.8.30-2253",
-              "published_at": "2026-08-30T23:04:10Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\n- Synced the fork with upstream `5e245b08` and stamped the release as `26.8.30-2253` UTC.\n- Added QUIC v2 ClientHello sniffing while preserving strict QUIC Retry rejection.\n- Updated Hysteria transport behavior through the upstream 2.12.2 integration, including safer masquerade proxy handling and optional stateless-reset suppression.\n- Added FreeBSD TUN automatic routing-table and outbound-interface support.\n\n## Fork fixes\n\n- Preserved the fork's protobuf field numbers for existing QUIC and Hysteria settings, avoiding wire-incompatible renumbering during the upstream merge.\n- Preserved hardened Hysteria, XHTTP, Realm port-mapping, physical-peer provenance, cleanup, and shared TLS-config ownership behavior.\n- Kept QUIC Retry packets fail-closed instead of treating truncated Retry framing as incomplete Initial data.\n- Regenerated protobuf outputs with `protoc-gen-go v1.36.11` and `protoc v6.33.5`.\n\n## Upstream changes\n\n- Hysteria: upgraded the official integration to 2.12.2.\n- Transport: bind UDP outbound sockets in the destination address family.\n- TUN: support `autoSystemRoutingTable` and `autoOutboundsInterface` on FreeBSD.\n- Sniffing: support QUIC v2 Initial packets.\n- Routing: export `HealthCheckSettings`.\n\n## Compatibility notes\n\n- REALITY `minClientVer` and `maxClientVer` remain operator-controlled with no implicit minimum when omitted.\n- SMUX continues to use the maintained in-tree `common/singmux` implementation.\n- Existing serialized QUIC and Hysteria configuration field numbers remain stable. The new `disableStatelessReset` setting is additive.\n\n## Validation\n\n- Targeted unit tests for QUIC, Hysteria, XHTTP, Realm, TUN, transport configuration, VLESS, and REALITY passed.\n- Race, checkptr, vet, protobuf-header, formatting, SMUX unit/race, and SMUX coverage gates passed.\n- VLESS TCP TLS/REALITY interoperability passed 36/36 executions across Xray, sing-box 1.13.21, and Mihomo Meta 1.19.30.\n- SMUX process interoperability passed all 40 Xray/sing-box/Mihomo VLESS/Trojan TCP/UDP/padding cells.\n- Linux/amd64 static release build passed with Go 1.27.0 and `GOAMD64=v1`.\n- Clean-tree GitHub Tests and Checkings passed for both `main` and the release tag; the release matrix and multi-architecture container publication also completed successfully.\n"
             }
           ],
           "last_commit": {
@@ -4938,10 +4938,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2a4d763",
-            "branch": "master",
-            "date": "2026-10-05T15:36:50Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/2a4d7635a9146bd26abbeeef41e6fd833c615e92"
+            "sha": "0c137af",
+            "branch": "dev-apprise",
+            "date": "2026-10-05T15:20:31Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/0c137af3745721b7ccdd839ff851956e718f0369"
           }
         },
         {
@@ -5021,7 +5021,7 @@
             "stars": 77118,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-06T23:54:22Z",
+            "pushed_at": "2026-10-07T00:02:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
