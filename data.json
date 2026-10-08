@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T05:28:24.066355Z",
+  "generated_at": "2026-10-08T05:33:39.435532Z",
   "groups": [
     {
       "id": "cores",
@@ -1045,7 +1045,7 @@
             "stars": 28669,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T00:12:47Z",
+            "pushed_at": "2026-10-08T05:28:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1113,7 +1113,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-08T05:19:51Z",
+            "pushed_at": "2026-10-08T05:31:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a16d101",
+                  "message": "telldus-mqtt: update to 0.4.1",
+                  "author": "Peter Liedholm",
+                  "date": "2026-10-08T05:31:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/a16d10144dd3f854a57d9a512dfa84f990b45d65"
+                },
+                {
+                  "sha": "9ab876e",
+                  "message": "telldus-core: keep library symlinks",
+                  "author": "Peter Liedholm",
+                  "date": "2026-10-08T05:31:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ab876ed068cce98bf94e7edd53dca219b5d07e1"
+                },
+                {
                   "sha": "457a7cd",
                   "message": "tor: update to 0.4.9.13 stable",
                   "author": "Rui Salvaterra",
@@ -1962,20 +1976,6 @@
                   "author": "Mirko Vogt",
                   "date": "2026-10-06T07:40:22Z",
                   "url": "https://github.com/openwrt/packages/commit/fe3a5347184e6521958ef5ba0e031f33a3160a96"
-                },
-                {
-                  "sha": "1272316",
-                  "message": "libinput: disable Lua plugin support explicitly",
-                  "author": "Mirko Vogt",
-                  "date": "2026-10-06T07:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/12723165f0e16fbf9fe419ec54e7b1a4b2b8bd11"
-                },
-                {
-                  "sha": "5432f90",
-                  "message": "lua: drop the lua5.4 LUA_ROOT patch",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-06T07:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/5432f90a1fb21385bda69a27e3712546bd6d9053"
                 }
               ]
             },
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3468039",
-            "branch": "main",
-            "date": "2026-10-07T16:11:22Z",
-            "url": "https://github.com/grafana/grafana/commit/34680390b5f0dcbc3dbae49e7a5d006a52e103fb"
+            "sha": "4bb709a",
+            "branch": "russ/kg-native-lbac-st-review",
+            "date": "2026-10-07T15:46:26Z",
+            "url": "https://github.com/grafana/grafana/commit/4bb709a8c9eb7919ec2fe22c558da17ad021d30e"
           }
         },
         {
@@ -5210,10 +5210,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6da35d8",
+            "sha": "530bdeb",
             "branch": "master",
-            "date": "2026-10-07T13:36:39Z",
-            "url": "https://github.com/netdata/netdata/commit/6da35d82688a946272e8ed0876de3738e9fff95d"
+            "date": "2026-10-07T13:43:22Z",
+            "url": "https://github.com/netdata/netdata/commit/530bdebb9bf9fffe60c856ddd594311fc9538d2c"
           }
         },
         {
