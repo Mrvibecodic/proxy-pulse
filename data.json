@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:15:31.093137Z",
+  "generated_at": "2026-10-08T12:20:51.560929Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T10:16:40Z",
+            "pushed_at": "2026-10-08T12:20:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- The DNS page stores only what differs from the subscription; everything else always comes from the fresh subscription. \"As in subscription\" resets the page; an existing page is converted on the first start\n- Merge and script chains may now change `tun` and `dns` keys the app does not own itself; keys the app manages are dropped with a one-time notice per set\n- macOS: switching the primary network service (Wi-Fi ↔ cable) re-applies the system proxy within a second\n- The \"next update\" hint shows the real time of the next attempt, including retries\n\n### Changed\n\n- A config the core rejects at startup is no longer replaced by an empty default: the core does not start and the reason is shown; the first accepted config (profile switch, subscription update, TUN toggle, merge/script save) lifts it. If the check itself could not run, the core starts and judges the config itself\n- A subscription is checked by the core before it is written to disk; the previous file is kept as `.prev`\n- A failed scheduled subscription update is retried from 15 min up to 5 h; a subscription the core rejected waits for the regular time; one toast per series\n- One update per subscription at a time; scheduled downloads run at most three in parallel\n- With TUN on, no rights and no service, the core starts right away without TUN instead of waiting; TUN returns by itself once the service appears\n- Old installs: the connection method written by the previous template is cleared once, so `clod-connect-mode` from the subscription applies\n- Tauri 2.12: tray icon click on macOS 26/27\n- Managed core check compares with the last downloaded managed core while Clod Core is running; re-downloading the same version only switches to it\n- Core version line without the \"Mihomo\" suffix; core switch toast without the slot name\n\n### Fixed\n\n- Mode switch from the tray or hotkey while a config is being applied waits up to 3 s instead of racing it\n- A latency test URL that is not valid is highlighted and blocks saving the \"Misc\" dialog until fixed\n- Windows: window subscriptions are closed before the core stops at session end\n- Release notes in the update dialog are sanitized\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Страница DNS хранит только отличия от подписки; остальное всегда берётся из свежей подписки. «Как в подписке» сбрасывает страницу; старая страница переводится при первом запуске\n- Цепочки merge и script теперь могут менять ключи `tun` и `dns`, которыми приложение само не владеет; записи в ключи приложения отбрасываются с уведомлением один раз на набор\n- macOS: смена первичной сетевой службы (Wi-Fi ↔ кабель) переприменяет системный прокси в течение секунды\n- Подсказка «следующее обновление» показывает реальный срок следующей попытки, с учётом повторов\n\n### Изменено\n\n- Конфиг, отвергнутый ядром при запуске, больше не подменяется пустым умолчанием: ядро не запускается, причина показывается; первый принятый конфиг (смена профиля, обновление подписки, тумблер TUN, сохранение merge/script) снимает отказ. Если сама проверка не запустилась, ядро стартует и судит конфиг само\n- Подписка проверяется ядром до записи на диск; прежний файл сохраняется как `.prev`\n- Неудачное плановое обновление подписки повторяется с паузой от 15 мин до 5 ч; отвергнутая ядром подписка ждёт обычного срока; один тост на серию\n- Одно обновление подписки за раз; плановых загрузок — не больше трёх параллельно\n- При включённом TUN без прав и без службы ядро стартует сразу без TUN, а не ждёт; TUN возвращается сам, когда появится служба\n- Старые установки: способ подключения, записанный прежним шаблоном, снимается один раз, чтобы действовал `clod-connect-mode` из подписки\n- Tauri 2.12: клик по значку в трее на macOS 26/27\n- Проверка управляемого ядра при работающем Clod Core сравнивает с последним скачанным управляемым ядром; повторная загрузка той же версии только переключает на него\n- Строка версии ядра без подписи «Mihomo»; тост смены ядра без имени слота\n\n### Исправлено\n\n- Смена режима из трея или горячей клавишей во время применения конфига ждёт до 3 с, а не соревнуется с ним\n- Негодный адрес проверки задержки подсвечивается и не даёт сохранить диалог «Разное», пока не исправлен\n- Windows: подписки окна закрываются до остановки ядра при завершении сеанса\n- Примечания к выпуску в диалоге обновления проходят очистку"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11-alpha.4",
-              "tag": "clod-v0.1.11-alpha.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11-alpha.4",
-              "published_at": "2026-09-27T09:41:03Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Second built-in core: Clod Core (our Mihomo fork with patches) next to stock Mihomo; both are in the \"Clash core\" window\n- The core \"Update\" button asks the core itself to upgrade, each from its own source (Mihomo from MetaCubeX, Clod Core from clod-core releases)\n- MIPS TUN stack in the \"TUN mode\" dialog and from the subscription template\n- A subscription is reloaded shortly after its expiry date from the panel, so stubs or a renewal show up at once; a failed reload is retried from 15 min up to 5 h\n\n### Changed\n\n- \"Auto\" TUN stack without a stack in the subscription now means gVisor; an unknown stack value in the template is dropped instead of breaking the profile\n- Picking a core turns the managed core off, so the chosen core always runs\n- The core \"Update\" button works under the service always, and without the service only where the core folder is writable and not on Windows; otherwise it shows a hint\n- The \"Clod\" channel of the managed core is removed (replaced by the built-in Clod Core)\n- New installs no longer store the default connection method as a user choice, so `clod-connect-mode` from the subscription applies\n- Simpler README and documentation, Clod Core described\n\n### Fixed\n\n- The support report names the running core (Mihomo / Clod Core), says \"not running\" when it is stopped and counts the connection method the same way as the button\n- Subscription update queue is re-armed by the wall clock after sleep\n- The \"General\" group hint no longer promises notifications\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Второе встроенное ядро — Clod Core (наш форк Mihomo с патчами) рядом со стоковым Mihomo; оба в окне «Ядро Clash»\n- Кнопка «Обновить» у ядра просит само ядро обновиться, каждое из своего источника (Mihomo — MetaCubeX, Clod Core — релизы clod-core)\n- Стек TUN MIPS в диалоге «Режим TUN» и из шаблона подписки\n- Подписка загружается заново вскоре после истечения срока из панели — заглушки или продление видны сразу; неудача повторяется с паузой от 15 мин до 5 ч\n\n### Изменено\n\n- «Авто» без стека в подписке теперь означает gVisor; незнакомый стек в шаблоне отбрасывается, а не ломает профиль\n- Выбор ядра выключает управляемое ядро — выбранное запускается всегда\n- Кнопка «Обновить» у ядра работает под службой всегда, без службы — только если папка ядра доступна на запись и не на Windows; иначе показывает подсказку\n- Канал «Clod» у управляемого ядра убран (его заменило встроенное Clod Core)\n- Новые установки не записывают способ подключения по умолчанию как выбор пользователя — `clod-connect-mode` из подписки действует\n- Проще README и документация, описано Clod Core\n\n### Исправлено\n\n- Отчёт для поддержки называет работающее ядро (Mihomo / Clod Core), при остановленном пишет «не запущено» и считает способ подключения так же, как кнопка\n- Очередь обновления подписок после сна перевзводится по настенным часам\n- Подсказка группы «Основные» больше не обещает уведомления"
             }
           ],
           "last_commit": {
@@ -5018,10 +5009,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77141,
+            "stars": 77140,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T12:14:43Z",
+            "pushed_at": "2026-10-08T12:17:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "60593ec",
-            "branch": "papagian/setting-nats-watch",
-            "date": "2026-10-08T12:14:44Z",
-            "url": "https://github.com/grafana/grafana/commit/60593ecbe2352ab8f313f020f5e6f9f638f30711"
+            "sha": "83f0042",
+            "branch": "codex/datasource-proxy-mt",
+            "date": "2026-10-07T08:18:13Z",
+            "url": "https://github.com/grafana/grafana/commit/83f0042bae66781a9888ba30240f211e8aa8c7ba"
           }
         },
         {
@@ -5142,10 +5133,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0413a18",
-            "branch": "deps-update/github.com-vultr-govultr-v3-3.x",
-            "date": "2026-10-07T19:04:20Z",
-            "url": "https://github.com/prometheus/prometheus/commit/0413a187feb6cef3a21852bdf6ad49d4c6aa809b"
+            "sha": "3abd048",
+            "branch": "main",
+            "date": "2026-10-07T08:16:10Z",
+            "url": "https://github.com/prometheus/prometheus/commit/3abd048b685ef47889706be2e446fb2e4552c1f5"
           }
         },
         {
@@ -5578,7 +5569,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7776,
+            "stars": 7777,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-08T04:14:23Z",
