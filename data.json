@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:47:14.801551Z",
+  "generated_at": "2026-10-08T12:52:31.617839Z",
   "groups": [
     {
       "id": "cores",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.12-alpha.2",
+              "tag": "clod-v0.1.12-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.2",
+              "published_at": "2026-10-08T12:48:14Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Secure connection to the subscription: a new subscription first tries the provider's secure channel and shows what is going on while it is checked; if the provider has no such channel, the subscription is added the usual way. The channel can be turned on or off later in the subscription settings (turning it off shows a warning), and the key fingerprint is shown there the same way the provider's panel shows it\n- Subscription menu: \"Subscription page\", \"Select\", \"Update\" and \"Update via proxy\" at the top, the rest under \"Advanced\"\n- Servers carry separate badges for protocol, transport and security; the UDP and XUDP marks are gone\n- Privacy policy (PRIVACY_POLICY.md, in English and Russian)\n\n### Changed\n\n- The window follows the core's actual state — the node a group uses, groups and latencies — within a second while it is visible\n- Home: a green timer instead of \"Connected\"; the caption is moved away from the button; \"Network\" and \"Expires\" tiles no longer rise on hover; no auto-pings while the connection is off or the window is minimized\n- Proxies page: the letter bar is removed, group icons live in the \"More\" menu, the star is shown after the latency and the server description on the tile\n- DNS override dialog: tabs, one header line and clearer labels; Hosts and domain policies accept a line break as a separator, not only a comma\n- After sleep the tunnel is re-created only if it really stopped working\n- Subscriptions download more reliably; adding a subscription and turning on the secure connection do not give up on temporary server failures; the secure connection works with a wrong computer clock\n- Traffic volume is shown with a space before the unit everywhere\n- Config editor knows the TUN stack mips\n\n### Fixed\n\n- Node selection is restored after any core start\n- Reselecting the same node no longer drops connections\n- The tray learns about a node selection made in the window\n- The secure connection switch no longer resets itself during a subscription update; the provider's name and data are no longer garbled\n- The subscription address no longer gets into the error log\n- The refill date on the Home page is no longer converted twice\n- WebDAV dialog: the password is no longer kept in the window settings, the dialog is not reachable from the keyboard while checking; custom CORS sources are not lost\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Защищённое подключение к подписке: новая подписка сначала пробует защищённый канал провайдера и показывает ход проверки; если канала у провайдера нет, подписка добавляется обычным путём. Канал можно потом включить или выключить в настройках подписки (при выключении — предупреждение), там же показан отпечаток ключа в том же виде, что и в панели провайдера\n- Меню подписки: сверху «Страница подписки», «Выбрать», «Обновить», «Обновить через прокси», остальное в «Продвинутых»\n- У серверов отдельные плашки протокола, транспорта и защиты; пометки UDP и XUDP убраны\n- Политика конфиденциальности (PRIVACY_POLICY.md, на русском и английском)\n\n### Изменено\n\n- Окно отражает фактическое состояние ядра — узел группы, группы и задержки — в пределах секунды, пока оно видно\n- Главная: зелёный таймер вместо «Подключено»; подпись отодвинута от кнопки; плитки «Сеть» и «Срок» не поднимаются при наведении; без автопингов, пока подключение выключено или окно свёрнуто\n- Экран «Прокси»: полоса букв убрана, значки группы в меню «Дополнительно», звёздочка показана за пингом, описание сервера — на плитке\n- Окно переопределения DNS: вкладки, одна строка шапки и понятные подписи; записи Hosts и политики по доменам принимают перевод строки как разделитель, не только запятую\n- После сна туннель пересоздаётся только если он по факту перестал работать\n- Подписка скачивается надёжнее; добавление подписки и включение защищённого подключения не сдаются на временных отказах сервера; защищённое подключение работает при неверных часах на компьютере\n- Объём трафика везде показан с пробелом перед единицей\n- Редактор конфига знает стек TUN mips\n\n### Исправлено\n\n- Выбор узлов возвращается после любого запуска ядра\n- Повторный выбор того же узла не рвёт соединения\n- Трей узнаёт о выборе узла, сделанном в окне\n- Переключатель защищённого подключения больше не сбрасывается сам во время обновления подписки; название и данные провайдера больше не искажаются\n- Адрес подписки больше не попадает в журнал ошибок\n- Дата пополнения на Главной больше не переводится дважды\n- Окно WebDAV: пароль больше не хранится в настройках окна, окно недоступно с клавиатуры во время проверки; свои источники CORS не теряются"
+            },
             {
               "name": "Clod Clash clod-v0.1.12-alpha.1",
               "tag": "clod-v0.1.12-alpha.1",
@@ -5012,7 +5021,7 @@
             "stars": 77139,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T12:46:28Z",
+            "pushed_at": "2026-10-08T12:52:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
