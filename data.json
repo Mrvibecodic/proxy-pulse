@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T13:03:03.820131Z",
+  "generated_at": "2026-10-08T13:08:22.267654Z",
   "groups": [
     {
       "id": "cores",
@@ -576,6 +576,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.23-alpha.5",
+              "tag": "android-v0.1.23-alpha.5",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.5",
+              "published_at": "2026-10-08T13:07:18Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Серверы только для мобильной сети: провайдер может отдать их список заголовком подписки `clod-mobile-only`. В сети SIM такие серверы видны с пометкой «моб. сеть», в Wi-Fi и других сетях их нет ни в группах, ни в списке серверов; группа с таким выбранным сервером идёт через первый видимый и в мобильной сети возвращается к нему.\n- У серверов виден транспорт — например «VLESS RAW (TCP) · Reality», как в панели провайдера.\n- В свойствах подписки виден отпечаток ключа защищённого соединения.\n- Сервисы Google Play и заводские приложения со значком в меню телефона видны в списке приложений туннеля без фильтра «Системные».\n- Политика конфиденциальности на русском языке.\n\n### Изменено\n\n- Главный экран быстрее показывает актуальное состояние; выбор сервера не теряется при смене подписки и остаётся у той подписки, где его сделали.\n- Загрузка и обновление подписки идут без лишних чтений и записей; меньше фоновой работы при смене сети.\n\n### Исправлено\n\n- Защищённое соединение с подпиской надёжнее — и при добавлении подписки, и при обновлении."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.23-alpha.4",
               "tag": "android-v0.1.23-alpha.4",
@@ -5009,10 +5018,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77140,
+            "stars": 77141,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T13:01:26Z",
+            "pushed_at": "2026-10-08T13:08:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5065,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ffeef9",
-            "branch": "ihoryeromin/signal-explorer-row-click-menu",
-            "date": "2026-10-07T13:55:30Z",
-            "url": "https://github.com/grafana/grafana/commit/6ffeef9a070906bf078a8238e7a5846f6f213da0"
+            "sha": "536e27c",
+            "branch": "main",
+            "date": "2026-10-07T19:48:37Z",
+            "url": "https://github.com/grafana/grafana/commit/536e27c1c32558365c721b5759200ba59f395c08"
           }
         },
         {
@@ -5133,10 +5142,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3abd048",
+            "sha": "5ae7cf3",
             "branch": "main",
-            "date": "2026-10-07T08:16:10Z",
-            "url": "https://github.com/prometheus/prometheus/commit/3abd048b685ef47889706be2e446fb2e4552c1f5"
+            "date": "2026-10-07T14:02:56Z",
+            "url": "https://github.com/prometheus/prometheus/commit/5ae7cf38f73eaf4c2b96b94ca185d1a4f1cf29b6"
           }
         },
         {
