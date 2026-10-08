@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T05:17:51.875788Z",
+  "generated_at": "2026-10-08T05:23:08.125537Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-08T05:15:48Z",
+            "pushed_at": "2026-10-08T05:19:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3273,6 +3273,34 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "d273675",
+                  "message": "strongswan: invalid dpd_action value 'start' in IPsec swanctl.conf",
+                  "author": "Philip Prindeville",
+                  "date": "2026-10-08T05:19:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/d27367596b8e163ec9206b91f2c1ab299746e7d2"
+                },
+                {
+                  "sha": "18a7f87",
+                  "message": "strongswan: update to 6.0.7",
+                  "author": "Philip Prindeville",
+                  "date": "2026-10-08T05:19:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/18a7f87009879f166a754c66431eaa6c08b0c16c"
+                },
+                {
+                  "sha": "29488ea",
+                  "message": "strongswan: update to 6.0.6",
+                  "author": "Philip Prindeville",
+                  "date": "2026-10-08T05:19:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/29488eaed4e2ef524c079c393f5ecf947462447a"
+                },
+                {
+                  "sha": "c15a4ad",
+                  "message": "strongswan: update to 6.0.4",
+                  "author": "Philip Prindeville",
+                  "date": "2026-10-08T05:19:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/c15a4ad1db33ffd9ec0b3213c5e5a27a63c333bb"
+                },
+                {
                   "sha": "c914013",
                   "message": "realtek-poe: increase version to v1.3.2",
                   "author": "Martin Kennedy",
@@ -3453,34 +3481,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-10-05T06:01:04Z",
                   "url": "https://github.com/openwrt/packages/commit/c8f78914c69cd75d95b9c77ff8f44ca0ec3d50f9"
-                },
-                {
-                  "sha": "b07c39d",
-                  "message": "syslog-ng: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/b07c39db89782bd6d8f9c55dddc10f118d48955f"
-                },
-                {
-                  "sha": "ce25493",
-                  "message": "frp: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/ce25493b0b97d8ec1c925ae520e30534758a7def"
-                },
-                {
-                  "sha": "5811127",
-                  "message": "python-pika: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/5811127331d1ae444fc306155820790143959666"
-                },
-                {
-                  "sha": "f7640dc",
-                  "message": "python-pytest-forked: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/f7640dcf59ae6556e57114592a8469c9d978e0c6"
                 }
               ]
             },
@@ -5021,7 +5021,7 @@
             "stars": 77133,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-08T04:29:39Z",
+            "pushed_at": "2026-10-08T05:19:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "44a397f",
-            "branch": "authz/legacy-permissions-routing",
-            "date": "2026-10-07T08:36:12Z",
-            "url": "https://github.com/grafana/grafana/commit/44a397f51952b8df4220b2704a14361263fcdf8a"
+            "sha": "b92b4de",
+            "branch": "iam-legacy-watch",
+            "date": "2026-10-07T14:21:04Z",
+            "url": "https://github.com/grafana/grafana/commit/b92b4de610019ba5457b822b3bff01e1f0c8b72e"
           }
         },
         {
