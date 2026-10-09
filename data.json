@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T15:44:24.191185Z",
+  "generated_at": "2026-10-09T15:49:41.370786Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42017,
+            "stars": 42018,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-08T15:38:18Z",
@@ -4894,12 +4894,21 @@
             "stars": 92268,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T15:36:51Z",
+            "pushed_at": "2026-10-09T15:46:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.6",
+              "tag": "2.5.6",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.6",
+              "published_at": "2026-10-09T15:46:26Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7886 fix: use UptimeCalculator for avg-response badge endpoint \r\n\r\n### ⬆️ Security Fixes\r\n- #7858 chore: Update dependencies \r\n"
+            },
             {
               "name": "2.5.5",
               "tag": "2.5.5",
@@ -4935,15 +4944,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n\r\nFix: Non-docker installation was broken in 2.5.1 (issue: #7752)"
-            },
-            {
-              "name": "2.5.1",
-              "tag": "2.5.1",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.1",
-              "published_at": "2026-08-22T06:50:57Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7720 feat: add SMS Gateway notification provider (Thanks @mattboston)\r\n- #7677 feat: Add ClickUp notification provider (Thanks @nTraum)\r\n- #7640 feat: add TurboSMTP email notification provider (Thanks @NewtTheWolf)\r\n- #7638 feat(notification): add BearSMS SMS provider for Israel (Thanks @nitay12)\r\n- #7632 feat: Add Pinglet notification provider (Thanks @TheGlenn88)\r\n- #7609 feat: add Milky as Notification Provider (Thanks @nope-e)\r\n- #7555 feat: Add openwa notification (Thanks @ron007d)\r\n\r\n### 🐞 Bug Fixes\r\n- #7729 fix: analytics_type's enum check was not removed, even the data type changed to string on SQLite \r\n- #7702 fix(radius): treat Access-Challenge as successful response (#7700) (Thanks @rikkova)\r\n\r\n### 🦎 Translation Contributions\r\n- #7715 #7646 chore: Translations Update from Weblate (Thanks @Aluisio @AntonPalmqvist @ATLWongsatorn @Cutlets @cyril59310 @DJEDIVER @dodog @dukkk2 @Gringit @helakostain @kaindlnetwork @misaka10843 @olafrv @raulmouzo @Regard1ess @steliosk98 @WoutNerd @yeonzi @zazuu0)\r\n\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5027,10 +5027,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77182,
+            "stars": 77183,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T15:43:15Z",
+            "pushed_at": "2026-10-09T15:49:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "56d8335",
-            "branch": "macabu/update-go-1.27.2",
-            "date": "2026-10-09T07:53:43Z",
-            "url": "https://github.com/grafana/grafana/commit/56d83357e019d22c27cf2e70d2befb4944d82217"
+            "sha": "6cea148",
+            "branch": "jessica.1013.decouple-shouldMigrateRepeat2",
+            "date": "2026-10-08T12:50:25Z",
+            "url": "https://github.com/grafana/grafana/commit/6cea148fa836ab4b4c07985c6a4f7e4e1e7895cb"
           }
         },
         {
