@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T17:07:26.567399Z",
+  "generated_at": "2026-10-09T17:10:11.801419Z",
   "groups": [
     {
       "id": "cores",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.12-alpha.4",
+              "tag": "clod-v0.1.12-alpha.4",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.4",
+              "published_at": "2026-10-09T17:07:32Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Новый редактор правил подписки: типы правил по группам с подсказками, одна кнопка «Добавить правило» с выбором места, список разделён на свои правила и правила подписки, видно несохранённые изменения\n- Главная в простом режиме: ровные отступы между блоками\n\n### Исправлено\n\n- Журнал ядра не теряется при перезапуске программы и компьютера и попадает в отчёт для поддержки\n- «Открыть журнал ядра» при работе через службу показывает текст журнала"
+            },
             {
               "name": "Clod Clash clod-v0.1.12-alpha.3",
               "tag": "clod-v0.1.12-alpha.3",
@@ -1089,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ad18024",
-            "branch": "master",
-            "date": "2026-10-08T13:23:44Z",
-            "url": "https://github.com/openwrt/openwrt/commit/ad1802486260568778bdf45cbf3125029fc8029f"
+            "sha": "076b3e7",
+            "branch": "main",
+            "date": "2026-10-08T07:20:05Z",
+            "url": "https://github.com/openwrt/openwrt/commit/076b3e767bb26df4fe7ddd6f2d698c29e45d7986"
           }
         },
         {
@@ -5086,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66445,
+            "stars": 66446,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-09T16:54:41Z",
