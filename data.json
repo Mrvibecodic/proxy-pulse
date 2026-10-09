@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:23:46.675659Z",
+  "generated_at": "2026-10-09T14:29:07.725075Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T14:21:02Z",
+            "pushed_at": "2026-10-09T14:24:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "dbd1a89",
+                  "message": "zabbix: bump version to 7.0.31",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-09T14:24:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/dbd1a89a059fb3a92cbfebc66bd2f1c0f084fe22"
+                },
+                {
                   "sha": "637c0b8",
                   "message": "collectd: add VRF support",
                   "author": "Nick Hainke",
@@ -1969,13 +1976,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-06T19:11:36Z",
                   "url": "https://github.com/openwrt/packages/commit/990a9071f8c0bb6bb8137081f81f8b06144ff62a"
-                },
-                {
-                  "sha": "13ac2fd",
-                  "message": "ripe-atlas: fit get_key to the installed variant",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-06T18:18:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/13ac2fde6209e90a935e24c75eff2a527ff40e0f"
                 }
               ]
             },
@@ -4665,7 +4665,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1947,
+            "stars": 1948,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-08T20:54:10Z",
@@ -5027,10 +5027,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77174,
+            "stars": 77173,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T14:18:15Z",
+            "pushed_at": "2026-10-09T14:29:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0c7aaa8",
-            "branch": "authz/legacy-permissions-routing",
-            "date": "2026-10-09T14:13:11Z",
-            "url": "https://github.com/grafana/grafana/commit/0c7aaa8ccb34fda0b3dd127f607253ede3ccf630"
+            "sha": "4b71238",
+            "branch": "feat/marketplace-plugin-banner",
+            "date": "2026-10-09T09:45:57Z",
+            "url": "https://github.com/grafana/grafana/commit/4b712387a6bd5eb71e0b931c045c9972c81e22fa"
           }
         },
         {
