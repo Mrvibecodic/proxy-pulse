@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:43:10.152598Z",
+  "generated_at": "2026-10-09T12:48:27.136444Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T12:24:43Z",
+            "pushed_at": "2026-10-09T12:46:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2a80a9e",
+                  "message": "kea: bump to 3.2.1",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-10-09T12:46:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a80a9e77a1492cca4dc467d6bc29f28b3f381b9"
+                },
+                {
                   "sha": "206565f",
                   "message": "tor: update to 0.4.9.14 stable",
                   "author": "Rui Salvaterra",
@@ -1969,13 +1976,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-06T18:18:20Z",
                   "url": "https://github.com/openwrt/packages/commit/09bf3f2e6bd5e99d50798379935aecbb03289708"
-                },
-                {
-                  "sha": "cd3c451",
-                  "message": "realtek-poe: increase version to v1.3.2",
-                  "author": "Martin Kennedy",
-                  "date": "2026-10-06T18:17:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/cd3c451cda1e76ea30d4bed5061df9072f77fa56"
                 }
               ]
             },
@@ -4891,7 +4891,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92263,
+            "stars": 92266,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-09T11:12:31Z",
@@ -5027,10 +5027,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77167,
+            "stars": 77168,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T12:39:55Z",
+            "pushed_at": "2026-10-09T12:46:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "395f92a",
+            "sha": "918b1dd",
             "branch": "main",
-            "date": "2026-10-09T06:51:45Z",
-            "url": "https://github.com/grafana/grafana/commit/395f92a307349f292ab2f6c9f1b90ade2224e885"
+            "date": "2026-10-09T12:46:12Z",
+            "url": "https://github.com/grafana/grafana/commit/918b1dd9b50b054bd0d36988f33f8b1f2fdc9950"
           }
         },
         {
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66438,
+            "stars": 66439,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-09T09:36:33Z",
@@ -5163,7 +5163,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80853,
+            "stars": 80854,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-09T11:25:26Z",
