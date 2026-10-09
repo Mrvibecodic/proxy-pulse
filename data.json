@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T05:30:01.491702Z",
+  "generated_at": "2026-10-09T05:35:17.134954Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38684,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-10-09T04:37:43Z",
+            "pushed_at": "2026-10-09T05:34:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.14.3",
+              "tag": "v1.14.3",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.3",
+              "published_at": "2026-10-09T05:35:00Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.15.0-alpha.10",
               "tag": "v1.15.0-alpha.10",
@@ -125,15 +134,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements"
-            },
-            {
-              "name": "1.15.0-alpha.7",
-              "tag": "v1.15.0-alpha.7",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.7",
-              "published_at": "2026-09-22T12:15:00Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add MASQUE client and server support **1**\n* Add HTTP/2, HTTP/3 and UDP support for HTTP proxy **2**\n* Add full certificate pinning for TLS **3**\n* Fixes and improvements\n\n**1**:\n\nThe new [MASQUE Client](https://sing-box.sagernet.org/configuration/endpoint/masque-client/) and [MASQUE Server](https://sing-box.sagernet.org/configuration/endpoint/masque-server/) endpoints provide IP proxying over HTTP (CONNECT-IP), supporting HTTP/1.1, HTTP/2 and HTTP/3, address assignment and route advertisement. They can use the internal network stack or a system TUN interface.\n\n**2**:\n\nThe HTTP proxy implementation has been rewritten, adding HTTP/2, HTTP/3 and UDP proxying through CONNECT-UDP to HTTP inbounds and outbounds.\n\nHTTP outbounds now use HTTP/2 by default with automatic fallback to HTTP/1.1. Configurations using `path` or the `Host` header continue to use HTTP/1.1. HTTP/3 can be enabled through the `version` option.\n\nThe term \"MASQUE VPN\" usually refers to CONNECT-IP, rather than a combination of CONNECT and CONNECT-UDP, which is an enhancement to HTTP proxying. CONNECT-UDP and CONNECT-IP are collectively known as [MASQUE](https://datatracker.ietf.org/wg/masque/about/) in the IETF; the traditional CONNECT method for TCP proxying is not itself a MASQUE protocol.\n\nSee [HTTP Inbound](https://sing-box.sagernet.org/configuration/inbound/http/) and [HTTP Outbound](https://sing-box.sagernet.org/configuration/outbound/http/).\n\n**3**:\n\nThe new `certificate_sha256` and `client_certificate_sha256` TLS options pin the SHA-256 hash of the whole certificate, complementing the existing public key pinning options.\n\nSee [TLS](https://sing-box.sagernet.org/configuration/shared/tls/).\n"
             }
           ],
           "last_commit": {
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5191,
+            "stars": 5192,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:12:08Z",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7392,
+            "stars": 7393,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-09T01:53:27Z",
@@ -1098,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "058021b",
+            "sha": "b7b90e4",
             "branch": "master",
-            "date": "2026-10-08T19:41:57Z",
-            "url": "https://github.com/openwrt/openwrt/commit/058021b2f544aca9664c21795a244458a5539a60"
+            "date": "2026-10-08T07:22:11Z",
+            "url": "https://github.com/openwrt/openwrt/commit/b7b90e49557fa68865c5649a89f71bc7e70bdcb7"
           }
         },
         {
@@ -5166,7 +5166,7 @@
             "stars": 80852,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T00:25:51Z",
+            "pushed_at": "2026-10-09T05:34:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
