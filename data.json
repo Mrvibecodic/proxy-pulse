@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:37:53.170742Z",
+  "generated_at": "2026-10-09T12:43:10.152598Z",
   "groups": [
     {
       "id": "cores",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7054cac",
-            "branch": "stable",
-            "date": "2026-10-09T04:36:52Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/7054cac5124465ffdb145870d7c01885566711b1"
+            "sha": "dfff761",
+            "branch": "testing",
+            "date": "2026-10-09T03:34:48Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/dfff76167d84e1150ce6f003104de2dddd878b43"
           }
         },
         {
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.12-alpha.3",
+              "tag": "clod-v0.1.12-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.3",
+              "published_at": "2026-10-09T12:39:22Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- Провайдер может скрыть у серверов плашки протокола, транспорта и защиты (заголовок подписки clod-hide-badges)\n\n### Изменено\n\n- Главная: при подключении снова «Подключено», таймер сессии — на кнопке, как в Android\n- При запуске ядро сразу поднимается с нужным режимом туннеля; включение TUN обрывает соединения один раз, а не два\n- Обновление и правка подписки без изменений не перезагружают ядро и не сбрасывают задержки\n- Серверы и группы обновляются на экране быстрее, а окно меньше нагружает компьютер\n- Логотип и фон подписки не скачиваются заново, если не менялись, а новые видны сразу\n- При запуске вместе с Windows окно меньше ждёт системных проверок\n- Связь со службой надёжнее и быстрее; запуск не ждёт устаревшую службу\n\n### Исправлено\n\n- Туннель проверяется после любого перезапуска ядра\n- Сон и смена сети больше не пропускаются, если в этот момент перезапускается ядро\n- Кнопки «Обновить подписку» показывают любое идущее обновление, а не только начатое этой кнопкой\n- Приложение больше не перезапускается само в облегчённом режиме"
+            },
             {
               "name": "Clod Clash clod-v0.1.12-alpha.2",
               "tag": "clod-v0.1.12-alpha.2",
@@ -5021,7 +5030,7 @@
             "stars": 77167,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T12:36:48Z",
+            "pushed_at": "2026-10-09T12:39:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5225,7 +5234,7 @@
             "stars": 17841,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T12:37:53Z",
+            "pushed_at": "2026-10-09T12:40:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
