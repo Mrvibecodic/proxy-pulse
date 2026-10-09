@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T11:07:58.128401Z",
+  "generated_at": "2026-10-09T11:13:15.287114Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42013,
+            "stars": 42011,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-08T15:38:18Z",
@@ -1113,7 +1113,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-08T14:37:48Z",
+            "pushed_at": "2026-10-09T11:11:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "19754b2",
+                  "message": "libudev-zero: drop the libevdev dependency",
+                  "author": "Julius Bairaktaris",
+                  "date": "2026-10-09T11:11:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/19754b2745bf7d7a742a391dfa00ca4a2671519a"
+                },
+                {
                   "sha": "607b3dd",
                   "message": "travelmate: update 2.4.9-4",
                   "author": "Dirk Brenken",
@@ -1969,13 +1976,6 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-10-06T07:53:01Z",
                   "url": "https://github.com/openwrt/packages/commit/670a7b3b0ebee25b76d78d6387be1bcb7ae9e676"
-                },
-                {
-                  "sha": "c9a8662",
-                  "message": "tio: use Lua 5.4",
-                  "author": "Mirko Vogt",
-                  "date": "2026-10-06T07:40:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/c9a866243242de890bf4c297e2ac24149db717c1"
                 }
               ]
             },
@@ -4891,10 +4891,10 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92257,
+            "stars": 92258,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T10:52:23Z",
+            "pushed_at": "2026-10-09T11:12:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5030,7 +5030,7 @@
             "stars": 77163,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T11:02:53Z",
+            "pushed_at": "2026-10-09T11:11:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66436,
+            "stars": 66437,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-09T09:36:33Z",
@@ -5519,7 +5519,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3546,
+            "stars": 3545,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-09T07:27:40Z",
