@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T05:35:17.134954Z",
+  "generated_at": "2026-10-09T05:40:32.946928Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38684,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-10-09T05:34:57Z",
+            "pushed_at": "2026-10-09T05:38:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.11",
+              "tag": "v1.15.0-alpha.11",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.11",
+              "published_at": "2026-10-09T05:38:34Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
+            },
             {
               "name": "1.14.3",
               "tag": "v1.14.3",
@@ -125,22 +134,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Add `dns_server_address` and `dns_search_domain` rule items **1**\n* Fixes and improvements\n\n**1**:\n\nMatch the server addresses and search domains that DNS servers obtain from the system, DHCP or VPN.\n\nSee [Route Rule](https://sing-box.sagernet.org/configuration/route/rule/#dns_server_address) and [DNS Rule](https://sing-box.sagernet.org/configuration/dns/rule/#dns_server_address)."
-            },
-            {
-              "name": "1.14.2",
-              "tag": "v1.14.2",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.14.2",
-              "published_at": "2026-09-24T11:47:08Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
-            "sha": "1f7f02a",
-            "branch": "testing",
-            "date": "2026-10-09T03:10:29Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/1f7f02a1e61cfc4d74f235a805ce8d52ba472018"
+            "sha": "5ae078e",
+            "branch": "docs",
+            "date": "2026-10-09T05:35:38Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/5ae078e23f386e992ca4249f6ab8f6c8f3fda841"
           }
         },
         {
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7393,
+            "stars": 7394,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-09T01:53:27Z",
@@ -5030,7 +5030,7 @@
             "stars": 77148,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T04:53:04Z",
+            "pushed_at": "2026-10-09T05:38:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cf0f482",
-            "branch": "alexk/homepage-user-activity",
-            "date": "2026-10-08T07:15:54Z",
-            "url": "https://github.com/grafana/grafana/commit/cf0f4826ee7aef6aee2b6419fd86295e5ada4b4e"
+            "sha": "0749c7a",
+            "branch": "backport-134539-to-release-13.1.8",
+            "date": "2026-10-08T21:18:45Z",
+            "url": "https://github.com/grafana/grafana/commit/0749c7a04f91b16700c7eb64a8ee6c425fb2b47b"
           }
         },
         {
