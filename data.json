@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:22:03.064762Z",
+  "generated_at": "2026-10-09T12:27:20.481480Z",
   "groups": [
     {
       "id": "cores",
@@ -1104,7 +1104,7 @@
             "stars": 4626,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T11:11:10Z",
+            "pushed_at": "2026-10-09T12:24:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1759,6 +1759,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "206565f",
+                  "message": "tor: update to 0.4.9.14 stable",
+                  "author": "Rui Salvaterra",
+                  "date": "2026-10-09T12:24:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/206565fbfcfb9d37c5e435593178e59eb21e84b6"
+                },
+                {
                   "sha": "19754b2",
                   "message": "libudev-zero: drop the libevdev dependency",
                   "author": "Julius Bairaktaris",
@@ -1960,13 +1967,6 @@
                   "author": "Martin Kennedy",
                   "date": "2026-10-06T18:17:21Z",
                   "url": "https://github.com/openwrt/packages/commit/cd3c451cda1e76ea30d4bed5061df9072f77fa56"
-                },
-                {
-                  "sha": "670a7b3",
-                  "message": "strongswan: stage the migration in the LuCI session through ubus",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-10-06T07:53:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/670a7b3b0ebee25b76d78d6387be1bcb7ae9e676"
                 }
               ]
             },
@@ -4049,7 +4049,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16245,
+            "stars": 16246,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5018,10 +5018,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77166,
+            "stars": 77167,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T12:22:00Z",
+            "pushed_at": "2026-10-09T12:27:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5074,10 +5074,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9ab1087",
-            "branch": "alexk/homepage-user-activity",
-            "date": "2026-10-08T10:24:33Z",
-            "url": "https://github.com/grafana/grafana/commit/9ab1087a6b4f14558525ca5a773ce2eacf3137ae"
+            "sha": "753235c",
+            "branch": "fix/secret-delete-group-deadlock",
+            "date": "2026-10-09T12:26:18Z",
+            "url": "https://github.com/grafana/grafana/commit/753235cd278e8ac7879ca3aaa2ccb14a020ed900"
           }
         },
         {
@@ -5578,7 +5578,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7801,
+            "stars": 7802,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-09T03:56:02Z",
