@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:55:09.897208Z",
+  "generated_at": "2026-10-10T08:00:24.764397Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34770,
+            "stars": 34771,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-08T08:35:28Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T07:52:50Z",
+            "pushed_at": "2026-10-10T07:58:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bfdfc86",
+                  "message": "netcat: fix build with GCC 15",
+                  "author": "Marcin Maj",
+                  "date": "2026-10-10T07:58:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/bfdfc8620e9de708610c36b2f67e51856b205dae"
+                },
+                {
+                  "sha": "0320ff7",
+                  "message": "prplmesh: provide the device friendly name for UCI",
+                  "author": "Andrei Ovcharenko",
+                  "date": "2026-10-10T07:57:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/0320ff7c12b8deff65e948418282c4aa732fb480"
+                },
+                {
+                  "sha": "65f2c84",
+                  "message": "prplmesh: refresh 6.2.0 patches with quilt",
+                  "author": "Andrei Ovcharenko",
+                  "date": "2026-10-10T07:57:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/65f2c844194fbba5c7620de0fc1f29c00fea0543"
+                },
+                {
+                  "sha": "8312d4a",
+                  "message": "prplmesh: update to 6.2.0",
+                  "author": "Andrei Ovcharenko",
+                  "date": "2026-10-10T07:57:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/8312d4a665193a5c25ed103196121e0eae69a964"
+                },
+                {
                   "sha": "7a1f000",
                   "message": "nfs-kernel-server: correct libsqlite3 dependency",
                   "author": "Jan Klos",
@@ -1948,34 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T13:12:29Z",
                   "url": "https://github.com/openwrt/packages/commit/f1e040104b9fcdd15f9ab25abc822d70b287a43d"
-                },
-                {
-                  "sha": "a7de9a5",
-                  "message": "radicale3: bump version 3.8.2",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-07T10:07:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/a7de9a5ba3ad0f7a44f1c450269222f990a17edf"
-                },
-                {
-                  "sha": "295e53f",
-                  "message": "bird2: update to 2.19.3",
-                  "author": "Packet Please",
-                  "date": "2026-10-07T06:38:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/295e53fff8d11adcd0b746ae1c47d604430613e7"
-                },
-                {
-                  "sha": "5258ec2",
-                  "message": "bird3: update to 3.3.3",
-                  "author": "Packet Please",
-                  "date": "2026-10-07T06:38:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/5258ec2c0470d0b140e3c540f78aadfe213d735e"
-                },
-                {
-                  "sha": "5a9d4e1",
-                  "message": "bird3: use ATOMIC64_DEPENDS",
-                  "author": "Packet Please",
-                  "date": "2026-10-07T06:38:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a9d4e17bc767d3f73a5b4db41625bb7e5a7a350"
                 }
               ]
             },
@@ -4891,7 +4891,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92280,
+            "stars": 92281,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-10T00:06:49Z",
@@ -5587,7 +5587,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7819,
+            "stars": 7820,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-10T05:17:15Z",
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "98cf908",
+            "sha": "a787e56",
             "branch": "l10n_crowdin",
-            "date": "2026-10-10T01:23:26Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/98cf908e60e43f00f933d2174d6e3915e0b26a35"
+            "date": "2026-10-10T01:23:13Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/a787e5659055faaf40db04a2628b7ed8bd8a641c"
           }
         }
       ]
