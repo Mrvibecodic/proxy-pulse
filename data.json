@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:40:13.168552Z",
+  "generated_at": "2026-10-10T09:45:28.306811Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cf8f11a",
+            "sha": "4c4d319",
             "branch": "main",
-            "date": "2026-10-10T04:36:23Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/cf8f11a8db92bd59f1921f40f6aed2dc0d43c1a7"
+            "date": "2026-10-10T03:21:59Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/4c4d3192391a37470277cea9f15d64d8e785a88d"
           }
         },
         {
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T08:02:20Z",
+            "pushed_at": "2026-10-10T09:40:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0526d6d",
+                  "message": "openssh: update to 10.6_p1",
+                  "author": "John Audia",
+                  "date": "2026-10-10T09:40:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/0526d6d9cad0a9052fc9d49572e2f8968a1bf8dd"
+                },
+                {
                   "sha": "0a7ea64",
                   "message": "ariang: bump to 1.3.14",
                   "author": "Roc Lai",
@@ -1969,13 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T13:12:29Z",
                   "url": "https://github.com/openwrt/packages/commit/5450e21134915a7527dc5e1aa577958cf5a854a1"
-                },
-                {
-                  "sha": "48ad858",
-                  "message": "libyang: update to 5.8.6",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/48ad8589bca2dba56a4d0ebd94efe9e4d57d2578"
                 }
               ]
             },
@@ -4559,12 +4559,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T09:22:13Z",
+            "pushed_at": "2026-10-10T09:44:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.10.10",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-10-10T09:42:38Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.10\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha cf8f11a",
               "tag": "alpha",
@@ -4573,15 +4582,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@cf8f11a8db92bd59f1921f40f6aed2dc0d43c1a7\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.9.30",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-10-06T18:19:56Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.9.30\nна Go 1.27.1.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -4665,7 +4665,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1955,
+            "stars": 1956,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-09T22:48:50Z",
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "33dd8a0",
-            "branch": "fix/datasource-frontend-api-allowlist",
-            "date": "2026-10-09T13:46:05Z",
-            "url": "https://github.com/grafana/grafana/commit/33dd8a04f86ea2936b093f3893c309b45d343dcc"
+            "sha": "2ad6613",
+            "branch": "gtk-grafana/datapro/transform-sidecar-poc",
+            "date": "2026-10-08T18:43:49Z",
+            "url": "https://github.com/grafana/grafana/commit/2ad661344c372b8daedcb9e1efc8f72c62d3760f"
           }
         },
         {
@@ -5519,7 +5519,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3550,
+            "stars": 3551,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-10T07:41:39Z",
@@ -5587,7 +5587,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7820,
+            "stars": 7821,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-10T05:17:15Z",
