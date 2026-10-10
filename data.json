@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:34:10.052816Z",
+  "generated_at": "2026-10-10T07:39:25.740338Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T07:30:56Z",
+            "pushed_at": "2026-10-10T07:37:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fe02850",
+                  "message": "libgcrypt: build the assembly",
+                  "author": "Julius Bairaktaris",
+                  "date": "2026-10-10T07:37:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/fe02850291326ed8b76719121d5eb0ecee9d2e52"
+                },
+                {
+                  "sha": "9c41fce",
+                  "message": "libgcrypt: update to 1.12.4",
+                  "author": "Julius Bairaktaris",
+                  "date": "2026-10-10T07:37:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/9c41fcecc11902961b62bfdd3dca0c2e3d469cc9"
+                },
+                {
+                  "sha": "116592c",
+                  "message": "mutt: update to 2.4.3",
+                  "author": "Romain Isnel",
+                  "date": "2026-10-10T07:35:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/116592c42f6496cf8a5449a0c36d14d9ccc57aa9"
+                },
+                {
                   "sha": "85073db",
                   "message": "iniparser: update to 4.3.2",
                   "author": "Antonio Pastor",
@@ -1955,27 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T06:35:48Z",
                   "url": "https://github.com/openwrt/packages/commit/983e2638683bc313cc8333c3ca4c7b89a953dff4"
-                },
-                {
-                  "sha": "1340fb4",
-                  "message": "radsecproxy: update to 1.11.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T06:35:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/1340fb4ca16cc34aa3c9a8fcab7c79cb75ad849a"
-                },
-                {
-                  "sha": "d679df4",
-                  "message": "privoxy: update to 4.2.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T06:35:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/d679df409aa812f7c8804d8ff83fff5f5a88b23e"
-                },
-                {
-                  "sha": "24d2074",
-                  "message": "shunt: ignore unspecified netifd nexthop",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-06T19:49:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/24d2074662472662eb3a540b535b0cab8f7d7460"
                 }
               ]
             },
@@ -4959,7 +4959,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26073,
+            "stars": 26074,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-09T18:40:56Z",
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "becb8b1",
+            "sha": "baa39a8",
             "branch": "l10n_crowdin",
-            "date": "2026-10-10T01:23:05Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/becb8b11d38a77372bef14c9ec36ad4088d1bc82"
+            "date": "2026-10-10T01:23:30Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/baa39a8177740c823514fb11b3a81736cb348106"
           }
         }
       ]
