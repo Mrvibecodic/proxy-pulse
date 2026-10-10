@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T19:17:45.506658Z",
+  "generated_at": "2026-10-10T19:22:59.766544Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42043,
+            "stars": 42042,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-10T09:22:38Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5198,
+            "stars": 5199,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:12:08Z",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7409,
+            "stars": 7408,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-10T05:19:38Z",
@@ -1098,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb51d41",
+            "sha": "ea3d1ae",
             "branch": "main",
-            "date": "2026-10-10T16:57:31Z",
-            "url": "https://github.com/openwrt/openwrt/commit/eb51d41b129cac3cd83ed3c4349d84dd44bb6842"
+            "date": "2026-10-09T09:31:07Z",
+            "url": "https://github.com/openwrt/openwrt/commit/ea3d1aeb5dd810326b6323316562700cfed2e60f"
           }
         },
         {
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T09:40:44Z",
+            "pushed_at": "2026-10-10T19:18:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3058,6 +3058,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "38fdedd",
+                  "message": "selinux-python: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-10T19:18:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/38fdedd365a0f5e66243311be605ffe282d93180"
+                },
+                {
+                  "sha": "00b74df",
+                  "message": "python3: match packages by pattern in version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-10T19:18:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/00b74df575698dad8ba158a45964a9a09d888a5c"
+                },
+                {
+                  "sha": "d8e4f8c",
+                  "message": "python3: move version checks to override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-10T19:18:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/d8e4f8cbab34913e3046139a296ed10d9f21ce39"
+                },
+                {
+                  "sha": "991fff1",
+                  "message": "krb5: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-10T19:18:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/991fff1427605e07612a1486d3b35a684109c542"
+                },
+                {
                   "sha": "a498356",
                   "message": "smartmontools: update to 7.5",
                   "author": "Maxim Storchak",
@@ -3238,40 +3266,68 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-10-04T08:45:46Z",
                   "url": "https://github.com/openwrt/packages/commit/91f7e4c24d2b24480cc513bbab9e8348051e4c1e"
-                },
-                {
-                  "sha": "44942b3",
-                  "message": "rsync: update to 3.5.0",
-                  "author": "John Audia",
-                  "date": "2026-10-04T08:45:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/44942b348b9fa2dda9c7aed725b1f8464fb2b7df"
-                },
-                {
-                  "sha": "8748e43",
-                  "message": "rsync: update to 3.4.4",
-                  "author": "John Audia",
-                  "date": "2026-10-04T08:45:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/8748e430e65cf582729146398c7c869d0885f449"
-                },
-                {
-                  "sha": "c6ebc95",
-                  "message": "rsync: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-04T08:45:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/c6ebc95e9e2634d9981520e7a7f82cf33daf8be2"
-                },
-                {
-                  "sha": "4b0d98c",
-                  "message": "net/rsync: fix PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2026-10-04T08:45:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/4b0d98ceab44e5feb0dfd8e8487e3b5bc1a3cb55"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "56897b4",
+                  "message": "openzwave: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/56897b43f8cbe5e9845ee368e3d1e20f514e30d2"
+                },
+                {
+                  "sha": "09b3650",
+                  "message": "openzwave: add test.sh",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/09b3650c05bd38610173ba4f6ef2fe6384f418f6"
+                },
+                {
+                  "sha": "ae3e961",
+                  "message": "domoticz: rename version check test.sh to test-version.sh",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/ae3e961967d52529712a72664bc7e21a5b282ea6"
+                },
+                {
+                  "sha": "949109a",
+                  "message": "treewide: bump PKG_RELEASE of packages linking boost",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/949109aad0f03f049fe84e8b42b499ef16ac8f98"
+                },
+                {
+                  "sha": "1afe1ba",
+                  "message": "kea: fix BOOST_STATIC_ASSERT use in src/lib/dns/rdataclass.cc",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/1afe1bab025f3718c92433bcc7233b951c256a2a"
+                },
+                {
+                  "sha": "0c170fc",
+                  "message": "kea: fix build issue with boost-1.90 static assert",
+                  "author": "Philip Prindeville",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/0c170fce8aa34f582a8a30788e81bf6bd98333a9"
+                },
+                {
+                  "sha": "f87e84a",
+                  "message": "boost: build libquadmath only on some archs",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/f87e84aaea829815261abf669c4fba24c347c427"
+                },
+                {
+                  "sha": "442e88d",
+                  "message": "boost: updates package to version 1.90.0",
+                  "author": "Carlos Miguel Ferreira",
+                  "date": "2026-10-10T19:18:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/442e88d65b03f3a0229f486cf103229329dbf6c1"
+                },
                 {
                   "sha": "a019ca1",
                   "message": "csshnpd: bump to c1.1.1 release",
@@ -3425,62 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T14:02:19Z",
                   "url": "https://github.com/openwrt/packages/commit/25a854c9af70966a5470c3b7e9763845f4077df8"
-                },
-                {
-                  "sha": "3270c30",
-                  "message": "ripe-atlas: clean up the Makefile",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:02:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/3270c30833cb7310a5c7ea0a1a8aa3527f9aeefb"
-                },
-                {
-                  "sha": "4fc8efb",
-                  "message": "ripe-atlas: restart the probe on config changes",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:02:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/4fc8efbc6009702741c15eca6484be87d90970c3"
-                },
-                {
-                  "sha": "721d21c",
-                  "message": "ripe-atlas: run the probe as root without ujail",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:02:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/721d21c37bcc0d118a430c8a6e7b7eaa25100497"
-                },
-                {
-                  "sha": "83345b7",
-                  "message": "ripe-atlas: fix the init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:01:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/83345b76c08240037529eb0724b1ac9fd70b85cb"
-                },
-                {
-                  "sha": "e2ec929",
-                  "message": "ripe-atlas: update to 5130",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T14:01:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/e2ec9292a7aebf1b55f6518ca0ab6ffa9b655bf5"
-                },
-                {
-                  "sha": "c190580",
-                  "message": "ripe-atlas: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T14:01:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/c1905802664846964e8dbfc5f1b1648606b45e81"
-                },
-                {
-                  "sha": "e99411a",
-                  "message": "ripe-atlas: add new package",
-                  "author": "Tiago Gaspar",
-                  "date": "2026-10-05T14:00:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/e99411a304d48aa3c32abd60f95b532f5d5ef644"
-                },
-                {
-                  "sha": "25af8ce",
-                  "message": "weechat: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T13:58:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/25af8cefadad15aef9c65e4f6011cdb3b9b8641a"
                 }
               ]
             },
@@ -4058,7 +4058,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16248,
+            "stars": 16247,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7e2ce3c",
-            "branch": "ihoryeromin/infer-metric-type-from-name",
-            "date": "2026-10-09T09:20:46Z",
-            "url": "https://github.com/grafana/grafana/commit/7e2ce3c5db7a3416f6d9460d4fdb72d9d812c354"
+            "sha": "84ba00c",
+            "branch": "alexk/user-storage-update-item",
+            "date": "2026-10-10T05:27:36Z",
+            "url": "https://github.com/grafana/grafana/commit/84ba00c87a926034b40a16f8bc19092450b44c7e"
           }
         },
         {
@@ -5098,7 +5098,7 @@
             "stars": 66461,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T19:10:44Z",
+            "pushed_at": "2026-10-10T19:18:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5575,10 +5575,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f0c490c",
-            "branch": "gh-pages-cdn-fonts",
-            "date": "2026-10-10T07:41:35Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/f0c490ccb1ae078af08c1df4ef47e8a0f4dc2220"
+            "sha": "cb63af1",
+            "branch": "gh-pages-firasans-only",
+            "date": "2026-10-10T07:41:27Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/cb63af19784286b35501522a7713eaf35566f09e"
           }
         },
         {
@@ -5590,7 +5590,7 @@
             "stars": 7826,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T19:10:38Z",
+            "pushed_at": "2026-10-10T19:21:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
