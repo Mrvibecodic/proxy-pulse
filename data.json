@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:48:24.111482Z",
+  "generated_at": "2026-10-10T17:53:39.398401Z",
   "groups": [
     {
       "id": "cores",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.12-alpha.5",
+              "tag": "clod-v0.1.12-alpha.5",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.5",
+              "published_at": "2026-10-10T17:49:57Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Меню значка в трее Windows больше не перестаёт отвечать после долгой работы, а приложение не подвисает, если ядро долго не отвечает\n- Быстрый запуск, когда служба Windows остановлена; не появляется устаревшее сообщение «ядро не готово»\n- Вопрос об установке обновления не задерживает запуск приложения; «Отмена» действительно отменяет установку, уже скачанное обновление не качается заново, а при выключенной автопроверке вопрос об установке не появляется\n- macOS: после выключения туннеля не затирается DNS, изменённый вручную\n- macOS: в поле текста правила нет автозаглавной буквы и автозамены"
+            },
             {
               "name": "Clod Clash clod-v0.1.12-alpha.4",
               "tag": "clod-v0.1.12-alpha.4",
@@ -4882,7 +4891,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92299,
+            "stars": 92298,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-10T00:06:49Z",
@@ -5074,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bc36844",
-            "branch": "jcabanas/notebook-assistant-undo-redo",
-            "date": "2026-10-09T01:23:35Z",
-            "url": "https://github.com/grafana/grafana/commit/bc3684408992fa6b36f4e2340739bf5b133e217d"
+            "sha": "00e924c",
+            "branch": "app-sdk-from-openapi",
+            "date": "2026-10-09T08:19:57Z",
+            "url": "https://github.com/grafana/grafana/commit/00e924c5f68b02dda7180434a3a75504b4f0ac74"
           }
         },
         {
