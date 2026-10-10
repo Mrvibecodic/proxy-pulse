@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T17:17:59.072175Z",
+  "generated_at": "2026-10-10T17:23:14.612494Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "90274a8",
-            "branch": "fix/hysteria-closed-instance-conn",
-            "date": "2026-10-10T00:31:58Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/90274a8e7226e473757cb6de58b966fc8a6496b1"
+            "sha": "cbb2a5a",
+            "branch": "build/go-1.27.2-xnet-0.61",
+            "date": "2026-10-10T00:41:43Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/cbb2a5a10cda69b0c28b96503a6914adbe3845ca"
           }
         }
       ]
@@ -502,7 +502,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T15:14:48Z",
+            "pushed_at": "2026-10-10T17:22:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- A subscription that missed an update is marked: after one failed update — a line on its card; after the second — the card gets a frame with an \"Update\" button and the update button on the Home page is highlighted. A successful update clears it. Only failed attempts count, so a computer that was off does not trigger it\n\n### Changed\n\n- The node a group is using is measured first\n- The \"TUN mode\" dialog saves only the fields you changed; an empty MTU or adapter name means \"as in the subscription, otherwise the core default\" (MTU 9000, name Meta). \"Reset\" returns the fresh-install state. On older installs the MTU 1500, empty exclusions and disabled auto-redirect written by the old dialog are removed once\n- Changing the controller address, secret or CORS restarts the core once and only when it is really needed\n- Core \"Update\" through the service waits for the core to come back and checks its version; it says if the old version is still running or the core did not answer\n- Latency in the proxy chain panel is taken from the core's data\n- Built-in Clod Core on stable mihomo v1.19.32: a node is marked dead only after a second failed probe (including a closed port, unknown host or wrong response code); a group whose \"dead\" node actually passes traffic is rechecked sooner; after a provider update the remaining nodes keep their check results and new ones are checked at once\n\n### Fixed\n\n- macOS: the system DNS override is no longer left on a network service without a record to undo it\n- The result of a chain script is no longer corrupted when it contains quotes\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Подписка, пропустившая обновление, помечается: после одного неудачного обновления — строка на карточке, после второго — карточка в рамке с кнопкой «Обновить» и подсвеченная кнопка обновления на Главной. Удачное обновление всё снимает. Считаются только неудачные попытки, поэтому выключенный компьютер пометку не вызывает\n\n### Изменено\n\n- Узел, которым пользуется группа, меряется первым\n- Окно «Режим TUN» сохраняет только изменённые поля; пустые MTU или имя адаптера значат «как в подписке, иначе как у ядра» (MTU 9000, имя Meta). «Сбросить» возвращает состояние свежей установки. У старых установок записанные прежним окном MTU 1500, пустые исключения и выключенный auto-redirect один раз снимаются\n- Смена адреса, секрета или CORS контроллера перезапускает ядро один раз и только когда это действительно нужно\n- «Обновить» ядро через службу ждёт, пока ядро поднимется, и сверяет версию; сообщает, если осталась прежняя версия или ядро не ответило\n- Задержка в панели цепочки прокси берётся из данных ядра\n- Встроенное Clod Core на стабильном mihomo v1.19.32: узел помечается мёртвым только после второй неудачной пробы (в том числе при закрытом порте, неизвестном хосте или неверном коде ответа); группа, у которой «мёртвый» узел на деле пропускает трафик, перепроверяется раньше; после обновления провайдера оставшиеся узлы сохраняют результаты проверок, а новые проверяются сразу\n\n### Исправлено\n\n- macOS: подмена системного DNS больше не остаётся на сетевой службе без записи для её отмены\n- Результат скрипта цепочки больше не портится, если в нём есть кавычки"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.11",
-              "tag": "clod-v0.1.11",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.11",
-              "published_at": "2026-09-30T09:55:31Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Second built-in core: Clod Core (our Mihomo fork with patches) next to stock Mihomo. Switching the core first checks the config with the new one; if it is rejected or does not start, the previous core stays. The managed (downloaded) core is removed\n- Subscription headers: `clod-ping` (ping color thresholds), `clod-lock-mode: lock` (permanent routing mode lock), `clod-announce` over the panel's `announce`, `clod-new-sub` (spare subscription domain) and `clod-move-sub` (move the subscription to it). `fallback-url`, `fallback-domain`, `new-url`, `new-domain`, `clod-hwid-limit` and `clod-device-remove` are no longer read\n- Routing mode comes from the subscription; a mode chosen by hand is remembered per subscription\n- Favorites star on the Proxies page; favorite nodes come first in a group; one latency color scale on every screen (200/400 ms as on Android)\n- MIPS TUN stack in the \"TUN mode\" dialog and from the subscription template; \"Auto\" without a stack in the subscription means gVisor\n- A subscription is reloaded shortly after its expiry date from the panel, so stubs or a renewal show up at once\n- Option \"Close connections when picking a server on the Home page\"; a hint under \"Secure connection\"\n- The DNS page stores only what differs from the subscription; merge and script chains may change `tun` and `dns` keys the app does not own itself\n- Notifications instead of log lines: the port is held by another copy of our core and nobody will move it; the system proxy watchdog stood down after repeated refusals; the \"TUN is up but passes no traffic\" strip on the Home page\n- macOS: the app bundle is signed without a certificate; installation with a single command, documented. Switching the primary network service re-applies the system proxy within a second\n\n### Changed\n\n- A config the core rejects at startup is no longer replaced by an empty default: the core does not start and the reason is shown; the first accepted config lifts it\n- A subscription is checked by the core before it is written to disk; the previous file is kept as `.prev`. Download tries the route chosen in the card first, then the others, each once; a spare domain from `clod-new-sub` is tried only when the main address answers on none of them\n- Config changes wait in one queue instead of failing with \"busy\"; the core config check is limited to 180 s; the core is not reloaded with an unchanged config\n- A failed scheduled subscription update is retried from 15 min up to 5 h; one update per subscription at a time; the queue is re-armed by the wall clock after sleep\n- When the panel rejects the device, the previous servers are removed and mirrors are not polled; the device limit screen names the subscription\n- Your own subscription name is stored separately from the panel's name; the update interval from the panel applies on every update\n- Latency is measured per node instead of the core's group test; groups are tested in parallel with a shared load cap; no numbers in the tray\n- With TUN on, no rights and no service, the core starts right away without TUN; TUN returns by itself once the service appears\n- System proxy uses an external host only when LAN sharing is on, otherwise 127.0.0.1; the PAC address always stays on the loopback\n- Update check goes through the app's own core first, then directly bypassing any proxy; the pre-release channel reads only its own manifest. The update splash is its own page\n- \"Fit window to content\" is turned off only when you drag the window height yourself (the system reports it); Snap and tiling do not count; the window width is remembered\n- Core \"Update\" where the app folder is writable (usually macOS) downloads and swaps the file itself with rollback; Windows with the service warns about a reboot for stock Mihomo or an older Clod Core\n- Old installs: the connection method written by the previous template is cleared once, so `clod-connect-mode` from the subscription applies\n- Removed non-working settings: start page, backup on change, theme CSS, diagnostics export, the service availability test page; the window always opens on Home\n- Tauri 2.12; a proxy chain is stored with its subscription; each subscription keeps its own DNS page file; lower background load on the core\n- Documentation updated to match the code, with a page on the `clod-*` headers\n\n### Fixed\n\n- Home page shows the real connection state, ping, subscription expiry and mode; the selected node keeps its ping fresh while the window is on screen\n- Notifications that arrive while the window is hidden wait for it to be shown\n- Applying the current subscription restores the node selection; the first added subscription is applied at once; changing a subscription address in the card no longer resets anything\n- Subscription editors no longer close or lose text when the core rejects a change; the add dialog stays open while the subscription downloads\n- Repeating the already active mode no longer drops connections; mode switch from the tray during a config apply waits instead of racing\n- Traffic speed and the connections table reset when the core goes away; the Log page shows what the core writes and remembers a clear; Connections page shows the real state\n- Backup schedule counts from the last backup and is not reset by unrelated saves; one WebDAV check after saving credentials\n- \"Copy environment variables\" reports a failure instead of a false \"Copied\"; the system proxy dialog waits for the settings to be saved and keeps what was entered on an error\n- Support report names the running core, shows the real proxy host, includes core connection errors with addresses stripped\n- Windows: window subscriptions are closed before the core stops at session end; after the firewall fix the traffic probe runs again at once\n- Settings dialogs validate input; update, backup and action errors are shown; \"Update all\" reports which providers failed\n- Switches sit flush with the other row elements; the \"Current system proxy\" block has separate labels and values\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Второе встроенное ядро — Clod Core (наш форк Mihomo с патчами) рядом со стоковым Mihomo. Смена ядра сначала проверяет конфиг новым ядром; если оно конфиг отвергло или не поднялось, остаётся прежнее. Управляемое (скачиваемое) ядро убрано\n- Заголовки подписки: `clod-ping` (границы цвета пинга), `clod-lock-mode: lock` (постоянный замок режима), `clod-announce` важнее панельного `announce`, `clod-new-sub` (запасной домен подписки) и `clod-move-sub` (перевод подписки на него). `fallback-url`, `fallback-domain`, `new-url`, `new-domain`, `clod-hwid-limit` и `clod-device-remove` больше не читаются\n- Режим маршрутизации берётся из подписки; выбранный руками режим помнится для каждой подписки\n- Звёздочка избранного на странице «Прокси»; избранные узлы стоят в группе первыми; одна шкала цвета задержки на всех экранах (200/400 мс, как на Android)\n- Стек TUN MIPS в диалоге «Режим TUN» и из шаблона подписки; «Авто» без стека в подписке означает gVisor\n- Подписка загружается заново вскоре после истечения срока из панели — заглушки или продление видны сразу\n- Галка «Закрывать соединения при выборе сервера на главной»; подсказка под «Защищённое соединение»\n- Страница DNS х"
             }
           ],
           "last_commit": {
@@ -570,7 +561,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T15:14:51Z",
+            "pushed_at": "2026-10-10T17:22:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,22 +602,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Подписка, пропустившая автообновление, помечается: после первого пропуска — строка «Не обновилась» на карточке, после второго — карточка в рамке с кнопкой «Обновить» и подсвеченная кнопка обновления на Главной. Удачное обновление всё снимает.\n\n### Изменено\n\n- Версия ядра в приложении показывается с номером сборки Clod Core (например, v1.19.32-clod.2).\n- Узел помечается мёртвым только после второй неудачной проверки — в том числе при закрытом порте, неизвестном хосте или неверном коде ответа; медленные узлы тоже получают вторую проверку.\n- Группа «Авто», у которой «мёртвый» узел на деле пропускает трафик, перепроверяется раньше.\n- После обновления провайдера узлов оставшиеся узлы сохраняют результаты проверок, а новые проверяются сразу; fallback, закреплённый на пропавшем узле, переходит на первый живой.\n\n### Исправлено\n\n- Правила по UID больше не ищут приложение на каждое соединение и не засоряют журнал."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.2",
-              "tag": "android-v0.1.23-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.2",
-              "published_at": "2026-09-30T18:43:16Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Узел, закреплённый вручную в группе «Авто» (url-test и fallback), подписан\n  «Закреплён»; повторное нажатие снимает закрепление.\n\n### Изменено\n\n- Ядро Clod Core теперь на стабильном mihomo v1.19.32: исправления\n  мультиплекса, HTTP/2 и сетевого стека MIPS.\n- Узлы, которыми группы пользуются сейчас, проверяются первыми. Проверка в\n  приложении идёт той же пробой, что и у ядра: провал подтверждается второй\n  пробой.\n- При смене сети соединения рвутся сразу, не дожидаясь закрытия сессий узлов;\n  сброс закрывает и соединения XHTTP, trusttunnel и vmess mekya. Проверка после\n  подтверждения сети идёт без задержки.\n\n### Исправлено\n\n- Узел не помечается мёртвым из-за проверки, которой не хватило времени в\n  очереди к серверу или на краю круга проверки.\n- В «Авто» удалённый узел не подменяется одноимённым узлом из другого провайдера узлов.\n- VPN всегда опирается на предпочтительную сеть устройства, а не на ту, у\n  которой только что сменились свойства.\n- Копия профиля не заставляет ядро раньше времени перекачивать наборы правил и\n  провайдеры; логотип подписки не пропадает после неудачной загрузки.\n- В сведениях о ядре показана версия mihomo, а не имя ветки или старая версия.\n- У стека «Авто» убрана приписка «из подписки»."
             }
           ],
           "last_commit": {
-            "sha": "4bedb34",
+            "sha": "5c00d67",
             "branch": "main",
-            "date": "2026-10-09T00:58:22Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/4bedb34c39205eac2504a058a4de087ae44043d0"
+            "date": "2026-10-10T17:22:34Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/5c00d677fc3ccbc66eb1dfceca3045a38da32125"
           }
         },
         {
@@ -898,7 +880,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7406,
+            "stars": 7407,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-10T05:19:38Z",
@@ -5030,7 +5012,7 @@
             "stars": 77222,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T13:50:05Z",
+            "pushed_at": "2026-10-10T17:21:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5083,10 +5065,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9872f31",
-            "branch": "release-13.0.11",
-            "date": "2026-10-09T00:00:28Z",
-            "url": "https://github.com/grafana/grafana/commit/9872f310623553fa5a1837365b0a4899e4dc824c"
+            "sha": "bc36844",
+            "branch": "jcabanas/notebook-assistant-undo-redo",
+            "date": "2026-10-09T01:23:35Z",
+            "url": "https://github.com/grafana/grafana/commit/bc3684408992fa6b36f4e2340739bf5b133e217d"
           }
         },
         {
@@ -5590,7 +5572,7 @@
             "stars": 7826,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T16:11:55Z",
+            "pushed_at": "2026-10-10T17:22:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5643,10 +5625,10 @@
             }
           ],
           "last_commit": {
-            "sha": "69fa1a3",
-            "branch": "l10n_crowdin",
-            "date": "2026-10-10T01:23:31Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/69fa1a33d892512765b925737564a6357c682e71"
+            "sha": "17c223a",
+            "branch": "main",
+            "date": "2026-10-10T17:22:18Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/17c223aa07020058362174161cd904b30def5159"
           }
         }
       ]
