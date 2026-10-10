@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T05:17:25.609365Z",
+  "generated_at": "2026-10-10T05:22:40.653778Z",
   "groups": [
     {
       "id": "cores",
@@ -567,7 +567,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 12,
+            "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
             "pushed_at": "2026-10-09T14:16:27Z",
@@ -898,15 +898,24 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7396,
+            "stars": 7397,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-10-10T03:33:42Z",
+            "pushed_at": "2026-10-10T05:19:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.4.0-beta.2",
+              "tag": "1.4.0-beta.2",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.2",
+              "published_at": "2026-10-10T05:19:38Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Fix TLS/XHTTP import issues\r\n* Improve ECH Support\r\n* Use monospace fonts for logs\r\n* Add real-time filter support for logs\r\n* Improve logs scroll behavior\r\n* Add Throne API **1**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThrone now supports remote control via API calls, which enables integrating Throne in automation scripts/Remote machines as gateway. The API uses custom encryption and wire format, so the [Throne-api](https://github.com/throneproj/Throne-api) repository allows for communication with the API either as a helper library or the `thronectl` binary."
+            },
             {
               "name": "1.4.0-beta.1",
               "tag": "1.4.0-beta.1",
@@ -942,15 +951,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "### Introducing our [Android client](https://github.com/throneproj/ThroneForAndroid?utm_source=gemini)! Work is ongoing to bring the Android experience up to par with the desktop Throne app. Please submit any issues to the Android repo so we can continue improving the application.\r\n\r\n* Fix Tun/DNS issues\r\n* Add OTP management\r\n* Add OpenVPN/OpenConnect support\r\n* Add endpoints to route profiles\r\n* Add sing-box dashboard support\r\n* Add Hysteria Gecko obfs\r\n* Add Snell support\r\n* Add L3 bridge support\r\n* Allow altering private ranges in Tun settings\r\n* Migrate to custom JSON editor\r\n* Add TLS Spoof support\r\n* Update AmneziaWG\r\n* Fix windows Extra process privilege drop\r\n* Fix MacOS Tun DNS address\r\n* Add RPM Packaging (Thanks @bardiakz)\r\n* Fix URL scheme registration and allow users to opt out from it\r\n* Add Xray finalMask support (Thanks @VindEi)\r\n* Fix Auto selector not recovering from network outage\r\n* Fix Global insecure not applying to configs\r\n* Significantly optimize window process searcher\r\n* Migrate runtime stats to the main window\r\n* Allow directly adding domains/addresses from connections tab to routing profiles (Thanks @renkagod)\r\n* Migrate windows installers to Inno\r\n* Add Masque protocol support\r\n* Improve warp generator\r\n* Improve trusttunnel support (Thanks @chasylexus)\r\n* Replace connections table with per-process tree table (Thanks @renkagod)\r\n* Add diagnostics collector\r\n* Fix MacOS Tray crash (Thanks @chasylexus)\r\n* Auto detect local DNS on MacOS in Tun mode (Thanks @chasylexus)\r\n* Lots of Fixes and Improvements\r\n"
-            },
-            {
-              "name": "1.3.0-beta.4",
-              "tag": "1.3.0-beta.4",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.3.0-beta.4",
-              "published_at": "2026-09-16T03:15:21Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Improve warp generator\r\n* Improve trusttunnel support (Thanks @chasylexus)\r\n* Replace connections table with per-process tree table (Thanks @renkagod)\r\n* Add diagnostics collector **1**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThe Golang core can now be profiled through the GUI for diagnostics purposes."
             }
           ],
           "last_commit": {
@@ -4665,7 +4665,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 1951,
+            "stars": 1952,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-09T22:48:50Z",
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b1bc903",
-            "branch": "ywzheng1/homepage-alert-filter",
-            "date": "2026-10-08T15:06:31Z",
-            "url": "https://github.com/grafana/grafana/commit/b1bc903d4c3799d0d0c94d46fa2bbc960e97a0e9"
+            "sha": "abf8685",
+            "branch": "macabu/renovate-dont-scan-submodules",
+            "date": "2026-10-09T07:26:24Z",
+            "url": "https://github.com/grafana/grafana/commit/abf868539a08267f2722d0bc51eead66664e3f23"
           }
         },
         {
