@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:49:55.186015Z",
+  "generated_at": "2026-10-10T07:55:09.897208Z",
   "groups": [
     {
       "id": "cores",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7397,
+            "stars": 7398,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-10T05:19:38Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T07:48:24Z",
+            "pushed_at": "2026-10-10T07:52:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7a1f000",
+                  "message": "nfs-kernel-server: correct libsqlite3 dependency",
+                  "author": "Jan Klos",
+                  "date": "2026-10-10T07:52:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/7a1f00033d8b5523e33a54055bcd3a674265b6af"
+                },
+                {
                   "sha": "466fd64",
                   "message": "nebula: bump version to 1.11.1",
                   "author": "Alan Feng",
@@ -1969,13 +1976,6 @@
                   "author": "Packet Please",
                   "date": "2026-10-07T06:38:59Z",
                   "url": "https://github.com/openwrt/packages/commit/5a9d4e17bc767d3f73a5b4db41625bb7e5a7a350"
-                },
-                {
-                  "sha": "b931f93",
-                  "message": "xz: drop relative-pkg-config-paths patch for a SED",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T06:36:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/b931f9376a3ae368671ce61ece61ffa868d0da9c"
                 }
               ]
             },
@@ -4559,7 +4559,7 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T07:18:28Z",
+            "pushed_at": "2026-10-10T07:54:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -4715,7 +4715,7 @@
           "track": "releases",
           "meta": {
             "description": "OpenWrt packages of https://github.com/bol-van/zapret",
-            "stars": 1387,
+            "stars": 1386,
             "url": "https://github.com/remittor/zapret-openwrt",
             "default_branch": "zap1",
             "pushed_at": "2026-08-06T18:17:36Z",
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "354f13f",
-            "branch": "main",
-            "date": "2026-10-08T16:32:32Z",
-            "url": "https://github.com/grafana/grafana/commit/354f13f4c978c7b28c184fad7b9948ab396ece88"
+            "sha": "393c649",
+            "branch": "MattIPv4/iam-authenticated-by-email",
+            "date": "2026-10-08T17:25:12Z",
+            "url": "https://github.com/grafana/grafana/commit/393c649ab9bbaef71b2caa3bb33d2754e36bffa0"
           }
         },
         {
@@ -5163,7 +5163,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80866,
+            "stars": 80867,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-10T00:25:18Z",
