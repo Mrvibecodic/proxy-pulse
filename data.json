@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:24:27.800032Z",
+  "generated_at": "2026-10-10T09:29:43.284411Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42034,
+            "stars": 42035,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-10T09:22:38Z",
@@ -4191,12 +4191,21 @@
             "stars": 5344,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T09:23:56Z",
+            "pushed_at": "2026-10-10T09:29:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/198439251?v=4",
             "owner": "nikkinikki-org"
           },
           "releases": [
+            {
+              "name": "v1.26.2",
+              "tag": "v1.26.2",
+              "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/releases/tag/v1.26.2",
+              "published_at": "2026-10-10T09:29:47Z",
+              "prerelease": false,
+              "author": "morytyann",
+              "body": "## What's Changed\r\n* fix(rpcd): use TLS listen address for API requests when configured by @MatrixNeoKozak in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/884\r\n* fix: read yq output fully before json() in load_profile (Hijack failed / Trailing garbage after JSON data) by @akovale2025 in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/905\r\n* chore: update mihomo-meta to v1.19.32 by @github-actions[bot] in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/911\r\n\r\n## New Contributors\r\n* @MatrixNeoKozak made their first contribution in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/884\r\n* @akovale2025 made their first contribution in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/905\r\n\r\n**Full Changelog**: https://github.com/nikkinikki-org/OpenWrt-nikki/compare/v1.26.1...v1.26.2"
+            },
             {
               "name": "v1.26.1",
               "tag": "v1.26.1",
@@ -4232,15 +4241,6 @@
               "prerelease": false,
               "author": "morytyann",
               "body": "## What's Changed\r\n* Add kmod-dummy dependency to readme by @Y4er in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/764\r\n\r\n## New Contributors\r\n* @Y4er made their first contribution in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/764\r\n\r\n**Full Changelog**: https://github.com/nikkinikki-org/OpenWrt-nikki/compare/v1.25.1...v1.25.2"
-            },
-            {
-              "name": "v1.25.1",
-              "tag": "v1.25.1",
-              "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/releases/tag/v1.25.1",
-              "published_at": "2026-02-04T02:40:36Z",
-              "prerelease": false,
-              "author": "morytyann",
-              "body": "## What's Changed\r\n* chore: mihomo core bump 1.19.19 + Russian translation  by @fildunsky in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/753\r\n* fixes apk compatibility and provides alternative options by @muink in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/749\r\n* Update PKG_MIRROR_HASH in Makefile by @zcluo in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/754\r\n\r\n## New Contributors\r\n* @fildunsky made their first contribution in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/753\r\n* @zcluo made their first contribution in https://github.com/nikkinikki-org/OpenWrt-nikki/pull/754\r\n\r\n**Full Changelog**: https://github.com/nikkinikki-org/OpenWrt-nikki/compare/v1.25.0...v1.25.1"
             }
           ],
           "last_commit": {
@@ -5027,7 +5027,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77217,
+            "stars": 77218,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-10T08:28:20Z",
