@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T03:06:03.460681Z",
+  "generated_at": "2026-10-10T03:11:18.418062Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42023,
+            "stars": 42024,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-08T15:38:18Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5194,
+            "stars": 5195,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:12:08Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T02:59:50Z",
+            "pushed_at": "2026-10-10T03:09:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "05a5b4b",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T03:07:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/05a5b4be8d95dd8239350da0a8ef1befe8ed2e4b"
+                },
+                {
                   "sha": "86e6a28",
                   "message": "msgpack-c: update to 7.0.2",
                   "author": "Tianling Shen",
@@ -1969,13 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-06T19:26:57Z",
                   "url": "https://github.com/openwrt/packages/commit/3242c61757773b78ce214e47e21eead3348cb533"
-                },
-                {
-                  "sha": "bcaee80",
-                  "message": "mpd: update to 0.24.15",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-06T19:26:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/bcaee80190a29f6cf8696f32f4b5b53e9615ca60"
                 }
               ]
             },
@@ -3273,6 +3273,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "210c1e6",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T03:07:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/210c1e6985961abbcd798943b477178955a0c31a"
+                },
+                {
+                  "sha": "b66464d",
+                  "message": "dnsproxy: update to 0.84.1",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T03:07:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/b66464d4ce697e7196296ba73810d4f120d8e218"
+                },
+                {
+                  "sha": "a96b856",
+                  "message": "cloudflared: update to 2026.8.3",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T03:07:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/a96b8566b9da9f0743dbf30887533713e3fd1e2f"
+                },
+                {
                   "sha": "705e1cc",
                   "message": "travelmate: update 2.4.9-4",
                   "author": "Dirk Brenken",
@@ -3460,27 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T06:38:04Z",
                   "url": "https://github.com/openwrt/packages/commit/2ccadf6d98458b42780bd9e3206045e96c1d4c82"
-                },
-                {
-                  "sha": "71bae16",
-                  "message": "libtorrent-rasterbar: add test.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:38:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/71bae164ea262e09e4ca31909e571b9418664ba3"
-                },
-                {
-                  "sha": "0db01e0",
-                  "message": "libtorrent-rasterbar: update to 2.0.15",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:37:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/0db01e0e2b3cee988c583a40d8156510bb1c4b86"
-                },
-                {
-                  "sha": "6d84e04",
-                  "message": "shine: skip version check for shineenc",
-                  "author": "Marcin Maj",
-                  "date": "2026-10-05T06:01:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d84e0488109f8ae61ab7d32d125b6d8d2b20901"
                 }
               ]
             },
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "94c93cc",
-            "branch": "iam-legacy-watch",
-            "date": "2026-10-08T13:51:10Z",
-            "url": "https://github.com/grafana/grafana/commit/94c93cccd98210e964cffd3e6bb3f29a179eef66"
+            "sha": "505fdf8",
+            "branch": "backport-133998-to-release-13.2.4",
+            "date": "2026-10-08T13:53:18Z",
+            "url": "https://github.com/grafana/grafana/commit/505fdf8eb8982a256f782bfa84212b4fd8eefef6"
           }
         },
         {
