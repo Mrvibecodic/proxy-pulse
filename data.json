@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:39:25.740338Z",
+  "generated_at": "2026-10-10T07:44:40.737493Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42029,
+            "stars": 42030,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-10T06:58:45Z",
@@ -1042,7 +1042,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28692,
+            "stars": 28693,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-09T22:39:37Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T07:37:00Z",
+            "pushed_at": "2026-10-10T07:44:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3273,6 +3273,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "5d6ecf4",
+                  "message": "tailscale: update to 1.102.3, disable the update feature",
+                  "author": "Sandro Jäckel",
+                  "date": "2026-10-10T07:44:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/5d6ecf4803ed041c9f76271e1d1e27e976a68c72"
+                },
+                {
+                  "sha": "354ae14",
+                  "message": "tailscale: update to 1.102.2",
+                  "author": "Sandro Jäckel",
+                  "date": "2026-10-10T07:44:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/354ae1413f6c8865cb024725f7aa921a938d27f9"
+                },
+                {
                   "sha": "210c1e6",
                   "message": "v2ray-geodata: update to latest version",
                   "author": "Tianling Shen",
@@ -3467,20 +3481,6 @@
                   "author": "Remi Gacogne",
                   "date": "2026-10-05T07:55:25Z",
                   "url": "https://github.com/openwrt/packages/commit/2679d620657a87b8669775f6817747e3815ffb6f"
-                },
-                {
-                  "sha": "a751e88",
-                  "message": "dnsdist: update to 2.0.6",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T07:55:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/a751e88689e4245abe591283f35f5037bcc2dcd8"
-                },
-                {
-                  "sha": "2ccadf6",
-                  "message": "libtorrent-rasterbar: fix the python bindings",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T06:38:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/2ccadf6d98458b42780bd9e3206045e96c1d4c82"
                 }
               ]
             },
@@ -4188,7 +4188,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5343,
+            "stars": 5344,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-09T00:40:24Z",
@@ -4959,7 +4959,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26074,
+            "stars": 26075,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-09T18:40:56Z",
@@ -5522,7 +5522,7 @@
             "stars": 3548,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-10-09T07:27:40Z",
+            "pushed_at": "2026-10-10T07:41:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
@@ -5575,10 +5575,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c4a5cd2",
-            "branch": "gh-pages-misans-only",
-            "date": "2026-10-09T07:27:31Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/c4a5cd2db42d5c962289b38822f25eb0a1ce8b13"
+            "sha": "f0c490c",
+            "branch": "gh-pages-cdn-fonts",
+            "date": "2026-10-10T07:41:35Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/f0c490ccb1ae078af08c1df4ef47e8a0f4dc2220"
           }
         },
         {
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "baa39a8",
+            "sha": "98cf908",
             "branch": "l10n_crowdin",
-            "date": "2026-10-10T01:23:30Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/baa39a8177740c823514fb11b3a81736cb348106"
+            "date": "2026-10-10T01:23:26Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/98cf908e60e43f00f933d2174d6e3915e0b26a35"
           }
         }
       ]
