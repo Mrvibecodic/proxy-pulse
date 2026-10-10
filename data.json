@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T02:55:32.828054Z",
+  "generated_at": "2026-10-10T03:00:48.276930Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-09T14:24:06Z",
+            "pushed_at": "2026-10-10T02:59:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "86e6a28",
+                  "message": "msgpack-c: update to 7.0.2",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T02:58:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/86e6a288470297967004ab8607ae89dab10d815a"
+                },
+                {
+                  "sha": "ff50e2d",
+                  "message": "v2raya: backport memory fix for GeoIP parser",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-10T02:57:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff50e2db0c1aa3328b93a61eb2287d4285ebc712"
+                },
+                {
                   "sha": "dbd1a89",
                   "message": "zabbix: bump version to 7.0.31",
                   "author": "Daniel F. Dickinson",
@@ -1962,20 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-06T19:26:57Z",
                   "url": "https://github.com/openwrt/packages/commit/bcaee80190a29f6cf8696f32f4b5b53e9615ca60"
-                },
-                {
-                  "sha": "1bb0691",
-                  "message": "mpd: fix the pulseaudio rpath-link guard",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-06T19:26:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/1bb0691c2e43996507e0e5d6f9293272e51f5005"
-                },
-                {
-                  "sha": "990a907",
-                  "message": "travelmate: minor cp fixes",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-06T19:11:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/990a9071f8c0bb6bb8137081f81f8b06144ff62a"
                 }
               ]
             },
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cddfecb",
-            "branch": "fix/datasource-frontend-api-allowlist",
-            "date": "2026-10-08T14:13:28Z",
-            "url": "https://github.com/grafana/grafana/commit/cddfecb34164200a13bfd078ffbc22fdb4271f45"
+            "sha": "c79123c",
+            "branch": "app-sdk-from-openapi",
+            "date": "2026-10-09T03:22:44Z",
+            "url": "https://github.com/grafana/grafana/commit/c79123c31038db9c41b3117815de0318854c037f"
           }
         },
         {
@@ -5231,7 +5231,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17840,
+            "stars": 17839,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-09T19:25:32Z",
