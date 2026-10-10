@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:44:40.737493Z",
+  "generated_at": "2026-10-10T07:49:55.186015Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T07:44:04Z",
+            "pushed_at": "2026-10-10T07:48:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "466fd64",
+                  "message": "nebula: bump version to 1.11.1",
+                  "author": "Alan Feng",
+                  "date": "2026-10-10T07:48:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/466fd64a874dfa7cdbf56a0368e0578aa0d1e4f7"
+                },
+                {
+                  "sha": "cda56ea",
+                  "message": "xxhash: update to 0.8.4",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-10T07:46:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/cda56ea9875f9339bd40946975ff5d095b8d2cfe"
+                },
+                {
                   "sha": "fe02850",
                   "message": "libgcrypt: build the assembly",
                   "author": "Julius Bairaktaris",
@@ -1962,20 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T06:36:46Z",
                   "url": "https://github.com/openwrt/packages/commit/b931f9376a3ae368671ce61ece61ffa868d0da9c"
-                },
-                {
-                  "sha": "f6e2e28",
-                  "message": "miniupnpd: add test script",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T06:35:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/f6e2e2815ab4c978a4804c0cfbc798b4b99b8569"
-                },
-                {
-                  "sha": "983e263",
-                  "message": "miniupnpd: update to 2.3.11",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T06:35:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/983e2638683bc313cc8333c3ca4c7b89a953dff4"
                 }
               ]
             },
@@ -3273,6 +3273,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "a019ca1",
+                  "message": "csshnpd: bump to c1.1.1 release",
+                  "author": "Chris Swan",
+                  "date": "2026-10-10T07:47:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/a019ca1afbb046306ac9a556deac17968d781ad4"
+                },
+                {
                   "sha": "5d6ecf4",
                   "message": "tailscale: update to 1.102.3, disable the update feature",
                   "author": "Sandro Jäckel",
@@ -3474,13 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T13:58:20Z",
                   "url": "https://github.com/openwrt/packages/commit/25af8cefadad15aef9c65e4f6011cdb3b9b8641a"
-                },
-                {
-                  "sha": "2679d62",
-                  "message": "dnsdist: update to 2.0.9",
-                  "author": "Remi Gacogne",
-                  "date": "2026-10-05T07:55:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/2679d620657a87b8669775f6817747e3815ffb6f"
                 }
               ]
             },
@@ -4959,7 +4959,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26075,
+            "stars": 26076,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-09T18:40:56Z",
@@ -5030,7 +5030,7 @@
             "stars": 77214,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-10T05:36:29Z",
+            "pushed_at": "2026-10-10T07:48:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5163,7 +5163,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80865,
+            "stars": 80866,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-10T00:25:18Z",
