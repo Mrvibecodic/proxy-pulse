@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T05:26:47.633931Z",
+  "generated_at": "2026-10-11T05:32:02.474058Z",
   "groups": [
     {
       "id": "cores",
@@ -1042,7 +1042,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28702,
+            "stars": 28701,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-10T19:36:20Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-10T19:18:34Z",
+            "pushed_at": "2026-10-11T05:30:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3273,6 +3273,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "5f5c13b",
+                  "message": "kea: add functional test.sh covering all subpackages",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-11T05:30:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/5f5c13ba2760fc7b88952aae12dbf7b2195a62df"
+                },
+                {
+                  "sha": "78174ad",
+                  "message": "kea: ship admin-utils.sh and kea-shell Python modules",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-11T05:30:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/78174ad51e1908940a7679d240d888ccd3466e78"
+                },
+                {
                   "sha": "56897b4",
                   "message": "openzwave: rename version check test.sh to test-version.sh",
                   "author": "Josef Schlehofer",
@@ -3467,20 +3481,6 @@
                   "author": "Tiago Gaspar",
                   "date": "2026-10-05T14:04:21Z",
                   "url": "https://github.com/openwrt/packages/commit/0faabfce3454e67d202b4d3f81a007bc612ab88e"
-                },
-                {
-                  "sha": "1c6c451",
-                  "message": "ripe-atlas: take over maintainership",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:02:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c6c45116db6275da6998fab9f8121e38185e9aa"
-                },
-                {
-                  "sha": "25a854c",
-                  "message": "ripe-atlas: migrate from atlas-sw-probe",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:02:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/25a854c9af70966a5470c3b7e9763845f4077df8"
                 }
               ]
             },
