@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T21:17:35.662074Z",
+  "generated_at": "2026-10-11T21:22:49.925893Z",
   "groups": [
     {
       "id": "cores",
@@ -1045,7 +1045,7 @@
             "stars": 28707,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T20:46:00Z",
+            "pushed_at": "2026-10-11T21:20:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T19:19:31Z",
+            "pushed_at": "2026-10-11T21:19:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2628,6 +2628,13 @@
               "name": "openwrt-22.03",
               "commits": [
                 {
+                  "sha": "9260a56",
+                  "message": "knot-resolver: update DNSSEC root trust anchors",
+                  "author": "Vladimír Čunát",
+                  "date": "2026-10-11T21:19:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/9260a562221132ade05f04c3e4750dfcff4e1941"
+                },
+                {
                   "sha": "5c70a6e",
                   "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
                   "author": "Andrey Brusnik",
@@ -2829,19 +2836,19 @@
                   "author": "John Thomson",
                   "date": "2024-06-08T19:55:46Z",
                   "url": "https://github.com/openwrt/packages/commit/363d848fd8cdbd48093ec13597c75c3ec1baf61c"
-                },
-                {
-                  "sha": "af476d0",
-                  "message": "libpfring: fix compilation warning",
-                  "author": "Christian Marangi",
-                  "date": "2024-06-08T19:55:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/af476d0f90982389b26792264720700fd7e95fde"
                 }
               ]
             },
             {
               "name": "openwrt-23.05",
               "commits": [
+                {
+                  "sha": "eb75802",
+                  "message": "knot-resolver: update DNSSEC root trust anchors",
+                  "author": "Vladimír Čunát",
+                  "date": "2026-10-11T21:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/eb758024a9c2fb841326ccd8e59d98bd3b975ff9"
+                },
                 {
                   "sha": "efb168a",
                   "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
@@ -3044,13 +3051,6 @@
                   "author": "Fabrice Fontaine",
                   "date": "2025-08-07T01:25:01Z",
                   "url": "https://github.com/openwrt/packages/commit/cb6b4a53f2668635dbf9990e81edddbab6249218"
-                },
-                {
-                  "sha": "9f35823",
-                  "message": "net/aria2: fix PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2025-08-07T01:25:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f3582340c069dbbecbac151b25de47053a3049d"
                 }
               ]
             },
@@ -4959,7 +4959,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26113,
+            "stars": 26114,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-11T17:39:00Z",
@@ -5590,7 +5590,7 @@
             "stars": 7847,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T21:00:01Z",
+            "pushed_at": "2026-10-11T21:17:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
