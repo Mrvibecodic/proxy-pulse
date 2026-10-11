@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T17:52:48.000008Z",
+  "generated_at": "2026-10-11T17:58:03.340845Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T17:11:33Z",
+            "pushed_at": "2026-10-11T17:56:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "40d387f",
+                  "message": "olsrd: ubus: forget an interface that is already gone",
+                  "author": "Simon Polack",
+                  "date": "2026-10-11T17:56:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/40d387f979dbb10174c05248024fc02b49d77ac7"
+                },
+                {
                   "sha": "8b43768",
                   "message": "babeld: fix issues in the ubus bindings and the init script",
                   "author": "Nick Hainke",
@@ -1969,13 +1976,6 @@
                   "author": "Peter Liedholm",
                   "date": "2026-10-08T05:31:03Z",
                   "url": "https://github.com/openwrt/packages/commit/a16d10144dd3f854a57d9a512dfa84f990b45d65"
-                },
-                {
-                  "sha": "9ab876e",
-                  "message": "telldus-core: keep library symlinks",
-                  "author": "Peter Liedholm",
-                  "date": "2026-10-08T05:31:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ab876ed068cce98bf94e7edd53dca219b5d07e1"
                 }
               ]
             },
@@ -5590,7 +5590,7 @@
             "stars": 7844,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T17:32:58Z",
+            "pushed_at": "2026-10-11T17:53:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2a7673a",
+            "sha": "c0d59e6",
             "branch": "main",
-            "date": "2026-10-11T17:32:58Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/2a7673ad23f571348de1bcd9287aced7eb2ab7de"
+            "date": "2026-10-11T17:53:39Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/c0d59e60da8706de4feaacbc140a2816d433c24e"
           }
         }
       ]
