@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T13:56:22.374271Z",
+  "generated_at": "2026-10-11T14:01:38.196330Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38755,
+            "stars": 38756,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T06:54:58Z",
+            "pushed_at": "2026-10-11T13:56:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8b43768",
+                  "message": "babeld: fix issues in the ubus bindings and the init script",
+                  "author": "Nick Hainke",
+                  "date": "2026-10-11T13:56:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/8b437684c720c31c177f1544b5be735b62bac29d"
+                },
+                {
+                  "sha": "be08967",
+                  "message": "babeld: initialize metric in the ubus add_filter handler",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-11T13:56:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/be08967b42758de887aa59f18b1aa7190584f2f2"
+                },
+                {
+                  "sha": "6b9ae23",
+                  "message": "babeld: add new package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-11T13:56:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b9ae23b8764bdf1490148ba256d6974e7bd50ec"
+                },
+                {
                   "sha": "e4dda8c",
                   "message": "haveged: update to 1.9.26",
                   "author": "Hannu Nyman",
@@ -1955,27 +1976,6 @@
                   "author": "Peter Liedholm",
                   "date": "2026-10-08T05:31:03Z",
                   "url": "https://github.com/openwrt/packages/commit/9ab876ed068cce98bf94e7edd53dca219b5d07e1"
-                },
-                {
-                  "sha": "457a7cd",
-                  "message": "tor: update to 0.4.9.13 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-10-07T17:34:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/457a7cd0780009389dccaded5f92f77a66edc6d9"
-                },
-                {
-                  "sha": "db09fc6",
-                  "message": "frr: update to 10.7.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/db09fc6eebf41ba0498c73e8c9c6df9088d79435"
-                },
-                {
-                  "sha": "850c6d3",
-                  "message": "frr: add test.sh and test-version.sh, keep libmlag_pb.so symlinks",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/850c6d3053290ea78b824eea39f039188d834143"
                 }
               ]
             },
@@ -5030,7 +5030,7 @@
             "stars": 77240,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T13:39:54Z",
+            "pushed_at": "2026-10-11T13:59:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
