@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:29:31.251729Z",
+  "generated_at": "2026-10-11T18:34:46.317374Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T17:56:40Z",
+            "pushed_at": "2026-10-11T18:34:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c6086c5",
+                  "message": "travelmate: fix repeated retry rounds of a disabled uplink",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-11T18:33:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6086c538731b122b2b733e1c994ecc093d993b1"
+                },
+                {
                   "sha": "40d387f",
                   "message": "olsrd: ubus: forget an interface that is already gone",
                   "author": "Simon Polack",
@@ -1969,13 +1976,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-08T14:35:55Z",
                   "url": "https://github.com/openwrt/packages/commit/607b3dd1b5bb9c4f01f724eb3788fd21517f2250"
-                },
-                {
-                  "sha": "a16d101",
-                  "message": "telldus-mqtt: update to 0.4.1",
-                  "author": "Peter Liedholm",
-                  "date": "2026-10-08T05:31:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/a16d10144dd3f854a57d9a512dfa84f990b45d65"
                 }
               ]
             },
@@ -3273,6 +3273,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "8facd24",
+                  "message": "travelmate: fix repeated retry rounds of a disabled uplink",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-11T18:34:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/8facd24e0754f5342e945a307a09759c87a7294c"
+                },
+                {
                   "sha": "61d876d",
                   "message": "lxc: update to 7.0.0",
                   "author": "John Audia",
@@ -3474,13 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-06T18:20:29Z",
                   "url": "https://github.com/openwrt/packages/commit/cc31d1fc4a68ae5558d13f0c4f45ea717d7a3b74"
-                },
-                {
-                  "sha": "ee3df65",
-                  "message": "python-setuptools: add python3-xml to python3-pkg-resources",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T21:22:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/ee3df650387c2c028937060f523d93c72c9cc38f"
                 }
               ]
             },
@@ -5590,7 +5590,7 @@
             "stars": 7845,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T18:09:45Z",
+            "pushed_at": "2026-10-11T18:33:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c0d59e6",
+            "sha": "bc6547f",
             "branch": "main",
-            "date": "2026-10-11T17:53:39Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/c0d59e60da8706de4feaacbc140a2816d433c24e"
+            "date": "2026-10-11T18:33:51Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/bc6547ffc14f527128541c3697649dfea636acb8"
           }
         }
       ]
