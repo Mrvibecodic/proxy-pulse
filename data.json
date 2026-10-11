@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:35:00.723098Z",
+  "generated_at": "2026-10-11T06:40:16.274958Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42049,
+            "stars": 42050,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-10T09:22:38Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38741,
+            "stars": 38742,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34787,
+            "stars": 34788,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-11T02:16:58Z",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T06:34:46Z",
+            "pushed_at": "2026-10-11T06:36:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "36e35dd",
+                  "message": "xtables-addons: update to 3.31",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-11T06:36:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/36e35ddf4daa9679d3e94ba21b5397ba37d4559c"
+                },
+                {
                   "sha": "3be7ceb",
                   "message": "radicale3: security bump to version 3.8.3",
                   "author": "Daniel F. Dickinson",
@@ -1969,13 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T13:12:29Z",
                   "url": "https://github.com/openwrt/packages/commit/f1603ffa9dfce433c2878cb440a8533695ae0102"
-                },
-                {
-                  "sha": "b9191b8",
-                  "message": "sysrepo: update to 5.1.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9191b85ee4faba49720506ea79e013e05a5d820"
                 }
               ]
             },
@@ -3273,6 +3273,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "22117a5",
+                  "message": "iniparser: update to 4.3.2",
+                  "author": "Antonio Pastor",
+                  "date": "2026-10-11T06:35:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/22117a5f87be7dac039bf3bfb38e3177dd1a664d"
+                },
+                {
                   "sha": "5f5c13b",
                   "message": "kea: add functional test.sh covering all subpackages",
                   "author": "Alexandru Ardelean",
@@ -3474,13 +3481,6 @@
                   "author": "Tiago Gaspar",
                   "date": "2026-10-05T14:04:52Z",
                   "url": "https://github.com/openwrt/packages/commit/4f03c21a2b09ad0d52cdd1fbdbcb29f88c0ce16f"
-                },
-                {
-                  "sha": "0faabfc",
-                  "message": "atlas-probe: remove package",
-                  "author": "Tiago Gaspar",
-                  "date": "2026-10-05T14:04:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/0faabfce3454e67d202b4d3f81a007bc612ab88e"
                 }
               ]
             },
