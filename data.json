@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:40:01.433816Z",
+  "generated_at": "2026-10-11T18:45:16.672199Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T18:34:45Z",
+            "pushed_at": "2026-10-11T18:44:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8384d21",
+                  "message": "shunt: update to 0.1.12",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-11T18:43:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/8384d21802fc5686002f56962b8a4919d4626054"
+                },
+                {
                   "sha": "c6086c5",
                   "message": "travelmate: fix repeated retry rounds of a disabled uplink",
                   "author": "Dirk Brenken",
@@ -1969,13 +1976,6 @@
                   "author": "Julius Bairaktaris",
                   "date": "2026-10-09T11:11:09Z",
                   "url": "https://github.com/openwrt/packages/commit/19754b2745bf7d7a742a391dfa00ca4a2671519a"
-                },
-                {
-                  "sha": "607b3dd",
-                  "message": "travelmate: update 2.4.9-4",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-08T14:35:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/607b3dd1b5bb9c4f01f724eb3788fd21517f2250"
                 }
               ]
             },
@@ -4891,7 +4891,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92326,
+            "stars": 92328,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-11T07:03:48Z",
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c3ea683",
-            "branch": "fix-panel-chrome-title-vr",
-            "date": "2026-10-09T21:07:18Z",
-            "url": "https://github.com/grafana/grafana/commit/c3ea683d68d07dde8af82c5ce55b2a117915bc0c"
+            "sha": "e0de5d9",
+            "branch": "remove-datasource-type-from-iam",
+            "date": "2026-10-09T22:43:21Z",
+            "url": "https://github.com/grafana/grafana/commit/e0de5d9a7056636e4ecc52f2b70abed458368402"
           }
         },
         {
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66473,
+            "stars": 66474,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-11T18:18:58Z",
