@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T19:01:01.360121Z",
+  "generated_at": "2026-10-11T19:06:16.338410Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T18:58:18Z",
+            "pushed_at": "2026-10-11T19:03:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -2628,6 +2628,13 @@
               "name": "openwrt-22.03",
               "commits": [
                 {
+                  "sha": "5c70a6e",
+                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
+                  "author": "Andrey Brusnik",
+                  "date": "2026-10-11T19:03:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/5c70a6ebe3bf5153fd1ea21ca25120c8ac7e32e4"
+                },
+                {
                   "sha": "6ad2be0",
                   "message": "php8: update to 8.1.32",
                   "author": "Michael Heimpold",
@@ -2829,19 +2836,19 @@
                   "author": "Christian Marangi",
                   "date": "2024-06-08T19:55:23Z",
                   "url": "https://github.com/openwrt/packages/commit/af476d0f90982389b26792264720700fd7e95fde"
-                },
-                {
-                  "sha": "c99fb8a",
-                  "message": "openssh: bump to 9.7p1",
-                  "author": "John Audia",
-                  "date": "2024-06-08T19:51:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/c99fb8a8b2b34ef554c5376c0f29303ff2f9ac78"
                 }
               ]
             },
             {
               "name": "openwrt-23.05",
               "commits": [
+                {
+                  "sha": "efb168a",
+                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
+                  "author": "Andrey Brusnik",
+                  "date": "2026-10-11T19:02:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/efb168a20d797b658470021807e73ccba1d1d832"
+                },
                 {
                   "sha": "16c320b",
                   "message": "python-pyserial: add hostbuild",
@@ -3044,13 +3051,6 @@
                   "author": "Fabrice Fontaine",
                   "date": "2025-08-07T01:25:01Z",
                   "url": "https://github.com/openwrt/packages/commit/9f3582340c069dbbecbac151b25de47053a3049d"
-                },
-                {
-                  "sha": "ee71f6b",
-                  "message": "net/openssh: fix PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2025-08-07T01:25:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/ee71f6bfdb01ae3a099ffaaaef0f62eda348df8e"
                 }
               ]
             },
