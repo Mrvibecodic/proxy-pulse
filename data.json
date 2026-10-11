@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:50:46.017343Z",
+  "generated_at": "2026-10-11T06:56:00.834353Z",
   "groups": [
     {
       "id": "cores",
@@ -1045,7 +1045,7 @@
             "stars": 28702,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T06:48:15Z",
+            "pushed_at": "2026-10-11T06:55:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1098,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fe25904",
+            "sha": "7782eaa",
             "branch": "master",
-            "date": "2026-10-09T17:29:11Z",
-            "url": "https://github.com/openwrt/openwrt/commit/fe25904cd17aa173c9668638b6eb8b8820427e68"
+            "date": "2026-10-11T06:55:53Z",
+            "url": "https://github.com/openwrt/openwrt/commit/7782eaada29dc597b598d4ade9bbb0a7931670f8"
           }
         },
         {
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T06:36:37Z",
+            "pushed_at": "2026-10-11T06:54:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e4dda8c",
+                  "message": "haveged: update to 1.9.26",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-11T06:52:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/e4dda8c7acc9eb28dc034625a5b1517915649048"
+                },
+                {
                   "sha": "36e35dd",
                   "message": "xtables-addons: update to 3.31",
                   "author": "Ivan Pavlov",
@@ -1969,13 +1976,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-07T13:12:29Z",
                   "url": "https://github.com/openwrt/packages/commit/850c6d3053290ea78b824eea39f039188d834143"
-                },
-                {
-                  "sha": "f1603ff",
-                  "message": "netopeer2: update to 2.8.7",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-07T13:12:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/f1603ffa9dfce433c2878cb440a8533695ae0102"
                 }
               ]
             },
@@ -3058,6 +3058,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "b65519e",
+                  "message": "haveged: update to 1.9.26",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-11T06:54:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/b65519e6b5804cf181bb5885420cd76105d284b4"
+                },
+                {
                   "sha": "38fdedd",
                   "message": "selinux-python: add version check override",
                   "author": "Josef Schlehofer",
@@ -3259,19 +3266,19 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-10-05T07:02:55Z",
                   "url": "https://github.com/openwrt/packages/commit/a78a2f3b1fd537cf013bbae7ad017a843f52b0ca"
-                },
-                {
-                  "sha": "91f7e4c",
-                  "message": "rsync: update to 3.5.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-04T08:45:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/91f7e4c24d2b24480cc513bbab9e8348051e4c1e"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "1a5fae4",
+                  "message": "haveged: update to 1.9.26",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-11T06:54:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/1a5fae4d664c480168504a367e5261d416e1e66a"
+                },
                 {
                   "sha": "22117a5",
                   "message": "iniparser: update to 4.3.2",
@@ -3474,13 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T20:58:08Z",
                   "url": "https://github.com/openwrt/packages/commit/2ab9ead1f5989a642254464273ff78a7d9165874"
-                },
-                {
-                  "sha": "4f03c21",
-                  "message": "atlas-sw-probe: remove package",
-                  "author": "Tiago Gaspar",
-                  "date": "2026-10-05T14:04:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/4f03c21a2b09ad0d52cdd1fbdbcb29f88c0ce16f"
                 }
               ]
             },
@@ -5083,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4fbfff8",
-            "branch": "cleanup-cloud-router",
-            "date": "2026-10-09T13:30:57Z",
-            "url": "https://github.com/grafana/grafana/commit/4fbfff8ad23d1128ef209d8ba5d87e12f77deeb5"
+            "sha": "0c266db",
+            "branch": "ihoryeromin/sort-by-multiple-fields",
+            "date": "2026-10-09T13:03:03Z",
+            "url": "https://github.com/grafana/grafana/commit/0c266db7ecb6b894faeef9d304f13c1e8f9dc61b"
           }
         },
         {
