@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T18:55:46.755812Z",
+  "generated_at": "2026-10-11T19:01:01.360121Z",
   "groups": [
     {
       "id": "cores",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7419,
+            "stars": 7420,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-10T05:19:38Z",
@@ -1045,7 +1045,7 @@
             "stars": 28707,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T18:48:24Z",
+            "pushed_at": "2026-10-11T18:59:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1098,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "62efc09",
+            "sha": "cd64993",
             "branch": "main",
-            "date": "2026-10-11T18:48:25Z",
-            "url": "https://github.com/openwrt/openwrt/commit/62efc09fda8deea40c32cf822d6a8de94159726c"
+            "date": "2026-10-11T18:59:14Z",
+            "url": "https://github.com/openwrt/openwrt/commit/cd649934dcf50c106be8a77a1ac6ad9e64f4dcb9"
           }
         },
         {
@@ -1113,7 +1113,7 @@
             "stars": 4627,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T18:44:19Z",
+            "pushed_at": "2026-10-11T18:58:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6fb711f",
+                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
+                  "author": "Andrey Brusnik",
+                  "date": "2026-10-11T18:57:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/6fb711fed018a04030ffae4976030b7079c9a489"
+                },
+                {
                   "sha": "8384d21",
                   "message": "shunt: update to 0.1.12",
                   "author": "Dirk Brenken",
@@ -1969,13 +1976,6 @@
                   "author": "Rui Salvaterra",
                   "date": "2026-10-09T12:24:42Z",
                   "url": "https://github.com/openwrt/packages/commit/206565fbfcfb9d37c5e435593178e59eb21e84b6"
-                },
-                {
-                  "sha": "19754b2",
-                  "message": "libudev-zero: drop the libevdev dependency",
-                  "author": "Julius Bairaktaris",
-                  "date": "2026-10-09T11:11:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/19754b2745bf7d7a742a391dfa00ca4a2671519a"
                 }
               ]
             },
@@ -3058,6 +3058,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f064f96",
+                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
+                  "author": "Andrey Brusnik",
+                  "date": "2026-10-11T18:58:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/f064f96a8d95ef490f515548021defe77d4e1c92"
+                },
+                {
                   "sha": "b65519e",
                   "message": "haveged: update to 1.9.26",
                   "author": "Hannu Nyman",
@@ -3259,19 +3266,19 @@
                   "author": "Karol Babioch",
                   "date": "2026-10-05T07:02:55Z",
                   "url": "https://github.com/openwrt/packages/commit/c1af5fb9c2edfba41bb0a141267fb77c50a6b335"
-                },
-                {
-                  "sha": "a78a2f3",
-                  "message": "ddns-scripts: fix root command injection through ddns_dateformat",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-10-05T07:02:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/a78a2f3b1fd537cf013bbae7ad017a843f52b0ca"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "25772d8",
+                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
+                  "author": "Andrey Brusnik",
+                  "date": "2026-10-11T18:57:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/25772d8c1cf3f60823e1a7f7842b0ed068d16749"
+                },
                 {
                   "sha": "8facd24",
                   "message": "travelmate: fix repeated retry rounds of a disabled uplink",
@@ -3474,13 +3481,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-06T18:20:34Z",
                   "url": "https://github.com/openwrt/packages/commit/835252a892e95797b8ab1cc79253c98e769f65f9"
-                },
-                {
-                  "sha": "cc31d1f",
-                  "message": "ripe-atlas: provide atlas-probe from ripe-atlas-probe",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-06T18:20:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/cc31d1fc4a68ae5558d13f0c4f45ea717d7a3b74"
                 }
               ]
             },
