@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T06:08:46.079891Z",
+  "generated_at": "2026-10-11T06:14:00.684860Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 38741,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-10-11T04:14:37Z",
+            "pushed_at": "2026-10-11T06:13:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.12",
+              "tag": "v1.15.0-alpha.12",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.12",
+              "published_at": "2026-10-11T06:13:25Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Desktop: Improve the tray menu on Wayland **1**\n* Fixes and improvements\n\n**1**:\n\nOn Wayland compositors that support the layer shell protocol, such as niri and KDE Plasma, the tray menu of the Linux client is now shown as a layer shell surface instead of a regular window, so it is placed next to the tray icon and is no longer decorated or tiled by the compositor.\n"
+            },
             {
               "name": "1.15.0-alpha.11",
               "tag": "v1.15.0-alpha.11",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Update NaiveProxy to 154.0.8037.49-2\n* Fixes and improvements"
-            },
-            {
-              "name": "1.15.0-alpha.8",
-              "tag": "v1.15.0-alpha.8",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.8",
-              "published_at": "2026-09-24T11:46:28Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Add `dns_server_address` and `dns_search_domain` rule items **1**\n* Fixes and improvements\n\n**1**:\n\nMatch the server addresses and search domains that DNS servers obtain from the system, DHCP or VPN.\n\nSee [Route Rule](https://sing-box.sagernet.org/configuration/route/rule/#dns_server_address) and [DNS Rule](https://sing-box.sagernet.org/configuration/dns/rule/#dns_server_address)."
             }
           ],
           "last_commit": {
@@ -5587,7 +5587,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7831,
+            "stars": 7832,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-11T02:20:09Z",
