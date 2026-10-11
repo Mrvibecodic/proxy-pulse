@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T23:39:22.821677Z",
+  "generated_at": "2026-10-11T23:44:37.296928Z",
   "groups": [
     {
       "id": "cores",
@@ -577,6 +577,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.23-alpha.8",
+              "tag": "android-v0.1.23-alpha.8",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.8",
+              "published_at": "2026-10-11T23:40:47Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- После обновления проверьте «Ещё» → «Приложения»: теперь по умолчанию через VPN идут только отмеченные приложения, а режим «Разрешить все» сброшен — без отметок приложения работают без VPN.\n- При записи журнала сохраняются последние 25 МБ, а не первые.\n\n### Исправлено\n\n- VPN и значок в шторке больше не пропадают после долгой работы.\n- Если VPN остановился из-за сбоя, об этом сообщает уведомление — раньше он мог отключиться молча.\n- У вложенной группы в списке видна задержка сервера, выбранного в ней сейчас."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.23-alpha.7",
               "tag": "android-v0.1.23-alpha.7",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.7",
@@ -1089,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3735d60",
-            "branch": "main",
-            "date": "2026-10-11T14:39:32Z",
-            "url": "https://github.com/openwrt/openwrt/commit/3735d605990364ae2c8ea2722323e3b4a2b5a861"
+            "sha": "c282dd1",
+            "branch": "master",
+            "date": "2026-10-11T14:45:55Z",
+            "url": "https://github.com/openwrt/openwrt/commit/c282dd1f4dcd32b849021f8976ae6894f3093c7d"
           }
         },
         {
@@ -5581,7 +5590,7 @@
             "stars": 7848,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T23:38:17Z",
+            "pushed_at": "2026-10-11T23:43:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5634,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "632ce85",
-            "branch": "l10n_crowdin",
-            "date": "2026-10-10T04:37:13Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/632ce85a744a274b319d4c57525cf7fad60167c7"
+            "sha": "ac2e020",
+            "branch": "main",
+            "date": "2026-10-11T23:43:20Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/ac2e0201ea1666e083c86f6ec7dd66c4a664bfee"
           }
         }
       ]
