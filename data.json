@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T11:55:33.835927Z",
+  "generated_at": "2026-10-11T12:00:51.201318Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34793,
+            "stars": 34794,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-11T02:16:58Z",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.12-alpha.6",
+              "tag": "clod-v0.1.12-alpha.6",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.6",
+              "published_at": "2026-10-11T12:00:21Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Новый вид экрана «Соединения»: строки-плитки, цепочка и правило видны сразу, нулевая скорость не отвлекает; подробности соединения — во всплывающем окне по разделам\n- Новый вид экрана «Прокси»: тип группы и текущий выбор под названием, понятная подсветка выбранного узла, протокол одной строкой, меню «Дополнительно» по разделам\n- Окна настроек в новом виде: разделы с заголовками, подсказки прямо под пунктами, списки адресов плитками; внизу видно несохранённые изменения, «Сохранить» активна только когда есть что сохранять\n- Окна открываются плавно\n- «Прокси» и «Соединения» помещаются в окно простого режима; в узком окне соединения показываются списком\n\n### Исправлено\n\n- Резервное копирование: кнопки WebDAV неактивны, пока WebDAV не настроен"
+            },
             {
               "name": "Clod Clash clod-v0.1.12-alpha.5",
               "tag": "clod-v0.1.12-alpha.5",
@@ -1090,7 +1099,7 @@
           ],
           "last_commit": {
             "sha": "9f6780e",
-            "branch": "main",
+            "branch": "master",
             "date": "2026-10-11T11:50:44Z",
             "url": "https://github.com/openwrt/openwrt/commit/9f6780e968d9b36c7f804db02c4b1937ddc6ad87"
           }
