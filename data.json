@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:54:49.750536Z",
+  "generated_at": "2026-10-12T05:00:07.421939Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42061,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T02:49:42Z",
+            "pushed_at": "2026-10-12T04:56:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34813,
+            "stars": 34812,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-11T02:16:58Z",
@@ -1098,10 +1098,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aef4cf2",
-            "branch": "main",
-            "date": "2026-10-11T18:47:01Z",
-            "url": "https://github.com/openwrt/openwrt/commit/aef4cf221567686d0cc91fb90ff1a7dd4ffcf938"
+            "sha": "cd64993",
+            "branch": "master",
+            "date": "2026-10-11T18:59:14Z",
+            "url": "https://github.com/openwrt/openwrt/commit/cd649934dcf50c106be8a77a1ac6ad9e64f4dcb9"
           }
         },
         {
@@ -4559,12 +4559,21 @@
             "stars": 10,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T23:36:59Z",
+            "pushed_at": "2026-10-12T04:58:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha 1dd2a0b",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-10-12T04:57:07Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@1dd2a0bd3cb2df567cdb5583538c9afb2bc0c700\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.10.10",
               "tag": "stable",
@@ -4573,15 +4582,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.10\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha 701af60",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-10-10T17:09:59Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@701af60772cda123492f86e383e1fdba066614a9\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5643,10 +5643,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5e0b29a",
-            "branch": "feat/cli/cosign-self-update",
-            "date": "2026-10-11T17:13:57Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/5e0b29a044ce766993e6cc16238f8bdb98979f2a"
+            "sha": "cf13654",
+            "branch": "l10n_crowdin",
+            "date": "2026-10-10T19:10:36Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/cf13654146338b02275205a06b44e39b0e3850c8"
           }
         }
       ]
