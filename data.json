@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T08:47:32.703444Z",
+  "generated_at": "2026-10-12T08:52:48.339412Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38780,
+            "stars": 38781,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -1113,7 +1113,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-11T21:19:41Z",
+            "pushed_at": "2026-10-12T08:50:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ede4e54",
+                  "message": "croc: update to v11.5.4",
+                  "author": "Jonas Jelonek",
+                  "date": "2026-10-12T08:50:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/ede4e54276bcc4dab975fc95a6567932e6e1035f"
+                },
+                {
                   "sha": "6fb711f",
                   "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
                   "author": "Andrey Brusnik",
@@ -1969,13 +1976,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-10-09T12:46:58Z",
                   "url": "https://github.com/openwrt/packages/commit/2a80a9e77a1492cca4dc467d6bc29f28b3f381b9"
-                },
-                {
-                  "sha": "206565f",
-                  "message": "tor: update to 0.4.9.14 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-10-09T12:24:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/206565fbfcfb9d37c5e435593178e59eb21e84b6"
                 }
               ]
             },
@@ -4891,7 +4891,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92345,
+            "stars": 92346,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-12T00:07:39Z",
@@ -5098,7 +5098,7 @@
             "stars": 66493,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-11T20:22:28Z",
+            "pushed_at": "2026-10-12T08:50:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5151,10 +5151,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f39888e",
-            "branch": "deps-update/react-app",
-            "date": "2026-10-10T12:24:19Z",
-            "url": "https://github.com/prometheus/prometheus/commit/f39888eecdb8ab35a3ae28f29b94a3700d93e1bd"
+            "sha": "f88df9a",
+            "branch": "main",
+            "date": "2026-10-12T08:50:33Z",
+            "url": "https://github.com/prometheus/prometheus/commit/f88df9a7d7fbdda434c5b3fc37dc3c1feb081795"
           }
         },
         {
