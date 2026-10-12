@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:40:22.608429Z",
+  "generated_at": "2026-10-12T09:45:39.965939Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-12T08:50:19Z",
+            "pushed_at": "2026-10-12T09:44:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,111 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9f24e4f",
+                  "message": "python-typing-extensions: drop the flit-core constraint patch",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/9f24e4f3d4a13617cd141c43fa8811b18be32808"
+                },
+                {
+                  "sha": "2210aa9",
+                  "message": "python-installer: drop the flit-core constraint patch",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/2210aa91b67946b85139f97d756fe999bbe19152"
+                },
+                {
+                  "sha": "45e6bc3",
+                  "message": "python-build: update to 1.6.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/45e6bc3f6c348de0014b4c1078ab82722d91fba0"
+                },
+                {
+                  "sha": "38de5fd",
+                  "message": "python-pyproject-hooks: update to 1.3.3",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/38de5fd1946d7f065519fe3d1294bcc5e197fc37"
+                },
+                {
+                  "sha": "1f967bd",
+                  "message": "python-wheel: update to 0.48.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/1f967bd9e6614db002842ace7277cd7005608c83"
+                },
+                {
+                  "sha": "7b4ee97",
+                  "message": "python-pycparser: update to 3.11",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/7b4ee9753ef505c89c3ac00634afe93f1a568724"
+                },
+                {
+                  "sha": "f45b493",
+                  "message": "python-markupsafe: update to 3.0.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/f45b493594f770b523358e8e20532ced1411ac43"
+                },
+                {
+                  "sha": "0d1f5bc",
+                  "message": "bluez: collapse the repeated install lines",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/0d1f5bc632b85f78da5a284934550ecedeee4daf"
+                },
+                {
+                  "sha": "1416520",
+                  "message": "bluez: update to 5.87",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:44:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/1416520e8bd28e52eb465349c7adeb0fcdbe199e"
+                },
+                {
+                  "sha": "7d904ec",
+                  "message": "python-evdev: update to 2.0.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/7d904ec47641c7eea84a6c2e2b3a6dceafd9ae45"
+                },
+                {
+                  "sha": "98123c3",
+                  "message": "python-psycopg2: update to 2.9.13",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/98123c353a944f2b3ee1a13fbda880c00f2153a9"
+                },
+                {
+                  "sha": "2944b42",
+                  "message": "python-protobuf: update to 7.36.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/2944b4252a41ee9102f9cfa017201828cf579f05"
+                },
+                {
+                  "sha": "0c2d6eb",
+                  "message": "python-rpds-py: update to 2026.9.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/0c2d6eb2b43197dd78bbd71dadb94296f667b755"
+                },
+                {
+                  "sha": "61e45cc",
+                  "message": "python-cryptography: update to 50.0.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/61e45cc29b35bb453320868d0a41d645252a9b53"
+                },
+                {
+                  "sha": "6719605",
+                  "message": "python-maturin: update to 1.15.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-12T09:43:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/67196059599d19645472b97091ca869740fa70c8"
+                },
+                {
                   "sha": "ede4e54",
                   "message": "croc: update to v11.5.4",
                   "author": "Jonas Jelonek",
@@ -1871,111 +1976,6 @@
                   "author": "Andrei Ovcharenko",
                   "date": "2026-10-10T07:57:44Z",
                   "url": "https://github.com/openwrt/packages/commit/0320ff7c12b8deff65e948418282c4aa732fb480"
-                },
-                {
-                  "sha": "65f2c84",
-                  "message": "prplmesh: refresh 6.2.0 patches with quilt",
-                  "author": "Andrei Ovcharenko",
-                  "date": "2026-10-10T07:57:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/65f2c844194fbba5c7620de0fc1f29c00fea0543"
-                },
-                {
-                  "sha": "8312d4a",
-                  "message": "prplmesh: update to 6.2.0",
-                  "author": "Andrei Ovcharenko",
-                  "date": "2026-10-10T07:57:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/8312d4a665193a5c25ed103196121e0eae69a964"
-                },
-                {
-                  "sha": "7a1f000",
-                  "message": "nfs-kernel-server: correct libsqlite3 dependency",
-                  "author": "Jan Klos",
-                  "date": "2026-10-10T07:52:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/7a1f00033d8b5523e33a54055bcd3a674265b6af"
-                },
-                {
-                  "sha": "466fd64",
-                  "message": "nebula: bump version to 1.11.1",
-                  "author": "Alan Feng",
-                  "date": "2026-10-10T07:48:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/466fd64a874dfa7cdbf56a0368e0578aa0d1e4f7"
-                },
-                {
-                  "sha": "cda56ea",
-                  "message": "xxhash: update to 0.8.4",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-10T07:46:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/cda56ea9875f9339bd40946975ff5d095b8d2cfe"
-                },
-                {
-                  "sha": "fe02850",
-                  "message": "libgcrypt: build the assembly",
-                  "author": "Julius Bairaktaris",
-                  "date": "2026-10-10T07:37:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe02850291326ed8b76719121d5eb0ecee9d2e52"
-                },
-                {
-                  "sha": "9c41fce",
-                  "message": "libgcrypt: update to 1.12.4",
-                  "author": "Julius Bairaktaris",
-                  "date": "2026-10-10T07:37:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/9c41fcecc11902961b62bfdd3dca0c2e3d469cc9"
-                },
-                {
-                  "sha": "116592c",
-                  "message": "mutt: update to 2.4.3",
-                  "author": "Romain Isnel",
-                  "date": "2026-10-10T07:35:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/116592c42f6496cf8a5449a0c36d14d9ccc57aa9"
-                },
-                {
-                  "sha": "85073db",
-                  "message": "iniparser: update to 4.3.2",
-                  "author": "Antonio Pastor",
-                  "date": "2026-10-10T07:30:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/85073dbd83bb6dec5ce6ddf77b84b469ac88532e"
-                },
-                {
-                  "sha": "05a5b4b",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-10T03:07:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/05a5b4be8d95dd8239350da0a8ef1befe8ed2e4b"
-                },
-                {
-                  "sha": "86e6a28",
-                  "message": "msgpack-c: update to 7.0.2",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-10T02:58:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/86e6a288470297967004ab8607ae89dab10d815a"
-                },
-                {
-                  "sha": "ff50e2d",
-                  "message": "v2raya: backport memory fix for GeoIP parser",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-10T02:57:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/ff50e2db0c1aa3328b93a61eb2287d4285ebc712"
-                },
-                {
-                  "sha": "dbd1a89",
-                  "message": "zabbix: bump version to 7.0.31",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-09T14:24:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/dbd1a89a059fb3a92cbfebc66bd2f1c0f084fe22"
-                },
-                {
-                  "sha": "637c0b8",
-                  "message": "collectd: add VRF support",
-                  "author": "Nick Hainke",
-                  "date": "2026-10-09T14:21:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/637c0b86ee5abd03c0cf406d6a8cb97b9e7aa67d"
-                },
-                {
-                  "sha": "2a80a9e",
-                  "message": "kea: bump to 3.2.1",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-10-09T12:46:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a80a9e77a1492cca4dc467d6bc29f28b3f381b9"
                 }
               ]
             },
@@ -4959,7 +4959,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26127,
+            "stars": 26128,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-11T17:39:00Z",
@@ -5030,7 +5030,7 @@
             "stars": 77264,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T09:40:10Z",
+            "pushed_at": "2026-10-12T09:43:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5098,7 +5098,7 @@
             "stars": 66493,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T09:07:46Z",
+            "pushed_at": "2026-10-12T09:42:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5151,10 +5151,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a37cefa",
-            "branch": "arve/info-search-ooo",
-            "date": "2026-10-12T09:07:47Z",
-            "url": "https://github.com/prometheus/prometheus/commit/a37cefa2ea8cd247b5012591c09cbf5750c0448e"
+            "sha": "a52e706",
+            "branch": "arve/info-search-capability",
+            "date": "2026-10-12T09:42:13Z",
+            "url": "https://github.com/prometheus/prometheus/commit/a52e706e1cbf6fac6965188780eae516a95e092d"
           }
         },
         {
