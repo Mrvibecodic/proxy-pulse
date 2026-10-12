@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:22:06.807755Z",
+  "generated_at": "2026-10-12T13:27:23.825095Z",
   "groups": [
     {
       "id": "cores",
@@ -220,7 +220,7 @@
             "stars": 45,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T12:55:55Z",
+            "pushed_at": "2026-10-12T13:23:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -1113,7 +1113,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-12T09:44:49Z",
+            "pushed_at": "2026-10-12T13:23:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1768,6 +1768,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a855eff",
+                  "message": "fwupd: update to version 2.1.8",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-12T13:23:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/a855effe82552e22cefc973cdd5af175c9364414"
+                },
+                {
                   "sha": "9f24e4f",
                   "message": "python-typing-extensions: drop the flit-core constraint patch",
                   "author": "Alexandru Ardelean",
@@ -1969,13 +1976,6 @@
                   "author": "Marcin Maj",
                   "date": "2026-10-10T07:58:51Z",
                   "url": "https://github.com/openwrt/packages/commit/bfdfc8620e9de708610c36b2f67e51856b205dae"
-                },
-                {
-                  "sha": "0320ff7",
-                  "message": "prplmesh: provide the device friendly name for UCI",
-                  "author": "Andrei Ovcharenko",
-                  "date": "2026-10-10T07:57:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/0320ff7c12b8deff65e948418282c4aa732fb480"
                 }
               ]
             },
@@ -5027,10 +5027,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77268,
+            "stars": 77269,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T13:16:43Z",
+            "pushed_at": "2026-10-12T13:25:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5231,10 +5231,10 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17842,
+            "stars": 17843,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-12T11:58:42Z",
+            "pushed_at": "2026-10-12T13:26:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6cd10f4",
-            "branch": "cluster",
-            "date": "2026-10-12T11:58:42Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/6cd10f41c32338ccfed826f7e3dfe1175654e0d3"
+            "sha": "6cfaaeb",
+            "branch": "pmm-6401-read-prometheus-data-files",
+            "date": "2026-10-12T13:26:39Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/6cfaaeb220bda44269cea24ac9378cc3147594e9"
           }
         }
       ]
