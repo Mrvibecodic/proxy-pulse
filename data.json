@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:53:50.458105Z",
+  "generated_at": "2026-10-12T13:59:07.250866Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42068,
+            "stars": 42069,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-12T13:30:29Z",
@@ -1026,6 +1026,142 @@
             "branch": "badges",
             "date": "2026-10-09T05:46:25Z",
             "url": "https://github.com/flowvy-proxy/desktop/commit/10f7b9273ac00763ab3c1b4059616d4bd1e2d672"
+          }
+        },
+        {
+          "repo": "Nemu-x/ClashFest",
+          "title": "ClashFest",
+          "track": "releases",
+          "meta": {
+            "description": "A rule-based tunnel for Android.",
+            "stars": 226,
+            "url": "https://github.com/Nemu-x/ClashFest",
+            "default_branch": "feat/init-clashfest",
+            "pushed_at": "2026-10-07T15:20:22Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/112378891?v=4",
+            "owner": "Nemu-x"
+          },
+          "releases": [
+            {
+              "name": "🦥 ClashFest v1.2.2",
+              "tag": "v1.2.2",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.2",
+              "published_at": "2026-10-06T17:57:03Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "### Pin the group your node comes from\r\n\r\nOperators can now name the proxy group whose current node the Home **Node** row, the VPN notification and the profile card show: `X-Brand-PrimaryProxyGroup: \u003cgroup name\u003e` (`base64:` prefix for non-ASCII names). It is a policy header, so it works without `X-Branding-Enabled`. Picking a node in another group no longer changes what Home shows, and **Change node** in the notification opens the picker on that group. In Global mode Home shows `GLOBAL`, as before.\r\n\r\nHome and the notification also stopped disagreeing about which group to read: they now share one rule.\r\n\r\n### Proxy groups as dropdown lists\r\n\r\nThe node picker has a new button next to the filter that switches between **tabs** and **dropdown lists**. In the dropdown view every group is a row with its current choice; tap it to expand its nodes. Each group has its own latency test. Search, sort and filter work inside every group, and while you search, groups without a match are hidden and the rest open by themselves. Your choice is remembered. Operators can set the default with `X-Brand-ProxyGroupLayout: tabs|dropdown`; once you use the button yourself, your choice wins.\r\n\r\nGroup tabs are now separated by thin dividers, so long rows of groups are easier to tell apart.\r\n\r\n### When was the subscription last updated\r\n\r\nSubscription cards show **Updated 2 hours ago** (or **just now**).\r\n\r\nThis also fixes how the app knew that time. It used to take it from the newest file in the profile folder, and the active config is rewritten on every connect, so \"last updated\" really meant \"last connected\". With **Update before connect** on, a profile you connected to every day always looked fresh and was not updated before connecting. It now uses the time the subscription itself was downloaded.\r\n\r\n### REALITY works with old and new Xray servers\r\n\r\nREALITY nodes now pick the right handshake on their own. Xray 24.x servers drop the X25519MLKEM768 key share, while 26.9.8+ servers require it, and a server never says which kind it is. In **Auto** (the new default) the app tries the classic handshake first, switches after a failure and remembers what worked for each server. **Settings → Network** offers Auto / Always / Never and the REALITY client version reported to servers that check `minClientVer`. This replaces the 1.2.1 on/off toggle; if you had turned it on, it becomes Always.\r\n\r\n### Fixes\r\n\r\n- Editing a rule no longer drops its options such as `no-resolve` or `src`.\r\n- JSON subscriptions are now hardened like YAML ones (local ports closed, `allow-lan` off), and in-app edits apply to them.\r\n- Live logs no longer leave a native subscriber running after you close them.\r\n- Less background work: the power-button animation runs only while Home is visible, the Settings tab is idle, and the app recovers when it reconnects to its service.\r\n- Ready for Android 16: Back in the profile editor still asks before discarding changes, and Back in Browse files goes up a folder.\r\n\r\n### Google Play and F-Droid\r\n\r\nClashFest is on its way to Google Play, and the F-Droid listing is in review. Both will ship the same package, signed with the same key as these GitHub builds, so you will be able to switch between them without reinstalling. Builds from Play and F-Droid are updated by their store and have no built-in update check.\r\n\r\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.2.1...v1.2.2\r\n"
+            },
+            {
+              "name": "v1.3.0-rc.1",
+              "tag": "v1.3.0-rc.1",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.3.0-rc.1",
+              "published_at": "2026-10-05T11:35:33Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## What's Changed\n* build: prepare for F-Droid by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/234\n* docs(fdroid): sync the recipe with the submitted fdroiddata metadata by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/235\n* fix(rules): keep rule parameters and JSON subscriptions intact on edits by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/236\n* fix(logs): let a closed log channel stop the native logcat subscriber by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/238\n* perf(dashboard): stop idle work on the home screen and survive service reconnects by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/237\n* build(fdroid): per-ABI builds, Debian Go and reproducible reference APKs by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/240\n* build(fdroid): build Go from the go srclib with the runtime patches by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/241\n* build(fdroid): bootstrap the srclib Go from trixie-backports by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/242\n* feat(core): REALITY compatibility with Xray via a build-time patch series by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/239\n* ci(release): publish suffixed tags as signed pre-releases by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/243\n\n\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.2.1...v1.3.0-rc.1"
+            },
+            {
+              "name": "🦥 ClashFest v1.2.1",
+              "tag": "v1.2.1",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.1",
+              "published_at": "2026-10-02T15:11:14Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "### Hotfix: REALITY nodes that stopped connecting in 1.2.0\n\n1.2.0 rewrote every REALITY node to offer the X25519MLKEM768 key share (for Xray-core 26.9.8+ servers). Many servers still run an older Xray that silently drops such a ClientHello, so whole subscriptions lost YouTube, Telegram and other routes after the update.\n\n- The rewrite is now **off by default** and lives under **Settings → Network → \"REALITY: offer ML-KEM (Xray 26.9+)\"**. Turn it on only if your operator says their servers need it.\n- It is applied when the config is composed at connect time and is no longer written into the stored subscription.\n- Subscriptions imported or updated under 1.2.0 carry the rewrite in their stored copy; the app re-fetches every URL subscription once after this update to restore the operator's config. If a node still fails, tap **Update** on the profile.\n\nOperators on current Xray can ship `reality-opts.support-x25519mlkem768: true` and `client-fingerprint: chrome` in the subscription themselves; mihomo honours them as-is.\n\nEverything else from 1.2.0 is unchanged: https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.0\n"
+            },
+            {
+              "name": "🦥 ClashFest v1.2.0",
+              "tag": "v1.2.0",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.0",
+              "published_at": "2026-10-02T13:58:20Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "### Scan QR codes without Google\n\nThe in-app QR scanner no longer uses ML Kit. It is now a small camera view with the ZXing decoder that was already in the app for Companion pairing, so it works on phones without Google Play services and the APK lost the 5 MB native barcode model.\n\n### REALITY keeps working on new Xray servers\n\nXray-core 26.9.8+ rejects a REALITY handshake that does not offer the X25519MLKEM768 key share. ClashFest now turns on `support-x25519mlkem768` for every REALITY node in your subscription and uses the `chrome` fingerprint when the node has none or one that cannot carry ML-KEM (in the current uTLS only `chrome` can). Nodes inside remote proxy-providers are out of reach for this; ask your operator to set the two fields there.\n\n### Hand-edited config stays edited\n\nEditing a File profile's `config.yaml` through **Browse files** used to be undone on the next connect: the in-app DNS, hosts, tunnels, rules and provider edits were replayed over your text. Your edit now takes over (it already contains them), pressing Back asks before throwing an edit away, and the Files screen says so up front.\n\n### Rules Hub shows when a provider last updated\n\nEach rule source row shows the time of the last successful download next to its interval, as a real date and time, while the VPN is running.\n\n### MIPS, mihomo's own network stack\n\n**Settings → Network → Stack Mode** gains **MIPS Stack (mihomo)**, the pure-Go userspace stack that became mihomo's default in 1.19.32. It can also come from a subscription (`tun.stack: mips` with Stack Mode on Auto) or from an operator's `X-Network-Stack: mips`. The app default stays System. The effective stack is now written to the Logs screen on every connect.\n\n### Fixes\n\n- **DNS \u0026 Hosts crashed** when a profile listed several IPs for one host (`test.com: [1.1.1.1, 2.2.2.2]`). The editor reads and writes such entries now; type them as `test.com = 1.1.1.1, 2.2.2.2`.\n- **Hide-Routing brand header** works on its own again: three tabs when the operator sets it, Operator in Routing's slot when paired with the Operator tab.\n- **Per-profile User-Agent override** was ignored on the very next fetch after choosing a preset; it now applies immediately.\n- An untrusted ASN database URL in a subscription was replaced by a country database and broke `IP-ASN` rules; it is now replaced by a trusted ASN mirror.\n- The DNS \u0026 Hosts toggle no longer says \"experimental\".\n- The Russian \"app is broken\" screen linked to the upstream repository instead of ClashFest.\n\n### Subscription requests identify the app and the core\n\nSubscription downloads send `mihomo/\u003ccore version\u003e ClashFest/\u003capp version\u003e`. Panels that pick the output format by the first token (Marzban, Remnawave) keep serving the Clash Meta format, and panels that gate protocols on the core version (mikan) can now see it. A per-profile User-Agent override still replaces the whole string.\n\n### Smaller APK\n\nThe bundled `Country.mmdb` is gone (the core only ever read `geoip.metadb` next to it) and unused post-quantum tables from the certificate library are no longer packaged, together with the scanner change about 8 MB less per architecture (compressed).\n\n### Core updated to mihomo v1.19.32\n\nHighlights from upstream: the MIPS stack is the engine default with a new `congestion-controller` option (cubic / reno / bbr / bbr3), lazy receive buffers and checksum offload for it; CPU feature detection via auxv on Linux (hardware AES/SHA); MSS now accounts for TCP options; fixes for an anytls race, a nil dereference in HTTP/2 transports, sing-mux half-close, EasyTier restart after an overlay failure and mieru inbound UDP; utls 1.8.8, mieru 3.38, sing-tun 0.4.27. Full list: https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32\n"
+            },
+            {
+              "name": "🦥 ClashFest v1.1.0",
+              "tag": "v1.1.0",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.1.0",
+              "published_at": "2026-09-14T16:32:30Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "### Test a single node\r\n\r\nTap the latency value next to any node in the picker and only that node is tested — no more re-testing a 200-node group to check one server. The capsule shows `…` while the test runs and the result lands in place. Works in the Profiles tab list too, and falls back to a plain TCP probe when the VPN is off.\r\n\r\n### Notifications that say what happened\r\n\r\nWhen a subscription update fails in the background, the notification now explains it in your language and offers the fix: **Subscription expired** (with the date) gets a **Renew** button, **Device limit reached** gets **Support**, and every failure gets **Retry**. Operators with branding see their name, colour and logo on it.\r\n\r\nThe persistent VPN notification shows the current node, the live speed, how many days are left on the subscription, and has **Disconnect** and **Change node** buttons.\r\n\r\n### Fixes\r\n\r\n- **Rule mode routed everything through the proxy** on some subscriptions (#205). Picking a node in one group used to rewrite every parent selector — including the \"direct\" group — so GeoIP rules looked broken. Only the group you tap changes now. If you were affected, open the direct group once and select DIRECT again.\r\n- **HTTPS subscriptions failing with \"certificate signed by unknown authority\"** on some devices: the core now ships its own Root CA bundle in addition to the system roots, like other Clash clients.\r\n- Light theme with an operator accent no longer renders the Settings tab with dark cards.\r\n- The \"Days left\" and traffic line on the Home card no longer gets cut off.\r\n- Quick-edit of a profile (⋮ → Edit) now actually applies the name, URL and interval you saved.\r\n- Operator policy headers (`X-Network-Stack`, `X-Bypass-Preset`) are honoured on every refresh, not only on a live fetch.\r\n- `announce` headers can use `\\n` for line breaks; `profile-web-page-url` opens from the Operator tab and About when no cabinet link is set.\r\n\r\n### Under the hood\r\n\r\n- CI builds the core with the same patched Go 1.26 toolchain upstream Clash Meta uses.\r\n\r\n### Core updated to mihomo v1.19.31\r\n\r\nHighlights from upstream: the new **EasyTier** outbound (recognised in the node list), `stack: mips` for TUN, `identity-secret` for ZeroTier, lower gVisor memory usage, and a long list of connection-cleanup fixes (hysteria/hysteria2 UDP, VLESS decryption panic, WireGuard nil-pointer, xhttp IPv6 URLs, OpenVPN tls-auth, AmneziaWG v3, DomainSet wildcard matching). Full list: https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31\r\n"
+            }
+          ],
+          "last_commit": {
+            "sha": "1e042c0",
+            "branch": "feat/init-clashfest",
+            "date": "2026-10-07T15:20:32Z",
+            "url": "https://github.com/Nemu-x/ClashFest/commit/1e042c024c33e56d073de0a133adac4fa118af27"
+          }
+        },
+        {
+          "repo": "zerolabnet/SSClash-Go",
+          "title": "SSClash-Go",
+          "track": "releases",
+          "meta": {
+            "description": "Official SSClash distribution: pre-built binaries, install scripts (OpenWrt, Linux, Keenetic), and user docs. Transparent proxy with Mihomo and embedded web UI.",
+            "stars": 116,
+            "url": "https://github.com/zerolabnet/SSClash-Go",
+            "default_branch": "main",
+            "pushed_at": "2026-10-08T22:37:15Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
+            "owner": "zerolabnet"
+          },
+          "releases": [
+            {
+              "name": "v6.8.1",
+              "tag": "v6.8.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.1",
+              "published_at": "2026-10-08T22:37:15Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.8.1\r\n\r\nHide Add listener outside Server mode.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.8.0",
+              "tag": "v6.8.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.0",
+              "published_at": "2026-10-08T21:42:51Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.8.0\r\n\r\nAdd a Server-mode listener builder on the Configuration page.\r\n- Server mode can now add, edit, and delete Mihomo inbound listeners from the panel instead of editing the YAML by hand. The forms follow the English Mihomo listener wiki: field names, hints, and closed value lists come from those pages. redir, tproxy, and listener tun stay out.\r\n- The builder covers the inbound protocols shipped in the templates, including HTTP, SOCKS, mixed, Shadowsocks, VMess, VLESS, Trojan, TUIC, Hysteria2, AnyTLS, Mieru, Snell, Sudoku, ShadowQUIC, TrustTunnel, and tunnel. Repeatable blocks such as users and short-id stay lists. Generate buttons produce only what Mihomo itself can produce: UUID, Reality X25519, ECH, a 2022 password, short-id, a Sudoku key pair, and a local dev certificate. The Reality public key is derived locally. A client snippet is one proxies item, and a listener with several users offers a picker. Client material that cannot be derived from the listener is stored in .ssclash/listener-clients.json with mode 0600 and is removed when that listener is deleted or the saved config no longer names it.\r\n- Before the Mihomo config test, the constructor rejects the empty and invalid fields Mihomo already rejects.\r\n- Add listener is shown only in Server mode, which is also the only mode these API routes accept.\r\n- The Listeners card stays hidden until at least one listener exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.7.1",
+              "tag": "v6.7.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.1",
+              "published_at": "2026-10-06T09:56:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.7.1\r\n\r\nKeep stack tun options when rewriting the tun block.\r\n- A mode or stack change still replaces capture flags, and it now carries over udp-timeout, MTU, GSO, and the other scalars that only affect the tun stack.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.7.0",
+              "tag": "v6.7.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.0",
+              "published_at": "2026-10-06T00:57:59Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.7.0\r\n\r\nKeep Server mode to Mihomo only when leaving Gateway.\r\n- Save used to record Server before teardown, so firewall, routing and DNS from Gateway stayed behind. Hidden gateway controls no longer stay visible or rewrite the proxy config.\r\n\r\nUpdate the bundled Mihomo config.\r\n\r\nSeed an inbound listeners example when Server mode has no config.\r\n- A fresh start with OPERATING_MODE=server writes that template; an existing config.yaml is left unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.6.0",
+              "tag": "v6.6.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.6.0",
+              "published_at": "2026-10-01T18:09:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.6.0\r\n\r\nCapture Keenetic TUN with SSClash marks, the same path as OpenWrt. Keenetic TUN no longer uses a separate Mihomo capture path. Mihomo only creates `clash-tun` (`auto-route`, `auto-redirect`, and `auto-detect-interface` are off). SSClash marks LAN TCP and UDP and steers them with policy routing, the same way OpenWrt and Linux already did.\r\n- Access policy, bypass clients, port filter, and reserved networks apply in TUN.\r\n- Router management HTTPS can stay on TCP 443. The Keenetic TPROXY limit on that port does not apply here.\r\n- On Start, leftover `auto-route` / `auto-redirect` flags in `config.yaml` are rewritten. After upgrading from a build that used Mihomo redirect, Stop then Start.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            }
+          ],
+          "last_commit": {
+            "sha": "ead2d69",
+            "branch": "main",
+            "date": "2026-10-06T00:47:34Z",
+            "url": "https://github.com/zerolabnet/SSClash-Go/commit/ead2d6921f724275862ed643b0ca387e3ed88947"
           }
         }
       ]
@@ -4891,7 +5027,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92356,
+            "stars": 92355,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-12T00:07:39Z",
@@ -4959,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26132,
+            "stars": 26131,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-12T13:28:45Z",
@@ -5027,10 +5163,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77270,
+            "stars": 77272,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T13:39:25Z",
+            "pushed_at": "2026-10-12T13:57:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
