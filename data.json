@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:15:04.537220Z",
+  "generated_at": "2026-10-12T14:20:23.126117Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42069,
+            "stars": 42070,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-12T13:30:29Z",
@@ -1094,74 +1094,6 @@
             "branch": "feat/init-clashfest",
             "date": "2026-10-07T15:20:32Z",
             "url": "https://github.com/Nemu-x/ClashFest/commit/1e042c024c33e56d073de0a133adac4fa118af27"
-          }
-        },
-        {
-          "repo": "zerolabnet/SSClash-Go",
-          "title": "SSClash-Go",
-          "track": "releases",
-          "meta": {
-            "description": "Official SSClash distribution: pre-built binaries, install scripts (OpenWrt, Linux, Keenetic), and user docs. Transparent proxy with Mihomo and embedded web UI.",
-            "stars": 117,
-            "url": "https://github.com/zerolabnet/SSClash-Go",
-            "default_branch": "main",
-            "pushed_at": "2026-10-08T22:37:15Z",
-            "archived": false,
-            "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
-            "owner": "zerolabnet"
-          },
-          "releases": [
-            {
-              "name": "v6.8.1",
-              "tag": "v6.8.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.1",
-              "published_at": "2026-10-08T22:37:15Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.8.1\r\n\r\nHide Add listener outside Server mode.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.8.0",
-              "tag": "v6.8.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.0",
-              "published_at": "2026-10-08T21:42:51Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.8.0\r\n\r\nAdd a Server-mode listener builder on the Configuration page.\r\n- Server mode can now add, edit, and delete Mihomo inbound listeners from the panel instead of editing the YAML by hand. The forms follow the English Mihomo listener wiki: field names, hints, and closed value lists come from those pages. redir, tproxy, and listener tun stay out.\r\n- The builder covers the inbound protocols shipped in the templates, including HTTP, SOCKS, mixed, Shadowsocks, VMess, VLESS, Trojan, TUIC, Hysteria2, AnyTLS, Mieru, Snell, Sudoku, ShadowQUIC, TrustTunnel, and tunnel. Repeatable blocks such as users and short-id stay lists. Generate buttons produce only what Mihomo itself can produce: UUID, Reality X25519, ECH, a 2022 password, short-id, a Sudoku key pair, and a local dev certificate. The Reality public key is derived locally. A client snippet is one proxies item, and a listener with several users offers a picker. Client material that cannot be derived from the listener is stored in .ssclash/listener-clients.json with mode 0600 and is removed when that listener is deleted or the saved config no longer names it.\r\n- Before the Mihomo config test, the constructor rejects the empty and invalid fields Mihomo already rejects.\r\n- Add listener is shown only in Server mode, which is also the only mode these API routes accept.\r\n- The Listeners card stays hidden until at least one listener exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.7.1",
-              "tag": "v6.7.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.1",
-              "published_at": "2026-10-06T09:56:28Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.7.1\r\n\r\nKeep stack tun options when rewriting the tun block.\r\n- A mode or stack change still replaces capture flags, and it now carries over udp-timeout, MTU, GSO, and the other scalars that only affect the tun stack.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.7.0",
-              "tag": "v6.7.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.0",
-              "published_at": "2026-10-06T00:57:59Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.7.0\r\n\r\nKeep Server mode to Mihomo only when leaving Gateway.\r\n- Save used to record Server before teardown, so firewall, routing and DNS from Gateway stayed behind. Hidden gateway controls no longer stay visible or rewrite the proxy config.\r\n\r\nUpdate the bundled Mihomo config.\r\n\r\nSeed an inbound listeners example when Server mode has no config.\r\n- A fresh start with OPERATING_MODE=server writes that template; an existing config.yaml is left unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.6.0",
-              "tag": "v6.6.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.6.0",
-              "published_at": "2026-10-01T18:09:28Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.6.0\r\n\r\nCapture Keenetic TUN with SSClash marks, the same path as OpenWrt. Keenetic TUN no longer uses a separate Mihomo capture path. Mihomo only creates `clash-tun` (`auto-route`, `auto-redirect`, and `auto-detect-interface` are off). SSClash marks LAN TCP and UDP and steers them with policy routing, the same way OpenWrt and Linux already did.\r\n- Access policy, bypass clients, port filter, and reserved networks apply in TUN.\r\n- Router management HTTPS can stay on TCP 443. The Keenetic TPROXY limit on that port does not apply here.\r\n- On Start, leftover `auto-route` / `auto-redirect` flags in `config.yaml` are rewritten. After upgrading from a build that used Mihomo redirect, Stop then Start.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            }
-          ],
-          "last_commit": {
-            "sha": "ead2d69",
-            "branch": "main",
-            "date": "2026-10-06T00:47:34Z",
-            "url": "https://github.com/zerolabnet/SSClash-Go/commit/ead2d6921f724275862ed643b0ca387e3ed88947"
           }
         }
       ]
@@ -4912,6 +4844,74 @@
             "date": "2026-08-06T18:17:36Z",
             "url": "https://github.com/remittor/zapret-openwrt/commit/1b04a87558ec7965bfed0ef7fb557997872dd699"
           }
+        },
+        {
+          "repo": "zerolabnet/SSClash-Go",
+          "title": "SSClash-Go",
+          "track": "releases",
+          "meta": {
+            "description": "Official SSClash distribution: pre-built binaries, install scripts (OpenWrt, Linux, Keenetic), and user docs. Transparent proxy with Mihomo and embedded web UI.",
+            "stars": 117,
+            "url": "https://github.com/zerolabnet/SSClash-Go",
+            "default_branch": "main",
+            "pushed_at": "2026-10-08T22:37:15Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
+            "owner": "zerolabnet"
+          },
+          "releases": [
+            {
+              "name": "v6.8.1",
+              "tag": "v6.8.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.1",
+              "published_at": "2026-10-08T22:37:15Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.8.1\r\n\r\nHide Add listener outside Server mode.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.8.0",
+              "tag": "v6.8.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.0",
+              "published_at": "2026-10-08T21:42:51Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.8.0\r\n\r\nAdd a Server-mode listener builder on the Configuration page.\r\n- Server mode can now add, edit, and delete Mihomo inbound listeners from the panel instead of editing the YAML by hand. The forms follow the English Mihomo listener wiki: field names, hints, and closed value lists come from those pages. redir, tproxy, and listener tun stay out.\r\n- The builder covers the inbound protocols shipped in the templates, including HTTP, SOCKS, mixed, Shadowsocks, VMess, VLESS, Trojan, TUIC, Hysteria2, AnyTLS, Mieru, Snell, Sudoku, ShadowQUIC, TrustTunnel, and tunnel. Repeatable blocks such as users and short-id stay lists. Generate buttons produce only what Mihomo itself can produce: UUID, Reality X25519, ECH, a 2022 password, short-id, a Sudoku key pair, and a local dev certificate. The Reality public key is derived locally. A client snippet is one proxies item, and a listener with several users offers a picker. Client material that cannot be derived from the listener is stored in .ssclash/listener-clients.json with mode 0600 and is removed when that listener is deleted or the saved config no longer names it.\r\n- Before the Mihomo config test, the constructor rejects the empty and invalid fields Mihomo already rejects.\r\n- Add listener is shown only in Server mode, which is also the only mode these API routes accept.\r\n- The Listeners card stays hidden until at least one listener exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.7.1",
+              "tag": "v6.7.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.1",
+              "published_at": "2026-10-06T09:56:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.7.1\r\n\r\nKeep stack tun options when rewriting the tun block.\r\n- A mode or stack change still replaces capture flags, and it now carries over udp-timeout, MTU, GSO, and the other scalars that only affect the tun stack.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.7.0",
+              "tag": "v6.7.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.0",
+              "published_at": "2026-10-06T00:57:59Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.7.0\r\n\r\nKeep Server mode to Mihomo only when leaving Gateway.\r\n- Save used to record Server before teardown, so firewall, routing and DNS from Gateway stayed behind. Hidden gateway controls no longer stay visible or rewrite the proxy config.\r\n\r\nUpdate the bundled Mihomo config.\r\n\r\nSeed an inbound listeners example when Server mode has no config.\r\n- A fresh start with OPERATING_MODE=server writes that template; an existing config.yaml is left unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v6.6.0",
+              "tag": "v6.6.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.6.0",
+              "published_at": "2026-10-01T18:09:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v6.6.0\r\n\r\nCapture Keenetic TUN with SSClash marks, the same path as OpenWrt. Keenetic TUN no longer uses a separate Mihomo capture path. Mihomo only creates `clash-tun` (`auto-route`, `auto-redirect`, and `auto-detect-interface` are off). SSClash marks LAN TCP and UDP and steers them with policy routing, the same way OpenWrt and Linux already did.\r\n- Access policy, bypass clients, port filter, and reserved networks apply in TUN.\r\n- Router management HTTPS can stay on TCP 443. The Keenetic TPROXY limit on that port does not apply here.\r\n- On Start, leftover `auto-route` / `auto-redirect` flags in `config.yaml` are rewritten. After upgrading from a build that used Mihomo redirect, Stop then Start.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            }
+          ],
+          "last_commit": {
+            "sha": "ead2d69",
+            "branch": "main",
+            "date": "2026-10-06T00:47:34Z",
+            "url": "https://github.com/zerolabnet/SSClash-Go/commit/ead2d6921f724275862ed643b0ca387e3ed88947"
+          }
         }
       ]
     },
@@ -5166,7 +5166,7 @@
             "stars": 77271,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T14:11:49Z",
+            "pushed_at": "2026-10-12T14:20:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e706800",
-            "branch": "alexk/homepage-oncall-shifts",
-            "date": "2026-10-12T14:11:26Z",
-            "url": "https://github.com/grafana/grafana/commit/e7068008d543aece0e6f5a5e21d867c49de82c23"
+            "sha": "ca1602d",
+            "branch": "jackw/panel-metas-boot-await",
+            "date": "2026-10-12T14:11:50Z",
+            "url": "https://github.com/grafana/grafana/commit/ca1602de94b1cf158406ebd9daa3715ed0b429ef"
           }
         },
         {
@@ -5383,7 +5383,7 @@
               "published_at": "2026-10-12T11:48:06Z",
               "prerelease": false,
               "author": "rtm0",
-              "body": "\n## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\n\nReleased at 2026-10-09\n\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. The [Single sign-on (SSO)](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) cookie is now accepted only as a JWT token and is no longer matched against `bearer_token` of static users. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\n\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\n\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.108.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.0) and could produce false positives since [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11670](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11670). Thanks to @transacid for contribution.\n* BUGFIX: [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/): properly add timeseries for [increase](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase), [increase_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase_prometheus), [total](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total) and [total_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total_prometheus) aggregation functions when `enable_windows: true` is set. See [#11707](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11707). Thanks to @Hoipang for contribution.\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): keep using notifiers from the previously applied [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file) if the updated config fails to start, for example due to a temporary service discovery error, and retry applying it on the next reload. Previously, vmalert stopped the old notifiers before starting the new ones, so a failed reload left vmalert with no or only some notifiers, and alert notifications were silently not delivered until the file changed or vmalert restarted. See [#11645](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11645).\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): copy alert labels before applying `alert_relabel_configs` from the [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file), preventing different alertmanagers from affecting each other's labels. See [#11676](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11676).\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/): add missing `X-Influxdb-Version` HTTP header to [influxdb](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) API responses for [multitenant-path](https://docs.victoriametrics.com/victoriametrics/vmagent/#multitenancy-via-path). See [#11570](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11570).\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): set the `Host` HTTP request header to the resolved DNS SRV target instead of the SRV name when the url uses the `srv+` prefix. Previously requests could fail at reverse proxies and load balancers, which route by the `Host` header. See [#8965](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8965).\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fixes rare data corruption on HTTP request retries. See [#11508](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11508).\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) login failure `Invalid state parameter` caused by a race condition when"
+              "body": "## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\r\n\r\nReleased at 2026-10-09\r\n\r\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\r\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\r\n\r\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\r\n\r\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\r\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\r\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.108.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.0) and could produce false positives since [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11670](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11670). Thanks to @transacid for contribution.\r\n* BUGFIX: [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/): properly add timeseries for [increase](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase), [increase_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase_prometheus), [total](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total) and [total_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total_prometheus) aggregation functions when `enable_windows: true` is set. See [#11707](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11707). Thanks to @Hoipang for contribution.\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): keep using notifiers from the previously applied [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file) if the updated config fails to start, for example due to a temporary service discovery error, and retry applying it on the next reload. Previously, vmalert stopped the old notifiers before starting the new ones, so a failed reload left vmalert with no or only some notifiers, and alert notifications were silently not delivered until the file changed or vmalert restarted. See [#11645](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11645).\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): copy alert labels before applying `alert_relabel_configs` from the [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file), preventing different alertmanagers from affecting each other's labels. See [#11676](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11676).\r\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): set the `Host` HTTP request header to the resolved DNS SRV target instead of the SRV name when the url uses the `srv+` prefix. Previously requests could fail at reverse proxies and load balancers, which route by the `Host` header. See [#8965](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8965).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fixes rare data corruption on HTTP request retries. See [#11508](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11508).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) login failure `Invalid state parameter` caused by a race condition when multiple concurrent unauthenticated requests each set their own CSRF cookie. See [#10278-comment](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/10278#issuecomment-5862232663) and [#11656](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11656).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix misleading `missing 'Authorization' request header` response for [JWT-authenticated](https://docs.victoriametrics.com/victoriametrics/vmauth/#jwt-token-auth-proxy) users when the requested path does not match any `url_map`. Now it correctly returns `400 "
             },
             {
               "name": "v1.153.0",
