@@ -31,6 +31,14 @@
   }
   *{box-sizing:border-box}
   html{scroll-behavior:smooth}
+  /* Scrollbar */
+  ::-webkit-scrollbar{width:10px;height:10px}
+  ::-webkit-scrollbar-track{background:var(--bg)}
+  ::-webkit-scrollbar-corner{background:var(--bg)}
+  ::-webkit-scrollbar-thumb{background:var(--border2);border-radius:10px;border:2px solid var(--bg)}
+  ::-webkit-scrollbar-thumb:hover{background:var(--accent-dim)}
+  ::-webkit-scrollbar-thumb:active{background:var(--accent)}
+  @supports not selector(::-webkit-scrollbar){html{scrollbar-color:var(--border2) var(--bg)}}
   body{margin:0;background:radial-gradient(1200px 500px at 50% -200px,#12212b 0%,var(--bg) 60%);color:var(--text);font-family:var(--sans);line-height:1.55;-webkit-font-smoothing:antialiased}
   a{color:inherit}
   .wrap{max-width:1240px;margin:0 auto;padding:0 20px}
