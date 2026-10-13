@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:22:14.899928Z",
+  "generated_at": "2026-10-13T23:27:31.312318Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38821,
+            "stars": 38822,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -220,7 +220,7 @@
             "stars": 47,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T23:05:15Z",
+            "pushed_at": "2026-10-13T23:23:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0829c98",
-            "branch": "fix/randomized-fingerprint-mlkem",
-            "date": "2026-10-13T23:05:15Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/0829c989db097d44676c297ac47372bb5610b111"
+            "sha": "ca79f41",
+            "branch": "main",
+            "date": "2026-10-13T23:23:02Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/ca79f41cc93271f3304a52f4834ad766b1b0d0bc"
           }
         }
       ]
@@ -570,7 +570,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-10-12T14:34:08Z",
+            "pushed_at": "2026-10-13T23:26:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,15 +611,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Серверы только для мобильной сети: провайдер может отдать их список заголовком подписки `clod-mobile-only`. В сети SIM такие серверы видны с пометкой «моб. сеть», в Wi-Fi и других сетях их нет ни в группах, ни в списке серверов; группа с таким выбранным сервером идёт через первый видимый и в мобильной сети возвращается к нему.\n- У серверов виден транспорт — например «VLESS RAW (TCP) · Reality», как в панели провайдера.\n- В свойствах подписки виден отпечаток ключа защищённого соединения.\n- Сервисы Google Play и заводские приложения со значком в меню телефона видны в списке приложений туннеля без фильтра «Системные».\n- Политика конфиденциальности на русском языке.\n\n### Изменено\n\n- Главный экран быстрее показывает актуальное состояние; выбор сервера не теряется при смене подписки и остаётся у той подписки, где его сделали.\n- Загрузка и обновление подписки идут без лишних чтений и записей; меньше фоновой работы при смене сети.\n\n### Исправлено\n\n- Защищённое соединение с подпиской надёжнее — и при добавлении подписки, и при обновлении."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.4",
-              "tag": "android-v0.1.23-alpha.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.4",
-              "published_at": "2026-10-06T23:46:33Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Новая подписка добавляется сначала по защищённому каналу: пока сервер провайдера молчит — три попытки, нет канала у провайдера — обычный путь; на экране виден ход проверки. У добавленной подписки канал включается в свойствах с проверкой и выключается с предупреждением.\n- Восстановление копии настроек называет, что уже было на месте и что не встало.\n\n### Изменено\n\n- Узел, закреплённый в группе «Авто», виден на экране сразу, а не после первого соединения через группу; открытие экрана больше не переключает узел группы и не снимает ручной выбор в fallback.\n- На экране серверов панель из подписки меряется только по кнопке; не ответивший узел показывается красным прочерком.\n- Замер задержек без туннеля берёт адрес проверки из подписки, как при туннеле.\n- Настройки заперты с самого запуска, без пересоздания экрана.\n\n### Исправлено\n\n- Пересборка туннеля при смене сети не меняет адрес HTTP-прокси; признак «прокси недоступен» следует за последним подъёмом; отмена сессии не переписывает причину остановки.\n- Повтор защищённого запроса напрямую идёт своим конвертом; повтор без закрепления ключа прослойки — только когда она ответила, а не на любой сбой сети."
             }
           ],
           "last_commit": {
@@ -5163,7 +5154,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77293,
+            "stars": 77294,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-13T23:06:37Z",
@@ -5726,7 +5717,7 @@
             "stars": 7878,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T23:21:54Z",
+            "pushed_at": "2026-10-13T23:25:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
