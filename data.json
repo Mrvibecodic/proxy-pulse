@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:26:37.492471Z",
+  "generated_at": "2026-10-13T13:31:58.154586Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42085,
+            "stars": 42086,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-13T04:31:15Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38810,
+            "stars": 38811,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1332,
+            "stars": 1333,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:29:29Z",
@@ -1181,7 +1181,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-13T09:25:47Z",
+            "pushed_at": "2026-10-13T13:29:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,111 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c6a3acb",
+                  "message": "python-flask-socketio: update to 5.7.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:29:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6a3acb66b1bdf3f341e1336675964616af96a57"
+                },
+                {
+                  "sha": "570d856",
+                  "message": "python-socketio: update to 5.17.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:29:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/570d856f29025f79a485e7b4f8a8a577ee525ec8"
+                },
+                {
+                  "sha": "39bcfb5",
+                  "message": "python-uvicorn: update to 0.54.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:29:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/39bcfb5e3207f693c68d2b578681665e302bb532"
+                },
+                {
+                  "sha": "9fb26c8",
+                  "message": "python-starlette: update to 1.7.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:29:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/9fb26c8e83a4ca1f34048363f9029120b963f156"
+                },
+                {
+                  "sha": "2a65a95",
+                  "message": "graphicsmagick: update to 1.3.49",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a65a9586e65a8d2dbac5876ebc59aedab1740f2"
+                },
+                {
+                  "sha": "2fbf88b",
+                  "message": "python-zope-interface: update to 8.6",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/2fbf88b7209cd8253f386b827ad927c3ebad20c4"
+                },
+                {
+                  "sha": "7ad73cf",
+                  "message": "python-gnupg: update to 0.5.7",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/7ad73cfd65ca5885746fb1a7cd64086538dd385a"
+                },
+                {
+                  "sha": "018901e",
+                  "message": "pymysql: update to 1.2.3",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/018901e42bf87ccac86c634156f1d65e48362690"
+                },
+                {
+                  "sha": "5ed7712",
+                  "message": "django-restframework: update to 3.18.3",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/5ed7712f60037d84bd6be1104f19e3b655a3b7aa"
+                },
+                {
+                  "sha": "5df53ec",
+                  "message": "django: update to 6.1.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:28:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/5df53ec1eb64ddc9a58544abc5b649fb6be3fdfb"
+                },
+                {
+                  "sha": "9dd260b",
+                  "message": "python-gmpy2: update to 2.3.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/9dd260beeedd598807481dcb32cf8ebea3cc1209"
+                },
+                {
+                  "sha": "e86b522",
+                  "message": "python-maxminddb: update to 3.2.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/e86b52222ec4b2d5f1b8423c0b4f6c4c61d7c127"
+                },
+                {
+                  "sha": "e725f87",
+                  "message": "python-anyio: update to 4.15.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/e725f872d9a0dcd9df99cf0b28b12275a23af4f4"
+                },
+                {
+                  "sha": "69cc37b",
+                  "message": "python-vcs-versioning: update to 2.6.0",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/69cc37bc1b5ed5646d7ca876af76fffab172f921"
+                },
+                {
+                  "sha": "4fb23f5",
+                  "message": "python-setuptools-scm: update to 10.3.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:27:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/4fb23f5d4b270d288bc61b169b92be5895cbbb9b"
+                },
+                {
                   "sha": "a855eff",
                   "message": "fwupd: update to version 2.1.8",
                   "author": "Daniel Golle",
@@ -1939,111 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-12T09:43:40Z",
                   "url": "https://github.com/openwrt/packages/commit/61e45cc29b35bb453320868d0a41d645252a9b53"
-                },
-                {
-                  "sha": "6719605",
-                  "message": "python-maturin: update to 1.15.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/67196059599d19645472b97091ca869740fa70c8"
-                },
-                {
-                  "sha": "ede4e54",
-                  "message": "croc: update to v11.5.4",
-                  "author": "Jonas Jelonek",
-                  "date": "2026-10-12T08:50:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/ede4e54276bcc4dab975fc95a6567932e6e1035f"
-                },
-                {
-                  "sha": "6fb711f",
-                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
-                  "author": "Andrey Brusnik",
-                  "date": "2026-10-11T18:57:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/6fb711fed018a04030ffae4976030b7079c9a489"
-                },
-                {
-                  "sha": "8384d21",
-                  "message": "shunt: update to 0.1.12",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-11T18:43:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/8384d21802fc5686002f56962b8a4919d4626054"
-                },
-                {
-                  "sha": "c6086c5",
-                  "message": "travelmate: fix repeated retry rounds of a disabled uplink",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-11T18:33:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/c6086c538731b122b2b733e1c994ecc093d993b1"
-                },
-                {
-                  "sha": "40d387f",
-                  "message": "olsrd: ubus: forget an interface that is already gone",
-                  "author": "Simon Polack",
-                  "date": "2026-10-11T17:56:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/40d387f979dbb10174c05248024fc02b49d77ac7"
-                },
-                {
-                  "sha": "8b43768",
-                  "message": "babeld: fix issues in the ubus bindings and the init script",
-                  "author": "Nick Hainke",
-                  "date": "2026-10-11T13:56:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/8b437684c720c31c177f1544b5be735b62bac29d"
-                },
-                {
-                  "sha": "be08967",
-                  "message": "babeld: initialize metric in the ubus add_filter handler",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-11T13:56:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/be08967b42758de887aa59f18b1aa7190584f2f2"
-                },
-                {
-                  "sha": "6b9ae23",
-                  "message": "babeld: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-11T13:56:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/6b9ae23b8764bdf1490148ba256d6974e7bd50ec"
-                },
-                {
-                  "sha": "e4dda8c",
-                  "message": "haveged: update to 1.9.26",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-11T06:52:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/e4dda8c7acc9eb28dc034625a5b1517915649048"
-                },
-                {
-                  "sha": "36e35dd",
-                  "message": "xtables-addons: update to 3.31",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-11T06:36:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/36e35ddf4daa9679d3e94ba21b5397ba37d4559c"
-                },
-                {
-                  "sha": "3be7ceb",
-                  "message": "radicale3: security bump to version 3.8.3",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-11T06:34:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/3be7ceb2d8b1d0d19f3528d9010673d61e127d76"
-                },
-                {
-                  "sha": "0526d6d",
-                  "message": "openssh: update to 10.6_p1",
-                  "author": "John Audia",
-                  "date": "2026-10-10T09:40:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/0526d6d9cad0a9052fc9d49572e2f8968a1bf8dd"
-                },
-                {
-                  "sha": "0a7ea64",
-                  "message": "ariang: bump to 1.3.14",
-                  "author": "Roc Lai",
-                  "date": "2026-10-10T08:02:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/0a7ea64a967bc29e4f0b397a135da539eac4fd00"
-                },
-                {
-                  "sha": "bfdfc86",
-                  "message": "netcat: fix build with GCC 15",
-                  "author": "Marcin Maj",
-                  "date": "2026-10-10T07:58:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/bfdfc8620e9de708610c36b2f67e51856b205dae"
                 }
               ]
             },
@@ -5027,7 +5027,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92400,
+            "stars": 92402,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-13T00:07:18Z",
@@ -5166,7 +5166,7 @@
             "stars": 77283,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T13:24:24Z",
+            "pushed_at": "2026-10-13T13:30:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5355,10 +5355,10 @@
             }
           ],
           "last_commit": {
-            "sha": "38160e4",
-            "branch": "master",
-            "date": "2026-10-11T22:22:44Z",
-            "url": "https://github.com/netdata/netdata/commit/38160e40db1158064e389fe8e1bf2f9f12636990"
+            "sha": "6a7890a",
+            "branch": "cmorg",
+            "date": "2026-10-12T16:28:55Z",
+            "url": "https://github.com/netdata/netdata/commit/6a7890ad09e0b37e302869dbea41a16179c0f560"
           }
         },
         {
