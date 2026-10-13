@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:31:58.154586Z",
+  "generated_at": "2026-10-13T13:37:16.218919Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38811,
+            "stars": 38812,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34852,
+            "stars": 34853,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T12:38:17Z",
@@ -1181,7 +1181,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-13T13:29:10Z",
+            "pushed_at": "2026-10-13T13:34:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f310e9a",
+                  "message": "python-hatchling: update to 1.32.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/f310e9a09f9477974c387518dc7c255192fafdb4"
+                },
+                {
+                  "sha": "45d4439",
+                  "message": "python-trove-classifiers: update to 2026.9.21.13",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/45d443992c11de6dec6b96952eaa1032e2b0c123"
+                },
+                {
+                  "sha": "f06700c",
+                  "message": "python-iniconfig: update to 2.3.1",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/f06700cf74fd58f6e1d1ae61011b7027031942b4"
+                },
+                {
+                  "sha": "2f41268",
+                  "message": "python-platformdirs: update to 4.12.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/2f41268f3dacdfa06c1c4cd98679daeed2bcf8f9"
+                },
+                {
+                  "sha": "831b874",
+                  "message": "python-eventlet: update to 0.41.2",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-13T13:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/831b87467967fed3520769d7c017979a214be55b"
+                },
+                {
                   "sha": "c6a3acb",
                   "message": "python-flask-socketio: update to 5.7.0",
                   "author": "Alexandru Ardelean",
@@ -2009,41 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-12T09:44:19Z",
                   "url": "https://github.com/openwrt/packages/commit/1416520e8bd28e52eb465349c7adeb0fcdbe199e"
-                },
-                {
-                  "sha": "7d904ec",
-                  "message": "python-evdev: update to 2.0.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/7d904ec47641c7eea84a6c2e2b3a6dceafd9ae45"
-                },
-                {
-                  "sha": "98123c3",
-                  "message": "python-psycopg2: update to 2.9.13",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/98123c353a944f2b3ee1a13fbda880c00f2153a9"
-                },
-                {
-                  "sha": "2944b42",
-                  "message": "python-protobuf: update to 7.36.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/2944b4252a41ee9102f9cfa017201828cf579f05"
-                },
-                {
-                  "sha": "0c2d6eb",
-                  "message": "python-rpds-py: update to 2026.9.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/0c2d6eb2b43197dd78bbd71dadb94296f667b755"
-                },
-                {
-                  "sha": "61e45cc",
-                  "message": "python-cryptography: update to 50.0.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:43:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/61e45cc29b35bb453320868d0a41d645252a9b53"
                 }
               ]
             },
@@ -5166,7 +5166,7 @@
             "stars": 77283,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T13:30:55Z",
+            "pushed_at": "2026-10-13T13:34:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c061611",
-            "branch": "KD/edit-as-code-tracking",
-            "date": "2026-10-13T13:24:25Z",
-            "url": "https://github.com/grafana/grafana/commit/c061611b9fdb41e6ab97818faa9912bcd4100954"
+            "sha": "b686762",
+            "branch": "feat/panel-diagnostics-actions",
+            "date": "2026-10-13T13:29:50Z",
+            "url": "https://github.com/grafana/grafana/commit/b6867623e8148220e2bbcd284dff241d406ad1bd"
           }
         },
         {
@@ -5231,7 +5231,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66521,
+            "stars": 66520,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-13T13:09:57Z",
