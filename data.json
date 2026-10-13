@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:56:14.951773Z",
+  "generated_at": "2026-10-13T12:01:34.123762Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38807,
+            "stars": 38808,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -1034,7 +1034,7 @@
           "track": "releases",
           "meta": {
             "description": "A rule-based tunnel for Android.",
-            "stars": 230,
+            "stars": 231,
             "url": "https://github.com/Nemu-x/ClashFest",
             "default_branch": "feat/init-clashfest",
             "pushed_at": "2026-10-12T19:18:15Z",
@@ -1110,7 +1110,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28733,
+            "stars": 28734,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-13T11:54:53Z",
@@ -5182,6 +5182,15 @@
               "body": "[Download page](https://grafana.com/grafana/download/13.2.4)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134433](https://github.com/grafana/grafana/pull/134433), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134224](https://github.com/grafana/grafana/pull/134224), [@bestend](https://github.com/bestend)\n- **Git Sync:** Clarify repository links for pure Git [#134253](https://github.com/grafana/grafana/pull/134253), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Allow resource previews in unsynced folders [#134391](https://github.com/grafana/grafana/pull/134391), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Reject invalid resource names before API calls [#133776](https://github.com/grafana/grafana/pull/133776), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Show last checked time in Pull status [#134483](https://github.com/grafana/grafana/pull/134483), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Skip previews for pull requests from forks [#133799](https://github.com/grafana/grafana/pull/133799), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Stop PR previews when refs disappear [#133855](https://github.com/grafana/grafana/pull/133855), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Support legacy paths and diagnose missing source annotations [#133779](https://github.com/grafana/grafana/pull/133779), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** write terminal sync status back to repository on early sync-job failures and Respect Git Sync polling intervals after unchanged refs [#134478](https://github.com/grafana/grafana/pull/134478), [@mustafasencer](https://github.com/mustafasencer)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: SCIM (Enterprise)"
             },
             {
+              "name": "13.0.11",
+              "tag": "v13.0.11",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.11",
+              "published_at": "2026-10-13T11:56:40Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.0.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134426](https://github.com/grafana/grafana/pull/134426), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134228](https://github.com/grafana/grafana/pull/134228), [@bestend](https://github.com/bestend)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: Scim endpoints (Enterprise)"
+            },
+            {
               "name": "13.2.3",
               "tag": "v13.2.3",
               "url": "https://github.com/grafana/grafana/releases/tag/v13.2.3",
@@ -5207,22 +5216,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.0.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-81842"
-            },
-            {
-              "name": "12.4.12",
-              "tag": "v12.4.12",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.12",
-              "published_at": "2026-09-29T08:45:03Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.4.12)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-81842\n\n### Bug fixes\n\n- **Unified Storage:** Return 403 instead of 500 on namespace mismatch [#133595](https://github.com/grafana/grafana/pull/133595), [@pstibrany](https://github.com/pstibrany)"
             }
           ],
           "last_commit": {
-            "sha": "28d52c6",
-            "branch": "MissingRoberto/bound-repository-build-timeout",
-            "date": "2026-10-13T11:42:45Z",
-            "url": "https://github.com/grafana/grafana/commit/28d52c60f0adbba21db0a7dea2c0680b51ca5b6e"
+            "sha": "b164136",
+            "branch": "authz/legacy-permissions-routing",
+            "date": "2026-10-12T15:48:02Z",
+            "url": "https://github.com/grafana/grafana/commit/b164136d03de4f76e47d1cb31e98147f9278643c"
           }
         },
         {
@@ -5231,10 +5231,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66520,
+            "stars": 66521,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T11:42:06Z",
+            "pushed_at": "2026-10-13T11:59:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2efbddb",
+            "sha": "351c7f6",
             "branch": "main",
-            "date": "2026-10-13T11:42:08Z",
-            "url": "https://github.com/prometheus/prometheus/commit/2efbddb5bef34f7288814cda53724ba09497c53e"
+            "date": "2026-10-13T11:57:53Z",
+            "url": "https://github.com/prometheus/prometheus/commit/351c7f6548b22ba089d12eb420473b3bdf94a53f"
           }
         },
         {
