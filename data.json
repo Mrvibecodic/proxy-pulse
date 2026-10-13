@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:25:12.177906Z",
+  "generated_at": "2026-10-13T14:30:33.333269Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 34854,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T12:38:17Z",
+            "pushed_at": "2026-10-13T14:26:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Sun Oct 11 10:16:57 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: bound doh dials so ones the query gave up on cannot pile up by @Cassian433 in https://github.com/MetaCubeX/mihomo/pull/3274\n* fix: keep fake-ip allocation state when cloning the pool on reload by @drakeo338 in https://github.com/MetaCubeX/mihomo/pull/3283\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3304\n\n## New Contributors\n* @Cassian433 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3274\n* @drakeo338 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3283\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.32...Prerelease-Alpha"
+              "body": "Release created at  Tue Oct 13 22:26:56 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: bound doh dials so ones the query gave up on cannot pile up by @Cassian433 in https://github.com/MetaCubeX/mihomo/pull/3274\n* fix: keep fake-ip allocation state when cloning the pool on reload by @drakeo338 in https://github.com/MetaCubeX/mihomo/pull/3283\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3304\n* fix(listener): mark the embedded shadowsocks listener closed so its accept loop exits by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3314\n* fix: a sub-millisecond URL test is reported as a failure by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3316\n* fix: dialer-proxy cycle check takes quadratic time and memory by @TokenPLS in https://github.com/MetaCubeX/mihomo/pull/3315\n\n## New Contributors\n* @Cassian433 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3274\n* @drakeo338 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3283\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.32...Prerelease-Alpha"
             },
             {
               "name": "v1.19.32",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7445,
+            "stars": 7444,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-12T23:49:28Z",
@@ -5166,7 +5166,7 @@
             "stars": 77283,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T14:23:20Z",
+            "pushed_at": "2026-10-13T14:30:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9e312e3",
-            "branch": "authz/service-account-permissions-parity",
-            "date": "2026-10-13T14:20:21Z",
-            "url": "https://github.com/grafana/grafana/commit/9e312e3f53392503cefad8d6633a3fa41ed136f1"
+            "sha": "8272843",
+            "branch": "main",
+            "date": "2026-10-13T14:23:18Z",
+            "url": "https://github.com/grafana/grafana/commit/82728432e583d40fdbaf1d2a185afaf03903674f"
           }
         },
         {
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f810152",
+            "sha": "5fb9d86",
             "branch": "bwplotka/rw_receiver_appender_v2",
-            "date": "2026-10-13T13:09:58Z",
-            "url": "https://github.com/prometheus/prometheus/commit/f81015265343c69b4a389ca48025aac15a5c352c"
+            "date": "2026-10-12T16:58:57Z",
+            "url": "https://github.com/prometheus/prometheus/commit/5fb9d86e23008b2a128ee8c7f7a140894f073b85"
           }
         },
         {
@@ -5302,7 +5302,7 @@
             "stars": 80920,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-13T14:21:14Z",
+            "pushed_at": "2026-10-13T14:27:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
