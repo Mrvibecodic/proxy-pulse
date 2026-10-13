@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T12:59:54.522401Z",
+  "generated_at": "2026-10-13T13:10:39.651431Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42084,
+            "stars": 42085,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-13T04:31:15Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38809,
+            "stars": 38810,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-11T06:24:54Z",
@@ -220,7 +220,7 @@
             "stars": 46,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T12:53:12Z",
+            "pushed_at": "2026-10-13T13:09:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "005df26",
-            "branch": "fix/revoke-removed-vmess-user-connections",
-            "date": "2026-10-12T14:43:43Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/005df2619621c4d1257d0fd2e61f29cf3508520e"
+            "sha": "e70cf72",
+            "branch": "main",
+            "date": "2026-10-13T13:10:00Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/e70cf724eeb9f653af078f4fa0a7aae598372160"
           }
         }
       ]
@@ -5166,7 +5166,7 @@
             "stars": 77283,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T13:00:02Z",
+            "pushed_at": "2026-10-13T13:08:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5182,6 +5182,15 @@
               "body": "[Download page](https://grafana.com/grafana/download/13.2.4)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134433](https://github.com/grafana/grafana/pull/134433), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134224](https://github.com/grafana/grafana/pull/134224), [@bestend](https://github.com/bestend)\n- **Git Sync:** Clarify repository links for pure Git [#134253](https://github.com/grafana/grafana/pull/134253), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Allow resource previews in unsynced folders [#134391](https://github.com/grafana/grafana/pull/134391), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Reject invalid resource names before API calls [#133776](https://github.com/grafana/grafana/pull/133776), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Show last checked time in Pull status [#134483](https://github.com/grafana/grafana/pull/134483), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Skip previews for pull requests from forks [#133799](https://github.com/grafana/grafana/pull/133799), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Stop PR previews when refs disappear [#133855](https://github.com/grafana/grafana/pull/133855), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Support legacy paths and diagnose missing source annotations [#133779](https://github.com/grafana/grafana/pull/133779), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** write terminal sync status back to repository on early sync-job failures and Respect Git Sync polling intervals after unchanged refs [#134478](https://github.com/grafana/grafana/pull/134478), [@mustafasencer](https://github.com/mustafasencer)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: SCIM (Enterprise)"
             },
             {
+              "name": "13.1.8",
+              "tag": "v13.1.8",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.8",
+              "published_at": "2026-10-13T13:01:57Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.8)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134428](https://github.com/grafana/grafana/pull/134428), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134225](https://github.com/grafana/grafana/pull/134225), [@bestend](https://github.com/bestend)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: SCIM (Enterprise)"
+            },
+            {
               "name": "13.0.11",
               "tag": "v13.0.11",
               "url": "https://github.com/grafana/grafana/releases/tag/v13.0.11",
@@ -5191,6 +5200,15 @@
               "body": "[Download page](https://grafana.com/grafana/download/13.0.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134426](https://github.com/grafana/grafana/pull/134426), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134228](https://github.com/grafana/grafana/pull/134228), [@bestend](https://github.com/bestend)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: Scim endpoints (Enterprise)"
             },
             {
+              "name": "12.4.13",
+              "tag": "v12.4.13",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.13",
+              "published_at": "2026-10-13T13:09:03Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.13)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134424](https://github.com/grafana/grafana/pull/134424), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported (#128259) [#134229](https://github.com/grafana/grafana/pull/134229), [@bestend](https://github.com/bestend)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix CVE-2026-92539: Scim endpoints (Enterprise)"
+            },
+            {
               "name": "13.2.3",
               "tag": "v13.2.3",
               "url": "https://github.com/grafana/grafana/releases/tag/v13.2.3",
@@ -5198,31 +5216,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.3)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841"
-            },
-            {
-              "name": "13.1.7",
-              "tag": "v13.1.7",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.7",
-              "published_at": "2026-09-29T08:57:58Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841"
-            },
-            {
-              "name": "13.0.10",
-              "tag": "v13.0.10",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.10",
-              "published_at": "2026-09-29T08:54:36Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-81842"
             }
           ],
           "last_commit": {
-            "sha": "838fd4c",
-            "branch": "justinrandell/ds-apiserver-parse-ini-file",
-            "date": "2026-10-13T12:57:28Z",
-            "url": "https://github.com/grafana/grafana/commit/838fd4ce680798507481603256a9dad5ccede0c7"
+            "sha": "57ac469",
+            "branch": "router-discovery-x",
+            "date": "2026-10-13T13:08:49Z",
+            "url": "https://github.com/grafana/grafana/commit/57ac4698873d994aa9426dda6ab165f7d01601b0"
           }
         },
         {
@@ -5234,7 +5234,7 @@
             "stars": 66520,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T12:51:36Z",
+            "pushed_at": "2026-10-13T13:09:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4153e67",
-            "branch": "deps-update/github.com-hashicorp-nomad-api-digest",
-            "date": "2026-10-12T16:07:59Z",
-            "url": "https://github.com/prometheus/prometheus/commit/4153e676cc156820646466a8ff4b0a2152f528d8"
+            "sha": "f810152",
+            "branch": "bwplotka/rw_receiver_appender_v2",
+            "date": "2026-10-13T13:09:58Z",
+            "url": "https://github.com/prometheus/prometheus/commit/f81015265343c69b4a389ca48025aac15a5c352c"
           }
         },
         {
