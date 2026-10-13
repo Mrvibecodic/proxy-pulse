@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:22:05.756556Z",
+  "generated_at": "2026-10-13T09:27:22.573905Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42080,
+            "stars": 42081,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-13T04:31:15Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1477,
+            "stars": 1478,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-09-02T12:05:37Z",
@@ -1181,7 +1181,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-12T13:23:27Z",
+            "pushed_at": "2026-10-13T09:25:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3341,6 +3341,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "58302cd",
+                  "message": "radicale3: security bump to version 3.8.3",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-13T09:25:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/58302cd47159cc4c38b0f37a50746afa5d60807a"
+                },
+                {
+                  "sha": "dc3d726",
+                  "message": "radicale3: bump version 3.8.2",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-13T09:25:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/dc3d7269115543e91760ba1c026618e07bae668c"
+                },
+                {
                   "sha": "54d77dd",
                   "message": "openssh: update to 10.6_p1",
                   "author": "John Audia",
@@ -3535,20 +3549,6 @@
                   "author": "Martin Kennedy",
                   "date": "2026-10-08T05:15:43Z",
                   "url": "https://github.com/openwrt/packages/commit/c91401365735b3d306bc9e7eee5937ea98bd6eee"
-                },
-                {
-                  "sha": "bd51ffa",
-                  "message": "tor: update to 0.4.9.13 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-10-08T05:10:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/bd51ffa1e335190207a8a987578d9f26458abf5f"
-                },
-                {
-                  "sha": "e23a399",
-                  "message": "travelmate: minor cp fixes",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-06T19:12:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/e23a399810d77c68cb552d8a62e4e80bc2a4cda1"
                 }
               ]
             },
@@ -5166,7 +5166,7 @@
             "stars": 77288,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T09:21:38Z",
+            "pushed_at": "2026-10-13T09:27:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1447e8b",
-            "branch": "codex/datasource-proxy-tenant-safety",
-            "date": "2026-10-13T09:15:37Z",
-            "url": "https://github.com/grafana/grafana/commit/1447e8b09cd2dd2ac2458e15265b36773b60d56b"
+            "sha": "7a3b2ec",
+            "branch": "authz/legacy-permissions-routing",
+            "date": "2026-10-13T09:19:55Z",
+            "url": "https://github.com/grafana/grafana/commit/7a3b2ecd91582a56db53bbc3e6f9aa2cd82dfe10"
           }
         },
         {
@@ -5231,7 +5231,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66526,
+            "stars": 66527,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-13T08:26:14Z",
