@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T11:40:21.922938Z",
+  "generated_at": "2026-10-13T11:45:39.417171Z",
   "groups": [
     {
       "id": "cores",
@@ -5166,12 +5166,21 @@
             "stars": 77286,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T11:40:18Z",
+            "pushed_at": "2026-10-13T11:42:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.2.4",
+              "tag": "v13.2.4",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.4",
+              "published_at": "2026-10-13T11:41:03Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.2.4)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134433](https://github.com/grafana/grafana/pull/134433), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported [#134224](https://github.com/grafana/grafana/pull/134224), [@bestend](https://github.com/bestend)\n- **Git Sync:** Clarify repository links for pure Git [#134253](https://github.com/grafana/grafana/pull/134253), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Allow resource previews in unsynced folders [#134391](https://github.com/grafana/grafana/pull/134391), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Reject invalid resource names before API calls [#133776](https://github.com/grafana/grafana/pull/133776), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Show last checked time in Pull status [#134483](https://github.com/grafana/grafana/pull/134483), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Skip previews for pull requests from forks [#133799](https://github.com/grafana/grafana/pull/133799), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Stop PR previews when refs disappear [#133855](https://github.com/grafana/grafana/pull/133855), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Support legacy paths and diagnose missing source annotations [#133779](https://github.com/grafana/grafana/pull/133779), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** write terminal sync status back to repository on early sync-job failures and Respect Git Sync polling intervals after unchanged refs [#134478](https://github.com/grafana/grafana/pull/134478), [@mustafasencer](https://github.com/mustafasencer)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix: SCIM (Enterprise)"
+            },
             {
               "name": "13.2.3",
               "tag": "v13.2.3",
@@ -5207,22 +5216,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.4.12)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-81842\n\n### Bug fixes\n\n- **Unified Storage:** Return 403 instead of 500 on namespace mismatch [#133595](https://github.com/grafana/grafana/pull/133595), [@pstibrany](https://github.com/pstibrany)"
-            },
-            {
-              "name": "13.2.2",
-              "tag": "v13.2.2",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.2",
-              "published_at": "2026-09-15T12:21:32Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.2.2)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15815\n- Security: Fix CVE-2026-76154\n- Security: Fix CVE-2026-79656\n\n### Bug fixes\n\n- **Dashboards:** Preserve query variable refresh setting on v2 dashboard import [#132089](https://github.com/grafana/grafana/pull/132089), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])\n- **Provisioning:** Fix folder rename UID collision during full sync [#132157](https://github.com/grafana/grafana/pull/132157), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
             }
           ],
           "last_commit": {
-            "sha": "f693b4f",
-            "branch": "mckn/async-cache-mt-adapter",
-            "date": "2026-10-13T11:31:21Z",
-            "url": "https://github.com/grafana/grafana/commit/f693b4fb56c44f23529ecffa08a75e974716def0"
+            "sha": "28d52c6",
+            "branch": "MissingRoberto/bound-repository-build-timeout",
+            "date": "2026-10-13T11:42:45Z",
+            "url": "https://github.com/grafana/grafana/commit/28d52c60f0adbba21db0a7dea2c0680b51ca5b6e"
           }
         },
         {
@@ -5234,7 +5234,7 @@
             "stars": 66520,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-13T11:39:18Z",
+            "pushed_at": "2026-10-13T11:42:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e9b3de1",
-            "branch": "deps-update/react-app",
-            "date": "2026-10-13T11:21:37Z",
-            "url": "https://github.com/prometheus/prometheus/commit/e9b3de1351d7d35988d01d734ea2d00720d658a0"
+            "sha": "2efbddb",
+            "branch": "main",
+            "date": "2026-10-13T11:42:08Z",
+            "url": "https://github.com/prometheus/prometheus/commit/2efbddb5bef34f7288814cda53724ba09497c53e"
           }
         },
         {
