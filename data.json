@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:16:39.571439Z",
+  "generated_at": "2026-10-14T08:21:58.777165Z",
   "groups": [
     {
       "id": "cores",
@@ -1113,7 +1113,7 @@
             "stars": 28739,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T08:16:25Z",
+            "pushed_at": "2026-10-14T08:18:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1166,10 +1166,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9d849ee",
-            "branch": "main",
-            "date": "2026-10-14T08:14:40Z",
-            "url": "https://github.com/openwrt/openwrt/commit/9d849ee44d08e8ec9b21e7128cb4904d93cc5cb3"
+            "sha": "cb942af",
+            "branch": "master",
+            "date": "2026-10-14T08:16:26Z",
+            "url": "https://github.com/openwrt/openwrt/commit/cb942afd69696f98fddf3d91ae18d580cf490d70"
           }
         },
         {
@@ -1181,7 +1181,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T06:44:55Z",
+            "pushed_at": "2026-10-14T08:17:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "46160c1",
+                  "message": "shunt: update to 0.2.0",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-14T08:17:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/46160c1f5cca1dd80a7415e63cb9a65e92e103c0"
+                },
+                {
                   "sha": "9f9220d",
                   "message": "libreswan: reduce crypto deps",
                   "author": "Rosen Penev",
@@ -2037,13 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-12T09:44:48Z",
                   "url": "https://github.com/openwrt/packages/commit/2210aa91b67946b85139f97d756fe999bbe19152"
-                },
-                {
-                  "sha": "45e6bc3",
-                  "message": "python-build: update to 1.6.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:44:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/45e6bc3f6c348de0014b4c1078ab82722d91fba0"
                 }
               ]
             },
@@ -5166,7 +5166,7 @@
             "stars": 77307,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T08:16:32Z",
+            "pushed_at": "2026-10-14T08:18:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f489300",
+            "sha": "2632b4a",
             "branch": "fix/snapshot-api-migration",
-            "date": "2026-10-14T08:04:27Z",
-            "url": "https://github.com/grafana/grafana/commit/f489300a3ead0fd76eef1a0023dbbab41dc3587d"
+            "date": "2026-10-14T08:18:14Z",
+            "url": "https://github.com/grafana/grafana/commit/2632b4a4e338693d0b4816fc314f759e6670a3a5"
           }
         },
         {
@@ -5302,7 +5302,7 @@
             "stars": 80931,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T08:15:29Z",
+            "pushed_at": "2026-10-14T08:21:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5355,10 +5355,10 @@
             }
           ],
           "last_commit": {
-            "sha": "70720c1",
-            "branch": "dependabot/go_modules/src/go/github.com/aws/aws-sdk-go-v2/service/cloudwatch-1.73.3",
-            "date": "2026-10-14T08:15:22Z",
-            "url": "https://github.com/netdata/netdata/commit/70720c12154b42b902331da8f70a2044187c596e"
+            "sha": "193d966",
+            "branch": "master",
+            "date": "2026-10-14T08:19:23Z",
+            "url": "https://github.com/netdata/netdata/commit/193d96685bde8b6015e6da00a61708b43d08e625"
           }
         },
         {
@@ -5438,7 +5438,7 @@
             "stars": 29013,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T07:39:53Z",
+            "pushed_at": "2026-10-14T08:17:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5491,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0c83017",
-            "branch": "main",
-            "date": "2026-10-13T04:41:13Z",
-            "url": "https://github.com/grafana/loki/commit/0c83017b07ee34cb139c2942f863545fe2a0da25"
+            "sha": "f482e0a",
+            "branch": "grobinson/stream-count-wip",
+            "date": "2026-10-14T08:17:19Z",
+            "url": "https://github.com/grafana/loki/commit/f482e0a0f0140410834d9b6092cafc2d0816d9f5"
           }
         }
       ]
