@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:41:04.347969Z",
+  "generated_at": "2026-10-14T06:46:21.592791Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5213,
+            "stars": 5214,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:12:08Z",
@@ -1181,7 +1181,7 @@
             "stars": 4628,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-13T23:12:48Z",
+            "pushed_at": "2026-10-14T06:44:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9f9220d",
+                  "message": "libreswan: reduce crypto deps",
+                  "author": "Rosen Penev",
+                  "date": "2026-10-14T06:44:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/9f9220dcb8fcbbee5dea3d5e5aa8f9a1f10ef3f8"
+                },
+                {
                   "sha": "d4a141e",
                   "message": "ffmpeg: disable dcbzl and ppc4xx on e500 cores",
                   "author": "Josef Schlehofer",
@@ -2037,13 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-12T09:44:48Z",
                   "url": "https://github.com/openwrt/packages/commit/45e6bc3f6c348de0014b4c1078ab82722d91fba0"
-                },
-                {
-                  "sha": "38de5fd",
-                  "message": "python-pyproject-hooks: update to 1.3.3",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:44:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/38de5fd1946d7f065519fe3d1294bcc5e197fc37"
                 }
               ]
             },
@@ -4126,7 +4126,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16260,
+            "stars": 16261,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
