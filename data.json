@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:58:20.396667Z",
+  "generated_at": "2026-10-14T23:03:39.037031Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28744,
+            "stars": 28745,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-14T22:43:38Z",
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T22:17:16Z",
+            "pushed_at": "2026-10-14T23:01:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c6346c7",
+                  "message": "yt-dlp: bump to 2026.08.19",
+                  "author": "George Sapkin",
+                  "date": "2026-10-14T23:01:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6346c7ccddf66d62144363d6ed738ce1726501d"
+                },
+                {
                   "sha": "578631f",
                   "message": "dnsdist: update to 2.1.3",
                   "author": "Remi Gacogne",
@@ -2046,13 +2053,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:28:36Z",
                   "url": "https://github.com/openwrt/packages/commit/2a65a9586e65a8d2dbac5876ebc59aedab1740f2"
-                },
-                {
-                  "sha": "2fbf88b",
-                  "message": "python-zope-interface: update to 8.6",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:28:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/2fbf88b7209cd8253f386b827ad927c3ebad20c4"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aeebafe",
-            "branch": "papagian/setting-nats-watch",
-            "date": "2026-10-13T13:30:51Z",
-            "url": "https://github.com/grafana/grafana/commit/aeebafe48dd8381e09ec4dab13495d8c67de0d0c"
+            "sha": "4f6e9cc",
+            "branch": "ryan/move-appsdk-apiserver",
+            "date": "2026-10-13T11:03:49Z",
+            "url": "https://github.com/grafana/grafana/commit/4f6e9cc324a96625edca7d9a2aa8faa95ede01aa"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5081248",
-            "branch": "dataobj-section-bucket-pruning",
-            "date": "2026-10-13T13:00:03Z",
-            "url": "https://github.com/grafana/loki/commit/508124846df16b0982c316d4540c6f071e3389b0"
+            "sha": "afd2615",
+            "branch": "release-please--branches--release-3.7.x",
+            "date": "2026-10-14T20:41:06Z",
+            "url": "https://github.com/grafana/loki/commit/afd26153fe65ebc60721a6d18868dd543d41e1bb"
           }
         }
       ]
