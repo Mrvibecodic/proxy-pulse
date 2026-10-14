@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:31:30.570340Z",
+  "generated_at": "2026-10-14T13:36:55.684807Z",
   "groups": [
     {
       "id": "cores",
@@ -1181,7 +1181,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T12:14:28Z",
+            "pushed_at": "2026-10-14T13:35:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8fca16c",
+                  "message": "rsyslog: add an option to enable periodic statistics module support",
+                  "author": "Jean Thomas",
+                  "date": "2026-10-14T13:35:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/8fca16cd8a9165d34971a9643822b847955659d8"
+                },
+                {
                   "sha": "8eba6fb",
                   "message": "strongswan: bump PKG_RELEASE by one",
                   "author": "Florian Eckert",
@@ -2037,13 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:28:06Z",
                   "url": "https://github.com/openwrt/packages/commit/5df53ec1eb64ddc9a58544abc5b649fb6be3fdfb"
-                },
-                {
-                  "sha": "9dd260b",
-                  "message": "python-gmpy2: update to 2.3.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/9dd260beeedd598807481dcb32cf8ebea3cc1209"
                 }
               ]
             },
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26175,
+            "stars": 26176,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-13T16:42:30Z",
@@ -5166,7 +5166,7 @@
             "stars": 77308,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T13:26:12Z",
+            "pushed_at": "2026-10-14T13:36:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "38c393c",
-            "branch": "alerting/fix-silence-ability",
-            "date": "2026-10-14T13:24:35Z",
-            "url": "https://github.com/grafana/grafana/commit/38c393c421b04ce7f4494cfc4ebf649064bbb036"
+            "sha": "dc9b680",
+            "branch": "codex/datasource-proxy-destination-validation",
+            "date": "2026-10-13T07:51:42Z",
+            "url": "https://github.com/grafana/grafana/commit/dc9b68081311ff18b2512b23b78ec474b8e7e731"
           }
         },
         {
@@ -5287,10 +5287,10 @@
             }
           ],
           "last_commit": {
-            "sha": "82cbbe6",
-            "branch": "bwplotka/remove-appender-v1",
-            "date": "2026-10-14T12:06:44Z",
-            "url": "https://github.com/prometheus/prometheus/commit/82cbbe663b0a973221474b8b6bd6fc22737f29f1"
+            "sha": "5ee2181",
+            "branch": "main",
+            "date": "2026-10-14T13:29:46Z",
+            "url": "https://github.com/prometheus/prometheus/commit/5ee21818d8abd5677381d9d0e7bca27352e4f46b"
           }
         },
         {
@@ -5438,7 +5438,7 @@
             "stars": 29015,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T13:09:00Z",
+            "pushed_at": "2026-10-14T13:33:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
