@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T23:59:09.704540Z",
+  "generated_at": "2026-10-14T00:04:27.005183Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4e3e937",
+            "sha": "707bebe",
             "branch": "fix/vless-reverse-reader-release",
-            "date": "2026-10-12T22:31:18Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/4e3e937473457e92042233f33897b7b9c492f688"
+            "date": "2026-10-12T22:41:12Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/707bebeb290fc6324df4a1dec49c76befb0102e0"
           }
         }
       ]
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ce116ee",
-            "branch": "remove-datasource-type-from-iam",
-            "date": "2026-10-13T23:55:26Z",
-            "url": "https://github.com/grafana/grafana/commit/ce116ee94224af4a12522bd7ba81485fac2e39ae"
+            "sha": "dba3851",
+            "branch": "authz/service-account-permissions-parity",
+            "date": "2026-10-12T09:09:45Z",
+            "url": "https://github.com/grafana/grafana/commit/dba3851a9f2b58d72f177c5c444d215c92cf71b8"
           }
         },
         {
@@ -5299,7 +5299,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80924,
+            "stars": 80925,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-13T17:54:20Z",
@@ -5428,6 +5428,74 @@
             "date": "2026-10-12T11:46:32Z",
             "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/24c38088b9cf00eb774d35920adf4df2801ada62"
           }
+        },
+        {
+          "repo": "grafana/loki",
+          "title": "loki",
+          "track": "releases",
+          "meta": {
+            "description": "Like Prometheus, but for logs.",
+            "stars": 29010,
+            "url": "https://github.com/grafana/loki",
+            "default_branch": "main",
+            "pushed_at": "2026-10-13T22:34:32Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
+            "owner": "grafana"
+          },
+          "releases": [
+            {
+              "name": "operator: v0.12.0",
+              "tag": "operator/v0.12.0",
+              "url": "https://github.com/grafana/loki/releases/tag/operator/v0.12.0",
+              "published_at": "2026-10-07T17:51:23Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [0.12.0](https://github.com/grafana/loki/compare/operator/v0.11.0...operator/v0.12.0) (2026-10-07)\n\n\n### ⚠ BREAKING CHANGES\n\n* **operator:** Make schemas field required in storage spec ([#24716](https://github.com/grafana/loki/issues/24716))\n\n### Features\n\n* **operator:** Add CPU and memory utilization ratio telemetry recording rules ([#23379](https://github.com/grafana/loki/issues/23379)) ([4cc1c43](https://github.com/grafana/loki/commit/4cc1c43ebcce6ddb9daa9c2790def321aa292118))\n* **operator:** Add support for full TLS compliance for OCP 5.0 ([#24216](https://github.com/grafana/loki/issues/24216)) ([8ce415a](https://github.com/grafana/loki/commit/8ce415aed5014313ea1b735ac38ec8410c522664))\n* **operator:** Allow removal of expired schemas based on retention period ([#24456](https://github.com/grafana/loki/issues/24456)) ([16446f8](https://github.com/grafana/loki/commit/16446f87a3210d8db1836017b42e4a539e51403a))\n* **operator:** Enable flush_on_shutdown and increase ingester terminationGracePeriodSeconds ([#24325](https://github.com/grafana/loki/issues/24325)) ([90c3797](https://github.com/grafana/loki/commit/90c3797d8dfa463d0d6d7520e4f8d0d677a2467a))\n* **operator:** Make schemas field required in storage spec ([#24716](https://github.com/grafana/loki/issues/24716)) ([071148c](https://github.com/grafana/loki/commit/071148c19bc6051c6b2a7ec0027b54f893ea3275))\n* **operator:** Update Loki operand to 3.7.7 ([#24448](https://github.com/grafana/loki/issues/24448)) ([04417f4](https://github.com/grafana/loki/commit/04417f4851c5bf0bf826130242f2e083be516de9))\n* **operator:** Update Loki operand to 3.7.8 ([#24743](https://github.com/grafana/loki/issues/24743)) ([f1f1b23](https://github.com/grafana/loki/commit/f1f1b23ee27717f2f753abab323086a4eb524bd4))\n\n\n### Bug Fixes\n\n* **operator:** Align built-in certificate rotation defaults with OpenShift cert alert threshold ([#24106](https://github.com/grafana/loki/issues/24106)) ([32d3196](https://github.com/grafana/loki/commit/32d3196e508634630ab41a156de530231cce3480))\n* **operator:** Downgrade golangci-lint to Go 1.26 ([#24840](https://github.com/grafana/loki/issues/24840)) ([7ba6f55](https://github.com/grafana/loki/commit/7ba6f556340ded0e1d1f44af9816b3e494b1e6fa))\n* **operator:** Fix Go module and golangci-lint configuration ([#24346](https://github.com/grafana/loki/issues/24346)) ([101e8c4](https://github.com/grafana/loki/commit/101e8c4fece33f496e086f6369d738980aeba014))\n* **operator:** Migrate golangci-lint to use go tool instead of bingo ([#24823](https://github.com/grafana/loki/issues/24823)) ([aa902b4](https://github.com/grafana/loki/commit/aa902b4bd044c8a1b395ab0f9aa1590a3b668621))\n* **operator:** Set ingester terminationGracePeriodSeconds to 300s ([#24324](https://github.com/grafana/loki/issues/24324)) ([c0e79ac](https://github.com/grafana/loki/commit/c0e79ac4191f6171d16abdf779a5456d2b49e6dd))\n* **operator:** Update golangci-lint and add note for formatting conflict ([#24537](https://github.com/grafana/loki/issues/24537)) ([97d4cc7](https://github.com/grafana/loki/commit/97d4cc7f3f0c05639f1823004cc5a6e351149f72))\n* **operator:** Use explicit command for passthrough-gateway ([#24854](https://github.com/grafana/loki/issues/24854)) ([c376aea](https://github.com/grafana/loki/commit/c376aea05c6556c0a8c8eae08f6fd0fec72b3b1f))\n* **operator:** Validate passthrough gateway CA exists ([#23800](https://github.com/grafana/loki/issues/23800)) ([4e3fb38](https://github.com/grafana/loki/commit/4e3fb3853420f9b4794e8697f70e40ebc775959d))\n* **security/HIGH/operator:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (main) ([#24326](https://github.com/grafana/loki/issues/24326)) ([e9831ee](https://github.com/grafana/loki/commit/e9831eedac3f76a4eaee7c2929c07db520e7baee))\n* **security/HIGH/operator:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (main) ([#24427](https://github.com/grafana/loki/issues/24427)) ([89c21be](https://github.com/grafana/loki/commit/89c21becce99c9c4ca3da18beefe57599b4fb8bd))\n* **security/MEDIUM/operator/api/loki:** Update module golang.org/x/net to v0.55.0 [SECURITY] (main) ([#24597](https://github.com/grafana/loki/issues/24597)) ([c19e9bb](https://github.com/grafana/loki/commit/c19e9bba94e537e443683ef88dc19df4ca7f386f))\n* **security/UNKNOWN/operator/api/loki:** Update module golang.org/x/net to v0.56.0 [SECURITY] (main) ([#24862](https://github.com/grafana/loki/issues/24862)) ([f63d38a](https://github.com/grafana/loki/commit/f63d38a712f2dbb5086a2702f107f138aaf2af73))\n* **security/UNKNOWN/operator/api/loki:** Update module golang.org/x/text to v0.39.0 [SECURITY] (main) ([#24863](https://github.com/grafana/loki/issues/24863)) ([db962a4](https://github.com/grafana/loki/commit/db962a4f2baf6e3f619a068cc51f642e906c4c0e))\n* **security/UNKNOWN/operator:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.6.14 [SECURITY] (main) ([#24059](https://github.com/grafana/loki/issues/24059)) ([a912e03](https://github.com/grafana/loki/commit/a912e03797de6827ed83c249e84f3d41c46cbcec))\n* **security/UNKNOWN/operator:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.7.1 [SECURITY] (main) ([#24640](https://github.com/grafana/loki/issues/24640)) ([9211272](https://github.com/grafana/loki/commit/9211272117a8f69b2c3c5edf68f7bab5d76fa509))\n* **security/UNKNOWN/operator:** Update module golang.org/x/crypto to v0.56.0 [SECURITY] (main) ([#24334](https://github.com/grafana/loki/issues/24334)) ([185e3ae](https://github.com/grafana/loki/commit/185e3aea0ece2810dba04591b01575dd1263b005))"
+            },
+            {
+              "name": "v3.7.8",
+              "tag": "v3.7.8",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.7.8",
+              "published_at": "2026-09-17T15:51:10Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.7.8](https://github.com/grafana/loki/compare/v3.7.7...v3.7.8) (2026-09-17)\n\n\n### Bug Fixes\n\n* **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.7.x) ([#24433](https://github.com/grafana/loki/issues/24433)) ([4d5dc2b](https://github.com/grafana/loki/commit/4d5dc2b69863c155d29c2125f66f31f09166035a))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.7.x) ([#24328](https://github.com/grafana/loki/issues/24328)) ([0a01797](https://github.com/grafana/loki/commit/0a01797da781f4d715d48028ff45a63fc273cd6b))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.7.x) ([#24429](https://github.com/grafana/loki/issues/24429)) ([14b5da8](https://github.com/grafana/loki/commit/14b5da8339b001e765cb60c0cc15eaf44fb69fbd))\n* **security/MEDIUM/:** Update module github.com/containerd/containerd/v2 to v2.2.8 [SECURITY] (release-3.7.x) ([#24460](https://github.com/grafana/loki/issues/24460)) ([3e917f2](https://github.com/grafana/loki/commit/3e917f2086d97438017c3acae392a58799aa4198))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.56.0 [SECURITY] (release-3.7.x) ([#23422](https://github.com/grafana/loki/issues/23422)) ([41064da](https://github.com/grafana/loki/commit/41064da6e4c696b548d7a1dbb4e279d241c744f5))\n* **security/UNKNOWN/pkg/push:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.7.x) ([#23416](https://github.com/grafana/loki/issues/23416)) ([cd8e76d](https://github.com/grafana/loki/commit/cd8e76da123e93756448a2f8d56f94a9a86d7346))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.56.0 [SECURITY] (release-3.7.x) ([#24335](https://github.com/grafana/loki/issues/24335)) ([47149cb](https://github.com/grafana/loki/commit/47149cbb5c76384ee1599e2df82ad3e0cba5a824))"
+            },
+            {
+              "name": "v3.6.17",
+              "tag": "v3.6.17",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.6.17",
+              "published_at": "2026-09-17T11:41:38Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.6.17](https://github.com/grafana/loki/compare/v3.6.16...v3.6.17) (2026-09-09)\n\n\n### Bug Fixes\n\n* **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24330](https://github.com/grafana/loki/issues/24330)) ([d8d78f6](https://github.com/grafana/loki/commit/d8d78f6e86d80942b3b9438777c4bf324cae1184))\n* **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.6.x) ([#24444](https://github.com/grafana/loki/issues/24444)) ([6d21d6b](https://github.com/grafana/loki/commit/6d21d6b0a32cef7cd7e6599219d56745d065bbba))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24329](https://github.com/grafana/loki/issues/24329)) ([ed9df58](https://github.com/grafana/loki/commit/ed9df58cc7ca6c76178f0f707c7dd53d5a20a6d0))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.6.x) ([#24430](https://github.com/grafana/loki/issues/24430)) ([ee0ef56](https://github.com/grafana/loki/commit/ee0ef56505bfd4a95da450a36235a53ca1c94aad))\n* **security/MEDIUM/:** Update module github.com/containerd/containerd/v2 to v2.0.12 [SECURITY] (release-3.6.x) ([#24461](https://github.com/grafana/loki/issues/24461)) ([7fa1224](https://github.com/grafana/loki/commit/7fa1224d9f01d83656dc4754456a727b7fb572a0))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.55.0 [SECURITY] (release-3.6.x) ([#24256](https://github.com/grafana/loki/issues/24256)) ([85b2d4f](https://github.com/grafana/loki/commit/85b2d4fb134fe97e51ea6ef25e8da999d732bb8d))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.56.0 [SECURITY] (release-3.6.x) ([#24336](https://github.com/grafana/loki/issues/24336)) ([57bc922](https://github.com/grafana/loki/commit/57bc92283c01e1eba7744e111c881459a4c11e49))\n* **security/UNKNOWN/:** Update module golang.org/x/mod to v0.40.0 [SECURITY] (release-3.6.x) ([#23963](https://github.com/grafana/loki/issues/23963)) ([c08bf30](https://github.com/grafana/loki/commit/c08bf30195ba8e59a4b79729ad79fd634fdc5b70))"
+            },
+            {
+              "name": "v3.7.7",
+              "tag": "v3.7.7",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.7.7",
+              "published_at": "2026-08-27T20:20:03Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.7.7](https://github.com/grafana/loki/compare/v3.7.6...v3.7.7) (2026-08-27)\n\n\n### Features\n\n* Add flag to ignore missing chunks during deletion of logs with line filter [release-3.7.x] ([#24233](https://github.com/grafana/loki/issues/24233)) ([7a40404](https://github.com/grafana/loki/commit/7a40404f32b3e6464c9cfc6cc7dd75a40f3931da))\n\n\n### Bug Fixes\n\n* **security/UNKNOWN/:** Update module github.com/containerd/containerd/v2 to v2.2.5 [SECURITY] (release-3.7.x) ([#24097](https://github.com/grafana/loki/issues/24097)) ([07cd1f0](https://github.com/grafana/loki/commit/07cd1f0a43d5f742525249aa21f0e47b9d51c4ff))\n* **security/UNKNOWN/:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.6.14 [SECURITY] (release-3.7.x) ([#24061](https://github.com/grafana/loki/issues/24061)) ([9d1c9ee](https://github.com/grafana/loki/commit/9d1c9ee0164c020f8125046a7a9d67986c59320b))\n* **security/UNKNOWN/:** Update module golang.org/x/mod to v0.40.0 [SECURITY] (release-3.7.x) ([#23962](https://github.com/grafana/loki/issues/23962)) ([1d5e027](https://github.com/grafana/loki/commit/1d5e027b64370c19abf1495928fd0b89363680d7))\n* **storage:** Pre-compute SHA-256 to avoid aws-chunked on PutObject [release-3.7.x] ([#24215](https://github.com/grafana/loki/issues/24215)) ([3d6f245](https://github.com/grafana/loki/commit/3d6f245b74c52841e8e2ccc6e7883962bfdec7c0))"
+            },
+            {
+              "name": "v3.6.16",
+              "tag": "v3.6.16",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.6.16",
+              "published_at": "2026-08-27T21:54:42Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.6.16](https://github.com/grafana/loki/compare/v3.6.15...v3.6.16) (2026-08-27)\n\n\n### Features\n\n* Add flag to ignore missing chunks during deletion of logs with line filter [release-3.6.x] ([#24232](https://github.com/grafana/loki/issues/24232)) ([b87159f](https://github.com/grafana/loki/commit/b87159fa8cd7f93e2445e48e0c0409b403e56db7))\n\n\n### Bug Fixes\n\n* **security/UNKNOWN/:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.5.33 [SECURITY] (release-3.6.x) ([#24062](https://github.com/grafana/loki/issues/24062)) ([bf4b367](https://github.com/grafana/loki/commit/bf4b3670ff3e2eb9f29183d6dfb4d729b83f62ec))\n* **storage:** Pre-compute SHA-256 to avoid aws-chunked on PutObject [release-3.6.x] ([#24214](https://github.com/grafana/loki/issues/24214)) ([0a29895](https://github.com/grafana/loki/commit/0a29895fe461acbf848376a451896d9f8a542b3d))"
+            }
+          ],
+          "last_commit": {
+            "sha": "edc3765",
+            "branch": "pracucci/dataobj-frontend-routing",
+            "date": "2026-10-12T14:03:52Z",
+            "url": "https://github.com/grafana/loki/commit/edc3765ea2c552ccb2182a11c5629d20e9236c73"
+          }
         }
       ]
     },
@@ -5503,6 +5571,74 @@
             "branch": "dev",
             "date": "2026-10-07T11:55:56Z",
             "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c34700c7a5c4e72d1c3663ce61206e197a9f68d2"
+          }
+        },
+        {
+          "repo": "BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
+          "title": "remnawave-bedolaga-telegram-bot",
+          "track": "releases",
+          "meta": {
+            "description": "Система для продажи подписок в тг и вебе с вебадминкой интегрированный c Remnawave 3.0.0+ (https://docs.rw)",
+            "stars": 1167,
+            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
+            "default_branch": "main",
+            "pushed_at": "2026-10-06T12:09:46Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
+            "owner": "BEDOLAGA-DEV"
+          },
+          "releases": [
+            {
+              "name": "v5.0.0",
+              "tag": "v5.0.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v5.0.0",
+              "published_at": "2026-09-29T17:41:07Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [5.0.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.16.0...v5.0.0) (2026-09-29)\n\n\n### ⚠ BREAKING CHANGES\n\n* **infra:** существующим установкам на PostgreSQL 15 после обновления нужно один раз выполнить make pg-upgrade, до этого база не запускается. Подробно: https://docs.bedolagam.ru/getting-started/postgresql-18-upgrade\n\n### New Features\n\n* **infra:** PostgreSQL 18 — перенос базы командой make pg-upgrade: резервная копия, перенос со сверкой всех таблиц и счётчиков, откат на старый том; сторож не даёт стартовать на пустой базе ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))\n* **infra:** Python 3.14 в образе бота ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))\n\n\n### Bug Fixes\n\n* **admin:** удаление подписки через массовые действия не падает на ленивой подгрузке подписок пользователя ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))\n* **deps:** pyjwt 2.15.1 закрывает уязвимости проверки ключей при входе через Telegram OIDC; обновлены starlette, uvicorn, alembic и SQLAlchemy 2.1 ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))\n* **reachability:** пачка проверок BSCHEK больше не запускает платную пробу дважды ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))\n* **start:** правила и политика конфиденциальности при регистрации больше не падают на HTML из редактора кабинета ([4b78751](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4b7875162a8bef394e1b096d9e65179d6683d4a9))"
+            },
+            {
+              "name": "v4.16.0",
+              "tag": "v4.16.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.16.0",
+              "published_at": "2026-09-29T07:33:13Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [4.16.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.15.0...v4.16.0) (2026-09-29)\n\n\n### New Features\n\n* **broadcast:** атомарные фильтры аудитории рассылок, поиск пользователей и расчёт аудитории в момент отправки ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** автопродление подписки через СБП-подписки Cashera в боте и кабинете ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** возврат и чарджбэк по зачисленному платежу списывают баланс ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** свой экран оплаты — QR прямо в боте и на карточке пополнения кабинета ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **dpichecker:** раздел DPI//CHECKER — запуски и мониторы проверок, цели из панели, итоги админам, ручки кабинета и CSV в Mini App ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **menu:** живое главное меню — бот сам обновляет последнее rich-меню при смене трафика, статуса, устройств и баланса ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **payments:** платёжная система Cashera для пополнения баланса в боте и кабинете — СБП, карта, крипта ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **webapi:** таймлайн активности пользователя и галерея вложений во внешнем API ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* интеграция с внешним антифрод-сервисом ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n\n\n### Bug Fixes\n\n* **abuse:** письма только на подтверждённый адрес, кривой ответ сервиса не роняет экраны ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **balance:** подсказка, как повторить пополнение с неверной суммой ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **broadcast:** аудитория учитывает живые триалы и отрицания, люди из аудитории — только с правом на карточки пользователей ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cabinet:** документы и правила откатываются на язык по умолчанию, если текста нет ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **links:** внешние ссылки на файлы — схема и хост из заголовков прокси ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **logging:** ошибки stdlib-логгеров доезжают до админ-чата с текстом и traceback ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **panel:** сброс триала в мультитарифе стирает у человека id удалённого аккаунта ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **redis:** ожидающий пул соединений, размер и таймаут пула из .env ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **reminders:** условие «способ входа» не сводит vk_id с пустой строкой, сбой одного напоминания не роняет список и рассылку ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **tribute:** оплата не теряется — транзакция и зачисление одним коммитом, после зачисления без 5xx, тревога админам ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* алерты CodeQL — слабый хеш ключа DPI//CHECKER и кольца импортов ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n\n\n### Performance\n\n* **live-menu:** ключи живых меню через SCAN, а не KEYS ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))"
+            },
+            {
+              "name": "v4.15.0",
+              "tag": "v4.15.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.15.0",
+              "published_at": "2026-09-22T23:21:14Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [4.15.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.14.0...v4.15.0) (2026-09-22)\n\n\n### New Features\n\n* **reminders:** напоминания пользователям в бот и в кабинет — условия, тексты на языках, частота, лимиты, тихие часы, админ-API и права ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **referral:** напоминания о заявках на вывод без решения ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **promo-groups:** пересчёт групп по тратам при правке групп и по кнопке в кабинете ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **promo-groups:** клиент получает уведомление об автоназначении промогруппы в Telegram или на почту ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **broadcasts:** email-рассылка по промогруппе и одному пользователю из карточки ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **grace:** настройка обнулять счётчик трафика при выдаче grace, чтобы квота читалась как 0 из 1 ГБ ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin:** стартовое уведомление со сводкой по разделам и блоком «требует внимания» ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin:** уведомление об остановке бота — причина, аптайм, что делать дальше ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n\n\n### Bug Fixes\n\n* **account-linking:** привязка соцсети, занятой другим аккаунтом, предлагает слияние вместо тупика ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel-sync:** снимок панели не укорачивает и не гасит срок, за который недавно заплатили ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel-sync:** связь сохраняется после пересоздания удалённой учётки панели ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel:** «удалил подписку и купил заново» больше не наследует удалённый аккаунт панели ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **grace:** грейс по лимиту закрывается, когда трафик сбросился по расписанию ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **broadcasts:** одно письмо на человека в email-фильтрах по подписке ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **reminders:** отписанные от маркетинга не перекрывают очередь остальным ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **reminders:** устойчивость к гонке удаления, неизвестный тип кнопки, права для ролей Admin и Marketer ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin/payments:** успешные автопродления Platega СБП отображаются в платежах ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin-chat:** кнопки тикетов и заявок на вывод работают в групповом админ-чате, нерабочие не рисуются ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **referral:** напоминание о заявке на вывод с теми же кнопками, что у исходного уведомления ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **cabinet:** покупка тарифа из кабинета спрашивает настройки сброса трафика ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **cabinet:** email-регистрация по приглашениям ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **mulenpay:** вебхук без подписи проверяется через API и не падает на некорректном теле ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **nalogo:** чек НПД по покупке с лендинга только для оплат через YooKassa ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logging:** обрывы getUpdates не уходят в админ-чат отчётом об ошибке ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logs:** в сообщениях логов нет следов вырезанных подстановок ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logo:** заменённый файл логотипа показывается сразу ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **branding:** иконка приложения на Android без чёрных полос по краям ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))"
+            },
+            {
+              "name": "v4.14.0",
+              "tag": "v4.14.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.14.0",
+              "published_at": "2026-09-18T11:41:45Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [4.14.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.13.0...v4.14.0) (2026-09-18)\n\n### New Features\n\n* **subscription:** у старой подписки без тарифа нет продления — только переход на тариф ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n\n### Bug Fixes\n\n* **admin:** сегменты «Пользователей» считают по подписке, а не по сырому статусу ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n* **panel:** при переходе на тариф и возврате в одиночный режим аккаунт панели не создаётся заново ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n* **subscription:** старой подписке не продаются докупки — только переход на тариф ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n"
+            },
+            {
+              "name": "v4.13.0",
+              "tag": "v4.13.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.13.0",
+              "published_at": "2026-09-17T16:01:48Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [4.13.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.12.1...v4.13.0) (2026-09-17)\n\n\n### New Features\n\n* манифест и иконки приложения по адресу бота — кабинет ставится на Android как настоящее приложение ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сегмент «В грейсе» в списке пользователей ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сортировка пользователей в админке в обе стороны ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сортировка пользователей по концу временного доступа ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n\n\n### Bug Fixes\n\n* срок подписки считается по календарю, время — в поясе оператора ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* триальный тег снимается в панели после покупки подписки ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* у подписок, перенесённых из панели, 0 устройств в кабинете и боте ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* уведомления ЮKassa за прокси обрабатываются по единым правилам ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))"
+            }
+          ],
+          "last_commit": {
+            "sha": "12c92f8",
+            "branch": "main",
+            "date": "2026-10-06T12:09:48Z",
+            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/12c92f8e895638ab8d26b6af2ff77ac8ea91b9fd"
           }
         }
       ]
