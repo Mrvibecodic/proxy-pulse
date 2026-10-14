@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:10:38.430279Z",
+  "generated_at": "2026-10-14T12:15:57.241951Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38838,
+            "stars": 38839,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -1181,7 +1181,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T08:17:19Z",
+            "pushed_at": "2026-10-14T12:14:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8eba6fb",
+                  "message": "strongswan: bump PKG_RELEASE by one",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/8eba6fba6efc462643425b584798d914dbeac3f3"
+                },
+                {
+                  "sha": "c842467",
+                  "message": "strongswan: rework syslog facility levels in swanctl init",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/c842467f98096cfee7aa8ee0ffe2453b34df9cad"
+                },
+                {
+                  "sha": "194ce7f",
+                  "message": "strongswan: add uci option for aggressive mode PSK",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/194ce7f2a6db159d850f9b2530e9aba9cd3a6731"
+                },
+                {
+                  "sha": "ce2c80e",
+                  "message": "strongswan: group common charon config helpers",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce2c80e004835b74d6f132eb5ec9519071bc037e"
+                },
+                {
+                  "sha": "3860e09",
+                  "message": "strongswan: disable syslog groups in the opposite facility",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/3860e09c5a07896617829cb41e3f1befe9420b9f"
+                },
+                {
+                  "sha": "a3ebb95",
+                  "message": "strongswan: mark proposals and esp_proposals as optional",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/a3ebb9545a9c600ee16b00649cffe95efdb40b74"
+                },
+                {
+                  "sha": "eb8ea9a",
+                  "message": "strongswan: support additional key exchange methods",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-14T12:14:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/eb8ea9a7c5b3d0c3576bf2553be208b8ebf027b4"
+                },
+                {
                   "sha": "46160c1",
                   "message": "shunt: update to 0.2.0",
                   "author": "Dirk Brenken",
@@ -1995,55 +2044,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:27:49Z",
                   "url": "https://github.com/openwrt/packages/commit/9dd260beeedd598807481dcb32cf8ebea3cc1209"
-                },
-                {
-                  "sha": "e86b522",
-                  "message": "python-maxminddb: update to 3.2.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/e86b52222ec4b2d5f1b8423c0b4f6c4c61d7c127"
-                },
-                {
-                  "sha": "e725f87",
-                  "message": "python-anyio: update to 4.15.1",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/e725f872d9a0dcd9df99cf0b28b12275a23af4f4"
-                },
-                {
-                  "sha": "69cc37b",
-                  "message": "python-vcs-versioning: update to 2.6.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/69cc37bc1b5ed5646d7ca876af76fffab172f921"
-                },
-                {
-                  "sha": "4fb23f5",
-                  "message": "python-setuptools-scm: update to 10.3.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:27:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/4fb23f5d4b270d288bc61b169b92be5895cbbb9b"
-                },
-                {
-                  "sha": "a855eff",
-                  "message": "fwupd: update to version 2.1.8",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-12T13:23:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/a855effe82552e22cefc973cdd5af175c9364414"
-                },
-                {
-                  "sha": "9f24e4f",
-                  "message": "python-typing-extensions: drop the flit-core constraint patch",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:44:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/9f24e4f3d4a13617cd141c43fa8811b18be32808"
-                },
-                {
-                  "sha": "2210aa9",
-                  "message": "python-installer: drop the flit-core constraint patch",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-12T09:44:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/2210aa91b67946b85139f97d756fe999bbe19152"
                 }
               ]
             },
@@ -5166,7 +5166,7 @@
             "stars": 77309,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T12:06:35Z",
+            "pushed_at": "2026-10-14T12:16:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
