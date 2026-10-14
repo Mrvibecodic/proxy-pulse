@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:15:54.019299Z",
+  "generated_at": "2026-10-14T22:21:11.871179Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T19:12:35Z",
+            "pushed_at": "2026-10-14T22:17:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "84f4958",
+                  "message": "telegraf: update to 1.40.2",
+                  "author": "Niklas Thorild",
+                  "date": "2026-10-14T22:17:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/84f4958aff37296fc77a03b4592ee65ba8b9e7c2"
+                },
+                {
                   "sha": "bf57d93",
                   "message": "dnsdist: update to 2.0.11",
                   "author": "Remi Gacogne",
@@ -3551,13 +3558,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-08T14:37:31Z",
                   "url": "https://github.com/openwrt/packages/commit/705e1cc3beb7a0cb3ef53ba18a3ba1fed8f4342c"
-                },
-                {
-                  "sha": "d273675",
-                  "message": "strongswan: invalid dpd_action value 'start' in IPsec swanctl.conf",
-                  "author": "Philip Prindeville",
-                  "date": "2026-10-08T05:19:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/d27367596b8e163ec9206b91f2c1ab299746e7d2"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8f39468",
-            "branch": "mckn/async-cache-mt-adapter",
-            "date": "2026-10-13T13:21:22Z",
-            "url": "https://github.com/grafana/grafana/commit/8f39468de95cd9faa6a8fd9d86b8138b85fd1478"
+            "sha": "53ce0bf",
+            "branch": "rodrigopk/alerting-api-boundary-overrides",
+            "date": "2026-10-14T20:27:54Z",
+            "url": "https://github.com/grafana/grafana/commit/53ce0bf96ba04a4ca7389fbb806f6291cbdaf41f"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66558,
+            "stars": 66559,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-14T20:30:25Z",
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29020,
+            "stars": 29021,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-14T22:00:47Z",
