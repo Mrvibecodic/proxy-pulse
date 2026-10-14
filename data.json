@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T19:09:44.530967Z",
+  "generated_at": "2026-10-14T19:15:03.255149Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 28744,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T16:40:30Z",
+            "pushed_at": "2026-10-14T19:14:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T19:03:55Z",
+            "pushed_at": "2026-10-14T19:12:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "578631f",
+                  "message": "dnsdist: update to 2.1.3",
+                  "author": "Remi Gacogne",
+                  "date": "2026-10-14T19:12:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/578631f9b52d393d98e3d44d2d90bdbcbc042ad8"
+                },
+                {
                   "sha": "7635cb9",
                   "message": "telegraf: update to 1.40.2",
                   "author": "Niklas Thorild",
@@ -2046,13 +2053,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:28:06Z",
                   "url": "https://github.com/openwrt/packages/commit/2fbf88b7209cd8253f386b827ad927c3ebad20c4"
-                },
-                {
-                  "sha": "7ad73cf",
-                  "message": "python-gnupg: update to 0.5.7",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:28:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/7ad73cfd65ca5885746fb1a7cd64086538dd385a"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "bf57d93",
+                  "message": "dnsdist: update to 2.0.11",
+                  "author": "Remi Gacogne",
+                  "date": "2026-10-14T19:12:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/bf57d935151d0e6456b90f937558962a031521a5"
+                },
+                {
                   "sha": "54fab7f",
                   "message": "golang: bump 1.26 to 1.26.9",
                   "author": "George Sapkin",
@@ -3551,13 +3558,6 @@
                   "author": "Philip Prindeville",
                   "date": "2026-10-08T05:19:50Z",
                   "url": "https://github.com/openwrt/packages/commit/d27367596b8e163ec9206b91f2c1ab299746e7d2"
-                },
-                {
-                  "sha": "18a7f87",
-                  "message": "strongswan: update to 6.0.7",
-                  "author": "Philip Prindeville",
-                  "date": "2026-10-08T05:19:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/18a7f87009879f166a754c66431eaa6c08b0c16c"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77273,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T19:06:20Z",
+            "pushed_at": "2026-10-14T19:12:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "03cdeda",
-            "branch": "adela/text-v2-csp-frame-consent",
-            "date": "2026-10-14T16:44:54Z",
-            "url": "https://github.com/grafana/grafana/commit/03cdeda332b96d5998d0c84bf155db85210dee62"
+            "sha": "b2a87b5",
+            "branch": "main",
+            "date": "2026-10-14T18:26:18Z",
+            "url": "https://github.com/grafana/grafana/commit/b2a87b5d16df8e425874ded97eacce7d9c2d7cb3"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66549,
+            "stars": 66550,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-14T19:00:51Z",
@@ -5311,7 +5311,7 @@
             "stars": 80937,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-14T18:29:11Z",
+            "pushed_at": "2026-10-14T19:11:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bf97c84",
+            "sha": "6108bbe",
             "branch": "master",
-            "date": "2026-10-12T21:31:05Z",
-            "url": "https://github.com/netdata/netdata/commit/bf97c8406e47934b52a5d36465445723698c680a"
+            "date": "2026-10-14T18:29:13Z",
+            "url": "https://github.com/netdata/netdata/commit/6108bbe0e4877a3732f8ac3c5943813371446763"
           }
         },
         {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cd7c39c",
+            "sha": "703f596",
             "branch": "main",
-            "date": "2026-10-14T18:21:48Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/cd7c39cfcb6c364751d4b55bab887c11b5ebd859"
+            "date": "2026-10-14T18:32:14Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/703f5963c3b2e851a5a30240ecf4ddf50b18d310"
           }
         }
       ]
