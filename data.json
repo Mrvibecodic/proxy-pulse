@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T15:46:50.413305Z",
+  "generated_at": "2026-10-15T15:52:10.140970Z",
   "groups": [
     {
       "id": "cores",
@@ -4863,12 +4863,21 @@
             "stars": 123,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T15:38:57Z",
+            "pushed_at": "2026-10-15T15:51:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.0.0",
+              "tag": "v7.0.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.0.0",
+              "published_at": "2026-10-15T15:51:02Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.0.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.0.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v6.9.0",
               "tag": "v6.9.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v6.7.1\r\n\r\nKeep stack tun options when rewriting the tun block.\r\n- A mode or stack change still replaces capture flags, and it now carries over udp-timeout, MTU, GSO, and the other scalars that only affect the tun stack.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.7.0",
-              "tag": "v6.7.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.0",
-              "published_at": "2026-10-06T00:57:59Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.7.0\r\n\r\nKeep Server mode to Mihomo only when leaving Gateway.\r\n- Save used to record Server before teardown, so firewall, routing and DNS from Gateway stayed behind. Hidden gateway controls no longer stay visible or rewrite the proxy config.\r\n\r\nUpdate the bundled Mihomo config.\r\n\r\nSeed an inbound listeners example when Server mode has no config.\r\n- A fresh start with OPERATING_MODE=server writes that template; an existing config.yaml is left unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92496,
+            "stars": 92495,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-15T00:06:21Z",
@@ -5175,7 +5175,7 @@
             "stars": 77299,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T15:43:24Z",
+            "pushed_at": "2026-10-15T15:49:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66571,
+            "stars": 66572,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-15T14:17:28Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 80964,
+            "stars": 80963,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-15T14:34:05Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a11e942",
-            "branch": "integrations-regen",
-            "date": "2026-10-14T09:57:11Z",
-            "url": "https://github.com/netdata/netdata/commit/a11e942842f4ffe650fa4e6b21f506bf31ef751e"
+            "sha": "2760260",
+            "branch": "master",
+            "date": "2026-10-14T09:59:29Z",
+            "url": "https://github.com/netdata/netdata/commit/2760260f24be80da735b38bf3828715b3e60101e"
           }
         },
         {
@@ -5379,7 +5379,7 @@
             "stars": 17864,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-15T14:21:02Z",
+            "pushed_at": "2026-10-15T15:49:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,7 +5447,7 @@
             "stars": 29025,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T15:43:22Z",
+            "pushed_at": "2026-10-15T15:50:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
