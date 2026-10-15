@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:13:26.339957Z",
+  "generated_at": "2026-10-15T16:18:48.279220Z",
   "groups": [
     {
       "id": "cores",
@@ -564,7 +564,7 @@
         {
           "repo": "Mrvibecodic/clod-clash-android",
           "title": "Clod Clash Android",
-          "track": "releases",
+          "track": "commits",
           "meta": {
             "description": null,
             "stars": 13,
@@ -575,59 +575,223 @@
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
-          "releases": [
+          "branches": [
             {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.9",
-              "tag": "android-v0.1.23-alpha.9",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.9",
-              "published_at": "2026-10-13T23:38:23Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Уведомления о новой версии приложения: проверка идёт сама, без открытой программы. Отключаются в настройках переключателем «Уведомления об обновлениях».\n\n### Исправлено\n\n- Уведомление об остановке VPN приходит отдельным каналом со звуком и не теряется, если выключено постоянное уведомление VPN.\n- Серверы только для мобильной сети больше не остаются скрытыми после подключения в мобильной сети.\n- На Android 6–12 переключатели уведомлений в настройках неактивны, когда уведомления запрещены в системе."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.8",
-              "tag": "android-v0.1.23-alpha.8",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.8",
-              "published_at": "2026-10-11T23:40:47Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Изменено\n\n- После обновления проверьте «Ещё» → «Приложения»: теперь по умолчанию через VPN идут только отмеченные приложения, а режим «Разрешить все» сброшен — без отметок приложения работают без VPN.\n- При записи журнала сохраняются последние 25 МБ, а не первые.\n\n### Исправлено\n\n- VPN и значок в шторке больше не пропадают после долгой работы.\n- Если VPN остановился из-за сбоя, об этом сообщает уведомление — раньше он мог отключиться молча.\n- У вложенной группы в списке видна задержка сервера, выбранного в ней сейчас."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.7",
-              "tag": "android-v0.1.23-alpha.7",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.7",
-              "published_at": "2026-10-10T17:34:43Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n\n- Внутренние улучшения стабильности фоновой работы."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.6",
-              "tag": "android-v0.1.23-alpha.6",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.6",
-              "published_at": "2026-10-09T13:30:39Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Провайдер может скрыть у серверов подпись протокола и транспорта заголовком подписки `clod-hide-badges`.\n\n### Исправлено\n\n- После долгой работы и смен сети пинги и обновление подписки больше не перестают работать — раньше помогал только перезапуск приложения или телефона.\n- Обновление подписки не висит на карточке дольше самой загрузки."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.5",
-              "tag": "android-v0.1.23-alpha.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.5",
-              "published_at": "2026-10-08T13:07:18Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Серверы только для мобильной сети: провайдер может отдать их список заголовком подписки `clod-mobile-only`. В сети SIM такие серверы видны с пометкой «моб. сеть», в Wi-Fi и других сетях их нет ни в группах, ни в списке серверов; группа с таким выбранным сервером идёт через первый видимый и в мобильной сети возвращается к нему.\n- У серверов виден транспорт — например «VLESS RAW (TCP) · Reality», как в панели провайдера.\n- В свойствах подписки виден отпечаток ключа защищённого соединения.\n- Сервисы Google Play и заводские приложения со значком в меню телефона видны в списке приложений туннеля без фильтра «Системные».\n- Политика конфиденциальности на русском языке.\n\n### Изменено\n\n- Главный экран быстрее показывает актуальное состояние; выбор сервера не теряется при смене подписки и остаётся у той подписки, где его сделали.\n- Загрузка и обновление подписки идут без лишних чтений и записей; меньше фоновой работы при смене сети.\n\n### Исправлено\n\n- Защищённое соединение с подпиской надёжнее — и при добавлении подписки, и при обновлении."
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "264eea4",
+                  "message": "docs(android): режим «Разрешить все приложения» не рекомендуется",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:58:55Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/264eea41729e14500d52972646cbd75da25fa4f6"
+                },
+                {
+                  "sha": "5a41a4f",
+                  "message": "docs(android): приложения для VPN — отмечать нужные",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:57:01Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/5a41a4f30d59ec4b48af1b89d4d1f96d8c9d7c5f"
+                },
+                {
+                  "sha": "76256b5",
+                  "message": "ci(android): проверка сайта документации под разделы для пользователя и провайдера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:53:36Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/76256b5bc6a38f69cb90c001a47dbd51839e81ec"
+                },
+                {
+                  "sha": "7b9b747",
+                  "message": "fix(android): подтверждение сброса настроек верно называет режим «Приложения» после сброса",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:52:05Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/7b9b747ade7c4021cbd53a2ee6f91dedcea17bf2"
+                },
+                {
+                  "sha": "b51a10c",
+                  "message": "docs(android): документация в двух разделах — для пользователя и для провайдера",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:52:05Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/b51a10c9611b2cec7eac27fe4f79a13b76c5d43e"
+                },
+                {
+                  "sha": "3d004f2",
+                  "message": "test(android): скриншоты документации на реалистичных демо-данных",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T20:52:05Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3d004f2755726512eb1872146910d245e908b736"
+                },
+                {
+                  "sha": "8ef9489",
+                  "message": "docs(android): проверка серверов и служебная статистика — заголовки подписки и политика конфиденциальности",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T13:15:27Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/8ef94891d45892cb2f4dd3ab14c5f8f60eb49425"
+                },
+                {
+                  "sha": "3da3599",
+                  "message": "fix(android): отклонённая служебная статистика не отправляется повторно, итоги проверок прежней версии в неё не попадают",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T13:15:27Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3da359995c0e0023fd54bbd556b31e8998251000"
+                },
+                {
+                  "sha": "eb682d1",
+                  "message": "fix(android): серверы с диапазоном портов попадают в служебную статистику",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T13:15:27Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/eb682d13f4d33c7a2c9e6d29ededa9827cda0204"
+                },
+                {
+                  "sha": "b63dbf1",
+                  "message": "fix(android): служебная статистика не путает подписки при их смене",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T13:15:27Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/b63dbf10faa9c96b7c33045e3a249e3f8b35faff"
+                },
+                {
+                  "sha": "9463cbf",
+                  "message": "fix(android): пометка сервера — одним значком и только после нескольких проверок подряд",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T13:15:27Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/9463cbf574262d2edba387b3cb4af4912b7fc491"
+                },
+                {
+                  "sha": "3901a45",
+                  "message": "fix(android): ссылка на подписку всегда добавляет подписку по адресу",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-14T10:45:02Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3901a45001e18783fdd809f73b46470e6f8c7c87"
+                },
+                {
+                  "sha": "f84ca6c",
+                  "message": "fix(android): у сервера, который отвечает на пинг, нет пометки «не отвечает»",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:49:09Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/f84ca6cb8b005454900b0980c9cbd108f57b81de"
+                },
+                {
+                  "sha": "cca8688",
+                  "message": "chore(release): 0.1.23-alpha.9",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:18:20Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/cca8688e6e5a9e8495b0159a3d05589c72ad081d"
+                },
+                {
+                  "sha": "b34f196",
+                  "message": "ci(android): сборка проверяет свежие правки ядра",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/b34f196bbb805c3b4c6213ddb3ad1057decb1df5"
+                },
+                {
+                  "sha": "80c53e2",
+                  "message": "docs(android): политика конфиденциальности и страницы о подписке и заголовках",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/80c53e2246a5bf9222f245598f04e7436ca2a1db"
+                },
+                {
+                  "sha": "a888f61",
+                  "message": "fix(android): на Android 6–12 переключатели уведомлений неактивны, когда уведомления запрещены в системе",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/a888f6187691ff40af561c3095fbbef923f706b4"
+                },
+                {
+                  "sha": "0a811d6",
+                  "message": "fix(android): серверы только для мобильной сети не остаются скрытыми после подключения в мобильной сети",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/0a811d62309f413bbe9b0054b90fe2200d4b1e75"
+                },
+                {
+                  "sha": "4d7233c",
+                  "message": "fix(android): уведомление об остановке VPN приходит отдельным каналом со звуком",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/4d7233c6dd886091f68a12cec84735f480415f24"
+                },
+                {
+                  "sha": "9e32da8",
+                  "message": "fix(android): на телефоне с двумя SIM мобильная сеть узнаётся по SIM для интернета",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/9e32da8d59d656848cfcc0e7abca2a3923ccf0bc"
+                },
+                {
+                  "sha": "aa9f0ff",
+                  "message": "fix(android): пометки серверов ставятся только после повторной проверки и снимаются, когда сервер ответил",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/aa9f0ff26dbf88e261732ddf3b6f4aa517e68075"
+                },
+                {
+                  "sha": "c2f757b",
+                  "message": "fix(android): служебная статистика собирается, только когда провайдер подтвердил её приём",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-13T23:04:00Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/c2f757b21c6106f760bfe07e2fc2a4ac93c362bf"
+                },
+                {
+                  "sha": "7c306ad",
+                  "message": "docs(android): уведомления об обновлениях",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-12T14:33:06Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/7c306adb3d70ed91bc181910873fe728194daa94"
+                },
+                {
+                  "sha": "7d34c1b",
+                  "message": "test(android): уведомление о новой версии",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-12T14:33:06Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/7d34c1b6703aee53b2843c7eee9fe9f85a2f3a0b"
+                },
+                {
+                  "sha": "b934393",
+                  "message": "feat(android): уведомление о новой версии приложения",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-12T14:33:06Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/b934393a2c8a84cd1310a3afa0419be86b6329c2"
+                },
+                {
+                  "sha": "473181d",
+                  "message": "fix(android): отчёт уходит со своей карточкой устройства",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-12T12:17:44Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/473181dc5e735a4769653210cc54e85fa5e1187a"
+                },
+                {
+                  "sha": "c83b114",
+                  "message": "chore(release): 0.1.23-alpha.8",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-11T23:29:03Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/c83b114666268de8913c1112f3bb2f61d770bbeb"
+                },
+                {
+                  "sha": "84150da",
+                  "message": "test(android): режим приложений по умолчанию",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-11T23:18:08Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/84150da1aca1aced76683f269dfe7a0e92229850"
+                },
+                {
+                  "sha": "3323782",
+                  "message": "docs(android): режим приложений по умолчанию",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-11T23:18:08Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/3323782f64c1af181ac2fd6b056256094093dc21"
+                },
+                {
+                  "sha": "e50f0fb",
+                  "message": "fix(android): подсказка на экране «Приложения», когда ничего не выбрано",
+                  "author": "Mrvibecodic",
+                  "date": "2026-10-11T23:18:08Z",
+                  "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/e50f0fbfa8a53f6d5d229f35032e7bcc4b53be0f"
+                }
+              ]
             }
-          ],
-          "last_commit": {
-            "sha": "cca8688",
-            "branch": "main",
-            "date": "2026-10-13T23:26:19Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash-android/commit/cca8688e6e5a9e8495b0159a3d05589c72ad081d"
-          }
+          ]
         },
         {
           "repo": "coolcoala/koala-clash",
@@ -4265,7 +4429,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5366,
+            "stars": 5367,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-15T00:32:27Z",
@@ -4968,7 +5132,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray Checker: A Prometheus exporter for monitoring Xray proxies",
-            "stars": 928,
+            "stars": 929,
             "url": "https://github.com/kutovoys/xray-checker",
             "default_branch": "main",
             "pushed_at": "2026-09-10T05:41:53Z",
@@ -5172,10 +5336,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77299,
+            "stars": 77300,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T16:13:29Z",
+            "pushed_at": "2026-10-15T16:15:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5392,10 @@
             }
           ],
           "last_commit": {
-            "sha": "17976a3",
-            "branch": "backport-134731-to-release-13.2.5",
-            "date": "2026-10-15T09:30:54Z",
-            "url": "https://github.com/grafana/grafana/commit/17976a3c30fd9b117cd089cb8b88fcea1bc4052f"
+            "sha": "302fb9e",
+            "branch": "MissingRoberto/provisioning-bundle-capability",
+            "date": "2026-10-15T09:54:42Z",
+            "url": "https://github.com/grafana/grafana/commit/302fb9e5cf60fd916f4d92ed7251c158931eed2c"
           }
         },
         {
@@ -5296,10 +5460,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6f01fa9",
-            "branch": "main",
-            "date": "2026-10-14T11:37:46Z",
-            "url": "https://github.com/prometheus/prometheus/commit/6f01fa9c5ffcbe71a5ed9e4132d9bb60c4aae85a"
+            "sha": "79cceab",
+            "branch": "roidelapluie/query-cost-backend",
+            "date": "2026-10-15T08:43:54Z",
+            "url": "https://github.com/prometheus/prometheus/commit/79cceab0185de28ab523a1ac73954e05e39beb4f"
           }
         },
         {
@@ -5432,10 +5596,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7b7001f",
-            "branch": "indexdb-adjust-tr",
-            "date": "2026-10-15T08:58:56Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7b7001f925aa295a0bcee94c4375efc7096c5e04"
+            "sha": "2e0530e",
+            "branch": "dashboards-concurent-inserts",
+            "date": "2026-10-14T11:48:12Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/2e0530eae8e17f1db35a9bc3d8975005c8fec495"
           }
         },
         {
