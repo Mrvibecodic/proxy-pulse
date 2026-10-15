@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:51:35.829234Z",
+  "generated_at": "2026-10-15T19:56:55.394653Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,7 +5175,7 @@
             "stars": 77302,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T19:50:46Z",
+            "pushed_at": "2026-10-15T19:56:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,12 +5447,21 @@
             "stars": 29026,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T19:40:54Z",
+            "pushed_at": "2026-10-15T19:55:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v3.6.18",
+              "tag": "v3.6.18",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.6.18",
+              "published_at": "2026-10-15T19:55:55Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.6.18](https://github.com/grafana/loki/compare/v3.6.17...v3.6.18) (2026-10-15)\n\n\n### Bug Fixes\n\n* **deps:** Update dependencies related to otel for 3.6 ([#25180](https://github.com/grafana/loki/issues/25180)) ([603de5a](https://github.com/grafana/loki/commit/603de5ad370c2b45ca38f031a8116257b018d89c))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.6.x) ([#24619](https://github.com/grafana/loki/issues/24619)) ([3e7c0ed](https://github.com/grafana/loki/commit/3e7c0ed5c6aaf287325dfda43c1cb1e90eeceaa8))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-3.6.x) ([#24620](https://github.com/grafana/loki/issues/24620)) ([ad5a87c](https://github.com/grafana/loki/commit/ad5a87c611d386ac9b33ae04dfdd674a4620f72d))\n* **security:** Bump Go to 1.26.9 [SECURITY] (release-3.6.x) ([#25193](https://github.com/grafana/loki/issues/25193)) ([c969f5c](https://github.com/grafana/loki/commit/c969f5cf4b4ca6073d29e0a74b236f4d05d7b79a))"
+            },
             {
               "name": "operator: v0.12.0",
               "tag": "operator/v0.12.0",
@@ -5488,22 +5497,13 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [3.7.7](https://github.com/grafana/loki/compare/v3.7.6...v3.7.7) (2026-08-27)\n\n\n### Features\n\n* Add flag to ignore missing chunks during deletion of logs with line filter [release-3.7.x] ([#24233](https://github.com/grafana/loki/issues/24233)) ([7a40404](https://github.com/grafana/loki/commit/7a40404f32b3e6464c9cfc6cc7dd75a40f3931da))\n\n\n### Bug Fixes\n\n* **security/UNKNOWN/:** Update module github.com/containerd/containerd/v2 to v2.2.5 [SECURITY] (release-3.7.x) ([#24097](https://github.com/grafana/loki/issues/24097)) ([07cd1f0](https://github.com/grafana/loki/commit/07cd1f0a43d5f742525249aa21f0e47b9d51c4ff))\n* **security/UNKNOWN/:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.6.14 [SECURITY] (release-3.7.x) ([#24061](https://github.com/grafana/loki/issues/24061)) ([9d1c9ee](https://github.com/grafana/loki/commit/9d1c9ee0164c020f8125046a7a9d67986c59320b))\n* **security/UNKNOWN/:** Update module golang.org/x/mod to v0.40.0 [SECURITY] (release-3.7.x) ([#23962](https://github.com/grafana/loki/issues/23962)) ([1d5e027](https://github.com/grafana/loki/commit/1d5e027b64370c19abf1495928fd0b89363680d7))\n* **storage:** Pre-compute SHA-256 to avoid aws-chunked on PutObject [release-3.7.x] ([#24215](https://github.com/grafana/loki/issues/24215)) ([3d6f245](https://github.com/grafana/loki/commit/3d6f245b74c52841e8e2ccc6e7883962bfdec7c0))"
-            },
-            {
-              "name": "v3.6.16",
-              "tag": "v3.6.16",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.6.16",
-              "published_at": "2026-08-27T21:54:42Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.6.16](https://github.com/grafana/loki/compare/v3.6.15...v3.6.16) (2026-08-27)\n\n\n### Features\n\n* Add flag to ignore missing chunks during deletion of logs with line filter [release-3.6.x] ([#24232](https://github.com/grafana/loki/issues/24232)) ([b87159f](https://github.com/grafana/loki/commit/b87159fa8cd7f93e2445e48e0c0409b403e56db7))\n\n\n### Bug Fixes\n\n* **security/UNKNOWN/:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.5.33 [SECURITY] (release-3.6.x) ([#24062](https://github.com/grafana/loki/issues/24062)) ([bf4b367](https://github.com/grafana/loki/commit/bf4b3670ff3e2eb9f29183d6dfb4d729b83f62ec))\n* **storage:** Pre-compute SHA-256 to avoid aws-chunked on PutObject [release-3.6.x] ([#24214](https://github.com/grafana/loki/issues/24214)) ([0a29895](https://github.com/grafana/loki/commit/0a29895fe461acbf848376a451896d9f8a542b3d))"
             }
           ],
           "last_commit": {
-            "sha": "f31b0c0",
-            "branch": "ivkalita/dataobj-upload-size-fix",
-            "date": "2026-10-14T12:37:35Z",
-            "url": "https://github.com/grafana/loki/commit/f31b0c014d238b4f9d373327784006a9738af739"
+            "sha": "b79992b",
+            "branch": "deps-update/main-create-github-app-token-grafana-shared-workflows-1.x",
+            "date": "2026-10-15T12:17:01Z",
+            "url": "https://github.com/grafana/loki/commit/b79992b6e3621217b28e4ad7efe56a2b87353b63"
           }
         }
       ]
