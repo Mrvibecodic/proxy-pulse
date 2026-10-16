@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:04:49.588210Z",
+  "generated_at": "2026-10-16T20:10:07.783005Z",
   "groups": [
     {
       "id": "cores",
@@ -4863,12 +4863,21 @@
             "stars": 124,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T08:31:28Z",
+            "pushed_at": "2026-10-16T20:09:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.1.1",
+              "tag": "v7.1.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.1",
+              "published_at": "2026-10-16T20:09:45Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.1.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.1.0",
               "tag": "v7.1.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v6.8.1\r\n\r\nHide Add listener outside Server mode.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.8.0",
-              "tag": "v6.8.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.0",
-              "published_at": "2026-10-08T21:42:51Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.8.0\r\n\r\nAdd a Server-mode listener builder on the Configuration page.\r\n- Server mode can now add, edit, and delete Mihomo inbound listeners from the panel instead of editing the YAML by hand. The forms follow the English Mihomo listener wiki: field names, hints, and closed value lists come from those pages. redir, tproxy, and listener tun stay out.\r\n- The builder covers the inbound protocols shipped in the templates, including HTTP, SOCKS, mixed, Shadowsocks, VMess, VLESS, Trojan, TUIC, Hysteria2, AnyTLS, Mieru, Snell, Sudoku, ShadowQUIC, TrustTunnel, and tunnel. Repeatable blocks such as users and short-id stay lists. Generate buttons produce only what Mihomo itself can produce: UUID, Reality X25519, ECH, a 2022 password, short-id, a Sudoku key pair, and a local dev certificate. The Reality public key is derived locally. A client snippet is one proxies item, and a listener with several users offers a picker. Client material that cannot be derived from the listener is stored in .ssclash/listener-clients.json with mode 0600 and is removed when that listener is deleted or the saved config no longer names it.\r\n- Before the Mihomo config test, the constructor rejects the empty and invalid fields Mihomo already rejects.\r\n- Add listener is shown only in Server mode, which is also the only mode these API routes accept.\r\n- The Listeners card stays hidden until at least one listener exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77317,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T20:02:12Z",
+            "pushed_at": "2026-10-16T20:09:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aa134b0",
-            "branch": "main",
-            "date": "2026-10-15T17:57:28Z",
-            "url": "https://github.com/grafana/grafana/commit/aa134b0cc7c46ff24e8405e327787a8606997035"
+            "sha": "4dd4a43",
+            "branch": "rodrigopk/fix-stale-dry-run-validation-in-import-wizard",
+            "date": "2026-10-15T19:50:47Z",
+            "url": "https://github.com/grafana/grafana/commit/4dd4a43221ce2c78db8440f93d4e930211494386"
           }
         },
         {
