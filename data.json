@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:34:36.866135Z",
+  "generated_at": "2026-10-16T02:39:57.342663Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-15T15:07:03Z",
+            "pushed_at": "2026-10-16T02:37:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "68f46ed",
+                  "message": "dnsproxy: update to 0.86.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:36:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/68f46edd7a74e308f9a14e448f4464cf332c7a2b"
+                },
+                {
+                  "sha": "05072f5",
+                  "message": "rclone: update to 1.75.2",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:35:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/05072f57e82c15bb72b5474caac81d242d5bf1b0"
+                },
+                {
+                  "sha": "41f5448",
+                  "message": "cloudflared: update to 2026.10.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:35:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/41f544845cbdb3c448115a7f9f388a4d1a066853"
+                },
+                {
                   "sha": "d5545ad",
                   "message": "banip: release 1.9.1-1",
                   "author": "Dirk Brenken",
@@ -2032,27 +2053,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:34:57Z",
                   "url": "https://github.com/openwrt/packages/commit/2f41268f3dacdfa06c1c4cd98679daeed2bcf8f9"
-                },
-                {
-                  "sha": "831b874",
-                  "message": "python-eventlet: update to 0.41.2",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:34:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/831b87467967fed3520769d7c017979a214be55b"
-                },
-                {
-                  "sha": "c6a3acb",
-                  "message": "python-flask-socketio: update to 5.7.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:29:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/c6a3acb66b1bdf3f341e1336675964616af96a57"
-                },
-                {
-                  "sha": "570d856",
-                  "message": "python-socketio: update to 5.17.0",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:29:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/570d856f29025f79a485e7b4f8a8a577ee525ec8"
                 }
               ]
             },
@@ -3350,6 +3350,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "5e1b170",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:36:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e1b170594999dd8d1b70585e8c4eab8b8f908bf"
+                },
+                {
+                  "sha": "be8bb53",
+                  "message": "msgpack-c: update to 7.0.2",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:36:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/be8bb537001b86d933b44cd1cd6367ea813a5669"
+                },
+                {
+                  "sha": "bb2fce9",
+                  "message": "v2raya: backport memory fix for GeoIP parser",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-16T02:36:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/bb2fce9ae666892df6e8cbd48135659b45bba192"
+                },
+                {
                   "sha": "73842eb",
                   "message": "banip: release 1.9.1-1",
                   "author": "Dirk Brenken",
@@ -3537,27 +3558,6 @@
                   "author": "Sandro Jäckel",
                   "date": "2026-10-10T07:44:04Z",
                   "url": "https://github.com/openwrt/packages/commit/5d6ecf4803ed041c9f76271e1d1e27e976a68c72"
-                },
-                {
-                  "sha": "354ae14",
-                  "message": "tailscale: update to 1.102.2",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-10-10T07:44:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/354ae1413f6c8865cb024725f7aa921a938d27f9"
-                },
-                {
-                  "sha": "210c1e6",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-10T03:07:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/210c1e6985961abbcd798943b477178955a0c31a"
-                },
-                {
-                  "sha": "b66464d",
-                  "message": "dnsproxy: update to 0.84.1",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-10T03:07:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/b66464d4ce697e7196296ba73810d4f120d8e218"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9215a64",
-            "branch": "gtk-grafana/dataviz/svg-sanitize",
-            "date": "2026-10-15T13:35:25Z",
-            "url": "https://github.com/grafana/grafana/commit/9215a642e97b41711b0998ca57c345ca69a61289"
+            "sha": "dc2b2db",
+            "branch": "main",
+            "date": "2026-10-14T12:26:06Z",
+            "url": "https://github.com/grafana/grafana/commit/dc2b2db9b264393a9ca71b506f735389be8ac763"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0aeadae",
-            "branch": "release-please--branches--main--components--operator",
-            "date": "2026-10-15T13:28:15Z",
-            "url": "https://github.com/grafana/loki/commit/0aeadae4562ccd113f8936f617e6453f535cc817"
+            "sha": "f6168ee",
+            "branch": "main",
+            "date": "2026-10-15T14:01:15Z",
+            "url": "https://github.com/grafana/loki/commit/f6168ee5173f079acb83176a44bafd903ec73ebb"
           }
         }
       ]
@@ -5871,7 +5871,7 @@
             "stars": 7911,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T01:37:50Z",
+            "pushed_at": "2026-10-16T02:39:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
