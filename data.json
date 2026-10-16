@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T09:38:14.561596Z",
+  "generated_at": "2026-10-16T09:43:32.268992Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38925,
+            "stars": 38926,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34921,
+            "stars": 34922,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T14:26:57Z",
@@ -502,7 +502,7 @@
             "stars": 16,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T10:27:41Z",
+            "pushed_at": "2026-10-16T09:38:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Добавлено\n\n- Провайдер может скрыть у серверов плашки протокола, транспорта и защиты (заголовок подписки clod-hide-badges)\n\n### Изменено\n\n- Главная: при подключении снова «Подключено», таймер сессии — на кнопке, как в Android\n- При запуске ядро сразу поднимается с нужным режимом туннеля; включение TUN обрывает соединения один раз, а не два\n- Обновление и правка подписки без изменений не перезагружают ядро и не сбрасывают задержки\n- Серверы и группы обновляются на экране быстрее, а окно меньше нагружает компьютер\n- Логотип и фон подписки не скачиваются заново, если не менялись, а новые видны сразу\n- При запуске вместе с Windows окно меньше ждёт системных проверок\n- Связь со службой надёжнее и быстрее; запуск не ждёт устаревшую службу\n\n### Исправлено\n\n- Туннель проверяется после любого перезапуска ядра\n- Сон и смена сети больше не пропускаются, если в этот момент перезапускается ядро\n- Кнопки «Обновить подписку» показывают любое идущее обновление, а не только начатое этой кнопкой\n- Приложение больше не перезапускается само в облегчённом режиме"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.12-alpha.2",
-              "tag": "clod-v0.1.12-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.2",
-              "published_at": "2026-10-08T12:48:14Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n\u003c!-- lang:en --\u003e\n\n### Added\n\n- Secure connection to the subscription: a new subscription first tries the provider's secure channel and shows what is going on while it is checked; if the provider has no such channel, the subscription is added the usual way. The channel can be turned on or off later in the subscription settings (turning it off shows a warning), and the key fingerprint is shown there the same way the provider's panel shows it\n- Subscription menu: \"Subscription page\", \"Select\", \"Update\" and \"Update via proxy\" at the top, the rest under \"Advanced\"\n- Servers carry separate badges for protocol, transport and security; the UDP and XUDP marks are gone\n- Privacy policy (PRIVACY_POLICY.md, in English and Russian)\n\n### Changed\n\n- The window follows the core's actual state — the node a group uses, groups and latencies — within a second while it is visible\n- Home: a green timer instead of \"Connected\"; the caption is moved away from the button; \"Network\" and \"Expires\" tiles no longer rise on hover; no auto-pings while the connection is off or the window is minimized\n- Proxies page: the letter bar is removed, group icons live in the \"More\" menu, the star is shown after the latency and the server description on the tile\n- DNS override dialog: tabs, one header line and clearer labels; Hosts and domain policies accept a line break as a separator, not only a comma\n- After sleep the tunnel is re-created only if it really stopped working\n- Subscriptions download more reliably; adding a subscription and turning on the secure connection do not give up on temporary server failures; the secure connection works with a wrong computer clock\n- Traffic volume is shown with a space before the unit everywhere\n- Config editor knows the TUN stack mips\n\n### Fixed\n\n- Node selection is restored after any core start\n- Reselecting the same node no longer drops connections\n- The tray learns about a node selection made in the window\n- The secure connection switch no longer resets itself during a subscription update; the provider's name and data are no longer garbled\n- The subscription address no longer gets into the error log\n- The refill date on the Home page is no longer converted twice\n- WebDAV dialog: the password is no longer kept in the window settings, the dialog is not reachable from the keyboard while checking; custom CORS sources are not lost\n\n\u003c!-- lang:ru --\u003e\n\n### Добавлено\n\n- Защищённое подключение к подписке: новая подписка сначала пробует защищённый канал провайдера и показывает ход проверки; если канала у провайдера нет, подписка добавляется обычным путём. Канал можно потом включить или выключить в настройках подписки (при выключении — предупреждение), там же показан отпечаток ключа в том же виде, что и в панели провайдера\n- Меню подписки: сверху «Страница подписки», «Выбрать», «Обновить», «Обновить через прокси», остальное в «Продвинутых»\n- У серверов отдельные плашки протокола, транспорта и защиты; пометки UDP и XUDP убраны\n- Политика конфиденциальности (PRIVACY_POLICY.md, на русском и английском)\n\n### Изменено\n\n- Окно отражает фактическое состояние ядра — узел группы, группы и задержки — в пределах секунды, пока оно видно\n- Главная: зелёный таймер вместо «Подключено»; подпись отодвинута от кнопки; плитки «Сеть» и «Срок» не поднимаются при наведении; без автопингов, пока подключение выключено или окно свёрнуто\n- Экран «Прокси»: полоса букв убрана, значки группы в меню «Дополнительно», звёздочка показана за пингом, описание сервера — на плитке\n- Окно переопределения DNS: вкладки, одна строка шапки и понятные подписи; записи Hosts и политики по доменам принимают перевод строки как разделитель, не только запятую\n- После сна туннель пересоздаётся только если он по факту перестал работать\n- Подписка скачивается надёжнее; добавление подписки и включение защищённого подключения не сдаются на временных отказах сервера; защищённое подключение работает при неверных часах на компьютере\n- Объём трафика везде показан с пробелом перед единицей\n- Редактор конфига знает стек TUN mips\n\n### Исправлено\n\n- Выбор узлов возвращается после любого запуска ядра\n- Повторный выбор того же узла не рвёт соединения\n- Трей узнаёт о выборе узла, сделанном в окне\n- Переключатель защищённого подключения больше не сбрасывается сам во время обновления подписки; название и данные провайдера больше не искажаются\n- Адрес подписки больше не попадает в журнал ошибок\n- Дата пополнения на Главной больше не переводится дважды\n- Окно WebDAV: пароль больше не хранится в настройках окна, окно недоступно с клавиатуры во время проверки; свои источники CORS не теряются"
             }
           ],
           "last_commit": {
@@ -570,7 +561,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-10-14T20:58:56Z",
+            "pushed_at": "2026-10-16T09:38:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -611,15 +602,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Провайдер может скрыть у серверов подпись протокола и транспорта заголовком подписки `clod-hide-badges`.\n\n### Исправлено\n\n- После долгой работы и смен сети пинги и обновление подписки больше не перестают работать — раньше помогал только перезапуск приложения или телефона.\n- Обновление подписки не висит на карточке дольше самой загрузки."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.23-alpha.5",
-              "tag": "android-v0.1.23-alpha.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.23-alpha.5",
-              "published_at": "2026-10-08T13:07:18Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\nТестовая сборка: рекомендуется только для проверки, не для повседневной работы.\n\n### Добавлено\n\n- Серверы только для мобильной сети: провайдер может отдать их список заголовком подписки `clod-mobile-only`. В сети SIM такие серверы видны с пометкой «моб. сеть», в Wi-Fi и других сетях их нет ни в группах, ни в списке серверов; группа с таким выбранным сервером идёт через первый видимый и в мобильной сети возвращается к нему.\n- У серверов виден транспорт — например «VLESS RAW (TCP) · Reality», как в панели провайдера.\n- В свойствах подписки виден отпечаток ключа защищённого соединения.\n- Сервисы Google Play и заводские приложения со значком в меню телефона видны в списке приложений туннеля без фильтра «Системные».\n- Политика конфиденциальности на русском языке.\n\n### Изменено\n\n- Главный экран быстрее показывает актуальное состояние; выбор сервера не теряется при смене подписки и остаётся у той подписки, где его сделали.\n- Загрузка и обновление подписки идут без лишних чтений и записей; меньше фоновой работы при смене сети.\n\n### Исправлено\n\n- Защищённое соединение с подпиской надёжнее — и при добавлении подписки, и при обновлении."
             }
           ],
           "last_commit": {
@@ -1175,10 +1157,10 @@
             }
           ],
           "last_commit": {
-            "sha": "21d9bd8",
-            "branch": "main",
-            "date": "2026-10-15T20:14:17Z",
-            "url": "https://github.com/openwrt/openwrt/commit/21d9bd899bb0747fdf60ac029cc7bdad045c4c3a"
+            "sha": "e98d8c4",
+            "branch": "master",
+            "date": "2026-10-14T22:22:46Z",
+            "url": "https://github.com/openwrt/openwrt/commit/e98d8c4ccca2f7f66f4446a0b1e54ad54c33d555"
           }
         },
         {
@@ -4135,7 +4117,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16270,
+            "stars": 16271,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5172,10 +5154,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77310,
+            "stars": 77311,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T09:36:03Z",
+            "pushed_at": "2026-10-16T09:40:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5210,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b50ee82",
-            "branch": "release-13.1.9",
-            "date": "2026-10-15T17:22:53Z",
-            "url": "https://github.com/grafana/grafana/commit/b50ee821f2ea14239955c0a9c0a895bc2000579c"
+            "sha": "6ddd858",
+            "branch": "backport-134976-to-release-13.2.5",
+            "date": "2026-10-14T19:26:52Z",
+            "url": "https://github.com/grafana/grafana/commit/6ddd858d035f1d8ecbed1ef46ce1da22ef615f96"
           }
         },
         {
@@ -5296,10 +5278,10 @@
             }
           ],
           "last_commit": {
-            "sha": "adc03c7",
-            "branch": "roidelapluie/query-cost-backend",
-            "date": "2026-10-15T08:28:48Z",
-            "url": "https://github.com/prometheus/prometheus/commit/adc03c729caed87faf4c268d3dcb9fdac4e447be"
+            "sha": "18ebb48",
+            "branch": "deps-update/github.com-prometheus-compliance-remotewrite-digest",
+            "date": "2026-10-15T17:24:32Z",
+            "url": "https://github.com/prometheus/prometheus/commit/18ebb4896c2476a8fe22eafc91e4d826da3a696f"
           }
         },
         {
@@ -5447,7 +5429,7 @@
             "stars": 29028,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T09:31:21Z",
+            "pushed_at": "2026-10-16T09:42:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5803,7 +5785,7 @@
             "stars": 3578,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T09:38:22Z",
+            "pushed_at": "2026-10-16T09:43:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
