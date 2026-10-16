@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:46:50.354323Z",
+  "generated_at": "2026-10-16T07:52:11.147009Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 28758,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T07:36:15Z",
+            "pushed_at": "2026-10-16T07:51:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-16T02:41:47Z",
+            "pushed_at": "2026-10-16T07:51:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ce63ec3",
+                  "message": "adblock: update 4.5.9-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-16T07:50:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce63ec33f519f2030ecbe2e7f7424d933a9ee849"
+                },
+                {
                   "sha": "68f46ed",
                   "message": "dnsproxy: update to 0.86.0",
                   "author": "Tianling Shen",
@@ -2046,13 +2053,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-13T13:34:57Z",
                   "url": "https://github.com/openwrt/packages/commit/f06700cf74fd58f6e1d1ae61011b7027031942b4"
-                },
-                {
-                  "sha": "2f41268",
-                  "message": "python-platformdirs: update to 4.12.4",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-13T13:34:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/2f41268f3dacdfa06c1c4cd98679daeed2bcf8f9"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "d811f45",
+                  "message": "adblock: update 4.5.9-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-16T07:51:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/d811f45d8fd51054052969c6fe026fa4fa23c4d3"
+                },
+                {
                   "sha": "5e1b170",
                   "message": "v2ray-geodata: update to latest version",
                   "author": "Tianling Shen",
@@ -3551,13 +3558,6 @@
                   "author": "Chris Swan",
                   "date": "2026-10-10T07:47:58Z",
                   "url": "https://github.com/openwrt/packages/commit/a019ca1afbb046306ac9a556deac17968d781ad4"
-                },
-                {
-                  "sha": "5d6ecf4",
-                  "message": "tailscale: update to 1.102.3, disable the update feature",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-10-10T07:44:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/5d6ecf4803ed041c9f76271e1d1e27e976a68c72"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92526,
+            "stars": 92527,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-16T00:06:13Z",
@@ -5175,7 +5175,7 @@
             "stars": 77308,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T07:36:42Z",
+            "pushed_at": "2026-10-16T07:50:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "24e7a06",
-            "branch": "gtk-grafana/dataviz/canvas-externalization-message",
-            "date": "2026-10-14T19:56:53Z",
-            "url": "https://github.com/grafana/grafana/commit/24e7a0681ca70a19bbda2f7e052b3d2907d38dbc"
+            "sha": "9087ac2",
+            "branch": "nathanmarrs/notebooks-viz-block-actions",
+            "date": "2026-10-15T06:35:01Z",
+            "url": "https://github.com/grafana/grafana/commit/9087ac2704cdb458842588661384aae6148fb757"
           }
         },
         {
@@ -5243,7 +5243,7 @@
             "stars": 66580,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T07:44:07Z",
+            "pushed_at": "2026-10-16T07:51:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
