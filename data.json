@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T18:39:55.328091Z",
+  "generated_at": "2026-10-16T18:45:13.501039Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 16,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T14:16:06Z",
+            "pushed_at": "2026-10-16T18:43:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -570,7 +570,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T16:07:26Z",
+            "pushed_at": "2026-10-16T18:43:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1119,10 +1119,10 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28763,
+            "stars": 28764,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T16:27:11Z",
+            "pushed_at": "2026-10-16T18:41:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-16T13:12:39Z",
+            "pushed_at": "2026-10-16T18:41:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "f9fe78b",
+                  "message": "tailscale: update to 1.104.1",
+                  "author": "Sandro Jäckel",
+                  "date": "2026-10-16T18:41:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/f9fe78b923d4603988c9fc9cadf008f75964988a"
+                },
+                {
                   "sha": "d811f45",
                   "message": "adblock: update 4.5.9-2",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Carlos Miguel Ferreira",
                   "date": "2026-10-10T19:18:34Z",
                   "url": "https://github.com/openwrt/packages/commit/442e88d65b03f3a0229f486cf103229329dbf6c1"
-                },
-                {
-                  "sha": "a019ca1",
-                  "message": "csshnpd: bump to c1.1.1 release",
-                  "author": "Chris Swan",
-                  "date": "2026-10-10T07:47:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/a019ca1afbb046306ac9a556deac17968d781ad4"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77317,
+            "stars": 77318,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-16T18:39:26Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8e6c82c",
-            "branch": "renovate/yaml-2.x",
-            "date": "2026-10-15T10:14:46Z",
-            "url": "https://github.com/grafana/grafana/commit/8e6c82c47b3a3d1985d65d1336462e70c4641da5"
+            "sha": "4fdfb2a",
+            "branch": "backport-131616-to-release-13.2.5",
+            "date": "2026-10-15T16:22:23Z",
+            "url": "https://github.com/grafana/grafana/commit/4fdfb2a57fc638f103982215689172d9944220b5"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29031,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T18:32:29Z",
+            "pushed_at": "2026-10-16T18:45:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a0df38b",
-            "branch": "benclive/fail-on-unknown-sections",
-            "date": "2026-10-15T16:11:28Z",
-            "url": "https://github.com/grafana/loki/commit/a0df38b66872046d47a1edb2805f2fff29827074"
+            "sha": "92ffdbb",
+            "branch": "pracucci/dataobj-line-filter-once",
+            "date": "2026-10-15T16:23:48Z",
+            "url": "https://github.com/grafana/loki/commit/92ffdbbe0ee32654a32d277476db6187cabae2e9"
           }
         }
       ]
@@ -5667,7 +5667,7 @@
             "stars": 90,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T10:00:50Z",
+            "pushed_at": "2026-10-16T18:43:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 7919,
+            "stars": 7920,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-16T15:03:10Z",
