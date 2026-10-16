@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T08:29:15.861176Z",
+  "generated_at": "2026-10-16T08:34:33.993236Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42136,
+            "stars": 42137,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-16T08:03:52Z",
@@ -4863,12 +4863,21 @@
             "stars": 123,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-15T20:47:44Z",
+            "pushed_at": "2026-10-16T08:31:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.1.0",
+              "tag": "v7.1.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.0",
+              "published_at": "2026-10-16T08:31:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.1.0\r\n\r\nFix proxy-mode YAML insertion and quieten the login HTTP surface.\r\n- Only treat column-0 mode/tproxy/tun keys when rewriting config.yaml, and serve sign-in with neutral cookies, a minimal auth bundle, gated static files, and a stricter CSP until a session exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.0.0",
               "tag": "v7.0.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v6.8.0\r\n\r\nAdd a Server-mode listener builder on the Configuration page.\r\n- Server mode can now add, edit, and delete Mihomo inbound listeners from the panel instead of editing the YAML by hand. The forms follow the English Mihomo listener wiki: field names, hints, and closed value lists come from those pages. redir, tproxy, and listener tun stay out.\r\n- The builder covers the inbound protocols shipped in the templates, including HTTP, SOCKS, mixed, Shadowsocks, VMess, VLESS, Trojan, TUIC, Hysteria2, AnyTLS, Mieru, Snell, Sudoku, ShadowQUIC, TrustTunnel, and tunnel. Repeatable blocks such as users and short-id stay lists. Generate buttons produce only what Mihomo itself can produce: UUID, Reality X25519, ECH, a 2022 password, short-id, a Sudoku key pair, and a local dev certificate. The Reality public key is derived locally. A client snippet is one proxies item, and a listener with several users offers a picker. Client material that cannot be derived from the listener is stored in .ssclash/listener-clients.json with mode 0600 and is removed when that listener is deleted or the saved config no longer names it.\r\n- Before the Mihomo config test, the constructor rejects the empty and invalid fields Mihomo already rejects.\r\n- Add listener is shown only in Server mode, which is also the only mode these API routes accept.\r\n- The Listeners card stays hidden until at least one listener exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.7.1",
-              "tag": "v6.7.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.7.1",
-              "published_at": "2026-10-06T09:56:28Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.7.1\r\n\r\nKeep stack tun options when rewriting the tun block.\r\n- A mode or stack change still replaces capture flags, and it now carries over udp-timeout, MTU, GSO, and the other scalars that only affect the tun stack.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92528,
+            "stars": 92530,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-16T00:06:13Z",
