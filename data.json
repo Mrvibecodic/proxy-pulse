@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T20:10:07.783005Z",
+  "generated_at": "2026-10-16T20:15:26.885930Z",
   "groups": [
     {
       "id": "cores",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-10-16T20:09:45Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.1.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.1.1\r\n\r\nImprove Server listener editor: YAML layout, generators, and address chips.\r\n- Indent new listeners sections correctly and insert them before outbound blocks; add configurable password generation and one-click listen/client address suggestions with sensible private-address filtering.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.1.0",
@@ -5175,7 +5175,7 @@
             "stars": 77317,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T20:09:18Z",
+            "pushed_at": "2026-10-16T20:14:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
