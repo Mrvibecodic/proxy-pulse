@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:13:58.867389Z",
+  "generated_at": "2026-10-16T14:19:16.904682Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 16,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T09:45:26Z",
+            "pushed_at": "2026-10-16T14:16:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Новый редактор правил подписки: типы правил по группам с подсказками, одна кнопка «Добавить правило» с выбором места, список разделён на свои правила и правила подписки, видно несохранённые изменения\n- Главная в простом режиме: ровные отступы между блоками\n\n### Исправлено\n\n- Журнал ядра не теряется при перезапуске программы и компьютера и попадает в отчёт для поддержки\n- «Открыть журнал ядра» при работе через службу показывает текст журнала"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.12-alpha.3",
-              "tag": "clod-v0.1.12-alpha.3",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.12-alpha.3",
-              "published_at": "2026-10-09T12:39:22Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Добавлено\n\n- Провайдер может скрыть у серверов плашки протокола, транспорта и защиты (заголовок подписки clod-hide-badges)\n\n### Изменено\n\n- Главная: при подключении снова «Подключено», таймер сессии — на кнопке, как в Android\n- При запуске ядро сразу поднимается с нужным режимом туннеля; включение TUN обрывает соединения один раз, а не два\n- Обновление и правка подписки без изменений не перезагружают ядро и не сбрасывают задержки\n- Серверы и группы обновляются на экране быстрее, а окно меньше нагружает компьютер\n- Логотип и фон подписки не скачиваются заново, если не менялись, а новые видны сразу\n- При запуске вместе с Windows окно меньше ждёт системных проверок\n- Связь со службой надёжнее и быстрее; запуск не ждёт устаревшую службу\n\n### Исправлено\n\n- Туннель проверяется после любого перезапуска ядра\n- Сон и смена сети больше не пропускаются, если в этот момент перезапускается ядро\n- Кнопки «Обновить подписку» показывают любое идущее обновление, а не только начатое этой кнопкой\n- Приложение больше не перезапускается само в облегчённом режиме"
             }
           ],
           "last_commit": {
@@ -576,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.24",
+              "tag": "android-v0.1.24",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.24",
+              "published_at": "2026-10-16T14:19:06Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Подписка снова добавляется у провайдеров без защищённого канала."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.23",
               "tag": "android-v0.1.23",
@@ -5027,7 +5027,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92550,
+            "stars": 92551,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-16T00:06:13Z",
@@ -5166,7 +5166,7 @@
             "stars": 77314,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T14:13:38Z",
+            "pushed_at": "2026-10-16T14:17:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e25e58b",
-            "branch": "rodrigopk/alerting-api-boundary-settings-selector",
-            "date": "2026-10-15T13:32:42Z",
-            "url": "https://github.com/grafana/grafana/commit/e25e58b88004952b8d6c1b530c95689b37f043ef"
+            "sha": "417133a",
+            "branch": "provisioning/repository-keys-only",
+            "date": "2026-10-15T13:39:45Z",
+            "url": "https://github.com/grafana/grafana/commit/417133aff8ab3c4c92a2c096130314fbf0a24275"
           }
         },
         {
@@ -5234,7 +5234,7 @@
             "stars": 66592,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T14:07:31Z",
+            "pushed_at": "2026-10-16T14:19:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5491,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c23429e",
-            "branch": "ivkalita/dataobj-builder-parallel-flush",
-            "date": "2026-10-15T12:41:41Z",
-            "url": "https://github.com/grafana/loki/commit/c23429eba428c68257d22be746870699f9699267"
+            "sha": "d91fb12",
+            "branch": "main",
+            "date": "2026-10-15T19:21:12Z",
+            "url": "https://github.com/grafana/loki/commit/d91fb12fcf793bd606965f72df2b1d62dc28896e"
           }
         }
       ]
