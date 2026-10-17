@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T13:06:04.873057Z",
+  "generated_at": "2026-10-17T13:11:21.836927Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 38941,
+            "stars": 38942,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34953,
+            "stars": 34954,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T14:26:57Z",
@@ -1190,7 +1190,7 @@
             "stars": 4629,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-17T12:35:31Z",
+            "pushed_at": "2026-10-17T13:11:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "681b417",
+                  "message": "banip: update 1.9.1-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-17T13:10:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/681b4179a3ca463c879153cad403a25707b9983e"
+                },
+                {
                   "sha": "a445a8b",
                   "message": "adblock: update 4.5.9-3",
                   "author": "Dirk Brenken",
@@ -2046,13 +2053,6 @@
                   "author": "Rob White",
                   "date": "2026-10-13T20:45:21Z",
                   "url": "https://github.com/openwrt/packages/commit/1edee9ef9e75d2aa5828cd804114d1df66595f47"
-                },
-                {
-                  "sha": "0ee3fbc",
-                  "message": "golang: bump 1.27 to 1.27.2",
-                  "author": "Andy Chiang",
-                  "date": "2026-10-13T19:30:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/0ee3fbc2992c75b2668933467479343c5e4c75e9"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "457e133",
+                  "message": "banip: update 1.9.1-2",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-17T13:10:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/457e1338fa590786ec111658732d3aa9373a0597"
+                },
+                {
                   "sha": "1561fa6",
                   "message": "adblock: update 4.5.9-3",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Philip Prindeville",
                   "date": "2026-10-10T19:18:34Z",
                   "url": "https://github.com/openwrt/packages/commit/0c170fce8aa34f582a8a30788e81bf6bd98333a9"
-                },
-                {
-                  "sha": "f87e84a",
-                  "message": "boost: build libquadmath only on some archs",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-10T19:18:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/f87e84aaea829815261abf669c4fba24c347c427"
                 }
               ]
             },
@@ -4745,7 +4745,7 @@
             "stars": 1994,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-10-17T13:02:09Z",
+            "pushed_at": "2026-10-17T13:11:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5dabcfb",
+            "sha": "abdb39b",
             "branch": "main",
-            "date": "2026-10-16T18:15:41Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/5dabcfb1cdb4c45b1a224fea4ea9ac96ed490585"
+            "date": "2026-10-16T16:06:44Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/abdb39b79cb0f0dd7a3f07a02dc1419c385d195d"
           }
         },
         {
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77328,
+            "stars": 77329,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-17T11:26:21Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cf73560",
-            "branch": "authz/legacy-permissions-routing",
-            "date": "2026-10-16T10:42:44Z",
-            "url": "https://github.com/grafana/grafana/commit/cf73560a12572087e5799a874644fd5919271990"
+            "sha": "8f292f0",
+            "branch": "main",
+            "date": "2026-10-16T19:39:13Z",
+            "url": "https://github.com/grafana/grafana/commit/8f292f0d5ef33e2bf4ff4e59827a3db357a2f730"
           }
         },
         {
@@ -5856,10 +5856,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2745b74",
-            "branch": "gh-pages-misans-only",
-            "date": "2026-10-16T10:41:25Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/2745b7480f7ac06337ae1754af6cb0418fa20608"
+            "sha": "6cb3575",
+            "branch": "gh-pages-no-fonts",
+            "date": "2026-10-16T10:54:13Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/6cb357547edfdea577eb72bb5bce66284e5c1f86"
           }
         },
         {
