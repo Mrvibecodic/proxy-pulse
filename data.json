@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T18:16:03.606440Z",
+  "generated_at": "2026-10-18T18:21:20.374619Z",
   "groups": [
     {
       "id": "cores",
@@ -1110,7 +1110,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28805,
+            "stars": 28806,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-18T17:43:36Z",
@@ -4733,7 +4733,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2003,
+            "stars": 2004,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-18T17:03:46Z",
@@ -4854,12 +4854,21 @@
             "stars": 124,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T20:09:44Z",
+            "pushed_at": "2026-10-18T18:19:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.2.0",
+              "tag": "v7.2.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.2.0",
+              "published_at": "2026-10-18T18:19:13Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.2.0\r\n\r\nAdd optional Keenetic RCI access token for local API on newer firmware.\r\n- Probe loopback /rci/show/version for status, send X-Ndma-Tkn when set, and surface token settings with status-panel UI; keep ndmc fallback unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.1.1",
               "tag": "v7.1.1",
@@ -4895,15 +4904,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v6.9.0\r\n\r\nAdd LAN scope-link routes to TPROXY table 100 for Tailscale coexistence.\r\n- When Tailscale sets src_valid_mark, a marked TCP packet must resolve its LAN source in policy table 100. That table previously held only local default via lo, so MIXED and other TPROXY paths could fail before Mihomo saw the connection (issue #40).\r\n- For tproxy, hybrid, and mixed, SSClash now installs connected IPv4 prefixes of intercepted interfaces as scope link routes in table 100, alongside the existing local default. WAN, lo, and clash-tun are never added. Interface selection mirrors firewall capture, including Keenetic CatchAllLAN. Stale scope-link entries are removed on apply; tun, mixed2, and table 101 are unchanged.\r\n\r\nMove Keenetic fwmarks off nfqws bits.\r\n- Keenetic TPROXY/TUN marks now use 0x80000000 and MIXED UDP-tun uses 0x10000000 with mask 0x90000000 so desync packets on 0x40000000 no longer match ip rule table 100 (fixes HYBRID coexistence with nfqws). Mark helpers and policy routing use uint32 for 32-bit ARM/MIPS builds. After upgrading on Keenetic with nfqws, reboot once so stale fwmark 0x40000000/0x60000000 ip rules from the previous build are cleared.\r\n\r\nAdd optional IPv6 forward drop.\r\n- Gateway option BlockIPv6Forward drops forwarded IPv6 via ip6tables SSCLASH_V6 or an nft forward hook, logs when enabled, reasserts on NdmReload when rules are intact, and exposes the toggle in Settings (default off).\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.8.1",
-              "tag": "v6.8.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.8.1",
-              "published_at": "2026-10-08T22:37:15Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.8.1\r\n\r\nHide Add listener outside Server mode.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26318,
+            "stars": 26319,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-18T02:10:17Z",
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "280ce0e",
-            "branch": "codex/librarypanels-migration-refresh",
-            "date": "2026-10-16T21:52:45Z",
-            "url": "https://github.com/grafana/grafana/commit/280ce0e6921e3c20f3810565bd640dfcf2623354"
+            "sha": "1701d14",
+            "branch": "docs/infra-as-code/fleet-mgmt-otel-terraform-update",
+            "date": "2026-10-16T22:44:43Z",
+            "url": "https://github.com/grafana/grafana/commit/1701d14c98c88706939a988928eb0800a8f19379"
           }
         },
         {
@@ -5231,7 +5231,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66622,
+            "stars": 66623,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-18T14:31:23Z",
@@ -5915,10 +5915,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c07f4e9",
-            "branch": "l10n_crowdin",
-            "date": "2026-10-18T04:50:47Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/c07f4e9989c32706078f84919ce0478958dec516"
+            "sha": "01e67e9",
+            "branch": "main",
+            "date": "2026-10-17T23:18:43Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/01e67e9f787c2c003d0a42d6f9bc96a47c1275c9"
           }
         }
       ]
