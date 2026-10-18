@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T05:51:35.139710Z",
+  "generated_at": "2026-10-18T05:56:51.797678Z",
   "groups": [
     {
       "id": "cores",
@@ -4627,12 +4627,21 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-18T05:50:13Z",
+            "pushed_at": "2026-10-18T05:55:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha 92ccc93",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-10-18T05:55:40Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@92ccc939aaf4f8965f369cf0b142e005aeaa11d5\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.10.17",
               "tag": "stable",
@@ -4641,15 +4650,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.17\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha 92ccc93",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-10-18T03:37:29Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@92ccc939aaf4f8965f369cf0b142e005aeaa11d5\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5491,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "34cc71c",
-            "branch": "main",
-            "date": "2026-10-17T09:41:54Z",
-            "url": "https://github.com/grafana/loki/commit/34cc71c6908c9752ad28bad59e3d40b4055902a0"
+            "sha": "816f4e1",
+            "branch": "deps-update/main-go.opentelemetry.iocollectorprocessor",
+            "date": "2026-10-17T15:09:58Z",
+            "url": "https://github.com/grafana/loki/commit/816f4e14bb6a545bcaaad2d00dd6e87f097748c3"
           }
         }
       ]
