@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T10:45:52.199021Z",
+  "generated_at": "2026-10-19T10:51:09.821059Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-19T09:08:09Z",
+            "pushed_at": "2026-10-19T10:46:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "70ac3a8",
+                  "message": "libffi: move to core repo",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-19T10:45:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/70ac3a84406cab03865c55be84de960af815436a"
+                },
+                {
                   "sha": "3b7cdf0",
                   "message": "libcamera: add package",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-14T12:14:27Z",
                   "url": "https://github.com/openwrt/packages/commit/ce2c80e004835b74d6f132eb5ec9519071bc037e"
-                },
-                {
-                  "sha": "3860e09",
-                  "message": "strongswan: disable syslog groups in the opposite facility",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-14T12:14:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/3860e09c5a07896617829cb41e3f1befe9420b9f"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16282,
+            "stars": 16283,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5175,7 +5175,7 @@
             "stars": 77366,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T10:44:11Z",
+            "pushed_at": "2026-10-19T10:50:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "31b0cb6",
-            "branch": "alloy-logs-fix",
-            "date": "2026-10-19T10:44:12Z",
-            "url": "https://github.com/grafana/grafana/commit/31b0cb6f5767eee29b3086e26fd572356389ba17"
+            "sha": "386a7cc",
+            "branch": "main",
+            "date": "2026-10-18T19:21:08Z",
+            "url": "https://github.com/grafana/grafana/commit/386a7cc7bc9bb6607f314d324015f4412650d483"
           }
         },
         {
