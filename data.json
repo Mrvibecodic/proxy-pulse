@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:03:15.161291Z",
+  "generated_at": "2026-10-19T18:08:33.548884Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-19T10:46:21Z",
+            "pushed_at": "2026-10-19T18:04:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "9822cc9",
+                  "message": "gpsd: install gps2udp client",
+                  "author": "Jose Luis Sanroma Tato",
+                  "date": "2026-10-19T18:04:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/9822cc9ee869d3cc1c5124a8697de4e8cd935d11"
+                },
+                {
                   "sha": "5838950",
                   "message": "adblock: update 4.5.9-4",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-10T19:18:34Z",
                   "url": "https://github.com/openwrt/packages/commit/ae3e961967d52529712a72664bc7e21a5b282ea6"
-                },
-                {
-                  "sha": "949109a",
-                  "message": "treewide: bump PKG_RELEASE of packages linking boost",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-10T19:18:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/949109aad0f03f049fe84e8b42b499ef16ac8f98"
                 }
               ]
             },
@@ -4336,7 +4336,7 @@
             "stars": 147,
             "url": "https://github.com/Medium1992/mihomo-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T14:21:53Z",
+            "pushed_at": "2026-10-19T18:05:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -5175,7 +5175,7 @@
             "stars": 77373,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T18:03:20Z",
+            "pushed_at": "2026-10-19T18:07:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5269791",
-            "branch": "macabu/update-get-kin-149-release-13.2.5",
-            "date": "2026-10-19T17:59:19Z",
-            "url": "https://github.com/grafana/grafana/commit/5269791557113ff07133c5546241781b1ccfa1b2"
+            "sha": "00be452",
+            "branch": "main",
+            "date": "2026-10-19T18:07:14Z",
+            "url": "https://github.com/grafana/grafana/commit/00be4526e5f0fedcbd2b0d2dddebf4161b5a5103"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29039,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T17:52:37Z",
+            "pushed_at": "2026-10-19T18:08:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1be567a",
-            "branch": "release-please--branches--release-3.7.x",
-            "date": "2026-10-19T17:39:59Z",
-            "url": "https://github.com/grafana/loki/commit/1be567a97f0816e9f0ab5dc0725d0cf268b3b32c"
+            "sha": "50f1e52",
+            "branch": "deps-update/main-opentelemetry-go-monorepo",
+            "date": "2026-10-19T18:08:43Z",
+            "url": "https://github.com/grafana/loki/commit/50f1e52022b6af97961211dfb84b5ecfbf6a6d7e"
           }
         }
       ]
