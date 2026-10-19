@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:05:01.617142Z",
+  "generated_at": "2026-10-19T09:10:22.144543Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 34997,
+            "stars": 34998,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T14:26:57Z",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-19T08:40:01Z",
+            "pushed_at": "2026-10-19T09:08:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3b7cdf0",
+                  "message": "libcamera: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-19T09:08:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/3b7cdf03a6f22e91ae485e1ffdda1062da7a3431"
+                },
+                {
+                  "sha": "e3301e2",
+                  "message": "python-ply: restore as a host-only package",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-19T09:08:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/e3301e2100056a8baa4e45c5f17860d1ac34d184"
+                },
+                {
                   "sha": "8d2dbcc",
                   "message": "qbee-agent: bump version to 2026.41",
                   "author": "Jon Henrik Bjørnstad",
@@ -2039,20 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-14T12:14:27Z",
                   "url": "https://github.com/openwrt/packages/commit/3860e09c5a07896617829cb41e3f1befe9420b9f"
-                },
-                {
-                  "sha": "a3ebb95",
-                  "message": "strongswan: mark proposals and esp_proposals as optional",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-14T12:14:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/a3ebb9545a9c600ee16b00649cffe95efdb40b74"
-                },
-                {
-                  "sha": "eb8ea9a",
-                  "message": "strongswan: support additional key exchange methods",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-14T12:14:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/eb8ea9a7c5b3d0c3576bf2553be208b8ebf027b4"
                 }
               ]
             },
@@ -4636,7 +4636,7 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T08:59:47Z",
+            "pushed_at": "2026-10-19T09:07:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -4655,7 +4655,7 @@
               "name": "Xray core alpha 92ccc93",
               "tag": "alpha",
               "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-10-18T13:16:22Z",
+              "published_at": "2026-10-19T09:07:27Z",
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@92ccc939aaf4f8965f369cf0b142e005aeaa11d5\nна Go 1.27.2.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
@@ -5175,7 +5175,7 @@
             "stars": 77366,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T09:00:30Z",
+            "pushed_at": "2026-10-19T09:10:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f77dc41",
-            "branch": "main",
-            "date": "2026-10-19T08:56:36Z",
-            "url": "https://github.com/grafana/grafana/commit/f77dc41d3397c99568600f7a00ca764b9bb2a881"
+            "sha": "3c22e2c",
+            "branch": "matyax/logs-drilldown-to-traces-drilldown-2",
+            "date": "2026-10-19T09:08:35Z",
+            "url": "https://github.com/grafana/grafana/commit/3c22e2c7fa3e5dd95cc10dced06669c77a8e0be1"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29038,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T08:58:33Z",
+            "pushed_at": "2026-10-19T09:10:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3590,
+            "stars": 3591,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-19T02:11:58Z",
