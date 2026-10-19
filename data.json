@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T08:38:27.757891Z",
+  "generated_at": "2026-10-19T08:43:45.711139Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-19T05:28:49Z",
+            "pushed_at": "2026-10-19T08:40:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8d2dbcc",
+                  "message": "qbee-agent: bump version to 2026.41",
+                  "author": "Jon Henrik Bjørnstad",
+                  "date": "2026-10-19T08:40:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/8d2dbcca8e0e654e62b1f696bc348d330a63bd1e"
+                },
+                {
                   "sha": "42a8538",
                   "message": "adblock: update 4.5.9-4",
                   "author": "Dirk Brenken",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-14T12:14:27Z",
                   "url": "https://github.com/openwrt/packages/commit/eb8ea9a7c5b3d0c3576bf2553be208b8ebf027b4"
-                },
-                {
-                  "sha": "46160c1",
-                  "message": "shunt: update to 0.2.0",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-14T08:17:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/46160c1f5cca1dd80a7415e63cb9a65e92e103c0"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16281,
+            "stars": 16282,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26330,
+            "stars": 26331,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-18T02:10:17Z",
@@ -5175,7 +5175,7 @@
             "stars": 77366,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-19T08:34:04Z",
+            "pushed_at": "2026-10-19T08:42:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ea82830",
-            "branch": "release-13.1.9",
-            "date": "2026-10-19T08:31:29Z",
-            "url": "https://github.com/grafana/grafana/commit/ea828304aa61aabd9a1489e04c46da373ac3e563"
+            "sha": "f41f7a9",
+            "branch": "joey/trace-view-summary",
+            "date": "2026-10-19T08:42:59Z",
+            "url": "https://github.com/grafana/grafana/commit/f41f7a98157dcd642600fcbee8210c96718ac2ce"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c5877a",
-            "branch": "pracucci/dataobj-eval-predicate",
-            "date": "2026-10-19T07:28:01Z",
-            "url": "https://github.com/grafana/loki/commit/1c5877aa54e5597e5b9b817fcf77b17518c3fc53"
+            "sha": "079f838",
+            "branch": "main",
+            "date": "2026-10-18T16:42:19Z",
+            "url": "https://github.com/grafana/loki/commit/079f838fae55418022befc2426d0709ab5bf94ff"
           }
         }
       ]
