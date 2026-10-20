@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:50:45.317085Z",
+  "generated_at": "2026-10-20T18:56:03.698488Z",
   "groups": [
     {
       "id": "cores",
@@ -1046,7 +1046,7 @@
             "stars": 238,
             "url": "https://github.com/Nemu-x/ClashFest",
             "default_branch": "feat/init-clashfest",
-            "pushed_at": "2026-10-20T18:44:47Z",
+            "pushed_at": "2026-10-20T18:53:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/112378891?v=4",
             "owner": "Nemu-x"
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-20T14:47:46Z",
+            "pushed_at": "2026-10-20T18:55:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0f5b473",
+                  "message": "acl: update to 2.4.0",
+                  "author": "Maxim Storchak",
+                  "date": "2026-10-20T18:55:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/0f5b47363e00b21067cf6558bbddda7f57f1c758"
+                },
+                {
+                  "sha": "ac1e300",
+                  "message": "golang: bump 1.27 to 1.27.3",
+                  "author": "George Sapkin",
+                  "date": "2026-10-20T18:55:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/ac1e300d570a55fba0483559106c7b79876511c8"
+                },
+                {
                   "sha": "b7c6ee8",
                   "message": "tmux: update to 3.8",
                   "author": "Maxim Storchak",
@@ -2039,20 +2053,6 @@
                   "author": "Andy Chiang",
                   "date": "2026-10-14T19:03:38Z",
                   "url": "https://github.com/openwrt/packages/commit/3611e5dc4e62ecf45f824c0db850a92ac9aa932b"
-                },
-                {
-                  "sha": "7a0fb45",
-                  "message": "shunt: pad learned element timeouts against the TTL edge",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-14T18:00:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/7a0fb450b1670d7e60de7b29908562fab775dc7b"
-                },
-                {
-                  "sha": "8fca16c",
-                  "message": "rsyslog: add an option to enable periodic statistics module support",
-                  "author": "Jean Thomas",
-                  "date": "2026-10-14T13:35:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/8fca16cd8a9165d34971a9643822b847955659d8"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "65493e2",
+                  "message": "golang: bump 1.26 to 1.26.10",
+                  "author": "George Sapkin",
+                  "date": "2026-10-20T18:54:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/65493e273e4b9cd7014236b69fd6fdc617b88436"
+                },
+                {
                   "sha": "d826d96",
                   "message": "travelmate: update 2.4.9-6",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-10T19:18:34Z",
                   "url": "https://github.com/openwrt/packages/commit/56897b43f8cbe5e9845ee368e3d1e20f514e30d2"
-                },
-                {
-                  "sha": "09b3650",
-                  "message": "openzwave: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-10T19:18:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/09b3650c05bd38610173ba4f6ef2fe6384f418f6"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77399,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T18:47:51Z",
+            "pushed_at": "2026-10-20T18:56:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ff2564e",
-            "branch": "main",
-            "date": "2026-10-19T16:33:03Z",
-            "url": "https://github.com/grafana/grafana/commit/ff2564efe01422f9fc45bda3302b70f2672a3fe3"
+            "sha": "88ce49c",
+            "branch": "codex/authz-permission-search",
+            "date": "2026-10-20T18:56:07Z",
+            "url": "https://github.com/grafana/grafana/commit/88ce49cbe6968ea3c4ae2563cc1946abbe7e136a"
           }
         },
         {
