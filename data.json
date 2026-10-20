@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T22:33:51.050493Z",
+  "generated_at": "2026-10-20T22:39:08.105769Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,7 +5175,7 @@
             "stars": 77396,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T22:20:57Z",
+            "pushed_at": "2026-10-20T22:35:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,12 +5447,21 @@
             "stars": 29049,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T22:23:20Z",
+            "pushed_at": "2026-10-20T22:36:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v3.6.19",
+              "tag": "v3.6.19",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.6.19",
+              "published_at": "2026-10-20T22:36:42Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.6.19](https://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20)\n\n\n### Bug Fixes\n\n* **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com/grafana/loki/commit/de41836f1cfe918cc2c053deed98a751a6f639ee))"
+            },
             {
               "name": "v3.6.18",
               "tag": "v3.6.18",
@@ -5488,15 +5497,6 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [3.6.17](https://github.com/grafana/loki/compare/v3.6.16...v3.6.17) (2026-09-09)\n\n\n### Bug Fixes\n\n* **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24330](https://github.com/grafana/loki/issues/24330)) ([d8d78f6](https://github.com/grafana/loki/commit/d8d78f6e86d80942b3b9438777c4bf324cae1184))\n* **security/HIGH/pkg/push:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.6.x) ([#24444](https://github.com/grafana/loki/issues/24444)) ([6d21d6b](https://github.com/grafana/loki/commit/6d21d6b0a32cef7cd7e6599219d56745d065bbba))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.1 [SECURITY] (release-3.6.x) ([#24329](https://github.com/grafana/loki/issues/24329)) ([ed9df58](https://github.com/grafana/loki/commit/ed9df58cc7ca6c76178f0f707c7dd53d5a20a6d0))\n* **security/HIGH/:** Update module google.golang.org/grpc to v1.83.2 [SECURITY] (release-3.6.x) ([#24430](https://github.com/grafana/loki/issues/24430)) ([ee0ef56](https://github.com/grafana/loki/commit/ee0ef56505bfd4a95da450a36235a53ca1c94aad))\n* **security/MEDIUM/:** Update module github.com/containerd/containerd/v2 to v2.0.12 [SECURITY] (release-3.6.x) ([#24461](https://github.com/grafana/loki/issues/24461)) ([7fa1224](https://github.com/grafana/loki/commit/7fa1224d9f01d83656dc4754456a727b7fb572a0))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.55.0 [SECURITY] (release-3.6.x) ([#24256](https://github.com/grafana/loki/issues/24256)) ([85b2d4f](https://github.com/grafana/loki/commit/85b2d4fb134fe97e51ea6ef25e8da999d732bb8d))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.56.0 [SECURITY] (release-3.6.x) ([#24336](https://github.com/grafana/loki/issues/24336)) ([57bc922](https://github.com/grafana/loki/commit/57bc92283c01e1eba7744e111c881459a4c11e49))\n* **security/UNKNOWN/:** Update module golang.org/x/mod to v0.40.0 [SECURITY] (release-3.6.x) ([#23963](https://github.com/grafana/loki/issues/23963)) ([c08bf30](https://github.com/grafana/loki/commit/c08bf30195ba8e59a4b79729ad79fd634fdc5b70))"
-            },
-            {
-              "name": "v3.7.7",
-              "tag": "v3.7.7",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.7.7",
-              "published_at": "2026-08-27T20:20:03Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.7.7](https://github.com/grafana/loki/compare/v3.7.6...v3.7.7) (2026-08-27)\n\n\n### Features\n\n* Add flag to ignore missing chunks during deletion of logs with line filter [release-3.7.x] ([#24233](https://github.com/grafana/loki/issues/24233)) ([7a40404](https://github.com/grafana/loki/commit/7a40404f32b3e6464c9cfc6cc7dd75a40f3931da))\n\n\n### Bug Fixes\n\n* **security/UNKNOWN/:** Update module github.com/containerd/containerd/v2 to v2.2.5 [SECURITY] (release-3.7.x) ([#24097](https://github.com/grafana/loki/issues/24097)) ([07cd1f0](https://github.com/grafana/loki/commit/07cd1f0a43d5f742525249aa21f0e47b9d51c4ff))\n* **security/UNKNOWN/:** Update module go.etcd.io/etcd/client/pkg/v3 to v3.6.14 [SECURITY] (release-3.7.x) ([#24061](https://github.com/grafana/loki/issues/24061)) ([9d1c9ee](https://github.com/grafana/loki/commit/9d1c9ee0164c020f8125046a7a9d67986c59320b))\n* **security/UNKNOWN/:** Update module golang.org/x/mod to v0.40.0 [SECURITY] (release-3.7.x) ([#23962](https://github.com/grafana/loki/issues/23962)) ([1d5e027](https://github.com/grafana/loki/commit/1d5e027b64370c19abf1495928fd0b89363680d7))\n* **storage:** Pre-compute SHA-256 to avoid aws-chunked on PutObject [release-3.7.x] ([#24215](https://github.com/grafana/loki/issues/24215)) ([3d6f245](https://github.com/grafana/loki/commit/3d6f245b74c52841e8e2ccc6e7883962bfdec7c0))"
             }
           ],
           "last_commit": {
