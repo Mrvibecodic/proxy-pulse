@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:58:51.536509Z",
+  "generated_at": "2026-10-20T17:04:12.752195Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35032,
+            "stars": 35033,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T14:26:57Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5239,
+            "stars": 5240,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-06T01:12:08Z",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16288,
+            "stars": 16287,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -4745,7 +4745,7 @@
             "stars": 2015,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T14:36:37Z",
+            "pushed_at": "2026-10-20T17:00:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4863,12 +4863,21 @@
             "stars": 134,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T16:53:11Z",
+            "pushed_at": "2026-10-20T17:02:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.3.0",
+              "tag": "v7.3.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.3.0",
+              "published_at": "2026-10-20T17:02:07Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.3.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.3.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.2.0",
               "tag": "v7.2.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.0.0\r\n\r\nAdd optional gateway **Kill switch** to block WAN forwarding while Mihomo is down.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v6.9.0",
-              "tag": "v6.9.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v6.9.0",
-              "published_at": "2026-10-14T15:53:37Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v6.9.0\r\n\r\nAdd LAN scope-link routes to TPROXY table 100 for Tailscale coexistence.\r\n- When Tailscale sets src_valid_mark, a marked TCP packet must resolve its LAN source in policy table 100. That table previously held only local default via lo, so MIXED and other TPROXY paths could fail before Mihomo saw the connection (issue #40).\r\n- For tproxy, hybrid, and mixed, SSClash now installs connected IPv4 prefixes of intercepted interfaces as scope link routes in table 100, alongside the existing local default. WAN, lo, and clash-tun are never added. Interface selection mirrors firewall capture, including Keenetic CatchAllLAN. Stale scope-link entries are removed on apply; tun, mixed2, and table 101 are unchanged.\r\n\r\nMove Keenetic fwmarks off nfqws bits.\r\n- Keenetic TPROXY/TUN marks now use 0x80000000 and MIXED UDP-tun uses 0x10000000 with mask 0x90000000 so desync packets on 0x40000000 no longer match ip rule table 100 (fixes HYBRID coexistence with nfqws). Mark helpers and policy routing use uint32 for 32-bit ARM/MIPS builds. After upgrading on Keenetic with nfqws, reboot once so stale fwmark 0x40000000/0x60000000 ip rules from the previous build are cleared.\r\n\r\nAdd optional IPv6 forward drop.\r\n- Gateway option BlockIPv6Forward drops forwarded IPv6 via ip6tables SSCLASH_V6 or an nft forward hook, logs when enabled, reasserts on NdmReload when rules are intact, and exposes the toggle in Settings (default off).\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5107,7 +5107,7 @@
             "stars": 26364,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T16:47:17Z",
+            "pushed_at": "2026-10-20T16:59:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
@@ -5160,10 +5160,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c84f517",
+            "sha": "8271579",
             "branch": "main",
-            "date": "2026-10-20T16:47:19Z",
-            "url": "https://github.com/henrygd/beszel/commit/c84f517ab929d37f8bc9e71801d24fca7ed1aa0c"
+            "date": "2026-10-20T16:59:22Z",
+            "url": "https://github.com/henrygd/beszel/commit/827157906e9b04e236049f5fddee3b811df90105"
           }
         },
         {
@@ -5175,7 +5175,7 @@
             "stars": 77398,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T16:56:59Z",
+            "pushed_at": "2026-10-20T17:02:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T16:55:20Z",
+            "pushed_at": "2026-10-20T17:00:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "54985af",
-            "branch": "feat/native-podman-support",
-            "date": "2026-10-20T16:52:57Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/54985afaf41b970e55363b964fc3c0ce208a7ffa"
+            "sha": "06912b1",
+            "branch": "l10n_crowdin",
+            "date": "2026-10-18T15:05:37Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/06912b1471c79c6b9dbbc53de9a5def0cbb66aa8"
           }
         }
       ]
