@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:21:22.891617Z",
+  "generated_at": "2026-10-21T12:26:41.042406Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42231,
+            "stars": 42232,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-21T12:07:10Z",
@@ -29,7 +29,7 @@
               "published_at": "2026-10-21T12:07:11Z",
               "prerelease": true,
               "author": "RPRX",
-              "body": "## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
+              "body": "紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 移除了三张根证书（v26.10.10、v26.10.17 内置了这些证书，已被撤回），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉那些证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest 版本）\r\n\r\n## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
             },
             {
               "name": "Xray-core v26.10.17",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39090,
+            "stars": 39091,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -1122,7 +1122,7 @@
             "stars": 28848,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T08:46:00Z",
+            "pushed_at": "2026-10-21T12:25:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "23535dc",
-            "branch": "main",
-            "date": "2026-10-20T16:31:43Z",
-            "url": "https://github.com/openwrt/openwrt/commit/23535dcee93872291e6dd57cf2b0ed99e8334dea"
+            "sha": "4550181",
+            "branch": "master",
+            "date": "2026-10-21T12:25:45Z",
+            "url": "https://github.com/openwrt/openwrt/commit/4550181d31035bfa59e616bc36396ca7dacf3c49"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92708,
+            "stars": 92709,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-21T00:06:24Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "45b2353",
-            "branch": "ryan/move-appsdk-apiserver",
-            "date": "2026-10-19T06:13:59Z",
-            "url": "https://github.com/grafana/grafana/commit/45b2353010db10b50152cfc7f86e8a1fc80290f5"
+            "sha": "7a8527f",
+            "branch": "main",
+            "date": "2026-10-19T09:39:24Z",
+            "url": "https://github.com/grafana/grafana/commit/7a8527ffde6b6a3edb7d0b44301416e4ef52f706"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66670,
+            "stars": 66669,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-21T11:29:57Z",
