@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T15:49:17.807619Z",
+  "generated_at": "2026-10-21T15:54:38.956458Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39092,
+            "stars": 39093,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -152,7 +152,7 @@
             "stars": 35058,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T15:44:35Z",
+            "pushed_at": "2026-10-21T15:51:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2df147b",
+            "sha": "3f27ef3",
             "branch": "Alpha",
-            "date": "2026-10-21T15:44:37Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/2df147b90640ef5f03cd69a784abcd2c800a5dcc"
+            "date": "2026-10-21T15:52:00Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/3f27ef39f8c96bbfbc8b0b9bb10f5c9ef60149d8"
           }
         },
         {
@@ -4863,12 +4863,21 @@
             "stars": 136,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T15:47:49Z",
+            "pushed_at": "2026-10-21T15:53:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.4.0",
+              "tag": "v7.4.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.0",
+              "published_at": "2026-10-21T15:53:45Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.4.0\r\n\r\nAdd DSCP bypass/force proxy and fix host-owned server IPs on OUTPUT.\r\n- Gateway settings accept bypass and force DSCP lists with iptables/nft rules, Keenetic NDMS hooks, and UI chips. Omit OUTPUT source bypass when a subscription server IP is a local host address so router egress is not RETURNed before DNAT; refresh nft host_addrs on server set updates.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.3.0",
               "tag": "v7.3.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.1.0\r\n\r\nFix proxy-mode YAML insertion and quieten the login HTTP surface.\r\n- Only treat column-0 mode/tproxy/tun keys when rewriting config.yaml, and serve sign-in with neutral cookies, a minimal auth bundle, gated static files, and a stricter CSP until a session exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.0.0",
-              "tag": "v7.0.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.0.0",
-              "published_at": "2026-10-15T15:51:02Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.0.0\r\n\r\nAdd optional gateway **Kill switch** to block WAN forwarding while Mihomo is down.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77404,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T15:48:25Z",
+            "pushed_at": "2026-10-21T15:53:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d670595",
-            "branch": "secrets/replace-storage-with-kv-interface",
-            "date": "2026-10-21T15:48:26Z",
-            "url": "https://github.com/grafana/grafana/commit/d670595ab44cba44401381b1b94c95558de0fe6c"
+            "sha": "def364c",
+            "branch": "rodrigopk/alerting-api-boundary-mode-toggle",
+            "date": "2026-10-20T18:23:50Z",
+            "url": "https://github.com/grafana/grafana/commit/def364c048d9988c7e881e54a0c88ef8d801ef5c"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a57b23f",
+            "sha": "e9fc1d5",
             "branch": "release-please--branches--release-3.7.x",
-            "date": "2026-10-20T18:19:27Z",
-            "url": "https://github.com/grafana/loki/commit/a57b23ff9eb376b0dd229d87a904d8e06c6f6692"
+            "date": "2026-10-20T18:23:48Z",
+            "url": "https://github.com/grafana/loki/commit/e9fc1d5e6e4f5ac15f71f8488fdd078e7fe533a9"
           }
         }
       ]
