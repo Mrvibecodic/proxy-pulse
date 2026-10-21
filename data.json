@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T12:26:41.042406Z",
+  "generated_at": "2026-10-21T12:31:59.894471Z",
   "groups": [
     {
       "id": "cores",
@@ -29,7 +29,7 @@
               "published_at": "2026-10-21T12:07:11Z",
               "prerelease": true,
               "author": "RPRX",
-              "body": "紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 移除了三张根证书（v26.10.10、v26.10.17 内置了这些证书，已被撤回），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉那些证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest 版本）\r\n\r\n## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
+              "body": "紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 依赖库移除了三张根证书（v26.10.10、v26.10.17 内置了这些证书，已被撤回），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉问题证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest）\r\n\r\n## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
             },
             {
               "name": "Xray-core v26.10.17",
@@ -502,7 +502,7 @@
             "stars": 16,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-10-16T18:43:40Z",
+            "pushed_at": "2026-10-21T12:28:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -1119,10 +1119,10 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28848,
+            "stars": 28849,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T12:25:44Z",
+            "pushed_at": "2026-10-21T12:28:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "37c0474",
+            "sha": "9b11883",
             "branch": "main",
-            "date": "2026-10-20T20:13:44Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/37c0474ee1db1d49903d128cd4a3eed1a1b20158"
+            "date": "2026-10-20T16:59:10Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/9b118831b44bd25c6ea9ed0abd74e3195094f020"
           }
         },
         {
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77401,
+            "stars": 77402,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-21T12:06:49Z",
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66669,
+            "stars": 66670,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-21T11:29:57Z",
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T12:14:42Z",
+            "pushed_at": "2026-10-21T12:29:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
