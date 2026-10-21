@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T06:25:18.793088Z",
+  "generated_at": "2026-10-21T06:30:36.433185Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-20T19:04:11Z",
+            "pushed_at": "2026-10-21T06:26:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "be65a31",
+                  "message": "weechat: fix recursive Kconfig dependency",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-21T06:26:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/be65a3156b0da660629f7c6b5f5411ef1c3fde37"
+                },
+                {
                   "sha": "a714c6e",
                   "message": "v2ray-geodata: update to latest version",
                   "author": "Tianling Shen",
@@ -3336,19 +3343,26 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T14:06:24Z",
                   "url": "https://github.com/openwrt/packages/commit/ca4523c4be80d123054919e63ca8d8bb039c5c65"
-                },
-                {
-                  "sha": "4285f26",
-                  "message": "ripe-atlas: add new package",
-                  "author": "Tiago Gaspar",
-                  "date": "2026-10-05T14:06:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/4285f262ec58bc397fdf4d4758f096f56c32a3a9"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "9edff73",
+                  "message": "weechat: fix recursive Kconfig dependency",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-21T06:26:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/9edff735c87c0955998e134164fd4bff8ad54b44"
+                },
+                {
+                  "sha": "b92440c",
+                  "message": "curl: update to 8.23.0",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-21T06:26:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/b92440c55a8e979f4e3c92e123e5a82a29216f23"
+                },
                 {
                   "sha": "65493e2",
                   "message": "golang: bump 1.26 to 1.26.10",
@@ -3544,20 +3558,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-11T05:30:18Z",
                   "url": "https://github.com/openwrt/packages/commit/5f5c13ba2760fc7b88952aae12dbf7b2195a62df"
-                },
-                {
-                  "sha": "78174ad",
-                  "message": "kea: ship admin-utils.sh and kea-shell Python modules",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-11T05:30:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/78174ad51e1908940a7679d240d888ccd3466e78"
-                },
-                {
-                  "sha": "56897b4",
-                  "message": "openzwave: rename version check test.sh to test-version.sh",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-10T19:18:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/56897b43f8cbe5e9845ee368e3d1e20f514e30d2"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26377,
+            "stars": 26378,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-20T19:34:36Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81067,
+            "stars": 81068,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-21T06:25:24Z",
