@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:53:10.179287Z",
+  "generated_at": "2026-10-21T16:58:29.610556Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 35060,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:27:25Z",
+            "pushed_at": "2026-10-21T16:55:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "v1.19.33",
+              "tag": "v1.19.33",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.33",
+              "published_at": "2026-10-21T16:56:13Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## What's Changed\r\n* 2df147b9 feat: support `dns-mode` for tun (#3288) by @Chenx Dust\r\n\r\n## BUG \u0026 Fix\r\n* 349af191 fix: the embedded shadowsocks listener can't be closed (#3314) by @Token\r\n* 80101933 fix: bound doh dials so ones the query gave up on cannot pile up (#3274) by @Cassian433\r\n* 94b13aed fix: dialer-proxy cycle check takes quadratic time and memory (#3315) by @Token\r\n* c4e81869 fix: CVE-2026-97031 for crypto/tls by @wwqgtxx\r\n* df1b07af fix: a sub-millisecond URL test is reported as a failure (#3316) by @Token\r\n* e4dd968d fix: keep fake-ip allocation state when cloning the pool on reload (#3283) by @Younes Beriane\r\n* 1354e52e fix: unpassed loadbalance test by @wwqgtxx\r\n\r\n## Maintenance\r\n* 3f27ef39 chore: refactored and fixed issues for sudoku while also improving performance (#3333) by @saba-futai\r\n* 9f053c49 chore: lazy init wireguard device and stack by @wwqgtxx\r\n* bc76c139 chore: update mieru version (#3304) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.32...v1.19.33\r\n"
+            },
             {
               "name": "Prerelease-Alpha",
               "tag": "Prerelease-Alpha",
@@ -193,21 +202,12 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* e889b689 feat: support H2C and QUICv2 sniffing (#3036) by @Kosta\r\n* 05b5334c feat: add `handshake-timeout` for hysteria2 by @wwqgtxx\r\n* 1265cb9a feat: add `ip-stack` option for masque outbound by @wwqgtxx\r\n* 4ad27d81 feat: add `ip-stack` option for ZeroTier by @wwqgtxx\r\n* 8453e589 feat: support AmneziaWG v3.0 by @wwqgtxx\r\n* 8b76447b feat: add `ip-stack` option for wireguard outbound by @wwqgtxx\r\n* 8c56780b feat: support AmneziaWG v3.1 by @wwqgtxx\r\n* b0825150 feat: add Zerotier outbound support by @wwqgtxx\r\n* b27c659a feat: add `client-metadata` configuration to anytls and DON'T sent by default by @wwqgtxx\r\n* bb80689b feat: support bbr3 for mipstack by @wwqgtxx\r\n* d46944f3 feat: add `ip-stack` option for openvpn outbound by @wwqgtxx\r\n* e40b5962 feat: add `rate-limit` for restls listener by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 25ccc4dd fix: handle zerotier network lifecycle events correctly by @wwqgtxx\r\n* 2e8a04c9 fix: tailscale failed to recover after the network was restored by @wwqgtxx\r\n* 33154579 fix: CVE-2026-56862 for crypto/tls by @wwqgtxx\r\n* 3a779dda fix: typo in `uplinkHTTPMethod` (#3029) by @Kosta\r\n* 4fcf9aed fix: track QUIC crypto stream coverage without repeated range sorting by @wwqgtxx\r\n* 5e3cb10b fix: avoid reserved TLS suffixes in JLS FakeRandom by @wwqgtxx\r\n* 63f15f2d fix: keep connections open after initial sniffing failures by @wwqgtxx\r\n* 69a3142a fix: apply default uplink chunk size for xhttp (#3061) by @vanbujhm\r\n* 7ac597bd fix: domain resolve logic in zerotier outbound by @wwqgtxx\r\n* 8d1b6616 fix: avoid unnecessary waits in HTTP/2 sniffing by @wwqgtxx\r\n* 8d710081 fix: typo in error string (#3090) by @Rye Sears\r\n* 9574a46c fix: truncate udp dns replies to the client's advertised buffer size (#3043) by @TWO666\r\n* 95f7a0c5 fix: remove incorrect quic error wrapping by @wwqgtxx\r\n* 978d25ae fix: enforce ShadowQUIC JLS authentication in QUIC layer by @wwqgtxx\r\n* 98f1200d fix: panic when UDP is not supported in dns_dialer by @wwqgtxx\r\n* 9b9dc8a0 fix: survive server-initiated soft reset and rekey for openvpn (#3109) by @ayanami-desu\r\n* 9d901dc7 fix: prevent CUBIC ACKs from reducing cwnd for gvisor by @wwqgtxx\r\n* a2c9556a fix: HTTP/2 read loop spinning on underlying StreamError by @wwqgtxx\r\n* a939fc1c fix: compilation errors under specific circumstances by @wwqgtxx\r\n* ac017cdd fix: initialize DNS before NTP (#3103) by @xYx\r\n* ace20375 fix: echo edns0 opt in dns replies when the request carries one (#3041) by @TWO666\r\n* afeb0728 fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion (#3079) by @胡威\r\n* b9894451 fix: reduce PROTOCOL_VIOLATION errors on masque dialing by setting ConnectionIDLength by @wwqgtxx\r\n* c1603f4d fix: coordinate TCP sniffers on overlapping ports by @wwqgtxx\r\n* c7089c00 fix: include the upstream tailscale version for standardization (#3074) by @Feng.YJ\r\n* cd05b74f fix: harden zerotier runtime synchronization by @wwqgtxx\r\n* e18ef3a1 fix: harden ShadowQUIC JLS camouflage forwarding by @wwqgtxx\r\n* ea9c544e fix: avoid unnecessary waits in TLS and QUIC sniffing by @wwqgtxx\r\n* f298cd2e fix: normalize HTTP hosts and avoid unnecessary sniffing delays by @wwqgtxx\r\n* f5fddd37 fix: preserve WebSocket 0-RTT data order by @wwqgtxx\r\n* f83a0721 fix: let QUIC sniffer handle Retry key changes by @wwqgtxx\r\n* fb002210 fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates (#3037) by @TWO666\r\n\r\n## Maintenance\r\n* 09b0ff3c chore: reduce interface differences between gVisor and mipstack by @wwqgtxx\r\n* 0ba9f2f6 chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns (#3048) by @ayanamist\r\n* 1af24e98 chore: update tailscale to v1.102.2 by @wwqgtxx\r\n* 1ef16c71 chore: harden TCP pacing and handshake state handling by @wwqgtxx\r\n* 26c635f6 chore: avoid string reversal allocation in DomainSet.Has (#3049) by @Ember Moth\r\n* 2bade294 chore: allow the sniffer to read more data if possible by @wwqgtxx\r\n* 2ea54615 chore: adjust internal dialQuic api by @wwqgtxx\r\n* 3c16aaf1 chore: update quic-go to 0.61.0 by @wwqgtxx\r\n* 3cac8696 chore: reduce ZeroTier wire data-path overhead by @wwqgtxx\r\n* 4859d142 chore: let quic sniffer handle coalesced packets and larger client hello by @wwqgtxx\r\n* 49a5419d chore: update tailscale to v1.102.0 by @wwqgtxx\r\n* 63024e39 chore: remove unused imports in test by @wwqgtxx\r\n* 669db1ba chore: harden QUIC Initial packet processing by @wwqgtxx\r\n* 6bb8b983 chore: strictly verify the syntax for Clash-style domain wildcards by @wwqgtxx\r\n* 7259bbb8 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 73b061a7 chore: split internal dns server handler by @wwqgtxx\r\n* 770800e9 chore: reduce packet-path and TCP allocation overhead by @wwqgtxx\r\n* 7ee0b05b chore: allow override `IV_VER` by `peer-info` for OpenVPN by @wwqgtxx\r\n* 7ff65441 chore: improve ZeroTier reliability and throughput under load by @wwqgtxx\r\n* 8df94628 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 944e8e1a chore: align MIPS TCP keepalive defaults with sing-wireguard behavior by @wwqgtxx\r\n* 94a89fb7 chore: reject oversized sniff reads before filling the buffer by @wwqgtxx\r\n* 97cbdc52 chore: update gvisor by @wwqgtxx\r\n* 99ce79c9 chore: reduce packet queue contention and socket allocation churn by @wwqgtxx\r\n* 9a9c4c6e chore: improve zerotier event diagnostics by @wwqgtxx\r\n* a52c00b2 chore: expand datagram and raw IP socket support for mipstack by @wwqgtxx\r\n* b9faf971 chore: improve internal sharing mechanism for dnsClient by @wwqgtxx\r\n* c235dc18 chore: let the sniffer assemble client hello across TLS records by @wwqgtxx\r\n* c807c9a0 chore: let the HTTP/2 sniffer assemble header blocks across continuation frames by @wwqgtxx\r\n* cb8e9900 chore: let sniffer support multi-round reading by @wwqgtxx\r\n* cf98d2d5 chore: align ZeroTier link configuration and multicast state by @wwqgtxx\r\n* d8fbf85f chore: update bart by @wwqgtxx\r\n* dd7bc4c6 chore: reduce ZeroTier packet processing overhead by @wwqgtxx\r\n* dfd7e896 chore: align congestion control with Linux by @wwqgtxx\r\n* e183c580 chore: stabilize equal-quality peer path selection for ZeroTier by @wwqgtxx\r\n* e9f62979 chore: improve ZeroTier packet bridge throughput by @wwqgtxx\r\n* ee2db897 chore: let gVisor allow HandleLocal working with PromiscuousMode by @wwqgtxx\r\n* efd63d87 chore: extract bitmap handling from QUIC crypto reassembly by @wwqgtxx\r\n* f5fbe0c4 chore: update mieru version (#3046) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...v1.19.30\r\n"
-            },
-            {
-              "name": "v1.19.29",
-              "tag": "v1.19.29",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.29",
-              "published_at": "2026-07-18T12:34:03Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## What's Changed\r\n* bd749c65 feat: sync anytls v0.0.13 (#2990) by @anytls\r\n* e26714a1 feat: support TLS rekey fix, data-ciphers negotiation, tls-crypt-v2 for OpenVPN (#2989) by @Lanlan13-14\r\n* 0e7c3c79 feat: support restls for anytls outbound and listener by @wwqgtxx\r\n* 2b2bdf6d feat: support jls for shadowsocks outbound and listener by @wwqgtxx\r\n* 5677fd38 feat: add `name-cert-verify` to support separate certificate verification name by @wwqgtxx\r\n* 611a4481 feat: support jls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n* 6d96163e feat: support `override-expr` for proxy provider override by @wwqgtxx\r\n* 769ea6f5 feat: support restls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n* 76d80883 feat: add support for TLSAuth for Openvpn (#2969) by @lyaaz\r\n* 8fe7f748 feat: support jls for anytls outbound and listener by @wwqgtxx\r\n* 9ab75434 feat: support restls/jls for snell outbound and listener by @wwqgtxx\r\n* aea5ce41 feat: support shadowquic outbound and listener by @wwqgtxx\r\n* bc0e5aa8 feat: support shadowtls for anytls outbound and listener by @wwqgtxx\r\n* bfa9ea1d feat: support brutal for shadowquic (mihomo private extension) by @wwqgtxx\r\n* c015694b feat: support shadowtls for vmess/vless/trojan outbound and listener by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 02dfcf2b fix: incorrect alphabet size used in session-table for predefined tables in xhttp-config by @SaltyMonkey\r\n* 0ee58417 fix: reconnect OpenVPN on server soft reset (#2978) by @freephilx\r\n* 12c30af9 fix: wireguard per-peer reserved ignored (#2958) by @AaronChen0\r\n* 2b0d8411 fix: make shadowtls v2 read deadlines recoverable by @wwqgtxx\r\n* 2c7309e2 fix: listener duplicate-name check (#2948) by @AaronChen0\r\n* 3766a087 fix: set global CA pool and NTP time for restls by @wwqgtxx\r\n* 41549236 fix: stop reaper goroutine busy-looping after context cancel (#2964) by @AaronChen0\r\n* 45f79309 fix: CNAME query matching a hosts domain-entry returns an empty answer (#2965) by @AaronChen0\r\n* 75a3ea8b fix: leaked openStreams on failure in TUIC client (#2959) by @AaronChen0\r\n* 7a3c37cb fix: make shadowtls v3 read deadlines recoverable by @wwqgtxx\r\n* 8507c1e2 fix: missing override `shadow-tls-opts` and `restls-opts` in xhttp `download-settings` by @wwqgtxx\r\n* 86984831 fix: the incorrect tls stack was used in shadowtls tests by @wwqgtxx\r\n* 975389a1 fix: intermittent timeouts during the soak test by @wwqgtxx\r\n* 9a7e7266 fix: performance regression caused by unnecessary wrapping in stream encryption by @wwqgtxx\r\n* 9ae1cc2b fix: shadowquic JLS pre-flight fallback handle by @wwqgtxx\r\n* a35045d9 fix: consume CachedConn data in ReadCached by @wwqgtxx\r\n* a5167fa4 fix: allow JLS fallback before the server flight by @wwqgtxx\r\n* a70af274 fix: remove unnecessary quinn-jls compatibility behavior by @wwqgtxx\r\n* ba5c45b7 fix: anytls listener config parsing by @wwqgtxx\r\n* c079b0cc fix: panic on full-width IP-SUFFIX rules (#2975) by @AaronChen0\r\n* c5834396 fix: DOMAIN-WILDCARD ignores sniffed hostname (#2956) by @AaronChen0\r\n* cb8cde8d fix: missing override `jls-opts` in xhttp `download-settings` by @wwqgtxx\r\n* e8ab2d04 fix: alpnAwareRoundTripper behavior in mekya client by @wwqgtxx\r\n* f86bc224 fix: align HelloRetryRequest handling with JLS v3 by @wwqgtxx\r\n\r\n## Maintenance\r\n* 1d1b370e chore: remove redundant writeFull in snell v4 by @wwqgtxx\r\n* 2d45f9ec chore: using new net/http api in mekya client by @wwqgtxx\r\n* 309cfbd6 chore: reimplement shadowtls by @wwqgtxx\r\n* 3b73922f chore: cleanup shadowquic code by @wwqgtxx\r\n* 3f22309b chore: respect the incoming context during JLS fallback by @wwqgtxx\r\n* 42361162 chore: better UserFromConn implementation by @wwqgtxx\r\n* 44dd834f chore: preserve jls in-user for shadowsocks listeners by @wwqgtxx\r\n* 46f9b786 chore: export internal OverrideExpr for api user by @wwqgtxx\r\n* 4d7ef85a chore: sync logic to legacy shadowsocks listener by @wwqgtxx\r\n* 5c1b8bfc chore: authenticate JLS ServerHello using its wire encoding by @wwqgtxx\r\n* 6a52d23a chore: do not force trailing path / when both sessionID and seq are placed elsewhere for xhttp by @Medium1992\r\n* 75eeba42 chore: significantly trim unnecessary code from tailscale by @wwqgtxx\r\n* 8413f504 chore: skip frequently failed tests on windows go1.20 by @wwqgtxx\r\n* 94409eb6 chore: remove redundant writeFull in sudoku by @wwqgtxx\r\n* 95af34af chore: remove redundant writeFull in shadowquic by @wwqgtxx\r\n* 97292968 chore: sync to sudoku v0.4.8 (#2966) by @saba-futai\r\n* 9cece132 chore: add test for alpnAwareRoundTripper in mekya client by @wwqgtxx\r\n* b6ed8e26 chore: rewrite the internal mutual exclusion logic of the listener by @wwqgtxx\r\n* b75a776d chore: clean up duplicate helpers in tests by @wwqgtxx\r\n* bc5976f4 chore: sync internal logic by @wwqgtxx\r\n* cf8545db chore: stabilize traffic wait timing in tlsmirror test by @wwqgtxx\r\n* da5a3e52 chore: rewrite the internal mutual exclusion logic of the outbound by @wwqgtxx\r\n* dc4d4fcb chore: allow jls with utls client-fingerprint by @wwqgtxx\r\n* e3c1ea06 chore: better handshakeRecorderConn impl by @wwqgtxx\r\n* e9119858 chore: change the brutal negotiation in shadowquic to be asynchronous by @wwqgtxx\r\n* ee80e8d6 chore: more comprehensive interop test by @wwqgtxx\r\n* f23e43e6 chore: remove redundant writeFull in gost relay by @wwqgtxx\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.28...v1.19.29\r\n"
             }
           ],
           "last_commit": {
             "sha": "3f27ef3",
-            "branch": "Alpha",
-            "date": "2026-10-21T15:52:00Z",
+            "branch": "Meta",
+            "date": "2026-10-21T16:55:09Z",
             "url": "https://github.com/MetaCubeX/mihomo/commit/3f27ef39f8c96bbfbc8b0b9bb10f5c9ef60149d8"
           }
         },
@@ -1122,7 +1122,7 @@
             "stars": 28856,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:50:39Z",
+            "pushed_at": "2026-10-21T16:53:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "95ed144",
-            "branch": "main",
-            "date": "2026-10-21T16:49:23Z",
-            "url": "https://github.com/openwrt/openwrt/commit/95ed1444855348b9dd71d7182bade76b1f076570"
+            "sha": "c3a9e2f",
+            "branch": "master",
+            "date": "2026-10-21T16:53:43Z",
+            "url": "https://github.com/openwrt/openwrt/commit/c3a9e2f7972da764ac13f25881bc1a6291f813c4"
           }
         },
         {
@@ -4636,7 +4636,7 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:52:51Z",
+            "pushed_at": "2026-10-21T16:53:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
@@ -5175,7 +5175,7 @@
             "stars": 77405,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:49:30Z",
+            "pushed_at": "2026-10-21T16:55:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5243,7 +5243,7 @@
             "stars": 66674,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:02:14Z",
+            "pushed_at": "2026-10-21T16:55:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:13:36Z",
+            "pushed_at": "2026-10-21T16:57:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5c5088c",
+            "sha": "863b33a",
             "branch": "tw/fp-04-fingerprint-writer",
-            "date": "2026-10-21T16:07:14Z",
-            "url": "https://github.com/grafana/loki/commit/5c5088c7d9c6255ec474c964464755726cb84faf"
+            "date": "2026-10-21T16:57:42Z",
+            "url": "https://github.com/grafana/loki/commit/863b33aac7c2ad382ef7a6d6b5167d69408ff0f2"
           }
         }
       ]
