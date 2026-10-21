@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:03:50.142943Z",
+  "generated_at": "2026-10-21T00:09:07.233433Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39060,
+            "stars": 39061,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -576,6 +576,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.25-alpha.1",
+              "tag": "android-v0.1.25-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.25-alpha.1",
+              "published_at": "2026-10-21T00:08:23Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- На Главной виден сам сервер, а под ним мелко — через какую группу он выбран; на вкладке «Серверы» у группы написано, какой сервер в ней сейчас.\n- Предупреждение на Главной, когда ни одно приложение не идёт через VPN.\n\n### Исправлено\n\n- Подписка с защищённым каналом продолжает обновляться после смены ключа у провайдера — с VPN и без.\n- Подписка добавляется и обновляется, даже если сервер подписки не пускает через VPN.\n- Одну подписку нельзя завести дважды — ни ссылкой, ни правкой адреса; после восстановления копии подписка выбирается сама.\n- Выключение сразу после включения не теряется — с кнопки, плитки, виджета и внешнего управления.\n- Уведомление об остановке VPN приходит, только когда его забрало другое приложение, в том числе если оно подключилось не сразу.\n- Сбой фоновой задачи не останавливает VPN.\n- Экраны не закрываются при сбое службы и без приложения выбора файлов, окна не пропадают при повороте экрана.\n- Виджет обновляется без запуска приложения; уведомление об обновлении подписки не остаётся висеть после сбоя.\n- Нехватка места на устройстве называется прямо — при обновлении подписки, приложения, баз и других записях.\n- Ошибка обновления набора серверов описана понятными словами; вкладка «Серверы» не пишет, что в подписке нет групп, когда их не удалось получить.\n- У вложенной группы задержка всегда совпадает с задержкой выбранного в ней сервера.\n- Размер меньше килобайта пишется в B.\n- Тексты настроек и справка совпадают с тем, что делает приложение; папка приложения в системном проводнике называется на языке приложения."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.24",
               "tag": "android-v0.1.24",
@@ -5030,7 +5039,7 @@
             "stars": 92684,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-20T12:15:53Z",
+            "pushed_at": "2026-10-21T00:06:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5083,10 +5092,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d97d8b7",
+            "sha": "f040249",
             "branch": "npm-update",
-            "date": "2026-10-19T00:06:29Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/d97d8b742430f17204c5d593ada8d40f6db8ef50"
+            "date": "2026-10-21T00:06:24Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/f0402499cfc310a302753661161aaafc1c4f8492"
           }
         },
         {
@@ -5435,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29049,
+            "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-20T23:45:57Z",
@@ -5862,7 +5871,7 @@
             "stars": 7990,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-20T23:37:56Z",
+            "pushed_at": "2026-10-21T00:04:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
