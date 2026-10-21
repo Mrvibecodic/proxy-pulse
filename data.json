@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T16:10:36.383010Z",
+  "generated_at": "2026-10-21T16:15:55.266333Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,7 +5175,7 @@
             "stars": 77405,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:06:20Z",
+            "pushed_at": "2026-10-21T16:16:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66674,
+            "stars": 66673,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-21T16:02:14Z",
@@ -5249,6 +5249,15 @@
             "owner": "prometheus"
           },
           "releases": [
+            {
+              "name": "3.15.1 / 2026-10-21",
+              "tag": "v3.15.1",
+              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.1",
+              "published_at": "2026-10-21T16:15:57Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "- [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" following the compromise of eMudhra intermediate CA private keys.\r\n- [SECURITY] Build with Go 1.27.3 to fix vulnerabilities in `net/http`, `net/textproto`, `crypto/tls` and `html/template`.\r\n- [SECURITY] Bump golang.org/x/net to v0.60.0 to fix HTTP/2 vulnerabilities (GO-2026-6603, GO-2026-6610, GO-2026-6611, GO-2026-6612, GO-2026-6617).\r\n"
+            },
             {
               "name": "3.13.5 / 2026-10-21",
               "tag": "v3.13.5",
@@ -5284,22 +5293,13 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "- [BUGFIX] TSDB: Avoid WAL corruption after a failed WAL write in Agent mode. #19700\r\n"
-            },
-            {
-              "name": "3.15.0-rc.0 / 2026-09-09",
-              "tag": "v3.15.0-rc.0",
-              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.15.0-rc.0",
-              "published_at": "2026-09-14T19:17:49Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "- [CHANGE] PromQL: A range query whose `end` was not aligned to `step` caused subqueries inside it to evaluate past the parent's last actual step, inflating `peakSamples` in the query stats and against the `query.max-samples` limit, and wasting storage I/O reading samples that were never used in the result. Add tests to prevent regression of the fix made in #18081. #18598\r\n- [CHANGE] PromQL: Do not register a start timestamp reset if the start timestamp hasn't changed between subsequent samples. #19454\r\n- [CHANGE] Logging: Deprecate `--log.level`; use `runtime.log_level` configuration to supply the default level. #19511\r\n- [FEATURE] Configuration: Allow changing the process log level through `runtime.log_level` on configuration reload. #19511\r\n- [FEATURE] Prometheus: Add `--auto-gomemlimit.refresh-interval` flag to periodically re-detect the container or system memory limit and update `GOMEMLIMIT` at runtime. #18843\r\n- [FEATURE] Scraping: Add support for scraping targets via Unix Domain Sockets. #12024. #18091\r\n- [FEATURE] scrape: Implement OM2.0 scrape format. #18606\r\n- [ENHANCEMENT] Reduce TSDB head CPU utilization when initializing. #18001\r\n- [ENHANCEMENT] Docker SD: Add labels `__meta_docker_container_image` and `__meta_docker_container_image_id`. #19386\r\n- [ENHANCEMENT] Mixin: Add a p95/p99 remote-write send-batch latency panel to the remote-write dashboard. #19500\r\n- [ENHANCEMENT] Mixin: Support native histograms in the remote-write send-batch latency panel. #19522\r\n- [ENHANCEMENT] PromQL/TSDB: The `--enable-feature=st-storage` flag now automatically enables XOR2 float chunk encoding and ST-capable histogram chunk encoding, so you no longer need to pass `xor2-encoding` and `histograms-st-encoding` alongside it. #19518\r\n- [ENHANCEMENT] Remote write / Alertmanager: upgrade sigv4 to v0.5.0, adding `session_name` and `tags` fields for STS AssumeRole sessions. The previously undocumented `service_name` field is now also documented. #19569\r\n- [ENHANCEMENT] Scraping: Support zstd-compressed scrape responses, enabled via feature flag `zstd-scrape`. #19502\r\n- [ENHANCEMENT] TSDB: Stabilize the XOR2 float chunk encoding. `--enable-feature=xor2-encoding` is deprecated; use `storage.tsdb.chunk_encoding.floats: xor2` instead. Check that other software reading the TSDB directly (e.g. Thanos sidecar) supports XOR2 before enabling. #19461\r\n- [ENHANCEMENT] TSDB: add `prometheus_tsdb_head_appenders_created_total` metric. #19411\r\n- [ENHANCEMENT] Tracing: add more spans to scrapes, API queries and rule evaluations. #19410\r\n- [ENHANCEMENT] UI: Show the effective configuration for each scrape pool on the Targets and Service Discovery pages. #19384\r\n- [ENHANCEMENT] scrape: Enable start time synthesis for summary `_count` and `_sum` series in scrape appender v2. #19323\r\n- [ENHANCEMENT] scrape: stop all pools in parallel for faster shutdowns. #19295\r\n- [ENHANCEMENT] storage/remote: Add undocumented failed_request_logging config field to debug log remote write V2 requests on send errors. #19249\r\n- [ENHANCEMENT] TSDB: Add fast path for XOR chunk decompression to speed up queries. #18049\r\n- [ENHANCEMENT] UI: Improve native histogram table formatting and add a background bar indicating the bucket count. #19332\r\n- [ENHANCEMENT] TSDB: Add `prometheus_tsdb_head_series_pending_commit_underflow_total` to report pending-sample reservation underflows. #19470\r\n- [PERF] AWS SD: Build RDS cluster labels once per cluster instead of once per instance. #19504\r\n- [PERF] AWS SD: Describe RDS instances of different clusters concurrently, bounded by `request_concurrency`. #19506\r\n- [PERF] AWS SD: Describe each ElastiCache resource once per refresh instead of twice. #19585\r\n- [PERF] Remote read: Avoid cloning labels for sampled reads when no external labels are configured. #19503\r\n- [PERF] Remote write: Reuse OTLP converter scratch state between requests. #19388\r\n- [PERF] scrape: conversion from classic to native histograms should only parse start times when enabled. #19446\r\n- [BUGFIX] PromQL: Fix `info()` enrichment for composite expressions with mixed `@`/offset references or selector-free vector branches, preventing metadata from being evaluated at an unrelated timestamp. #19387\r\n- [BUGFIX] PromQL: Fix info() enrichment when input series use different subsets of identifying labels. #19557\r\n- [BUGFIX] PromQL: Preserve metric-name dropping through the info function when delayed name removal is enabled. #19413\r\n- [BUGFIX] TSDB: Don't silently drop samples when head garbage collection removes a series while it is being appended to. #19272\r\n- [BUGFIX] TSDB: Keep series with uncommitted samples during selected- and stale-series compaction, including when appenders overlap. #19470\r\n- [BUGFIX] TSDB: Do not retain head series after a synthetic start-timestamp zero sample is rejected. #19470\r\n- [BUGFIX] TSDB: Prevent query panics during series eviction after WAL replay. #19664\r\n- [BUGFIX] TSDB: fix potential deadlock between mmapSeriesChunks and gcSeries. #19460\r\n- [BUGFIX] TSDB: fix default block reload interval for custom options. #19368\r\n- [BUGFIX] AWS SD: Do not crash on serverless MSK clusters or MSK clusters without Open Monitoring. #19194\r\n- [BUGFIX] AWS SD: Do not panic when the ElastiCache API omits optional fields of a serverless cache or cache cluster. #19435\r\n- [BUGFIX] AWS SD: Reject non-positive `request_concurrency` instead of hanging service discovery indefinitely. #19524\r\n- [BUGFIX] Discovery/AWS: Avoid a panic when discovering standalone ECS tasks with custom task groups. #19302\r\n- [BUGFIX] Discovery: Do not panic in AWS Lightsail service discovery when an instance is missing optional fields such as availability zone, blueprint, bundle, name, state or support code. #19324\r\n- [BUGFIX] Discovery: delete the stale `prometheus_sd_last_update_timestamp_seconds` series for a config that is removed on reload. #19131\r\n- [BUGFIX] HTTP: Avoid truncating compressed responses when handlers set Content-Length. #19661\r\n- [BUGFIX] IONOS SD: Do not panic when the API response omits the server, NIC or volume collections, or a server's properties. #19438\r\n- [BUGFIX] Metadata will not affect the number of Remote Write v2 shards. #19218\r\n- [BUGFIX] Mixins: Fix label mismatches that prevented PrometheusHAGroupNotIngestingSamples and PrometheusHAGroupCrashlooping from firing. #19444\r\n- [BUGFIX] Native histograms: `DetectReset` no longer misses a counter reset when a populated bucket behind an empty one disappears, which could make histogram `rate()`/`increase()` undercount. #19367\r\n- [BUGFIX] Never skip histogram buckets for histogram_stddev and histogram_stdvar functions. #19521\r\n- [BUGFIX] OTLP: Do not abort an entire OTLP payload ingestion if one metric has no datapoints. #19343\r\n- [BUGFIX] PromQL: Fix FastRegexMatcher false-positive match when a capturing group is directly adjacent to a literal (e.g. `.*\\|(foo)\\|.*`). #19516\r\n- [BUGFIX] PromQL: Fix a panic in range selectors using the experimental `anchored` or `smoothed` modifier when the selected series has no samples inside the query window, for example a query evaluated inside a scrape gap. #19431\r\n- [BUGFIX] PromQL: Fix empty results when a subquery with `@` is used as the matrix argument of a call that is not step-invariant (for example `quantile_over_time(scalar(x), metric[...:...] @ T)`). #19187\r\n- [BUGFIX] PromQL: Make the \"found duplicate series for the match group\" many-to-many matching error message deterministic by sorting the two duplicate labels. #18810\r\n- [BUGFIX] PromQL: Preserve parentheses around duration literals on Expr.String() round-trip. #19403\r\n- [BUGFIX] PromQL: Reject duration-expression offsets and `@ start()` / `@ end()` before range selectors, matching the existing rejection of literal offsets and `@ \u003ctimestamp\u003e`. #19406\r\n- [BUGFIX] PromQL: Report the position of the histogram argument rather than of a scalar argument in the native histogram NaN observation annotations of `histogram_quantile` and `histogram_fraction`"
             }
           ],
           "last_commit": {
-            "sha": "6867418",
-            "branch": "bwplotka/record-intern-metadata-map",
-            "date": "2026-10-21T16:02:15Z",
-            "url": "https://github.com/prometheus/prometheus/commit/68674182ec0b834968f64eddf349e359e0df1047"
+            "sha": "df0d3cc",
+            "branch": "main",
+            "date": "2026-10-20T06:13:03Z",
+            "url": "https://github.com/prometheus/prometheus/commit/df0d3cc5bde0a153586897fa443e72b5b79c9064"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T16:07:14Z",
+            "pushed_at": "2026-10-21T16:13:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e9fc1d5",
-            "branch": "release-please--branches--release-3.7.x",
-            "date": "2026-10-20T18:23:48Z",
-            "url": "https://github.com/grafana/loki/commit/e9fc1d5e6e4f5ac15f71f8488fdd078e7fe533a9"
+            "sha": "a33bc86",
+            "branch": "feat/logline-metric-instant-queries",
+            "date": "2026-10-21T16:13:37Z",
+            "url": "https://github.com/grafana/loki/commit/a33bc86ead14d8f53999894bb44a0331d94187f1"
           }
         }
       ]
