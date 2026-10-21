@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:12:21.812866Z",
+  "generated_at": "2026-10-21T11:17:40.218867Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35054,
+            "stars": 35053,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-13T14:26:57Z",
@@ -1190,7 +1190,7 @@
             "stars": 4631,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-21T07:10:50Z",
+            "pushed_at": "2026-10-21T11:13:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "808f150",
+                  "message": "golang: bump 1.27 to 1.27.3",
+                  "author": "George Sapkin",
+                  "date": "2026-10-21T11:13:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/808f150a07a2071ebe032e17b5b3f567c0e27181"
+                },
+                {
+                  "sha": "625bb8d",
+                  "message": "golang: bump 1.27 to 1.27.2",
+                  "author": "Andy Chiang",
+                  "date": "2026-10-21T11:13:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/625bb8dcfcc819596e0477166603ba051a04f72e"
+                },
+                {
                   "sha": "9edff73",
                   "message": "weechat: fix recursive Kconfig dependency",
                   "author": "Josef Schlehofer",
@@ -3544,20 +3558,6 @@
                   "author": "Hannu Nyman",
                   "date": "2026-10-11T06:54:16Z",
                   "url": "https://github.com/openwrt/packages/commit/1a5fae4d664c480168504a367e5261d416e1e66a"
-                },
-                {
-                  "sha": "22117a5",
-                  "message": "iniparser: update to 4.3.2",
-                  "author": "Antonio Pastor",
-                  "date": "2026-10-11T06:35:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/22117a5f87be7dac039bf3bfb38e3177dd1a664d"
-                },
-                {
-                  "sha": "5f5c13b",
-                  "message": "kea: add functional test.sh covering all subpackages",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-11T05:30:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/5f5c13ba2760fc7b88952aae12dbf7b2195a62df"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16284,
+            "stars": 16285,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1eaf0f9",
-            "branch": "main",
-            "date": "2026-10-20T15:23:39Z",
-            "url": "https://github.com/grafana/grafana/commit/1eaf0f98b4f27a09050bfa13e9113bb318d5f036"
+            "sha": "ebfad53",
+            "branch": "nathanmarrs/notebooks-viz-block-actions",
+            "date": "2026-10-20T15:16:11Z",
+            "url": "https://github.com/grafana/grafana/commit/ebfad533f8bdd5be165284bc9d39597f47910191"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T11:06:58Z",
+            "pushed_at": "2026-10-21T11:15:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
