@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:03:01.029058Z",
+  "generated_at": "2026-10-22T07:08:20.447407Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42240,
+            "stars": 42241,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-21T12:45:30Z",
@@ -1190,7 +1190,7 @@
             "stars": 4634,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T06:58:07Z",
+            "pushed_at": "2026-10-22T07:05:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,34 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "efa9d41",
+                  "message": "php8: update to 8.4.27",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-22T07:05:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/efa9d41d7db62ea2bbdc3b8ef505abd30b284f25"
+                },
+                {
+                  "sha": "a666a2f",
+                  "message": "php8: update to 8.4.26",
+                  "author": "Michael Heimpold",
+                  "date": "2026-10-22T07:05:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/a666a2f6331aca85ac5b16f9ee42d231c832d099"
+                },
+                {
+                  "sha": "c51b129",
+                  "message": "php8: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-22T07:05:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/c51b129bc5bb1faaecaf10b084007a30dbbf2240"
+                },
+                {
+                  "sha": "9769338",
+                  "message": "php8: update to 8.4.23",
+                  "author": "Michael Heimpold",
+                  "date": "2026-10-22T07:05:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/9769338121e0eda4e1df626b8219e128f7c9e4f4"
+                },
+                {
                   "sha": "ba52d39",
                   "message": "unbound: update to 1.26.2",
                   "author": "Tyrel M. McQueen",
@@ -3530,34 +3558,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-13T09:25:46Z",
                   "url": "https://github.com/openwrt/packages/commit/dc3d7269115543e91760ba1c026618e07bae668c"
-                },
-                {
-                  "sha": "54d77dd",
-                  "message": "openssh: update to 10.6_p1",
-                  "author": "John Audia",
-                  "date": "2026-10-11T19:19:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/54d77dd5714bb4747c4bf061735304d18076de0b"
-                },
-                {
-                  "sha": "25772d8",
-                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
-                  "author": "Andrey Brusnik",
-                  "date": "2026-10-11T18:57:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/25772d8c1cf3f60823e1a7f7842b0ed068d16749"
-                },
-                {
-                  "sha": "8facd24",
-                  "message": "travelmate: fix repeated retry rounds of a disabled uplink",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-11T18:34:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/8facd24e0754f5342e945a307a09759c87a7294c"
-                },
-                {
-                  "sha": "61d876d",
-                  "message": "lxc: update to 7.0.0",
-                  "author": "John Audia",
-                  "date": "2026-10-11T17:11:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/61d876d6e7994a4f0a52b5753d460b3828054035"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92732,
+            "stars": 92731,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-22T00:06:14Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77416,
+            "stars": 77417,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T06:51:05Z",
+            "pushed_at": "2026-10-22T07:08:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66693,
+            "stars": 66692,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-22T06:44:54Z",
@@ -5379,7 +5379,7 @@
             "stars": 17891,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T07:02:41Z",
+            "pushed_at": "2026-10-22T07:06:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6d2aef7",
-            "branch": "release-3.7.x",
-            "date": "2026-10-20T14:01:10Z",
-            "url": "https://github.com/grafana/loki/commit/6d2aef745876229c493ddff0604f7955864e17e9"
+            "sha": "d2c17f7",
+            "branch": "main",
+            "date": "2026-10-20T14:09:16Z",
+            "url": "https://github.com/grafana/loki/commit/d2c17f77a050480898be3ffbefb8d07771e28e20"
           }
         }
       ]
