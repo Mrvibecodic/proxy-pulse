@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T14:46:23.491569Z",
+  "generated_at": "2026-10-22T14:51:43.840506Z",
   "groups": [
     {
       "id": "cores",
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2026,
+            "stars": 2027,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-21T20:29:55Z",
@@ -4870,24 +4870,6 @@
           },
           "releases": [
             {
-              "name": "v7.4.1",
-              "tag": "v7.4.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.1",
-              "published_at": "2026-10-21T17:27:37Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.4.1\r\n\r\nSort DSCP lists, allow multi-value input, and log marks on Apply.\r\n- Match Port filter separators and numeric chip order without merging values into ranges; log configured bypass and force DSCP on firewall apply.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.4.0",
-              "tag": "v7.4.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.0",
-              "published_at": "2026-10-21T15:53:45Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.4.0\r\n\r\nAdd DSCP bypass/force proxy and fix host-owned server IPs on OUTPUT.\r\n- Gateway settings accept bypass and force DSCP lists with iptables/nft rules, Keenetic NDMS hooks, and UI chips. Omit OUTPUT source bypass when a subscription server IP is a local host address so router egress is not RETURNed before DNAT; refresh nft host_addrs on server set updates.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
               "name": "v7.3.0",
               "tag": "v7.3.0",
               "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.3.0",
@@ -4913,6 +4895,24 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.1.1\r\n\r\nImprove Server listener editor: YAML layout, generators, and address chips.\r\n- Indent new listeners sections correctly and insert them before outbound blocks; add configurable password generation and one-click listen/client address suggestions with sensible private-address filtering.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v7.1.0",
+              "tag": "v7.1.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.0",
+              "published_at": "2026-10-16T08:31:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.1.0\r\n\r\nFix proxy-mode YAML insertion and quieten the login HTTP surface.\r\n- Only treat column-0 mode/tproxy/tun keys when rewriting config.yaml, and serve sign-in with neutral cookies, a minimal auth bundle, gated static files, and a stricter CSP until a session exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
+            {
+              "name": "v7.0.0",
+              "tag": "v7.0.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.0.0",
+              "published_at": "2026-10-15T15:51:02Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.0.0\r\n\r\nAdd optional gateway **Kill switch** to block WAN forwarding while Mihomo is down.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92746,
+            "stars": 92747,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-22T00:06:14Z",
@@ -5175,7 +5175,7 @@
             "stars": 77428,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T14:41:14Z",
+            "pushed_at": "2026-10-22T14:51:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "177f769",
-            "branch": "deps-update/github.com-digitalocean-godo-1.x",
-            "date": "2026-10-22T06:44:41Z",
-            "url": "https://github.com/prometheus/prometheus/commit/177f769c1d131988985dc52cc90d375d6b44a779"
+            "sha": "c706d48",
+            "branch": "main",
+            "date": "2026-10-22T08:38:36Z",
+            "url": "https://github.com/prometheus/prometheus/commit/c706d484e3f2f47d1d8176c751ea28799f089802"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T14:43:23Z",
+            "pushed_at": "2026-10-22T14:51:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
