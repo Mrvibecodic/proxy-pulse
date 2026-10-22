@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:06:22.441430Z",
+  "generated_at": "2026-10-22T05:11:39.590133Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4634,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T04:39:31Z",
+            "pushed_at": "2026-10-22T05:10:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "b0e8484",
+                  "message": "unbound: update to 1.26.2",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-10-22T05:09:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/b0e8484b02807d6d848740de8bc2fd98edbe014f"
+                },
+                {
                   "sha": "be65a31",
                   "message": "weechat: fix recursive Kconfig dependency",
                   "author": "Josef Schlehofer",
@@ -3336,19 +3343,19 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-05T14:06:52Z",
                   "url": "https://github.com/openwrt/packages/commit/b7454446125b3f0c591bcd137cad52e52006128c"
-                },
-                {
-                  "sha": "ca4523c",
-                  "message": "ripe-atlas: add test.sh",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-05T14:06:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/ca4523c4be80d123054919e63ca8d8bb039c5c65"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "ba52d39",
+                  "message": "unbound: update to 1.26.2",
+                  "author": "Tyrel M. McQueen",
+                  "date": "2026-10-22T05:10:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/ba52d39042e7fd60f375f0196d5b4100db3e1697"
+                },
                 {
                   "sha": "808f150",
                   "message": "golang: bump 1.27 to 1.27.3",
@@ -3551,13 +3558,6 @@
                   "author": "John Audia",
                   "date": "2026-10-11T17:11:32Z",
                   "url": "https://github.com/openwrt/packages/commit/61d876d6e7994a4f0a52b5753d460b3828054035"
-                },
-                {
-                  "sha": "1a5fae4",
-                  "message": "haveged: update to 1.9.26",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-11T06:54:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/1a5fae4d664c480168504a367e5261d416e1e66a"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77414,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T05:06:10Z",
+            "pushed_at": "2026-10-22T05:08:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
