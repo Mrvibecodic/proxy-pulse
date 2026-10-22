@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:38:51.499650Z",
+  "generated_at": "2026-10-22T08:44:10.153711Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39119,
+            "stars": 39120,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-13T14:06:29Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77418,
+            "stars": 77420,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T08:36:47Z",
+            "pushed_at": "2026-10-22T08:43:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "32f4f10",
-            "branch": "main",
-            "date": "2026-10-22T08:24:08Z",
-            "url": "https://github.com/grafana/grafana/commit/32f4f103c56c3589efe32189555e8efa6b8f1ab4"
+            "sha": "e51da86",
+            "branch": "macabu/reporting-api-send-email-handle-uid",
+            "date": "2026-10-22T08:43:36Z",
+            "url": "https://github.com/grafana/grafana/commit/e51da8669c95d335a5e8846059206105b0f0cf96"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66695,
+            "stars": 66696,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-22T08:38:36Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81086,
+            "stars": 81087,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-22T07:59:26Z",
@@ -5735,12 +5735,21 @@
             "stars": 85,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T08:38:50Z",
+            "pushed_at": "2026-10-22T08:39:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.51.1",
+              "tag": "0.51.1",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.51.1",
+              "published_at": "2026-10-22T08:43:39Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.51.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.51.1`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.51.1 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/40\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.51.0...0.51.1"
+            },
             {
               "name": "0.51.0",
               "tag": "0.51.0",
@@ -5776,15 +5785,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.48.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.48.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.48.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/35\n\n## New Contributors\n* @mishkatik made their first contribution in https://github.com/mishkatik/infra-billing/pull/35\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.47.0...0.48.0"
-            },
-            {
-              "name": "0.47.0",
-              "tag": "0.47.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.47.0",
-              "published_at": "2026-09-26T21:17:01Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.47.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.46.0...0.47.0"
             }
           ],
           "last_commit": {
