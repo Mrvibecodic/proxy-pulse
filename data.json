@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:13:41.000644Z",
+  "generated_at": "2026-10-22T07:19:01.242486Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42241,
+            "stars": 42240,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-21T12:45:30Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35077,
+            "stars": 35078,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-21T16:55:10Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1387,
+            "stars": 1388,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-10-18T22:39:55Z",
@@ -1099,10 +1099,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0351923",
+            "sha": "790084a",
             "branch": "feat/init-clashfest",
-            "date": "2026-10-22T00:56:42Z",
-            "url": "https://github.com/Nemu-x/ClashFest/commit/035192378ea20d352016ae2285c2da463606d2a3"
+            "date": "2026-10-22T00:12:22Z",
+            "url": "https://github.com/Nemu-x/ClashFest/commit/790084a5cd1389f45ac220e0903b4028693f8e11"
           }
         }
       ]
@@ -5175,7 +5175,7 @@
             "stars": 77417,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T07:08:04Z",
+            "pushed_at": "2026-10-22T07:17:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8803948",
+            "sha": "602db13",
             "branch": "main",
-            "date": "2026-10-21T07:42:19Z",
-            "url": "https://github.com/grafana/grafana/commit/8803948103308a92ba351ad934c997775236620e"
+            "date": "2026-10-21T08:43:45Z",
+            "url": "https://github.com/grafana/grafana/commit/602db139abaad18180abd012ad619a19a0a02bd9"
           }
         },
         {
@@ -5243,7 +5243,7 @@
             "stars": 66692,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T07:13:46Z",
+            "pushed_at": "2026-10-22T07:16:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5379,7 +5379,7 @@
             "stars": 17891,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T07:06:19Z",
+            "pushed_at": "2026-10-22T07:17:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d2c17f7",
-            "branch": "main",
-            "date": "2026-10-20T14:09:16Z",
-            "url": "https://github.com/grafana/loki/commit/d2c17f77a050480898be3ffbefb8d07771e28e20"
+            "sha": "ae80053",
+            "branch": "deps-update/release-3.7.x-memcached-1.x",
+            "date": "2026-10-22T00:10:36Z",
+            "url": "https://github.com/grafana/loki/commit/ae8005357495ba06c154d62db950c82c04b3c3f7"
           }
         }
       ]
@@ -5797,7 +5797,7 @@
         {
           "repo": "Zephyruso/zashboard",
           "title": "zashboard",
-          "track": "commits",
+          "track": "releases",
           "meta": {
             "description": null,
             "stars": 3605,
@@ -5808,749 +5808,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "deleted",
-              "commits": [
-                {
-                  "sha": "d7a0127",
-                  "message": "rm",
-                  "author": "Zephyruso",
-                  "date": "2025-12-26T03:09:02Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d7a01278a73ee1400ab535ce3bb300f90cb3bc06"
-                }
-              ]
+              "name": "v3.29.1",
+              "tag": "v3.29.1",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.29.1",
+              "published_at": "2026-09-23T08:17:27Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.29.1](https://github.com/Zephyruso/zashboard/compare/v3.29.0...v3.29.1) (2026-09-23)\n\n\n### Bug Fixes\n\n* enhance sidebar stats card with background color and improve table-glass styles ([4a29037](https://github.com/Zephyruso/zashboard/commit/4a2903752b2d0b0c711dc51f260e490ce7de4dfb))\n* normalize IPv6 zone in source IP labels and allow link-local reverse DNS ([686234a](https://github.com/Zephyruso/zashboard/commit/686234ab252e3517a2ca5113477eedc8376203d7)), closes [#798](https://github.com/Zephyruso/zashboard/issues/798)\n* overlay glass effect with backdrop filters across components ([ffcef39](https://github.com/Zephyruso/zashboard/commit/ffcef39706c3d0836eed8f750020bdaf61037946))\n* remove base color overlay on home page with custom background ([9cc981c](https://github.com/Zephyruso/zashboard/commit/9cc981cafa0114ff4a813e3e9f87217aedee83fb))\n* sync iOS status bar tint with theme and overlay dimming ([0d68259](https://github.com/Zephyruso/zashboard/commit/0d682591d9056dc7a24b3610f83f29abe4969413))\n* use tldts to extract registrable domain in connection history ([ce87647](https://github.com/Zephyruso/zashboard/commit/ce87647f35a01bc66208c298d3e0c58b558dba34)), closes [#797](https://github.com/Zephyruso/zashboard/issues/797)"
             },
             {
-              "name": "gh-pages",
-              "commits": [
-                {
-                  "sha": "9e5eef2",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:50Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9e5eef2371a8ccc666e48dd70293d7c7c4fb32e9"
-                }
-              ]
+              "name": "v3.29.0",
+              "tag": "v3.29.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.29.0",
+              "published_at": "2026-09-22T06:28:29Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.29.0](https://github.com/Zephyruso/zashboard/compare/v3.28.0...v3.29.0) (2026-09-21)\n\n\n### Features\n\n* support dae API ([b54e357](https://github.com/Zephyruso/zashboard/commit/b54e3575e2178aa2eee8a86704d476eeaae114d4))\n\n\n### Bug Fixes\n\n* add backdrop blur effect to floating menu and action panels ([9406d36](https://github.com/Zephyruso/zashboard/commit/9406d36154d2f2d2421640a00bebbd6718375d6f))\n* improve accent color contrast in light and dark themes ([3c05df9](https://github.com/Zephyruso/zashboard/commit/3c05df92d08293ac5c3d4d03493d1d9e24822ab3))\n* **nav:** improve active state feedback and transition timing for nav items ([208ffe9](https://github.com/Zephyruso/zashboard/commit/208ffe9e4adaf9bd815534724be677bf51852510))\n* prevent dialog swipe from getting stuck in settling state ([e21ba6a](https://github.com/Zephyruso/zashboard/commit/e21ba6a797528a4bbc285158fd56d79ddcc8e2dd))\n* update default number of charts in sidebar to 1 ([b38eeba](https://github.com/Zephyruso/zashboard/commit/b38eeba58ffa9a11b17260b3cde59bd700b77a2b))\n* update estimated row height calculation and adjust padding for last row ([d6f69f7](https://github.com/Zephyruso/zashboard/commit/d6f69f771b9c540e636015aa5234ad811cb9c8a5))\n* update medium latency color for better contrast and consistency across themes ([035858d](https://github.com/Zephyruso/zashboard/commit/035858d5380c0ace98742228ab8649f8fbcfd920))\n* update ProxyNodeCard styles to apply background for active state ([412e8de](https://github.com/Zephyruso/zashboard/commit/412e8dec06329ea58f86ac8a6df9f55650c04235))"
             },
             {
-              "name": "gh-pages-cdn-fonts",
-              "commits": [
-                {
-                  "sha": "10a4eaf",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:53Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/10a4eaffd9274bb883fd4e013297b24a3e719316"
-                }
-              ]
+              "name": "v3.28.0",
+              "tag": "v3.28.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.28.0",
+              "published_at": "2026-09-17T06:54:57Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.28.0](https://github.com/Zephyruso/zashboard/compare/v3.27.0...v3.28.0) (2026-09-17)\n\n\n### Features\n\n* add overscroll lock functionality for iOS to prevent page bounce ([50c873c](https://github.com/Zephyruso/zashboard/commit/50c873c8d75da33222391e265c311657be3c8091))\n* add tun stack configuration and localization support ([aadccc6](https://github.com/Zephyruso/zashboard/commit/aadccc64c85f6df8ab4807f2e400325b5696d029))\n* enhance sidebar and navigation components, improve performance and styling ([b541b9d](https://github.com/Zephyruso/zashboard/commit/b541b9d78fc1ac4a516ce94f909589842016b1e7))\n\n\n### Bug Fixes\n\n* enhance rule hit tooltip with formatted last hit time ([8b53171](https://github.com/Zephyruso/zashboard/commit/8b5317106feb349c6f2c2a8dc3cda3deccb284c4))\n* update primary color for light theme and adjust card background hover effect ([b106fa6](https://github.com/Zephyruso/zashboard/commit/b106fa60a3f397e06e0aa8a40ee1810ac7a46791))"
             },
             {
-              "name": "gh-pages-firasans-only",
-              "commits": [
-                {
-                  "sha": "beba845",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:52Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/beba8451d317291f4c8767f7975a226da0e40f93"
-                }
-              ]
+              "name": "v3.27.0",
+              "tag": "v3.27.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.27.0",
+              "published_at": "2026-09-15T09:51:54Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.27.0](https://github.com/Zephyruso/zashboard/compare/v3.26.0...v3.27.0) (2026-09-15)\n\n\n### Features\n\n* add a toggle to search hidden columns on the connections page ([1e78ba4](https://github.com/Zephyruso/zashboard/commit/1e78ba4a8b36d841e73334ed6170571aebe13174))\n* add comment for touch detection initialization in tooltip ([7339256](https://github.com/Zephyruso/zashboard/commit/7339256198146aef4bbc0e199e655cb9abee043f))\n* enhance table components with customizable classes and tooltips ([40d6f30](https://github.com/Zephyruso/zashboard/commit/40d6f30df4baee26e5daef5c1ac38e062de21864))\n* implement theme color synchronization with overlay dimming for mobile proxies ([05ba9a4](https://github.com/Zephyruso/zashboard/commit/05ba9a438e132026120722b9e721dbf01652708a))\n* update icon components and add icon generation script ([f0f47e8](https://github.com/Zephyruso/zashboard/commit/f0f47e85ccf97a2b2529209f052ef55e361b36b0))\n\n\n### Bug Fixes\n\n* adjust z-index context for sticky header and refine hidden column search logic ([01b4b15](https://github.com/Zephyruso/zashboard/commit/01b4b1518524f8a016d953e201ed7464dbc2a5c9))"
             },
             {
-              "name": "gh-pages-misans-only",
-              "commits": [
-                {
-                  "sha": "eb8fd9d",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:48Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/eb8fd9d801ed5fa5397a1f999be1624ed25e6433"
-                }
-              ]
-            },
-            {
-              "name": "gh-pages-no-fonts",
-              "commits": [
-                {
-                  "sha": "c7b2cc3",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/c7b2cc39fa88adb43f90eac05d333cf24dec5280"
-                }
-              ]
-            },
-            {
-              "name": "gh-pages-pingfang-only",
-              "commits": [
-                {
-                  "sha": "2222080",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:56Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/222208018855083aa7597411bbdc7301e907b620"
-                }
-              ]
-            },
-            {
-              "name": "gh-pages-sarasa-only",
-              "commits": [
-                {
-                  "sha": "cc2fc8a",
-                  "message": "deploy: 6225aac84439425ae4f4493437b110a314753436",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:50Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/cc2fc8ad3aae55f56acc97e9882176590df60333"
-                }
-              ]
-            },
-            {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "6225aac",
-                  "message": "feat: use grid icon for overview and add hover motion to nav icons",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:10:43Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/6225aac84439425ae4f4493437b110a314753436"
-                },
-                {
-                  "sha": "a72516f",
-                  "message": "fix: bump dependencies to patch security vulnerabilities",
-                  "author": "Zephyruso",
-                  "date": "2026-10-16T10:21:41Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/a72516fec99f290b924290ba8be74613a2480dbd"
-                },
-                {
-                  "sha": "63cb0e0",
-                  "message": "feat: auto-connect to same-origin backend on initial setup (#810)",
-                  "author": "Li Haotong",
-                  "date": "2026-10-16T09:37:12Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/63cb0e04994866c6537b8a3dd70a0630aa558648"
-                },
-                {
-                  "sha": "e5b48b4",
-                  "message": "feat: merge closed connections tab into all tab with a filter menu",
-                  "author": "Zephyruso",
-                  "date": "2026-10-10T07:40:09Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/e5b48b4e8fe5c727170a57444c969f01aca3fbad"
-                },
-                {
-                  "sha": "4e13b0c",
-                  "message": "fix: give the fixed top bar a status-bar inset on Android (#806)",
-                  "author": "Clyde",
-                  "date": "2026-10-09T07:26:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4e13b0cf485b514ef03b288b5c04ad5c898c22e7"
-                },
-                {
-                  "sha": "9b867b7",
-                  "message": "feat: sync dae native API contract",
-                  "author": "Zephyruso",
-                  "date": "2026-09-30T02:50:33Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9b867b76a8cbca014423e93af59f7ce0996bc4f4"
-                },
-                {
-                  "sha": "b83a63a",
-                  "message": "feat: display dialer proxy as italic via label in ProxyName",
-                  "author": "Zephyruso",
-                  "date": "2026-09-24T05:29:26Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b83a63aeba1a08be62ee4d6228874e1229a12d1b"
-                },
-                {
-                  "sha": "50717b0",
-                  "message": "chore(main): release 3.29.1 (#800)",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T08:16:02Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/50717b02dac68425cdc5b80cb754bea768ee4fc9"
-                },
-                {
-                  "sha": "9cc981c",
-                  "message": "fix: remove base color overlay on home page with custom background",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T08:15:03Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9cc981cafa0114ff4a813e3e9f87217aedee83fb"
-                },
-                {
-                  "sha": "4a29037",
-                  "message": "fix: enhance sidebar stats card with background color and improve table-glass styles",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T07:18:23Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4a2903752b2d0b0c711dc51f260e490ce7de4dfb"
-                },
-                {
-                  "sha": "1fa8b42",
-                  "message": "refactor: make mobile page swipe follow the finger with cancelable gesture",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:53:39Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/1fa8b42284abfb3f9f43c1314947b1f3ce6a22c7"
-                },
-                {
-                  "sha": "0d68259",
-                  "message": "fix: sync iOS status bar tint with theme and overlay dimming",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:38:49Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/0d682591d9056dc7a24b3610f83f29abe4969413"
-                },
-                {
-                  "sha": "2b1c12c",
-                  "message": "refactor: restyle dock as iOS-style floating tab bar",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:38:49Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/2b1c12c1b023c27c6f519a0524211337e2f262bc"
-                },
-                {
-                  "sha": "ffcef39",
-                  "message": "fix: overlay glass effect with backdrop filters across components",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T04:01:54Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ffcef39706c3d0836eed8f750020bdaf61037946"
-                },
-                {
-                  "sha": "686234a",
-                  "message": "fix: normalize IPv6 zone in source IP labels and allow link-local reverse DNS",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T02:53:11Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/686234ab252e3517a2ca5113477eedc8376203d7"
-                },
-                {
-                  "sha": "ce87647",
-                  "message": "fix: use tldts to extract registrable domain in connection history",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T02:49:39Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ce87647f35a01bc66208c298d3e0c58b558dba34"
-                },
-                {
-                  "sha": "9c69adf",
-                  "message": "chore(main): release 3.29.0 (#793)",
-                  "author": "Zephyruso",
-                  "date": "2026-09-22T06:28:07Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9c69adf8dfef6b6c9cb519fc16be6e433b20bc0e"
-                },
-                {
-                  "sha": "b54e357",
-                  "message": "feat: support dae API",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:56:03Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b54e3575e2178aa2eee8a86704d476eeaae114d4"
-                },
-                {
-                  "sha": "412e8de",
-                  "message": "fix: update ProxyNodeCard styles to apply background for active state",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:20:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/412e8dec06329ea58f86ac8a6df9f55650c04235"
-                },
-                {
-                  "sha": "9406d36",
-                  "message": "fix: add backdrop blur effect to floating menu and action panels",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:20:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9406d36154d2f2d2421640a00bebbd6718375d6f"
-                },
-                {
-                  "sha": "d6f69f7",
-                  "message": "fix: update estimated row height calculation and adjust padding for last row",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T13:25:50Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d6f69f771b9c540e636015aa5234ad811cb9c8a5"
-                },
-                {
-                  "sha": "b38eeba",
-                  "message": "fix: update default number of charts in sidebar to 1",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T10:54:48Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b38eeba58ffa9a11b17260b3cde59bd700b77a2b"
-                },
-                {
-                  "sha": "3c05df9",
-                  "message": "fix: improve accent color contrast in light and dark themes",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T10:50:36Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/3c05df92d08293ac5c3d4d03493d1d9e24822ab3"
-                },
-                {
-                  "sha": "e21ba6a",
-                  "message": "fix: prevent dialog swipe from getting stuck in settling state",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T09:01:25Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/e21ba6a797528a4bbc285158fd56d79ddcc8e2dd"
-                },
-                {
-                  "sha": "d765062",
-                  "message": "refactor: move component-only css into components and utility classes",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:58:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d765062be21f6a0740cbaa589a373be504bc06e8"
-                },
-                {
-                  "sha": "d1adea4",
-                  "message": "refactor: split composables and helper by use-prefix, drop unused exports",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:32:04Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d1adea49250a40cbde2cdfd6b2b6b9a47c951e6a"
-                },
-                {
-                  "sha": "67f74d7",
-                  "message": "refactor: rename ts files to kebab-case",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:19:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/67f74d7582b7170188c8ca8a8e22109e6bc9c577"
-                },
-                {
-                  "sha": "00e56c7",
-                  "message": "refactor: assembly layer",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:13:36Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/00e56c7c64a153d583084073c237ab5f256a8e48"
-                },
-                {
-                  "sha": "f0dbc2a",
-                  "message": "refactor: remove all comments",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T06:14:40Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/f0dbc2aa1b95b0460ab8b4c99bade14abee283a9"
-                },
-                {
-                  "sha": "208ffe9",
-                  "message": "fix(nav): improve active state feedback and transition timing for nav items",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T06:02:55Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/208ffe9e4adaf9bd815534724be677bf51852510"
-                }
-              ]
-            },
-            {
-              "name": "proxies-canvas",
-              "commits": [
-                {
-                  "sha": "ff938a6",
-                  "message": "feat: implement canvas node grid rendering",
-                  "author": "Zephyruso",
-                  "date": "2026-09-07T06:46:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ff938a609d79f5b82af9a7c0d93369765306c9e5"
-                },
-                {
-                  "sha": "cb15575",
-                  "message": "feat: scroll to the active node on expand and fix node scroll positioning",
-                  "author": "Zephyruso",
-                  "date": "2026-09-07T05:35:59Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/cb15575a025255e9968009a96eb4368cc9169ed4"
-                },
-                {
-                  "sha": "92d8cc7",
-                  "message": "refactor: adjust collapse motion duration and enhance rendering logic for smoother transitions",
-                  "author": "Zephyruso",
-                  "date": "2026-09-07T03:11:31Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/92d8cc76f6f4e674eec296bed2d43a985b5000e2"
-                },
-                {
-                  "sha": "8f1fd51",
-                  "message": "refactor: rename segment indicator classes for consistency and remove unused transition group in ProxyNodeGrid",
-                  "author": "Zephyruso",
-                  "date": "2026-09-07T02:29:35Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/8f1fd51d9ece9028b187b1ce4751b573a51cb919"
-                },
-                {
-                  "sha": "64b9458",
-                  "message": "refactor: enhance virtual row shift handling and improve animation synchronization in CollapseCard and VirtualColumn components",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T09:56:02Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/64b945828c2b4fbae498dc21f8582b60945ad0ed"
-                },
-                {
-                  "sha": "2fa8d35",
-                  "message": "refactor: streamline collapse motion styles and improve transition handling in CollapseCard and ProxiesContent components",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T09:16:42Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/2fa8d355d314dff5ff9ac4452ade9dd9ae07f242"
-                },
-                {
-                  "sha": "2b59feb",
-                  "message": "fix: improve layout of connection metrics by adjusting icon positioning and spacing",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T08:02:45Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/2b59febc3bd2751934ff76fe29322d59afbdfd81"
-                },
-                {
-                  "sha": "27f76ec",
-                  "message": "refactor: optimize proxy rendering and scrolling behavior for improved performance",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T07:54:28Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/27f76ec825cabe364371b6dd0d2f408e55f78bd3"
-                },
-                {
-                  "sha": "bd65a45",
-                  "message": "fix: update modal open state handling to prevent overflow issues during transitions",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T07:41:12Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/bd65a459555d98e5b2f26afeaa85879ed71ae345"
-                },
-                {
-                  "sha": "c88976d",
-                  "message": "fix: ensure full proxy chain is always displayed in connection details",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T07:19:49Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/c88976d668a25a12e0696007da19292919b5155d"
-                },
-                {
-                  "sha": "ac86982",
-                  "message": "feat: implement collapse motion for cards and optimize virtual row shifting",
-                  "author": "Zephyruso",
-                  "date": "2026-09-04T06:24:30Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ac869828b38405e675a41eed670bbd5b90290df6"
-                },
-                {
-                  "sha": "4a7e06e",
-                  "message": "fix: adjust virtual table layout for proper sticky header and background alignment",
-                  "author": "Zephyruso",
-                  "date": "2026-09-03T11:36:26Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4a7e06e9024aed107751b8656875f0cade13fc63"
-                },
-                {
-                  "sha": "fd8fc51",
-                  "message": "feat: implement virtual scrolling for proxies list and optimize latency handling",
-                  "author": "Zephyruso",
-                  "date": "2026-09-03T10:13:43Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/fd8fc51bf703913e9275a164c7c8c75c76a1d3d0"
-                },
-                {
-                  "sha": "d055543",
-                  "message": "chore(main): release 3.25.0 (#782)",
-                  "author": "Zephyruso",
-                  "date": "2026-09-02T03:17:47Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d05554383e2a149f0ae16f39a68ef358377e2625"
-                },
-                {
-                  "sha": "1da5989",
-                  "message": "feat: support custom CSS in panel settings",
-                  "author": "Zephyruso",
-                  "date": "2026-08-31T02:36:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/1da5989dfdac6331f6b56ddd8c0aaef3854a37b4"
-                },
-                {
-                  "sha": "f6dd9c0",
-                  "message": "fix: navigate to proxies before syncing settings on first login",
-                  "author": "Zephyruso",
-                  "date": "2026-08-28T09:45:18Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/f6dd9c07e843ab89632cc373522254a1bfe6bbe5"
-                },
-                {
-                  "sha": "33d9631",
-                  "message": "chore(main): release 3.24.0 (#778)",
-                  "author": "Zephyruso",
-                  "date": "2026-08-28T03:35:57Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/33d9631eab9eac298c38ee5e56e40fe406445229"
-                },
-                {
-                  "sha": "234b93f",
-                  "message": "feat: add expand/collapse all button for grouped connection cards",
-                  "author": "Zephyruso",
-                  "date": "2026-08-28T02:46:33Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/234b93ff5a68e1726e0f309064c5519206462a50"
-                },
-                {
-                  "sha": "4822fa3",
-                  "message": "feat: enhance sorting functionality with natural order and internationalization support",
-                  "author": "Zephyruso",
-                  "date": "2026-08-27T09:15:54Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4822fa31924fbf33215546bff17c11e82a564d24"
-                },
-                {
-                  "sha": "d210f59",
-                  "message": "feat: add grouping functionality for connection cards and enhance internationalization support",
-                  "author": "Zephyruso",
-                  "date": "2026-08-27T09:09:29Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d210f59378c57e08b7462864457ddd566ed18319"
-                },
-                {
-                  "sha": "710e08b",
-                  "message": "feat: implement swipe gesture handling for modal dialog with transition effects",
-                  "author": "Zephyruso",
-                  "date": "2026-08-27T06:37:12Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/710e08b64813302a1fd56098d630130302aadd4b"
-                },
-                {
-                  "sha": "eee0252",
-                  "message": "feat: add endpoint legend with color coding and update translations",
-                  "author": "Zephyruso",
-                  "date": "2026-08-27T03:49:45Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/eee0252ae74827f576cb0038df511b8b86e0f29b"
-                },
-                {
-                  "sha": "1b49de0",
-                  "message": "Refactor GeoIP handling and replace net shim with chunk store implementation",
-                  "author": "Zephyruso",
-                  "date": "2026-08-27T03:44:48Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/1b49de0046882995f422cb9776f695a32707d586"
-                },
-                {
-                  "sha": "40e68c2",
-                  "message": "feat: enhance map zoom behavior and camera positioning for 2D projection",
-                  "author": "Zephyruso",
-                  "date": "2026-08-26T11:31:32Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/40e68c2ccd42935d7ebaee726aa0bdf3106128cb"
-                },
-                {
-                  "sha": "d388565",
-                  "message": "refactor: implement connection GeoIP functionality with caching and reactive updates",
-                  "author": "Zephyruso",
-                  "date": "2026-08-26T11:26:25Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d388565055a3015cec8cce74619586caccf976df"
-                },
-                {
-                  "sha": "eecf572",
-                  "message": "chore(main): release 3.23.0 (#775)",
-                  "author": "Zephyruso",
-                  "date": "2026-08-26T05:33:17Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/eecf5727a54e37342015f2034c6e4ef4c85834ce"
-                },
-                {
-                  "sha": "5d3cc03",
-                  "message": "feat: enhance routing and endpoint handling with direct connection support",
-                  "author": "Zephyruso",
-                  "date": "2026-08-26T05:12:14Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/5d3cc036b2598fc7d41d106b6f913a14402e91c1"
-                },
-                {
-                  "sha": "cc2e235",
-                  "message": "feat: add Earth projection functionality and related utilities",
-                  "author": "Zephyruso",
-                  "date": "2026-08-26T04:57:21Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/cc2e235fab23c21de3738e8fdec8855119e5ae69"
-                },
-                {
-                  "sha": "da5cf23",
-                  "message": "feat: implement action pending notifications and enhance error handling",
-                  "author": "Zephyruso",
-                  "date": "2026-08-25T04:39:58Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/da5cf23fda8c969897224b2dcc21ff99fa0c5c97"
-                },
-                {
-                  "sha": "615506f",
-                  "message": "fix: update viewport handling and dialog dimensions for better keyboard support",
-                  "author": "Zephyruso",
-                  "date": "2026-08-24T10:44:29Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/615506fc093832ab3e2572d03e610e72594abec7"
-                }
-              ]
-            },
-            {
-              "name": "release-please--branches--main--components--zashboard",
-              "commits": [
-                {
-                  "sha": "5810a4b",
-                  "message": "chore(main): release 3.30.0",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:11:22Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/5810a4b662d56f118b9819a54aa9e06bb26ff669"
-                },
-                {
-                  "sha": "6225aac",
-                  "message": "feat: use grid icon for overview and add hover motion to nav icons",
-                  "author": "Zephyruso",
-                  "date": "2026-10-19T02:10:43Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/6225aac84439425ae4f4493437b110a314753436"
-                },
-                {
-                  "sha": "a72516f",
-                  "message": "fix: bump dependencies to patch security vulnerabilities",
-                  "author": "Zephyruso",
-                  "date": "2026-10-16T10:21:41Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/a72516fec99f290b924290ba8be74613a2480dbd"
-                },
-                {
-                  "sha": "63cb0e0",
-                  "message": "feat: auto-connect to same-origin backend on initial setup (#810)",
-                  "author": "Li Haotong",
-                  "date": "2026-10-16T09:37:12Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/63cb0e04994866c6537b8a3dd70a0630aa558648"
-                },
-                {
-                  "sha": "e5b48b4",
-                  "message": "feat: merge closed connections tab into all tab with a filter menu",
-                  "author": "Zephyruso",
-                  "date": "2026-10-10T07:40:09Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/e5b48b4e8fe5c727170a57444c969f01aca3fbad"
-                },
-                {
-                  "sha": "4e13b0c",
-                  "message": "fix: give the fixed top bar a status-bar inset on Android (#806)",
-                  "author": "Clyde",
-                  "date": "2026-10-09T07:26:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4e13b0cf485b514ef03b288b5c04ad5c898c22e7"
-                },
-                {
-                  "sha": "9b867b7",
-                  "message": "feat: sync dae native API contract",
-                  "author": "Zephyruso",
-                  "date": "2026-09-30T02:50:33Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9b867b76a8cbca014423e93af59f7ce0996bc4f4"
-                },
-                {
-                  "sha": "b83a63a",
-                  "message": "feat: display dialer proxy as italic via label in ProxyName",
-                  "author": "Zephyruso",
-                  "date": "2026-09-24T05:29:26Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b83a63aeba1a08be62ee4d6228874e1229a12d1b"
-                },
-                {
-                  "sha": "50717b0",
-                  "message": "chore(main): release 3.29.1 (#800)",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T08:16:02Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/50717b02dac68425cdc5b80cb754bea768ee4fc9"
-                },
-                {
-                  "sha": "9cc981c",
-                  "message": "fix: remove base color overlay on home page with custom background",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T08:15:03Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9cc981cafa0114ff4a813e3e9f87217aedee83fb"
-                },
-                {
-                  "sha": "4a29037",
-                  "message": "fix: enhance sidebar stats card with background color and improve table-glass styles",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T07:18:23Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/4a2903752b2d0b0c711dc51f260e490ce7de4dfb"
-                },
-                {
-                  "sha": "1fa8b42",
-                  "message": "refactor: make mobile page swipe follow the finger with cancelable gesture",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:53:39Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/1fa8b42284abfb3f9f43c1314947b1f3ce6a22c7"
-                },
-                {
-                  "sha": "0d68259",
-                  "message": "fix: sync iOS status bar tint with theme and overlay dimming",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:38:49Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/0d682591d9056dc7a24b3610f83f29abe4969413"
-                },
-                {
-                  "sha": "2b1c12c",
-                  "message": "refactor: restyle dock as iOS-style floating tab bar",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T06:38:49Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/2b1c12c1b023c27c6f519a0524211337e2f262bc"
-                },
-                {
-                  "sha": "ffcef39",
-                  "message": "fix: overlay glass effect with backdrop filters across components",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T04:01:54Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ffcef39706c3d0836eed8f750020bdaf61037946"
-                },
-                {
-                  "sha": "686234a",
-                  "message": "fix: normalize IPv6 zone in source IP labels and allow link-local reverse DNS",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T02:53:11Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/686234ab252e3517a2ca5113477eedc8376203d7"
-                },
-                {
-                  "sha": "ce87647",
-                  "message": "fix: use tldts to extract registrable domain in connection history",
-                  "author": "Zephyruso",
-                  "date": "2026-09-23T02:49:39Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/ce87647f35a01bc66208c298d3e0c58b558dba34"
-                },
-                {
-                  "sha": "9c69adf",
-                  "message": "chore(main): release 3.29.0 (#793)",
-                  "author": "Zephyruso",
-                  "date": "2026-09-22T06:28:07Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9c69adf8dfef6b6c9cb519fc16be6e433b20bc0e"
-                },
-                {
-                  "sha": "b54e357",
-                  "message": "feat: support dae API",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:56:03Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b54e3575e2178aa2eee8a86704d476eeaae114d4"
-                },
-                {
-                  "sha": "412e8de",
-                  "message": "fix: update ProxyNodeCard styles to apply background for active state",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:20:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/412e8dec06329ea58f86ac8a6df9f55650c04235"
-                },
-                {
-                  "sha": "9406d36",
-                  "message": "fix: add backdrop blur effect to floating menu and action panels",
-                  "author": "Zephyruso",
-                  "date": "2026-09-21T08:20:16Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/9406d36154d2f2d2421640a00bebbd6718375d6f"
-                },
-                {
-                  "sha": "d6f69f7",
-                  "message": "fix: update estimated row height calculation and adjust padding for last row",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T13:25:50Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d6f69f771b9c540e636015aa5234ad811cb9c8a5"
-                },
-                {
-                  "sha": "b38eeba",
-                  "message": "fix: update default number of charts in sidebar to 1",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T10:54:48Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/b38eeba58ffa9a11b17260b3cde59bd700b77a2b"
-                },
-                {
-                  "sha": "3c05df9",
-                  "message": "fix: improve accent color contrast in light and dark themes",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T10:50:36Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/3c05df92d08293ac5c3d4d03493d1d9e24822ab3"
-                },
-                {
-                  "sha": "e21ba6a",
-                  "message": "fix: prevent dialog swipe from getting stuck in settling state",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T09:01:25Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/e21ba6a797528a4bbc285158fd56d79ddcc8e2dd"
-                },
-                {
-                  "sha": "d765062",
-                  "message": "refactor: move component-only css into components and utility classes",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:58:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d765062be21f6a0740cbaa589a373be504bc06e8"
-                },
-                {
-                  "sha": "d1adea4",
-                  "message": "refactor: split composables and helper by use-prefix, drop unused exports",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:32:04Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/d1adea49250a40cbde2cdfd6b2b6b9a47c951e6a"
-                },
-                {
-                  "sha": "67f74d7",
-                  "message": "refactor: rename ts files to kebab-case",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:19:46Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/67f74d7582b7170188c8ca8a8e22109e6bc9c577"
-                },
-                {
-                  "sha": "00e56c7",
-                  "message": "refactor: assembly layer",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T07:13:36Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/00e56c7c64a153d583084073c237ab5f256a8e48"
-                },
-                {
-                  "sha": "f0dbc2a",
-                  "message": "refactor: remove all comments",
-                  "author": "Zephyruso",
-                  "date": "2026-09-18T06:14:40Z",
-                  "url": "https://github.com/Zephyruso/zashboard/commit/f0dbc2aa1b95b0460ab8b4c99bade14abee283a9"
-                }
-              ]
+              "name": "v3.26.0",
+              "tag": "v3.26.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.26.0",
+              "published_at": "2026-09-07T06:36:20Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.26.0](https://github.com/Zephyruso/zashboard/compare/v3.25.0...v3.26.0) (2026-09-07)\n\n\n### Features\n\n* implement collapse motion for cards and optimize virtual row shifting ([ac86982](https://github.com/Zephyruso/zashboard/commit/ac869828b38405e675a41eed670bbd5b90290df6))\n* implement virtual scrolling for proxies list and optimize latency handling ([fd8fc51](https://github.com/Zephyruso/zashboard/commit/fd8fc51bf703913e9275a164c7c8c75c76a1d3d0))\n* scroll to the active node on expand and fix node scroll positioning ([cb15575](https://github.com/Zephyruso/zashboard/commit/cb15575a025255e9968009a96eb4368cc9169ed4))\n\n\n### Bug Fixes\n\n* adjust virtual table layout for proper sticky header and background alignment ([4a7e06e](https://github.com/Zephyruso/zashboard/commit/4a7e06e9024aed107751b8656875f0cade13fc63))\n* ensure full proxy chain is always displayed in connection details ([c88976d](https://github.com/Zephyruso/zashboard/commit/c88976d668a25a12e0696007da19292919b5155d))\n* improve layout of connection metrics by adjusting icon positioning and spacing ([2b59feb](https://github.com/Zephyruso/zashboard/commit/2b59febc3bd2751934ff76fe29322d59afbdfd81))\n* update modal open state handling to prevent overflow issues during transitions ([bd65a45](https://github.com/Zephyruso/zashboard/commit/bd65a459555d98e5b2f26afeaa85879ed71ae345))"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "9e5eef2",
+            "branch": "gh-pages",
+            "date": "2026-10-19T02:11:53Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/9e5eef2371a8ccc666e48dd70293d7c7c4fb32e9"
+          }
         },
         {
           "repo": "getarcaneapp/arcane",
