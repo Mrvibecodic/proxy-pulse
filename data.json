@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T06:15:15.627132Z",
+  "generated_at": "2026-10-22T06:20:32.799547Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35073,
+            "stars": 35074,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-21T16:55:10Z",
@@ -1190,7 +1190,7 @@
             "stars": 4634,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T05:10:13Z",
+            "pushed_at": "2026-10-22T06:18:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e8167e9",
+                  "message": "mwan3: fix delegated IPv6 source selection in 2.12.4",
+                  "author": "Yuen Su",
+                  "date": "2026-10-22T06:18:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/e8167e9c2a5e199bb3db6bdd2f5a6504609640a9"
+                },
+                {
                   "sha": "7719f23",
                   "message": "unbound: update to 1.26.2",
                   "author": "Tyrel M. McQueen",
@@ -2046,13 +2053,6 @@
                   "author": "Dieter Softwaresonnenschein",
                   "date": "2026-10-16T10:43:27Z",
                   "url": "https://github.com/openwrt/packages/commit/6d3fa1d71ef8ff8d7e7cbff9bcf973fb145ab642"
-                },
-                {
-                  "sha": "ce63ec3",
-                  "message": "adblock: update 4.5.9-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-16T07:50:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/ce63ec33f519f2030ecbe2e7f7424d933a9ee849"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77415,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T06:15:25Z",
+            "pushed_at": "2026-10-22T06:16:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f45219f",
-            "branch": "authz/refresh-permissions-after-commit",
-            "date": "2026-10-20T13:57:42Z",
-            "url": "https://github.com/grafana/grafana/commit/f45219fe329bee3d37e1650df9b06ccfcde51a52"
+            "sha": "ec55bd9",
+            "branch": "dprokop/fix-adhoc-operators-after-spec-swap",
+            "date": "2026-10-22T06:16:16Z",
+            "url": "https://github.com/grafana/grafana/commit/ec55bd9c4e482a1ac54c85725beb93533c1623e7"
           }
         },
         {
