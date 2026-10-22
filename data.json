@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T20:05:19.149153Z",
+  "generated_at": "2026-10-22T20:10:38.928516Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4638,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T19:44:45Z",
+            "pushed_at": "2026-10-22T20:09:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "770d405",
+                  "message": "bind: update to 9.20.30",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-10-22T20:05:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/770d4058b06f09d4c16321ca53401454f148095e"
+                },
+                {
                   "sha": "358a6b7",
                   "message": "owut: update to 2026.10.20",
                   "author": "Eric Fahlgren",
@@ -2046,13 +2053,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-19T05:27:58Z",
                   "url": "https://github.com/openwrt/packages/commit/42a853841beed17180b24d7787e6ab5e0bd45e77"
-                },
-                {
-                  "sha": "7dac3ce",
-                  "message": "php8: update to 8.4.26",
-                  "author": "Michael Heimpold",
-                  "date": "2026-10-18T21:28:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/7dac3ce6a6b227671cc492a712af7430453bd0df"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "ce3a448",
+                  "message": "bind: update to 9.20.30",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-10-22T20:09:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce3a44804b0422075c0fe8cc907d768b50d65cb5"
+                },
+                {
                   "sha": "2bb411c",
                   "message": "python-certifi: bump to 2026.10.19",
                   "author": "Eneas U de Queiroz",
@@ -3336,19 +3343,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T14:07:07Z",
                   "url": "https://github.com/openwrt/packages/commit/00075f81a4c16cb0be42524918bad3338585946e"
-                },
-                {
-                  "sha": "fe15bc0",
-                  "message": "ripe-atlas: run the probe as root without ujail",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:07:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/fe15bc0bae5985e0090ed10009699f1c2917bdfe"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "4a35749",
+                  "message": "bind: update to 9.20.30",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-10-22T20:06:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a3574914f881a817f0615f1e9765c589eb9bbe2"
+                },
                 {
                   "sha": "bc6af6a",
                   "message": "python-certifi: bump to 2026.10.19",
@@ -3551,13 +3558,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-13T21:04:08Z",
                   "url": "https://github.com/openwrt/packages/commit/44854efff15a3f92ad02b6ffdcec96ef08a311af"
-                },
-                {
-                  "sha": "58302cd",
-                  "message": "radicale3: security bump to version 3.8.3",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T09:25:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/58302cd47159cc4c38b0f37a50746afa5d60807a"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92757,
+            "stars": 92759,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-22T00:06:14Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26438,
+            "stars": 26439,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-22T17:26:33Z",
@@ -5175,7 +5175,7 @@
             "stars": 77436,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T20:03:21Z",
+            "pushed_at": "2026-10-22T20:08:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "71f3db9",
-            "branch": "main",
-            "date": "2026-10-22T13:25:34Z",
-            "url": "https://github.com/grafana/grafana/commit/71f3db91e9903e41acfa9a665c794a2f8a3b1d6b"
+            "sha": "656d9e0",
+            "branch": "gtk-grafana/geomap/proto-map-compare",
+            "date": "2026-10-21T18:15:16Z",
+            "url": "https://github.com/grafana/grafana/commit/656d9e0ae3bf5c008edaaa5f3e23a5fc8cc400cd"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66709,
+            "stars": 66708,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-22T17:22:48Z",
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T20:02:11Z",
+            "pushed_at": "2026-10-22T20:10:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d4fbbeb",
-            "branch": "deps-update/main-opentelemetry-go-contrib-monorepo",
-            "date": "2026-10-22T18:17:36Z",
-            "url": "https://github.com/grafana/loki/commit/d4fbbeb5abfb729a1ba644c25f08c729e0018d9b"
+            "sha": "95e1b09",
+            "branch": "deps-update/release-3.7.x-go.opentelemetry.ioprotootlp",
+            "date": "2026-10-21T18:15:31Z",
+            "url": "https://github.com/grafana/loki/commit/95e1b097529be17415466e578edc0a3c74a3298f"
           }
         }
       ]
