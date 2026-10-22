@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:12:14.501969Z",
+  "generated_at": "2026-10-22T08:17:33.103700Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5244,
+            "stars": 5243,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-22T05:26:32Z",
@@ -1190,7 +1190,7 @@
             "stars": 4635,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-22T07:05:43Z",
+            "pushed_at": "2026-10-22T08:12:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c33185f",
+                  "message": "xray-core: bump to v26.10.21",
+                  "author": "Mikhail Stolyarov",
+                  "date": "2026-10-22T08:12:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/c33185f91520a334d3a905a703a0cf1c33ababea"
+                },
+                {
                   "sha": "c79462b",
                   "message": "php8: update to 8.4.27",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-10-16T13:12:30Z",
                   "url": "https://github.com/openwrt/packages/commit/3a96d5e93ae8bbc4c7f3adef9ace2a2d5e939096"
-                },
-                {
-                  "sha": "a012e55",
-                  "message": "hev-socks5-tunnel: update to 2.19.0",
-                  "author": "Ray Wang",
-                  "date": "2026-10-16T10:51:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/a012e55cdde4d805f920a78e2aebe9409ef227ac"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92736,
+            "stars": 92737,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-22T00:06:14Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26417,
+            "stars": 26418,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-21T17:52:26Z",
@@ -5175,7 +5175,7 @@
             "stars": 77418,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T08:09:02Z",
+            "pushed_at": "2026-10-22T08:17:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "23cfef1",
-            "branch": "chore/migrate-reloadDashboardsOnParamsChange-to-openfeature",
-            "date": "2026-10-21T08:27:50Z",
-            "url": "https://github.com/grafana/grafana/commit/23cfef1fe0444d16be415576bef8f715c162fe37"
+            "sha": "ba1ebf7",
+            "branch": "main",
+            "date": "2026-10-20T14:55:50Z",
+            "url": "https://github.com/grafana/grafana/commit/ba1ebf766a3e144a9f3e2a3e02dd167cb9814d74"
           }
         },
         {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5e5fc56",
-            "branch": "feat/rbac-v3",
-            "date": "2026-10-22T06:36:00Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/5e5fc56029de2b9a20ec0a8ce8181c4b6cf5622a"
+            "sha": "e46ccd5",
+            "branch": "main",
+            "date": "2026-10-20T14:40:44Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/e46ccd526d959cdb094b4d62c83e5ddf21d0f25d"
           }
         }
       ]
