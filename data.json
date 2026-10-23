@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:24:47.403037Z",
+  "generated_at": "2026-10-23T15:30:08.751553Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-23T14:54:17Z",
+            "pushed_at": "2026-10-23T15:29:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d479a09",
+                  "message": "syncthing: bump to 2.1.7",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T15:29:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/d479a09d2324e470721aee80767d75c1cda247fa"
+                },
+                {
                   "sha": "863db0e",
                   "message": "openvpn: make host route depend only on nohostroute",
                   "author": "Erik Conijn",
@@ -2046,13 +2053,6 @@
                   "author": "Maxim Storchak",
                   "date": "2026-10-20T18:55:30Z",
                   "url": "https://github.com/openwrt/packages/commit/0f5b47363e00b21067cf6558bbddda7f57f1c758"
-                },
-                {
-                  "sha": "ac1e300",
-                  "message": "golang: bump 1.27 to 1.27.3",
-                  "author": "George Sapkin",
-                  "date": "2026-10-20T18:55:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/ac1e300d570a55fba0483559106c7b79876511c8"
                 }
               ]
             },
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5392,
+            "stars": 5393,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-22T00:33:34Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92793,
+            "stars": 92794,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-23T06:38:03Z",
@@ -5175,7 +5175,7 @@
             "stars": 77451,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T15:22:44Z",
+            "pushed_at": "2026-10-23T15:30:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "792545d",
-            "branch": "folder-unchecked-delete-guard",
-            "date": "2026-10-23T12:26:11Z",
-            "url": "https://github.com/grafana/grafana/commit/792545de80b45ca0f0e8fa3a5169815d370b67ec"
+            "sha": "fa6ce9a",
+            "branch": "main",
+            "date": "2026-10-23T10:00:33Z",
+            "url": "https://github.com/grafana/grafana/commit/fa6ce9a1df86b1b757fc02d2c6da76d1b2188c28"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "64f290a",
-            "branch": "spiridonov-logql-label-collisions-tests",
-            "date": "2026-10-22T18:49:43Z",
-            "url": "https://github.com/grafana/loki/commit/64f290a7b02002a820c47c19b772c8168d8acf56"
+            "sha": "b1cdb59",
+            "branch": "deps-update/main-github.comhashicorpconsulapi",
+            "date": "2026-10-22T18:13:04Z",
+            "url": "https://github.com/grafana/loki/commit/b1cdb59b147318cedf07c773242ef77bf233cbc0"
           }
         }
       ]
