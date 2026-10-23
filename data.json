@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:38:24.995104Z",
+  "generated_at": "2026-10-23T09:43:44.141584Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42262,
+            "stars": 42263,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-23T09:23:38Z",
@@ -29,7 +29,7 @@
               "published_at": "2026-10-21T12:07:11Z",
               "prerelease": false,
               "author": "RPRX",
-              "body": "紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 依赖库移除了三张根证书（v26.10.10、v26.10.17 内置有这些证书，已被撤版），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉问题证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest）\r\n\r\n\u003e https://t.me/projectXtls/3592 10.22 直接先把该版本设为了 latest，~似乎也不是不行~，完整的 release notes 等月底或下个月初的版本吧，半年积攒的更新写起来有点酸爽，~其实我几乎不用 AI，或许让 AI 来补~\r\n\r\n## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
+              "body": "紧急安全更新：[由于前几天印度八张中间证书的私钥因过于简单而被破解](https://github.com/XTLS/Xray-core/pull/7212#issuecomment-6310150214)，本版本内置的 RootCAs 依赖库移除了三张根证书（v26.10.10、v26.10.17 内置有这些证书，已被撤版），并使用 Go 1.27.3 编译以确保即使操作系统 CA 库未更新也会过滤掉问题证书，用户应尽快升级到该版本，月底发 stable release（操作系统的 CA 库可能更新较慢，所以要覆盖掉上一个 latest）\r\n\r\n\u003e https://t.me/projectXtls/3592 10.22 直接先把该版本设为了 latest，~似乎也不是不行~，完整的 release notes 等月底或下个月初的版本吧，半年积攒的更新写起来有点酸爽，~其实我几乎不用 AI，或许让 AI 来补，顺便 v26.9.8 多余了也被删了~\r\n\r\n## Sponsors\r\n\r\n[![Remnawave](https://github.com/user-attachments/assets/a22d34ae-01ee-441c-843a-85356748ed1e)](https://docs.rw)\r\n\r\n[![Happ](https://github.com/user-attachments/assets/14055dab-e8bb-48bd-89e8-962709e4098e)](https://happ.su)\r\n\r\n[![BlancVPN](https://github.com/user-attachments/assets/9145ea7d-5da3-446e-8143-710dba4292c3)](https://blanc.link/0SIDK7Z)\r\n\r\n[**Sponsor Xray-core**](https://github.com/XTLS/Xray-core/issues/3668)\r\n\r\n## Donation \u0026 NFTs\r\n\r\n### [Collect a Project X NFT to support the development of Project X!](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n[\u003cimg alt=\"Project X NFT\" width=\"150px\" src=\"https://raw2.seadn.io/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/7fa9ce900fb39b44226348db330e32/8b7fa9ce900fb39b44226348db330e32.svg\" /\u003e](https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1)\r\n\r\n- **TRX(Tron)/USDT/USDC: `TNrDh5VSfwd4RPrwsohr6poyNTfFefNYan`**\r\n- **TON: `UQApeV-u2gm43aC1uP76xAC1m6vCylstaN1gpfBmre_5IyTH`**\r\n- **BTC: `1JpqcziZZuqv3QQJhZGNGBVdCBrGgkL6cT`**\r\n- **XMR: `4ABHQZ3yJZkBnLoqiKvb3f8eqUnX4iMPb6wdant5ZLGQELctcerceSGEfJnoCk6nnyRZm73wrwSgvZ2WmjYLng6R7sR67nq`**\r\n- **SOL/USDT/USDC: `3x5NuXHzB5APG6vRinPZcsUv5ukWUY1tBGRSJiEJWtZa`**\r\n- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**\r\n- **Project X NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/1**\r\n- **VLESS NFT: https://opensea.io/collection/vless**\r\n- **REALITY NFT: https://opensea.io/item/ethereum/0x5ee362866001613093361eb8569d59c4141b76d1/2**\r\n- **Related links: [VLESS Post-Quantum Encryption](https://github.com/XTLS/Xray-core/pull/5067), [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113), [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**"
             },
             {
               "name": "Xray-core v26.9.30",
@@ -56,7 +56,7 @@
               "published_at": "2026-07-28T08:00:45Z",
               "prerelease": true,
               "author": "RPRX",
-              "body": "See https://github.com/XTLS/Xray-core/releases/tag/v26.9.8"
+              "body": "See https://github.com/XTLS/Xray-core/releases/tag/v26.9.9"
             },
             {
               "name": "Xray-core v26.7.11",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "162e52a",
-            "branch": "update-bundle",
-            "date": "2026-10-20T18:29:25Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/162e52a02c68769329adad0fe1a71ee15fefe6ee"
+            "sha": "fa58459",
+            "branch": "ss2022",
+            "date": "2026-10-21T05:21:27Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/fa58459817570d2a84a4f6a3dd2ea9fafea872e1"
           }
         },
         {
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5243,
+            "stars": 5244,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-22T05:26:32Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92784,
+            "stars": 92785,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-23T06:38:03Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26469,
+            "stars": 26470,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-23T09:11:29Z",
@@ -5175,7 +5175,7 @@
             "stars": 77457,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T09:36:48Z",
+            "pushed_at": "2026-10-23T09:43:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "249cb22",
-            "branch": "jesdavpet/mt-instant-startup-page-loading",
-            "date": "2026-10-22T12:51:28Z",
-            "url": "https://github.com/grafana/grafana/commit/249cb22bddec1283a22df2c236f38b11ac5910e7"
+            "sha": "84484ab",
+            "branch": "seangriffin/dashboard-schema-validation-test-flake",
+            "date": "2026-10-22T12:59:08Z",
+            "url": "https://github.com/grafana/grafana/commit/84484ab275edddbbee56f2925c759038bcc48bcc"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29050,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T09:34:58Z",
+            "pushed_at": "2026-10-23T09:43:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c41010a",
-            "branch": "deps-update/main-github.com-grafana-loki-operator-api-loki-0.x",
-            "date": "2026-10-22T12:12:20Z",
-            "url": "https://github.com/grafana/loki/commit/c41010ac702ed9b658d475d7a7b5e632a665a07b"
+            "sha": "686dfde",
+            "branch": "deps-update/release-3.7.x-grafana-monorepo",
+            "date": "2026-10-23T03:07:40Z",
+            "url": "https://github.com/grafana/loki/commit/686dfded72a817210f7b1202ef97d7c9c470d80a"
           }
         }
       ]
