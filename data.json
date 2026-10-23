@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T15:30:08.751553Z",
+  "generated_at": "2026-10-23T15:35:30.367496Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28896,
+            "stars": 28898,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-23T14:58:16Z",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-23T15:29:56Z",
+            "pushed_at": "2026-10-23T15:30:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ebc901d",
+                  "message": "yt-dlp: bump to 2026.10.21",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T15:30:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/ebc901d05e6e96973acfa87b93800495c7855b42"
+                },
+                {
                   "sha": "d479a09",
                   "message": "syncthing: bump to 2.1.7",
                   "author": "George Sapkin",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-10-20T19:03:57Z",
                   "url": "https://github.com/openwrt/packages/commit/5035328d8dca877ce789d90783f399aba6490402"
-                },
-                {
-                  "sha": "0f5b473",
-                  "message": "acl: update to 2.4.0",
-                  "author": "Maxim Storchak",
-                  "date": "2026-10-20T18:55:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f5b47363e00b21067cf6558bbddda7f57f1c758"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92794,
+            "stars": 92796,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-23T06:38:03Z",
@@ -5175,7 +5175,7 @@
             "stars": 77451,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T15:30:17Z",
+            "pushed_at": "2026-10-23T15:30:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b1cdb59",
-            "branch": "deps-update/main-github.comhashicorpconsulapi",
-            "date": "2026-10-22T18:13:04Z",
-            "url": "https://github.com/grafana/loki/commit/b1cdb59b147318cedf07c773242ef77bf233cbc0"
+            "sha": "01a0885",
+            "branch": "deps-update/main-github.com-prometheus-common-0.x",
+            "date": "2026-10-22T18:19:39Z",
+            "url": "https://github.com/grafana/loki/commit/01a0885cf50be833038b0979ce98620a7389da3f"
           }
         }
       ]
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f4d9cbc",
+            "sha": "3a71ce5",
             "branch": "feat/rbac-v3",
-            "date": "2026-10-22T17:13:15Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/f4d9cbc0890e572fde70a3f8659e04e73299f0bd"
+            "date": "2026-10-22T19:03:56Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/3a71ce59afa8f08644c11af9a3ef6af000eff4ff"
           }
         }
       ]
