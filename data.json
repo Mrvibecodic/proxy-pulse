@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:53:27.805982Z",
+  "generated_at": "2026-10-23T21:58:45.392105Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7562,
+            "stars": 7563,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-23T20:43:16Z",
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2037,
+            "stars": 2036,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-23T15:55:58Z",
@@ -4863,12 +4863,21 @@
             "stars": 141,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T14:12:41Z",
+            "pushed_at": "2026-10-23T21:54:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.4.4",
+              "tag": "v7.4.4",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.4",
+              "published_at": "2026-10-23T21:54:59Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.4.4\r\n\r\nfix(firewall): omit exclude egress returns when capturing router traffic.\r\n- Exclude mode returned on listed WAN interfaces in OUTPUT and local NAT, so ProxyRouterTraffic never marked router egress. The return stays when the flag is off. Prerouting still returns on those interfaces.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.4.3",
               "tag": "v7.4.3",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.1.1\r\n\r\nImprove Server listener editor: YAML layout, generators, and address chips.\r\n- Indent new listeners sections correctly and insert them before outbound blocks; add configurable password generation and one-click listen/client address suggestions with sensible private-address filtering.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.1.0",
-              "tag": "v7.1.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.0",
-              "published_at": "2026-10-16T08:31:28Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.1.0\r\n\r\nFix proxy-mode YAML insertion and quieten the login HTTP surface.\r\n- Only treat column-0 mode/tproxy/tun keys when rewriting config.yaml, and serve sign-in with neutral cookies, a minimal auth bundle, gated static files, and a stricter CSP until a session exists.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ff5e2b",
-            "branch": "collinfingar/hackathon-saved-views-00-feature-toggle",
-            "date": "2026-10-22T22:36:04Z",
-            "url": "https://github.com/grafana/grafana/commit/6ff5e2b68baa1bffa6236233da436da3a66f06fb"
+            "sha": "cc8b105",
+            "branch": "cb/gma-row-shell-description-interval",
+            "date": "2026-10-23T17:03:21Z",
+            "url": "https://github.com/grafana/grafana/commit/cc8b105b28dda2c13d98f8cacad171c0becdcfe7"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66722,
+            "stars": 66723,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-23T19:17:00Z",
