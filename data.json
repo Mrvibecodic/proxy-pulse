@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:05:43.438061Z",
+  "generated_at": "2026-10-23T21:11:01.017682Z",
   "groups": [
     {
       "id": "cores",
@@ -1053,6 +1053,15 @@
           },
           "releases": [
             {
+              "name": "🦥 ClashFest v1.3.0",
+              "tag": "v1.3.0",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.3.0",
+              "published_at": "2026-10-23T21:05:49Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "### Control your TV from your phone\r\n\r\nPair your phone with ClashFest running on an Android TV and drive the TV from the couch. On the TV, **Settings → Remote control** shows a large pairing QR code and a PIN; scan it from the phone and **Control a TV** opens a remote screen built from the same pieces as Home:\r\n\r\n- power on/off, live speed, Rule / Global mode, the active profile and the node;\r\n- the same node picker as on the phone, with latency tests;\r\n- profiles, connections, providers, a few safe settings (IPv6, TUN stack) and actions such as **Health check** and **Reconnect**.\r\n\r\nEverything you do on the remote goes through the TV app's own buttons, so it behaves exactly as if you pressed them on the TV, and changes made on the TV show up on the phone right away. The phone does not need its own VPN on. With one TV paired the remote opens straight away; with several you pick one. **Forget TV** unpairs it even when it is offline.\r\n\r\n### A real Android TV interface\r\n\r\nClashFest on a TV is no longer a stretched phone app:\r\n\r\n- a left rail instead of the bottom bar, and a two-column Home;\r\n- the node picker opens as a side panel;\r\n- clear D-pad focus everywhere, overscan-safe margins, dropdowns that open with CENTER, and no on-screen keyboard popping over a sheet unless you start typing.\r\n\r\nThe TV build is also simpler. Things that cannot work on a TV (camera QR scan, clipboard import, copy buttons) are gone, and the power tools (rules editor, proxy chain, config editors, Browse files) stay hidden until you turn on **Settings → Advanced tools on TV**. Without them, App Routing moves into Settings and the Routing tab is hidden.\r\n\r\n### Mihomo core 1.19.33\r\n\r\nThe core is updated to mihomo v1.19.33, which includes a crypto/tls security fix (CVE-2026-97031), a fake-IP pool fix, a rewritten dialer-proxy loop check, sub-millisecond latency results and newer WireGuard and mieru.\r\n\r\n### Citrus compatibility (experimental)\r\n\r\nClashFest stays on vanilla mihomo but now understands configs written for the [Citrus](https://github.com/getmikan/Citrus) core:\r\n\r\n- **VLESS over XDrive** (client side);\r\n- **`type: chain`** proxy groups with health checks per hop;\r\n- per-proxy REALITY `client-version` and `mldsa65-verify`;\r\n- Xray fingerprint names, comma-separated certificate pins and names, ECH in the Xray forms;\r\n- OpenVPN server identity checks, `disable-mtu-discovery` for Hysteria2 and MASQUE, `tcp-connect-timeout`, `sniffer.skip-threshold` and `dns.serve-expired`.\r\n\r\nThe subscription User-Agent now lists these features, so panels can serve them only to clients that support them. Features ClashFest does not support are rejected as before.\r\n\r\n### Node picker polish\r\n\r\n- The picker no longer closes from a short pull. It has a visible handle, a fixed height (no jump on first open), and a sticky group header.\r\n- Collapsed groups show their current node.\r\n- Protocol badges are one capsule (`VLESS · WS · TLS`) with a new TLS badge, and Hysteria2 / TUIC show QUIC instead of TCP.\r\n- Latency is a tinted pill.\r\n\r\n### Fixes\r\n\r\n- Operator policy headers (network stack, share-links lock, bypass preset) now apply on every subscription update, and a header the operator removed is cleared. When the network stack changes, the app asks you to reconnect.\r\n- Groups in the picker refresh after a subscription update instead of showing stale members.\r\n- Deleting the active profile switches to another profile instead of leaving none selected.\r\n- Garbled profile names (for example `\u003e��iS�`) no longer appear: names are decoded from base64 only when they really are text.\r\n- Scheduled auto-update fires again: the interval now counts from the last download, not from the last connect.\r\n- App Routing lists preinstalled apps such as Gemini, Chrome, YouTube and Gmail.\r\n- The Google Play build ships the GeoIP and GeoSite databases, so `GEOIP` / `GEOSITE` rules work there too.\r\n- Edge-to-edge on Android 15 and later uses the current APIs.\r\n\r\n### Google Play and F-Droid\r\n\r\nClashFest is now on [F-Droid](https://f-droid.org/packages/com.nemu.clashfest.clash.alpha/) and has been approved on Google Play. All three channels ship the same package signed with the same key, so you can switch between them without reinstalling. Builds from Play and F-Droid are updated by their store.\r\n\r\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.2.2...v1.3.0\r\n"
+            },
+            {
               "name": "🦥 ClashFest v1.2.2",
               "tag": "v1.2.2",
               "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.2",
@@ -1087,15 +1096,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "### Scan QR codes without Google\n\nThe in-app QR scanner no longer uses ML Kit. It is now a small camera view with the ZXing decoder that was already in the app for Companion pairing, so it works on phones without Google Play services and the APK lost the 5 MB native barcode model.\n\n### REALITY keeps working on new Xray servers\n\nXray-core 26.9.8+ rejects a REALITY handshake that does not offer the X25519MLKEM768 key share. ClashFest now turns on `support-x25519mlkem768` for every REALITY node in your subscription and uses the `chrome` fingerprint when the node has none or one that cannot carry ML-KEM (in the current uTLS only `chrome` can). Nodes inside remote proxy-providers are out of reach for this; ask your operator to set the two fields there.\n\n### Hand-edited config stays edited\n\nEditing a File profile's `config.yaml` through **Browse files** used to be undone on the next connect: the in-app DNS, hosts, tunnels, rules and provider edits were replayed over your text. Your edit now takes over (it already contains them), pressing Back asks before throwing an edit away, and the Files screen says so up front.\n\n### Rules Hub shows when a provider last updated\n\nEach rule source row shows the time of the last successful download next to its interval, as a real date and time, while the VPN is running.\n\n### MIPS, mihomo's own network stack\n\n**Settings → Network → Stack Mode** gains **MIPS Stack (mihomo)**, the pure-Go userspace stack that became mihomo's default in 1.19.32. It can also come from a subscription (`tun.stack: mips` with Stack Mode on Auto) or from an operator's `X-Network-Stack: mips`. The app default stays System. The effective stack is now written to the Logs screen on every connect.\n\n### Fixes\n\n- **DNS \u0026 Hosts crashed** when a profile listed several IPs for one host (`test.com: [1.1.1.1, 2.2.2.2]`). The editor reads and writes such entries now; type them as `test.com = 1.1.1.1, 2.2.2.2`.\n- **Hide-Routing brand header** works on its own again: three tabs when the operator sets it, Operator in Routing's slot when paired with the Operator tab.\n- **Per-profile User-Agent override** was ignored on the very next fetch after choosing a preset; it now applies immediately.\n- An untrusted ASN database URL in a subscription was replaced by a country database and broke `IP-ASN` rules; it is now replaced by a trusted ASN mirror.\n- The DNS \u0026 Hosts toggle no longer says \"experimental\".\n- The Russian \"app is broken\" screen linked to the upstream repository instead of ClashFest.\n\n### Subscription requests identify the app and the core\n\nSubscription downloads send `mihomo/\u003ccore version\u003e ClashFest/\u003capp version\u003e`. Panels that pick the output format by the first token (Marzban, Remnawave) keep serving the Clash Meta format, and panels that gate protocols on the core version (mikan) can now see it. A per-profile User-Agent override still replaces the whole string.\n\n### Smaller APK\n\nThe bundled `Country.mmdb` is gone (the core only ever read `geoip.metadb` next to it) and unused post-quantum tables from the certificate library are no longer packaged, together with the scanner change about 8 MB less per architecture (compressed).\n\n### Core updated to mihomo v1.19.32\n\nHighlights from upstream: the MIPS stack is the engine default with a new `congestion-controller` option (cubic / reno / bbr / bbr3), lazy receive buffers and checksum offload for it; CPU feature detection via auxv on Linux (hardware AES/SHA); MSS now accounts for TCP options; fixes for an anytls race, a nil dereference in HTTP/2 transports, sing-mux half-close, EasyTier restart after an overlay failure and mieru inbound UDP; utls 1.8.8, mieru 3.38, sing-tun 0.4.27. Full list: https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32\n"
-            },
-            {
-              "name": "🦥 ClashFest v1.1.0",
-              "tag": "v1.1.0",
-              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.1.0",
-              "published_at": "2026-09-14T16:32:30Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### Test a single node\r\n\r\nTap the latency value next to any node in the picker and only that node is tested — no more re-testing a 200-node group to check one server. The capsule shows `…` while the test runs and the result lands in place. Works in the Profiles tab list too, and falls back to a plain TCP probe when the VPN is off.\r\n\r\n### Notifications that say what happened\r\n\r\nWhen a subscription update fails in the background, the notification now explains it in your language and offers the fix: **Subscription expired** (with the date) gets a **Renew** button, **Device limit reached** gets **Support**, and every failure gets **Retry**. Operators with branding see their name, colour and logo on it.\r\n\r\nThe persistent VPN notification shows the current node, the live speed, how many days are left on the subscription, and has **Disconnect** and **Change node** buttons.\r\n\r\n### Fixes\r\n\r\n- **Rule mode routed everything through the proxy** on some subscriptions (#205). Picking a node in one group used to rewrite every parent selector — including the \"direct\" group — so GeoIP rules looked broken. Only the group you tap changes now. If you were affected, open the direct group once and select DIRECT again.\r\n- **HTTPS subscriptions failing with \"certificate signed by unknown authority\"** on some devices: the core now ships its own Root CA bundle in addition to the system roots, like other Clash clients.\r\n- Light theme with an operator accent no longer renders the Settings tab with dark cards.\r\n- The \"Days left\" and traffic line on the Home card no longer gets cut off.\r\n- Quick-edit of a profile (⋮ → Edit) now actually applies the name, URL and interval you saved.\r\n- Operator policy headers (`X-Network-Stack`, `X-Bypass-Preset`) are honoured on every refresh, not only on a live fetch.\r\n- `announce` headers can use `\\n` for line breaks; `profile-web-page-url` opens from the Operator tab and About when no cabinet link is set.\r\n\r\n### Under the hood\r\n\r\n- CI builds the core with the same patched Go 1.26 toolchain upstream Clash Meta uses.\r\n\r\n### Core updated to mihomo v1.19.31\r\n\r\nHighlights from upstream: the new **EasyTier** outbound (recognised in the node list), `stack: mips` for TUN, `identity-secret` for ZeroTier, lower gVisor memory usage, and a long list of connection-cleanup fixes (hysteria/hysteria2 UDP, VLESS decryption panic, WireGuard nil-pointer, xhttp IPv6 URLs, OpenVPN tls-auth, AmneziaWG v3, DomainSet wildcard matching). Full list: https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.31\r\n"
             }
           ],
           "last_commit": {
@@ -1122,7 +1122,7 @@
             "stars": 28906,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T18:26:36Z",
+            "pushed_at": "2026-10-23T21:06:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1d80b26",
-            "branch": "main",
-            "date": "2026-10-23T13:32:52Z",
-            "url": "https://github.com/openwrt/openwrt/commit/1d80b268200e64becfadafb90d8a7a602d9850f1"
+            "sha": "f13f178",
+            "branch": "openwrt-24.10",
+            "date": "2026-10-22T22:00:06Z",
+            "url": "https://github.com/openwrt/openwrt/commit/f13f178df1c1be46d9a540ab5a6eb3fca6ca4f79"
           }
         },
         {
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26483,
+            "stars": 26484,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-23T09:11:29Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b5d2e5f",
-            "branch": "collinfingar/saved-views-04-section-filters",
-            "date": "2026-10-23T13:22:35Z",
-            "url": "https://github.com/grafana/grafana/commit/b5d2e5f9ad5a9c26fae600adb0dba89e5828b826"
+            "sha": "13d08f7",
+            "branch": "moustafab/provenance-manager-notifications-v3",
+            "date": "2026-10-22T23:05:30Z",
+            "url": "https://github.com/grafana/grafana/commit/13d08f7739a0c3876c25a42d90dfacef40c93512"
           }
         },
         {
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c6628b7",
-            "branch": "bwplotka/setup_pr_triage_bot",
-            "date": "2026-10-23T11:59:47Z",
-            "url": "https://github.com/prometheus/prometheus/commit/c6628b7c1e18d04515d63720ce437b2886eba255"
+            "sha": "a2fda0e",
+            "branch": "main",
+            "date": "2026-10-23T14:30:17Z",
+            "url": "https://github.com/prometheus/prometheus/commit/a2fda0ef4638518a6a6fb27fc48be88fbd732f4b"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29051,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T21:03:08Z",
+            "pushed_at": "2026-10-23T21:11:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "57ad321",
-            "branch": "tw/fp-10-table-routing",
-            "date": "2026-10-22T22:02:37Z",
-            "url": "https://github.com/grafana/loki/commit/57ad321be87bdde35be7d5f29d093b2f9380e363"
+            "sha": "ed6adb0",
+            "branch": "jason/logline-passthrough-skip-hint-wait",
+            "date": "2026-10-23T19:37:32Z",
+            "url": "https://github.com/grafana/loki/commit/ed6adb0b0e0e1d1b9f5af9bd4d34a07536d1ffe8"
           }
         }
       ]
