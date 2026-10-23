@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:12:27.573739Z",
+  "generated_at": "2026-10-23T05:17:45.846964Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42256,
+            "stars": 42257,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-23T00:12:47Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28882,
+            "stars": 28883,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-22T22:00:05Z",
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5390,
+            "stars": 5391,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-22T00:33:34Z",
@@ -5039,12 +5039,21 @@
             "stars": 92772,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-23T05:08:06Z",
+            "pushed_at": "2026-10-23T05:16:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.7",
+              "tag": "2.5.7",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.7",
+              "published_at": "2026-10-23T05:16:17Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #7989 fix: retries ignored by TCP Port monitor with SSL/STARTTLS\r\n\r\n### ⬆️ Security Fixes\r\n- [Docker] Images bumped to Node.js 22.23.4, now it rejects the leaked eMudhra 384 bit CA: `00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:04`. \r\n"
+            },
             {
               "name": "2.5.6",
               "tag": "2.5.6",
@@ -5080,15 +5089,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n- #7754 fix: release with wrong version number \r\n\r\nRead more in 2.5.1 changelog: https://github.com/louislam/uptime-kuma/releases/tag/2.5.1"
-            },
-            {
-              "name": "2.5.2",
-              "tag": "2.5.2",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.2",
-              "published_at": "2026-08-22T08:44:26Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n\r\nFix: Non-docker installation was broken in 2.5.1 (issue: #7752)"
             }
           ],
           "last_commit": {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3d73a3a",
-            "branch": "jwt-add-audience",
-            "date": "2026-10-21T02:32:44Z",
-            "url": "https://github.com/grafana/grafana/commit/3d73a3a7905b8fade439390dcbe0d79347ce2af7"
+            "sha": "39cf125",
+            "branch": "moustafab/rules-status-syncer-v1beta1",
+            "date": "2026-10-22T22:56:58Z",
+            "url": "https://github.com/grafana/grafana/commit/39cf1250d58e8ae3caf029df328b943463ce5ff1"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81094,
+            "stars": 81095,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-23T00:21:53Z",
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17893,
+            "stars": 17894,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-23T02:56:22Z",
