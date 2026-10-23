@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:15:21.608621Z",
+  "generated_at": "2026-10-23T18:20:41.572469Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-23T15:30:18Z",
+            "pushed_at": "2026-10-23T18:18:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,34 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "ebde552",
+                  "message": "yt-dlp: bump to 2026.10.21",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T18:18:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/ebde552f5879a24060d5428654656c9b9579b8bd"
+                },
+                {
+                  "sha": "2233af7",
+                  "message": "yt-dlp: bump to 2026.08.19",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T18:18:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/2233af72cfa8bcfdf64d40910c74e07dbda37138"
+                },
+                {
+                  "sha": "8bf0ca9",
+                  "message": "syncthing: bump to 2.1.7",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T18:17:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/8bf0ca99c6de8baeee09098e063d8e6de697377d"
+                },
+                {
+                  "sha": "0a1a041",
+                  "message": "syncthing: bump to 2.1.6",
+                  "author": "George Sapkin",
+                  "date": "2026-10-23T18:17:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/0a1a0418dc0dc0ee1175c21b5f12a51e01d44560"
+                },
+                {
                   "sha": "4a35749",
                   "message": "bind: update to 9.20.30",
                   "author": "Noah Meyerhans",
@@ -3530,34 +3558,6 @@
                   "author": "Niklas Thorild",
                   "date": "2026-10-14T22:17:16Z",
                   "url": "https://github.com/openwrt/packages/commit/84f4958aff37296fc77a03b4592ee65ba8b9e7c2"
-                },
-                {
-                  "sha": "bf57d93",
-                  "message": "dnsdist: update to 2.0.11",
-                  "author": "Remi Gacogne",
-                  "date": "2026-10-14T19:12:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/bf57d935151d0e6456b90f937558962a031521a5"
-                },
-                {
-                  "sha": "54fab7f",
-                  "message": "golang: bump 1.26 to 1.26.9",
-                  "author": "George Sapkin",
-                  "date": "2026-10-13T22:02:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/54fab7fa4224193a121f49a9f39dafd9323a0b2d"
-                },
-                {
-                  "sha": "2e60045",
-                  "message": "zabbix: bump version to 7.0.31",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/2e60045ba4ac6c86952d6338303146907629ade9"
-                },
-                {
-                  "sha": "44854ef",
-                  "message": "zabbix: remove unneeded postinsts",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/44854efff15a3f92ad02b6ffdcec96ef08a311af"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92802,
+            "stars": 92803,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-23T16:47:52Z",
@@ -5175,7 +5175,7 @@
             "stars": 77451,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T18:15:19Z",
+            "pushed_at": "2026-10-23T18:18:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb5b765",
-            "branch": "main",
-            "date": "2026-10-23T14:30:42Z",
-            "url": "https://github.com/grafana/grafana/commit/eb5b7657ebf95f352d36475ab99497def97f6bb7"
+            "sha": "fd32ee7",
+            "branch": "RafaelPaulovic/kv-read-all-and-close-followup",
+            "date": "2026-10-23T11:38:35Z",
+            "url": "https://github.com/grafana/grafana/commit/fd32ee7d6e68412b5fa99c7185c7a0e8c9c2f1be"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29050,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T18:13:54Z",
+            "pushed_at": "2026-10-23T18:18:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5591,7 +5591,7 @@
             "stars": 1173,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T16:46:19Z",
+            "pushed_at": "2026-10-23T18:16:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
             "owner": "BEDOLAGA-DEV"
@@ -5667,7 +5667,7 @@
             "stars": 92,
             "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware",
             "default_branch": "main",
-            "pushed_at": "2026-10-21T18:28:33Z",
+            "pushed_at": "2026-10-23T18:16:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
