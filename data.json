@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:03:55.583631Z",
+  "generated_at": "2026-10-23T07:09:14.976140Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35115,
+            "stars": 35116,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-21T16:55:10Z",
@@ -1190,7 +1190,7 @@
             "stars": 4644,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-23T06:10:18Z",
+            "pushed_at": "2026-10-23T07:08:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a304b9c",
+                  "message": "yq: update to 4.54.1",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-23T07:07:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/a304b9c875fced5c4125d467e4f62ef2b26519db"
+                },
+                {
+                  "sha": "2fc0381",
+                  "message": "dufs: update to 0.47.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-23T07:07:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/2fc03814889de27c970492078fa710b9f251c684"
+                },
+                {
+                  "sha": "9ea8d21",
+                  "message": "openlist: update to 4.2.7",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-23T07:05:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/9ea8d215087c864b623e5f225c03df2c1e3a2361"
+                },
+                {
                   "sha": "5d79122",
                   "message": "usbutils: update to 020",
                   "author": "Ivan Pavlov",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-19T10:45:39Z",
                   "url": "https://github.com/openwrt/packages/commit/70ac3a84406cab03865c55be84de960af815436a"
-                },
-                {
-                  "sha": "3b7cdf0",
-                  "message": "libcamera: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-19T09:08:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b7cdf03a6f22e91ae485e1ffdda1062da7a3431"
-                },
-                {
-                  "sha": "e3301e2",
-                  "message": "python-ply: restore as a host-only package",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-19T09:08:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/e3301e2100056a8baa4e45c5f17860d1ac34d184"
-                },
-                {
-                  "sha": "8d2dbcc",
-                  "message": "qbee-agent: bump version to 2026.41",
-                  "author": "Jon Henrik Bjørnstad",
-                  "date": "2026-10-19T08:40:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/8d2dbcca8e0e654e62b1f696bc348d330a63bd1e"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92776,
+            "stars": 92775,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-23T06:38:03Z",
@@ -5240,10 +5240,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66719,
+            "stars": 66720,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T00:13:56Z",
+            "pushed_at": "2026-10-23T07:05:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5401,7 +5401,7 @@
               "published_at": "2026-10-12T11:48:06Z",
               "prerelease": false,
               "author": "rtm0",
-              "body": "## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\r\n\r\nReleased at 2026-10-09\r\n\r\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\r\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\r\n\r\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\r\n\r\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\r\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\r\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.108.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.0) and could produce false positives since [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11670](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11670). Thanks to @transacid for contribution.\r\n* BUGFIX: [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/): properly add timeseries for [increase](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase), [increase_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase_prometheus), [total](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total) and [total_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total_prometheus) aggregation functions when `enable_windows: true` is set. See [#11707](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11707). Thanks to @Hoipang for contribution.\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): keep using notifiers from the previously applied [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file) if the updated config fails to start, for example due to a temporary service discovery error, and retry applying it on the next reload. Previously, vmalert stopped the old notifiers before starting the new ones, so a failed reload left vmalert with no or only some notifiers, and alert notifications were silently not delivered until the file changed or vmalert restarted. See [#11645](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11645).\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): copy alert labels before applying `alert_relabel_configs` from the [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file), preventing different alertmanagers from affecting each other's labels. See [#11676](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11676).\r\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): set the `Host` HTTP request header to the resolved DNS SRV target instead of the SRV name when the url uses the `srv+` prefix. Previously requests could fail at reverse proxies and load balancers, which route by the `Host` header. See [#8965](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/8965).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fixes rare data corruption on HTTP request retries. See [#11508](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11508).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) login failure `Invalid state parameter` caused by a race condition when multiple concurrent unauthenticated requests each set their own CSRF cookie. See [#10278-comment](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/10278#issuecomment-5862232663) and [#11656](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11656).\r\n* BUGFIX: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix misleading `missing 'Authorization' request header` response for [JWT-authenticated](https://docs.victoriametrics.com/victoriametrics/vmauth/#jwt-token-auth-proxy) users when the requested path does not match any `url_map`. Now it correctly returns `400 "
+              "body": "## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\r\n\r\nReleased at 2026-10-12\r\n\r\n**Update Note 1:** [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): setups with two chained `vmauth` instances, where the first one authenticates requests via `users` and the second one proxies them via `unauthorized_user` (for example, `VMDistributed` or `VMCluster` managed by [VictoriaMetrics operator](https://docs.victoriametrics.com/operator/)), get an extra 2-3 seconds delay for every request. This is because the second `vmauth` receives the `Authorization` header forwarded by the first one and treats it as an invalid auth token. Upgrade to the next release, where requests aren't delayed if no `users` are configured, or remove the `Authorization` header at the first `vmauth` with `headers: [\"Authorization:\"]`. See [#11774](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11774).\r\n\r\n**Update Note 2:** `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): `/admin/tenants` requests without `start` and `end` query args (or with zero values) can cause excessive memory usage and OOM crashes of `vmstorage`. Such requests are issued automatically by [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui) when it is opened via `vmselect`. This is because `vmstorage` [no longer switches to the global index](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/742778ebf1) for queries with long time ranges, so it scans per-day indexes for every day in the whole retention concurrently. Roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0) or upgrade to the next release with the fix. See [#11791](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11791).\r\n\r\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\r\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\r\n\r\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\r\n\r\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\r\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\r\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.108.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.0) and could produce false positives since [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11670](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11670). Thanks to @transacid for contribution.\r\n* BUGFIX: [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/): properly add timeseries for [increase](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase), [increase_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#increase_prometheus), [total](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total) and [total_prometheus](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/configuration/#total_prometheus) aggregation functions when `enable_windows: true` is set. See [#11707](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11707). Thanks to @Hoipang for contribution.\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): keep using notifiers from the previously applied [notifier configuration file](https://docs.victoriametrics.com/victoriametrics/vmalert/#notifier-configuration-file) if the updated config fails to start, for example due to a temporary service discovery error, and retry applying it on the next reload. Previously, vmalert stopped the old notifiers before starting the new ones, so a failed reload left vmalert with no or only some notifiers, and alert notifications were silently not delivered until the file changed or vmalert restarted. See [#11645](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11645).\r\n* BUGFIX: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): copy alert labels before applying `alert_relabel_configs` from the [notifier configurat"
             },
             {
               "name": "v1.153.0",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d28495",
-            "branch": "deps-update/release-3.7.x-grafana-monorepo",
-            "date": "2026-10-23T03:07:35Z",
-            "url": "https://github.com/grafana/loki/commit/7d284957e4ba42a42eb1cbf8dd2ef80842b333f4"
+            "sha": "cc20f22",
+            "branch": "benclive/builder-owns-sorting",
+            "date": "2026-10-22T10:03:31Z",
+            "url": "https://github.com/grafana/loki/commit/cc20f22b21d56b00e3518df8d4e33fce4c259666"
           }
         }
       ]
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4a47366",
+            "sha": "d68fb8e",
             "branch": "breaking/v3",
-            "date": "2026-10-21T03:30:01Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/4a47366d1615991fb38bcc5aad4be2e91b8ec47b"
+            "date": "2026-10-23T03:13:16Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/d68fb8e32e1ec0c1f0b71972af91a71f16ca057d"
           }
         }
       ]
