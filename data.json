@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:09:53.294670Z",
+  "generated_at": "2026-10-23T00:15:11.749771Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42253,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T17:18:56Z",
+            "pushed_at": "2026-10-23T00:12:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -910,12 +910,21 @@
             "stars": 7546,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-10-22T18:51:06Z",
+            "pushed_at": "2026-10-23T00:10:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.4.0-beta.4",
+              "tag": "1.4.0-beta.4",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.4",
+              "published_at": "2026-10-23T00:10:36Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add DNS settings to route profiles\r\n* Add enable/disable toggle for route rules and a shortcut to the route profile editor\r\n* Add Ctrl+K command palette for commands and settings\r\n* Show the matched route rule of each connection\r\n* Allow routing a connection through a specific server from the connections tab\r\n* Extend Mux preset and allow custom per-profile Mux settings\r\n* Improve resolve domains\r\n* Improve macOS Tun DNS handling\r\n* Use native file pickers\r\n* Fix UI freezes when editing route rules in large profiles\r\n* Update Qt to 6.12 and Go to 1.27.2 **1**\r\n* Add Homebrew cask **2**\r\n* Add WebDAV backup **3**\r\n* Update Xray and add XDRIVE transport **4**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThe main macOS builds now require macOS 14.4 or newer; older macOS versions should use the `macoslegacy` build.\r\n\r\n**2**:\r\nStable releases are now published to Throne's own Homebrew tap and can be installed via `brew install --cask throneproj/tap/throne`, which also handles moving the app to `/Applications` and removing the quarantine flag. Refer to the [documentation](https://throneproj.github.io/get_started/installation/#homebrew) for more details.\r\n\r\n**3**:\r\nBackups can now be uploaded to and restored from any WebDAV server (Nextcloud, a NAS, Yandex Disk, ...) through the Backup section of Basic Settings. The WebDAV credentials stay on the device and are never included in a backup.\r\n\r\n**4**:\r\nDue to security reasons, XDRIVE profiles have no `vless://` link and are shared as Throne JSON links only. Xray can now also optionally trust the system certificates (Basic Settings \u003e Security), and Xray profiles without their own uTLS fingerprint now use the global one.\r\n\r\n\u003cdiv align=center\u003e\r\n\r\n\u003c/div\u003e\r\n\r\n**Download based on your OS:**\r\n\r\n\u003ctable\u003e\r\n    \u003cthead align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003cth\u003eOS\u003c/th\u003e\r\n            \u003cth\u003eDownload\u003c/th\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/thead\u003e\r\n    \u003ctbody align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eWindows\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-windows-universal-installer.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-Universal-0078D4.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-windows64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-2B88D8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-windows-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-ARM64-5AA9E6.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-windowslegacy64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64%20legacy-6B7F95.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-windows32.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x86-94A3B8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003emacOS\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-macos-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Apple%20Silicon-000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-macos-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64-00A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-macoslegacy-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64%20(legacy)-7FCDEB.svg?logo=apple\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eDebian / Ubuntu\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-debian-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-debian-amd64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-debian-arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-debian-arm64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eFedora / openSUSE\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-fedora-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-fedora-amd64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-fedora-arm64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-fedora-arm64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eLinux (portable)\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-linux-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-x64-F84E29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.4/Throne-1.4.0-beta.4-linux-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-ARM64-F89A29.svg?logo=linux\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/tbody\u003e\r\n\u003c/table\u003e\r\n\r\n\u003e **Setup** picks the right build for your Windows version and CPU; **legacy** builds are for Windows 7 / 8. **system Qt** packages use the Qt libraries installed on your system and are much smaller. **macOS:** the app is not signed, see the [README](https://github.com/throneproj/Throne#note-on-macos-releases) for how to open it."
+            },
             {
               "name": "1.4.0-beta.3",
               "tag": "1.4.0-beta.3",
@@ -951,15 +960,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "* Fix auto start on windows\r\n* Fix DNS issue with chain through endpoints\r\n* Fix Xray Random DNS Select\r\n* Fix Xray Interface Bind\r\n* Allow customizing subscription connection parameters\r\n* Add Subscription info UI (Thanks @VindEi)\r\n* Fixes and Improvements"
-            },
-            {
-              "name": "1.3.1",
-              "tag": "1.3.1",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.3.1",
-              "published_at": "2026-09-24T22:51:03Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## Throne's Android client has had major rewrites to make it more compatible with the Desktop app in both logic and feature, please try the [v2.0.0 release](https://github.com/throneproj/ThroneForAndroid/releases/tag/v2.0.0) and file an issue for the problems you encounter\r\n\r\n* Fix Testing on Linux failing when Tun is on\r\n* Fix DNS not being hijacked in Tun mode\r\n* Fix Xray not inheriting interface bind\r\n* Fix Warp UDP socket binding\r\n* Fix Amnezia on MacOS\r\n* Fix legacy MacOS build\r\n* Add IPv6 defaults to private range bypass\r\n* Deprecate Hijack feature **1**\r\n* Add customization features to Subscription Groups **2**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nHijack and Redirect features, alongside windows System DNS feature are deprecated and will be removed in the next release.\r\n\r\n**2**:\r\nGroups can now have custom UA/HWID, and perform testing/filtering automatically after update."
             }
           ],
           "last_commit": {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "62a5c14",
-            "branch": "pstibrany/standalone-global-search-discovery",
-            "date": "2026-10-22T17:42:12Z",
-            "url": "https://github.com/grafana/grafana/commit/62a5c147f5556c9e069123ade3d261d185cf9c75"
+            "sha": "30b3a0a",
+            "branch": "nathanmarrs/notebooks-viz-block-actions",
+            "date": "2026-10-20T22:35:42Z",
+            "url": "https://github.com/grafana/grafana/commit/30b3a0a90025a9c084d75feafce0dc47d106c0fe"
           }
         },
         {
@@ -5243,7 +5243,7 @@
             "stars": 66716,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-22T17:22:48Z",
+            "pushed_at": "2026-10-23T00:13:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5447,7 +5447,7 @@
             "stars": 29048,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-23T00:09:34Z",
+            "pushed_at": "2026-10-23T00:14:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
