@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:13:13.866599Z",
+  "generated_at": "2026-10-24T17:18:31.438962Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42294,
+            "stars": 42295,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-23T12:54:15Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39196,
+            "stars": 39197,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -1190,7 +1190,7 @@
             "stars": 4648,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T16:44:01Z",
+            "pushed_at": "2026-10-24T17:18:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "22e8338",
+                  "message": "knot: upgrade to version 3.6.2",
+                  "author": "Daniel Salzman",
+                  "date": "2026-10-24T17:18:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/22e83381079b2d919504f6bcdcb748e8be2858fb"
+                },
+                {
+                  "sha": "bdf577e",
+                  "message": "knot: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-24T17:17:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/bdf577ec1e26d2970f535d85ea21462bbdedbd84"
+                },
+                {
                   "sha": "419299b",
                   "message": "zoneinfo: update to 2026e release",
                   "author": "Vladimir Ulrich",
@@ -3329,26 +3343,26 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T20:59:41Z",
                   "url": "https://github.com/openwrt/packages/commit/655af8298cea451781c3e3b849b8ee2057870e7d"
-                },
-                {
-                  "sha": "f3db28a",
-                  "message": "ripe-atlas: restart the probe on config changes",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T20:59:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/f3db28a1fd088ddf1b437ec0ac005d73773ff16e"
-                },
-                {
-                  "sha": "be5b4c6",
-                  "message": "ripe-atlas: take over maintainership",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:07:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/be5b4c640ed13d9ff3ed1bc8cb3e875e99155cee"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "7ce1a97",
+                  "message": "knot: upgrade to version 3.6.2",
+                  "author": "Daniel Salzman",
+                  "date": "2026-10-24T17:17:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/7ce1a975e813e62a8c57cecff99eeb678f4ef478"
+                },
+                {
+                  "sha": "29caf0b",
+                  "message": "knot: drop libatomic dependency",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-24T17:17:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/29caf0b27d88d65c65bf2365828d620ff07b393a"
+                },
                 {
                   "sha": "1846886",
                   "message": "zoneinfo: update to 2026e release",
@@ -3544,20 +3558,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-16T07:51:28Z",
                   "url": "https://github.com/openwrt/packages/commit/d811f45d8fd51054052969c6fe026fa4fa23c4d3"
-                },
-                {
-                  "sha": "5e1b170",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-16T02:36:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e1b170594999dd8d1b70585e8c4eab8b8f908bf"
-                },
-                {
-                  "sha": "be8bb53",
-                  "message": "msgpack-c: update to 7.0.2",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-16T02:36:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/be8bb537001b86d933b44cd1cd6367ea813a5669"
                 }
               ]
             },
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66734,
+            "stars": 66735,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-24T14:23:35Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8052,
+            "stars": 8053,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-23T22:12:41Z",
