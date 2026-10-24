@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:18:15.552016Z",
+  "generated_at": "2026-10-24T23:23:32.193386Z",
   "groups": [
     {
       "id": "cores",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-10-24T23:17:28Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.5.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.5.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.5.0\r\n\r\n### Update SSClash from Settings\r\n\r\nYou can update the SSClash binary from the web UI the same way you update Mihomo.\r\n\r\n1. Open **Settings**.\r\n2. Use the **SSClash** card (above **Mihomo kernel**).\r\n3. Click **Check updates** to read the latest stable release from GitHub.\r\n4. Click **Download / Update** to install `ssclash` into `/opt/clash/bin/ssclash` and restart the service.\r\n\r\nSSClash does not check for updates in the background. Only stable releases are used.\r\n\r\n### Requirements\r\n\r\n- The router must reach GitHub.\r\n- On Linux, the service account must be allowed to run `systemctl restart ssclash.service`.\r\n\r\n### If restart fails after download\r\n\r\nThe new binary is already on disk. On OpenWrt and Keenetic the supervisor starts it. On Linux, Settings shows a restart error and you run:\r\n\r\n```bash\r\nsystemctl restart ssclash.service\r\n```\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.4.5",
