@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:32:45.939521Z",
+  "generated_at": "2026-10-24T09:38:03.495898Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T09:09:38Z",
+            "pushed_at": "2026-10-24T09:37:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "419299b",
+                  "message": "zoneinfo: update to 2026e release",
+                  "author": "Vladimir Ulrich",
+                  "date": "2026-10-24T09:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/419299b01aa6cfee4d3f5c9722493fc8672d2b4b"
+                },
+                {
+                  "sha": "87c0245",
+                  "message": "zoneinfo: use SPDX valid identifier Unlicense instead of Public-Domain",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-24T09:36:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/87c024517446936e18c20c77a2df7f7ffa1c0126"
+                },
+                {
                   "sha": "ce3a448",
                   "message": "bind: update to 9.20.30",
                   "author": "Noah Meyerhans",
@@ -3329,26 +3343,26 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-05T14:07:15Z",
                   "url": "https://github.com/openwrt/packages/commit/be5b4c640ed13d9ff3ed1bc8cb3e875e99155cee"
-                },
-                {
-                  "sha": "1510af4",
-                  "message": "ripe-atlas: migrate from atlas-sw-probe",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:07:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/1510af408143f63df953c4e47bf16637fb03260a"
-                },
-                {
-                  "sha": "00075f8",
-                  "message": "ripe-atlas: clean up the Makefile",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T14:07:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/00075f81a4c16cb0be42524918bad3338585946e"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "1846886",
+                  "message": "zoneinfo: update to 2026e release",
+                  "author": "Vladimir Ulrich",
+                  "date": "2026-10-24T09:33:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/1846886aabcb0bf29ba5ed041ac16c84fb95ed5f"
+                },
+                {
+                  "sha": "802d7b0",
+                  "message": "zoneinfo: use SPDX valid identifier Unlicense instead of Public-Domain",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-24T09:30:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/802d7b02ed5995d3807851a8b12761db75a05358"
+                },
                 {
                   "sha": "e78f0d0",
                   "message": "chrony: make chrony-hotplug more reliable",
@@ -3544,20 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-16T02:36:51Z",
                   "url": "https://github.com/openwrt/packages/commit/be8bb537001b86d933b44cd1cd6367ea813a5669"
-                },
-                {
-                  "sha": "bb2fce9",
-                  "message": "v2raya: backport memory fix for GeoIP parser",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-16T02:36:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/bb2fce9ae666892df6e8cbd48135659b45bba192"
-                },
-                {
-                  "sha": "73842eb",
-                  "message": "banip: release 1.9.1-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-15T15:06:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/73842ebc77d03877a7e22ae977f1ee29af05b620"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92819,
+            "stars": 92820,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-24T06:47:55Z",
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77471,
+            "stars": 77472,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-24T08:22:58Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2619193",
-            "branch": "main",
-            "date": "2026-10-23T09:27:59Z",
-            "url": "https://github.com/grafana/grafana/commit/2619193bab24926c928eaf804688cbb974f9f1b8"
+            "sha": "7a445be",
+            "branch": "release-13.1.9",
+            "date": "2026-10-23T09:31:34Z",
+            "url": "https://github.com/grafana/grafana/commit/7a445bebc15063b705803fca1898c167789cb7bb"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66728,
+            "stars": 66729,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-24T03:09:23Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "52eeee3",
+            "sha": "754afcf",
             "branch": "main",
-            "date": "2026-10-23T10:24:16Z",
-            "url": "https://github.com/grafana/loki/commit/52eeee3efb7feafa5b3e70d238a1278946ff0ec9"
+            "date": "2026-10-23T10:26:31Z",
+            "url": "https://github.com/grafana/loki/commit/754afcfed5258903001277c519b31eaad185c1d9"
           }
         }
       ]
@@ -5588,7 +5588,7 @@
           "track": "releases",
           "meta": {
             "description": "Система для продажи подписок в тг и вебе с вебадминкой интегрированный c Remnawave 3.0.0+ (https://docs.rw)",
-            "stars": 1175,
+            "stars": 1176,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
             "pushed_at": "2026-10-23T18:51:53Z",
