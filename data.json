@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:14:59.764671Z",
+  "generated_at": "2026-10-24T07:20:17.267316Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35141,
+            "stars": 35142,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-24T00:44:38Z",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:14:35Z",
+            "pushed_at": "2026-10-24T07:20:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d3e62d0",
+                  "message": "nmap: update to 7.992",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-24T07:20:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/d3e62d0767f842d340a4498af934211017e21d56"
+                },
+                {
+                  "sha": "6b9ed42",
+                  "message": "nmap: add test version script",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-24T07:20:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b9ed42a12edcfb6ce8bf727f247d7dc4bf2c18f"
+                },
+                {
+                  "sha": "40cb455",
+                  "message": "cryptsetup: drop dependency on removed KERNEL_DIRECT_IO",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:18:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/40cb4553478dfaf1dc7babc183c2eb8fd5b4c238"
+                },
+                {
+                  "sha": "4069576",
+                  "message": "dockerd: drop selects of removed kernel options",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:18:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/40695760eeebd89125bc28998ccb2fedb233349e"
+                },
+                {
+                  "sha": "13596d3",
+                  "message": "lxc: drop selects of removed kernel options",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:18:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/13596d384849dea7a3ac969d2445770e717e94dd"
+                },
+                {
+                  "sha": "401e189",
+                  "message": "tinyproxy: update to 1.11.3",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-10-24T07:17:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/401e1896cecb85a50ea2f88dad16a06692e2cdf8"
+                },
+                {
+                  "sha": "5dacf29",
+                  "message": "ocserv: update to 1.6.0",
+                  "author": "Jimmy Qin",
+                  "date": "2026-10-24T07:15:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/5dacf29e9e8b876f27a2f2cf2ef0f2bacd6c96c3"
+                },
+                {
                   "sha": "2e9131f",
                   "message": "c-ares: bump to 1.34.9",
                   "author": "Hirokazu MORIKAWA",
@@ -2004,55 +2053,6 @@
                   "author": "Ming Di Leom",
                   "date": "2026-10-23T11:27:14Z",
                   "url": "https://github.com/openwrt/packages/commit/a7466219ebd7729bc2633cfce698cfdf4431eae7"
-                },
-                {
-                  "sha": "8c781ad",
-                  "message": "batman-adv: drop kernel 6.12 dependency",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-23T09:22:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c781ade29b98acd56951dee0ecabe324ec924df"
-                },
-                {
-                  "sha": "0768b24",
-                  "message": "mwan3: normalize expanded nexthop routes in 2.12.5",
-                  "author": "Yuen Su",
-                  "date": "2026-10-23T09:06:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/0768b24fe7a0c615e4508146ec3010213254cb7c"
-                },
-                {
-                  "sha": "a304b9c",
-                  "message": "yq: update to 4.54.1",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-23T07:07:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/a304b9c875fced5c4125d467e4f62ef2b26519db"
-                },
-                {
-                  "sha": "2fc0381",
-                  "message": "dufs: update to 0.47.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-23T07:07:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/2fc03814889de27c970492078fa710b9f251c684"
-                },
-                {
-                  "sha": "9ea8d21",
-                  "message": "openlist: update to 4.2.7",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-23T07:05:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ea8d215087c864b623e5f225c03df2c1e3a2361"
-                },
-                {
-                  "sha": "5d79122",
-                  "message": "usbutils: update to 020",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-23T06:10:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/5d791221c86bf11e406a3b27d68cc0e1f2b77c34"
-                },
-                {
-                  "sha": "770d405",
-                  "message": "bind: update to 9.20.30",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-10-22T20:05:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/770d4058b06f09d4c16321ca53401454f148095e"
                 }
               ]
             },
@@ -3999,7 +3999,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2207,
+            "stars": 2208,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-10-11T07:14:25Z",
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 798,
+            "stars": 799,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -5175,7 +5175,7 @@
             "stars": 77469,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-24T00:52:33Z",
+            "pushed_at": "2026-10-24T07:16:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "93342d0",
-            "branch": "release-3.7.x",
-            "date": "2026-10-23T22:01:03Z",
-            "url": "https://github.com/grafana/loki/commit/93342d07944e2e7bd69d72373f3967cfd4b8f942"
+            "sha": "0e51e43",
+            "branch": "fix-logline-compactor-keep-completed-id",
+            "date": "2026-10-23T22:11:14Z",
+            "url": "https://github.com/grafana/loki/commit/0e51e43528eb13b95525f6ce6341d0fc4acc5580"
           }
         }
       ]
