@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:20:17.267316Z",
+  "generated_at": "2026-10-24T07:25:34.780019Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:20:03Z",
+            "pushed_at": "2026-10-24T07:21:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "26c83ff",
+                  "message": "lua-struct: update to 1.0.0",
+                  "author": "Jakob Schade",
+                  "date": "2026-10-24T07:21:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/26c83ff3511190acfcc32fb40b6e9fd17f96c19f"
+                },
+                {
                   "sha": "d3e62d0",
                   "message": "nmap: update to 7.992",
                   "author": "Ivan Pavlov",
@@ -2046,13 +2053,6 @@
                   "author": "Romain Isnel",
                   "date": "2026-10-23T14:53:02Z",
                   "url": "https://github.com/openwrt/packages/commit/6ee86202cf58a9d1ef57a5d5e016685a4faf54fc"
-                },
-                {
-                  "sha": "a746621",
-                  "message": "kitty-terminfo: update to 0.49.2",
-                  "author": "Ming Di Leom",
-                  "date": "2026-10-23T11:27:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/a7466219ebd7729bc2633cfce698cfdf4431eae7"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26492,
+            "stars": 26493,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-23T09:11:29Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0e51e43",
-            "branch": "fix-logline-compactor-keep-completed-id",
-            "date": "2026-10-23T22:11:14Z",
-            "url": "https://github.com/grafana/loki/commit/0e51e43528eb13b95525f6ce6341d0fc4acc5580"
+            "sha": "c978aed",
+            "branch": "release-please--branches--release-3.7.x",
+            "date": "2026-10-23T20:46:12Z",
+            "url": "https://github.com/grafana/loki/commit/c978aed260ef878643a51959d318fd784041f7de"
           }
         }
       ]
