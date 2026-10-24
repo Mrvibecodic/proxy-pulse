@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:04:25.410327Z",
+  "generated_at": "2026-10-24T07:09:42.515547Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7566,
+            "stars": 7567,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-24T01:05:30Z",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T02:59:03Z",
+            "pushed_at": "2026-10-24T07:09:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "19e6857",
+                  "message": "openldap: update to 2.6.16",
+                  "author": "Romain Isnel",
+                  "date": "2026-10-24T07:09:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/19e6857f373a409ae050c9cfe42414a2f289a464"
+                },
+                {
+                  "sha": "284de27",
+                  "message": "ovn: update to 26.03.2",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:04:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/284de274b648e5ef11b27f07d54450f282a7a2dc"
+                },
+                {
+                  "sha": "414a6f9",
+                  "message": "openvswitch: update to 3.7.1",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:04:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/414a6f952dafbaf8b7d9e464536c119695b0ec0b"
+                },
+                {
+                  "sha": "5e52039",
+                  "message": "openvswitch: remove the intree kernel modules",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:04:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e520397b510b32a576fbeb5fa2f99ef2dfd6de9"
+                },
+                {
+                  "sha": "5d270ef",
+                  "message": "openvswitch: drop kmod-lib-crc32c dependency",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:04:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/5d270ef79940e06a00c2bb8fd5fdbd864f391017"
+                },
+                {
                   "sha": "5cd33e3",
                   "message": "xkcptun: add new package",
                   "author": "Dengfeng Liu",
@@ -2018,41 +2053,6 @@
                   "author": "Mikhail Stolyarov",
                   "date": "2026-10-22T08:12:50Z",
                   "url": "https://github.com/openwrt/packages/commit/c33185f91520a334d3a905a703a0cf1c33ababea"
-                },
-                {
-                  "sha": "c79462b",
-                  "message": "php8: update to 8.4.27",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-22T06:57:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/c79462b16e96340589a3d4874f2d81c2e9d69566"
-                },
-                {
-                  "sha": "e8167e9",
-                  "message": "mwan3: fix delegated IPv6 source selection in 2.12.4",
-                  "author": "Yuen Su",
-                  "date": "2026-10-22T06:18:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/e8167e9c2a5e199bb3db6bdd2f5a6504609640a9"
-                },
-                {
-                  "sha": "7719f23",
-                  "message": "unbound: update to 1.26.2",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-10-22T04:39:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/7719f2336a585ba03c2370916e94ec0b8debc795"
-                },
-                {
-                  "sha": "e11263a",
-                  "message": "adblock: tcpdump-mini can't report on any",
-                  "author": "Marco Martins",
-                  "date": "2026-10-21T19:45:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/e11263a639d63a8b9f6740bde64a60368faeb3f3"
-                },
-                {
-                  "sha": "baba60d",
-                  "message": "tar: fix build with acl 2.4.0",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-21T18:08:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/baba60db0012a2a1a5fe5a079d58fc49e1b518be"
                 }
               ]
             },
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "36a662f",
-            "branch": "release-please--branches--release-3.7.x",
-            "date": "2026-10-23T19:52:20Z",
-            "url": "https://github.com/grafana/loki/commit/36a662f83226422828bce61e250737907968151b"
+            "sha": "93342d0",
+            "branch": "release-3.7.x",
+            "date": "2026-10-23T22:01:03Z",
+            "url": "https://github.com/grafana/loki/commit/93342d07944e2e7bd69d72373f3967cfd4b8f942"
           }
         }
       ]
