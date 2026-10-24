@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:30:53.625239Z",
+  "generated_at": "2026-10-24T07:36:12.642281Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:26:31Z",
+            "pushed_at": "2026-10-24T07:35:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "514c6b7",
+                  "message": "netatalk: update to 4.6.1",
+                  "author": "Antonio Pastor",
+                  "date": "2026-10-24T07:35:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/514c6b772023b62e7cc013a591b685e0b075e33f"
+                },
+                {
+                  "sha": "88a56a3",
+                  "message": "flashrom: backport support for new flashchips",
+                  "author": "Joshua Covington",
+                  "date": "2026-10-24T07:33:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/88a56a3981d8b925de176aa19ecc9506134b0956"
+                },
+                {
+                  "sha": "3d2fc35",
+                  "message": "flashrom: update to 1.8.0",
+                  "author": "Joshua Covington",
+                  "date": "2026-10-24T07:33:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/3d2fc358cd815ff296e8003af8d6689f935bc660"
+                },
+                {
                   "sha": "6ca1260",
                   "message": "qemu: update to 11.1.2",
                   "author": "Andy Chiang",
@@ -2032,27 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-23T19:52:28Z",
                   "url": "https://github.com/openwrt/packages/commit/5e338b5dbf256d0bc5032e7b54fb07b2dc66c1e6"
-                },
-                {
-                  "sha": "ebc901d",
-                  "message": "yt-dlp: bump to 2026.10.21",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T15:30:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/ebc901d05e6e96973acfa87b93800495c7855b42"
-                },
-                {
-                  "sha": "d479a09",
-                  "message": "syncthing: bump to 2.1.7",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T15:29:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/d479a09d2324e470721aee80767d75c1cda247fa"
-                },
-                {
-                  "sha": "863db0e",
-                  "message": "openvpn: make host route depend only on nohostroute",
-                  "author": "Erik Conijn",
-                  "date": "2026-10-23T14:54:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/863db0e14c586317eaf831ec3f4700098c51936c"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "6944e2d",
+                  "message": "kea: bump to 3.0.4",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-10-24T07:34:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/6944e2d2508c3c8ca09d8ed81257c0152f7ddfb5"
+                },
+                {
                   "sha": "ebde552",
                   "message": "yt-dlp: bump to 2026.10.21",
                   "author": "George Sapkin",
@@ -3551,13 +3558,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-10-15T05:44:22Z",
                   "url": "https://github.com/openwrt/packages/commit/71beb0dd22916b169baf74d4e06557c4860f8f8d"
-                },
-                {
-                  "sha": "84f4958",
-                  "message": "telegraf: update to 1.40.2",
-                  "author": "Niklas Thorild",
-                  "date": "2026-10-14T22:17:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/84f4958aff37296fc77a03b4592ee65ba8b9e7c2"
                 }
               ]
             },
