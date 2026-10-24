@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:36:12.642281Z",
+  "generated_at": "2026-10-24T07:41:30.656774Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42281,
+            "stars": 42282,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-23T12:54:15Z",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:35:49Z",
+            "pushed_at": "2026-10-24T07:40:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9a00bf0",
+                  "message": "podman: update to 6.1.2",
+                  "author": "Gary Dotzler",
+                  "date": "2026-10-24T07:40:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/9a00bf0d0024044bbc661d62f97abf46a5bd267f"
+                },
+                {
+                  "sha": "75ab350",
+                  "message": "podman: avoid installing two copies of podman",
+                  "author": "Gary Dotzler",
+                  "date": "2026-10-24T07:40:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/75ab350ee11f174e148c2571a32000cc5defa335"
+                },
+                {
+                  "sha": "c6ab5de",
+                  "message": "passt: user-mode networking for VMs and containers",
+                  "author": "Gary Dotzler",
+                  "date": "2026-10-24T07:40:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6ab5dea2ed635b5aeda8885d46518482e7a29e8"
+                },
+                {
+                  "sha": "9bc5cda",
+                  "message": "netavark/aardvark-dns: bump to 2.1.0",
+                  "author": "Gary Dotzler",
+                  "date": "2026-10-24T07:40:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/9bc5cdafb353a936144ab284096cef0511247dce"
+                },
+                {
+                  "sha": "d18d959",
+                  "message": "ruby: update to 4.0.7",
+                  "author": "Luiz Angelo Daros de Luca",
+                  "date": "2026-10-24T07:37:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/d18d959f5604b63405dc9485310315ab4250c872"
+                },
+                {
+                  "sha": "bd7b8c1",
+                  "message": "boost: updates package to version 1.92.0",
+                  "author": "Carlos Miguel Ferreira",
+                  "date": "2026-10-24T07:36:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/bd7b8c127bf4c3c5c0d7a70343c386cd6364b6b4"
+                },
+                {
                   "sha": "514c6b7",
                   "message": "netatalk: update to 4.6.1",
                   "author": "Antonio Pastor",
@@ -2011,48 +2053,6 @@
                   "author": "Dengfeng Liu",
                   "date": "2026-10-24T02:59:02Z",
                   "url": "https://github.com/openwrt/packages/commit/5cd33e390035031f8ffe1a99f2ab452974d6424a"
-                },
-                {
-                  "sha": "482434b",
-                  "message": "pull_request_template.md: add LLM usage disclosure checkbox",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T20:03:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/482434bca8196f47ddb924c0c16e755119bcdf79"
-                },
-                {
-                  "sha": "b14a059",
-                  "message": "pull_request_template.md: improve formatting and phrasing",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T20:03:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/b14a059061ab7db0c4b02891ed2003214382e83b"
-                },
-                {
-                  "sha": "a67b77e",
-                  "message": "CONTRIBUTING.md: add AI policy",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T20:03:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/a67b77e9d5f599d7c0ba9c2167893d3a2dc08b25"
-                },
-                {
-                  "sha": "94db17c",
-                  "message": "gnupg2: provide gnupg, gpgv and gnupg-utils",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-23T19:52:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/94db17cf66d8ec2ab2b4d8e3a4fb781cee9cacd2"
-                },
-                {
-                  "sha": "7b905be",
-                  "message": "gnupg: remove package",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-23T19:52:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/7b905befa3200a0e8bc3c82a34c7ffee8c824732"
-                },
-                {
-                  "sha": "5e338b5",
-                  "message": "fwknop: switch GPG support to gnupg2",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-23T19:52:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e338b5dbf256d0bc5032e7b54fb07b2dc66c1e6"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92816,
+            "stars": 92815,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-24T06:47:55Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5a78a8b",
-            "branch": "codex/backport-135551-release-12.4.14",
-            "date": "2026-10-23T08:02:41Z",
-            "url": "https://github.com/grafana/grafana/commit/5a78a8bfd1211b913340e1d79b9150ae9f68bd11"
+            "sha": "e569060",
+            "branch": "ihm/260918-notebooks-pub-prev",
+            "date": "2026-10-23T20:57:26Z",
+            "url": "https://github.com/grafana/grafana/commit/e5690604c4ee5bb4dc492cd34ec66ce0a515ee48"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8047,
+            "stars": 8048,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-23T22:12:41Z",
