@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T23:12:57.658864Z",
+  "generated_at": "2026-10-24T23:18:15.552016Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39201,
+            "stars": 39202,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -827,10 +827,10 @@
             }
           ],
           "last_commit": {
-            "sha": "97ec14b",
+            "sha": "383d415",
             "branch": "dev_21",
-            "date": "2026-10-22T18:31:12Z",
-            "url": "https://github.com/legiz-ru/Prizrak-Box/commit/97ec14b074df07b6d5abba79561d24589538a845"
+            "date": "2026-10-23T20:08:45Z",
+            "url": "https://github.com/legiz-ru/Prizrak-Box/commit/383d415f9f2b4a844dbadf3dedbba1d2ac9d3a7a"
           }
         },
         {
@@ -4863,12 +4863,21 @@
             "stars": 145,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-24T22:46:42Z",
+            "pushed_at": "2026-10-24T23:17:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.5.0",
+              "tag": "v7.5.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.5.0",
+              "published_at": "2026-10-24T23:17:28Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.5.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.5.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.4.5",
               "tag": "v7.4.5",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.3.0\r\n\r\nAdd optional proxying of the router's own outbound traffic in Gateway mode.\r\n- Settings toggle (off by default) drives mangle OUTPUT and nat OUTPUT rules on iptables and nftables, with repair and Keenetic NDMS hook support.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.2.0",
-              "tag": "v7.2.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.2.0",
-              "published_at": "2026-10-18T18:19:13Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.2.0\r\n\r\nAdd optional Keenetic RCI access token for local API on newer firmware.\r\n- Probe loopback /rci/show/version for status, send X-Ndma-Tkn when set, and surface token settings with status-panel UI; keep ndmc fallback unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29053,
+            "stars": 29054,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-24T21:15:44Z",
@@ -5871,7 +5871,7 @@
             "stars": 8056,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-24T23:04:42Z",
+            "pushed_at": "2026-10-24T23:14:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "522ce8a",
-            "branch": "main",
-            "date": "2026-10-24T22:58:40Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/522ce8a67a07b6613e2aa27098aab00041c9cad8"
+            "sha": "f561b0f",
+            "branch": "l10n_crowdin",
+            "date": "2026-10-24T23:13:02Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/f561b0f748dda7117ac51e1d37b547bd904884d6"
           }
         }
       ]
