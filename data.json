@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:50:21.175850Z",
+  "generated_at": "2026-10-24T08:55:39.504417Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:40:39Z",
+            "pushed_at": "2026-10-24T08:55:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e3a19ed",
+                  "message": "mtd-rw: drop reference to removed octeontx target",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T08:55:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/e3a19ed6cd726fccbfd513dd85d32cc8e90b5bbc"
+                },
+                {
+                  "sha": "e39bf72",
+                  "message": "openthread-br: use the in-process nftables firewall backend",
+                  "author": "Christian Glombek",
+                  "date": "2026-10-24T08:54:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/e39bf72aef10013a56e06ec86a8c303a66c07cd9"
+                },
+                {
+                  "sha": "fb077db",
+                  "message": "openthread-br: use OpenThread's internal mDNS",
+                  "author": "Christian Glombek",
+                  "date": "2026-10-24T08:54:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/fb077dbc19fc75c38a048d1ff7ec36413bbfefd8"
+                },
+                {
+                  "sha": "6437268",
+                  "message": "openthread-br: make the REST API listen address configurable",
+                  "author": "Christian Glombek",
+                  "date": "2026-10-24T08:54:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/64372682b925848ebf7747c80e5420d7ef3396db"
+                },
+                {
+                  "sha": "1e5da9c",
+                  "message": "openthread-br: update to 2026.10.0",
+                  "author": "Christian Glombek",
+                  "date": "2026-10-24T08:54:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/1e5da9c154bc6533daeff78c5e73de98bd10d97c"
+                },
+                {
                   "sha": "9a00bf0",
                   "message": "podman: update to 6.1.2",
                   "author": "Gary Dotzler",
@@ -2018,41 +2053,6 @@
                   "author": "Romain Isnel",
                   "date": "2026-10-24T07:09:43Z",
                   "url": "https://github.com/openwrt/packages/commit/19e6857f373a409ae050c9cfe42414a2f289a464"
-                },
-                {
-                  "sha": "284de27",
-                  "message": "ovn: update to 26.03.2",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:04:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/284de274b648e5ef11b27f07d54450f282a7a2dc"
-                },
-                {
-                  "sha": "414a6f9",
-                  "message": "openvswitch: update to 3.7.1",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:04:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/414a6f952dafbaf8b7d9e464536c119695b0ec0b"
-                },
-                {
-                  "sha": "5e52039",
-                  "message": "openvswitch: remove the intree kernel modules",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:04:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e520397b510b32a576fbeb5fa2f99ef2dfd6de9"
-                },
-                {
-                  "sha": "5d270ef",
-                  "message": "openvswitch: drop kmod-lib-crc32c dependency",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:04:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/5d270ef79940e06a00c2bb8fd5fdbd864f391017"
-                },
-                {
-                  "sha": "5cd33e3",
-                  "message": "xkcptun: add new package",
-                  "author": "Dengfeng Liu",
-                  "date": "2026-10-24T02:59:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/5cd33e390035031f8ffe1a99f2ab452974d6424a"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92816,
+            "stars": 92817,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-24T06:47:55Z",
