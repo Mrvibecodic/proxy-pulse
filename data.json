@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:09:42.515547Z",
+  "generated_at": "2026-10-24T07:14:59.764671Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42280,
+            "stars": 42281,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-23T12:54:15Z",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:09:43Z",
+            "pushed_at": "2026-10-24T07:14:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2e9131f",
+                  "message": "c-ares: bump to 1.34.9",
+                  "author": "Hirokazu MORIKAWA",
+                  "date": "2026-10-24T07:14:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/2e9131fa693f69f422f6f8205d8b555e58318fab"
+                },
+                {
+                  "sha": "4bd853c",
+                  "message": "knot: upgrade to version 3.6.2",
+                  "author": "Daniel Salzman",
+                  "date": "2026-10-24T07:13:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/4bd853c8ee1157cf92d2cda714a56921469cf91d"
+                },
+                {
+                  "sha": "591dd01",
+                  "message": "vnstat2: provide vnstat and vnstati",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:12:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/591dd01de48275cba6ea2b79166da4cda5074f2c"
+                },
+                {
+                  "sha": "207fb2c",
+                  "message": "vnstat: remove package",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:12:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/207fb2c2fe9565c026983806c2b2cc386e33d772"
+                },
+                {
+                  "sha": "2d8688b",
+                  "message": "libsodium: update to 1.0.22",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T07:10:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/2d8688b2098d1fe3dabed82ff3fbc2b30f24559a"
+                },
+                {
+                  "sha": "01a19a9",
+                  "message": "docker-compose: update to version 5.6.1",
+                  "author": "Javier Marcet",
+                  "date": "2026-10-24T07:10:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/01a19a92e3a108e52bd1e02ed0fbe23ceb8c708a"
+                },
+                {
                   "sha": "19e6857",
                   "message": "openldap: update to 2.6.16",
                   "author": "Romain Isnel",
@@ -2011,48 +2053,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-10-22T20:05:29Z",
                   "url": "https://github.com/openwrt/packages/commit/770d4058b06f09d4c16321ca53401454f148095e"
-                },
-                {
-                  "sha": "358a6b7",
-                  "message": "owut: update to 2026.10.20",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-10-22T19:44:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/358a6b7c6d5a7b3f7f7e5f6b689c6a7bea3620dc"
-                },
-                {
-                  "sha": "b7fe2e7",
-                  "message": "python-certifi: bump to 2026.10.19",
-                  "author": "Eneas U de Queiroz",
-                  "date": "2026-10-22T18:03:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/b7fe2e7f489b31e5f1cab7d383bfc87020c23801"
-                },
-                {
-                  "sha": "a17f3d4",
-                  "message": "sqlite: update to 3.54.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-22T15:20:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/a17f3d474a99f274ca8bd924f905cfd4891c99de"
-                },
-                {
-                  "sha": "ec80363",
-                  "message": "oci-runtime-tools: install the test rootfs as data",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-22T13:06:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec803635e221b189628e8c83fac2d3a200e5671a"
-                },
-                {
-                  "sha": "135287f",
-                  "message": "oci-runtime-tools: adapt the tests to the host kernel",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-22T13:06:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/135287f490a149f9c6ea3526bd6f091f6155b4cb"
-                },
-                {
-                  "sha": "c33185f",
-                  "message": "xray-core: bump to v26.10.21",
-                  "author": "Mikhail Stolyarov",
-                  "date": "2026-10-22T08:12:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/c33185f91520a334d3a905a703a0cf1c33ababea"
                 }
               ]
             },
