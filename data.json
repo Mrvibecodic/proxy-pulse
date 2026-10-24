@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T09:01:00.073960Z",
+  "generated_at": "2026-10-24T09:06:18.114181Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T09:00:23Z",
+            "pushed_at": "2026-10-24T09:03:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "05d1261",
+                  "message": "boost: drop context exclusion for removed ARC targets",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T09:03:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/05d12617f1bcd35fa09803c708a564e32e9dd665"
+                },
+                {
+                  "sha": "b0358ea",
+                  "message": "alpine: drop alpine-nossl package",
+                  "author": "Sander van Deijck",
+                  "date": "2026-10-24T09:02:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/b0358ea46aad4633cdc765f390847d9aa063b80b"
+                },
+                {
                   "sha": "7e84879",
                   "message": "rp-pppoe: drop rp-pppoe-sniff package",
                   "author": "Sander van Deijck",
@@ -2039,20 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T07:12:34Z",
                   "url": "https://github.com/openwrt/packages/commit/207fb2c2fe9565c026983806c2b2cc386e33d772"
-                },
-                {
-                  "sha": "2d8688b",
-                  "message": "libsodium: update to 1.0.22",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:10:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/2d8688b2098d1fe3dabed82ff3fbc2b30f24559a"
-                },
-                {
-                  "sha": "01a19a9",
-                  "message": "docker-compose: update to version 5.6.1",
-                  "author": "Javier Marcet",
-                  "date": "2026-10-24T07:10:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/01a19a92e3a108e52bd1e02ed0fbe23ceb8c708a"
                 }
               ]
             },
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2037,
+            "stars": 2038,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-24T01:17:30Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "22e5367",
-            "branch": "jackw/rspack-only-backend",
-            "date": "2026-10-23T09:45:03Z",
-            "url": "https://github.com/grafana/grafana/commit/22e5367d839f9da5cc7642c1d1f4b0fc180ad0a1"
+            "sha": "6f1d81c",
+            "branch": "release-13.0.12",
+            "date": "2026-10-23T09:32:56Z",
+            "url": "https://github.com/grafana/grafana/commit/6f1d81c3655112130fa824e876d5f0eafe81f216"
           }
         },
         {
