@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:57:18.794257Z",
+  "generated_at": "2026-10-24T14:02:36.131460Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39186,
+            "stars": 39187,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35153,
+            "stars": 35154,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-24T00:44:38Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1494,
+            "stars": 1495,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-10-22T01:01:09Z",
@@ -1190,7 +1190,7 @@
             "stars": 4648,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T13:51:42Z",
+            "pushed_at": "2026-10-24T13:59:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "881683c",
+                  "message": "linuxptp: fix stale comment and tighten interface pre-check",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/881683c06807d4da661205d15b934c2677e2caf5"
+                },
+                {
+                  "sha": "7f2f78d",
+                  "message": "linuxptp: tighten ptp4l pre-check to require interface option",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f2f78dcffdb37ae869433520ee37b628f221806"
+                },
+                {
+                  "sha": "6cb82d3",
+                  "message": "linuxptp: address review nits from round 4",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/6cb82d3f9763cf3d280e6529bf95e67ee30447a9"
+                },
+                {
+                  "sha": "7166649",
+                  "message": "linuxptp: fix boot-block, phc2sys auto-start and interface validation",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/71666498b7d7a4151b8a64a58b6d88fbc2cea2bf"
+                },
+                {
+                  "sha": "b63bea1",
+                  "message": "linuxptp: fix init script bugs and address review feedback",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/b63bea16a0f89d35ebc5eb5ddab9a1dead1f5ee1"
+                },
+                {
+                  "sha": "5eac6af",
+                  "message": "linuxptp: add config \u0026 init scripts for ptp4l and phc2sys",
+                  "author": "Aleks Mariusz",
+                  "date": "2026-10-24T13:59:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/5eac6af978c8e84ed634b7cce4d755118d5956fd"
+                },
+                {
                   "sha": "0d0b77c",
                   "message": "shorewall: remove packages",
                   "author": "Sander van Deijck",
@@ -2011,48 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T07:18:29Z",
                   "url": "https://github.com/openwrt/packages/commit/40cb4553478dfaf1dc7babc183c2eb8fd5b4c238"
-                },
-                {
-                  "sha": "4069576",
-                  "message": "dockerd: drop selects of removed kernel options",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:18:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/40695760eeebd89125bc28998ccb2fedb233349e"
-                },
-                {
-                  "sha": "13596d3",
-                  "message": "lxc: drop selects of removed kernel options",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T07:18:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/13596d384849dea7a3ac969d2445770e717e94dd"
-                },
-                {
-                  "sha": "401e189",
-                  "message": "tinyproxy: update to 1.11.3",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-24T07:17:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/401e1896cecb85a50ea2f88dad16a06692e2cdf8"
-                },
-                {
-                  "sha": "5dacf29",
-                  "message": "ocserv: update to 1.6.0",
-                  "author": "Jimmy Qin",
-                  "date": "2026-10-24T07:15:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/5dacf29e9e8b876f27a2f2cf2ef0f2bacd6c96c3"
-                },
-                {
-                  "sha": "2e9131f",
-                  "message": "c-ares: bump to 1.34.9",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-10-24T07:14:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/2e9131fa693f69f422f6f8205d8b555e58318fab"
-                },
-                {
-                  "sha": "4bd853c",
-                  "message": "knot: upgrade to version 3.6.2",
-                  "author": "Daniel Salzman",
-                  "date": "2026-10-24T07:13:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/4bd853c8ee1157cf92d2cda714a56921469cf91d"
                 }
               ]
             },
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29054,
+            "stars": 29053,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-24T12:13:51Z",
