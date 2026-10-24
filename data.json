@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:51:59.974524Z",
+  "generated_at": "2026-10-24T16:57:17.273272Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39195,
+            "stars": 39196,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35158,
+            "stars": 35159,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-24T00:44:38Z",
@@ -1176,7 +1176,7 @@
           ],
           "last_commit": {
             "sha": "b5bc4be",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-10-24T12:33:44Z",
             "url": "https://github.com/openwrt/openwrt/commit/b5bc4becb424b4d89f48e372675811821aa155bd"
           }
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16291,
+            "stars": 16293,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -4745,7 +4745,7 @@
             "stars": 2043,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-10-24T16:52:00Z",
+            "pushed_at": "2026-10-24T16:52:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "39d81bf",
+            "sha": "7982ba3",
             "branch": "main",
-            "date": "2026-10-24T12:54:59Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/39d81bf456647050635909cd134f25864ae252bf"
+            "date": "2026-10-24T16:52:01Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/7982ba387750d1ad7e0ee88c6a966d51868e2f08"
           }
         },
         {
@@ -4863,12 +4863,21 @@
             "stars": 144,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-10-24T16:41:05Z",
+            "pushed_at": "2026-10-24T16:52:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.4.5",
+              "tag": "v7.4.5",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.5",
+              "published_at": "2026-10-24T16:52:58Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.4.5\r\n\r\nfix(clashcfg): inject HWID headers into indented proxy-providers.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.4.4",
               "tag": "v7.4.4",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.2.0\r\n\r\nAdd optional Keenetic RCI access token for local API on newer firmware.\r\n- Probe loopback /rci/show/version for status, send X-Ndma-Tkn when set, and surface token settings with status-panel UI; keep ndmc fallback unchanged.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.1.1",
-              "tag": "v7.1.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.1.1",
-              "published_at": "2026-10-16T20:09:45Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.1.1\r\n\r\nImprove Server listener editor: YAML layout, generators, and address chips.\r\n- Indent new listeners sections correctly and insert them before outbound blocks; add configurable password generation and one-click listen/client address suggestions with sensible private-address filtering.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92847,
+            "stars": 92849,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-24T16:13:24Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9b43e51",
+            "sha": "8f0baea",
             "branch": "main",
-            "date": "2026-10-23T14:50:37Z",
-            "url": "https://github.com/grafana/grafana/commit/9b43e5198c58995971892dc559955fbaecf6d336"
+            "date": "2026-10-23T15:46:35Z",
+            "url": "https://github.com/grafana/grafana/commit/8f0baea6b929ad1c914d69c3e61db7984bbb4ca1"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9fb4f58",
-            "branch": "spiridonov-logql-label-collisions-never-replace",
+            "sha": "1bc3368",
+            "branch": "spiridonov-logql-label-collisions-expr-first-writer",
             "date": "2026-10-23T15:21:57Z",
-            "url": "https://github.com/grafana/loki/commit/9fb4f5897a6ec7b841adb9935fb297738eb9d208"
+            "url": "https://github.com/grafana/loki/commit/1bc3368f56a2404e729d620766722cf036d30246"
           }
         }
       ]
