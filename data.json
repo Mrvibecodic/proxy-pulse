@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:25:34.780019Z",
+  "generated_at": "2026-10-24T07:30:53.625239Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4647,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-24T07:21:10Z",
+            "pushed_at": "2026-10-24T07:26:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6ca1260",
+                  "message": "qemu: update to 11.1.2",
+                  "author": "Andy Chiang",
+                  "date": "2026-10-24T07:26:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/6ca126058398613f62c5b2b1704329fbcd109e6a"
+                },
+                {
                   "sha": "26c83ff",
                   "message": "lua-struct: update to 1.0.0",
                   "author": "Jakob Schade",
@@ -2046,13 +2053,6 @@
                   "author": "Erik Conijn",
                   "date": "2026-10-23T14:54:17Z",
                   "url": "https://github.com/openwrt/packages/commit/863db0e14c586317eaf831ec3f4700098c51936c"
-                },
-                {
-                  "sha": "6ee8620",
-                  "message": "lmdb: update to 0.9.37",
-                  "author": "Romain Isnel",
-                  "date": "2026-10-23T14:53:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/6ee86202cf58a9d1ef57a5d5e016685a4faf54fc"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77469,
+            "stars": 77470,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-24T07:16:16Z",
