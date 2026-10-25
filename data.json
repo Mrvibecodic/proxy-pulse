@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:35:51.995266Z",
+  "generated_at": "2026-10-25T12:41:09.061925Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T12:31:49Z",
+            "pushed_at": "2026-10-25T12:38:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fa48a6a",
+                  "message": "nginx-util: specify gzip_types to actually enable gzip",
+                  "author": "Nikita Solianik",
+                  "date": "2026-10-25T12:38:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/fa48a6a56750976eb3a1c36592e9e17dfb52015c"
+                },
+                {
+                  "sha": "e0e531b",
+                  "message": "nginx: only build luajit2 if required",
+                  "author": "Florian Wagner",
+                  "date": "2026-10-25T12:36:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/e0e531b86c7d201c4e935053a19d3c97ea9cbdaa"
+                },
+                {
                   "sha": "d7d5343",
                   "message": "nginx: update repository of maintained naxsi module",
                   "author": "Keiji Hata",
@@ -2039,20 +2053,6 @@
                   "author": "Gary Dotzler",
                   "date": "2026-10-24T07:40:38Z",
                   "url": "https://github.com/openwrt/packages/commit/9bc5cdafb353a936144ab284096cef0511247dce"
-                },
-                {
-                  "sha": "d18d959",
-                  "message": "ruby: update to 4.0.7",
-                  "author": "Luiz Angelo Daros de Luca",
-                  "date": "2026-10-24T07:37:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/d18d959f5604b63405dc9485310315ab4250c872"
-                },
-                {
-                  "sha": "bd7b8c1",
-                  "message": "boost: updates package to version 1.92.0",
-                  "author": "Carlos Miguel Ferreira",
-                  "date": "2026-10-24T07:36:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/bd7b8c127bf4c3c5c0d7a70343c386cd6364b6b4"
                 }
               ]
             },
