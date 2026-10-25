@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:24:19.694545Z",
+  "generated_at": "2026-10-25T07:40:03.433429Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39214,
+            "stars": 39215,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -1190,7 +1190,7 @@
             "stars": 4648,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T06:16:24Z",
+            "pushed_at": "2026-10-25T07:36:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "88aec21",
+                  "message": "knot-resolver: update to version 5.7.9 (fixes compatibility with knot 3.6)",
+                  "author": "Daniel Salzman",
+                  "date": "2026-10-25T07:36:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/88aec212f9a5b5900a3b87871c313b44ba9d5ac4"
+                },
+                {
                   "sha": "22e8338",
                   "message": "knot: upgrade to version 3.6.2",
                   "author": "Daniel Salzman",
@@ -3336,19 +3343,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-06T18:20:43Z",
                   "url": "https://github.com/openwrt/packages/commit/3756b31699e7bf8020956d0ba9c1560d540d1eac"
-                },
-                {
-                  "sha": "655af82",
-                  "message": "ripe-atlas: add get_key and probeid to init script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-05T20:59:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/655af8298cea451781c3e3b849b8ee2057870e7d"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "9701718",
+                  "message": "knot-resolver: update to version 5.7.9 (fixes compatibility with knot 3.6)",
+                  "author": "Daniel Salzman",
+                  "date": "2026-10-25T07:36:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/970171870e8a3b2855d1ef9774442f40e56d006e"
+                },
                 {
                   "sha": "7ce1a97",
                   "message": "knot: upgrade to version 3.6.2",
@@ -3551,13 +3558,6 @@
                   "author": "Sandro Jäckel",
                   "date": "2026-10-16T18:41:49Z",
                   "url": "https://github.com/openwrt/packages/commit/f9fe78b923d4603988c9fc9cadf008f75964988a"
-                },
-                {
-                  "sha": "d811f45",
-                  "message": "adblock: update 4.5.9-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-16T07:51:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/d811f45d8fd51054052969c6fe026fa4fa23c4d3"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26512,
+            "stars": 26513,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-25T02:13:08Z",
