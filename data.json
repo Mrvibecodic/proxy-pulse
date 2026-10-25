@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:39:03.715213Z",
+  "generated_at": "2026-10-25T16:44:21.374789Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T14:35:00Z",
+            "pushed_at": "2026-10-25T16:43:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "88021a5",
+                  "message": "lcms2: add package",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-25T16:43:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/88021a552d690624a16cd51c803071081c3a572e"
+                },
+                {
                   "sha": "8b0c87b",
                   "message": "tailscale: add ts_omit_flashappliance build tag",
                   "author": "Chaowei Han",
@@ -2046,13 +2053,6 @@
                   "author": "Gary Dotzler",
                   "date": "2026-10-24T07:40:38Z",
                   "url": "https://github.com/openwrt/packages/commit/9a00bf0d0024044bbc661d62f97abf46a5bd267f"
-                },
-                {
-                  "sha": "75ab350",
-                  "message": "podman: avoid installing two copies of podman",
-                  "author": "Gary Dotzler",
-                  "date": "2026-10-24T07:40:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/75ab350ee11f174e148c2571a32000cc5defa335"
                 }
               ]
             },
@@ -5871,7 +5871,7 @@
             "stars": 8070,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-25T16:26:54Z",
+            "pushed_at": "2026-10-25T16:40:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e4cc10c",
-            "branch": "fix/issue-4568",
-            "date": "2026-10-25T16:23:51Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/e4cc10ccd553673bd5036aca755a2520d73ea11b"
+            "sha": "f6f0b11",
+            "branch": "main",
+            "date": "2026-10-25T16:40:49Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/f6f0b11d81b48d545d64c9859b4359fb8dcf71f0"
           }
         }
       ]
