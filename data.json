@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T09:57:29.126993Z",
+  "generated_at": "2026-10-25T10:02:45.328340Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35174,
+            "stars": 35175,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-25T00:43:15Z",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "373e90b",
-            "branch": "main",
-            "date": "2026-10-25T06:50:02Z",
-            "url": "https://github.com/openwrt/openwrt/commit/373e90b47d4360e8d3abcf1cc241b1bbcece47b8"
+            "sha": "d564aec",
+            "branch": "master",
+            "date": "2026-10-25T08:49:40Z",
+            "url": "https://github.com/openwrt/openwrt/commit/d564aecec77c5ab94294c4b26a9b0d17d44c39bb"
           }
         },
         {
@@ -4758,7 +4758,7 @@
               "published_at": "2026-10-08T18:41:55Z",
               "prerelease": false,
               "author": "StressOzz",
-              "body": "## 🚀 **Zapret Manager** — установка с Windows в один клик!\r\n\r\nТеперь панель **Zapret Manager для LuCI и Web** можно поставить на роутер с **OpenWrt** прямо с компьютера, без **PuTTY** и ручного входа по **SSH**.\r\n\r\n📦 **Как установить:**\r\n▪️Скачайте **ZapretManager_Install.bat**\r\n▪️Запустите его двойным кликом\r\n▪️Если у **root** есть пароль, введите его\r\n▪️Дальше всё произойдёт само.\r\n\r\n✨ **Что умеет установщик:**\r\n🔍 сам находит роутер в сети, а если не нашёл, предложит ввести адрес\r\n🔐 входит без пароля, если его нет, а если пароль есть, то спрашивает со скрытым вводом\r\n📥 роутер сам скачивает и ставит последнюю версию **Zapret Manager**\r\n📺 ход установки видно в окне\r\n🧹 после себя удаляет все временные файлы\r\n📎 всё в одном файле, отдельно ничего скачивать не нужно\r\n\r\n⚠️ Нужна **Windows 10** или **11**, роутер должен быть на **OpenWRT**."
+              "body": "## 🚀 **Zapret Manager** — установка с Windows в один клик!\r\n\r\nТеперь панель **Zapret Manager для LuCI и Web** можно поставить на роутер с **OpenWrt** прямо с компьютера, без **PuTTY** и ручного входа по **SSH**.\r\n\r\n📦 **Как установить:**\r\n▪️Скачайте **ZapretManager_Install.bat**\r\n▪️Запустите его двойным кликом\r\n▪️Если у **root** есть пароль, введите его\r\n▪️Дальше всё произойдёт само.\r\n\r\n✨ **Что умеет установщик:**\r\n🔍 сам находит роутер в сети, а если не нашёл, предложит ввести адрес\r\n🔐 входит без пароля, если его нет, а если пароль есть, то спрашивает со скрытым вводом\r\n📥 роутер сам скачивает и ставит последнюю версию **Zapret Manager**\r\n📺 ход установки видно в окне\r\n🧹 после себя удаляет все временные файлы\r\n📎 всё в одном файле, отдельно ничего скачивать не нужно\r\n\r\n⚠️ Нужна **Windows 10** или **11**, роутер должен быть на **OpenWRT**.\r\n\r\n\u003e [!WARNING]\r\n\u003e **Антивирус или Windows может ругаться — это ложная тревога.**\r\n\u003e\r\n\u003e Внутри `.bat` спрятана маленькая программа для подключения к роутеру (`plink` из известного пакета **PuTTY**), и установщик её распаковывает и подключается по сети. Антивирусы не любят, когда скрипт так делает, поэтому могут предупредить, даже если вирусов нет. **Вирусов в файле нет**: это обычный текстовый скрипт — его можно открыть Блокнотом и посмотреть, что внутри.\r\n\u003e\r\n\u003e Что может появиться и что нажать:\r\n\u003e - **браузер** пишет «файл обычно не скачивают» → **«Сохранить»** / **«Всё равно сохранить»**;\r\n\u003e - синее окно **«Windows защитила ваш компьютер»** → **«Подробнее»** → **«Выполнить в любом случае»**;\r\n\u003e - **антивирус** удалил файл → добавьте его в исключения или ненадолго приостановите защиту на время установки."
             },
             {
               "name": "ZapretOzz v0.6",
@@ -5039,7 +5039,7 @@
             "stars": 92882,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T09:53:52Z",
+            "pushed_at": "2026-10-25T10:00:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5092,10 +5092,10 @@
             }
           ],
           "last_commit": {
-            "sha": "db8f4ac",
+            "sha": "2dbd8d2",
             "branch": "merge",
-            "date": "2026-10-25T09:53:53Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/db8f4ac1d90022275daee292ee59fe711d753b0f"
+            "date": "2026-10-25T09:59:46Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/2dbd8d29856fda8e7816fb568c98144308b2fc71"
           }
         },
         {
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26516,
+            "stars": 26517,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-25T02:13:08Z",
@@ -5160,10 +5160,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8f37596",
-            "branch": "l10n_main_2",
-            "date": "2026-10-22T17:14:34Z",
-            "url": "https://github.com/henrygd/beszel/commit/8f37596f675e174446d479c1d96651967ae8efd3"
+            "sha": "07e42d6",
+            "branch": "main",
+            "date": "2026-10-22T17:26:32Z",
+            "url": "https://github.com/henrygd/beszel/commit/07e42d63f19cedccac258b8f741eca4b9122f211"
           }
         },
         {
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77487,
+            "stars": 77488,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-25T00:46:06Z",
