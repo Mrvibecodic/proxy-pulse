@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T14:00:28.064866Z",
+  "generated_at": "2026-10-25T14:05:45.408942Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T12:44:30Z",
+            "pushed_at": "2026-10-25T14:02:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,76 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7e29621",
+                  "message": "luaossl: fix Lua 5.4 module installation paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/7e29621d865ee3fcb6690b06ed1d35ec2a9d15ad"
+                },
+                {
+                  "sha": "4261196",
+                  "message": "cqueues: fix Lua 5.4 module installation paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/4261196dbc072a7646ebb14300f74a957a3c565d"
+                },
+                {
+                  "sha": "fad819e",
+                  "message": "lua-ffi: fix Lua 5.4 module installation path",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/fad819e0551d019a3444f57673b0b047498d8668"
+                },
+                {
+                  "sha": "2cbdf40",
+                  "message": "lua-cjson: fix Lua 5.4 module installation path",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/2cbdf405407a0a21494c6a27d7c61dd27c6673cb"
+                },
+                {
+                  "sha": "b7259ba",
+                  "message": "lua-eco: align module installation with Lua 5.4 search paths",
+                  "author": "Jianhui Zhao",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/b7259ba7d607dfbff9daac5a9cd0a9a9cbd0c75a"
+                },
+                {
+                  "sha": "a316826",
+                  "message": "luasec: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/a3168269bfc2f09d4423447b55f138e9334698ea"
+                },
+                {
+                  "sha": "9b42f4d",
+                  "message": "luasocket: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/9b42f4d05a500ea5b6a7f505d73d4792c434ec5e"
+                },
+                {
+                  "sha": "ec387eb",
+                  "message": "luaexpat: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec387ebde718390539124637c3ac2dc8cc68f0b7"
+                },
+                {
+                  "sha": "322d63a",
+                  "message": "luafilesystem: add Lua 5.4 variant",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/322d63a4f00192fed16dd4a49075fa0aa181561b"
+                },
+                {
+                  "sha": "6e5cd49",
+                  "message": "lua: look for lua5.4 modules under /usr instead of /usr/local",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-25T14:02:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e5cd49c88da8b81bacad8686a4a153fd602fc98"
+                },
+                {
                   "sha": "d20a92f",
                   "message": "nano: update to 9.3",
                   "author": "Hannu Nyman",
@@ -3488,76 +3558,6 @@
                   "author": "George Sapkin",
                   "date": "2026-10-21T11:13:06Z",
                   "url": "https://github.com/openwrt/packages/commit/808f150a07a2071ebe032e17b5b3f567c0e27181"
-                },
-                {
-                  "sha": "625bb8d",
-                  "message": "golang: bump 1.27 to 1.27.2",
-                  "author": "Andy Chiang",
-                  "date": "2026-10-21T11:13:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/625bb8dcfcc819596e0477166603ba051a04f72e"
-                },
-                {
-                  "sha": "9edff73",
-                  "message": "weechat: fix recursive Kconfig dependency",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-21T06:26:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/9edff735c87c0955998e134164fd4bff8ad54b44"
-                },
-                {
-                  "sha": "b92440c",
-                  "message": "curl: update to 8.23.0",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-10-21T06:26:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/b92440c55a8e979f4e3c92e123e5a82a29216f23"
-                },
-                {
-                  "sha": "65493e2",
-                  "message": "golang: bump 1.26 to 1.26.10",
-                  "author": "George Sapkin",
-                  "date": "2026-10-20T18:54:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/65493e273e4b9cd7014236b69fd6fdc617b88436"
-                },
-                {
-                  "sha": "d826d96",
-                  "message": "travelmate: update 2.4.9-6",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-20T13:04:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/d826d96c77f1eebce6c9cd6e96726102d4501da0"
-                },
-                {
-                  "sha": "9822cc9",
-                  "message": "gpsd: install gps2udp client",
-                  "author": "Jose Luis Sanroma Tato",
-                  "date": "2026-10-19T18:04:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/9822cc9ee869d3cc1c5124a8697de4e8cd935d11"
-                },
-                {
-                  "sha": "5838950",
-                  "message": "adblock: update 4.5.9-4",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-19T05:28:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/58389500f92206262b647682d6a1f2bd17265e05"
-                },
-                {
-                  "sha": "093d551",
-                  "message": "hev-socks5-tunnel: update to 2.19.0",
-                  "author": "Ray Wang",
-                  "date": "2026-10-17T15:29:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/093d551675b1119a06ef224d419905e8d6b2af1a"
-                },
-                {
-                  "sha": "457e133",
-                  "message": "banip: update 1.9.1-2",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-17T13:10:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/457e1338fa590786ec111658732d3aa9373a0597"
-                },
-                {
-                  "sha": "1561fa6",
-                  "message": "adblock: update 4.5.9-3",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-17T12:35:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/1561fa6b2d6662457750e8bbae74981c93a21dcd"
                 }
               ]
             },
