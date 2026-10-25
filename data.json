@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T17:53:09.425099Z",
+  "generated_at": "2026-10-25T17:58:26.555380Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39233,
+            "stars": 39234,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16299,
+            "stars": 16300,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5092,10 +5092,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3e970fa",
+            "sha": "eb9ac32",
             "branch": "dev-perf",
-            "date": "2026-10-24T17:19:41Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/3e970fa6d49d222b00ded673d47c435085f15a0a"
+            "date": "2026-10-24T17:26:40Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/eb9ac32f401fd035a045dea1f3cad320176190ee"
           }
         },
         {
@@ -5311,7 +5311,7 @@
             "stars": 81120,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T17:23:53Z",
+            "pushed_at": "2026-10-25T17:54:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4243608",
+            "sha": "1f0245f",
             "branch": "master",
-            "date": "2026-10-25T17:19:21Z",
-            "url": "https://github.com/netdata/netdata/commit/4243608a5f680e0d68d9b7eeea8004d4c21f4552"
+            "date": "2026-10-25T17:54:34Z",
+            "url": "https://github.com/netdata/netdata/commit/1f0245faf78ca60bfebfacdc28b46eaa530037b2"
           }
         },
         {
@@ -5878,6 +5878,15 @@
           },
           "releases": [
             {
+              "name": "v2.17.1",
+              "tag": "v2.17.1",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.1",
+              "published_at": "2026-10-25T17:55:38Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release fixes manual job and updater behavior, improves Compose and workspace handling, and resolves a Rustic container certificate issue.\n\n### Jobs and updates\n- Require jobs to be enabled in saved settings before allowing manual runs (#4550, @grootbro).\n- Allow manual updater runs to proceed even when updates are opted out (#4564, @kmendell).\n- Resolve orphaned job run activities on startup (#4572, @kmendell).\n\n### Compose and workspaces\n- Respect the name set in a Compose file instead of the project name (#4561, @kmendell).\n- Use mount-time environment and volume settings in the workspace cache listener (#4563, @kmendell).\n\n### Backups\n- Trust Arcane’s CA roots inside the Rustic container (#4554, @Mczubi).\n\n"
+            },
+            {
               "name": "v2.17.0",
               "tag": "v2.17.0",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.0",
@@ -5912,15 +5921,6 @@
               "prerelease": false,
               "author": "arcane-github-automation[bot]",
               "body": "\u003e [!NOTE]\n\u003e This release fixes Compose path and image handling, improves backup and update reliability, and adds a setting for Signal notifications.\n\u003e It also includes fixes for remote environments, authentication, and environment navigation.\n\n### Compose and updates\n- Interpolate variables in Compose include paths (#4298) — @kmendell\n- Preserve Compose image spelling during project updates and self-updates (#4330) — @kmendell\n- Keep the selected tag during self-updates and refresh stale project update status (commit `e862615fc4e47c8bf7fbfc089254bf509d0a82c7`) — @kmendell\n\n### Environments, notifications, and authentication\n- Resolve webhook target names in remote environments (#4299) — @kmendell\n- Default `notifySelf` to `true` and add a setting for Signal notifications (#4302) — @Shraymonks\n- Prevent logout from hanging on permission errors after OIDC login (#4309) — @kmendell\n- Navigate to the selected environment on environment-scoped routes (#4320) — @kmendell\n\n### Backups and maintenance\n- Prevent system backups from failing when project files are in use (#4311) — @kmendell\n- Allow deleting backups when their S3 repository no longer exists (#4319) — @kmendell\n- Report accurate reclaimed space in scheduled pruning (#4317) — @kmendell\n- Store Francis actor state in its own SQLite database (commit `93a740597df7a6aa47d5925d9d8dc5499934af05`) — @kmendell\n- Use persistent Git storage for SSH host keys on native installs (#4300) — @kmendell\n\n### Interface and platform\n- Remove table header blur (commit `4d9bca092d6006b7265a6ce07928860b47ab84a5`) — @kmendell\n- Release `arcane-cli` only for Apple Silicon (arm64), dropping amd64 support (commit `b3acb52dd02f39e39489203ce04ab316b47de8f6`) — @kmendell\n\n### Internal changes\n- Move the Docker utils package to `go.getarcane.app/docker` (#4296) — @kmendell\n- Inline logic in project services (commit `73b43dba1e83f9a630b81e21381b533e50cdc57d`) — @kmendell\n\n"
-            },
-            {
-              "name": "v2.15.0",
-              "tag": "v2.15.0",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.15.0",
-              "published_at": "2026-10-04T20:37:07Z",
-              "prerelease": false,
-              "author": "arcane-github-automation[bot]",
-              "body": "\u003e [!NOTE]\n\u003e This release adds registry browsing, mobile table sorting, and project deployment feedback. It also fixes issues with project and GitOps workflows, remote agents, job processing, and application reliability.\n\n### Features and interface\n\n- Browse repositories and tags in configured registries. (#4162) @Laval13\n- Add mobile sorting to the shared table menu. (#4225) @kmendell\n- Add unsaved-changes warnings when deploying or redeploying projects. (`32f1e335`) @kmendell\n- Add actor statuses to the diagnostics page. (`01a8964d`) @kmendell\n- Make several UI/UX improvements, support backup login, and show both digest values. (#4271) @kmendell\n- Update the dashboard header design. (#4269) @kmendell\n- Refresh the login screen layout. (`32262306`) @kmendell\n- Clean up crowded action buttons. (#4233) @kmendell\n\n### Fixes and reliability\n\n- Handle `.env` directories in project scans, environment saves, and workspaces. (#4213) @Mczubi\n- Honor `*_FILE` settings on the environment-managed settings path. (#4203) @mortencombat\n- Reduce manager polling and config-sync egress to remote agents. (#4218) @kmendell\n- Align editor themes with the selected application theme and prevent overlapping columns in virtualized tables. (#4219, #4220) @kmendell\n- Avoid duplicate deployment events on project redeploy. (`1b31dd9c`) @kmendell\n- Prevent GitOps directory sync from copying unrelated project data and stop loaded associations from overwriting repository updates. (#4222, #4243) @kmendell\n- Allow project redeploys with restricted bind sources. (#4260) @kmendell\n- Prevent volume detail-page errors when navigating away. (#4229) @kmendell\n- Include ECR Public in the Docker image list. (`0d3cd419`) @kmendell\n- Omit SQL parameters from query logs to prevent oversized logs. (#4221) @kmendell\n- Automatically clean up upgrade logs according to configurable retention. (#4230) @kmendell\n- Show upgrade status for Arcane self-upgrades. (#4278) @kmendell\n- Reject events from cancelled stream connections, and harden stream cleanup against stale cache fills. (#4241, #4267) @kmendell\n- Remove manual job review, fix Francis scheduling, and recover oversized legacy job histories on startup. (#4268, #4270) @kmendell\n\n### Performance and internal improvements\n\n- Reduce database queries and simplify frequently used queries. (#4239) @kmendell\n- Switch log streaming from JSON lines to SSE. (#4276) @kmendell\n- Simplify the JSON serializer. (`b47a8b90`) @kmendell\n- Adopt `go.getarcane.app` for common utilities. (#4223) @kmendell\n- Use Francis for distributed actors. (#4261) @kmendell\n- Standardize on Go standard-library errors. (#4263) @kmendell\n- Standardize domain package layouts. (`7d41c588`) @kmendell\n- Remove Viper config loading from the CLI in favor of raw YAML marshalling. (`e4c1c0a3`) @kmendell\n- Regroup CLI commands and add loading states. (`0f6591f7`) @kmendell\n\n"
             }
           ],
           "last_commit": {
