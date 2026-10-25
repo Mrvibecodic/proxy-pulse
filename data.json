@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:41:09.061925Z",
+  "generated_at": "2026-10-25T12:46:25.787853Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T12:38:48Z",
+            "pushed_at": "2026-10-25T12:44:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b781114",
+                  "message": "nginx: 302 the \"/\" path to \"/cgi-bin/luci/\"",
+                  "author": "Tianshuai Gao",
+                  "date": "2026-10-25T12:44:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/b7811144559b5c4ec01fb1eb468b9ca76da37294"
+                },
+                {
                   "sha": "fa48a6a",
                   "message": "nginx-util: specify gzip_types to actually enable gzip",
                   "author": "Nikita Solianik",
@@ -2046,13 +2053,6 @@
                   "author": "Gary Dotzler",
                   "date": "2026-10-24T07:40:38Z",
                   "url": "https://github.com/openwrt/packages/commit/c6ab5dea2ed635b5aeda8885d46518482e7a29e8"
-                },
-                {
-                  "sha": "9bc5cda",
-                  "message": "netavark/aardvark-dns: bump to 2.1.0",
-                  "author": "Gary Dotzler",
-                  "date": "2026-10-24T07:40:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/9bc5cdafb353a936144ab284096cef0511247dce"
                 }
               ]
             },
