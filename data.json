@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T12:25:18.233505Z",
+  "generated_at": "2026-10-25T12:30:34.799964Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1418,
+            "stars": 1419,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-10-23T01:59:02Z",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-25T12:07:08Z",
+            "pushed_at": "2026-10-25T12:27:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ddcc9db",
+                  "message": "libmanette: add missing dependency for libevdev",
+                  "author": "Christian Marangi",
+                  "date": "2026-10-25T12:27:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/ddcc9dbb4d0f740b902d712697d598f992ee3778"
+                },
+                {
                   "sha": "85ba4cf",
                   "message": "prometheus-node-exporter-ucode: fix sporadic wifi error",
                   "author": "Samuele Longhi",
@@ -2046,13 +2053,6 @@
                   "author": "Antonio Pastor",
                   "date": "2026-10-24T07:35:48Z",
                   "url": "https://github.com/openwrt/packages/commit/514c6b772023b62e7cc013a591b685e0b075e33f"
-                },
-                {
-                  "sha": "88a56a3",
-                  "message": "flashrom: backport support for new flashchips",
-                  "author": "Joshua Covington",
-                  "date": "2026-10-24T07:33:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/88a56a3981d8b925de176aa19ecc9506134b0956"
                 }
               ]
             },
