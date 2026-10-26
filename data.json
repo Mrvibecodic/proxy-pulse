@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:57:22.088577Z",
+  "generated_at": "2026-10-26T14:02:43.715380Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 28942,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:52:16Z",
+            "pushed_at": "2026-10-26T13:59:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26552,
+            "stars": 26553,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-25T15:27:54Z",
@@ -5175,7 +5175,7 @@
             "stars": 77512,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:55:26Z",
+            "pushed_at": "2026-10-26T13:59:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5311,7 +5311,7 @@
             "stars": 81135,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-26T13:45:05Z",
+            "pushed_at": "2026-10-26T14:01:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5447,7 +5447,7 @@
             "stars": 29058,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:46:49Z",
+            "pushed_at": "2026-10-26T13:59:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f30c8b4",
-            "branch": "deps-update/main-k8s.io-kube-openapi-digest",
-            "date": "2026-10-26T12:11:13Z",
-            "url": "https://github.com/grafana/loki/commit/f30c8b4dac8997f0e8f801e44a016b4472abc796"
+            "sha": "5d6b2df",
+            "branch": "deps-update/main-github.com-grafana-loki-v3-3.x",
+            "date": "2026-10-26T12:12:41Z",
+            "url": "https://github.com/grafana/loki/commit/5d6b2df3b6e322f8456990b5218479a25ac4ee8c"
           }
         }
       ]
@@ -5604,7 +5604,7 @@
               "published_at": "2026-10-26T13:54:11Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "## [5.1.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.0.0...v5.1.0) (2026-10-26)\n\n\n### New Features\n\n* **payments:** add Anore hosted checkout and update CisPay merchant integration ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n\n\n### Bug Fixes\n\n* **checkout:** завершение суточной покупки в Telegram удаляет только исходную версию сохранённой корзины вместе с её копиями и разрешением автопокупки. Новая корзина, выбор в диалоге и несвязанные покупки сохраняются, даже если пользователь успел изменить их во время синхронизации панели.\n* **devices:** при синхронизации конечного HWID-лимита удаляются лишние регистрации, сохраняются наиболее недавно активные устройства. Безлимит и регистрации в пределах лимита сохраняются. Ошибка очистки после оплаты отправляет синхронизацию на повтор без нового списания. Ограничение: отложенные операции Remnawave 3.4.3 могут восстановить удалённые HWID после проверки; строгий предел при конкурентных запросах пока не гарантирован. Подробности — [HWID-лимиты](docs/hwid-limit-reconciliation.md).\n* **wheel:** автоматические вероятности призов теперь рассчитываются из бюджета RTP с учётом стоимости спина и ручных выплат. Удалён минимальный вес, завышавший шанс дорогих призов; недостижимый RTP отмечается в логах. Это исправление меняет фактические выплаты существующих колёс: перед обновлением проверьте стоимость призов и ручные вероятности. RTP — математическое ожидание, а не гарантия выплаты на короткой серии спинов.\n* **wheel:** списание за спин сохраняется до повторной загрузки пользователя при выдаче приза. Синхронизация панели выполняется после сохранения спина в отдельной сессии, чтобы её commit/rollback не нарушал оплату, начисление приза и ответ пользователю.\n\n* **billing:** make checkout charges atomic and prevent duplicate cart and payment processing ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **cabinet:** restore authorization, support attachments and configurable payment behavior ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **deps:** update vulnerable Python dependencies ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **panel:** recover pending expiry, device and traffic operations without losing subscription identity ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **subscriptions:** preserve selected subscription, exact-day prices and paid limits across purchases and renewals ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n\n\n### Refactoring\n\n* **payments:** remove retired PayPear integration ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))"
+              "body": "Выпуск исправлений подписок, оплаты и личного кабинета.\n\n### Подписки и расчёты\n- Исправлена работа с выбранной подпиской при смене тарифа, продлении и докупках в режиме нескольких подписок.\n- Расчёт дополнительных устройств учитывает произвольный срок тарифа; сохранены правила безлимита и настройки докупки трафика.\n- Повторные подтверждения, сохранённые корзины и конкурентные запросы защищены от повторного списания и применения к другой подписке.\n- Улучшено восстановление срока, устройств и трафика после временных ошибок панели.\n\n### Платежи\n- Добавлен Anore: СБП, карты, ЮMoney и криптовалюта через платёжную страницу провайдера.\n- CisPay обновлён под текущий API, включая проверку исходной рублёвой суммы криптоплатежей и изоляцию sandbox.\n- Уведомления MulenPay подтверждаются через авторизованный API провайдера, включая подписанные запросы.\n- Исправлены гостевые покупки, подарки, отображение способов оплаты и восстановление оплаченных операций.\n- Удалён PayPear.\n\n### Кабинет, поддержка и безопасность\n- Исправлены авторизация, локализация, медиаконтент и передача видео/галерей в обращениях поддержки.\n- Устранены обход каталога локализаций, медленная обработка специально составленного HTML и раскрытие внутренних ошибок платёжного обработчика.\n- Обновлены зависимости безопасности.\n- Исправлен расчёт RTP колеса: перед обновлением проверьте стоимость призов и ручные вероятности, поскольку фактическое распределение выплат изменилось.\n\n### Обновление\nИспользуйте совместно с кабинетом [v1.81.0](https://github.com/BEDOLAGA-DEV/bedolaga-cabinet/releases/tag/v1.81.0). Выпуск включает миграции БД 0132–0136. Перед обновлением сохраните резервную копию БД. Anore и криптооплата CisPay по умолчанию выключены; настройки описаны в docs/anore.md и docs/cispay.md.\n\nРеальные внешние оплаты новых шлюзов в рамках выпуска не проводились. Локальные проверки используют HTTP-стенды и отдельную PostgreSQL; результаты CI доступны в репозитории.\n\n### Docker\n\n```bash\ndocker pull fr1ngg/remnawave-bedolaga-telegram-bot:v5.1.0\ndocker pull ghcr.io/bedolaga-dev/remnawave-bedolaga-telegram-bot:v5.1.0\n```\n\nОбразы для Linux amd64 и arm64. [Полный список изменений](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.0.0...v5.1.0).\n"
             },
             {
               "name": "v5.0.0",
