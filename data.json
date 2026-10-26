@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:52:02.262931Z",
+  "generated_at": "2026-10-26T13:57:22.088577Z",
   "groups": [
     {
       "id": "cores",
@@ -13,10 +13,10 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42338,
+            "stars": 42337,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T00:22:23Z",
+            "pushed_at": "2026-10-26T13:53:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39259,
+            "stars": 39260,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -1122,7 +1122,7 @@
             "stars": 28942,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:45:05Z",
+            "pushed_at": "2026-10-26T13:52:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-26T12:18:30Z",
+            "pushed_at": "2026-10-26T13:56:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "26142e7",
+                  "message": "owut: update to 2026.10.25",
+                  "author": "Eric Fahlgren",
+                  "date": "2026-10-26T13:56:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/26142e7008f50f590898bddf27d976ca653d999c"
+                },
+                {
                   "sha": "8be4b4a",
                   "message": "prometheus-node-exporter-ucode: fix syntax error since ucode bump",
                   "author": "Andre Heider",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T08:55:19Z",
                   "url": "https://github.com/openwrt/packages/commit/e3a19ed6cd726fccbfd513dd85d32cc8e90b5bbc"
-                },
-                {
-                  "sha": "e39bf72",
-                  "message": "openthread-br: use the in-process nftables firewall backend",
-                  "author": "Christian Glombek",
-                  "date": "2026-10-24T08:54:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/e39bf72aef10013a56e06ec86a8c303a66c07cd9"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 92940,
+            "stars": 92941,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-26T09:49:32Z",
@@ -5175,7 +5175,7 @@
             "stars": 77512,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:51:17Z",
+            "pushed_at": "2026-10-26T13:55:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c1840b7",
-            "branch": "authz/refresh-permissions-after-commit",
-            "date": "2026-10-26T12:07:10Z",
-            "url": "https://github.com/grafana/grafana/commit/c1840b7b8a7ea2d05a584fb87db2a3319e6b2cd7"
+            "sha": "d8f6918",
+            "branch": "alexk/git-sync-db-refresh",
+            "date": "2026-10-26T11:54:54Z",
+            "url": "https://github.com/grafana/grafana/commit/d8f691812cc42ce692d314c45891692bbb5b0c54"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "30aa37a",
-            "branch": "fix/backfill-chunk-ingestedat-dedup",
-            "date": "2026-10-26T11:31:32Z",
-            "url": "https://github.com/grafana/loki/commit/30aa37ad0e3a253700c729a81cf396d23ec8642a"
+            "sha": "f30c8b4",
+            "branch": "deps-update/main-k8s.io-kube-openapi-digest",
+            "date": "2026-10-26T12:11:13Z",
+            "url": "https://github.com/grafana/loki/commit/f30c8b4dac8997f0e8f801e44a016b4472abc796"
           }
         }
       ]
@@ -5591,12 +5591,21 @@
             "stars": 1181,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:50:28Z",
+            "pushed_at": "2026-10-26T13:57:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
             "owner": "BEDOLAGA-DEV"
           },
           "releases": [
+            {
+              "name": "v5.1.0",
+              "tag": "v5.1.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v5.1.0",
+              "published_at": "2026-10-26T13:54:11Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [5.1.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.0.0...v5.1.0) (2026-10-26)\n\n\n### New Features\n\n* **payments:** add Anore hosted checkout and update CisPay merchant integration ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n\n\n### Bug Fixes\n\n* **checkout:** завершение суточной покупки в Telegram удаляет только исходную версию сохранённой корзины вместе с её копиями и разрешением автопокупки. Новая корзина, выбор в диалоге и несвязанные покупки сохраняются, даже если пользователь успел изменить их во время синхронизации панели.\n* **devices:** при синхронизации конечного HWID-лимита удаляются лишние регистрации, сохраняются наиболее недавно активные устройства. Безлимит и регистрации в пределах лимита сохраняются. Ошибка очистки после оплаты отправляет синхронизацию на повтор без нового списания. Ограничение: отложенные операции Remnawave 3.4.3 могут восстановить удалённые HWID после проверки; строгий предел при конкурентных запросах пока не гарантирован. Подробности — [HWID-лимиты](docs/hwid-limit-reconciliation.md).\n* **wheel:** автоматические вероятности призов теперь рассчитываются из бюджета RTP с учётом стоимости спина и ручных выплат. Удалён минимальный вес, завышавший шанс дорогих призов; недостижимый RTP отмечается в логах. Это исправление меняет фактические выплаты существующих колёс: перед обновлением проверьте стоимость призов и ручные вероятности. RTP — математическое ожидание, а не гарантия выплаты на короткой серии спинов.\n* **wheel:** списание за спин сохраняется до повторной загрузки пользователя при выдаче приза. Синхронизация панели выполняется после сохранения спина в отдельной сессии, чтобы её commit/rollback не нарушал оплату, начисление приза и ответ пользователю.\n\n* **billing:** make checkout charges atomic and prevent duplicate cart and payment processing ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **cabinet:** restore authorization, support attachments and configurable payment behavior ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **deps:** update vulnerable Python dependencies ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **panel:** recover pending expiry, device and traffic operations without losing subscription identity ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n* **subscriptions:** preserve selected subscription, exact-day prices and paid limits across purchases and renewals ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))\n\n\n### Refactoring\n\n* **payments:** remove retired PayPear integration ([3857abb](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3857abbab08a0162d512252ec95797d758b2c0d1))"
+            },
             {
               "name": "v5.0.0",
               "tag": "v5.0.0",
@@ -5632,15 +5641,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## [4.14.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.13.0...v4.14.0) (2026-09-18)\n\n### New Features\n\n* **subscription:** у старой подписки без тарифа нет продления — только переход на тариф ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n\n### Bug Fixes\n\n* **admin:** сегменты «Пользователей» считают по подписке, а не по сырому статусу ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n* **panel:** при переходе на тариф и возврате в одиночный режим аккаунт панели не создаётся заново ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n* **subscription:** старой подписке не продаются докупки — только переход на тариф ([dfa8b4b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/dfa8b4bf3693e7621af5d3ea7c70b5918ee64585))\n"
-            },
-            {
-              "name": "v4.13.0",
-              "tag": "v4.13.0",
-              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.13.0",
-              "published_at": "2026-09-17T16:01:48Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## [4.13.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.12.1...v4.13.0) (2026-09-17)\n\n\n### New Features\n\n* манифест и иконки приложения по адресу бота — кабинет ставится на Android как настоящее приложение ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сегмент «В грейсе» в списке пользователей ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сортировка пользователей в админке в обе стороны ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* сортировка пользователей по концу временного доступа ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n\n\n### Bug Fixes\n\n* срок подписки считается по календарю, время — в поясе оператора ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* триальный тег снимается в панели после покупки подписки ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* у подписок, перенесённых из панели, 0 устройств в кабинете и боте ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))\n* уведомления ЮKassa за прокси обрабатываются по единым правилам ([973eb6d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/973eb6d1f24017ffeddea664a7793f90f436ed9c))"
             }
           ],
           "last_commit": {
