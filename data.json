@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:51:47.534495Z",
+  "generated_at": "2026-10-26T22:57:08.738287Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4651,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-26T14:26:01Z",
+            "pushed_at": "2026-10-26T22:54:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,27 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "5dfea3b",
+                  "message": "htop: update to 3.5.3",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-26T22:54:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/5dfea3b4394b334546e0d0b446d8a65e6620882e"
+                },
+                {
+                  "sha": "e24c9fa",
+                  "message": "htop: update to 3.5.1",
+                  "author": "John Audia",
+                  "date": "2026-10-26T22:54:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/e24c9faea552965eed929cd9824d0fb3525d251d"
+                },
+                {
+                  "sha": "0cb3810",
+                  "message": "htop: update to 3.5.0",
+                  "author": "John Audia",
+                  "date": "2026-10-26T22:54:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/0cb3810727a0f275d4270fd541f2194bc4875604"
+                },
+                {
                   "sha": "d908e75",
                   "message": "nano: update to 9.3",
                   "author": "Hannu Nyman",
@@ -3322,33 +3343,19 @@
                   "author": "Rui Salvaterra",
                   "date": "2026-10-08T05:10:04Z",
                   "url": "https://github.com/openwrt/packages/commit/9b73bedc78199ee5748fd0d32cb82a7796c65d1f"
-                },
-                {
-                  "sha": "19d206a",
-                  "message": "ntpd: update to 4.2.8p18",
-                  "author": "Rosen Penev",
-                  "date": "2026-10-08T04:46:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/19d206a7961fcc296750783952b7ef23efbebb37"
-                },
-                {
-                  "sha": "87a8fb7",
-                  "message": "libgcrypt: use pkgconfig metadata in InstallDev",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-08T04:42:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/87a8fb7e9f5701cce939ba5d2c2e584f17c5e3c9"
-                },
-                {
-                  "sha": "14dd33e",
-                  "message": "ripe-atlas: fit get_key to the installed variant",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-06T18:20:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/14dd33e8f27ff625562b4117456186217f122764"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "15431dc",
+                  "message": "htop: update to 3.5.3",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-26T22:53:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/15431dc76799d474a2efa594275708679257c00b"
+                },
                 {
                   "sha": "772e091",
                   "message": "multimedia/go2rtc: assign PKG_CPE_ID",
@@ -3551,13 +3558,6 @@
                   "author": "Eneas U de Queiroz",
                   "date": "2026-10-22T19:41:47Z",
                   "url": "https://github.com/openwrt/packages/commit/bc6af6a7fce3046ca67c403a5219da2a79590073"
-                },
-                {
-                  "sha": "efa9d41",
-                  "message": "php8: update to 8.4.27",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-22T07:05:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/efa9d41d7db62ea2bbdc3b8ef505abd30b284f25"
                 }
               ]
             },
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Forkop (formerly Podkop Plus)",
-            "stars": 812,
+            "stars": 813,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-07-25T07:25:35Z",
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5409,
+            "stars": 5410,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-10-25T00:36:25Z",
@@ -5175,7 +5175,7 @@
             "stars": 77526,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T22:44:26Z",
+            "pushed_at": "2026-10-26T22:55:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6aed0f5",
-            "branch": "ale/provisioning-webhook-gap-tests",
-            "date": "2026-10-26T14:37:15Z",
-            "url": "https://github.com/grafana/grafana/commit/6aed0f590e8a499913e7fa05e77dc640fd25b6d8"
+            "sha": "3d23648",
+            "branch": "main",
+            "date": "2026-10-26T14:23:29Z",
+            "url": "https://github.com/grafana/grafana/commit/3d236489bef68156857c2306576e148e877d6681"
           }
         },
         {
