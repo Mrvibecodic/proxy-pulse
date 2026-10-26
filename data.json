@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T14:08:06.431346Z",
+  "generated_at": "2026-10-26T14:13:27.793929Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42337,
+            "stars": 42339,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-26T13:53:40Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39260,
+            "stars": 39261,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -1190,7 +1190,7 @@
             "stars": 4649,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-26T13:56:33Z",
+            "pushed_at": "2026-10-26T14:08:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "770e4a0",
+                  "message": "go2rtc: update to 1.9.15",
+                  "author": "Vladimir Ermakov",
+                  "date": "2026-10-26T14:08:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/770e4a0301578ea87a6ef069b1855e82d0af339f"
+                },
+                {
                   "sha": "26142e7",
                   "message": "owut: update to 2026.10.25",
                   "author": "Eric Fahlgren",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T09:00:23Z",
                   "url": "https://github.com/openwrt/packages/commit/7e84879f682094ab23838cc06d6fed3ffedf1dca"
-                },
-                {
-                  "sha": "e3a19ed",
-                  "message": "mtd-rw: drop reference to removed octeontx target",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T08:55:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/e3a19ed6cd726fccbfd513dd85d32cc8e90b5bbc"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77513,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T13:59:34Z",
+            "pushed_at": "2026-10-26T14:10:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d8f6918",
-            "branch": "alexk/git-sync-db-refresh",
-            "date": "2026-10-26T11:54:54Z",
-            "url": "https://github.com/grafana/grafana/commit/d8f691812cc42ce692d314c45891692bbb5b0c54"
+            "sha": "311994a",
+            "branch": "jh/pnpm-prep-scripts",
+            "date": "2026-10-26T12:21:19Z",
+            "url": "https://github.com/grafana/grafana/commit/311994a64f6cfafd9fb05ca4e7fef7789b8f65e8"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66776,
+            "stars": 66775,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-26T08:50:33Z",
@@ -5447,7 +5447,7 @@
             "stars": 29058,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-26T14:08:12Z",
+            "pushed_at": "2026-10-26T14:09:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5732,7 +5732,7 @@
           "track": "releases",
           "meta": {
             "description": "Self-hosted панель учёта расходов на инфраструктуру: автосинк серверов, балансов и платежей через API хостеров. Мультивалютность, прогнозы, Telegram-уведомления.",
-            "stars": 87,
+            "stars": 88,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
             "pushed_at": "2026-10-23T13:29:14Z",
