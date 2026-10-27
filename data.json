@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:20:33.983791Z",
+  "generated_at": "2026-10-27T22:25:53.378108Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 28959,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T17:03:44Z",
+            "pushed_at": "2026-10-27T22:22:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4636,12 +4636,21 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T21:26:52Z",
+            "pushed_at": "2026-10-27T22:21:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.10.21",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-10-27T22:21:15Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.21\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha 1576e79",
               "tag": "alpha",
@@ -4650,15 +4659,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@1576e795632d101b3f0988064b3cf9fd7e136d2b\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.10.21",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-10-21T13:23:43Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.21\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77555,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T22:12:30Z",
+            "pushed_at": "2026-10-27T22:21:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9596a84",
+            "sha": "7a6ddfb",
             "branch": "main",
-            "date": "2026-10-27T11:35:14Z",
-            "url": "https://github.com/grafana/grafana/commit/9596a8490c3d39f67d30e83fec04179a61335ad7"
+            "date": "2026-10-26T17:40:04Z",
+            "url": "https://github.com/grafana/grafana/commit/7a6ddfb90a59d4cbd545f9054fc8ec50fb6da2fd"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66817,
+            "stars": 66819,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-27T21:32:10Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ba0a27a",
-            "branch": "release-3.7.x",
-            "date": "2026-10-27T10:56:07Z",
-            "url": "https://github.com/grafana/loki/commit/ba0a27a45a19dfa1997b648bba6107a3e294a5a4"
+            "sha": "882e7c8",
+            "branch": "deps-update/release-3.7.x-github.comgooglecloudplatformopentelemetry-operations-goexportermetric",
+            "date": "2026-10-27T12:26:43Z",
+            "url": "https://github.com/grafana/loki/commit/882e7c8e8967322289cf799d017087c94612a354"
           }
         }
       ]
