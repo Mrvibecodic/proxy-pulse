@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T11:03:41.998927Z",
+  "generated_at": "2026-10-27T11:09:03.811050Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,12 +5175,21 @@
             "stars": 77544,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T11:02:54Z",
+            "pushed_at": "2026-10-27T11:08:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.3.0",
+              "tag": "v13.3.0",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.3.0",
+              "published_at": "2026-10-27T11:08:50Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.3.0)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-81841\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967\n- Security: Fix CVE-2026-93294\n- Security: Fix CVE-2026-95502\n\n### Features and enhancements\n\n- **Access control:** reject global role creation in single-org mode (Enterprise)\n- **Alerting:** Add AccessControlAction entries for inhibition rules [#130977](https://github.com/grafana/grafana/pull/130977), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add notifications API boundary module [#134537](https://github.com/grafana/grafana/pull/134537), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Add the Config API data layer for external Alertmanager auto-sync [#129478](https://github.com/grafana/grafana/pull/129478), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Allow drag and drop for yaml file as import source for import wizard [#132705](https://github.com/grafana/grafana/pull/132705), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Cleanup promote staged config code [#130974](https://github.com/grafana/grafana/pull/130974), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Disable datasource picker while an import is staged [#133181](https://github.com/grafana/grafana/pull/133181), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Make stage default import method in GMA import wizard [#130634](https://github.com/grafana/grafana/pull/130634), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Make the Import wizard review step preview look clickable [#132711](https://github.com/grafana/grafana/pull/132711), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Migrate the Import-to-GMA wizard's auto-sync integration [#131523](https://github.com/grafana/grafana/pull/131523), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Migrate the auto-sync settings hook and panel onto the Config API [#131521](https://github.com/grafana/grafana/pull/131521), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Promote AlertRule, RecordingRule and RuleSequence to v1beta1 [#134883](https://github.com/grafana/grafana/pull/134883), [@moustafab](https://github.com/moustafab)\n- **Alerting:** Promote a staged import configuration [#130327](https://github.com/grafana/grafana/pull/130327), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Read staged config origin from the managed_by field [#130787](https://github.com/grafana/grafana/pull/130787), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Redact secrets from the Import-to-GMA preview modal [#132827](https://github.com/grafana/grafana/pull/132827), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Refactor useIsAutoSyncActive onto the shared Config-API helpers [#131520](https://github.com/grafana/grafana/pull/131520), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Remove import method from import to GMA wizard [#130609](https://github.com/grafana/grafana/pull/130609), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Retire the legacy admin_config auto-sync path [#131524](https://github.com/grafana/grafana/pull/131524), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Show Auto-sync support in the import wizard picker [#131084](https://github.com/grafana/grafana/pull/131084), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Support Mimir alertmanager_config files in Import to GMA wizard [#135637](https://github.com/grafana/grafana/pull/135637), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** Surface external Alertmanager sync health in the settings UI [#131527](https://github.com/grafana/grafana/pull/131527), [@rodrigopk](https://github.com/rodrigopk)\n- **Alerting:** stop auto-sync from force-skipping the Rules step in the GMA import wizard [#131072](https://github.com/grafana/grafana/pull/131072), [@rodrigopk](https://github.com/rodrigopk)\n- **Auth:** Bound OAuth token refresh lock waits by time instead of attempts [#133929](https://github.com/grafana/grafana/pull/133929), [@cinaglia](https://github.com/cinaglia)\n- **Canvas:** Load the standalone plugin by default [#134873](https://github.com/grafana/grafana/pull/134873), [@gtk-grafana](https://github.com/gtk-grafana)\n- **Chore:** Upgrade to k8s v0.37.0 (and grafana-app-sdk v0.60.0) [#132571](https://github.com/grafana/grafana/pull/132571), [@stevesg](https://github.com/stevesg)\n- **Dashboard:** Adds new a subtitle option for panel descriptions [#129164](https://github.com/grafana/grafana/pull/129164), [@torkelo](https://github.com/torkelo)\n- **Dashboard:** Fall back when collection deletion is unsupported [#128259](https://github.com/grafana/grafana/pull/128259), [@bestend](https://github.com/bestend)\n- **Dashboards:** Add $\\_\\_namespace global variable [#132167](https://github.com/grafana/grafana/pull/132167), [@ivanortegaalba](https://github.com/ivanortegaalba)\n- **Dashboards:** Allow `Add variable +` btn to add filters, links and annos as well [#130841](https://github.com/grafana/grafana/pull/130841), [@mdvictor](https://github.com/mdvictor)\n- **Dashboards:** Hide links to deleted folders in Recently Deleted [#134469](https://github.com/grafana/grafana/pull/134469), [@Clarity-89](https://github.com/Clarity-89)\n- **Dashboards:** Improve Recently Deleted performance with server-side search [#134126](https://github.com/grafana/grafana/pull/134126), [@pstibrany](https://github.com/pstibrany)\n- **Dashboards:** Make the auto grid to be default [#130749](https://github.com/grafana/grafana/pull/130749), [@bfmatei](https://github.com/bfmatei)\n- **Dashboards:** Show Git Sync badges in folder search [#132790](https://github.com/grafana/grafana/pull/132790), [@Clarity-89](https://github.com/Clarity-89)\n- **Faro:** add support for `trackResources` [#130792](https://github.com/grafana/grafana/pull/130792), [@ashharrison90](https://github.com/ashharrison90)\n- **FieldOverrides:** Add ShowIfOverride to field config options [#132419](https://github.com/grafana/grafana/pull/132419), [@gtk-grafana](https://github.com/gtk-grafana)\n- **Frontend:** add subresource integrity [#131596](https://github.com/grafana/grafana/pull/131596), [@jackw](https://github.com/jackw)\n- **Git Sync:** Clarify repository links for pure Git [#134238](https://github.com/grafana/grafana/pull/134238), [@ferruvich](https://github.com/ferruvich)\n- **Git Sync:** Ignore hidden paths in repository scans and diffs [#134731](https://github.com/grafana/grafana/pull/134731), [@ferruvich](https://github.com/ferruvich)\n- **GrafanaBootData:** Restrict config.datasources usage via lint rule [#130661](https://github.com/grafana/grafana/pull/130661), [@mckn](https://github.com/mckn)\n- **Heatmap:** Keep exemplar marker size consistent across displays [#134072](https://github.com/grafana/grafana/pull/134072), [@fastfrwrd](https://github.com/fastfrwrd)\n- **Home:** Send the traces setup CTA to the OpenTelemetry onboarding guide [#135135](https://github.com/grafana/grafana/pull/135135), [@Clarity-89](https://github.com/Clarity-89)\n- **Homepage:** Add an On call schedules tab with your shifts and who's on call [#134747](https://github.com/grafana/grafana/pull/134747), [@Clarity-89](https://github.com/Clarity-89)\n- **Homepage:** Let the Synthetic Monitoring card ignore checks, targets, and probes [#134217](https://github.com/grafana/grafana/pull/134217), [@Clarity-89](https://github.com/Clarity-89)\n- **Homepage:** Let the metrics card exclude hosts and filesystems from its disk alert [#133472](https://github.com/grafana/grafana/pull/133472), [@Clarity-89](https://github.com/Clarity-89)\n- **Homepage:** Move card filters to a footer dropdown and show page kinds as icons"
+            },
             {
               "name": "13.2.4",
               "tag": "v13.2.4",
@@ -5216,22 +5225,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/12.4.13)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-15577\n- Security: Fix CVE-2026-33374\n- Security: Fix CVE-2026-93294\n\n### Features and enhancements\n\n- **Alerting:** Strip sensitive headers from oauth2 cross-host redirects [#134424](https://github.com/grafana/grafana/pull/134424), [@JacobsonMT](https://github.com/JacobsonMT)\n- **Dashboard:** Fall back when collection deletion is unsupported (#128259) [#134229](https://github.com/grafana/grafana/pull/134229), [@bestend](https://github.com/bestend)\n\n### Bug fixes\n\n- **CVE-2026-92539:** IAM: Fix CVE-2026-92539: Scim endpoints (Enterprise)"
-            },
-            {
-              "name": "13.2.3",
-              "tag": "v13.2.3",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.3",
-              "published_at": "2026-09-29T09:02:18Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.2.3)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-13719\n- Security: Fix CVE-2026-13720\n- Security: Fix CVE-2026-81841"
             }
           ],
           "last_commit": {
-            "sha": "4f641f0",
-            "branch": "iam2436/global-evaluation-in-legacycheck",
-            "date": "2026-10-26T11:22:56Z",
-            "url": "https://github.com/grafana/grafana/commit/4f641f0ce642e505708a1c18aa69a92511398c65"
+            "sha": "72c31f1",
+            "branch": "main",
+            "date": "2026-10-26T12:00:05Z",
+            "url": "https://github.com/grafana/grafana/commit/72c31f1a155c896d1d8d4933e6d06bb11866b630"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29063,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T10:56:08Z",
+            "pushed_at": "2026-10-27T11:04:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
