@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:51:41.981486Z",
+  "generated_at": "2026-10-27T15:57:03.312147Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7610,
+            "stars": 7611,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-24T14:28:03Z",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e2056c9",
-            "branch": "openwrt-25.12",
-            "date": "2026-10-26T13:45:06Z",
-            "url": "https://github.com/openwrt/openwrt/commit/e2056c9751476a4727b52d375c43e4f534cb8474"
+            "sha": "3c3a415",
+            "branch": "main",
+            "date": "2026-10-26T14:14:12Z",
+            "url": "https://github.com/openwrt/openwrt/commit/3c3a4150694ca9ea4b8a44c12273bd4780bbf7d0"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4658,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-27T12:34:52Z",
+            "pushed_at": "2026-10-27T15:52:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f9983a8",
+                  "message": "netbird: update to 0.81.4",
+                  "author": "Sami Salonen",
+                  "date": "2026-10-27T15:52:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/f9983a8169942a55e5768a1c503653e40613835c"
+                },
+                {
                   "sha": "3a4f118",
                   "message": "shairport-sync: support new libavcodec version",
                   "author": "Christian Marangi",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T13:51:41Z",
                   "url": "https://github.com/openwrt/packages/commit/0d0b77c2abf0514130b13a10527065c055341889"
-                },
-                {
-                  "sha": "dcb9ad5",
-                  "message": "python-netdisco: remove package",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T10:20:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcb9ad544060a7c9c3d54b936964a20c124be9e5"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77549,
+            "stars": 77550,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T15:50:21Z",
+            "pushed_at": "2026-10-27T15:56:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "98c8e6f",
-            "branch": "docs/whats-new-v-13.3",
-            "date": "2026-10-26T14:10:25Z",
-            "url": "https://github.com/grafana/grafana/commit/98c8e6f85e914c44ea1619cfaadedbcc75911bb2"
+            "sha": "f48436c",
+            "branch": "MissingRoberto/grafana-app-sdk-provisioning",
+            "date": "2026-10-27T08:01:06Z",
+            "url": "https://github.com/grafana/grafana/commit/f48436ceb5cc6d3de96b421dfaee1e9bb74090d5"
           }
         },
         {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29064,
+            "stars": 29065,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-27T15:50:48Z",
