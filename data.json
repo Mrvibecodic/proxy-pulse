@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T12:18:11.766054Z",
+  "generated_at": "2026-10-27T12:23:30.772373Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39301,
+            "stars": 39302,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-24T02:09:03Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 28958,
+            "stars": 28959,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-10-27T09:50:17Z",
@@ -1190,7 +1190,7 @@
             "stars": 4656,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-26T22:54:40Z",
+            "pushed_at": "2026-10-27T12:20:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "97e08c4",
+                  "message": "netatalk: remove buildbot added dependency on libunwind",
+                  "author": "Antonio Pastor",
+                  "date": "2026-10-27T12:20:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/97e08c46692f0714e9de672d272e6efb6d1ff013"
+                },
+                {
                   "sha": "f9faf3f",
                   "message": "htop: update to 3.5.3",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-24T09:03:56Z",
                   "url": "https://github.com/openwrt/packages/commit/05d12617f1bcd35fa09803c708a564e32e9dd665"
-                },
-                {
-                  "sha": "b0358ea",
-                  "message": "alpine: drop alpine-nossl package",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-24T09:02:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/b0358ea46aad4633cdc765f390847d9aa063b80b"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8471c28",
-            "branch": "backport-135967-to-release-13.2.5",
-            "date": "2026-10-26T12:42:24Z",
-            "url": "https://github.com/grafana/grafana/commit/8471c2831591f002f18316bf17d2018a59873af5"
+            "sha": "f0f6d55",
+            "branch": "alerting/add-matchers-to-silence-on-click",
+            "date": "2026-10-26T11:47:14Z",
+            "url": "https://github.com/grafana/grafana/commit/f0f6d555b37fac59983730dbef4f1361ac91497f"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29063,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T12:18:19Z",
+            "pushed_at": "2026-10-27T12:23:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0f4c1a1",
-            "branch": "deps-update/main-anthropics-claude-code-action-1.x",
-            "date": "2026-10-27T03:08:16Z",
-            "url": "https://github.com/grafana/loki/commit/0f4c1a1007578181f65076ab15b4a3f08f8c7151"
+            "sha": "211169a",
+            "branch": "deps-update/main-go.etcd.io-etcd-client-v3-3.x",
+            "date": "2026-10-26T12:14:54Z",
+            "url": "https://github.com/grafana/loki/commit/211169ad0dc0f4b8832925b379514f34d9437b67"
           }
         }
       ]
