@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:41:51.559092Z",
+  "generated_at": "2026-10-27T07:47:09.633895Z",
   "groups": [
     {
       "id": "cores",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7375c57",
+            "sha": "5df2651",
             "branch": "master",
-            "date": "2026-10-26T08:10:42Z",
-            "url": "https://github.com/openwrt/openwrt/commit/7375c575c3ea9871d41a1eaf63a2b9e96c63fc61"
+            "date": "2026-10-26T20:08:19Z",
+            "url": "https://github.com/openwrt/openwrt/commit/5df2651e6a7002eec305fd1bef0c7f06050a949c"
           }
         },
         {
@@ -5052,7 +5052,7 @@
               "published_at": "2026-10-26T17:12:57Z",
               "prerelease": false,
               "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #8049 fix: Docker verification check sometimes not catching invalid responses (2.5.X backport) (Thanks @Abestanis)\r\n- #8038 fix: add `next-slim-rootless` docker tag\r\n- #8028 fix: drop TLS support from the TCP Port monitor (It never worked as expected and very buggy, all existing monitors will become normal TCP monitors)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-v2p3-6f5h-6hhf [Admin Only] RCE (Thanks @Sami111-Afk) (Open a help issue to ask to reveal it after 7 days, in case i forget to)\r\n\r\n### Others\r\n- #8037 revert: hide/show password toggle in login page (#7672) (Because the height is inconsistent)\r\n\r\n\r\n"
+              "body": "### 🐞 Bug Fixes\r\n- #8049 fix: Docker verification check sometimes not catching invalid responses (2.5.X backport) (Thanks @Abestanis)\r\n- #8038 fix: add `next-slim-rootless` docker tag\r\n- #8028 fix: drop TLS support for the TCP Port monitor (It never worked as expected and very buggy, all existing monitors will become normal TCP monitors)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-v2p3-6f5h-6hhf [Admin Only] RCE (Thanks @Sami111-Afk) (Open a help issue to ask to reveal it after 7 days, in case i forget to)\r\n\r\n### Others\r\n- #8037 revert: hide/show password toggle in login page (#7672) (Because the height is inconsistent)\r\n\r\n\r\n"
             },
             {
               "name": "2.5.7",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77539,
+            "stars": 77540,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T07:37:52Z",
+            "pushed_at": "2026-10-27T07:46:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1f7a420",
-            "branch": "main",
-            "date": "2026-10-26T09:38:11Z",
-            "url": "https://github.com/grafana/grafana/commit/1f7a420c9a373c8dc682b041f4eaaf1cf1fea78d"
+            "sha": "a6d4dc5",
+            "branch": "cb/rule-rows-ds-labels-2311",
+            "date": "2026-10-26T20:08:29Z",
+            "url": "https://github.com/grafana/grafana/commit/a6d4dc5fb84f076fca0241a11982737ccdb1f965"
           }
         },
         {
@@ -5240,10 +5240,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66801,
+            "stars": 66802,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T07:41:02Z",
+            "pushed_at": "2026-10-27T07:44:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81171,
+            "stars": 81172,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-27T07:04:43Z",
