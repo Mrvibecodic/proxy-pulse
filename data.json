@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T04:15:28.317806Z",
+  "generated_at": "2026-10-28T04:20:46.425149Z",
   "groups": [
     {
       "id": "cores",
@@ -858,15 +858,6 @@
               "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.8.1**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
             },
             {
-              "name": "Desktop v3.9.0",
-              "tag": "desktop-v3.9.0",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.9.0",
-              "published_at": "2026-10-18T21:33:33Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.9.0 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.0)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/40631062192), attempt 1. All desktop assets uploaded.\n"
-            },
-            {
               "name": "Android v3.8.1",
               "tag": "android-v3.8.1",
               "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.8.1",
@@ -883,6 +874,15 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "INCY Android 3.7.9\r\n\r\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\r\n"
+            },
+            {
+              "name": "Desktop v3.9.0",
+              "tag": "desktop-v3.9.0",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.9.0",
+              "published_at": "2026-10-18T21:33:33Z",
+              "prerelease": true,
+              "author": "LLC-INCY",
+              "body": "INCY Desktop v3.9.0 — macOS, Windows and Linux.\r\n\r\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.0)\r\n\r\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/40631062192), attempt 1. All desktop assets uploaded.\r\n"
             },
             {
               "name": "Desktop v3.8.8",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "858ca24",
-            "branch": "kristina/registry-promotion",
-            "date": "2026-10-27T16:09:48Z",
-            "url": "https://github.com/grafana/grafana/commit/858ca24e10075d4cec1962f5d1ff499ea12c8967"
+            "sha": "da17e36",
+            "branch": "jh/pnpm-cleanup-comments",
+            "date": "2026-10-27T12:11:37Z",
+            "url": "https://github.com/grafana/grafana/commit/da17e36361bce4a5058ad240a96b2177fa4d5a0c"
           }
         },
         {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29077,
+            "stars": 29078,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-10-28T03:18:29Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9ee96df",
-            "branch": "main",
-            "date": "2026-10-27T16:02:13Z",
-            "url": "https://github.com/grafana/loki/commit/9ee96df03b12662a783fef29c66943ebd992ddab"
+            "sha": "e8545f9",
+            "branch": "release-3.7.x",
+            "date": "2026-10-27T15:28:45Z",
+            "url": "https://github.com/grafana/loki/commit/e8545f9ed7d9543ecf4b98c5a66c986ab7414eb6"
           }
         }
       ]
