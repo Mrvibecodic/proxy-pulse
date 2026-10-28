@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T08:53:12.592650Z",
+  "generated_at": "2026-10-28T08:58:32.376981Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35270,
+            "stars": 35272,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-28T07:47:56Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5261,
+            "stars": 5262,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-27T14:28:40Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T06:11:52Z",
+            "pushed_at": "2026-10-28T08:54:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "017f7ee",
+                  "message": "owut: update to 2026.10.25",
+                  "author": "Eric Fahlgren",
+                  "date": "2026-10-28T08:54:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/017f7ee81c02cbec175992c8a271c48f9440d1fb"
+                },
+                {
+                  "sha": "6e48b10",
+                  "message": "owut: update to 2026.10.20",
+                  "author": "Eric Fahlgren",
+                  "date": "2026-10-28T08:54:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/6e48b10afd991cbcb21d279533f71aadd1b22ead"
+                },
+                {
                   "sha": "f0251c3",
                   "message": "iperf3: update to 3.22",
                   "author": "Josef Schlehofer",
@@ -3544,20 +3558,6 @@
                   "author": "George Sapkin",
                   "date": "2026-10-23T18:17:25Z",
                   "url": "https://github.com/openwrt/packages/commit/8bf0ca99c6de8baeee09098e063d8e6de697377d"
-                },
-                {
-                  "sha": "0a1a041",
-                  "message": "syncthing: bump to 2.1.6",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T18:17:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/0a1a0418dc0dc0ee1175c21b5f12a51e01d44560"
-                },
-                {
-                  "sha": "4a35749",
-                  "message": "bind: update to 9.20.30",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-10-22T20:06:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/4a3574914f881a817f0615f1e9765c589eb9bbe2"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93018,
+            "stars": 93017,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-28T05:14:58Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26611,
+            "stars": 26612,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-25T15:27:54Z",
@@ -5175,7 +5175,7 @@
             "stars": 77561,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T08:48:52Z",
+            "pushed_at": "2026-10-28T08:58:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "28d3fd6",
-            "branch": "kristina/registry-promotion",
-            "date": "2026-10-27T19:03:32Z",
-            "url": "https://github.com/grafana/grafana/commit/28d3fd680c3bc8e8e853b627bdca4be65942a621"
+            "sha": "b86c48e",
+            "branch": "grafakus/e2e-layout-rows",
+            "date": "2026-10-27T14:59:16Z",
+            "url": "https://github.com/grafana/grafana/commit/b86c48edd3ad70c834f67ceef2db8677d5dce1e2"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7b4123d",
-            "branch": "deps-update/release-3.7.x-github.combaidubcebce-sdk-go",
-            "date": "2026-10-27T18:15:21Z",
-            "url": "https://github.com/grafana/loki/commit/7b4123dfdb6b0b255cb75806883855da0b749f65"
+            "sha": "9c94e6b",
+            "branch": "release-3.7.x",
+            "date": "2026-10-27T18:42:45Z",
+            "url": "https://github.com/grafana/loki/commit/9c94e6b5efa3d95d9c76602799efe8f0b92f8c8c"
           }
         }
       ]
@@ -5591,7 +5591,7 @@
             "stars": 1181,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T08:50:20Z",
+            "pushed_at": "2026-10-28T08:56:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
             "owner": "BEDOLAGA-DEV"
