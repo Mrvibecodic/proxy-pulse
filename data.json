@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:09:13.753984Z",
+  "generated_at": "2026-10-28T09:14:32.685026Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42399,
+            "stars": 42400,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-27T16:37:09Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39331,
+            "stars": 39332,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T08:54:54Z",
+            "pushed_at": "2026-10-28T09:13:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "325ff7d",
+                  "message": "librespeed-common: refuse a zero step and a trailing comma",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T09:13:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/325ff7dde30a3235d693013a32fe524b51585bf2"
+                },
+                {
+                  "sha": "d20873c",
+                  "message": "librespeed-common: add a weekly schedule interval",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T09:13:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/d20873c8d61e7da02dca943bf5a68614f643b929"
+                },
+                {
+                  "sha": "da7767e",
+                  "message": "librespeed-common: measure and schedule per interface",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T09:13:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/da7767e56ffcce933f1e182336ac6dcb408d3b22"
+                },
+                {
+                  "sha": "1cc1d0c",
+                  "message": "librespeed-common: free the lock as soon as a run ends",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T09:13:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/1cc1d0ccc41233e143519a13006adb93ab90cd2f"
+                },
+                {
                   "sha": "3c7f9b4",
                   "message": "apache: update to version 2.4.69",
                   "author": "Josef Schlehofer",
@@ -2025,34 +2053,6 @@
                   "author": "Paul Lipps",
                   "date": "2026-10-24T16:22:23Z",
                   "url": "https://github.com/openwrt/packages/commit/4330d0a9358608d083fa3278ca2ab2a011352ec0"
-                },
-                {
-                  "sha": "881683c",
-                  "message": "linuxptp: fix stale comment and tighten interface pre-check",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/881683c06807d4da661205d15b934c2677e2caf5"
-                },
-                {
-                  "sha": "7f2f78d",
-                  "message": "linuxptp: tighten ptp4l pre-check to require interface option",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f2f78dcffdb37ae869433520ee37b628f221806"
-                },
-                {
-                  "sha": "6cb82d3",
-                  "message": "linuxptp: address review nits from round 4",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/6cb82d3f9763cf3d280e6529bf95e67ee30447a9"
-                },
-                {
-                  "sha": "7166649",
-                  "message": "linuxptp: fix boot-block, phc2sys auto-start and interface validation",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/71666498b7d7a4151b8a64a58b6d88fbc2cea2bf"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93017,
+            "stars": 93018,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-28T05:14:58Z",
@@ -5175,7 +5175,7 @@
             "stars": 77562,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T09:06:33Z",
+            "pushed_at": "2026-10-28T09:14:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c868a9e",
-            "branch": "main",
-            "date": "2026-10-27T19:10:59Z",
-            "url": "https://github.com/grafana/grafana/commit/c868a9e225d3ca2a45bdab0c090fea4c3192ff9b"
+            "sha": "64089c5",
+            "branch": "snapshots-mode1-blob-creation",
+            "date": "2026-10-27T19:19:13Z",
+            "url": "https://github.com/grafana/grafana/commit/64089c5f7d82f63c5ba8b03f5a70f45605b43bd3"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81200,
+            "stars": 81201,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-28T07:42:59Z",
@@ -5447,7 +5447,7 @@
             "stars": 29084,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T06:21:58Z",
+            "pushed_at": "2026-10-28T09:13:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "03ca84c",
-            "branch": "spiridonov-logql-label-collisions-tests",
-            "date": "2026-10-27T19:20:28Z",
-            "url": "https://github.com/grafana/loki/commit/03ca84cd53a1b29a3b0aeb3899f0a007e3551c71"
+            "sha": "f3b5ed1",
+            "branch": "spiridonov-logql-label-collisions-expr-first-writer",
+            "date": "2026-10-27T19:20:27Z",
+            "url": "https://github.com/grafana/loki/commit/f3b5ed1ec4b71fee9b2e83f24c5e7a7efe82908a"
           }
         }
       ]
