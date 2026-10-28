@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:08:35.913278Z",
+  "generated_at": "2026-10-28T06:13:53.608820Z",
   "groups": [
     {
       "id": "cores",
@@ -706,7 +706,7 @@
             "stars": 1504,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T06:08:25Z",
+            "pushed_at": "2026-10-28T06:13:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
@@ -1190,7 +1190,7 @@
             "stars": 4659,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T06:06:15Z",
+            "pushed_at": "2026-10-28T06:11:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3c7f9b4",
+                  "message": "apache: update to version 2.4.69",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T06:11:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/3c7f9b46f1d0864e6771a9b68e4a99a956ce0ca8"
+                },
+                {
+                  "sha": "5a6e8d3",
+                  "message": "gzip: update to version 1.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T06:11:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/5a6e8d37ae606e77bbff9040c379f03b534da422"
+                },
+                {
                   "sha": "401b45e",
                   "message": "comrade: update to 0.3.1",
                   "author": "Daniel Golle",
@@ -2039,20 +2053,6 @@
                   "author": "Aleks Mariusz",
                   "date": "2026-10-24T13:59:03Z",
                   "url": "https://github.com/openwrt/packages/commit/71666498b7d7a4151b8a64a58b6d88fbc2cea2bf"
-                },
-                {
-                  "sha": "b63bea1",
-                  "message": "linuxptp: fix init script bugs and address review feedback",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/b63bea16a0f89d35ebc5eb5ddab9a1dead1f5ee1"
-                },
-                {
-                  "sha": "5eac6af",
-                  "message": "linuxptp: add config \u0026 init scripts for ptp4l and phc2sys",
-                  "author": "Aleks Mariusz",
-                  "date": "2026-10-24T13:59:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/5eac6af978c8e84ed634b7cce4d755118d5956fd"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f4a5fd9",
+                  "message": "iperf3: update to 3.22",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T06:10:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/f4a5fd9dedd6a45d55483fc0b3594ebfc7e30626"
+                },
+                {
                   "sha": "3f864b3",
                   "message": "vsftpd: add version check override",
                   "author": "George Sapkin",
@@ -3336,19 +3343,19 @@
                   "author": "George Sapkin",
                   "date": "2026-10-10T19:18:12Z",
                   "url": "https://github.com/openwrt/packages/commit/d8e4f8cbab34913e3046139a296ed10d9f21ce39"
-                },
-                {
-                  "sha": "991fff1",
-                  "message": "krb5: add version check override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-10T19:18:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/991fff1427605e07612a1486d3b35a684109c542"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "f0251c3",
+                  "message": "iperf3: update to 3.22",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T06:11:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/f0251c3e0692077a2693c722cbb2657bef513e56"
+                },
                 {
                   "sha": "15431dc",
                   "message": "htop: update to 3.5.3",
@@ -3551,13 +3558,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-10-22T20:06:47Z",
                   "url": "https://github.com/openwrt/packages/commit/4a3574914f881a817f0615f1e9765c589eb9bbe2"
-                },
-                {
-                  "sha": "bc6af6a",
-                  "message": "python-certifi: bump to 2026.10.19",
-                  "author": "Eneas U de Queiroz",
-                  "date": "2026-10-22T19:41:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/bc6af6a7fce3046ca67c403a5219da2a79590073"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ec914a",
-            "branch": "nic/graphite-interpolate-series-refs",
-            "date": "2026-10-27T13:50:58Z",
-            "url": "https://github.com/grafana/grafana/commit/6ec914a7fc1030ca493294be7a5596702eebdfd0"
+            "sha": "1e5cda7",
+            "branch": "gtk-grafana/dataviz/geomap-protomaps-map-styles-135478",
+            "date": "2026-10-27T13:25:05Z",
+            "url": "https://github.com/grafana/grafana/commit/1e5cda7008de54da4ec1b6165ad2b9489a4e00fd"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29083,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T05:29:09Z",
+            "pushed_at": "2026-10-28T06:13:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "289489f",
-            "branch": "spiridonov-logql-label-collisions-fix",
-            "date": "2026-10-27T13:52:46Z",
-            "url": "https://github.com/grafana/loki/commit/289489fdbf0f5cb35c9f6ae26ae469fc4506dd89"
+            "sha": "b231da5",
+            "branch": "main",
+            "date": "2026-10-27T16:02:31Z",
+            "url": "https://github.com/grafana/loki/commit/b231da596d08ccdd56d72b9f70a2f0fef9b75eef"
           }
         }
       ]
