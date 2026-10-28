@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T17:25:17.305559Z",
+  "generated_at": "2026-10-28T17:30:39.816276Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience",
-            "stars": 719,
+            "stars": 718,
             "url": "https://github.com/coolcoala/koala-clash",
             "default_branch": "main",
             "pushed_at": "2026-10-09T02:44:06Z",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d8cdd42",
-            "branch": "openwrt-24.10",
-            "date": "2026-10-27T22:45:26Z",
-            "url": "https://github.com/openwrt/openwrt/commit/d8cdd4276d808cab2b2f88dd39925344a3d35581"
+            "sha": "f368a9e",
+            "branch": "openwrt-25.12",
+            "date": "2026-10-27T08:56:31Z",
+            "url": "https://github.com/openwrt/openwrt/commit/f368a9e03eaee857b1a6b9b84c0de5b87567413a"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T16:08:10Z",
+            "pushed_at": "2026-10-28T17:29:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0afe9b1",
+                  "message": "ovpn-dco: update to 7.3.0.2026100801",
+                  "author": "Qingfang Deng",
+                  "date": "2026-10-28T17:29:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/0afe9b1e614f15149565e85b98f91f870ba50c29"
+                },
+                {
+                  "sha": "857e7cf",
+                  "message": "openvpn: enable wolfSSL variant",
+                  "author": "Qingfang Deng",
+                  "date": "2026-10-28T17:29:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/857e7cfb8879d310c327c7114a1d2b58ae452a9d"
+                },
+                {
+                  "sha": "a110cee",
+                  "message": "openvpn: update to 2.7.8",
+                  "author": "Qingfang Deng",
+                  "date": "2026-10-28T17:29:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/a110ceeebe2ef9fc009076439be2e1810414f1a7"
+                },
+                {
+                  "sha": "d201ddc",
+                  "message": "augeas: do not ship the lens tests in augeas-lenses",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T17:28:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/d201ddc3f986e4d0ea80ed54352df391b428d54f"
+                },
+                {
+                  "sha": "8877393",
+                  "message": "ngircd: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T17:26:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/887739374882a7bb235cf2faf289b3ddbf616b46"
+                },
+                {
                   "sha": "563a5fd",
                   "message": "nano: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2018,41 +2053,6 @@
                   "author": "Keiji Hata",
                   "date": "2026-10-25T12:31:48Z",
                   "url": "https://github.com/openwrt/packages/commit/d7d5343b4c442229e68b727d8e8df44a2b1e62d4"
-                },
-                {
-                  "sha": "ddcc9db",
-                  "message": "libmanette: add missing dependency for libevdev",
-                  "author": "Christian Marangi",
-                  "date": "2026-10-25T12:27:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/ddcc9dbb4d0f740b902d712697d598f992ee3778"
-                },
-                {
-                  "sha": "85ba4cf",
-                  "message": "prometheus-node-exporter-ucode: fix sporadic wifi error",
-                  "author": "Samuele Longhi",
-                  "date": "2026-10-25T12:07:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/85ba4cff22728b21527e4bf1e29411e7c68a4a3c"
-                },
-                {
-                  "sha": "a1656e7",
-                  "message": "nano: update to 9.3",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-25T07:45:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/a1656e7d3106106dc14a0586a50d8e9cfeca5511"
-                },
-                {
-                  "sha": "5b5ed8c",
-                  "message": "ariang: bump to 1.3.15",
-                  "author": "Roc Lai",
-                  "date": "2026-10-25T06:16:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/5b5ed8c459553834c8f4c595705eeb11ea4d1455"
-                },
-                {
-                  "sha": "9fc8d02",
-                  "message": "knot-resolver: update to version 5.7.9 (fixes compatibility with knot 3.6)",
-                  "author": "Daniel Salzman",
-                  "date": "2026-10-24T19:23:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/9fc8d0260b2be03366bf437af14aa3289a5cea26"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77569,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T17:24:46Z",
+            "pushed_at": "2026-10-28T17:28:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cb69f83",
-            "branch": "changelog/update-changelog-2026-10-27",
-            "date": "2026-10-27T08:48:34Z",
-            "url": "https://github.com/grafana/grafana/commit/cb69f83602630293fdb529afff0bb4995d090a5d"
+            "sha": "59b30a6",
+            "branch": "feat/panel-inspector-reactivity",
+            "date": "2026-10-27T21:10:34Z",
+            "url": "https://github.com/grafana/grafana/commit/59b30a683eb1e5b3a04bf4aa2854504d1dbfaa41"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66827,
+            "stars": 66828,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-28T17:16:47Z",
