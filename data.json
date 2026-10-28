@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T13:35:38.565291Z",
+  "generated_at": "2026-10-28T13:40:57.938820Z",
   "groups": [
     {
       "id": "cores",
@@ -220,12 +220,21 @@
             "stars": 54,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T12:02:39Z",
+            "pushed_at": "2026-10-28T13:37:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
           },
           "releases": [
+            {
+              "name": "Xray-core v26.10.28-1202",
+              "tag": "v26.10.28-1202",
+              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.10.28-1202",
+              "published_at": "2026-10-28T13:37:11Z",
+              "prerelease": false,
+              "author": "Jolymmiles",
+              "body": "## Highlights\n\n- **Upstream v26.10.21 and `main` up to `229799a7`.** This brings XDRIVE (h2 by default, h3, XMUX), XDNS DoH resolvers, WireGuard and MASQUE on Xray's own TCP/IP stack, the Lua sandbox by default, and Vision reading the REALITY raw input through a pointer (XTLS/Xray-core#7176, the SIGSEGV of #7162) (#59, #65, #69).\n- **The VLESS header now shares a TLS record with the first payload.** A VLESS client and server no longer send the request header, or the `[version, 0]` response, in a TLS/REALITY record of its own. Record lengths after the REALITY handshake now match upstream's (#61, #63).\n- **XHTTP downloads hold their rate beside other traffic.** A governed (`h2Flow`) XHTTP server no longer drives a download down to about 1 Mbit/s when other traffic keeps the path's queue full (#64).\n- **XMUX `maxConcurrency` holds under concurrent dials.** XHTTP and XDRIVE now count a dial in the XMUX client it picks before another dial can pick it (#66, #67, #68).\n\n## Fork fixes\n\n- **VLESS header and first payload (#61, #63).**\n  - *Without sniffing.* The VLESS outbound flushed its header before the first payload when the inbound gave it a plain link reader (SOCKS, HTTP, dokodemo with sniffing off). It now waits for the first payload whatever the reader, as upstream does.\n  - *Silent client.* Vision now sends its padding block when the client stays silent.\n  - *One record.* In flush-next mode the VLESS writers handed the header to the TLS conn as a separate slice, so each became its own record. After the REALITY handshake, a no-flow client sent `53 43 534` and now sends `53 560`, as upstream does. The server sent `19 534` and now sends `536`.\n  - *Gate.* `TestVLESSTCPHeaderSharesTLSRecordWithFirstPayload` checks all four TLS/REALITY × no-flow/Vision modes between Xray processes.\n- **XHTTP flow governor beside a standing queue (#64).** A governed server cut download caps against a queue that other traffic kept full, so cut after cut took a download to its floor. Each connection now measures what its cuts do to the queue and scales them by that gain. Measured with `burst.py` (one download at 60 Mbit/s, RTT 144 ms, beside four plain TCP flows for 20 s): over the burst's second half the download went from 0.8 Mbit/s to 16.5 Mbit/s on a pre-final revision, against 31.0 Mbit/s with no governor. `\"h2Flow\": {\"queueCuts\": false}` turns the cuts off for an inbound.\n- **XMUX reservation (#66, #67, #68).**\n  - *XHTTP and XDRIVE.* Both counted a dial in its XMUX client only after releasing the pool lock. Simultaneous dials could therefore stack on one connection past `xmux.maxConcurrency`.\n  - *Failed dials.* An XHTTP dial whose streams failed to open kept its reservation and left its download stream open. It now releases both.\n  - *XDRIVE templates.* A data race on the template storage's retry delay is gone.\n- **REALITY config validation (#59).** A malformed REALITY private key, ML-DSA-65 seed, or short ID of the wrong length, in a protobuf config or a HandlerService `AddInbound`, panicked the whole process when the listener started. That inbound is now refused with an error.\n- **TUN segments (#59).** With segments on, a TCP segment reassembled from IP fragments, or joined to verify its checksum, was queued as the buffer its last piece was read into. The connection then read the wrong bytes or stalled. Such a segment is now copied.\n- **XDNS DoH resolver (#59, #60).**\n  - *SNI.* Over h1/h2 the resolver sent no SNI and failed handshakes without `serverName`. Its ClientHello now carries the URL's host, as h3 already did.\n  - *Leaks and crashes.* A failed h3 dial no longer leaks its UDP socket, and `\"congestion\": \"brutal\"` no longer crashes the client.\n  - *Redirects.* HTTP redirects are refused: Go's default policy turned the POST into a GET and read the redirect target's page as the DNS answer.\n- **TLS dialers (#62).** An outbound whose `tlsSettings` holds a certificate read from files started a certificate refresh goroutine on every dial. Dialers now build their TLS config without it. The ClientHello is byte-identical for every fingerprint.\n- **QUIC sniffing (#27).** The QUIC sniffer read a UDP flow's cached datagrams as one stream. A client could thus route a flow by one server name while the server read another. It now reads the datagrams one by one, as a server receives them, and names no server where servers would disagree.\n\n## Upstream changes\n\n- v26.10.17 and v26.10.21 (#59), plus `main` to `229799a7` (#65, #69):\n  - WireGuard and MASQUE on Xray's own TCP/IP stack (#7156);\n  - XDNS DoH resolvers (#7140);\n  - Finalmask inbound `filter` (#7206), and Lua `script` for Noise (#7124);\n  - the Lua sandbox by default, with inline scripts refused for now (#7136);\n  - XDRIVE: h2 by default, h3 and XMUX (#7181, #7182, #7187, #7188);\n  - the Hysteria client resets stalled writes on close (#7172);\n  - TUN large TCP segments on Linux (#7179);\n  - refreshed TLS built-in roots (#7212);\n  - `go-proxyproto` 0.16.0 (#7237).\n- Freedom `blockDelay` now also applies to `DispatchLink()` inbounds such as VLESS and Hysteria (#7238). Before, a blocked target over VLESS stayed open until the client closed it.\n- Windows: when an interface cannot bind both families, the UDP system dialer and the TUN inbound's `autoOutboundsInterface` retry with a single-family socket (#7214). On every platform the local DNS client now dials the IP family of the server, so on Linux a socket to an IPv6 DNS server is `IPV6_V6ONLY`.\n\n## Compatibility notes\n\n- VLESS, Trojan, REALITY, Vision and SMUX wire formats are unchanged. The VLESS change is in TLS record framing only: the header and the first payload now go in one record, as upstream sends them.\n- REALITY inbounds with a malformed key, seed or short ID are now refused at load or `AddInbound` instead of crashing the process.\n- The XDNS DoH resolver now refuses HTTP redirects (a fork policy; RFC 8484 allows them) and sends SNI on h1/h2.\n- `h2Flow` remains opt-in. `queueCuts` defaults to on when the governor is enabled.\n- Fork deviations from upstream and the tests that guard them are listed in `docs/FORK.md`. Builds use Go 1.27.3 with `-tags http2legacy`.\n\n## Validation\n\n- Local release gate `testing/release/structural_presence.sh standard` on the candidate `c99d0258`: pass (unit, race, vet, checkptr, the Xray/sing-box/Mihomo VLESS TCP and SMUX process matrices, the VLESS header record gate, scenarios).\n- `Tests and Checkings` on the release commit: pass.\n- `Pre-release Validation` (pinned Linux gate, `structural_presence.sh linux`): pass, https://github.com/Jolymmiles/Xray-core/actions/runs/40684625524\n"
+            },
             {
               "name": "Xray-core v26.10.13-2347",
               "tag": "v26.10.13-2347",
@@ -261,15 +270,6 @@
               "prerelease": false,
               "author": "Jolymmiles",
               "body": "## Highlights\n\nSMUX Brutal now respects locked TCP Brutal v2 destination rules. Connections continue under the kernel-managed rate instead of failing during bandwidth negotiation when the kernel returns `EPERM`.\n\n## Fork fixes\n\n- Previously, selecting `brutal` on an already locked socket or writing a locked rate caused Xray to reject the Brutal exchange and close the carrier. Xray now reads the active congestion-control algorithm on that same socket and continues only when it confirms `brutal`.\n- Preserve the system-managed rate and group. A rejected algorithm change is not followed by a rate write. Other algorithms, failed reads, malformed kernel responses, and other socket errors remain fatal.\n- Add behavioral regression tests and opt-in real-module tests for application-managed rates, locked algorithm/rate rules, and rate-only locking. Kernel response decoding remains bounded and uses no new external dependency.\n\n## Upstream changes\n\nIncludes upstream/main through `cd4ce973` (the WebSocket delay-dial panic fix), unchanged from v26.9.4-2204. No newer upstream/main commits were available when preparing this release.\n\n## Compatibility notes\n\n- Configure TCP Brutal v2 separately on Linux. Locked destination rules take precedence over the SMUX-negotiated rate; size the system rule for the receiving link. Ordinary application-controlled rates still work when no rule applies.\n- Existing SMUX bandwidth-exchange bytes and advertised receive ceilings are unchanged. VLESS, Trojan, REALITY and Vision protocol/authentication rules are preserved.\n- REALITY `minClientVer` and `maxClientVer` remain optional operator settings, without an implicit minimum. The displayed HHMM stamp is not added to REALITY's three-byte version identity.\n- The real-module regression was validated with TCP Brutal 2.0.0 on Linux 7.1.9/amd64 in an isolated VM. This establishes compatibility on that kernel, not improved traffic camouflage or packet-loss throughput.\n\n## Validation\n\n- Local unit, race, checkptr, vet, formatting and protobuf-header checks passed, including RED/GREEN version verification and static Linux/amd64 and Linux/arm64 builds.\n- The fix passed 24/24 SMUX interoperability cells with Xray, sing-box and Mihomo clients, 18/18 peak reconnect cycles, and 300/300 bounded hardening cycles. Five microbenchmark samples retained zero allocations per operation.\n- Three baseline/candidate performance comparisons passed the duration and resource budgets; median ratios were 0.985–1.005 on the shared native Linux host. No speedup is claimed.\n- Real TCP Brutal v2 socket and full Xray SMUX process tests passed in all three rule modes; the pre-fix binary reproduced the carrier failure under a locked rule.\n- The release candidate separately passed all 36 VLESS TCP TLS/REALITY no-flow/Vision cells across Xray, sing-box and Mihomo clients, plus targeted VLESS/REALITY unit, race, checkptr and vet checks.\n- [Tests and Checkings](https://github.com/Jolymmiles/Xray-core/actions/runs/33958575269) passed on release commit `32dd701a`: repository tests, formatting and protobuf-header consistency.\n- [Pre-release Validation](https://github.com/Jolymmiles/Xray-core/actions/runs/33958575052) passed on the same commit: repository-wide unit/race/checkptr and vet, process interoperability and lifecycle gates, peak and 50-cycle reconnect profiles, performance/resource budgets, the RemnaNode environment/configuration contract, a 30-minute soak (61 cycles), and Linux/amd64 artifact inspection.\n"
-            },
-            {
-              "name": "Xray-core v26.9.4-2204",
-              "tag": "v26.9.4-2204",
-              "url": "https://github.com/Jolymmiles/Xray-core/releases/tag/v26.9.4-2204",
-              "published_at": "2026-09-05T00:30:12Z",
-              "prerelease": false,
-              "author": "Jolymmiles",
-              "body": "## Highlights\n\nThis release incorporates PR #11, fixing server shutdown, concurrent UDP buffer ownership, and SMUX stream progress. Linux amd64 and arm64 packages are built by the release workflow.\n\n## Fork fixes\n\n- Handle SIGINT/SIGTERM received during server startup and unblock UDP cleanup and reverse heartbeat I/O before waiting for shutdown.\n- Synchronize buffered UDP reads with close, release late packets, preserve terminal errors after queued payloads, and reject truncated datagrams. This addresses the buffered SS2022 UDP race at its source.\n- Retire timed-out SMUX half-close completion channels so late completions cannot stall sibling streams or session shutdown.\n- Keep Hysteria destinations valid after pooled storage is released; retain TLS session-cache identity across garbage collection.\n- Serialize VLESS user mutations to preserve counters and authentication indexes. Advance XDNS selection past busy resolvers.\n- Bound interoperability stats polling and retain useful failure logs. Process matrices run Xray servers with Xray, sing-box, and Mihomo clients.\n- Harden Linux interoperability listener allocation against automatic source-port reuse; preserve occupied TCP/UDP checks and run the regression in the release gate. The original soak bind failure remains recorded.\n\n## Upstream changes\n\nIncludes upstream/main through `cd4ce973` (WebSocket delay-dial panic fix), unchanged from v26.9.3-0814. No newer upstream/main commits were available when preparing this release.\n\n## Compatibility notes\n\n- Existing VLESS, Trojan, REALITY, Vision, and SMUX wire protocols and authentication rules are preserved.\n- REALITY `minClientVer` and `maxClientVer` remain optional operator settings, with no implicit minimum. The displayed UTC timestamp does not add bytes to REALITY's three-byte version identity.\n- MTProxy PR #8 remains unmerged and is not included.\n- Hysteria destination ownership intentionally adds one allocation; no throughput or latency improvement is claimed.\n\n## Validation\n\n- [Tests and Checkings](https://github.com/Jolymmiles/Xray-core/actions/runs/33928222885) passed on release commit `b4282e22`: repository tests, formatting, and protobuf header consistency.\n- Local Go 1.27.0 checks passed: `go test ./core ./main -count=1`, `go vet ./core ./main`, and a static Linux/amd64 release build. The version regression was observed failing before the stamp update and passing afterward.\n- Explicit VLESS TCP TLS/REALITY no-flow/Vision validation passed 36/36 cells across Xray, sing-box, and Mihomo clients. This was run separately because the current combined CI selector does not include the VLESS root test.\n- Additional real-process Hysteria, TLS/X25519, SMUX negotiated half-close, and legacy-Xray fallback checks passed without retries.\n- The first extended Linux run reached soak cycle 12, then failed because sing-box could not bind its local SOCKS port. The log did not identify the occupying socket. A regression exposed allocation from the automatic source-port range; the test harness now excludes that range. Focused unit/race/vet and 144 real-process SMUX/H2MUX cells passed afterward.\n- [Extended Linux release validation](https://github.com/Jolymmiles/Xray-core/actions/runs/33928222805) passed on `b4282e22`: repository-wide unit/race/checkptr and vet, interoperability and lifecycle gates, peak and 50-cycle reconnect profiles, performance/resource budgets, the RemnaNode environment/configuration contract, a 30-minute soak (57 cycles), and static Linux/amd64 artifact inspection.\n\nEarlier audit runs recorded an external Google REALITY/Chrome EOF and a failure in the retired mixed-server reconnect topology. Those historical failures are preserved in the audit documentation; the current full-suite CI success does not erase them.\n"
             }
           ],
           "last_commit": {
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1503,
+            "stars": 1504,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-10-28T07:21:33Z",
@@ -1122,7 +1122,7 @@
             "stars": 28964,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T13:34:35Z",
+            "pushed_at": "2026-10-28T13:37:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T09:13:45Z",
+            "pushed_at": "2026-10-28T13:40:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bed49df",
+                  "message": "perl-mail-spamassassin: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T13:40:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/bed49df0bc611df9cf8f4fc05169a8393699448a"
+                },
+                {
                   "sha": "325ff7d",
                   "message": "librespeed-common: refuse a zero step and a trailing comma",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-24T16:44:01Z",
                   "url": "https://github.com/openwrt/packages/commit/aca5ca2ffb64046b9ec5ca139176e0b2673999fc"
-                },
-                {
-                  "sha": "4330d0a",
-                  "message": "dnscrypt-proxy2: update to 2.1.20",
-                  "author": "Paul Lipps",
-                  "date": "2026-10-24T16:22:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/4330d0a9358608d083fa3278ca2ab2a011352ec0"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16314,
+            "stars": 16315,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26616,
+            "stars": 26617,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-25T15:27:54Z",
@@ -5175,7 +5175,7 @@
             "stars": 77568,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T13:34:09Z",
+            "pushed_at": "2026-10-28T13:41:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3622,
+            "stars": 3623,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-28T06:51:36Z",
