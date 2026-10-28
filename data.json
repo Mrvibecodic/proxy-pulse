@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T06:03:17.684658Z",
+  "generated_at": "2026-10-28T06:08:35.913278Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35258,
+            "stars": 35259,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-26T16:33:08Z",
@@ -706,7 +706,7 @@
             "stars": 1504,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T05:59:12Z",
+            "pushed_at": "2026-10-28T06:08:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
@@ -1190,7 +1190,7 @@
             "stars": 4659,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-27T19:52:34Z",
+            "pushed_at": "2026-10-28T06:06:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "3f864b3",
+                  "message": "vsftpd: add version check override",
+                  "author": "George Sapkin",
+                  "date": "2026-10-28T06:06:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/3f864b35a05c276f633f333930923dfbd9e156e3"
+                },
+                {
+                  "sha": "3f28337",
+                  "message": "lm-sensors: add version check override",
+                  "author": "Wei-Ting Yang",
+                  "date": "2026-10-28T06:06:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/3f28337f9acf7da18dda0c43d97730528bd793aa"
+                },
+                {
                   "sha": "5dfea3b",
                   "message": "htop: update to 3.5.3",
                   "author": "Josef Schlehofer",
@@ -3329,20 +3343,6 @@
                   "author": "George Sapkin",
                   "date": "2026-10-10T19:18:12Z",
                   "url": "https://github.com/openwrt/packages/commit/991fff1427605e07612a1486d3b35a684109c542"
-                },
-                {
-                  "sha": "a498356",
-                  "message": "smartmontools: update to 7.5",
-                  "author": "Maxim Storchak",
-                  "date": "2026-10-09T13:49:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/a498356178bd6fefd6796b0abfe1364063571abf"
-                },
-                {
-                  "sha": "9b73bed",
-                  "message": "tor: update to 0.4.9.13 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-10-08T05:10:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b73bedc78199ee5748fd0d32cb82a7796c65d1f"
                 }
               ]
             },
@@ -3999,7 +3999,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2220,
+            "stars": 2221,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-10-24T14:19:34Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93012,
+            "stars": 93013,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-28T05:14:58Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "03a3fb9",
-            "branch": "main",
-            "date": "2026-10-27T16:21:24Z",
-            "url": "https://github.com/grafana/loki/commit/03a3fb94a8d7aa1826fddefdd841300b1db6843d"
+            "sha": "289489f",
+            "branch": "spiridonov-logql-label-collisions-fix",
+            "date": "2026-10-27T13:52:46Z",
+            "url": "https://github.com/grafana/loki/commit/289489fdbf0f5cb35c9f6ae26ae469fc4506dd89"
           }
         }
       ]
