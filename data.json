@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:58:08.757932Z",
+  "generated_at": "2026-10-28T13:03:28.029015Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39339,
+            "stars": 39340,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93025,
+            "stars": 93026,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-28T12:27:09Z",
@@ -5175,7 +5175,7 @@
             "stars": 77566,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T12:51:12Z",
+            "pushed_at": "2026-10-28T13:02:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "992fdce",
-            "branch": "naveed/query-oauth-passthrough",
-            "date": "2026-10-27T18:03:02Z",
-            "url": "https://github.com/grafana/grafana/commit/992fdce40df5433d318d571321634bfdf2f0081b"
+            "sha": "1dbd91e",
+            "branch": "ale/provisioning-pr-preview-edit-comment",
+            "date": "2026-10-27T17:15:53Z",
+            "url": "https://github.com/grafana/grafana/commit/1dbd91e40bffbb3a92061ec818b831c6400a5f01"
           }
         },
         {
@@ -5240,10 +5240,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66826,
+            "stars": 66827,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T11:30:51Z",
+            "pushed_at": "2026-10-28T13:00:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cffc214",
+            "sha": "60c8a3a",
             "branch": "release-3.7.x",
-            "date": "2026-10-27T17:01:15Z",
-            "url": "https://github.com/grafana/loki/commit/cffc214cc92f52c8881bc5bc39ada5e551452592"
+            "date": "2026-10-27T22:01:27Z",
+            "url": "https://github.com/grafana/loki/commit/60c8a3ad4f229575a5e6cb480ff461539afe938a"
           }
         }
       ]
@@ -5523,12 +5523,21 @@
             "stars": 32,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T12:52:53Z",
+            "pushed_at": "2026-10-28T13:01:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "1.10.0",
+              "tag": "v1.10.0",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.10.0",
+              "published_at": "2026-10-28T12:59:39Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Оплата на кошелёк ЮMoney и исправления.\n\n**✨ Добавлено**\n- Оплата и пополнение баланса через кошелёк ЮMoney: покупатель платит картой или кошельком, токен бот получает сам кнопкой «Авторизовать»\n\n**🔧 Изменено**\n- Аккаунтам кабинета, зарегистрированным по почте, бот больше не пишет в Telegram: им не уходят уведомления, напоминания и рассылка, пока не привязан Telegram\n- id заявки на перевод передаётся строкой; после отката ниже 1.10 отменить заявку с уже открытой страницы не выйдет\n\n**🐛 Исправлено**\n- Журнал платежей по человеку на Postgres больше не падает на больших Telegram id\n- Экранирование кавычек в мини-аппе\n\n**📦 Зависимости**\n- Go 1.27.3, x/net 0.62.0, sqlite 1.61.0, astro 7.4.2\n\n**📚 Документация**\n- Страница про ЮMoney, уточнения про рассылку и аккаунты по почте\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
+            },
             {
               "name": "1.9.7",
               "tag": "v1.9.7",
@@ -5564,15 +5573,6 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Патч: длинные строки больше не растягивают вёрстку мини-аппа и кабинета — в обоих дизайнах.\n\n**🐛 Исправлено**\n- Список подключённых устройств в классическом дизайне: длинные модели, приложения и отпечатки вылезали за карточку. Теперь название устройства сверху, платформа, отпечаток и дата — строкой ниже, длинные значения переносятся.\n- Карточка подписки на узком экране: при доп-сервере четыре колонки слипались («ОСТАЛОСЬУСТРОЙСТВА»). Теперь они встают в две строки.\n- Длинная почта, ссылки, названия и описания тарифов, стран, способов оплаты, приложений и документов больше не выходят за экран — на карточках тарифов, оформлении, подключении, в аккаунте, рефералке и документах.\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
-            },
-            {
-              "name": "1.9.3",
-              "tag": "v1.9.3",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.9.3",
-              "published_at": "2026-10-07T12:00:43Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Патч: баланс теперь можно пополнить через Platega и переводом на карту, а сумму заявки на пополнение админ может исправить до одобрения.\n\n**✨ Добавлено**\n- Пополнение баланса через Platega — в чате, мини-аппе и кабинете.\n- Пополнение баланса переводом на карту (P2P): реквизиты, чек фото или PDF, проверка админом. Допуск общий с оплатой переводом: кому открыт перевод, тому открыто и пополнение.\n- Кнопка «✏️ Изменить сумму» в карточке заявки на пополнение: если клиент перевёл не столько, сколько указал, админ исправляет сумму до одобрения. На баланс зачисляется сумма из карточки.\n- Отмена незакрытой заявки на перевод в мини-аппе и кабинете.\n\n**🔧 Изменено**\n- Незакрытая заявка на перевод не подменяется заявкой другого типа (покупка или пополнение): бот показывает висящую заявку и просит её завершить или отменить.\n- Кнопка способа пополнения из старого сообщения не срабатывает, если способ выключен.\n\n**🐛 Исправлено**\n- Отклонить можно только нерешённую заявку на перевод: вторая карточка той же заявки больше не отменяет одобрение.\n- Кнопка «✅ Я оплатил» из старого сообщения не возвращает решённую заявку на проверку.\n- Оплата, пришедшая на удалённого пользователя, не заводит его заново с балансом — админ получает уведомление.\n- Подсказка «нет способов пополнения» перечисляла не все способы.\n\n**📚 Документация**\n- Раздел «Кошелёк» и описание возможностей: способы пополнения и правка суммы заявки.\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n\nОткат на 1.9.2 и раньше: сначала одобрите или отклоните открытые заявки на пополнение переводом — старая версия провела бы их как покупку."
             }
           ],
           "last_commit": {
