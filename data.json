@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T16:05:13.904485Z",
+  "generated_at": "2026-10-28T16:10:34.005631Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T13:40:07Z",
+            "pushed_at": "2026-10-28T16:08:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "563a5fd",
+                  "message": "nano: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-28T16:08:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/563a5fdf51e01494e7b8617e4b5beb295f8bdb20"
+                },
+                {
                   "sha": "bed49df",
                   "message": "perl-mail-spamassassin: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Salzman",
                   "date": "2026-10-24T19:23:02Z",
                   "url": "https://github.com/openwrt/packages/commit/9fc8d0260b2be03366bf437af14aa3289a5cea26"
-                },
-                {
-                  "sha": "aca5ca2",
-                  "message": "bmx7: add new package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-24T16:44:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/aca5ca2ffb64046b9ec5ca139176e0b2673999fc"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77569,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T16:04:15Z",
+            "pushed_at": "2026-10-28T16:09:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1314266",
-            "branch": "release/457/13.2.5",
-            "date": "2026-10-27T09:40:49Z",
-            "url": "https://github.com/grafana/grafana/commit/13142665e82ecff94834870dae86ecff2a471113"
+            "sha": "a55b286",
+            "branch": "dj/ensure-plugin-loading-for-observables",
+            "date": "2026-10-27T19:08:37Z",
+            "url": "https://github.com/grafana/grafana/commit/a55b286a7d8fa01a0e0f4ee1dced4d45bb09dfe2"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29086,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T16:01:46Z",
+            "pushed_at": "2026-10-28T16:06:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
