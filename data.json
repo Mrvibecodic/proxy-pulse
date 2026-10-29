@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T02:06:17.940551Z",
+  "generated_at": "2026-10-29T02:11:34.917602Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-28T20:16:24Z",
+            "pushed_at": "2026-10-29T02:08:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7b81037",
+                  "message": "cloudflared: update to 2026.10.5",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-29T02:08:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/7b81037c4d1404a385841e3ef3a564d778dfdac0"
+                },
+                {
                   "sha": "e13451c",
                   "message": "prometheus-node-exporter-ucode: new modules \u0026 info update to 2026.10.28",
                   "author": "Paul Donald",
@@ -2046,13 +2053,6 @@
                   "author": "Nikita Solianik",
                   "date": "2026-10-25T12:38:47Z",
                   "url": "https://github.com/openwrt/packages/commit/fa48a6a56750976eb3a1c36592e9e17dfb52015c"
-                },
-                {
-                  "sha": "e0e531b",
-                  "message": "nginx: only build luajit2 if required",
-                  "author": "Florian Wagner",
-                  "date": "2026-10-25T12:36:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/e0e531b86c7d201c4e935053a19d3c97ea9cbdaa"
                 }
               ]
             },
@@ -4860,7 +4860,7 @@
           "track": "releases",
           "meta": {
             "description": "Official SSClash distribution: pre-built binaries, install scripts (OpenWrt, Linux, Keenetic), and user docs. Transparent proxy with Mihomo and embedded web UI.",
-            "stars": 146,
+            "stars": 147,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
             "pushed_at": "2026-10-24T23:17:28Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "60568dc",
-            "branch": "main",
-            "date": "2026-10-27T13:33:20Z",
-            "url": "https://github.com/grafana/loki/commit/60568dc4e5b67242d073dc24d98a80c9faca5f42"
+            "sha": "9d0e2f2",
+            "branch": "deps-update/main-ca-trust-base-images",
+            "date": "2026-10-28T09:11:04Z",
+            "url": "https://github.com/grafana/loki/commit/9d0e2f2a77b2384e37512b0660829f90b67f6f2e"
           }
         }
       ]
