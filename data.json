@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:41:07.909581Z",
+  "generated_at": "2026-10-29T07:46:28.302759Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4659,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-29T02:08:27Z",
+            "pushed_at": "2026-10-29T07:44:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "41d0762",
+                  "message": "node: backport the brotli fix for CVE-2026-111497",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-29T07:44:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/41d0762ced709c01ac5b1077e8e9005c9ce32f33"
+                },
+                {
                   "sha": "f4a5fd9",
                   "message": "iperf3: update to 3.22",
                   "author": "Josef Schlehofer",
@@ -3336,13 +3343,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-10T19:18:12Z",
                   "url": "https://github.com/openwrt/packages/commit/00b74df575698dad8ba158a45964a9a09d888a5c"
-                },
-                {
-                  "sha": "d8e4f8c",
-                  "message": "python3: move version checks to override",
-                  "author": "George Sapkin",
-                  "date": "2026-10-10T19:18:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/d8e4f8cbab34913e3046139a296ed10d9f21ce39"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77582,
+            "stars": 77583,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-29T07:34:28Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ee29011",
-            "branch": "cursor/eslint-tech-debt-automation-055d",
-            "date": "2026-10-28T11:09:31Z",
-            "url": "https://github.com/grafana/grafana/commit/ee29011fc4ea4cfbd6e4f352026c88b18bdd91dd"
+            "sha": "dba3bba",
+            "branch": "main",
+            "date": "2026-10-28T08:58:57Z",
+            "url": "https://github.com/grafana/grafana/commit/dba3bba1a6207618b1f1c41b4249c71018897316"
           }
         },
         {
