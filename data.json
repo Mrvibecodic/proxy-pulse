@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T10:15:38.112274Z",
+  "generated_at": "2026-10-29T10:20:57.848678Z",
   "groups": [
     {
       "id": "cores",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.14-alpha.2",
+              "tag": "clod-v0.1.14-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.2",
+              "published_at": "2026-10-29T10:19:26Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- На Windows адреса .local в локальной сети по умолчанию идут мимо системного прокси\n\n### Исправлено\n\n- Трей сразу после запуска показывает включённый системный прокси, а не только после перезапуска приложения\n- Меню трея на Windows не пропадает, если на действие назначено сочетание с клавишей Win\n- Служба Windows, убранная из автозапуска, не задерживает старт приложения\n- Cmd+W на macOS скрывает окно без системного уведомления\n- Портативная версия на Windows регистрирует обе схемы ссылок, а не только clash://\n- Архив резервной копии собирается в папке приложения, а не в общей временной папке системы"
+            },
             {
               "name": "Clod Clash clod-v0.1.14-alpha.1",
               "tag": "clod-v0.1.14-alpha.1",
@@ -5166,7 +5175,7 @@
             "stars": 77583,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-29T10:09:46Z",
+            "pushed_at": "2026-10-29T10:20:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3a48a9a",
-            "branch": "alerting/gma-list-search-filter-definitions",
-            "date": "2026-10-28T14:25:30Z",
-            "url": "https://github.com/grafana/grafana/commit/3a48a9a6e71debdc30c0b946452bbe99181e96a1"
+            "sha": "a7c1f64",
+            "branch": "main",
+            "date": "2026-10-28T12:49:54Z",
+            "url": "https://github.com/grafana/grafana/commit/a7c1f64e218257e313dec6bceac5492418d4550a"
           }
         },
         {
@@ -5438,7 +5447,7 @@
             "stars": 29091,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-29T10:11:21Z",
+            "pushed_at": "2026-10-29T10:17:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5568,7 +5577,7 @@
           ],
           "last_commit": {
             "sha": "c82bcda",
-            "branch": "main",
+            "branch": "dev",
             "date": "2026-10-28T13:03:46Z",
             "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/c82bcda0c5125bd50215808523bcaba2f9c02c48"
           }
