@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T03:20:27.969149Z",
+  "generated_at": "2026-10-29T03:26:02.125940Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35298,
+            "stars": 35299,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-28T11:45:41Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93041,
+            "stars": 93042,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-29T00:05:21Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "62dbbbd",
-            "branch": "pstibrany/index-manager-allow-edits",
-            "date": "2026-10-27T16:48:26Z",
-            "url": "https://github.com/grafana/grafana/commit/62dbbbdaf1df83671be64ca81dc6949ecd6f1879"
+            "sha": "d07a8a1",
+            "branch": "ldeveikis/reporting/ssrf-safe-fetch",
+            "date": "2026-10-27T15:06:40Z",
+            "url": "https://github.com/grafana/grafana/commit/d07a8a1dff0f70e00cf7899ea78af03d74584117"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29088,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-29T03:15:09Z",
+            "pushed_at": "2026-10-29T03:25:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5644,10 +5644,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b877d63",
-            "branch": "dev",
-            "date": "2026-10-28T10:01:30Z",
-            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/b877d6317537c3835eeb93bc81700ba4e6cacf0d"
+            "sha": "63256f2",
+            "branch": "release-please--branches--main",
+            "date": "2026-10-28T10:02:18Z",
+            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/63256f2df55de10651e109e79e9f875131bb945f"
           }
         }
       ]
@@ -5803,12 +5803,21 @@
             "stars": 3627,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
-            "pushed_at": "2026-10-28T06:51:36Z",
+            "pushed_at": "2026-10-29T03:23:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/176294927?v=4",
             "owner": "Zephyruso"
           },
           "releases": [
+            {
+              "name": "v3.30.0",
+              "tag": "v3.30.0",
+              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.30.0",
+              "published_at": "2026-10-29T03:22:41Z",
+              "prerelease": false,
+              "author": "Zephyruso",
+              "body": "## [3.30.0](https://github.com/Zephyruso/zashboard/compare/v3.29.1...v3.30.0) (2026-10-28)\n\n\n### Features\n\n* auto-connect to same-origin backend on initial setup ([#810](https://github.com/Zephyruso/zashboard/issues/810)) ([63cb0e0](https://github.com/Zephyruso/zashboard/commit/63cb0e04994866c6537b8a3dd70a0630aa558648))\n* display dialer proxy as italic via label in ProxyName ([b83a63a](https://github.com/Zephyruso/zashboard/commit/b83a63aeba1a08be62ee4d6228874e1229a12d1b))\n* merge closed connections tab into all tab with a filter menu ([e5b48b4](https://github.com/Zephyruso/zashboard/commit/e5b48b4e8fe5c727170a57444c969f01aca3fbad))\n* sync dae native API contract ([9b867b7](https://github.com/Zephyruso/zashboard/commit/9b867b76a8cbca014423e93af59f7ce0996bc4f4))\n* use grid icon for overview and add hover motion to nav icons ([6225aac](https://github.com/Zephyruso/zashboard/commit/6225aac84439425ae4f4493437b110a314753436))\n\n\n### Bug Fixes\n\n* bound connection history in background tabs ([#816](https://github.com/Zephyruso/zashboard/issues/816)) ([ceb8dd0](https://github.com/Zephyruso/zashboard/commit/ceb8dd0aecd71a445b1882b5023c6671a5fd98c9))\n* bump dependencies to patch security vulnerabilities ([a72516f](https://github.com/Zephyruso/zashboard/commit/a72516fec99f290b924290ba8be74613a2480dbd))\n* give the fixed top bar a status-bar inset on Android ([#806](https://github.com/Zephyruso/zashboard/issues/806)) ([4e13b0c](https://github.com/Zephyruso/zashboard/commit/4e13b0cf485b514ef03b288b5c04ad5c898c22e7))\n* sort rule count column numerically ([38bf201](https://github.com/Zephyruso/zashboard/commit/38bf2016670df12a4d831b6f5e9e17fafae62f6f))"
+            },
             {
               "name": "v3.29.1",
               "tag": "v3.29.1",
@@ -5844,15 +5853,6 @@
               "prerelease": false,
               "author": "Zephyruso",
               "body": "## [3.27.0](https://github.com/Zephyruso/zashboard/compare/v3.26.0...v3.27.0) (2026-09-15)\n\n\n### Features\n\n* add a toggle to search hidden columns on the connections page ([1e78ba4](https://github.com/Zephyruso/zashboard/commit/1e78ba4a8b36d841e73334ed6170571aebe13174))\n* add comment for touch detection initialization in tooltip ([7339256](https://github.com/Zephyruso/zashboard/commit/7339256198146aef4bbc0e199e655cb9abee043f))\n* enhance table components with customizable classes and tooltips ([40d6f30](https://github.com/Zephyruso/zashboard/commit/40d6f30df4baee26e5daef5c1ac38e062de21864))\n* implement theme color synchronization with overlay dimming for mobile proxies ([05ba9a4](https://github.com/Zephyruso/zashboard/commit/05ba9a438e132026120722b9e721dbf01652708a))\n* update icon components and add icon generation script ([f0f47e8](https://github.com/Zephyruso/zashboard/commit/f0f47e85ccf97a2b2529209f052ef55e361b36b0))\n\n\n### Bug Fixes\n\n* adjust z-index context for sticky header and refine hidden column search logic ([01b4b15](https://github.com/Zephyruso/zashboard/commit/01b4b1518524f8a016d953e201ed7464dbc2a5c9))"
-            },
-            {
-              "name": "v3.26.0",
-              "tag": "v3.26.0",
-              "url": "https://github.com/Zephyruso/zashboard/releases/tag/v3.26.0",
-              "published_at": "2026-09-07T06:36:20Z",
-              "prerelease": false,
-              "author": "Zephyruso",
-              "body": "## [3.26.0](https://github.com/Zephyruso/zashboard/compare/v3.25.0...v3.26.0) (2026-09-07)\n\n\n### Features\n\n* implement collapse motion for cards and optimize virtual row shifting ([ac86982](https://github.com/Zephyruso/zashboard/commit/ac869828b38405e675a41eed670bbd5b90290df6))\n* implement virtual scrolling for proxies list and optimize latency handling ([fd8fc51](https://github.com/Zephyruso/zashboard/commit/fd8fc51bf703913e9275a164c7c8c75c76a1d3d0))\n* scroll to the active node on expand and fix node scroll positioning ([cb15575](https://github.com/Zephyruso/zashboard/commit/cb15575a025255e9968009a96eb4368cc9169ed4))\n\n\n### Bug Fixes\n\n* adjust virtual table layout for proper sticky header and background alignment ([4a7e06e](https://github.com/Zephyruso/zashboard/commit/4a7e06e9024aed107751b8656875f0cade13fc63))\n* ensure full proxy chain is always displayed in connection details ([c88976d](https://github.com/Zephyruso/zashboard/commit/c88976d668a25a12e0696007da19292919b5155d))\n* improve layout of connection metrics by adjusting icon positioning and spacing ([2b59feb](https://github.com/Zephyruso/zashboard/commit/2b59febc3bd2751934ff76fe29322d59afbdfd81))\n* update modal open state handling to prevent overflow issues during transitions ([bd65a45](https://github.com/Zephyruso/zashboard/commit/bd65a459555d98e5b2f26afeaa85879ed71ae345))"
             }
           ],
           "last_commit": {
