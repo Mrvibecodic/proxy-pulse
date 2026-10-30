@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:57:34.468852Z",
+  "generated_at": "2026-10-30T08:02:52.865408Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39419,
+            "stars": 39420,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T07:54:41Z",
+            "pushed_at": "2026-10-30T08:02:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,27 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f311fd8",
+                  "message": "python-cffi: Update to 1.17.1",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T08:00:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/f311fd8acbf955b29e8dd3e29b69847048ff37f8"
+                },
+                {
+                  "sha": "95a7ee2",
+                  "message": "python-greenlet: update to 3.3.1",
+                  "author": "Rosen Penev",
+                  "date": "2026-10-30T07:59:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/95a7ee2bdd95703b37c6190861fa36c211a21be4"
+                },
+                {
+                  "sha": "7a16865",
+                  "message": "python-greenlet: upgrade to version 3.2.4",
+                  "author": "Alexandru Ardelean",
+                  "date": "2026-10-30T07:59:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/7a168651a196818601713f3e35bc066e596e6679"
+                },
+                {
                   "sha": "55f78cd",
                   "message": "apache: update to version 2.4.69",
                   "author": "Josef Schlehofer",
@@ -3322,27 +3343,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-13T21:03:53Z",
                   "url": "https://github.com/openwrt/packages/commit/732eec50eb5d97aa9856dfe2a95846fe94e5ef1e"
-                },
-                {
-                  "sha": "1860b62",
-                  "message": "radicale3: bump to v3.7.8",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:03:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/1860b62758285d31cddb74d7fda5d5526b0631bd"
-                },
-                {
-                  "sha": "791d7d1",
-                  "message": "radicale3: bump version to v3.7.7",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:03:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/791d7d1eaeb14bd48c71441027c4724bd51d4641"
-                },
-                {
-                  "sha": "f064f96",
-                  "message": "unbound: add DNSSEC KSK-2024 and remove KSK-2010",
-                  "author": "Andrey Brusnik",
-                  "date": "2026-10-11T18:58:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/f064f96a8d95ef490f515548021defe77d4e1c92"
                 }
               ]
             },
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17960,
+            "stars": 17961,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-30T06:38:31Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c352293",
-            "branch": "tw/fp-07-index-ownership",
-            "date": "2026-10-28T22:22:00Z",
-            "url": "https://github.com/grafana/loki/commit/c35229324b35d1aaa7563e568215d3f1533eec60"
+            "sha": "eb2a8ca",
+            "branch": "deps-update/release-3.7.x-go.opentelemetry.iocollectorconfmapxconfmap",
+            "date": "2026-10-29T00:18:22Z",
+            "url": "https://github.com/grafana/loki/commit/eb2a8caa90d736d82558f78eb1f24656a1bb9d79"
           }
         }
       ]
