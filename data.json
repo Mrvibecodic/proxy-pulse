@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:34:23.570840Z",
+  "generated_at": "2026-10-30T05:39:43.312403Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "78b5a6e",
+            "sha": "8a3c0cb",
             "branch": "main",
-            "date": "2026-10-29T02:34:49Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/78b5a6ec5cd65972b07d4e0560aa43114f14b183"
+            "date": "2026-10-29T02:54:55Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/8a3c0cbf1dfef199bbcdd9667ad7d206492e1aa8"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T05:34:08Z",
+            "pushed_at": "2026-10-30T05:37:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "72e727c",
+                  "message": "luajit: do not build on riscv64",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:37:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/72e727c51a84836cd7d391ab07a21bd233fef8fd"
+                },
+                {
+                  "sha": "0839415",
+                  "message": "luajit: indent the package metadata with two spaces",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:37:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/0839415eb5917606a4a67e83bf223c0d15b337a4"
+                },
+                {
+                  "sha": "8db268f",
+                  "message": "libreswan: provide openswan only from libreswan",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:36:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/8db268f78b1d754e9f1153c0e55e4365d340c648"
+                },
+                {
+                  "sha": "6a50443",
+                  "message": "frr: conflict with the standalone babeld and bfdd",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:34:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/6a50443e6b7d670bba809df0f24532a748d66a1b"
+                },
+                {
                   "sha": "7db5b76",
                   "message": "openssh: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2025,34 +2053,6 @@
                   "author": "Christian Marangi",
                   "date": "2026-10-27T12:34:51Z",
                   "url": "https://github.com/openwrt/packages/commit/3a4f118a016af8a250fc77bb51b92aa2daf91f0a"
-                },
-                {
-                  "sha": "97e08c4",
-                  "message": "netatalk: remove buildbot added dependency on libunwind",
-                  "author": "Antonio Pastor",
-                  "date": "2026-10-27T12:20:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/97e08c46692f0714e9de672d272e6efb6d1ff013"
-                },
-                {
-                  "sha": "f9faf3f",
-                  "message": "htop: update to 3.5.3",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-26T14:26:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9faf3fc2826ee55616ddffa59ecc170561d25a4"
-                },
-                {
-                  "sha": "770e4a0",
-                  "message": "go2rtc: update to 1.9.15",
-                  "author": "Vladimir Ermakov",
-                  "date": "2026-10-26T14:08:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/770e4a0301578ea87a6ef069b1855e82d0af339f"
-                },
-                {
-                  "sha": "26142e7",
-                  "message": "owut: update to 2026.10.25",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-10-26T13:56:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/26142e7008f50f590898bddf27d976ca653d999c"
                 }
               ]
             },
@@ -3135,6 +3135,27 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "55f78cd",
+                  "message": "apache: update to version 2.4.69",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:35:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/55f78cda1fc94c4b0b1b4bf85d75302c6eac4dda"
+                },
+                {
+                  "sha": "ddb4277",
+                  "message": "apache: add version overrides",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-10-30T05:35:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/ddb4277e83ab4ac34e5d765f1f66b0c6fc3e8777"
+                },
+                {
+                  "sha": "c7cd173",
+                  "message": "gzip: update to version 1.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:35:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/c7cd17309a086f23ebf1b187d32b1ff693cea275"
+                },
+                {
                   "sha": "41d0762",
                   "message": "node: backport the brotli fix for CVE-2026-111497",
                   "author": "Josef Schlehofer",
@@ -3322,33 +3343,26 @@
                   "author": "Andrey Brusnik",
                   "date": "2026-10-11T18:58:14Z",
                   "url": "https://github.com/openwrt/packages/commit/f064f96a8d95ef490f515548021defe77d4e1c92"
-                },
-                {
-                  "sha": "b65519e",
-                  "message": "haveged: update to 1.9.26",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-11T06:54:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/b65519e6b5804cf181bb5885420cd76105d284b4"
-                },
-                {
-                  "sha": "38fdedd",
-                  "message": "selinux-python: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-10T19:18:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/38fdedd365a0f5e66243311be605ffe282d93180"
-                },
-                {
-                  "sha": "00b74df",
-                  "message": "python3: match packages by pattern in version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-10T19:18:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/00b74df575698dad8ba158a45964a9a09d888a5c"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "1567eb7",
+                  "message": "apache: update to version 2.4.69",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:36:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/1567eb71e35660a54b073c8f91f61fcd8ce35d4e"
+                },
+                {
+                  "sha": "88b0e4d",
+                  "message": "gzip: update to version 1.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:35:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/88b0e4d4b7ef64660691ebf802d9accc513c7a5a"
+                },
                 {
                   "sha": "eecff17",
                   "message": "cloudflared: update to 2026.10.6",
@@ -3544,20 +3558,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/6e5cd49c88da8b81bacad8686a4a153fd602fc98"
-                },
-                {
-                  "sha": "d20a92f",
-                  "message": "nano: update to 9.3",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-25T07:47:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/d20a92f5a55b51fd239fc29917ca49bb101ac223"
-                },
-                {
-                  "sha": "9701718",
-                  "message": "knot-resolver: update to version 5.7.9 (fixes compatibility with knot 3.6)",
-                  "author": "Daniel Salzman",
-                  "date": "2026-10-25T07:36:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/970171870e8a3b2855d1ef9774442f40e56d006e"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77585,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T04:36:12Z",
+            "pushed_at": "2026-10-30T05:35:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "abeb9f1",
-            "branch": "main",
-            "date": "2026-10-29T04:26:38Z",
-            "url": "https://github.com/grafana/grafana/commit/abeb9f1237af4fa883e29bb45f0da807fbb9d053"
+            "sha": "439db4c",
+            "branch": "secrets/replace-storage-with-kv-interface",
+            "date": "2026-10-28T12:59:54Z",
+            "url": "https://github.com/grafana/grafana/commit/439db4c915b869e86293c57b131fc1b0be17c9f3"
           }
         },
         {
@@ -5576,10 +5576,10 @@
             }
           ],
           "last_commit": {
-            "sha": "276bcad",
+            "sha": "cb73bfe",
             "branch": "dev",
-            "date": "2026-10-28T12:23:30Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/276bcad346c27add914ff3c61cbdd9da16c10a1b"
+            "date": "2026-10-28T12:59:20Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/cb73bfec5975ab5a7bdf4272a42c1e69eb2c2cfb"
           }
         },
         {
