@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T03:37:53.594372Z",
+  "generated_at": "2026-10-30T03:43:10.269761Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39402,
+            "stars": 39403,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T03:05:18Z",
+            "pushed_at": "2026-10-30T03:43:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,69 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "eecff17",
+                  "message": "cloudflared: update to 2026.10.6",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:33:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/eecff1720a4ee0c4d7124d71953bee92c6d489c9"
+                },
+                {
+                  "sha": "33230cf",
+                  "message": "cloudflared: update to 2026.10.5",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:32:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/33230cf6e48538cbb9441a36c8e494a73276d96d"
+                },
+                {
+                  "sha": "577016d",
+                  "message": "yq: update to 4.54.1",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:31:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/577016d8e9ae2035b8d2afacfc088b314e74b9cb"
+                },
+                {
+                  "sha": "16fe722",
+                  "message": "dufs: update to 0.47.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:31:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/16fe7222e47ca23032e96015bcd5545b00058a34"
+                },
+                {
+                  "sha": "2846983",
+                  "message": "openlist: update to 4.2.7",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:31:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/28469835c6e8eadf4a318ad1057d1e1b927b868d"
+                },
+                {
+                  "sha": "729471f",
+                  "message": "dnsproxy: update to 0.86.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:31:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/729471f177248fcede707afc94759fabf1254792"
+                },
+                {
+                  "sha": "21d8384",
+                  "message": "dnsproxy: update to 0.84.2",
+                  "author": "Tawhidul Islam",
+                  "date": "2026-10-30T03:30:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/21d8384fd2a2c4a1d441e3a0e472222e6aa4d088"
+                },
+                {
+                  "sha": "254f13c",
+                  "message": "rclone: update to 1.75.2",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:30:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/254f13c7d605b557ca14c75a917f2cd3265ceace"
+                },
+                {
+                  "sha": "dfaccea",
+                  "message": "cloudflared: update to 2026.10.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T03:29:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/dfaccea23600ae27d45cb83c1e7a94f6a26fb8b9"
+                },
+                {
                   "sha": "017f7ee",
                   "message": "owut: update to 2026.10.25",
                   "author": "Eric Fahlgren",
@@ -3495,69 +3558,6 @@
                   "author": "Daniel Salzman",
                   "date": "2026-10-25T07:36:22Z",
                   "url": "https://github.com/openwrt/packages/commit/970171870e8a3b2855d1ef9774442f40e56d006e"
-                },
-                {
-                  "sha": "7ce1a97",
-                  "message": "knot: upgrade to version 3.6.2",
-                  "author": "Daniel Salzman",
-                  "date": "2026-10-24T17:17:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/7ce1a975e813e62a8c57cecff99eeb678f4ef478"
-                },
-                {
-                  "sha": "29caf0b",
-                  "message": "knot: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-24T17:17:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/29caf0b27d88d65c65bf2365828d620ff07b393a"
-                },
-                {
-                  "sha": "1846886",
-                  "message": "zoneinfo: update to 2026e release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-10-24T09:33:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/1846886aabcb0bf29ba5ed041ac16c84fb95ed5f"
-                },
-                {
-                  "sha": "802d7b0",
-                  "message": "zoneinfo: use SPDX valid identifier Unlicense instead of Public-Domain",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-24T09:30:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/802d7b02ed5995d3807851a8b12761db75a05358"
-                },
-                {
-                  "sha": "e78f0d0",
-                  "message": "chrony: make chrony-hotplug more reliable",
-                  "author": "Florian Wagner",
-                  "date": "2026-10-24T09:09:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/e78f0d030ef0ff15e1fd1687c67779cc51c1b09c"
-                },
-                {
-                  "sha": "6944e2d",
-                  "message": "kea: bump to 3.0.4",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-10-24T07:34:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/6944e2d2508c3c8ca09d8ed81257c0152f7ddfb5"
-                },
-                {
-                  "sha": "ebde552",
-                  "message": "yt-dlp: bump to 2026.10.21",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T18:18:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/ebde552f5879a24060d5428654656c9b9579b8bd"
-                },
-                {
-                  "sha": "2233af7",
-                  "message": "yt-dlp: bump to 2026.08.19",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T18:18:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/2233af72cfa8bcfdf64d40910c74e07dbda37138"
-                },
-                {
-                  "sha": "8bf0ca9",
-                  "message": "syncthing: bump to 2.1.7",
-                  "author": "George Sapkin",
-                  "date": "2026-10-23T18:17:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/8bf0ca99c6de8baeee09098e063d8e6de697377d"
                 }
               ]
             },
@@ -5039,7 +5039,7 @@
             "stars": 93078,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T03:18:09Z",
+            "pushed_at": "2026-10-30T03:43:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26676,
+            "stars": 26677,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-29T20:26:41Z",
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77582,
+            "stars": 77583,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-30T03:04:56Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9f0487a",
-            "branch": "ale/provisioning-managed-badge",
-            "date": "2026-10-28T20:38:13Z",
-            "url": "https://github.com/grafana/grafana/commit/9f0487a60c435c8d4d486bf2c9bab8f1dbec00e5"
+            "sha": "87de959",
+            "branch": "ale/provisioning-save-resource-drawer",
+            "date": "2026-10-28T20:43:21Z",
+            "url": "https://github.com/grafana/grafana/commit/87de9594c82dbb704854c20f95b156888250281b"
           }
         },
         {
@@ -5379,7 +5379,7 @@
             "stars": 17955,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-10-29T21:20:27Z",
+            "pushed_at": "2026-10-30T03:39:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a3f32d9",
-            "branch": "main",
-            "date": "2026-10-28T22:35:49Z",
-            "url": "https://github.com/grafana/loki/commit/a3f32d97321e66256906f301f9a8e82bb2a2d443"
+            "sha": "ad6fba3",
+            "branch": "jnewbigin/logql-output-preserving",
+            "date": "2026-10-29T02:32:33Z",
+            "url": "https://github.com/grafana/loki/commit/ad6fba3db93673b4f1801fc5b3ffa07598733257"
           }
         }
       ]
@@ -5871,7 +5871,7 @@
             "stars": 8111,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T02:50:47Z",
+            "pushed_at": "2026-10-30T03:38:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
