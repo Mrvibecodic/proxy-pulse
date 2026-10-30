@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T19:24:34.265804Z",
+  "generated_at": "2026-10-30T19:29:52.413757Z",
   "groups": [
     {
       "id": "cores",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "62e8458",
-            "branch": "main",
-            "date": "2026-10-29T13:55:51Z",
-            "url": "https://github.com/openwrt/openwrt/commit/62e84586e4208b2114448e0bec596e03d8f601fa"
+            "sha": "d36ac0f",
+            "branch": "openwrt-24.10",
+            "date": "2026-10-29T14:03:00Z",
+            "url": "https://github.com/openwrt/openwrt/commit/d36ac0fafe80c20a2b5447f0176d81da2a2bc613"
           }
         },
         {
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2109,
+            "stars": 2110,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-29T14:01:55Z",
@@ -5175,7 +5175,7 @@
             "stars": 77580,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T19:16:02Z",
+            "pushed_at": "2026-10-30T19:29:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "02ff932",
-            "branch": "ale/provisioning-managed-badge",
-            "date": "2026-10-28T18:07:03Z",
-            "url": "https://github.com/grafana/grafana/commit/02ff93201b93986eadb7fe7cd33cc1ab7248a1ad"
+            "sha": "1b843fa",
+            "branch": "codex/sql-composable-query-builder",
+            "date": "2026-10-29T09:36:21Z",
+            "url": "https://github.com/grafana/grafana/commit/1b843fa976f56940039ae2c9e5e835df3f9f94ff"
           }
         },
         {
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "21348eb",
-            "branch": "dependabot/go_modules/src/go/github.com/aws/aws-sdk-go-v2/service/sts-1.51.5",
-            "date": "2026-10-29T08:47:33Z",
-            "url": "https://github.com/netdata/netdata/commit/21348ebe42beb8ef0b89b71c3baa941077354e4a"
+            "sha": "610ca05",
+            "branch": "master",
+            "date": "2026-10-29T11:40:30Z",
+            "url": "https://github.com/netdata/netdata/commit/610ca05869f70253ec03025c1a9bb579f6fd3f2b"
           }
         },
         {
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "31271f6",
-            "branch": "cluster",
-            "date": "2026-10-29T14:04:21Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/31271f622c4d11c753e206467744b20e7eb7b9a8"
+            "sha": "b4b0ca9",
+            "branch": "master",
+            "date": "2026-10-29T14:03:53Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/b4b0ca9c47e8c61c5f7a9823ff6eaff466d5bff5"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29095,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T19:16:50Z",
+            "pushed_at": "2026-10-30T19:29:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e9471e1",
-            "branch": "chaudum/enable-release-workflow",
-            "date": "2026-10-29T14:00:12Z",
-            "url": "https://github.com/grafana/loki/commit/e9471e18f6a41fefaf6799a98d545c4f493d85c7"
+            "sha": "1563e2c",
+            "branch": "deps-update/release-3.7.x-security-pkgpush-golang.orgxnet",
+            "date": "2026-10-28T18:10:11Z",
+            "url": "https://github.com/grafana/loki/commit/1563e2c257ab62810f796d68340018a460a4df67"
           }
         }
       ]
@@ -5523,12 +5523,21 @@
             "stars": 33,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T16:29:50Z",
+            "pushed_at": "2026-10-30T19:26:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "1.10.1",
+              "tag": "v1.10.1",
+              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.10.1",
+              "published_at": "2026-10-30T19:26:45Z",
+              "prerelease": false,
+              "author": "Mrvibecodic",
+              "body": "Кнопки под телефон и чистый чат без висящих сообщений.\n\n**🔧 Изменено**\n- Кнопки, которые не влезают в ряд на телефоне, бот переносит на следующую строку — подписи больше не обрезаются, в том числе свои тексты кнопок и названия тарифов\n- Главное меню с подпиской: «Мои подписки» во всю ширину, под ним «Продлить» и «Кошелёк»\n- При переходе бот сначала показывает новый экран, а старый убирает следом — без мигающей кнопки «Запустить»\n- «На сколько хватит» в кошельке — обычными строками вместо таблицы с кнопкой «Копировать код»\n- На экране триала у переключателя возврата своя подпись: «Возврат включён / выключен»\n- Из редактора текстов убраны подписи «Plan» и «Price» — колонок в кошельке больше нет\n\n**🐛 Исправлено**\n- Пояснения вроде «Покупок ещё не было» и итог авторизации ЮMoney больше не остаются в чате — уходят вместе с экраном\n- Отказ сброса устройств показывается экраном, а не отдельным сообщением с двумя кнопками «Главная»\n- Вторая «Главная» под уведомлениями, где она уже была\n- Кнопка «Порог трафика» показывала «%%»\n- Если новый экран не отправился, старый остаётся в чате\n\n**📚 Документация**\n- Кнопка возврата триала\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
+            },
             {
               "name": "1.10.0",
               "tag": "v1.10.0",
@@ -5564,15 +5573,6 @@
               "prerelease": false,
               "author": "Mrvibecodic",
               "body": "Патч: бот снова надёжно находит подписчиков на панели 2.8.x, Go обновлён до 1.27.2 с исправлениями безопасности.\n\n**🐛 Исправлено**\n- Панель 2.8.x: после поиска человека, которого на панели нет, бот принимал её за 3.x и переставал находить подписчиков. Продление в таком состоянии заводило второй аккаунт или падало с ошибкой «username already exists». Теперь версия панели определяется верно — проверено на панелях 2.7.4, 2.8.1 и 3.4.5. Если бот работал с 2.8.x, проверьте в панели, нет ли у кого-то двух аккаунтов с одним Telegram ID.\n\n**🔒 Безопасность**\n- Go 1.27.2: исправлены уязвимости стандартной библиотеки в net/http (HTTP/2), crypto/tls и mime/multipart.\n\n**📦 Зависимости**\n- golang.org/x/crypto 0.58.0, golang.org/x/net 0.60.0.\n- Сайт документации: astro 7.4.0, @astrojs/starlight 0.42.6.\n\n**🏗 Сборка**\n- golangci-lint 2.15.0: версия 2.13.2 не работает с Go 1.27.2.\n\n**📚 Документация**\n- [«Права токена панели»](https://remna.shop/reference/panel-scopes/): список для вставки — в формате JSON (кнопка «Вставить» в панели принимает только его), скоупы есть с панели 2.8.0, а не только в 3.x, добавлены права для 2.8.x, уточнён раздел про ошибки 403.\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
-            },
-            {
-              "name": "1.9.4",
-              "tag": "v1.9.4",
-              "url": "https://github.com/Mrvibecodic/chill-remna-bot/releases/tag/v1.9.4",
-              "published_at": "2026-10-07T13:56:33Z",
-              "prerelease": false,
-              "author": "Mrvibecodic",
-              "body": "Патч: длинные строки больше не растягивают вёрстку мини-аппа и кабинета — в обоих дизайнах.\n\n**🐛 Исправлено**\n- Список подключённых устройств в классическом дизайне: длинные модели, приложения и отпечатки вылезали за карточку. Теперь название устройства сверху, платформа, отпечаток и дата — строкой ниже, длинные значения переносятся.\n- Карточка подписки на узком экране: при доп-сервере четыре колонки слипались («ОСТАЛОСЬУСТРОЙСТВА»). Теперь они встают в две строки.\n- Длинная почта, ссылки, названия и описания тарифов, стран, способов оплаты, приложений и документов больше не выходят за экран — на карточках тарифов, оформлении, подключении, в аккаунте, рефералке и документах.\n\n**⬆️ Обновление**\n```\ndocker compose pull \u0026\u0026 docker compose up -d\n```\nили `/update` в боте\n"
             }
           ],
           "last_commit": {
