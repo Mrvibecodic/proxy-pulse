@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:52:14.867444Z",
+  "generated_at": "2026-10-30T07:57:34.468852Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42467,
+            "stars": 42468,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-30T02:46:07Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35347,
+            "stars": 35348,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-28T11:45:41Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5277,
+            "stars": 5278,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-28T20:00:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T07:46:53Z",
+            "pushed_at": "2026-10-30T07:54:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c46ecc7",
+                  "message": "mpd: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T07:54:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/c46ecc7fc3abecf7bd622ab876f71ce9c1e77806"
+                },
+                {
                   "sha": "8398abf",
                   "message": "travelmate: update to 3.0.0, rewrite in ucode",
                   "author": "Dirk Brenken",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-30T05:33:42Z",
                   "url": "https://github.com/openwrt/packages/commit/72cfdb90841aecd2fd3c39aed534669a16bb9805"
-                },
-                {
-                  "sha": "291fbc8",
-                  "message": "telegraf: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:33:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/291fbc8f3a2aed8c0d7a36b36bc36987771c72af"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93088,
+            "stars": 93089,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-30T03:43:00Z",
@@ -5175,7 +5175,7 @@
             "stars": 77585,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T07:50:51Z",
+            "pushed_at": "2026-10-30T07:57:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "29a2654",
-            "branch": "main",
-            "date": "2026-10-29T00:08:11Z",
-            "url": "https://github.com/grafana/grafana/commit/29a26549c05319abdfda0d7b88ba40195d2e57d0"
+            "sha": "b89b811",
+            "branch": "better-status-page",
+            "date": "2026-10-29T03:05:10Z",
+            "url": "https://github.com/grafana/grafana/commit/b89b81103ea64579c50b4989ef0b64e7cde162b3"
           }
         },
         {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c3ec04e",
-            "branch": "l10n_crowdin",
-            "date": "2026-10-29T00:06:49Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/c3ec04e2a5388f6b8c17f624e84349b476a2e489"
+            "sha": "df92fd3",
+            "branch": "main",
+            "date": "2026-10-29T00:08:14Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/df92fd30f4ba52321f3cc4636cfe140703b34f53"
           }
         }
       ]
