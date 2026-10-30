@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:22:06.005169Z",
+  "generated_at": "2026-10-30T06:27:23.812618Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T06:03:06Z",
+            "pushed_at": "2026-10-30T06:25:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "9700179",
+                  "message": "adblock: run report capture as separate procd instance",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-30T06:23:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/9700179642946c2aa1a7bad5753a4586862b9a8d"
+                },
+                {
                   "sha": "72e727c",
                   "message": "luajit: do not build on riscv64",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Sami Salonen",
                   "date": "2026-10-27T15:52:23Z",
                   "url": "https://github.com/openwrt/packages/commit/f9983a8169942a55e5768a1c503653e40613835c"
-                },
-                {
-                  "sha": "3a4f118",
-                  "message": "shairport-sync: support new libavcodec version",
-                  "author": "Christian Marangi",
-                  "date": "2026-10-27T12:34:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/3a4f118a016af8a250fc77bb51b92aa2daf91f0a"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "759299d",
+                  "message": "adblock: run report capture as separate procd instance",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-30T06:25:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/759299d81abf799d4092fb2c81f212e02ed01bee"
+                },
+                {
                   "sha": "0c05984",
                   "message": "netatalk: remove buildbot added dependency on libunwind",
                   "author": "Antonio Pastor",
@@ -3551,13 +3558,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/9b42f4d05a500ea5b6a7f505d73d4792c434ec5e"
-                },
-                {
-                  "sha": "ec387eb",
-                  "message": "luaexpat: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/ec387ebde718390539124637c3ac2dc8cc68f0b7"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16329,
+            "stars": 16328,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-10-04T07:18:54Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f1b1d95",
-            "branch": "tiehm/folder-cascade-delete-init",
-            "date": "2026-10-28T13:25:38Z",
-            "url": "https://github.com/grafana/grafana/commit/f1b1d95805ae03e54d937ae50499b62a2c08edbc"
+            "sha": "8e46f17",
+            "branch": "scopes/mega-menu-style",
+            "date": "2026-10-28T10:45:40Z",
+            "url": "https://github.com/grafana/grafana/commit/8e46f178bf0156a3b3dc33d8d8a1f5fbec5762d9"
           }
         },
         {
