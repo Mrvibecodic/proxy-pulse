@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T11:14:10.474211Z",
+  "generated_at": "2026-10-30T11:19:29.143829Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7649,
+            "stars": 7648,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-24T14:28:03Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T08:02:01Z",
+            "pushed_at": "2026-10-30T11:14:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6231f41",
+                  "message": "rust: hide rust/host users with the build system's Rust toolchain",
+                  "author": "Daniel Golle",
+                  "date": "2026-10-30T11:14:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6231f41016f8233e0ce7e75f53cea592d32690f0"
+                },
+                {
                   "sha": "c46ecc7",
                   "message": "mpd: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-30T05:34:08Z",
                   "url": "https://github.com/openwrt/packages/commit/7db5b76e831efad9a494ffc2bd4d6c711ef0e132"
-                },
-                {
-                  "sha": "72cfdb9",
-                  "message": "telegraf: indent the package metadata with two spaces",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:33:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/72cfdb90841aecd2fd3c39aed534669a16bb9805"
                 }
               ]
             },
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2105,
+            "stars": 2106,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-10-29T14:01:55Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26694,
+            "stars": 26695,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-10-29T20:26:41Z",
@@ -5175,7 +5175,7 @@
             "stars": 77583,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T11:11:50Z",
+            "pushed_at": "2026-10-30T11:17:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ef1d5cc",
-            "branch": "matyax/displayed-fields-control-deprecation-2",
-            "date": "2026-10-28T16:16:53Z",
-            "url": "https://github.com/grafana/grafana/commit/ef1d5ccd2ddc70268fdeab747eba3d39752eaf5b"
+            "sha": "9b82f05",
+            "branch": "cursor/panel-actions-popover-preview-44ae",
+            "date": "2026-10-28T13:42:12Z",
+            "url": "https://github.com/grafana/grafana/commit/9b82f05458111cb52de36792bde0dcb8e86e98f7"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29095,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T11:00:30Z",
+            "pushed_at": "2026-10-30T11:17:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
