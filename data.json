@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:49:36.259581Z",
+  "generated_at": "2026-10-30T20:54:55.111193Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4661,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T11:14:18Z",
+            "pushed_at": "2026-10-30T20:52:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "63f96e5",
+                  "message": "shunt: tproxy improvements \u0026 fixes",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-30T20:52:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/63f96e57d5f4b8b152b170171dfc8f60529714c2"
+                },
+                {
                   "sha": "6231f41",
                   "message": "rust: hide rust/host users with the build system's Rust toolchain",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-30T05:34:59Z",
                   "url": "https://github.com/openwrt/packages/commit/6a50443e6b7d670bba809df0f24532a748d66a1b"
-                },
-                {
-                  "sha": "7db5b76",
-                  "message": "openssh: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:34:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/7db5b76e831efad9a494ffc2bd4d6c711ef0e132"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77584,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T20:45:07Z",
+            "pushed_at": "2026-10-30T20:51:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b9d3af5",
-            "branch": "ash/node-26",
-            "date": "2026-10-29T10:32:20Z",
-            "url": "https://github.com/grafana/grafana/commit/b9d3af52b5fda62e1cc6595e859c75e773cda55d"
+            "sha": "e7fbc77",
+            "branch": "ale/provisioning-generic-kinds",
+            "date": "2026-10-29T15:13:33Z",
+            "url": "https://github.com/grafana/grafana/commit/e7fbc774c9a06e327a956e30fdc004bf2811efcd"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66859,
+            "stars": 66860,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-30T19:05:13Z",
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 17970,
+            "stars": 17971,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-10-30T14:47:46Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "713039a",
-            "branch": "vmctl-native-state",
-            "date": "2026-10-29T13:49:04Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/713039a00aaef0e0ba5a7c24c0e2c5b831246a6c"
+            "sha": "018bd9a",
+            "branch": "gh-3992",
+            "date": "2026-10-29T12:34:40Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/018bd9a9b8473317f20d1ca6fcf3ff7fbd4fa052"
           }
         },
         {
