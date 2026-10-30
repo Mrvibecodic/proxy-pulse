@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T05:29:04.011096Z",
+  "generated_at": "2026-10-30T05:34:23.570840Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39407,
+            "stars": 39409,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1509,
+            "stars": 1510,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-10-28T07:21:33Z",
@@ -771,7 +771,7 @@
           "track": "releases",
           "meta": {
             "description": "A Simple desktop GUI client for mihomo",
-            "stars": 398,
+            "stars": 399,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
             "pushed_at": "2026-10-26T08:18:30Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T04:09:06Z",
+            "pushed_at": "2026-10-30T05:34:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7db5b76",
+                  "message": "openssh: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:34:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/7db5b76e831efad9a494ffc2bd4d6c711ef0e132"
+                },
+                {
+                  "sha": "72cfdb9",
+                  "message": "telegraf: indent the package metadata with two spaces",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:33:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/72cfdb90841aecd2fd3c39aed534669a16bb9805"
+                },
+                {
+                  "sha": "291fbc8",
+                  "message": "telegraf: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:33:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/291fbc8f3a2aed8c0d7a36b36bc36987771c72af"
+                },
+                {
+                  "sha": "bc8dc61",
+                  "message": "acme-acmesh: conflict with uacme",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-30T05:33:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/bc8dc611c4e89966f9849a374bb11fada0b3925f"
+                },
+                {
                   "sha": "64b2de0",
                   "message": "openlist: update to 4.2.9",
                   "author": "Tianling Shen",
@@ -2025,34 +2053,6 @@
                   "author": "Eric Fahlgren",
                   "date": "2026-10-26T13:56:33Z",
                   "url": "https://github.com/openwrt/packages/commit/26142e7008f50f590898bddf27d976ca653d999c"
-                },
-                {
-                  "sha": "8be4b4a",
-                  "message": "prometheus-node-exporter-ucode: fix syntax error since ucode bump",
-                  "author": "Andre Heider",
-                  "date": "2026-10-26T10:56:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/8be4b4ad7c300f152b4a6a839705ed3676b55eea"
-                },
-                {
-                  "sha": "15a3b19",
-                  "message": "node: bump to 22.23.4",
-                  "author": "Paweł Owoc",
-                  "date": "2026-10-26T09:14:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/15a3b19e0a84d2748332725a3e55ffe2c7e151cb"
-                },
-                {
-                  "sha": "55a2c45",
-                  "message": "nano: enable uci syntax highlighting by default",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-25T17:49:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/55a2c45d8b6d3c0c1695c1bdb5c87ffc3119e2f0"
-                },
-                {
-                  "sha": "4abdc29",
-                  "message": "uplinkdns: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-25T16:47:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/4abdc29f0d194711e0ea8e2afecac29be19bdd3a"
                 }
               ]
             },
@@ -3999,7 +3999,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2229,
+            "stars": 2230,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-10-24T14:19:34Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8ed6cdb",
+            "sha": "abeb9f1",
             "branch": "main",
-            "date": "2026-10-28T10:01:16Z",
-            "url": "https://github.com/grafana/grafana/commit/8ed6cdb4b8eba6c76a691087951060167a801193"
+            "date": "2026-10-29T04:26:38Z",
+            "url": "https://github.com/grafana/grafana/commit/abeb9f1237af4fa883e29bb45f0da807fbb9d053"
           }
         },
         {
