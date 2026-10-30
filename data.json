@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:30:57.255551Z",
+  "generated_at": "2026-10-30T07:36:16.063560Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42465,
+            "stars": 42466,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-30T02:46:07Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39418,
+            "stars": 39419,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T07:07:18Z",
+            "pushed_at": "2026-10-30T07:34:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a078329",
+                  "message": "btop: update to 1.4.8",
+                  "author": "Tianling Shen",
+                  "date": "2026-10-30T07:32:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/a07832959fcce308eb03aae13ced14df8e53887f"
+                },
+                {
                   "sha": "4cc3381",
                   "message": "strongswan: bump PKG_RELEASE by one",
                   "author": "Florian Eckert",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-30T05:33:29Z",
                   "url": "https://github.com/openwrt/packages/commit/bc8dc611c4e89966f9849a374bb11fada0b3925f"
-                },
-                {
-                  "sha": "64b2de0",
-                  "message": "openlist: update to 4.2.9",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T04:08:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/64b2de08bc191ffb6e164d66b585d0f98d8ac5ce"
                 }
               ]
             },
@@ -3350,6 +3350,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "4f35305",
+                  "message": "xray-core: use golang1.27/host",
+                  "author": "Saxon Sun",
+                  "date": "2026-10-30T07:34:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/4f3530534ce198fdc90e7667502706e9ee179692"
+                },
+                {
+                  "sha": "6eb3b79",
+                  "message": "xray-core: bump to v26.10.21",
+                  "author": "Mikhail Stolyarov",
+                  "date": "2026-10-30T07:34:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/6eb3b79ed9a4693b2be8a0f985b192f3d30243f3"
+                },
+                {
+                  "sha": "0770b23",
+                  "message": "xray-core: update to 26.9.9",
+                  "author": "Mikhail Stolyarov",
+                  "date": "2026-10-30T07:34:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/0770b233a31d2c95c2ab32b6805f51b78b018d38"
+                },
+                {
                   "sha": "759299d",
                   "message": "adblock: run report capture as separate procd instance",
                   "author": "Dirk Brenken",
@@ -3537,27 +3558,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/2cbdf405407a0a21494c6a27d7c61dd27c6673cb"
-                },
-                {
-                  "sha": "b7259ba",
-                  "message": "lua-eco: align module installation with Lua 5.4 search paths",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/b7259ba7d607dfbff9daac5a9cd0a9a9cbd0c75a"
-                },
-                {
-                  "sha": "a316826",
-                  "message": "luasec: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/a3168269bfc2f09d4423447b55f138e9334698ea"
-                },
-                {
-                  "sha": "9b42f4d",
-                  "message": "luasocket: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b42f4d05a500ea5b6a7f505d73d4792c434ec5e"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77585,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T07:24:56Z",
+            "pushed_at": "2026-10-30T07:35:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "271d6cb",
-            "branch": "pstibrany/unified-storage-cancellation-status",
-            "date": "2026-10-28T11:28:31Z",
-            "url": "https://github.com/grafana/grafana/commit/271d6cbacab999d033d1f9d763240c8a96234cf5"
+            "sha": "5456e1d",
+            "branch": "alerting/gma-list-s6-folders",
+            "date": "2026-10-28T11:19:12Z",
+            "url": "https://github.com/grafana/grafana/commit/5456e1d976f18a7470fda6e416a6478c1b5ecc2c"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81221,
+            "stars": 81222,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-10-30T06:02:52Z",
