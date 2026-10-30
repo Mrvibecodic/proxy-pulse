@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:04:28.525604Z",
+  "generated_at": "2026-10-30T07:09:45.965702Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39416,
+            "stars": 39417,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1449,
+            "stars": 1450,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-10-27T10:52:54Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T06:25:09Z",
+            "pushed_at": "2026-10-30T07:07:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,146 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4cc3381",
+                  "message": "strongswan: bump PKG_RELEASE by one",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/4cc338143c547d663ac9d431a8a2121a0a639e1f"
+                },
+                {
+                  "sha": "776efff",
+                  "message": "strongswan: pass local certs for eap-tls authentication",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/776efff4c4103d0fef88b29974cedcb62800dbff"
+                },
+                {
+                  "sha": "494c532",
+                  "message": "strongswan: add xauth_id option to local section",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/494c53240fdb0be5c4aeb9d3b3f8d282c717dd34"
+                },
+                {
+                  "sha": "97373e5",
+                  "message": "strongswan: add eap_id option to local section",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/97373e54162acd69b77e400d5f50021f240fa398"
+                },
+                {
+                  "sha": "6c0b972",
+                  "message": "strongswan: add aaa_id option to local section",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c0b97290b8a7a0a24eba1db9fccc075d01b6a53"
+                },
+                {
+                  "sha": "bb98cd7",
+                  "message": "strongswan: allow certs in local section as option or list",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/bb98cd7fe52d999ddda856eddc98d6759e2662f0"
+                },
+                {
+                  "sha": "ff652e0",
+                  "message": "strongswan: add pubkeys list option to local section",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff652e08dae5279371f916dd4bb0a4950ac67132"
+                },
+                {
+                  "sha": "0daf8a8",
+                  "message": "strongswan: add pubkeys list option to remote section",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/0daf8a83fbe01bd3583a79611614809d9ddee79e"
+                },
+                {
+                  "sha": "6248289",
+                  "message": "strongswan: add reauth_time option to swanctl connections",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6248289cc38c215bf097ccf8df5ef414161e3f38"
+                },
+                {
+                  "sha": "f93d66c",
+                  "message": "strongswan: add rand_time option to swanctl children",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/f93d66c1036389096510b5b2f0c6a8b158b3d37f"
+                },
+                {
+                  "sha": "d6c5ee7",
+                  "message": "strongswan: add rand_time option to swanctl connections",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/d6c5ee77c8172a9a16800829714381e21d8c0368"
+                },
+                {
+                  "sha": "9e005fc",
+                  "message": "strongswan: add unique option to swanctl connections",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/9e005fcaed925d4f65e79a2856ad931e5a84b025"
+                },
+                {
+                  "sha": "8853498",
+                  "message": "strongswan: add dscp option to swanctl connections",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/88534983829a0f1554c7ec06e643fcc6e4b84137"
+                },
+                {
+                  "sha": "9d349f2",
+                  "message": "strongswan: add aggressive option to swanctl connections",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/9d349f2301ef2504b5fdb6c2a5bad05f9e3628e6"
+                },
+                {
+                  "sha": "86af16c",
+                  "message": "strongswan: add global enable flag to swanctl init",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/86af16c13cb31d326b8849d871be1cc7117462f5"
+                },
+                {
+                  "sha": "2b44a49",
+                  "message": "strongswan: fix loading of the uci config in service_triggers",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/2b44a49c3f13f2d13e3fd59031f4ae4b74016a9f"
+                },
+                {
+                  "sha": "6bd6e2d",
+                  "message": "strongswan: add file logging to swanctl init",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/6bd6e2dac525dcd906fd68b66d82ae18a98bd9c7"
+                },
+                {
+                  "sha": "f39ace1",
+                  "message": "strongswan: use swanctl default for dpd_delay",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/f39ace1292cff962f0358eb1f9208111bba80853"
+                },
+                {
+                  "sha": "b3fcd87",
+                  "message": "strongswan: use swanctl default for keyingtries",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/b3fcd878b72f317a1007713e18a99c2bf983bda1"
+                },
+                {
+                  "sha": "d140592",
+                  "message": "strongswan: move inactivity from connection to child",
+                  "author": "Florian Eckert",
+                  "date": "2026-10-30T07:07:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/d140592512ae408dc7f35b3a413e1dfacb320c63"
+                },
+                {
                   "sha": "9700179",
                   "message": "adblock: run report capture as separate procd instance",
                   "author": "Dirk Brenken",
@@ -1913,146 +2053,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-30T04:08:32Z",
                   "url": "https://github.com/openwrt/packages/commit/64b2de08bc191ffb6e164d66b585d0f98d8ac5ce"
-                },
-                {
-                  "sha": "15f2995",
-                  "message": "cloudflared: update to 2026.10.6",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:04:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/15f29959166ffcfbebad74ded4c46d03e0282096"
-                },
-                {
-                  "sha": "6307bdf",
-                  "message": "wg-installer: indent the package metadata with two spaces",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-29T08:08:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/6307bdf3b7997a4de5317e127383b4266fe36108"
-                },
-                {
-                  "sha": "0412e57",
-                  "message": "wg-installer: move the shared wg.sh to wg-installer-common",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-29T08:08:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/0412e575fd00e21e1144ded6a0f51f568cdc3a67"
-                },
-                {
-                  "sha": "7b81037",
-                  "message": "cloudflared: update to 2026.10.5",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-29T02:08:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/7b81037c4d1404a385841e3ef3a564d778dfdac0"
-                },
-                {
-                  "sha": "e13451c",
-                  "message": "prometheus-node-exporter-ucode: new modules \u0026 info update to 2026.10.28",
-                  "author": "Paul Donald",
-                  "date": "2026-10-28T20:16:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/e13451c6bc345d92792d0e89dd1a7fc757657d2d"
-                },
-                {
-                  "sha": "0afe9b1",
-                  "message": "ovpn-dco: update to 7.3.0.2026100801",
-                  "author": "Qingfang Deng",
-                  "date": "2026-10-28T17:29:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/0afe9b1e614f15149565e85b98f91f870ba50c29"
-                },
-                {
-                  "sha": "857e7cf",
-                  "message": "openvpn: enable wolfSSL variant",
-                  "author": "Qingfang Deng",
-                  "date": "2026-10-28T17:29:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/857e7cfb8879d310c327c7114a1d2b58ae452a9d"
-                },
-                {
-                  "sha": "a110cee",
-                  "message": "openvpn: update to 2.7.8",
-                  "author": "Qingfang Deng",
-                  "date": "2026-10-28T17:29:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/a110ceeebe2ef9fc009076439be2e1810414f1a7"
-                },
-                {
-                  "sha": "d201ddc",
-                  "message": "augeas: do not ship the lens tests in augeas-lenses",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T17:28:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/d201ddc3f986e4d0ea80ed54352df391b428d54f"
-                },
-                {
-                  "sha": "8877393",
-                  "message": "ngircd: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T17:26:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/887739374882a7bb235cf2faf289b3ddbf616b46"
-                },
-                {
-                  "sha": "563a5fd",
-                  "message": "nano: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T16:08:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/563a5fdf51e01494e7b8617e4b5beb295f8bdb20"
-                },
-                {
-                  "sha": "bed49df",
-                  "message": "perl-mail-spamassassin: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T13:40:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/bed49df0bc611df9cf8f4fc05169a8393699448a"
-                },
-                {
-                  "sha": "325ff7d",
-                  "message": "librespeed-common: refuse a zero step and a trailing comma",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T09:13:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/325ff7dde30a3235d693013a32fe524b51585bf2"
-                },
-                {
-                  "sha": "d20873c",
-                  "message": "librespeed-common: add a weekly schedule interval",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T09:13:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/d20873c8d61e7da02dca943bf5a68614f643b929"
-                },
-                {
-                  "sha": "da7767e",
-                  "message": "librespeed-common: measure and schedule per interface",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T09:13:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/da7767e56ffcce933f1e182336ac6dcb408d3b22"
-                },
-                {
-                  "sha": "1cc1d0c",
-                  "message": "librespeed-common: free the lock as soon as a run ends",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T09:13:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/1cc1d0ccc41233e143519a13006adb93ab90cd2f"
-                },
-                {
-                  "sha": "3c7f9b4",
-                  "message": "apache: update to version 2.4.69",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T06:11:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/3c7f9b46f1d0864e6771a9b68e4a99a956ce0ca8"
-                },
-                {
-                  "sha": "5a6e8d3",
-                  "message": "gzip: update to version 1.15",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T06:11:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a6e8d37ae606e77bbff9040c379f03b534da422"
-                },
-                {
-                  "sha": "401b45e",
-                  "message": "comrade: update to 0.3.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-27T19:52:34Z",
-                  "url": "https://github.com/openwrt/packages/commit/401b45e748b543f3f5e20c329e490d049ec5d263"
-                },
-                {
-                  "sha": "f9983a8",
-                  "message": "netbird: update to 0.81.4",
-                  "author": "Sami Salonen",
-                  "date": "2026-10-27T15:52:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9983a8169942a55e5768a1c503653e40613835c"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77585,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T06:41:39Z",
+            "pushed_at": "2026-10-30T07:09:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
