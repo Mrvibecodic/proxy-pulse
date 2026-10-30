@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T06:00:52.993130Z",
+  "generated_at": "2026-10-30T06:06:12.191726Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42462,
+            "stars": 42463,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-10-30T02:46:07Z",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b4123b5",
-            "branch": "main",
-            "date": "2026-10-29T04:44:43Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/b4123b57483bf27aad4a88373f341b0567c990d2"
+            "sha": "39eac8c",
+            "branch": "limit-geodata-downloader",
+            "date": "2026-10-28T22:37:27Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/39eac8c5351765bd54206beb87d1d598c2cd2279"
           }
         },
         {
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39410,
+            "stars": 39411,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35338,
+            "stars": 35339,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-28T11:45:41Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7641,
+            "stars": 7642,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-10-24T14:28:03Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T05:37:22Z",
+            "pushed_at": "2026-10-30T06:03:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "0c05984",
+                  "message": "netatalk: remove buildbot added dependency on libunwind",
+                  "author": "Antonio Pastor",
+                  "date": "2026-10-30T06:03:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/0c05984a0ef2d6c4ad63c164c931154a36ffe546"
+                },
+                {
+                  "sha": "de95f69",
+                  "message": "netatalk: update to 4.6.1",
+                  "author": "Antonio Pastor",
+                  "date": "2026-10-30T06:03:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/de95f6923677cd03ff63aee527c0097879ba7f68"
+                },
+                {
                   "sha": "1567eb7",
                   "message": "apache: update to version 2.4.69",
                   "author": "Josef Schlehofer",
@@ -3544,20 +3558,6 @@
                   "author": "Alexandru Ardelean",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/ec387ebde718390539124637c3ac2dc8cc68f0b7"
-                },
-                {
-                  "sha": "322d63a",
-                  "message": "luafilesystem: add Lua 5.4 variant",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/322d63a4f00192fed16dd4a49075fa0aa181561b"
-                },
-                {
-                  "sha": "6e5cd49",
-                  "message": "lua: look for lua5.4 modules under /usr instead of /usr/local",
-                  "author": "Alexandru Ardelean",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/6e5cd49c88da8b81bacad8686a4a153fd602fc98"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9fe6242",
-            "branch": "adhoc/05-range-filters",
-            "date": "2026-10-28T22:31:05Z",
-            "url": "https://github.com/grafana/grafana/commit/9fe6242fb761551b275b4d7005c6df8c38d8c461"
+            "sha": "cf44fb7",
+            "branch": "main",
+            "date": "2026-10-28T13:15:24Z",
+            "url": "https://github.com/grafana/grafana/commit/cf44fb70f6e277b9e08c42af9f3147419713f2b4"
           }
         },
         {
@@ -5308,10 +5308,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81217,
+            "stars": 81218,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T00:16:47Z",
+            "pushed_at": "2026-10-30T06:02:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5444,10 +5444,10 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29094,
+            "stars": 29095,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T05:04:43Z",
+            "pushed_at": "2026-10-30T06:01:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
