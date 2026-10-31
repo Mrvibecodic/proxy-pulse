@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T11:43:03.422074Z",
+  "generated_at": "2026-10-31T11:48:19.920743Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42509,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-31T11:29:03Z",
+            "pushed_at": "2026-10-31T11:47:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35382,
+            "stars": 35383,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.14-alpha.3",
+              "tag": "clod-v0.1.14-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.3",
+              "published_at": "2026-10-31T11:45:49Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Резервные копии сохраняются только на этом компьютере: копирование в WebDAV убрано, его прежние настройки удаляются при запуске\n- Главная, списки серверов, журнала и соединений и редакторы групп и правил подписки работают быстрее\n\n### Исправлено\n\n- Значок, подсказка и меню трея больше не застревают в прежнем состоянии после перезапуска ядра, переключений и пробуждения компьютера\n- Сервер, выбранный на Главной во время проверки задержек группы, получает пинг сразу"
+            },
             {
               "name": "Clod Clash clod-v0.1.14-alpha.2",
               "tag": "clod-v0.1.14-alpha.2",
@@ -901,7 +910,7 @@
             "stars": 7660,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-10-31T11:26:49Z",
+            "pushed_at": "2026-10-31T11:47:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -954,10 +963,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bf44c99",
+            "sha": "2c68c28",
             "branch": "dev",
-            "date": "2026-10-31T11:26:49Z",
-            "url": "https://github.com/throneproj/Throne/commit/bf44c9958a6029a065c13eaed9b2cf8a917f27ac"
+            "date": "2026-10-31T11:47:19Z",
+            "url": "https://github.com/throneproj/Throne/commit/2c68c2839fd9303d8b645e6e8a56c22b2757afc0"
           }
         },
         {
@@ -4736,7 +4745,7 @@
             "stars": 2114,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-10-30T23:13:53Z",
+            "pushed_at": "2026-10-31T11:47:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5030,7 +5039,7 @@
             "stars": 93120,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T06:31:32Z",
+            "pushed_at": "2026-10-31T11:43:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5163,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77593,
+            "stars": 77594,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-31T11:34:09Z",
@@ -5231,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66873,
+            "stars": 66874,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-10-30T23:27:43Z",
@@ -5491,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9185b1e",
-            "branch": "fix/ingester-ingestedat-from-record-timestamp",
-            "date": "2026-10-29T11:51:18Z",
-            "url": "https://github.com/grafana/loki/commit/9185b1e76cea30b77b2ea134c9e0277231a9b8ed"
+            "sha": "1034363",
+            "branch": "chaudum/enable-release-workflow",
+            "date": "2026-10-29T12:09:46Z",
+            "url": "https://github.com/grafana/loki/commit/1034363328c33d730052589357673c3caaf1dc52"
           }
         }
       ]
