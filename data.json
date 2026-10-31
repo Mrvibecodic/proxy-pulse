@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T07:08:31.267867Z",
+  "generated_at": "2026-10-31T07:13:47.494521Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39459,
+            "stars": 39460,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35377,
+            "stars": 35376,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T07:07:38Z",
+            "pushed_at": "2026-10-31T07:10:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "23dab78",
+                  "message": "yggdrasil: bump to 0.5.15",
+                  "author": "Ivan Chashkin",
+                  "date": "2026-10-31T07:10:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/23dab78c72f529764947fe413fe442f3d453abe0"
+                },
+                {
+                  "sha": "49dd70f",
+                  "message": "coredns: update to 1.15.0",
+                  "author": "Vladimir Ermakov",
+                  "date": "2026-10-31T07:09:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/49dd70ffec38ea76af06fe00316da0f4f54822c5"
+                },
+                {
                   "sha": "454a133",
                   "message": "rrdtool1: add test-version.sh",
                   "author": "Sander van Deijck",
@@ -2039,20 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/d6c5ee77c8172a9a16800829714381e21d8c0368"
-                },
-                {
-                  "sha": "9e005fc",
-                  "message": "strongswan: add unique option to swanctl connections",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/9e005fcaed925d4f65e79a2856ad931e5a84b025"
-                },
-                {
-                  "sha": "8853498",
-                  "message": "strongswan: add dscp option to swanctl connections",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/88534983829a0f1554c7ec06e643fcc6e4b84137"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77588,
+            "stars": 77589,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-10-31T00:42:17Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d8b2e79",
-            "branch": "khalilhaji/annotations-alert-uid-backend",
-            "date": "2026-10-29T21:53:05Z",
-            "url": "https://github.com/grafana/grafana/commit/d8b2e79fdb3ce168e382807553308fb38c5074db"
+            "sha": "e30ad86",
+            "branch": "renovate/github.com-protocolbuffers-txtpbfmt-digest",
+            "date": "2026-10-29T04:07:56Z",
+            "url": "https://github.com/grafana/grafana/commit/e30ad86347bffc1c2e7ffc80cf5216d3f091b19e"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "241f27a",
-            "branch": "feat/logline-correctness-metric-2",
-            "date": "2026-10-29T17:03:46Z",
-            "url": "https://github.com/grafana/loki/commit/241f27a9acbd518d3958bcd7e43c5ea0b23361ba"
+            "sha": "a370d53",
+            "branch": "deps-update/release-3.7.x-google.golang.org-genproto-digest",
+            "date": "2026-10-29T18:14:12Z",
+            "url": "https://github.com/grafana/loki/commit/a370d531115d28d3989c5c3897c05bb011b9b114"
           }
         }
       ]
