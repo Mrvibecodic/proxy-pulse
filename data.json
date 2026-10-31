@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:12:34.348002Z",
+  "generated_at": "2026-10-31T05:17:50.412522Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-30T21:19:40Z",
+            "pushed_at": "2026-10-31T05:17:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "369217f",
+                  "message": "umurmur: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:17:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/369217f453faa999424eedf25a6cbf3372a4d5ba"
+                },
+                {
+                  "sha": "fcea437",
+                  "message": "nextdns: update to version 1.49.0",
+                  "author": "Olivier Poitrey",
+                  "date": "2026-10-31T05:15:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/fcea4378c6c8f744c17e22d45777f1fc77efc761"
+                },
+                {
+                  "sha": "2a38368",
+                  "message": "rtorrent: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:14:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a38368cd11b7d74ae5575e12180986e43b8f9cd"
+                },
+                {
+                  "sha": "2b06515",
+                  "message": "mosquitto: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:14:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/2b065151ea7a5d9bf6c173e1052936f47c4f4af5"
+                },
+                {
+                  "sha": "65e0b71",
+                  "message": "squeezelite: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:13:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/65e0b7157b86822f74923b8f1395afded5e0e378"
+                },
+                {
+                  "sha": "ad4cec9",
+                  "message": "dnsdist: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:13:34Z",
+                  "url": "https://github.com/openwrt/packages/commit/ad4cec99db502a2a38513299b206034aaac88207"
+                },
+                {
+                  "sha": "a22ffaf",
+                  "message": "libwebsockets: let mbedtls conflict with the full variant",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:13:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/a22ffafa3357b3b147f0f3b2ee9444f112dc5e1c"
+                },
+                {
+                  "sha": "2a98220",
+                  "message": "luajit: conflict with luajit2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:12:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/2a98220abc0cb3d48b79f26b0b75d24d9ed9249a"
+                },
+                {
                   "sha": "76bf8b2",
                   "message": "tailscale: update to 1.104.4",
                   "author": "Sandro Jäckel",
@@ -1997,62 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/2b44a49c3f13f2d13e3fd59031f4ae4b74016a9f"
-                },
-                {
-                  "sha": "6bd6e2d",
-                  "message": "strongswan: add file logging to swanctl init",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/6bd6e2dac525dcd906fd68b66d82ae18a98bd9c7"
-                },
-                {
-                  "sha": "f39ace1",
-                  "message": "strongswan: use swanctl default for dpd_delay",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/f39ace1292cff962f0358eb1f9208111bba80853"
-                },
-                {
-                  "sha": "b3fcd87",
-                  "message": "strongswan: use swanctl default for keyingtries",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/b3fcd878b72f317a1007713e18a99c2bf983bda1"
-                },
-                {
-                  "sha": "d140592",
-                  "message": "strongswan: move inactivity from connection to child",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/d140592512ae408dc7f35b3a413e1dfacb320c63"
-                },
-                {
-                  "sha": "9700179",
-                  "message": "adblock: run report capture as separate procd instance",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-30T06:23:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/9700179642946c2aa1a7bad5753a4586862b9a8d"
-                },
-                {
-                  "sha": "72e727c",
-                  "message": "luajit: do not build on riscv64",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:37:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/72e727c51a84836cd7d391ab07a21bd233fef8fd"
-                },
-                {
-                  "sha": "0839415",
-                  "message": "luajit: indent the package metadata with two spaces",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:37:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/0839415eb5917606a4a67e83bf223c0d15b337a4"
-                },
-                {
-                  "sha": "8db268f",
-                  "message": "libreswan: provide openswan only from libreswan",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:36:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/8db268f78b1d754e9f1153c0e55e4365d340c648"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "151bd31",
+                  "message": "mosquitto: update to 2.0.23",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:17:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/151bd31212544d269ac385c95183f28deaa85a4f"
+                },
+                {
                   "sha": "f311fd8",
                   "message": "python-cffi: Update to 1.17.1",
                   "author": "Tianling Shen",
@@ -3336,13 +3343,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-13T21:03:53Z",
                   "url": "https://github.com/openwrt/packages/commit/c5ffd3cd6a90c891d2b9ad4bb2b4a2d67a261d0f"
-                },
-                {
-                  "sha": "732eec5",
-                  "message": "radicale3: bump version to v3.8.0",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:03:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/732eec50eb5d97aa9856dfe2a95846fe94e5ef1e"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93113,
+            "stars": 93114,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-10-31T00:03:44Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "80cf970",
-            "branch": "ale/provisioning-save-resource-drawer",
-            "date": "2026-10-29T16:08:35Z",
-            "url": "https://github.com/grafana/grafana/commit/80cf9704c50dadd9aebdfb289b7465bc9eb13246"
+            "sha": "2882e39",
+            "branch": "santihernandezc/remove_remote_secondary_state_pull_and_sync_interval",
+            "date": "2026-10-29T16:55:38Z",
+            "url": "https://github.com/grafana/grafana/commit/2882e39525bc910049148fd686b373ee716b43fe"
           }
         },
         {
