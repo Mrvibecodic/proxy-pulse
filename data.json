@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T07:13:47.494521Z",
+  "generated_at": "2026-10-31T07:19:05.113373Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42503,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-10-31T07:05:32Z",
+            "pushed_at": "2026-10-31T07:13:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39460,
+            "stars": 39461,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T07:10:51Z",
+            "pushed_at": "2026-10-31T07:17:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "eca6c34",
+                  "message": "banip: update 1.9.1-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-31T07:17:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/eca6c344e408b196c3b468db166870cac9b7c3cf"
+                },
+                {
                   "sha": "23dab78",
                   "message": "yggdrasil: bump to 0.5.15",
                   "author": "Ivan Chashkin",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/f93d66c1036389096510b5b2f0c6a8b158b3d37f"
-                },
-                {
-                  "sha": "d6c5ee7",
-                  "message": "strongswan: add rand_time option to swanctl connections",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/d6c5ee77c8172a9a16800829714381e21d8c0368"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "b91f7c1",
+                  "message": "banip: update 1.9.1-3",
+                  "author": "Dirk Brenken",
+                  "date": "2026-10-31T07:17:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/b91f7c1df4d9b303b41654495c70586548373fa4"
+                },
+                {
                   "sha": "4f35305",
                   "message": "xray-core: use golang1.27/host",
                   "author": "Saxon Sun",
@@ -3551,13 +3558,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/fad819e0551d019a3444f57673b0b047498d8668"
-                },
-                {
-                  "sha": "2cbdf40",
-                  "message": "lua-cjson: fix Lua 5.4 module installation path",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/2cbdf405407a0a21494c6a27d7c61dd27c6673cb"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e30ad86",
-            "branch": "renovate/github.com-protocolbuffers-txtpbfmt-digest",
-            "date": "2026-10-29T04:07:56Z",
-            "url": "https://github.com/grafana/grafana/commit/e30ad86347bffc1c2e7ffc80cf5216d3f091b19e"
+            "sha": "6abd051",
+            "branch": "ale/provisioning-pull-request-banner",
+            "date": "2026-10-29T18:49:52Z",
+            "url": "https://github.com/grafana/grafana/commit/6abd05142986bb0f77ee1bcbefc466fda2b90241"
           }
         },
         {
