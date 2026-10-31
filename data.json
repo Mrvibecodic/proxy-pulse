@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T09:46:52.380079Z",
+  "generated_at": "2026-10-31T09:52:09.422801Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T09:19:27Z",
+            "pushed_at": "2026-10-31T09:50:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "515c2a6",
+                  "message": "haveged: update to 1.9.27",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-31T09:48:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/515c2a6069f7f632bec32d89beeff12babd5ac7d"
+                },
+                {
                   "sha": "cfc5264",
                   "message": "ddns-scripts: drop hostip support",
                   "author": "Sander van Deijck",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/ff652e08dae5279371f916dd4bb0a4950ac67132"
-                },
-                {
-                  "sha": "0daf8a8",
-                  "message": "strongswan: add pubkeys list option to remote section",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/0daf8a83fbe01bd3583a79611614809d9ddee79e"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "42228d4",
+                  "message": "haveged: update to 1.9.27",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-31T09:50:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/42228d4d69ef3410fbe6a18fe1628c3fb3b619b7"
+                },
+                {
                   "sha": "151bd31",
                   "message": "mosquitto: update to 2.0.23",
                   "author": "Josef Schlehofer",
@@ -3336,19 +3343,19 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-10-13T21:03:53Z",
                   "url": "https://github.com/openwrt/packages/commit/36b876e67ddc53449fefa288bf2f26ea1409eb27"
-                },
-                {
-                  "sha": "c5ffd3c",
-                  "message": "radicale3: bump version 3.8.2",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:03:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/c5ffd3cd6a90c891d2b9ad4bb2b4a2d67a261d0f"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "6d7a918",
+                  "message": "haveged: update to 1.9.27",
+                  "author": "Hannu Nyman",
+                  "date": "2026-10-31T09:50:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/6d7a9186ae29d7b28c38bcbea83ab839dc71b666"
+                },
                 {
                   "sha": "b91f7c1",
                   "message": "banip: update 1.9.1-3",
@@ -3551,13 +3558,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/4261196dbc072a7646ebb14300f74a957a3c565d"
-                },
-                {
-                  "sha": "fad819e",
-                  "message": "lua-ffi: fix Lua 5.4 module installation path",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/fad819e0551d019a3444f57673b0b047498d8668"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77589,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-10-31T09:45:46Z",
+            "pushed_at": "2026-10-31T09:52:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "870002e",
-            "branch": "idastambuk/mobile-edit-4-shortcuts-palette",
-            "date": "2026-10-30T00:00:47Z",
-            "url": "https://github.com/grafana/grafana/commit/870002e251db24299363634617deb817f4cdecb5"
+            "sha": "d32e1e6",
+            "branch": "seangriffin/dpro-458",
+            "date": "2026-10-29T19:23:16Z",
+            "url": "https://github.com/grafana/grafana/commit/d32e1e677c1849d8b352919e2320b8fc36462800"
           }
         },
         {
@@ -5311,7 +5311,7 @@
             "stars": 81229,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T00:13:42Z",
+            "pushed_at": "2026-10-31T09:48:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
