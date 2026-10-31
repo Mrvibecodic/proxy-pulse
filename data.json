@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T06:15:52.094454Z",
+  "generated_at": "2026-10-31T06:21:08.154856Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39458,
+            "stars": 39459,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T05:19:33Z",
+            "pushed_at": "2026-10-31T06:17:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ebb781f",
+                  "message": "tcpreplay: select missing liburing dependency",
+                  "author": "Christian Marangi",
+                  "date": "2026-10-31T06:17:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/ebb781f20850db7b2b92da78e2131ab1b5dec31d"
+                },
+                {
                   "sha": "cec3337",
                   "message": "ariang: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/9d349f2301ef2504b5fdb6c2a5bad05f9e3628e6"
-                },
-                {
-                  "sha": "86af16c",
-                  "message": "strongswan: add global enable flag to swanctl init",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/86af16c13cb31d326b8849d871be1cc7117462f5"
                 }
               ]
             },
@@ -5039,7 +5039,7 @@
             "stars": 93116,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T00:03:44Z",
+            "pushed_at": "2026-10-31T06:20:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bf076ff",
-            "branch": "yuri-tseretyan/alerting-slim-rule-fingerprint",
-            "date": "2026-10-29T17:24:23Z",
-            "url": "https://github.com/grafana/grafana/commit/bf076ff21a66eb13530028d4f1928d518ba0cc83"
+            "sha": "eaed0a5",
+            "branch": "khalilhaji/skip-status-mirror-based-on-mode",
+            "date": "2026-10-29T20:39:48Z",
+            "url": "https://github.com/grafana/grafana/commit/eaed0a56b0f943c59fadbc9ce2485b5744779517"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29095,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-10-31T06:12:38Z",
+            "pushed_at": "2026-10-31T06:18:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
