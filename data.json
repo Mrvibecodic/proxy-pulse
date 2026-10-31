@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T16:02:10.963239Z",
+  "generated_at": "2026-10-31T16:07:30.451010Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35386,
+            "stars": 35387,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -774,7 +774,7 @@
             "stars": 400,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "v3",
-            "pushed_at": "2026-10-31T14:56:32Z",
+            "pushed_at": "2026-10-31T16:06:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/29365829?v=4",
             "owner": "legiz-ru"
@@ -5039,12 +5039,21 @@
             "stars": 93123,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T15:52:52Z",
+            "pushed_at": "2026-10-31T16:06:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.9",
+              "tag": "2.5.9",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.9",
+              "published_at": "2026-10-31T16:03:58Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "\r\n### 🐞 Bug Fixes\r\n\r\n- #8082 fix: runtime timeout fallback used milliseconds for a seconds field \r\n- #8081 fix: reset push monitor retries from the last stored heartbeat \r\n- #8079 fix: remove duplicated refresh timer on status page \r\n- #8064 fix: display recurring maintenance in its configured timezone (Thanks @kuxiaowo)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-86ch-2247-gr56 fix: RSS cache poisoning (Thanks @the-arma-of-owl)\r\n- #8080 chore: drop outdated apicache, migrate to http-cache-semantics (related to the above issue)\r\n- #8050 chore: Update dependencies \r\n\r\n"
+            },
             {
               "name": "2.5.8",
               "tag": "2.5.8",
@@ -5080,15 +5089,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n- #7848 fix: Memory leak from tcp monitor \r\n\r\n\r\n\r\n"
-            },
-            {
-              "name": "2.5.4",
-              "tag": "2.5.4",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.4",
-              "published_at": "2026-09-11T10:09:10Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🆕 New Features\r\n- #7801 feat(notification): add Signalgrid as notification provider (Thanks @signalgridco)\r\n- #7740 feat: add Notify! notification provider (Thanks @simplytoast1)\r\n- #7719 feat: add Amoot SMS notification provider (Thanks @sina3sd)\r\n- #7637 fix: omit content headers from cached 304 responses (Thanks @cyphercodes)\r\n- #7034 feat: add SFTP monitor type with password and private key authentication (Thanks @eXtgmA)\r\n\r\n### 💇‍♀️ Improvements\r\n- #7672 feat(auth): hide/show password toggle in login page (Thanks @kilian-nagel)\r\n\r\n### 🐞 Bug Fixes\r\n- #7820 fix(real-browser): always close browser context (Thanks @EmptyPerson)\r\n- #7787 fix: iOS PWA icon has black background (Thanks @konstantintutsch)\r\n- #7739 fix: the two ping timeout ceilings were swapped in the monitor form (Thanks @evnchn)\r\n- #7718 fix:  move afterCreate to initial mariadb pool config (Thanks @otbutz)\r\n- #7690 fix: accepted status codes custom range discarded on tag creation (Thanks @AmanUllah687)\r\n\r\n### ⬆️ Security Fixes\r\n- #7838 fix: bump jsonata to 2.2.2 (CVE-2026-77415) (Thanks @Fierygit @cursoragent)\r\n- GHSA-wf2j-5mc7-5c4w DoS weakness\r\n\r\n### 🦎 Translation Contributions\r\n- #7812 #7757 chore: Translations Update from Weblate (Thanks @12LuA @aindriu80 @Aluisio @AnnAngela @AntonPalmqvist @cyril59310 @dodog @Gringit @helakostain @jamalkamaladdin @Kodashas @mcasellas @ueskici @xavivars)\r\n\r\n\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d19c671",
+            "sha": "49aba39",
             "branch": "master",
-            "date": "2026-10-29T08:43:48Z",
-            "url": "https://github.com/netdata/netdata/commit/d19c671f4be0b16b51c05d2d70f419f3543877d0"
+            "date": "2026-10-29T15:07:59Z",
+            "url": "https://github.com/netdata/netdata/commit/49aba3992ba175864179a6e8cefb71ae05c8b397"
           }
         },
         {
@@ -5871,7 +5871,7 @@
             "stars": 8128,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-10-31T15:59:25Z",
+            "pushed_at": "2026-10-31T16:07:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
