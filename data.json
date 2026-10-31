@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:17:50.412522Z",
+  "generated_at": "2026-10-31T05:23:06.842912Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T05:17:45Z",
+            "pushed_at": "2026-10-31T05:19:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "cec3337",
+                  "message": "ariang: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-10-31T05:19:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/cec3337ce5902e8192370e3126d607beefffffee"
+                },
+                {
                   "sha": "369217f",
                   "message": "umurmur: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-10-30T07:07:18Z",
                   "url": "https://github.com/openwrt/packages/commit/86af16c13cb31d326b8849d871be1cc7117462f5"
-                },
-                {
-                  "sha": "2b44a49",
-                  "message": "strongswan: fix loading of the uci config in service_triggers",
-                  "author": "Florian Eckert",
-                  "date": "2026-10-30T07:07:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/2b44a49c3f13f2d13e3fd59031f4ae4b74016a9f"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2882e39",
-            "branch": "santihernandezc/remove_remote_secondary_state_pull_and_sync_interval",
-            "date": "2026-10-29T16:55:38Z",
-            "url": "https://github.com/grafana/grafana/commit/2882e39525bc910049148fd686b373ee716b43fe"
+            "sha": "1c447bd",
+            "branch": "codex/zanzana-permissions-latency",
+            "date": "2026-10-29T20:35:30Z",
+            "url": "https://github.com/grafana/grafana/commit/1c447bd34b63c8853190c0f628a1ba5222ab3cbb"
           }
         },
         {
