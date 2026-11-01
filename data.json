@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T00:14:02.423893Z",
+  "generated_at": "2026-11-01T00:19:19.847740Z",
   "groups": [
     {
       "id": "cores",
@@ -567,6 +567,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.26-alpha.3",
+              "tag": "android-v0.1.26-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.26-alpha.3",
+              "published_at": "2026-11-01T00:15:30Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Добавлено\n\n- При проверке задержек без VPN видно, сколько серверов уже измерено.\n\n### Изменено\n\n- Веб-панель управления ядром всегда стандартная.\n\n### Исправлено\n\n- Подпись серверов из подписки не подвешивает список серверов.\n- Проверка задержек без VPN не портит настройки подписки, если та обновилась в это время.\n- Сбой системы при смене сети не выключает VPN и не роняет приложение.\n- После удачного сохранения подписки не висит «Не удалось обновить».\n- Файлы состояния не пустеют при внезапном отключении питания.\n- Обновление данных маршрутизации и долгое добавление подписки доходят до конца, даже если приложение ушло в фон.\n- Большой список в настройках и сбой при открытии экрана не роняют приложение.\n- Ссылки clodclash:// открываются с любым адресом внутри."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.26-alpha.2",
               "tag": "android-v0.1.26-alpha.2",
@@ -5210,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "956161f",
-            "branch": "macabu/secrets-reference-subject-token",
-            "date": "2026-10-30T10:51:47Z",
-            "url": "https://github.com/grafana/grafana/commit/956161fc8d059785d65d723dddfe0a4f667082e4"
+            "sha": "74a5feb",
+            "branch": "main",
+            "date": "2026-10-30T14:26:14Z",
+            "url": "https://github.com/grafana/grafana/commit/74a5febc1d3bbae9103d950d52b21f61423fdaa1"
           }
         },
         {
@@ -5293,7 +5302,7 @@
             "stars": 81235,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T19:18:59Z",
+            "pushed_at": "2026-11-01T00:16:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5429,7 +5438,7 @@
             "stars": 29100,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-01T00:12:01Z",
+            "pushed_at": "2026-11-01T00:17:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5482,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a1f4a5e",
-            "branch": "grobinson/simple-rate-limit-err-msg",
-            "date": "2026-10-30T12:52:21Z",
-            "url": "https://github.com/grafana/loki/commit/a1f4a5e1dc7c4c2bbcdd01967df6c8d9aa21fa04"
+            "sha": "521e789",
+            "branch": "main",
+            "date": "2026-10-30T12:30:03Z",
+            "url": "https://github.com/grafana/loki/commit/521e78913905b903227f83c25008de55e4304f18"
           }
         }
       ]
@@ -5850,7 +5859,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8131,
+            "stars": 8132,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-10-31T23:22:30Z",
