@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:32:16.773418Z",
+  "generated_at": "2026-11-01T13:37:33.476449Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-01T11:15:19Z",
+            "pushed_at": "2026-11-01T13:36:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ca3af91",
+                  "message": "libdbi: remove package",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/ca3af918c424701fb0a3c507d618998ff5e0896a"
+                },
+                {
+                  "sha": "97c0c56",
+                  "message": "libdbi-drivers: remove package",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/97c0c56b73db9fcc6504108cba44b6b4710382fc"
+                },
+                {
+                  "sha": "05ec6aa",
+                  "message": "ulogd: drop libdbi output plugin",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/05ec6aa854cd8f2f8199e32971b2eea288165e85"
+                },
+                {
+                  "sha": "26337c2",
+                  "message": "lighttpd: drop authn_dbi and vhostdb_dbi plugins",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/26337c2646fabec9ee174e8d25f02258994bb7c5"
+                },
+                {
+                  "sha": "a0895dc",
+                  "message": "rsyslog: drop libdbi support",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/a0895dc2f104acbda1dcff642518020b0b2e5759"
+                },
+                {
+                  "sha": "5629f4d",
+                  "message": "syslog-ng: drop unused libdbi dependency",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T13:36:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/5629f4d5c96779d19aa24a8fd796dc96d3f88ad5"
+                },
+                {
                   "sha": "3e04fee",
                   "message": "gst1-rtsp-server: add package",
                   "author": "Daniel Golle",
@@ -2011,48 +2053,6 @@
                   "author": "Ivan Chashkin",
                   "date": "2026-10-31T07:10:50Z",
                   "url": "https://github.com/openwrt/packages/commit/23dab78c72f529764947fe413fe442f3d453abe0"
-                },
-                {
-                  "sha": "49dd70f",
-                  "message": "coredns: update to 1.15.0",
-                  "author": "Vladimir Ermakov",
-                  "date": "2026-10-31T07:09:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/49dd70ffec38ea76af06fe00316da0f4f54822c5"
-                },
-                {
-                  "sha": "454a133",
-                  "message": "rrdtool1: add test-version.sh",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-31T07:07:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/454a13306b7b8593fec91b9db2268413563ce4e3"
-                },
-                {
-                  "sha": "ebb781f",
-                  "message": "tcpreplay: select missing liburing dependency",
-                  "author": "Christian Marangi",
-                  "date": "2026-10-31T06:17:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/ebb781f20850db7b2b92da78e2131ab1b5dec31d"
-                },
-                {
-                  "sha": "cec3337",
-                  "message": "ariang: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-31T05:19:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/cec3337ce5902e8192370e3126d607beefffffee"
-                },
-                {
-                  "sha": "369217f",
-                  "message": "umurmur: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-31T05:17:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/369217f453faa999424eedf25a6cbf3372a4d5ba"
-                },
-                {
-                  "sha": "fcea437",
-                  "message": "nextdns: update to version 1.49.0",
-                  "author": "Olivier Poitrey",
-                  "date": "2026-10-31T05:15:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/fcea4378c6c8f744c17e22d45777f1fc77efc761"
                 }
               ]
             },
@@ -3350,6 +3350,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "630cd7a",
+                  "message": "ovpn-dco: update to 7.3.0.2026100801",
+                  "author": "Qingfang Deng",
+                  "date": "2026-11-01T13:35:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/630cd7a8155db7be16abd00a2f41330f2d016add"
+                },
+                {
+                  "sha": "62ea8be",
+                  "message": "openvpn: update to 2.7.8",
+                  "author": "Qingfang Deng",
+                  "date": "2026-11-01T13:35:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/62ea8befc41b28f2bdfe59fb06c79824ac6e88ab"
+                },
+                {
+                  "sha": "fae099b",
+                  "message": "miniupnpd: backport the CVE-2026-5720 fix to 2.3.9",
+                  "author": "Martino Dell'Ambrogio",
+                  "date": "2026-11-01T13:35:25Z",
+                  "url": "https://github.com/openwrt/packages/commit/fae099b5059cd21a4d4fbc9c3a2c52d24a0e1200"
+                },
+                {
                   "sha": "9b52d3f",
                   "message": "openssh: add mldsa44-ed25519 host key",
                   "author": "John Audia",
@@ -3537,27 +3558,6 @@
                   "author": "Vladimir Ermakov",
                   "date": "2026-10-26T12:18:29Z",
                   "url": "https://github.com/openwrt/packages/commit/f9c6faaf091b36749924fe777b5621e7942c387c"
-                },
-                {
-                  "sha": "7f116bc",
-                  "message": "go2rtc: update to 1.9.13",
-                  "author": "Vladimir Ermakov",
-                  "date": "2026-10-26T12:18:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f116bcc8e6e816740d033135264033914552e29"
-                },
-                {
-                  "sha": "d6d01b4",
-                  "message": "node: bump to 22.23.4",
-                  "author": "Paweł Owoc",
-                  "date": "2026-10-26T09:14:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/d6d01b496f20f055536a98b9433e4e061051ced8"
-                },
-                {
-                  "sha": "3d04dec",
-                  "message": "c-ares: bump to 1.34.9",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-10-26T08:58:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/3d04dec6f07005880d3140530efca215b7278fe2"
                 }
               ]
             },
@@ -4745,7 +4745,7 @@
             "stars": 2119,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-11-01T11:54:01Z",
+            "pushed_at": "2026-11-01T13:37:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4602cea",
-            "branch": "feat/panel-inspector-reactivity",
-            "date": "2026-10-30T18:41:18Z",
-            "url": "https://github.com/grafana/grafana/commit/4602ceaabccbda8b3d264f965bec9d336ddd7420"
+            "sha": "af92f7b",
+            "branch": "alerting/use-package-convert",
+            "date": "2026-10-30T19:02:10Z",
+            "url": "https://github.com/grafana/grafana/commit/af92f7b6d78c9c68a429de8a3e2bb582460cf8b7"
           }
         },
         {
