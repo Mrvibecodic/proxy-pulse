@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T19:21:21.280434Z",
+  "generated_at": "2026-11-01T19:26:38.090420Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39509,
+            "stars": 39510,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-01T16:04:42Z",
+            "pushed_at": "2026-11-01T19:25:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "50a9717",
+                  "message": "banip: update 1.9.1-4",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-01T18:50:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/50a97173cfafdbb037330f59da753b21a9a0fe59"
+                },
+                {
                   "sha": "b700c83",
                   "message": "comrade: update to 0.3.3",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-10-31T09:19:26Z",
                   "url": "https://github.com/openwrt/packages/commit/cfc52647b4ec8858b0688bb11640ac3e32360b98"
-                },
-                {
-                  "sha": "c4d4c7a",
-                  "message": "dnscrypt-proxy: remove package",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-31T09:19:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/c4d4c7ac838fdb012abfb2688c62b11dae24e805"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "e9a1c22",
+                  "message": "banip: update 1.9.1-4",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-01T19:25:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/e9a1c22d1bebc97c71a8e5a4036f4a4935b85dda"
+                },
+                {
                   "sha": "630cd7a",
                   "message": "ovpn-dco: update to 7.3.0.2026100801",
                   "author": "Qingfang Deng",
@@ -3551,13 +3558,6 @@
                   "author": "Fabrice Fontaine",
                   "date": "2026-10-26T12:18:29Z",
                   "url": "https://github.com/openwrt/packages/commit/772e091b09ba9443532d221f729c8213ad3d06e1"
-                },
-                {
-                  "sha": "f9c6faa",
-                  "message": "go2rtc: update to 1.9.14",
-                  "author": "Vladimir Ermakov",
-                  "date": "2026-10-26T12:18:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9c6faaf091b36749924fe777b5621e7942c387c"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9a459b0",
-            "branch": "feat/panel-inspector-reactivity",
-            "date": "2026-10-30T14:08:50Z",
-            "url": "https://github.com/grafana/grafana/commit/9a459b00771a4cbc6fcb50d4613bf68910647cf7"
+            "sha": "a615afc",
+            "branch": "seangriffin/dpro-451",
+            "date": "2026-10-30T14:12:15Z",
+            "url": "https://github.com/grafana/grafana/commit/a615afc276e07a589328ac5636a8b7edf3b19871"
           }
         },
         {
