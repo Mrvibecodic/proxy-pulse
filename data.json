@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T07:06:18.904549Z",
+  "generated_at": "2026-11-01T07:11:35.516514Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-01T07:05:34Z",
+            "pushed_at": "2026-11-01T07:10:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0805f79",
+                  "message": "netbird: update to 0.82.0",
+                  "author": "Sami Salonen",
+                  "date": "2026-11-01T07:10:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/0805f792e6d0f08107b2fe602007bfeba984a63b"
+                },
+                {
                   "sha": "23fb62e",
                   "message": "sms-tool: update to 2026-08-15",
                   "author": "Kristofer Nilsson",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-31T05:12:52Z",
                   "url": "https://github.com/openwrt/packages/commit/2a98220abc0cb3d48b79f26b0b75d24d9ed9249a"
-                },
-                {
-                  "sha": "76bf8b2",
-                  "message": "tailscale: update to 1.104.4",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-10-30T21:19:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/76bf8b232b20a0e66870096d21203d666afbee46"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d0161c4",
-            "branch": "slim-frontend-cdn-assets-audit",
-            "date": "2026-10-30T17:51:41Z",
-            "url": "https://github.com/grafana/grafana/commit/d0161c4edee3089b7ddea30ef1eaa8db7deeb532"
+            "sha": "c04e2f0",
+            "branch": "ale/provisioning-repository-select",
+            "date": "2026-10-30T14:20:09Z",
+            "url": "https://github.com/grafana/grafana/commit/c04e2f0f0e05f010476ae6f7c1ba17d823cd9f0d"
           }
         },
         {
@@ -5735,12 +5735,21 @@
             "stars": 89,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-01T07:02:34Z",
+            "pushed_at": "2026-11-01T07:07:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.54.0",
+              "tag": "0.54.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.54.0",
+              "published_at": "2026-11-01T07:11:24Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.54.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.54.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.54.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/46\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.53.0...0.54.0"
+            },
             {
               "name": "0.53.0",
               "tag": "0.53.0",
@@ -5776,15 +5785,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.51.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.51.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.51.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/39\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.50.0...0.51.0"
-            },
-            {
-              "name": "0.50.0",
-              "tag": "0.50.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.50.0",
-              "published_at": "2026-10-13T19:34:20Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.50.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.50.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.50.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/37\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.49.0...0.50.0"
             }
           ],
           "last_commit": {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8134,
+            "stars": 8135,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-01T04:59:08Z",
