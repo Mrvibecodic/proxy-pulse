@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:55:44.783664Z",
+  "generated_at": "2026-11-01T07:01:01.297573Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35402,
+            "stars": 35401,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -910,7 +910,7 @@
             "stars": 7664,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-10-31T21:27:45Z",
+            "pushed_at": "2026-11-01T07:00:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -963,10 +963,10 @@
             }
           ],
           "last_commit": {
-            "sha": "36b6bc4",
+            "sha": "4512278",
             "branch": "dev",
-            "date": "2026-10-31T21:27:42Z",
-            "url": "https://github.com/throneproj/Throne/commit/36b6bc4abd7792dcc1d533b02526b94b049c4a84"
+            "date": "2026-11-01T07:00:24Z",
+            "url": "https://github.com/throneproj/Throne/commit/4512278c2b3ddeb4a99bcc8328d192503fc5bf15"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4660,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-10-31T14:17:35Z",
+            "pushed_at": "2026-11-01T06:59:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "67f270e",
+                  "message": "libsoc: remove package",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T06:59:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/67f270efe1a074899a8b193addfad1b35bfea534"
+                },
+                {
+                  "sha": "a78bf79",
+                  "message": "nmap: update to 7.993",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-01T06:59:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/a78bf79aa78534a9c32e5ca52c054f253ec70067"
+                },
+                {
+                  "sha": "e2f4367",
+                  "message": "sane-backends: add test-version.sh",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-01T06:58:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/e2f4367e1f9e5a42a2698fc8203cc8b1ab3b195b"
+                },
+                {
                   "sha": "0d5f51b",
                   "message": "udns: update to 0.7",
                   "author": "Sander van Deijck",
@@ -2032,27 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-10-30T11:14:18Z",
                   "url": "https://github.com/openwrt/packages/commit/6231f41016f8233e0ce7e75f53cea592d32690f0"
-                },
-                {
-                  "sha": "c46ecc7",
-                  "message": "mpd: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T07:54:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/c46ecc7fc3abecf7bd622ab876f71ce9c1e77806"
-                },
-                {
-                  "sha": "8398abf",
-                  "message": "travelmate: update to 3.0.0, rewrite in ucode",
-                  "author": "Dirk Brenken",
-                  "date": "2026-10-30T07:46:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/8398abfce77840872dedc49042eb2dd7e713debe"
-                },
-                {
-                  "sha": "a078329",
-                  "message": "btop: update to 1.4.8",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T07:32:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/a07832959fcce308eb03aae13ced14df8e53887f"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "b7d93a0",
+                  "message": "nextdns: update to version 1.49.0",
+                  "author": "Olivier Poitrey",
+                  "date": "2026-11-01T06:58:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/b7d93a0bb56d9f509990f6607f6bccd8ecc18f37"
+                },
+                {
                   "sha": "6d7a918",
                   "message": "haveged: update to 1.9.27",
                   "author": "Hannu Nyman",
@@ -3551,13 +3558,6 @@
                   "author": "Jianhui Zhao",
                   "date": "2026-10-25T14:02:48Z",
                   "url": "https://github.com/openwrt/packages/commit/7e29621d865ee3fcb6690b06ed1d35ec2a9d15ad"
-                },
-                {
-                  "sha": "4261196",
-                  "message": "cqueues: fix Lua 5.4 module installation paths",
-                  "author": "Jianhui Zhao",
-                  "date": "2026-10-25T14:02:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/4261196dbc072a7646ebb14300f74a957a3c565d"
                 }
               ]
             },
@@ -5311,7 +5311,7 @@
             "stars": 81238,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-01T00:16:54Z",
+            "pushed_at": "2026-11-01T06:56:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0356773",
-            "branch": "breaking/v3",
-            "date": "2026-10-30T17:31:35Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/03567732987e184ab409fd8ad357b1ea5edcfd5d"
+            "sha": "b73b16d",
+            "branch": "main",
+            "date": "2026-10-30T17:21:08Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/b73b16dc95516bdb1167e47dbeee0cdd8fa21d57"
           }
         }
       ]
