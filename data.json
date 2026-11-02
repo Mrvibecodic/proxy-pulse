@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:55:46.631157Z",
+  "generated_at": "2026-11-02T06:01:05.400849Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42550,
+            "stars": 42549,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-02T03:00:33Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35435,
+            "stars": 35434,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29013,
+            "stars": 29014,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-01T22:14:11Z",
@@ -5061,7 +5061,7 @@
               "published_at": "2026-10-26T17:12:57Z",
               "prerelease": false,
               "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #8049 fix: Docker verification check sometimes not catching invalid responses (2.5.X backport) (Thanks @Abestanis)\r\n- #8038 fix: add `next-slim-rootless` docker tag\r\n- #8028 fix: drop TLS support for the TCP Port monitor (It never worked as expected and very buggy, all existing monitors will become normal TCP monitors)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-v2p3-6f5h-6hhf [Admin Only] RCE (Thanks @Sami111-Afk)\r\n\r\n### Others\r\n- #8037 revert: hide/show password toggle in login page (#7672) (Because the height is inconsistent)\r\n\r\n\r\n"
+              "body": "### 🐞 Bug Fixes\r\n- #8049 fix: Docker verification check sometimes not catching invalid responses (2.5.X backport) (Thanks @Abestanis)\r\n- #8038 fix: add `next-slim-rootless` docker tag\r\n- #8028 fix: drop TLS support for the TCP Port monitor (It never worked as expected and very buggy, all existing monitors will become normal TCP monitors)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-v2p3-6f5h-6hhf [Admin Only] Authenticated RCE via Apprise CLI Argument Injection (Thanks @Sami111-Afk)\r\n\r\n### Others\r\n- #8037 revert: hide/show password toggle in login page (#7672) (Because the height is inconsistent)\r\n\r\n\r\n"
             },
             {
               "name": "2.5.7",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1ab3b6c",
-            "branch": "deps-update/main-golang-1.x",
-            "date": "2026-10-31T21:11:22Z",
-            "url": "https://github.com/grafana/loki/commit/1ab3b6cc48d734cd63730eaf41b789553d06b4d2"
+            "sha": "b4c8839",
+            "branch": "main",
+            "date": "2026-10-30T15:03:22Z",
+            "url": "https://github.com/grafana/loki/commit/b4c8839f3ab1f148ac431e2eade549d506d21e60"
           }
         }
       ]
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e57bbb8",
-            "branch": "breaking/v3",
-            "date": "2026-10-31T18:57:38Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/e57bbb8b0b1dad3c8f0dc60a169e4e4505194e22"
+            "sha": "4b4d282",
+            "branch": "main",
+            "date": "2026-10-31T18:33:00Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/4b4d282a551389af89d16fc4181fa3e98299ba97"
           }
         }
       ]
