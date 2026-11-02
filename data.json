@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:49:15.949928Z",
+  "generated_at": "2026-11-02T09:54:36.459345Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39531,
+            "stars": 39532,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -910,12 +910,21 @@
             "stars": 7681,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-02T09:28:14Z",
+            "pushed_at": "2026-11-02T09:50:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.4.0-beta.5",
+              "tag": "1.4.0-beta.5",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.5",
+              "published_at": "2026-11-02T09:50:25Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add About dialog and move Check for Update to the Program menu\n* Show the release notes in the update dialog\n* Show the sort indicator in the profiles table\n* Add Xray Mux to Preset Settings and allow custom per-profile Xray Mux, with a Max Connections limit\n* Add AmneziaWG mode to WARP\n* Add option to serve DNS to other devices\n* Allow excluding countries in the auto selector with `!XX`\n* Start the auto selector as soon as enough profiles work\n* Reconnect when a subscription update replaces the running profile\n* Limit the data view to two lines, with the rest in its tooltip\n* Fix Hysteria2 links with `none` or `plain` obfs\n* Fix Xray XHTTP connections staying open after tests and profile switches\n* Fix DNS loop on macOS in Tun mode\n* Fix links and files opened with Throne being imported again after a restart\n* Update sing-box and Xray, and add S3 storage to XDRIVE\n* Introducing Simple interface mode **1**\n* Add per-group routing profiles and subscription routing import **2**\n* Add Web UI **3**\n* Fixes and Improvements\n\n**1**:\nNew installs now start in Simple mode, which hides advanced options and merges sparse settings tabs. Hidden options keep their values and still apply. Switch modes through Program \u003e Advanced Mode or Basic Settings \u003e Style \u003e Interface; existing installs stay in Advanced mode.\n\n**2**:\nEach group can now use its own routing profile instead of the one chosen in the Routing menu. Subscription groups can also import the routing profile their provider sends (Happ format) on every update; that routing profile belongs to the group and is deleted along with it. DNS settings from the subscription are never used.\n\n**3**:\n`thronectl web` serves a password-protected web UI for headless and desktop Throne, to switch and test profiles, manage groups and subscriptions, follow traffic and logs, change settings, and back up and restore. The Docker image starts it when `THRONE_WEB_LISTEN` is set, and the deb/rpm packages ship a `throne-web` service. Refer to the [documentation](https://throneproj.github.io/headless/web/) for more details.\n\n\n\u003cdiv align=center\u003e\n\n[![Release Downloads](https://img.shields.io/github/downloads/throneproj/Throne/1.4.0-beta.5/total?style=flat-square\u0026logo=github)](https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.5)\n\n\u003c/div\u003e\n\n**Download based on your OS:**\n\n\u003ctable\u003e\n    \u003cthead align=left\u003e\n        \u003ctr\u003e\n            \u003cth\u003eOS\u003c/th\u003e\n            \u003cth\u003eDownload\u003c/th\u003e\n        \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody align=left\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eWindows\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-windows-universal-installer.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-Universal-0078D4.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-windows64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-2B88D8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-windows-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-ARM64-5AA9E6.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-windowslegacy64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64%20legacy-6B7F95.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-windows32.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x86-94A3B8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003emacOS\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-macos-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Apple%20Silicon-000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-macos-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64-00A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-macoslegacy-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64%20(legacy)-7FCDEB.svg?logo=apple\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eDebian / Ubuntu\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-debian-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-debian-amd64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-debian-arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-debian-arm64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eFedora / openSUSE\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-fedora-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-fedora-amd64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-fedora-arm64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-fedora-arm64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eLinux (portable)\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.5/Throne-1.4.0-beta.5-linux-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-x64-F84E29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-be"
+            },
             {
               "name": "1.4.0-beta.4",
               "tag": "1.4.0-beta.4",
@@ -951,15 +960,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Refactor OS Proxy setup\r\n* Refactor Global Hotkey and add KDE Wayland support\r\n* Allow routing any level of the current domain to route rules in connection table\r\n* Add automatic apt/aur/rpm repo releases\r\n* Add IP Scanner **1**\r\n* Remove hijack and redirect features\r\n* Update sing-box and enforce go Tun stack **2**\r\n* Add Kill switch **3**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThe new IP Scanner feature allows for scanning a list of IPs for specific traits (like TLS connection establishments, or URLTest of a config), which is useful to find accessible ranges of CDNs/Warp\r\n\r\n**2**:\r\nThe new go Tun stack of sing-box offers a significant performance boost while solving compatibility issues of other stacks, thus deprecating system/gvisor stacks\r\n\r\n**3**:\r\nWhen enabled, no traffic will be able to leave the device (except some LAN/discovery ranges) unless tunneled through throne, effectively blocking leaks. The kill switch is bound to Throne, and will be removed if you exit throne. Its primary range of effect is the gap between profile switches, core crash or accidental profile stops"
-            },
-            {
-              "name": "1.3.2",
-              "tag": "1.3.2",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.3.2",
-              "published_at": "2026-09-29T20:49:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "* Fix auto start on windows\r\n* Fix DNS issue with chain through endpoints\r\n* Fix Xray Random DNS Select\r\n* Fix Xray Interface Bind\r\n* Allow customizing subscription connection parameters\r\n* Add Subscription info UI (Thanks @VindEi)\r\n* Fixes and Improvements"
             }
           ],
           "last_commit": {
@@ -3999,7 +3999,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2235,
+            "stars": 2234,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-10-24T14:19:34Z",
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Rule-based traffic routing for OpenWrt",
-            "stars": 838,
+            "stars": 840,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-11-02T01:16:35Z",
@@ -4123,10 +4123,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8a6da6b",
+            "sha": "80cbaef",
             "branch": "main",
-            "date": "2026-10-31T01:08:05Z",
-            "url": "https://github.com/ushan0v/forkop/commit/8a6da6b4ff0fda5ec9f5bfd8f8ef96455a96f610"
+            "date": "2026-10-31T02:15:42Z",
+            "url": "https://github.com/ushan0v/forkop/commit/80cbaef9a5c5042b42df3e219b88838a06a6688d"
           }
         },
         {
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2128,
+            "stars": 2130,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-01T17:27:56Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93173,
+            "stars": 93174,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-02T00:05:25Z",
@@ -5175,7 +5175,7 @@
             "stars": 77629,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T09:42:11Z",
+            "pushed_at": "2026-11-02T09:52:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29108,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T09:48:00Z",
+            "pushed_at": "2026-11-02T09:50:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
