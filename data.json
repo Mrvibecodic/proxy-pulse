@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:36:23.443352Z",
+  "generated_at": "2026-11-02T07:41:41.052440Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42549,
+            "stars": 42551,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-02T03:00:33Z",
@@ -1190,7 +1190,7 @@
             "stars": 4663,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T06:55:27Z",
+            "pushed_at": "2026-11-02T07:40:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "3c88cca",
+                  "message": "bottom: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:40:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/3c88ccaa05a7a7a618c5de69604c453064c1dbdd"
+                },
+                {
                   "sha": "18af3f1",
                   "message": "collectd: fix plugin configuration filenames",
                   "author": "Mikhail Gusarov",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-10-31T10:54:37Z",
                   "url": "https://github.com/openwrt/packages/commit/0f922744ab5973a48166c29d3e9f593429828cd9"
-                },
-                {
-                  "sha": "515c2a6",
-                  "message": "haveged: update to 1.9.27",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-31T09:48:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/515c2a6069f7f632bec32d89beeff12babd5ac7d"
                 }
               ]
             },
@@ -4674,7 +4674,7 @@
           "track": "releases",
           "meta": {
             "description": "Container для Mikrotik, позволяющий подключаться к AmneziaWG серверам из Mikrotik. Полностью поддерживает протокол AWG 3.1. Конфигуратор: https://timbrs.github.io/amneziawg-mikrotik-c/conf3.0.html",
-            "stars": 436,
+            "stars": 437,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
             "pushed_at": "2026-11-01T12:26:08Z",
@@ -4916,10 +4916,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c69217d",
+            "sha": "e7758d0",
             "branch": "main",
-            "date": "2026-10-24T22:46:37Z",
-            "url": "https://github.com/zerolabnet/SSClash-Go/commit/c69217d3577bf895842fe77b0777f036feddbd7d"
+            "date": "2026-10-31T13:29:50Z",
+            "url": "https://github.com/zerolabnet/SSClash-Go/commit/e7758d028a460feffa1950db67cce8cff7ce9e43"
           }
         }
       ]
@@ -5175,7 +5175,7 @@
             "stars": 77627,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T07:22:00Z",
+            "pushed_at": "2026-11-02T07:40:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 17996,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T07:10:16Z",
+            "pushed_at": "2026-11-02T07:39:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
