@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T07:41:41.052440Z",
+  "generated_at": "2026-11-02T07:46:58.149397Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5285,
+            "stars": 5286,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-10-28T20:00:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4663,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T07:40:35Z",
+            "pushed_at": "2026-11-02T07:41:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "eba6757",
+                  "message": "pymysql: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/eba6757c2a02ca3f617fb68cc0d3047157e44973"
+                },
+                {
+                  "sha": "2c3bacb",
+                  "message": "python-orjson: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/2c3bacb55eb23ad946a3ff73fac1d5574e670f5d"
+                },
+                {
+                  "sha": "616f7df",
+                  "message": "python-bcrypt: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/616f7df908742d08db05ac496ea83c38230dfdc1"
+                },
+                {
+                  "sha": "d0f6b07",
+                  "message": "python-rpds-py: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/d0f6b07cf62993bea4adde1332508b7a289f7f13"
+                },
+                {
+                  "sha": "40da67e",
+                  "message": "python-cryptography: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/40da67ea95412aa842c015a00b62f2f8f1c7518d"
+                },
+                {
+                  "sha": "3ecb72d",
+                  "message": "python-maturin: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/3ecb72def55ae89e90375c134116c3660c3da8ea"
+                },
+                {
+                  "sha": "5f0ed9a",
+                  "message": "python-setuptools-rust: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/5f0ed9a314c4b72682b93a9dd83352e5ab1da1a4"
+                },
+                {
+                  "sha": "9150b5d",
+                  "message": "python: include rust-values.mk in the Rust packages only",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-02T07:41:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/9150b5ddf8ea434e8961468a67f86709402aaf9d"
+                },
+                {
                   "sha": "3c88cca",
                   "message": "bottom: use the build system's Rust support",
                   "author": "Daniel Golle",
@@ -1997,62 +2053,6 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-11-01T06:59:12Z",
                   "url": "https://github.com/openwrt/packages/commit/a78bf79aa78534a9c32e5ca52c054f253ec70067"
-                },
-                {
-                  "sha": "e2f4367",
-                  "message": "sane-backends: add test-version.sh",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-01T06:58:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/e2f4367e1f9e5a42a2698fc8203cc8b1ab3b195b"
-                },
-                {
-                  "sha": "0d5f51b",
-                  "message": "udns: update to 0.7",
-                  "author": "Sander van Deijck",
-                  "date": "2026-10-31T14:17:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/0d5f51b58e878508ff2df6189b98c6511c33ae51"
-                },
-                {
-                  "sha": "87849fc",
-                  "message": "gstreamer1: post downloadbuffer buffering messages in order",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T11:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/87849fccd6596a1e8823396489399b73852baf2d"
-                },
-                {
-                  "sha": "184f216",
-                  "message": "gst1-plugins-bad: fix v4l2codecs decode error on flush",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T11:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/184f21621448357d9a7c4c2db81c1b441b16b7c5"
-                },
-                {
-                  "sha": "8da0642",
-                  "message": "gst1-plugins-bad: make v4l2codecs depend on libgudev",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T11:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/8da0642aa435655e815977d40d38f134ca456099"
-                },
-                {
-                  "sha": "0997e9f",
-                  "message": "gst1-plugins-bad: disable auto-detected meson features",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T11:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/0997e9fae6b8df4b4fce3977785edf35a1dc22da"
-                },
-                {
-                  "sha": "44979b2",
-                  "message": "gst1-plugins-good: package the adaptivedemux2 plugin",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T11:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/44979b2a0feda53d33d4670188e3fef665f81496"
-                },
-                {
-                  "sha": "0f92274",
-                  "message": "libcamera: add the RV1126 ISPP path to the rkisp2 pipeline",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-31T10:54:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f922744ab5973a48166c29d3e9f593429828cd9"
                 }
               ]
             },
@@ -4674,7 +4674,7 @@
           "track": "releases",
           "meta": {
             "description": "Container для Mikrotik, позволяющий подключаться к AmneziaWG серверам из Mikrotik. Полностью поддерживает протокол AWG 3.1. Конфигуратор: https://timbrs.github.io/amneziawg-mikrotik-c/conf3.0.html",
-            "stars": 437,
+            "stars": 438,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
             "pushed_at": "2026-11-01T12:26:08Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93166,
+            "stars": 93167,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-02T00:05:25Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3bbfa98",
-            "branch": "release-3.7.x",
-            "date": "2026-10-30T15:01:14Z",
-            "url": "https://github.com/grafana/loki/commit/3bbfa98819a42656ea8008c15496aa29bf7f3f6f"
+            "sha": "8bb4e99",
+            "branch": "deps-update/release-3.7.x-golang-1.x",
+            "date": "2026-10-31T18:12:26Z",
+            "url": "https://github.com/grafana/loki/commit/8bb4e99fbc5208af6ea22569edb6a65ecfdf0a09"
           }
         }
       ]
