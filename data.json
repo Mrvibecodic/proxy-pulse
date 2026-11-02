@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T20:12:36.107585Z",
+  "generated_at": "2026-11-02T20:17:54.435996Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T19:05:03Z",
+            "pushed_at": "2026-11-02T20:12:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1f7abcb",
+                  "message": "libzip: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T20:12:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/1f7abcb5127707be54c8edac0201baa82ad641d7"
+                },
+                {
                   "sha": "8dcfb14",
                   "message": "apfree-wifidog: update to 9.10.2968",
                   "author": "Dengfeng Liu",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-11-01T13:36:37Z",
                   "url": "https://github.com/openwrt/packages/commit/97c0c56b73db9fcc6504108cba44b6b4710382fc"
-                },
-                {
-                  "sha": "05ec6aa",
-                  "message": "ulogd: drop libdbi output plugin",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-01T13:36:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/05ec6aa854cd8f2f8199e32971b2eea288165e85"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26783,
+            "stars": 26784,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-01T02:16:18Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77638,
+            "stars": 77640,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T20:07:17Z",
+            "pushed_at": "2026-11-02T20:12:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8156,
+            "stars": 8157,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-02T03:21:12Z",
