@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T16:02:07.761268Z",
+  "generated_at": "2026-11-02T16:07:28.699469Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39550,
+            "stars": 39551,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-10-28T02:44:53Z",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T15:29:10Z",
+            "pushed_at": "2026-11-02T16:06:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "283ca12",
+                  "message": "banip: update 1.9.1-5",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-02T16:05:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/283ca12befc9f9a60c0fe42208c3e23d4e29f72a"
+                },
+                {
                   "sha": "24f7c06",
                   "message": "poco: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-11-01T13:36:37Z",
                   "url": "https://github.com/openwrt/packages/commit/a0895dc2f104acbda1dcff642518020b0b2e5759"
-                },
-                {
-                  "sha": "5629f4d",
-                  "message": "syslog-ng: drop unused libdbi dependency",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-01T13:36:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/5629f4d5c96779d19aa24a8fd796dc96d3f88ad5"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "3a4c004",
+                  "message": "banip: update 1.9.1-5",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-02T16:06:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/3a4c00487dda4e2ed4df83a1eefece259f880273"
+                },
+                {
                   "sha": "e9a1c22",
                   "message": "banip: update 1.9.1-4",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-26T22:53:10Z",
                   "url": "https://github.com/openwrt/packages/commit/15431dc76799d474a2efa594275708679257c00b"
-                },
-                {
-                  "sha": "772e091",
-                  "message": "multimedia/go2rtc: assign PKG_CPE_ID",
-                  "author": "Fabrice Fontaine",
-                  "date": "2026-10-26T12:18:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/772e091b09ba9443532d221f729c8213ad3d06e1"
                 }
               ]
             },
@@ -4745,7 +4745,7 @@
             "stars": 2133,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T15:33:48Z",
+            "pushed_at": "2026-11-02T16:03:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93182,
+            "stars": 93183,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-02T14:41:09Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26778,
+            "stars": 26779,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-01T02:16:18Z",
@@ -5175,7 +5175,7 @@
             "stars": 77629,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T16:01:14Z",
+            "pushed_at": "2026-11-02T16:05:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29109,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T16:00:36Z",
+            "pushed_at": "2026-11-02T16:06:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8153,
+            "stars": 8154,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-02T03:21:12Z",
