@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T09:38:33.323384Z",
+  "generated_at": "2026-11-02T09:43:55.024068Z",
   "groups": [
     {
       "id": "cores",
@@ -842,12 +842,21 @@
             "stars": 1480,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-10-27T10:52:54Z",
+            "pushed_at": "2026-11-02T09:43:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v3.9.7",
+              "tag": "android-v3.9.7",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.7",
+              "published_at": "2026-11-02T09:42:38Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Android 3.9.7\n\nSigned release APK (versionCode 397). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
+            },
             {
               "name": "INCY — Latest downloads",
               "tag": "latest",
@@ -855,7 +864,7 @@
               "published_at": "2026-10-18T21:34:34Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.8.1**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
+              "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.9.7**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
             },
             {
               "name": "Desktop v3.9.0",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "INCY Android 3.7.9\r\n\r\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\r\n"
-            },
-            {
-              "name": "Desktop v3.8.8",
-              "tag": "desktop-v3.8.8",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.8.8",
-              "published_at": "2026-09-22T15:08:20Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Desktop v3.8.8 — macOS (ARM64/Intel), Windows (x64/ARM64), Linux (x64/ARM64)"
             }
           ],
           "last_commit": {
@@ -4674,7 +4674,7 @@
           "track": "releases",
           "meta": {
             "description": "Container для Mikrotik, позволяющий подключаться к AmneziaWG серверам из Mikrotik. Полностью поддерживает протокол AWG 3.1. Конфигуратор: https://timbrs.github.io/amneziawg-mikrotik-c/conf3.0.html",
-            "stars": 439,
+            "stars": 440,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
             "pushed_at": "2026-11-01T12:26:08Z",
@@ -5092,10 +5092,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7d81d18",
-            "branch": "chore/cleanup-dayjs",
-            "date": "2026-10-30T16:35:54Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/7d81d186c2fb84945ba4bfd31e5010e38c5dfb84"
+            "sha": "9759d21",
+            "branch": "npm-update-2.5.X",
+            "date": "2026-11-01T00:05:23Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/9759d21fd3ada94c7642fb3aea347ee1dc281f6b"
           }
         },
         {
@@ -5175,7 +5175,7 @@
             "stars": 77629,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T09:37:55Z",
+            "pushed_at": "2026-11-02T09:42:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8145,
+            "stars": 8146,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-02T03:21:12Z",
