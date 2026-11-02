@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T15:24:47.937248Z",
+  "generated_at": "2026-11-02T15:30:07.311433Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1015f5c",
-            "branch": "chore/sync-upstream-v26.10.31",
-            "date": "2026-10-31T20:28:46Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/1015f5c4a5fd880c4570736fb7273dfa641c10a7"
+            "sha": "2a8eab3",
+            "branch": "main",
+            "date": "2026-10-31T20:41:54Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/2a8eab3a3fd253bb31427150c058206b07c2304b"
           }
         }
       ]
@@ -759,10 +759,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7861a8d",
+            "sha": "9d58401",
             "branch": "0.5.0-dev",
-            "date": "2026-10-31T19:27:43Z",
-            "url": "https://github.com/pluralplay/FlClashX/commit/7861a8d7522b18b497d6233785111e0983421364"
+            "date": "2026-10-31T22:10:55Z",
+            "url": "https://github.com/pluralplay/FlClashX/commit/9d58401902fd8303eb92d3c7aad1c8c5cb306835"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4663,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T14:18:55Z",
+            "pushed_at": "2026-11-02T15:29:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "24f7c06",
+                  "message": "poco: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T15:29:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/24f7c0660bda1b4c107b0a3207c914f65eb314f0"
+                },
+                {
+                  "sha": "752d8e4",
+                  "message": "tac_plus: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T15:28:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/752d8e414cfb7caa01f446dfd2356789f035aa8a"
+                },
+                {
+                  "sha": "1195e75",
+                  "message": "uanytun: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T15:28:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/1195e752b84771f824c2432d6a6a43d0de8e6743"
+                },
+                {
+                  "sha": "5cae299",
+                  "message": "vsftpd: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T15:28:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/5cae299a7b6cbebb0c3d36a85cdcd457cfb89d77"
+                },
+                {
+                  "sha": "5958bac",
+                  "message": "wifidog: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-02T15:28:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/5958bac1ddd3f422f234415457a9387c1eb260b8"
+                },
+                {
                   "sha": "735dc20",
                   "message": "zmq: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2018,41 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-11-01T13:36:37Z",
                   "url": "https://github.com/openwrt/packages/commit/5629f4d5c96779d19aa24a8fd796dc96d3f88ad5"
-                },
-                {
-                  "sha": "3e04fee",
-                  "message": "gst1-rtsp-server: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-01T11:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/3e04fee45f35936f22e8457743d1af9e8759da9e"
-                },
-                {
-                  "sha": "9a103e4",
-                  "message": "gst1-plugins-good: count the dmabuf offset in bytesused",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-01T11:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/9a103e4a1af481850957da3b04ea16f960c0dc9b"
-                },
-                {
-                  "sha": "884d95a",
-                  "message": "gst1-plugins-bad: package Unix FD transport",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-01T11:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/884d95a11e6215d5ca2230dc026bfaa607d05816"
-                },
-                {
-                  "sha": "1f346aa",
-                  "message": "gst1-plugins-base: heap-allocate the RTSP message arrays",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-01T11:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/1f346aaed6729dca34b700881b20ca7dd2207726"
-                },
-                {
-                  "sha": "8fa81b0",
-                  "message": "gst1-plugins-base: package the device monitor",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-01T11:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/8fa81b008f9904fc851dd121790610156503b612"
                 }
               ]
             },
@@ -4745,7 +4745,7 @@
             "stars": 2133,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T12:24:40Z",
+            "pushed_at": "2026-11-02T15:30:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5175,7 +5175,7 @@
             "stars": 77628,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T15:24:47Z",
+            "pushed_at": "2026-11-02T15:25:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29109,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T15:24:19Z",
+            "pushed_at": "2026-11-02T15:28:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
