@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T14:20:48.152640Z",
+  "generated_at": "2026-11-02T14:26:08.046188Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a4a3dff",
+            "sha": "6ca6d8a",
             "branch": "main",
-            "date": "2026-10-31T13:20:20Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/a4a3dff5b20c2faae567b742c172c7b95e75c083"
+            "date": "2026-10-31T07:21:34Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/6ca6d8a693240b105f3e377c404417503871f1c2"
           }
         },
         {
@@ -842,12 +842,21 @@
             "stars": 1484,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T09:43:43Z",
+            "pushed_at": "2026-11-02T14:25:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v3.9.8",
+              "tag": "android-v3.9.8",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.8",
+              "published_at": "2026-11-02T14:25:33Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Android 3.9.8\n\nИсправлен запуск ядра на устройствах, где создание MPTCP-слушателя завершается ошибкой Permission denied: добавлен переход на обычный TCP.\n\nSigned release APK (versionCode 398). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
+            },
             {
               "name": "Android v3.9.7",
               "tag": "android-v3.9.7",
@@ -864,7 +873,7 @@
               "published_at": "2026-10-18T21:34:34Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.9.7**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
+              "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.9.8**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
             },
             {
               "name": "Desktop v3.9.0",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "LLC-INCY",
               "body": "INCY Android 3.8.1\n\nSigned release APK. Updates existing INCY installations (versionCode 381).\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
-            },
-            {
-              "name": "Android v3.7.9",
-              "tag": "android-v3.7.9",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.7.9",
-              "published_at": "2026-10-06T01:27:29Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "INCY Android 3.7.9\r\n\r\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77628,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T14:14:52Z",
+            "pushed_at": "2026-11-02T14:25:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 17999,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-02T14:20:39Z",
+            "pushed_at": "2026-11-02T14:25:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
