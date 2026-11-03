@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T11:26:15.287607Z",
+  "generated_at": "2026-11-03T11:31:34.975014Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 29030,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T11:06:37Z",
+            "pushed_at": "2026-11-03T11:30:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T11:01:47Z",
+            "pushed_at": "2026-11-03T11:29:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6724721",
+                  "message": "hwdata: bump to 0.412",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-03T11:29:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/67247214fd439e7190dcc5e31b18ff6b4f582a81"
+                },
+                {
                   "sha": "ae381f1",
                   "message": "libupm: make libupm a meta package",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-11-02T07:41:54Z",
                   "url": "https://github.com/openwrt/packages/commit/2c3bacb55eb23ad946a3ff73fac1d5574e670f5d"
-                },
-                {
-                  "sha": "616f7df",
-                  "message": "python-bcrypt: use the build system's Rust support",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-02T07:41:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/616f7df908742d08db05ac496ea83c38230dfdc1"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93209,
+            "stars": 93210,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-03T11:25:30Z",
@@ -5175,7 +5175,7 @@
             "stars": 77656,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T11:14:19Z",
+            "pushed_at": "2026-11-03T11:30:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0fe7359",
-            "branch": "main",
-            "date": "2026-11-03T11:14:15Z",
-            "url": "https://github.com/grafana/grafana/commit/0fe73595553355bdb835a7d5658649de6a3d9e4b"
+            "sha": "31ac025",
+            "branch": "grafakus/panel-bulk-actions-popover",
+            "date": "2026-11-03T08:01:58Z",
+            "url": "https://github.com/grafana/grafana/commit/31ac0259203fb1696acf874634a4761cee4f9af1"
           }
         },
         {
@@ -5243,7 +5243,7 @@
             "stars": 66920,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T11:25:43Z",
+            "pushed_at": "2026-11-03T11:31:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5447,7 +5447,7 @@
             "stars": 29114,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T11:25:50Z",
+            "pushed_at": "2026-11-03T11:29:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
