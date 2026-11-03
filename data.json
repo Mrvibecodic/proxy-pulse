@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T13:12:48.759079Z",
+  "generated_at": "2026-11-03T13:18:12.701249Z",
   "groups": [
     {
       "id": "cores",
@@ -910,7 +910,7 @@
             "stars": 7697,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-03T12:39:57Z",
+            "pushed_at": "2026-11-03T13:13:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T12:42:36Z",
+            "pushed_at": "2026-11-03T13:18:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "af1c04f",
+                  "message": "weechat: update to 4.10.2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-03T13:17:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/af1c04f5890712bebfa8aeec53039a397059549e"
+                },
+                {
                   "sha": "42228d4",
                   "message": "haveged: update to 1.9.27",
                   "author": "Hannu Nyman",
@@ -3336,19 +3343,26 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-16T02:41:18Z",
                   "url": "https://github.com/openwrt/packages/commit/d53790812e06be110c51307ed103d51319166e46"
-                },
-                {
-                  "sha": "36b876e",
-                  "message": "radicale3: security bump to version 3.8.3",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-10-13T21:03:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/36b876e67ddc53449fefa288bf2f26ea1409eb27"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "8b272d2",
+                  "message": "msmtp: update to 1.8.34",
+                  "author": "Romain Isnel",
+                  "date": "2026-11-03T13:17:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/8b272d2eb4e82cceda089e0ccc1ed974d88b0071"
+                },
+                {
+                  "sha": "461a9f0",
+                  "message": "weechat: update to 4.10.2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-03T13:16:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/461a9f053f3ee416a04bd79e5879aad1ef76d43f"
+                },
                 {
                   "sha": "7712812",
                   "message": "libtorrent-rasterbar: fix Python bindings on 25.12",
@@ -3544,20 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-30T03:29:36Z",
                   "url": "https://github.com/openwrt/packages/commit/dfaccea23600ae27d45cb83c1e7a94f6a26fb8b9"
-                },
-                {
-                  "sha": "017f7ee",
-                  "message": "owut: update to 2026.10.25",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-10-28T08:54:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/017f7ee81c02cbec175992c8a271c48f9440d1fb"
-                },
-                {
-                  "sha": "6e48b10",
-                  "message": "owut: update to 2026.10.20",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-10-28T08:54:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/6e48b10afd991cbcb21d279533f71aadd1b22ead"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77655,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T13:08:54Z",
+            "pushed_at": "2026-11-03T13:16:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 18000,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T12:18:18Z",
+            "pushed_at": "2026-11-03T13:13:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,7 +5447,7 @@
             "stars": 29114,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T12:51:53Z",
+            "pushed_at": "2026-11-03T13:13:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3669,
+            "stars": 3668,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-29T03:23:27Z",
@@ -5871,7 +5871,7 @@
             "stars": 8169,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T11:19:55Z",
+            "pushed_at": "2026-11-03T13:16:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
