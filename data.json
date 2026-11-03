@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T15:10:36.223405Z",
+  "generated_at": "2026-11-03T15:15:56.458973Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35477,
+            "stars": 35478,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T13:18:30Z",
+            "pushed_at": "2026-11-03T15:12:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "bad1169",
+                  "message": "kea: restore the resolver configuration on stop",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-03T15:12:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/bad1169383e9479a090f4e56533bb4661981ff3c"
+                },
+                {
+                  "sha": "afc34ca",
+                  "message": "kea: replace resolv.conf.d/resolv.conf atomically",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-03T15:12:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/afc34ca0897771a2aaee0f59ee66883c2c7ae23f"
+                },
+                {
                   "sha": "806bc20",
                   "message": "shunt: release 0.3.0-1",
                   "author": "Dirk Brenken",
@@ -2039,20 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-02T14:16:15Z",
                   "url": "https://github.com/openwrt/packages/commit/9f1344332ce9a86d2c9c89818441dd41f52f8f5e"
-                },
-                {
-                  "sha": "753ec67",
-                  "message": "openvpn: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T14:16:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/753ec67eef213640dc76f098108ced30adc27d1a"
-                },
-                {
-                  "sha": "7b2fb40",
-                  "message": "pdns-recursor: use the build system's Rust support",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-02T14:04:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/7b2fb400444be7df41681e534e43cb683e3d5162"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77656,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T15:07:15Z",
+            "pushed_at": "2026-11-03T15:14:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 18000,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T14:54:11Z",
+            "pushed_at": "2026-11-03T15:11:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5591,7 +5591,7 @@
             "stars": 1185,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T14:56:55Z",
+            "pushed_at": "2026-11-03T15:14:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
             "owner": "BEDOLAGA-DEV"
