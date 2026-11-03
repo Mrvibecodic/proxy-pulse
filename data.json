@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T09:45:01.849742Z",
+  "generated_at": "2026-11-03T09:50:23.906858Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7690,
+            "stars": 7691,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-03T08:58:30Z",
@@ -1122,7 +1122,7 @@
             "stars": 29030,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T00:27:11Z",
+            "pushed_at": "2026-11-03T09:50:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-03T07:50:28Z",
+            "pushed_at": "2026-11-03T09:46:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7712812",
+                  "message": "libtorrent-rasterbar: fix Python bindings on 25.12",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-03T09:43:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/771281271b5c38f2b7bd49854b4616d851465309"
+                },
+                {
                   "sha": "3c6f78a",
                   "message": "netbird: update to 0.81.4",
                   "author": "Sami Salonen",
@@ -3551,13 +3558,6 @@
                   "author": "Eric Fahlgren",
                   "date": "2026-10-28T08:54:53Z",
                   "url": "https://github.com/openwrt/packages/commit/6e48b10afd991cbcb21d279533f71aadd1b22ead"
-                },
-                {
-                  "sha": "f0251c3",
-                  "message": "iperf3: update to 3.22",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-28T06:11:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/f0251c3e0692077a2693c722cbb2657bef513e56"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "01522dd",
-            "branch": "leeoniya/happy-sucrase",
-            "date": "2026-11-03T05:58:41Z",
-            "url": "https://github.com/grafana/grafana/commit/01522ddec1ecec0928e9a34f7a711057e7d421ec"
+            "sha": "6e60870",
+            "branch": "cbo/new-annotation-api-docs",
+            "date": "2026-11-03T06:41:41Z",
+            "url": "https://github.com/grafana/grafana/commit/6e60870731f41ec09dcc22975d353b9260f0b4aa"
           }
         },
         {
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c41aaf8",
-            "branch": "main",
-            "date": "2026-11-03T05:08:06Z",
-            "url": "https://github.com/prometheus/prometheus/commit/c41aaf860991f4eda7ff5f6f7a93c3be1203756c"
+            "sha": "fa1dfee",
+            "branch": "perfloop-pr-open-as1chc77yd",
+            "date": "2026-11-02T02:19:20Z",
+            "url": "https://github.com/prometheus/prometheus/commit/fa1dfee411d4fbcd245f62dda69d04d5df7ed5b8"
           }
         },
         {
