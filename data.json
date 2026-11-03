@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:47:03.446990Z",
+  "generated_at": "2026-11-03T16:52:23.936490Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,7 +5175,7 @@
             "stars": 77657,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:47:00Z",
+            "pushed_at": "2026-11-03T16:49:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "86c888f",
-            "branch": "deps-update/main-k8s.io-utils-digest",
-            "date": "2026-11-03T11:25:21Z",
-            "url": "https://github.com/grafana/loki/commit/86c888fe7cef7971bf161ee40d3cffeebded6e20"
+            "sha": "2e061de",
+            "branch": "deps-update/release-3.7.x-anchore-sbom-action-0.x",
+            "date": "2026-11-03T11:28:05Z",
+            "url": "https://github.com/grafana/loki/commit/2e061de5ba233ce81fead7cd7bdeb1b1dfea9588"
           }
         }
       ]
@@ -5604,7 +5604,7 @@
               "published_at": "2026-11-03T16:33:46Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "## What's Changed\n\n### New Features\n\n- add CisPay recurring and managed traffic accounting (`5f8abf9d`) — @c0mrade\n- complete daily device billing and recurring purchase recovery (`975aa60f`) — @c0mrade\n- purchase tariff devices with verified pricing and durable checkout (`3a07679a`) — @c0mrade\n- define device selection policy for new tariff purchases (`5057f5f0`) — @c0mrade\n- сводка админам о подписках, где устройств больше лимита (`af962da7`) — @Chara Freedom\n\n### Bug Fixes\n\n- move traffic purchase orchestration out of subscription CRUD (`53dd9067`) — @c0mrade\n- reuse captured translation context (`9da81aba`) — @c0mrade\n- retain localization across checkout rollback (`151c4ea5`) — @c0mrade\n- sanitize legacy news content on API responses (`5a977d19`) — @c0mrade\n- bound parsers and sanitize article HTML with a real parser (`7ff623e8`) — @c0mrade\n- clarify recurring charge selection and strengthen QR cache identity (`8edf999a`) — @c0mrade\n- complete bot localization and harden user-facing flows (`0bdd41eb`) — @c0mrade\n- add payment support and localized command menus (`d42f2e1d`) — @c0mrade\n- stop managed quota webhook feedback loop (`ebc6b8d8`) — @c0mrade\n- prevent HTTP exception credential leaks (`b4b363bf`) — @c0mrade\n- renewal waits for panel reset before dropping an expired top-up (`7c7588be`) — @AlexFortune30\n- сводка о превышении лимита устройств — целиком и частями (`02cbcc8b`) — @Chara Freedom\n- preserve purchased device policy across legacy and admin flows (`a6bd40bc`) — @c0mrade\n- expose disabled payment options in admin settings (`2ad6ae75`) — @c0mrade\n- вход через Telegram-виджет с экрана согласия падал с «Invalid or expired» (`d5707dd4`) — @Cubafree\n- synchronize uv lock version and reject mismatched metadata (`5390d17a`) — @c0mrade\n- смена тарифа админом сохраняет докупленные устройства (`bbe64967`) — @Chara Freedom\n\n### Documentation \u0026 Style\n\n- refresh structure reference after traffic echo regression tests (`098147df`) — @c0mrade\n\n### Maintenance\n\n- release 5.2.0 (`2ce2b7bc`) — @github-actions[bot]\n- partition PostgreSQL checks without reducing coverage (`c084dd6e`) — @c0mrade\n- verify database session in panel deletion regressions (`142648ad`) — @c0mrade\n- supply authoritative usage in quota regression matrix (`eaf31a9d`) — @c0mrade\n- verify device checkout against live panel and full regression suite (`729e87be`) — @c0mrade\n- не сверять срок истёкшей подписки с часами до создания схемы (`571bb1f1`) — @Chara Freedom\n\n---\n\n### Contributors\n\n- @AlexFortune30\n- @Chara Freedom\n- @Cubafree\n- @c0mrade\n- @github-actions[bot]\n\n### Stats\n\n- **Commits:** 29\n- **Changes:**  466 files changed, 74257 insertions(+), 10002 deletions(-)\n- **Full diff:** [`v5.1.1...v5.2.0`](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.1.1...v5.2.0)\n\n---\n\n### Docker\n\n```bash\n# Docker Hub\ndocker pull fr1ngg/remnawave-bedolaga-telegram-bot:v5.2.0\n\n# GitHub Container Registry\ndocker pull ghcr.io/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot:v5.2.0\n```\n\n### Update\n\n```bash\n# Docker Compose\ndocker compose pull \u0026\u0026 docker compose up -d\n\n# Or with Make\nmake reload\n```\n"
+              "body": "## What's Changed\n\n### New Features\n\n- add CisPay recurring and managed traffic accounting (`5f8abf9d`) — @DOFER998\n- complete daily device billing and recurring purchase recovery (`975aa60f`) — @DOFER998\n- purchase tariff devices with verified pricing and durable checkout (`3a07679a`) — @DOFER998\n- define device selection policy for new tariff purchases (`5057f5f0`) — @DOFER998\n- сводка админам о подписках, где устройств больше лимита (`af962da7`) — @Chara-Freedom\n\n### Bug Fixes\n\n- move traffic purchase orchestration out of subscription CRUD (`53dd9067`) — @DOFER998\n- reuse captured translation context (`9da81aba`) — @DOFER998\n- retain localization across checkout rollback (`151c4ea5`) — @DOFER998\n- sanitize legacy news content on API responses (`5a977d19`) — @DOFER998\n- bound parsers and sanitize article HTML with a real parser (`7ff623e8`) — @DOFER998\n- clarify recurring charge selection and strengthen QR cache identity (`8edf999a`) — @DOFER998\n- complete bot localization and harden user-facing flows (`0bdd41eb`) — @DOFER998\n- add payment support and localized command menus (`d42f2e1d`) — @DOFER998\n- stop managed quota webhook feedback loop (`ebc6b8d8`) — @DOFER998\n- prevent HTTP exception credential leaks (`b4b363bf`) — @DOFER998\n- renewal waits for panel reset before dropping an expired top-up (`7c7588be`) — @AlexFortune30\n- сводка о превышении лимита устройств — целиком и частями (`02cbcc8b`) — @Chara-Freedom\n- preserve purchased device policy across legacy and admin flows (`a6bd40bc`) — @DOFER998\n- expose disabled payment options in admin settings (`2ad6ae75`) — @DOFER998\n- вход через Telegram-виджет с экрана согласия падал с «Invalid or expired» (`d5707dd4`) — @Cubafree\n- synchronize uv lock version and reject mismatched metadata (`5390d17a`) — @DOFER998\n- смена тарифа админом сохраняет докупленные устройства (`bbe64967`) — @Chara-Freedom\n\n### Documentation \u0026 Style\n\n- refresh structure reference after traffic echo regression tests (`098147df`) — @DOFER998\n\n### Maintenance\n\n- release 5.2.0 (`2ce2b7bc`) — @github-actions[bot]\n- partition PostgreSQL checks without reducing coverage (`c084dd6e`) — @DOFER998\n- verify database session in panel deletion regressions (`142648ad`) — @DOFER998\n- supply authoritative usage in quota regression matrix (`eaf31a9d`) — @DOFER998\n- verify device checkout against live panel and full regression suite (`729e87be`) — @DOFER998\n- не сверять срок истёкшей подписки с часами до создания схемы (`571bb1f1`) — @Chara-Freedom\n\n---\n\n### Contributors\n\n- @AlexFortune30\n- @Chara-Freedom\n- @Cubafree\n- @DOFER998\n- @github-actions[bot]\n\n### Stats\n\n- **Commits:** 29\n- **Changes:**  466 files changed, 74257 insertions(+), 10002 deletions(-)\n- **Full diff:** [`v5.1.1...v5.2.0`](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.1.1...v5.2.0)\n\n---\n\n### Docker\n\n```bash\n# Docker Hub\ndocker pull fr1ngg/remnawave-bedolaga-telegram-bot:v5.2.0\n\n# GitHub Container Registry\ndocker pull ghcr.io/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot:v5.2.0\n```\n\n### Update\n\n```bash\n# Docker Compose\ndocker compose pull \u0026\u0026 docker compose up -d\n\n# Or with Make\nmake reload\n```\n"
             },
             {
               "name": "v5.1.1",
