@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T21:40:30.555731Z",
+  "generated_at": "2026-11-03T21:45:50.205852Z",
   "groups": [
     {
       "id": "cores",
@@ -910,12 +910,21 @@
             "stars": 7696,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-03T20:46:42Z",
+            "pushed_at": "2026-11-03T21:42:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.4.0-beta.6",
+              "tag": "1.4.0-beta.6",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.6",
+              "published_at": "2026-11-03T21:42:08Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "* Add DNS tunnels: dnstt/VayDNS, MasterDNS/StormDNS and XDNS **1**\n* Improve custom themes\n* Rework macOS Tun DNS\n* Lower the glibc requirement of the Linux builds to 2.28 **2**\n* Update sing-box\n* Fixes and Improvements\n\n**1**:\nDNS tunnels carry traffic inside DNS queries sent through public resolvers, for networks where little else gets through. They can be imported from `dnst://`, `slipnet://`, `masterdns://` and `stormdns://` links or added by hand, and the IP scanner can test resolvers for them. Refer to the [documentation](https://throneproj.github.io/advanced/dns_tunnels/) for more details.\n\n**2**:\nThe zip, deb and rpm builds that bundle Qt now run on older distributions such as Ubuntu 20.04, Debian 11 and RHEL/AlmaLinux 8. This does not affect system-qt builds.\n\n\n\u003cdiv align=center\u003e\n\n[![Release Downloads](https://img.shields.io/github/downloads/throneproj/Throne/1.4.0-beta.6/total?style=flat-square\u0026logo=github)](https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.6)\n\n\u003c/div\u003e\n\n**Download based on your OS:**\n\n\u003ctable\u003e\n    \u003cthead align=left\u003e\n        \u003ctr\u003e\n            \u003cth\u003eOS\u003c/th\u003e\n            \u003cth\u003eDownload\u003c/th\u003e\n        \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody align=left\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eWindows\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-windows-universal-installer.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-Universal-0078D4.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-windows64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-2B88D8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-windows-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-ARM64-5AA9E6.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-windowslegacy64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64%20legacy-6B7F95.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-windows32.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x86-94A3B8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003emacOS\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-macos-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Apple%20Silicon-000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-macos-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64-00A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-macoslegacy-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64%20(legacy)-7FCDEB.svg?logo=apple\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eDebian / Ubuntu\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-debian-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-debian-amd64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-debian-arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-debian-arm64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eFedora / openSUSE\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-fedora-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-fedora-amd64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-fedora-arm64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-fedora-arm64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n        \u003ctr\u003e\n            \u003ctd\u003eLinux (portable)\u003c/td\u003e\n            \u003ctd\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-linux-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-x64-F84E29.svg?logo=linux\"\u003e\u003c/a\u003e\u003cbr\u003e\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0-beta.6/Throne-1.4.0-beta.6-linux-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-ARM64-F89A29.svg?logo=linux\"\u003e\u003c/a\u003e\n            \u003c/td\u003e\n        \u003c/tr\u003e\n    \u003c/tbody\u003e\n\u003c/table\u003e\n\n\u003e **Setup** picks the right build for your Windows version and CPU; **legacy** builds are for Windows 7 / 8. **system Qt** packages use the Qt libraries installed on your system and are much smaller. **macOS:** the app is not signed, see the [README](https://github.com/throneproj/Throne#note-on-macos-releases) for how to open it."
+            },
             {
               "name": "1.4.0-beta.5",
               "tag": "1.4.0-beta.5",
@@ -951,15 +960,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Fix TLS/XHTTP import issues\r\n* Improve ECH Support\r\n* Use monospace fonts for logs\r\n* Add real-time filter support for logs\r\n* Improve logs scroll behavior\r\n* Add Throne API **1**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThrone now supports remote control via API calls, which enables integrating Throne in automation scripts/Remote machines as gateway. The API uses custom encryption and wire format, so the [Throne-api](https://github.com/throneproj/Throne-api) repository allows for communication with the API either as a helper library or the `thronectl` binary."
-            },
-            {
-              "name": "1.4.0-beta.1",
-              "tag": "1.4.0-beta.1",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.1",
-              "published_at": "2026-10-05T03:36:22Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Refactor OS Proxy setup\r\n* Refactor Global Hotkey and add KDE Wayland support\r\n* Allow routing any level of the current domain to route rules in connection table\r\n* Add automatic apt/aur/rpm repo releases\r\n* Add IP Scanner **1**\r\n* Remove hijack and redirect features\r\n* Update sing-box and enforce go Tun stack **2**\r\n* Add Kill switch **3**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThe new IP Scanner feature allows for scanning a list of IPs for specific traits (like TLS connection establishments, or URLTest of a config), which is useful to find accessible ranges of CDNs/Warp\r\n\r\n**2**:\r\nThe new go Tun stack of sing-box offers a significant performance boost while solving compatibility issues of other stacks, thus deprecating system/gvisor stacks\r\n\r\n**3**:\r\nWhen enabled, no traffic will be able to leave the device (except some LAN/discovery ranges) unless tunneled through throne, effectively blocking leaks. The kill switch is bound to Throne, and will be removed if you exit throne. Its primary range of effect is the gap between profile switches, core crash or accidental profile stops"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93224,
+            "stars": 93225,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-03T11:25:30Z",
@@ -5175,7 +5175,7 @@
             "stars": 77663,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T21:38:07Z",
+            "pushed_at": "2026-11-03T21:45:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "28a7dec",
-            "branch": "urbiz-gitsync-terraform-fixes",
-            "date": "2026-11-02T09:50:40Z",
-            "url": "https://github.com/grafana/grafana/commit/28a7dec69a92815844727e890b3a75966f1b073c"
+            "sha": "f7c38e9",
+            "branch": "main",
+            "date": "2026-11-03T14:23:20Z",
+            "url": "https://github.com/grafana/grafana/commit/f7c38e959a321b37b73570b6c9a842d2f19dc3df"
           }
         },
         {
