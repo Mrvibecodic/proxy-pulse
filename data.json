@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T05:45:56.118979Z",
+  "generated_at": "2026-11-03T05:51:13.223148Z",
   "groups": [
     {
       "id": "cores",
@@ -4203,7 +4203,7 @@
           "track": "tags",
           "meta": {
             "description": "AmneziaWG Linux kernel module",
-            "stars": 548,
+            "stars": 549,
             "url": "https://github.com/amnezia-vpn/amneziawg-linux-kernel-module",
             "default_branch": "master",
             "pushed_at": "2026-09-06T10:21:54Z",
@@ -4636,12 +4636,21 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T05:00:37Z",
+            "pushed_at": "2026-11-03T05:49:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core alpha 556767e",
+              "tag": "alpha",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
+              "published_at": "2026-11-03T05:48:13Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@556767e40baa142641838158d6cba743c879e5c3\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core v26.10.31",
               "tag": "stable",
@@ -4650,15 +4659,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.10.31\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core alpha 7c8dbcb",
-              "tag": "alpha",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-11-02T04:59:27Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@7c8dbcb4bbec7f80d16070069e0b2f7bf3aca62c\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
