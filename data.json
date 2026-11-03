@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T16:30:55.775410Z",
+  "generated_at": "2026-11-03T16:36:16.412618Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42596,
+            "stars": 42595,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-03T12:36:51Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39586,
+            "stars": 39587,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-03T05:52:38Z",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5301,
+            "stars": 5302,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-11-02T21:40:49Z",
@@ -4863,12 +4863,21 @@
             "stars": 153,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:23:28Z",
+            "pushed_at": "2026-11-03T16:32:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.6.0",
+              "tag": "v7.6.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.6.0",
+              "published_at": "2026-11-03T16:32:17Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.6.0\r\n\r\n### Core and service\r\n- `Stop` waits out supervisor backoff so a restart does not race a sleeping respawn.\r\n- On a failed firewall apply, tear the ruleset down.\r\n- On a failed `clash -t` after a proxy-mode rewrite, restore the previous profile text.\r\n\r\n### Firewall\r\n- Drop unparsed reserved networks, fake-ip ranges, and connmarks from generated nft/iptables rules.\r\n- Keep valid marks such as Keenetic `0x10` (they were previously dropped).\r\n\r\n### Security\r\n- Remote config and HTTP rule-provider fetches refuse loopback and link-local addresses after DNS resolution, including redirects. Private LAN stays allowed.\r\n\r\n### Web UI\r\n- Adding a rule-provider shows that it does not match traffic until a `RULE-SET` names it.\r\n- Proxy mode select stays runtime-only and does not write `config.yaml`.\r\n\r\n### Updates and installs\r\n- Verify the Mihomo download hash before removing the installed kernel on the low-space replace path.\r\n- Reject a mismatched or missing digest for the SSClash binary in the installers.\r\n- On a Mihomo digest miss or mismatch in the installers, keep the existing kernel and warn instead of installing a bad file.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.5.1",
               "tag": "v7.5.1",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.4.4\r\n\r\nfix(firewall): omit exclude egress returns when capturing router traffic.\r\n- Exclude mode returned on listed WAN interfaces in OUTPUT and local NAT, so ProxyRouterTraffic never marked router egress. The return stays when the flag is off. Prerouting still returns on those interfaces.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.4.3",
-              "tag": "v7.4.3",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.3",
-              "published_at": "2026-10-23T14:12:41Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.4.3\r\n\r\nDSCP marks.\r\n- Settings → Options: bypass and force-proxy by DSCP (multi-value, sorted). Bypass skips intercept, firewall DNS redirect, QUIC block, and DoT/DoH block. Force proxy ignores interface/policy selection, fake-ip, and the port allowlist.\r\n\r\nRouter OUTPUT fixes.\r\n- Subscription IPs that are also host addresses no longer get an OUTPUT source bypass (WAN-as-node). Missing xt_dscp no longer aborts Apply as a missing REDIRECT/TPROXY target. OUTPUT / local-NAT capture requires a userspace socket so kernel WireGuard is not marked or DNATed; if xt_owner is missing, that capture is skipped instead of falling back to an unqualified rule.\r\n\r\nDocs / UX.\r\n- Offline install (and OpenWrt offline update) in the README. Clearer Proxy router traffic and Keenetic RCI access-token hints for policy filtering on KeeneticOS 5.2+.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93213,
+            "stars": 93214,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-03T11:25:30Z",
@@ -5175,7 +5175,7 @@
             "stars": 77657,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:30:24Z",
+            "pushed_at": "2026-11-03T16:35:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5243,7 +5243,7 @@
             "stars": 66921,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:21:40Z",
+            "pushed_at": "2026-11-03T16:35:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5447,7 +5447,7 @@
             "stars": 29114,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:31:03Z",
+            "pushed_at": "2026-11-03T16:32:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5591,12 +5591,21 @@
             "stars": 1185,
             "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T16:30:39Z",
+            "pushed_at": "2026-11-03T16:33:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/241884153?v=4",
             "owner": "BEDOLAGA-DEV"
           },
           "releases": [
+            {
+              "name": "v5.2.0",
+              "tag": "v5.2.0",
+              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v5.2.0",
+              "published_at": "2026-11-03T16:33:46Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## [5.2.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v5.1.1...v5.2.0) (2026-11-03)\n\n\n### New Features\n\n* add CisPay recurring subscriptions and managed traffic accounting ([4a325ef](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4a325efb5e7f9f92b1c2b127ced2c73aa5c1ea1b))\n* add CisPay recurring subscriptions and managed traffic accounting ([53dd906](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/53dd9067b5a0431ac31d14e5fc70fba4be9b4298))\n* add CisPay recurring subscriptions and managed traffic accounting ([9da81ab](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/9da81abadd22996fdb90f2d39de0a143f3d3e4c7))\n* add CisPay recurring subscriptions and managed traffic accounting ([c084dd6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/c084dd6e7061c08dcf587e0c79a963da2b2004fd))\n* add CisPay recurring subscriptions and managed traffic accounting ([151c4ea](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/151c4ea5eb6c20056fb376f9ddaed00dc83c64c3))\n* add CisPay recurring subscriptions and managed traffic accounting ([5a977d1](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5a977d194db1a4d0246e7383caadda8110f55549))\n* add CisPay recurring subscriptions and managed traffic accounting ([7ff623e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/7ff623e86f12a23f11d4d2e1038b04e0bf8e0bf6))\n* add CisPay recurring subscriptions and managed traffic accounting ([8edf999](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8edf999a9fdb76a4a85bc3f1c6e900b70f91fb77))\n* add CisPay recurring subscriptions and managed traffic accounting ([142648a](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/142648ad0f476158ccca5f938d224dae650a1e64))\n* add CisPay recurring subscriptions and managed traffic accounting ([0bdd41e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/0bdd41eb054595bbd9485cfd208a01496477e8cd))\n* add CisPay recurring subscriptions and managed traffic accounting ([d42f2e1](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/d42f2e1d8256603ff8dbe9104bea98d61a84a55c))\n* add CisPay recurring subscriptions and managed traffic accounting ([098147d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/098147df15fe5b7abfc0226333e8d1b59fa9e921))\n* add CisPay recurring subscriptions and managed traffic accounting ([ebc6b8d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/ebc6b8d8ab42830e79be1d17efdef4dc6dc62ab4))\n* add CisPay recurring subscriptions and managed traffic accounting ([5f8abf9](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5f8abf9ddb321f687e8ceef5853ed93d80e2e288))\n* add CisPay recurring subscriptions and managed traffic accounting ([b4b363b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/b4b363bfc7cf8914d9d175f4e069ee62b4ba40a8))\n* add CisPay recurring subscriptions and managed traffic accounting ([729e87b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/729e87bea97d78b2a96ca98223c1dc29ac36477c))\n* add CisPay recurring subscriptions and managed traffic accounting ([a6bd40b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/a6bd40bc08c50da9d8807b33e2b0557402156d2d))\n* add CisPay recurring subscriptions and managed traffic accounting ([975aa60](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/975aa60f42e8515ae16205dc69fa8b9134dd80c2))\n* add CisPay recurring subscriptions and managed traffic accounting ([3a07679](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/3a07679a2b99695b393be36906591f49295b0301))\n* add CisPay recurring subscriptions and managed traffic accounting ([5057f5f](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5057f5f0f7d8b4dd2409a2bb84a989f98e6a9403))\n* add CisPay recurring subscriptions and managed traffic accounting ([2ad6ae7](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/2ad6ae75dd9285940976e36f4c8c86cd919bf6c7))\n* add CisPay recurring subscriptions and managed traffic accounting ([5c86bc7](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5c86bc7a939208e45f8af18a6029aa6a942fc01e))\n* **monitoring:** сводка админам о подписках, где устройств больше лимита ([f0907ec](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/f0907ec56b05716eae70ae3218a1975baa0e5524))\n* report subscriptions exceeding device limits to administrators ([4a325ef](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4a325efb5e7f9f92b1c2b127ced2c73aa5c1ea1b))\n* report subscriptions exceeding device limits to administrators ([53dd906](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/53dd9067b5a0431ac31d14e5fc70fba4be9b4298))\n* report subscriptions exceeding device limits to administrators ([9da81ab](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/9da81abadd22996fdb90f2d39de0a143f3d3e4c7))\n* report subscriptions exceeding device limits to administrators ([c084dd6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/c084dd6e7061c08dcf587e0c79a963da2b2004fd))\n* report subscriptions exceeding device limits to administrators ([151c4ea](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/151c4ea5eb6c20056fb376f9ddaed00dc83c64c3))\n* report subscriptions exceeding device limits to administrators ([5a977d1](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5a977d194db1a4d0246e7383caadda8110f55549))\n* report subscriptions exceeding device limits to administrators ([7ff623e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/7ff623e86f12a23f11d4d2e1038b04e0bf8e0bf6))\n* report subscriptions exceeding device limits to administrators ([8edf999](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8edf999a9fdb76a4a85bc3f1c6e900b70f91fb77))\n* report subscriptions exceeding device limits to administrators ([142648a](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/142648ad0f476158ccca5f938d224dae650a1e64))\n* report subscriptions exceeding device limits to administrators ([0bdd41e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/0bdd41eb054595bbd9485cfd208a01496477e8cd))\n* report subscriptions exceeding device limits to administrators ([d42f2e1](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/d42f2e1d8256603ff8dbe9104bea98d61a84a55c))\n* report subscriptions exceeding device limits to administrators ([098147d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/098147df15fe5b7abfc0226333e8d1b59fa9e921))\n* report subscriptions exceeding device limits to administrators ([ebc6b8d](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/ebc6b8d8ab42830e79be1d17efdef4dc6dc62ab4))\n* report subscriptions exceeding device limits to administrators ([5f8abf9](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/5f8abf9ddb321f687e8ceef5853ed93d80e2e288))\n* report subscriptions exceeding device limits to administrators ([b4b363b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/b4b363bfc7cf8914d9d175f4e069ee62b4ba40a8))\n* report subscriptions exceeding device limits to administrators ([729e87b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/729e87bea97d78b2a96ca98223c1dc29ac36477c))\n* report subscriptions exceeding device limits to administrators ([a6bd40b](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/a6bd40bc08c50da9d8807b33e2b0557402156d2d))\n* report subscriptions exceeding device limits to administrators ([975aa60](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commi"
+            },
             {
               "name": "v5.1.1",
               "tag": "v5.1.1",
@@ -5632,15 +5641,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## [4.16.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.15.0...v4.16.0) (2026-09-29)\n\n\n### New Features\n\n* **broadcast:** атомарные фильтры аудитории рассылок, поиск пользователей и расчёт аудитории в момент отправки ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** автопродление подписки через СБП-подписки Cashera в боте и кабинете ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** возврат и чарджбэк по зачисленному платежу списывают баланс ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cashera:** свой экран оплаты — QR прямо в боте и на карточке пополнения кабинета ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **dpichecker:** раздел DPI//CHECKER — запуски и мониторы проверок, цели из панели, итоги админам, ручки кабинета и CSV в Mini App ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **menu:** живое главное меню — бот сам обновляет последнее rich-меню при смене трафика, статуса, устройств и баланса ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **payments:** платёжная система Cashera для пополнения баланса в боте и кабинете — СБП, карта, крипта ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **webapi:** таймлайн активности пользователя и галерея вложений во внешнем API ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* интеграция с внешним антифрод-сервисом ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n\n\n### Bug Fixes\n\n* **abuse:** письма только на подтверждённый адрес, кривой ответ сервиса не роняет экраны ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **balance:** подсказка, как повторить пополнение с неверной суммой ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **broadcast:** аудитория учитывает живые триалы и отрицания, люди из аудитории — только с правом на карточки пользователей ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **cabinet:** документы и правила откатываются на язык по умолчанию, если текста нет ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **links:** внешние ссылки на файлы — схема и хост из заголовков прокси ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **logging:** ошибки stdlib-логгеров доезжают до админ-чата с текстом и traceback ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **panel:** сброс триала в мультитарифе стирает у человека id удалённого аккаунта ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **redis:** ожидающий пул соединений, размер и таймаут пула из .env ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **reminders:** условие «способ входа» не сводит vk_id с пустой строкой, сбой одного напоминания не роняет список и рассылку ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* **tribute:** оплата не теряется — транзакция и зачисление одним коммитом, после зачисления без 5xx, тревога админам ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n* алерты CodeQL — слабый хеш ключа DPI//CHECKER и кольца импортов ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))\n\n\n### Performance\n\n* **live-menu:** ключи живых меню через SCAN, а не KEYS ([8a5030e](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/8a5030efe990e6e10e92b138b9443bdb83d8eaa1))"
-            },
-            {
-              "name": "v4.15.0",
-              "tag": "v4.15.0",
-              "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/releases/tag/v4.15.0",
-              "published_at": "2026-09-22T23:21:14Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## [4.15.0](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/compare/v4.14.0...v4.15.0) (2026-09-22)\n\n\n### New Features\n\n* **reminders:** напоминания пользователям в бот и в кабинет — условия, тексты на языках, частота, лимиты, тихие часы, админ-API и права ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **referral:** напоминания о заявках на вывод без решения ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **promo-groups:** пересчёт групп по тратам при правке групп и по кнопке в кабинете ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **promo-groups:** клиент получает уведомление об автоназначении промогруппы в Telegram или на почту ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **broadcasts:** email-рассылка по промогруппе и одному пользователю из карточки ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **grace:** настройка обнулять счётчик трафика при выдаче grace, чтобы квота читалась как 0 из 1 ГБ ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin:** стартовое уведомление со сводкой по разделам и блоком «требует внимания» ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin:** уведомление об остановке бота — причина, аптайм, что делать дальше ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n\n\n### Bug Fixes\n\n* **account-linking:** привязка соцсети, занятой другим аккаунтом, предлагает слияние вместо тупика ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel-sync:** снимок панели не укорачивает и не гасит срок, за который недавно заплатили ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel-sync:** связь сохраняется после пересоздания удалённой учётки панели ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **panel:** «удалил подписку и купил заново» больше не наследует удалённый аккаунт панели ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **grace:** грейс по лимиту закрывается, когда трафик сбросился по расписанию ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **broadcasts:** одно письмо на человека в email-фильтрах по подписке ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **reminders:** отписанные от маркетинга не перекрывают очередь остальным ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **reminders:** устойчивость к гонке удаления, неизвестный тип кнопки, права для ролей Admin и Marketer ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin/payments:** успешные автопродления Platega СБП отображаются в платежах ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **admin-chat:** кнопки тикетов и заявок на вывод работают в групповом админ-чате, нерабочие не рисуются ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **referral:** напоминание о заявке на вывод с теми же кнопками, что у исходного уведомления ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **cabinet:** покупка тарифа из кабинета спрашивает настройки сброса трафика ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **cabinet:** email-регистрация по приглашениям ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **mulenpay:** вебхук без подписи проверяется через API и не падает на некорректном теле ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **nalogo:** чек НПД по покупке с лендинга только для оплат через YooKassa ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logging:** обрывы getUpdates не уходят в админ-чат отчётом об ошибке ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logs:** в сообщениях логов нет следов вырезанных подстановок ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **logo:** заменённый файл логотипа показывается сразу ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))\n* **branding:** иконка приложения на Android без чёрных полос по краям ([4fdcee6](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/4fdcee691ba8f4884b192ea6960d2f9ac9805422))"
             }
           ],
           "last_commit": {
