@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T18:42:50.822535Z",
+  "generated_at": "2026-11-04T18:48:12.936062Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T17:16:07Z",
+            "pushed_at": "2026-11-04T18:46:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5a350e9",
+                  "message": "nmap: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T18:46:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/5a350e9adf2e5c411205597f9092a8069bd04580"
+                },
+                {
+                  "sha": "9381237",
+                  "message": "libshout: let the other variants provide libshout",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T18:45:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/9381237d48d3fd022a05e5c141155c04814c7881"
+                },
+                {
+                  "sha": "ecac5a2",
+                  "message": "pv: bump to 1.12.0",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-04T18:45:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/ecac5a2a1d9c4d3d83835498c31f4f2937f0700c"
+                },
+                {
                   "sha": "8a3e4b6",
                   "message": "radicale3: bump to v3.9.0 (security)",
                   "author": "Daniel F. Dickinson",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-02T20:12:44Z",
                   "url": "https://github.com/openwrt/packages/commit/1f7abcb5127707be54c8edac0201baa82ad641d7"
-                },
-                {
-                  "sha": "8dcfb14",
-                  "message": "apfree-wifidog: update to 9.10.2968",
-                  "author": "Dengfeng Liu",
-                  "date": "2026-11-02T19:02:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/8dcfb1424323643536ee2a65b258baab9022897e"
-                },
-                {
-                  "sha": "051db1d",
-                  "message": "vnstat2: update to version 2.14",
-                  "author": "Jan Hoffmann",
-                  "date": "2026-11-02T19:01:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/051db1d1489b0f6f3c4555e4357b3282f5449013"
-                },
-                {
-                  "sha": "283ca12",
-                  "message": "banip: update 1.9.1-5",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-02T16:05:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/283ca12befc9f9a60c0fe42208c3e23d4e29f72a"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77681,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T18:41:42Z",
+            "pushed_at": "2026-11-04T18:47:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "69fdf4e",
-            "branch": "drew08t/remove-timeComparison-panelTimeSettings",
-            "date": "2026-11-02T17:55:19Z",
-            "url": "https://github.com/grafana/grafana/commit/69fdf4e3b17ec7319ab571d49852e0781b44ea99"
+            "sha": "37e5f02",
+            "branch": "main",
+            "date": "2026-11-02T20:28:32Z",
+            "url": "https://github.com/grafana/grafana/commit/37e5f02ddb0c252afc8e8e5fe62f84ccea483a01"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29123,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T18:22:23Z",
+            "pushed_at": "2026-11-04T18:47:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3673,
+            "stars": 3674,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-10-29T03:23:27Z",
