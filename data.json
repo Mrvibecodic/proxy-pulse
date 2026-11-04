@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T04:29:21.637367Z",
+  "generated_at": "2026-11-04T04:34:39.110381Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39602,
+            "stars": 39603,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-03T05:52:38Z",
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "15af690",
+                  "message": "ddns-scripts: add alviy.com provider",
+                  "author": "Elly Sai",
+                  "date": "2026-11-04T04:34:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/15af690cfc263c12264a85e32dafdb1f926d7673"
+                },
+                {
                   "sha": "8b272d2",
                   "message": "msmtp: update to 1.8.34",
                   "author": "Romain Isnel",
@@ -3551,13 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-30T03:30:08Z",
                   "url": "https://github.com/openwrt/packages/commit/254f13c7d605b557ca14c75a917f2cd3265ceace"
-                },
-                {
-                  "sha": "dfaccea",
-                  "message": "cloudflared: update to 2026.10.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:29:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/dfaccea23600ae27d45cb83c1e7a94f6a26fb8b9"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77670,
+            "stars": 77671,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-04T04:22:41Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d81cd7b",
-            "branch": "main",
-            "date": "2026-11-03T18:21:04Z",
-            "url": "https://github.com/grafana/grafana/commit/d81cd7bc54c7ef01f2016adb68d547ccc8958742"
+            "sha": "cb8a614",
+            "branch": "sencer/bulk-blob-normalization",
+            "date": "2026-11-02T11:33:14Z",
+            "url": "https://github.com/grafana/grafana/commit/cb8a61437385378b2eba2f4ed7f19f1797aa9b03"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ecc6fa2",
-            "branch": "release-3.7.x",
-            "date": "2026-11-03T18:01:50Z",
-            "url": "https://github.com/grafana/loki/commit/ecc6fa22ea12c984cbdbe04b409f423ee28a97b7"
+            "sha": "d8342c8",
+            "branch": "main",
+            "date": "2026-11-03T18:27:14Z",
+            "url": "https://github.com/grafana/loki/commit/d8342c803d7955426efd2dc447ad16ce06e230c3"
           }
         }
       ]
