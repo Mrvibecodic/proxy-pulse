@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:31:26.603486Z",
+  "generated_at": "2026-11-04T06:36:44.852497Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35495,
+            "stars": 35496,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-10-30T09:50:47Z",
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T04:34:49Z",
+            "pushed_at": "2026-11-04T06:34:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "aea49e6",
+                  "message": "luajit: do not build on riscv64",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T06:34:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/aea49e65a439f73fbc0e4b8c60ced1f1839f64fd"
+                },
+                {
+                  "sha": "9db97fd",
+                  "message": "luajit: indent the package metadata with two spaces",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T06:34:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/9db97fd3f7a8eaa00d35f492e02a6451be1a9e4a"
+                },
+                {
                   "sha": "15af690",
                   "message": "ddns-scripts: add alviy.com provider",
                   "author": "Elly Sai",
@@ -3544,20 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-30T03:31:01Z",
                   "url": "https://github.com/openwrt/packages/commit/729471f177248fcede707afc94759fabf1254792"
-                },
-                {
-                  "sha": "21d8384",
-                  "message": "dnsproxy: update to 0.84.2",
-                  "author": "Tawhidul Islam",
-                  "date": "2026-10-30T03:30:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/21d8384fd2a2c4a1d441e3a0e472222e6aa4d088"
-                },
-                {
-                  "sha": "254f13c",
-                  "message": "rclone: update to 1.75.2",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:30:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/254f13c7d605b557ca14c75a917f2cd3265ceace"
                 }
               ]
             },
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a4691c0",
+            "sha": "3bc24e8",
             "branch": "main",
-            "date": "2026-11-02T16:03:32Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/a4691c08e3b309e3bd599c273b6308c5ebee6cf3"
+            "date": "2026-11-02T15:33:49Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/3bc24e8a7b530626b6734219ebc265ab2d8634a3"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93236,
+            "stars": 93237,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-04T00:05:04Z",
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77674,
+            "stars": 77675,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-04T06:24:57Z",
@@ -5447,7 +5447,7 @@
             "stars": 29120,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T06:25:55Z",
+            "pushed_at": "2026-11-04T06:36:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f910e96",
-            "branch": "main",
-            "date": "2026-11-02T12:27:11Z",
-            "url": "https://github.com/grafana/loki/commit/f910e965c3e5ded1002ad27141adf54ebfd7f8ae"
+            "sha": "7ae8397",
+            "branch": "release-please--branches--release-3.7.x",
+            "date": "2026-11-02T16:55:57Z",
+            "url": "https://github.com/grafana/loki/commit/7ae839705f5870d0a9f8c538b004abe6b00be721"
           }
         }
       ]
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8dde451",
-            "branch": "t3/e3a75d3a",
-            "date": "2026-11-04T03:05:21Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/8dde451acaf27c295057ab40f8418fe751889eac"
+            "sha": "3a33149",
+            "branch": "breaking/v3",
+            "date": "2026-11-04T04:08:58Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/3a3314993d49a575263bb5ba273b27692d9d28c3"
           }
         }
       ]
