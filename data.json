@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:25:52.836448Z",
+  "generated_at": "2026-11-04T14:31:13.241594Z",
   "groups": [
     {
       "id": "cores",
@@ -1187,10 +1187,10 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4665,
+            "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T14:25:36Z",
+            "pushed_at": "2026-11-04T14:29:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "cc669f6",
+                  "message": "adguardhome: bump to 0.107.80",
+                  "author": "George Sapkin",
+                  "date": "2026-11-04T14:29:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/cc669f62ae657c02950a10286f345a7962febcf4"
+                },
+                {
                   "sha": "dfe9b7d",
                   "message": "nsd: add version check override",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-02T15:28:48Z",
                   "url": "https://github.com/openwrt/packages/commit/752d8e414cfb7caa01f446dfd2356789f035aa8a"
-                },
-                {
-                  "sha": "1195e75",
-                  "message": "uanytun: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T15:28:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/1195e752b84771f824c2432d6a6a43d0de8e6743"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93250,
+            "stars": 93252,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-04T00:05:04Z",
@@ -5175,7 +5175,7 @@
             "stars": 77677,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T14:25:56Z",
+            "pushed_at": "2026-11-04T14:27:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5308,10 +5308,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81269,
+            "stars": 81270,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T12:08:17Z",
+            "pushed_at": "2026-11-04T14:29:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4714d92",
-            "branch": "master",
-            "date": "2026-11-02T18:29:34Z",
-            "url": "https://github.com/netdata/netdata/commit/4714d926a8e49f432f4b2f511e622c0f7b87288a"
+            "sha": "a56abf0",
+            "branch": "docs-windows-custom-ca",
+            "date": "2026-11-02T17:14:54Z",
+            "url": "https://github.com/netdata/netdata/commit/a56abf05876770a4e0fb6afcaa49d9e28c766db0"
           }
         },
         {
@@ -5379,7 +5379,7 @@
             "stars": 18004,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T13:36:07Z",
+            "pushed_at": "2026-11-04T14:28:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,7 +5447,7 @@
             "stars": 29123,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T14:22:12Z",
+            "pushed_at": "2026-11-04T14:29:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e13914c",
-            "branch": "deps-update/release-3.6.x-github.com-prometheus-client_golang-exp-digest",
-            "date": "2026-11-02T21:41:09Z",
-            "url": "https://github.com/grafana/loki/commit/e13914ca83f9c67d891a10db82eec8734c1c76da"
+            "sha": "488c925",
+            "branch": "pltb/ingester-stream-order-tests",
+            "date": "2026-11-02T17:41:04Z",
+            "url": "https://github.com/grafana/loki/commit/488c925a61596616e9e8c7ddbb08f88f3f7ae4e8"
           }
         }
       ]
