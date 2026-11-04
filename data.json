@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T17:12:02.413718Z",
+  "generated_at": "2026-11-04T17:17:27.999264Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T17:11:24Z",
+            "pushed_at": "2026-11-04T17:16:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8a3e4b6",
+                  "message": "radicale3: bump to v3.9.0 (security)",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-11-04T17:16:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/8a3e4b6a171cdb3532c0e3afbf8d134ee244762a"
+                },
+                {
                   "sha": "74507f1",
                   "message": "zoneinfo: update to 2026f release",
                   "author": "Vladimir Ulrich",
@@ -2046,13 +2053,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-11-02T16:05:50Z",
                   "url": "https://github.com/openwrt/packages/commit/283ca12befc9f9a60c0fe42208c3e23d4e29f72a"
-                },
-                {
-                  "sha": "24f7c06",
-                  "message": "poco: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T15:29:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/24f7c0660bda1b4c107b0a3207c914f65eb314f0"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "43f8e71",
+                  "message": "zoneinfo: update to 2026f release",
+                  "author": "Vladimir Ulrich",
+                  "date": "2026-11-04T17:15:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/43f8e71106193791c2e338d9d58fd54ff682bf06"
+                },
+                {
                   "sha": "2bda86e",
                   "message": "msmtp: update to 1.8.34",
                   "author": "Romain Isnel",
@@ -3336,19 +3343,26 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-16T02:41:23Z",
                   "url": "https://github.com/openwrt/packages/commit/a714c6e379f9111b1114e9e585e43f04f266e41a"
-                },
-                {
-                  "sha": "ff8a55e",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-16T02:41:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/ff8a55e9de373a4113f19b1a5ef447bf1141a1e8"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "e0d2c01",
+                  "message": "zoneinfo: update to 2026f release",
+                  "author": "Vladimir Ulrich",
+                  "date": "2026-11-04T17:14:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/e0d2c013e90619d429403fb8e0ef69e88e8629a2"
+                },
+                {
+                  "sha": "22319ea",
+                  "message": "telegraf: update to 1.40.3",
+                  "author": "Niklas Thorild",
+                  "date": "2026-11-04T17:13:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/22319eaa33f84f3849269360d4692b0fbc68dbe8"
+                },
                 {
                   "sha": "aea49e6",
                   "message": "luajit: do not build on riscv64",
@@ -3544,20 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-10-30T03:31:39Z",
                   "url": "https://github.com/openwrt/packages/commit/16fe7222e47ca23032e96015bcd5545b00058a34"
-                },
-                {
-                  "sha": "2846983",
-                  "message": "openlist: update to 4.2.7",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:31:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/28469835c6e8eadf4a318ad1057d1e1b927b868d"
-                },
-                {
-                  "sha": "729471f",
-                  "message": "dnsproxy: update to 0.86.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:31:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/729471f177248fcede707afc94759fabf1254792"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77680,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T17:08:56Z",
+            "pushed_at": "2026-11-04T17:17:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c0599fc",
-            "branch": "moustafab/provenance-manager-notifications-v3",
-            "date": "2026-11-02T20:43:51Z",
-            "url": "https://github.com/grafana/grafana/commit/c0599fccf998d35881ce9a4ef6b9f2aafcab2a1f"
+            "sha": "3508e6f",
+            "branch": "main",
+            "date": "2026-11-02T19:22:14Z",
+            "url": "https://github.com/grafana/grafana/commit/3508e6f7fdf5c716f3a9f5c0c0285ea2c0b0dfae"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66939,
+            "stars": 66938,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-04T17:11:55Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81269,
+            "stars": 81268,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-04T17:07:54Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8ece782",
-            "branch": "deps-update/release-3.7.x-github.comalecthomaschromav2",
-            "date": "2026-11-02T21:25:38Z",
-            "url": "https://github.com/grafana/loki/commit/8ece78206f45185f17a9b80858c238481dde8a1b"
+            "sha": "9cdef69",
+            "branch": "backport-26137-to-release-4.0.0",
+            "date": "2026-11-02T22:07:20Z",
+            "url": "https://github.com/grafana/loki/commit/9cdef69faec834756a22d6844e69052f1c6b2312"
           }
         }
       ]
