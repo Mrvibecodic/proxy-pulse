@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T14:20:32.541207Z",
+  "generated_at": "2026-11-04T14:25:52.836448Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42613,
+            "stars": 42614,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-04T11:01:45Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1504,
+            "stars": 1505,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-02T14:26:10Z",
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-04T06:34:06Z",
+            "pushed_at": "2026-11-04T14:25:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "dfe9b7d",
+                  "message": "nsd: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T14:25:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/dfe9b7d7575579628d35ed42eea7ce58e8f38e63"
+                },
+                {
+                  "sha": "1f9861e",
+                  "message": "lcd4linux: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T14:25:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/1f9861e16ec06eecf930ebab6c3b35a4c77d43a7"
+                },
+                {
+                  "sha": "52df6b7",
+                  "message": "cache-domains: fix CI test with apk",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-04T14:24:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/52df6b74dc38a262b980fd6de15132d6af7b1a5b"
+                },
+                {
                   "sha": "a6e9c57",
                   "message": "libcups: update to 2.4.20",
                   "author": "Sander van Deijck",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-02T15:28:31Z",
                   "url": "https://github.com/openwrt/packages/commit/1195e752b84771f824c2432d6a6a43d0de8e6743"
-                },
-                {
-                  "sha": "5cae299",
-                  "message": "vsftpd: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T15:28:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/5cae299a7b6cbebb0c3d36a85cdcd457cfb89d77"
-                },
-                {
-                  "sha": "5958bac",
-                  "message": "wifidog: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T15:28:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/5958bac1ddd3f422f234415457a9387c1eb260b8"
-                },
-                {
-                  "sha": "735dc20",
-                  "message": "zmq: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T14:18:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/735dc207ceb326ba0697a906190ccc587348f678"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93249,
+            "stars": 93250,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-04T00:05:04Z",
@@ -5175,7 +5175,7 @@
             "stars": 77677,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T14:20:06Z",
+            "pushed_at": "2026-11-04T14:25:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0954fc1",
-            "branch": "RafaelPaulovic/provisioning-health-http-status",
-            "date": "2026-11-04T09:40:35Z",
-            "url": "https://github.com/grafana/grafana/commit/0954fc1016a85e139662334bb9ea5bf98c59f2b0"
+            "sha": "e41e16a",
+            "branch": "sencer/bulk-blob-endpoint",
+            "date": "2026-11-02T15:25:09Z",
+            "url": "https://github.com/grafana/grafana/commit/e41e16a857c8292f1d253b6f8c6940ade960dccc"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29123,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-04T14:09:42Z",
+            "pushed_at": "2026-11-04T14:22:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "644d326",
-            "branch": "deps-update/release-3.7.x-github.comapachearrow-gov18",
-            "date": "2026-11-02T21:26:45Z",
-            "url": "https://github.com/grafana/loki/commit/644d32636947e321978b2dd6fe203633c9a1d6b6"
+            "sha": "e13914c",
+            "branch": "deps-update/release-3.6.x-github.com-prometheus-client_golang-exp-digest",
+            "date": "2026-11-02T21:41:09Z",
+            "url": "https://github.com/grafana/loki/commit/e13914ca83f9c67d891a10db82eec8734c1c76da"
           }
         }
       ]
