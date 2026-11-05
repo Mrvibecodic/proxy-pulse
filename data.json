@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:38:34.768212Z",
+  "generated_at": "2026-11-05T14:43:56.589011Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42643,
+            "stars": 42644,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-05T10:20:00Z",
@@ -502,7 +502,7 @@
             "stars": 18,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T21:11:05Z",
+            "pushed_at": "2026-11-05T14:41:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Резервные копии сохраняются только на этом компьютере: копирование в WebDAV убрано, его прежние настройки удаляются при запуске\n- Главная, списки серверов, журнала и соединений и редакторы групп и правил подписки работают быстрее\n\n### Исправлено\n\n- Значок, подсказка и меню трея больше не застревают в прежнем состоянии после перезапуска ядра, переключений и пробуждения компьютера\n- Сервер, выбранный на Главной во время проверки задержек группы, получает пинг сразу"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.14-alpha.2",
-              "tag": "clod-v0.1.14-alpha.2",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.2",
-              "published_at": "2026-10-29T10:19:26Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Изменено\n\n- На Windows адреса .local в локальной сети по умолчанию идут мимо системного прокси\n\n### Исправлено\n\n- Трей сразу после запуска показывает включённый системный прокси, а не только после перезапуска приложения\n- Меню трея на Windows не пропадает, если на действие назначено сочетание с клавишей Win\n- Служба Windows, убранная из автозапуска, не задерживает старт приложения\n- Cmd+W на macOS скрывает окно без системного уведомления\n- Портативная версия на Windows регистрирует обе схемы ссылок, а не только clash://\n- Архив резервной копии собирается в папке приложения, а не в общей временной папке системы"
             }
           ],
           "last_commit": {
@@ -4745,7 +4736,7 @@
             "stars": 2155,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T13:31:42Z",
+            "pushed_at": "2026-11-05T14:43:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -5175,7 +5166,7 @@
             "stars": 77717,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T14:37:32Z",
+            "pushed_at": "2026-11-05T14:43:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d4f4a3b",
-            "branch": "iam2543/handle-FlagExcludeRedundantManagedPermissions-correctly",
-            "date": "2026-11-04T17:27:56Z",
-            "url": "https://github.com/grafana/grafana/commit/d4f4a3b5fea3f32d1a303e4a70e8a44e4b975e05"
+            "sha": "3702862",
+            "branch": "shirley/unfurl-trace-span",
+            "date": "2026-11-05T13:25:46Z",
+            "url": "https://github.com/grafana/grafana/commit/37028621b977a32acb0909f383d68e5fc3a824dd"
           }
         },
         {
@@ -5240,7 +5231,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66968,
+            "stars": 66969,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-05T14:19:39Z",
@@ -5447,7 +5438,7 @@
             "stars": 29129,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T14:27:25Z",
+            "pushed_at": "2026-11-05T14:42:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "046c98b",
-            "branch": "deps-update/main-lock-file-maintenance",
-            "date": "2026-11-04T18:06:00Z",
-            "url": "https://github.com/grafana/loki/commit/046c98b8d09dbe96c6a8c5f42b6dcbfae42dd899"
+            "sha": "943eb21",
+            "branch": "main",
+            "date": "2026-11-05T14:14:07Z",
+            "url": "https://github.com/grafana/loki/commit/943eb21586291bff0470f368c96893778aa6cfc6"
           }
         }
       ]
