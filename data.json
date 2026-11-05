@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T14:33:10.688215Z",
+  "generated_at": "2026-11-05T14:38:34.768212Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-05T14:29:47Z",
+            "pushed_at": "2026-11-05T14:37:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "4d71f28",
+                  "message": "openssh: backport security mitigation from 10.6p2",
+                  "author": "Darren Tucker",
+                  "date": "2026-11-05T14:37:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/4d71f2824715a090f7e9dfe8da73f5a40ade8bad"
+                },
+                {
                   "sha": "43f8e71",
                   "message": "zoneinfo: update to 2026f release",
                   "author": "Vladimir Ulrich",
@@ -3336,13 +3343,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-21T06:26:46Z",
                   "url": "https://github.com/openwrt/packages/commit/be65a3156b0da660629f7c6b5f5411ef1c3fde37"
-                },
-                {
-                  "sha": "a714c6e",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-16T02:41:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/a714c6e379f9111b1114e9e585e43f04f266e41a"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93277,
+            "stars": 93278,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-05T13:47:31Z",
@@ -5175,7 +5175,7 @@
             "stars": 77717,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T14:32:01Z",
+            "pushed_at": "2026-11-05T14:37:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "010b4ee",
-            "branch": "main",
-            "date": "2026-11-03T14:33:10Z",
-            "url": "https://github.com/grafana/grafana/commit/010b4ee40836a48b0d5cd922afcf912bf5a30659"
+            "sha": "d4f4a3b",
+            "branch": "iam2543/handle-FlagExcludeRedundantManagedPermissions-correctly",
+            "date": "2026-11-04T17:27:56Z",
+            "url": "https://github.com/grafana/grafana/commit/d4f4a3b5fea3f32d1a303e4a70e8a44e4b975e05"
           }
         },
         {
