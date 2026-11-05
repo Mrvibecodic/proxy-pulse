@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:58:58.027398Z",
+  "generated_at": "2026-11-05T16:09:37.341482Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39661,
+            "stars": 39662,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-03T05:52:38Z",
@@ -963,10 +963,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d5efd9c",
+            "sha": "cb89a14",
             "branch": "dev",
-            "date": "2026-11-03T12:26:02Z",
-            "url": "https://github.com/throneproj/Throne/commit/d5efd9ca97ad8476a71e903762d971e7b15f75b8"
+            "date": "2026-11-05T14:46:56Z",
+            "url": "https://github.com/throneproj/Throne/commit/cb89a14fed80d3cf6b3d8def99db0f488445bfdc"
           }
         },
         {
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16362,
+            "stars": 16363,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-04T10:58:19Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93283,
+            "stars": 93284,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-05T13:47:31Z",
@@ -5175,7 +5175,7 @@
             "stars": 77718,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:57:37Z",
+            "pushed_at": "2026-11-05T16:07:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "693ca10",
-            "branch": "idastambuk/mobile-edit-7-restore-import",
-            "date": "2026-11-04T18:14:42Z",
-            "url": "https://github.com/grafana/grafana/commit/693ca10b60d08900fa2130fa5fe7fe5da9ce2f35"
+            "sha": "7048da2",
+            "branch": "grafakus/panel-bulk-actions-popover",
+            "date": "2026-11-03T16:55:47Z",
+            "url": "https://github.com/grafana/grafana/commit/7048da2656e089ed200431b19ce0e8c8895e29ae"
           }
         },
         {
@@ -5240,15 +5240,24 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66973,
+            "stars": 66975,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:36:03Z",
+            "pushed_at": "2026-11-05T16:06:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
           },
           "releases": [
+            {
+              "name": "3.16.0 / 2026-11-04",
+              "tag": "v3.16.0",
+              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.16.0",
+              "published_at": "2026-11-05T16:06:52Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "- [CHANGE] API: The experimental search endpoints now clamp `batch_size` to 1000. #19731\r\n- [CHANGE] Configuration: Default --web.external-url to https when --web.config.file enables TLS. #19241\r\n- [CHANGE] PromQL: Subquery samples are now included in the query TotalSamples and TotalSamplesPerStep statistics, and SamplesRead now counts reads from subqueries with an @ modifier in range queries. #19165\r\n- [CHANGE] Remote write: Stop exposing the deprecated `prometheus_remote_storage_metadata_total`, `prometheus_remote_storage_metadata_failed_total`, `prometheus_remote_storage_metadata_retried_total`, and `prometheus_remote_storage_metadata_bytes_total` metrics for Remote Write 2.0 queues. #20080\r\n- [CHANGE] Remote write receiver: Count Remote Write 2.x samples and histograms ingested without metadata in `prometheus_api_remote_write_without_metadata_appended_samples_total` even when `metadata-wal-records` is disabled. #19812\r\n- [CHANGE] TSDB: Reject exemplars whose label names are not unique, instead of storing them and serving a duplicate JSON key from `/api/v1/query_exemplars`. #19896\r\n- [FEATURE] API: Allow overriding PromQL Start Timestamp processing on a per-query basis using the `X-Prometheus-Use-Start-Timestamps` HTTP header. #19066\r\n- [FEATURE] Agent: Support metadata-wal-records in Prometheus Agent mode. #19684\r\n- [FEATURE] PromQL: Add experimental `integral()` function for computing integral-over-time of range vectors behind the `--enable-feature=promql-experimental-functions` flag. #14440\r\n- [FEATURE] PromQL: Add experimental query cost estimation, actual cost reporting, and configurable execution limits, enabled with `--enable-feature=query-cost`. #20028\r\n- [FEATURE] PromQL: Smoothed and Anchored vector selectors are now stable and always-on. #19697\r\n- [FEATURE] PromQL: Use start timestamps to detect counter resets when float timeseries are queried using extended range selector modifiers (`anchored`, `smoothed`). This feature is hidden behind `use-start-timestamps` feature flag. #18966\r\n- [FEATURE] Promtool: print test filename during promtool tests #18271\r\n- [FEATURE] PromQL: Allow unquoted Unicode letters and dots behind a feature flag #20162\r\n- [ENHANCEMENT] Search API: Warn when participating remote-read storage does not support search. #19992\r\n- [ENHANCEMENT] Remote Read: Add native histogram prometheus_remote_read_handler_gate_wait_duration_seconds to measure concurrency-gate wait duration, including requests canceled while waiting. #18355\r\n- [ENHANCEMENT] Remote Write: Add experimental flag `convert_nhcb_to_classic` to convert NHCB to classic histograms for external systems that dont support NHCBs. #17205\r\n- [ENHANCEMENT] promtool: Add `--allow-incompatible-block-duration` so users can specify any max-block-duration instead of being restricted to the default Prometheus block durations. #19363\r\n- [PERF] Remote write: Cache repeated OTLP histogram metric names. #19717\r\n- [PERF] OpenMetrics 2.0 parser: Reuse classic histogram and summary expansion buffers across scrapes. #19907\r\n- [PERF] PromQL: Decode only histogram sum/count (not buckets) for timestamp(), start_timestamp() and absent(). #19738\r\n- [PERF] PromQL: Only select the fixed window for subqueries with an `@` modifier. #19863\r\n- [PERF] Remote write / TSDB: Deduplicate per-series metadata structs in memory with `unique.Handle`. #20040\r\n- [PERF] Scrape: Avoid some copies of scrape response bodies. #19394\r\n- [PERF] TSDB: Improve XOR2 compression and append performance by selecting value windows based on encoding cost. #19962\r\n- [PERF] TSDB: Reduce memory used writing and reading checkpoint metadata records. #19712\r\n- [PERF] Scrape: Convert classic histograms to NHCB directly in the OpenMetrics 2.0 parser without wrapping in `NHCBParser`. #19880\r\n- [PERF] Scrape: Reduce OpenMetrics 2.0 parser allocations and CPU overhead by lazily constructing composite series and exemplar labels. #19895\r\n- [BUGFIX] Remote read: Abort failed streaming responses without writing duplicate headers or appending plain-text errors to the protobuf stream #19749\r\n- [BUGFIX] TSDB: Fix loss of out-of-order samples when a WAL checkpoint drops a series record that the out-of-order write-behind log still needs #19737\r\n- [BUGFIX] TSDB: Fix queries that seek within a head chunk returning samples committed after the query started #19854\r\n- [BUGFIX] TSDB: Preserve mapped chunks when WAL replay merges multiple references for the same series, preventing missing out-of-order samples and duplicate in-order chunks after restart #19805\r\n- [BUGFIX] Fix auto-reload logic to reload after reverting a failed configuration change #19838\r\n- [BUGFIX] API: Do not match metric family metadata for doubled _total and _info suffixes in experimental search API. #19910\r\n- [BUGFIX] API: Reject `timeout` and `lookback_delta` values that overflow int64 instead of turning them into a negative duration #19658\r\n- [BUGFIX] API: Resolve metric family metadata for suffixed metric names in search results, in experimental search API. #19824\r\n- [BUGFIX] AWS SD: Describe each ElastiCache cluster once instead of twice for clusters that are not replication group members. #19434\r\n- [BUGFIX] Build: Allow installing promtool with version-suffixed go install commands #19754\r\n- [BUGFIX] Discovery: Fix a panic in Azure service discovery when a VM tag has a null value. #19755\r\n- [BUGFIX] Federation: fix corruption of float native histograms. #19679\r\n- [BUGFIX] Fix ts_of_last_over_time for samples before the Unix epoch. #19828\r\n- [BUGFIX] Histograms: Fix ConvertNHCBToClassic inflating classic bucket counts for integer native histograms whose spans have gaps. #19659\r\n- [BUGFIX] Logging: Preserve rule and TSDB block values in JSON logs. #19572\r\n- [BUGFIX] OTLP receiver: Drop exemplars with timestamps more than 10 minutes in the future instead of storing them and blocking subsequent exemplars for that series. #19812\r\n- [BUGFIX] OTLP: Count only out-of-order exemplars in `prometheus_api_otlp_out_of_order_exemplars_total`, not every rejected exemplar. #20030\r\n- [BUGFIX] OTLP: Do not drop exemplars that have a `trace_id` or `span_id` filtered attribute in addition to a trace or span ID. The trace context now takes precedence over the colliding attribute, as required by the OpenTelemetry specification. #20004\r\n- [BUGFIX] OTLP: Do not emit `le=\"+Inf\"` twice when a histogram's explicit bounds end at `+Inf`, and warn about the bound. #19425\r\n- [BUGFIX] OTLP: Stop dropping exemplars that arrive out of timestamp order within a data point. #20029\r\n- [BUGFIX] OpenMetrics 2.0: Attach histogram exemplars to matching classic `_bucket` series and preserve them when scraping both native and classic histograms. #20020\r\n- [BUGFIX] PromQL: Avoid intermediate overflow in `rad()` and `deg()` conversions. #19901\r\n- [BUGFIX] PromQL: Consistently ignore and drop `__type__` and `__unit__` labels in `without` aggregations, `absent()`, `info()`, and binary operator fill matching. #19986\r\n- [BUGFIX] PromQL: Do not panic when printing the partial AST returned alongside a parse error. #19797\r\n- [BUGFIX] PromQL: Drop __type__ and __unit__ in binary operations so they are transparent to users, similar to how __name__ is handled. #18680\r\n- [BUGFIX] PromQL: Fix `==`, `!=`, `changes()` and `count_values` on native histograms giving wrong results inside `histogram_count()`, `histogram_sum()` and `histogram_avg()`. #20024\r\n- [BUGFIX] PromQL: Fix histogram_fraction returning wrong results for native histograms with custom buckets when a bucket boundary is exactly 0. #19657\r\n- [BUGFIX] PromQL: Fix histogram_quantile and histogram_quantiles interpolating within the wrong bucket for native histograms whose sum is NaN. #19973\r\n- [BUGFIX] PromQL: Fix lexing of subqueries whose range is a duration keyword expression, e.g. `foo[range():1s]`. #19729\r\n- [BUGFIX] PromQL: Fix warning and error locations for duration expressions `min_of` and `max_of`. #19742\r\n- [BUGFIX] PromQL: Ignore NaN classic histogram bu"
+            },
             {
               "name": "3.16.0-rc.4 / 2026-11-03",
               "tag": "v3.16.0-rc.4",
@@ -5284,22 +5293,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "- [SECURITY] Container images: Update CA certificates to distrust \"emSign ECC Root CA - G3\" and \"Comodo AAA Services root\" following the compromise of eMudhra intermediate CA private keys.\r\n- [SECURITY] Build with Go 1.26.10 to fix vulnerabilities in `net/http`, `net/textproto`, `crypto/tls` and `html/template`.\r\n- [SECURITY] Bump golang.org/x/net to v0.60.0 to fix HTTP/2 vulnerabilities (GO-2026-6603, GO-2026-6610, GO-2026-6611, GO-2026-6612, GO-2026-6617).\r\n- [SECURITY] Bump OpenTelemetry to v1.45.0 to fix exporter endpoint URLs leaking into info logs (GO-2026-6505).\r\n- [CHANGE] Building Prometheus now requires Go 1.26 or later.\r\n"
-            },
-            {
-              "name": "3.13.4 / 2026-09-29",
-              "tag": "v3.13.4",
-              "url": "https://github.com/prometheus/prometheus/releases/tag/v3.13.4",
-              "published_at": "2026-10-02T14:46:21Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "- [SECURITY] Bump google.golang.org/grpc to v1.83.1 to fix HTTP/2 DATA frame fragmentation memory exhaustion (GO-2026-6348). #19834\r\n- [SECURITY] UI: Update vulnerable npm dependencies. #19834\r\n- [BUGFIX] Agent: Ignore unknown WAL record types to allow rolling back from newer versions. #19814\r\n- [BUGFIX] Federation: Fix corruption of float native histograms. #19679\r\n- [BUGFIX] Scrape: Fix failing scrapes of protobuf float histograms with zero sample, zero and bucket counts, such as the result of recording `rate(x[1m])` over a constant histogram. #19682\r\n"
             }
           ],
           "last_commit": {
-            "sha": "cd69c59",
-            "branch": "perfloop-pr-open-cnjvt5vqd8",
-            "date": "2026-11-05T14:51:17Z",
-            "url": "https://github.com/prometheus/prometheus/commit/cd69c59f3d1de43e89fc5865a66c657228dc6ff6"
+            "sha": "d15f757",
+            "branch": "perfloop-pr-open-67g99pa5pd",
+            "date": "2026-11-05T14:48:37Z",
+            "url": "https://github.com/prometheus/prometheus/commit/d15f757b25c5d441d5d8c653ae3653b04b20e3c7"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29129,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:50:46Z",
+            "pushed_at": "2026-11-05T15:59:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "de6e621",
-            "branch": "grobinson/simple-rate-limit-err-msg",
-            "date": "2026-11-05T13:49:41Z",
-            "url": "https://github.com/grafana/loki/commit/de6e621bfe7f1c5bf3a9f2583fde6b19ecf8433f"
+            "sha": "6d8d3d9",
+            "branch": "deps-update/release-3.6.x-anthropics-claude-code-action-digest",
+            "date": "2026-11-03T15:27:59Z",
+            "url": "https://github.com/grafana/loki/commit/6d8d3d99415b75f97dfe8d8ba0866258aae9ed7c"
           }
         }
       ]
@@ -5871,7 +5871,7 @@
             "stars": 8193,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:41:52Z",
+            "pushed_at": "2026-11-05T16:04:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
