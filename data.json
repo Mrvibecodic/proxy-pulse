@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:42:55.206801Z",
+  "generated_at": "2026-11-05T15:48:17.360183Z",
   "groups": [
     {
       "id": "cores",
@@ -910,12 +910,21 @@
             "stars": 7721,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-05T15:12:02Z",
+            "pushed_at": "2026-11-05T15:44:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
           },
           "releases": [
+            {
+              "name": "1.4.0",
+              "tag": "1.4.0",
+              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0",
+              "published_at": "2026-11-05T15:45:00Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "* Introducing Simple interface mode **1**\r\n* Introducing Headless mode, Throne API and Web UI **2**\r\n* Add DNS tunnels: dnstt/VayDNS, MasterDNS/StormDNS and XDNS **3**\r\n* Add IP Scanner **4**\r\n* Add Kill switch **5**\r\n* Add per-group routing profiles and subscription routing import\r\n* Add DNS settings to route profiles and an enable/disable toggle for route rules\r\n* Add Ctrl+K command palette for commands and settings\r\n* Add WebDAV backup **6**\r\n* Add AmneziaWG mode to WARP and improve WARP MASQUE\r\n* Add Amnezia auto l-values generator\r\n* Add XDRIVE transport for Xray\r\n* Add option to serve DNS to other devices\r\n* Add multi-group auto selector support and country exclusion with `!XX`\r\n* Add input validation\r\n* Improve log navigation and filtering\r\n* Improve custom themes\r\n* Rework macOS Tun DNS\r\n* Remove hijack and redirect features\r\n* Update sing-box and enforce go Tun stack\r\n* Update Qt to 6.12 and Go to 1.27, and lower the glibc requirement of the Linux builds to 2.28 **7**\r\n* Add Homebrew cask and apt/aur/rpm repositories **8**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nNew installs now start in Simple mode, which hides advanced options. Hidden options keep their values and still apply. Switch modes through Program \u003e Advanced Mode or Basic Settings \u003e Style \u003e Interface.\r\n\r\n**2**:\r\nThrone can now run without a GUI through Docker or as a service, for routers, VMs and other machines without a desktop. Both headless and desktop Throne can be controlled remotely through the Throne API, using the `thronectl` tool or the library from [Throne-api](https://github.com/throneproj/Throne-api). `thronectl web` serves a password-protected web UI. Refer to the [documentation](https://throneproj.github.io/headless/thronectl/) for more details.\r\n\r\n**3**:\r\nRefer to the [documentation](https://throneproj.github.io/advanced/dns_tunnels/) for more details.\r\n\r\n**4**:\r\nThe IP Scanner tests a list of IPs for specific traits, such as a TLS handshake or a URL test through a profile, to find reachable CDN or WARP ranges.\r\n\r\n**5**:\r\nWhen enabled, no traffic can leave the device (except some LAN/discovery ranges) unless it is tunneled through Throne.\r\n\r\n**6**:\r\nBackups can now be uploaded to and restored from any WebDAV server (Nextcloud, a NAS, Yandex Disk, ...) through the Backup section of Basic Settings. The WebDAV credentials stay on the device and are never included in a backup.\r\n\r\n**7**:\r\nThe main macOS builds now require macOS 14.4 or newer; older macOS versions should use the `macoslegacy` build. The zip, deb and rpm builds that bundle Qt now run on older distributions such as Ubuntu 20.04, Debian 11 and RHEL/AlmaLinux 8.\r\n\r\n**8**:\r\nStable releases are now published to Throne's own Homebrew tap (`brew install --cask throneproj/tap/throne`) and to apt, rpm and AUR repositories. Refer to the [documentation](https://throneproj.github.io/get_started/installation/) for more details.\r\n\r\n**Download based on your OS:**\r\n\r\n\u003ctable\u003e\r\n    \u003cthead align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003cth\u003eOS\u003c/th\u003e\r\n            \u003cth\u003eDownload\u003c/th\u003e\r\n        \u003c/tr\u003e\r\n    \u003c/thead\u003e\r\n    \u003ctbody align=left\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eWindows\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-windows-universal-installer.exe\"\u003e\u003cimg src=\"https://img.shields.io/badge/Setup-Universal-0078D4.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-windows64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64-2B88D8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-windows-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-ARM64-5AA9E6.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-windowslegacy64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x64%20legacy-6B7F95.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-windows32.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/Portable-x86-94A3B8.svg?logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTAgMGgxMS40djExLjRIMHptMTIuNiAwSDI0djExLjRIMTIuNnpNMCAxMi42aDExLjRWMjRIMHptMTIuNiAwSDI0VjI0SDEyLjZ6Ii8%2BPC9zdmc%2B\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003emacOS\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-macos-arm64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Apple%20Silicon-000000.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-macos-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64-00A9E0.svg?logo=apple\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-macoslegacy-amd64.zip\"\u003e\u003cimg src=\"https://img.shields.io/badge/ZIP-Intel%20x64%20(legacy)-7FCDEB.svg?logo=apple\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eDebian / Ubuntu\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-debian-amd64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-debian-amd64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-x64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-debian-arm64.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64-A81D33.svg?logo=debian\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-debian-arm64-system-qt.deb\"\u003e\u003cimg src=\"https://img.shields.io/badge/DEB-ARM64%20system%20Qt-C94F65.svg?logo=debian\"\u003e\u003c/a\u003e\r\n            \u003c/td\u003e\r\n        \u003c/tr\u003e\r\n        \u003ctr\u003e\r\n            \u003ctd\u003eFedora / openSUSE\u003c/td\u003e\r\n            \u003ctd\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-fedora-amd64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-fedora-amd64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-x64%20system%20Qt-51A2DA.svg?logo=fedora\"\u003e\u003c/a\u003e\u003cbr\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-fedora-arm64.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64-294172.svg?logo=fedora\"\u003e\u003c/a\u003e\r\n                \u003ca href=\"https://github.com/throneproj/Throne/releases/download/1.4.0/Throne-1.4.0-fedora-arm64-system-qt.rpm\"\u003e\u003cimg src=\"https://img.shields.io/badge/RPM-ARM64%20system%20Qt-51"
+            },
             {
               "name": "1.4.0-beta.6",
               "tag": "1.4.0-beta.6",
@@ -951,15 +960,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "* Add Amnezia auto l-values generator\r\n* Improve group sort\r\n* Show profile names in connection tab\r\n* Remove Xray forced deprecation\r\n* Refactor traffic graph\r\n* Add input validation\r\n* Add multi-group autoselector support\r\n* Introducing Headless mode **1**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThrone can now be run as a process without GUI through docker or any daemon, controlled via the [API and our command line tool](https://github.com/throneproj/Throne-api), useful for automations and environments like raspberry-pi, routers or VMs without a Desktop. Refer to the [documentation](https://throneproj.github.io/headless/thronectl/) for more details."
-            },
-            {
-              "name": "1.4.0-beta.2",
-              "tag": "1.4.0-beta.2",
-              "url": "https://github.com/throneproj/Throne/releases/tag/1.4.0-beta.2",
-              "published_at": "2026-10-10T05:19:38Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "* Fix TLS/XHTTP import issues\r\n* Improve ECH Support\r\n* Use monospace fonts for logs\r\n* Add real-time filter support for logs\r\n* Improve logs scroll behavior\r\n* Add Throne API **1**\r\n* Fixes and Improvements\r\n\r\n**1**:\r\nThrone now supports remote control via API calls, which enables integrating Throne in automation scripts/Remote machines as gateway. The API uses custom encryption and wire format, so the [Throne-api](https://github.com/throneproj/Throne-api) repository allows for communication with the API either as a helper library or the `thronectl` binary."
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77718,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:42:03Z",
+            "pushed_at": "2026-11-05T15:47:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66971,
+            "stars": 66972,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-05T15:36:03Z",
@@ -5447,7 +5447,7 @@
             "stars": 29129,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:39:21Z",
+            "pushed_at": "2026-11-05T15:46:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
