@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:04:22.863052Z",
+  "generated_at": "2026-11-05T20:09:41.647401Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-05T17:59:06Z",
+            "pushed_at": "2026-11-05T20:08:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1d99581",
+                  "message": "rust: update to 1.96.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-05T20:08:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/1d995816576cf8a10194ef8bb39b626c0d437cd0"
+                },
+                {
                   "sha": "92643a0",
                   "message": "openssh: update to 10.6_p2",
                   "author": "Darren Tucker",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-03T07:48:56Z",
                   "url": "https://github.com/openwrt/packages/commit/f45c179b749726781c87c9e079b64ebaf1ce5202"
-                },
-                {
-                  "sha": "2aec8db",
-                  "message": "libuhttpd: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T07:48:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/2aec8db1abc611da43d68b23895927b84c63c250"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77719,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T20:02:07Z",
+            "pushed_at": "2026-11-05T20:05:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "742e034",
-            "branch": "docs/vmanomaly-healthchecks",
-            "date": "2026-11-04T19:56:15Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/742e03471d815e824b8fb019d34541c1de26fda0"
+            "sha": "7742ac7",
+            "branch": "master",
+            "date": "2026-11-05T19:32:16Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/7742ac75c2dbb802478668de01b2459a13d905f8"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8195,
+            "stars": 8196,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-05T20:00:31Z",
