@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T15:05:17.373415Z",
+  "generated_at": "2026-11-05T15:10:44.560959Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42644,
+            "stars": 42645,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-05T10:20:00Z",
@@ -205,10 +205,10 @@
             }
           ],
           "last_commit": {
-            "sha": "008b91b",
-            "branch": "main",
-            "date": "2025-02-21T05:06:54Z",
-            "url": "https://github.com/MetaCubeX/mihomo/commit/008b91bfe8c0e2daca0ab69061efd9ea1ad71bd2"
+            "sha": "9002a4f",
+            "branch": "Alpha",
+            "date": "2026-11-05T13:41:34Z",
+            "url": "https://github.com/MetaCubeX/mihomo/commit/9002a4fed399bc77277ceccf9633db1f4a509af7"
           }
         },
         {
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.15-alpha.1",
+              "tag": "clod-v0.1.15-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.1",
+              "published_at": "2026-11-05T15:06:35Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Если в настройках не было записи о теме, окно не следовало теме системы и теме провайдера\n- «Исправить» у плашки TUN на Главной и починка службы в настройках включают TUN тем же путём, что и тумблер, и запоминают выбранный режим\n- Предупреждение режима цепочки на странице «Прокси» показывается один раз, в панели цепочки\n- Набранное в поиске на странице «Прокси» терялось, если строка поиска уходила с экрана раньше чем через секунду\n- Подписка, добавленная по ссылке, сообщает об итоге и применяется так же, как добавленная из окна\n\n### Изменено\n\n- Страница «Подписки» и окна настроек делают меньше лишней работы: один общий таймер, меньше повторных запросов\n- Новое окно сразу открывается размером своего режима, без лишних перестановок\n- Уборка внутренних дублей и неиспользуемого кода без изменения поведения"
+            },
             {
               "name": "Clod Clash clod-v0.1.14",
               "tag": "clod-v0.1.14",
@@ -4126,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16361,
+            "stars": 16362,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-04T10:58:19Z",
@@ -4783,7 +4792,7 @@
           "track": "releases",
           "meta": {
             "description": "OpenWrt packages of https://github.com/bol-van/zapret",
-            "stars": 1404,
+            "stars": 1405,
             "url": "https://github.com/remittor/zapret-openwrt",
             "default_branch": "zap1",
             "pushed_at": "2026-08-06T18:17:36Z",
@@ -5166,7 +5175,7 @@
             "stars": 77718,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:05:17Z",
+            "pushed_at": "2026-11-05T15:10:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5234,7 +5243,7 @@
             "stars": 66969,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T14:51:17Z",
+            "pushed_at": "2026-11-05T15:07:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5438,7 +5447,7 @@
             "stars": 29129,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T15:05:02Z",
+            "pushed_at": "2026-11-05T15:06:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5451,7 +5460,7 @@
               "published_at": "2026-11-04T14:47:06Z",
               "prerelease": true,
               "author": "loki-gh-app[bot]",
-              "body": "See [CHANGELOG.md](https://github.com/grafana/loki/blob/release-4.0.0/CHANGELOG.md) for the full list of changes.\r\n\r\n## [4.0.0-rc.2](https://github.com/grafana/loki/compare/v4.0.0-rc.1...v4.0.0-rc.2) (2026-11-04)\r\n\r\n### Reverts\r\n\r\n* Disable Multipath TCP on listeners by default ([#26237](https://github.com/grafana/loki/issues/26237)) ([7637697](https://github.com/grafana/loki/commit/763769726bd5e0ba6046dc6a4ba9af5509febbb2))\r\n\r\n\r\n## [4.0.0-rc.1](https://github.com/grafana/loki/compare/v3.7.9...v4.0.0-rc.1) (2026-11-03)\r\n\r\n### ⚠ BREAKING CHANGES\r\n\r\n* Upgrade Go module to github.com/grafana/loki/v4 ([#25972](https://github.com/grafana/loki/issues/25972))\r\n* **querytee:** Configure a primary and a secondary backend ([#25552](https://github.com/grafana/loki/issues/25552))\r\n* **querytee:** Remove the request splitting ([#25496](https://github.com/grafana/loki/issues/25496))\r\n* **engine:** Unplug the V2 query engine from the config and modules ([#25353](https://github.com/grafana/loki/issues/25353))\r\n* **querytee:** Remove the routing modes ([#25487](https://github.com/grafana/loki/issues/25487))\r\n* Rename remaining `loki_boltdb_shipper_*` metrics to `loki_tsdb_shipper_*` ([#25345](https://github.com/grafana/loki/issues/25345))\r\n* **operator:** Stop reconciliation of deprecated BoltDB schemas ([#24990](https://github.com/grafana/loki/issues/24990))\r\n* **logql:** Stop writing __preserve_error__ as a label ([#24877](https://github.com/grafana/loki/issues/24877))\r\n* **operator:** Make schemas field required in storage spec ([#24716](https://github.com/grafana/loki/issues/24716))\r\n* **logql:** Let an __error__ filter decide whether a metric query keeps errored samples ([#24719](https://github.com/grafana/loki/issues/24719))\r\n* **logql:** Apply grouping to an errored sample's labels ([#24712](https://github.com/grafana/loki/issues/24712))\r\n* Remove deprecated ruler_remote_write_* per-tenant limits ([#22941](https://github.com/grafana/loki/issues/22941))\r\n* **frontend:** Default frontend.encoding to protobuf ([#23985](https://github.com/grafana/loki/issues/23985))\r\n* Remove support for experimental LogQL variants() queries ([#23823](https://github.com/grafana/loki/issues/23823))\r\n* Remove `row_shards` from the schema configuration ([#23683](https://github.com/grafana/loki/issues/23683))\r\n* Remove the disable_broad_index_queries setting ([#23679](https://github.com/grafana/loki/issues/23679))\r\n* Remove unused `period_config` settings that are no longer used by TSDB index ([#23665](https://github.com/grafana/loki/issues/23665))\r\n* **ruler:** Remove deprecated remote-write 'client' setting ([#23453](https://github.com/grafana/loki/issues/23453))\r\n* Remove deprecated `per_tenant_override_config` and `per_tenant_override_period` ([#22856](https://github.com/grafana/loki/issues/22856))\r\n* **ruler:** Always wipe the remote-write WAL on startup ([#22509](https://github.com/grafana/loki/issues/22509))\r\n* **storage:** Use Thanos storage clients by default ([#22676](https://github.com/grafana/loki/issues/22676))\r\n* Remove targets for Simple Scalable Deployment (SSD) ([#21481](https://github.com/grafana/loki/issues/21481))\r\n* Remove index read cache and index cache validity settings ([#22066](https://github.com/grafana/loki/issues/22066))\r\n* Remove deprecated write dedupe cache ([#22056](https://github.com/grafana/loki/issues/22056))\r\n* Remove deprecated BoltDB Shipper storage backend ([#21678](https://github.com/grafana/loki/issues/21678))\r\n* Remove deprecated per-tenant setting `unordered_writes` ([#21835](https://github.com/grafana/loki/issues/21835))\r\n* Remove deprecated `allow_deletes` configuration option ([#21808](https://github.com/grafana/loki/issues/21808))\r\n* Rename metric `loki_log_flushes` ([#21765](https://github.com/grafana/loki/issues/21765))\r\n* Remove deprecated `loki_log_messages_total` metric ([#21764](https://github.com/grafana/loki/issues/21764))\r\n* **ksonnet:** Remove boltdb-shipper specific flags from lib ([#21656](https://github.com/grafana/loki/issues/21656))\r\n* Remove deprecated BoltDB storage backend for indexes ([#21637](https://github.com/grafana/loki/issues/21637))\r\n* Remove deprecated gRPC storage backend ([#21638](https://github.com/grafana/loki/issues/21638))\r\n* Remove deprecated DynamoDB storage backend ([#21601](https://github.com/grafana/loki/issues/21601))\r\n* Remove deprecated Cassandra storage backend ([#21574](https://github.com/grafana/loki/issues/21574))\r\n* Remove support for BigTable/GCP storage backend ([#21502](https://github.com/grafana/loki/issues/21502))\r\n\r\n### Features\r\n\r\n* Add a gauge for the max inflight bytes limit ([#24209](https://github.com/grafana/loki/issues/24209)) ([110923a](https://github.com/grafana/loki/commit/110923ad753346ba7961e9409ff647b8fbe42b6f))\r\n* Add a metric that reports when goldfish racing is enabled ([#21376](https://github.com/grafana/loki/issues/21376)) ([b48a70c](https://github.com/grafana/loki/commit/b48a70c64db884a0a4d71b43bfa84aafe5ae5cd3))\r\n* Add a minimum number of shuffle shard size in index gateway client ([#22573](https://github.com/grafana/loki/issues/22573)) ([7d69c1c](https://github.com/grafana/loki/commit/7d69c1ccb3fa8ce86d610fe6c8aea3fe6be61bfa))\r\n* Add caching node to dataobjscan node ([#21246](https://github.com/grafana/loki/issues/21246)) ([9ed2dd0](https://github.com/grafana/loki/commit/9ed2dd0e7db92842f97a15e20cfd4cb540c80cfb))\r\n* Add circuit breaker to drop traffic ([#23157](https://github.com/grafana/loki/issues/23157)) ([f9ed564](https://github.com/grafana/loki/commit/f9ed564e867d7624078a213fcc86eb917b01cb9a))\r\n* Add flag to ignore missing chunks during deletion of logs with line filter ([#24204](https://github.com/grafana/loki/issues/24204)) ([22b28a7](https://github.com/grafana/loki/commit/22b28a7002fb89a1dabb29cf050221589e93ed2d))\r\n* Add label based access control LBAC ([#21266](https://github.com/grafana/loki/issues/21266)) ([976379a](https://github.com/grafana/loki/commit/976379a2d99962e1f55c35e4332b4b4de17ad35e))\r\n* Add limit for max inflight bytes ([#23188](https://github.com/grafana/loki/issues/23188)) ([7a5c93d](https://github.com/grafana/loki/commit/7a5c93d9590b55a4dbcffd55ddfd90c562cce50c))\r\n* Add limit on max buffered bytes in pattern-tee ([#21855](https://github.com/grafana/loki/issues/21855)) ([8c6c2ab](https://github.com/grafana/loki/commit/8c6c2ab5802e9eb30eabc32e5ddac010817bbcd5))\r\n* add metric loki_distributor_dataobj_tee_estimate_rate_bytes ([#21441](https://github.com/grafana/loki/issues/21441)) ([cae9486](https://github.com/grafana/loki/commit/cae948659ad267bf202d520f5a31cbe10941fe0f))\r\n* Add more details to failed query usage logs ([#25616](https://github.com/grafana/loki/issues/25616)) ([b21487a](https://github.com/grafana/loki/commit/b21487ae983a283d45f55eae307cf7073ca705c6))\r\n* Add per tenant max push size override ([#24194](https://github.com/grafana/loki/issues/24194)) ([443c975](https://github.com/grafana/loki/commit/443c975ad3238130bd8974850388b3a1b59ba0b6))\r\n* add per-phase histogram metrics to engine worker pipeline ([#21547](https://github.com/grafana/loki/issues/21547)) ([c0a243b](https://github.com/grafana/loki/commit/c0a243b2a12222aa8cfc6b56a8e951db12356a91))\r\n* Add policy to limits service and ratestore metrics ([#25182](https://github.com/grafana/loki/issues/25182)) ([16149f6](https://github.com/grafana/loki/commit/16149f6123f1555f7a4ffeca9f18cab726e1d8af))\r\n* Add q param to /config for scoped field access ([#24230](https://github.com/grafana/loki/issues/24230)) ([b645ac3](https://github.com/grafana/loki/commit/b645ac3ca2e92fbd6c415228b6851e59a6199fd3))\r\n* add stats and postings index sections with encoding abstraction ([#21442](https://github.com/grafana/loki/issues/21442)) ([8553815](https://github.com/grafana/loki/commit/8553815420d48ab2b60ae6dce96aaf250222b337))\r\n* Add support for otlp protocol to canary for continuous testing of otlp ingestion ([#24985](https://github.com/grafana/loki/issues/24985)) ([6abd850](https://github.com/gra"
+              "body": "See [CHANGELOG.md](https://github.com/grafana/loki/blob/release-4.0.0/CHANGELOG.md) for the full list of changes.\r\n\r\n## [4.0.0-rc.2](https://github.com/grafana/loki/compare/v4.0.0-rc.1...v4.0.0-rc.2) (2026-11-04)\r\n\r\n### Reverts\r\n\r\n* **loki:** Disable Multipath TCP on listeners by default ([#26237](https://github.com/grafana/loki/issues/26237)) ([7637697](https://github.com/grafana/loki/commit/763769726bd5e0ba6046dc6a4ba9af5509febbb2))\r\n\r\n\r\n## [4.0.0-rc.1](https://github.com/grafana/loki/compare/v3.7.9...v4.0.0-rc.1) (2026-11-03)\r\n\r\n### ⚠ BREAKING CHANGES\r\n\r\n* **compactor:** Remove deprecated `allow_deletes` configuration option ([#21808](https://github.com/grafana/loki/issues/21808))\r\n* **engine:** Unplug the V2 query engine from the config and modules ([#25353](https://github.com/grafana/loki/issues/25353))\r\n* **frontend:** Default frontend.encoding to protobuf ([#23985](https://github.com/grafana/loki/issues/23985))\r\n* **ingester:** Remove deprecated per-tenant setting `unordered_writes` ([#21835](https://github.com/grafana/loki/issues/21835))\r\n* **ksonnet:** Remove boltdb-shipper specific flags from lib ([#21656](https://github.com/grafana/loki/issues/21656))\r\n* **logql:** Stop writing __preserve_error__ as a label ([#24877](https://github.com/grafana/loki/issues/24877))\r\n* **logql:** Let an __error__ filter decide whether a metric query keeps errored samples ([#24719](https://github.com/grafana/loki/issues/24719))\r\n* **logql:** Apply grouping to an errored sample's labels ([#24712](https://github.com/grafana/loki/issues/24712))\r\n* **logql:** Remove support for experimental LogQL variants() queries ([#23823](https://github.com/grafana/loki/issues/23823))\r\n* **loki:** Upgrade Go module to github.com/grafana/loki/v4 ([#25972](https://github.com/grafana/loki/issues/25972))\r\n* **loki:** Remove deprecated `per_tenant_override_config` and `per_tenant_override_period` ([#22856](https://github.com/grafana/loki/issues/22856))\r\n* **loki:** Remove targets for Simple Scalable Deployment (SSD) ([#21481](https://github.com/grafana/loki/issues/21481))\r\n* **loki:** Remove deprecated `/api/prom` API endpoints ([#21569](https://github.com/grafana/loki/issues/21569))\r\n* **loki:** Rename metric `loki_log_flushes` ([#21765](https://github.com/grafana/loki/issues/21765))\r\n* **loki:** Remove deprecated `loki_log_messages_total` metric ([#21764](https://github.com/grafana/loki/issues/21764))\r\n* **operator:** Stop reconciliation of deprecated BoltDB schemas ([#24990](https://github.com/grafana/loki/issues/24990))\r\n* **operator:** Make schemas field required in storage spec ([#24716](https://github.com/grafana/loki/issues/24716))\r\n* **querytee:** Configure a primary and a secondary backend ([#25552](https://github.com/grafana/loki/issues/25552))\r\n* **querytee:** Remove the request splitting ([#25496](https://github.com/grafana/loki/issues/25496))\r\n* **querytee:** Remove the routing modes ([#25487](https://github.com/grafana/loki/issues/25487))\r\n* **ruler:** Remove deprecated ruler_remote_write_* per-tenant limits ([#22941](https://github.com/grafana/loki/issues/22941))\r\n* **ruler:** Remove deprecated remote-write 'client' setting ([#23453](https://github.com/grafana/loki/issues/23453))\r\n* **ruler:** Always wipe the remote-write WAL on startup ([#22509](https://github.com/grafana/loki/issues/22509))\r\n* **storage:** Rename remaining `loki_boltdb_shipper_*` metrics to `loki_tsdb_shipper_*` ([#25345](https://github.com/grafana/loki/issues/25345))\r\n* **storage:** Remove `row_shards` from the schema configuration ([#23683](https://github.com/grafana/loki/issues/23683))\r\n* **storage:** Remove the disable_broad_index_queries setting ([#23679](https://github.com/grafana/loki/issues/23679))\r\n* **storage:** Remove unused `period_config` settings that are no longer used by TSDB index ([#23665](https://github.com/grafana/loki/issues/23665))\r\n* **storage:** Use Thanos storage clients by default ([#22676](https://github.com/grafana/loki/issues/22676))\r\n* **storage:** Remove index read cache and index cache validity settings ([#22066](https://github.com/grafana/loki/issues/22066))\r\n* **storage:** Remove deprecated write dedupe cache ([#22056](https://github.com/grafana/loki/issues/22056))\r\n* **storage:** Remove deprecated BoltDB Shipper storage backend ([#21678](https://github.com/grafana/loki/issues/21678))\r\n* **storage:** Remove deprecated BoltDB storage backend for indexes ([#21637](https://github.com/grafana/loki/issues/21637))\r\n* **storage:** Remove deprecated gRPC storage backend ([#21638](https://github.com/grafana/loki/issues/21638))\r\n* **storage:** Remove deprecated DynamoDB storage backend ([#21601](https://github.com/grafana/loki/issues/21601))\r\n* **storage:** Remove deprecated Cassandra storage backend ([#21574](https://github.com/grafana/loki/issues/21574))\r\n* **storage:** Remove support for BigTable/GCP storage backend ([#21502](https://github.com/grafana/loki/issues/21502))\r\n\r\n### Features\r\n\r\n* **alibaba oss:** Alibaba oss ecs ram role ([#21989](https://github.com/grafana/loki/issues/21989)) ([5555ff9](https://github.com/grafana/loki/commit/5555ff970ebef795cde19c0a8698b2ea796a3700))\r\n* **auth:** Add no_auth_tenant config option for single-tenant mode ([#21819](https://github.com/grafana/loki/issues/21819)) ([7923fe1](https://github.com/grafana/loki/commit/7923fe121c5bde4953c88fa4ce9c02232bf4a672))\r\n* **canary:** Add support for otlp protocol to canary for continuous testing of otlp ingestion ([#24985](https://github.com/grafana/loki/issues/24985)) ([6abd850](https://github.com/grafana/loki/commit/6abd850bc3e82fc7e7357a156b0989ccfcc6f6e0))\r\n* **canary:** Implement support for path prefixes ([#24534](https://github.com/grafana/loki/issues/24534)) ([a8b5c92](https://github.com/grafana/loki/commit/a8b5c9207a6fbed8d2ffd523db7d9e600592b896))\r\n* **ci:** Include linux/riscv64 Loki build in releases ([#21597](https://github.com/grafana/loki/issues/21597)) ([76e65d7](https://github.com/grafana/loki/commit/76e65d7f1a7530917039721618782a5e250a7220))\r\n* **compaction:** Build index over compacted log objects in LogMerge ([#23214](https://github.com/grafana/loki/issues/23214)) ([eb93257](https://github.com/grafana/loki/commit/eb93257eb02e51988c865af0d8ca959d209cc506))\r\n* **compaction:** Compact a configurable lookback of older windows ([#23411](https://github.com/grafana/loki/issues/23411)) ([4d0120c](https://github.com/grafana/loki/commit/4d0120cee03ad503b959b450d3e73038ac45d5e0))\r\n* **compaction:** Implement merge for log objects ([#23117](https://github.com/grafana/loki/issues/23117)) ([b88aca5](https://github.com/grafana/loki/commit/b88aca5d943de0b20be3f1b4ef36a813c68c44e3))\r\n* **compaction:** Log object compaction - contract changes ([#23065](https://github.com/grafana/loki/issues/23065)) ([d821f2b](https://github.com/grafana/loki/commit/d821f2b68bf1bb79bc137a83b3965fa0857b90fb))\r\n* **compaction:** Merge unique label sets to one global ID during compaction ([#24107](https://github.com/grafana/loki/issues/24107)) ([48e7ae3](https://github.com/grafana/loki/commit/48e7ae39b0976d722e1ab793e70b75b2ad9907f0))\r\n* **compaction:** Observability for log compaction ([#23122](https://github.com/grafana/loki/issues/23122)) ([aa5e221](https://github.com/grafana/loki/commit/aa5e221aa4d54fb5126e121e5f85d918270e1953))\r\n* **compaction:** Track dataobj compaction artifacts via arrow record results ([#23364](https://github.com/grafana/loki/issues/23364)) ([47f6607](https://github.com/grafana/loki/commit/47f6607b21e76e0181e429552bf9409a06ef931c))\r\n* **compactor:** Add new `increase_generation_numbers` endpoint ([#22443](https://github.com/grafana/loki/issues/22443)) ([4649720](https://github.com/grafana/loki/commit/4649720ee5dcd295d5d5ae01a7dca7276b94e90f))\r\n* **compactor:** Improve dataobj compaction planner logging ([#23752](https://github.com/grafana/loki/issues/23752)) ([cf17501](https://github.com/grafana/loki/commit/cf17501b16f87c4d970f40ac556d90578216781b))\r\n* **compactor:** Read new postings "
             },
             {
               "name": "v4.0.0-rc.1",
@@ -5491,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "43e926c",
-            "branch": "chaudum/allowed-s3-storage-classes",
-            "date": "2026-11-05T14:06:11Z",
-            "url": "https://github.com/grafana/loki/commit/43e926c56b8a42a8e486218460dff9279fb552ba"
+            "sha": "10cb2ba",
+            "branch": "chaudum/cleanup-changelog",
+            "date": "2026-11-03T14:34:48Z",
+            "url": "https://github.com/grafana/loki/commit/10cb2ba964d92ddf2b92e0b35f7c5905106055a5"
           }
         }
       ]
