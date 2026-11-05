@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:16:33.961697Z",
+  "generated_at": "2026-11-05T01:21:51.707270Z",
   "groups": [
     {
       "id": "cores",
@@ -842,12 +842,21 @@
             "stars": 1509,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-02T14:26:10Z",
+            "pushed_at": "2026-11-05T01:21:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v3.9.9",
+              "tag": "android-v3.9.9",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.9",
+              "published_at": "2026-11-05T01:21:39Z",
+              "prerelease": false,
+              "author": "LLC-INCY",
+              "body": "INCY Android 3.9.9\n\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
+            },
             {
               "name": "Android v3.9.8",
               "tag": "android-v3.9.8",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "LLC-INCY",
               "body": "INCY Desktop v3.9.0 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.0)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/41939142746), attempt 1. All desktop assets uploaded.\n"
-            },
-            {
-              "name": "Android v3.8.1",
-              "tag": "android-v3.8.1",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.8.1",
-              "published_at": "2026-10-23T01:58:29Z",
-              "prerelease": false,
-              "author": "LLC-INCY",
-              "body": "INCY Android 3.8.1\n\nSigned release APK. Updates existing INCY installations (versionCode 381).\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
             }
           ],
           "last_commit": {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18013,
+            "stars": 18015,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-04T21:10:32Z",
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29122,
+            "stars": 29123,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-05T00:04:01Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "960c327",
+            "sha": "418d8c5",
             "branch": "release-3.7.x",
-            "date": "2026-11-04T16:00:50Z",
-            "url": "https://github.com/grafana/loki/commit/960c327c1aa3046cfbf3ba1f3584227c66a1852c"
+            "date": "2026-11-04T16:15:16Z",
+            "url": "https://github.com/grafana/loki/commit/418d8c58eb6b93225b859f8f52f9c7cdf4992bdb"
           }
         }
       ]
