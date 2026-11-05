@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:53:18.370206Z",
+  "generated_at": "2026-11-05T11:58:36.153522Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5311,
+            "stars": 5312,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-11-02T21:40:49Z",
@@ -1190,7 +1190,7 @@
             "stars": 4664,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-05T08:08:31Z",
+            "pushed_at": "2026-11-05T11:55:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2fa52b9",
+                  "message": "taglib: bump to 2.3.2",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-05T11:55:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/2fa52b9e9dc128fc57462765122797723ec0c2b8"
+                },
+                {
+                  "sha": "32612d4",
+                  "message": "fuse3: bump to 3.18.3",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-05T11:55:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/32612d40db3fc1191614432fedb2639cbaf62e89"
+                },
+                {
                   "sha": "5a350e9",
                   "message": "nmap: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2039,20 +2053,6 @@
                   "author": "Javier Marcet",
                   "date": "2026-11-03T05:00:35Z",
                   "url": "https://github.com/openwrt/packages/commit/2d91e6d319bfb0e5a6a521d2f99915fa72db907b"
-                },
-                {
-                  "sha": "5c21b4d",
-                  "message": "telegraf: update to 1.40.3",
-                  "author": "Niklas Thorild",
-                  "date": "2026-11-03T05:00:09Z",
-                  "url": "https://github.com/openwrt/packages/commit/5c21b4d432696083ae7fcacfac51a633a0d52aa7"
-                },
-                {
-                  "sha": "1f7abcb",
-                  "message": "libzip: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-02T20:12:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/1f7abcb5127707be54c8edac0201baa82ad641d7"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77712,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T11:52:22Z",
+            "pushed_at": "2026-11-05T11:58:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b182a4f",
-            "branch": "main",
-            "date": "2026-11-03T10:19:07Z",
-            "url": "https://github.com/grafana/grafana/commit/b182a4ffac78ab2cf205edea600a336c2ece2b57"
+            "sha": "8552de5",
+            "branch": "slim-frontend-cdn-assets-audit",
+            "date": "2026-11-05T11:42:53Z",
+            "url": "https://github.com/grafana/grafana/commit/8552de5012898e5451fd21e5a9b11616f898b5fe"
           }
         },
         {
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2718e84",
-            "branch": "bwplotka/scrape-intern-metadata",
-            "date": "2026-11-04T21:45:18Z",
-            "url": "https://github.com/prometheus/prometheus/commit/2718e8478a4d3c966ba00092f4028c04008ef01d"
+            "sha": "097e478",
+            "branch": "main",
+            "date": "2026-11-03T11:31:17Z",
+            "url": "https://github.com/prometheus/prometheus/commit/097e4784abcf032a0314a28136100704f33b3c0d"
           }
         },
         {
