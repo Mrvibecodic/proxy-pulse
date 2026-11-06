@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T12:01:04.591309Z",
+  "generated_at": "2026-11-06T12:06:24.240218Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7736,
+            "stars": 7737,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-06T09:59:24Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29110,
+            "stars": 29111,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-06T11:29:07Z",
@@ -5175,7 +5175,7 @@
             "stars": 77716,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T11:57:24Z",
+            "pushed_at": "2026-11-06T12:04:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6a13259",
-            "branch": "dprokop/composer-notebook-core",
-            "date": "2026-11-05T09:03:53Z",
-            "url": "https://github.com/grafana/grafana/commit/6a13259ae59810a9c8ce25c9facd662ccdf0fa40"
+            "sha": "3b052b2",
+            "branch": "main",
+            "date": "2026-11-05T16:01:39Z",
+            "url": "https://github.com/grafana/grafana/commit/3b052b27f7d0595966f940be21cf02faa72c67d0"
           }
         },
         {
@@ -5240,10 +5240,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 66989,
+            "stars": 66992,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T11:59:47Z",
+            "pushed_at": "2026-11-06T12:05:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5379,7 +5379,7 @@
             "stars": 18023,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T11:46:27Z",
+            "pushed_at": "2026-11-06T12:03:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,7 +5447,7 @@
             "stars": 29133,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T11:53:44Z",
+            "pushed_at": "2026-11-06T12:02:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5523,7 +5523,7 @@
             "stars": 34,
             "url": "https://github.com/Mrvibecodic/chill-remna-bot",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T12:01:06Z",
+            "pushed_at": "2026-11-06T12:06:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -5924,10 +5924,78 @@
             }
           ],
           "last_commit": {
-            "sha": "c315aea",
-            "branch": "l10n_crowdin",
-            "date": "2026-11-06T01:28:43Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/c315aea57ab21c0a715403777b07ba1b97a1e2c0"
+            "sha": "e86b82f",
+            "branch": "feat/ui-design-polish",
+            "date": "2026-11-05T16:04:54Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/e86b82f5aed6e07ef1a938c4d37b2ce39c4554e3"
+          }
+        },
+        {
+          "repo": "syvlech/remnawave-limiter",
+          "title": "remnawave-limiter",
+          "track": "releases",
+          "meta": {
+            "description": "Мониторинг и ограничение одновременных подключений к нодам Remnawave сверх лимита HWID.",
+            "stars": 98,
+            "url": "https://github.com/syvlech/remnawave-limiter",
+            "default_branch": "master",
+            "pushed_at": "2026-11-02T21:13:25Z",
+            "archived": false,
+            "avatar": "https://avatars.githubusercontent.com/u/69968834?v=4",
+            "owner": "syvlech"
+          },
+          "releases": [
+            {
+              "name": "4.5.0",
+              "tag": "4.5.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.5.0",
+              "published_at": "2026-11-02T21:13:25Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "## What's Changed\r\n* dependency update\r\n\r\n* fix(telegram): request callback_query in getUpdates allowed_updates by @smediainfo in https://github.com/syvlech/remnawave-limiter/pull/10\r\n\r\n## New Contributors\r\n* @smediainfo made their first contribution in https://github.com/syvlech/remnawave-limiter/pull/10\r\n\r\n**Full Changelog**: https://github.com/syvlech/remnawave-limiter/compare/4.4.0...4.5.0"
+            },
+            {
+              "name": "",
+              "tag": "4.4.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.4.0",
+              "published_at": "2026-10-16T22:50:53Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "Новый интерфейс бота на rich-сообщениях Telegram, переработанное меню `/settings` и важные исправления. Обновление рекомендуется всем.\r\n\r\n### ⚠️ Перед обновлением\r\n\r\n- Конфиг с недостижимым порогом теперь не запускается. При `VIOLATION_THRESHOLD \u003e 1` нужно, чтобы `VIOLATION_THRESHOLD_WINDOW \u003e (VIOLATION_THRESHOLD − 1) × (COOLDOWN + CHECK_INTERVAL)`. Раньше такой конфиг принимался, но лимитер молча не реагировал на нарушения.\r\n- `TOLERANCE_MULTIPLIER` ограничен диапазоном `0..100`.\r\n- Невалидные настройки, сохранённые через бота, удаляются при старте (с предупреждением в логе).\r\n- Админам нужен клиент Telegram с поддержкой rich-сообщений. Если сервер Telegram отклонит разметку, сообщение придёт обычным текстом с кнопками.\r\n\r\n### Главное\r\n\r\n- **Rich-сообщения:** алерты, статистика и отчёты оформлены таблицами. В алертах — сворачиваемый список IP с провайдером и нодой, время в часовом поясе читателя и цветные кнопки. После нажатия кнопки алерт сохраняет содержимое и показывает, кто и что сделал.\r\n- **Новое меню `/settings`:** разделы, подсказки, быстрые пресеты, подтверждение сброса.\r\n- **Критические исправления:**\r\n  - падение процесса при фоновом обновлении базы MaxMind;\r\n  - массовый бан при `TOLERANCE_MULTIPLIER=NaN/Inf`;\r\n  - временные кнопки, которые после смены настроек срабатывали навсегда;\r\n  - старый таймер автовосстановления, включавший пользователя, отключённого навсегда.\r\n- **Webhook:** новый заголовок `X-Signature-V2` с подписью, которая покрывает время отправки и защищает от повтора. Прежние заголовки сохранены; передачу секрета можно отключить через `WEBHOOK_SECRET_HEADER=false`.\r\n- Telegram-библиотека заменена на go-telegram/bot, сборка обновлена до Go 1.27.\r\n\r\n---\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eEnglish\u003c/summary\u003e\r\n\r\nA new bot interface built on Telegram rich messages, a redesigned `/settings` menu and important fixes. Upgrading is recommended for everyone.\r\n\r\n### ⚠️ Before upgrading\r\n\r\n- A config with an unreachable threshold no longer starts. With `VIOLATION_THRESHOLD \u003e 1`, `VIOLATION_THRESHOLD_WINDOW` must be greater than `(VIOLATION_THRESHOLD − 1) × (COOLDOWN + CHECK_INTERVAL)`. Such a config used to be accepted, but the limiter silently ignored violations.\r\n- `TOLERANCE_MULTIPLIER` is limited to `0..100`.\r\n- Invalid settings saved through the bot are removed at startup (with a warning in the log).\r\n- Admins need a Telegram client that supports rich messages. If the Telegram server rejects the markup, the message arrives as plain text with buttons.\r\n\r\n### Highlights\r\n\r\n- **Rich messages:** alerts, statistics and reports are laid out as tables. Alerts get a collapsible IP list with provider and node, times in the reader's time zone and coloured buttons. After a button is pressed, the alert keeps its content and shows who did what.\r\n- **New `/settings` menu:** sections, hints, quick presets, reset confirmation.\r\n- **Critical fixes:**\r\n  - a process crash during the background MaxMind database update;\r\n  - a mass ban with `TOLERANCE_MULTIPLIER=NaN/Inf`;\r\n  - temporary buttons that acted permanently after a settings change;\r\n  - an old auto-restore timer re-enabling a user who was disabled forever.\r\n- **Webhook:** a new `X-Signature-V2` header whose signature covers the send time and protects against replays. The old headers are kept; sending the raw secret can be turned off with `WEBHOOK_SECRET_HEADER=false`.\r\n- The Telegram library was replaced with go-telegram/bot, and the build moved to Go 1.27.\r\n\r\n\u003c/details\u003e\r\n"
+            },
+            {
+              "name": "4.3.0",
+              "tag": "4.3.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.3.0",
+              "published_at": "2026-08-11T07:35:00Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": ""
+            },
+            {
+              "name": "4.2.0 (RW 3.0.0+)",
+              "tag": "4.2.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.2.0",
+              "published_at": "2026-08-04T19:44:36Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "Оптимизация и улучшение взаимодействия с Redis"
+            },
+            {
+              "name": "4.0.0 (RW 3.0.0+)",
+              "tag": "4.0.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.0.0",
+              "published_at": "2026-08-04T05:09:38Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "Обновление взаимодействия с API панели Remnawave после крайнего мажорного обновления."
+            }
+          ],
+          "last_commit": {
+            "sha": "6e1b078",
+            "branch": "master",
+            "date": "2026-11-02T21:11:11Z",
+            "url": "https://github.com/syvlech/remnawave-limiter/commit/6e1b078ddcf7c956528fcebaaaa964b441463dce"
           }
         }
       ]
