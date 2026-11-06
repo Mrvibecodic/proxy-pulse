@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T21:09:16.758960Z",
+  "generated_at": "2026-11-06T21:14:34.662019Z",
   "groups": [
     {
       "id": "cores",
@@ -910,7 +910,7 @@
             "stars": 7742,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-06T20:58:34Z",
+            "pushed_at": "2026-11-06T21:13:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T14:29:36Z",
+            "pushed_at": "2026-11-06T21:13:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1c248d7",
+                  "message": "udp-broadcast-relay-redux: init file improvements",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c248d7e25e66304ffe96faba031d14b845d8eaf"
+                },
+                {
+                  "sha": "1432f53",
+                  "message": "udp-broadcast-relay-redux: whitespace in .init \u0026 .config file",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/1432f53bd0d6735be85ceeaeb0fc7e042f45cf6b"
+                },
+                {
+                  "sha": "3633a93",
+                  "message": "udp-broadcast-relay-redux: modernize Makefile. Add test-version.sh",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/3633a93ccd771992dae3e95b27273c75fdded999"
+                },
+                {
+                  "sha": "e00a9bc",
+                  "message": "udp-broadcast-relay-redux: switch package to new fork location",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/e00a9bc38479ab72eba7fe1d84412b787b1c9bdf"
+                },
+                {
+                  "sha": "5d1701a",
+                  "message": "udp-broadcast-relay-redux: rename package directory to remove -openwrt suffix",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/5d1701add598a29868d1f2f0cc70744dcb971409"
+                },
+                {
+                  "sha": "134c92e",
+                  "message": "udp-broadcast-relay-redux: revert \"udp-broadcast-relay-redux: remove package\"",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-06T21:13:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/134c92eeedad08b49eefc41dfa5a15c2479d2eae"
+                },
+                {
                   "sha": "b50b8ea",
                   "message": "libpbc: drop package",
                   "author": "George Sapkin",
@@ -2011,48 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-11-03T20:17:29Z",
                   "url": "https://github.com/openwrt/packages/commit/a6e9c57af78eee2351849134416014696e1d658c"
-                },
-                {
-                  "sha": "2eeedda",
-                  "message": "comrade: update to 0.3.4",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-03T15:36:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/2eeeddaef44f677d1b007013c8dbc3e191d59e9f"
-                },
-                {
-                  "sha": "bad1169",
-                  "message": "kea: restore the resolver configuration on stop",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-03T15:12:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/bad1169383e9479a090f4e56533bb4661981ff3c"
-                },
-                {
-                  "sha": "afc34ca",
-                  "message": "kea: replace resolv.conf.d/resolv.conf atomically",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-03T15:12:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/afc34ca0897771a2aaee0f59ee66883c2c7ae23f"
-                },
-                {
-                  "sha": "806bc20",
-                  "message": "shunt: release 0.3.0-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-03T12:42:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/806bc20808d4fc7d4c8762118f6fc38a5f77f13b"
-                },
-                {
-                  "sha": "453e130",
-                  "message": "less: bump to 710",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-03T11:48:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/453e1309d74626dae6b0e9ac27e62be68db06b9d"
-                },
-                {
-                  "sha": "a534ca8",
-                  "message": "rtty: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T11:32:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/a534ca827b5df338e12f1791a7819c3932819cff"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77723,
+            "stars": 77724,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T20:57:56Z",
+            "pushed_at": "2026-11-06T21:14:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "587904f",
-            "branch": "main",
-            "date": "2026-11-06T10:19:17Z",
-            "url": "https://github.com/grafana/grafana/commit/587904f5c9644c63fc72d9772d804eeefbff111c"
+            "sha": "30bf29e",
+            "branch": "MissingRoberto/self-inceptioning-local-repository",
+            "date": "2026-11-06T09:21:52Z",
+            "url": "https://github.com/grafana/grafana/commit/30bf29e0aae0f6dc6b0c6de1eb4a438a37559cf5"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67118,
+            "stars": 67119,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-06T17:19:24Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a5c8fc2",
+            "sha": "8690783",
             "branch": "master",
-            "date": "2026-11-06T09:13:56Z",
-            "url": "https://github.com/netdata/netdata/commit/a5c8fc27d00bc657e78eaeccdfcd79f6fe53da59"
+            "date": "2026-11-05T21:33:45Z",
+            "url": "https://github.com/netdata/netdata/commit/869078345407d21a8fc92f9335a335e1f364c8a8"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ff76fe4",
-            "branch": "main",
-            "date": "2026-11-06T14:38:40Z",
-            "url": "https://github.com/grafana/loki/commit/ff76fe4bf23589afde3e24dcadaa0d2f81bc0461"
+            "sha": "a83b905",
+            "branch": "implement-dataobj-deletion-scanner",
+            "date": "2026-11-06T14:43:05Z",
+            "url": "https://github.com/grafana/loki/commit/a83b9055829f56386c3b257b2606ae40706beb4f"
           }
         }
       ]
