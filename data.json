@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:05:54.064847Z",
+  "generated_at": "2026-11-06T16:11:14.725283Z",
   "groups": [
     {
       "id": "cores",
@@ -5175,7 +5175,7 @@
             "stars": 77716,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T16:03:21Z",
+            "pushed_at": "2026-11-06T16:08:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67039,
+            "stars": 67041,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-06T14:46:05Z",
@@ -5379,7 +5379,7 @@
             "stars": 18022,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T16:01:51Z",
+            "pushed_at": "2026-11-06T16:10:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,12 +5447,21 @@
             "stars": 29132,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T15:55:09Z",
+            "pushed_at": "2026-11-06T16:11:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v3.6.20",
+              "tag": "v3.6.20",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.6.20",
+              "published_at": "2026-11-06T16:11:18Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.6.20](https://github.com/grafana/loki/compare/v3.6.19...v3.6.20) (2026-11-06)\n\n\n### Bug Fixes\n\n* **deps:** Update go4.org/netipx digest to 3075585 (release-3.6.x) ([#26156](https://github.com/grafana/loki/issues/26156)) ([5124776](https://github.com/grafana/loki/commit/512477627614879d5e00c991b9389670a312ee82))\n* **deps:** Update google.golang.org/genproto/googleapis/rpc digest to 2ffab32 (release-3.6.x) ([#26157](https://github.com/grafana/loki/issues/26157)) ([88e351e](https://github.com/grafana/loki/commit/88e351e2e94fe5bb6759d20aea17ffe758d2ff2a))\n* **deps:** Update k8s.io/utils digest to ca04ba5 (release-3.6.x) ([#26161](https://github.com/grafana/loki/issues/26161)) ([8d2391d](https://github.com/grafana/loki/commit/8d2391d0b471e700b930e52f62d02067234b33cb))\n* **security/HIGH/:** Update module github.com/go-jose/go-jose/v4 to v4.1.6 [SECURITY] (release-3.6.x) ([#25829](https://github.com/grafana/loki/issues/25829)) ([d1915f4](https://github.com/grafana/loki/commit/d1915f42fd3f28fabe22821b43253a8825111135))\n* **security/HIGH/:** Update module github.com/go-openapi/swag/jsonutils to v0.29.2 [SECURITY] (release-3.6.x) ([#26286](https://github.com/grafana/loki/issues/26286)) ([8d999cd](https://github.com/grafana/loki/commit/8d999cdfe480158ea6d4f22c2f9e0fec54a85ac6))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25846](https://github.com/grafana/loki/issues/25846)) ([ab6aa07](https://github.com/grafana/loki/commit/ab6aa07e8b4f97c445167e6ad2849372a8f2a02c))\n* **security/UNKNOWN/:** Update module github.com/klauspost/compress to v1.20.2 [SECURITY] (release-3.6.x) ([#26294](https://github.com/grafana/loki/issues/26294)) ([bbbdf8a](https://github.com/grafana/loki/commit/bbbdf8a0246f42d6f9d67e698cdfb75e74a7d45e))\n* **security/UNKNOWN/:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25845](https://github.com/grafana/loki/issues/25845)) ([77bf026](https://github.com/grafana/loki/commit/77bf0261a029107470e74fcf787b8ee90de33312))"
+            },
             {
               "name": "v4.0.0-rc.2",
               "tag": "v4.0.0-rc.2",
@@ -5488,15 +5497,6 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [3.6.19](https://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20)\n\n\n### Bug Fixes\n\n* **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com/grafana/loki/commit/de41836f1cfe918cc2c053deed98a751a6f639ee))"
-            },
-            {
-              "name": "v3.6.18",
-              "tag": "v3.6.18",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.6.18",
-              "published_at": "2026-10-15T19:55:55Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.6.18](https://github.com/grafana/loki/compare/v3.6.17...v3.6.18) (2026-10-15)\n\n\n### Bug Fixes\n\n* **deps:** Update dependencies related to otel for 3.6 ([#25180](https://github.com/grafana/loki/issues/25180)) ([603de5a](https://github.com/grafana/loki/commit/603de5ad370c2b45ca38f031a8116257b018d89c))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.6.x) ([#24619](https://github.com/grafana/loki/issues/24619)) ([3e7c0ed](https://github.com/grafana/loki/commit/3e7c0ed5c6aaf287325dfda43c1cb1e90eeceaa8))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-3.6.x) ([#24620](https://github.com/grafana/loki/issues/24620)) ([ad5a87c](https://github.com/grafana/loki/commit/ad5a87c611d386ac9b33ae04dfdd674a4620f72d))\n* **security:** Bump Go to 1.26.9 [SECURITY] (release-3.6.x) ([#25193](https://github.com/grafana/loki/issues/25193)) ([c969f5c](https://github.com/grafana/loki/commit/c969f5cf4b4ca6073d29e0a74b236f4d05d7b79a))"
             }
           ],
           "last_commit": {
