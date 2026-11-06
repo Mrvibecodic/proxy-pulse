@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:24:37.954949Z",
+  "generated_at": "2026-11-06T14:29:56.451557Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42655,
+            "stars": 42656,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-06T11:19:12Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39690,
+            "stars": 39691,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-03T05:52:38Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35549,
+            "stars": 35550,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-06T03:18:54Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29109,
+            "stars": 29110,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-06T12:26:33Z",
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T00:31:33Z",
+            "pushed_at": "2026-11-06T14:29:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b50b8ea",
+                  "message": "libpbc: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/b50b8eadc01f5e38c258c52802a5d810871d367b"
+                },
+                {
+                  "sha": "c80c650",
+                  "message": "libuwsc: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/c80c650e112926d3063a06b1e4a2f96c2b8f4efe"
+                },
+                {
+                  "sha": "be0a362",
+                  "message": "libstrophe: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/be0a3622bc687429e9b0857cef283b8e9a228f9a"
+                },
+                {
+                  "sha": "f5cfeca",
+                  "message": "libsocketcan: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/f5cfecadf0858755bc1e8ae4f9f41689b624596e"
+                },
+                {
+                  "sha": "3932a79",
+                  "message": "libroxml: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/3932a79b909871142349e64c88f1f713d0497a5a"
+                },
+                {
+                  "sha": "cded123",
+                  "message": "libpqxx: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/cded123f484c8646dcf78434abc9a71c070498fc"
+                },
+                {
+                  "sha": "e90e05b",
+                  "message": "libopen62541: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/e90e05b580937c0e66e465a06ea04c9e6fca9e37"
+                },
+                {
+                  "sha": "fff2511",
+                  "message": "libnopoll: drop package",
+                  "author": "George Sapkin",
+                  "date": "2026-11-06T14:29:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/fff2511e2f41cf8abc8b3ac4d1fb52acb452d0a3"
+                },
+                {
                   "sha": "3a0dd68",
                   "message": "gperftools: update to 2.19.2",
                   "author": "Josef Schlehofer",
@@ -1997,62 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-03T11:32:32Z",
                   "url": "https://github.com/openwrt/packages/commit/a534ca827b5df338e12f1791a7819c3932819cff"
-                },
-                {
-                  "sha": "6724721",
-                  "message": "hwdata: bump to 0.412",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-03T11:29:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/67247214fd439e7190dcc5e31b18ff6b4f582a81"
-                },
-                {
-                  "sha": "ae381f1",
-                  "message": "libupm: make libupm a meta package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T11:01:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/ae381f18657a3fbd29e2127f97c38e900950c194"
-                },
-                {
-                  "sha": "7abd06f",
-                  "message": "sstp-client: do not ship ppp's chap-secrets",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T11:01:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/7abd06f62e27d52023f6d95c012d10051fee5f5b"
-                },
-                {
-                  "sha": "3cc7115",
-                  "message": "lvm2: conflict with the selinux variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T11:01:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/3cc71150f7a25c21fab824d7996f679659ee6933"
-                },
-                {
-                  "sha": "d46e173",
-                  "message": "httping: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T07:50:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/d46e1731db412462cee02daf435ba095bc6b045a"
-                },
-                {
-                  "sha": "9ba1c1a",
-                  "message": "mailsend: indent the package metadata with two spaces",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T07:49:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ba1c1ab5272c9bcc8d80fc22840ebf9b4d470f7"
-                },
-                {
-                  "sha": "c7c2475",
-                  "message": "mailsend: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T07:49:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/c7c2475ffd5038cea771a374d351d85ef24714f1"
-                },
-                {
-                  "sha": "f10b48f",
-                  "message": "monit: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T07:49:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/f10b48f7927b180d75bd18f5409f07f6b4de4a7d"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93308,
+            "stars": 93309,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-06T02:32:06Z",
@@ -5175,7 +5175,7 @@
             "stars": 77719,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T14:22:02Z",
+            "pushed_at": "2026-11-06T14:28:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,10 +5240,10 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67012,
+            "stars": 67013,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T14:22:59Z",
+            "pushed_at": "2026-11-06T14:29:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5379,7 +5379,7 @@
             "stars": 18022,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T13:03:11Z",
+            "pushed_at": "2026-11-06T14:29:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "709d184",
-            "branch": "backport-26203-to-release-4.0.0",
-            "date": "2026-11-06T07:41:16Z",
-            "url": "https://github.com/grafana/loki/commit/709d1843af5d282dabbe196c7a470d46141dc1ac"
+            "sha": "c9f94c3",
+            "branch": "meher/logline-merge-buffered-io",
+            "date": "2026-11-06T08:53:42Z",
+            "url": "https://github.com/grafana/loki/commit/c9f94c305bada923cfc415ae65da276c624f1a63"
           }
         }
       ]
