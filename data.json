@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T05:49:30.760898Z",
+  "generated_at": "2026-11-06T05:54:49.199951Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42649,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-06T04:08:37Z",
+            "pushed_at": "2026-11-06T05:50:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "78c0a6c",
-            "branch": "bulk-cleanup-ghcr",
-            "date": "2026-11-05T09:46:54Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/78c0a6ce3cf0e14f15482ea0548ab2bd56277572"
+            "sha": "ab88e01",
+            "branch": "main",
+            "date": "2026-11-04T03:06:38Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/ab88e0118fa50497270d08f8e70f8af3d1abc21b"
           }
         },
         {
@@ -358,7 +358,7 @@
         {
           "repo": "remnawave/node",
           "title": "Remnawave Node",
-          "track": "commits",
+          "track": "releases",
           "meta": {
             "description": "Node component for Remnawave. Learn more at: https://docs.rw",
             "stars": 195,
@@ -369,438 +369,59 @@
             "avatar": "https://avatars.githubusercontent.com/u/163913909?v=4",
             "owner": "remnawave"
           },
-          "branches": [
+          "releases": [
             {
-              "name": "dev",
-              "commits": [
-                {
-                  "sha": "0b23a2a",
-                  "message": "chore: bump version to 3.4.4",
-                  "author": "kastov",
-                  "date": "2026-11-02T21:30:23Z",
-                  "url": "https://github.com/remnawave/node/commit/0b23a2a8a7727240a81939544f6e6ef92d1950c7"
-                },
-                {
-                  "sha": "a2ba4db",
-                  "message": "chore: update dependencies",
-                  "author": "kastov",
-                  "date": "2026-11-02T21:22:11Z",
-                  "url": "https://github.com/remnawave/node/commit/a2ba4db6ad194b484973442413555affa96aa0d8"
-                },
-                {
-                  "sha": "7b97f04",
-                  "message": "build(docker): bump Xray-core to v26.10.31 (#51)",
-                  "author": "T1nyBear",
-                  "date": "2026-11-02T21:17:11Z",
-                  "url": "https://github.com/remnawave/node/commit/7b97f048774f279b4ee294db89b79aee5867822c"
-                },
-                {
-                  "sha": "94512ed",
-                  "message": "chore: bump version to 3.4.3",
-                  "author": "kastov",
-                  "date": "2026-10-22T04:26:34Z",
-                  "url": "https://github.com/remnawave/node/commit/94512ed3c398192b7beb835e4caf28ca44022b1d"
-                },
-                {
-                  "sha": "4a4fc0d",
-                  "message": "Merge pull request #49 from bebricoOOOOOOf/chore/node-24.22.1",
-                  "author": "bebricoOOOOOOf",
-                  "date": "2026-10-22T04:24:27Z",
-                  "url": "https://github.com/remnawave/node/commit/4a4fc0d40035012ccd28a3b972d491c659aa6e1c"
-                },
-                {
-                  "sha": "1037b7c",
-                  "message": "chore: bump version to 3.4.2",
-                  "author": "kastov",
-                  "date": "2026-10-06T00:56:03Z",
-                  "url": "https://github.com/remnawave/node/commit/1037b7cf2a6d4a64a79b03a2bbeaaa19e470e669"
-                },
-                {
-                  "sha": "50d0898",
-                  "message": "feat: add post-start plugin",
-                  "author": "kastov",
-                  "date": "2026-10-06T00:43:40Z",
-                  "url": "https://github.com/remnawave/node/commit/50d0898be4360ca535de527b677d233b70da8f35"
-                },
-                {
-                  "sha": "3bc09f2",
-                  "message": "chore: update dependencies",
-                  "author": "kastov",
-                  "date": "2026-09-02T19:51:10Z",
-                  "url": "https://github.com/remnawave/node/commit/3bc09f25672f0673ce9d874ff947b5a4d347e673"
-                },
-                {
-                  "sha": "fe5ede1",
-                  "message": "chore: bump version to 3.4.1",
-                  "author": "kastov",
-                  "date": "2026-08-30T21:38:53Z",
-                  "url": "https://github.com/remnawave/node/commit/fe5ede1f281382e0de9593fb57d14030f6e41a6e"
-                },
-                {
-                  "sha": "5d993c8",
-                  "message": "fix: drop specific connections when adding users",
-                  "author": "kastov",
-                  "date": "2026-08-30T21:38:41Z",
-                  "url": "https://github.com/remnawave/node/commit/5d993c8544f259ef1f3784e802b0820f660bed9a"
-                },
-                {
-                  "sha": "ad060a0",
-                  "message": "chore: update zod",
-                  "author": "kastov",
-                  "date": "2026-08-29T19:22:02Z",
-                  "url": "https://github.com/remnawave/node/commit/ad060a0c099680019ec6ce7e621b6a166af8dc16"
-                },
-                {
-                  "sha": "55ae4e2",
-                  "message": "chore: bump version to 3.4.0",
-                  "author": "kastov",
-                  "date": "2026-08-28T20:33:20Z",
-                  "url": "https://github.com/remnawave/node/commit/55ae4e2b1a3ab9ac99ad6298924e6e3d7526a381"
-                },
-                {
-                  "sha": "26d152d",
-                  "message": "chore: update Node.js base image to version 24.20",
-                  "author": "kastov",
-                  "date": "2026-08-28T19:54:09Z",
-                  "url": "https://github.com/remnawave/node/commit/26d152dc69e4ff0fc9543fc2b28d63f8b3bafa0a"
-                },
-                {
-                  "sha": "84a7995",
-                  "message": "feat: make SNI verification optional and off by default",
-                  "author": "kastov",
-                  "date": "2026-08-28T19:50:51Z",
-                  "url": "https://github.com/remnawave/node/commit/84a79955949f8d5ea47143864793cefafff8f36b"
-                },
-                {
-                  "sha": "f4f1b4b",
-                  "message": "chore: update deps",
-                  "author": "kastov",
-                  "date": "2026-08-22T00:28:35Z",
-                  "url": "https://github.com/remnawave/node/commit/f4f1b4b00fed3667d4e1a3968c18cbf54a65157b"
-                },
-                {
-                  "sha": "6dd116c",
-                  "message": "chore: update s6-overlay files",
-                  "author": "kastov",
-                  "date": "2026-08-21T22:14:09Z",
-                  "url": "https://github.com/remnawave/node/commit/6dd116c0fff7d51f451a9ac3a7c27dec75a86e57"
-                },
-                {
-                  "sha": "acfe034",
-                  "message": "refactor: error handler",
-                  "author": "kastov",
-                  "date": "2026-08-21T21:55:33Z",
-                  "url": "https://github.com/remnawave/node/commit/acfe034420d26284909c8ad990dbf79046aa8996"
-                },
-                {
-                  "sha": "d9fc08d",
-                  "message": "chore: update nftables-napi to version 0.6.0",
-                  "author": "kastov",
-                  "date": "2026-08-21T19:14:27Z",
-                  "url": "https://github.com/remnawave/node/commit/d9fc08d4987a46b9d7e0e6f1b9e804fd5e3bc663"
-                },
-                {
-                  "sha": "a1ed530",
-                  "message": "chore: bump version to 3.3.2",
-                  "author": "kastov",
-                  "date": "2026-08-20T03:02:26Z",
-                  "url": "https://github.com/remnawave/node/commit/a1ed530a3d22a2d9b42e8545922eb0475a2bdaff"
-                },
-                {
-                  "sha": "984abc1",
-                  "message": "chore: update @remnawave/node-plugins to version 0.7.3",
-                  "author": "kastov",
-                  "date": "2026-08-20T03:02:19Z",
-                  "url": "https://github.com/remnawave/node/commit/984abc17e8752c0474a09a2892624ff1c52bf3b1"
-                },
-                {
-                  "sha": "2504c7f",
-                  "message": "chore: bump version to 3.3.1",
-                  "author": "kastov",
-                  "date": "2026-08-20T02:25:34Z",
-                  "url": "https://github.com/remnawave/node/commit/2504c7fab660eaafe0d6f512462789d529136b7f"
-                },
-                {
-                  "sha": "6216d6d",
-                  "message": "feat: configure torrent blocker rule placement",
-                  "author": "kastov",
-                  "date": "2026-08-19T20:02:05Z",
-                  "url": "https://github.com/remnawave/node/commit/6216d6dbb18373ee41f3d8298a2ab679e9e118ea"
-                },
-                {
-                  "sha": "a0c6df3",
-                  "message": "fix: handle bootstrap errors",
-                  "author": "kastov",
-                  "date": "2026-08-19T15:21:20Z",
-                  "url": "https://github.com/remnawave/node/commit/a0c6df3e88f5550a88443ac841d76d6610580ad1"
-                },
-                {
-                  "sha": "a37a8df",
-                  "message": "feat: strict SECRET_KEY validation",
-                  "author": "kastov",
-                  "date": "2026-08-19T15:11:55Z",
-                  "url": "https://github.com/remnawave/node/commit/a37a8df58e08fc67caf74280adecf13b6968326d"
-                },
-                {
-                  "sha": "f390290",
-                  "message": "chore: bump version to 3.3.0",
-                  "author": "kastov",
-                  "date": "2026-08-18T22:57:04Z",
-                  "url": "https://github.com/remnawave/node/commit/f39029087b311314fafdd70e65693fb7720d986d"
-                },
-                {
-                  "sha": "b099b1c",
-                  "message": "chore: bump geocheck version to 0.3.0",
-                  "author": "kastov",
-                  "date": "2026-08-18T16:05:36Z",
-                  "url": "https://github.com/remnawave/node/commit/b099b1cff86f082b6960ddd3a281d948f66058ea"
-                },
-                {
-                  "sha": "7190d12",
-                  "message": "feat: add geocheck functionality to stats module",
-                  "author": "kastov",
-                  "date": "2026-08-18T03:14:55Z",
-                  "url": "https://github.com/remnawave/node/commit/7190d12a7c9e69011d1c1494bd951cb4dc5a7b48"
-                },
-                {
-                  "sha": "3b65c60",
-                  "message": "feat: add handshake timeout to HTTPS options",
-                  "author": "kastov",
-                  "date": "2026-08-18T01:10:40Z",
-                  "url": "https://github.com/remnawave/node/commit/3b65c60445c33d962614414d70e39df949062daa"
-                },
-                {
-                  "sha": "2b7c707",
-                  "message": "feat!: gate node API behind a derived SNI",
-                  "author": "kastov",
-                  "date": "2026-08-17T04:36:40Z",
-                  "url": "https://github.com/remnawave/node/commit/2b7c70780af87dec98bac4604b928e119cac2cac"
-                },
-                {
-                  "sha": "5213041",
-                  "message": "feat: warn on a second node instance in the same network namespace",
-                  "author": "kastov",
-                  "date": "2026-08-17T04:25:19Z",
-                  "url": "https://github.com/remnawave/node/commit/5213041e12a1b2d89207e19e91dc965e71d331ab"
-                }
-              ]
+              "name": "v3.4.4",
+              "tag": "3.4.4",
+              "url": "https://github.com/remnawave/node/releases/tag/3.4.4",
+              "published_at": "2026-11-02T21:33:11Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v3.4.4\n\n📝 Compare changes: [3.4.3...3.4.4](https://github.com/remnawave/node/compare/3.4.3...3.4.4)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:3.4.4`\n- `ghcr.io/remnawave/node:3.4.4`\n\n\n## What's Changed\n* build(docker): bump Xray-core to v26.10.31 by @T1nyBear in https://github.com/remnawave/node/pull/51\n\n## New Contributors\n* @T1nyBear made their first contribution in https://github.com/remnawave/node/pull/51\n\n**Full Changelog**: https://github.com/remnawave/node/compare/3.4.3...3.4.4"
             },
             {
-              "name": "main",
-              "commits": [
-                {
-                  "sha": "c1e40e6",
-                  "message": "chore: release v3.4.4",
-                  "author": "kastov",
-                  "date": "2026-11-02T21:30:42Z",
-                  "url": "https://github.com/remnawave/node/commit/c1e40e6d27c68e8a2325419a6c193488d8952984"
-                },
-                {
-                  "sha": "0b23a2a",
-                  "message": "chore: bump version to 3.4.4",
-                  "author": "kastov",
-                  "date": "2026-11-02T21:30:23Z",
-                  "url": "https://github.com/remnawave/node/commit/0b23a2a8a7727240a81939544f6e6ef92d1950c7"
-                },
-                {
-                  "sha": "a2ba4db",
-                  "message": "chore: update dependencies",
-                  "author": "kastov",
-                  "date": "2026-11-02T21:22:11Z",
-                  "url": "https://github.com/remnawave/node/commit/a2ba4db6ad194b484973442413555affa96aa0d8"
-                },
-                {
-                  "sha": "7b97f04",
-                  "message": "build(docker): bump Xray-core to v26.10.31 (#51)",
-                  "author": "T1nyBear",
-                  "date": "2026-11-02T21:17:11Z",
-                  "url": "https://github.com/remnawave/node/commit/7b97f048774f279b4ee294db89b79aee5867822c"
-                },
-                {
-                  "sha": "2ad154f",
-                  "message": "chore: release v3.4.3",
-                  "author": "kastov",
-                  "date": "2026-10-22T04:27:03Z",
-                  "url": "https://github.com/remnawave/node/commit/2ad154f8f1016c94c1872f337268af878af61b18"
-                },
-                {
-                  "sha": "94512ed",
-                  "message": "chore: bump version to 3.4.3",
-                  "author": "kastov",
-                  "date": "2026-10-22T04:26:34Z",
-                  "url": "https://github.com/remnawave/node/commit/94512ed3c398192b7beb835e4caf28ca44022b1d"
-                },
-                {
-                  "sha": "4a4fc0d",
-                  "message": "Merge pull request #49 from bebricoOOOOOOf/chore/node-24.22.1",
-                  "author": "bebricoOOOOOOf",
-                  "date": "2026-10-22T04:24:27Z",
-                  "url": "https://github.com/remnawave/node/commit/4a4fc0d40035012ccd28a3b972d491c659aa6e1c"
-                },
-                {
-                  "sha": "ea7a835",
-                  "message": "chore: release v3.4.2",
-                  "author": "kastov",
-                  "date": "2026-10-06T01:01:49Z",
-                  "url": "https://github.com/remnawave/node/commit/ea7a835485af81ec464ebbf7acaaa7d6dd486a05"
-                },
-                {
-                  "sha": "1037b7c",
-                  "message": "chore: bump version to 3.4.2",
-                  "author": "kastov",
-                  "date": "2026-10-06T00:56:03Z",
-                  "url": "https://github.com/remnawave/node/commit/1037b7cf2a6d4a64a79b03a2bbeaaa19e470e669"
-                },
-                {
-                  "sha": "50d0898",
-                  "message": "feat: add post-start plugin",
-                  "author": "kastov",
-                  "date": "2026-10-06T00:43:40Z",
-                  "url": "https://github.com/remnawave/node/commit/50d0898be4360ca535de527b677d233b70da8f35"
-                },
-                {
-                  "sha": "3bc09f2",
-                  "message": "chore: update dependencies",
-                  "author": "kastov",
-                  "date": "2026-09-02T19:51:10Z",
-                  "url": "https://github.com/remnawave/node/commit/3bc09f25672f0673ce9d874ff947b5a4d347e673"
-                },
-                {
-                  "sha": "4491263",
-                  "message": "chore: release v3.4.1",
-                  "author": "kastov",
-                  "date": "2026-08-30T21:44:29Z",
-                  "url": "https://github.com/remnawave/node/commit/44912631321664dbd5822e9bf8d96766ccff7c93"
-                },
-                {
-                  "sha": "fe5ede1",
-                  "message": "chore: bump version to 3.4.1",
-                  "author": "kastov",
-                  "date": "2026-08-30T21:38:53Z",
-                  "url": "https://github.com/remnawave/node/commit/fe5ede1f281382e0de9593fb57d14030f6e41a6e"
-                },
-                {
-                  "sha": "5d993c8",
-                  "message": "fix: drop specific connections when adding users",
-                  "author": "kastov",
-                  "date": "2026-08-30T21:38:41Z",
-                  "url": "https://github.com/remnawave/node/commit/5d993c8544f259ef1f3784e802b0820f660bed9a"
-                },
-                {
-                  "sha": "ad060a0",
-                  "message": "chore: update zod",
-                  "author": "kastov",
-                  "date": "2026-08-29T19:22:02Z",
-                  "url": "https://github.com/remnawave/node/commit/ad060a0c099680019ec6ce7e621b6a166af8dc16"
-                },
-                {
-                  "sha": "c1fdad7",
-                  "message": "chore: release v3.4.0",
-                  "author": "kastov",
-                  "date": "2026-08-29T03:41:26Z",
-                  "url": "https://github.com/remnawave/node/commit/c1fdad7656281c18d99f4e82045705fbfe32bab4"
-                },
-                {
-                  "sha": "55ae4e2",
-                  "message": "chore: bump version to 3.4.0",
-                  "author": "kastov",
-                  "date": "2026-08-28T20:33:20Z",
-                  "url": "https://github.com/remnawave/node/commit/55ae4e2b1a3ab9ac99ad6298924e6e3d7526a381"
-                },
-                {
-                  "sha": "26d152d",
-                  "message": "chore: update Node.js base image to version 24.20",
-                  "author": "kastov",
-                  "date": "2026-08-28T19:54:09Z",
-                  "url": "https://github.com/remnawave/node/commit/26d152dc69e4ff0fc9543fc2b28d63f8b3bafa0a"
-                },
-                {
-                  "sha": "84a7995",
-                  "message": "feat: make SNI verification optional and off by default",
-                  "author": "kastov",
-                  "date": "2026-08-28T19:50:51Z",
-                  "url": "https://github.com/remnawave/node/commit/84a79955949f8d5ea47143864793cefafff8f36b"
-                },
-                {
-                  "sha": "f4f1b4b",
-                  "message": "chore: update deps",
-                  "author": "kastov",
-                  "date": "2026-08-22T00:28:35Z",
-                  "url": "https://github.com/remnawave/node/commit/f4f1b4b00fed3667d4e1a3968c18cbf54a65157b"
-                },
-                {
-                  "sha": "6dd116c",
-                  "message": "chore: update s6-overlay files",
-                  "author": "kastov",
-                  "date": "2026-08-21T22:14:09Z",
-                  "url": "https://github.com/remnawave/node/commit/6dd116c0fff7d51f451a9ac3a7c27dec75a86e57"
-                },
-                {
-                  "sha": "acfe034",
-                  "message": "refactor: error handler",
-                  "author": "kastov",
-                  "date": "2026-08-21T21:55:33Z",
-                  "url": "https://github.com/remnawave/node/commit/acfe034420d26284909c8ad990dbf79046aa8996"
-                },
-                {
-                  "sha": "d9fc08d",
-                  "message": "chore: update nftables-napi to version 0.6.0",
-                  "author": "kastov",
-                  "date": "2026-08-21T19:14:27Z",
-                  "url": "https://github.com/remnawave/node/commit/d9fc08d4987a46b9d7e0e6f1b9e804fd5e3bc663"
-                },
-                {
-                  "sha": "afdfa2d",
-                  "message": "chore: release v3.3.2",
-                  "author": "kastov",
-                  "date": "2026-08-20T03:02:37Z",
-                  "url": "https://github.com/remnawave/node/commit/afdfa2d837118efd95c317700e60e9429a169b48"
-                },
-                {
-                  "sha": "a1ed530",
-                  "message": "chore: bump version to 3.3.2",
-                  "author": "kastov",
-                  "date": "2026-08-20T03:02:26Z",
-                  "url": "https://github.com/remnawave/node/commit/a1ed530a3d22a2d9b42e8545922eb0475a2bdaff"
-                },
-                {
-                  "sha": "984abc1",
-                  "message": "chore: update @remnawave/node-plugins to version 0.7.3",
-                  "author": "kastov",
-                  "date": "2026-08-20T03:02:19Z",
-                  "url": "https://github.com/remnawave/node/commit/984abc17e8752c0474a09a2892624ff1c52bf3b1"
-                },
-                {
-                  "sha": "3386740",
-                  "message": "chore: release v3.3.1",
-                  "author": "kastov",
-                  "date": "2026-08-20T02:26:11Z",
-                  "url": "https://github.com/remnawave/node/commit/3386740eb09338c45679d8dd84087391f8fdd02f"
-                },
-                {
-                  "sha": "2504c7f",
-                  "message": "chore: bump version to 3.3.1",
-                  "author": "kastov",
-                  "date": "2026-08-20T02:25:34Z",
-                  "url": "https://github.com/remnawave/node/commit/2504c7fab660eaafe0d6f512462789d529136b7f"
-                },
-                {
-                  "sha": "6216d6d",
-                  "message": "feat: configure torrent blocker rule placement",
-                  "author": "kastov",
-                  "date": "2026-08-19T20:02:05Z",
-                  "url": "https://github.com/remnawave/node/commit/6216d6dbb18373ee41f3d8298a2ab679e9e118ea"
-                },
-                {
-                  "sha": "a0c6df3",
-                  "message": "fix: handle bootstrap errors",
-                  "author": "kastov",
-                  "date": "2026-08-19T15:21:20Z",
-                  "url": "https://github.com/remnawave/node/commit/a0c6df3e88f5550a88443ac841d76d6610580ad1"
-                }
-              ]
+              "name": "v3.4.3",
+              "tag": "3.4.3",
+              "url": "https://github.com/remnawave/node/releases/tag/3.4.3",
+              "published_at": "2026-10-22T04:29:57Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v3.4.3\n\n📝 Compare changes: [3.4.2...3.4.3](https://github.com/remnawave/node/compare/3.4.2...3.4.3)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:3.4.3`\n- `ghcr.io/remnawave/node:3.4.3`\n\n\n## What's Changed\n* build(docker): bump Node.js base image to 24.22 (CVE-2026-111497, Brotli) by @bebricoOOOOOOf in https://github.com/remnawave/node/pull/49\n\n## New Contributors\n* @bebricoOOOOOOf made their first contribution in https://github.com/remnawave/node/pull/49\n\n**Full Changelog**: https://github.com/remnawave/node/compare/3.4.2...3.4.3"
+            },
+            {
+              "name": "v3.4.2",
+              "tag": "3.4.2",
+              "url": "https://github.com/remnawave/node/releases/tag/3.4.2",
+              "published_at": "2026-10-06T01:04:25Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v3.4.2\n\n📝 Compare changes: [3.4.1...3.4.2](https://github.com/remnawave/node/compare/3.4.1...3.4.2)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:3.4.2`\n- `ghcr.io/remnawave/node:3.4.2`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/3.4.1...3.4.2"
+            },
+            {
+              "name": "v3.4.1",
+              "tag": "3.4.1",
+              "url": "https://github.com/remnawave/node/releases/tag/3.4.1",
+              "published_at": "2026-08-30T21:46:14Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v3.4.1\n\n📝 Compare changes: [3.4.0...3.4.1](https://github.com/remnawave/node/compare/3.4.0...3.4.1)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:3.4.1`\n- `ghcr.io/remnawave/node:3.4.1`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/3.4.0...3.4.1"
+            },
+            {
+              "name": "v3.4.0",
+              "tag": "3.4.0",
+              "url": "https://github.com/remnawave/node/releases/tag/3.4.0",
+              "published_at": "2026-08-29T03:43:47Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "🚀 Autogenerated release v3.4.0\n\n📝 Compare changes: [3.3.2...3.4.0](https://github.com/remnawave/node/compare/3.3.2...3.4.0)\n\nLatest Docker image:\n- `remnawave/node:latest`\n- `ghcr.io/remnawave/node:latest`\n\nDocker images:\n- `remnawave/node:3.4.0`\n- `ghcr.io/remnawave/node:3.4.0`\n\n\n**Full Changelog**: https://github.com/remnawave/node/compare/3.3.2...3.4.0"
             }
-          ]
+          ],
+          "last_commit": {
+            "sha": "0b23a2a",
+            "branch": "dev",
+            "date": "2026-11-02T21:30:30Z",
+            "url": "https://github.com/remnawave/node/commit/0b23a2a8a7727240a81939544f6e6ef92d1950c7"
+          }
         },
         {
           "repo": "remnawave/subscription-page",
@@ -5607,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1def46e",
-            "branch": "moustafab/split-legacy-rule-service",
-            "date": "2026-11-05T23:55:51Z",
-            "url": "https://github.com/grafana/grafana/commit/1def46ef314c9c6981810e238babc615d7b69c17"
+            "sha": "2b6a9bf",
+            "branch": "wb/remove-managed-plugins-v1",
+            "date": "2026-11-05T12:34:05Z",
+            "url": "https://github.com/grafana/grafana/commit/2b6a9bff99c4eb32ee5d92b9cdcd35d689c81f82"
           }
         },
         {
