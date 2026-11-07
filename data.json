@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:03:46.234943Z",
+  "generated_at": "2026-11-07T06:09:02.782287Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39702,
+            "stars": 39703,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-03T05:52:38Z",
@@ -1190,7 +1190,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-06T21:13:21Z",
+            "pushed_at": "2026-11-07T06:08:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "95c18b6",
+                  "message": "rsyslog: handle empty uci config",
+                  "author": "Ming Di Leom",
+                  "date": "2026-11-07T06:08:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/95c18b66217003193ef5f3e03f797928894186ce"
+                },
+                {
                   "sha": "1c248d7",
                   "message": "udp-broadcast-relay-redux: init file improvements",
                   "author": "Aaron Curley",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-04T14:24:51Z",
                   "url": "https://github.com/openwrt/packages/commit/52df6b74dc38a262b980fd6de15132d6af7b1a5b"
-                },
-                {
-                  "sha": "a6e9c57",
-                  "message": "libcups: update to 2.4.20",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-03T20:17:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/a6e9c57af78eee2351849134416014696e1d658c"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e381a87",
+            "sha": "560f3ca",
             "branch": "main",
-            "date": "2026-11-06T19:54:11Z",
-            "url": "https://github.com/grafana/grafana/commit/e381a87421a65c3415e9d72c14038a1b32271296"
+            "date": "2026-11-06T21:44:52Z",
+            "url": "https://github.com/grafana/grafana/commit/560f3cab9ae748d4087b88f8242e32e899153a59"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29133,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-07T03:05:45Z",
+            "pushed_at": "2026-11-07T06:07:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
