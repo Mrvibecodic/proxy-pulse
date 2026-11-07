@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T15:56:30.792618Z",
+  "generated_at": "2026-11-07T16:01:47.995438Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29122,
+            "stars": 29123,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-07T15:10:52Z",
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5462,
+            "stars": 5461,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-11-07T00:20:11Z",
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b2874a1",
-            "branch": "deps-update/react-app",
-            "date": "2026-11-06T03:52:11Z",
-            "url": "https://github.com/prometheus/prometheus/commit/b2874a1844bf275d2d7796b88ff29ddc31098a9d"
+            "sha": "adeadf5",
+            "branch": "perfloop-pr-open-j26d223a7s",
+            "date": "2026-11-07T11:31:26Z",
+            "url": "https://github.com/prometheus/prometheus/commit/adeadf58154eb31cab0ec51f621ff8786069c55b"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81300,
+            "stars": 81301,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-07T07:53:56Z",
@@ -5447,12 +5447,21 @@
             "stars": 29133,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-07T15:44:51Z",
+            "pushed_at": "2026-11-07T16:01:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v4.0.0-rc.3",
+              "tag": "v4.0.0-rc.3",
+              "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.3",
+              "published_at": "2026-11-07T16:01:33Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [4.0.0-rc.3](https://github.com/grafana/loki/compare/v4.0.0-rc.2...v4.0.0-rc.3) (2026-11-06)\n\n\n### ⚠ BREAKING CHANGES\n\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] (#26310)\n\n### Bug Fixes\n\n* **compactor:** Use main compactor for deletes ([#26305](https://github.com/grafana/loki/issues/26305)) [release-4.0.0] ([#26311](https://github.com/grafana/loki/issues/26311)) ([1665c02](https://github.com/grafana/loki/commit/1665c0203b3c7b025608336809d18473d8262f00))\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] ([#26310](https://github.com/grafana/loki/issues/26310)) ([cea7d12](https://github.com/grafana/loki/commit/cea7d12c3e839f5350952e11028021a8f3ca7fbe))"
+            },
             {
               "name": "v3.6.20",
               "tag": "v3.6.20",
@@ -5488,15 +5497,6 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [3.7.9](https://github.com/grafana/loki/compare/v3.7.8...v3.7.9) (2026-10-20)\n\n\n### Bug Fixes\n\n* **deps:** Update github.com/thanos-io/objstore digest to 72d3b9f (release-3.7.x) ([#25389](https://github.com/grafana/loki/issues/25389)) ([e7d6809](https://github.com/grafana/loki/commit/e7d68093e0be6cf96fdc81c801057beaca4f212d))\n* **deps:** Update go4.org/netipx digest to 3075585 (release-3.7.x) ([#25390](https://github.com/grafana/loki/issues/25390)) ([24be2f4](https://github.com/grafana/loki/commit/24be2f4dbe6ba67269c5518f3e3f15979d6d1b8a))\n* **deps:** Update k8s.io/utils digest to cf1189d (release-3.7.x) ([#25391](https://github.com/grafana/loki/issues/25391)) ([a5218df](https://github.com/grafana/loki/commit/a5218dffae9ac78224b691daecd67690f4784dd4))\n* **ingester:** Concurrent WAL `Append()` calls could lead to inconsitent record order and irrecoverable WAL state ([#25125](https://github.com/grafana/loki/issues/25125)) ([72aa93e](https://github.com/grafana/loki/commit/72aa93ed048c289c924ebdef7236ed04df3b6e19))\n* Limit request body size for ruler \"CreateRuleGroup\" API and LogQLAnalyzer API [release-3.7.x] ([#24838](https://github.com/grafana/loki/issues/24838)) ([6c6e9dc](https://github.com/grafana/loki/commit/6c6e9dcafb0bfafc988a4a2f5a0b006e4d2f99aa))\n* **logql:** Keep entries while stream accumulator has free room [release-3.7.x] ([#24703](https://github.com/grafana/loki/issues/24703)) ([4390fb1](https://github.com/grafana/loki/commit/4390fb1166fd829a0bb24bca1146bfe8466b0edd))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-3.7.x) ([#24614](https://github.com/grafana/loki/issues/24614)) ([bab6de2](https://github.com/grafana/loki/commit/bab6de213675f0105c7efd3d772d1b4c00da5d21))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-3.7.x) ([#24615](https://github.com/grafana/loki/issues/24615)) ([7aee5f1](https://github.com/grafana/loki/commit/7aee5f1980b85848e94df163d644381eec29bcd3))\n* **security/LOW/:** Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (release-3.7.x) ([#24616](https://github.com/grafana/loki/issues/24616)) ([b787d9a](https://github.com/grafana/loki/commit/b787d9a4bf438fdf873f07ed87f8f47b910fc0ae))\n* **security/MEDIUM/:** Update module github.com/containerd/containerd/v2 to v2.2.9 [SECURITY] (release-3.7.x) ([#24806](https://github.com/grafana/loki/issues/24806)) ([bafb1b8](https://github.com/grafana/loki/commit/bafb1b85014e40854424cb14e7dc7dbdae6f03d7))\n* **security:** Bump Go to 1.26.10 [SECURITY] (release-3.7.x) ([#25458](https://github.com/grafana/loki/issues/25458)) ([d3b4a2f](https://github.com/grafana/loki/commit/d3b4a2f76bfc5625abee7ceb00b8896fa3c31549))"
-            },
-            {
-              "name": "v3.6.19",
-              "tag": "v3.6.19",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.6.19",
-              "published_at": "2026-10-20T22:36:42Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.6.19](https://github.com/grafana/loki/compare/v3.6.18...v3.6.19) (2026-10-20)\n\n\n### Bug Fixes\n\n* **security:** Bump Go to 1.26.10 [SECURITY] (release-3.6.x) ([#25457](https://github.com/grafana/loki/issues/25457)) ([de41836](https://github.com/grafana/loki/commit/de41836f1cfe918cc2c053deed98a751a6f639ee))"
             }
           ],
           "last_commit": {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8216,
+            "stars": 8217,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-07T06:13:52Z",
