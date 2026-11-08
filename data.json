@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:21:01.780969Z",
+  "generated_at": "2026-11-08T15:26:18.487109Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42719,
+            "stars": 42720,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-08T11:32:35Z",
@@ -1181,7 +1181,7 @@
             "stars": 4665,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-08T14:56:01Z",
+            "pushed_at": "2026-11-08T15:23:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "488eb02",
+                  "message": "dufs: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-08T15:23:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/488eb020b875bfb142bf143cff6982290e3bf9bc"
+                },
+                {
                   "sha": "4083277",
                   "message": "qemu: update to 11.1.3",
                   "author": "Andy Chiang",
@@ -2037,13 +2044,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-11-04T17:16:06Z",
                   "url": "https://github.com/openwrt/packages/commit/8a3e4b6a171cdb3532c0e3afbf8d134ee244762a"
-                },
-                {
-                  "sha": "74507f1",
-                  "message": "zoneinfo: update to 2026f release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-11-04T17:11:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/74507f1306d75aa4e14c2649c12a252d0c480651"
                 }
               ]
             },
@@ -5027,7 +5027,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93377,
+            "stars": 93378,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-08T15:19:25Z",
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26981,
+            "stars": 26983,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-08T02:11:48Z",
