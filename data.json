@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T17:49:53.329229Z",
+  "generated_at": "2026-11-08T17:55:09.941804Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4666,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-08T15:23:28Z",
+            "pushed_at": "2026-11-08T17:53:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fdaf312",
+                  "message": "socat: update to 1.8.1.3",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-08T17:53:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/fdaf3122d73c38db7a4885705facc01549e7971f"
+                },
+                {
                   "sha": "488eb02",
                   "message": "dufs: use the build system's Rust support",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-04T18:45:46Z",
                   "url": "https://github.com/openwrt/packages/commit/ecac5a2a1d9c4d3d83835498c31f4f2937f0700c"
-                },
-                {
-                  "sha": "8a3e4b6",
-                  "message": "radicale3: bump to v3.9.0 (security)",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-11-04T17:16:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/8a3e4b6a171cdb3532c0e3afbf8d134ee244762a"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77759,
+            "stars": 77760,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-08T17:17:48Z",
