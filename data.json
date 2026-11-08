@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T22:08:37.120611Z",
+  "generated_at": "2026-11-08T22:13:52.817037Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4666,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-08T17:55:48Z",
+            "pushed_at": "2026-11-08T22:09:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "8e91c19",
+                  "message": "openzwave: update to 1.6.1965, disable downloads",
+                  "author": "David Woodhouse",
+                  "date": "2026-11-08T22:09:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/8e91c195d89cd11ae58390c21cf1312cf5c13aa6"
+                },
+                {
                   "sha": "1a304c1",
                   "message": "adguardhome: bump to 0.107.80",
                   "author": "George Sapkin",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-30T05:35:25Z",
                   "url": "https://github.com/openwrt/packages/commit/88b0e4d4b7ef64660691ebf802d9accc513c7a5a"
-                },
-                {
-                  "sha": "eecff17",
-                  "message": "cloudflared: update to 2026.10.6",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T03:33:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/eecff1720a4ee0c4d7124d71953bee92c6d489c9"
                 }
               ]
             },
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2198,
+            "stars": 2197,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-08T13:35:56Z",
