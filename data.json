@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T15:10:29.009839Z",
+  "generated_at": "2026-11-08T15:15:45.444402Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39756,
+            "stars": 39757,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-08T13:53:23Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35610,
+            "stars": 35611,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-06T03:18:54Z",
@@ -502,7 +502,7 @@
             "stars": 18,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-11-08T15:09:24Z",
+            "pushed_at": "2026-11-08T15:11:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -534,6 +534,24 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Обновлена политика конфиденциальности"
+            },
+            {
+              "name": "Clod Clash clod-v0.1.14-alpha.4",
+              "tag": "clod-v0.1.14-alpha.4",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.4",
+              "published_at": "2026-11-01T00:24:07Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Резервная копия не переносит на другой компьютер данные подписок этой машины и выбранный адрес прокси\n- Окно меньше нагружает компьютер: состояние TUN, службы и автонастройки прокси проверяется один раз на всё окно\n- На Linux трей больше не запускает лишние процессы каждые 15 секунд\n\n### Исправлено\n\n- Выключенная на Windows автонастройка прокси (PAC) больше не показывается включённой и не включается сама на следующем запуске\n- У тех, кто включал запуск от администратора, приложение после обновления не стартует при входе дважды, а тумблер автозапуска честно говорит, что его выключит только запуск от администратора\n- Отказ в правах или сбой установки службы TUN виден сразу, даже если окно спрятано\n- TUN, не поднявшийся до сна, снова пробует подняться сразу после пробуждения\n- Значок и подсказка трея следуют за TUN, когда он упал или вернулся сам; включённый способ подключения, запертый провайдером, можно выключить из трея\n- Смена TFO или MPTCP входящих соединений применяется сразу\n- Выключенный в DNS IPv6 не включается обратно вместе с TUN, а подсказка на странице DNS говорит, когда он действует\n- Текстовый режим страницы DNS не теряет посторонние ключи молча, а называет их\n- Адрес в окне «Системный прокси» обновляется сразу после смены раздачи в локальную сеть, а индикатор автонастройки не гаснет от сбоя чтения\n- Логотип подписки скачивается сразу, как только провайдер сменил его адрес\n- Поиск на «Правилах» по регулярному выражению снова находит правило по адресу целиком\n- «Сбросить» в окне «Туннели» очищает и набранный, но не добавленный туннель\n- В отчёте для поддержки подписка названа так же, как в окне\n- Поправлены тексты: одно название состояния устройства на всех экранах, ошибка цепочки прокси на языке окна, подсказка на плашке типа сервера"
+            },
+            {
+              "name": "Clod Clash clod-v0.1.14-alpha.3",
+              "tag": "clod-v0.1.14-alpha.3",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.3",
+              "published_at": "2026-10-31T11:45:49Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Резервные копии сохраняются только на этом компьютере: копирование в WebDAV убрано, его прежние настройки удаляются при запуске\n- Главная, списки серверов, журнала и соединений и редакторы групп и правил подписки работают быстрее\n\n### Исправлено\n\n- Значок, подсказка и меню трея больше не застревают в прежнем состоянии после перезапуска ядра, переключений и пробуждения компьютера\n- Сервер, выбранный на Главной во время проверки задержек группы, получает пинг сразу"
             }
           ],
           "last_commit": {
@@ -5021,7 +5039,7 @@
             "stars": 93376,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-08T03:44:01Z",
+            "pushed_at": "2026-11-08T15:15:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5086,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 26980,
+            "stars": 26981,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-08T02:11:48Z",
@@ -5222,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67550,
+            "stars": 67551,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-08T14:49:16Z",
