@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:27:42.083091Z",
+  "generated_at": "2026-11-09T23:32:59.756500Z",
   "groups": [
     {
       "id": "cores",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9ac9a29",
+            "sha": "c029b35",
             "branch": "stable",
-            "date": "2026-11-09T11:13:51Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/9ac9a2989e35e7ea5dcb02c5cb4e5bb2b27ca07d"
+            "date": "2026-11-09T11:59:44Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/c029b359667351d559c8d8da753e52aea6c4e293"
           }
         },
         {
@@ -349,10 +349,10 @@
             }
           ],
           "last_commit": {
-            "sha": "902ad31",
+            "sha": "a3356ae",
             "branch": "releases",
-            "date": "2026-11-02T21:40:50Z",
-            "url": "https://github.com/remnawave/panel/commit/902ad3149013932d80b884cf2cc2af11f01d248b"
+            "date": "2026-11-09T16:04:35Z",
+            "url": "https://github.com/remnawave/panel/commit/a3356ae4e6b9e0463ee83da7928f8e7a95535d60"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4667,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-09T21:13:41Z",
+            "pushed_at": "2026-11-09T23:31:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "5a391c2",
+                  "message": "rust: update to 1.94.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-09T23:31:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/5a391c2cb7bf84ed6f96363289ab7d8af2343801"
+                },
+                {
+                  "sha": "0911f04",
+                  "message": "python3: update to 3.11.18",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-09T23:28:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/0911f04041a89c4196b1cb854c750440500b774f"
+                },
+                {
                   "sha": "4d71f28",
                   "message": "openssh: backport security mitigation from 10.6p2",
                   "author": "Darren Tucker",
@@ -3329,26 +3343,19 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-22T06:58:07Z",
                   "url": "https://github.com/openwrt/packages/commit/0a2728a12a95b9b7671ff2c425978aaf038e5ff0"
-                },
-                {
-                  "sha": "b0e8484",
-                  "message": "unbound: update to 1.26.2",
-                  "author": "Tyrel M. McQueen",
-                  "date": "2026-10-22T05:09:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/b0e8484b02807d6d848740de8bc2fd98edbe014f"
-                },
-                {
-                  "sha": "be65a31",
-                  "message": "weechat: fix recursive Kconfig dependency",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-21T06:26:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/be65a3156b0da660629f7c6b5f5411ef1c3fde37"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "acf824d",
+                  "message": "python3: update to 3.13.18",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-09T23:29:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/acf824d8d7054f41544495363bb44965af8385ea"
+                },
                 {
                   "sha": "ff1902f",
                   "message": "dawn: update to 2026-11-09 Git HEAD",
@@ -3551,13 +3558,6 @@
                   "author": "Antonio Pastor",
                   "date": "2026-10-30T06:03:06Z",
                   "url": "https://github.com/openwrt/packages/commit/de95f6923677cd03ff63aee527c0097879ba7f68"
-                },
-                {
-                  "sha": "1567eb7",
-                  "message": "apache: update to version 2.4.69",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-30T05:36:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/1567eb71e35660a54b073c8f91f61fcd8ce35d4e"
                 }
               ]
             },
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67596,
+            "stars": 67597,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-09T18:03:46Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dbf0fe0",
-            "branch": "sjr-query",
-            "date": "2026-11-09T14:13:22Z",
-            "url": "https://github.com/netdata/netdata/commit/dbf0fe0df73485dfbb75e76298c2676bdc7d3fef"
+            "sha": "f936dff",
+            "branch": "docs/netdata-cloud-move-node-between-rooms",
+            "date": "2026-11-09T13:30:31Z",
+            "url": "https://github.com/netdata/netdata/commit/f936dff21da6e136b80f76891443e803ad8873b2"
           }
         },
         {
@@ -5856,10 +5856,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4734eca",
-            "branch": "gh-pages-pingfang-only",
-            "date": "2026-11-09T05:07:53Z",
-            "url": "https://github.com/Zephyruso/zashboard/commit/4734eca7eb6b68eda08b250108429051f6c7e08e"
+            "sha": "e30190b",
+            "branch": "gh-pages",
+            "date": "2026-11-09T05:07:54Z",
+            "url": "https://github.com/Zephyruso/zashboard/commit/e30190b7582fd521dc61ced02e8a14d49c9aa023"
           }
         },
         {
