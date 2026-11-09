@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T10:02:11.153190Z",
+  "generated_at": "2026-11-09T10:07:29.857306Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35621,
+            "stars": 35620,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-06T03:18:54Z",
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2198,
+            "stars": 2199,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-08T13:35:56Z",
@@ -5175,7 +5175,7 @@
             "stars": 77782,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-09T10:01:42Z",
+            "pushed_at": "2026-11-09T10:05:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,12 +5379,21 @@
             "stars": 18064,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-09T10:02:09Z",
+            "pushed_at": "2026-11-09T10:03:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
           },
           "releases": [
+            {
+              "name": "v1.156.0",
+              "tag": "v1.156.0",
+              "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.156.0",
+              "published_at": "2026-11-09T10:02:46Z",
+              "prerelease": false,
+              "author": "f41gh7",
+              "body": "\n## [v1.156.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.156.0)\n\nReleased at 2026-11-06"
+            },
             {
               "name": "v1.155.0",
               "tag": "v1.155.0",
@@ -5420,15 +5429,6 @@
               "prerelease": false,
               "author": "f41gh7",
               "body": "## [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0)\r\n\r\nReleased at 2026-09-28\r\n\r\n**Update Note 1:** [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/), `vmstorage`, `vmselect` and `vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/), and [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/): builds without CGO (pure Go) may fail to read valid data blocks with the `window size exceeded` error. This can break queries, background merges and [native import](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#how-to-import-data-in-native-format), and can make `vmsingle` and `vmstorage` crash. Affected official builds: `darwin`, `windows`, `freebsd`, `openbsd`, `linux/arm`, `linux/ppc64le`, `linux/386`, `linux/s390x`, and `-pure` builds. The `linux/amd64` and `linux/arm64` builds use CGO and are not affected. Users of affected builds should not upgrade to this release, or should roll back to [v1.152.0](https://docs.victoriametrics.com/victoriametrics/changelog/#v11520). See [#11683](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11683).\r\n\r\n* SECURITY: `vminsert`, [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): properly apply memory limits to the `zstd` encoded blocks ingested via [native import](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#how-to-import-data-in-native-format). This prevents excessive memory allocation during ingestion when handling maliciously crafted requests. See [GHSA-8g4f-32hw-vqf8](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-8g4f-32hw-vqf8).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): restrict redirects in the [OIDC Discovery](https://docs.victoriametrics.com/victoriametrics/vmauth/#oidc-discovery) HTTP client to stay within the original request host. See [GHSA-xxqh-2hcc-9fp6](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-xxqh-2hcc-9fp6).\r\n* SECURITY: upgrade base docker image (Alpine) from 3.24.1 to 3.24.2. See [Alpine 3.24.2 release notes](https://www.alpinelinux.org/posts/Alpine-3.24.2-released.html).\r\n\r\n* FEATURE: [vmalert](https://docs.victoriametrics.com/victoriametrics/vmalert/): skip a redundant pending state when an alert can be [restored](https://docs.victoriametrics.com/victoriametrics/vmalert/#alerts-state-on-restarts) directly to firing after restart. See [#11401](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11401).\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): log informative message when a JWT token has no `vm_access` claim and `default_vm_access_claim` is not configured, if `-logInvalidAuthTokens` is enabled. See [JWT claim-based request templating](https://docs.victoriametrics.com/victoriametrics/vmauth/#jwt-claim-based-request-templating) or [#11579](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11579).\r\n* FEATURE: [dashboards/vmauth](https://github.com/VictoriaMetrics/VictoriaMetrics/tree/master/dashboards/vmauth.json): update the dashboard to upstream Grafana version, fix typos and inconsistencies, improve resource usage panels. See [#11587](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11587)\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): support printing HTTP headers in the [Access Logs](https://docs.victoriametrics.com/victoriametrics/vmauth/#access-log). Only headers listed in `access_log.headers` list will be printed in the logs. This feature should help troubleshooting pipelines that rely on HTTP headers. See [#11598](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11598).\r\n* FEATURE: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): move auto-refresh controls from the header to the `Execute` button dropdown and display the selected interval in the button text. See [#11343](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11343).\r\n* FEATURE: `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): support ingesting data directly via Prometheus Remote Write v1 protocol for `vmstorage`. This feature can be enabled by setting `-enableIngestionAPI` command-line flag and is disabled by default. See [remote write directly to vmstorage](https://docs.victoriametrics.com/victoriametrics/data-ingestion/vmagent/#remote-write-directly-to-vmstorage) and [#11252](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11252).\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add [Single sign-on (SSO)](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) support via OpenID Connect (OIDC). vmauth redirects unauthenticated browser requests to the configured Identity Provider (IdP), verifies the IdP response, and sets a session cookie for subsequent requests. See [#10278](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/10278).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): add support for opt-in [fadvise(FADV_RANDOM)](https://man7.org/linux/man-pages/man2/posix_fadvise.2.html) and [madvise(MADV_RANDOM)](https://man7.org/linux/man-pages/man2/madvise.2.html) hints for data part files, which can reduce disk I/O and improve page cache efficiency. To enable, set `-fs.disableAdviseRandomRead=false`. If you experience issues after enabling this feature, please [leave a comment](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11461) with details. See [#11461](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11461).\r\n\r\n* BUGFIX: all VictoriaMetrics components: create the Unix domain socket for `-httpListenAddr=unix:/path/to/socket` with permissions according to the [umask](https://en.wikipedia.org/wiki/Umask) of the process. Previously it was always created with `0600` permissions, so processes running under other users, such as a reverse proxy, couldn't connect to it. See [these docs](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#security) and [#11615](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11615).\r\n* BUGFIX: [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/): serially push samples to [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) jobs. This helps reduce CPU overhead. [11f488d8ff](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/11f488d8ff) introduced parallel processing for this stage, which introduced extra CPU overhead while only providing negligible sample lag reduction. See [#9878](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/9878#issuecomment-5692311649).\r\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/): add missing `X-Influxdb-Version` HTTP header to [influxdb](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) API responses. See [#11570](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11570).\r\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/): disable metrics metadata sending for [MDX](https://docs.victoriametrics.com/victoriametrics/vmagent/#monitoring-data-exchange) remote write destinations. See [#11572](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11572).\r\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): properly discover `*_sd_"
-            },
-            {
-              "name": "v1.152.0",
-              "tag": "v1.152.0",
-              "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.152.0",
-              "published_at": "2026-09-14T10:36:37Z",
-              "prerelease": false,
-              "author": "makasim",
-              "body": "\n## [v1.152.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.152.0)\n\nReleased at 2026-09-11\n\n* SECURITY: upgrade Go builder from Go1.26.6 to Go1.27.1. See [Go 1.27 release notes](https://go.dev/doc/go1.27).\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): fix authorization bypass in JWT-based routing when `match_claims` values are used. See [GHSA-f99m-22fh-qw96](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-f99m-22fh-qw96).\n* SECURITY: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): properly escape server-side errors returned by `/metric-relabel-debug` since they could contain parts of user input. This prevents XSS attacks on the `/vmui/#/relabeling` page. See [GHSA-vw10j-rqhg-qff9](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-vw9j-rqhg-qff9).\n\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add the `deny_paths` option to `url_map` to reject a subset of paths matched by `src_paths` or other `src_*` options with `403 Forbidden` (`401 Unauthorized` for anonymous requests) instead of enumerating every allowed path. See [#11452](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11452). Thanks to @andriibeee for contribution.\n* FEATURE: [alerts-health](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-health.yml): split `TooManyLogs` alert into `TooManyErrorLogs` and `TooManyLogs`. `TooManyLogs` now covers only `warn`-level logs and aggregates them per job and instance. `TooManyErrorLogs` fires on `error`, `fatal`, and `panic` logs with per-location granularity, making it easier to identify the exact source of critical log messages. See [#11417](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11417).\n* FEATURE: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): show the range between the minimum and maximum values for each graph line in the legend. See [#11425](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11425). Thanks to @umer901 for contribution.\n\n* BUGFIX: all VictoriaMetrics components: hide values passed to `-pushmetrics.header` in startup logs, `/metrics`, and `/flags`, since they can contain sensitive HTTP headers such as `Authorization` and API keys. See [#11545](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11545).\n* BUGFIX: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/), [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/) and `vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): fix insert requests getting stuck after another insert request times out, causing clients to time out while waiting for a response. See [VictoriaLogs#1743](https://github.com/VictoriaMetrics/VictoriaLogs/issues/1743).\n* BUGFIX: `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): apply the `le` filter at `/api/v1/status/metric_names_stats` after merging request counters from all `vmstorage` nodes. Previously, the endpoint could report actively queried metrics as unused when the local request counter was zero on one of the nodes. See [#11473](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11473). Thanks to @missusk for contribution.\n* BUGFIX: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/): now [MDX](https://docs.victoriametrics.com/victoriametrics/vmagent/#monitoring-data-exchange) discards [cardinality_estimate](https://docs.victoriametrics.com/victoriametrics/vmestimator/#cardinality-metrics) and `cardinality_churn_ratio` metrics exposed by [vmestimator](https://github.com/VictoriaMetrics/vmestimator) service. [#11501](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11501).\n* BUGFIX: `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): allow access to `/prometheus/api/v1/admin/tsdb/delete_series` and `graphite/tags/delSeries` using only the corresponding `-deleteAuthKey`, even when `-httpAuth.*` is also configured, without additionally requiring `-httpAuth.*` credentials. See [#11512](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11512)."
             }
           ],
           "last_commit": {
@@ -5871,7 +5871,7 @@
             "stars": 8244,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-09T02:30:39Z",
+            "pushed_at": "2026-11-09T10:03:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
