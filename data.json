@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:50:35.043370Z",
+  "generated_at": "2026-11-10T19:55:57.096758Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.15-alpha.4",
+              "tag": "clod-v0.1.15-alpha.4",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.4",
+              "published_at": "2026-11-10T19:53:14Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- Если после запуска или смены сети при включённом TUN система пускает трафик мимо туннеля, подключение восстанавливается само — без ручного выключения и включения TUN\n\n### Добавлено\n\n- Если восстановить подключение через туннель не удалось, программа сообщает об этом уведомлением и на главном экране"
+            },
+            {
               "name": "Clod Clash clod-v0.1.15-alpha.3",
               "tag": "clod-v0.1.15-alpha.3",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.3",
@@ -694,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1533,
+            "stars": 1534,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-03T00:28:13Z",
@@ -1181,7 +1190,7 @@
             "stars": 4669,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-10T19:47:56Z",
+            "pushed_at": "2026-11-10T19:55:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "db68036",
+                  "message": "golang: bump 1.27 to 1.27.4",
+                  "author": "George Sapkin",
+                  "date": "2026-11-10T19:55:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/db68036ba5ad65a76a82c598a840089c4b57cad2"
+                },
+                {
                   "sha": "bc1d358",
                   "message": "shunt: update to 0.4.5",
                   "author": "Dirk Brenken",
@@ -2037,13 +2053,6 @@
                   "author": "Aaron Curley",
                   "date": "2026-11-06T21:13:20Z",
                   "url": "https://github.com/openwrt/packages/commit/3633a93ccd771992dae3e95b27273c75fdded999"
-                },
-                {
-                  "sha": "e00a9bc",
-                  "message": "udp-broadcast-relay-redux: switch package to new fork location",
-                  "author": "Aaron Curley",
-                  "date": "2026-11-06T21:13:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/e00a9bc38479ab72eba7fe1d84412b787b1c9bdf"
                 }
               ]
             },
@@ -5027,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93461,
+            "stars": 93460,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-10T04:49:53Z",
@@ -5166,7 +5175,7 @@
             "stars": 77815,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T19:44:00Z",
+            "pushed_at": "2026-11-10T19:51:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "16cd0fe",
-            "branch": "eshields/scopes/remove-use-scopes-navigation-endpoint-backend",
-            "date": "2026-11-10T05:37:39Z",
-            "url": "https://github.com/grafana/grafana/commit/16cd0fe0085b5a12ee22652d98c170afd7a82a95"
+            "sha": "99f3186",
+            "branch": "main",
+            "date": "2026-11-10T00:27:50Z",
+            "url": "https://github.com/grafana/grafana/commit/99f3186c72c41b7123cf624de715ac2fb23df0f1"
           }
         },
         {
@@ -5491,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "facfb2e",
-            "branch": "main",
-            "date": "2026-11-09T14:12:52Z",
-            "url": "https://github.com/grafana/loki/commit/facfb2e76468d4dfff4fe4a5d6d31017e3333d66"
+            "sha": "ca0fe6c",
+            "branch": "deps-update/main-actions-labeler-7.x",
+            "date": "2026-11-09T21:06:54Z",
+            "url": "https://github.com/grafana/loki/commit/ca0fe6c2d64acf4b24cdc75e5372fa86fcd7bc72"
           }
         }
       ]
