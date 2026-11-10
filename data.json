@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T22:15:52.074393Z",
+  "generated_at": "2026-11-10T22:21:11.624409Z",
   "groups": [
     {
       "id": "cores",
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "b192b11",
+                  "message": "radicale3: bump to v3.9.0 (security)",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-11-10T22:21:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/b192b111cde13c5dc6e8f2855625eef00b6e6e1c"
+                },
+                {
                   "sha": "46d4255",
                   "message": "golang: bump 1.27 to 1.27.4",
                   "author": "George Sapkin",
@@ -3551,13 +3558,6 @@
                   "author": "Olivier Poitrey",
                   "date": "2026-11-01T06:58:47Z",
                   "url": "https://github.com/openwrt/packages/commit/b7d93a0bb56d9f509990f6607f6bccd8ecc18f37"
-                },
-                {
-                  "sha": "6d7a918",
-                  "message": "haveged: update to 1.9.27",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-31T09:50:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/6d7a9186ae29d7b28c38bcbea83ab839dc71b666"
                 }
               ]
             },
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Rule-based traffic routing for OpenWrt",
-            "stars": 871,
+            "stars": 872,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-11-02T01:16:35Z",
@@ -5092,10 +5092,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8e54ceb",
-            "branch": "fix/status-page-uptime-badge-color",
-            "date": "2026-11-09T18:49:26Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/8e54ceb8e7739beab0b3c1111ef434cb7086932b"
+            "sha": "fb8ef0f",
+            "branch": "master",
+            "date": "2026-11-10T04:49:55Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/fb8ef0fa8200bb989f3a115dda3b0e09a3c31167"
           }
         },
         {
@@ -5175,7 +5175,7 @@
             "stars": 77819,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T22:08:14Z",
+            "pushed_at": "2026-11-10T22:20:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
