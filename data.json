@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T19:45:13.171278Z",
+  "generated_at": "2026-11-10T19:50:35.043370Z",
   "groups": [
     {
       "id": "cores",
@@ -1181,7 +1181,7 @@
             "stars": 4669,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-10T18:55:41Z",
+            "pushed_at": "2026-11-10T19:47:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3341,6 +3341,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "03d4715",
+                  "message": "golang: bump 1.26 to 1.26.11",
+                  "author": "George Sapkin",
+                  "date": "2026-11-10T19:47:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/03d47153abb2696acc3ca07ab6191e6819daf8bb"
+                },
+                {
                   "sha": "ef3b0bd",
                   "message": "weechat: update to 4.10.4",
                   "author": "Josef Schlehofer",
@@ -3542,13 +3549,6 @@
                   "author": "Saxon Sun",
                   "date": "2026-10-30T07:34:36Z",
                   "url": "https://github.com/openwrt/packages/commit/4f3530534ce198fdc90e7667502706e9ee179692"
-                },
-                {
-                  "sha": "6eb3b79",
-                  "message": "xray-core: bump to v26.10.21",
-                  "author": "Mikhail Stolyarov",
-                  "date": "2026-10-30T07:34:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/6eb3b79ed9a4693b2be8a0f985b192f3d30243f3"
                 }
               ]
             },
@@ -5859,7 +5859,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8275,
+            "stars": 8276,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-10T17:20:14Z",
