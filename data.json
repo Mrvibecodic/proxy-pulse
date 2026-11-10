@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T20:44:08.624584Z",
+  "generated_at": "2026-11-10T20:49:28.936495Z",
   "groups": [
     {
       "id": "cores",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16385,
+            "stars": 16384,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-04T10:58:19Z",
@@ -5175,12 +5175,21 @@
             "stars": 77817,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T20:42:37Z",
+            "pushed_at": "2026-11-10T20:47:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "12.4.15",
+              "tag": "v12.4.15",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.15",
+              "published_at": "2026-11-10T20:47:14Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.15)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-106472\n- Security: Fix CVE-2026-106475\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-111000\n- Security: Fix CVE-2026-81843\n- Security: Fix CVE-2026-82014\n\n### Features and enhancements\n\n- **DateTime:** Bump moment-timezone to 0.6.6 for 2026 time zone changes [#136947](https://github.com/grafana/grafana/pull/136947), [@joshhunt](https://github.com/joshhunt)"
+            },
             {
               "name": "13.3.0",
               "tag": "v13.3.0",
@@ -5216,15 +5225,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.0.12)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967\n\n### Features and enhancements\n\n- **Provisioning:** Default save from a branch preview to the previewed branch [#135173](https://github.com/grafana/grafana/pull/135173), [@Clarity-89](https://github.com/Clarity-89)"
-            },
-            {
-              "name": "12.4.14",
-              "tag": "v12.4.14",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.14",
-              "published_at": "2026-10-27T11:20:05Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.4.14)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967"
             }
           ],
           "last_commit": {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67613,
+            "stars": 67614,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-10T13:42:17Z",
@@ -5447,7 +5447,7 @@
             "stars": 29147,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T20:39:27Z",
+            "pushed_at": "2026-11-10T20:47:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
