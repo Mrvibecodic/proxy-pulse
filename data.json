@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:16:39.839921Z",
+  "generated_at": "2026-11-10T14:22:01.223522Z",
   "groups": [
     {
       "id": "cores",
@@ -1178,10 +1178,10 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4668,
+            "stars": 4669,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-10T09:32:40Z",
+            "pushed_at": "2026-11-10T14:18:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "65275be",
+                  "message": "stress-ng: bump to 0.22.01",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-10T14:18:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/65275be32376a3900df4f3579fdde44e94542fb2"
+                },
+                {
+                  "sha": "6f1644f",
+                  "message": "libmaxminddb: bump to 1.14.1",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-10T14:18:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/6f1644ff1c15e5fc7a9eb9855886a140e56dca25"
+                },
+                {
                   "sha": "12ec335",
                   "message": "ddns-scripts: update to 2.8.5",
                   "author": "Andy Chiang",
@@ -2030,20 +2044,6 @@
                   "author": "George Sapkin",
                   "date": "2026-11-06T14:29:35Z",
                   "url": "https://github.com/openwrt/packages/commit/3932a79b909871142349e64c88f1f713d0497a5a"
-                },
-                {
-                  "sha": "cded123",
-                  "message": "libpqxx: drop package",
-                  "author": "George Sapkin",
-                  "date": "2026-11-06T14:29:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/cded123f484c8646dcf78434abc9a71c070498fc"
-                },
-                {
-                  "sha": "e90e05b",
-                  "message": "libopen62541: drop package",
-                  "author": "George Sapkin",
-                  "date": "2026-11-06T14:29:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/e90e05b580937c0e66e465a06ea04c9e6fca9e37"
                 }
               ]
             },
@@ -5095,7 +5095,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27127,
+            "stars": 27129,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-09T19:27:14Z",
@@ -5166,7 +5166,7 @@
             "stars": 77812,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T14:15:00Z",
+            "pushed_at": "2026-11-10T14:22:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "64d0301",
-            "branch": "grafakus/add-edit-actions-popover-for-rows-and-tabs",
-            "date": "2026-11-09T11:07:41Z",
-            "url": "https://github.com/grafana/grafana/commit/64d03013d0e1b2eb1c34ce8961b223c0d8c22b06"
+            "sha": "a685464",
+            "branch": "main",
+            "date": "2026-11-09T20:49:34Z",
+            "url": "https://github.com/grafana/grafana/commit/a685464f31d87116cd053a9b81bc1bd97d076d0e"
           }
         },
         {
@@ -5859,7 +5859,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8267,
+            "stars": 8268,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-10T04:24:36Z",
@@ -5915,10 +5915,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2e00ddc",
-            "branch": "main",
-            "date": "2026-11-10T02:21:32Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/2e00ddcd2377dd24ba3d6e111fd02665ad1a8b92"
+            "sha": "b7d9cab",
+            "branch": "feat/discussion-4631-4052-features",
+            "date": "2026-11-10T03:00:43Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/b7d9cabd649d63b4bc44814886f659f828852dba"
           }
         },
         {
