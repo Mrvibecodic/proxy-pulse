@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T13:49:52.023350Z",
+  "generated_at": "2026-11-10T13:55:13.359580Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 18,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-11-08T23:13:37Z",
+            "pushed_at": "2026-11-10T13:54:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- Обновлена политика конфиденциальности"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.14-alpha.4",
-              "tag": "clod-v0.1.14-alpha.4",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.14-alpha.4",
-              "published_at": "2026-11-01T00:24:07Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Изменено\n\n- Резервная копия не переносит на другой компьютер данные подписок этой машины и выбранный адрес прокси\n- Окно меньше нагружает компьютер: состояние TUN, службы и автонастройки прокси проверяется один раз на всё окно\n- На Linux трей больше не запускает лишние процессы каждые 15 секунд\n\n### Исправлено\n\n- Выключенная на Windows автонастройка прокси (PAC) больше не показывается включённой и не включается сама на следующем запуске\n- У тех, кто включал запуск от администратора, приложение после обновления не стартует при входе дважды, а тумблер автозапуска честно говорит, что его выключит только запуск от администратора\n- Отказ в правах или сбой установки службы TUN виден сразу, даже если окно спрятано\n- TUN, не поднявшийся до сна, снова пробует подняться сразу после пробуждения\n- Значок и подсказка трея следуют за TUN, когда он упал или вернулся сам; включённый способ подключения, запертый провайдером, можно выключить из трея\n- Смена TFO или MPTCP входящих соединений применяется сразу\n- Выключенный в DNS IPv6 не включается обратно вместе с TUN, а подсказка на странице DNS говорит, когда он действует\n- Текстовый режим страницы DNS не теряет посторонние ключи молча, а называет их\n- Адрес в окне «Системный прокси» обновляется сразу после смены раздачи в локальную сеть, а индикатор автонастройки не гаснет от сбоя чтения\n- Логотип подписки скачивается сразу, как только провайдер сменил его адрес\n- Поиск на «Правилах» по регулярному выражению снова находит правило по адресу целиком\n- «Сбросить» в окне «Туннели» очищает и набранный, но не добавленный туннель\n- В отчёте для поддержки подписка названа так же, как в окне\n- Поправлены тексты: одно название состояния устройства на всех экранах, ошибка цепочки прокси на языке окна, подсказка на плашке типа сервера"
             }
           ],
           "last_commit": {
@@ -570,7 +561,7 @@
             "stars": 13,
             "url": "https://github.com/Mrvibecodic/clod-clash-android",
             "default_branch": "main",
-            "pushed_at": "2026-11-07T14:01:00Z",
+            "pushed_at": "2026-11-10T13:52:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -839,7 +830,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1561,
+            "stars": 1562,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-05T01:29:49Z",
@@ -907,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7813,
+            "stars": 7815,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-10T11:49:24Z",
@@ -5092,10 +5083,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b376409",
-            "branch": "master",
-            "date": "2026-11-09T18:59:32Z",
-            "url": "https://github.com/louislam/uptime-kuma/commit/b376409720f6df948707a3366398248d370bbf51"
+            "sha": "fe03dfe",
+            "branch": "npm-update-2.5.X",
+            "date": "2026-11-09T00:05:20Z",
+            "url": "https://github.com/louislam/uptime-kuma/commit/fe03dfe47eeb297b3b623aa2dde28f001118549b"
           }
         },
         {
@@ -5175,7 +5166,7 @@
             "stars": 77812,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T13:48:38Z",
+            "pushed_at": "2026-11-10T13:55:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5219,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dedc27d",
-            "branch": "grafakus/add-edit-actions-popover-for-rows-and-tabs",
-            "date": "2026-11-09T10:32:07Z",
-            "url": "https://github.com/grafana/grafana/commit/dedc27da86ff843dcf02cddb655cdc6cd4c92d06"
+            "sha": "8ca169d",
+            "branch": "main",
+            "date": "2026-11-09T22:06:18Z",
+            "url": "https://github.com/grafana/grafana/commit/8ca169d09cefccc97b5bffa42341d300efb8c8cc"
           }
         },
         {
@@ -5500,10 +5491,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1ac5cab",
-            "branch": "release-please--branches--release-4.0.0",
-            "date": "2026-11-09T20:12:37Z",
-            "url": "https://github.com/grafana/loki/commit/1ac5cabeb8917141da6b2224eaf4aea0aca1a36a"
+            "sha": "416f3cb",
+            "branch": "deps-update/main-golang-1.x",
+            "date": "2026-11-09T00:05:09Z",
+            "url": "https://github.com/grafana/loki/commit/416f3cbe7fb76bd3c3646165017277441e54a8e8"
           }
         }
       ]
