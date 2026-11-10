@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T21:21:35.553689Z",
+  "generated_at": "2026-11-10T21:26:55.228939Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39844,
+            "stars": 39845,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3568a7c",
+            "sha": "6bcf02f",
             "branch": "testing",
-            "date": "2026-11-10T06:36:19Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/3568a7c25e9d3f3a14120f1d821f6907d5bce9b1"
+            "date": "2026-11-09T15:12:31Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/6bcf02f524d3c043127686fbcbc9cb50bece1787"
           }
         },
         {
@@ -5172,15 +5172,33 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77817,
+            "stars": 77818,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T21:21:29Z",
+            "pushed_at": "2026-11-10T21:26:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.1.10",
+              "tag": "v13.1.10",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.10",
+              "published_at": "2026-11-10T21:26:38Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n### Features and enhancements\n\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137090](https://github.com/grafana/grafana/pull/137090), [@MissingRoberto](https://github.com/MissingRoberto)"
+            },
+            {
+              "name": "13.0.13",
+              "tag": "v13.0.13",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.13",
+              "published_at": "2026-11-10T21:22:14Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.0.13)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n- Security: Fix CVE-2026-82014\n\n### Features and enhancements\n\n- **DateTime:** Bump moment-timezone to 0.6.6 for 2026 time zone changes [#136948](https://github.com/grafana/grafana/pull/136948), [@joshhunt](https://github.com/joshhunt)\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137092](https://github.com/grafana/grafana/pull/137092), [@MissingRoberto](https://github.com/MissingRoberto)"
+            },
             {
               "name": "12.4.15",
               "tag": "v12.4.15",
@@ -5207,24 +5225,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.5)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-103506\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967\n\n### Features and enhancements\n\n- **Git Sync:** Ignore hidden paths in repository scans and diffs [#135028](https://github.com/grafana/grafana/pull/135028), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** Default save from a branch preview to the previewed branch [#135174](https://github.com/grafana/grafana/pull/135174), [@Clarity-89](https://github.com/Clarity-89)\n- **Provisioning:** Never replace the repository root folder during incremental sync [#135463](https://github.com/grafana/grafana/pull/135463), [@ferruvich](https://github.com/ferruvich)\n\n### Bug fixes\n\n- **Plugins:** Don't report loaded plugins as not registered when a request times out [#135665](https://github.com/grafana/grafana/pull/135665), [@leventebalogh](https://github.com/leventebalogh)\n- **Provisioning:** Fix PR dashboard previews when served from a sub-path [#135559](https://github.com/grafana/grafana/pull/135559), [@gustaff-weldon](https://github.com/gustaff-weldon)"
-            },
-            {
-              "name": "13.1.9",
-              "tag": "v13.1.9",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.9",
-              "published_at": "2026-10-27T11:22:36Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.9)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967\n\n### Features and enhancements\n\n- **Provisioning:** Default save from a branch preview to the previewed branch [#135175](https://github.com/grafana/grafana/pull/135175), [@Clarity-89](https://github.com/Clarity-89)"
-            },
-            {
-              "name": "13.0.12",
-              "tag": "v13.0.12",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.12",
-              "published_at": "2026-10-27T11:24:50Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.12)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-100105\n- Security: Fix CVE-2026-88858\n- Security: Fix CVE-2026-88967\n\n### Features and enhancements\n\n- **Provisioning:** Default save from a branch preview to the previewed branch [#135173](https://github.com/grafana/grafana/pull/135173), [@Clarity-89](https://github.com/Clarity-89)"
             }
           ],
           "last_commit": {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a6a5a3e",
-            "branch": "l10n_crowdin",
-            "date": "2026-11-10T03:45:06Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/a6a5a3eaf9aa1f483af682f1b6cbb522263238a3"
+            "sha": "4e04272",
+            "branch": "fix/issue-4398",
+            "date": "2026-11-10T04:06:45Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/4e042722e0a5bb1982f9476f82c96208f179861f"
           }
         },
         {
