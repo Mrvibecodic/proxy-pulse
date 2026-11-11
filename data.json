@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T12:00:24.561875Z",
+  "generated_at": "2026-11-11T13:01:50.505157Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42820,
+            "stars": 42821,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-11T08:45:54Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39862,
+            "stars": 39864,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9766191",
-            "branch": "stable",
-            "date": "2026-11-10T09:23:30Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/9766191e9d0ff6370bc0ab5efdd8a414a24988bf"
+            "sha": "cc19517",
+            "branch": "testing",
+            "date": "2026-11-10T09:23:32Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/cc1951731f8f3d17c774261869799f855f86b336"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35683,
+            "stars": 35687,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-11T07:00:42Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1570,
+            "stars": 1571,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-05T01:29:49Z",
@@ -910,7 +910,7 @@
             "stars": 7830,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-10T23:04:09Z",
+            "pushed_at": "2026-11-11T12:47:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -1046,7 +1046,7 @@
             "stars": 253,
             "url": "https://github.com/Nemu-x/ClashFest",
             "default_branch": "feat/init-clashfest",
-            "pushed_at": "2026-11-11T11:43:59Z",
+            "pushed_at": "2026-11-11T12:47:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/112378891?v=4",
             "owner": "Nemu-x"
@@ -1119,10 +1119,10 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29176,
+            "stars": 29177,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T10:34:21Z",
+            "pushed_at": "2026-11-11T12:45:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7445c69",
+            "sha": "3b197b2",
             "branch": "main",
-            "date": "2026-11-11T10:34:15Z",
-            "url": "https://github.com/openwrt/openwrt/commit/7445c691763843ab6995cee040b49d2a723e610d"
+            "date": "2026-11-11T11:47:06Z",
+            "url": "https://github.com/openwrt/openwrt/commit/3b197b2007b13b4fae1f5dd6ca04f2390dfd78fd"
           }
         },
         {
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5477,
+            "stars": 5478,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-11-07T00:20:11Z",
@@ -4677,12 +4677,21 @@
             "stars": 481,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
-            "pushed_at": "2026-11-03T19:50:59Z",
+            "pushed_at": "2026-11-11T12:40:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/264475107?v=4",
             "owner": "timbrs"
           },
           "releases": [
+            {
+              "name": "v1.4.6 — отдача быстрее на 4-ядерных роутерах",
+              "tag": "v1.4.6",
+              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.4.6",
+              "published_at": "2026-11-11T12:40:31Z",
+              "prerelease": false,
+              "author": "timbrs",
+              "body": "## Отдача быстрее на hAP ax², ax³, RB5009 и других 4-ядерных роутерах\n\nПовышена скорость отдачи (upload) на 64-битных роутерах с четырьмя ядрами и больше:\n\n- **вдвое — у туннелей, где поток прокси сидел на ядре WireGuard** (примерно каждый четвёртый туннель): отдача 110 → 217 Мбит/с, пинг под нагрузкой 143 → 55 мс;\n- **ещё +13…19 % по UDP и до +9 % по TCP — у всех** за счёт отдельного потока отправки (hAP ax², три прогона с потоком и без него поочерёдно).\n\nСкачивание не изменилось. Процессора при том же трафике уходит на 9 % меньше.\n\n## За счёт чего\n\n- **Прокси больше не садится на ядро WireGuard.** WireGuard отправляет туннель с одного ядра, своего у каждого туннеля. Поток прокси с высоким приоритетом на этом ядре вытеснял его, очередь WireGuard стояла полной, и отдача падала вдвое при полупустом процессоре. Теперь прокси узнаёт это ядро сам и уводит с него свои потоки.\n- **Отдачу отправляет отдельный поток на своём ядре.** RouterOS пересылает всё, что контейнер отправил, на том же ядре, откуда шла отправка. Одно ядро успевает около 20 тыс. пакетов в секунду, остальное роутер молча выбрасывал. Теперь приём и отправка идут на разных ядрах, порядок пакетов не меняется.\n- **Пачки пакетов собираются чуть дольше** (300 мкс), поэтому системных вызовов меньше. Одиночный пакет не ждёт, пинг не страдает.\n\n## Что изменилось\n\n- **Ядра выбираются сами.** На 64-битном роутере с 4+ ядрами в привилегированном контейнере прокси раскладывает потоки по трём верхним ядрам и уводит их с ядра WireGuard. Ручные `AWG_CPU_C2S`, `AWG_CPU_S2C`, `AWG_RT`, `AWG_RPS` больше не нужны. `AWG_AUTO_CPU=off` возвращает поведение 1.4.5, `AWG_TX_C2S=off` выключает только поток отправки.\n- **Потери после прокси видны.** С `AWG_STATS` в логе появилась строка `softnet:` — пакеты, которые роутер выбросил уже после контейнера. Раньше их не видели ни статистика прокси, ни RouterOS.\n- **AWG 3.1 с `RandomTrailers` и широкими `H1`–`H3`:** рукопожатие больше не срывается (#85).\n- **IPv6-сервер:** туннель встаёт сразу после перезапуска контейнера, а не через минуту.\n- **32-битные и двухъядерные роутеры** (hAP ac², ac³, hEX): по ядрам ничего не меняется.\n\n## Как применить\n\nНужен RouterOS 7.24+ и контейнер в режиме `privileged=yes` ([как включить](https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.4.0)).\n\n1. **Обновите контейнер.** Установки из реестра (RouterOS 7.22+) получат 1.4.6 сами ночным обновлением. Установки из файла — замените образ, см. [обновление](https://github.com/timbrs/amneziawg-mikrotik-c/blob/main/docs/update.md).\n2. **Уберите старые настройки ядер**, если ставили конфигуратором с вариантом «4 ядра и больше». С ними поток отправки не включится:\n\n   ```routeros\n   /container/envs/remove [find where key~\"^AWG_(CPU_C2S|CPU_S2C|RT|RPS)\\$\"]\n   ```\n\n   и перезапустите контейнер.\n3. **Проверьте лог.** Должны быть строки:\n\n   ```\n   INFO: c2s: sender thread on, 4 slots\n   INFO: perf: WireGuard sends this tunnel from cpu3, c2s moved from cpu3 to cpu0\n   ```\n\nПодробно о раскладке ядер и новых настройках — в [описании переменных](https://github.com/timbrs/amneziawg-mikrotik-c/blob/main/docs/env.md#необязательные----сеть-и-диагностика), полный список изменений — в [CHANGELOG](https://github.com/timbrs/amneziawg-mikrotik-c/blob/main/CHANGELOG.md).\n"
+            },
             {
               "name": "v1.4.5 — смена порта на дальних серверах, WARP держится за свой порт",
               "tag": "v1.4.5",
@@ -4718,15 +4727,6 @@
               "prerelease": false,
               "author": "timbrs",
               "body": "**Added WARP support. Thanks to [@wiktorbgu](https://github.com/wiktorbgu)**\r\n\r\n### [Конфигуратор](https://timbrs.github.io/amneziawg-mikrotik-c/conf3.0.html)\r\n\r\n- Добавлен режим установки «Нет AmneziaVPN — Cloudflare WARP». В нём\r\n  инструкция и ссылка на генератор бесплатных WARP-конфигов (и на утилиту\r\n  wgcf). Готовый конфиг вставляется в обычное поле, ставится контейнер на\r\n  роутер.\r\n- WARP-конфиг, вставленный в режиме «Контейнер», сам включает режим WARP — он\r\n  распознаётся по ключу сервера Cloudflare или по адресу\r\n  `engage.cloudflareclient.com`.\r\n- В режиме WARP лишние настройки скрыты: значения по умолчанию ему подходят.\r\n  Кнопка «Показать все настройки» возвращает их.\r\n- DNS-сервер для контейнера спрашивается, только если без него не обойтись.\r\n- Добавлена галочка «Случайный порт WARP», включена сразу. Прокси получает все\r\n  порты WireGuard у Cloudflare — 2408, 500, 1701, 4500 — и при каждом\r\n  подключении берёт случайный. Заблокирован порт — через 15 секунд прокси\r\n  переходит на другой, туннель не падает.\r\n- Добавлена кнопка «Сделать пакет перед рукопожатием похожим на QUIC Chrome» —\r\n  чтобы трафик меньше выделялся. Она прописывает в конфиг `I1` с заголовком\r\n  QUIC-пакета, каким его отправляет Chrome к Cloudflare (заголовок снят с\r\n  настоящего Chromium), и `Jc = 0`. Перед рукопожатием уходит один такой пакет\r\n  вместо пачки мелкого мусора. Cloudflare его игнорирует.\r\n- Для WARP-конфига больше не выводится предупреждение «это обычный WireGuard».\r\n\r\n### Контейнер\r\n\r\n- Было: случайные байты в пакетах `I1`–`I5` повторялись при каждом запуске и\r\n  совпадали на всех установках с одинаковым шаблоном — готовая метка для DPI.\r\n  Стало: они каждый раз новые.\r\n- Было: случайные байты в `I1`–`I5` и в junk-пакетах вычислялись по соседним\r\n  байтам того же пакета, а размеры junk — по первому junk-пакету. Так DPI мог\r\n  опознать прокси одной проверкой. Стало: байты берутся из криптостойкого\r\n  генератора (ChaCha20), предсказать их нельзя. Скорость не меняется: это\r\n  только пакеты перед рукопожатием.\r\n- Было: при `Jc = 0` пакеты `I1`–`I5` не отправлялись. Стало: отправляются.\r\n  Junk-пакеты, как и раньше, — только при `Jc \u003e 0`.\r\n- Обновиться стоит всем: junk-пакеты есть почти в каждом конфиге.\r\n\r\n### Ограничения\r\n\r\n- QUIC-пакет похож на настоящий только снаружи. Внутри случайные байты, а не\r\n  TLS ClientHello: система, которая расшифровывает QUIC, это заметит.\r\n- Обычный QUIC идёт на порт 443, а WireGuard у Cloudflare — на 2408, 500,\r\n  1701 и 4500. По порту пакет на QUIC не похож.\r\n\r\n"
-            },
-            {
-              "name": "v1.4.1 — контейнер сам подстраивается под роутер",
-              "tag": "v1.4.1",
-              "url": "https://github.com/timbrs/amneziawg-mikrotik-c/releases/tag/v1.4.1",
-              "published_at": "2026-10-03T19:16:40Z",
-              "prerelease": false,
-              "author": "timbrs",
-              "body": "Контейнер сам подстраивается под роутер, на котором запущен (#68). В 1.4.0\nпривилегированный режим поднял приёмный буфер до 32 МБ, а набор «четыре ядра»\n(`AWG_CPU_*`, `AWG_RT`, `AWG_RPS`) применялся везде, где его задали. На hAP ax²\nэто был чистый выигрыш, а на слабых и 32-битных роутерах — местами провал в разы.\n\n### Кого касается\n\n**Только простеньких arm-роутеров** — 32-битных (в RouterOS архитектура `arm`,\nне `arm64`: hAP ac², hAP ac³, hAP ax lite, hEX S 2025 и подобные) и любых с\nодним-двумя ядрами. Контейнер сам определяет такой роутер при запуске, и\nменяется поведение только на нём. Проверить свой роутер:\n`/system/resource/print` — поля `architecture-name` и `cpu-count`.\n\n**На hAP ax², hAP ax³ и других 64-битных роутерах с четырьмя ядрами и больше\n1.4.1 работает ровно как 1.4.0**: тот же буфер 32 МБ, настройки\nпроизводительности применяются как раньше. Обновляться им не обязательно —\nскорость не изменится; приедет обновление само — тоже ничего не сломается.\n\nОтдельно, для всех: в конфигураторе у каждого клиента хаба появилась кнопка\n«Скачать .conf» (#69). Это изменение страницы, а не контейнера.\n\n### Изменения\n\n- **На слабом роутере приёмный буфер подстраивается под трафик.** Было: в\n  привилегированном контейнере буфер всегда 32 МБ. Там, где узкое место сам\n  прокси (меньше четырёх ядер или 32-битный arm под полной нагрузкой), он не\n  терял пакеты, а копил их — до сотен миллисекунд очереди, и одно из\n  направлений проседало на четверть. Стало: каждые 5 секунд буфер каждого\n  сокета выставляется примерно в 50 мс трафика на пиковой скорости — от\n  прежних 416 КБ до 32 МБ. Пик растёт сразу, а спадает за десятки секунд,\n  чтобы короткое затишье не отняло запас перед следующим всплеском.\n  *(только с `privileged=yes`; без привилегий ядро и так не даёт поднять буфер)*\n- **На hAP ax², ax³ и других 64-битных роутерах с 4+ ядрами — 32 МБ, как в\n  1.4.0.** Там прокси не узкое место, буфер только гасит всплески, и больше —\n  лучше: буфер по трафику вернул на ax² тысячи потерь за замер и отнял до 5 %\n  отдачи, поэтому там он не включается.\n- **Набор «четыре ядра» — только для 64-битного роутера с четырьмя ядрами и\n  больше, и контейнер следит за этим сам.** Было: переменные, перенесённые с\n  hAP ax² на роутер слабее, применялись как есть. На двух ядрах real-time\n  потоки отнимали процессор у шифрования WireGuard, пин на несуществующее ядро\n  молча не срабатывал, маска RPS схлопывалась в одно ядро. А на\n  четырёхъядерном, но 32-битном hAP ac² поток, пришпиленный к ядру и поднятый в\n  real-time, не пускал на это ядро воркер WireGuard — и отдача падала втрое.\n  Стало: при меньше чем четырёх ядрах (с учётом `cpu-list` контейнера) или\n  32-битном процессоре весь набор пропускается с одной строкой в логе\n  (`perf: … skipped`).\n- **Пин на ядро, которого нет или которое не выдано контейнеру, пропускается**,\n  а из маски `AWG_RPS` выбрасываются ядра пришпиленных потоков — их пересечение\n  съедало весь выигрыш, это было записано в README, но не проверялось.\n- **Конфигуратор в автоматическом режиме ставит набор только на 64-битные\n  роутеры с четырьмя ядрами и больше.** Было: условие смотрело только на число\n  ядер, и hAP ac² получал его при установке. Проверка роутера перед установкой\n  теперь говорит то же самое.\n- **`AWG_SOCKET_BUF` задан — буфер фиксированный, как в 1.4.0.** Подстройка\n  включается, только когда переменная не задана.\n- **Новая строка в статистике** (`AWG_STATS`): `rcvbuf KB: listen=… remote=…` —\n  только когда размер сдвинулся, так что спокойный туннель не пишет ничего.\n- **Новый тест `make test-perf`** — 21 проверка: класс железа, подгонка набора\n  под ядра, разрядность и `cpu-list`, обрезка маски RPS, размер буфера по скорости, рост\n  и спад, отсутствие лишних системных вызовов при колыхании скорости.\n- **Конфигуратор: «Скачать .conf» у каждого клиента хаба** (#69). Было: кнопка\n  была только в режиме «Прямой клиент AmneziaWG», и хаб, чей первый клиент —\n  MikroTik, вообще не мог выдать файл для телефона или ноутбука. Стало: у\n  любого клиента, первого или добавленного по ссылке, есть «Скачать .conf для\n  телефона / ПК» — тот же клиент, тот же адрес и ключ, с предупреждением, что\n  подключать надо что-то одно.\n\n### Сколько это стоит\n\nhAP ac² (4 × Cortex-A7, 32-битный arm, 128 МБ), туннель до moscow-hop-3,\niperf3 -P4 из контейнера на роутере, ping с сервера во время замера:\n\n| | приём, Мбит/с | ping | отдача, Мбит/с | ping |\n|---|---|---|---|---|\n| 1.4.0, privileged + набор «четыре ядра» | 134 | 19 мс | **34** | **454 мс** |\n| 1.4.1, та же конфигурация | 117–121 | 16 мс | 87–103 | 30–34 мс |\n| 1.4.0, privileged | 120–125 | 43–54 мс | 90–101 | 58–76 мс |\n| 1.4.1, privileged | 118 | 16 мс | 101–103 | 33–37 мс |\n\nДвухъядерный роутер под полной нагрузкой — тот же hAP ac², где прокси отданы\nядра 0–1, а ядра 2–3 заняты посторонней нагрузкой (медианы двух кругов):\n\n| | приём | pin"
             }
           ],
           "last_commit": {
@@ -4860,7 +4860,7 @@
           "track": "releases",
           "meta": {
             "description": "Official SSClash distribution: pre-built binaries, install scripts (OpenWrt, Linux, Keenetic), and user docs. Transparent proxy with Mihomo and embedded web UI.",
-            "stars": 157,
+            "stars": 158,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
             "pushed_at": "2026-11-09T07:48:14Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93500,
+            "stars": 93501,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-11T10:51:12Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27188,
+            "stars": 27191,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-10T19:29:34Z",
@@ -5175,7 +5175,7 @@
             "stars": 77830,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T12:00:03Z",
+            "pushed_at": "2026-11-11T12:54:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "623955b",
-            "branch": "table-adoption-1038",
-            "date": "2026-11-09T15:14:09Z",
-            "url": "https://github.com/grafana/grafana/commit/623955bdce8fbbcb9209aee7779b71a481556fbe"
+            "sha": "0227208",
+            "branch": "main",
+            "date": "2026-11-10T14:02:13Z",
+            "url": "https://github.com/grafana/grafana/commit/02272089a6f3f72760d81278e69026072793f4e5"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67635,
+            "stars": 67630,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-11T09:05:42Z",
@@ -5308,10 +5308,10 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81366,
+            "stars": 81367,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-11T11:10:17Z",
+            "pushed_at": "2026-11-11T12:24:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18090,
+            "stars": 18091,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-11T04:12:53Z",
@@ -5419,7 +5419,7 @@
               "published_at": "2026-10-12T11:48:06Z",
               "prerelease": false,
               "author": "rtm0",
-              "body": "## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\r\n\r\nReleased at 2026-10-12\r\n\r\n**Update Note 1:** [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): setups with two chained `vmauth` instances, where the first one authenticates requests via `users` and the second one proxies them via `unauthorized_user` (for example, `VMDistributed` or `VMCluster` managed by [VictoriaMetrics operator](https://docs.victoriametrics.com/operator/)), get an extra 2-3 seconds delay for every request. This is because the second `vmauth` receives the `Authorization` header forwarded by the first one and treats it as an invalid auth token. Upgrade to the [v1.154.1](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/docs/victoriametrics/changelog/CHANGELOG.md#v11541) release, where requests aren't delayed if no `users` are configured, or remove the `Authorization` header at the first `vmauth` with `headers: [\"Authorization:\"]`. See [#11774](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11774).\r\n\r\n**Update Note 2:** `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): `/admin/tenants` requests without `start` and `end` query args (or with zero values) can cause excessive memory usage and OOM crashes of `vmstorage`. Such requests are issued automatically by [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui) when it is opened via `vmselect`. This is because `vmstorage` [no longer switches to the global index](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/742778ebf1) for queries with long time ranges, so it scans per-day indexes for every day in the whole retention concurrently. Upgrade to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0), or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11791](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11791).\r\n\r\n**Update Note 3:** [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): queries and requests to `/api/v1/series`, `/api/v1/labels` and `/api/v1/label/.../values` with long time ranges can cause excessive memory usage and OOM crashes. This is because VictoriaMetrics [no longer switches to the global index](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/742778ebf1) for searches with long time ranges, so it scans per-day indexes for every day in the requested time range concurrently. Upgrade to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0), or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11791](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11791).\r\n\r\n**Update Note 4:** `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): `-search.skipSlowReplicas` causes excessive connection churn between `vmselect` and `vmstorage`, increased `vmstorage` CPU usage and `cannot process vmselect conn ... write: broken pipe` errors in `vmstorage` logs. This is because `vmselect` now [cancels requests](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355) to slow replicas by closing connections to `vmstorage` instead of reusing them. Disable `-search.skipSlowReplicas` or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0) until the fix is available. See [#11771](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11771).\r\n\r\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\r\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\r\n\r\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\r\n\r\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\r\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\r\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.108.0](https://github.com/VictoriaMetrics/V"
+              "body": "## [v1.154.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.154.0)\r\n\r\nReleased at 2026-10-12\r\n\r\n**Update Note 1:** [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): setups with two chained `vmauth` instances, where the first one authenticates requests via `users` and the second one proxies them via `unauthorized_user` (for example, `VMDistributed` or `VMCluster` managed by [VictoriaMetrics operator](https://docs.victoriametrics.com/operator/)), get an extra 2-3 seconds delay for every request. This is because the second `vmauth` receives the `Authorization` header forwarded by the first one and treats it as an invalid auth token. Upgrade to the [v1.154.1](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/docs/victoriametrics/changelog/CHANGELOG.md#v11541) release, where requests aren't delayed if no `users` are configured, or remove the `Authorization` header at the first `vmauth` with `headers: [\"Authorization:\"]`. See [#11774](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11774).\r\n\r\n**Update Note 2:** `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): `/admin/tenants` requests without `start` and `end` query args (or with zero values) can cause excessive memory usage and OOM crashes of `vmstorage`. Such requests are issued automatically by [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui) when it is opened via `vmselect`. This is because `vmstorage` [no longer switches to the global index](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/742778ebf1) for queries with long time ranges, so it scans per-day indexes for every day in the whole retention concurrently. Upgrade to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0), or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11791](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11791).\r\n\r\n**Update Note 3:** [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): queries and requests to `/api/v1/series`, `/api/v1/labels` and `/api/v1/label/.../values` with long time ranges can cause excessive memory usage and OOM crashes. This is because VictoriaMetrics [no longer switches to the global index](https://github.com/VictoriaMetrics/VictoriaMetrics/commit/742778ebf1) for searches with long time ranges, so it scans per-day indexes for every day in the requested time range concurrently. Upgrade to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0), or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11791](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11791).\r\n\r\n**Update Note 4:** `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): `-search.skipSlowReplicas` causes excessive connection churn between `vmselect` and `vmstorage`, increased `vmstorage` CPU usage and `cannot process vmselect conn ... write: broken pipe` errors in `vmstorage` logs. This is because `vmselect` now [cancels requests](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355) to slow replicas by closing connections to `vmstorage` instead of reusing them. Upgrade to [v1.156.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.156.0) or roll back to [v1.153.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.153.0). See [#11771](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11771).\r\n\r\n* SECURITY: upgrade Go builder from Go1.27.1 to Go1.27.2. See [the list of issues addressed in Go1.27.2](https://github.com/golang/go/issues?q=milestone%3AGo1.27.2%20label%3ACherryPickApproved).\r\n* SECURITY: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): slow down requests with invalid auth tokens even if `unauthorized_user` has URLs configured. Previously, such requests were proxied to `unauthorized_user` without delay, which allowed brute-forcing auth tokens. See [GHSA-rpfx-hrcp-f73x](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-rpfx-hrcp-f73x).\r\n* SECURITY: [vmui](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/#vmui): prevent [cross-site scripting (XSS)](https://en.wikipedia.org/wiki/Cross-site_scripting) on Metric Relabling Debug, Query Analyzier, and Dashboards pages. See [GHSA-m2x2-9xpq-mmq5](https://github.com/VictoriaMetrics/VictoriaMetrics/security/advisories/GHSA-m2x2-9xpq-mmq5).\r\n\r\n* FEATURE: [vmagent](https://docs.victoriametrics.com/victoriametrics/vmagent/),`vminsert` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/) and [Single-node VictoriaMetrics](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/): add `/influx/ping` endpoint, which returns the `X-Influxdb-Version` HTTP header. Some [InfluxDB](https://docs.victoriametrics.com/victoriametrics/integrations/influxdb/) clients, such as the Jenkins InfluxDB plugin, read the server version from this endpoint. See [#11663](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11663). Thanks to @Vandit1604 for contribution.\r\n* FEATURE: [vmauth](https://docs.victoriametrics.com/victoriametrics/vmauth/): add `oidc.auth_params` option to [SSO](https://docs.victoriametrics.com/victoriametrics/vmauth/#single-sign-on-sso) config for passing additional query parameters to the IdP authentication request, e.g., `hd` for narrowing the Google account chooser to a single domain. Combine it with `match_claims` to enforce the domain restriction. See [these docs](https://docs.victoriametrics.com/victoriametrics/vmauth/#sso-authentication-request-parameters) for more examples of `oidc.auth_params` usage.\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmstorage` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): abort incoming requests when a client disconnects and during graceful shutdown. See [#11472](https://github.com/VictoriaMetrics/VictoriaMetrics/pull/11472).\r\n* FEATURE: [vmsingle](https://docs.victoriametrics.com/victoriametrics/single-server-victoriametrics/) and `vmselect` in [VictoriaMetrics cluster](https://docs.victoriametrics.com/victoriametrics/cluster-victoriametrics/): cancel query requests if client disconnects. See [#11355](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11355).\r\n\r\n* BUGFIX: all VictoriaMetrics components: correctly configure TCP keep-alive active probes. See [#11695](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11695).\r\n* BUGFIX: all VictoriaMetrics components: properly match regexps that start with an alternation or a character class and continue with `.*foo.*` or `.+foo.+`, for example `(a|b).*foo.*`. Previously the leading part was ignored when matching [relabeling](https://docs.victoriametrics.com/victoriametrics/relabeling/) `regex` and `if` filters and [stream aggregation](https://docs.victoriametrics.com/victoriametrics/stream-aggregation/) `match` filters, so such rules matched more series than intended. See [#11712](https://github.com/VictoriaMetrics/VictoriaMetrics/issues/11712). Thanks to @dblackdblack for contribution.\r\n* BUGFIX: [alerts](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules): fix  incorrect results for `TooHighChurnRate` and `TooHighSlowInsertsRate` in [cluster alerting rules](https://github.com/VictoriaMetrics/VictoriaMetrics/blob/master/deployment/docker/rules/alerts-cluster.yml). Previously due to incorrect expressions, these rules stayed inactive since [v1.1"
             },
             {
               "name": "v1.153.0",
@@ -5447,7 +5447,7 @@
             "stars": 29154,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T11:58:32Z",
+            "pushed_at": "2026-11-11T12:57:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5fb193a",
-            "branch": "main",
-            "date": "2026-11-10T16:58:59Z",
-            "url": "https://github.com/grafana/loki/commit/5fb193af2a2ba612e3ad985b0b7a9af356d5a0a0"
+            "sha": "88a7e21",
+            "branch": "implement-dataobj-deletion-sweep",
+            "date": "2026-11-10T16:06:38Z",
+            "url": "https://github.com/grafana/loki/commit/88a7e218266a812f4e0ceb354e07ac47015478db"
           }
         }
       ]
@@ -5871,7 +5871,7 @@
             "stars": 8295,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-10T22:00:40Z",
+            "pushed_at": "2026-11-11T12:56:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "facd0ca",
-            "branch": "fix/issue-4398",
-            "date": "2026-11-10T14:51:25Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/facd0ca2ac2b8cc2f250956db4346825627ef846"
+            "sha": "39ab229",
+            "branch": "main",
+            "date": "2026-11-10T01:28:28Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/39ab22945edd2a4d43439ba8f0ddc1d82e54b58f"
           }
         },
         {
