@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T03:29:29.720941Z",
+  "generated_at": "2026-11-11T03:34:52.577611Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42808,
+            "stars": 42809,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-10T22:13:21Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29169,
+            "stars": 29170,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-11T01:15:26Z",
@@ -1190,7 +1190,7 @@
             "stars": 4670,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-11T03:26:16Z",
+            "pushed_at": "2026-11-11T03:32:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ee6c580",
+                  "message": "cloudflared: update to 2026.10.7",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/ee6c58052aabdf6ed6c5c66cfe962fcae5b07b20"
+                },
+                {
+                  "sha": "f87972c",
+                  "message": "rclone: update to 1.76.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/f87972c7287238a6f5d43077836c0424c40d62ec"
+                },
+                {
+                  "sha": "4e52215",
+                  "message": "yq: update to 4.54.3",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/4e52215781d96652373ec1f3e6e0441031105f0a"
+                },
+                {
+                  "sha": "1c51293",
+                  "message": "xray-core: update to 26.11.9",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/1c512933b33b4f4257c623585b651549a7aa1087"
+                },
+                {
+                  "sha": "89df669",
+                  "message": "v2ray-core: update to 5.56.0",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/89df66938415527370610ae4d75186a6e772acae"
+                },
+                {
+                  "sha": "ea88722",
+                  "message": "v2ray-geodata: update to latest version",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-11T03:32:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/ea887224eac3bd982b92c636ba8d3037655ba028"
+                },
+                {
                   "sha": "e615e9b",
                   "message": "dawn: update to 2026-11-11",
                   "author": "Nick Hainke",
@@ -2011,48 +2053,6 @@
                   "author": "Andy Chiang",
                   "date": "2026-11-08T14:56:01Z",
                   "url": "https://github.com/openwrt/packages/commit/4083277499e82a5d9544fc2b72c63e719aec5974"
-                },
-                {
-                  "sha": "d476ff8",
-                  "message": "bcm27xx-eeprom: update to Git HEAD (2026-11-03)",
-                  "author": "Joshua Covington",
-                  "date": "2026-11-07T18:44:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/d476ff893f1aa18cc8b2833bc896048ae05fd7e7"
-                },
-                {
-                  "sha": "7eef26d",
-                  "message": "python3: update to 3.14.10",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-07T06:09:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/7eef26d5122e52301e0df3ddf9327cff16c1a713"
-                },
-                {
-                  "sha": "1580cfa",
-                  "message": "python-pip: update to 26.2.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-07T06:09:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/1580cfab657ff9882686e75c3f9b39934994b826"
-                },
-                {
-                  "sha": "95c18b6",
-                  "message": "rsyslog: handle empty uci config",
-                  "author": "Ming Di Leom",
-                  "date": "2026-11-07T06:08:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/95c18b66217003193ef5f3e03f797928894186ce"
-                },
-                {
-                  "sha": "1c248d7",
-                  "message": "udp-broadcast-relay-redux: init file improvements",
-                  "author": "Aaron Curley",
-                  "date": "2026-11-06T21:13:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c248d7e25e66304ffe96faba031d14b845d8eaf"
-                },
-                {
-                  "sha": "1432f53",
-                  "message": "udp-broadcast-relay-redux: whitespace in .init \u0026 .config file",
-                  "author": "Aaron Curley",
-                  "date": "2026-11-06T21:13:20Z",
-                  "url": "https://github.com/openwrt/packages/commit/1432f53bd0d6735be85ceeaeb0fc7e042f45cf6b"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a90a105",
-            "branch": "mdv/panel-option-interpolation-value-mappings",
-            "date": "2026-11-10T12:58:24Z",
-            "url": "https://github.com/grafana/grafana/commit/a90a105e100c61a25428d6942796b76096fa269e"
+            "sha": "c5e1254",
+            "branch": "eledobleefe/plugin-compat-release-pr-workflow",
+            "date": "2026-11-09T09:54:20Z",
+            "url": "https://github.com/grafana/grafana/commit/c5e1254c9aa178000055c79523e3c73ca9d53afa"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2952abe",
-            "branch": "release-please--branches--k332",
-            "date": "2026-11-10T11:10:01Z",
-            "url": "https://github.com/grafana/loki/commit/2952abe852104f3b6f3bd9bea0bdccec1726caa7"
+            "sha": "d021bf0",
+            "branch": "main",
+            "date": "2026-11-10T08:33:16Z",
+            "url": "https://github.com/grafana/loki/commit/d021bf005639ae292fa1f1e8e9010166ad8ce5a4"
           }
         }
       ]
