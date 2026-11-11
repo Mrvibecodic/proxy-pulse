@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:47:08.583151Z",
+  "generated_at": "2026-11-11T09:52:29.883337Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39861,
+            "stars": 39862,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -576,6 +576,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash для Android android-v0.1.27-alpha.2",
+              "tag": "android-v0.1.27-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.27-alpha.2",
+              "published_at": "2026-11-11T09:51:34Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Обновление встроенного ядра: новая версия Mihomo 1.19.34 и наши доработки поверх неё.\n- Серверы на XHTTP открывают страницы меньшим числом соединений: приложение использует одно соединение повторно, а не открывает новое на каждый запрос.\n- Маскировка соединения под браузер обновлена до свежих версий Chrome и Firefox.\n- Обновлена библиотека шифрования соединений в ядре.\n\n### Исправлено\n\n- Серверы на XHTTP быстрее приходят в себя после кратковременной блокировки или сбоя сети: зависшее подключение больше не задерживает остальные.\n- На части серверов XHTTP соединение могло зависнуть, когда одновременно шло много запросов."
+            },
             {
               "name": "Clod Clash для Android android-v0.1.27-alpha.1",
               "tag": "android-v0.1.27-alpha.1",
@@ -4058,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Rule-based traffic routing for OpenWrt",
-            "stars": 872,
+            "stars": 873,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-11-02T01:16:35Z",
@@ -5027,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93495,
+            "stars": 93496,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-11T03:51:53Z",
@@ -5095,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27173,
+            "stars": 27174,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-10T19:29:34Z",
@@ -5166,7 +5175,7 @@
             "stars": 77830,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T09:46:36Z",
+            "pushed_at": "2026-11-11T09:52:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7326fb8",
-            "branch": "eledobleefe/plugin-compat-pr-title-check",
-            "date": "2026-11-10T16:06:48Z",
-            "url": "https://github.com/grafana/grafana/commit/7326fb8f62cc04251b5e0fc954f4e09145af7f15"
+            "sha": "6318636",
+            "branch": "main",
+            "date": "2026-11-10T16:36:04Z",
+            "url": "https://github.com/grafana/grafana/commit/6318636de42eef9f1be940ef8b80557e1b844ea0"
           }
         },
         {
@@ -5435,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29153,
+            "stars": 29154,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-11T09:47:13Z",
@@ -5491,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ea44655",
-            "branch": "main",
-            "date": "2026-11-10T15:38:36Z",
-            "url": "https://github.com/grafana/loki/commit/ea44655b50b81d41531468ae8944b76090db9916"
+            "sha": "b6538f9",
+            "branch": "release-4.0.0",
+            "date": "2026-11-10T16:35:43Z",
+            "url": "https://github.com/grafana/loki/commit/b6538f90e27ded6a1bb07a90706b6fbb0a34c4e6"
           }
         }
       ]
