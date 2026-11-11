@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T09:57:49.603267Z",
+  "generated_at": "2026-11-11T10:03:08.866655Z",
   "groups": [
     {
       "id": "cores",
@@ -1046,7 +1046,7 @@
             "stars": 253,
             "url": "https://github.com/Nemu-x/ClashFest",
             "default_branch": "feat/init-clashfest",
-            "pushed_at": "2026-11-11T09:42:05Z",
+            "pushed_at": "2026-11-11T10:00:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/112378891?v=4",
             "owner": "Nemu-x"
@@ -1190,7 +1190,7 @@
             "stars": 4670,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-11T08:09:56Z",
+            "pushed_at": "2026-11-11T10:01:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "1927193",
+                  "message": "ripe-atlas: generate Ed25519 probe keys",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T10:01:46Z",
+                  "url": "https://github.com/openwrt/packages/commit/1927193da180dbc955a918a3a79548005811f466"
+                },
+                {
+                  "sha": "869a8c1",
+                  "message": "ripe-atlas: fix the SOS ID of non-RSA keys",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T10:01:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/869a8c1058db695f277b1a91d2ab4df0facdc556"
+                },
+                {
                   "sha": "be80969",
                   "message": "weechat: update to 4.10.4",
                   "author": "Josef Schlehofer",
@@ -3329,26 +3343,26 @@
                   "author": "Daniel Salzman",
                   "date": "2026-10-25T07:36:05Z",
                   "url": "https://github.com/openwrt/packages/commit/88aec212f9a5b5900a3b87871c313b44ba9d5ac4"
-                },
-                {
-                  "sha": "22e8338",
-                  "message": "knot: upgrade to version 3.6.2",
-                  "author": "Daniel Salzman",
-                  "date": "2026-10-24T17:18:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/22e83381079b2d919504f6bcdcb748e8be2858fb"
-                },
-                {
-                  "sha": "bdf577e",
-                  "message": "knot: drop libatomic dependency",
-                  "author": "Daniel Golle",
-                  "date": "2026-10-24T17:17:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/bdf577ec1e26d2970f535d85ea21462bbdedbd84"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "a00e5a5",
+                  "message": "ripe-atlas: generate Ed25519 probe keys",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T10:01:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/a00e5a51e670f2e3a2d949006e28be45acb789ff"
+                },
+                {
+                  "sha": "c8f707a",
+                  "message": "ripe-atlas: fix the SOS ID of non-RSA keys",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T10:01:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/c8f707a144f05c6ea7574df963c4454597431589"
+                },
                 {
                   "sha": "b192b11",
                   "message": "radicale3: bump to v3.9.0 (security)",
@@ -3544,20 +3558,6 @@
                   "author": "Martino Dell'Ambrogio",
                   "date": "2026-11-01T13:35:25Z",
                   "url": "https://github.com/openwrt/packages/commit/fae099b5059cd21a4d4fbc9c3a2c52d24a0e1200"
-                },
-                {
-                  "sha": "9b52d3f",
-                  "message": "openssh: add mldsa44-ed25519 host key",
-                  "author": "John Audia",
-                  "date": "2026-11-01T07:04:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b52d3f7af94594801557cdd601943b92ef16dd8"
-                },
-                {
-                  "sha": "b7d93a0",
-                  "message": "nextdns: update to version 1.49.0",
-                  "author": "Olivier Poitrey",
-                  "date": "2026-11-01T06:58:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/b7d93a0bb56d9f509990f6607f6bccd8ecc18f37"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77830,
+            "stars": 77831,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T09:56:52Z",
+            "pushed_at": "2026-11-11T10:01:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7dd87da",
-            "branch": "main",
-            "date": "2026-11-09T14:08:16Z",
-            "url": "https://github.com/grafana/grafana/commit/7dd87dadeec63f61e90664006711b4f3d901b69b"
+            "sha": "98409ed",
+            "branch": "ale/provisioning-register-resource-kinds",
+            "date": "2026-11-10T16:43:09Z",
+            "url": "https://github.com/grafana/grafana/commit/98409ed93c3a989352ac5664d04edaa64570fe18"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18088,
+            "stars": 18089,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-11T04:12:53Z",
