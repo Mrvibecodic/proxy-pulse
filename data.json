@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:57:41.862154Z",
+  "generated_at": "2026-11-11T03:02:59.843821Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39854,
+            "stars": 39853,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -152,7 +152,7 @@
             "stars": 35665,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T02:23:13Z",
+            "pushed_at": "2026-11-11T02:59:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Wed Nov 11 10:16:57 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: allow mieru inbound to actively close idle TCP connection by @enfein in https://github.com/MetaCubeX/mihomo/pull/3354\n* fix: prevent SOCKS domain length arithmetic overflow by @SaladDay in https://github.com/MetaCubeX/mihomo/pull/3359\n* feat: add ss-password generation functionality to the command line tool by @Zephyruso in https://github.com/MetaCubeX/mihomo/pull/3372\n* fix: keep bytes that arrive with the HTTP proxy's CONNECT response by @gtoxlili in https://github.com/MetaCubeX/mihomo/pull/3382\n* feat: add Snell version 6 support (outbound + inbound) by @hungrybirder in https://github.com/MetaCubeX/mihomo/pull/3410\n* fix(easytier): drain unused host packets to prevent data-plane stalls by @Chikage0o0 in https://github.com/MetaCubeX/mihomo/pull/3400\n* fix: convert httpupgrade share links to ws with v2ray-http-upgrade by @Dv2Corn in https://github.com/MetaCubeX/mihomo/pull/3415\n* feat: support multiple users for shadowsocks listener by @RomanovCaesar in https://github.com/MetaCubeX/mihomo/pull/3383\n* fix: skip empty age secret key in DecryptBytes by @styrigx in https://github.com/MetaCubeX/mihomo/pull/3450\n\n## New Contributors\n* @SaladDay made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3359\n* @gtoxlili made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3382\n* @hungrybirder made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3410\n* @Chikage0o0 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3400\n* @Dv2Corn made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3415\n* @styrigx made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3450\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.33...Prerelease-Alpha"
+              "body": "Release created at  Wed Nov 11 10:59:39 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: allow mieru inbound to actively close idle TCP connection by @enfein in https://github.com/MetaCubeX/mihomo/pull/3354\n* fix: prevent SOCKS domain length arithmetic overflow by @SaladDay in https://github.com/MetaCubeX/mihomo/pull/3359\n* feat: add ss-password generation functionality to the command line tool by @Zephyruso in https://github.com/MetaCubeX/mihomo/pull/3372\n* fix: keep bytes that arrive with the HTTP proxy's CONNECT response by @gtoxlili in https://github.com/MetaCubeX/mihomo/pull/3382\n* feat: add Snell version 6 support (outbound + inbound) by @hungrybirder in https://github.com/MetaCubeX/mihomo/pull/3410\n* fix(easytier): drain unused host packets to prevent data-plane stalls by @Chikage0o0 in https://github.com/MetaCubeX/mihomo/pull/3400\n* fix: convert httpupgrade share links to ws with v2ray-http-upgrade by @Dv2Corn in https://github.com/MetaCubeX/mihomo/pull/3415\n* feat: support multiple users for shadowsocks listener by @RomanovCaesar in https://github.com/MetaCubeX/mihomo/pull/3383\n* fix: skip empty age secret key in DecryptBytes by @styrigx in https://github.com/MetaCubeX/mihomo/pull/3450\n\n## New Contributors\n* @SaladDay made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3359\n* @gtoxlili made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3382\n* @hungrybirder made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3410\n* @Chikage0o0 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3400\n* @Dv2Corn made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3415\n* @styrigx made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3450\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.33...Prerelease-Alpha"
             },
             {
               "name": "v1.19.33",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6a021c8",
-            "branch": "main",
-            "date": "2026-11-10T11:10:41Z",
-            "url": "https://github.com/grafana/grafana/commit/6a021c8fe008a6abcc69c422512dfd2c8e646e7c"
+            "sha": "74ca531",
+            "branch": "hugoh/add-asserts",
+            "date": "2026-11-10T10:37:12Z",
+            "url": "https://github.com/grafana/grafana/commit/74ca53100db51effdb7b97f455a6cecb51d3ad19"
           }
         },
         {
