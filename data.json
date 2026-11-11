@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T02:25:48.572529Z",
+  "generated_at": "2026-11-11T02:31:08.178088Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42807,
+            "stars": 42809,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-10T22:13:21Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39853,
+            "stars": 39854,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93472,
+            "stars": 93473,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-11T00:05:15Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d487b93",
-            "branch": "renovate/codemirror",
-            "date": "2026-11-10T12:12:58Z",
-            "url": "https://github.com/grafana/grafana/commit/d487b93915abb2c4291f4db5c73692195101e9c1"
+            "sha": "580972b",
+            "branch": "bogdan/insights-controls-spike",
+            "date": "2026-11-10T12:15:48Z",
+            "url": "https://github.com/grafana/grafana/commit/580972bc4c58668159d22bad10bdc6cfd2e533e7"
           }
         },
         {
@@ -5939,12 +5939,21 @@
             "stars": 101,
             "url": "https://github.com/syvlech/remnawave-limiter",
             "default_branch": "master",
-            "pushed_at": "2026-11-10T21:35:54Z",
+            "pushed_at": "2026-11-11T02:29:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/69968834?v=4",
             "owner": "syvlech"
           },
           "releases": [
+            {
+              "name": "Release 5.0.0: traffic monitoring, sharing signs in alerts, update checker, 30+ fixes",
+              "tag": "5.0.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/5.0.0",
+              "published_at": "2026-11-11T02:29:51Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "### ⚠️ Перед обновлением\r\n\r\n- **Новые значения по умолчанию** (только для параметров, которых нет в `.env` и в боте; в `.env.example` они уже такие): `CHECK_INTERVAL` 30 → 60, `ACTIVE_IP_WINDOW` 300 → 120, `VIOLATION_THRESHOLD` 1 → 3, `AUTO_DISABLE_DURATION` 0 → 15, `DAILY_REPORT` → true, `DAILY_REPORT_TIME` 09:00 → 21:00.\r\n- **Мониторинг трафика и проверка обновлений включены по умолчанию.** Для трафика нужен scope `bandwidth-stats:node-usage`, для признаков раздачи — `users:subscription-request-history` и `hwid-user-devices:list-by-user`. Все необязательны: без них лимитер один раз предупредит в логе.\r\n- **Логи на языке `LANGUAGE`.** Алерты по тексту логов переведите на структурные поля.\r\n- **Строже проверка конфига:** запуск останавливается при ошибке в `.env`, при сбое чтения настроек бота из Redis и при невалидных значениях. `.env` читается только при старте.\r\n- **Редиректы 301/302 на POST** к панели и webhook больше не выполняются.\r\n- **Valkey 9.1** в `docker-compose.yml`. Лимитер работает и с 8.1, но с тем же томом на 8.1 уже не откатиться.\r\n\r\n### ✨ Новое\r\n\r\n- **📈 Мониторинг трафика.** Алерт, когда суточный трафик в 10 раз выше личной нормы пользователя и не меньше 150 ГБ, или когда 5 из 7 суток трафик от 200 ГБ. Только уведомляет, никого не отключает. Один запрос к панели раз в 30 минут при любом числе подписок. Пороги — в `/settings` → «📈 Трафик».\r\n- **🔎 Признаки раздачи в алертах:** запросы подписки по IP и приложениям и HWID-устройства пользователя.\r\n- **🇨🇳 Китайский язык** (`LANGUAGE=zh`), логи и ошибки переведены на все три языка. Спасибо @avsba001.\r\n- **🆕 Проверка обновлений:** раз в сутки, о каждой новой версии сообщает один раз.\r\n- **📊 Ежедневный отчёт:** раздел «Постоянно высокий трафик».\r\n- **🚀 Стартовое сообщение:** дата сборки базы MaxMind и кнопка ⭐ на GitHub.\r\n\r\n### 🐞 Главные исправления\r\n\r\n- Пользователь мог остаться отключённым навсегда: таймер восстановления терялся при остановке процесса или включал обратно отключённого навсегда.\r\n- Сбой Redis или API выглядел как успешная проверка, `/healthz` отвечал `ok`.\r\n- Алерты и отключения повторялись каждый цикл при ошибке записи в Redis или пока IP отключённого оставались в окне.\r\n- Пароли из URL больше не попадают в лог.\r\n- `/settings`: огромные значения роняли цикл; в группе число одного админа могло примениться к настройке другого.\r\n- `REMNAWAVE_HEADERS` не режет User-Agent, `Retry-After` соблюдается, нет дублей задач опроса нод.\r\n- База MaxMind не обновлялась при частых перезапусках.\r\n\r\nОбновлены зависимости, образ arm64 собирается без QEMU, в CI добавлены тесты.\r\n\r\n**Full Changelog**: https://github.com/syvlech/remnawave-limiter/compare/4.5.0...5.0.0\r\n\r\n---\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eEnglish\u003c/summary\u003e\r\n\r\n### ⚠️ Before upgrading\r\n\r\n- **New defaults** (only for settings set neither in `.env` nor in the bot; `.env.example` already has them): `CHECK_INTERVAL` 30 → 60, `ACTIVE_IP_WINDOW` 300 → 120, `VIOLATION_THRESHOLD` 1 → 3, `AUTO_DISABLE_DURATION` 0 → 15, `DAILY_REPORT` → true, `DAILY_REPORT_TIME` 09:00 → 21:00.\r\n- **Traffic monitoring and the update check are on by default.** Traffic needs the `bandwidth-stats:node-usage` scope, sharing signs need `users:subscription-request-history` and `hwid-user-devices:list-by-user`. All optional: without them the limiter logs one warning.\r\n- **Logs use the `LANGUAGE` language.** Switch alerts on log text to structured fields.\r\n- **Stricter config checks:** startup stops on a broken `.env`, on a failure to read bot settings from Redis and on invalid values. `.env` is read only at startup.\r\n- **301/302 redirects on POST** to the panel and the webhook are no longer followed.\r\n- **Valkey 9.1** in `docker-compose.yml`. The limiter also works with 8.1, but the same volume cannot go back to 8.1.\r\n\r\n### ✨ New\r\n\r\n- **📈 Traffic monitoring.** An alert when a user's daily traffic is 10× their own usual volume and at least 150 GB, or 200 GB or more on 5 of 7 days. It only notifies and never disables anyone. One panel request every 30 minutes regardless of the number of subscriptions. Thresholds are in `/settings` → \"📈 Traffic\".\r\n- **🔎 Signs of sharing in alerts:** subscription requests by IP and app, and the user's HWID devices.\r\n- **🇨🇳 Chinese** (`LANGUAGE=zh`); logs and errors are translated into all three languages. Thanks to @avsba001.\r\n- **🆕 Update check:** once a day, each new version is announced once.\r\n- **📊 Daily report:** a \"Persistently high traffic\" section.\r\n- **🚀 Startup message:** the MaxMind database build date and a ⭐ GitHub button.\r\n\r\n### 🐞 Main fixes\r\n\r\n- A user could stay disabled forever: the restore timer was lost when the process stopped, or re-enabled a user disabled permanently.\r\n- A Redis or API failure looked like a successful check, and `/healthz` answered `ok`.\r\n- Alerts and disables repeated every cycle on a Redis write error or while a disabled user's IPs stayed in the window.\r\n- Passwords from URLs no longer reach the log.\r\n- `/settings`: huge values crashed the loop; in a group, one admin's number could be applied to another admin's setting.\r\n- `REMNAWAVE_HEADERS` no longer cuts the User-Agent, `Retry-After` is respected, no duplicate node polling jobs.\r\n- The MaxMind database was not updated with frequent restarts.\r\n\r\nDependencies updated, the arm64 image is built without QEMU, tests added to CI.\r\n\r\n\u003c/details\u003e\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003e中文\u003c/summary\u003e\r\n\r\n### ⚠️ 升级前须知\r\n\r\n- **新的默认值**（仅影响 `.env` 和机器人中都未设置的参数；`.env.example` 中已是这些值）：`CHECK_INTERVAL` 30 → 60，`ACTIVE_IP_WINDOW` 300 → 120，`VIOLATION_THRESHOLD` 1 → 3，`AUTO_DISABLE_DURATION` 0 → 15，`DAILY_REPORT` → true，`DAILY_REPORT_TIME` 09:00 → 21:00。\r\n- **流量监控和更新检查默认开启**。流量监控需要 `bandwidth-stats:node-usage` 权限，共享迹象需要 `users:subscription-request-history` 和 `hwid-user-devices:list-by-user`。均为可选：缺少时限制器只在日志中警告一次。\r\n- **日志使用 `LANGUAGE` 指定的语言**。按日志文本匹配的告警请改为匹配结构化字段。\r\n- **配置校验更严格**：`.env` 有错误、无法从 Redis 读取机器人设置或参数值无效时，启动会失败。`.env` 只在启动时读取。\r\n- **POST 请求不再跟随 301/302 重定向**，包括面板和 webhook。\r\n- `docker-compose.yml` 改用 **Valkey 9.1**。限制器也"
+            },
             {
               "name": "4.5.0",
               "tag": "4.5.0",
@@ -5980,15 +5989,6 @@
               "prerelease": false,
               "author": "syvlech",
               "body": "Оптимизация и улучшение взаимодействия с Redis"
-            },
-            {
-              "name": "4.0.0 (RW 3.0.0+)",
-              "tag": "4.0.0",
-              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.0.0",
-              "published_at": "2026-08-04T05:09:38Z",
-              "prerelease": false,
-              "author": "syvlech",
-              "body": "Обновление взаимодействия с API панели Remnawave после крайнего мажорного обновления."
             }
           ],
           "last_commit": {
