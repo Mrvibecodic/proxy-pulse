@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T06:56:27.999363Z",
+  "generated_at": "2026-11-11T07:01:47.144130Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39858,
+            "stars": 39857,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -137,10 +137,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8336d70",
+            "sha": "d25ef26",
             "branch": "testing",
-            "date": "2026-11-09T11:59:46Z",
-            "url": "https://github.com/SagerNet/sing-box/commit/8336d702f2b9cc55ad7455d4f1f8a597f5c71586"
+            "date": "2026-11-10T11:10:40Z",
+            "url": "https://github.com/SagerNet/sing-box/commit/d25ef268c937149b89664349aebaa771d27c07c1"
           }
         },
         {
@@ -152,12 +152,21 @@
             "stars": 35671,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T06:23:29Z",
+            "pushed_at": "2026-11-11T07:00:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "v1.19.34",
+              "tag": "v1.19.34",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.34",
+              "published_at": "2026-11-11T07:01:35Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "## What's Changed\n* 2d1a22e3 feat: support multiple users for shadowsocks listener (#3383) by @Romanov Caesar\n* f1f640b1 feat: add Snell version 6 support (outbound + inbound) (#3410) by @YONG\n* ff179c43 feat: add ss-password generation functionality to the command line tool (#3372) by @Zephyruso\n\n## BUG \u0026 Fix\n* 478af2a5 fix: auto route rules for tun by @wwqgtxx\n* 5b79f3c3 fix: tfo-go not working on go1.26.9+ and go1.27.2+ by @wwqgtxx\n* 6780eeeb fix: prevent SOCKS domain length arithmetic overflow (#3359) by @SaladDay\n* 69c16319 fix: keep bytes that arrive with the HTTP proxy's CONNECT response (#3382) by @Gtio\n* 9002a4fe fix: easytier drain unused host packets to prevent data-plane stalls (#3400) by @Chikage0o0\n* b6a15182 fix: i386 struct define of PROCESS_MEMORY_COUNTERS by @wwqgtxx\n* c3bdf779 fix: skip empty age secret key in DecryptBytes (#3450) by @Sloan Gray\n* ca8d7c41 fix: ssh clients do not close when underlying connection writing errors by @wwqgtxx\n* de439c88 fix: drain cached data before reading upstream by @wwqgtxx\n* e9b9a1a8 fix: convert httpupgrade share links to ws with v2ray-http-upgrade (#3415) by @Aleksey Fedorov\n\n## Maintenance\n* 0455d0d2 chore: bump embedded easytier-go core to keep guest memory off the Go heap (#3454) by @MiaM1ku\n* 91e85eeb chore: allow mieru inbound to actively close idle TCP connection (#3354) by @enfein\n* 94666818 chore: code cleanup by @wwqgtxx\n* f7ec2b9a chore: update utls to go1.26-based by @wwqgtxx\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.33...v1.19.34\n"
+            },
             {
               "name": "Prerelease-Alpha",
               "tag": "Prerelease-Alpha",
@@ -193,15 +202,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\r\n* dca26db0 feat: add EasyTier outbound (#3194) by @MiaM1ku\r\n* ab405bad feat: support `stack: mips` in tun configuration by @wwqgtxx\r\n* 390870c7 feat: support `identity-secret` for ZeroTier by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 0159cf47 fix: restore hysteria v1 udp handling (#3178) by @Chenx Dust\r\n* 04366507 fix: close connection after error handling in doq by @wwqgtxx\r\n* 06b2c5b8 fix: close connection after error handling in mkcp outbound by @wwqgtxx\r\n* 127b1392 fix: split-DNS UDP queries fail silently in tsnet mode when upstream is a tailnet peer by @wwqgtxx\r\n* 187c6342 fix: close connection after error handling in snell outbound by @wwqgtxx\r\n* 1cdca1a0 fix: handle decryption handshake errors in server by @wwqgtxx\r\n* 20bcda2d fix: avoid VLESS decryption cleanup panic (#3195) by @浅小沫\r\n* 5183232e fix: RandomPaddingAddition and DisableCookies for AmneziaWG v3 by @wwqgtxx\r\n* 5f951098 fix: DomainSet wildcard matching with overlapping rules by @wwqgtxx\r\n* 634b3199 fix: hysteria2 UDP sessions not closed on connection close by @wwqgtxx\r\n* 68ec4fae fix: ipv6 url parse in xhttp (#3160) by @CyberVacation\r\n* 6d179a1c fix: openvpn derive the tls-auth HMAC digest from auth instead of hard-coding SHA-1 (#3189) by @Token\r\n* 77b9393c fix: preserve domain rules across Foreach round trips by @wwqgtxx\r\n* 78210c9c fix: close connection after error handling in kcptun by @wwqgtxx\r\n* 7d7532d4 fix: error using of safeConnClose in sudoku outbound by @wwqgtxx\r\n* 94ccba56 fix: mieru listener doesn't obey \"listen\" config (#3205) by @enfein\r\n* 99c49780 fix: prevent nil pointer dereference in WireGuard initialization (#3148) by @Sinspired\r\n* a91201f1 fix: correct android amd64 core asset name in updater (#3167) by @NuoFang\r\n* c0e43ebe fix: tailscale should always use UserDial for upstream TCP DNS server by @wwqgtxx\r\n* d5f57a5e fix: missing NeedHandshake for shadowsocks none by @wwqgtxx\r\n* dc66a8a1 fix: close connection after error handling in handleContextListener by @wwqgtxx\r\n* e0f1d2b2 fix: close udp endpoint in mieru server by @wwqgtxx\r\n* faeb537a fix: close connection after error handling in tuic server by @wwqgtxx\r\n* fb66af81 fix: typo in config.yaml (#3145) by @Kosta\r\n* fd74ecb6 fix: trusttunnel client not waiting for TCP connection established by @wwqgtxx\r\n\r\n## Maintenance\r\n* 061966e7 chore: OpenVPN no longer relies on the underlying conn deadline functions by @wwqgtxx\r\n* 2ecceb5b chore: improve mipstack under device backpressure by @wwqgtxx\r\n* 2f7eae5a chore: report detailed errors for invalid Clash-style domain patterns by @wwqgtxx\r\n* 2fe7ecbf chore: change yaml library to go.yaml.in/yaml/v3 by @wwqgtxx\r\n* 4aa9cc17 chore: avoid redundant select calculations in DomainSet by @wwqgtxx\r\n* 4dfaa902 chore: align the APIs between mipstack and gvisor by @wwqgtxx\r\n* 518c7036 chore: convert support REALITY ML-KEM option (#3199) by @Aethersailor\r\n* 6087521e chore: avoid a separate rule slice in DumpMrs by @wwqgtxx\r\n* 65287f0e chore: reduce memory usage in converter (#3159) by @beck\r\n* 8e2f18a1 chore: avoid redundant rank calculations in DomainSet by @wwqgtxx\r\n* 8e6738fa chore: update tailscale to v1.102.3 by @wwqgtxx\r\n* 8f54283e chore: updated sudoku to v0.5.0 (#3187) by @saba-futai\r\n* 92433dba chore: reduce gVisor memory usage by @wwqgtxx\r\n* b59a7e7b chore: sharing synthetic datasets used for build benchmarking by @wwqgtxx\r\n* bbb8cb92 chore: add standalone DomainSetBuilder by @wwqgtxx\r\n* c210be21 chore: buffer geodata reads with a 16 KiB reader (#3185) by @Huffer\r\n* d37f58e7 chore: add new DomainMap implement based on succinct DomainSet by @wwqgtxx\r\n* dd26c524 chore: reduce connection memory and actor stack overhead for mipstack by @wwqgtxx\r\n* ebf82e29 chore: reuse queues during DomainSet build by @wwqgtxx\r\n* f295ba6d chore: update mipstack for api adjustment by @wwqgtxx\r\n* f6a038ce chore: add some benchmark code for new DomainMap by @wwqgtxx\r\n* fe22fdd2 chore: update mieru version (#3119) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.30...v1.19.31\r\n"
-            },
-            {
-              "name": "v1.19.30",
-              "tag": "v1.19.30",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.30",
-              "published_at": "2026-08-16T10:11:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "## What's Changed\r\n* e889b689 feat: support H2C and QUICv2 sniffing (#3036) by @Kosta\r\n* 05b5334c feat: add `handshake-timeout` for hysteria2 by @wwqgtxx\r\n* 1265cb9a feat: add `ip-stack` option for masque outbound by @wwqgtxx\r\n* 4ad27d81 feat: add `ip-stack` option for ZeroTier by @wwqgtxx\r\n* 8453e589 feat: support AmneziaWG v3.0 by @wwqgtxx\r\n* 8b76447b feat: add `ip-stack` option for wireguard outbound by @wwqgtxx\r\n* 8c56780b feat: support AmneziaWG v3.1 by @wwqgtxx\r\n* b0825150 feat: add Zerotier outbound support by @wwqgtxx\r\n* b27c659a feat: add `client-metadata` configuration to anytls and DON'T sent by default by @wwqgtxx\r\n* bb80689b feat: support bbr3 for mipstack by @wwqgtxx\r\n* d46944f3 feat: add `ip-stack` option for openvpn outbound by @wwqgtxx\r\n* e40b5962 feat: add `rate-limit` for restls listener by @wwqgtxx\r\n\r\n## BUG \u0026 Fix\r\n* 25ccc4dd fix: handle zerotier network lifecycle events correctly by @wwqgtxx\r\n* 2e8a04c9 fix: tailscale failed to recover after the network was restored by @wwqgtxx\r\n* 33154579 fix: CVE-2026-56862 for crypto/tls by @wwqgtxx\r\n* 3a779dda fix: typo in `uplinkHTTPMethod` (#3029) by @Kosta\r\n* 4fcf9aed fix: track QUIC crypto stream coverage without repeated range sorting by @wwqgtxx\r\n* 5e3cb10b fix: avoid reserved TLS suffixes in JLS FakeRandom by @wwqgtxx\r\n* 63f15f2d fix: keep connections open after initial sniffing failures by @wwqgtxx\r\n* 69a3142a fix: apply default uplink chunk size for xhttp (#3061) by @vanbujhm\r\n* 7ac597bd fix: domain resolve logic in zerotier outbound by @wwqgtxx\r\n* 8d1b6616 fix: avoid unnecessary waits in HTTP/2 sniffing by @wwqgtxx\r\n* 8d710081 fix: typo in error string (#3090) by @Rye Sears\r\n* 9574a46c fix: truncate udp dns replies to the client's advertised buffer size (#3043) by @TWO666\r\n* 95f7a0c5 fix: remove incorrect quic error wrapping by @wwqgtxx\r\n* 978d25ae fix: enforce ShadowQUIC JLS authentication in QUIC layer by @wwqgtxx\r\n* 98f1200d fix: panic when UDP is not supported in dns_dialer by @wwqgtxx\r\n* 9b9dc8a0 fix: survive server-initiated soft reset and rekey for openvpn (#3109) by @ayanami-desu\r\n* 9d901dc7 fix: prevent CUBIC ACKs from reducing cwnd for gvisor by @wwqgtxx\r\n* a2c9556a fix: HTTP/2 read loop spinning on underlying StreamError by @wwqgtxx\r\n* a939fc1c fix: compilation errors under specific circumstances by @wwqgtxx\r\n* ac017cdd fix: initialize DNS before NTP (#3103) by @xYx\r\n* ace20375 fix: echo edns0 opt in dns replies when the request carries one (#3041) by @TWO666\r\n* afeb0728 fix: trim trailing newline from Tailscale VersionDotTxt in IPNVersion (#3079) by @胡威\r\n* b9894451 fix: reduce PROTOCOL_VIOLATION errors on masque dialing by setting ConnectionIDLength by @wwqgtxx\r\n* c1603f4d fix: coordinate TCP sniffers on overlapping ports by @wwqgtxx\r\n* c7089c00 fix: include the upstream tailscale version for standardization (#3074) by @Feng.YJ\r\n* cd05b74f fix: harden zerotier runtime synchronization by @wwqgtxx\r\n* e18ef3a1 fix: harden ShadowQUIC JLS camouflage forwarding by @wwqgtxx\r\n* ea9c544e fix: avoid unnecessary waits in TLS and QUIC sniffing by @wwqgtxx\r\n* f298cd2e fix: normalize HTTP hosts and avoid unnecessary sniffing delays by @wwqgtxx\r\n* f5fddd37 fix: preserve WebSocket 0-RTT data order by @wwqgtxx\r\n* f83a0721 fix: let QUIC sniffer handle Retry key changes by @wwqgtxx\r\n* fb002210 fix: tun dns hijack sending zero-filled or stale packets when PackBuffer reallocates (#3037) by @TWO666\r\n\r\n## Maintenance\r\n* 09b0ff3c chore: reduce interface differences between gVisor and mipstack by @wwqgtxx\r\n* 0ba9f2f6 chore: remove dohMaxConnsPerHost \u0026 dohMaxIdleConns (#3048) by @ayanamist\r\n* 1af24e98 chore: update tailscale to v1.102.2 by @wwqgtxx\r\n* 1ef16c71 chore: harden TCP pacing and handshake state handling by @wwqgtxx\r\n* 26c635f6 chore: avoid string reversal allocation in DomainSet.Has (#3049) by @Ember Moth\r\n* 2bade294 chore: allow the sniffer to read more data if possible by @wwqgtxx\r\n* 2ea54615 chore: adjust internal dialQuic api by @wwqgtxx\r\n* 3c16aaf1 chore: update quic-go to 0.61.0 by @wwqgtxx\r\n* 3cac8696 chore: reduce ZeroTier wire data-path overhead by @wwqgtxx\r\n* 4859d142 chore: let quic sniffer handle coalesced packets and larger client hello by @wwqgtxx\r\n* 49a5419d chore: update tailscale to v1.102.0 by @wwqgtxx\r\n* 63024e39 chore: remove unused imports in test by @wwqgtxx\r\n* 669db1ba chore: harden QUIC Initial packet processing by @wwqgtxx\r\n* 6bb8b983 chore: strictly verify the syntax for Clash-style domain wildcards by @wwqgtxx\r\n* 7259bbb8 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 73b061a7 chore: split internal dns server handler by @wwqgtxx\r\n* 770800e9 chore: reduce packet-path and TCP allocation overhead by @wwqgtxx\r\n* 7ee0b05b chore: allow override `IV_VER` by `peer-info` for OpenVPN by @wwqgtxx\r\n* 7ff65441 chore: improve ZeroTier reliability and throughput under load by @wwqgtxx\r\n* 8df94628 chore: update mipstack for api adjustment by @wwqgtxx\r\n* 944e8e1a chore: align MIPS TCP keepalive defaults with sing-wireguard behavior by @wwqgtxx\r\n* 94a89fb7 chore: reject oversized sniff reads before filling the buffer by @wwqgtxx\r\n* 97cbdc52 chore: update gvisor by @wwqgtxx\r\n* 99ce79c9 chore: reduce packet queue contention and socket allocation churn by @wwqgtxx\r\n* 9a9c4c6e chore: improve zerotier event diagnostics by @wwqgtxx\r\n* a52c00b2 chore: expand datagram and raw IP socket support for mipstack by @wwqgtxx\r\n* b9faf971 chore: improve internal sharing mechanism for dnsClient by @wwqgtxx\r\n* c235dc18 chore: let the sniffer assemble client hello across TLS records by @wwqgtxx\r\n* c807c9a0 chore: let the HTTP/2 sniffer assemble header blocks across continuation frames by @wwqgtxx\r\n* cb8e9900 chore: let sniffer support multi-round reading by @wwqgtxx\r\n* cf98d2d5 chore: align ZeroTier link configuration and multicast state by @wwqgtxx\r\n* d8fbf85f chore: update bart by @wwqgtxx\r\n* dd7bc4c6 chore: reduce ZeroTier packet processing overhead by @wwqgtxx\r\n* dfd7e896 chore: align congestion control with Linux by @wwqgtxx\r\n* e183c580 chore: stabilize equal-quality peer path selection for ZeroTier by @wwqgtxx\r\n* e9f62979 chore: improve ZeroTier packet bridge throughput by @wwqgtxx\r\n* ee2db897 chore: let gVisor allow HandleLocal working with PromiscuousMode by @wwqgtxx\r\n* efd63d87 chore: extract bitmap handling from QUIC crypto reassembly by @wwqgtxx\r\n* f5fbe0c4 chore: update mieru version (#3046) by @enfein\r\n\r\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.29...v1.19.30\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93482,
+            "stars": 93483,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-11T03:51:53Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1cf251c",
-            "branch": "RafaelPaulovic/migration-timeout-index-build",
-            "date": "2026-11-10T10:41:49Z",
-            "url": "https://github.com/grafana/grafana/commit/1cf251ca909d57798a0521d65c1974eb3ff0b31f"
+            "sha": "6c3fe92",
+            "branch": "issue-127031-v8-s2",
+            "date": "2026-11-09T21:13:48Z",
+            "url": "https://github.com/grafana/grafana/commit/6c3fe9257ed089794b602924dbf94817af7f88f6"
           }
         },
         {
