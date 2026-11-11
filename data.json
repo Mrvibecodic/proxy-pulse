@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T18:24:47.101625Z",
+  "generated_at": "2026-11-11T18:30:08.903787Z",
   "groups": [
     {
       "id": "cores",
@@ -1181,7 +1181,7 @@
             "stars": 4669,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-11T17:06:36Z",
+            "pushed_at": "2026-11-11T18:25:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1836,6 +1836,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5ddd2c3",
+                  "message": "tor: update to 0.4.9.16 stable",
+                  "author": "Rui Salvaterra",
+                  "date": "2026-11-11T18:25:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/5ddd2c318659c085100ced945b7e96efcdd892ed"
+                },
+                {
                   "sha": "f06a347",
                   "message": "ddns-scripts: use HTTPS for providers that support it",
                   "author": "Josef Schlehofer",
@@ -2037,13 +2044,6 @@
                   "author": "David Woodhouse",
                   "date": "2026-11-09T20:48:21Z",
                   "url": "https://github.com/openwrt/packages/commit/373e99f073beb991a41cfe9ec2bef116b2fef314"
-                },
-                {
-                  "sha": "1cc5d4c",
-                  "message": "rsync: update to 3.5.2",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-11-09T11:20:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/1cc5d4c5b8b6e57fde9dac55ab9e3367407b0160"
                 }
               ]
             },
@@ -4771,10 +4771,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3938566",
+            "sha": "1d36cbc",
             "branch": "main",
-            "date": "2026-11-10T19:56:30Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/39385669b248d466f9c9ea4e6b552a2b47f44151"
+            "date": "2026-11-10T19:56:23Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/1d36cbc59e2ef6ffc000ff5889561e363ea0bcb3"
           }
         },
         {
@@ -5299,7 +5299,7 @@
           "track": "releases",
           "meta": {
             "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-            "stars": 81369,
+            "stars": 81370,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-11T18:19:33Z",
