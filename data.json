@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T13:40:25.491660Z",
+  "generated_at": "2026-11-11T13:45:47.763313Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 42821,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T08:45:54Z",
+            "pushed_at": "2026-11-11T13:42:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f082058",
+            "sha": "c456141",
             "branch": "main",
-            "date": "2026-11-11T08:45:54Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/f082058590037e5c5363fd67017addbd2a3aecf3"
+            "date": "2026-11-11T13:42:32Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/c456141815359e1d2c00dfc673f5f26adf22fae2"
           }
         },
         {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35687,
+            "stars": 35688,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-11T07:00:42Z",
@@ -1190,7 +1190,7 @@
             "stars": 4670,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-11T11:32:53Z",
+            "pushed_at": "2026-11-11T13:44:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f06a347",
+                  "message": "ddns-scripts: use HTTPS for providers that support it",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T13:44:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/f06a3475a3db936613ef51bdf8ef8f0e8cac9835"
+                },
+                {
+                  "sha": "ff2d559",
+                  "message": "ddns-scripts: use HTTPS for providers that redirect to it",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-11T13:44:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/ff2d5594a609e7317367abf7dfd7341dbf330b43"
+                },
+                {
                   "sha": "9273f21",
                   "message": "ddns-scripts: switch simply.com to ddns.simply.com",
                   "author": "Tom Sommer",
@@ -2039,20 +2053,6 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-11-09T11:20:36Z",
                   "url": "https://github.com/openwrt/packages/commit/1cc5d4c5b8b6e57fde9dac55ab9e3367407b0160"
-                },
-                {
-                  "sha": "5a7284c",
-                  "message": "minizip: update to 4.2.2",
-                  "author": "David Woodhouse",
-                  "date": "2026-11-08T22:46:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a7284c15af9074df840dfeb12b9b0d0f4e6a4e5"
-                },
-                {
-                  "sha": "b8c339d",
-                  "message": "icu: bump to 79.1",
-                  "author": "Hirokazu MORIKAWA",
-                  "date": "2026-11-08T17:55:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/b8c339d57ccde650ae21367b0d1b3caaccdd9887"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77831,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T13:39:36Z",
+            "pushed_at": "2026-11-11T13:43:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "086f44e",
-            "branch": "hugoh/plugin-asserts",
-            "date": "2026-11-10T14:24:44Z",
-            "url": "https://github.com/grafana/grafana/commit/086f44ef16b7ac895a21e20a3d4e3f36a949e437"
+            "sha": "01241b5",
+            "branch": "main",
+            "date": "2026-11-10T15:08:33Z",
+            "url": "https://github.com/grafana/grafana/commit/01241b5311803815282b45d56d9a600c3ce1b01a"
           }
         },
         {
@@ -5243,7 +5243,7 @@
             "stars": 67626,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T13:40:17Z",
+            "pushed_at": "2026-11-11T13:41:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5444,10 +5444,10 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29154,
+            "stars": 29155,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-11T13:37:24Z",
+            "pushed_at": "2026-11-11T13:42:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88a7e21",
-            "branch": "implement-dataobj-deletion-sweep",
-            "date": "2026-11-10T16:06:38Z",
-            "url": "https://github.com/grafana/loki/commit/88a7e218266a812f4e0ceb354e07ac47015478db"
+            "sha": "7d43007",
+            "branch": "ivkalita/query-size-limit-split-reads",
+            "date": "2026-11-10T15:07:36Z",
+            "url": "https://github.com/grafana/loki/commit/7d4300787378e417ad108117341e6e17650e5704"
           }
         }
       ]
