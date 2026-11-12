@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T06:36:04.371167Z",
+  "generated_at": "2026-11-12T06:41:22.961474Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35700,
+            "stars": 35701,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-12T01:43:12Z",
@@ -4636,12 +4636,21 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T00:40:37Z",
+            "pushed_at": "2026-11-12T06:40:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
+            {
+              "name": "Xray core v26.11.9",
+              "tag": "stable",
+              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
+              "published_at": "2026-11-12T06:40:53Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.11.9\nна Go 1.27.4.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+            },
             {
               "name": "Xray core alpha c456141",
               "tag": "alpha",
@@ -4650,15 +4659,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "Ядро Xray, собранное из XTLS/Xray-core@c456141815359e1d2c00dfc673f5f26adf22fae2\nна Go 1.27.4.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
-            },
-            {
-              "name": "Xray core v26.11.9",
-              "tag": "stable",
-              "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/stable",
-              "published_at": "2026-11-09T07:27:33Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@v26.11.9\nна Go 1.27.3.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77855,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T05:52:09Z",
+            "pushed_at": "2026-11-12T06:41:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fa1979f",
-            "branch": "MissingRoberto/namespace-org-registration",
-            "date": "2026-11-11T07:25:21Z",
-            "url": "https://github.com/grafana/grafana/commit/fa1979f180c64c5f293a50a1beb39ae374bc4915"
+            "sha": "5f51850",
+            "branch": "dk/alert-quality-fix-scope",
+            "date": "2026-11-10T20:29:11Z",
+            "url": "https://github.com/grafana/grafana/commit/5f51850ac8d389e8665679e820e3ef26a42f79a1"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67560,
+            "stars": 67561,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-11T23:43:16Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c3ce7b8",
+            "sha": "00cfa20",
             "branch": "master",
-            "date": "2026-11-10T19:33:04Z",
-            "url": "https://github.com/netdata/netdata/commit/c3ce7b861ff4ff26f06f72223100874db51b1e99"
+            "date": "2026-11-11T07:31:55Z",
+            "url": "https://github.com/netdata/netdata/commit/00cfa2052e84fcff0491e18693c14217b512474f"
           }
         },
         {
