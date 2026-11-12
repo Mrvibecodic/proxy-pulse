@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T09:15:43.221840Z",
+  "generated_at": "2026-11-12T09:21:06.376184Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42847,
+            "stars": 42848,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-12T06:04:49Z",
@@ -5036,15 +5036,24 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93542,
+            "stars": 93543,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-12T09:09:07Z",
+            "pushed_at": "2026-11-12T09:20:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "2.5.11",
+              "tag": "2.5.11",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.11",
+              "published_at": "2026-11-12T09:20:06Z",
+              "prerelease": false,
+              "author": "louislam",
+              "body": "### ⬆️ Security Fixes\r\n- #8157 #8094 chore: Update dependencies \r\n- GHSA-437w-j82f-9vjh fix: [Admin Only] RCE via an upstream package\r\n"
+            },
             {
               "name": "2.5.10",
               "tag": "2.5.10",
@@ -5080,15 +5089,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n- #7989 fix: retries ignored by TCP Port monitor with SSL/STARTTLS\r\n\r\n### ⬆️ Security Fixes\r\n- [Docker] Images bumped to Node.js 22.23.4, now it rejects the leaked eMudhra 384 bit CA: `00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:04`. (Thanks @veteranbv)\r\n"
-            },
-            {
-              "name": "2.5.6",
-              "tag": "2.5.6",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.6",
-              "published_at": "2026-10-09T15:46:26Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n- #7886 fix: use UptimeCalculator for avg-response badge endpoint \r\n\r\n### ⬆️ Security Fixes\r\n- #7858 chore: Update dependencies \r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77856,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T09:15:28Z",
+            "pushed_at": "2026-11-12T09:20:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5311,7 +5311,7 @@
             "stars": 81379,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-12T09:14:21Z",
+            "pushed_at": "2026-11-12T09:20:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
