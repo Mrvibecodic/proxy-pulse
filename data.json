@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:09:15.620302Z",
+  "generated_at": "2026-11-12T21:14:35.205164Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35726,
+            "stars": 35727,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-12T01:43:12Z",
@@ -898,7 +898,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7857,
+            "stars": 7858,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-12T15:30:39Z",
@@ -4733,7 +4733,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2223,
+            "stars": 2224,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-12T19:22:07Z",
@@ -4867,7 +4867,7 @@
               "published_at": "2026-11-12T21:06:58Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.7.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.7.0\r\n\r\n## English\r\n\r\n- The web UI now supports more than one language. Right now those languages are English and Russian. The wording in both was checked and tightened.\r\n- Snell listeners accept version 6.\r\n- A Shadowsocks listener can serve several users. Each user has a password. One shared password is no longer the only option.\r\n- On amd64, the kernel download picks a Mihomo build the CPU can run. The plain amd64 build needs x86-64-v3, so older processors used to fail the check.\r\n- SSClash can run in server mode. Recent Xray-core versions brought compatibility trouble, and server mode is how you avoid it. In that mode, Add listener is the filled button, so the mode is harder to miss.\r\n\r\n## Русский\r\n\r\n- У веб-интерфейса появилась поддержка нескольких языков. Сейчас это русский и английский. Формулировки в обоих языках уточнены и выверены.\r\n- Слушатели Snell принимают версию 6.\r\n- Слушатель Shadowsocks может обслуживать нескольких пользователей. У каждого свой пароль. Один общий пароль больше не единственный вариант.\r\n- На amd64 загрузка ядра выбирает сборку Mihomo, которую процессор может выполнить. Обычная сборка amd64 требует x86-64-v3, поэтому на старых процессорах проверка не проходила.\r\n- SSClash умеет работать в режиме сервера. Последние версии Xray-core принесли проблемы совместимости, и режим сервера их снимает. В этом режиме кнопка «Добавить слушатель» залита, чтобы режим было труднее пропустить.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.6.0",
@@ -5166,7 +5166,7 @@
             "stars": 77871,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T21:00:14Z",
+            "pushed_at": "2026-11-12T21:12:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5726,12 +5726,21 @@
             "stars": 90,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T21:08:21Z",
+            "pushed_at": "2026-11-12T21:13:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.57.0",
+              "tag": "0.57.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.57.0",
+              "published_at": "2026-11-12T21:12:22Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.57.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.57.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.57.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/53\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.56.0...0.57.0"
+            },
             {
               "name": "0.56.0",
               "tag": "0.56.0",
@@ -5767,15 +5776,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.53.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.53.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.53.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/45\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.52.0...0.53.0"
-            },
-            {
-              "name": "0.52.0",
-              "tag": "0.52.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.52.0",
-              "published_at": "2026-10-30T13:50:36Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.52.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.52.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.52.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/44\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.51.1...0.52.0"
             }
           ],
           "last_commit": {
