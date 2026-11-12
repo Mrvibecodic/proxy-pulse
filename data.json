@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T18:39:39.164048Z",
+  "generated_at": "2026-11-12T18:44:59.708487Z",
   "groups": [
     {
       "id": "cores",
@@ -502,7 +502,7 @@
             "stars": 18,
             "url": "https://github.com/Mrvibecodic/clod-clash",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T18:36:11Z",
+            "pushed_at": "2026-11-12T18:40:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/288334443?v=4",
             "owner": "Mrvibecodic"
@@ -543,15 +543,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Исправлено\n\n- Если после запуска, сна или смены сети через туннель ничего не идёт, подключение восстанавливается само — без ручного выключения и включения TUN\n- Журнал программы за текущий запуск больше не удаляется посреди работы\n\n### Изменено\n\n- Журнал ядра хранится целиком за запуск, а записи о соединениях — отдельным файлом за последние час-два\n- «Выгрузить логи в архив» отдаёт журналы за весь текущий запуск программы, записи о соединениях — за последние час-два и без адресов"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.15-alpha.1",
-              "tag": "clod-v0.1.15-alpha.1",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.1",
-              "published_at": "2026-11-05T15:06:35Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Исправлено\n\n- Если в настройках не было записи о теме, окно не следовало теме системы и теме провайдера\n- «Исправить» у плашки TUN на Главной и починка службы в настройках включают TUN тем же путём, что и тумблер, и запоминают выбранный режим\n- Предупреждение режима цепочки на странице «Прокси» показывается один раз, в панели цепочки\n- Набранное в поиске на странице «Прокси» терялось, если строка поиска уходила с экрана раньше чем через секунду\n- Подписка, добавленная по ссылке, сообщает об итоге и применяется так же, как добавленная из окна\n\n### Изменено\n\n- Страница «Подписки» и окна настроек делают меньше лишней работы: один общий таймер, меньше повторных запросов\n- Новое окно сразу открывается размером своего режима, без лишних перестановок\n- Уборка внутренних дублей и неиспользуемого кода без изменения поведения"
             }
           ],
           "last_commit": {
@@ -1099,10 +1090,10 @@
             }
           ],
           "last_commit": {
-            "sha": "aa40fad",
-            "branch": "feat/core-fragment-opts",
-            "date": "2026-11-11T10:22:19Z",
-            "url": "https://github.com/Nemu-x/ClashFest/commit/aa40fad10d3deef9a7c90e155d5367b6a22d4979"
+            "sha": "3006dec",
+            "branch": "feat/core-reality-mlkem-fingerprint",
+            "date": "2026-11-11T10:00:12Z",
+            "url": "https://github.com/Nemu-x/ClashFest/commit/3006dec4c2087670fbec27c67c447d2c0369d9ef"
           }
         }
       ]
@@ -5104,15 +5095,24 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27254,
+            "stars": 27255,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T18:31:15Z",
+            "pushed_at": "2026-11-12T18:44:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/8519632?v=4",
             "owner": "henrygd"
           },
           "releases": [
+            {
+              "name": "v0.21.2",
+              "tag": "v0.21.2",
+              "url": "https://github.com/henrygd/beszel/releases/tag/v0.21.2",
+              "published_at": "2026-11-12T18:44:44Z",
+              "prerelease": false,
+              "author": "henrygd",
+              "body": "## What's Changed\r\n- Add an actions menu with alert settings to the system detail page (#2803)\r\n- Add `FAN_SENSORS` to include or exclude fan sensors (#2713)\r\n- Add styled HTML alert emails (#2697)\r\n- Add `no_self_update` build tag to disable hub and agent self-updates (#2724)\r\n- Add warnings for missing automatic login users and trusted proxy configuration (#2824, #2812)\r\n- Add video encode/decode engine usage to GPU metrics when using nvtop (#2749)\r\n- Limit sign-in attempts to 10 per minute per address (#2642)\r\n- Improve GPU collection retries and back off slow or repeatedly failing reads (#2705, #2687, #2709, #2656)\r\n- Fix hub crashes caused by null entries in agent data (#2834)\r\n- Fix agent health checks incorrectly reporting disconnected agents as healthy (#2825)\r\n- Fix agent connections timing out while waiting for a slow hub (#2772)\r\n- Fix container requests being canceled by requests for other systems (#2838)\r\n- Fix agents being able to overwrite another system's container, service, S.M.A.R.T., or ZFS records (#2835)\r\n- Fix non-admin users being able to change system users\r\n- Fix missing permission checks when moving network monitors between systems (#2714)\r\n- Fix container refreshes overlapping the initial load on the All Containers page\r\n- Fix system users being overwritten when editing a system\r\n- Fix network monitors remaining on the old agent after moving to another system (#2739)\r\n- Fix bulk monitor copy and import for URLs containing commas (#2716)\r\n- Fix alerts not all being saved when enabling multiple alerts quickly (#2781)\r\n- Fix automatic login briefly showing the login form and making redundant requests (#2810)\r\n- Fix password validation on the initial setup form (#2744, #2745)\r\n- Fix hub updates failing due to database access, working directory, or SELinux context issues (#2800, #2801, #2794)\r\n- Fix historical averages including records from the previous interval (#2807)\r\n- Fix failed systemd services being omitted when they have never been active (#2776, #2777)\r\n- Fix NVMe S.M.A.R.T. data being lost when large counters exceed 64 bits (#2732)\r\n- Fix degraded RAID1 arrays with remaining redundancy being reported as failed (#2760)\r\n- Fix LXC memory usage incorrectly subtracting the host's ZFS ARC (#2767)\r\n- Fix swap reporting on macOS (#2778)\r\n- Fix container CPU counts to respect assigned CPU sets (#2728)\r\n- Fix AMD GPU memory usage including GTT on devices without unified memory (#2715)\r\n- Fix stale dnf5 metadata in package update checks (#2790)\r\n- Fix battery data decoding with Go's experimental JSON implementation (#2746, #2748)\r\n- Fix the agent's `-k` flag not accepting a key file path (#2764, #2765)\r\n- Fix unreported S.M.A.R.T. power-on hours and cycles showing as zero (#2719)\r\n- Update Go and Go dependencies\r\n\r\n## New Contributors\r\n* @BiFangKNT made their first contribution in https://github.com/henrygd/beszel/pull/2685\r\n* @metronom72 made their first contribution in https://github.com/henrygd/beszel/pull/2729\r\n* @lightsabit made their first contribution in https://github.com/henrygd/beszel/pull/2656\r\n* @cobalt-kite12 made their first contribution in https://github.com/henrygd/beszel/pull/2687\r\n* @sghng made their first contribution in https://github.com/henrygd/beszel/pull/2758\r\n* @aditya-rai-5 made their first contribution in https://github.com/henrygd/beszel/pull/2748\r\n* @pcbeingused333 made their first contribution in https://github.com/henrygd/beszel/pull/2715\r\n* @duongynhi000005-oss made their first contribution in https://github.com/henrygd/beszel/pull/2714\r\n* @crispyaus made their first contribution in https://github.com/henrygd/beszel/pull/2790\r\n* @rowschank made their first contribution in https://github.com/henrygd/beszel/pull/2801\r\n* @kevin9327 made their first contribution in https://github.com/henrygd/beszel/pull/2799\r\n* @Karanvir1729 made their first contribution in https://github.com/henrygd/beszel/pull/2781\r\n* @m1h4 made their first contribution in https://github.com/henrygd/beszel/pull/2810\r\n* @ColumbusLabs made their first contribution in https://github.com/henrygd/beszel/pull/2732\r\n* @toothywalrus made their first contribution in https://github.com/henrygd/beszel/pull/2812\r\n* @HocVoNgThai made their first contribution in https://github.com/henrygd/beszel/pull/2716\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.21.1...v0.21.2"
+            },
             {
               "name": "v0.21.1",
               "tag": "v0.21.1",
@@ -5148,15 +5148,6 @@
               "prerelease": false,
               "author": "henrygd",
               "body": ":warning:  **Potential breaking change:** Agents now verify HTTPS certificates. If an agent connects to a hub using a self-signed or otherwise untrusted certificate, configure `CA_CERT_FILE` with the appropriate CA certificate or the connection will be rejected.\r\n\r\n## What's Changed\r\n- Add ZFS pool and dataset monitoring (#2209)\r\n- Add container health alerts with log excerpts in notifications (#2225)\r\n- Add alerts for failed systemd services (#2173)\r\n- Add alerts for CPU I/O wait and steal time (#2249)\r\n- Add cumulative disk read and write totals to the Disk I/O sheet (#2179)\r\n- Add Greek and Uzbek translations (#2034)\r\n- Add custom root disk names and sort disks alphabetically (#2006)\r\n- Improve alert security by enforcing system ownership and blocking additional internal notification URL ranges\r\n- Improve ATA SMART warnings for critical attributes (#2275)\r\n- Fix a hub crash caused by concurrent SSH client shutdown (#2277)\r\n- Fix host CPU and memory totals when Docker runs in a VM on macOS or Windows (#2272)\r\n- Fix multi-line `TOKEN_FILE` loading (#2276)\r\n- Fix QNAP MD RAID arrays being incorrectly reported as failed (#2065)\r\n- Fix Intel GPU power data disappearing between samples (#2256)\r\n- Fix swap usage calculations to include cached swap (#2267)\r\n- Fix agent payload failures caused by invalid UTF-8 in battery names (#2241)\r\n- Fix uptime reporting inside Linux containers (#2180)\r\n- Fix fan discovery on legacy hwmon devices (#2238)\r\n- Fix CPU model detection on MIPS systems (#2138)\r\n- Fix machine ID generation on FreeBSD and pfSense installations (#2274)\r\n- Fix agent environment variable updates during reinstall (#2107)\r\n- Fix the install script reporting the wrong listen address after upgrades (#2243)\r\n- Fix load average precision on macOS, BSD, and Windows (#2245)\r\n- Update the Go version and Go dependencies\r\n\r\n## New Contributors\r\n* @IlyaMur made their first contribution in https://github.com/henrygd/beszel/pull/2238\r\n* @alecrubin made their first contribution in https://github.com/henrygd/beszel/pull/2180\r\n* @toomore made their first contribution in https://github.com/henrygd/beszel/pull/2241\r\n* @mews-se made their first contribution in https://github.com/henrygd/beszel/pull/2243\r\n* @justadityaraj made their first contribution in https://github.com/henrygd/beszel/pull/2245\r\n* @wassupluke made their first contribution in https://github.com/henrygd/beszel/pull/2256\r\n* @ErkinjonYusupov made their first contribution in https://github.com/henrygd/beszel/pull/2034\r\n* @snh made their first contribution in https://github.com/henrygd/beszel/pull/2279\r\n* @spatiumstas made their first contribution in https://github.com/henrygd/beszel/pull/2249\r\n* @martinstenrose made their first contribution in https://github.com/henrygd/beszel/pull/2173\r\n* @mleczakm made their first contribution in https://github.com/henrygd/beszel/pull/2225\r\n* @santhiprakash made their first contribution in https://github.com/henrygd/beszel/pull/2269\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.8...v0.19.0"
-            },
-            {
-              "name": "v0.18.8",
-              "tag": "v0.18.8",
-              "url": "https://github.com/henrygd/beszel/releases/tag/v0.18.8",
-              "published_at": "2026-08-17T21:31:00Z",
-              "prerelease": false,
-              "author": "henrygd",
-              "body": "## What's Changed\r\n- Add multi-battery monitoring\r\n- Add Linux fan RPM monitoring (#2032)\r\n- Add Intel Arc GPU monitoring through `nvtop` (#2020, #2223)\r\n- Add CPU and ACPI thermal zone monitoring on FreeBSD (#2227)\r\n- Add popup-free OAuth login when `OAUTH_DISABLE_POPUP=true` (#2171)\r\n- Add a `:slim` NVIDIA agent container image (#2002, #2003)\r\n- Add Intel sysfs GPU power collector (Xe/i915 hwmon energy counters) - #2020\r\n- Add ARMv5 and ARMv6 builds, and ARM64 support for the NVIDIA agent image (#1884, #2207)\r\n- Improve mdraid consistency checks (fixes false positives) (#2067)\r\n- Improve SMART device detection for shared paths and explicit device type hints (#2102)\r\n- Improve agent startup after OPNsense and pfSense reboots (#2089, #2214)\r\n- Improve SSH-pull agent reconnection when connections silently fail (#2126)\r\n- Add checksum verification and archive path containment to update process \r\n- Add public key display to universal token settings (#2028)\r\n- Add system theme selection in addition to light/dark mode (#1903)\r\n- Add support for showing all IP and port mappings for containers bound to multiple IPs (#1993)\r\n- Fix stale SMART records when drives are no longer reported (#2178)\r\n- Fix Docker memory charts and container statistics after malformed or backwards Docker counters (#2027, #2066, #2205)\r\n- Fix memory calculation underflow and Linux battery percentages (#1978, #1957)\r\n- Improve connection source IP detection behind proxies (#1973)\r\n- Add EXIT_ON_INITIAL_FAILURE environment variable by @utafrali in https://github.com/henrygd/beszel/pull/1929\r\n- Allow agent to connect to hub via SOCKS5 proxy by @marmelo in https://github.com/henrygd/beszel/pull/1919\r\n- Use rfcEmail validator to allow IDN/Punycode email addresses by @BootstrapperSBL in https://github.com/henrygd/beszel/pull/1935\r\n- Prevent a malformed Docker response from permanently breaking container stats by @Quadrubo in https://github.com/henrygd/beszel/pull/2066\r\n- Update Go and JavaScript dependencies (fixes Matrix notification issues)\r\n- Other small fixes and improvements\r\n\r\n## New Contributors\r\n* @y0tka made their first contribution in https://github.com/henrygd/beszel/pull/1903\r\n* @FlintyLemming made their first contribution in https://github.com/henrygd/beszel/pull/1899\r\n* @alrs made their first contribution in https://github.com/henrygd/beszel/pull/1908\r\n* @bl4ckswordsman made their first contribution in https://github.com/henrygd/beszel/pull/1906\r\n* @marmelo made their first contribution in https://github.com/henrygd/beszel/pull/1919\r\n* @utafrali made their first contribution in https://github.com/henrygd/beszel/pull/1929\r\n* @Iriome-Santana made their first contribution in https://github.com/henrygd/beszel/pull/2001\r\n* @dependabot[bot] made their first contribution in https://github.com/henrygd/beszel/pull/2187\r\n* @Anikesh348 made their first contribution in https://github.com/henrygd/beszel/pull/2214\r\n* @polter-rnd made their first contribution in https://github.com/henrygd/beszel/pull/2171\r\n* @Quadrubo made their first contribution in https://github.com/henrygd/beszel/pull/2066\r\n* @kobihikri made their first contribution in https://github.com/henrygd/beszel/pull/2159\r\n* @rajkumaar23 made their first contribution in https://github.com/henrygd/beszel/pull/2207\r\n* @ryanchou1994 made their first contribution in https://github.com/henrygd/beszel/pull/2205\r\n* @TowyTowy made their first contribution in https://github.com/henrygd/beszel/pull/2126\r\n* @mhlas7 made their first contribution in https://github.com/henrygd/beszel/pull/2089\r\n* @maxmaxme made their first contribution in https://github.com/henrygd/beszel/pull/2032\r\n* @venku122 made their first contribution in https://github.com/henrygd/beszel/pull/2020\r\n* @miloszkolber made their first contribution in https://github.com/henrygd/beszel/pull/2223\r\n* @SAY-5 made their first contribution in https://github.com/henrygd/beszel/pull/1968\r\n* @DQ-Kwon made their first contribution in https://github.com/henrygd/beszel/pull/2003\r\n* @QuantumFlux21 made their first contribution in https://github.com/henrygd/beszel/pull/2227\r\n\r\n**Full Changelog**: https://github.com/henrygd/beszel/compare/v0.18.7...v0.18.8"
             }
           ],
           "last_commit": {
@@ -5172,10 +5163,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77863,
+            "stars": 77864,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T18:34:45Z",
+            "pushed_at": "2026-11-12T18:44:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5364,10 +5355,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d2c037a",
-            "branch": "master",
-            "date": "2026-11-11T11:10:19Z",
-            "url": "https://github.com/netdata/netdata/commit/d2c037a448e6e291bca99ae17498900bec036cf4"
+            "sha": "bd6884a",
+            "branch": "v2.12-rust-advisories",
+            "date": "2026-11-11T08:58:14Z",
+            "url": "https://github.com/netdata/netdata/commit/bd6884a9d77020b4d4c6cbe2684ef1ffa7f21882"
           }
         },
         {
@@ -5447,7 +5438,7 @@
             "stars": 29169,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T18:39:04Z",
+            "pushed_at": "2026-11-12T18:42:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
