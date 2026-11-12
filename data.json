@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:38:03.661915Z",
+  "generated_at": "2026-11-12T01:43:23.521303Z",
   "groups": [
     {
       "id": "cores",
@@ -152,12 +152,21 @@
             "stars": 35691,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T01:13:57Z",
+            "pushed_at": "2026-11-12T01:43:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
           },
           "releases": [
+            {
+              "name": "Prerelease-Alpha",
+              "tag": "Prerelease-Alpha",
+              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
+              "published_at": "2024-08-12T17:01:02Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "Release created at  Thu Nov 12 09:43:12 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: use correct format verb for subscription-userinfo parse errors by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/3455\n\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.34...Prerelease-Alpha"
+            },
             {
               "name": "v1.19.34",
               "tag": "v1.19.34",
@@ -166,15 +175,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "## What's Changed\n* 2d1a22e3 feat: support multiple users for shadowsocks listener (#3383) by @Romanov Caesar\n* f1f640b1 feat: add Snell version 6 support (outbound + inbound) (#3410) by @YONG\n* ff179c43 feat: add ss-password generation functionality to the command line tool (#3372) by @Zephyruso\n\n## BUG \u0026 Fix\n* 478af2a5 fix: auto route rules for tun by @wwqgtxx\n* 5b79f3c3 fix: tfo-go not working on go1.26.9+ and go1.27.2+ by @wwqgtxx\n* 6780eeeb fix: prevent SOCKS domain length arithmetic overflow (#3359) by @SaladDay\n* 69c16319 fix: keep bytes that arrive with the HTTP proxy's CONNECT response (#3382) by @Gtio\n* 9002a4fe fix: easytier drain unused host packets to prevent data-plane stalls (#3400) by @Chikage0o0\n* b6a15182 fix: i386 struct define of PROCESS_MEMORY_COUNTERS by @wwqgtxx\n* c3bdf779 fix: skip empty age secret key in DecryptBytes (#3450) by @Sloan Gray\n* ca8d7c41 fix: ssh clients do not close when underlying connection writing errors by @wwqgtxx\n* de439c88 fix: drain cached data before reading upstream by @wwqgtxx\n* e9b9a1a8 fix: convert httpupgrade share links to ws with v2ray-http-upgrade (#3415) by @Aleksey Fedorov\n\n## Maintenance\n* 0455d0d2 chore: bump embedded easytier-go core to keep guest memory off the Go heap (#3454) by @MiaM1ku\n* 91e85eeb chore: allow mieru inbound to actively close idle TCP connection (#3354) by @enfein\n* 94666818 chore: code cleanup by @wwqgtxx\n* f7ec2b9a chore: update utls to go1.26-based by @wwqgtxx\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.33...v1.19.34\n"
-            },
-            {
-              "name": "Prerelease-Alpha",
-              "tag": "Prerelease-Alpha",
-              "url": "https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha",
-              "published_at": "2024-08-12T17:01:02Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "Release created at  Wed Nov 11 14:23:28 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* chore: allow mieru inbound to actively close idle TCP connection by @enfein in https://github.com/MetaCubeX/mihomo/pull/3354\n* fix: prevent SOCKS domain length arithmetic overflow by @SaladDay in https://github.com/MetaCubeX/mihomo/pull/3359\n* feat: add ss-password generation functionality to the command line tool by @Zephyruso in https://github.com/MetaCubeX/mihomo/pull/3372\n* fix: keep bytes that arrive with the HTTP proxy's CONNECT response by @gtoxlili in https://github.com/MetaCubeX/mihomo/pull/3382\n* feat: add Snell version 6 support (outbound + inbound) by @hungrybirder in https://github.com/MetaCubeX/mihomo/pull/3410\n* fix(easytier): drain unused host packets to prevent data-plane stalls by @Chikage0o0 in https://github.com/MetaCubeX/mihomo/pull/3400\n* fix: convert httpupgrade share links to ws with v2ray-http-upgrade by @Dv2Corn in https://github.com/MetaCubeX/mihomo/pull/3415\n* feat: support multiple users for shadowsocks listener by @RomanovCaesar in https://github.com/MetaCubeX/mihomo/pull/3383\n* fix: skip empty age secret key in DecryptBytes by @styrigx in https://github.com/MetaCubeX/mihomo/pull/3450\n* perf(easytier-go): bump embedded core to keep guest memory off the Go heap by @MiaM1ku in https://github.com/MetaCubeX/mihomo/pull/3454\n\n## New Contributors\n* @SaladDay made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3359\n* @gtoxlili made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3382\n* @hungrybirder made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3410\n* @Chikage0o0 made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3400\n* @Dv2Corn made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3415\n* @styrigx made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3450\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.33...Prerelease-Alpha"
             },
             {
               "name": "v1.19.33",
@@ -5871,7 +5871,7 @@
             "stars": 8310,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T01:37:04Z",
+            "pushed_at": "2026-11-12T01:42:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
