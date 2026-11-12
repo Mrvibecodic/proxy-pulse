@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:14:35.205164Z",
+  "generated_at": "2026-11-12T21:20:59.496094Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.15-alpha.6",
+              "tag": "clod-v0.1.15-alpha.6",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.6",
+              "published_at": "2026-11-12T21:17:04Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Исправлено\n\n- При запуске с включённым TUN трафик сразу идёт через туннель — раньше первые секунды он мог идти мимо, пока подключение не восстанавливалось само\n- На главном экране под сервером, выбранным напрямую, снова видно его описание\n- У маленьких текстовых кнопок текст не прижат к краям подсветки\n- Окно установки на macOS — со своим фоном и подсказкой на русском и английском"
+            },
+            {
               "name": "Clod Clash clod-v0.1.15-alpha.5",
               "tag": "clod-v0.1.15-alpha.5",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.5",
@@ -697,7 +706,7 @@
             "stars": 1543,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T20:52:43Z",
+            "pushed_at": "2026-11-12T21:19:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
@@ -4733,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2224,
+            "stars": 2225,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-12T19:22:07Z",
@@ -5163,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77871,
+            "stars": 77872,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-12T21:12:07Z",
+            "pushed_at": "2026-11-12T21:19:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2e57162",
-            "branch": "mdv/panel-option-interpolation-ui",
-            "date": "2026-11-11T12:39:49Z",
-            "url": "https://github.com/grafana/grafana/commit/2e57162c0315cfd06231492b78812c62fe5f2857"
+            "sha": "7280703",
+            "branch": "fix-focus-ring-outline",
+            "date": "2026-11-12T13:58:55Z",
+            "url": "https://github.com/grafana/grafana/commit/72807037235cca83205a056629cf82f3b7ce53b2"
           }
         },
         {
@@ -5231,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67592,
+            "stars": 67593,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-11T23:43:16Z",
@@ -5302,7 +5311,7 @@
             "stars": 81382,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-12T20:39:07Z",
+            "pushed_at": "2026-11-12T21:17:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5355,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f068d68",
-            "branch": "patch/docs-god-job-labels",
-            "date": "2026-11-12T12:25:24Z",
-            "url": "https://github.com/netdata/netdata/commit/f068d684eb1c597e23a18fb06f80dd0e30fce1cc"
+            "sha": "f941793",
+            "branch": "master",
+            "date": "2026-11-12T21:17:17Z",
+            "url": "https://github.com/netdata/netdata/commit/f941793524415329d37a42935f2b4fdd3cdab2e1"
           }
         },
         {
