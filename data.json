@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:38:43.705448Z",
+  "generated_at": "2026-11-13T12:44:02.582977Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1581,
+            "stars": 1582,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-05T01:29:49Z",
@@ -910,7 +910,7 @@
             "stars": 7869,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-13T12:26:47Z",
+            "pushed_at": "2026-11-13T12:42:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5442dd3",
+            "sha": "b1a2714",
             "branch": "main",
-            "date": "2026-11-11T19:29:24Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/5442dd324479d25941bebe7c8024fac15c970c95"
+            "date": "2026-11-11T19:30:28Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/b1a2714842459c47c66a435dcbe0bfb05b85810c"
           }
         },
         {
@@ -4863,12 +4863,21 @@
             "stars": 160,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-13T11:59:53Z",
+            "pushed_at": "2026-11-13T12:39:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "7.7.1",
+              "tag": "7.7.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/7.7.1",
+              "published_at": "2026-11-13T12:39:00Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash 7.7.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/7.7.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.7.0",
               "tag": "v7.7.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.5.0\r\n\r\n### Update SSClash from Settings\r\n\r\nYou can update the SSClash binary from the web UI the same way you update Mihomo.\r\n\r\n1. Open **Settings**.\r\n2. Use the **SSClash** card (above **Mihomo kernel**).\r\n3. Click **Check updates** to read the latest stable release from GitHub.\r\n4. Click **Download / Update** to install `ssclash` into `/opt/clash/bin/ssclash` and restart the service.\r\n\r\nSSClash does not check for updates in the background. Only stable releases are used.\r\n\r\n### Requirements\r\n\r\n- The router must reach GitHub.\r\n- On Linux, the service account must be allowed to run `systemctl restart ssclash.service`.\r\n\r\n### If restart fails after download\r\n\r\nThe new binary is already on disk. On OpenWrt and Keenetic the supervisor starts it. On Linux, Settings shows a restart error and you run:\r\n\r\n```bash\r\nsystemctl restart ssclash.service\r\n```\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.4.5",
-              "tag": "v7.4.5",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.4.5",
-              "published_at": "2026-10-24T16:52:58Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.4.5\r\n\r\nfix(clashcfg): inject HWID headers into indented proxy-providers.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27299,
+            "stars": 27300,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-12T19:13:06Z",
@@ -5311,7 +5311,7 @@
             "stars": 81392,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-13T12:37:04Z",
+            "pushed_at": "2026-11-13T12:42:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
