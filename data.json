@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T12:44:02.582977Z",
+  "generated_at": "2026-11-13T12:49:21.292993Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1545,
+            "stars": 1546,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-13T04:14:33Z",
@@ -910,7 +910,7 @@
             "stars": 7869,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
-            "pushed_at": "2026-11-13T12:42:22Z",
+            "pushed_at": "2026-11-13T12:46:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/220557208?v=4",
             "owner": "throneproj"
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16394,
+            "stars": 16395,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-04T10:58:19Z",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-11-13T12:39:00Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash 7.7.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/7.7.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash 7.7.1\r\n\r\n- A large fake-ip whitelist used to start a separate process for every network. Those processes added their own load, and the page stayed quiet, so a start looked frozen. The list now loads in one process. A restart builds the file once. While the list is built or loaded, a note stays under the header and says a large list can take several minutes. The same work is written to the log.\r\n- Empty lists for ports, DSCP marks, and reserved networks now follow the page language. The Fake-IP entry count does too.\r\n- The install guide was rewritten in English and Russian.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.7.0",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93633,
+            "stars": 93638,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-13T00:05:02Z",
@@ -5175,7 +5175,7 @@
             "stars": 77875,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-13T12:35:29Z",
+            "pushed_at": "2026-11-13T12:47:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
