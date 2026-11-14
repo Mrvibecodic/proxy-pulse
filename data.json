@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:37:27.019184Z",
+  "generated_at": "2026-11-14T12:42:44.550993Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35765,
+            "stars": 35764,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-14T09:02:01Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7879,
+            "stars": 7880,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-14T01:46:45Z",
@@ -1190,7 +1190,7 @@
             "stars": 4672,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T11:10:30Z",
+            "pushed_at": "2026-11-14T12:40:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "6a7c887",
+                  "message": "git: update to 2.50.2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-14T12:40:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/6a7c887861d10a16f6ccbcdeb7f4e33775dd06a0"
+                },
+                {
                   "sha": "f8721fb",
                   "message": "keepalived: fix empty status from rpcd dump",
                   "author": "Alexander Wilhelm",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-10T14:18:10Z",
                   "url": "https://github.com/openwrt/packages/commit/6f1644ff1c15e5fc7a9eb9855886a140e56dca25"
-                },
-                {
-                  "sha": "12ec335",
-                  "message": "ddns-scripts: update to 2.8.5",
-                  "author": "Andy Chiang",
-                  "date": "2026-11-10T07:40:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/12ec335dae2fcfb84c5d33a5bfddfe84e10dc06d"
                 }
               ]
             },
@@ -4321,10 +4321,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6cccca1",
-            "branch": "dependabot/mihomo-alpha",
-            "date": "2026-11-12T00:22:11Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/6cccca1a9456cd50f658bc14e4dfa9db244c5e14"
+            "sha": "9adc2d6",
+            "branch": "dependabot/mihomo-meta",
+            "date": "2026-11-12T00:22:12Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/9adc2d693512e301ac92819b43e6699006d1e60d"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94054,
+            "stars": 94056,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T11:48:02Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "d7a4c99",
-            "branch": "main",
-            "date": "2026-11-12T13:27:49Z",
-            "url": "https://github.com/grafana/grafana/commit/d7a4c99a614552cb239297dea19ff19338b39935"
+            "sha": "77b2d3c",
+            "branch": "renovate/react-inlinesvg-4.x-lockfile",
+            "date": "2026-11-12T14:26:46Z",
+            "url": "https://github.com/grafana/grafana/commit/77b2d3c8e3ccc169cd6d56a6012b3e8734e3a704"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "66cc911",
-            "branch": "main",
-            "date": "2026-11-12T14:23:22Z",
-            "url": "https://github.com/grafana/loki/commit/66cc911a82e969226f184307e9fef67afc7e62e9"
+            "sha": "9e7dc4c",
+            "branch": "2026.11.10-TR-queries",
+            "date": "2026-11-12T14:27:31Z",
+            "url": "https://github.com/grafana/loki/commit/9e7dc4cbd3c4bb5e5ae3c832667d51f1fd07b211"
           }
         }
       ]
