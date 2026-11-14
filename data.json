@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T11:07:25.562802Z",
+  "generated_at": "2026-11-14T11:12:41.685136Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42897,
+            "stars": 42898,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-13T19:55:58Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35763,
+            "stars": 35764,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-14T09:02:01Z",
@@ -1190,7 +1190,7 @@
             "stars": 4672,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T01:24:03Z",
+            "pushed_at": "2026-11-14T11:10:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f8721fb",
+                  "message": "keepalived: fix empty status from rpcd dump",
+                  "author": "Alexander Wilhelm",
+                  "date": "2026-11-14T11:10:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/f8721fb6412ed82c1c3a4428d52564a898816f32"
+                },
+                {
                   "sha": "b986e7a",
                   "message": "libjpeg-turbo: add host build",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Andy Chiang",
                   "date": "2026-11-10T07:40:13Z",
                   "url": "https://github.com/openwrt/packages/commit/12ec335dae2fcfb84c5d33a5bfddfe84e10dc06d"
-                },
-                {
-                  "sha": "3b8bb88",
-                  "message": "ddns-scripts: use retry interval on error 127",
-                  "author": "Andy Chiang",
-                  "date": "2026-11-10T07:40:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/3b8bb883c2b4980b06e4bd220d572ae7e6f80f42"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94022,
+            "stars": 94026,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T10:27:30Z",
@@ -5311,7 +5311,7 @@
             "stars": 81408,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T06:16:16Z",
+            "pushed_at": "2026-11-14T11:12:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
