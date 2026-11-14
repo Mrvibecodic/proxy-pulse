@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T16:46:29.285492Z",
+  "generated_at": "2026-11-14T16:51:46.520629Z",
   "groups": [
     {
       "id": "cores",
@@ -1053,6 +1053,15 @@
           },
           "releases": [
             {
+              "name": "🦥 ClashFest v1.4.0",
+              "tag": "v1.4.0",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.4.0",
+              "published_at": "2026-11-14T16:47:04Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Desync without a VPN server, desync on top of your subscription, mihomo 1.19.34 and Xray 26.11.9 compatibility.\n\n## 🧩 New — Desync: open blocked services without a VPN server\n\nSome blocking systems only read the first message of a connection. Desync sends it in a shape they fail to read, and the connection goes **directly** to the service — no VPN server, no extra hop.\n\n- **Desync only (no VPN).** A profile that needs no subscription: pick YouTube, Discord, Instagram and other services (or add your own domains), and they open directly. Everything else stays untouched.\n- **Desync for services — on top of a subscription.** In the profile menu of a subscription: the chosen services go direct with desync **when it works on your network**, and through the subscription as before when it does not. The app checks in the background and switches by itself; DNS and the subscription's own rules and groups are not changed.\n- **Automatic strategy.** Networks block in different ways, so ClashFest tries several strategies per service, keeps one that actually transfers data, and rechecks every 10 minutes. You can still pick one by hand.\n- **Shows what it does.** The Home card says `Desync: YouTube, Instagram`, `checking`, or `everything through the VPN`.\n- **Providers stay in control.** The `X-Desync` subscription header allows it (default), turns it on by default, or denies it for a subscription.\n\n## ⚙️ Core — mihomo 1.19.34\n\n- **Newer TLS fingerprints**: utls 1.9.0 with Firefox 148 and Safari 26.3 hellos and QUIC / ECH fixes.\n- **Snell v6** support (the core warns about the unencrypted `unsafe-raw` mode).\n- Fixes for SOCKS, HTTP CONNECT, SSH and EasyTier outbounds, newer sing / sing-tun.\n\n## 🔐 Xray 26.11.9 compatibility\n\n- **`chrome155` fingerprint** (Chrome 155, as in Xray 26.11.9) and REALITY client version **26.11.9** by default.\n- **ML-KEM choice holds on bad networks.** A dropped connection no longer counts as the server refusing ML-KEM, so the choice doesn't flip on a shaky link; `chrome120` and other non-ML-KEM fingerprints connect to new Xray servers again.\n- **New proxy keys** for panels: `reality-opts.mlkem-client-fingerprint`, `fragment-opts` (split the first ClientHello, Xray-style), opt-in VLESS `mux.cool` (Mux.Cool + XUDP), and `chrome` when REALITY has no `client-fingerprint`.\n- **Faster XHTTP packet-up** (up to 8 uploads in flight) and steadier gRPC / XHTTP connections.\n- **One bad node no longer breaks a subscription.** An unusable `fragment-opts`, `mux.cool`, `client-version` or `mlkem-client-fingerprint` is now ignored with a warning in the log, instead of the whole profile being rejected.\n- **Citrus beta.3** configs keep working (XDrive fixes, compatibility suite pinned to v1.0.0-beta.3).\n\n## 🛠️ Fixes\n\n- **One ClashFest window in Recents.** Opening a subscription link, a notification or the Quick Settings tile no longer leaves a second (sometimes blank) ClashFest card.\n- **Rules Save button no longer hides under 3-button navigation.**\n- **Home update button works for Desync profiles** — it regenerates the profile from its settings.\n- **More air in the node picker** around an expanded group.\n- **Lighter operator logos** — branded subscriptions decode their logo at display size, using less memory.\n- **Share links in logs no longer show credentials** when a link fails to parse.\n- **Background config checks no longer touch the engine's cache file.**\n\n## ⚠️ Heads-up — Android 6.0 or newer\n\nClashFest now needs **Android 6.0+** (it was 5.0+): Material Components 1.14 no longer supports Android 5.x. Phones on Android 5.0–5.1 stay on v1.3.0. The Google Play build already required Android 7.0+ and is unchanged.\n\n---\n\n🧪 Tested on-device: Motorola razr 40 (Android 15) — Desync only and desync on top of a subscription (YouTube, Instagram, Discord), mihomo 1.19.34 core with a real subscription, a subscription with unusable proxy options; Xray lab 24.12.31 → 26.11.9 for REALITY, ML-KEM, fragment-opts, mux.cool and XHTTP.\n\n## What's Changed\n* perf(branding): downsample operator logos when decoding by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/276\n* build(deps): Material Components 1.14 and minSdk 23 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/277\n* docs(agents): target API 36, minSdk 23 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/278\n* feat(core): add patch 0015, current Firefox and Safari hellos for REALITY by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/281\n* feat(desync): automatic strategy per service by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/282\n* feat: Desync-only profile with setup and settings screens by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/280\n* feat(core): desync outbound and bridge by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/279\n* fix(core): keep the engine's cache file out of non-applying parses by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/283\n* docs(operator-api): REALITY client version default is 26.10.29 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/284\n* feat(desync): transfer test for automatic strategy selection by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/285\n* feat(desync): desync on top of a subscription by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/286\n* chore(core): pin desync v0.2.1 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/287\n* feat(core): Citrus beta.3 / Xray 26.11.9 client compatibility (chrome155, ML-KEM memo, 26.11.9) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/289\n* chore(core): mihomo v1.19.34 (utls v1.9.0-alpha.1, Snell v6) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/290\n* fix(core): gRPC frame loop, XHTTP deadlines, quiet share-link warnings (Veles) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/293\n* feat(core): REALITY mlkem-client-fingerprint and chrome by default (Veles P7) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/291\n* feat(core): fragment-opts splits a proxy's first ClientHello (Veles P19) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/292\n* feat(core): opt-in VLESS mux.cool client (patch 0037, from Veles P15) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/294\n* feat(core): XHTTP packet-up keeps up to 8 uploads in flight (patch 0038, from Veles P5/P8) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/295\n* test(citrus): pin the compat suite to Citrus v1.0.0-beta.3 (b0f91a16) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/296\n* feat(core): warn about Snell v6 mode unsafe-raw at config load (patch 0039) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/297\n* fix(core): ignore unusable proxy options instead of failing the profile (patch 0040, from Veles) by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/298\n* fix(ui): one window in Recents, rules Save above 3-button nav, Desync update button, picker spacing by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/300\n* chore(release): 1.4.0 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/299\n\n\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.3.0...v1.4.0\n"
+            },
+            {
               "name": "🦥 ClashFest v1.3.0",
               "tag": "v1.3.0",
               "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.3.0",
@@ -1087,15 +1096,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "### Hotfix: REALITY nodes that stopped connecting in 1.2.0\n\n1.2.0 rewrote every REALITY node to offer the X25519MLKEM768 key share (for Xray-core 26.9.8+ servers). Many servers still run an older Xray that silently drops such a ClientHello, so whole subscriptions lost YouTube, Telegram and other routes after the update.\n\n- The rewrite is now **off by default** and lives under **Settings → Network → \"REALITY: offer ML-KEM (Xray 26.9+)\"**. Turn it on only if your operator says their servers need it.\n- It is applied when the config is composed at connect time and is no longer written into the stored subscription.\n- Subscriptions imported or updated under 1.2.0 carry the rewrite in their stored copy; the app re-fetches every URL subscription once after this update to restore the operator's config. If a node still fails, tap **Update** on the profile.\n\nOperators on current Xray can ship `reality-opts.support-x25519mlkem768: true` and `client-fingerprint: chrome` in the subscription themselves; mihomo honours them as-is.\n\nEverything else from 1.2.0 is unchanged: https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.0\n"
-            },
-            {
-              "name": "🦥 ClashFest v1.2.0",
-              "tag": "v1.2.0",
-              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.2.0",
-              "published_at": "2026-10-02T13:58:20Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "### Scan QR codes without Google\n\nThe in-app QR scanner no longer uses ML Kit. It is now a small camera view with the ZXing decoder that was already in the app for Companion pairing, so it works on phones without Google Play services and the APK lost the 5 MB native barcode model.\n\n### REALITY keeps working on new Xray servers\n\nXray-core 26.9.8+ rejects a REALITY handshake that does not offer the X25519MLKEM768 key share. ClashFest now turns on `support-x25519mlkem768` for every REALITY node in your subscription and uses the `chrome` fingerprint when the node has none or one that cannot carry ML-KEM (in the current uTLS only `chrome` can). Nodes inside remote proxy-providers are out of reach for this; ask your operator to set the two fields there.\n\n### Hand-edited config stays edited\n\nEditing a File profile's `config.yaml` through **Browse files** used to be undone on the next connect: the in-app DNS, hosts, tunnels, rules and provider edits were replayed over your text. Your edit now takes over (it already contains them), pressing Back asks before throwing an edit away, and the Files screen says so up front.\n\n### Rules Hub shows when a provider last updated\n\nEach rule source row shows the time of the last successful download next to its interval, as a real date and time, while the VPN is running.\n\n### MIPS, mihomo's own network stack\n\n**Settings → Network → Stack Mode** gains **MIPS Stack (mihomo)**, the pure-Go userspace stack that became mihomo's default in 1.19.32. It can also come from a subscription (`tun.stack: mips` with Stack Mode on Auto) or from an operator's `X-Network-Stack: mips`. The app default stays System. The effective stack is now written to the Logs screen on every connect.\n\n### Fixes\n\n- **DNS \u0026 Hosts crashed** when a profile listed several IPs for one host (`test.com: [1.1.1.1, 2.2.2.2]`). The editor reads and writes such entries now; type them as `test.com = 1.1.1.1, 2.2.2.2`.\n- **Hide-Routing brand header** works on its own again: three tabs when the operator sets it, Operator in Routing's slot when paired with the Operator tab.\n- **Per-profile User-Agent override** was ignored on the very next fetch after choosing a preset; it now applies immediately.\n- An untrusted ASN database URL in a subscription was replaced by a country database and broke `IP-ASN` rules; it is now replaced by a trusted ASN mirror.\n- The DNS \u0026 Hosts toggle no longer says \"experimental\".\n- The Russian \"app is broken\" screen linked to the upstream repository instead of ClashFest.\n\n### Subscription requests identify the app and the core\n\nSubscription downloads send `mihomo/\u003ccore version\u003e ClashFest/\u003capp version\u003e`. Panels that pick the output format by the first token (Marzban, Remnawave) keep serving the Clash Meta format, and panels that gate protocols on the core version (mikan) can now see it. A per-profile User-Agent override still replaces the whole string.\n\n### Smaller APK\n\nThe bundled `Country.mmdb` is gone (the core only ever read `geoip.metadb` next to it) and unused post-quantum tables from the certificate library are no longer packaged, together with the scanner change about 8 MB less per architecture (compressed).\n\n### Core updated to mihomo v1.19.32\n\nHighlights from upstream: the MIPS stack is the engine default with a new `congestion-controller` option (cubic / reno / bbr / bbr3), lazy receive buffers and checksum offload for it; CPU feature detection via auxv on Linux (hardware AES/SHA); MSS now accounts for TCP options; fixes for an anytls race, a nil dereference in HTTP/2 transports, sing-mux half-close, EasyTier restart after an overlay failure and mieru inbound UDP; utls 1.8.8, mieru 3.38, sing-tun 0.4.27. Full list: https://github.com/MetaCubeX/mihomo/releases/tag/v1.19.32\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94120,
+            "stars": 94124,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T11:48:02Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27343,
+            "stars": 27344,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-13T19:00:32Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "badcf38",
-            "branch": "eledobleefe/plugin-compat-make-publishable",
-            "date": "2026-11-12T16:51:20Z",
-            "url": "https://github.com/grafana/grafana/commit/badcf38e6294025341c3e43956b8218b3d23fab4"
+            "sha": "5e4f976",
+            "branch": "MissingRoberto/operators-index-dependency-retire",
+            "date": "2026-11-12T17:20:19Z",
+            "url": "https://github.com/grafana/grafana/commit/5e4f976971e9e1d2b4a88a1ab4b0eec35b17af2a"
           }
         },
         {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ae830e7",
+            "sha": "1e60120",
             "branch": "main",
-            "date": "2026-11-14T16:09:43Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/ae830e79621354435d9432c9f3099ebffe1dc807"
+            "date": "2026-11-12T19:18:04Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/1e601209f3a57caa671facc21d12f2fa7a527cfa"
           }
         },
         {
