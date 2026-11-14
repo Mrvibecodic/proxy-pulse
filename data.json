@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:39:46.987667Z",
+  "generated_at": "2026-11-14T04:45:04.640708Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 39942,
+            "stars": 39943,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-10T11:25:05Z",
@@ -842,12 +842,21 @@
             "stars": 1589,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-14T04:13:30Z",
+            "pushed_at": "2026-11-14T04:43:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Desktop v3.9.1",
+              "tag": "desktop-v3.9.1",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.9.1",
+              "published_at": "2026-11-14T04:42:46Z",
+              "prerelease": false,
+              "author": "in-devp",
+              "body": "INCY Desktop v3.9.1 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.1)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/43557955133), attempt 1. All desktop assets uploaded.\n"
+            },
             {
               "name": "Android v4.0.0",
               "tag": "android-v4.0.0",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "in-devp",
               "body": "INCY Android 3.9.7\n\nSigned release APK (versionCode 397). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
-            },
-            {
-              "name": "INCY — Latest downloads",
-              "tag": "latest",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/latest",
-              "published_at": "2026-10-18T21:34:34Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Latest stable downloads: Desktop **3.9.0**, Android **4.0.0**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
             }
           ],
           "last_commit": {
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5487,
+            "stars": 5488,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-11-13T00:22:17Z",
@@ -4321,10 +4321,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6cccca1",
-            "branch": "dependabot/mihomo-alpha",
-            "date": "2026-11-12T00:22:11Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/6cccca1a9456cd50f658bc14e4dfa9db244c5e14"
+            "sha": "9adc2d6",
+            "branch": "dependabot/mihomo-meta",
+            "date": "2026-11-12T00:22:12Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/9adc2d693512e301ac92819b43e6699006d1e60d"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93926,
+            "stars": 93927,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T00:04:41Z",
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "252f09d",
-            "branch": "feat/implement-discussion-4510",
-            "date": "2026-11-14T03:13:28Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/252f09d9714867003aabd27a88d7f799ad2f8108"
+            "sha": "bd05d30",
+            "branch": "l10n_crowdin",
+            "date": "2026-11-12T09:00:31Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/bd05d30e92cb8d3e517be96d4cceccc31b5b3601"
           }
         },
         {
