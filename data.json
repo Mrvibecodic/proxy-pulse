@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:02:42.156384Z",
+  "generated_at": "2026-11-14T04:08:00.975072Z",
   "groups": [
     {
       "id": "cores",
@@ -842,12 +842,21 @@
             "stars": 1589,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-05T01:29:49Z",
+            "pushed_at": "2026-11-14T04:06:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v4.0.0",
+              "tag": "android-v4.0.0",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v4.0.0",
+              "published_at": "2026-11-14T04:06:06Z",
+              "prerelease": false,
+              "author": "in-devp",
+              "body": "INCY Android 4.0.0\n\n- Updated the embedded Ferrum engine to 26.11.10 (v0.25.1) with IncyCore 2.4.5-ferrum.13.\n- The active server label updates when its subscription refreshes while connected.\n- Overlapping subscription refreshes show a localized informational message.\n\nThe APK supports ARM64 and ARMv7. Obtainium users can filter release titles with `^Android v`, assets with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
+            },
             {
               "name": "Android v3.9.9",
               "tag": "android-v3.9.9",
@@ -882,16 +891,7 @@
               "published_at": "2026-10-18T21:34:34Z",
               "prerelease": false,
               "author": "github-actions[bot]",
-              "body": "Latest stable downloads: Desktop **3.9.0**, Android **3.9.9**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
-            },
-            {
-              "name": "Desktop v3.9.0",
-              "tag": "desktop-v3.9.0",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/desktop-v3.9.0",
-              "published_at": "2026-10-18T21:33:33Z",
-              "prerelease": false,
-              "author": "in-devp",
-              "body": "INCY Desktop v3.9.0 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.0)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/41939142746), attempt 1. All desktop assets uploaded.\n"
+              "body": "Latest stable downloads: Desktop **3.9.0**, Android **4.0.0**.\n\nPermanent download tag; files are updated independently by platform. For version history and Obtainium use `desktop-v*` / `android-v*` releases.\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 93913,
+            "stars": 93915,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T00:04:41Z",
