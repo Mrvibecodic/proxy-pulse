@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T13:25:12.596303Z",
+  "generated_at": "2026-11-14T13:30:30.190219Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4672,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T12:40:15Z",
+            "pushed_at": "2026-11-14T13:28:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0077280",
+                  "message": "glinet-panel-ui: add the TFT panel UI of the GL.iNet BE10000 and BE14000",
+                  "author": "John Crispin",
+                  "date": "2026-11-14T13:26:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/00772801e56244a3fcf12aa4818898e140a6f47c"
+                },
+                {
+                  "sha": "1aaf417",
+                  "message": "ucode-mod-lvgl: add the LVGL module for ucode",
+                  "author": "John Crispin",
+                  "date": "2026-11-14T13:26:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/1aaf4174e0db06bce9ede3b156320de04908aaa6"
+                },
+                {
+                  "sha": "38a9541",
+                  "message": "lvgl: add the Light and Versatile Graphics Library",
+                  "author": "John Crispin",
+                  "date": "2026-11-14T13:26:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/38a954101f9bbd9b0c36ec48edb4831be783df80"
+                },
+                {
                   "sha": "6a7c887",
                   "message": "git: update to 2.50.2",
                   "author": "Josef Schlehofer",
@@ -2032,27 +2053,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-11-10T14:25:01Z",
                   "url": "https://github.com/openwrt/packages/commit/3e6aea5ed7208570860e269fd369953a6b68971f"
-                },
-                {
-                  "sha": "f263b4f",
-                  "message": "frp: bump to 0.71.1",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-10T14:24:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/f263b4fb0d689a930430e48b917124d12030ea36"
-                },
-                {
-                  "sha": "65275be",
-                  "message": "stress-ng: bump to 0.22.01",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-10T14:18:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/65275be32376a3900df4f3579fdde44e94542fb2"
-                },
-                {
-                  "sha": "6f1644f",
-                  "message": "libmaxminddb: bump to 1.14.1",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-10T14:18:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/6f1644ff1c15e5fc7a9eb9855886a140e56dca25"
                 }
               ]
             },
