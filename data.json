@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T17:50:00.414596Z",
+  "generated_at": "2026-11-14T17:55:18.365515Z",
   "groups": [
     {
       "id": "cores",
@@ -1176,7 +1176,7 @@
           ],
           "last_commit": {
             "sha": "b556a45",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-11-12T19:27:47Z",
             "url": "https://github.com/openwrt/openwrt/commit/b556a45351485f93f822ea4a9a3ada699e9c67fb"
           }
@@ -4863,12 +4863,21 @@
             "stars": 160,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-13T13:16:12Z",
+            "pushed_at": "2026-11-14T17:53:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.7.2",
+              "tag": "v7.7.2",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.2",
+              "published_at": "2026-11-14T17:53:12Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.7.2\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.2).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.7.1",
               "tag": "v7.7.1",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.5.1\r\n\r\nfix(web): small Settings card UI polish\r\n- Move update status into the card head with theme colors, keep a short version row.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.5.0",
-              "tag": "v7.5.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.5.0",
-              "published_at": "2026-10-24T23:17:28Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.5.0\r\n\r\n### Update SSClash from Settings\r\n\r\nYou can update the SSClash binary from the web UI the same way you update Mihomo.\r\n\r\n1. Open **Settings**.\r\n2. Use the **SSClash** card (above **Mihomo kernel**).\r\n3. Click **Check updates** to read the latest stable release from GitHub.\r\n4. Click **Download / Update** to install `ssclash` into `/opt/clash/bin/ssclash` and restart the service.\r\n\r\nSSClash does not check for updates in the background. Only stable releases are used.\r\n\r\n### Requirements\r\n\r\n- The router must reach GitHub.\r\n- On Linux, the service account must be allowed to run `systemctl restart ssclash.service`.\r\n\r\n### If restart fails after download\r\n\r\nThe new binary is already on disk. On OpenWrt and Keenetic the supervisor starts it. On Linux, Settings shows a restart error and you run:\r\n\r\n```bash\r\nsystemctl restart ssclash.service\r\n```\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94142,
+            "stars": 94144,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T11:48:02Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27345,
+            "stars": 27346,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-13T19:00:32Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0adcfbd",
-            "branch": "moustafab/provenance-manager-notifications-v3",
-            "date": "2026-11-12T20:55:28Z",
-            "url": "https://github.com/grafana/grafana/commit/0adcfbdf87610dcb6b58a171f403e059b6da9f15"
+            "sha": "e9b7479",
+            "branch": "main",
+            "date": "2026-11-12T14:51:20Z",
+            "url": "https://github.com/grafana/grafana/commit/e9b7479b88cfda4ff1bd5394219b4f45ca3a0620"
           }
         },
         {
@@ -5644,10 +5644,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c6ec6d8",
+            "sha": "1e5d382",
             "branch": "dev",
-            "date": "2026-11-12T16:04:15Z",
-            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/c6ec6d82f73fa079c26fe3a38be5a5427cb3e259"
+            "date": "2026-11-13T16:10:54Z",
+            "url": "https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot/commit/1e5d382602f93a77b80987f6e21d0a93120f42af"
           }
         }
       ]
