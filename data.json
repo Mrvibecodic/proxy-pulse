@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T22:05:43.011034Z",
+  "generated_at": "2026-11-14T22:11:00.649469Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29208,
+            "stars": 29209,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-14T19:56:20Z",
@@ -4321,10 +4321,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9adc2d6",
-            "branch": "dependabot/mihomo-meta",
-            "date": "2026-11-12T00:22:12Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/9adc2d693512e301ac92819b43e6699006d1e60d"
+            "sha": "6cccca1",
+            "branch": "dependabot/mihomo-alpha",
+            "date": "2026-11-12T00:22:11Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/6cccca1a9456cd50f658bc14e4dfa9db244c5e14"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94205,
+            "stars": 94206,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-14T11:48:02Z",
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67609,
+            "stars": 67610,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-14T20:06:52Z",
@@ -5788,10 +5788,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eee31a6",
+            "sha": "75cf862",
             "branch": "dev",
-            "date": "2026-11-12T19:39:43Z",
-            "url": "https://github.com/mishkatik/infra-billing/commit/eee31a66d9af9f7482ae2def30646cc18d28dceb"
+            "date": "2026-11-12T20:44:27Z",
+            "url": "https://github.com/mishkatik/infra-billing/commit/75cf862909b7fb3424a65ef7f6404506fbc55459"
           }
         },
         {
@@ -5878,6 +5878,15 @@
           },
           "releases": [
             {
+              "name": "v3.0.0",
+              "tag": "v3.0.0",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.0.0",
+              "published_at": "2026-11-14T22:09:18Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release adds a redesigned dashboard and activity center, live upgrade progress, customizable views, and expanded backup and GitOps capabilities. It also brings substantial performance, security, agent, and interface improvements, alongside breaking changes to legacy protocols and configuration.\n\n### Upgrades, updates, and image security\n- Stream upgrade progress and logs for individual and all-environment upgrades, aggregate activity across environments, improve update status popovers, and finalize upgrade jobs after external manager upgrades (`743a49e`, `387b17c` (#4539), `8fbf5b8`, `e63f8f5`; @kmendell).\n- Improve update details with commit notes for next-channel updates, image release notes, image creation dates and versions, detail-page update status and pull actions, and Docker Hardened Image status. Add vulnerability-based update blocking and improve risk scoring (`b55472a`, `948386d`, `163f854` (#4665), `2e00ddc` (#4708), `0d8373f` (#4692), `0fbfac4` (#4760), `835b5ca`; @kmendell).\n- Add queued-agent updates and update counts to Update all; configure parallel agent upgrades and move the all-environments limit into environment settings (`494e56e` (#4766), `74f9187`, `f01697e`; @kmendell).\n- Fix update handling for pending self-updates, scoped update deadlines and partial results, and image digest parsing. Improve scanning by resolving images to their repository digest and scanning selected images by ID (`2330877` (#4661), `7960d6a`, `bbb7fa8`, `df5a590` (#4724), `3471a4b` (#4719); @kmendell).\n\n### Dashboard and interface\n- Add customizable, saved dashboard layouts, a free-form widget grid, per-environment reclaimable space, and configurable widgets with label filters. Add grid views to lists (`5dcfc6c`, `d0f0cf1`, `9cde649`, `8d4223f`, `fdc093c`; @kmendell).\n- Redesign the activity center and refresh the overall layout, tabs, badges, and tables. Add status-badge animations, a redesigned loading bar and log viewer, and improved update views (`32acf02`, `5a3fc6b`, `617f012`, `5442a9f` (#4543), `6b7ac72`, `4c8a574`, `ccb052b`; @kmendell).\n- Improve dashboard and container status details with health icons, memory usage rings, centered stat rings, and clearer container/project labels. Hide disabled environments and show the update section on beta builds (`3910558`, `29072e3`, `66aae0d`, `7d04b16`, `da69ea6`, `f4c615b`, `0c7978a` (#4728); @kmendell).\n- Add account preferences for toast position and typography, environment color swatches and custom colors, and custom theme and brand-asset uploads. Hide sensitive values and improve the theme picker (`4bf7909`, `a0abd9b`, `6163994`, `b8a5b76` (#4666), `136c903`, `fe88cbd` (#4746), `704c5ee`, `12650c6`, `128ed88`; @kmendell).\n- Improve navigation, settings organization, sidebar and page-header layouts, mobile actions, and mobile code-editor behavior. Hide navigation from users without permissions (`58b6c3e`, `f8613a1`, `b27f503`, `c628b0f`, `e6b98a5`, `f3f0e3a` (#4738, @Mczubi), `029c86a` (#4737, @neurekadev)).\n- Improve project and stack headers, editor controls, workspace context menus, and build workspace views. Add syntax-highlighted code blocks and configurable editor tab width (`86584e7`, `5fdd04d`, `40696ed`, `611e826`, `18017b8`, `a5c97ea`, `057c794`, `9547293`; @kmendell).\n- Stabilize tables and log rendering, improve list loading and cached frontend data, and reduce frontend bundle size (`dc4b0c1`, `ece3b0a`, `1b0051b` (#4726), `afd6162` (#4729); @kmendell).\n\n### Backups, projects, and GitOps\n- Expand system backups to remote environments, improve volume backup retention and pruning, restore volume workspace files, and back up on save without requiring auto-sync (`4d7c69e` (#4715), `478f59d` (#4673, @neurekadev), `ac709be` (#4674, @neurekadev), `bb38da8` (#4675, @neurekadev), `deb583e` (#4687, @neurekadev), `64c2d63` (#4682); @kmendell for other listed changes).\n- Improve backup reliability and restore behavior: list backups across environments, return clear client errors, optimize restore selection checks, and tune scheduled disk-usage and repository pruning (`37b2c3b` (#4649), `79b2410` (#4672, @jmrplens), `156c987` (#4688, @neurekadev), `6801314`, `0971972`, `478f59d` (#4673, @neurekadev), `ac709be` (#4674, @neurekadev); @kmendell for other listed changes).\n- Improve GitOps sync and backup workflows with repository and branch defaults, synced-commit recovery, Compose override selection, sync environment variables, linked-project backup pulls, and Swarm stack-name validation (`8f97870`, `a8f5813` (#4644), `5512cc3` (#4718, @NullishUsername), `307e0d6` (#4763), `1286248` (#4659, @NullishUsername); @kmendell for other listed changes).\n- Support multiple project directories, Git repository provider links, and substitution-only global variables. Fix archived-project deletion and workspace file persistence (`82aa75b` (#4740), `6a1ebbd` (#4710), `71288d9` (#4651, @Dim145), `bc945f0` (#4703), `1070cd9`; @kmendell for other listed changes).\n- Load project and volume workspace folders on demand, improve volume folder listing and staged rename paths, and fix project file permissions and environment-file display (`3387e5a` (#4689, @neurekadev), `2f60193` (#4690, @neurekadev), `b349514` (#4768), `f93a51d`, `36cf97c`; @kmendell for other listed changes).\n\n### Agents, containers, and operations\n- Rename edge agents to Arcane agents, remove the polling agent, and migrate agents to reusable enrollment tokens. Improve agent connection recovery, tunnel restarts, host details, mTLS enrollment, and upgrade transport performance (`41e0699`, `8da6084` (#4646, @NullishUsername), `1fd0dc2`, `8378277`, `d52ad50`, `43d2cb5`, `97fe8e3` (#4742), `7954f76` (#4720), `162c5c0` (#4733); @kmendell for other listed changes).\n- Improve agent tunnel and HTTP/2 configuration, proxy performance, response-header filtering, and hostname forwarding. Dispatch notifications over the tunnel and improve notification version details (`83f46c9` (#4662), `f505fb7`, `d7f6065`, `22fbc2c`, `6ea76d7`; @kmendell).\n- Improve container stats sampling and CPU sorting, Docker list caching, and Podman Quadlet/systemd handling. Fix container exec terminal sizing and event names (`8ff8359` (#4658, @somaz94), `08659b1`, `cdd8179`, `1cd0a1b` (#4700, @Mczubi), `8953c4b` (#4759, @jmrplens); @kmendell for other listed changes).\n- Improve job-run details and history, scheduler lease recovery and efficiency, and cleanup of orphaned workflow cancellation jobs (`4701c63`, `13bb0dd`, `7b689c9`, `421c145` (#4707), `9b6b054` (#4725); @kmendell).\n- Prevent overlapping auto-heal runs while keeping recovery active after errors, and fix runtime identity handling (`d4a2aa1`, `51f9bb4`; @kmendell).\n\n### Security, configuration, and reliability\n- Strengthen password-change enforcement, password-policy settings, and account controls. Add default admin credentials through environment configuration and block email changes when OIDC account merging is enabled (`3e27477`, `a588d62` (#4747), `7171251` (#4709), `5879713` (#4741); @kmendell).\n- Harden security headers, WebSocket limits, proxy protocol handling, and path validation. Patch Echo’s IP-header spoofing issue and sanitize denied-request logging (`e840114` (#4743), `054aa6b`, `f20f081`, `e91e96c`, `9181ec8` (#4712), `ea0f187` (#4713); @kmendell).\n- Improve API-key validation, reduce duplicate telemetry, and shut down the telemetry provider cleanly. Return field-level validation errors and correct invalid-input responses (`0f45f14`, `796f04f`, `353ab2a`, `17ce4ad`; @kmendell).\n- Fix authentication token-refresh timing, permission-dependent event queries, and page loading after query errors. Add copy actions to error and warning toasts (`eddb9f2` (#4745), `21a014c`, `7174532`, `631fae1` (#4749); @kmendell).\n\n### Platform and developer changes\n- Consolidate types, prefix configuration variables with `ARCANE_`, bump modules to v3, and replace SQL migrations with Goose migrations and a v2 baseline. Remo"
+            },
+            {
               "name": "v2.17.3",
               "tag": "v2.17.3",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.3",
@@ -5912,22 +5921,13 @@
               "prerelease": false,
               "author": "arcane-github-automation[bot]",
               "body": "\u003e [!NOTE]\n\u003e This release adds native Podman support, hostname configuration, and a delay option for new image auto-updates. It also improves performance and hardens Docker operations, projects, backups, and authentication.\n\n### Features\n- Add native Podman support and align its UI with the existing interface ([fd125ecc81692f3bda7c7e5e3eb7772458c7bd23](#), #4514; [7f06db1250ac0bf0dd3a5f338df2be7ebb6c3f90](#); @kmendell).\n- Add hostname configuration ([d34c04623f3ea75cde0774715eefa8ebab74f158](#), #4391; @RobLoach).\n- Add a delay before automatically updating newly available images ([c8fda2bd4459233ad47463618d2d195c76f717d9](#), #4459; @kmendell).\n\n### Docker, images, and projects\n- Fix interrupted image updates, preserve pulled image digests when tagging, include tagged images in age-based pruning, and count default networks as in use ([8928c098a978cb79cc4386707daabb7c2deb2f4f](#); [e68c9081ab86fd30e8568e5e4fdcad3b222319c3](#), #4482; [48539a169acedea1c012a07cb1011107becbffa0](#), #4477; [351fdfffc07df47eeef0ccf8e14d69779b13fb4f](#), #4476; @kmendell).\n- Fix project updates to skip locally built services, use grouped pending paths, run bulk updates sequentially, and lock updates per project ([a1745df4cd0941184db548bb561a234d5279b1bc](#), #4499; [e46ccd526d959cdb094b4d62c83e5ddf21d0f25d](#), #4513; [4c98ef8f3938d43a6d47649bbb5d0415a32fb1a1](#), #4524; [c8ab0db42b45c44b295c86c40e32c7d06dd25cc3](#), #4520; @kmendell).\n- Improve project workspace browsing with level-by-level traversal and a truncation alert; hide lifecycle actions for archived projects and return the correct status for project detail errors ([ecc20dfc46738c5ab9376b3917225455a84d3c8a](#), #4479; [4ebc8433987780626057b80ee819909bb2bd9510](#), #4502; [d2b14125858704b7aca85d378250086f9d055010](#); @kmendell).\n- Improve Swarm manager unlocking, duration handling, and stack source and deletion behavior ([78a02e10082a20e5c0de62a7391f7acf1100fb85](#), #4505; @jmrplens).\n- List networks with bare-address IPAM ranges ([6c4196ea3214d93cc8e888e25272ecb26baa1b29](#), #4498; @kmendell).\n- Fix container redeploys, exec sessions, and streams ([a7812907535f79639abad968763508df60ee157b](#), #4488; @kmendell).\n- Pass container IDs when preparing recreate host configuration in the CLI ([59b36160137a5498c7ce4a2655a7732bbe5e2929](#); @kmendell).\n\n### Reliability, security, and backups\n- Harden authentication and authorization, preserve browser sessions across tabs, and keep a global admin when roles are updated or deleted ([0e0a1d1fdd8f694a5f5534def32bf1e2b0ab73ad](#), #4492; [32a0ca34b25402ef8eb36d0ced8fdf4dec953f6b](#), #4472; @kmendell, @jmrplens).\n- Make backup restores and recovery-key changes data-safe; skip volume backup pruning when the local repository hasn’t been created, and exclude GitOps scratch clones from system backups ([c2d8e8d6cab0b5d33a2c118028b7c437f75c44f7](#), #4487; [1ff65354b874d37372356651f74b83936dace463](#), #4448; [46742508904cf045a0a48d42544f999abf4c4072](#), #4519; @kmendell, @GiulioSavini).\n- Recover scheduled runs whose completed result wasn’t recorded, and bound shutdown waits while hardening scheduler lifecycle ([01e67e9f787c2c003d0a42d6f9bc96a47c1275c9](#), #4458; [10ee66bbc4d2269eb768e57ad5e4cad11d7571c9](#), #4493; @kmendell).\n- Harden edge environment access and health checks; keep pending edge environments pending on heartbeat ([edb390d61c7def6bf74fb9c196404fdf2d2a280b](#), #4489; @kmendell; [903a83a3b763a3c5906f3f6f1ae4867244e26482](#), #4507; @jmrplens).\n- Improve backend stability and attestation fetches ([dac409fc372bb1ddd46ab9a3de9185d0a8bfa6df](#), #4491; @kmendell).\n- Return 4xx responses for not-found and conflict errors ([efc38c1d8fa5288fc527a44fc7403b37efd078e8](#), #4506; @jmrplens).\n- Send prune and update notifications even after context cancellation ([a41e677e7b7518b92f83acf24bcdf966033ef221](#), #4501; @kmendell).\n\n### UI, templates, and integrations\n- Use the opened resource’s environment in tab titles when all environments are enabled; compact table pagination on mobile ([a509628d4287d0abcc75ae0856ed4a5bfd17210b](#), #4450; [4d194f183d5ca6d77e217fb8a377a4c8a4db89d1](#), #4503; @DominikZublasing, @kmendell).\n- Preserve folder templates and require `templates:create` permission to download them ([6f866ff60aa9ba5905031a0f4a7e4c5690b0a165](#), #4473; @jmrplens).\n- Stream build workspace file downloads ([dfda96fef16a3fba848dedfd38b76568fb9f28fe](#), #4508; @jmrplens).\n- Apply search and sorting to ignored vulnerabilities ([cc64070128b6e7f2f6e128dd1cbf25dc5ab25b04](#), #4509; @jmrplens).\n- Keep the create button visible and accept unchanged environment values; update end-to-end tests for editor errors ([4d28457c19f2cf77d78da244521b657297994c08](#); [52b2eedf1c1fd91536061ebde508dcae4f76c092](#); @kmendell).\n- Default password fields to `new-password` autocomplete ([161ac88b978d633db8f2be8f75fe9bed4e705438](#), #4485; @kmendell).\n- Honor `update-check` in `x-arcane` Compose metadata ([aa5e3862de266dff4db21b151d38881cb0351eeb](#), #4457; @kmendell).\n- Remove the `Accept-Encoding` header for GCS compatibility and default Rustic’s S3 signing region to `us-east-1` ([f9052166a72a5cd881bb83c5e35f4b230f985d03](#), #4446; [a0edb5bb4b0970c4a1eaeeab3acd725db1c2d344](#), #4478; @mbegerau, @kmendell).\n\n### Performance and internal improvements\n- Batch queries and cache service hot paths; share stats sampling and dashboard producers, and back off idle job scans ([a6b79438f328e8ee3c395d2c634ac3a776ab7770](#), #4438; [b31fae3c7543fa8c2ca3d5c24db8317eedc25c16](#), #4486; @kmendell).\n- Refactor vulnerability, job, container, environment, network, updater, and image migrations to composite literals; remove dependency-injection nil checks ([9d10c2a543556868fa2af92498843c09126ca6b2](#); [d2b4166dfbb66f5e67c0801ceb0725825c7b79c2](#); [40365984a0b77645418f075026562ef00ad5432b](#); @kmendell).\n- Rework the Docker boundary and image ownership logic ([fd742f3ee59451ecfa35198b26017116c439dd6d](#), #4484; @kmendell).\n- Inline notification email templates in Go ([5b8c14016d11af356bcbeff4e1f6a5830c34a258](#), #4517; @kmendell).\n- Update the updater dependency to v0.11.10 ([011a81e9c8628ae2913a065643f65560bd3aa60a](#), #4512; @kmendell).\n\n"
-            },
-            {
-              "name": "v2.16.1",
-              "tag": "v2.16.1",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.16.1",
-              "published_at": "2026-10-15T04:06:09Z",
-              "prerelease": false,
-              "author": "arcane-github-automation[bot]",
-              "body": "\u003e [!NOTE]\n\u003e This release fixes backup handling across older Docker daemons and S3, improves health and scheduler reliability, and reduces live-stats rendering costs.\n\n### Backups and storage\n- Bind-mount volume subpaths when backing up on daemons older than API 1.45. (#4399) @kmendell\n- Send S3 request checksums only when required, improving GCS compatibility. (#4401) @kmendell\n- Write S3-only system backups directly to S3 without a local repository. (#4400) @kmendell\n- Include the absolute path and UID in project-directory permission errors. (#4404) @kmendell\n\n### Containers, projects, and scheduling\n- Report Francis as down when its host exits and extend its health-check deadline. (#4402) @kmendell\n- Exclude Swarm task containers from the standalone-container filter. (#4405) @kmendell\n- Preserve build image references when Compose fails to load, and document the update-check label. (#4406) @kmendell\n- Reset invalid cron settings to defaults at startup. (#4425) @kmendell\n- Clear caches when refreshing a workspace. (#4427) @kmendell\n- Allow manual updates for services with the updater disabled. (#4430) @kmendell\n\n### Registries, updates, and access\n- Retry digest lookups after TLS handshake timeouts. (#4428) @kmendell\n- Remove the stale digest name left behind when a frozen pull is tagged. (#4409) @kmendell\n- Stop resending image-update push notifications on every poll. (`cd7c39cfcb6c364751d4b55bab887c11b5ebd859`) @kmendell\n- Restrict SSH host-key algorithms to entries in `known_hosts`. (#4403) @kmendell\n- Match user email lookups without regard to case. (#4429) @kmendell\n\n### Interface and performance\n- Fix virtualized table cells being clipped by locking column widths in pixels. (#4407) @kmendell\n- Localize settings backup cards and role presets, and prevent long labels from overflowing. (#4408) @kmendell\n- Batch live stats by environment to reduce table rendering costs. (`3330f4e0f53bb152cc4720be8ae724cdb1bd8cbb`) @kmendell\n\n### Maintenance\n- Merge all-environment resource lists on the server. (#4419) @kmendell\n- Simplify registry helpers with composite literals and inline helpers. (`00daf4441a6724cc9ff991f2927d73dcd61f4b89`) @kmendell\n- Simplify project construction, merge duplicates, and remove dependency-injection nil checks. (`a432f2c80c44017d1cba7042cf971bb03a63c410`) @kmendell\n- Simplify system construction and remove dependency-injection nil checks and mappers. (`cdfe49e8cbe0110e60e582aba3a4ce93c8fdb962`) @kmendell\n\n"
             }
           ],
           "last_commit": {
-            "sha": "eb9e4f8",
-            "branch": "fix/volume-folder-cap-staged-rename",
-            "date": "2026-11-14T20:29:50Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/eb9e4f89c74097156e5f04034044b52a493dff1c"
+            "sha": "130f98c",
+            "branch": "l10n_crowdin",
+            "date": "2026-11-12T19:16:22Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/130f98c8796d2097a6847af1a0cf0d6c7e95ed71"
           }
         },
         {
