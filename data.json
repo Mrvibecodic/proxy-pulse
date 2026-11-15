@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:02:23.859199Z",
+  "generated_at": "2026-11-15T00:07:42.381163Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4672,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T18:28:24Z",
+            "pushed_at": "2026-11-15T00:04:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "60aae22",
+                  "message": "ffmpeg: update V4L2 Request, add RPi DRM PRIME, trust store",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-15T00:04:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/60aae222edbbcf3fcd1e9b570cabba28d5e06520"
+                },
+                {
                   "sha": "28fb115",
                   "message": "librespeed-cli: fail the run when no selected server answers",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-11-10T14:25:01Z",
                   "url": "https://github.com/openwrt/packages/commit/361af504f7669ca668ba395569065f649356a713"
-                },
-                {
-                  "sha": "f53a000",
-                  "message": "python-sqlparse: update to 0.6.1",
-                  "author": "Wei-Ting Yang",
-                  "date": "2026-11-10T14:25:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/f53a0005a3529226bc768c36f9d3a02ea6c7fd27"
                 }
               ]
             },
@@ -4321,10 +4321,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6cccca1",
-            "branch": "dependabot/mihomo-alpha",
-            "date": "2026-11-12T00:22:11Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/6cccca1a9456cd50f658bc14e4dfa9db244c5e14"
+            "sha": "9adc2d6",
+            "branch": "dependabot/mihomo-meta",
+            "date": "2026-11-12T00:22:12Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/9adc2d693512e301ac92819b43e6699006d1e60d"
           }
         },
         {
@@ -5039,7 +5039,7 @@
             "stars": 94228,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-14T11:48:02Z",
+            "pushed_at": "2026-11-15T00:04:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27349,
+            "stars": 27350,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-14T19:55:49Z",
@@ -5444,10 +5444,10 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29160,
+            "stars": 29159,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-14T21:05:08Z",
+            "pushed_at": "2026-11-15T00:05:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b38ba7d",
-            "branch": "main",
-            "date": "2026-11-12T21:55:35Z",
-            "url": "https://github.com/grafana/loki/commit/b38ba7dd6a26b297c4f264d3ecd168ba63c3ff45"
+            "sha": "004c853",
+            "branch": "tw/fp-04-fingerprint-writer",
+            "date": "2026-11-12T21:43:44Z",
+            "url": "https://github.com/grafana/loki/commit/004c8534b74b1a4083404a9db3f27160252b1c79"
           }
         }
       ]
