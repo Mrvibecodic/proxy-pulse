@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T17:05:17.303472Z",
+  "generated_at": "2026-11-15T17:10:36.294890Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7904,
+            "stars": 7905,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-15T14:41:14Z",
@@ -5576,10 +5576,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ec3eeb9",
+            "sha": "869ed97",
             "branch": "dev",
-            "date": "2026-11-12T23:00:37Z",
-            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/ec3eeb9f2d7a77d9dd6192130294fe705ecd4d0a"
+            "date": "2026-11-15T16:08:57Z",
+            "url": "https://github.com/Mrvibecodic/chill-remna-bot/commit/869ed9795611680af13396f04c5ba752c40b3c20"
           }
         },
         {
@@ -5868,15 +5868,24 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8390,
+            "stars": 8391,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-15T17:00:12Z",
+            "pushed_at": "2026-11-15T17:06:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
           },
           "releases": [
+            {
+              "name": "v3.0.1",
+              "tag": "v3.0.1",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.0.1",
+              "published_at": "2026-11-15T17:05:31Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release fixes agent-mode startup and performance problems, tightens certificate and update verification, and corrects several Docker, Swarm, and backup behaviors. Agents now skip manager-only work, and updates are always verified.\n\n### Agent mode\n\n- Skip manager-only scheduled jobs in agent mode (#4779, @gongloo)\n- Skip manager-only RBAC and OIDC backfills on agent startup (#4776, @gongloo)\n- Avoid redundant SQLite prepared statement cache and read pool on agent (#4778, @gongloo)\n- Strip CR and LF from agent tunnel values in logs (#4771, @kmendell)\n\n### Security and updates\n\n- Reject legacy edge SPIFFE client certificates (#4795, @kmendell)\n- Remove the `newSelfUpdater` preview and always verify updates (#4773, @kmendell)\n- Bump `kit.getarcane.app/acfs` to v0.10.3 (#4796, @kmendell)\n\n### Docker and containers\n\n- Time out Docker disk usage requests (#4774, @kmendell)\n- Match digest-strategy containers to tag update records (#4772, @kmendell)\n- Pass enabled features into Docker backend builds (#4793, @kmendell)\n\n### Stacks and configuration\n\n- Keep stack `.env` across git syncs and editor saves (#4783, @NullishUsername)\n- Skip global env file writes when unchanged or read-only (#4794, @kmendell)\n\n### Backups\n\n- Copy Rustic CA bundle into the container before start (#4797, @kmendell)\n\n### Build\n\n- Exclude the embedded Scalar bundle when building without the frontend (#4777, @gongloo)\n\n"
+            },
             {
               "name": "v3.0.0",
               "tag": "v3.0.0",
@@ -5912,22 +5921,13 @@
               "prerelease": false,
               "author": "arcane-github-automation[bot]",
               "body": "\u003e [!NOTE]\n\u003e This release fixes manual job and updater behavior, improves Compose and workspace handling, and resolves a Rustic container certificate issue.\n\n### Jobs and updates\n- Require jobs to be enabled in saved settings before allowing manual runs (#4550, @grootbro).\n- Allow manual updater runs to proceed even when updates are opted out (#4564, @kmendell).\n- Resolve orphaned job run activities on startup (#4572, @kmendell).\n\n### Compose and workspaces\n- Respect the name set in a Compose file instead of the project name (#4561, @kmendell).\n- Use mount-time environment and volume settings in the workspace cache listener (#4563, @kmendell).\n\n### Backups\n- Trust Arcane’s CA roots inside the Rustic container (#4554, @Mczubi).\n\n"
-            },
-            {
-              "name": "v2.17.0",
-              "tag": "v2.17.0",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.0",
-              "published_at": "2026-10-21T17:36:38Z",
-              "prerelease": false,
-              "author": "arcane-github-automation[bot]",
-              "body": "\u003e [!NOTE]\n\u003e This release adds native Podman support, hostname configuration, and a delay option for new image auto-updates. It also improves performance and hardens Docker operations, projects, backups, and authentication.\n\n### Features\n- Add native Podman support and align its UI with the existing interface ([fd125ecc81692f3bda7c7e5e3eb7772458c7bd23](#), #4514; [7f06db1250ac0bf0dd3a5f338df2be7ebb6c3f90](#); @kmendell).\n- Add hostname configuration ([d34c04623f3ea75cde0774715eefa8ebab74f158](#), #4391; @RobLoach).\n- Add a delay before automatically updating newly available images ([c8fda2bd4459233ad47463618d2d195c76f717d9](#), #4459; @kmendell).\n\n### Docker, images, and projects\n- Fix interrupted image updates, preserve pulled image digests when tagging, include tagged images in age-based pruning, and count default networks as in use ([8928c098a978cb79cc4386707daabb7c2deb2f4f](#); [e68c9081ab86fd30e8568e5e4fdcad3b222319c3](#), #4482; [48539a169acedea1c012a07cb1011107becbffa0](#), #4477; [351fdfffc07df47eeef0ccf8e14d69779b13fb4f](#), #4476; @kmendell).\n- Fix project updates to skip locally built services, use grouped pending paths, run bulk updates sequentially, and lock updates per project ([a1745df4cd0941184db548bb561a234d5279b1bc](#), #4499; [e46ccd526d959cdb094b4d62c83e5ddf21d0f25d](#), #4513; [4c98ef8f3938d43a6d47649bbb5d0415a32fb1a1](#), #4524; [c8ab0db42b45c44b295c86c40e32c7d06dd25cc3](#), #4520; @kmendell).\n- Improve project workspace browsing with level-by-level traversal and a truncation alert; hide lifecycle actions for archived projects and return the correct status for project detail errors ([ecc20dfc46738c5ab9376b3917225455a84d3c8a](#), #4479; [4ebc8433987780626057b80ee819909bb2bd9510](#), #4502; [d2b14125858704b7aca85d378250086f9d055010](#); @kmendell).\n- Improve Swarm manager unlocking, duration handling, and stack source and deletion behavior ([78a02e10082a20e5c0de62a7391f7acf1100fb85](#), #4505; @jmrplens).\n- List networks with bare-address IPAM ranges ([6c4196ea3214d93cc8e888e25272ecb26baa1b29](#), #4498; @kmendell).\n- Fix container redeploys, exec sessions, and streams ([a7812907535f79639abad968763508df60ee157b](#), #4488; @kmendell).\n- Pass container IDs when preparing recreate host configuration in the CLI ([59b36160137a5498c7ce4a2655a7732bbe5e2929](#); @kmendell).\n\n### Reliability, security, and backups\n- Harden authentication and authorization, preserve browser sessions across tabs, and keep a global admin when roles are updated or deleted ([0e0a1d1fdd8f694a5f5534def32bf1e2b0ab73ad](#), #4492; [32a0ca34b25402ef8eb36d0ced8fdf4dec953f6b](#), #4472; @kmendell, @jmrplens).\n- Make backup restores and recovery-key changes data-safe; skip volume backup pruning when the local repository hasn’t been created, and exclude GitOps scratch clones from system backups ([c2d8e8d6cab0b5d33a2c118028b7c437f75c44f7](#), #4487; [1ff65354b874d37372356651f74b83936dace463](#), #4448; [46742508904cf045a0a48d42544f999abf4c4072](#), #4519; @kmendell, @GiulioSavini).\n- Recover scheduled runs whose completed result wasn’t recorded, and bound shutdown waits while hardening scheduler lifecycle ([01e67e9f787c2c003d0a42d6f9bc96a47c1275c9](#), #4458; [10ee66bbc4d2269eb768e57ad5e4cad11d7571c9](#), #4493; @kmendell).\n- Harden edge environment access and health checks; keep pending edge environments pending on heartbeat ([edb390d61c7def6bf74fb9c196404fdf2d2a280b](#), #4489; @kmendell; [903a83a3b763a3c5906f3f6f1ae4867244e26482](#), #4507; @jmrplens).\n- Improve backend stability and attestation fetches ([dac409fc372bb1ddd46ab9a3de9185d0a8bfa6df](#), #4491; @kmendell).\n- Return 4xx responses for not-found and conflict errors ([efc38c1d8fa5288fc527a44fc7403b37efd078e8](#), #4506; @jmrplens).\n- Send prune and update notifications even after context cancellation ([a41e677e7b7518b92f83acf24bcdf966033ef221](#), #4501; @kmendell).\n\n### UI, templates, and integrations\n- Use the opened resource’s environment in tab titles when all environments are enabled; compact table pagination on mobile ([a509628d4287d0abcc75ae0856ed4a5bfd17210b](#), #4450; [4d194f183d5ca6d77e217fb8a377a4c8a4db89d1](#), #4503; @DominikZublasing, @kmendell).\n- Preserve folder templates and require `templates:create` permission to download them ([6f866ff60aa9ba5905031a0f4a7e4c5690b0a165](#), #4473; @jmrplens).\n- Stream build workspace file downloads ([dfda96fef16a3fba848dedfd38b76568fb9f28fe](#), #4508; @jmrplens).\n- Apply search and sorting to ignored vulnerabilities ([cc64070128b6e7f2f6e128dd1cbf25dc5ab25b04](#), #4509; @jmrplens).\n- Keep the create button visible and accept unchanged environment values; update end-to-end tests for editor errors ([4d28457c19f2cf77d78da244521b657297994c08](#); [52b2eedf1c1fd91536061ebde508dcae4f76c092](#); @kmendell).\n- Default password fields to `new-password` autocomplete ([161ac88b978d633db8f2be8f75fe9bed4e705438](#), #4485; @kmendell).\n- Honor `update-check` in `x-arcane` Compose metadata ([aa5e3862de266dff4db21b151d38881cb0351eeb](#), #4457; @kmendell).\n- Remove the `Accept-Encoding` header for GCS compatibility and default Rustic’s S3 signing region to `us-east-1` ([f9052166a72a5cd881bb83c5e35f4b230f985d03](#), #4446; [a0edb5bb4b0970c4a1eaeeab3acd725db1c2d344](#), #4478; @mbegerau, @kmendell).\n\n### Performance and internal improvements\n- Batch queries and cache service hot paths; share stats sampling and dashboard producers, and back off idle job scans ([a6b79438f328e8ee3c395d2c634ac3a776ab7770](#), #4438; [b31fae3c7543fa8c2ca3d5c24db8317eedc25c16](#), #4486; @kmendell).\n- Refactor vulnerability, job, container, environment, network, updater, and image migrations to composite literals; remove dependency-injection nil checks ([9d10c2a543556868fa2af92498843c09126ca6b2](#); [d2b4166dfbb66f5e67c0801ceb0725825c7b79c2](#); [40365984a0b77645418f075026562ef00ad5432b](#); @kmendell).\n- Rework the Docker boundary and image ownership logic ([fd742f3ee59451ecfa35198b26017116c439dd6d](#), #4484; @kmendell).\n- Inline notification email templates in Go ([5b8c14016d11af356bcbeff4e1f6a5830c34a258](#), #4517; @kmendell).\n- Update the updater dependency to v0.11.10 ([011a81e9c8628ae2913a065643f65560bd3aa60a](#), #4512; @kmendell).\n\n"
             }
           ],
           "last_commit": {
-            "sha": "170d5fe",
-            "branch": "l10n_crowdin",
-            "date": "2026-11-14T04:48:34Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/170d5fee2eca6c3108537ce18729287b81440e09"
+            "sha": "7afb6fa",
+            "branch": "main",
+            "date": "2026-11-15T16:05:57Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/7afb6faa850f17a5a59f315ab2266087b760bb81"
           }
         },
         {
