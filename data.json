@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:47:35.712457Z",
+  "generated_at": "2026-11-16T16:52:57.028535Z",
   "groups": [
     {
       "id": "cores",
@@ -84,7 +84,7 @@
             "stars": 40029,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-11-16T15:07:54Z",
+            "pushed_at": "2026-11-16T16:50:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-16T11:47:33Z",
+            "pushed_at": "2026-11-16T16:48:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,34 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "d0c8b47",
+                  "message": "librespeed-common: refuse a zero step and a trailing comma",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-16T16:48:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/d0c8b47342d482de8ec0584a8af4f0d4a1fe36de"
+                },
+                {
+                  "sha": "2da3a56",
+                  "message": "librespeed-common: add a weekly schedule interval",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-16T16:48:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/2da3a56ffd7c1e5148e39f0b1142e98b3be0f0dc"
+                },
+                {
+                  "sha": "4f122d4",
+                  "message": "librespeed-common: measure and schedule per interface",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-16T16:47:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/4f122d498c098fb8f77de6deaf3d6a3c6462c49c"
+                },
+                {
+                  "sha": "34bcd63",
+                  "message": "librespeed-common: free the lock as soon as a run ends",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-16T16:47:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/34bcd635e28a1efb6a0326c2d0092fc09e3453bf"
+                },
+                {
                   "sha": "c2c619e",
                   "message": "apache: update to version 2.4.71",
                   "author": "Josef Schlehofer",
@@ -3530,34 +3558,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-11-03T09:43:30Z",
                   "url": "https://github.com/openwrt/packages/commit/771281271b5c38f2b7bd49854b4616d851465309"
-                },
-                {
-                  "sha": "3c6f78a",
-                  "message": "netbird: update to 0.81.4",
-                  "author": "Sami Salonen",
-                  "date": "2026-11-02T19:05:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/3c6f78aa733dd7d8d53bd9917f3e4fe21261aa80"
-                },
-                {
-                  "sha": "3a4c004",
-                  "message": "banip: update 1.9.1-5",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-02T16:06:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/3a4c00487dda4e2ed4df83a1eefece259f880273"
-                },
-                {
-                  "sha": "e9a1c22",
-                  "message": "banip: update 1.9.1-4",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-01T19:25:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/e9a1c22d1bebc97c71a8e5a4036f4a4935b85dda"
-                },
-                {
-                  "sha": "630cd7a",
-                  "message": "ovpn-dco: update to 7.3.0.2026100801",
-                  "author": "Qingfang Deng",
-                  "date": "2026-11-01T13:35:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/630cd7a8155db7be16abd00a2f41330f2d016add"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77943,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-16T16:45:36Z",
+            "pushed_at": "2026-11-16T16:51:19Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8526,
+            "stars": 8528,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-16T16:23:14Z",
