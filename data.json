@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T23:58:44.327625Z",
+  "generated_at": "2026-11-16T00:04:01.430577Z",
   "groups": [
     {
       "id": "cores",
@@ -706,7 +706,7 @@
             "stars": 1555,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
-            "pushed_at": "2026-11-14T22:23:25Z",
+            "pushed_at": "2026-11-16T00:01:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/179418103?v=4",
             "owner": "pluralplay"
@@ -842,7 +842,7 @@
             "stars": 1609,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-14T04:43:28Z",
+            "pushed_at": "2026-11-16T00:03:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
@@ -856,6 +856,15 @@
               "prerelease": false,
               "author": "in-devp",
               "body": "INCY Desktop v3.9.1 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.1)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/43557955133), attempt 1. All desktop assets uploaded.\n"
+            },
+            {
+              "name": "Android v4.0.1",
+              "tag": "android-v4.0.1",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v4.0.1",
+              "published_at": "2026-11-16T00:03:59Z",
+              "prerelease": true,
+              "author": "in-devp",
+              "body": "INCY Android 4.0.1\n\nSigned APK for ARM64 and ARMv7. For Obtainium, filter releases with `^Android v` and assets with `^[Ii]ncy\\.apk$`.\n"
             },
             {
               "name": "Android v4.0.0",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "in-devp",
               "body": "INCY Android 3.9.8\n\nИсправлен запуск ядра на устройствах, где создание MPTCP-слушателя завершается ошибкой Permission denied: добавлен переход на обычный TCP.\n\nSigned release APK (versionCode 398). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
-            },
-            {
-              "name": "Android v3.9.7",
-              "tag": "android-v3.9.7",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.7",
-              "published_at": "2026-11-02T09:42:38Z",
-              "prerelease": false,
-              "author": "in-devp",
-              "body": "INCY Android 3.9.7\n\nSigned release APK (versionCode 397). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
             }
           ],
           "last_commit": {
