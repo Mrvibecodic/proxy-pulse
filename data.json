@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:56:26.058061Z",
+  "generated_at": "2026-11-17T08:01:45.711087Z",
   "groups": [
     {
       "id": "cores",
@@ -635,7 +635,7 @@
           "track": "releases",
           "meta": {
             "description": "A modern GUI client based on Electron, designed to run in Windows, macOS and Linux for tailored proxy experience",
-            "stars": 744,
+            "stars": 745,
             "url": "https://github.com/coolcoala/koala-clash",
             "default_branch": "main",
             "pushed_at": "2026-11-14T16:01:48Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1563,
+            "stars": 1564,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-16T00:01:07Z",
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T07:45:51Z",
+            "pushed_at": "2026-11-17T07:57:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d42aae5",
+                  "message": "opentracker: add myself as maintainer",
+                  "author": "Mirko Vogt",
+                  "date": "2026-11-17T07:57:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/d42aae53c52b5359603f6bf3a3b0ed9f3fb31c96"
+                },
+                {
+                  "sha": "dcb542a",
+                  "message": "opentracker: update to 2.2.1",
+                  "author": "Mirko Vogt",
+                  "date": "2026-11-17T07:57:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/dcb542af1e982421443f152569446a64f073a580"
+                },
+                {
+                  "sha": "37acd28",
+                  "message": "nfs-kernel-server: fix v4 init script and ship nfs.conf",
+                  "author": "John Audia",
+                  "date": "2026-11-17T07:57:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/37acd2872fc9f44ac030f2f2df942f0c3f00b6cd"
+                },
+                {
+                  "sha": "b661d20",
+                  "message": "nfs-kernel-server: update to 3.1.1",
+                  "author": "John Audia",
+                  "date": "2026-11-17T07:57:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/b661d2035bf9fea881677942527efda5e830bae3"
+                },
+                {
                   "sha": "50de700",
                   "message": "noto-fonts-cjk: add package",
                   "author": "Daniel Golle",
@@ -2025,34 +2053,6 @@
                   "author": "Rui Salvaterra",
                   "date": "2026-11-11T18:25:12Z",
                   "url": "https://github.com/openwrt/packages/commit/5ddd2c318659c085100ced945b7e96efcdd892ed"
-                },
-                {
-                  "sha": "f06a347",
-                  "message": "ddns-scripts: use HTTPS for providers that support it",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T13:44:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/f06a3475a3db936613ef51bdf8ef8f0e8cac9835"
-                },
-                {
-                  "sha": "ff2d559",
-                  "message": "ddns-scripts: use HTTPS for providers that redirect to it",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T13:44:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/ff2d5594a609e7317367abf7dfd7341dbf330b43"
-                },
-                {
-                  "sha": "9273f21",
-                  "message": "ddns-scripts: switch simply.com to ddns.simply.com",
-                  "author": "Tom Sommer",
-                  "date": "2026-11-11T11:32:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/9273f21834bd824d6a462a2fe9cf101075137a9f"
-                },
-                {
-                  "sha": "7e5a4ff",
-                  "message": "ripe-atlas: generate Ed25519 probe keys",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T08:09:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/7e5a4ffef248ebcdd17d20fdf7257ee970ba8cfa"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94518,
+            "stars": 94517,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-17T00:04:38Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77954,
+            "stars": 77956,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T07:43:38Z",
+            "pushed_at": "2026-11-17T07:59:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
