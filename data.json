@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:43:08.283320Z",
+  "generated_at": "2026-11-17T09:48:29.804664Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42960,
+            "stars": 42962,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-16T11:57:26Z",
@@ -1187,10 +1187,10 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4675,
+            "stars": 4676,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T09:42:24Z",
+            "pushed_at": "2026-11-17T09:45:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "5af91ab",
+                  "message": "xfsprogs: bump to 7.2.1",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-17T09:45:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/5af91abfc0c34c4e412f68ad8833dc43c986e91c"
+                },
+                {
+                  "sha": "beeeacf",
+                  "message": "snort3: update to 3.13.2.0",
+                  "author": "John Audia",
+                  "date": "2026-11-17T09:45:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/beeeacf1e25c344222c6811388d6cdb0ee0ad573"
+                },
+                {
+                  "sha": "2870e66",
+                  "message": "libdaq3: update to 3.0.29",
+                  "author": "John Audia",
+                  "date": "2026-11-17T09:45:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/2870e66ee6537d59bca3e5ecda4ce2bce3bbe105"
+                },
+                {
+                  "sha": "40fd0ab",
+                  "message": "micropython: bump to 1.29.0",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-17T09:45:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/40fd0ab1fd6b0e3cf2e2d527a46e3bf5a81826a8"
+                },
+                {
+                  "sha": "12b8bd1",
+                  "message": "cifs-utils: bump to 7.9",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-17T09:44:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/12b8bd1a297ca981796c2d5321028df9557f4512"
+                },
+                {
+                  "sha": "dca0b8b",
+                  "message": "netdata: do not install the dashboard source maps",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:43:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/dca0b8b404228b63a8f91b38f2a7d792e026096f"
+                },
+                {
+                  "sha": "9b5c822",
+                  "message": "netdata: backport fixes for CVE-2023-22496 and CVE-2023-22497",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:43:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/9b5c822c7f50cfdeb101ede22134d0dec662f56c"
+                },
+                {
                   "sha": "7407d69",
                   "message": "sshpass: update to 1.10",
                   "author": "Josef Schlehofer",
@@ -2004,55 +2053,6 @@
                   "author": "John Crispin",
                   "date": "2026-11-14T13:26:58Z",
                   "url": "https://github.com/openwrt/packages/commit/00772801e56244a3fcf12aa4818898e140a6f47c"
-                },
-                {
-                  "sha": "1aaf417",
-                  "message": "ucode-mod-lvgl: add the LVGL module for ucode",
-                  "author": "John Crispin",
-                  "date": "2026-11-14T13:26:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/1aaf4174e0db06bce9ede3b156320de04908aaa6"
-                },
-                {
-                  "sha": "38a9541",
-                  "message": "lvgl: add the Light and Versatile Graphics Library",
-                  "author": "John Crispin",
-                  "date": "2026-11-14T13:26:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/38a954101f9bbd9b0c36ec48edb4831be783df80"
-                },
-                {
-                  "sha": "6a7c887",
-                  "message": "git: update to 2.50.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-14T12:40:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/6a7c887861d10a16f6ccbcdeb7f4e33775dd06a0"
-                },
-                {
-                  "sha": "f8721fb",
-                  "message": "keepalived: fix empty status from rpcd dump",
-                  "author": "Alexander Wilhelm",
-                  "date": "2026-11-14T11:10:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/f8721fb6412ed82c1c3a4428d52564a898816f32"
-                },
-                {
-                  "sha": "b986e7a",
-                  "message": "libjpeg-turbo: add host build",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-13T22:54:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/b986e7a60d3ca47158a831c2e2d60dcc9851da2e"
-                },
-                {
-                  "sha": "6668938",
-                  "message": "git-lfs: bump to 3.8.1",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-12T14:41:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/66689386bc1f645c5926dcc48dff300fcf1b77aa"
-                },
-                {
-                  "sha": "10460f5",
-                  "message": "ddns-scripts: remove cnkuai.cn",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T14:36:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/10460f5df7f36b15609dd5775e1fa91a2326dbd4"
                 }
               ]
             },
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "702ded1",
+                  "message": "curl: update to 8.23.0",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-17T09:44:09Z",
+                  "url": "https://github.com/openwrt/packages/commit/702ded1e54b7460016f6338b79d76f60a7bcf97d"
+                },
+                {
+                  "sha": "4207995",
+                  "message": "git: update to 2.50.2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:43:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/4207995c230b05fda8cbb9a2571f74b7960640f6"
+                },
+                {
                   "sha": "d6041ab",
                   "message": "sqlite3: convert the version in the CI test script",
                   "author": "Josef Schlehofer",
@@ -3329,26 +3343,19 @@
                   "author": "Wei-Ting Yang",
                   "date": "2026-10-28T06:06:14Z",
                   "url": "https://github.com/openwrt/packages/commit/3f28337f9acf7da18dda0c43d97730528bd793aa"
-                },
-                {
-                  "sha": "5dfea3b",
-                  "message": "htop: update to 3.5.3",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-26T22:54:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/5dfea3b4394b334546e0d0b446d8a65e6620882e"
-                },
-                {
-                  "sha": "e24c9fa",
-                  "message": "htop: update to 3.5.1",
-                  "author": "John Audia",
-                  "date": "2026-10-26T22:54:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/e24c9faea552965eed929cd9824d0fb3525d251d"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "7953989",
+                  "message": "git: update to 2.50.2",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:43:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/7953989f4a3b7c0af61ffb5971616ce155fe5393"
+                },
                 {
                   "sha": "889d228",
                   "message": "mosquitto: update to 2.0.23",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-04T06:34:05Z",
                   "url": "https://github.com/openwrt/packages/commit/9db97fd3f7a8eaa00d35f492e02a6451be1a9e4a"
-                },
-                {
-                  "sha": "15af690",
-                  "message": "ddns-scripts: add alviy.com provider",
-                  "author": "Elly Sai",
-                  "date": "2026-11-04T04:34:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/15af690cfc263c12264a85e32dafdb1f926d7673"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94520,
+            "stars": 94521,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-17T00:04:38Z",
@@ -5175,7 +5175,7 @@
             "stars": 77957,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T09:43:04Z",
+            "pushed_at": "2026-11-17T09:46:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 18119,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T09:35:46Z",
+            "pushed_at": "2026-11-17T09:46:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0badfdd",
-            "branch": "cluster",
-            "date": "2026-11-16T20:48:47Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/0badfdd508106851f630fa6000b4b5b40db5f473"
+            "sha": "60bb8d3",
+            "branch": "vmauth-propagate-username",
+            "date": "2026-11-16T01:10:46Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/60bb8d3d176cfd605a2cd49084ce10e1882d696a"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8988,
+            "stars": 8991,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
