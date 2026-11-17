@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T14:32:31.047458Z",
+  "generated_at": "2026-11-17T14:37:52.229478Z",
   "groups": [
     {
       "id": "cores",
@@ -4863,12 +4863,21 @@
             "stars": 163,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-14T17:53:11Z",
+            "pushed_at": "2026-11-17T14:35:37Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.7.3",
+              "tag": "v7.7.3",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.3",
+              "published_at": "2026-11-17T14:35:37Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.7.3\r\n\r\nfix(firewall): keep fake-ip whitelist set marks when the CIDR list is still empty.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.7.2",
               "tag": "v7.7.2",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.6.0\r\n\r\n### Core and service\r\n- `Stop` waits out supervisor backoff so a restart does not race a sleeping respawn.\r\n- On a failed firewall apply, tear the ruleset down.\r\n- On a failed `clash -t` after a proxy-mode rewrite, restore the previous profile text.\r\n\r\n### Firewall\r\n- Drop unparsed reserved networks, fake-ip ranges, and connmarks from generated nft/iptables rules.\r\n- Keep valid marks such as Keenetic `0x10` (they were previously dropped).\r\n\r\n### Security\r\n- Remote config and HTTP rule-provider fetches refuse loopback and link-local addresses after DNS resolution, including redirects. Private LAN stays allowed.\r\n\r\n### Web UI\r\n- Adding a rule-provider shows that it does not match traffic until a `RULE-SET` names it.\r\n- Proxy mode select stays runtime-only and does not write `config.yaml`.\r\n\r\n### Updates and installs\r\n- Verify the Mihomo download hash before removing the installed kernel on the low-space replace path.\r\n- Reject a mismatched or missing digest for the SSClash binary in the installers.\r\n- On a Mihomo digest miss or mismatch in the installers, keep the existing kernel and warn instead of installing a bad file.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.5.1",
-              "tag": "v7.5.1",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.5.1",
-              "published_at": "2026-10-31T13:41:33Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.5.1\r\n\r\nfix(web): small Settings card UI polish\r\n- Move update status into the card head with theme colors, keep a short version row.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77962,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T14:29:55Z",
+            "pushed_at": "2026-11-17T14:37:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 800+ integrations",
-            "stars": 81443,
+            "stars": 81444,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-17T13:38:24Z",
@@ -5447,7 +5447,7 @@
             "stars": 29171,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T14:24:01Z",
+            "pushed_at": "2026-11-17T14:35:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9102,
+            "stars": 9105,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
