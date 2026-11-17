@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T15:32:02.947744Z",
+  "generated_at": "2026-11-17T15:37:27.762569Z",
   "groups": [
     {
       "id": "cores",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16417,
+            "stars": 16418,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -4863,12 +4863,21 @@
             "stars": 163,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T14:35:37Z",
+            "pushed_at": "2026-11-17T15:32:49Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.7.4",
+              "tag": "v7.7.4",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.4",
+              "published_at": "2026-11-17T15:32:49Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.7.4\r\n\r\nfix(firewall,whitelist): keep a good fake-ip AUTO list when provider extract fails hard, keep reserved-network and proxy-server returns in rule mode, and replace the whitelist nft set in one transaction.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.7.3",
               "tag": "v7.7.3",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.0\r\n\r\n## English\r\n\r\n- The web UI now supports more than one language. Right now those languages are English and Russian. The wording in both was checked and tightened.\r\n- Snell listeners accept version 6.\r\n- A Shadowsocks listener can serve several users. Each user has a password. One shared password is no longer the only option.\r\n- On amd64, the kernel download picks a Mihomo build the CPU can run. The plain amd64 build needs x86-64-v3, so older processors used to fail the check.\r\n- SSClash can run in server mode. Recent Xray-core versions brought compatibility trouble, and server mode is how you avoid it. In that mode, Add listener is the filled button, so the mode is harder to miss.\r\n\r\n## Русский\r\n\r\n- У веб-интерфейса появилась поддержка нескольких языков. Сейчас это русский и английский. Формулировки в обоих языках уточнены и выверены.\r\n- Слушатели Snell принимают версию 6.\r\n- Слушатель Shadowsocks может обслуживать нескольких пользователей. У каждого свой пароль. Один общий пароль больше не единственный вариант.\r\n- На amd64 загрузка ядра выбирает сборку Mihomo, которую процессор может выполнить. Обычная сборка amd64 требует x86-64-v3, поэтому на старых процессорах проверка не проходила.\r\n- SSClash умеет работать в режиме сервера. Последние версии Xray-core принесли проблемы совместимости, и режим сервера их снимает. В этом режиме кнопка «Добавить слушатель» залита, чтобы режим было труднее пропустить.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.6.0",
-              "tag": "v7.6.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.6.0",
-              "published_at": "2026-11-03T16:32:17Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.6.0\r\n\r\n### Core and service\r\n- `Stop` waits out supervisor backoff so a restart does not race a sleeping respawn.\r\n- On a failed firewall apply, tear the ruleset down.\r\n- On a failed `clash -t` after a proxy-mode rewrite, restore the previous profile text.\r\n\r\n### Firewall\r\n- Drop unparsed reserved networks, fake-ip ranges, and connmarks from generated nft/iptables rules.\r\n- Keep valid marks such as Keenetic `0x10` (they were previously dropped).\r\n\r\n### Security\r\n- Remote config and HTTP rule-provider fetches refuse loopback and link-local addresses after DNS resolution, including redirects. Private LAN stays allowed.\r\n\r\n### Web UI\r\n- Adding a rule-provider shows that it does not match traffic until a `RULE-SET` names it.\r\n- Proxy mode select stays runtime-only and does not write `config.yaml`.\r\n\r\n### Updates and installs\r\n- Verify the Mihomo download hash before removing the installed kernel on the low-space replace path.\r\n- Reject a mismatched or missing digest for the SSClash binary in the installers.\r\n- On a Mihomo digest miss or mismatch in the installers, keep the existing kernel and warn instead of installing a bad file.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 77962,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T15:31:05Z",
+            "pushed_at": "2026-11-17T15:35:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8eceb42",
-            "branch": "cb/recently-deleted-alert-rules-2370",
-            "date": "2026-11-17T05:02:57Z",
-            "url": "https://github.com/grafana/grafana/commit/8eceb4270677211c55a7e9e838b9bb3c359d5e32"
+            "sha": "7698097",
+            "branch": "stars-mode5-default",
+            "date": "2026-11-17T04:47:49Z",
+            "url": "https://github.com/grafana/grafana/commit/76980978e990dfe7d4edebf5e3ff8751b82b984e"
           }
         },
         {
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3718,
+            "stars": 3719,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-11-16T08:42:27Z",
@@ -5868,10 +5868,10 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9129,
+            "stars": 9130,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T05:32:06Z",
+            "pushed_at": "2026-11-17T15:33:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "57474bf",
-            "branch": "feat/ldap-support",
-            "date": "2026-11-16T15:37:11Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/57474bf00907c959b1109519279d5889308d7a3c"
+            "sha": "3b826ed",
+            "branch": "fix/investigate-issue-4819",
+            "date": "2026-11-16T15:54:59Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/3b826edf708cb5696ff3c1cfea2289335b064a87"
           }
         },
         {
