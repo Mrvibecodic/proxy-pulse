@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:37:46.952817Z",
+  "generated_at": "2026-11-17T09:43:08.283320Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40039,
+            "stars": 40040,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-17T04:56:33Z",
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T09:35:07Z",
+            "pushed_at": "2026-11-17T09:42:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7407d69",
+                  "message": "sshpass: update to 1.10",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:42:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/7407d690a2103bb2ba7056b6601431313853c976"
+                },
+                {
+                  "sha": "aec286e",
+                  "message": "gperftools: update to 2.19.3",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:42:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/aec286ebdfa26ec892eb7506c32f5abda07a7540"
+                },
+                {
                   "sha": "af402e4",
                   "message": "librespeed-cli: update to 1.0.15",
                   "author": "Josef Schlehofer",
@@ -2039,20 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-12T14:36:03Z",
                   "url": "https://github.com/openwrt/packages/commit/10460f5df7f36b15609dd5775e1fa91a2326dbd4"
-                },
-                {
-                  "sha": "9ae6abf",
-                  "message": "ddns-scripts: apply HTTPS settings to https:// URLs",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T14:35:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/9ae6abf62ac6b6bede554161f5276f45dcee7013"
-                },
-                {
-                  "sha": "4fabb58",
-                  "message": "apache: update to version 2.4.71",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T09:14:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/4fabb58b5c173557c000e39a0ab8314baa609665"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "889d228",
+                  "message": "mosquitto: update to 2.0.23",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:41:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/889d22898f41d579c0c7e4629ee6dc67593b46d3"
+                },
+                {
                   "sha": "baa9a65",
                   "message": "librespeed-cli: update to 1.0.15",
                   "author": "Josef Schlehofer",
@@ -3551,13 +3558,6 @@
                   "author": "Elly Sai",
                   "date": "2026-11-04T04:34:48Z",
                   "url": "https://github.com/openwrt/packages/commit/15af690cfc263c12264a85e32dafdb1f926d7673"
-                },
-                {
-                  "sha": "8b272d2",
-                  "message": "msmtp: update to 1.8.34",
-                  "author": "Romain Isnel",
-                  "date": "2026-11-03T13:17:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/8b272d2eb4e82cceda089e0ccc1ed974d88b0071"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77957,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T09:35:50Z",
+            "pushed_at": "2026-11-17T09:43:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5311,7 +5311,7 @@
             "stars": 81444,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T00:14:07Z",
+            "pushed_at": "2026-11-17T09:43:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8983,
+            "stars": 8988,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
