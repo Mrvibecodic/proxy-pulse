@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T05:43:23.670043Z",
+  "generated_at": "2026-11-17T05:48:41.892380Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-16T23:19:12Z",
+            "pushed_at": "2026-11-17T05:44:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "138771c",
+                  "message": "gst1-plugins-bad: fix v4l2codecs caps, add RPi HEVC and DASH",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-17T05:44:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/138771c5d189ad614c1cf770595a16b6a96e5e0b"
+                },
+                {
+                  "sha": "54f5696",
+                  "message": "gst1-plugins-base: add the Raspberry Pi column formats",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-17T05:44:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/54f56966a08c028af40c3137892685c010d524e6"
+                },
+                {
                   "sha": "33a3c9f",
                   "message": "libcamera: add the rkisp2 image quality algorithms",
                   "author": "Daniel Golle",
@@ -2039,20 +2053,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-11-11T03:32:29Z",
                   "url": "https://github.com/openwrt/packages/commit/89df66938415527370610ae4d75186a6e772acae"
-                },
-                {
-                  "sha": "ea88722",
-                  "message": "v2ray-geodata: update to latest version",
-                  "author": "Tianling Shen",
-                  "date": "2026-11-11T03:32:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/ea887224eac3bd982b92c636ba8d3037655ba028"
-                },
-                {
-                  "sha": "e615e9b",
-                  "message": "dawn: update to 2026-11-11",
-                  "author": "Nick Hainke",
-                  "date": "2026-11-11T03:26:15Z",
-                  "url": "https://github.com/openwrt/packages/commit/e615e9bb480da64f8eb7bd0a6e9a5d0f437d3cdc"
                 }
               ]
             },
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b49dc3c",
-            "branch": "worktree-dataobj-page-cache",
-            "date": "2026-11-16T10:00:38Z",
-            "url": "https://github.com/grafana/loki/commit/b49dc3c1e07d328fb6d9e411d59233bd44ccdf3d"
+            "sha": "1dd2abb",
+            "branch": "main",
+            "date": "2026-11-15T02:06:56Z",
+            "url": "https://github.com/grafana/loki/commit/1dd2abbb8d672c316dd3a0d3a03f76acdc1e680f"
           }
         }
       ]
