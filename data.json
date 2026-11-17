@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T06:41:52.911731Z",
+  "generated_at": "2026-11-17T06:47:14.321115Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35838,
+            "stars": 35839,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-15T10:16:50Z",
@@ -1176,7 +1176,7 @@
           ],
           "last_commit": {
             "sha": "13fc2e4",
-            "branch": "master",
+            "branch": "main",
             "date": "2026-11-16T10:59:24Z",
             "url": "https://github.com/openwrt/openwrt/commit/13fc2e4e4b592a612146b035611f721b88183fcd"
           }
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T05:44:35Z",
+            "pushed_at": "2026-11-17T06:46:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "80980cd",
+                  "message": "ddns-scripts: add support for query type in busybox nslookup",
+                  "author": "Jorge Gallegos",
+                  "date": "2026-11-17T06:46:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/80980cdb5d5c3dca95cba022664d8bc866ad49ec"
+                },
+                {
+                  "sha": "cff8bc3",
+                  "message": "ddns-scripts: add DNSimple DNS provider and bump to v2.8.6",
+                  "author": "Jorge Gallegos",
+                  "date": "2026-11-17T06:46:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/cff8bc38b5b611309cddc3d78561ed3c6ab0a7b8"
+                },
+                {
                   "sha": "138771c",
                   "message": "gst1-plugins-bad: fix v4l2codecs caps, add RPi HEVC and DASH",
                   "author": "Daniel Golle",
@@ -2039,20 +2053,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-11-11T03:32:29Z",
                   "url": "https://github.com/openwrt/packages/commit/4e52215781d96652373ec1f3e6e0441031105f0a"
-                },
-                {
-                  "sha": "1c51293",
-                  "message": "xray-core: update to 26.11.9",
-                  "author": "Tianling Shen",
-                  "date": "2026-11-11T03:32:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/1c512933b33b4f4257c623585b651549a7aa1087"
-                },
-                {
-                  "sha": "89df669",
-                  "message": "v2ray-core: update to 5.56.0",
-                  "author": "Tianling Shen",
-                  "date": "2026-11-11T03:32:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/89df66938415527370610ae4d75186a6e772acae"
                 }
               ]
             },
@@ -4674,7 +4674,7 @@
           "track": "releases",
           "meta": {
             "description": "Container для Mikrotik, позволяющий подключаться к AmneziaWG серверам из Mikrotik. Полностью поддерживает протокол AWG 3.1. Конфигуратор: https://timbrs.github.io/amneziawg-mikrotik-c/conf3.0.html",
-            "stars": 486,
+            "stars": 487,
             "url": "https://github.com/timbrs/amneziawg-mikrotik-c",
             "default_branch": "main",
             "pushed_at": "2026-11-11T12:40:30Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8903,
+            "stars": 8904,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
