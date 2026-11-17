@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:08:30.966788Z",
+  "generated_at": "2026-11-17T07:13:49.688284Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T06:46:31Z",
+            "pushed_at": "2026-11-17T07:08:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a91c801",
+                  "message": "openvpn: update to 2.7.9",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-17T07:08:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/a91c801b1f2f00050703cb19e49df191b9f3e4c1"
+                },
+                {
                   "sha": "80980cd",
                   "message": "ddns-scripts: add support for query type in busybox nslookup",
                   "author": "Jorge Gallegos",
@@ -2046,13 +2053,6 @@
                   "author": "Tianling Shen",
                   "date": "2026-11-11T03:32:29Z",
                   "url": "https://github.com/openwrt/packages/commit/f87972c7287238a6f5d43077836c0424c40d62ec"
-                },
-                {
-                  "sha": "4e52215",
-                  "message": "yq: update to 4.54.3",
-                  "author": "Tianling Shen",
-                  "date": "2026-11-11T03:32:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/4e52215781d96652373ec1f3e6e0441031105f0a"
                 }
               ]
             },
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8922,
+            "stars": 8923,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
