@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:32:24.491687Z",
+  "generated_at": "2026-11-17T09:37:46.952817Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4675,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T07:57:56Z",
+            "pushed_at": "2026-11-17T09:35:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "af402e4",
+                  "message": "librespeed-cli: update to 1.0.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:32:54Z",
+                  "url": "https://github.com/openwrt/packages/commit/af402e496b652be09ce3479c6d06289e38adacbd"
+                },
+                {
                   "sha": "d42aae5",
                   "message": "opentracker: add myself as maintainer",
                   "author": "Mirko Vogt",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-12T09:14:46Z",
                   "url": "https://github.com/openwrt/packages/commit/4fabb58b5c173557c000e39a0ab8314baa609665"
-                },
-                {
-                  "sha": "5ddd2c3",
-                  "message": "tor: update to 0.4.9.16 stable",
-                  "author": "Rui Salvaterra",
-                  "date": "2026-11-11T18:25:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/5ddd2c318659c085100ced945b7e96efcdd892ed"
                 }
               ]
             },
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "baa9a65",
+                  "message": "librespeed-cli: update to 1.0.15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:35:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/baa9a65d814fdbab1483f95b53ba67ba33f7daf9"
+                },
+                {
+                  "sha": "a6e0833",
+                  "message": "librespeed-cli: fail the run when no selected server answers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-17T09:34:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/a6e08334e84b34c52c6725673e0e0b18b00ab058"
+                },
+                {
                   "sha": "d0c8b47",
                   "message": "librespeed-common: refuse a zero step and a trailing comma",
                   "author": "Josef Schlehofer",
@@ -3544,20 +3558,6 @@
                   "author": "Romain Isnel",
                   "date": "2026-11-03T13:17:59Z",
                   "url": "https://github.com/openwrt/packages/commit/8b272d2eb4e82cceda089e0ccc1ed974d88b0071"
-                },
-                {
-                  "sha": "461a9f0",
-                  "message": "weechat: update to 4.10.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T13:16:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/461a9f053f3ee416a04bd79e5879aad1ef76d43f"
-                },
-                {
-                  "sha": "7712812",
-                  "message": "libtorrent-rasterbar: fix Python bindings on 25.12",
-                  "author": "Tianling Shen",
-                  "date": "2026-11-03T09:43:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/771281271b5c38f2b7bd49854b4616d851465309"
                 }
               ]
             },
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2251,
+            "stars": 2252,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-16T17:19:33Z",
@@ -5175,7 +5175,7 @@
             "stars": 77957,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T09:31:23Z",
+            "pushed_at": "2026-11-17T09:35:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5379,7 +5379,7 @@
             "stars": 18119,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T09:32:03Z",
+            "pushed_at": "2026-11-17T09:35:46Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 8981,
+            "stars": 8983,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-17T05:32:06Z",
