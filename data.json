@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T22:42:21.022017Z",
+  "generated_at": "2026-11-18T22:47:41.545850Z",
   "groups": [
     {
       "id": "cores",
@@ -220,7 +220,7 @@
             "stars": 73,
             "url": "https://github.com/Jolymmiles/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T22:21:04Z",
+            "pushed_at": "2026-11-18T22:46:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/75259437?v=4",
             "owner": "Jolymmiles"
@@ -1190,7 +1190,7 @@
             "stars": 4679,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T18:20:54Z",
+            "pushed_at": "2026-11-18T22:46:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "f4e87c7",
+                  "message": "luajit: do not build on riscv64",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T22:46:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/f4e87c7898e3971cdd717da7ff94de592a1e6bc9"
+                },
+                {
+                  "sha": "98ea42a",
+                  "message": "luajit: indent the package metadata with two spaces",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T22:46:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/98ea42ac1be5d4e5d7839df2c20436bf26645bb1"
+                },
+                {
                   "sha": "b990416",
                   "message": "netdata: use the system SQLite",
                   "author": "Josef Schlehofer",
@@ -3329,20 +3343,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-10-31T05:17:44Z",
                   "url": "https://github.com/openwrt/packages/commit/151bd31212544d269ac385c95183f28deaa85a4f"
-                },
-                {
-                  "sha": "f311fd8",
-                  "message": "python-cffi: Update to 1.17.1",
-                  "author": "Tianling Shen",
-                  "date": "2026-10-30T08:00:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/f311fd8acbf955b29e8dd3e29b69847048ff37f8"
-                },
-                {
-                  "sha": "95a7ee2",
-                  "message": "python-greenlet: update to 3.3.1",
-                  "author": "Rosen Penev",
-                  "date": "2026-10-30T07:59:51Z",
-                  "url": "https://github.com/openwrt/packages/commit/95a7ee2bdd95703b37c6190861fa36c211a21be4"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dd0c701",
-            "branch": "main",
-            "date": "2026-11-17T11:11:42Z",
-            "url": "https://github.com/grafana/grafana/commit/dd0c7018f1c3dc019a8cf1c5abfc42991d39064b"
+            "sha": "9b14457",
+            "branch": "macabu/nix-flake-checkpoint",
+            "date": "2026-11-18T21:50:48Z",
+            "url": "https://github.com/grafana/grafana/commit/9b144578334f29a447509c09e83afc1bce02b7e3"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9775,
+            "stars": 9776,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T22:07:02Z",
