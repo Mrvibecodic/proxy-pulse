@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:18:17.181805Z",
+  "generated_at": "2026-11-18T07:23:36.075034Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T06:41:24Z",
+            "pushed_at": "2026-11-18T07:20:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,90 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "464c90c",
+                  "message": "pigeonhole: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/464c90c530efe686578c7854c72f36501729ad15"
+                },
+                {
+                  "sha": "8383b33",
+                  "message": "dovecot: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/8383b33c75c49f47e833413d42c7f95eaf519e89"
+                },
+                {
+                  "sha": "d40b3e8",
+                  "message": "pigeonhole: backport security fixes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/d40b3e8eb30df0933f63b4da0644aabfda3f007f"
+                },
+                {
+                  "sha": "30c7615",
+                  "message": "pigeonhole: fix the library path of managesieve-login",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/30c761530f6caab7e86b1e297093c6ea9795b608"
+                },
+                {
+                  "sha": "2455282",
+                  "message": "dovecot: backport security fixes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/2455282b8f300de3e7b9f4e972bdeea884cd3d37"
+                },
+                {
+                  "sha": "7951fec",
+                  "message": "dovecot: update to 2.3.21.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/7951fec146ebbdb053ac74b3ef8d1c4cc2e82569"
+                },
+                {
+                  "sha": "fedafef",
+                  "message": "curl: add libcurl-gnutls as a build variant",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/fedafef0508a5e8ca30387aee934aff96d5abc68"
+                },
+                {
+                  "sha": "bd72d9b",
+                  "message": "libcurl-gnutls: strip with binutils strip",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/bd72d9b45fbdd8b2abc867935833269e7c0a43fa"
+                },
+                {
+                  "sha": "944cc4f",
+                  "message": "libcurl-gnutls: update to 8.23.0",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:20:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/944cc4f155c1313457e1415de622e07d8f6cdf9a"
+                },
+                {
+                  "sha": "1073e61",
+                  "message": "netdata: use the system SQLite",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:19:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/1073e61fb3928dc7b6d30d60bd58c1ca3cf41659"
+                },
+                {
+                  "sha": "e38cd49",
+                  "message": "netdata: drop the unused libmnl dependency",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:19:47Z",
+                  "url": "https://github.com/openwrt/packages/commit/e38cd49e0438d5182b102907edf4d3ad2e562f41"
+                },
+                {
+                  "sha": "e2fcf47",
+                  "message": "tailscale: update to 1.104.6",
+                  "author": "Sandro Jäckel",
+                  "date": "2026-11-18T07:19:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/e2fcf4743e0bef3bd50024226a7b15ea51212a6b"
+                },
+                {
                   "sha": "74a41c6",
                   "message": "uvol: log when ubus method block status is unavailable",
                   "author": "Florian Eckert",
@@ -1969,90 +2053,6 @@
                   "author": "John Audia",
                   "date": "2026-11-17T07:57:28Z",
                   "url": "https://github.com/openwrt/packages/commit/b661d2035bf9fea881677942527efda5e830bae3"
-                },
-                {
-                  "sha": "50de700",
-                  "message": "noto-fonts-cjk: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-17T07:45:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/50de700b0cf97f649116ac667b6015e0d60ae6b3"
-                },
-                {
-                  "sha": "14a26a5",
-                  "message": "noto-fonts-color-emoji: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-17T07:45:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/14a26a5bfa3f632f9f7d931e36e4ab7f32023943"
-                },
-                {
-                  "sha": "7ea61c0",
-                  "message": "noto-fonts: add package",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-17T07:45:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/7ea61c03b18714787d1db1d5981677fca5da5b22"
-                },
-                {
-                  "sha": "a91c801",
-                  "message": "openvpn: update to 2.7.9",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-17T07:08:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/a91c801b1f2f00050703cb19e49df191b9f3e4c1"
-                },
-                {
-                  "sha": "80980cd",
-                  "message": "ddns-scripts: add support for query type in busybox nslookup",
-                  "author": "Jorge Gallegos",
-                  "date": "2026-11-17T06:46:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/80980cdb5d5c3dca95cba022664d8bc866ad49ec"
-                },
-                {
-                  "sha": "cff8bc3",
-                  "message": "ddns-scripts: add DNSimple DNS provider and bump to v2.8.6",
-                  "author": "Jorge Gallegos",
-                  "date": "2026-11-17T06:46:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/cff8bc38b5b611309cddc3d78561ed3c6ab0a7b8"
-                },
-                {
-                  "sha": "138771c",
-                  "message": "gst1-plugins-bad: fix v4l2codecs caps, add RPi HEVC and DASH",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-17T05:44:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/138771c5d189ad614c1cf770595a16b6a96e5e0b"
-                },
-                {
-                  "sha": "54f5696",
-                  "message": "gst1-plugins-base: add the Raspberry Pi column formats",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-17T05:44:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/54f56966a08c028af40c3137892685c010d524e6"
-                },
-                {
-                  "sha": "33a3c9f",
-                  "message": "libcamera: add the rkisp2 image quality algorithms",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-16T23:19:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/33a3c9f89f62ddec6aa1e394cb7cb610324bc3df"
-                },
-                {
-                  "sha": "51a58a0",
-                  "message": "travelmate: release 3.1.0",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-16T21:02:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/51a58a0d7fa9f1c143dcfecd35904edf1e8d5585"
-                },
-                {
-                  "sha": "84d140b",
-                  "message": "mosquitto: update to 2.0.23",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T17:34:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/84d140b38c670a080e88a2f7523ccc13f2b72e34"
-                },
-                {
-                  "sha": "b72ddf2",
-                  "message": "CONTRIBUTING: explain the AI policy in more detail",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T11:47:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/b72ddf2f67418600fdabfa05faa78c5c9d2da600"
                 }
               ]
             },
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "2cf0a3f",
+                  "message": "gperftools: update to 2.19.3",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:19:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/2cf0a3f2b4d76b174acccc07bbb5dbda95f3604b"
+                },
+                {
+                  "sha": "8469411",
+                  "message": "sshpass: update to 1.10",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:18:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/846941162713e496c107dee70bd5256a0384031f"
+                },
+                {
                   "sha": "8c1e98c",
                   "message": "travelmate: keep leading and trailing spaces of a scanned ssid",
                   "author": "Dirk Brenken",
@@ -3544,20 +3558,6 @@
                   "author": "Vladimir Ulrich",
                   "date": "2026-11-04T17:14:06Z",
                   "url": "https://github.com/openwrt/packages/commit/e0d2c013e90619d429403fb8e0ef69e88e8629a2"
-                },
-                {
-                  "sha": "22319ea",
-                  "message": "telegraf: update to 1.40.3",
-                  "author": "Niklas Thorild",
-                  "date": "2026-11-04T17:13:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/22319eaa33f84f3849269360d4692b0fbc68dbe8"
-                },
-                {
-                  "sha": "aea49e6",
-                  "message": "luajit: do not build on riscv64",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-04T06:34:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/aea49e65a439f73fbc0e4b8c60ced1f1839f64fd"
                 }
               ]
             },
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Rule-based traffic routing for OpenWrt",
-            "stars": 891,
+            "stars": 892,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-11-02T01:16:35Z",
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5494,
+            "stars": 5495,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-11-18T00:22:30Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94574,
+            "stars": 94575,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-18T00:04:46Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27451,
+            "stars": 27452,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-17T20:02:44Z",
@@ -5175,7 +5175,7 @@
             "stars": 77977,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T07:11:14Z",
+            "pushed_at": "2026-11-18T07:22:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "833f70b",
-            "branch": "juanicabanas/notebook-unique-element-names",
-            "date": "2026-11-17T15:02:08Z",
-            "url": "https://github.com/grafana/grafana/commit/833f70b29ee42a647b25f7c09782b6aaad774c5f"
+            "sha": "dca8715",
+            "branch": "main",
+            "date": "2026-11-17T11:19:41Z",
+            "url": "https://github.com/grafana/grafana/commit/dca87158ccb3463e6ef1a3623c109ebd173ef31c"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9481,
+            "stars": 9484,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T04:23:31Z",
