@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T09:26:17.898226Z",
+  "generated_at": "2026-11-18T09:31:37.080319Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35884,
+            "stars": 35885,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:07:58Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7950,
+            "stars": 7951,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-15T23:16:46Z",
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T08:32:33Z",
+            "pushed_at": "2026-11-18T09:30:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "535580b",
+                  "message": "fish: use the build system's Rust support",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-18T09:30:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/535580b32761eca5419880d3d691002b30764f0a"
+                },
+                {
                   "sha": "1ac5440",
                   "message": "micropython-lib: bump to 1.29.0",
                   "author": "Roberto Andrei Bolda",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-17T09:42:11Z",
                   "url": "https://github.com/openwrt/packages/commit/aec286ebdfa26ec892eb7506c32f5abda07a7540"
-                },
-                {
-                  "sha": "af402e4",
-                  "message": "librespeed-cli: update to 1.0.15",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:32:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/af402e496b652be09ce3479c6d06289e38adacbd"
                 }
               ]
             },
@@ -3350,6 +3350,34 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "b646aaf",
+                  "message": "dovecot: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T09:26:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/b646aaff2305dbb5653d190a3c1ce09a0235519b"
+                },
+                {
+                  "sha": "7520246",
+                  "message": "pigeonhole: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T09:26:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/7520246207fdd02aee18ff638809a230126948fd"
+                },
+                {
+                  "sha": "5abaac6",
+                  "message": "pigeonhole: backport security fixes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T09:26:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/5abaac63815c40a2bfe2202f0d85c9f02fec9e0e"
+                },
+                {
+                  "sha": "013907a",
+                  "message": "pigeonhole: fix the library path of managesieve-login",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T09:26:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/013907acde11a19fe4009526e51549b7559e9774"
+                },
+                {
                   "sha": "7de108b",
                   "message": "dovecot: backport security fixes",
                   "author": "Josef Schlehofer",
@@ -3530,34 +3558,6 @@
                   "author": "Daniel F. Dickinson",
                   "date": "2026-11-10T22:21:23Z",
                   "url": "https://github.com/openwrt/packages/commit/b192b111cde13c5dc6e8f2855625eef00b6e6e1c"
-                },
-                {
-                  "sha": "46d4255",
-                  "message": "golang: bump 1.27 to 1.27.4",
-                  "author": "George Sapkin",
-                  "date": "2026-11-10T20:51:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/46d425591d35bfb2dc16402a4869737cb403df45"
-                },
-                {
-                  "sha": "b1e1cbd",
-                  "message": "owut: update to 2026.11.08",
-                  "author": "Eric Fahlgren",
-                  "date": "2026-11-10T20:07:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/b1e1cbd9fa4b51bc5e58864306b312905a3bc1b7"
-                },
-                {
-                  "sha": "03d4715",
-                  "message": "golang: bump 1.26 to 1.26.11",
-                  "author": "George Sapkin",
-                  "date": "2026-11-10T19:47:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/03d47153abb2696acc3ca07ab6191e6819daf8bb"
-                },
-                {
-                  "sha": "ef3b0bd",
-                  "message": "weechat: update to 4.10.4",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-10T09:32:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/ef3b0bd9f6fa4e3842ceecd972615031be569c96"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77980,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T09:22:32Z",
+            "pushed_at": "2026-11-18T09:29:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2ff2846",
-            "branch": "main",
-            "date": "2026-11-18T01:03:48Z",
-            "url": "https://github.com/grafana/grafana/commit/2ff28462b7dce103b9e57451210054b8c2eaa11b"
+            "sha": "6d30d02",
+            "branch": "dprokop/megamenu-conversations-section",
+            "date": "2026-11-17T10:12:48Z",
+            "url": "https://github.com/grafana/grafana/commit/6d30d02f309721fd7708964cfa3466ecfd7ebad8"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29179,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T09:24:15Z",
+            "pushed_at": "2026-11-18T09:27:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5720,10 +5720,10 @@
             }
           ],
           "last_commit": {
-            "sha": "973b5aa",
+            "sha": "94a7851",
             "branch": "dev",
-            "date": "2026-11-16T20:45:05Z",
-            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/973b5aa8af0d6c1abd57e6c6effd14c9492217e9"
+            "date": "2026-11-17T12:19:00Z",
+            "url": "https://github.com/Mrvibecodic/remnawave-subscription-middleware/commit/94a7851cbb369e733f3ed3a54914f8792f937ce4"
           }
         },
         {
