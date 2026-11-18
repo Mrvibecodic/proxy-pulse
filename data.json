@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T08:27:28.994421Z",
+  "generated_at": "2026-11-18T08:32:49.816856Z",
   "groups": [
     {
       "id": "cores",
@@ -13,10 +13,10 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42993,
+            "stars": 42994,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T16:43:50Z",
+            "pushed_at": "2026-11-18T08:27:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40083,
+            "stars": 40084,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-17T04:56:33Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35878,
+            "stars": 35879,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:07:58Z",
@@ -1122,7 +1122,7 @@
             "stars": 29248,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T06:36:14Z",
+            "pushed_at": "2026-11-18T08:30:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T07:32:30Z",
+            "pushed_at": "2026-11-18T08:32:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "1ac5440",
+                  "message": "micropython-lib: bump to 1.29.0",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-18T08:32:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/1ac54403af4a7b0f2743e92bbe7f2c5fe17a61df"
+                },
+                {
+                  "sha": "b2429c5",
+                  "message": "fio: bump to 3.43",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-18T08:31:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/b2429c5afd12d3bac9a737a56d4dc17fb0d10cdd"
+                },
+                {
+                  "sha": "e829a13",
+                  "message": "mpremote: bump to 1.29.0",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-18T08:30:19Z",
+                  "url": "https://github.com/openwrt/packages/commit/e829a139d012cd4b0bdda3efe2b3a82caae7de30"
+                },
+                {
+                  "sha": "b9bcc12",
+                  "message": "mpd: bump to 0.24.17",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-18T08:29:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/b9bcc128f67dd6a72e05d9d0c9922e1e7a3efbf2"
+                },
+                {
                   "sha": "464c90c",
                   "message": "pigeonhole: add version check override",
                   "author": "Josef Schlehofer",
@@ -2025,34 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-17T09:32:54Z",
                   "url": "https://github.com/openwrt/packages/commit/af402e496b652be09ce3479c6d06289e38adacbd"
-                },
-                {
-                  "sha": "d42aae5",
-                  "message": "opentracker: add myself as maintainer",
-                  "author": "Mirko Vogt",
-                  "date": "2026-11-17T07:57:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/d42aae53c52b5359603f6bf3a3b0ed9f3fb31c96"
-                },
-                {
-                  "sha": "dcb542a",
-                  "message": "opentracker: update to 2.2.1",
-                  "author": "Mirko Vogt",
-                  "date": "2026-11-17T07:57:56Z",
-                  "url": "https://github.com/openwrt/packages/commit/dcb542af1e982421443f152569446a64f073a580"
-                },
-                {
-                  "sha": "37acd28",
-                  "message": "nfs-kernel-server: fix v4 init script and ship nfs.conf",
-                  "author": "John Audia",
-                  "date": "2026-11-17T07:57:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/37acd2872fc9f44ac030f2f2df942f0c3f00b6cd"
-                },
-                {
-                  "sha": "b661d20",
-                  "message": "nfs-kernel-server: update to 3.1.1",
-                  "author": "John Audia",
-                  "date": "2026-11-17T07:57:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/b661d2035bf9fea881677942527efda5e830bae3"
                 }
               ]
             },
@@ -4321,10 +4321,10 @@
             }
           ],
           "last_commit": {
-            "sha": "11bcede",
+            "sha": "f29d774",
             "branch": "dependabot/mihomo-alpha",
-            "date": "2026-11-13T00:22:18Z",
-            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/11bcede34eddfeceb6493202ed15553185692b30"
+            "date": "2026-11-18T00:22:30Z",
+            "url": "https://github.com/nikkinikki-org/OpenWrt-nikki/commit/f29d774726f241a6c9e6a4f134f115fa9ec24770"
           }
         },
         {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "10a1083",
-            "branch": "main",
-            "date": "2026-11-17T15:00:01Z",
-            "url": "https://github.com/grafana/grafana/commit/10a1083d170884aa805bb69de197c769eb85c0d3"
+            "sha": "4666fbd",
+            "branch": "dprokop/megamenu-peek-and-dock",
+            "date": "2026-11-17T14:19:32Z",
+            "url": "https://github.com/grafana/grafana/commit/4666fbdf8e8d68897698386fbc4cd307be405336"
           }
         },
         {
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "999a1c5",
-            "branch": "deps-update/github.com-hashicorp-nomad-api-digest",
-            "date": "2026-11-16T16:25:57Z",
-            "url": "https://github.com/prometheus/prometheus/commit/999a1c5db52176009a2f870200b46913acb24034"
+            "sha": "041e934",
+            "branch": "bwplotka/scrape-staleness-slices",
+            "date": "2026-11-17T15:39:14Z",
+            "url": "https://github.com/prometheus/prometheus/commit/041e9341c49508067f39b7e3fbc16765bb417e64"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb77b7b",
-            "branch": "dataobj-relative-byte-range",
-            "date": "2026-11-17T14:51:22Z",
-            "url": "https://github.com/grafana/loki/commit/eb77b7ba5013f1a20a476250377b5e4384dab9d9"
+            "sha": "7bf5e82",
+            "branch": "main",
+            "date": "2026-11-17T15:01:18Z",
+            "url": "https://github.com/grafana/loki/commit/7bf5e82eddcce314f89dd525f32c79c258e8c5aa"
           }
         }
       ]
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9514,
+            "stars": 9516,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T04:23:31Z",
