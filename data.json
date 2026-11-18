@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T14:00:20.063686Z",
+  "generated_at": "2026-11-18T14:05:48.347178Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1628,
+            "stars": 1629,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-16T00:04:51Z",
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T13:16:21Z",
+            "pushed_at": "2026-11-18T14:01:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "087f7b1",
+                  "message": "subversion: update to 1.15.0",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T14:01:08Z",
+                  "url": "https://github.com/openwrt/packages/commit/087f7b1f92c634b94f6e825c35e3be0484ba3a65"
+                },
+                {
                   "sha": "42fbf30",
                   "message": "keepalived: add missing dependency",
                   "author": "Stijn Tintel",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-17T09:43:28Z",
                   "url": "https://github.com/openwrt/packages/commit/dca0b8b404228b63a8f91b38f2a7d792e026096f"
-                },
-                {
-                  "sha": "9b5c822",
-                  "message": "netdata: backport fixes for CVE-2023-22496 and CVE-2023-22497",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:43:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/9b5c822c7f50cfdeb101ede22134d0dec662f56c"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27460,
+            "stars": 27459,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-17T20:02:44Z",
@@ -5175,7 +5175,7 @@
             "stars": 77988,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T13:59:29Z",
+            "pushed_at": "2026-11-18T14:03:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4e8e94c",
+            "sha": "40ce3c3",
             "branch": "ale/provisioning-generic-kinds",
-            "date": "2026-11-17T18:30:30Z",
-            "url": "https://github.com/grafana/grafana/commit/4e8e94cbc16c15700b31034f9bc6c50099867f97"
+            "date": "2026-11-17T18:00:41Z",
+            "url": "https://github.com/grafana/grafana/commit/40ce3c33bab3e3167cc853226508b1ce8e02a853"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9616,
+            "stars": 9618,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T04:23:31Z",
