@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T16:21:05.923613Z",
+  "generated_at": "2026-11-18T16:26:31.729841Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40095,
+            "stars": 40096,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-18T11:26:56Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7958,
+            "stars": 7959,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-15T23:16:46Z",
@@ -5175,7 +5175,7 @@
             "stars": 77990,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T16:20:25Z",
+            "pushed_at": "2026-11-18T16:26:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5dfb1bd",
-            "branch": "tiehm/pending-folder-deletion-client",
-            "date": "2026-11-17T19:22:30Z",
-            "url": "https://github.com/grafana/grafana/commit/5dfb1bd9d618b5a18059ab7dc1fdf4161e90969a"
+            "sha": "f0951ad",
+            "branch": "main",
+            "date": "2026-11-17T07:43:23Z",
+            "url": "https://github.com/grafana/grafana/commit/f0951ad84b0fe99102c8b821d5d449daa48b4fc0"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9669,
+            "stars": 9671,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T16:14:52Z",
@@ -5877,6 +5877,15 @@
             "owner": "getarcaneapp"
           },
           "releases": [
+            {
+              "name": "v3.1.0",
+              "tag": "v3.1.0",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.1.0",
+              "published_at": "2026-11-18T16:24:02Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release adds LDAP login with user sync, project copy and move between environments, and an adjustable background image blur. It also fixes agent request stalls, stricter API validation, and image update and prune handling.\n\n### Features\n\n- Add LDAP login and user sync (#4822) (@kmendell)\n- Add project copy and move between environments (#4838) (@kmendell)\n- Create missing external resources during project transfer (#4858) (@kmendell)\n- Add adjustable background image blur (#4865) (@kmendell)\n- Read image attestations from the local daemon first (28f9491) (@kmendell)\n- Track agent readiness with renewable leases (#4804) (@kmendell)\n- Aggregate environment data for remaining endpoints (#4829) (@kmendell)\n\n### Performance\n\n- Reuse cached data for instant detail navigation (#4818) (@kmendell)\n\n### API\n\n- Return 400 for malformed image references in the update check (#4815) (@jmrplens)\n- Return 400 for unknown updater scope types (#4814) (@jmrplens)\n- Return 400 for invalid swarm address pools and specs (#4816) (@jmrplens)\n- Return 400 for API key grants on unknown environments (#4813) (@jmrplens)\n- Compress JSON API responses with gzip (#4827) (@zichen0116)\n- Document GitOps sync and Git repository request fields (#4805) (@jmrplens)\n- Sort database lists by JSON field names (#4809) (@jmrplens)\n\n### Agents and Environments\n\n- Unblock agent requests stalled by database cursors and environment lookups (#4832) (@kmendell)\n- Keep encoded path segments when proxying to agent environments (#4807) (@jmrplens)\n- Open the SQLite read pool in agent mode (#4855) (@kmendell)\n- List only environments with updates in the update-all plan (#4836) (@kmendell)\n\n### Image Updates and Pruning\n\n- Retry short registry rate limits and remove schedule jitter (#4802) (@kmendell)\n- Tolerate already-removed images during prune (#4834) (@kmendell)\n- Refresh the version stream on image update events (#4860) (@kmendell)\n- Resume unsettled auto-update targets on retry (#4864) (@kmendell)\n- Fall back to the KEV mirror when the CISA feed fails (#4835) (@kmendell)\n\n### GitOps and Projects\n\n- Preserve executable mode in GitOps backups (#4833) (@kmendell)\n- Skip rewriting unchanged Compose files on environment-only project save (#4850) (@MaxWang007)\n\n### Authentication\n\n- Match federated issuers whose `iss` ends with a slash (#4811) (@jmrplens)\n\n### User Interface\n\n- Prevent update-all dialog title text overlap (#4853) (@kmendell)\n- Wrap resource card footer metadata in grid view (#4854) (@kmendell)\n- Show specific labels for activity center entries (#4859) (@kmendell)\n\n### CI and Release\n\n- Re-enable the GoReleaser announce step on release (#4798) (@kmendell)\n- Sync Crowdin translations through main before release (#4839) (@kmendell)\n\n"
+            },
             {
               "name": "v3.0.1",
               "tag": "v3.0.1",
@@ -5912,15 +5921,6 @@
               "prerelease": false,
               "author": "arcane-github-automation[bot]",
               "body": "\u003e [!NOTE]\n\u003e This release fixes API error handling and Git-sync redeploys, and improves image uploads, vulnerability links, and backup behavior.\n\n### API and proxy\n- Return 4xx responses for build workspace path errors (#4595, @jmrplens), unknown records and invalid requests (#4596, @jmrplens), and Docker not-found and conflict errors on more routes (#4598, @jmrplens).\n- Return 404 for manager-side routes targeting an unknown environment (#4597, @jmrplens).\n- Keep proxied request bodies readable while the agent responds (#4592, @jmrplens).\n\n### Images and deployments\n- Allow Safari uploads of `.tar.gz` and `.tar.xz` images ([3bf2c362f56439b19853d0576d96b87b0aafa7bb], @kmendell).\n- Skip stored update state for digest-pinned images (#4610, @kmendell).\n- Build project images before redeploying after Git sync (#4611, @kmendell).\n- Warn when deprecated Arcane images are running (#4585, @kmendell).\n- Snapshot the service spec before saving changes in the service editor (#4603, @kmendell).\n\n### Security, backups, and documentation\n- Link vulnerability IDs to their advisory databases (#4583, @kmendell).\n- Skip local Rustic pruning when no local backups exist (#4584, @kmendell).\n- Serve the Scalar API reference from the frontend instead of a CDN (#4613, @kmendell).\n\n"
-            },
-            {
-              "name": "v2.17.1",
-              "tag": "v2.17.1",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.1",
-              "published_at": "2026-10-25T17:55:38Z",
-              "prerelease": false,
-              "author": "arcane-github-automation[bot]",
-              "body": "\u003e [!NOTE]\n\u003e This release fixes manual job and updater behavior, improves Compose and workspace handling, and resolves a Rustic container certificate issue.\n\n### Jobs and updates\n- Require jobs to be enabled in saved settings before allowing manual runs (#4550, @grootbro).\n- Allow manual updater runs to proceed even when updates are opted out (#4564, @kmendell).\n- Resolve orphaned job run activities on startup (#4572, @kmendell).\n\n### Compose and workspaces\n- Respect the name set in a Compose file instead of the project name (#4561, @kmendell).\n- Use mount-time environment and volume settings in the workspace cache listener (#4563, @kmendell).\n\n### Backups\n- Trust Arcane’s CA roots inside the Rustic container (#4554, @Mczubi).\n\n"
             }
           ],
           "last_commit": {
