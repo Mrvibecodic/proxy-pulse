@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:19:21.232825Z",
+  "generated_at": "2026-11-18T18:24:42.653984Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 29253,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T18:18:22Z",
+            "pushed_at": "2026-11-18T18:22:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4679,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T17:18:44Z",
+            "pushed_at": "2026-11-18T18:20:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f9605a4",
+                  "message": "udp-broadcast-relay-redux: update to multi-target version",
+                  "author": "Aaron Curley",
+                  "date": "2026-11-18T18:20:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/f9605a4961c577e7eac1bf019ddabae2b6e558f7"
+                },
+                {
                   "sha": "087f7b1",
                   "message": "subversion: update to 1.15.0",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-17T09:44:50Z",
                   "url": "https://github.com/openwrt/packages/commit/12b8bd1a297ca981796c2d5321028df9557f4512"
-                },
-                {
-                  "sha": "dca0b8b",
-                  "message": "netdata: do not install the dashboard source maps",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:43:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/dca0b8b404228b63a8f91b38f2a7d792e026096f"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78001,
+            "stars": 78002,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T18:19:15Z",
+            "pushed_at": "2026-11-18T18:21:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2f79e3d",
-            "branch": "main",
-            "date": "2026-11-17T14:29:53Z",
-            "url": "https://github.com/grafana/grafana/commit/2f79e3deb45964e920cec4b4dc45e81a8e19e279"
+            "sha": "8b59a22",
+            "branch": "tiehm/pending-folder-deletion-recovery-draft",
+            "date": "2026-11-17T20:45:00Z",
+            "url": "https://github.com/grafana/grafana/commit/8b59a22496e2aa3ff702fa176c6d6a254bf5d97b"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67691,
+            "stars": 67693,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-18T16:33:42Z",
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b911fb3",
-            "branch": "main",
-            "date": "2026-11-17T19:40:01Z",
-            "url": "https://github.com/prometheus/prometheus/commit/b911fb37c3a2684cccd754f29fb629c1c8362c96"
+            "sha": "5dce157",
+            "branch": "deps-update/aws-go-dependencies",
+            "date": "2026-11-17T20:30:31Z",
+            "url": "https://github.com/prometheus/prometheus/commit/5dce1575b97e8ab79ace2f22e185fb24f36bd4a0"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29182,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T18:17:37Z",
+            "pushed_at": "2026-11-18T18:20:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0518b0d",
+            "sha": "d79762f",
             "branch": "feat/logline-hint-cache-needle-key",
-            "date": "2026-11-16T22:26:53Z",
-            "url": "https://github.com/grafana/loki/commit/0518b0d5809452a5e43a431dd5425075707e4c10"
+            "date": "2026-11-17T17:12:10Z",
+            "url": "https://github.com/grafana/loki/commit/d79762fc69182ce5de7854ebce7904fbee1fb3af"
           }
         }
       ]
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9707,
+            "stars": 9713,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T18:15:16Z",
