@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T01:32:38.982598Z",
+  "generated_at": "2026-11-18T01:37:56.994822Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 35861,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T01:31:02Z",
+            "pushed_at": "2026-11-18T01:37:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -978,12 +978,21 @@
             "stars": 66,
             "url": "https://github.com/flowvy/desktop",
             "default_branch": "main",
-            "pushed_at": "2026-11-16T05:58:45Z",
+            "pushed_at": "2026-11-18T01:33:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267047667?v=4",
             "owner": "flowvy"
           },
           "releases": [
+            {
+              "name": "1.0.0-beta.12",
+              "tag": "1.0.0-beta.12",
+              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.12",
+              "published_at": "2026-11-18T01:33:11Z",
+              "prerelease": true,
+              "author": "this-xkit",
+              "body": "### Fixed\n\n- Announcements keep their usual colors when a provider adds a link or pins the text without specifying a color for the current theme.\n- Provider-supplied update mirrors apply after refreshing a subscription.\n"
+            },
             {
               "name": "0.3.6",
               "tag": "0.3.6",
@@ -1019,15 +1028,6 @@
               "prerelease": true,
               "author": "this-xkit",
               "body": "### New\n\n- Choose a compact, standard or large tray popup size in Settings. The standard size is now 400×560.\n\n### Improved\n\n- New builds include the latest stable proxy engine available at build time, with its download checked for integrity.\n\n### Fixed\n\n- Dashboard and popup controls on macOS respond to the first click when their window is inactive.\n- Connection errors in the popup show relevant actions, including retry, helper update, provider support and logs when available.\n- Host country flags stay visible when a custom icon fails to load.\n- Switching hosts no longer shows a connection cleanup error when there are no connections to close."
-            },
-            {
-              "name": "1.0.0-beta.6",
-              "tag": "1.0.0-beta.6",
-              "url": "https://github.com/flowvy/desktop/releases/tag/1.0.0-beta.6",
-              "published_at": "2026-09-15T17:24:13Z",
-              "prerelease": true,
-              "author": "this-xkit",
-              "body": "### Improved\n\n- Removed group status banners from the top of the popup and dashboard pages.\n- macOS shows when the helper needs system approval and provides an action to open the relevant settings.\n\n### Fixed\n\n- macOS uninstallation no longer stops at helper removal when the helper has never been installed.\n- Subscription reordering no longer loses newly added profiles or restores an outdated order after a delayed response.\n- Updating one subscription no longer hides another subscription's device-consent request, error or retry action.\n- Disconnecting recovers correctly when stopping the connection fails.\n- Profile rules apply to the selected profile, retain unsaved edits and place appended rules before the final catch-all rule.\n- Subscription loading recovers more reliably, and repeated window activity no longer leaves duplicate event listeners.\n- Disconnecting preserves system proxy settings changed by another application.\n- Diagnostic files remain available when exporting an archive fails.\n- VLESS imports preserve supported transport settings and report unsupported transports instead of silently changing them.\n- Linux reports failures while changing persistent routes; macOS releases old tray images after icon updates.\n- macOS allows updates before the helper is first installed. Replacing an older helper preserves its system approval and completes registration in one step instead of requiring another installation attempt.\n\n### Security\n\n- macOS verifies a protected copy of the connection engine before starting it with elevated privileges and uses system-managed helper registration.\n- Subscription redirects restrict transfer of device identifiers and credentials. Device consent is tied to the subscription URL.\n- Remote profile images use a bounded cache and a placeholder when loading is rejected. Local-address URL checks are strengthened.\n- Subscription settings can no longer enable additional unprotected connection-control endpoints or an external dashboard."
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94565,
+            "stars": 94566,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-18T00:04:46Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "04e5607",
-            "branch": "cb/recently-deleted-alert-rules-2370",
-            "date": "2026-11-17T05:14:23Z",
-            "url": "https://github.com/grafana/grafana/commit/04e56071d900151726b661f4a2dfc00de2d649b7"
+            "sha": "5350b5f",
+            "branch": "release-13.3.2",
+            "date": "2026-11-17T10:45:33Z",
+            "url": "https://github.com/grafana/grafana/commit/5350b5f82e9d463932cd6058b4e3a71ef5476cd4"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9346,
+            "stars": 9348,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T01:18:25Z",
