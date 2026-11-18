@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T17:14:58.273710Z",
+  "generated_at": "2026-11-18T17:20:20.034400Z",
   "groups": [
     {
       "id": "cores",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e578140",
-            "branch": "openwrt-25.12",
-            "date": "2026-11-17T20:17:43Z",
-            "url": "https://github.com/openwrt/openwrt/commit/e578140c3aab43e9a59a9d026788d1dadb712210"
+            "sha": "5732bcb",
+            "branch": "master",
+            "date": "2026-11-18T06:36:15Z",
+            "url": "https://github.com/openwrt/openwrt/commit/5732bcbeff1826d5ec41c32161395c9d5e62b5d9"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4679,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T14:01:09Z",
+            "pushed_at": "2026-11-18T17:18:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,76 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "f72672b",
+                  "message": "snort3: update to 3.13.2.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/f72672bb0736dce0f94281909d6bffb937d030f6"
+                },
+                {
+                  "sha": "6eff5bd",
+                  "message": "libdaq3: update to 3.0.29",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/6eff5bdbf53da69d4af2df4d0f53c026ca2da66d"
+                },
+                {
+                  "sha": "e3361c0",
+                  "message": "snort3: update to 3.12.2.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/e3361c0002397738edd568a8139eb5aa72c7e386"
+                },
+                {
+                  "sha": "0e33960",
+                  "message": "snort3: update to 3.12.1.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/0e33960fd053572d5824fa95d3d76eaffaa889bf"
+                },
+                {
+                  "sha": "ce67f5c",
+                  "message": "libdaq3: update to 3.0.27",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/ce67f5c605c2be9780992846b68724e2412a6eeb"
+                },
+                {
+                  "sha": "70995d9",
+                  "message": "snort3: update to v3.11.1.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/70995d9eb8478311f084c9a417ead5640d8bf7d6"
+                },
+                {
+                  "sha": "d7aaccb",
+                  "message": "libdaq3: update to 3.0.25",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/d7aaccb9c8073365c1a06012aee719c4c1eb8c34"
+                },
+                {
+                  "sha": "bc0d054",
+                  "message": "snort3: update to 3.10.2.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/bc0d0548e94bc2e67d686ed7837140317f35de0f"
+                },
+                {
+                  "sha": "115e231",
+                  "message": "snort3: update to 3.10.1.0",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/115e2319147968c878042c3b393efd7ac8bc3373"
+                },
+                {
+                  "sha": "f6b4910",
+                  "message": "libdaq3: update to 3.0.24",
+                  "author": "John Audia",
+                  "date": "2026-11-18T17:18:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/f6b4910cd34b7d16eb92a0ef8308e180aaf5f12a"
+                },
+                {
                   "sha": "b646aaf",
                   "message": "dovecot: add version check override",
                   "author": "Josef Schlehofer",
@@ -3488,76 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-17T09:35:02Z",
                   "url": "https://github.com/openwrt/packages/commit/baa9a65d814fdbab1483f95b53ba67ba33f7daf9"
-                },
-                {
-                  "sha": "a6e0833",
-                  "message": "librespeed-cli: fail the run when no selected server answers",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:34:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/a6e08334e84b34c52c6725673e0e0b18b00ab058"
-                },
-                {
-                  "sha": "d0c8b47",
-                  "message": "librespeed-common: refuse a zero step and a trailing comma",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T16:48:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/d0c8b47342d482de8ec0584a8af4f0d4a1fe36de"
-                },
-                {
-                  "sha": "2da3a56",
-                  "message": "librespeed-common: add a weekly schedule interval",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T16:48:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/2da3a56ffd7c1e5148e39f0b1142e98b3be0f0dc"
-                },
-                {
-                  "sha": "4f122d4",
-                  "message": "librespeed-common: measure and schedule per interface",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T16:47:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/4f122d498c098fb8f77de6deaf3d6a3c6462c49c"
-                },
-                {
-                  "sha": "34bcd63",
-                  "message": "librespeed-common: free the lock as soon as a run ends",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T16:47:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/34bcd635e28a1efb6a0326c2d0092fc09e3453bf"
-                },
-                {
-                  "sha": "c2c619e",
-                  "message": "apache: update to version 2.4.71",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T12:00:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/c2c619e6f065b238ab000b6cfc5afa238658b0c9"
-                },
-                {
-                  "sha": "07e0d16",
-                  "message": "domoticz: update to 2026.4",
-                  "author": "David Woodhouse",
-                  "date": "2026-11-11T17:06:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/07e0d16305d2b5903b37ad7913e33e18795f81a4"
-                },
-                {
-                  "sha": "a00e5a5",
-                  "message": "ripe-atlas: generate Ed25519 probe keys",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T10:01:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/a00e5a51e670f2e3a2d949006e28be45acb789ff"
-                },
-                {
-                  "sha": "c8f707a",
-                  "message": "ripe-atlas: fix the SOS ID of non-RSA keys",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T10:01:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/c8f707a144f05c6ea7574df963c4454597431589"
-                },
-                {
-                  "sha": "b192b11",
-                  "message": "radicale3: bump to v3.9.0 (security)",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-11-10T22:21:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/b192b111cde13c5dc6e8f2855625eef00b6e6e1c"
                 }
               ]
             },
@@ -5039,7 +5039,7 @@
             "stars": 94595,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T17:12:47Z",
+            "pushed_at": "2026-11-18T17:15:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77993,
+            "stars": 77994,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T17:09:27Z",
+            "pushed_at": "2026-11-18T17:19:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ff3bcdc",
-            "branch": "text-frame-initialization",
-            "date": "2026-11-17T20:06:31Z",
-            "url": "https://github.com/grafana/grafana/commit/ff3bcdcd3d1bb9ce9256c826d26f6dd76a031831"
+            "sha": "a62d7e2",
+            "branch": "claude/composer-hide-hint-on-send",
+            "date": "2026-11-17T19:54:40Z",
+            "url": "https://github.com/grafana/grafana/commit/a62d7e2212f08b123dd939b2079dfb7667b7dc6e"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67690,
+            "stars": 67691,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-18T16:33:42Z",
@@ -5311,7 +5311,7 @@
             "stars": 81465,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T17:09:04Z",
+            "pushed_at": "2026-11-18T17:16:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5447,7 +5447,7 @@
             "stars": 29182,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T16:59:11Z",
+            "pushed_at": "2026-11-18T17:15:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9689,
+            "stars": 9694,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T16:14:52Z",
