@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T07:23:36.075034Z",
+  "generated_at": "2026-11-18T07:28:54.573456Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35874,
+            "stars": 35875,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:07:58Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1569,
+            "stars": 1570,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:02:06Z",
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T07:20:53Z",
+            "pushed_at": "2026-11-18T07:28:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,41 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "98ceeab",
+                  "message": "netdata: use the system SQLite",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:27:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/98ceeab85761b3ec97e9e73ceffd26fae893334c"
+                },
+                {
+                  "sha": "08a5e5b",
+                  "message": "netdata: drop the unused libmnl dependency",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:27:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/08a5e5b5a75ebfed4abc736048d2ef4b17b948d8"
+                },
+                {
+                  "sha": "f374d87",
+                  "message": "netdata: do not install the dashboard source maps",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:27:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/f374d87fa4ab0b6c722bf53bf69dd4acf5fc21aa"
+                },
+                {
+                  "sha": "4698070",
+                  "message": "netdata: backport fixes for CVE-2023-22496 and CVE-2023-22497",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:26:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/4698070caabaff6b8536cbe02c1ba2b20d6e19b7"
+                },
+                {
+                  "sha": "4056efd",
+                  "message": "librespeed-cli: take over maintainership",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-18T07:26:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/4056efd6fb061115cad74ee25870a8b0ad15371e"
+                },
+                {
                   "sha": "2cf0a3f",
                   "message": "gperftools: update to 2.19.3",
                   "author": "Josef Schlehofer",
@@ -3523,41 +3558,6 @@
                   "author": "David Woodhouse",
                   "date": "2026-11-09T20:59:57Z",
                   "url": "https://github.com/openwrt/packages/commit/ff1902f6b0980ff187016e3b0f4ee0dd9b271c2c"
-                },
-                {
-                  "sha": "8e91c19",
-                  "message": "openzwave: update to 1.6.1965, disable downloads",
-                  "author": "David Woodhouse",
-                  "date": "2026-11-08T22:09:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/8e91c195d89cd11ae58390c21cf1312cf5c13aa6"
-                },
-                {
-                  "sha": "1a304c1",
-                  "message": "adguardhome: bump to 0.107.80",
-                  "author": "George Sapkin",
-                  "date": "2026-11-05T17:59:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/1a304c1a7031e356c97279c9a4a273f1710f08df"
-                },
-                {
-                  "sha": "f1accc8",
-                  "message": "openssh: update to 10.6_p2",
-                  "author": "Darren Tucker",
-                  "date": "2026-11-05T14:29:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/f1accc83d2a0cfd21d2ae1c14778096afb423d12"
-                },
-                {
-                  "sha": "95e9ff5",
-                  "message": "zabbix: bump to version 7.0.32",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-11-05T08:08:30Z",
-                  "url": "https://github.com/openwrt/packages/commit/95e9ff5f8a3ca16ec17bb1fd5ed399b7b64b9c18"
-                },
-                {
-                  "sha": "e0d2c01",
-                  "message": "zoneinfo: update to 2026f release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-11-04T17:14:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/e0d2c013e90619d429403fb8e0ef69e88e8629a2"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94575,
+            "stars": 94576,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-18T00:04:46Z",
@@ -5175,7 +5175,7 @@
             "stars": 77977,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T07:22:56Z",
+            "pushed_at": "2026-11-18T07:28:32Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dca8715",
-            "branch": "main",
-            "date": "2026-11-17T11:19:41Z",
-            "url": "https://github.com/grafana/grafana/commit/dca87158ccb3463e6ef1a3623c109ebd173ef31c"
+            "sha": "6fea0bb",
+            "branch": "grafakus/add-edit-actions-popover-for-rows-and-tabs",
+            "date": "2026-11-16T14:53:59Z",
+            "url": "https://github.com/grafana/grafana/commit/6fea0bb77eb0fc5575bc8c08a1b6303fc39787b2"
           }
         },
         {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29180,
+            "stars": 29179,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-18T05:45:45Z",
