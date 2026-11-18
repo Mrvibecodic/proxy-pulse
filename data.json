@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T06:41:07.035351Z",
+  "generated_at": "2026-11-18T06:46:25.353572Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 42987,
+            "stars": 42988,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-17T16:43:50Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35873,
+            "stars": 35874,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:07:58Z",
@@ -1190,7 +1190,7 @@
             "stars": 4677,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-17T19:55:41Z",
+            "pushed_at": "2026-11-18T06:41:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "74a41c6",
+                  "message": "uvol: log when ubus method block status is unavailable",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-18T06:41:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/74a41c687c5562f586d0164ef6ca110d3dbcc0b6"
+                },
+                {
+                  "sha": "81f2d3d",
+                  "message": "uvol: skip start when ubus object block is missing",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-18T06:41:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/81f2d3d33e287e79a3030c34cd4f78cd8ab0e3aa"
+                },
+                {
                   "sha": "3cc304a",
                   "message": "librespeed-cli: take over maintainership",
                   "author": "Josef Schlehofer",
@@ -2039,20 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-16T11:47:32Z",
                   "url": "https://github.com/openwrt/packages/commit/b72ddf2f67418600fdabfa05faa78c5c9d2da600"
-                },
-                {
-                  "sha": "c837db7",
-                  "message": "strongswan: add patches for 11 security issues",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-16T06:44:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/c837db774dd0473b655e272a0829f341a44f2ba7"
-                },
-                {
-                  "sha": "60aae22",
-                  "message": "ffmpeg: update V4L2 Request, add RPi DRM PRIME, trust store",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-15T00:04:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/60aae222edbbcf3fcd1e9b570cabba28d5e06520"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94573,
+            "stars": 94572,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-18T00:04:46Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2c46769",
-            "branch": "blob-streaming-client-only",
-            "date": "2026-11-16T14:30:01Z",
-            "url": "https://github.com/grafana/grafana/commit/2c46769724d575057ccc07f4271b6cdb020f8c01"
+            "sha": "f0c72e6",
+            "branch": "plugin-sdk-remove-admission-conversion",
+            "date": "2026-11-17T11:01:56Z",
+            "url": "https://github.com/grafana/grafana/commit/f0c72e6f0e7ed39737b35ed059d406403a5910ec"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 9462,
+            "stars": 9464,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-18T04:23:31Z",
