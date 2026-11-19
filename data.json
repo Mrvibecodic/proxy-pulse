@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T10:04:52.785945Z",
+  "generated_at": "2026-11-19T10:10:12.933756Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4681,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-18T22:46:45Z",
+            "pushed_at": "2026-11-19T10:09:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,62 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "7dc08e9",
+                  "message": "crowdsec-firewall-bouncer: update to 0.0.38",
+                  "author": "S. Brusch",
+                  "date": "2026-11-19T10:10:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/7dc08e9f6b96c2fb8a09fe337b1a7a6bfafd1a71"
+                },
+                {
+                  "sha": "12edb0d",
+                  "message": "v4l-utils: update to 1.32.0",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-19T10:09:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/12edb0d3af6be0b78270d47e96d3504564c0c82d"
+                },
+                {
+                  "sha": "0f2532f",
+                  "message": "hev-socks5-tunnel: update to 2.20.0",
+                  "author": "Ray Wang",
+                  "date": "2026-11-19T10:09:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/0f2532f697643b1397b8447931d464a7353f7af8"
+                },
+                {
+                  "sha": "d21796c",
+                  "message": "lvm2: update to 2.03.44",
+                  "author": "Thanh Vũ",
+                  "date": "2026-11-19T10:07:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/d21796cc7f629f6ddad9727da2eebdf55c968475"
+                },
+                {
+                  "sha": "e607cf3",
+                  "message": "nextdns: update to version 1.50.2",
+                  "author": "Olivier Poitrey",
+                  "date": "2026-11-19T10:06:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/e607cf36d46c9e7da362d3ed8a724c6a99a2d2a3"
+                },
+                {
+                  "sha": "16135e4",
+                  "message": "docker-compose: update to version 5.8.0",
+                  "author": "Javier Marcet",
+                  "date": "2026-11-19T10:06:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/16135e43dc0aecb99bf6babff50ca31f0808f444"
+                },
+                {
+                  "sha": "b85673f",
+                  "message": "dhtd: update to 1.0.6",
+                  "author": "Moritz Warning",
+                  "date": "2026-11-19T10:05:45Z",
+                  "url": "https://github.com/openwrt/packages/commit/b85673f9bbe5b59c1473ba3ac70b9aea39f2106a"
+                },
+                {
+                  "sha": "9fa1001",
+                  "message": "nfs-kernel-server: update to 3.2.1",
+                  "author": "John Audia",
+                  "date": "2026-11-19T10:05:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/9fa10015879a99fa1790e5516c33dc0d8e8486d2"
+                },
+                {
                   "sha": "f9605a4",
                   "message": "udp-broadcast-relay-redux: update to multi-target version",
                   "author": "Aaron Curley",
@@ -1997,62 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-11-18T06:41:23Z",
                   "url": "https://github.com/openwrt/packages/commit/74a41c687c5562f586d0164ef6ca110d3dbcc0b6"
-                },
-                {
-                  "sha": "81f2d3d",
-                  "message": "uvol: skip start when ubus object block is missing",
-                  "author": "Florian Eckert",
-                  "date": "2026-11-18T06:41:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/81f2d3d33e287e79a3030c34cd4f78cd8ab0e3aa"
-                },
-                {
-                  "sha": "3cc304a",
-                  "message": "librespeed-cli: take over maintainership",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T19:55:40Z",
-                  "url": "https://github.com/openwrt/packages/commit/3cc304a78e076ca6e09805f707096f0ddc6c9112"
-                },
-                {
-                  "sha": "2e3bcaa",
-                  "message": "travelmate: keep leading and trailing spaces of a scanned ssid",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-17T17:25:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/2e3bcaae539f100b7e9d8177a6347f1518c0df5a"
-                },
-                {
-                  "sha": "5af91ab",
-                  "message": "xfsprogs: bump to 7.2.1",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-17T09:45:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/5af91abfc0c34c4e412f68ad8833dc43c986e91c"
-                },
-                {
-                  "sha": "beeeacf",
-                  "message": "snort3: update to 3.13.2.0",
-                  "author": "John Audia",
-                  "date": "2026-11-17T09:45:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/beeeacf1e25c344222c6811388d6cdb0ee0ad573"
-                },
-                {
-                  "sha": "2870e66",
-                  "message": "libdaq3: update to 3.0.29",
-                  "author": "John Audia",
-                  "date": "2026-11-17T09:45:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/2870e66ee6537d59bca3e5ecda4ce2bce3bbe105"
-                },
-                {
-                  "sha": "40fd0ab",
-                  "message": "micropython: bump to 1.29.0",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-17T09:45:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/40fd0ab1fd6b0e3cf2e2d527a46e3bf5a81826a8"
-                },
-                {
-                  "sha": "12b8bd1",
-                  "message": "cifs-utils: bump to 7.9",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-17T09:44:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/12b8bd1a297ca981796c2d5321028df9557f4512"
                 }
               ]
             },
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2265,
+            "stars": 2266,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-18T17:55:14Z",
@@ -5175,7 +5175,7 @@
             "stars": 77988,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T10:03:52Z",
+            "pushed_at": "2026-11-19T10:06:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a2b64d0",
-            "branch": "macabu/nix-flake-checkpoint",
-            "date": "2026-11-19T06:31:12Z",
-            "url": "https://github.com/grafana/grafana/commit/a2b64d0c85b661fd4e233cae6dd8e5ef1a85ceec"
+            "sha": "e2d1d79",
+            "branch": "alexk/restore-drop-legacy-id",
+            "date": "2026-11-18T06:50:47Z",
+            "url": "https://github.com/grafana/grafana/commit/e2d1d7940885b75d334a4b859fee2f156abfdd3a"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29185,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T09:44:44Z",
+            "pushed_at": "2026-11-19T10:06:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
