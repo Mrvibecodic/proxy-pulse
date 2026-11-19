@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:21:35.947763Z",
+  "generated_at": "2026-11-19T14:26:56.239138Z",
   "groups": [
     {
       "id": "cores",
@@ -1053,6 +1053,15 @@
           },
           "releases": [
             {
+              "name": "🦥 ClashFest v1.4.2",
+              "tag": "v1.4.2",
+              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.4.2",
+              "published_at": "2026-11-19T14:24:50Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Xray finalmask on VLESS and Trojan, Firefox 156 / 160 fingerprints, REJECT-DROP in rules.\n\n## 🎭 New — Xray finalmask\n\nfinalmask is Xray's way to disguise a connection under its transport: split or pad the first packets, wrap them in a fake header, add noise. ClashFest now speaks it on **VLESS and Trojan** nodes.\n\n- **Masks:** TCP — `fragment`, `header-custom`, `sudoku`, `xmc`; UDP (XHTTP over HTTP/3) — `noise`, `header-custom`, `sudoku`, `udphop`, `xdns`. A block copied from Xray JSON works as is, camelCase keys included.\n- **FINALMASK badge.** Nodes that carry masks are marked in the node list, next to VLESS · TCP · REALITY.\n- **Never without the mask.** If a node's mask can't be used, the subscription still loads, but that node doesn't connect — it never goes out unmasked. The reason is in the log.\n- **For panels:** Remnawave serves `finalmask` to ClashFest through a host's Host Mapper: `{\"mihomo\":[{\"op\":\"copy\",\"from\":\"$host.streamOverrides.finalMask\",\"to\":\"finalmask\"}]}`. With REALITY, use `fragment` with `packets: \"1-1\"`.\n\n## 🦊 New fingerprints\n\n- **`firefox156` and `firefox160`** as `client-fingerprint` (also Xray's `hellofirefox_156` / `hellofirefox_160`), matching the real browsers byte for byte. `firefox` stays Firefox 148.\n\n## 🧭 Rules\n\n- **REJECT-DROP** next to DIRECT and REJECT when you add a rule: the connection is silently dropped, so trackers hang instead of failing fast.\n- **PASS, PASS-RULE, COMPATIBLE, GLOBAL** at the top of the target list.\n- **Editing a REJECT-DROP rule keeps it REJECT-DROP** (it used to turn into REJECT), and rules to GLOBAL or PASS-RULE save without an \"Unknown rule policy\" error.\n\n## 🛠️ Fixes\n\n- **One ClashFest window in Recents — also after the system closed the app.** When Android killed ClashFest in the background, opening it again from the icon and from the notification could leave two cards in Recents.\n\n---\n\n🧪 Tested on-device: Moto razr 40 (Android 15) — a Remnawave node with a finalmask `fragment` connects (Cloudflare trace from the server's country), the FINALMASK badge, REJECT-DROP rules through the engine check, Recents after killing the app with the VPN on.\n\n## What's Changed\n* feat(core): Xray finalmask on vless/trojan, Firefox 156/160 fingerprints by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/302\n* fix(app): one ClashFest window in Recents after the process was killed by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/303\n* feat(rules): REJECT-DROP and other built-in rule targets by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/304\n* feat(ui): FINALMASK chip on nodes by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/305\n* chore(release): 1.4.2 by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/306\n\n\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.4.1...v1.4.2\n"
+            },
+            {
               "name": "🦥 ClashFest v1.4.1",
               "tag": "v1.4.1",
               "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.4.1",
@@ -1087,15 +1096,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "### Pin the group your node comes from\r\n\r\nOperators can now name the proxy group whose current node the Home **Node** row, the VPN notification and the profile card show: `X-Brand-PrimaryProxyGroup: \u003cgroup name\u003e` (`base64:` prefix for non-ASCII names). It is a policy header, so it works without `X-Branding-Enabled`. Picking a node in another group no longer changes what Home shows, and **Change node** in the notification opens the picker on that group. In Global mode Home shows `GLOBAL`, as before.\r\n\r\nHome and the notification also stopped disagreeing about which group to read: they now share one rule.\r\n\r\n### Proxy groups as dropdown lists\r\n\r\nThe node picker has a new button next to the filter that switches between **tabs** and **dropdown lists**. In the dropdown view every group is a row with its current choice; tap it to expand its nodes. Each group has its own latency test. Search, sort and filter work inside every group, and while you search, groups without a match are hidden and the rest open by themselves. Your choice is remembered. Operators can set the default with `X-Brand-ProxyGroupLayout: tabs|dropdown`; once you use the button yourself, your choice wins.\r\n\r\nGroup tabs are now separated by thin dividers, so long rows of groups are easier to tell apart.\r\n\r\n### When was the subscription last updated\r\n\r\nSubscription cards show **Updated 2 hours ago** (or **just now**).\r\n\r\nThis also fixes how the app knew that time. It used to take it from the newest file in the profile folder, and the active config is rewritten on every connect, so \"last updated\" really meant \"last connected\". With **Update before connect** on, a profile you connected to every day always looked fresh and was not updated before connecting. It now uses the time the subscription itself was downloaded.\r\n\r\n### REALITY works with old and new Xray servers\r\n\r\nREALITY nodes now pick the right handshake on their own. Xray 24.x servers drop the X25519MLKEM768 key share, while 26.9.8+ servers require it, and a server never says which kind it is. In **Auto** (the new default) the app tries the classic handshake first, switches after a failure and remembers what worked for each server. **Settings → Network** offers Auto / Always / Never and the REALITY client version reported to servers that check `minClientVer`. This replaces the 1.2.1 on/off toggle; if you had turned it on, it becomes Always.\r\n\r\n### Fixes\r\n\r\n- Editing a rule no longer drops its options such as `no-resolve` or `src`.\r\n- JSON subscriptions are now hardened like YAML ones (local ports closed, `allow-lan` off), and in-app edits apply to them.\r\n- Live logs no longer leave a native subscriber running after you close them.\r\n- Less background work: the power-button animation runs only while Home is visible, the Settings tab is idle, and the app recovers when it reconnects to its service.\r\n- Ready for Android 16: Back in the profile editor still asks before discarding changes, and Back in Browse files goes up a folder.\r\n\r\n### Google Play and F-Droid\r\n\r\nClashFest is on its way to Google Play, and the F-Droid listing is in review. Both will ship the same package, signed with the same key as these GitHub builds, so you will be able to switch between them without reinstalling. Builds from Play and F-Droid are updated by their store and have no built-in update check.\r\n\r\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.2.1...v1.2.2\r\n"
-            },
-            {
-              "name": "v1.3.0-rc.1",
-              "tag": "v1.3.0-rc.1",
-              "url": "https://github.com/Nemu-x/ClashFest/releases/tag/v1.3.0-rc.1",
-              "published_at": "2026-10-05T11:35:33Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## What's Changed\n* build: prepare for F-Droid by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/234\n* docs(fdroid): sync the recipe with the submitted fdroiddata metadata by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/235\n* fix(rules): keep rule parameters and JSON subscriptions intact on edits by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/236\n* fix(logs): let a closed log channel stop the native logcat subscriber by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/238\n* perf(dashboard): stop idle work on the home screen and survive service reconnects by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/237\n* build(fdroid): per-ABI builds, Debian Go and reproducible reference APKs by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/240\n* build(fdroid): build Go from the go srclib with the runtime patches by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/241\n* build(fdroid): bootstrap the srclib Go from trixie-backports by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/242\n* feat(core): REALITY compatibility with Xray via a build-time patch series by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/239\n* ci(release): publish suffixed tags as signed pre-releases by @Nemu-x in https://github.com/Nemu-x/ClashFest/pull/243\n\n\n**Full Changelog**: https://github.com/Nemu-x/ClashFest/compare/v1.2.1...v1.3.0-rc.1"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94634,
+            "stars": 94636,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-19T08:12:30Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 77990,
+            "stars": 77993,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T14:21:44Z",
+            "pushed_at": "2026-11-19T14:26:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5f33f97",
-            "branch": "main",
-            "date": "2026-11-19T08:42:03Z",
-            "url": "https://github.com/grafana/grafana/commit/5f33f9745cdfdf856bdff67970156a936b48c557"
+            "sha": "9918dab",
+            "branch": "ale/provisioning-generic-kinds",
+            "date": "2026-11-17T20:08:38Z",
+            "url": "https://github.com/grafana/grafana/commit/9918dabe1db73a596b68b87a992a1db33f8521d9"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67708,
+            "stars": 67709,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-19T13:50:24Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81485,
+            "stars": 81486,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-19T13:25:38Z",
@@ -5447,7 +5447,7 @@
             "stars": 29194,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T14:12:34Z",
+            "pushed_at": "2026-11-19T14:25:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f0edca1",
-            "branch": "ivkalita/dataobj-sort-parallel",
-            "date": "2026-11-19T09:05:48Z",
-            "url": "https://github.com/grafana/loki/commit/f0edca1b75e45b485a229b20ab8a9321bf904cae"
+            "sha": "d7d1491",
+            "branch": "ivkalita/dataobj-sort-steps",
+            "date": "2026-11-18T09:13:16Z",
+            "url": "https://github.com/grafana/loki/commit/d7d14913402cc03a406bd8bfc35951532c2920a5"
           }
         }
       ]
