@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:45:13.785453Z",
+  "generated_at": "2026-11-19T12:50:33.185292Z",
   "groups": [
     {
       "id": "cores",
@@ -4742,7 +4742,7 @@
           "track": "releases",
           "meta": {
             "description": "Универсальный менеджер для обхода блокировок на OpenWrt",
-            "stars": 2267,
+            "stars": 2268,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
             "pushed_at": "2026-11-18T17:55:14Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94625,
+            "stars": 94626,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-19T08:12:30Z",
@@ -5160,10 +5160,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2cfb09a",
-            "branch": "brew-core-migration",
-            "date": "2026-11-17T17:36:52Z",
-            "url": "https://github.com/henrygd/beszel/commit/2cfb09ae88a2de0de362a5f55c85e3fc58056b22"
+            "sha": "0f7cf6c",
+            "branch": "main",
+            "date": "2026-11-18T16:32:11Z",
+            "url": "https://github.com/henrygd/beszel/commit/0f7cf6c03c973768f73b5c6b19ac75b7917d39fe"
           }
         },
         {
@@ -5175,7 +5175,7 @@
             "stars": 77988,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T12:45:13Z",
+            "pushed_at": "2026-11-19T12:49:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "88494b8",
-            "branch": "release-13.1.11",
-            "date": "2026-11-18T16:31:32Z",
-            "url": "https://github.com/grafana/grafana/commit/88494b821738da1b061bc8f7c64acff8059378ce"
+            "sha": "0c7dc42",
+            "branch": "main",
+            "date": "2026-11-18T09:22:32Z",
+            "url": "https://github.com/grafana/grafana/commit/0c7dc42e9fdbc8e2281cf20ee8954e34fa72e837"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67692,
+            "stars": 67693,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-19T10:31:54Z",
@@ -5447,7 +5447,7 @@
             "stars": 29185,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T12:25:47Z",
+            "pushed_at": "2026-11-19T12:49:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "270855e",
-            "branch": "main",
-            "date": "2026-11-18T15:10:30Z",
-            "url": "https://github.com/grafana/loki/commit/270855e347a13e32c1aa08d6ea7a6bf6dd900225"
+            "sha": "a10b748",
+            "branch": "ivkalita/parallel-for-each-ordered",
+            "date": "2026-11-18T09:23:31Z",
+            "url": "https://github.com/grafana/loki/commit/a10b7482ebde4b08bef24d03aabaa04db87851e0"
           }
         }
       ]
@@ -5735,12 +5735,21 @@
             "stars": 91,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T12:41:55Z",
+            "pushed_at": "2026-11-19T12:47:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.58.0",
+              "tag": "0.58.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.58.0",
+              "published_at": "2026-11-19T12:46:11Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.58.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.58.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(connectors): add NodeHost connector by @serjseiche in https://github.com/mishkatik/infra-billing/pull/54\n* chore(release): 0.58.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/55\n\n## New Contributors\n* @serjseiche made their first contribution in https://github.com/mishkatik/infra-billing/pull/54\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.57.0...0.58.0"
+            },
             {
               "name": "0.57.0",
               "tag": "0.57.0",
@@ -5776,15 +5785,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.54.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.54.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.54.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/46\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.53.0...0.54.0"
-            },
-            {
-              "name": "0.53.0",
-              "tag": "0.53.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.53.0",
-              "published_at": "2026-10-30T14:09:43Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.53.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.53.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.53.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/45\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.52.0...0.53.0"
             }
           ],
           "last_commit": {
