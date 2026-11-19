@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:40:18.005320Z",
+  "generated_at": "2026-11-19T23:45:36.772737Z",
   "groups": [
     {
       "id": "cores",
@@ -152,7 +152,7 @@
             "stars": 35928,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-18T02:07:58Z",
+            "pushed_at": "2026-11-19T23:44:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7982,
+            "stars": 7983,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-15T23:16:46Z",
@@ -1190,7 +1190,7 @@
             "stars": 4682,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T23:29:15Z",
+            "pushed_at": "2026-11-19T23:45:40Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f2aa920",
+                  "message": "php8: update to 8.4.28",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:44:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/f2aa920111eb5123715af5514921af01fc33e220"
+                },
+                {
                   "sha": "fcb254a",
                   "message": "librespeed-common: hold the lock before start answers",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:20:53Z",
                   "url": "https://github.com/openwrt/packages/commit/464c90c530efe686578c7854c72f36501729ad15"
-                },
-                {
-                  "sha": "8383b33",
-                  "message": "dovecot: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:20:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/8383b33c75c49f47e833413d42c7f95eaf519e89"
                 }
               ]
             },
@@ -3135,6 +3135,20 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "ffe14fa",
+                  "message": "sshpass: update to 1.10",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:45:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/ffe14fabd20f4af2d76bb293ba323796b8cde629"
+                },
+                {
+                  "sha": "dc6cc38",
+                  "message": "php8: update to 8.3.37",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:44:48Z",
+                  "url": "https://github.com/openwrt/packages/commit/dc6cc38b6ccd8081bde9d53fef3df77d51f825c4"
+                },
+                {
                   "sha": "0ec9fa4",
                   "message": "pigeonhole: fix the Dovecot version lookup in parallel builds",
                   "author": "Josef Schlehofer",
@@ -3329,26 +3343,33 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-11-10T09:30:04Z",
                   "url": "https://github.com/openwrt/packages/commit/13dc67b5bac4c646ea9cb3cef2f3c4f003f3e3f9"
-                },
-                {
-                  "sha": "d233411",
-                  "message": "socat: update to 1.8.1.1",
-                  "author": "Maxim Storchak",
-                  "date": "2026-11-10T09:30:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/d233411aab68a5b1c5ca8c6e71dad973d53e3b27"
-                },
-                {
-                  "sha": "00f71ed",
-                  "message": "rsync: update to 3.5.2",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-11-10T09:29:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/00f71edb8a2fba58ea28134bf5b656aa8f71b437"
                 }
               ]
             },
             {
               "name": "openwrt-25.12",
               "commits": [
+                {
+                  "sha": "ffed039",
+                  "message": "ruby: add test-version.sh from master",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:45:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/ffed039a088c83927bec1d94b94839899e5c7f27"
+                },
+                {
+                  "sha": "872db21",
+                  "message": "ruby: update to 3.4.13",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:45:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/872db21c37f4e0a13a62c2117f6bf6c8ec0cba0a"
+                },
+                {
+                  "sha": "dc4243b",
+                  "message": "php8: update to 8.4.28",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:44:42Z",
+                  "url": "https://github.com/openwrt/packages/commit/dc4243b0e721715abfdda01d512b786cc97e1923"
+                },
                 {
                   "sha": "f72672b",
                   "message": "snort3: update to 3.13.2.0",
@@ -3537,27 +3558,6 @@
                   "author": "Dirk Brenken",
                   "date": "2026-11-17T17:32:31Z",
                   "url": "https://github.com/openwrt/packages/commit/8c1e98c600223dfa3b222f7cf2cef01b5db7a7b9"
-                },
-                {
-                  "sha": "7953989",
-                  "message": "git: update to 2.50.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:43:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/7953989f4a3b7c0af61ffb5971616ce155fe5393"
-                },
-                {
-                  "sha": "889d228",
-                  "message": "mosquitto: update to 2.0.23",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:41:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/889d22898f41d579c0c7e4629ee6dc67593b46d3"
-                },
-                {
-                  "sha": "baa9a65",
-                  "message": "librespeed-cli: update to 1.0.15",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-17T09:35:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/baa9a65d814fdbab1483f95b53ba67ba33f7daf9"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94656,
+            "stars": 94657,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-19T08:12:30Z",
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18137,
+            "stars": 18138,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-19T20:36:05Z",
