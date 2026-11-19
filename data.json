@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:05:11.806969Z",
+  "generated_at": "2026-11-19T20:10:33.483351Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1574,
+            "stars": 1575,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-18T23:11:58Z",
@@ -1190,7 +1190,7 @@
             "stars": 4681,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T11:20:38Z",
+            "pushed_at": "2026-11-19T20:10:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a3e541f",
+                  "message": "wfb-ng: update to 26.11",
+                  "author": "Vasily Evseenko",
+                  "date": "2026-11-19T20:10:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/a3e541f7a9a45cecb9829eb6fbfb1af634015afe"
+                },
+                {
+                  "sha": "b33be80",
+                  "message": "krb5: update to 1.22.3",
+                  "author": "Jan Klos",
+                  "date": "2026-11-19T20:09:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/b33be80993ff50fec72b6ffe1aa0b49c3b2bca22"
+                },
+                {
+                  "sha": "df58b55",
+                  "message": "freeipmi: update to 1.6.20",
+                  "author": "Bjørn Mork",
+                  "date": "2026-11-19T20:08:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/df58b556b50889e5d5846f39939139c8ea69ed02"
+                },
+                {
                   "sha": "7dc08e9",
                   "message": "crowdsec-firewall-bouncer: update to 0.0.38",
                   "author": "S. Brusch",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:19:47Z",
                   "url": "https://github.com/openwrt/packages/commit/1073e61fb3928dc7b6d30d60bd58c1ca3cf41659"
-                },
-                {
-                  "sha": "e38cd49",
-                  "message": "netdata: drop the unused libmnl dependency",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:19:47Z",
-                  "url": "https://github.com/openwrt/packages/commit/e38cd49e0438d5182b102907edf4d3ad2e562f41"
-                },
-                {
-                  "sha": "e2fcf47",
-                  "message": "tailscale: update to 1.104.6",
-                  "author": "Sandro Jäckel",
-                  "date": "2026-11-18T07:19:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/e2fcf4743e0bef3bd50024226a7b15ea51212a6b"
-                },
-                {
-                  "sha": "74a41c6",
-                  "message": "uvol: log when ubus method block status is unavailable",
-                  "author": "Florian Eckert",
-                  "date": "2026-11-18T06:41:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/74a41c687c5562f586d0164ef6ca110d3dbcc0b6"
                 }
               ]
             },
@@ -4636,20 +4636,20 @@
             "stars": 11,
             "url": "https://github.com/Medium1992/xray-proxy-ros",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T07:39:24Z",
+            "pushed_at": "2026-11-19T20:10:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
           },
           "releases": [
             {
-              "name": "Xray core alpha 2eb84a7",
+              "name": "Xray core alpha 02cf0f6",
               "tag": "alpha",
               "url": "https://github.com/Medium1992/xray-proxy-ros/releases/tag/alpha",
-              "published_at": "2026-11-19T06:28:39Z",
+              "published_at": "2026-11-19T20:10:12Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Ядро Xray, собранное из XTLS/Xray-core@2eb84a78e5e18f230e9ba04b9a1585d828ef9282\nна Go 1.27.4.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
+              "body": "Ядро Xray, собранное из XTLS/Xray-core@02cf0f60ea82848bb03d9879886cfbee386fd8e8\nна Go 1.27.4.\n\nАрхивы под четыре архитектуры RouterOS, плюс распакованные бинарники\namd64 и arm64 для запуска вне контейнера.\n\nРелиз катящийся: ассеты заменяются на каждой новой сборке.\n"
             },
             {
               "name": "Xray core v26.11.9",
@@ -4662,10 +4662,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8960ca0",
+            "sha": "5781b58",
             "branch": "main",
-            "date": "2026-11-17T20:38:44Z",
-            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/8960ca0d1734fdaeca689aebced4d5779e475f36"
+            "date": "2026-11-18T20:11:34Z",
+            "url": "https://github.com/Medium1992/xray-proxy-ros/commit/5781b58d592f430c97aef5e91f26de2b1ab4e4c9"
           }
         },
         {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94651,
+            "stars": 94652,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-19T08:12:30Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27484,
+            "stars": 27485,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-19T19:40:58Z",
@@ -5175,7 +5175,7 @@
             "stars": 78002,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T20:05:19Z",
+            "pushed_at": "2026-11-19T20:05:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "96c2341",
-            "branch": "deleted-by-original-identity",
-            "date": "2026-11-18T13:19:35Z",
-            "url": "https://github.com/grafana/grafana/commit/96c2341e3a07995dba5d2703e75f991f2fb66b6a"
+            "sha": "e859a0c",
+            "branch": "macabu/apps-advisor-utils-synctest",
+            "date": "2026-11-18T13:23:22Z",
+            "url": "https://github.com/grafana/grafana/commit/e859a0cc6ad243b8788f8c5e0c4cd867734d0838"
           }
         },
         {
@@ -5379,7 +5379,7 @@
             "stars": 18138,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T20:01:26Z",
+            "pushed_at": "2026-11-19T20:05:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,7 +5447,7 @@
             "stars": 29201,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T20:04:43Z",
+            "pushed_at": "2026-11-19T20:09:20Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
