@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T22:29:49.795880Z",
+  "generated_at": "2026-11-19T22:35:12.138621Z",
   "groups": [
     {
       "id": "cores",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94653,
+            "stars": 94654,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-19T08:12:30Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "c6a8240",
-            "branch": "jh/jest-ci-cache",
-            "date": "2026-11-19T13:22:49Z",
-            "url": "https://github.com/grafana/grafana/commit/c6a824056dc4870f522c8d08e80bd07e69c37526"
+            "sha": "78e1a48",
+            "branch": "macabu/apps-advisor-utils-synctest",
+            "date": "2026-11-18T13:14:36Z",
+            "url": "https://github.com/grafana/grafana/commit/78e1a488e7ed7937031637af71f9c42fa20e66b1"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67723,
+            "stars": 67724,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-19T15:03:26Z",
@@ -5447,7 +5447,7 @@
             "stars": 29200,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T22:20:35Z",
+            "pushed_at": "2026-11-19T22:32:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5878,6 +5878,15 @@
           },
           "releases": [
             {
+              "name": "v3.1.1",
+              "tag": "v3.1.1",
+              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.1.1",
+              "published_at": "2026-11-19T22:34:08Z",
+              "prerelease": false,
+              "author": "arcane-github-automation[bot]",
+              "body": "\u003e [!NOTE]\n\u003e This release fixes several backup, container, and project issues, including overlapping scheduled backups now running in turn instead of being skipped. It also includes frontend fixes and refactors, including removing the ky HTTP client and migrating E2E tests to vite-plus.\n\n### Backups and volumes\n\n- Run overlapping scheduled system backups in turn instead of skipping them (#4876) (@neurekadev)\n- Run overlapping scheduled backups of the same volume in turn (#4879) (@neurekadev)\n- Restore a new volume's root owner and mode from the archive (#4887) (@neurekadev)\n- Skip missing volumes in project transfer and archive validation (#4893) (@kmendell)\n- Mount the Rustic CA bundle from the data directory instead of copying it into the container (#4875) (@neurekadev)\n\n### Containers, images, and environments\n\n- Skip update checks for Podman localhost images (#4873) (@kmendell)\n- Clear the pending redeploy when Arcane refuses to redeploy itself (#4905) (@astronaute77)\n- Show unreachable picked environments inline instead of erroring (#4908) (@kmendell)\n\n### Projects\n\n- Support Compose job runs in projects (#4877) (@kmendell)\n\n### Frontend\n\n- Quote download filenames and fix the share download flow (#4871) (@kmendell)\n- Align table row action button and hover corners (#4882) (@kmendell)\n- Align container create and edit page headers (#4892) (@kmendell)\n- Set up frontend telemetry reactively instead of blocking load (#4891) (@kmendell)\n\n### Refactors\n\n- Clean up frontend queries and remove the ky HTTP client (5 commit 4fbe070017b6bc82119aeabd6ee0003dd4544125) (@kmendell)\n- Migrate Playwright E2E tests to the vite-plus test runner (#4896) (@kmendell)\n\n"
+            },
+            {
               "name": "v3.1.0",
               "tag": "v3.1.0",
               "url": "https://github.com/getarcaneapp/arcane/releases/tag/v3.1.0",
@@ -5912,15 +5921,6 @@
               "prerelease": false,
               "author": "arcane-github-automation[bot]",
               "body": "\u003e [!NOTE]\n\u003e This release fixes image update planning and Compose image reporting, improves container sorting, and hardens request logging and startup behavior.\n\n### Containers and images\n- Sort containers by name without regard to case. (#4620, @kmendell)\n- Show the configured image for Compose services. (#4638, @kmendell)\n- Drop stale image-level pending updates before planning. (#4637, @kmendell)\n\n### Reliability and security\n- Warn at startup when using direct agent mode. (#4619, @kmendell)\n- Redact secrets from logged request paths. (#4623, @kmendell)\n- Mount the CA bundle into the Rustic container using a staged volume. (#4621, @kmendell)\n- Skip cancellation of a superseded workflow when its instance is missing. (#4624, @kmendell)\n\n"
-            },
-            {
-              "name": "v2.17.2",
-              "tag": "v2.17.2",
-              "url": "https://github.com/getarcaneapp/arcane/releases/tag/v2.17.2",
-              "published_at": "2026-10-31T16:42:43Z",
-              "prerelease": false,
-              "author": "arcane-github-automation[bot]",
-              "body": "\u003e [!NOTE]\n\u003e This release fixes API error handling and Git-sync redeploys, and improves image uploads, vulnerability links, and backup behavior.\n\n### API and proxy\n- Return 4xx responses for build workspace path errors (#4595, @jmrplens), unknown records and invalid requests (#4596, @jmrplens), and Docker not-found and conflict errors on more routes (#4598, @jmrplens).\n- Return 404 for manager-side routes targeting an unknown environment (#4597, @jmrplens).\n- Keep proxied request bodies readable while the agent responds (#4592, @jmrplens).\n\n### Images and deployments\n- Allow Safari uploads of `.tar.gz` and `.tar.xz` images ([3bf2c362f56439b19853d0576d96b87b0aafa7bb], @kmendell).\n- Skip stored update state for digest-pinned images (#4610, @kmendell).\n- Build project images before redeploying after Git sync (#4611, @kmendell).\n- Warn when deprecated Arcane images are running (#4585, @kmendell).\n- Snapshot the service spec before saving changes in the service editor (#4603, @kmendell).\n\n### Security, backups, and documentation\n- Link vulnerability IDs to their advisory databases (#4583, @kmendell).\n- Skip local Rustic pruning when no local backups exist (#4584, @kmendell).\n- Serve the Scalar API reference from the frontend instead of a CDN (#4613, @kmendell).\n\n"
             }
           ],
           "last_commit": {
