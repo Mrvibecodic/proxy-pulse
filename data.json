@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:48:06.465034Z",
+  "generated_at": "2026-11-19T20:53:29.342877Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29268,
+            "stars": 29269,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-19T19:56:01Z",
@@ -4408,7 +4408,224 @@
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/122653016?v=4",
             "owner": "Medium1992"
-          }
+          },
+          "branches": [
+            {
+              "name": "main",
+              "commits": [
+                {
+                  "sha": "1e3dff8",
+                  "message": "Auto-update: mihomo v1.19.34",
+                  "author": "github-actions[bot]",
+                  "date": "2026-11-11T08:07:19Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/1e3dff80a0969915d8d6a9bc614575c51288e310"
+                },
+                {
+                  "sha": "9b3fa8c",
+                  "message": "Wait out Telegram rate limits when publishing archives",
+                  "author": "medium",
+                  "date": "2026-11-09T12:32:04Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/9b3fa8c5b87861201006e5180b4c003632cec18e"
+                },
+                {
+                  "sha": "2abcde4",
+                  "message": "Save only the pulled platform for the Telegram image archives",
+                  "author": "medium",
+                  "date": "2026-11-09T12:23:35Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/2abcde4404347a5c8e78a6ee6d4fa8dc1d83a828"
+                },
+                {
+                  "sha": "58bd813",
+                  "message": "Keep scheduled workflows from being auto-disabled",
+                  "author": "Medium1992",
+                  "date": "2026-10-28T15:19:05Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/58bd813f6f95606ad1d4e14b40ec9e584449a45e"
+                },
+                {
+                  "sha": "44242de",
+                  "message": "Auto-update: mihomo v1.19.33",
+                  "author": "github-actions[bot]",
+                  "date": "2026-10-22T21:13:40Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/44242de45c1ad5c7973e681d37c92294bc20a217"
+                },
+                {
+                  "sha": "11407ac",
+                  "message": "Auto-update: mihomo v1.19.32",
+                  "author": "github-actions[bot]",
+                  "date": "2026-09-30T18:13:00Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/11407ac5252c46949cfd86ecfda5eaae45de98db"
+                },
+                {
+                  "sha": "9f70bc8",
+                  "message": "Tune the container's TCP sockets for outbound proxy traffic",
+                  "author": "Medium1992",
+                  "date": "2026-09-30T10:40:41Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/9f70bc8e8332141be530b9448149e553c6ae1edc"
+                },
+                {
+                  "sha": "1767b52",
+                  "message": "Add the Buildroot recipe for the armv5 rootfs",
+                  "author": "Medium1992",
+                  "date": "2026-09-29T11:59:42Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/1767b52da71488f5bd3e0a771a5b769742017387"
+                },
+                {
+                  "sha": "9f75f3a",
+                  "message": "Replace the armv5 rootfs",
+                  "author": "Medium1992",
+                  "date": "2026-09-29T11:58:23Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/9f75f3a387f8c87450498d340867f40ddb35e24d"
+                },
+                {
+                  "sha": "350d632",
+                  "message": "Add USDT (Polygon PoS) donation address",
+                  "author": "Medium1992",
+                  "date": "2026-09-17T17:39:20Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/350d632afdb550d23b0fbe306bb1caa9b68fd5f4"
+                },
+                {
+                  "sha": "34d2c12",
+                  "message": "Add USDT (Polygon PoS) support address",
+                  "author": "Medium1992",
+                  "date": "2026-09-17T17:39:01Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/34d2c12c2a9c024131bda00c206c326c45380c7a"
+                },
+                {
+                  "sha": "7f04ee5",
+                  "message": "Replace README screenshots with the new panel design",
+                  "author": "Medium1992",
+                  "date": "2026-09-15T22:27:09Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/7f04ee5175a5379362b7f4120faca6eb8abc3190"
+                },
+                {
+                  "sha": "57faff5",
+                  "message": "Fix README encoding broken in the gVisor tags commit",
+                  "author": "Medium1992",
+                  "date": "2026-09-15T22:21:43Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/57faff5434cf756173ef6156ba366b7e5e803d6d"
+                },
+                {
+                  "sha": "5b9dcb7",
+                  "message": "Publish gVisor builds as separate -gvisor images",
+                  "author": "Medium1992",
+                  "date": "2026-09-15T22:20:50Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/5b9dcb7ee8c47044d407db4b239493bc74543552"
+                },
+                {
+                  "sha": "f8954e2",
+                  "message": "Merge pull request #1 from pluralplay/new-design",
+                  "author": "Medium1992",
+                  "date": "2026-09-15T22:10:14Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/f8954e267f0812cbe3da1c32f608ff34458daf0e"
+                },
+                {
+                  "sha": "25f6847",
+                  "message": "new design",
+                  "author": "pluralplay",
+                  "date": "2026-09-15T21:37:02Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/25f6847b2fc660ab2a65e7bae6b42a6771ea2a77"
+                },
+                {
+                  "sha": "3b48cc8",
+                  "message": "Auto-update: mihomo v1.19.31",
+                  "author": "github-actions[bot]",
+                  "date": "2026-09-14T21:28:16Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/3b48cc84617c365baa4dd4f618a79375a3857cc5"
+                },
+                {
+                  "sha": "3e2730c",
+                  "message": "Add AmneziaWG 3.1 converter options",
+                  "author": "Medium1992",
+                  "date": "2026-08-16T10:35:44Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/3e2730c492e75a7b310ee47abdc4699d19543da9"
+                },
+                {
+                  "sha": "9bb278f",
+                  "message": "Auto-update: mihomo v1.19.30",
+                  "author": "github-actions[bot]",
+                  "date": "2026-08-16T10:26:19Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/9bb278fe9f0c77f31995c8edf52154ceb554c899"
+                },
+                {
+                  "sha": "b5c5890",
+                  "message": "Update config.yaml",
+                  "author": "Medium1992",
+                  "date": "2026-08-12T08:35:13Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/b5c58902560760597e505aeac398d3c380c1ea23"
+                },
+                {
+                  "sha": "83c658b",
+                  "message": "Update config.yaml",
+                  "author": "Medium1992",
+                  "date": "2026-08-12T08:34:28Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/83c658b8b38a3236b4cbd61ef936ad630cad4760"
+                },
+                {
+                  "sha": "f72ab63",
+                  "message": "Update proxy config converters",
+                  "author": "Medium1992",
+                  "date": "2026-08-08T18:41:24Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/f72ab63773528a5ebfad63cf37f14bc66f4afcd8"
+                },
+                {
+                  "sha": "38f43ad",
+                  "message": "clear comment",
+                  "author": "Medium1992",
+                  "date": "2026-08-05T07:40:42Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/38f43ad8cec9c89929cb6940147ba243ba99dc60"
+                },
+                {
+                  "sha": "f1071bb",
+                  "message": "feat: harden the web UI, add import/export and AWG 3.0",
+                  "author": "Medium1992",
+                  "date": "2026-08-05T07:32:51Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/f1071bbd935745585415d287a5977e81038bf422"
+                },
+                {
+                  "sha": "1376f0c",
+                  "message": "Auto-update: mihomo v1.19.29",
+                  "author": "github-actions[bot]",
+                  "date": "2026-07-18T13:14:44Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/1376f0c26950e1a49b3c48b91e5963cd966def2e"
+                },
+                {
+                  "sha": "7a4ef83",
+                  "message": "Auto-update: mihomo v1.19.28",
+                  "author": "github-actions[bot]",
+                  "date": "2026-07-16T18:26:22Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/7a4ef839150637bebd883cf5b1315eb3c7fea961"
+                },
+                {
+                  "sha": "0f4d6ec",
+                  "message": "Use custom mihomo core in builds",
+                  "author": "Medium1992",
+                  "date": "2026-07-16T18:22:16Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/0f4d6ec51110ca4dd5aaa6a75a4d14b9c4b5f7da"
+                },
+                {
+                  "sha": "bd40ab2",
+                  "message": "Auto-update: mihomo v1.19.28",
+                  "author": "github-actions[bot]",
+                  "date": "2026-07-08T06:10:43Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/bd40ab2e70976b8019821e6899cabd6bd56e1de5"
+                },
+                {
+                  "sha": "c35fc1c",
+                  "message": "add armv5",
+                  "author": "Medium1992",
+                  "date": "2026-06-19T22:13:04Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/c35fc1c1c0a43d049450061922e64779a0a475d7"
+                },
+                {
+                  "sha": "00eeed9",
+                  "message": "fix cursor position",
+                  "author": "Medium1992",
+                  "date": "2026-06-19T14:43:05Z",
+                  "url": "https://github.com/Medium1992/mihomo-ros/commit/00eeed91dc71be0810230b6138d595823124e5c7"
+                }
+              ]
+            }
+          ]
         },
         {
           "repo": "Medium1992/xray-proxy-ros",
@@ -4958,7 +5175,7 @@
             "stars": 78002,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T20:44:53Z",
+            "pushed_at": "2026-11-19T20:52:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5011,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ad94bd6",
-            "branch": "pstibrany/spread-memory-index-expiration",
-            "date": "2026-11-18T11:44:29Z",
-            "url": "https://github.com/grafana/grafana/commit/ad94bd65dac83984ca2a35dd10d782bb3edc6a7b"
+            "sha": "4731cfc",
+            "branch": "claude/library-text-panel-events",
+            "date": "2026-11-18T07:09:24Z",
+            "url": "https://github.com/grafana/grafana/commit/4731cfc250f36ef6ea5a2df2119b00940dc76f4e"
           }
         },
         {
@@ -5079,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2b311b9",
+            "sha": "117508d",
             "branch": "main",
-            "date": "2026-11-19T15:03:26Z",
-            "url": "https://github.com/prometheus/prometheus/commit/2b311b9762bb5834a17374fcf45a8e5b2043293f"
+            "date": "2026-11-19T13:11:34Z",
+            "url": "https://github.com/prometheus/prometheus/commit/117508d4590e027ae6723d5c1e08acc36feb5570"
           }
         },
         {
@@ -5651,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10115,
+            "stars": 10116,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-19T20:44:42Z",
