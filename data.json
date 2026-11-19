@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T23:24:19.760111Z",
+  "generated_at": "2026-11-19T23:29:39.269650Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4682,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T21:50:54Z",
+            "pushed_at": "2026-11-19T23:29:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fcb254a",
+                  "message": "librespeed-common: hold the lock before start answers",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T23:29:14Z",
+                  "url": "https://github.com/openwrt/packages/commit/fcb254ac92b542a642a16edf0774b53161be2b84"
+                },
+                {
                   "sha": "b48e382",
                   "message": "adguardhome: bump to 1.0.0",
                   "author": "George Sapkin",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:20:53Z",
                   "url": "https://github.com/openwrt/packages/commit/8383b33c75c49f47e833413d42c7f95eaf519e89"
-                },
-                {
-                  "sha": "d40b3e8",
-                  "message": "pigeonhole: backport security fixes",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:20:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/d40b3e8eb30df0933f63b4da0644aabfda3f007f"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78003,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T23:18:48Z",
+            "pushed_at": "2026-11-19T23:28:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29201,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T23:17:36Z",
+            "pushed_at": "2026-11-19T23:29:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10122,
+            "stars": 10123,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-19T21:55:16Z",
