@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:19:46.043407Z",
+  "generated_at": "2026-11-19T11:25:04.638247Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40121,
+            "stars": 40122,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-19T02:28:27Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35915,
+            "stars": 35916,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-18T02:07:58Z",
@@ -1190,7 +1190,7 @@
             "stars": 4681,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T10:10:15Z",
+            "pushed_at": "2026-11-19T11:20:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3135,6 +3135,69 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "0ec9fa4",
+                  "message": "pigeonhole: fix the Dovecot version lookup in parallel builds",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/0ec9fa40eb487de435dc7cfe59302a3e7df22464"
+                },
+                {
+                  "sha": "4a949be",
+                  "message": "pigeonhole: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/4a949be1d1c3dccf55e39d41a38a3b5f5c7f728f"
+                },
+                {
+                  "sha": "c74bd7e",
+                  "message": "dovecot: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/c74bd7e14ab6c2d3593a7eac83828c4080514263"
+                },
+                {
+                  "sha": "94e1678",
+                  "message": "pigeonhole: backport security fixes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/94e1678ea94ffa565787b420863376c535e54a86"
+                },
+                {
+                  "sha": "058b790",
+                  "message": "pigeonhole: fix the library path of managesieve-login",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/058b7907274adde5b94ea7d4a7ce41df4714b988"
+                },
+                {
+                  "sha": "2aa8d6c",
+                  "message": "pigeonhole: update to version 0.5.21.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/2aa8d6c777cd74de5a91cb3c65e5d9a345455619"
+                },
+                {
+                  "sha": "028e521",
+                  "message": "dovecot: backport security fixes",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/028e5219f16c6da5d8dfaedbc713af0a329f975d"
+                },
+                {
+                  "sha": "055fd0a",
+                  "message": "dovecot: update to 2.3.21.1",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/055fd0a5b5504b6ecf6130833c4075a500734c1e"
+                },
+                {
+                  "sha": "0bc765a",
+                  "message": "nginx: backport security fixes from Debian",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-19T11:20:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/0bc765a58be57e9a20bcdf41cc1dc6f9a6719602"
+                },
+                {
                   "sha": "f4e87c7",
                   "message": "luajit: do not build on riscv64",
                   "author": "Josef Schlehofer",
@@ -3280,69 +3343,6 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-11-10T09:29:19Z",
                   "url": "https://github.com/openwrt/packages/commit/00f71edb8a2fba58ea28134bf5b656aa8f71b437"
-                },
-                {
-                  "sha": "26d5b49",
-                  "message": "gperftools: update to 2.19.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-10T09:28:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/26d5b4956bfdfcf36903a3067add972c13f2bd17"
-                },
-                {
-                  "sha": "5a391c2",
-                  "message": "rust: update to 1.94.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-09T23:31:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/5a391c2cb7bf84ed6f96363289ab7d8af2343801"
-                },
-                {
-                  "sha": "0911f04",
-                  "message": "python3: update to 3.11.18",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-09T23:28:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/0911f04041a89c4196b1cb854c750440500b774f"
-                },
-                {
-                  "sha": "4d71f28",
-                  "message": "openssh: backport security mitigation from 10.6p2",
-                  "author": "Darren Tucker",
-                  "date": "2026-11-05T14:37:23Z",
-                  "url": "https://github.com/openwrt/packages/commit/4d71f2824715a090f7e9dfe8da73f5a40ade8bad"
-                },
-                {
-                  "sha": "43f8e71",
-                  "message": "zoneinfo: update to 2026f release",
-                  "author": "Vladimir Ulrich",
-                  "date": "2026-11-04T17:15:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/43f8e71106193791c2e338d9d58fd54ff682bf06"
-                },
-                {
-                  "sha": "2bda86e",
-                  "message": "msmtp: update to 1.8.34",
-                  "author": "Romain Isnel",
-                  "date": "2026-11-03T13:18:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/2bda86e20fbc4db787d2f1b2e0679c2dd545ac21"
-                },
-                {
-                  "sha": "af1c04f",
-                  "message": "weechat: update to 4.10.2",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-03T13:17:18Z",
-                  "url": "https://github.com/openwrt/packages/commit/af1c04f5890712bebfa8aeec53039a397059549e"
-                },
-                {
-                  "sha": "42228d4",
-                  "message": "haveged: update to 1.9.27",
-                  "author": "Hannu Nyman",
-                  "date": "2026-10-31T09:50:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/42228d4d69ef3410fbe6a18fe1628c3fb3b619b7"
-                },
-                {
-                  "sha": "151bd31",
-                  "message": "mosquitto: update to 2.0.23",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-10-31T05:17:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/151bd31212544d269ac385c95183f28deaa85a4f"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 77989,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T11:19:18Z",
+            "pushed_at": "2026-11-19T11:24:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8d6c8ad",
-            "branch": "fix-per-url-sa-window-flag",
-            "date": "2026-11-18T07:52:28Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/8d6c8addd4c0d70554b143c957beaf913feba5b4"
+            "sha": "08249cd",
+            "branch": "gh-3992-rv2",
+            "date": "2026-11-18T15:55:39Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/08249cd6e87ef65112f0058d184ccc2ce01e6fd0"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29185,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-19T11:19:33Z",
+            "pushed_at": "2026-11-19T11:25:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10048,
+            "stars": 10049,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-19T04:54:57Z",
