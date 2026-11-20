@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T16:40:30.943740Z",
+  "generated_at": "2026-11-20T16:47:09.265473Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "153763e",
+            "sha": "8d09a58",
             "branch": "fix/mux-failed-carrier-sessions",
-            "date": "2026-11-18T23:50:25Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/153763e18960c57f6cb511cd6fbc893b8c155170"
+            "date": "2026-11-19T00:03:23Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/8d09a589b29ad7f5d16fd0b4605306bf985664f7"
           }
         }
       ]
@@ -555,10 +555,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b6c5e10",
+            "sha": "2ecca61",
             "branch": "main",
-            "date": "2026-11-14T22:52:16Z",
-            "url": "https://github.com/Mrvibecodic/clod-clash/commit/b6c5e10e102fdb0db3a3025413e85168cbc51771"
+            "date": "2026-11-19T00:26:16Z",
+            "url": "https://github.com/Mrvibecodic/clod-clash/commit/2ecca614c42c888536af1be350b6c1764a436d70"
           }
         },
         {
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16473,
+            "stars": 16472,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78012,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T16:38:47Z",
+            "pushed_at": "2026-11-20T16:47:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a0fc48c",
-            "branch": "main",
-            "date": "2026-11-18T18:28:58Z",
-            "url": "https://github.com/grafana/grafana/commit/a0fc48c680c966371cc14142fa27fecdd03cef03"
+            "sha": "8761ca8",
+            "branch": "fix/assistant-pop-out-label",
+            "date": "2026-11-20T09:57:59Z",
+            "url": "https://github.com/grafana/grafana/commit/8761ca8604c9fa5b6d6f6348d8de63f9e1ccbed5"
           }
         },
         {
@@ -5444,10 +5444,10 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29206,
+            "stars": 29205,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T16:28:37Z",
+            "pushed_at": "2026-11-20T16:45:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1ce9070",
-            "branch": "ivkalita/dataobj-sort-parallel",
-            "date": "2026-11-19T09:39:51Z",
-            "url": "https://github.com/grafana/loki/commit/1ce9070cd50e43664f5cec92a8ec565e7ac97475"
+            "sha": "99c78fe",
+            "branch": "main",
+            "date": "2026-11-18T22:24:30Z",
+            "url": "https://github.com/grafana/loki/commit/99c78fef3ef2c84df29ab865f7759195640a3a2c"
           }
         }
       ]
@@ -5939,12 +5939,21 @@
             "stars": 110,
             "url": "https://github.com/syvlech/remnawave-limiter",
             "default_branch": "master",
-            "pushed_at": "2026-11-20T16:40:16Z",
+            "pushed_at": "2026-11-20T16:44:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/69968834?v=4",
             "owner": "syvlech"
           },
           "releases": [
+            {
+              "name": "5.1.0: Shared HWID alert for repeated trials",
+              "tag": "5.1.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/5.1.0",
+              "published_at": "2026-11-20T16:44:15Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "### ⚠️ Перед обновлением\r\n\r\n- **Новый алерт выключен по умолчанию.** Чтобы включить, добавьте в `.env` `SHARED_HWID_MONITOR=true` и, если нужно, `SHARED_HWID_SQUAD_UUIDS=\u003cUUID сквада пробного периода\u003e`, затем перезапустите контейнер.\r\n- **Нужен scope `hwid-user-devices:list`** (входит в `hwid-user-devices:read`). Он необязателен: без него лимитер один раз предупредит в логе и пропустит опросы.\r\n- **Новые ключи Redis** `hwid:state`, `hwid:seen:{hwid}`, `hwid:reported:{id}` появляются только при включённом алерте. История занимает около 0.2 КБ на устройство (оценка): ~1 МБ при 150 новых устройствах в сутки за 30 дней, ~20 МБ при 3 500.\r\n\r\n### ✨ Новое\r\n\r\n- **👥 Один HWID у нескольких аккаунтов.** Алерт, когда HWID нового устройства уже встречался у другого аккаунта: так находятся повторные пробные периоды с одного телефона. Кнопки те же, что в алерте о лимите устройств, и действуют на новый аккаунт.\r\n  - `SHARED_HWID_SQUAD_UUIDS` проверяет только пользователей из указанных внутренних сквадов, совпадения ищутся среди всех. Пусто — проверяются все.\r\n  - Лимитер хранит свою историю устройств в Redis, поэтому находит и аккаунт, который бот уже удалил из панели, например пробный по окончании. Срок — `SHARED_HWID_HISTORY_DAYS`, по умолчанию 30 дней, `0` — без истории.\r\n  - Алерта нет для аккаунтов с тем же Telegram ID (один клиент с несколькими подписками), для белого списка и для повторов по той же паре аккаунтов в течение 30 дней.\r\n  - Один запрос списка устройств к панели раз в 5 минут; на панели с ~10 500 устройствами это около 600 лёгких запросов в сутки. Включается в `/settings` → «🔁 Общий HWID».\r\n- **👥 Сквады в алертах.** Во всех алертах, включая алерты трафика, есть строка с внутренними сквадами подписки, до пяти названий. Данные из того же запроса пользователя, лишних обращений к панели нет.\r\n\r\n**Full Changelog**: https://github.com/syvlech/remnawave-limiter/compare/5.0.0...5.1.0\r\n\r\n---\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eEnglish\u003c/summary\u003e\r\n\r\n### ⚠️ Before upgrading\r\n\r\n- **The new alert is off by default.** To turn it on, add `SHARED_HWID_MONITOR=true` to `.env` and, if needed, `SHARED_HWID_SQUAD_UUIDS=\u003ctrial squad UUID\u003e`, then restart the container.\r\n- **It needs the `hwid-user-devices:list` scope** (included in `hwid-user-devices:read`). The scope is optional: without it the limiter logs one warning and skips the polls.\r\n- **New Redis keys** `hwid:state`, `hwid:seen:{hwid}`, `hwid:reported:{id}` appear only while the alert is on. The history takes about 0.2 KB per device (an estimate): ~1 MB for 150 new devices a day over 30 days, ~20 MB for 3,500.\r\n\r\n### ✨ New\r\n\r\n- **👥 One HWID on several accounts.** An alert when a new device's HWID has already been seen on another account, which is how repeated trials from the same phone are found. The buttons are the same as in the device-limit alert and act on the new account.\r\n  - `SHARED_HWID_SQUAD_UUIDS` checks only users in the given internal squads, while matches are searched among all users. Empty means every user is checked.\r\n  - The limiter keeps its own device history in Redis, so it also finds an account the bot has already deleted from the panel, for example a trial after it ended. The retention is `SHARED_HWID_HISTORY_DAYS`, 30 days by default, `0` means no history.\r\n  - No alert for accounts with the same Telegram ID (one customer with several subscriptions), for whitelisted users, or for a repeat on the same pair of accounts within 30 days.\r\n  - One device-list request to the panel every 5 minutes; on a panel with ~10,500 devices this is about 600 light requests a day. Turned on in `/settings` → \"🔁 Shared HWID\".\r\n- **👥 Squads in alerts.** Every alert, traffic alerts included, has a row with the subscription's internal squads, up to five names. The data comes from the same user request, so the panel gets no extra calls.\r\n\r\n\u003c/details\u003e\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003e中文\u003c/summary\u003e\r\n\r\n### ⚠️ 升级前须知\r\n\r\n- **新告警默认关闭**。如需开启，请在 `.env` 中添加 `SHARED_HWID_MONITOR=true`，需要时再添加 `SHARED_HWID_SQUAD_UUIDS=\u003c试用分组 UUID\u003e`，然后重启容器。\r\n- **需要 `hwid-user-devices:list` 权限**（包含在 `hwid-user-devices:read` 中）。该权限为可选：缺少时限制器只在日志中警告一次并跳过轮询。\r\n- **新的 Redis 键** `hwid:state`、`hwid:seen:{hwid}`、`hwid:reported:{id}` 只在告警开启时出现。历史记录约每台设备 0.2 KB（估算）：每天 150 台新设备、保存 30 天约 1 MB，每天 3,500 台约 20 MB。\r\n\r\n### ✨ 新功能\r\n\r\n- **👥 多个账户共用同一 HWID**：新设备的 HWID 已在其他账户上出现过时发送告警，借此发现用同一部手机重复领取试用的情况。按钮与设备超限告警相同，作用于新账户。\r\n  - `SHARED_HWID_SQUAD_UUIDS` 只检查指定内部分组中的用户，匹配则在所有用户中查找。留空表示检查所有用户。\r\n  - 限制器在 Redis 中保存自己的设备历史，因此也能发现机器人已从面板删除的账户，例如结束后被删除的试用账户。保存期限为 `SHARED_HWID_HISTORY_DAYS`，默认 30 天，`0` 表示不保存历史。\r\n  - 以下情况不告警：Telegram ID 相同的账户（同一客户的多个订阅）、白名单中的用户，以及同一对账户 30 天内的重复匹配。\r\n  - 每 5 分钟向面板请求一次设备列表；在约有 10,500 台设备的面板上，每天约 600 次轻量请求。在 `/settings` → “🔁 共用 HWID”中开启。\r\n- **👥 告警中显示分组**：所有告警（包括流量告警）都新增一行，显示订阅所属的内部分组，最多五个名称。数据来自同一个用户请求，不会额外请求面板。\r\n\r\n\u003c/details\u003e\r\n"
+            },
             {
               "name": "Release 5.0.0: traffic monitoring, sharing signs in alerts, update checker, 30+ fixes",
               "tag": "5.0.0",
@@ -5980,15 +5989,6 @@
               "prerelease": false,
               "author": "syvlech",
               "body": ""
-            },
-            {
-              "name": "4.2.0 (RW 3.0.0+)",
-              "tag": "4.2.0",
-              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.2.0",
-              "published_at": "2026-08-04T19:44:36Z",
-              "prerelease": false,
-              "author": "syvlech",
-              "body": "Оптимизация и улучшение взаимодействия с Redis"
             }
           ],
           "last_commit": {
