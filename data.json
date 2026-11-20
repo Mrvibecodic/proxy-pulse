@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T10:31:08.401769Z",
+  "generated_at": "2026-11-20T10:36:27.931395Z",
   "groups": [
     {
       "id": "cores",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7a1b9bb",
+            "sha": "ba7fdbe",
             "branch": "main",
-            "date": "2026-11-18T15:36:43Z",
-            "url": "https://github.com/grafana/grafana/commit/7a1b9bbebf5cede03208c320150deaa527d6aaa1"
+            "date": "2026-11-18T15:40:57Z",
+            "url": "https://github.com/grafana/grafana/commit/ba7fdbe619ae996ef528e578ba08dcc542afdd8f"
           }
         },
         {
@@ -5447,12 +5447,21 @@
             "stars": 29206,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T10:27:04Z",
+            "pushed_at": "2026-11-20T10:31:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v4.0.0-rc.4",
+              "tag": "v4.0.0-rc.4",
+              "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.4",
+              "published_at": "2026-11-20T10:31:13Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [4.0.0-rc.4](https://github.com/grafana/loki/compare/v4.0.0-rc.3...v4.0.0-rc.4) (2026-11-20)\n\n\n### ⚠ BREAKING CHANGES\n\n* **limits:** Remove unused `max_chunks_per_query` limit [release-4.0.0] ([#26404](https://github.com/grafana/loki/issues/26404))\n\n### Bug Fixes\n\n* **logline:** Backport v4 default and YAML config [release-4.0.0]  ([#26592](https://github.com/grafana/loki/issues/26592)) ([5ca9e5e](https://github.com/grafana/loki/commit/5ca9e5ed4163b5f018988c4a80d3e70257ddaa25))\n* **logql:** Skip every new series once the Logs Drilldown series limit trips [release-4.0.0] ([#26434](https://github.com/grafana/loki/issues/26434)) ([1228128](https://github.com/grafana/loki/commit/12281286df6bbc88c439ea54288c119308bf75d0))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-4.0.0) ([#26353](https://github.com/grafana/loki/issues/26353)) ([42b3047](https://github.com/grafana/loki/commit/42b3047d6e8837f36eac28d8c095a3d49d4f20ef))\n* **security/UNKNOWN/:** Update module github.com/andybalholm/brotli to v1.2.7 [SECURITY] (release-4.0.0) ([#26351](https://github.com/grafana/loki/issues/26351)) ([e6cbd66](https://github.com/grafana/loki/commit/e6cbd66a4957a3d1c7624848014941e711df27cd))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.59.0 [SECURITY] (release-4.0.0) ([#26421](https://github.com/grafana/loki/issues/26421)) ([e732ee8](https://github.com/grafana/loki/commit/e732ee876849756121b3c4f1fa9b2ffac8aa8798))\n* **security/UNKNOWN/:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-4.0.0) ([#26352](https://github.com/grafana/loki/issues/26352)) ([6b5b49c](https://github.com/grafana/loki/commit/6b5b49c7d2ad88215b22c7fe8f49d79825ac9d6e))\n\n\n### Miscellaneous Chores\n\n* **limits:** Remove unused `max_chunks_per_query` limit [release-4.0.0] ([#26404](https://github.com/grafana/loki/issues/26404)) ([f2ae5f6](https://github.com/grafana/loki/commit/f2ae5f65a1355ef4d57b6e0d2b2ee1749105e3ed))"
+            },
             {
               "name": "v3.6.22",
               "tag": "v3.6.22",
@@ -5488,15 +5497,6 @@
               "prerelease": true,
               "author": "loki-gh-app[bot]",
               "body": "## [4.0.0-rc.3](https://github.com/grafana/loki/compare/v4.0.0-rc.2...v4.0.0-rc.3) (2026-11-06)\r\n\r\n\r\n### ⚠ BREAKING CHANGES\r\n\r\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] (#26310)\r\n\r\n### Bug Fixes\r\n\r\n* **compactor:** Use main compactor for deletes ([#26305](https://github.com/grafana/loki/issues/26305)) [release-4.0.0] ([#26311](https://github.com/grafana/loki/issues/26311)) ([1665c02](https://github.com/grafana/loki/commit/1665c0203b3c7b025608336809d18473d8262f00))\r\n* **storage:** Limit supported S3 storage classes to STANDARD and STANDARD_IA ([#26273](https://github.com/grafana/loki/issues/26273)) [release-4.0.0] ([#26310](https://github.com/grafana/loki/issues/26310)) ([cea7d12](https://github.com/grafana/loki/commit/cea7d12c3e839f5350952e11028021a8f3ca7fbe))"
-            },
-            {
-              "name": "v3.6.20",
-              "tag": "v3.6.20",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.6.20",
-              "published_at": "2026-11-06T16:11:18Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.6.20](https://github.com/grafana/loki/compare/v3.6.19...v3.6.20) (2026-11-06)\n\n\n### Bug Fixes\n\n* **deps:** Update go4.org/netipx digest to 3075585 (release-3.6.x) ([#26156](https://github.com/grafana/loki/issues/26156)) ([5124776](https://github.com/grafana/loki/commit/512477627614879d5e00c991b9389670a312ee82))\n* **deps:** Update google.golang.org/genproto/googleapis/rpc digest to 2ffab32 (release-3.6.x) ([#26157](https://github.com/grafana/loki/issues/26157)) ([88e351e](https://github.com/grafana/loki/commit/88e351e2e94fe5bb6759d20aea17ffe758d2ff2a))\n* **deps:** Update k8s.io/utils digest to ca04ba5 (release-3.6.x) ([#26161](https://github.com/grafana/loki/issues/26161)) ([8d2391d](https://github.com/grafana/loki/commit/8d2391d0b471e700b930e52f62d02067234b33cb))\n* **security/HIGH/:** Update module github.com/go-jose/go-jose/v4 to v4.1.6 [SECURITY] (release-3.6.x) ([#25829](https://github.com/grafana/loki/issues/25829)) ([d1915f4](https://github.com/grafana/loki/commit/d1915f42fd3f28fabe22821b43253a8825111135))\n* **security/HIGH/:** Update module github.com/go-openapi/swag/jsonutils to v0.29.2 [SECURITY] (release-3.6.x) ([#26286](https://github.com/grafana/loki/issues/26286)) ([8d999cd](https://github.com/grafana/loki/commit/8d999cdfe480158ea6d4f22c2f9e0fec54a85ac6))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25846](https://github.com/grafana/loki/issues/25846)) ([ab6aa07](https://github.com/grafana/loki/commit/ab6aa07e8b4f97c445167e6ad2849372a8f2a02c))\n* **security/UNKNOWN/:** Update module github.com/klauspost/compress to v1.20.2 [SECURITY] (release-3.6.x) ([#26294](https://github.com/grafana/loki/issues/26294)) ([bbbdf8a](https://github.com/grafana/loki/commit/bbbdf8a0246f42d6f9d67e698cdfb75e74a7d45e))\n* **security/UNKNOWN/:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-3.6.x) ([#25845](https://github.com/grafana/loki/issues/25845)) ([77bf026](https://github.com/grafana/loki/commit/77bf0261a029107470e74fcf787b8ee90de33312))"
             }
           ],
           "last_commit": {
