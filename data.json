@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T13:16:44.697935Z",
+  "generated_at": "2026-11-20T13:22:07.238707Z",
   "groups": [
     {
       "id": "cores",
@@ -508,6 +508,15 @@
             "owner": "Mrvibecodic"
           },
           "releases": [
+            {
+              "name": "Clod Clash clod-v0.1.16-alpha.1",
+              "tag": "clod-v0.1.16-alpha.1",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.16-alpha.1",
+              "published_at": "2026-11-20T13:18:34Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- Программа занимает меньше места при установке и на диске\n- На macOS системный DNS подменяется на 94.140.14.140 вместо 114.114.114.114, подмена от прежних версий снимается\n- В отчёте для поддержки и архиве логов адреса подписки и домены скрыты целиком\n\n### Исправлено\n\n- На macOS после перехода с Wi-Fi на кабель и обратно запросы имён снова идут через туннель\n- На macOS системный прокси и подмена DNS переезжают на новую сеть, даже если смена сети пришла во время выхода из программы\n- На macOS выключенный системный прокси не остаётся на сетевой службе, которая сейчас не активна\n- В настройках на других языках разделы и строки версии без прежнего названия программы"
+            },
             {
               "name": "Clod Clash clod-v0.1.15",
               "tag": "clod-v0.1.15",
@@ -4126,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16454,
+            "stars": 16455,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5166,7 +5175,7 @@
             "stars": 78013,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T13:16:21Z",
+            "pushed_at": "2026-11-20T13:20:43Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5219,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "811dae5",
-            "branch": "dj/time-machine-logs-icon",
-            "date": "2026-11-18T17:34:50Z",
-            "url": "https://github.com/grafana/grafana/commit/811dae5d4a656797b318c3baa05c3b70f7329c01"
+            "sha": "22d0a8b",
+            "branch": "secrets/move-secure-values-api-to-oss",
+            "date": "2026-11-18T16:55:04Z",
+            "url": "https://github.com/grafana/grafana/commit/22d0a8bf25f744584de7cb9d88b6ed124f13a2bd"
           }
         },
         {
@@ -5367,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18142,
+            "stars": 18143,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-20T12:39:57Z",
