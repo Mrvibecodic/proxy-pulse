@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T21:19:21.228743Z",
+  "generated_at": "2026-11-20T21:24:42.366431Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9d7bcd8",
+            "sha": "e482577",
             "branch": "fix/mux-failed-carrier-sessions",
-            "date": "2026-11-19T01:06:35Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/9d7bcd88fb7c19b718ef54ed318293daec4a6cd3"
+            "date": "2026-11-19T01:41:00Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/e4825773ec4607484b0ecfe4e7d7484ccac30d71"
           }
         }
       ]
@@ -1190,7 +1190,7 @@
             "stars": 4683,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-20T21:18:00Z",
+            "pushed_at": "2026-11-20T21:20:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "ccb56ef",
+                  "message": "banip: release 1.9.2-1",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-20T21:20:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/ccb56eff0a2e913a89b9ea5d1a829a442165d1d3"
+                },
+                {
                   "sha": "ffed039",
                   "message": "ruby: add test-version.sh from master",
                   "author": "Josef Schlehofer",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:18:48Z",
                   "url": "https://github.com/openwrt/packages/commit/846941162713e496c107dee70bd5256a0384031f"
-                },
-                {
-                  "sha": "8c1e98c",
-                  "message": "travelmate: keep leading and trailing spaces of a scanned ssid",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-17T17:32:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/8c1e98c600223dfa3b222f7cf2cef01b5db7a7b9"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "2b5fdab",
-            "branch": "iortega/floating-sidebar-height-resize",
-            "date": "2026-11-19T12:11:03Z",
-            "url": "https://github.com/grafana/grafana/commit/2b5fdab93067e4cd5f5674c6ac60fa98f2555a46"
+            "sha": "d989981",
+            "branch": "alerting/gma-rule-editor-flag-91c1f7",
+            "date": "2026-11-20T12:44:40Z",
+            "url": "https://github.com/grafana/grafana/commit/d989981770d360b68b5bfd26f8811dada14b0c3d"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18149,
+            "stars": 18151,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-20T14:34:24Z",
