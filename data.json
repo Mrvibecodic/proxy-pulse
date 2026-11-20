@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T20:15:19.180491Z",
+  "generated_at": "2026-11-20T20:20:38.523208Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4683,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-19T23:46:36Z",
+            "pushed_at": "2026-11-20T20:16:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fc1b80c",
+                  "message": "ustreamer: update to 6.67",
+                  "author": "John Audia",
+                  "date": "2026-11-20T20:16:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/fc1b80c17f629e79584b1a4ad6b95aa207cecd2c"
+                },
+                {
+                  "sha": "aaab398",
+                  "message": "ustreamer: run as unprivileged user in a ujail",
+                  "author": "John Audia",
+                  "date": "2026-11-20T20:16:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/aaab398b9805814e88fb4b6ac147a882e4d0f878"
+                },
+                {
                   "sha": "f2aa920",
                   "message": "php8: update to 8.4.28",
                   "author": "Josef Schlehofer",
@@ -2039,20 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-18T08:30:19Z",
                   "url": "https://github.com/openwrt/packages/commit/e829a139d012cd4b0bdda3efe2b3a82caae7de30"
-                },
-                {
-                  "sha": "b9bcc12",
-                  "message": "mpd: bump to 0.24.17",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-18T08:29:58Z",
-                  "url": "https://github.com/openwrt/packages/commit/b9bcc128f67dd6a72e05d9d0c9922e1e7a3efbf2"
-                },
-                {
-                  "sha": "464c90c",
-                  "message": "pigeonhole: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:20:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/464c90c530efe686578c7854c72f36501729ad15"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16477,
+            "stars": 16478,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94708,
+            "stars": 94709,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-20T12:54:22Z",
@@ -5175,7 +5175,7 @@
             "stars": 78012,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T20:10:44Z",
+            "pushed_at": "2026-11-20T20:16:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f7d78ec",
-            "branch": "feat/time-range-selector",
-            "date": "2026-11-20T19:39:22Z",
-            "url": "https://github.com/grafana/grafana/commit/f7d78ec67410a071e517267728fe803bf2125e00"
+            "sha": "aa7fa66",
+            "branch": "codex/sql-composable-query-builder",
+            "date": "2026-11-19T11:36:21Z",
+            "url": "https://github.com/grafana/grafana/commit/aa7fa665de8ee1c781f49dd3afa3921901c00fd7"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81555,
+            "stars": 81556,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-20T17:01:09Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fe3758e",
-            "branch": "vmauth-propagate-username",
-            "date": "2026-11-20T11:01:21Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/fe3758e8a71a2c03587be54dd7a0d2f347ef7369"
+            "sha": "813180e",
+            "branch": "master",
+            "date": "2026-11-19T11:35:20Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/813180ed909826ff66b4db669f14e79ddbccfda4"
           }
         },
         {
