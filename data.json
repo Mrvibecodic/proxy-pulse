@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:19:45.324551Z",
+  "generated_at": "2026-11-21T10:25:02.759351Z",
   "groups": [
     {
       "id": "cores",
@@ -273,10 +273,10 @@
             }
           ],
           "last_commit": {
-            "sha": "30b1d43",
+            "sha": "edea240",
             "branch": "fix/mux-slow-reader-holds-siblings",
-            "date": "2026-11-19T12:22:32Z",
-            "url": "https://github.com/Jolymmiles/Xray-core/commit/30b1d43f81ad39940b7d994d8ef573c64f69fb4e"
+            "date": "2026-11-19T12:34:29Z",
+            "url": "https://github.com/Jolymmiles/Xray-core/commit/edea2409eaec80fe901e3db9a0fdbc3b9cd1a0a9"
           }
         }
       ]
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8003,
+            "stars": 8004,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-20T14:56:32Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T10:17:57Z",
+            "pushed_at": "2026-11-21T10:21:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,20 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "0b3330b",
+                  "message": "mox-pkcs11: fix broken Makefile",
+                  "author": "Trix Taiclet",
+                  "date": "2026-11-21T10:21:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/0b3330b3ccc2d9b643db2f822b7a8d3edb41350c"
+                },
+                {
+                  "sha": "ec70338",
+                  "message": "mox-pkcs11: add new package",
+                  "author": "Tomáš Macholda",
+                  "date": "2026-11-21T10:21:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec70338669134a3c308c013ca7fc8730a168900f"
+                },
+                {
                   "sha": "e61fb9a",
                   "message": "xray-core: update to 26.11.9",
                   "author": "Tianling Shen",
@@ -3544,20 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:27:16Z",
                   "url": "https://github.com/openwrt/packages/commit/08a5e5b5a75ebfed4abc736048d2ef4b17b948d8"
-                },
-                {
-                  "sha": "f374d87",
-                  "message": "netdata: do not install the dashboard source maps",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:27:07Z",
-                  "url": "https://github.com/openwrt/packages/commit/f374d87fa4ab0b6c722bf53bf69dd4acf5fc21aa"
-                },
-                {
-                  "sha": "4698070",
-                  "message": "netdata: backport fixes for CVE-2023-22496 and CVE-2023-22497",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:26:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/4698070caabaff6b8536cbe02c1ba2b20d6e19b7"
                 }
               ]
             },
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27526,
+            "stars": 27527,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-20T20:33:22Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "316ce73",
-            "branch": "jh/jest-swc",
-            "date": "2026-11-19T13:05:53Z",
-            "url": "https://github.com/grafana/grafana/commit/316ce731e27317d603eced28c215402417c2c958"
+            "sha": "d231a5d",
+            "branch": "main",
+            "date": "2026-11-20T20:41:24Z",
+            "url": "https://github.com/grafana/grafana/commit/d231a5d1f759cc77aa714208efd6443bc36d11ad"
           }
         },
         {
