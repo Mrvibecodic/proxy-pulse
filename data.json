@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:47:50.912238Z",
+  "generated_at": "2026-11-21T06:53:08.377718Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T06:40:50Z",
+            "pushed_at": "2026-11-21T06:49:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a619683",
+                  "message": "pptpd: fix compilation with gcc 15",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-21T06:49:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/a619683d7da5a127ccccbf7622bd94499f4946a8"
+                },
+                {
                   "sha": "8f27c22",
                   "message": "ruby: update to 4.0.10",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "Stijn Tintel",
                   "date": "2026-11-18T13:16:21Z",
                   "url": "https://github.com/openwrt/packages/commit/42fbf3097171d0294652ce228e98cd22bb94227f"
-                },
-                {
-                  "sha": "ae4cdd5",
-                  "message": "fluent-bit: bump to 5.1.5",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-18T13:01:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/ae4cdd543475f17941061fb41740662a81202176"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7f2a6bb",
+                  "message": "nextdns: update to version 1.50.2",
+                  "author": "Olivier Poitrey",
+                  "date": "2026-11-21T06:49:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f2a6bbc0a95c2d213dde4399de0911ccf2ce528"
+                },
+                {
                   "sha": "ccb56ef",
                   "message": "banip: release 1.9.2-1",
                   "author": "Dirk Brenken",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:19:08Z",
                   "url": "https://github.com/openwrt/packages/commit/2cf0a3f2b4d76b174acccc07bbb5dbda95f3604b"
-                },
-                {
-                  "sha": "8469411",
-                  "message": "sshpass: update to 1.10",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:18:48Z",
-                  "url": "https://github.com/openwrt/packages/commit/846941162713e496c107dee70bd5256a0384031f"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "14c8a77",
-            "branch": "codecapitano/tag-custom-color-design",
-            "date": "2026-11-20T09:51:56Z",
-            "url": "https://github.com/grafana/grafana/commit/14c8a776a48c8c50987121509bf5ba0180f7cf10"
+            "sha": "48daa9d",
+            "branch": "ash/update-tanstack-virtual",
+            "date": "2026-11-19T10:59:54Z",
+            "url": "https://github.com/grafana/grafana/commit/48daa9d2766521cff86526858ead8ddd8b9311b6"
           }
         },
         {
