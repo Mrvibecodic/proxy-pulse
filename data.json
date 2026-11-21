@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T19:16:05.156531Z",
+  "generated_at": "2026-11-21T19:21:23.187323Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8013,
+            "stars": 8014,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-20T14:56:32Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T16:11:33Z",
+            "pushed_at": "2026-11-21T19:21:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "fa4aa50",
+                  "message": "bind: bump to 9.20.31",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-11-21T19:18:43Z",
+                  "url": "https://github.com/openwrt/packages/commit/fa4aa509027f626e45a0c19c153e049baf6da9a3"
+                },
+                {
                   "sha": "4703b1c",
                   "message": "squeezelite: select libffmpeg from WMA/ALAC option",
                   "author": "Andy Chiang",
@@ -2046,13 +2053,6 @@
                   "author": "Sander van Deijck",
                   "date": "2026-11-21T07:03:05Z",
                   "url": "https://github.com/openwrt/packages/commit/4e019582d205e15b1ed7140f61fe360d91a584a2"
-                },
-                {
-                  "sha": "42a259c",
-                  "message": "isc-dhcp: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T06:59:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/42a259c08422aba58edab7ff7a43d7689e82e77c"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "36bcf38",
+                  "message": "bind: bump to 9.20.31",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-11-21T19:20:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/36bcf38e0b95786b1c39e958683cf1e6f737f5dd"
+                },
+                {
                   "sha": "7079258",
                   "message": "nginx: update to 1.30.7",
                   "author": "Christian Marangi",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T09:26:26Z",
                   "url": "https://github.com/openwrt/packages/commit/b646aaff2305dbb5653d190a3c1ce09a0235519b"
-                },
-                {
-                  "sha": "7520246",
-                  "message": "pigeonhole: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T09:26:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/7520246207fdd02aee18ff638809a230126948fd"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16519,
+            "stars": 16520,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
