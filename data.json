@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:28:33.857692Z",
+  "generated_at": "2026-11-21T11:33:51.340985Z",
   "groups": [
     {
       "id": "cores",
@@ -1122,7 +1122,7 @@
             "stars": 29292,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T08:07:48Z",
+            "pushed_at": "2026-11-21T11:32:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T11:20:38Z",
+            "pushed_at": "2026-11-21T11:28:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,69 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "7079258",
+                  "message": "nginx: update to 1.30.7",
+                  "author": "Christian Marangi",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/70792587c1d0e22d0be73cc64b8fb1e2cd4722c9"
+                },
+                {
+                  "sha": "088bdcb",
+                  "message": "nginx: 302 the \"/\" path to \"/cgi-bin/luci/\"",
+                  "author": "Tianshuai Gao",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/088bdcbe06736f9f3d399333453b64a4869295ef"
+                },
+                {
+                  "sha": "211801c",
+                  "message": "nginx-util: specify gzip_types to actually enable gzip",
+                  "author": "Nikita Solianik",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/211801cf6c3bb6007bfc6394bcd4f731078baf9a"
+                },
+                {
+                  "sha": "a3df40f",
+                  "message": "nginx: only build luajit2 if required",
+                  "author": "Florian Wagner",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/a3df40fd2b385e9875ec1c3c5be23b861a76cc7d"
+                },
+                {
+                  "sha": "da4e543",
+                  "message": "nginx: update repository of maintained naxsi module",
+                  "author": "Keiji Hata",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/da4e543d768db055773a0d9f2d5678377c084a17"
+                },
+                {
+                  "sha": "ec1831d",
+                  "message": "nginx: update to 1.30.5",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/ec1831d4fb398e88089210ea31ac3ff94c246183"
+                },
+                {
+                  "sha": "92ed28a",
+                  "message": "nginx: update to 1.30.3",
+                  "author": "Jan Klos",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/92ed28af6ebf53e5a9ac4afde9d961eab9da8144"
+                },
+                {
+                  "sha": "c3c438f",
+                  "message": "nginx: update to 1.30.2",
+                  "author": "Seo Suchan",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/c3c438f0f566409e9903b7bc3e10c5f16ba5654b"
+                },
+                {
+                  "sha": "7625a21",
+                  "message": "nginx: fix module depends on nginx",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-11-21T11:28:56Z",
+                  "url": "https://github.com/openwrt/packages/commit/7625a21049d0f7caf25c6acdf3a49f622301c6df"
+                },
+                {
                   "sha": "0b3330b",
                   "message": "mox-pkcs11: fix broken Makefile",
                   "author": "Trix Taiclet",
@@ -3495,69 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T09:26:21Z",
                   "url": "https://github.com/openwrt/packages/commit/7520246207fdd02aee18ff638809a230126948fd"
-                },
-                {
-                  "sha": "5abaac6",
-                  "message": "pigeonhole: backport security fixes",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T09:26:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/5abaac63815c40a2bfe2202f0d85c9f02fec9e0e"
-                },
-                {
-                  "sha": "013907a",
-                  "message": "pigeonhole: fix the library path of managesieve-login",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T09:26:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/013907acde11a19fe4009526e51549b7559e9774"
-                },
-                {
-                  "sha": "7de108b",
-                  "message": "dovecot: backport security fixes",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:32:25Z",
-                  "url": "https://github.com/openwrt/packages/commit/7de108bae8d9d8d34872d00c982dc0f7777911d6"
-                },
-                {
-                  "sha": "f15d2b5",
-                  "message": "dovecot: update to 2.3.21.1",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:32:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/f15d2b5ad17094eca64e140dc684bc78bab0d922"
-                },
-                {
-                  "sha": "d24360b",
-                  "message": "libcurl-gnutls: strip with binutils strip",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:29:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/d24360ba14de04dd9d8bd8e9572a51efd0904253"
-                },
-                {
-                  "sha": "d09724f",
-                  "message": "libcurl-gnutls: update to 8.23.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:28:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/d09724f60c1ff6df08aa080ce0476047503d73e4"
-                },
-                {
-                  "sha": "b7dd173",
-                  "message": "libcurl-gnutls: update to 8.20.0",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-18T07:28:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/b7dd1733f8fa0a76ba3d29db8ed460592a2a5a2f"
-                },
-                {
-                  "sha": "98ceeab",
-                  "message": "netdata: use the system SQLite",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:27:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/98ceeab85761b3ec97e9e73ceffd26fae893334c"
-                },
-                {
-                  "sha": "08a5e5b",
-                  "message": "netdata: drop the unused libmnl dependency",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:27:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/08a5e5b5a75ebfed4abc736048d2ef4b17b948d8"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ed5efc0",
-            "branch": "main",
-            "date": "2026-11-19T13:04:09Z",
-            "url": "https://github.com/grafana/grafana/commit/ed5efc0a33b03d9bd3d861f9e3826b9f7841059d"
+            "sha": "47c8b26",
+            "branch": "grambbledook/kube-aggregator-toggle-cleanup",
+            "date": "2026-11-20T13:12:11Z",
+            "url": "https://github.com/grafana/grafana/commit/47c8b26dfb650dd9a1dc28604625e5be2fdeca31"
           }
         },
         {
