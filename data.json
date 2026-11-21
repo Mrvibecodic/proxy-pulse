@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:53:08.377718Z",
+  "generated_at": "2026-11-21T06:58:26.209855Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 7999,
+            "stars": 8000,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-20T14:56:32Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T06:49:39Z",
+            "pushed_at": "2026-11-21T06:57:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a0ab765",
+                  "message": "lzo: add host build",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-21T06:57:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/a0ab7658f5c93624e20735af87efa4de3bee0ff3"
+                },
+                {
+                  "sha": "5e550e8",
+                  "message": "radicale3: drop newly optional dependencies",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-11-21T06:55:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/5e550e828cbbed943843567b757a6c7e8005d92c"
+                },
+                {
+                  "sha": "6c43130",
+                  "message": "radicale3: bump to v3.9.1 (security)",
+                  "author": "Daniel F. Dickinson",
+                  "date": "2026-11-21T06:55:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/6c43130ce3ff38ff67b1170a69f2a965c2b065b7"
+                },
+                {
                   "sha": "a619683",
                   "message": "pptpd: fix compilation with gcc 15",
                   "author": "Ivan Pavlov",
@@ -2032,27 +2053,6 @@
                   "author": "John Audia",
                   "date": "2026-11-19T10:05:05Z",
                   "url": "https://github.com/openwrt/packages/commit/9fa10015879a99fa1790e5516c33dc0d8e8486d2"
-                },
-                {
-                  "sha": "f9605a4",
-                  "message": "udp-broadcast-relay-redux: update to multi-target version",
-                  "author": "Aaron Curley",
-                  "date": "2026-11-18T18:20:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/f9605a4961c577e7eac1bf019ddabae2b6e558f7"
-                },
-                {
-                  "sha": "087f7b1",
-                  "message": "subversion: update to 1.15.0",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T14:01:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/087f7b1f92c634b94f6e825c35e3be0484ba3a65"
-                },
-                {
-                  "sha": "42fbf30",
-                  "message": "keepalived: add missing dependency",
-                  "author": "Stijn Tintel",
-                  "date": "2026-11-18T13:16:21Z",
-                  "url": "https://github.com/openwrt/packages/commit/42fbf3097171d0294652ce228e98cd22bb94227f"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78021,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T06:45:08Z",
+            "pushed_at": "2026-11-21T06:57:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "48daa9d",
-            "branch": "ash/update-tanstack-virtual",
-            "date": "2026-11-19T10:59:54Z",
-            "url": "https://github.com/grafana/grafana/commit/48daa9d2766521cff86526858ead8ddd8b9311b6"
+            "sha": "1612b89",
+            "branch": "cursor/provisioning-external-storage-2efb",
+            "date": "2026-11-21T06:15:49Z",
+            "url": "https://github.com/grafana/grafana/commit/1612b89e7e4f17f7155d536ac41022c9cf507011"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "538ab1a",
-            "branch": "deps-update/main-anthropics-claude-code-action-1.x",
-            "date": "2026-11-21T06:03:41Z",
-            "url": "https://github.com/grafana/loki/commit/538ab1af62c7d7b8efeeb515974adc5f41c73027"
+            "sha": "852cacf",
+            "branch": "main",
+            "date": "2026-11-20T09:57:19Z",
+            "url": "https://github.com/grafana/loki/commit/852cacf1ae38823ee03e93ba28b2463ee9df70e0"
           }
         }
       ]
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10205,
+            "stars": 10206,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-21T03:38:50Z",
