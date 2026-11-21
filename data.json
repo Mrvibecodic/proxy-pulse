@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:03:50.291607Z",
+  "generated_at": "2026-11-21T10:09:08.320992Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T09:13:52Z",
+            "pushed_at": "2026-11-21T10:08:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,48 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e6beaf9",
+                  "message": "pdns: drop the unused Protobuf dependencies",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:08:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/e6beaf96565d182d59f5e0507e812dee61fe5544"
+                },
+                {
+                  "sha": "6b5cac8",
+                  "message": "restic: update to 0.20.0",
+                  "author": "Romain Isnel",
+                  "date": "2026-11-21T10:07:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b5cac8f91fa1f1efbc207a95a8bad077d288b86"
+                },
+                {
+                  "sha": "b350d1e",
+                  "message": "xl2tpd: update to 1.3.20",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-21T10:07:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/b350d1e323734e4dc7d3c4c244a2db1b3290b3cd"
+                },
+                {
+                  "sha": "28aa08e",
+                  "message": "liblz4: update to 1.11.1",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-21T10:06:38Z",
+                  "url": "https://github.com/openwrt/packages/commit/28aa08e5f1df2537dec9602d1a1919cb5bba37e4"
+                },
+                {
+                  "sha": "7f21049",
+                  "message": "protobuf: split off libprotoc and the utf8_range libraries",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:06:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/7f210497ff1240291490581c57ab00550ee3a784"
+                },
+                {
+                  "sha": "6f06df2",
+                  "message": "iperf3: update to 3.22.1",
+                  "author": "John Audia",
+                  "date": "2026-11-21T10:05:17Z",
+                  "url": "https://github.com/openwrt/packages/commit/6f06df2fe4710393213e3265f98fc911a4b8f1e2"
+                },
+                {
                   "sha": "c6251a3",
                   "message": "bcm27xx-eeprom: fix A/B image detection with BusyBox dd",
                   "author": "Joshua Covington",
@@ -2011,48 +2053,6 @@
                   "author": "Thanh Vũ",
                   "date": "2026-11-19T20:13:59Z",
                   "url": "https://github.com/openwrt/packages/commit/65f7ade259caa7f061b7d3f05fd22434c52a1886"
-                },
-                {
-                  "sha": "dc87898",
-                  "message": "iperf: update to 2.2.2",
-                  "author": "James Buren",
-                  "date": "2026-11-19T20:13:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/dc878983409079bb7cfe33e6bbcde38f68d18b1b"
-                },
-                {
-                  "sha": "a3e541f",
-                  "message": "wfb-ng: update to 26.11",
-                  "author": "Vasily Evseenko",
-                  "date": "2026-11-19T20:10:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/a3e541f7a9a45cecb9829eb6fbfb1af634015afe"
-                },
-                {
-                  "sha": "b33be80",
-                  "message": "krb5: update to 1.22.3",
-                  "author": "Jan Klos",
-                  "date": "2026-11-19T20:09:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/b33be80993ff50fec72b6ffe1aa0b49c3b2bca22"
-                },
-                {
-                  "sha": "df58b55",
-                  "message": "freeipmi: update to 1.6.20",
-                  "author": "Bjørn Mork",
-                  "date": "2026-11-19T20:08:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/df58b556b50889e5d5846f39939139c8ea69ed02"
-                },
-                {
-                  "sha": "7dc08e9",
-                  "message": "crowdsec-firewall-bouncer: update to 0.0.38",
-                  "author": "S. Brusch",
-                  "date": "2026-11-19T10:10:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/7dc08e9f6b96c2fb8a09fe337b1a7a6bfafd1a71"
-                },
-                {
-                  "sha": "12edb0d",
-                  "message": "v4l-utils: update to 1.32.0",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-19T10:09:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/12edb0d3af6be0b78270d47e96d3504564c0c82d"
                 }
               ]
             },
@@ -3135,6 +3135,34 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "dbd43dd",
+                  "message": "gperftools: update to 2.19.3",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:08:24Z",
+                  "url": "https://github.com/openwrt/packages/commit/dbd43dd7e5172f7458d0fac3412fb8afe33117ec"
+                },
+                {
+                  "sha": "9074123",
+                  "message": "snort3: build with Hyperscan on x86_64 again",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:08:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/9074123f8a42fc3266ffcde15605a33323b5bfe4"
+                },
+                {
+                  "sha": "f653c56",
+                  "message": "snort3: update to 3.13.2.0",
+                  "author": "John Audia",
+                  "date": "2026-11-21T10:08:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/f653c564601d8608e427965ee8348aa9c4f0d7ea"
+                },
+                {
+                  "sha": "851363d",
+                  "message": "libdaq3: update to 3.0.29",
+                  "author": "John Audia",
+                  "date": "2026-11-21T10:08:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/851363d7e8c6a05c218302a9a1cafea1186aa0ce"
+                },
+                {
                   "sha": "f846068",
                   "message": "ruby: add test-version.sh from master",
                   "author": "Josef Schlehofer",
@@ -3315,34 +3343,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-14T01:24:02Z",
                   "url": "https://github.com/openwrt/packages/commit/d6041ab119ebf58f990237a85b417e50226a43bd"
-                },
-                {
-                  "sha": "eb19683",
-                  "message": "apache: update to version 2.4.71",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T12:01:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/eb1968315aa538f43e72fafbf0719c577262d9ac"
-                },
-                {
-                  "sha": "2a7c639",
-                  "message": "python-setuptools: add python3-xml to python3-pkg-resources",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-12T04:25:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/2a7c63963d3338202d8ec236ef799deb6e25f435"
-                },
-                {
-                  "sha": "1927193",
-                  "message": "ripe-atlas: generate Ed25519 probe keys",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T10:01:46Z",
-                  "url": "https://github.com/openwrt/packages/commit/1927193da180dbc955a918a3a79548005811f466"
-                },
-                {
-                  "sha": "869a8c1",
-                  "message": "ripe-atlas: fix the SOS ID of non-RSA keys",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-11T10:01:42Z",
-                  "url": "https://github.com/openwrt/packages/commit/869a8c1058db695f277b1a91d2ab4df0facdc556"
                 }
               ]
             },
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3728,
+            "stars": 3729,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-11-16T08:42:27Z",
