@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:53:15.946195Z",
+  "generated_at": "2026-11-21T09:58:33.251831Z",
   "groups": [
     {
       "id": "cores",
@@ -842,12 +842,21 @@
             "stars": 1648,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T07:19:31Z",
+            "pushed_at": "2026-11-21T09:56:04Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v4.0.3",
+              "tag": "android-v4.0.3",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v4.0.3",
+              "published_at": "2026-11-21T09:55:35Z",
+              "prerelease": false,
+              "author": "in-devp",
+              "body": "INCY Android 4.0.3. Signed APK and SHA-256 checksum."
+            },
             {
               "name": "Android v4.0.2",
               "tag": "android-v4.0.2",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "in-devp",
               "body": "INCY Android 4.0.0\n\n- Updated the embedded Ferrum engine to 26.11.10 (v0.25.1) with IncyCore 2.4.5-ferrum.13.\n- The active server label updates when its subscription refreshes while connected.\n- Overlapping subscription refreshes show a localized informational message.\n\nThe APK supports ARM64 and ARMv7. Obtainium users can filter release titles with `^Android v`, assets with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
-            },
-            {
-              "name": "Android v3.9.9",
-              "tag": "android-v3.9.9",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.9",
-              "published_at": "2026-11-05T01:21:39Z",
-              "prerelease": false,
-              "author": "in-devp",
-              "body": "INCY Android 3.9.9\n\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 78023,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T09:45:58Z",
+            "pushed_at": "2026-11-21T09:53:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "50991a4",
-            "branch": "RafaelPaulovic/compat-owners",
-            "date": "2026-11-19T12:12:22Z",
-            "url": "https://github.com/grafana/grafana/commit/50991a40180ee04d5eab7b627b1f26cc9824dfaf"
+            "sha": "91b65e1",
+            "branch": "ash/react-hooks-derived-value",
+            "date": "2026-11-19T12:14:29Z",
+            "url": "https://github.com/grafana/grafana/commit/91b65e147bc45387ed49ca1d64a1c9cd47482954"
           }
         },
         {
