@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:05:18.618887Z",
+  "generated_at": "2026-11-21T16:10:36.947788Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40187,
+            "stars": 40186,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-19T02:28:27Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1649,
+            "stars": 1648,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T11:28:57Z",
+            "pushed_at": "2026-11-21T16:10:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,83 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0423442",
+                  "message": "bind: bump PKG_RELEASE",
+                  "author": "Noah Meyerhans",
+                  "date": "2026-11-21T16:08:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/04234427747116b19e2bafc7e78470da22382637"
+                },
+                {
+                  "sha": "41aa460",
+                  "message": "bind: add bind-client to bind-tools",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/41aa46090a29ba74532b2fd3a220f964cf9f4a9a"
+                },
+                {
+                  "sha": "0391ef8",
+                  "message": "bind: add a bind-tools-gssapi meta-package",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/0391ef8fdf34bd7bdc73e80dcf2218cdc3f0d166"
+                },
+                {
+                  "sha": "1e97a06",
+                  "message": "kea: allow kea-dhcp4-helper with bind-server-gssapi",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/1e97a06d78f2ee57d9f41cfeadea0a3a7f1515fc"
+                },
+                {
+                  "sha": "b27a4bc",
+                  "message": "kea: use two-space indentation in package definitions",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/b27a4bcd70b4fe467c63a4c7d74e0927e9ac8294"
+                },
+                {
+                  "sha": "a156d64",
+                  "message": "bind: change GSSAPI from a config option to a BUILD_VARIANT",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/a156d64274cc866c3d88ede2a21850a543355588"
+                },
+                {
+                  "sha": "5490aa1",
+                  "message": "bind: shorten and harmonise pkg titles",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/5490aa1c62b75a6aa66c0ba5d051cabd4a595148"
+                },
+                {
+                  "sha": "0b64cce",
+                  "message": "bind: move additional config options to end of list",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/0b64cce921aa31c18035089cc9897a411cb06ac3"
+                },
+                {
+                  "sha": "3143c57",
+                  "message": "bind: reorder package definitions",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/3143c577840e7a422f7c10f7f55dd5252a09af58"
+                },
+                {
+                  "sha": "0281d48",
+                  "message": "bind: split delv into a separate package",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/0281d484e335b6236bf367faf079b33f89664ce9"
+                },
+                {
+                  "sha": "8fdf5d0",
+                  "message": "bind: move filter-aaaa into bind-server package",
+                  "author": "David Härdeman",
+                  "date": "2026-11-21T15:55:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/8fdf5d053e588fe3449307a8e5942569984b5e48"
+                },
+                {
                   "sha": "f860bff",
                   "message": "nginx: update to 1.30.7",
                   "author": "Christian Marangi",
@@ -1976,83 +2053,6 @@
                   "author": "Thomas Richard",
                   "date": "2026-11-21T06:59:31Z",
                   "url": "https://github.com/openwrt/packages/commit/ae258e561ea28a77cfd678e99852934615fe920e"
-                },
-                {
-                  "sha": "a0ab765",
-                  "message": "lzo: add host build",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-21T06:57:04Z",
-                  "url": "https://github.com/openwrt/packages/commit/a0ab7658f5c93624e20735af87efa4de3bee0ff3"
-                },
-                {
-                  "sha": "5e550e8",
-                  "message": "radicale3: drop newly optional dependencies",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-11-21T06:55:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/5e550e828cbbed943843567b757a6c7e8005d92c"
-                },
-                {
-                  "sha": "6c43130",
-                  "message": "radicale3: bump to v3.9.1 (security)",
-                  "author": "Daniel F. Dickinson",
-                  "date": "2026-11-21T06:55:53Z",
-                  "url": "https://github.com/openwrt/packages/commit/6c43130ce3ff38ff67b1170a69f2a965c2b065b7"
-                },
-                {
-                  "sha": "a619683",
-                  "message": "pptpd: fix compilation with gcc 15",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-11-21T06:49:11Z",
-                  "url": "https://github.com/openwrt/packages/commit/a619683d7da5a127ccccbf7622bd94499f4946a8"
-                },
-                {
-                  "sha": "8f27c22",
-                  "message": "ruby: update to 4.0.10",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T06:40:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/8f27c2275c58254b8d931fd9c641617b81dca904"
-                },
-                {
-                  "sha": "492c280",
-                  "message": "csshnpd: bump to c1.2.0 release",
-                  "author": "Chris Swan",
-                  "date": "2026-11-21T06:40:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/492c2804a1b5a9f7054a9efed3afeddafc69df75"
-                },
-                {
-                  "sha": "42e2ff5",
-                  "message": "v4l-utils: track edid-decode selection in PKG_CONFIG_DEPENDS",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-21T00:13:12Z",
-                  "url": "https://github.com/openwrt/packages/commit/42e2ff5a73c4d8ea0c9653c600c990f6b08a0f8a"
-                },
-                {
-                  "sha": "f8c970b",
-                  "message": "banip: release 1.9.2-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-20T21:17:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/f8c970bb8a0a58f447488f68248df27bf8116b76"
-                },
-                {
-                  "sha": "fc1b80c",
-                  "message": "ustreamer: update to 6.67",
-                  "author": "John Audia",
-                  "date": "2026-11-20T20:16:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/fc1b80c17f629e79584b1a4ad6b95aa207cecd2c"
-                },
-                {
-                  "sha": "aaab398",
-                  "message": "ustreamer: run as unprivileged user in a ujail",
-                  "author": "John Audia",
-                  "date": "2026-11-20T20:16:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/aaab398b9805814e88fb4b6ac147a882e4d0f878"
-                },
-                {
-                  "sha": "f2aa920",
-                  "message": "php8: update to 8.4.28",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-19T23:44:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/f2aa920111eb5123715af5514921af01fc33e220"
                 }
               ]
             },
@@ -4067,7 +4067,7 @@
           "track": "releases",
           "meta": {
             "description": "Rule-based traffic routing for OpenWrt",
-            "stars": 900,
+            "stars": 901,
             "url": "https://github.com/ushan0v/forkop",
             "default_branch": "main",
             "pushed_at": "2026-11-02T01:16:35Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "decdc78",
-            "branch": "ash/react-hooks-ref-render-write",
-            "date": "2026-11-19T14:22:56Z",
-            "url": "https://github.com/grafana/grafana/commit/decdc784cf0349ccf46b18a782e3b5812e885a60"
+            "sha": "a699f64",
+            "branch": "main",
+            "date": "2026-11-19T16:25:48Z",
+            "url": "https://github.com/grafana/grafana/commit/a699f64c580ad0d8b4e99fc64f7957a4db0ec821"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "64f930c",
-            "branch": "benclive/compactor-planner-memory",
-            "date": "2026-11-19T15:05:11Z",
-            "url": "https://github.com/grafana/loki/commit/64f930c5b317938ede5ab26cd56002fa0df6fb05"
+            "sha": "415571a",
+            "branch": "benclive/index-merge-observability",
+            "date": "2026-11-20T15:51:12Z",
+            "url": "https://github.com/grafana/loki/commit/415571a7d1804d0d5eeeceb280ce22c3fefb6b4d"
           }
         }
       ]
