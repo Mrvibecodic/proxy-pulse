@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T09:10:51.432102Z",
+  "generated_at": "2026-11-21T09:16:09.429934Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T07:13:50Z",
+            "pushed_at": "2026-11-21T09:13:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c6251a3",
+                  "message": "bcm27xx-eeprom: fix A/B image detection with BusyBox dd",
+                  "author": "Joshua Covington",
+                  "date": "2026-11-21T09:13:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/c6251a33b2c5b0da454b7a18c91b7f5556cedc7e"
+                },
+                {
                   "sha": "59d6781",
                   "message": "luajit2: update to 2026-11-07",
                   "author": "Javier Marcet",
@@ -2046,13 +2053,6 @@
                   "author": "Daniel Golle",
                   "date": "2026-11-19T10:09:44Z",
                   "url": "https://github.com/openwrt/packages/commit/12edb0d3af6be0b78270d47e96d3504564c0c82d"
-                },
-                {
-                  "sha": "0f2532f",
-                  "message": "hev-socks5-tunnel: update to 2.20.0",
-                  "author": "Ray Wang",
-                  "date": "2026-11-19T10:09:14Z",
-                  "url": "https://github.com/openwrt/packages/commit/0f2532f697643b1397b8447931d464a7353f7af8"
                 }
               ]
             },
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81566,
+            "stars": 81568,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-21T07:01:26Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5ca9e5e",
-            "branch": "release-4.0.0",
-            "date": "2026-11-19T12:16:38Z",
-            "url": "https://github.com/grafana/loki/commit/5ca9e5ed4163b5f018988c4a80d3e70257ddaa25"
+            "sha": "729a300",
+            "branch": "worktree-dataobj-logs-batch-reader",
+            "date": "2026-11-20T11:25:43Z",
+            "url": "https://github.com/grafana/loki/commit/729a300a2aed4fc1adce3de46b509f789686ad47"
           }
         }
       ]
