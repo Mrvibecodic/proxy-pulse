@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T16:10:36.947788Z",
+  "generated_at": "2026-11-21T16:15:55.052784Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35969,
+            "stars": 35970,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-20T00:50:05Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T16:10:36Z",
+            "pushed_at": "2026-11-21T16:11:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4703b1c",
+                  "message": "squeezelite: select libffmpeg from WMA/ALAC option",
+                  "author": "Andy Chiang",
+                  "date": "2026-11-21T16:11:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/4703b1c6996fbc5dd5a61e66d4931c7710113b40"
+                },
+                {
                   "sha": "0423442",
                   "message": "bind: bump PKG_RELEASE",
                   "author": "Noah Meyerhans",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-21T06:59:59Z",
                   "url": "https://github.com/openwrt/packages/commit/42a259c08422aba58edab7ff7a43d7689e82e77c"
-                },
-                {
-                  "sha": "ae258e5",
-                  "message": "libpfring: bump to 9.4.0",
-                  "author": "Thomas Richard",
-                  "date": "2026-11-21T06:59:31Z",
-                  "url": "https://github.com/openwrt/packages/commit/ae258e561ea28a77cfd678e99852934615fe920e"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a699f64",
-            "branch": "main",
-            "date": "2026-11-19T16:25:48Z",
-            "url": "https://github.com/grafana/grafana/commit/a699f64c580ad0d8b4e99fc64f7957a4db0ec821"
+            "sha": "9212bc8",
+            "branch": "collinfingar/saved-views-01-backend",
+            "date": "2026-11-19T18:28:34Z",
+            "url": "https://github.com/grafana/grafana/commit/9212bc8981c584599cddb32ce5e19d2c8d9bc02f"
           }
         },
         {
