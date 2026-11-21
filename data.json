@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:14:27.898585Z",
+  "generated_at": "2026-11-21T10:19:45.324551Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T10:14:10Z",
+            "pushed_at": "2026-11-21T10:17:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "294989f",
+                  "message": "kmod: update to 34.3",
+                  "author": "Rosen Penev",
+                  "date": "2026-11-21T10:17:57Z",
+                  "url": "https://github.com/openwrt/packages/commit/294989fc707663d003e77a71d276a7a182f05ba3"
+                },
+                {
+                  "sha": "6bec81f",
+                  "message": "python-protobuf: drop unused dependencies",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:15:39Z",
+                  "url": "https://github.com/openwrt/packages/commit/6bec81f1cf16b0856e8d32c99e424e14a5f41c41"
+                },
+                {
+                  "sha": "0704697",
+                  "message": "bind: use libtool fixup",
+                  "author": "John Audia",
+                  "date": "2026-11-21T10:15:03Z",
+                  "url": "https://github.com/openwrt/packages/commit/0704697f7d1ae2ced16602057909cc48e48b60f5"
+                },
+                {
                   "sha": "c3559c2",
                   "message": "syslog-ng: use CMake instead of autotools",
                   "author": "Josef Schlehofer",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-19T23:29:14Z",
                   "url": "https://github.com/openwrt/packages/commit/fcb254ac92b542a642a16edf0774b53161be2b84"
-                },
-                {
-                  "sha": "b48e382",
-                  "message": "adguardhome: bump to 1.0.0",
-                  "author": "George Sapkin",
-                  "date": "2026-11-19T21:50:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/b48e382e28944fab1b6152ec86e5fad983851aa7"
-                },
-                {
-                  "sha": "074500b",
-                  "message": "adguardhome: normalize Makefile",
-                  "author": "George Sapkin",
-                  "date": "2026-11-19T21:50:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/074500b953d27131881f6cb2f37edbb86be985ba"
-                },
-                {
-                  "sha": "84fcfe9",
-                  "message": "adguardhome: drop inactive maintainer",
-                  "author": "George Sapkin",
-                  "date": "2026-11-19T21:50:54Z",
-                  "url": "https://github.com/openwrt/packages/commit/84fcfe97e7027b8b5f658621a56969253181b43d"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "e61fb9a",
+                  "message": "xray-core: update to 26.11.9",
+                  "author": "Tianling Shen",
+                  "date": "2026-11-21T10:17:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/e61fb9a58bebdcc0571e7600285425ddbe7bbdf5"
+                },
+                {
                   "sha": "ea2476b",
                   "message": "netbird: update to 0.82.0",
                   "author": "Sami Salonen",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:26:39Z",
                   "url": "https://github.com/openwrt/packages/commit/4698070caabaff6b8536cbe02c1ba2b20d6e19b7"
-                },
-                {
-                  "sha": "4056efd",
-                  "message": "librespeed-cli: take over maintainership",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:26:24Z",
-                  "url": "https://github.com/openwrt/packages/commit/4056efd6fb061115cad74ee25870a8b0ad15371e"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "91b65e1",
-            "branch": "ash/react-hooks-derived-value",
-            "date": "2026-11-19T12:14:29Z",
-            "url": "https://github.com/grafana/grafana/commit/91b65e147bc45387ed49ca1d64a1c9cd47482954"
+            "sha": "316ce73",
+            "branch": "jh/jest-swc",
+            "date": "2026-11-19T13:05:53Z",
+            "url": "https://github.com/grafana/grafana/commit/316ce731e27317d603eced28c215402417c2c958"
           }
         },
         {
@@ -5800,7 +5800,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 3729,
+            "stars": 3730,
             "url": "https://github.com/Zephyruso/zashboard",
             "default_branch": "main",
             "pushed_at": "2026-11-16T08:42:27Z",
