@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T00:09:45.997100Z",
+  "generated_at": "2026-11-21T00:15:07.552510Z",
   "groups": [
     {
       "id": "cores",
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1c5a1fb",
+            "sha": "2eb84a7",
             "branch": "main",
-            "date": "2026-11-19T07:57:34Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/1c5a1fbf70f3dcf834f58608d2998b62dce6d053"
+            "date": "2026-11-19T06:10:16Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/2eb84a78e5e18f230e9ba04b9a1585d828ef9282"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-20T21:20:21Z",
+            "pushed_at": "2026-11-21T00:13:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "42e2ff5",
+                  "message": "v4l-utils: track edid-decode selection in PKG_CONFIG_DEPENDS",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-21T00:13:12Z",
+                  "url": "https://github.com/openwrt/packages/commit/42e2ff5a73c4d8ea0c9653c600c990f6b08a0f8a"
+                },
+                {
                   "sha": "f8c970b",
                   "message": "banip: release 1.9.2-1",
                   "author": "Dirk Brenken",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-18T08:32:32Z",
                   "url": "https://github.com/openwrt/packages/commit/1ac54403af4a7b0f2743e92bbe7f2c5fe17a61df"
-                },
-                {
-                  "sha": "b2429c5",
-                  "message": "fio: bump to 3.43",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-18T08:31:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/b2429c5afd12d3bac9a737a56d4dc17fb0d10cdd"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78019,
+            "stars": 78020,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-20T23:22:19Z",
+            "pushed_at": "2026-11-21T00:10:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67741,
+            "stars": 67742,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-20T15:56:50Z",
@@ -5311,7 +5311,7 @@
             "stars": 81558,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-20T17:01:09Z",
+            "pushed_at": "2026-11-21T00:14:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29208,
+            "stars": 29209,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-21T00:06:14Z",
