@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:37:15.453873Z",
+  "generated_at": "2026-11-21T06:42:33.298479Z",
   "groups": [
     {
       "id": "cores",
@@ -842,12 +842,21 @@
             "stars": 1646,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
-            "pushed_at": "2026-11-16T00:04:51Z",
+            "pushed_at": "2026-11-21T06:40:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/267489724?v=4",
             "owner": "INCY-DEV"
           },
           "releases": [
+            {
+              "name": "Android v4.0.2",
+              "tag": "android-v4.0.2",
+              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v4.0.2",
+              "published_at": "2026-11-21T06:39:58Z",
+              "prerelease": false,
+              "author": "in-devp",
+              "body": "INCY Android 4.0.2. Signed APK and SHA-256 checksum."
+            },
             {
               "name": "Desktop v3.9.1",
               "tag": "desktop-v3.9.1",
@@ -855,7 +864,7 @@
               "published_at": "2026-11-14T04:42:46Z",
               "prerelease": false,
               "author": "in-devp",
-              "body": "INCY Desktop v3.9.1 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.1)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/43778123201), attempt 1. All desktop assets uploaded.\n"
+              "body": "INCY Desktop v3.9.1 — macOS, Windows and Linux.\n\n[Source release](https://github.com/INCY-DEV/incy-linux/releases/tag/v3.9.1)\n\n[Publication](https://github.com/INCY-DEV/incy-linux/actions/runs/44876775295), attempt 1. All desktop assets uploaded.\n"
             },
             {
               "name": "Android v4.0.1",
@@ -883,15 +892,6 @@
               "prerelease": false,
               "author": "in-devp",
               "body": "INCY Android 3.9.9\n\nAndroid APK only. Obtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
-            },
-            {
-              "name": "Android v3.9.8",
-              "tag": "android-v3.9.8",
-              "url": "https://github.com/INCY-DEV/incy-platforms/releases/tag/android-v3.9.8",
-              "published_at": "2026-11-02T14:25:33Z",
-              "prerelease": false,
-              "author": "in-devp",
-              "body": "INCY Android 3.9.8\n\nИсправлен запуск ядра на устройствах, где создание MPTCP-слушателя завершается ошибкой Permission denied: добавлен переход на обычный TCP.\n\nSigned release APK (versionCode 398). Uses the same signing certificate as the previous published Android release.\n\nObtainium: filter release titles with `^Android v`, APKs with `^[Ii]ncy\\.apk$`, and disable Verify Latest Tag.\n"
             }
           ],
           "last_commit": {
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T00:13:12Z",
+            "pushed_at": "2026-11-21T06:40:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "8f27c22",
+                  "message": "ruby: update to 4.0.10",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T06:40:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/8f27c2275c58254b8d931fd9c641617b81dca904"
+                },
+                {
+                  "sha": "492c280",
+                  "message": "csshnpd: bump to c1.2.0 release",
+                  "author": "Chris Swan",
+                  "date": "2026-11-21T06:40:33Z",
+                  "url": "https://github.com/openwrt/packages/commit/492c2804a1b5a9f7054a9efed3afeddafc69df75"
+                },
+                {
                   "sha": "42e2ff5",
                   "message": "v4l-utils: track edid-decode selection in PKG_CONFIG_DEPENDS",
                   "author": "Daniel Golle",
@@ -2039,20 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-18T13:01:17Z",
                   "url": "https://github.com/openwrt/packages/commit/ae4cdd543475f17941061fb41740662a81202176"
-                },
-                {
-                  "sha": "535580b",
-                  "message": "fish: use the build system's Rust support",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-18T09:30:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/535580b32761eca5419880d3d691002b30764f0a"
-                },
-                {
-                  "sha": "1ac5440",
-                  "message": "micropython-lib: bump to 1.29.0",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-18T08:32:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/1ac54403af4a7b0f2743e92bbe7f2c5fe17a61df"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78021,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T06:37:15Z",
+            "pushed_at": "2026-11-21T06:39:14Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "469c563",
+            "sha": "28e3993",
             "branch": "release-please--branches--release-4.0.0",
-            "date": "2026-11-19T10:59:16Z",
-            "url": "https://github.com/grafana/loki/commit/469c56349d7f5a3c3369b96091694ed91ca5f24a"
+            "date": "2026-11-20T10:01:59Z",
+            "url": "https://github.com/grafana/loki/commit/28e3993ebec9445fec8c38dda3504eec217af569"
           }
         }
       ]
