@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:43:38.877586Z",
+  "generated_at": "2026-11-21T22:48:55.965659Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T19:21:08Z",
+            "pushed_at": "2026-11-21T22:44:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,55 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "26ecf87",
+                  "message": "isc-dhcp: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:44Z",
+                  "url": "https://github.com/openwrt/packages/commit/26ecf879d403c39d77d1d475dc4efb76dd3b815c"
+                },
+                {
+                  "sha": "972d967",
+                  "message": "nsd: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/972d9674b22cee902105b4b691bb214afac181c8"
+                },
+                {
+                  "sha": "a385d1f",
+                  "message": "samba4: take the tdb tools from the tdb package",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/a385d1f3d43af63c96056c474731f17aef86f5a9"
+                },
+                {
+                  "sha": "c062bc7",
+                  "message": "tdb: check the version through the library name in CI",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:26Z",
+                  "url": "https://github.com/openwrt/packages/commit/c062bc705c68b38e3f46cab454d1f705da0c5f2e"
+                },
+                {
+                  "sha": "de4704a",
+                  "message": "lcd4linux: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:15Z",
+                  "url": "https://github.com/openwrt/packages/commit/de4704ade69f9054868f4939410c398fcd154f73"
+                },
+                {
+                  "sha": "037a218",
+                  "message": "rtty: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:44:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/037a218595deffda89b546b02ca87badc7565d42"
+                },
+                {
+                  "sha": "87b3fde",
+                  "message": "softethervpn: conflict with softethervpn5",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T22:43:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/87b3fde600f83042c2db0c6122337f98048db6fc"
+                },
+                {
                   "sha": "fa4aa50",
                   "message": "bind: bump to 9.20.31",
                   "author": "Noah Meyerhans",
@@ -2004,55 +2053,6 @@
                   "author": "Ivan Pavlov",
                   "date": "2026-11-21T10:07:11Z",
                   "url": "https://github.com/openwrt/packages/commit/b350d1e323734e4dc7d3c4c244a2db1b3290b3cd"
-                },
-                {
-                  "sha": "28aa08e",
-                  "message": "liblz4: update to 1.11.1",
-                  "author": "Ivan Pavlov",
-                  "date": "2026-11-21T10:06:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/28aa08e5f1df2537dec9602d1a1919cb5bba37e4"
-                },
-                {
-                  "sha": "7f21049",
-                  "message": "protobuf: split off libprotoc and the utf8_range libraries",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T10:06:27Z",
-                  "url": "https://github.com/openwrt/packages/commit/7f210497ff1240291490581c57ab00550ee3a784"
-                },
-                {
-                  "sha": "6f06df2",
-                  "message": "iperf3: update to 3.22.1",
-                  "author": "John Audia",
-                  "date": "2026-11-21T10:05:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/6f06df2fe4710393213e3265f98fc911a4b8f1e2"
-                },
-                {
-                  "sha": "c6251a3",
-                  "message": "bcm27xx-eeprom: fix A/B image detection with BusyBox dd",
-                  "author": "Joshua Covington",
-                  "date": "2026-11-21T09:13:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/c6251a33b2c5b0da454b7a18c91b7f5556cedc7e"
-                },
-                {
-                  "sha": "59d6781",
-                  "message": "luajit2: update to 2026-11-07",
-                  "author": "Javier Marcet",
-                  "date": "2026-11-21T07:13:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/59d6781751917bdfdc57a67c5ffa651fa022add1"
-                },
-                {
-                  "sha": "6b04470",
-                  "message": "antiblock: update to 3.0.0",
-                  "author": "Karen Khachatryan",
-                  "date": "2026-11-21T07:04:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/6b04470bfa567c461b65e374f794cbb6699d5a55"
-                },
-                {
-                  "sha": "4e01958",
-                  "message": "hplip: update to 3.26.6",
-                  "author": "Sander van Deijck",
-                  "date": "2026-11-21T07:03:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/4e019582d205e15b1ed7140f61fe360d91a584a2"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16570,
+            "stars": 16571,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78030,
+            "stars": 78031,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-21T22:09:00Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4f708d0",
-            "branch": "feat/time-range-selector",
-            "date": "2026-11-20T19:56:39Z",
-            "url": "https://github.com/grafana/grafana/commit/4f708d0907aa380a64585c6f3a7c243632c91aaf"
+            "sha": "484fdaa",
+            "branch": "jh/jest-swc-table-lazy-styles",
+            "date": "2026-11-19T22:59:01Z",
+            "url": "https://github.com/grafana/grafana/commit/484fdaa03fcac0e161e6e97be942aeb5f5be15f7"
           }
         },
         {
