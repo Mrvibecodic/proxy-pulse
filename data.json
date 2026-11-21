@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T10:09:08.320992Z",
+  "generated_at": "2026-11-21T10:14:27.898585Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8002,
+            "stars": 8003,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-20T14:56:32Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T10:08:58Z",
+            "pushed_at": "2026-11-21T10:14:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c3559c2",
+                  "message": "syslog-ng: use CMake instead of autotools",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:14:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/c3559c255862263b75dc55bbb8c612bcb66400f3"
+                },
+                {
+                  "sha": "a5dfb49",
+                  "message": "sms-tool: add CI version test override",
+                  "author": "Steve Meek",
+                  "date": "2026-11-21T10:10:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/a5dfb4926cb9be620be06cec71f0e6b34ca2cc6e"
+                },
+                {
+                  "sha": "5268d64",
+                  "message": "sms-tool: update to 2026-11-13",
+                  "author": "Steve Meek",
+                  "date": "2026-11-21T10:10:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/5268d64b7a53e7c026edad59a4586d0a89294760"
+                },
+                {
                   "sha": "e6beaf9",
                   "message": "pdns: drop the unused Protobuf dependencies",
                   "author": "Josef Schlehofer",
@@ -2032,27 +2053,6 @@
                   "author": "George Sapkin",
                   "date": "2026-11-19T21:50:54Z",
                   "url": "https://github.com/openwrt/packages/commit/84fcfe97e7027b8b5f658621a56969253181b43d"
-                },
-                {
-                  "sha": "6ebe95e",
-                  "message": "fsh: update to 4.12.0",
-                  "author": "Ray Wang",
-                  "date": "2026-11-19T20:15:19Z",
-                  "url": "https://github.com/openwrt/packages/commit/6ebe95eb538e5c02381d8ca8cd6af148c7c8dfeb"
-                },
-                {
-                  "sha": "2188b1c",
-                  "message": "swig: update to 4.5.1",
-                  "author": "Daniel Golle",
-                  "date": "2026-11-19T20:14:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/2188b1c460526bd3abc59b30a9955ab665c08056"
-                },
-                {
-                  "sha": "65f7ade",
-                  "message": "parted: update to 3.8",
-                  "author": "Thanh Vũ",
-                  "date": "2026-11-19T20:13:59Z",
-                  "url": "https://github.com/openwrt/packages/commit/65f7ade259caa7f061b7d3f05fd22434c52a1886"
                 }
               ]
             },
@@ -3135,6 +3135,13 @@
               "name": "openwrt-24.10",
               "commits": [
                 {
+                  "sha": "3f7273f",
+                  "message": "ruby: backport removal of reserve_stack",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T10:09:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/3f7273fdfa5fee830df83767bfb196ba9e25b47d"
+                },
+                {
                   "sha": "dbd43dd",
                   "message": "gperftools: update to 2.19.3",
                   "author": "Josef Schlehofer",
@@ -3336,13 +3343,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-17T09:43:57Z",
                   "url": "https://github.com/openwrt/packages/commit/4207995c230b05fda8cbb9a2571f74b7960640f6"
-                },
-                {
-                  "sha": "d6041ab",
-                  "message": "sqlite3: convert the version in the CI test script",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-14T01:24:02Z",
-                  "url": "https://github.com/openwrt/packages/commit/d6041ab119ebf58f990237a85b417e50226a43bd"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94727,
+            "stars": 94729,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-21T00:04:38Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4ce73f9",
+            "sha": "1f88c0d",
             "branch": "master",
-            "date": "2026-11-20T11:31:22Z",
-            "url": "https://github.com/netdata/netdata/commit/4ce73f94837d46f5dc49ce41fae15e7d7cfcf6c3"
+            "date": "2026-11-19T13:25:37Z",
+            "url": "https://github.com/netdata/netdata/commit/1f88c0da6429415abc18f3faf065aaee6f69236b"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "df22455",
-            "branch": "feat/logline-absent-over-time-skip",
-            "date": "2026-11-19T19:16:36Z",
-            "url": "https://github.com/grafana/loki/commit/df2245585e95aa150b9fc6d8e611acecc183690b"
+            "sha": "8e8fe41",
+            "branch": "backport-26579-to-release-4.0.0",
+            "date": "2026-11-19T10:52:20Z",
+            "url": "https://github.com/grafana/loki/commit/8e8fe4116ef2c54a7813eb9fd121f1065e3eb033"
           }
         }
       ]
