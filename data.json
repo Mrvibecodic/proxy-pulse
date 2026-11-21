@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T06:58:26.209855Z",
+  "generated_at": "2026-11-21T07:03:44.115960Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T06:57:04Z",
+            "pushed_at": "2026-11-21T07:03:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "4e01958",
+                  "message": "hplip: update to 3.26.6",
+                  "author": "Sander van Deijck",
+                  "date": "2026-11-21T07:03:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/4e019582d205e15b1ed7140f61fe360d91a584a2"
+                },
+                {
+                  "sha": "42a259c",
+                  "message": "isc-dhcp: add version check override",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-21T06:59:59Z",
+                  "url": "https://github.com/openwrt/packages/commit/42a259c08422aba58edab7ff7a43d7689e82e77c"
+                },
+                {
+                  "sha": "ae258e5",
+                  "message": "libpfring: bump to 9.4.0",
+                  "author": "Thomas Richard",
+                  "date": "2026-11-21T06:59:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/ae258e561ea28a77cfd678e99852934615fe920e"
+                },
+                {
                   "sha": "a0ab765",
                   "message": "lzo: add host build",
                   "author": "Daniel Golle",
@@ -2032,27 +2053,6 @@
                   "author": "Olivier Poitrey",
                   "date": "2026-11-19T10:06:41Z",
                   "url": "https://github.com/openwrt/packages/commit/e607cf36d46c9e7da362d3ed8a724c6a99a2d2a3"
-                },
-                {
-                  "sha": "16135e4",
-                  "message": "docker-compose: update to version 5.8.0",
-                  "author": "Javier Marcet",
-                  "date": "2026-11-19T10:06:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/16135e43dc0aecb99bf6babff50ca31f0808f444"
-                },
-                {
-                  "sha": "b85673f",
-                  "message": "dhtd: update to 1.0.6",
-                  "author": "Moritz Warning",
-                  "date": "2026-11-19T10:05:45Z",
-                  "url": "https://github.com/openwrt/packages/commit/b85673f9bbe5b59c1473ba3ac70b9aea39f2106a"
-                },
-                {
-                  "sha": "9fa1001",
-                  "message": "nfs-kernel-server: update to 3.2.1",
-                  "author": "John Audia",
-                  "date": "2026-11-19T10:05:05Z",
-                  "url": "https://github.com/openwrt/packages/commit/9fa10015879a99fa1790e5516c33dc0d8e8486d2"
                 }
               ]
             },
@@ -3350,6 +3350,13 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "ea2476b",
+                  "message": "netbird: update to 0.82.0",
+                  "author": "Sami Salonen",
+                  "date": "2026-11-21T07:01:53Z",
+                  "url": "https://github.com/openwrt/packages/commit/ea2476bc1f32115b9929a4dd58c6180fa2c92d92"
+                },
+                {
                   "sha": "7f2a6bb",
                   "message": "nextdns: update to version 1.50.2",
                   "author": "Olivier Poitrey",
@@ -3551,13 +3558,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-18T07:26:24Z",
                   "url": "https://github.com/openwrt/packages/commit/4056efd6fb061115cad74ee25870a8b0ad15371e"
-                },
-                {
-                  "sha": "2cf0a3f",
-                  "message": "gperftools: update to 2.19.3",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T07:19:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/2cf0a3f2b4d76b174acccc07bbb5dbda95f3604b"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78021,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T06:57:01Z",
+            "pushed_at": "2026-11-21T07:03:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1612b89",
+            "sha": "96c560c",
             "branch": "cursor/provisioning-external-storage-2efb",
-            "date": "2026-11-21T06:15:49Z",
-            "url": "https://github.com/grafana/grafana/commit/1612b89e7e4f17f7155d536ac41022c9cf507011"
+            "date": "2026-11-21T06:23:30Z",
+            "url": "https://github.com/grafana/grafana/commit/96c560cd09a5e1263a8a6a892a4ad96ff3f7502f"
           }
         },
         {
@@ -5311,7 +5311,7 @@
             "stars": 81565,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-21T00:14:17Z",
+            "pushed_at": "2026-11-21T07:01:26Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5871,7 +5871,7 @@
             "stars": 10206,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-21T03:38:50Z",
+            "pushed_at": "2026-11-21T07:02:47Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
