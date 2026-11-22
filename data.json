@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:09:20.049102Z",
+  "generated_at": "2026-11-22T16:14:37.590335Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5387,
+            "stars": 5388,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-11-19T03:59:59Z",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T16:08:33Z",
+            "pushed_at": "2026-11-22T16:13:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "31d7ea7",
+                  "message": "libwebsockets: update to 5.1.0",
+                  "author": "Anari Jalakas",
+                  "date": "2026-11-22T16:13:13Z",
+                  "url": "https://github.com/openwrt/packages/commit/31d7ea779934e4baf0ad2b5cdcf7ca93a1dec5e0"
+                },
+                {
                   "sha": "0a60a73",
                   "message": "ripe-atlas: report interface traffic of anchors by default",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "David Härdeman",
                   "date": "2026-11-21T15:55:37Z",
                   "url": "https://github.com/openwrt/packages/commit/5490aa1c62b75a6aa66c0ba5d051cabd4a595148"
-                },
-                {
-                  "sha": "0b64cce",
-                  "message": "bind: move additional config options to end of list",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/0b64cce921aa31c18035089cc9897a411cb06ac3"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17144,
+            "stars": 17147,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78035,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-22T16:05:34Z",
+            "pushed_at": "2026-11-22T16:12:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "4049f9f",
-            "branch": "main",
-            "date": "2026-11-20T10:57:59Z",
-            "url": "https://github.com/grafana/grafana/commit/4049f9fa5ea174906f44001bd862a7cb32d5f49a"
+            "sha": "881dd0b",
+            "branch": "use-sdk-inline-secure-values",
+            "date": "2026-11-21T12:34:25Z",
+            "url": "https://github.com/grafana/grafana/commit/881dd0bf297df1a5703d9a31d47190cc49b6a165"
           }
         },
         {
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81585,
+            "stars": 81584,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-22T08:33:54Z",
