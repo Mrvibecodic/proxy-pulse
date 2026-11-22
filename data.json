@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T13:46:30.436648Z",
+  "generated_at": "2026-11-22T13:51:47.866097Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T11:01:01Z",
+            "pushed_at": "2026-11-22T13:51:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "32514ad",
+                  "message": "hev-socks5-tunnel: update to 2.20.0",
+                  "author": "Ray Wang",
+                  "date": "2026-11-22T13:51:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/32514adde7b7d657f6cffc53fce40eac6da32e35"
+                },
+                {
+                  "sha": "46bea15",
+                  "message": "hev-socks5-tproxy: update to 2.14.0",
+                  "author": "Ray Wang",
+                  "date": "2026-11-22T13:51:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/46bea15a54460661618d52f99e5f73e4388941fb"
+                },
+                {
+                  "sha": "fcf581f",
+                  "message": "fsh: update to 4.12.0",
+                  "author": "Ray Wang",
+                  "date": "2026-11-22T13:51:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/fcf581f85db82570f493d8c1cc2c653344c50c9e"
+                },
+                {
                   "sha": "36bcf38",
                   "message": "bind: bump to 9.20.31",
                   "author": "Noah Meyerhans",
@@ -3537,27 +3558,6 @@
                   "author": "John Audia",
                   "date": "2026-11-18T17:18:44Z",
                   "url": "https://github.com/openwrt/packages/commit/bc0d0548e94bc2e67d686ed7837140317f35de0f"
-                },
-                {
-                  "sha": "115e231",
-                  "message": "snort3: update to 3.10.1.0",
-                  "author": "John Audia",
-                  "date": "2026-11-18T17:18:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/115e2319147968c878042c3b393efd7ac8bc3373"
-                },
-                {
-                  "sha": "f6b4910",
-                  "message": "libdaq3: update to 3.0.24",
-                  "author": "John Audia",
-                  "date": "2026-11-18T17:18:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/f6b4910cd34b7d16eb92a0ef8308e180aaf5f12a"
-                },
-                {
-                  "sha": "b646aaf",
-                  "message": "dovecot: add version check override",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-18T09:26:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/b646aaff2305dbb5653d190a3c1ce09a0235519b"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17069,
+            "stars": 17073,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94759,
+            "stars": 94760,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-22T07:50:56Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "515b748",
-            "branch": "iortega/landing-templates",
-            "date": "2026-11-20T11:37:22Z",
-            "url": "https://github.com/grafana/grafana/commit/515b748bdd15de0ea78318464b3a460dc0b9adbc"
+            "sha": "277e0e9",
+            "branch": "renovate/i18next-27.x",
+            "date": "2026-11-20T16:09:37Z",
+            "url": "https://github.com/grafana/grafana/commit/277e0e9d2aaf30e31ca03a095d6021c2e8c17e8b"
           }
         },
         {
