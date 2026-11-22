@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T10:56:34.752654Z",
+  "generated_at": "2026-11-22T11:01:51.681461Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T08:36:30Z",
+            "pushed_at": "2026-11-22T11:01:01Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "be0dbb6",
+                  "message": "lvm2: disable liburing to fix buildbot breakage",
+                  "author": "Hannu Nyman",
+                  "date": "2026-11-22T11:01:01Z",
+                  "url": "https://github.com/openwrt/packages/commit/be0dbb6e6b09a1729b34f400a712c8d1aea2f321"
+                },
+                {
                   "sha": "0888b71",
                   "message": "hev-socks5-tproxy: update to 2.14.0",
                   "author": "Ray Wang",
@@ -2046,13 +2053,6 @@
                   "author": "Christian Marangi",
                   "date": "2026-11-21T11:20:38Z",
                   "url": "https://github.com/openwrt/packages/commit/f860bffeee696081d05807405d290944bf9b1c34"
-                },
-                {
-                  "sha": "294989f",
-                  "message": "kmod: update to 34.3",
-                  "author": "Rosen Penev",
-                  "date": "2026-11-21T10:17:57Z",
-                  "url": "https://github.com/openwrt/packages/commit/294989fc707663d003e77a71d276a7a182f05ba3"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17002,
+            "stars": 17005,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78034,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-22T10:47:38Z",
+            "pushed_at": "2026-11-22T11:00:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10273,
+            "stars": 10274,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-22T05:14:26Z",
