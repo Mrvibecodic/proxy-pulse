@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T00:35:53.448516Z",
+  "generated_at": "2026-11-22T00:41:12.498640Z",
   "groups": [
     {
       "id": "cores",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16638,
+            "stars": 16641,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -4863,12 +4863,21 @@
             "stars": 166,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-17T15:32:49Z",
+            "pushed_at": "2026-11-22T00:38:44Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.7.5",
+              "tag": "v7.7.5",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.5",
+              "published_at": "2026-11-22T00:38:45Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.7.5\r\n\r\nfix(firewall): restore empty Keenetic mangle chains after NDMS rebuild.\r\n- When NDMS left CLASH named but wiped CLASH_PROCESS or dropped SSCLASH_LATE, the hook only reseated jumps and UDP TPROXY stayed missing while TCP REDIRECT still worked.\r\n\r\nfix(firewall): restore partial Keenetic intercept chains after NDMS rebuild.\r\n- Treat RETURN-only CLASH_PROCESS, an empty CLASH parent, and an empty CLASH_REDIRECT_PROCESS as broken so the hook flushes and reloads the snapshot instead of only reseating jumps.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.7.4",
               "tag": "v7.7.4",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash 7.7.1\r\n\r\n- A large fake-ip whitelist used to start a separate process for every network. Those processes added their own load, and the page stayed quiet, so a start looked frozen. The list now loads in one process. A restart builds the file once. While the list is built or loaded, a note stays under the header and says a large list can take several minutes. The same work is written to the log.\r\n- Empty lists for ports, DSCP marks, and reserved networks now follow the page language. The Fake-IP entry count does too.\r\n- The install guide was rewritten in English and Russian.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.0",
-              "tag": "v7.7.0",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.0",
-              "published_at": "2026-11-12T21:06:58Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.0\r\n\r\n## English\r\n\r\n- The web UI now supports more than one language. Right now those languages are English and Russian. The wording in both was checked and tightened.\r\n- Snell listeners accept version 6.\r\n- A Shadowsocks listener can serve several users. Each user has a password. One shared password is no longer the only option.\r\n- On amd64, the kernel download picks a Mihomo build the CPU can run. The plain amd64 build needs x86-64-v3, so older processors used to fail the check.\r\n- SSClash can run in server mode. Recent Xray-core versions brought compatibility trouble, and server mode is how you avoid it. In that mode, Add listener is the filled button, so the mode is harder to miss.\r\n\r\n## Русский\r\n\r\n- У веб-интерфейса появилась поддержка нескольких языков. Сейчас это русский и английский. Формулировки в обоих языках уточнены и выверены.\r\n- Слушатели Snell принимают версию 6.\r\n- Слушатель Shadowsocks может обслуживать нескольких пользователей. У каждого свой пароль. Один общий пароль больше не единственный вариант.\r\n- На amd64 загрузка ядра выбирает сборку Mihomo, которую процессор может выполнить. Обычная сборка amd64 требует x86-64-v3, поэтому на старых процессорах проверка не проходила.\r\n- SSClash умеет работать в режиме сервера. Последние версии Xray-core принесли проблемы совместимости, и режим сервера их снимает. В этом режиме кнопка «Добавить слушатель» залита, чтобы режим было труднее пропустить.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "93a6a91",
-            "branch": "iortega/landing-templates",
-            "date": "2026-11-20T07:08:22Z",
-            "url": "https://github.com/grafana/grafana/commit/93a6a918529e4b55ef0fe440ad388997a6910e43"
+            "sha": "34da74e",
+            "branch": "main",
+            "date": "2026-11-19T22:52:02Z",
+            "url": "https://github.com/grafana/grafana/commit/34da74e38d8efa384d0a726ce0ae6907918b870c"
           }
         },
         {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "711edc2",
-            "branch": "feat/extensible-external-secrets",
-            "date": "2026-11-19T21:35:50Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/711edc211bae6c42857f7eb6b198c4b5842e98dc"
+            "sha": "a807182",
+            "branch": "fix/issue-4895",
+            "date": "2026-11-19T21:27:39Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/a807182abf45460d30bb18be76ea2c0991b9e93b"
           }
         },
         {
