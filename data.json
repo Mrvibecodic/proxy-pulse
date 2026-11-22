@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T15:26:59.533741Z",
+  "generated_at": "2026-11-22T15:32:17.036599Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 35988,
+            "stars": 35989,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-20T00:50:05Z",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T14:25:00Z",
+            "pushed_at": "2026-11-22T15:27:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f782954",
+                  "message": "bird3: update to 3.4.0",
+                  "author": "Alan Feng",
+                  "date": "2026-11-22T15:27:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/f7829542e6e35942a1c2af46521c790aad9545aa"
+                },
+                {
+                  "sha": "ab84c11",
+                  "message": "bird2: update to 2.20.0",
+                  "author": "Alan Feng",
+                  "date": "2026-11-22T15:27:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/ab84c110eb60ec2642d45c127e7a31933202edb3"
+                },
+                {
                   "sha": "be0dbb6",
                   "message": "lvm2: disable liburing to fix buildbot breakage",
                   "author": "Hannu Nyman",
@@ -2039,20 +2053,6 @@
                   "author": "David Härdeman",
                   "date": "2026-11-21T15:55:37Z",
                   "url": "https://github.com/openwrt/packages/commit/0281d484e335b6236bf367faf079b33f89664ce9"
-                },
-                {
-                  "sha": "8fdf5d0",
-                  "message": "bind: move filter-aaaa into bind-server package",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/8fdf5d053e588fe3449307a8e5942569984b5e48"
-                },
-                {
-                  "sha": "f860bff",
-                  "message": "nginx: update to 1.30.7",
-                  "author": "Christian Marangi",
-                  "date": "2026-11-21T11:20:38Z",
-                  "url": "https://github.com/openwrt/packages/commit/f860bffeee696081d05807405d290944bf9b1c34"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17124,
+            "stars": 17129,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -4745,7 +4745,7 @@
             "stars": 2297,
             "url": "https://github.com/StressOzz/Zapret-Manager",
             "default_branch": "main",
-            "pushed_at": "2026-11-22T15:21:21Z",
+            "pushed_at": "2026-11-22T15:29:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/131419324?v=4",
             "owner": "StressOzz"
@@ -4780,10 +4780,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eb6a824",
+            "sha": "d06721b",
             "branch": "main",
-            "date": "2026-11-20T23:26:29Z",
-            "url": "https://github.com/StressOzz/Zapret-Manager/commit/eb6a82442e792710e2889bf0d4534e3225b880bd"
+            "date": "2026-11-20T12:54:33Z",
+            "url": "https://github.com/StressOzz/Zapret-Manager/commit/d06721be4e5fbbafcf5914301ffb9ccd7a2c8fec"
           }
         },
         {
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ea76b35",
+            "sha": "661c3e6",
             "branch": "dmihai/k8s-user-search-add-auth-labels",
-            "date": "2026-11-20T17:04:12Z",
-            "url": "https://github.com/grafana/grafana/commit/ea76b35b1d1aa2debf42411c73fe90f8b3636d76"
+            "date": "2026-11-20T17:09:29Z",
+            "url": "https://github.com/grafana/grafana/commit/661c3e6328487b197fa6d756761a829cff26b1ff"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "011cb83",
-            "branch": "main",
-            "date": "2026-11-20T08:41:26Z",
-            "url": "https://github.com/grafana/loki/commit/011cb83c539d1fb45669ae0e8c0daa0ea572c0d1"
+            "sha": "b465305",
+            "branch": "chaudum/bump-rc5-release-candidate",
+            "date": "2026-11-20T10:27:05Z",
+            "url": "https://github.com/grafana/loki/commit/b465305caf6a53c0b940f16b82fd14680e76a6dc"
           }
         }
       ]
