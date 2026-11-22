@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T21:22:58.128509Z",
+  "generated_at": "2026-11-22T21:28:16.002558Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T19:08:23Z",
+            "pushed_at": "2026-11-22T21:26:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -3350,6 +3350,27 @@
               "name": "openwrt-25.12",
               "commits": [
                 {
+                  "sha": "53c6ace",
+                  "message": "adguardhome: bump to 1.0.0",
+                  "author": "George Sapkin",
+                  "date": "2026-11-22T21:26:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/53c6ace878eb6694e4f541525e8a72acc7c5efbf"
+                },
+                {
+                  "sha": "bc6d9fd",
+                  "message": "adguardhome: normalize Makefile",
+                  "author": "George Sapkin",
+                  "date": "2026-11-22T21:26:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/bc6d9fddce3e73d58da901afed8c95453a93d1e6"
+                },
+                {
+                  "sha": "741d854",
+                  "message": "adguardhome: drop inactive maintainer",
+                  "author": "George Sapkin",
+                  "date": "2026-11-22T21:26:28Z",
+                  "url": "https://github.com/openwrt/packages/commit/741d854b4bf6f0878f700a2610a16b74d2796269"
+                },
+                {
                   "sha": "1470d87",
                   "message": "adblock: release 4.5.10-1",
                   "author": "Dirk Brenken",
@@ -3537,27 +3558,6 @@
                   "author": "John Audia",
                   "date": "2026-11-18T17:18:44Z",
                   "url": "https://github.com/openwrt/packages/commit/6eff5bdbf53da69d4af2df4d0f53c026ca2da66d"
-                },
-                {
-                  "sha": "e3361c0",
-                  "message": "snort3: update to 3.12.2.0",
-                  "author": "John Audia",
-                  "date": "2026-11-18T17:18:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/e3361c0002397738edd568a8139eb5aa72c7e386"
-                },
-                {
-                  "sha": "0e33960",
-                  "message": "snort3: update to 3.12.1.0",
-                  "author": "John Audia",
-                  "date": "2026-11-18T17:18:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/0e33960fd053572d5824fa95d3d76eaffaa889bf"
-                },
-                {
-                  "sha": "ce67f5c",
-                  "message": "libdaq3: update to 3.0.27",
-                  "author": "John Audia",
-                  "date": "2026-11-18T17:18:44Z",
-                  "url": "https://github.com/openwrt/packages/commit/ce67f5c605c2be9780992846b68724e2412a6eeb"
                 }
               ]
             },
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "33e0c74",
-            "branch": "RafaelPaulovic/compat-owners",
-            "date": "2026-11-20T11:45:30Z",
-            "url": "https://github.com/grafana/grafana/commit/33e0c745ec756b0205290413837818c510f72c40"
+            "sha": "88a4eef",
+            "branch": "kap/button-status-variants",
+            "date": "2026-11-20T14:12:17Z",
+            "url": "https://github.com/grafana/grafana/commit/88a4eefd6862f6e639085722ec49bc1085501b8b"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10297,
+            "stars": 10298,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-22T21:22:17Z",
