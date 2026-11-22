@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:04:01.854329Z",
+  "generated_at": "2026-11-22T16:09:20.049102Z",
   "groups": [
     {
       "id": "cores",
@@ -1175,10 +1175,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f3c0b2c",
-            "branch": "master",
-            "date": "2026-11-22T00:26:15Z",
-            "url": "https://github.com/openwrt/openwrt/commit/f3c0b2cc79fd435b49621033b0945949a26a3746"
+            "sha": "8d054d9",
+            "branch": "openwrt-25.12",
+            "date": "2026-11-22T15:48:02Z",
+            "url": "https://github.com/openwrt/openwrt/commit/8d054d984a54c9ff4a733b14cd7400742e844b46"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T15:27:36Z",
+            "pushed_at": "2026-11-22T16:08:33Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0a60a73",
+                  "message": "ripe-atlas: report interface traffic of anchors by default",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-22T16:08:32Z",
+                  "url": "https://github.com/openwrt/packages/commit/0a60a737b3e373df9329de94c48c3cc61a8dc053"
+                },
+                {
+                  "sha": "62e2e51",
+                  "message": "minizip: fix cross-build with zlib",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-11-22T16:07:37Z",
+                  "url": "https://github.com/openwrt/packages/commit/62e2e51b60e115c3efaddaae56ee9f722a1d96c7"
+                },
+                {
                   "sha": "f782954",
                   "message": "bird3: update to 3.4.0",
                   "author": "Alan Feng",
@@ -2039,20 +2053,6 @@
                   "author": "David Härdeman",
                   "date": "2026-11-21T15:55:37Z",
                   "url": "https://github.com/openwrt/packages/commit/0b64cce921aa31c18035089cc9897a411cb06ac3"
-                },
-                {
-                  "sha": "3143c57",
-                  "message": "bind: reorder package definitions",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/3143c577840e7a422f7c10f7f55dd5252a09af58"
-                },
-                {
-                  "sha": "0281d48",
-                  "message": "bind: split delv into a separate package",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/0281d484e335b6236bf367faf079b33f89664ce9"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17143,
+            "stars": 17144,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78035,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-22T15:54:54Z",
+            "pushed_at": "2026-11-22T16:05:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fdebd8a",
-            "branch": "timepicker-ms-precision-v2",
-            "date": "2026-11-22T15:11:16Z",
-            "url": "https://github.com/grafana/grafana/commit/fdebd8ad4eaaa0105bc81c13b2c0bc655765ab60"
+            "sha": "4049f9f",
+            "branch": "main",
+            "date": "2026-11-20T10:57:59Z",
+            "url": "https://github.com/grafana/grafana/commit/4049f9fa5ea174906f44001bd862a7cb32d5f49a"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10289,
+            "stars": 10290,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-22T05:14:26Z",
