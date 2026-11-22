@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T16:14:37.590335Z",
+  "generated_at": "2026-11-22T16:19:55.529566Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1583,
+            "stars": 1584,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-18T23:11:58Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1655,
+            "stars": 1656,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T16:13:13Z",
+            "pushed_at": "2026-11-22T16:17:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a42d01e",
+                  "message": "minidlna: fix missing namespace in Samsung device description",
+                  "author": "Jakub Skoczen",
+                  "date": "2026-11-22T16:17:16Z",
+                  "url": "https://github.com/openwrt/packages/commit/a42d01eebb2dc8202e605ad688ac77f867dc0486"
+                },
+                {
+                  "sha": "90e13dc",
+                  "message": "ieee8021xclient: add outer EAP method option",
+                  "author": "Zhao Kunyu",
+                  "date": "2026-11-22T16:15:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/90e13dc38b7a5bb32d9f89ac9ef28db0c319e122"
+                },
+                {
+                  "sha": "8995b6e",
+                  "message": "ieee8021xclient: fix teardown device argument",
+                  "author": "Zhao Kunyu",
+                  "date": "2026-11-22T16:15:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/8995b6ed71393ef6bda1bf2ffd37d6c8b98f3a04"
+                },
+                {
+                  "sha": "0256470",
+                  "message": "ieee8021xclient: fix supplicant config ownership",
+                  "author": "Zhao Kunyu",
+                  "date": "2026-11-22T16:15:55Z",
+                  "url": "https://github.com/openwrt/packages/commit/0256470925d19337ea82be93389b1439a6186a9a"
+                },
+                {
                   "sha": "31d7ea7",
                   "message": "libwebsockets: update to 5.1.0",
                   "author": "Anari Jalakas",
@@ -2025,34 +2053,6 @@
                   "author": "David Härdeman",
                   "date": "2026-11-21T15:55:37Z",
                   "url": "https://github.com/openwrt/packages/commit/0391ef8fdf34bd7bdc73e80dcf2218cdc3f0d166"
-                },
-                {
-                  "sha": "1e97a06",
-                  "message": "kea: allow kea-dhcp4-helper with bind-server-gssapi",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/1e97a06d78f2ee57d9f41cfeadea0a3a7f1515fc"
-                },
-                {
-                  "sha": "b27a4bc",
-                  "message": "kea: use two-space indentation in package definitions",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/b27a4bcd70b4fe467c63a4c7d74e0927e9ac8294"
-                },
-                {
-                  "sha": "a156d64",
-                  "message": "bind: change GSSAPI from a config option to a BUILD_VARIANT",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/a156d64274cc866c3d88ede2a21850a543355588"
-                },
-                {
-                  "sha": "5490aa1",
-                  "message": "bind: shorten and harmonise pkg titles",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/5490aa1c62b75a6aa66c0ba5d051cabd4a595148"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17147,
+            "stars": 17148,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78035,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-22T16:12:03Z",
+            "pushed_at": "2026-11-22T16:14:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "881dd0b",
-            "branch": "use-sdk-inline-secure-values",
-            "date": "2026-11-21T12:34:25Z",
-            "url": "https://github.com/grafana/grafana/commit/881dd0bf297df1a5703d9a31d47190cc49b6a165"
+            "sha": "bc79292",
+            "branch": "main",
+            "date": "2026-11-20T12:33:19Z",
+            "url": "https://github.com/grafana/grafana/commit/bc792922e9ddeeae4f31adc3966bff6f9b3764dd"
           }
         },
         {
