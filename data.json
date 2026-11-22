@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T08:33:37.438627Z",
+  "generated_at": "2026-11-22T08:38:55.001243Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T06:38:03Z",
+            "pushed_at": "2026-11-22T08:36:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "0888b71",
+                  "message": "hev-socks5-tproxy: update to 2.14.0",
+                  "author": "Ray Wang",
+                  "date": "2026-11-22T08:36:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/0888b71b9e322b9cc2b4b1c86b5ffe2471e55dc0"
+                },
+                {
+                  "sha": "14c43eb",
+                  "message": "telldus-core: fix memory leak in wideToString",
+                  "author": "Peter Liedholm",
+                  "date": "2026-11-22T08:34:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/14c43eb3daccead25586ac6f87ae0df7236ab422"
+                },
+                {
+                  "sha": "6b292b5",
+                  "message": "telldus-mqtt: update to 0.5",
+                  "author": "Peter Liedholm",
+                  "date": "2026-11-22T08:34:49Z",
+                  "url": "https://github.com/openwrt/packages/commit/6b292b51f7b500b7b358b424e68af10fcf022341"
+                },
+                {
                   "sha": "f38d555",
                   "message": "vzlogger: update to 0.8.10",
                   "author": "Andy Voigt",
@@ -2032,27 +2053,6 @@
                   "author": "Rosen Penev",
                   "date": "2026-11-21T10:17:57Z",
                   "url": "https://github.com/openwrt/packages/commit/294989fc707663d003e77a71d276a7a182f05ba3"
-                },
-                {
-                  "sha": "6bec81f",
-                  "message": "python-protobuf: drop unused dependencies",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T10:15:39Z",
-                  "url": "https://github.com/openwrt/packages/commit/6bec81f1cf16b0856e8d32c99e424e14a5f41c41"
-                },
-                {
-                  "sha": "0704697",
-                  "message": "bind: use libtool fixup",
-                  "author": "John Audia",
-                  "date": "2026-11-21T10:15:03Z",
-                  "url": "https://github.com/openwrt/packages/commit/0704697f7d1ae2ced16602057909cc48e48b60f5"
-                },
-                {
-                  "sha": "c3559c2",
-                  "message": "syslog-ng: use CMake instead of autotools",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T10:14:10Z",
-                  "url": "https://github.com/openwrt/packages/commit/c3559c255862263b75dc55bbb8c612bcb66400f3"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16944,
+            "stars": 16946,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5311,7 +5311,7 @@
             "stars": 81580,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T00:14:41Z",
+            "pushed_at": "2026-11-22T08:33:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
