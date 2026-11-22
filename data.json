@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:44:49.632709Z",
+  "generated_at": "2026-11-22T07:51:13.881076Z",
   "groups": [
     {
       "id": "cores",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 16916,
+            "stars": 16920,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5039,12 +5039,21 @@
             "stars": 94754,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T07:39:45Z",
+            "pushed_at": "2026-11-22T07:50:56Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "3.0.0-beta.2",
+              "tag": "3.0.0-beta.2",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/3.0.0-beta.2",
+              "published_at": "2026-11-22T07:50:57Z",
+              "prerelease": true,
+              "author": "louislam",
+              "body": "### 🐞 Bug Fixes\r\n- #8216 fix: disable multiple same params in api \r\n- #8214 fix: better-auth issues \r\n- #8213 fix(settings): use the server's 365-day default for keepDataPeriodDays (Thanks @auwardak)\r\n- #8206 fix: better-auth issue on MySQL with lower_case_table_names=1 \r\n\r\n### ⬆️ Security Fixes\r\n- #8215 chore: Update dependencies \r\n\r\n### 🦎 Translation Contributions\r\n- #8219 feat: add Catalan (ca) language to language list (Thanks @anbecodes)\r\n\r\n"
+            },
             {
               "name": "3.0.0-beta.1",
               "tag": "3.0.0-beta.1",
@@ -5080,15 +5089,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### 🐞 Bug Fixes\r\n\r\n- #8138 fix: reset password for embedded MariaDB \r\n\r\n### ⬆️ Security Fixes\r\n\r\n- [Docker] Update Node.js to 22.23.5 - Upstream high severity issues could possibly affect Uptime Kuma (Read more: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases)\r\n\r\nPS: For non-Docker, you should update your Node.js to the patched version too."
-            },
-            {
-              "name": "2.5.9",
-              "tag": "2.5.9",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.9",
-              "published_at": "2026-10-31T16:03:58Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "\r\n### 🐞 Bug Fixes\r\n\r\n- #8082 fix: runtime timeout fallback used milliseconds for a seconds field \r\n- #8081 fix: reset push monitor retries from the last stored heartbeat \r\n- #8079 fix: remove duplicated refresh timer on status page \r\n- #8064 fix: display recurring maintenance in its configured timezone (Thanks @kuxiaowo)\r\n\r\n### ⬆️ Security Fixes\r\n\r\n- GHSA-86ch-2247-gr56 fix: RSS cache poisoning (Thanks @the-arma-of-owl)\r\n- #8080 chore: drop outdated apicache, migrate to http-cache-semantics (related to the above issue)\r\n- #8050 chore: Update dependencies \r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27543,
+            "stars": 27544,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-22T02:11:48Z",
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81578,
+            "stars": 81580,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-22T00:14:41Z",
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18161,
+            "stars": 18162,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-21T21:08:14Z",
