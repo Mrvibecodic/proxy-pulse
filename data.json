@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T00:46:30.082674Z",
+  "generated_at": "2026-11-23T00:51:47.424800Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-22T21:26:29Z",
+            "pushed_at": "2026-11-23T00:50:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "66a981f",
+                  "message": "cache-domains: add missing CONFLICTS between variants",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-23T00:50:41Z",
+                  "url": "https://github.com/openwrt/packages/commit/66a981f1bf84a493673499c6cd5ce680849c487f"
+                },
+                {
                   "sha": "a91d742",
                   "message": "adblock: release 4.5.10-1",
                   "author": "Dirk Brenken",
@@ -2046,13 +2053,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-11-21T16:08:00Z",
                   "url": "https://github.com/openwrt/packages/commit/04234427747116b19e2bafc7e78470da22382637"
-                },
-                {
-                  "sha": "41aa460",
-                  "message": "bind: add bind-client to bind-tools",
-                  "author": "David Härdeman",
-                  "date": "2026-11-21T15:55:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/41aa46090a29ba74532b2fd3a220f964cf9f4a9a"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17299,
+            "stars": 17300,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10301,
+            "stars": 10303,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-23T00:12:14Z",
