@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T13:01:21.883902Z",
+  "generated_at": "2026-11-23T13:06:41.934550Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36017,
+            "stars": 36018,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-20T00:50:05Z",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17550,
+            "stars": 17552,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-11-23T13:01:06Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.7.6\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.6).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.7.6\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP when hotspot rewrites the mark.\r\n- Pin SSCLASH_LATE last after NDMS rebuilds, re-enter CLASH after hotspot save-mark, and repair missing TPROXY policy rules so DHCP WAN keeps UDP on Mihomo.\r\n\r\nfix(selfupdate): chmod the download before Replace verifies it.\r\n- CreateTemp leaves ssclash-download-* at 0600; low-disk Replace ran verify on that path and failed with permission denied on OpenWrt.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.7.5",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "bfb191c",
-            "branch": "alexk/generic-stars",
-            "date": "2026-11-23T12:25:58Z",
-            "url": "https://github.com/grafana/grafana/commit/bfb191c00a5058376cf5f6b6ebd6629749a8d82f"
+            "sha": "7fbddd4",
+            "branch": "tiehm/dashtemplates-global-sear-05b80d8e",
+            "date": "2026-11-23T10:48:14Z",
+            "url": "https://github.com/grafana/grafana/commit/7fbddd49e12638c60cf7d954c95cb8fa7f98bacb"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67762,
+            "stars": 67763,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-23T12:57:08Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "25e845c",
-            "branch": "cluster",
-            "date": "2026-11-20T14:03:23Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/25e845c90dcf8cc57cb9d9d71af3494ac804c078"
+            "sha": "a8eaab6",
+            "branch": "master",
+            "date": "2026-11-23T12:40:12Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/a8eaab64c9b9141b143a0b490ff355313a4e8132"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10328,
+            "stars": 10330,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-23T05:20:49Z",
