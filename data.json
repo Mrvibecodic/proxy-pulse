@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:17:03.045396Z",
+  "generated_at": "2026-11-23T21:22:26.441487Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1678,
+            "stars": 1679,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29327,
+            "stars": 29328,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-23T19:31:04Z",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-23T19:45:30Z",
+            "pushed_at": "2026-11-23T21:20:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "45ad85c",
+                  "message": "libmraa: fix Python bindings with SWIG 4.5",
+                  "author": "Hauke Mehrtens",
+                  "date": "2026-11-23T21:20:00Z",
+                  "url": "https://github.com/openwrt/packages/commit/45ad85cbfa9106e23c07ae7a86e3507ccd113b47"
+                },
+                {
                   "sha": "d171bd4",
                   "message": "dnscrypt-proxy2: update to 2.1.21",
                   "author": "Paul Lipps",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-21T22:44:15Z",
                   "url": "https://github.com/openwrt/packages/commit/de4704ade69f9054868f4939410c398fcd154f73"
-                },
-                {
-                  "sha": "037a218",
-                  "message": "rtty: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T22:44:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/037a218595deffda89b546b02ca87badc7565d42"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94795,
+            "stars": 94796,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-23T15:50:49Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78071,
+            "stars": 78072,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-23T21:14:36Z",
+            "pushed_at": "2026-11-23T21:22:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "515879c",
-            "branch": "main",
-            "date": "2026-11-23T16:26:21Z",
-            "url": "https://github.com/grafana/grafana/commit/515879c7798c3ff27e4cd798064a4470b654d1fd"
+            "sha": "d83b6b7",
+            "branch": "cursor/connection-controller-provider-47e5",
+            "date": "2026-11-23T13:56:16Z",
+            "url": "https://github.com/grafana/grafana/commit/d83b6b76b7249dd51be83e42bb2132662d2fbe1b"
           }
         },
         {
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "9f0cc01",
-            "branch": "main",
-            "date": "2026-11-23T13:41:02Z",
-            "url": "https://github.com/grafana/loki/commit/9f0cc01c52f622f0a2dd418d8bc8962c673725e0"
+            "sha": "16ec3e6",
+            "branch": "backport-26459-to-release-3.7.x",
+            "date": "2026-11-23T15:05:38Z",
+            "url": "https://github.com/grafana/loki/commit/16ec3e6c89fde4547a0b3d16a0f5c00de974b5c5"
           }
         }
       ]
