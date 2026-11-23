@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T19:40:34.779069Z",
+  "generated_at": "2026-11-23T19:45:55.677335Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 43108,
+            "stars": 43109,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-23T18:17:56Z",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40230,
+            "stars": 40231,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-19T02:28:27Z",
@@ -774,7 +774,7 @@
             "stars": 420,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "dev_21",
-            "pushed_at": "2026-11-20T07:38:16Z",
+            "pushed_at": "2026-11-23T19:43:42Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/29365829?v=4",
             "owner": "legiz-ru"
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-23T11:52:51Z",
+            "pushed_at": "2026-11-23T19:45:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "d171bd4",
+                  "message": "dnscrypt-proxy2: update to 2.1.21",
+                  "author": "Paul Lipps",
+                  "date": "2026-11-23T19:45:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/d171bd420c67f42941c9e29f9fe86dd73373889d"
+                },
+                {
+                  "sha": "7b278a1",
+                  "message": "luajit2: fix the build on riscv64",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-23T19:44:27Z",
+                  "url": "https://github.com/openwrt/packages/commit/7b278a1a9e81cf8b5967b363e5befb0357024011"
+                },
+                {
                   "sha": "86d116d",
                   "message": "strongswan: don't return early for legacy UCI config",
                   "author": "Florian Eckert",
@@ -2039,20 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-21T22:44:06Z",
                   "url": "https://github.com/openwrt/packages/commit/037a218595deffda89b546b02ca87badc7565d42"
-                },
-                {
-                  "sha": "87b3fde",
-                  "message": "softethervpn: conflict with softethervpn5",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T22:43:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/87b3fde600f83042c2db0c6122337f98048db6fc"
-                },
-                {
-                  "sha": "fa4aa50",
-                  "message": "bind: bump to 9.20.31",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-11-21T19:18:43Z",
-                  "url": "https://github.com/openwrt/packages/commit/fa4aa509027f626e45a0c19c153e049baf6da9a3"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17598,
+            "stars": 17600,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78051,
+            "stars": 78053,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-23T19:37:42Z",
+            "pushed_at": "2026-11-23T19:45:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67765,
+            "stars": 67767,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-23T16:59:01Z",
