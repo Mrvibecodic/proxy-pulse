@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:50:49.925088Z",
+  "generated_at": "2026-11-23T11:56:10.586392Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-23T00:50:41Z",
+            "pushed_at": "2026-11-23T11:52:51Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,20 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "86d116d",
+                  "message": "strongswan: don't return early for legacy UCI config",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-23T11:52:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/86d116d02892e63d1893ba91833eecd500ff7224"
+                },
+                {
+                  "sha": "897e373",
+                  "message": "strongswan: skip ipsec migration if no ipsec section exists",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-23T11:52:50Z",
+                  "url": "https://github.com/openwrt/packages/commit/897e373ea930c26d30e04e2dc00a41651f797a6e"
+                },
+                {
                   "sha": "66a981f",
                   "message": "cache-domains: add missing CONFLICTS between variants",
                   "author": "Josef Schlehofer",
@@ -2039,20 +2053,6 @@
                   "author": "Noah Meyerhans",
                   "date": "2026-11-21T19:18:43Z",
                   "url": "https://github.com/openwrt/packages/commit/fa4aa509027f626e45a0c19c153e049baf6da9a3"
-                },
-                {
-                  "sha": "4703b1c",
-                  "message": "squeezelite: select libffmpeg from WMA/ALAC option",
-                  "author": "Andy Chiang",
-                  "date": "2026-11-21T16:11:33Z",
-                  "url": "https://github.com/openwrt/packages/commit/4703b1c6996fbc5dd5a61e66d4931c7710113b40"
-                },
-                {
-                  "sha": "0423442",
-                  "message": "bind: bump PKG_RELEASE",
-                  "author": "Noah Meyerhans",
-                  "date": "2026-11-21T16:08:00Z",
-                  "url": "https://github.com/openwrt/packages/commit/04234427747116b19e2bafc7e78470da22382637"
                 }
               ]
             },
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17532,
+            "stars": 17534,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5175,7 +5175,7 @@
             "stars": 78049,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-23T11:49:55Z",
+            "pushed_at": "2026-11-23T11:56:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5243,7 +5243,7 @@
             "stars": 67764,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
-            "pushed_at": "2026-11-23T09:22:23Z",
+            "pushed_at": "2026-11-23T11:56:17Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
             "owner": "prometheus"
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81605,
+            "stars": 81606,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-23T10:35:19Z",
