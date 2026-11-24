@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:50:33.902943Z",
+  "generated_at": "2026-11-24T15:55:57.678225Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36054,
+            "stars": 36055,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-24T13:33:17Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T15:50:10Z",
+            "pushed_at": "2026-11-24T15:52:41Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "2658a63",
+                  "message": "python-boto3: bump to 1.44.10",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:52:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/2658a632b0d57c669c86c44f1c0fd8533c40a905"
+                },
+                {
+                  "sha": "d626134",
+                  "message": "python-botocore: bump to 1.44.10",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:52:23Z",
+                  "url": "https://github.com/openwrt/packages/commit/d626134115ae9fc71781e5a5d5ff1161cf5088ad"
+                },
+                {
+                  "sha": "f661fd0",
+                  "message": "python-eventlet: bump to 0.41.3",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:52:05Z",
+                  "url": "https://github.com/openwrt/packages/commit/f661fd08ab36b5efac7a767e750cc40cf6049328"
+                },
+                {
+                  "sha": "873a89b",
+                  "message": "opennds: update to 11.2.0",
+                  "author": "Rob White",
+                  "date": "2026-11-24T15:51:35Z",
+                  "url": "https://github.com/openwrt/packages/commit/873a89bcbb24305619190adfc84e01081b20c204"
+                },
+                {
                   "sha": "99260bc",
                   "message": "python-charset-normalizer: bump to 3.5.3",
                   "author": "Roberto Andrei Bolda",
@@ -2025,34 +2053,6 @@
                   "author": "Zhao Kunyu",
                   "date": "2026-11-22T16:15:55Z",
                   "url": "https://github.com/openwrt/packages/commit/8995b6ed71393ef6bda1bf2ffd37d6c8b98f3a04"
-                },
-                {
-                  "sha": "0256470",
-                  "message": "ieee8021xclient: fix supplicant config ownership",
-                  "author": "Zhao Kunyu",
-                  "date": "2026-11-22T16:15:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/0256470925d19337ea82be93389b1439a6186a9a"
-                },
-                {
-                  "sha": "31d7ea7",
-                  "message": "libwebsockets: update to 5.1.0",
-                  "author": "Anari Jalakas",
-                  "date": "2026-11-22T16:13:13Z",
-                  "url": "https://github.com/openwrt/packages/commit/31d7ea779934e4baf0ad2b5cdcf7ca93a1dec5e0"
-                },
-                {
-                  "sha": "0a60a73",
-                  "message": "ripe-atlas: report interface traffic of anchors by default",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-22T16:08:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/0a60a737b3e373df9329de94c48c3cc61a8dc053"
-                },
-                {
-                  "sha": "62e2e51",
-                  "message": "minizip: fix cross-build with zlib",
-                  "author": "Hauke Mehrtens",
-                  "date": "2026-11-22T16:07:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/62e2e51b60e115c3efaddaae56ee9f722a1d96c7"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94828,
+            "stars": 94829,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-24T12:22:40Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27593,
+            "stars": 27594,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-23T20:37:35Z",
@@ -5175,7 +5175,7 @@
             "stars": 78083,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T15:49:58Z",
+            "pushed_at": "2026-11-24T15:55:59Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67789,
+            "stars": 67788,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-24T15:26:04Z",
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1812b26",
+            "sha": "0f5fd98",
             "branch": "master",
-            "date": "2026-11-24T00:13:12Z",
-            "url": "https://github.com/netdata/netdata/commit/1812b265cb3a277d050ab7f2c2ba37859ecf56a7"
+            "date": "2026-11-23T07:58:32Z",
+            "url": "https://github.com/netdata/netdata/commit/0f5fd98d63f404dd7a8b7a8c95b9b7c3fcd86e68"
           }
         },
         {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29237,
+            "stars": 29238,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-24T15:35:45Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10379,
+            "stars": 10381,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-24T13:00:19Z",
