@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:43:42.653237Z",
+  "generated_at": "2026-11-24T17:49:08.933398Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8039,
+            "stars": 8041,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-24T12:52:41Z",
@@ -4135,7 +4135,7 @@
           "track": "releases",
           "meta": {
             "description": "DPI bypass multi platform",
-            "stars": 17621,
+            "stars": 17623,
             "url": "https://github.com/bol-van/zapret",
             "default_branch": "master",
             "pushed_at": "2026-11-13T13:15:23Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27595,
+            "stars": 27596,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-23T20:37:35Z",
@@ -5175,12 +5175,30 @@
             "stars": 78098,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T17:43:26Z",
+            "pushed_at": "2026-11-24T17:49:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.1.11",
+              "tag": "v13.1.11",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.11",
+              "published_at": "2026-11-24T17:48:19Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.1.11)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88943\n- Security: Fix CVE-2026-88960"
+            },
+            {
+              "name": "12.4.16",
+              "tag": "v12.4.16",
+              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.16",
+              "published_at": "2026-11-24T17:47:31Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/12.4.16)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88943\n- Security: Fix CVE-2026-88960\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88943\n- Security: Fix CVE-2026-88960"
+            },
             {
               "name": "13.3.1",
               "tag": "v13.3.1",
@@ -5207,31 +5225,13 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.1.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n### Features and enhancements\n\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137090](https://github.com/grafana/grafana/pull/137090), [@MissingRoberto](https://github.com/MissingRoberto)"
-            },
-            {
-              "name": "13.0.13",
-              "tag": "v13.0.13",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.0.13",
-              "published_at": "2026-11-10T21:22:14Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.0.13)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n- Security: Fix CVE-2026-82014\n\n### Features and enhancements\n\n- **DateTime:** Bump moment-timezone to 0.6.6 for 2026 time zone changes [#136948](https://github.com/grafana/grafana/pull/136948), [@joshhunt](https://github.com/joshhunt)\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137092](https://github.com/grafana/grafana/pull/137092), [@MissingRoberto](https://github.com/MissingRoberto)"
-            },
-            {
-              "name": "12.4.15",
-              "tag": "v12.4.15",
-              "url": "https://github.com/grafana/grafana/releases/tag/v12.4.15",
-              "published_at": "2026-11-10T20:47:14Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/12.4.15)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-106472\n- Security: Fix CVE-2026-106475\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-111000\n- Security: Fix CVE-2026-81843\n- Security: Fix CVE-2026-82014\n\n### Features and enhancements\n\n- **DateTime:** Bump moment-timezone to 0.6.6 for 2026 time zone changes [#136947](https://github.com/grafana/grafana/pull/136947), [@joshhunt](https://github.com/joshhunt)"
             }
           ],
           "last_commit": {
-            "sha": "f97f69c",
-            "branch": "live-ws-route",
-            "date": "2026-11-23T07:54:10Z",
-            "url": "https://github.com/grafana/grafana/commit/f97f69c3c04142c053657e9d903a6e8b79a1aeb4"
+            "sha": "12cf4f0",
+            "branch": "cursor/connection-controller-provider-47e5",
+            "date": "2026-11-23T09:14:05Z",
+            "url": "https://github.com/grafana/grafana/commit/12cf4f0244d73b32d4414c4750ba2c6f02d0b40e"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29239,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T17:18:20Z",
+            "pushed_at": "2026-11-24T17:47:57Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5871,7 +5871,7 @@
             "stars": 10385,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T17:26:12Z",
+            "pushed_at": "2026-11-24T17:45:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
