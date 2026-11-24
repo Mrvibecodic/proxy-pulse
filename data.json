@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:44:31.045406Z",
+  "generated_at": "2026-11-24T16:49:56.742867Z",
   "groups": [
     {
       "id": "cores",
@@ -293,7 +293,7 @@
           "track": "releases",
           "meta": {
             "description": "A powerful proxy management tool, built on top of Xray-core, with a focus on simplicity and ease of use.",
-            "stars": 5396,
+            "stars": 5397,
             "url": "https://github.com/remnawave/panel",
             "default_branch": "main",
             "pushed_at": "2026-11-19T03:59:59Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T16:43:58Z",
+            "pushed_at": "2026-11-24T16:48:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "a831d8d",
+                  "message": "unbound: seed the odhcpd DHCP records when starting",
+                  "author": "David Härdeman",
+                  "date": "2026-11-24T16:48:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/a831d8d08229e2ab2258c9c8a5eee196c98e6423"
+                },
+                {
+                  "sha": "4063bd1",
+                  "message": "unbound: get odhcpd leases via ubus",
+                  "author": "David Härdeman",
+                  "date": "2026-11-24T16:48:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/4063bd145edb7e4876545718fbc1325a115f372d"
+                },
+                {
+                  "sha": "4d48c8e",
+                  "message": "coreutils: update to 9.12",
+                  "author": "Ivan Pavlov",
+                  "date": "2026-11-24T16:46:40Z",
+                  "url": "https://github.com/openwrt/packages/commit/4d48c8e19adf5a53b26092a62554eb40ad3ac09a"
+                },
+                {
                   "sha": "e277cce",
                   "message": "libpfring: fix compilation by removing deprecated patch",
                   "author": "Hannu Nyman",
@@ -2032,27 +2053,6 @@
                   "author": "Florian Eckert",
                   "date": "2026-11-23T11:52:50Z",
                   "url": "https://github.com/openwrt/packages/commit/897e373ea930c26d30e04e2dc00a41651f797a6e"
-                },
-                {
-                  "sha": "66a981f",
-                  "message": "cache-domains: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-23T00:50:41Z",
-                  "url": "https://github.com/openwrt/packages/commit/66a981f1bf84a493673499c6cd5ce680849c487f"
-                },
-                {
-                  "sha": "a91d742",
-                  "message": "adblock: release 4.5.10-1",
-                  "author": "Dirk Brenken",
-                  "date": "2026-11-22T19:06:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/a91d742a1cd291d52f6000e645840a8997a8acfc"
-                },
-                {
-                  "sha": "a42d01e",
-                  "message": "minidlna: fix missing namespace in Samsung device description",
-                  "author": "Jakub Skoczen",
-                  "date": "2026-11-22T16:17:16Z",
-                  "url": "https://github.com/openwrt/packages/commit/a42d01eebb2dc8202e605ad688ac77f867dc0486"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78085,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T16:43:00Z",
+            "pushed_at": "2026-11-24T16:48:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "f414b6b",
-            "branch": "cursor/provisioning-generated-types-77e9",
-            "date": "2026-11-24T14:22:46Z",
-            "url": "https://github.com/grafana/grafana/commit/f414b6bc0fc520bf1e1e597349a8804f8e9b7ac8"
+            "sha": "9f170d2",
+            "branch": "MissingRoberto/save-provisioned-resource-drawer",
+            "date": "2026-11-23T15:38:47Z",
+            "url": "https://github.com/grafana/grafana/commit/9f170d265f2ccae2e5bb4c62fbb02910c53f70a1"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67788,
+            "stars": 67789,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-24T15:26:04Z",
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "a5022ef",
+            "sha": "ad8f26e",
             "branch": "main",
-            "date": "2026-11-23T16:59:03Z",
-            "url": "https://github.com/prometheus/prometheus/commit/a5022ef622b4718c3dda1291c1e641fbed44c607"
+            "date": "2026-11-24T12:38:21Z",
+            "url": "https://github.com/prometheus/prometheus/commit/ad8f26eed18a6aabfd9729bb281c6a3e53beabe9"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29238,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T16:42:27Z",
+            "pushed_at": "2026-11-24T16:47:30Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
