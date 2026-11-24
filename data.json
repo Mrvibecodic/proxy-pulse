@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:49:08.933398Z",
+  "generated_at": "2026-11-24T17:54:29.749443Z",
   "groups": [
     {
       "id": "cores",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27596,
+            "stars": 27597,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-23T20:37:35Z",
@@ -5172,15 +5172,24 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78098,
+            "stars": 78099,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T17:49:05Z",
+            "pushed_at": "2026-11-24T17:51:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "13.2.7",
+              "tag": "v13.2.7",
+              "url": "https://github.com/grafana/grafana/releases/tag/v13.2.7",
+              "published_at": "2026-11-24T17:50:09Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "[Download page](https://grafana.com/grafana/download/13.2.7)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-107561\n- Security: Fix CVE-2026-88943\n- Security: Fix CVE-2026-88960"
+            },
             {
               "name": "13.1.11",
               "tag": "v13.1.11",
@@ -5216,15 +5225,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "[Download page](https://grafana.com/grafana/download/13.2.6)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n### Features and enhancements\n\n- **DateTime:** Update moment-timezone and easy-tz for 2026 time zone changes [#136950](https://github.com/grafana/grafana/pull/136950), [@joshhunt](https://github.com/joshhunt)\n- **Provisioning:** Handle repository build timeouts and branch outages [#135723](https://github.com/grafana/grafana/pull/135723), [@ferruvich](https://github.com/ferruvich)\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137091](https://github.com/grafana/grafana/pull/137091), [@MissingRoberto](https://github.com/MissingRoberto)\n\n### Bug fixes\n\n- **Unified search:** Fix empty results when all query words are under 3 chars [#137309](https://github.com/grafana/grafana/pull/137309), [@grafana-writer[bot]](https://github.com/grafana-writer[bot])"
-            },
-            {
-              "name": "13.1.10",
-              "tag": "v13.1.10",
-              "url": "https://github.com/grafana/grafana/releases/tag/v13.1.10",
-              "published_at": "2026-11-10T21:26:38Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "[Download page](https://grafana.com/grafana/download/13.1.10)\n[What's new highlights](https://grafana.com/docs/grafana/latest/whatsnew/)\n\n### Security\n\n- Security: Fix CVE-2026-102589\n- Security: Fix CVE-2026-107365\n- Security: Fix CVE-2026-107509\n- Security: Fix CVE-2026-110992\n- Security: Fix CVE-2026-111024\n- Security: Fix CVE-2026-13721\n- Security: Fix CVE-2026-14242\n\n### Features and enhancements\n\n- **Provisioning:** allow same-host URL change on connection-backed repositories [#137090](https://github.com/grafana/grafana/pull/137090), [@MissingRoberto](https://github.com/MissingRoberto)"
             }
           ],
           "last_commit": {
