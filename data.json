@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T16:39:01.463749Z",
+  "generated_at": "2026-11-24T16:44:31.045406Z",
   "groups": [
     {
       "id": "cores",
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29339,
+            "stars": 29340,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-24T13:21:57Z",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T16:14:39Z",
+            "pushed_at": "2026-11-24T16:43:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "e277cce",
+                  "message": "libpfring: fix compilation by removing deprecated patch",
+                  "author": "Hannu Nyman",
+                  "date": "2026-11-24T16:39:04Z",
+                  "url": "https://github.com/openwrt/packages/commit/e277ccea8ce381862421cf006c6d5e02c5600ac4"
+                },
+                {
                   "sha": "d736154",
                   "message": "telegraf: update to 1.40.4",
                   "author": "Niklas Thorild",
@@ -2046,13 +2053,6 @@
                   "author": "Jakub Skoczen",
                   "date": "2026-11-22T16:17:16Z",
                   "url": "https://github.com/openwrt/packages/commit/a42d01eebb2dc8202e605ad688ac77f867dc0486"
-                },
-                {
-                  "sha": "90e13dc",
-                  "message": "ieee8021xclient: add outer EAP method option",
-                  "author": "Zhao Kunyu",
-                  "date": "2026-11-22T16:15:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/90e13dc38b7a5bb32d9f89ac9ef28db0c319e122"
                 }
               ]
             },
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78084,
+            "stars": 78085,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T16:37:28Z",
+            "pushed_at": "2026-11-24T16:43:00Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "335df92",
-            "branch": "main",
-            "date": "2026-11-23T15:28:36Z",
-            "url": "https://github.com/grafana/grafana/commit/335df92a750322aa6ea4f0491fc46bf6e336ecd9"
+            "sha": "f414b6b",
+            "branch": "cursor/provisioning-generated-types-77e9",
+            "date": "2026-11-24T14:22:46Z",
+            "url": "https://github.com/grafana/grafana/commit/f414b6bc0fc520bf1e1e597349a8804f8e9b7ac8"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18182,
+            "stars": 18183,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-24T15:56:53Z",
@@ -5447,7 +5447,7 @@
             "stars": 29238,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T16:33:21Z",
+            "pushed_at": "2026-11-24T16:42:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
