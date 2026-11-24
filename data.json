@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:40:27.886576Z",
+  "generated_at": "2026-11-24T14:45:49.193848Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T10:24:08Z",
+            "pushed_at": "2026-11-24T14:45:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c454ac1",
+                  "message": "strongswan: fix swanctl restart without /var/ipsec",
+                  "author": "Alexander Wilhelm",
+                  "date": "2026-11-24T14:45:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/c454ac15bdfc7050deae012eb20fadbf005b6b37"
+                },
+                {
                   "sha": "f35b710",
                   "message": "zerotier: build without MIPS16",
                   "author": "Kirpal Singh",
@@ -2046,13 +2053,6 @@
                   "author": "Ray Wang",
                   "date": "2026-11-22T08:36:29Z",
                   "url": "https://github.com/openwrt/packages/commit/0888b71b9e322b9cc2b4b1c86b5ffe2471e55dc0"
-                },
-                {
-                  "sha": "14c43eb",
-                  "message": "telldus-core: fix memory leak in wideToString",
-                  "author": "Peter Liedholm",
-                  "date": "2026-11-22T08:34:49Z",
-                  "url": "https://github.com/openwrt/packages/commit/14c43eb3daccead25586ac6f87ae0df7236ab422"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78083,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T14:40:30Z",
+            "pushed_at": "2026-11-24T14:44:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "0095eb2",
-            "branch": "cursor/provisioning-reshape-job",
-            "date": "2026-11-24T07:37:36Z",
-            "url": "https://github.com/grafana/grafana/commit/0095eb25ce9431ae58239270dbc3d7dcf978f7b0"
+            "sha": "aa211ca",
+            "branch": "backport-138617-to-release-13.3.2",
+            "date": "2026-11-24T08:29:04Z",
+            "url": "https://github.com/grafana/grafana/commit/aa211ca60374b5a7e6e4c262dda9bae57036b993"
           }
         },
         {
