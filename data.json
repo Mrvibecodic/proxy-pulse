@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T15:45:05.578954Z",
+  "generated_at": "2026-11-24T15:50:33.902943Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 43126,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T13:41:01Z",
+            "pushed_at": "2026-11-24T15:49:39Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -69,10 +69,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6aa7781",
-            "branch": "dependabot/go_modules/lukechampine.com/blake3-1.5.1",
-            "date": "2026-11-24T01:39:15Z",
-            "url": "https://github.com/XTLS/Xray-core/commit/6aa778131923c68005b6909131b3f8f66d007903"
+            "sha": "4dac768",
+            "branch": "main",
+            "date": "2026-11-24T01:43:05Z",
+            "url": "https://github.com/XTLS/Xray-core/commit/4dac7685677e6ed9dfb651c1af262b8f450bebd2"
           }
         },
         {
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T14:45:36Z",
+            "pushed_at": "2026-11-24T15:50:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,34 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "99260bc",
+                  "message": "python-charset-normalizer: bump to 3.5.3",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:50:36Z",
+                  "url": "https://github.com/openwrt/packages/commit/99260bce5b97574114188b33b955af303b78c092"
+                },
+                {
+                  "sha": "cf12274",
+                  "message": "python-s3transfer: bump to 0.19.3",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:50:10Z",
+                  "url": "https://github.com/openwrt/packages/commit/cf122747d075b3fd163c0d3403e2437c1589e735"
+                },
+                {
+                  "sha": "7fa0489",
+                  "message": "python-pika: remove package",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T15:49:22Z",
+                  "url": "https://github.com/openwrt/packages/commit/7fa0489a7bf8008e9bbb0d795f9219f5e48cde48"
+                },
+                {
+                  "sha": "c247fc1",
+                  "message": "zstd: update to 1.6.0",
+                  "author": "John Audia",
+                  "date": "2026-11-24T15:48:06Z",
+                  "url": "https://github.com/openwrt/packages/commit/c247fc1179ae7ff71ac9319cf21a225e985f8fcc"
+                },
+                {
                   "sha": "c454ac1",
                   "message": "strongswan: fix swanctl restart without /var/ipsec",
                   "author": "Alexander Wilhelm",
@@ -2025,34 +2053,6 @@
                   "author": "Hauke Mehrtens",
                   "date": "2026-11-22T16:07:37Z",
                   "url": "https://github.com/openwrt/packages/commit/62e2e51b60e115c3efaddaae56ee9f722a1d96c7"
-                },
-                {
-                  "sha": "f782954",
-                  "message": "bird3: update to 3.4.0",
-                  "author": "Alan Feng",
-                  "date": "2026-11-22T15:27:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/f7829542e6e35942a1c2af46521c790aad9545aa"
-                },
-                {
-                  "sha": "ab84c11",
-                  "message": "bird2: update to 2.20.0",
-                  "author": "Alan Feng",
-                  "date": "2026-11-22T15:27:35Z",
-                  "url": "https://github.com/openwrt/packages/commit/ab84c110eb60ec2642d45c127e7a31933202edb3"
-                },
-                {
-                  "sha": "be0dbb6",
-                  "message": "lvm2: disable liburing to fix buildbot breakage",
-                  "author": "Hannu Nyman",
-                  "date": "2026-11-22T11:01:01Z",
-                  "url": "https://github.com/openwrt/packages/commit/be0dbb6e6b09a1729b34f400a712c8d1aea2f321"
-                },
-                {
-                  "sha": "0888b71",
-                  "message": "hev-socks5-tproxy: update to 2.14.0",
-                  "author": "Ray Wang",
-                  "date": "2026-11-22T08:36:29Z",
-                  "url": "https://github.com/openwrt/packages/commit/0888b71b9e322b9cc2b4b1c86b5ffe2471e55dc0"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78083,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T15:45:13Z",
+            "pushed_at": "2026-11-24T15:49:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3411f58",
-            "branch": "cursor/provisioning-frontend-type-names-77e9",
-            "date": "2026-11-24T08:04:31Z",
-            "url": "https://github.com/grafana/grafana/commit/3411f580bd95c2d8b124626447a7b3489235380f"
+            "sha": "96ded73",
+            "branch": "alexk/stars-plugin-api",
+            "date": "2026-11-23T07:52:56Z",
+            "url": "https://github.com/grafana/grafana/commit/96ded73e0231cb9422cd0d337403774d3367b344"
           }
         },
         {
@@ -5379,7 +5379,7 @@
             "stars": 18182,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T14:48:36Z",
+            "pushed_at": "2026-11-24T15:46:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
