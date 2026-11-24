@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T11:59:37.366095Z",
+  "generated_at": "2026-11-24T12:04:57.216690Z",
   "groups": [
     {
       "id": "cores",
@@ -509,6 +509,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash clod-v0.1.16-alpha.2",
+              "tag": "clod-v0.1.16-alpha.2",
+              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.16-alpha.2",
+              "published_at": "2026-11-24T12:00:57Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\n### Изменено\n\n- У Clod Clash теперь своя фоновая служба Clod Clash Service вместо общей с Clash Verge Rev — обе программы можно держать на одном компьютере\n- На Windows и Linux новая служба ставится сама при обновлении, а прежняя общая служба удаляется; если установлен Clash Verge Rev, его служба остаётся и больше не запускает ядро Clod Clash\n- На macOS после обновления, когда понадобится TUN, программа один раз попросит пароль администратора: поставит новую службу и уберёт прежнюю\n- На macOS после обновления программы с включённым TUN пароль администратора может понадобиться ещё раз, если в программе новое ядро\n- Кнопка обновления ядра на macOS работает, только если папка программы доступна на запись, иначе ядро обновится вместе с программой\n- Убрано предупреждение о замене файла ядра: ядро под службой проверяет сама служба\n\n### Исправлено\n\n- Если ядро не ответило при запуске или остановке, программа больше не оставляет его работать без присмотра"
+            },
+            {
               "name": "Clod Clash clod-v0.1.16-alpha.1",
               "tag": "clod-v0.1.16-alpha.1",
               "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.16-alpha.1",
@@ -543,15 +552,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Исправлено\n\n- При запуске с включённым TUN трафик сразу идёт через туннель — раньше первые секунды он мог идти мимо, пока подключение не восстанавливалось само\n- На главном экране под сервером, выбранным напрямую, снова видно его описание\n- У маленьких текстовых кнопок текст не прижат к краям подсветки\n- Окно установки на macOS — со своим фоном и подсказкой на русском и английском"
-            },
-            {
-              "name": "Clod Clash clod-v0.1.15-alpha.5",
-              "tag": "clod-v0.1.15-alpha.5",
-              "url": "https://github.com/Mrvibecodic/clod-clash/releases/tag/clod-v0.1.15-alpha.5",
-              "published_at": "2026-11-11T21:01:09Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\nРЕЛИЗ ТОЛЬКО ДЛЯ ТЕСТИРОВЩИКОВ!\n\n### Исправлено\n\n- Если при включённом TUN система пускает трафик мимо туннеля, подключение восстанавливается само и в тех случаях, когда раньше приходилось выключать и включать TUN вручную"
             }
           ],
           "last_commit": {
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8039,
+            "stars": 8040,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-24T11:03:13Z",
@@ -5175,7 +5175,7 @@
             "stars": 78084,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T11:59:34Z",
+            "pushed_at": "2026-11-24T12:03:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "3d6a2a0",
-            "branch": "cursor/provisioning-connection-reshape-77e9",
-            "date": "2026-11-24T07:36:53Z",
-            "url": "https://github.com/grafana/grafana/commit/3d6a2a08e2b026e9caaa0f10be13b5793e45459b"
+            "sha": "2e28b08",
+            "branch": "live-dispatcher-observer",
+            "date": "2026-11-24T00:31:54Z",
+            "url": "https://github.com/grafana/grafana/commit/2e28b087b56dcf55bcdaeaaaf2254c4ae8b9d8b3"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29234,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T11:55:59Z",
+            "pushed_at": "2026-11-24T12:04:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
