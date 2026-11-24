@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T20:03:10.765870Z",
+  "generated_at": "2026-11-24T20:08:32.140297Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4684,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T19:15:24Z",
+            "pushed_at": "2026-11-24T20:04:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "ea11c8e",
+                  "message": "python-starlette: bump to 1.10.0",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T20:04:30Z",
+                  "url": "https://github.com/openwrt/packages/commit/ea11c8e94b573ff83d74cec14b8f9bb31aa9483f"
+                },
+                {
                   "sha": "2dd902e",
                   "message": "yt-dlp: bump to 2026.11.23",
                   "author": "George Sapkin",
@@ -2046,13 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-23T19:44:27Z",
                   "url": "https://github.com/openwrt/packages/commit/7b278a1a9e81cf8b5967b363e5befb0357024011"
-                },
-                {
-                  "sha": "86d116d",
-                  "message": "strongswan: don't return early for legacy UCI config",
-                  "author": "Florian Eckert",
-                  "date": "2026-11-23T11:52:50Z",
-                  "url": "https://github.com/openwrt/packages/commit/86d116d02892e63d1893ba91833eecd500ff7224"
                 }
               ]
             },
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78116,
+            "stars": 78117,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-24T20:02:10Z",
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67827,
+            "stars": 67829,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-24T17:41:24Z",
