@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T08:04:03.034938Z",
+  "generated_at": "2026-11-24T08:09:25.630455Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36042,
+            "stars": 36043,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-24T03:25:54Z",
@@ -1190,7 +1190,7 @@
             "stars": 4685,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-24T07:32:03Z",
+            "pushed_at": "2026-11-24T08:08:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,27 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b15b522",
+                  "message": "python-pycparser: bump to 3.12",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T08:08:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/b15b522776edcd73f42a982dd1ebde29ad1bc05b"
+                },
+                {
+                  "sha": "07cbe5d",
+                  "message": "python-idna: bump to 3.20",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T08:08:29Z",
+                  "url": "https://github.com/openwrt/packages/commit/07cbe5daa9633a1fcc3412c0688862b3b6cd79a6"
+                },
+                {
+                  "sha": "4c0f60f",
+                  "message": "scons: bump to 4.11.1",
+                  "author": "Roberto Andrei Bolda",
+                  "date": "2026-11-24T08:07:20Z",
+                  "url": "https://github.com/openwrt/packages/commit/4c0f60fa5291eb0b454d7b797ec8b7b13e9bba68"
+                },
+                {
                   "sha": "00194a8",
                   "message": "smartdns: update to version 48.5",
                   "author": "Paweł Owoc",
@@ -2032,27 +2053,6 @@
                   "author": "Josef Schlehofer",
                   "date": "2026-11-21T22:44:44Z",
                   "url": "https://github.com/openwrt/packages/commit/26ecf879d403c39d77d1d475dc4efb76dd3b815c"
-                },
-                {
-                  "sha": "972d967",
-                  "message": "nsd: add missing CONFLICTS between variants",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T22:44:32Z",
-                  "url": "https://github.com/openwrt/packages/commit/972d9674b22cee902105b4b691bb214afac181c8"
-                },
-                {
-                  "sha": "a385d1f",
-                  "message": "samba4: take the tdb tools from the tdb package",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T22:44:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/a385d1f3d43af63c96056c474731f17aef86f5a9"
-                },
-                {
-                  "sha": "c062bc7",
-                  "message": "tdb: check the version through the library name in CI",
-                  "author": "Josef Schlehofer",
-                  "date": "2026-11-21T22:44:26Z",
-                  "url": "https://github.com/openwrt/packages/commit/c062bc705c68b38e3f46cab454d1f705da0c5f2e"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94812,
+            "stars": 94813,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-24T00:04:48Z",
@@ -5175,7 +5175,7 @@
             "stars": 78083,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T08:03:56Z",
+            "pushed_at": "2026-11-24T08:08:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b9f56bf",
-            "branch": "fcai/delete-orphaned-managed-resources",
-            "date": "2026-11-24T05:19:22Z",
-            "url": "https://github.com/grafana/grafana/commit/b9f56bfce4b898ba15355b221dd46a7fdd2f3e8e"
+            "sha": "74980f9",
+            "branch": "aocenas/feservice/nav-overrides-simple",
+            "date": "2026-11-23T10:44:58Z",
+            "url": "https://github.com/grafana/grafana/commit/74980f98d6946e8f14f3e40f35a9f798c4c9dfe7"
           }
         },
         {
