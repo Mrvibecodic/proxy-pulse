@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:29:56.865603Z",
+  "generated_at": "2026-11-25T09:35:26.613794Z",
   "groups": [
     {
       "id": "cores",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-11-25T09:16:09Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.7.7\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.7).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.7.7\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP and QUIC block after NDMS rebuilds.\r\n- Re-pin CLASH at the head, clear stale ndm hook gates, require table 100 local default for repair, and insert QUIC REJECT before Keenetic ACCEPT so DHCP renews and Block QUIC keep working.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.7.6",
@@ -5175,7 +5175,7 @@
             "stars": 78142,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T09:20:04Z",
+            "pushed_at": "2026-11-25T09:31:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "cbe1f43",
-            "branch": "santihernandezc/team_deleted_callback",
-            "date": "2026-11-23T17:21:09Z",
-            "url": "https://github.com/grafana/grafana/commit/cbe1f433ca545a9a22f55d02f1d00fda4de13cfd"
+            "sha": "4e7bb37",
+            "branch": "ale/provisioning-service-identity",
+            "date": "2026-11-24T18:01:13Z",
+            "url": "https://github.com/grafana/grafana/commit/4e7bb3772614d8603fb81f17e234817fba510009"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67844,
+            "stars": 67845,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-25T09:03:07Z",
