@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T17:09:32.827787Z",
+  "generated_at": "2026-11-25T17:15:03.142364Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36091,
+            "stars": 36092,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-25T05:55:26Z",
@@ -5175,7 +5175,7 @@
             "stars": 78176,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T17:09:31Z",
+            "pushed_at": "2026-11-25T17:13:52Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8c8408f",
-            "branch": "release/475/13.3.2",
-            "date": "2026-11-24T16:26:44Z",
-            "url": "https://github.com/grafana/grafana/commit/8c8408f70b99b9dc3c51449cc3ed64fc9ef71154"
+            "sha": "8837634",
+            "branch": "main",
+            "date": "2026-11-24T16:28:54Z",
+            "url": "https://github.com/grafana/grafana/commit/88376344e2716d1ff2875a39b153fa386eee0aba"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18199,
+            "stars": 18200,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-25T15:49:33Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10459,
+            "stars": 10460,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-25T15:29:18Z",
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "ebe8662",
-            "branch": "feat/4880-shared-system-backups",
-            "date": "2026-11-24T21:47:20Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/ebe8662407a272baf213f2a500bbd406b7ba61f7"
+            "sha": "ff9d22e",
+            "branch": "main",
+            "date": "2026-11-23T22:06:55Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/ff9d22e8fcacd5e7e7c32df877de5d5065f786de"
           }
         },
         {
@@ -5939,12 +5939,21 @@
             "stars": 111,
             "url": "https://github.com/syvlech/remnawave-limiter",
             "default_branch": "master",
-            "pushed_at": "2026-11-20T16:44:15Z",
+            "pushed_at": "2026-11-25T17:13:25Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/69968834?v=4",
             "owner": "syvlech"
           },
           "releases": [
+            {
+              "name": "5.2.0: imit trial traffic on shared HWID",
+              "tag": "5.2.0",
+              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/5.2.0",
+              "published_at": "2026-11-25T17:13:25Z",
+              "prerelease": false,
+              "author": "syvlech",
+              "body": "### ⚠️ Перед обновлением\r\n\r\n- **Новое действие выключено по умолчанию** (`SHARED_HWID_TRAFFIC_LIMIT_MB=0`). Включается только вместе с `SHARED_HWID_MONITOR=true` и заданным `SHARED_HWID_SQUAD_UUIDS`.\r\n- **Нужен доступ к `PATCH /api/users`** (входит в `users:*`). Без него алерт приходит с пометкой «не удалось ограничить».\r\n- **Новый ключ Redis** `hwid:traffic:{id}` (30 дней) появляется только после урезания трафика.\r\n\r\n### ✨ Новое\r\n\r\n- **📶 Ограничение трафика при общем HWID.** Новому пробному аккаунту, у которого нашёлся общий HWID, лимитер сам ставит лимит трафика `SHARED_HWID_TRAFFIC_LIMIT_MB`, например 100 МБ. Меняется в `/settings` → «🔁 Общий HWID».\r\n  - Только для сквадов из `SHARED_HWID_SQUAD_UUIDS`, поэтому платных клиентов урезание не задевает. Меньший лимит не повышается, стратегия сброса не меняется.\r\n  - В алерте есть строка «📶 Трафик» и кнопка «📶 Вернуть трафик», которая ставит прежний лимит обратно и снимает `LIMITED`. Если лимит уже изменили в панели или в боте, кнопка его не трогает.\r\n\r\n**Full Changelog**: https://github.com/syvlech/remnawave-limiter/compare/5.1.0...5.2.0\r\n\r\n---\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eEnglish\u003c/summary\u003e\r\n\r\n### ⚠️ Before upgrading\r\n\r\n- **The new action is off by default** (`SHARED_HWID_TRAFFIC_LIMIT_MB=0`). It works only together with `SHARED_HWID_MONITOR=true` and a set `SHARED_HWID_SQUAD_UUIDS`.\r\n- **It needs access to `PATCH /api/users`** (part of `users:*`). Without it the alert arrives marked “could not be limited”.\r\n- **New Redis key** `hwid:traffic:{id}` (30 days) appears only after a traffic cut.\r\n\r\n### ✨ New\r\n\r\n- **📶 Traffic limit on a shared HWID.** When a new trial account turns out to share a HWID, the limiter itself sets the `SHARED_HWID_TRAFFIC_LIMIT_MB` traffic limit on it, for example 100 MB. Changed in `/settings` → \"🔁 Shared HWID\".\r\n  - Only for the squads in `SHARED_HWID_SQUAD_UUIDS`, so paying customers are not cut. A lower limit is never raised, and the reset strategy is not changed.\r\n  - The alert has a “📶 Traffic” row and a “📶 Restore traffic” button that puts the previous limit back and lifts `LIMITED`. If the limit was already changed in the panel or by the bot, the button leaves it alone.\r\n\r\n\u003c/details\u003e\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003e中文\u003c/summary\u003e\r\n\r\n### ⚠️ 升级前须知\r\n\r\n- **新动作默认关闭**（`SHARED_HWID_TRAFFIC_LIMIT_MB=0`）。仅在 `SHARED_HWID_MONITOR=true` 且设置了 `SHARED_HWID_SQUAD_UUIDS` 时生效。\r\n- **需要 `PATCH /api/users` 权限**（包含在 `users:*` 中）。缺少时告警会标注“限制失败”。\r\n- **新的 Redis 键** `hwid:traffic:{id}`（30 天）只在限制流量后出现。\r\n\r\n### ✨ 新功能\r\n\r\n- **📶 共用 HWID 时限制流量**：发现新的试用账户共用 HWID 时，限制器会自动为其设置 `SHARED_HWID_TRAFFIC_LIMIT_MB` 流量限制，例如 100 MB。在 `/settings` → “🔁 共用 HWID”中修改。\r\n  - 仅针对 `SHARED_HWID_SQUAD_UUIDS` 中的分组，不会影响付费客户。不会提高已更低的限制，也不修改重置策略。\r\n  - 告警中新增“📶 流量”一行和“📶 恢复流量”按钮，可恢复之前的限制并解除 `LIMITED`。如果面板或机器人已修改限制，按钮不做更改。\r\n\r\n\u003c/details\u003e\r\n"
+            },
             {
               "name": "5.1.0: Shared HWID alert for repeated trials",
               "tag": "5.1.0",
@@ -5980,15 +5989,6 @@
               "prerelease": false,
               "author": "syvlech",
               "body": "Новый интерфейс бота на rich-сообщениях Telegram, переработанное меню `/settings` и важные исправления. Обновление рекомендуется всем.\r\n\r\n### ⚠️ Перед обновлением\r\n\r\n- Конфиг с недостижимым порогом теперь не запускается. При `VIOLATION_THRESHOLD \u003e 1` нужно, чтобы `VIOLATION_THRESHOLD_WINDOW \u003e (VIOLATION_THRESHOLD − 1) × (COOLDOWN + CHECK_INTERVAL)`. Раньше такой конфиг принимался, но лимитер молча не реагировал на нарушения.\r\n- `TOLERANCE_MULTIPLIER` ограничен диапазоном `0..100`.\r\n- Невалидные настройки, сохранённые через бота, удаляются при старте (с предупреждением в логе).\r\n- Админам нужен клиент Telegram с поддержкой rich-сообщений. Если сервер Telegram отклонит разметку, сообщение придёт обычным текстом с кнопками.\r\n\r\n### Главное\r\n\r\n- **Rich-сообщения:** алерты, статистика и отчёты оформлены таблицами. В алертах — сворачиваемый список IP с провайдером и нодой, время в часовом поясе читателя и цветные кнопки. После нажатия кнопки алерт сохраняет содержимое и показывает, кто и что сделал.\r\n- **Новое меню `/settings`:** разделы, подсказки, быстрые пресеты, подтверждение сброса.\r\n- **Критические исправления:**\r\n  - падение процесса при фоновом обновлении базы MaxMind;\r\n  - массовый бан при `TOLERANCE_MULTIPLIER=NaN/Inf`;\r\n  - временные кнопки, которые после смены настроек срабатывали навсегда;\r\n  - старый таймер автовосстановления, включавший пользователя, отключённого навсегда.\r\n- **Webhook:** новый заголовок `X-Signature-V2` с подписью, которая покрывает время отправки и защищает от повтора. Прежние заголовки сохранены; передачу секрета можно отключить через `WEBHOOK_SECRET_HEADER=false`.\r\n- Telegram-библиотека заменена на go-telegram/bot, сборка обновлена до Go 1.27.\r\n\r\n---\r\n\r\n\u003cdetails\u003e\r\n\u003csummary\u003eEnglish\u003c/summary\u003e\r\n\r\nA new bot interface built on Telegram rich messages, a redesigned `/settings` menu and important fixes. Upgrading is recommended for everyone.\r\n\r\n### ⚠️ Before upgrading\r\n\r\n- A config with an unreachable threshold no longer starts. With `VIOLATION_THRESHOLD \u003e 1`, `VIOLATION_THRESHOLD_WINDOW` must be greater than `(VIOLATION_THRESHOLD − 1) × (COOLDOWN + CHECK_INTERVAL)`. Such a config used to be accepted, but the limiter silently ignored violations.\r\n- `TOLERANCE_MULTIPLIER` is limited to `0..100`.\r\n- Invalid settings saved through the bot are removed at startup (with a warning in the log).\r\n- Admins need a Telegram client that supports rich messages. If the Telegram server rejects the markup, the message arrives as plain text with buttons.\r\n\r\n### Highlights\r\n\r\n- **Rich messages:** alerts, statistics and reports are laid out as tables. Alerts get a collapsible IP list with provider and node, times in the reader's time zone and coloured buttons. After a button is pressed, the alert keeps its content and shows who did what.\r\n- **New `/settings` menu:** sections, hints, quick presets, reset confirmation.\r\n- **Critical fixes:**\r\n  - a process crash during the background MaxMind database update;\r\n  - a mass ban with `TOLERANCE_MULTIPLIER=NaN/Inf`;\r\n  - temporary buttons that acted permanently after a settings change;\r\n  - an old auto-restore timer re-enabling a user who was disabled forever.\r\n- **Webhook:** a new `X-Signature-V2` header whose signature covers the send time and protects against replays. The old headers are kept; sending the raw secret can be turned off with `WEBHOOK_SECRET_HEADER=false`.\r\n- The Telegram library was replaced with go-telegram/bot, and the build moved to Go 1.27.\r\n\r\n\u003c/details\u003e\r\n"
-            },
-            {
-              "name": "4.3.0",
-              "tag": "4.3.0",
-              "url": "https://github.com/syvlech/remnawave-limiter/releases/tag/4.3.0",
-              "published_at": "2026-08-11T07:35:00Z",
-              "prerelease": false,
-              "author": "syvlech",
-              "body": ""
             }
           ],
           "last_commit": {
