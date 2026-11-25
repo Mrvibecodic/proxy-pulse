@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T11:27:58.385136Z",
+  "generated_at": "2026-11-25T11:33:20.002206Z",
   "groups": [
     {
       "id": "cores",
@@ -577,6 +577,15 @@
           },
           "releases": [
             {
+              "name": "Clod Clash для Android android-v0.1.27-alpha.8",
+              "tag": "android-v0.1.27-alpha.8",
+              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.27-alpha.8",
+              "published_at": "2026-11-25T11:31:21Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "\nТолько для тестеров.\n\n### Исправлено\n\n- Когда у Wi-Fi пропадает интернет, приложение сразу переходит на мобильную сеть и перепроверяет серверы.\n- После возврата на Wi-Fi приложение снова пользуется его DNS.\n- После отключения VPN больше не мелькает прошлая подписка, а отметки серверов остаются на месте.\n- Проверка серверов без VPN сразу начинается на новой подписке, не дожидаясь проверки прежней.\n- Проверка серверов без VPN начинается заново, если посреди неё сменилась сеть, и сообщает, если проверить не удалось.\n- При нехватке места на устройстве подписка больше не обновляется наполовину."
+            },
+            {
               "name": "Clod Clash для Android android-v0.1.27-alpha.7",
               "tag": "android-v0.1.27-alpha.7",
               "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.27-alpha.7",
@@ -611,15 +620,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "\n### Изменено\n\n- В журнале видно, как система показывает VPN-подключение."
-            },
-            {
-              "name": "Clod Clash для Android android-v0.1.27-alpha.3",
-              "tag": "android-v0.1.27-alpha.3",
-              "url": "https://github.com/Mrvibecodic/clod-clash-android/releases/tag/android-v0.1.27-alpha.3",
-              "published_at": "2026-11-11T14:53:33Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "\n### Изменено\n\n- В журнале видно состояние VPN-подключения и итог его восстановления.\n- Мелкие внутренние улучшения."
             }
           ],
           "last_commit": {
@@ -1119,7 +1119,7 @@
           "track": "releases",
           "meta": {
             "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
-            "stars": 29348,
+            "stars": 29349,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
             "pushed_at": "2026-11-25T10:38:17Z",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78169,
+            "stars": 78170,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T11:28:07Z",
+            "pushed_at": "2026-11-25T11:32:50Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5648b3f",
-            "branch": "feat/stat-v2-refresh",
-            "date": "2026-11-24T15:52:39Z",
-            "url": "https://github.com/grafana/grafana/commit/5648b3f3efa10c872511a268430f0ad94a60e49b"
+            "sha": "e4982ff",
+            "branch": "dj/logs-enable-time-machine-flag",
+            "date": "2026-11-24T19:06:25Z",
+            "url": "https://github.com/grafana/grafana/commit/e4982ff2b333d1f87fc2b5312c39ddd673000981"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67872,
+            "stars": 67873,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-25T10:24:57Z",
