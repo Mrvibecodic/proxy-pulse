@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:31:37.863632Z",
+  "generated_at": "2026-11-25T16:37:07.112475Z",
   "groups": [
     {
       "id": "cores",
@@ -16,7 +16,7 @@
             "stars": 43152,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T14:37:45Z",
+            "pushed_at": "2026-11-25T16:35:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71564206?v=4",
             "owner": "XTLS"
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40298,
+            "stars": 40299,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-25T15:49:42Z",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-11-25T16:27:02Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.8.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.8.0\r\n\r\n### Highlights\r\n\r\n**Prizrak-Core** is now a first-class kernel in Settings and the installer, next to Mihomo Stable and Alpha (plus the lighter **Prizrak-Kroha** build).\r\n\r\nOn top of Mihomo, Prizrak-Core adds Xray-core compatibility — mux.cool, finalmask, REALITY with ML-DSA-65, XHTTP flow control, and mKCP for VLESS — and the smart proxy group.\r\n\r\nChannel names match everywhere: `mihomo-stable`, `mihomo-alpha`, `prizrak-core`, `prizrak-kroha`.\r\n\r\n### Also in this release\r\n\r\n- **Installer:** on a terminal you can choose update or reinstall, pick a kernel (including keep the current one or Prizrak-Core), set the UI port, and optionally turn on self-signed HTTPS. The final summary is shorter.\r\n- **Kernel downloads** can be cancelled mid-flight. Unused `.ssclash.prev` backups are no longer written.\r\n- On **Keenetic**, the service comes back cleanly after a self-update.\r\n- **Dashboard:** Mihomo Smart groups are treated as normal policy groups, and the auto placeholder is not shown as if you had pinned a node.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.7.7",
@@ -5175,7 +5175,7 @@
             "stars": 78176,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T16:31:12Z",
+            "pushed_at": "2026-11-25T16:36:13Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "87f392c",
-            "branch": "cursor/provisioning-generated-types-77e9",
-            "date": "2026-11-24T21:50:54Z",
-            "url": "https://github.com/grafana/grafana/commit/87f392c3a8e98c35fa8b42592b84a4885003fba6"
+            "sha": "52e5990",
+            "branch": "changelog/update-changelog-2026-11-24",
+            "date": "2026-11-24T16:25:45Z",
+            "url": "https://github.com/grafana/grafana/commit/52e59905ea48228fbbad6bcc3de39a90818ecd6f"
           }
         },
         {
@@ -5444,7 +5444,7 @@
           "track": "releases",
           "meta": {
             "description": "Like Prometheus, but for logs.",
-            "stars": 29248,
+            "stars": 29249,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
             "pushed_at": "2026-11-25T16:16:45Z",
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10458,
+            "stars": 10459,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-25T15:29:18Z",
