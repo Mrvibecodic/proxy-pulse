@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T09:13:52.377888Z",
+  "generated_at": "2026-11-25T09:19:13.988639Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40282,
+            "stars": 40283,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-24T14:54:50Z",
@@ -139,7 +139,7 @@
           "last_commit": {
             "sha": "6c65b2e",
             "branch": "testing",
-            "date": "2026-11-24T14:54:05Z",
+            "date": "2026-11-24T14:54:51Z",
             "url": "https://github.com/SagerNet/sing-box/commit/6c65b2e6332769881d0c292718063a3c51d94f93"
           }
         },
@@ -1122,7 +1122,7 @@
             "stars": 29348,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-24T23:54:25Z",
+            "pushed_at": "2026-11-25T09:18:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -4265,7 +4265,7 @@
           "track": "releases",
           "meta": {
             "description": "Transparent Proxy with Mihomo on OpenWrt.",
-            "stars": 5520,
+            "stars": 5519,
             "url": "https://github.com/nikkinikki-org/OpenWrt-nikki",
             "default_branch": "main",
             "pushed_at": "2026-11-25T00:22:08Z",
@@ -4863,12 +4863,21 @@
             "stars": 170,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-23T13:01:06Z",
+            "pushed_at": "2026-11-25T09:16:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.7.7",
+              "tag": "v7.7.7",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.7",
+              "published_at": "2026-11-25T09:16:09Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.7.7\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.7).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.7.6",
               "tag": "v7.7.6",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.3\r\n\r\nfix(firewall): keep fake-ip whitelist set marks when the CIDR list is still empty.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.2",
-              "tag": "v7.7.2",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.2",
-              "published_at": "2026-11-14T17:53:12Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.2\r\n\r\nfix(firewall): restore Keenetic chains inside the NDMS hook without a full re-apply.\r\n- A DHCP renew was holding the netfilter hook for the whole iptables rebuild and dropping UDP, including traffic that never enters Mihomo.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 78141,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T09:11:45Z",
+            "pushed_at": "2026-11-25T09:15:15Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "eecf016",
-            "branch": "jh/jest-swc-mock-factories",
-            "date": "2026-11-24T14:31:28Z",
-            "url": "https://github.com/grafana/grafana/commit/eecf0165705c1e3b33a598b433897c90429f2629"
+            "sha": "0b770bb",
+            "branch": "eledobleefe/plugin-compat-release-pr-workflow",
+            "date": "2026-11-24T12:41:26Z",
+            "url": "https://github.com/grafana/grafana/commit/0b770bb258c16d58fa97c1bf788fc5d964fd8eed"
           }
         },
         {
@@ -5296,10 +5296,10 @@
             }
           ],
           "last_commit": {
-            "sha": "34ceae0",
-            "branch": "bwplotka/promql-perf-unary-timestamp",
-            "date": "2026-11-23T12:33:31Z",
-            "url": "https://github.com/prometheus/prometheus/commit/34ceae09f09635e56b258199d5ebf3ca9b490c83"
+            "sha": "745d773",
+            "branch": "deps-update/google.golang.org-genproto-googleapis-api-digest",
+            "date": "2026-11-24T01:42:00Z",
+            "url": "https://github.com/prometheus/prometheus/commit/745d773f17e2e27f7ae68b066fb7a27bf33734f5"
           }
         },
         {
