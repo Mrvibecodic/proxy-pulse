@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T16:25:14.313483Z",
+  "generated_at": "2026-11-25T16:31:37.863632Z",
   "groups": [
     {
       "id": "cores",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1687,
+            "stars": 1688,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -4863,12 +4863,21 @@
             "stars": 171,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T15:27:42Z",
+            "pushed_at": "2026-11-25T16:27:02Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.8.0",
+              "tag": "v7.8.0",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.0",
+              "published_at": "2026-11-25T16:27:02Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.8.0\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.0).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.7.7",
               "tag": "v7.7.7",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.4\r\n\r\nfix(firewall,whitelist): keep a good fake-ip AUTO list when provider extract fails hard, keep reserved-network and proxy-server returns in rule mode, and replace the whitelist nft set in one transaction.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.3",
-              "tag": "v7.7.3",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.3",
-              "published_at": "2026-11-17T14:35:37Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.3\r\n\r\nfix(firewall): keep fake-ip whitelist set marks when the CIDR list is still empty.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 78176,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-25T16:23:18Z",
+            "pushed_at": "2026-11-25T16:31:12Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dfc81f1",
-            "branch": "ale/provisioning-router-client",
-            "date": "2026-11-24T18:06:23Z",
-            "url": "https://github.com/grafana/grafana/commit/dfc81f1f135da818f1996441f863131f6386fda3"
+            "sha": "87f392c",
+            "branch": "cursor/provisioning-generated-types-77e9",
+            "date": "2026-11-24T21:50:54Z",
+            "url": "https://github.com/grafana/grafana/commit/87f392c3a8e98c35fa8b42592b84a4885003fba6"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18198,
+            "stars": 18199,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-25T15:49:33Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "5d77dc6",
-            "branch": "master",
-            "date": "2026-11-25T15:48:24Z",
-            "url": "https://github.com/VictoriaMetrics/VictoriaMetrics/commit/5d77dc660a3ee002828d44e1da1c6bb2a1674c22"
+            "sha": "27e4586",
+            "branch": "docs/anomaly-reader-lookback-20261124",
+            "date": "2026-11-24T22:00:16Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/27e4586127011a94fd097a7478174f1efe39e788"
           }
         },
         {
