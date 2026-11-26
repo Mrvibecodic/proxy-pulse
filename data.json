@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:43:47.532404Z",
+  "generated_at": "2026-11-26T09:49:07.402827Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4686,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-26T01:17:40Z",
+            "pushed_at": "2026-11-26T09:49:08Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "42eab10",
+                  "message": "tac_plus: fix build with GCC 15",
+                  "author": "Christian Korber",
+                  "date": "2026-11-26T09:49:07Z",
+                  "url": "https://github.com/openwrt/packages/commit/42eab101eb87dd46e7c7a053999648c1e727145d"
+                },
+                {
                   "sha": "a3cc848",
                   "message": "onvif-simple-server: add package",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-24T08:10:24Z",
                   "url": "https://github.com/openwrt/packages/commit/a4277164e429aedb13659104144d01c547beb4c6"
-                },
-                {
-                  "sha": "b15b522",
-                  "message": "python-pycparser: bump to 3.12",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T08:08:52Z",
-                  "url": "https://github.com/openwrt/packages/commit/b15b522776edcd73f42a982dd1ebde29ad1bc05b"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-26T09:38:54Z",
+            "pushed_at": "2026-11-26T09:45:34Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "da5c671",
-            "branch": "main",
-            "date": "2026-11-24T16:35:49Z",
-            "url": "https://github.com/grafana/grafana/commit/da5c671af02cb0f7dbfc1a37d119d47a00807f12"
+            "sha": "923ffbb",
+            "branch": "cursor/button-ai-variant",
+            "date": "2026-11-25T09:50:05Z",
+            "url": "https://github.com/grafana/grafana/commit/923ffbbd53646640799df0e0f55d17a808f1eaaf"
           }
         },
         {
@@ -5311,7 +5311,7 @@
             "stars": 81653,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-26T09:42:48Z",
+            "pushed_at": "2026-11-26T09:44:45Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
