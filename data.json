@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:59:53.056667Z",
+  "generated_at": "2026-11-26T10:05:16.907249Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8069,
+            "stars": 8071,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-26T02:43:43Z",
@@ -3999,7 +3999,7 @@
           "track": "releases",
           "meta": {
             "description": "Dev podkop",
-            "stars": 2276,
+            "stars": 2277,
             "url": "https://github.com/itdoginfo/podkop",
             "default_branch": "main",
             "pushed_at": "2026-10-24T14:19:34Z",
@@ -5039,12 +5039,21 @@
             "stars": 94912,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
-            "pushed_at": "2026-11-26T09:55:28Z",
+            "pushed_at": "2026-11-26T10:04:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/1336778?v=4",
             "owner": "louislam"
           },
           "releases": [
+            {
+              "name": "3.0.0-beta.3",
+              "tag": "3.0.0-beta.3",
+              "url": "https://github.com/louislam/uptime-kuma/releases/tag/3.0.0-beta.3",
+              "published_at": "2026-11-26T10:04:58Z",
+              "prerelease": true,
+              "author": "louislam",
+              "body": "## 3.0.0-beta.3\n\n### Uncategorized\n\n### 🆕 New Features\n- #8227 feat: add kwtSMS notification provider (Thanks @boxlinknet)\n\n### 💇‍♀️ Improvements\n\n### 🐞 Bug Fixes\n- #8258 fix(api-keys): separate legacy API keys and format key dates \n- #8253 fix: backport node-ping and fix ping ipv6 issue \n- #8234 fix: Disable Auth doesn't migrate correctly \n- #8155 fix: uptime distortion (Thanks @StahlOtto)\n\n### ⬆️ Security Fixes\n\n### 🦎 Translation Contributions\n- #8220 chore: Translations Update from Weblate (Thanks @anbecodes)\n\n### Others\n- #8268 chore: update to 3.0.0-beta.3 \n- #8249 chore: update repo \n- #8231 chore: update to 3.0.0-beta.2 \n- #8225 chore: Update dependencies \n\n"
+            },
             {
               "name": "3.0.0-beta.2",
               "tag": "3.0.0-beta.2",
@@ -5080,15 +5089,6 @@
               "prerelease": false,
               "author": "louislam",
               "body": "### ⬆️ Security Fixes\r\n- #8094 chore: Update dependencies \r\n- GHSA-437w-j82f-9vjh fix: [Admin Only] RCE via an upstream package's regression (Details will be revealed after 7 days) (Thanks @Tomer-PL)\r\n"
-            },
-            {
-              "name": "2.5.10",
-              "tag": "2.5.10",
-              "url": "https://github.com/louislam/uptime-kuma/releases/tag/2.5.10",
-              "published_at": "2026-11-12T03:53:19Z",
-              "prerelease": false,
-              "author": "louislam",
-              "body": "### 🐞 Bug Fixes\r\n\r\n- #8138 fix: reset password for embedded MariaDB \r\n\r\n### ⬆️ Security Fixes\r\n\r\n- [Docker] Update Node.js to 22.23.5 - Upstream high severity issues could possibly affect Uptime Kuma (Read more: https://nodejs.org/en/blog/vulnerability/november-2026-security-releases)\r\n\r\nPS: For non-Docker, you should update your Node.js to the patched version too."
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 78195,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-26T09:57:47Z",
+            "pushed_at": "2026-11-26T10:05:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "45b3259",
-            "branch": "alexk/stars-nav-section",
-            "date": "2026-11-26T07:28:51Z",
-            "url": "https://github.com/grafana/grafana/commit/45b32590fc639cb16ce62aec96b07f5149a49acd"
+            "sha": "a617b20",
+            "branch": "release/478/13.2.7",
+            "date": "2026-11-24T16:50:20Z",
+            "url": "https://github.com/grafana/grafana/commit/a617b200647b81f426f31aaa46e50d94c5189537"
           }
         },
         {
@@ -5240,7 +5240,7 @@
           "track": "releases",
           "meta": {
             "description": "The Prometheus monitoring system and time series database.",
-            "stars": 67903,
+            "stars": 67904,
             "url": "https://github.com/prometheus/prometheus",
             "default_branch": "main",
             "pushed_at": "2026-11-26T08:14:10Z",
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18211,
+            "stars": 18212,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-26T04:39:39Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "8d5c65b",
-            "branch": "issue-11992-snap",
-            "date": "2026-11-25T10:13:59Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/8d5c65bbe069355941c6176d592f23019e91b027"
+            "sha": "5a1ae0f",
+            "branch": "issue-11992",
+            "date": "2026-11-25T05:32:40Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/5a1ae0ff70b5da0e4bbe239bed5ec02ed86830c5"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29254,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-26T09:58:06Z",
+            "pushed_at": "2026-11-26T10:00:18Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e30e4a7",
+            "sha": "e90284e",
             "branch": "main",
-            "date": "2026-11-25T13:56:13Z",
-            "url": "https://github.com/grafana/loki/commit/e30e4a7b53d5f624aa45ee4d29859cdd44713462"
+            "date": "2026-11-25T09:27:17Z",
+            "url": "https://github.com/grafana/loki/commit/e90284e40c550f19c9069cc50a341688b80ac6b7"
           }
         }
       ]
