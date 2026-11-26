@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:46:17.010754Z",
+  "generated_at": "2026-11-26T17:51:37.484240Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 43182,
+            "stars": 43183,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-26T17:01:07Z",
@@ -4876,7 +4876,7 @@
               "published_at": "2026-11-26T17:45:48Z",
               "prerelease": false,
               "author": "zerolabnet",
-              "body": "## SSClash v7.8.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+              "body": "## SSClash v7.8.1\r\n\r\nfeat(web): revalidate static assets via version-based ETag.\r\n\r\nfix(packaging): start after --update when the auto-start flag is set.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             },
             {
               "name": "v7.8.0",
@@ -5175,7 +5175,7 @@
             "stars": 78208,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-26T17:37:39Z",
+            "pushed_at": "2026-11-26T17:50:05Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "495808b",
-            "branch": "pstibrany/shared-index-event-scan",
-            "date": "2026-11-26T11:49:12Z",
-            "url": "https://github.com/grafana/grafana/commit/495808b14f4188f2840ac563ed3d58315ba234da"
+            "sha": "12a4ceb",
+            "branch": "main",
+            "date": "2026-11-25T13:35:10Z",
+            "url": "https://github.com/grafana/grafana/commit/12a4ceb6e33fc18787ca4e82a93e4f80a104fcb2"
           }
         },
         {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10556,
+            "stars": 10557,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-26T17:40:04Z",
