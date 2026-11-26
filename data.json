@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:40:56.798089Z",
+  "generated_at": "2026-11-26T17:46:17.010754Z",
   "groups": [
     {
       "id": "cores",
@@ -4863,12 +4863,21 @@
             "stars": 172,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-26T17:37:34Z",
+            "pushed_at": "2026-11-26T17:45:48Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.8.1",
+              "tag": "v7.8.1",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.1",
+              "published_at": "2026-11-26T17:45:48Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.8.1\n\nPublished to [zerolabnet/SSClash-Go](https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.1).\n\n### Binaries\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\n- `sha256sums.txt` — checksums\n\n"
+            },
             {
               "name": "v7.8.0",
               "tag": "v7.8.0",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.5\r\n\r\nfix(firewall): restore empty Keenetic mangle chains after NDMS rebuild.\r\n- When NDMS left CLASH named but wiped CLASH_PROCESS or dropped SSCLASH_LATE, the hook only reseated jumps and UDP TPROXY stayed missing while TCP REDIRECT still worked.\r\n\r\nfix(firewall): restore partial Keenetic intercept chains after NDMS rebuild.\r\n- Treat RETURN-only CLASH_PROCESS, an empty CLASH parent, and an empty CLASH_REDIRECT_PROCESS as broken so the hook flushes and reloads the snapshot instead of only reseating jumps.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.4",
-              "tag": "v7.7.4",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.4",
-              "published_at": "2026-11-17T15:32:49Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.4\r\n\r\nfix(firewall,whitelist): keep a good fake-ip AUTO list when provider extract fails hard, keep reserved-network and proxy-server returns in rule mode, and replace the whitelist nft set in one transaction.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94924,
+            "stars": 94925,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-26T17:39:50Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "7259cec",
-            "branch": "oscar/panel-quick-edits-timeseries-stat",
-            "date": "2026-11-25T09:10:53Z",
-            "url": "https://github.com/grafana/grafana/commit/7259cec4ee89984f68042fa7005ebe4d86320e1d"
+            "sha": "495808b",
+            "branch": "pstibrany/shared-index-event-scan",
+            "date": "2026-11-26T11:49:12Z",
+            "url": "https://github.com/grafana/grafana/commit/495808b14f4188f2840ac563ed3d58315ba234da"
           }
         },
         {
