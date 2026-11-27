@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:40:13.379170Z",
+  "generated_at": "2026-11-27T15:45:35.937330Z",
   "groups": [
     {
       "id": "cores",
@@ -149,10 +149,10 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36169,
+            "stars": 36170,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T15:14:54Z",
+            "pushed_at": "2026-11-27T15:43:16Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/84378451?v=4",
             "owner": "MetaCubeX"
@@ -165,7 +165,7 @@
               "published_at": "2024-08-12T17:01:02Z",
               "prerelease": true,
               "author": "github-actions[bot]",
-              "body": "Release created at  Wed Nov 25 13:55:25 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: use correct format verb for subscription-userinfo parse errors by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/3455\n* feat(snell): support optional userkey for Snell v6 outbound by @CatMsg in https://github.com/MetaCubeX/mihomo/pull/3460\n* fix(xhttp): skip expired entries when picking reusable connections by @echoowall in https://github.com/MetaCubeX/mihomo/pull/3479\n* feat: allow disable redir-host mapping in fake-ip mode by @i40e in https://github.com/MetaCubeX/mihomo/pull/3496\n* fix: correct msftncsi hostname typo in default fake-ip-filter by @xiky in https://github.com/MetaCubeX/mihomo/pull/3481\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3514\n* feat: add WebSocket support to GOST relay by @ztywyj in https://github.com/MetaCubeX/mihomo/pull/3507\n* fix(adapter): close the outbound when smux options are invalid by @lovitus in https://github.com/MetaCubeX/mihomo/pull/3517\n* fix: avoid xhttp init panic when the system clock is wrong by @BukeLy in https://github.com/MetaCubeX/mihomo/pull/3521\n\n## New Contributors\n* @CatMsg made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3460\n* @echoowall made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3479\n* @i40e made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3496\n* @xiky made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3481\n* @lovitus made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3517\n* @BukeLy made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3521\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.34...Prerelease-Alpha"
+              "body": "Release created at  Fri Nov 27 23:43:15 CST 2026\nSynchronize Alpha branch code updates, keeping only the latest version\n\u003cbr\u003e\n[我应该下载哪个文件? / Which file should I download?](https://github.com/MetaCubeX/mihomo/wiki/FAQ)\n[二进制文件筛选 / Binary file selector](https://metacubex.github.io/Meta-Docs/startup/#_1)\n[查看文档 / Docs](https://metacubex.github.io/Meta-Docs/)\n\n\n## What's Changed\n* fix: use correct format verb for subscription-userinfo parse errors by @AaronChen0 in https://github.com/MetaCubeX/mihomo/pull/3455\n* feat(snell): support optional userkey for Snell v6 outbound by @CatMsg in https://github.com/MetaCubeX/mihomo/pull/3460\n* fix(xhttp): skip expired entries when picking reusable connections by @echoowall in https://github.com/MetaCubeX/mihomo/pull/3479\n* feat: allow disable redir-host mapping in fake-ip mode by @i40e in https://github.com/MetaCubeX/mihomo/pull/3496\n* fix: correct msftncsi hostname typo in default fake-ip-filter by @xiky in https://github.com/MetaCubeX/mihomo/pull/3481\n* chore: update mieru version by @enfein in https://github.com/MetaCubeX/mihomo/pull/3514\n* feat: add WebSocket support to GOST relay by @ztywyj in https://github.com/MetaCubeX/mihomo/pull/3507\n* fix(adapter): close the outbound when smux options are invalid by @lovitus in https://github.com/MetaCubeX/mihomo/pull/3517\n* fix: avoid xhttp init panic when the system clock is wrong by @BukeLy in https://github.com/MetaCubeX/mihomo/pull/3521\n* fix: pass valid rAddrPort in Tailscale SystemPacketListener by @chenx-dust in https://github.com/MetaCubeX/mihomo/pull/3535\n\n## New Contributors\n* @CatMsg made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3460\n* @echoowall made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3479\n* @i40e made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3496\n* @xiky made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3481\n* @lovitus made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3517\n* @BukeLy made their first contribution in https://github.com/MetaCubeX/mihomo/pull/3521\n\n**Full Changelog**: https://github.com/MetaCubeX/mihomo/compare/v1.19.34...Prerelease-Alpha"
             },
             {
               "name": "v1.19.34",
@@ -5172,10 +5172,10 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78231,
+            "stars": 78232,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T15:30:26Z",
+            "pushed_at": "2026-11-27T15:43:38Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29265,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T15:31:11Z",
+            "pushed_at": "2026-11-27T15:43:28Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b65abdb",
-            "branch": "reduce-postings-batch-size",
-            "date": "2026-11-27T12:02:07Z",
-            "url": "https://github.com/grafana/loki/commit/b65abdb90bb77180999a1d8f1e9f96267495b8a3"
+            "sha": "13cb66c",
+            "branch": "main",
+            "date": "2026-11-26T09:05:15Z",
+            "url": "https://github.com/grafana/loki/commit/13cb66c911296ca4d798344d1ea9f438c76ac2e9"
           }
         }
       ]
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10625,
+            "stars": 10626,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-27T03:42:22Z",
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "6ebda0a",
-            "branch": "feat/4880-shared-schedules",
-            "date": "2026-11-26T05:06:29Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/6ebda0ad40b0ca259e89c0ddeb7df3a244ead117"
+            "sha": "01e0223",
+            "branch": "main",
+            "date": "2026-11-27T02:52:10Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/01e0223dcf350250c27bf094533f6eb03b74c82d"
           }
         },
         {
