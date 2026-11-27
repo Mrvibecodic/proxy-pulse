@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:17:38.731186Z",
+  "generated_at": "2026-11-27T16:22:59.158997Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4688,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T15:05:53Z",
+            "pushed_at": "2026-11-27T16:18:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b3b37d4",
+                  "message": "travelmate: release 3.2.0-1",
+                  "author": "Dirk Brenken",
+                  "date": "2026-11-27T16:18:18Z",
+                  "url": "https://github.com/openwrt/packages/commit/b3b37d4f602b96fd2e7a5f03ca0e966ca2bb23a7"
+                },
+                {
                   "sha": "19501dd",
                   "message": "iperf: fix build with PIE by respecting user CFLAGS/CXXFLAGS",
                   "author": "Florian Eckert",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-24T15:50:10Z",
                   "url": "https://github.com/openwrt/packages/commit/cf122747d075b3fd163c0d3403e2437c1589e735"
-                },
-                {
-                  "sha": "7fa0489",
-                  "message": "python-pika: remove package",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T15:49:22Z",
-                  "url": "https://github.com/openwrt/packages/commit/7fa0489a7bf8008e9bbb0d795f9219f5e48cde48"
                 }
               ]
             },
@@ -5175,7 +5175,7 @@
             "stars": 78232,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T16:10:01Z",
+            "pushed_at": "2026-11-27T16:22:29Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fd58ff6",
-            "branch": "dprokop/page-canvas-extension-point",
-            "date": "2026-11-25T21:52:45Z",
-            "url": "https://github.com/grafana/grafana/commit/fd58ff6ba1c21952c8563ce8cce21d8effb9ca57"
+            "sha": "3d53418",
+            "branch": "cursor/provisioning-pure-apiserver-2c20",
+            "date": "2026-11-26T09:27:07Z",
+            "url": "https://github.com/grafana/grafana/commit/3d53418e77cc2f6516548ab7bad5b7efdc4f5a92"
           }
         },
         {
@@ -5447,7 +5447,7 @@
             "stars": 29265,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T16:15:10Z",
+            "pushed_at": "2026-11-27T16:22:23Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5467,9 +5467,9 @@
               "tag": "v4.0.0-rc.5",
               "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.5",
               "published_at": "2026-11-27T15:02:34Z",
-              "prerelease": false,
+              "prerelease": true,
               "author": "loki-gh-app[bot]",
-              "body": "## [4.0.0-rc.5](https://github.com/grafana/loki/compare/v4.0.0-rc.4...v4.0.0-rc.5) (2026-11-27)\n\n\n### Features\n\n* **logql:** Add a multi_tenant label to loki_logql_querystats_bytes_processed_total [release-4.0.0] ([#26757](https://github.com/grafana/loki/issues/26757)) ([17a6b50](https://github.com/grafana/loki/commit/17a6b5062198a90e0f86c1fb823922702259c9f6))\n* **storage:** Allow GLACIER_IR and INTELLIGENT_TIERING S3 storage classes [release-4.0.0] ([#26751](https://github.com/grafana/loki/issues/26751)) ([901d470](https://github.com/grafana/loki/commit/901d47088fd8ae8085b8572f33956f8cc1090285))\n\n\n### Bug Fixes\n\n* **loghttp:** Reject times before 1970 or after the int64 nanosecond limit [release-4.0.0] ([#26754](https://github.com/grafana/loki/issues/26754)) ([20e39ea](https://github.com/grafana/loki/commit/20e39ea44266b5d85e716767c50ca844732d6089))\n* **mixin:** Add reason label to duplicate LokiCompactorHasNotSuccessfullyRunCompaction alerts [release-4.0.0] ([#26749](https://github.com/grafana/loki/issues/26749)) ([37f29fc](https://github.com/grafana/loki/commit/37f29fc37fc056bb5342d2969a3f21754ee363a4))\n* **pattern:** Drain aggregation Push buffer on Stop [release-4.0.0] ([#26673](https://github.com/grafana/loki/issues/26673)) ([30be792](https://github.com/grafana/loki/commit/30be792da07ce295d3ebd2152bca51a7c264a1de))\n* **pattern:** Fix inverted client check in the pattern tee fallback [release-4.0.0] ([#26750](https://github.com/grafana/loki/issues/26750)) ([f52f6df](https://github.com/grafana/loki/commit/f52f6dfe2e402855417f204709823e727ef888ca))\n* **pattern:** Retry 429 and 5xx pushes and drop other client errors [release-4.0.0] ([#26672](https://github.com/grafana/loki/issues/26672)) ([541f049](https://github.com/grafana/loki/commit/541f049f3e7356b978e7b1848ea1a981da9b5d7a))\n* **querier:** Reconnect query workers without backoff after a canceled query [release-4.0.0] ([#26666](https://github.com/grafana/loki/issues/26666)) ([b40d394](https://github.com/grafana/loki/commit/b40d3940ec92025f72b56cd210b2b64624b1ebb0))\n* **security:** Bump Go to 1.27.4 [release-4.0.0] ([#26739](https://github.com/grafana/loki/issues/26739)) ([c7643d5](https://github.com/grafana/loki/commit/c7643d5fd7af743e10bf17c38c6dff501445565f))\n* **storage:** Keep chunks whose last entry is at the query start [release-4.0.0] ([#26738](https://github.com/grafana/loki/issues/26738)) ([55c8363](https://github.com/grafana/loki/commit/55c836348421764473eeb6325dbfaab467be6e21))"
+              "body": "## [4.0.0-rc.5](https://github.com/grafana/loki/compare/v4.0.0-rc.4...v4.0.0-rc.5) (2026-11-27)\r\n\r\n\r\n### Features\r\n\r\n* **logql:** Add a multi_tenant label to loki_logql_querystats_bytes_processed_total [release-4.0.0] ([#26757](https://github.com/grafana/loki/issues/26757)) ([17a6b50](https://github.com/grafana/loki/commit/17a6b5062198a90e0f86c1fb823922702259c9f6))\r\n* **storage:** Allow GLACIER_IR and INTELLIGENT_TIERING S3 storage classes [release-4.0.0] ([#26751](https://github.com/grafana/loki/issues/26751)) ([901d470](https://github.com/grafana/loki/commit/901d47088fd8ae8085b8572f33956f8cc1090285))\r\n\r\n\r\n### Bug Fixes\r\n\r\n* **loghttp:** Reject times before 1970 or after the int64 nanosecond limit [release-4.0.0] ([#26754](https://github.com/grafana/loki/issues/26754)) ([20e39ea](https://github.com/grafana/loki/commit/20e39ea44266b5d85e716767c50ca844732d6089))\r\n* **mixin:** Add reason label to duplicate LokiCompactorHasNotSuccessfullyRunCompaction alerts [release-4.0.0] ([#26749](https://github.com/grafana/loki/issues/26749)) ([37f29fc](https://github.com/grafana/loki/commit/37f29fc37fc056bb5342d2969a3f21754ee363a4))\r\n* **pattern:** Drain aggregation Push buffer on Stop [release-4.0.0] ([#26673](https://github.com/grafana/loki/issues/26673)) ([30be792](https://github.com/grafana/loki/commit/30be792da07ce295d3ebd2152bca51a7c264a1de))\r\n* **pattern:** Fix inverted client check in the pattern tee fallback [release-4.0.0] ([#26750](https://github.com/grafana/loki/issues/26750)) ([f52f6df](https://github.com/grafana/loki/commit/f52f6dfe2e402855417f204709823e727ef888ca))\r\n* **pattern:** Retry 429 and 5xx pushes and drop other client errors [release-4.0.0] ([#26672](https://github.com/grafana/loki/issues/26672)) ([541f049](https://github.com/grafana/loki/commit/541f049f3e7356b978e7b1848ea1a981da9b5d7a))\r\n* **querier:** Reconnect query workers without backoff after a canceled query [release-4.0.0] ([#26666](https://github.com/grafana/loki/issues/26666)) ([b40d394](https://github.com/grafana/loki/commit/b40d3940ec92025f72b56cd210b2b64624b1ebb0))\r\n* **security:** Bump Go to 1.27.4 [release-4.0.0] ([#26739](https://github.com/grafana/loki/issues/26739)) ([c7643d5](https://github.com/grafana/loki/commit/c7643d5fd7af743e10bf17c38c6dff501445565f))\r\n* **storage:** Keep chunks whose last entry is at the query start [release-4.0.0] ([#26738](https://github.com/grafana/loki/issues/26738)) ([55c8363](https://github.com/grafana/loki/commit/55c836348421764473eeb6325dbfaab467be6e21))"
             },
             {
               "name": "v3.7.11",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "13cb66c",
-            "branch": "main",
-            "date": "2026-11-26T09:05:15Z",
-            "url": "https://github.com/grafana/loki/commit/13cb66c911296ca4d798344d1ea9f438c76ac2e9"
+            "sha": "41b912d",
+            "branch": "segflow/logline-docs",
+            "date": "2026-11-26T09:26:22Z",
+            "url": "https://github.com/grafana/loki/commit/41b912d40ec8da8d5a08d423cace104554462482"
           }
         }
       ]
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "1a9cd82",
-            "branch": "feat/4880-shared-system-backups",
-            "date": "2026-11-26T00:33:01Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/1a9cd82c1ac155561acdb8e0ea535a2f3c576949"
+            "sha": "43f3b80",
+            "branch": "feat/4880-shared-volume-backups",
+            "date": "2026-11-26T02:50:15Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/43f3b801a947b45becf3e367de294c9f128ac8c1"
           }
         },
         {
