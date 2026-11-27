@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:03:12.500822Z",
+  "generated_at": "2026-11-27T09:08:33.337857Z",
   "groups": [
     {
       "id": "cores",
@@ -1190,7 +1190,7 @@
             "stars": 4686,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-26T09:51:03Z",
+            "pushed_at": "2026-11-27T09:07:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,41 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "b6fad06",
+                  "message": "isc-dhcp: restore the resolver configuration on stop",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-27T09:07:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/b6fad06a7f0185ee067b3605d585ad721baafd58"
+                },
+                {
+                  "sha": "7c7ead9",
+                  "message": "isc-dhcp: replace resolv.conf.d/resolv.conf atomically",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-27T09:07:11Z",
+                  "url": "https://github.com/openwrt/packages/commit/7c7ead971f02fb484cc5eb5249637e50d390073d"
+                },
+                {
+                  "sha": "3247b51",
+                  "message": "unbound: replace resolv.conf.d/resolv.conf atomically",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-27T09:05:31Z",
+                  "url": "https://github.com/openwrt/packages/commit/3247b51e6e503830a2caab486a668523cee70891"
+                },
+                {
+                  "sha": "4fc06f4",
+                  "message": "owut: update to 2026.11.26",
+                  "author": "Eric Fahlgren",
+                  "date": "2026-11-27T09:04:21Z",
+                  "url": "https://github.com/openwrt/packages/commit/4fc06f45126727c0cd772febff0e4243a949156a"
+                },
+                {
+                  "sha": "8721bc8",
+                  "message": "btop: move the alias snippet to /usr/lib/profile.d",
+                  "author": "Daniel Golle",
+                  "date": "2026-11-27T09:03:51Z",
+                  "url": "https://github.com/openwrt/packages/commit/8721bc82863793041cb0650f879c13903aa181e6"
+                },
+                {
                   "sha": "62e4e92",
                   "message": "luaossl: update to 20260910",
                   "author": "Christian Korber",
@@ -2018,41 +2053,6 @@
                   "author": "Kirpal Singh",
                   "date": "2026-11-24T10:24:08Z",
                   "url": "https://github.com/openwrt/packages/commit/f35b71096c55b1568d9212bfb45e88dc4af5dbca"
-                },
-                {
-                  "sha": "5db6e7c",
-                  "message": "python-click: bump to 8.5.1",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T10:20:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/5db6e7c9b0fe6f21d9cffd94cb33c942b2860be8"
-                },
-                {
-                  "sha": "3bdbe28",
-                  "message": "python-mako: bump to 1.4.3",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T09:41:37Z",
-                  "url": "https://github.com/openwrt/packages/commit/3bdbe28d2fc07e2f25a8df123e55cd5e7ccf12bf"
-                },
-                {
-                  "sha": "fce06c0",
-                  "message": "python-werkzeug: bump to 3.1.9",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T09:40:28Z",
-                  "url": "https://github.com/openwrt/packages/commit/fce06c01258ae1c4cc79d9f92c07be09f94bb4cc"
-                },
-                {
-                  "sha": "79b71f9",
-                  "message": "python-installer: bump to 1.1.0",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T08:12:17Z",
-                  "url": "https://github.com/openwrt/packages/commit/79b71f9932668d49787dd5fe5b78731604e96ea4"
-                },
-                {
-                  "sha": "bbb5c10",
-                  "message": "python-pluggy: bump to 1.7.0",
-                  "author": "Roberto Andrei Bolda",
-                  "date": "2026-11-24T08:11:55Z",
-                  "url": "https://github.com/openwrt/packages/commit/bbb5c1050d3de0751577c7afc5a421d7efff712a"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94945,
+            "stars": 94946,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-27T06:17:22Z",
@@ -5228,10 +5228,10 @@
             }
           ],
           "last_commit": {
-            "sha": "fa38840",
-            "branch": "sven/assistant-onboarding-navtree-id",
-            "date": "2026-11-25T17:45:10Z",
-            "url": "https://github.com/grafana/grafana/commit/fa38840006ab97ce0701724342e73e0939bdec19"
+            "sha": "f895268",
+            "branch": "router-mt-v2-token-exchange",
+            "date": "2026-11-25T17:50:09Z",
+            "url": "https://github.com/grafana/grafana/commit/f895268f37a4ef4f8a995932628fe069976a573c"
           }
         },
         {
@@ -5376,7 +5376,7 @@
           "track": "releases",
           "meta": {
             "description": "VictoriaMetrics: fast, cost-effective monitoring solution and time series database",
-            "stars": 18221,
+            "stars": 18222,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
             "pushed_at": "2026-11-27T06:55:43Z",
@@ -5735,7 +5735,7 @@
             "stars": 92,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T09:00:12Z",
+            "pushed_at": "2026-11-27T09:05:21Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10605,
+            "stars": 10606,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-27T03:42:22Z",
