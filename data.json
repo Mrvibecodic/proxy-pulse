@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:00:47.330615Z",
+  "generated_at": "2026-11-27T12:06:11.493860Z",
   "groups": [
     {
       "id": "cores",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1596,
+            "stars": 1597,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-18T23:11:58Z",
@@ -4863,12 +4863,21 @@
             "stars": 172,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T11:59:06Z",
+            "pushed_at": "2026-11-27T12:03:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.8.2",
+              "tag": "v7.8.2",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.2",
+              "published_at": "2026-11-27T12:03:10Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.8.2\r\n\r\nfix(core): reclaim a Mihomo left by the previous daemon before auto-start.\r\n\r\nfix(packaging): run the OpenWrt stop cleanup from service_stopped.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.8.1",
               "tag": "v7.8.1",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.6\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP when hotspot rewrites the mark.\r\n- Pin SSCLASH_LATE last after NDMS rebuilds, re-enter CLASH after hotspot save-mark, and repair missing TPROXY policy rules so DHCP WAN keeps UDP on Mihomo.\r\n\r\nfix(selfupdate): chmod the download before Replace verifies it.\r\n- CreateTemp leaves ssclash-download-* at 0600; low-disk Replace ran verify on that path and failed with permission denied on OpenWrt.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.5",
-              "tag": "v7.7.5",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.5",
-              "published_at": "2026-11-22T00:38:45Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.5\r\n\r\nfix(firewall): restore empty Keenetic mangle chains after NDMS rebuild.\r\n- When NDMS left CLASH named but wiped CLASH_PROCESS or dropped SSCLASH_LATE, the hook only reseated jumps and UDP TPROXY stayed missing while TCP REDIRECT still worked.\r\n\r\nfix(firewall): restore partial Keenetic intercept chains after NDMS rebuild.\r\n- Treat RETURN-only CLASH_PROCESS, an empty CLASH parent, and an empty CLASH_REDIRECT_PROCESS as broken so the hook flushes and reloads the snapshot instead of only reseating jumps.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5175,7 +5175,7 @@
             "stars": 78228,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T11:59:25Z",
+            "pushed_at": "2026-11-27T12:03:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29264,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T11:59:39Z",
+            "pushed_at": "2026-11-27T12:02:06Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
