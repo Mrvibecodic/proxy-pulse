@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:31:48.236142Z",
+  "generated_at": "2026-11-27T13:37:08.034253Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8098,
+            "stars": 8099,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-27T01:47:33Z",
@@ -1190,7 +1190,7 @@
             "stars": 4688,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T13:18:03Z",
+            "pushed_at": "2026-11-27T13:31:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "c8d1a70",
+                  "message": "gnupg2: select gnupg2 from gnupg2-utils",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-27T13:31:58Z",
+                  "url": "https://github.com/openwrt/packages/commit/c8d1a7092364714e74d09024224c9c923b94c72e"
+                },
+                {
                   "sha": "f942410",
                   "message": "nginx: fix the build of nginx-mod-njs with GCC 15",
                   "author": "Josef Schlehofer",
@@ -2046,13 +2053,6 @@
                   "author": "John Audia",
                   "date": "2026-11-24T15:48:06Z",
                   "url": "https://github.com/openwrt/packages/commit/c247fc1179ae7ff71ac9319cf21a225e985f8fcc"
-                },
-                {
-                  "sha": "c454ac1",
-                  "message": "strongswan: fix swanctl restart without /var/ipsec",
-                  "author": "Alexander Wilhelm",
-                  "date": "2026-11-24T14:45:36Z",
-                  "url": "https://github.com/openwrt/packages/commit/c454ac15bdfc7050deae012eb20fadbf005b6b37"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94952,
+            "stars": 94953,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-27T06:17:22Z",
@@ -5175,7 +5175,7 @@
             "stars": 78229,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T13:30:33Z",
+            "pushed_at": "2026-11-27T13:34:31Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29263,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T13:28:56Z",
+            "pushed_at": "2026-11-27T13:35:58Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "82adb3d",
+            "sha": "0ad6011",
             "branch": "feat/4880-shared-capture",
-            "date": "2026-11-25T20:19:13Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/82adb3dc6d82821d0e89cf02a9798e0875d36b85"
+            "date": "2026-11-26T00:53:13Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/0ad6011ab001df4d4a6ac83f832461e3745b4b11"
           }
         },
         {
