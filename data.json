@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:15:44.613842Z",
+  "generated_at": "2026-11-27T13:21:05.547001Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40379,
+            "stars": 40378,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-27T13:13:56Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36157,
+            "stars": 36158,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-25T05:55:26Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8096,
+            "stars": 8097,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-27T01:47:33Z",
@@ -1190,7 +1190,7 @@
             "stars": 4688,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T09:07:11Z",
+            "pushed_at": "2026-11-27T13:18:03Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "f942410",
+                  "message": "nginx: fix the build of nginx-mod-njs with GCC 15",
+                  "author": "Josef Schlehofer",
+                  "date": "2026-11-27T13:18:02Z",
+                  "url": "https://github.com/openwrt/packages/commit/f942410ffe0425b9c44508e867042265454c791d"
+                },
+                {
                   "sha": "b6fad06",
                   "message": "isc-dhcp: restore the resolver configuration on stop",
                   "author": "Daniel Golle",
@@ -2046,13 +2053,6 @@
                   "author": "Alexander Wilhelm",
                   "date": "2026-11-24T14:45:36Z",
                   "url": "https://github.com/openwrt/packages/commit/c454ac15bdfc7050deae012eb20fadbf005b6b37"
-                },
-                {
-                  "sha": "f35b710",
-                  "message": "zerotier: build without MIPS16",
-                  "author": "Kirpal Singh",
-                  "date": "2026-11-24T10:24:08Z",
-                  "url": "https://github.com/openwrt/packages/commit/f35b71096c55b1568d9212bfb45e88dc4af5dbca"
                 }
               ]
             },
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94950,
+            "stars": 94951,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-27T06:17:22Z",
@@ -5175,7 +5175,7 @@
             "stars": 78229,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T13:08:55Z",
+            "pushed_at": "2026-11-27T13:16:07Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5447,7 +5447,7 @@
             "stars": 29263,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T13:12:29Z",
+            "pushed_at": "2026-11-27T13:19:55Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
