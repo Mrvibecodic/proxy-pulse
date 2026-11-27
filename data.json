@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T15:02:40.510538Z",
+  "generated_at": "2026-11-27T15:08:01.124193Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 43201,
+            "stars": 43202,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-27T00:11:29Z",
@@ -703,7 +703,7 @@
           "track": "releases",
           "meta": {
             "description": "A fork of the multi-platform proxy client FlClash, based on original Mihomo Core, simple and easy to use, open source and ad-free.",
-            "stars": 1597,
+            "stars": 1598,
             "url": "https://github.com/pluralplay/FlClashX",
             "default_branch": "main",
             "pushed_at": "2026-11-18T23:11:58Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1699,
+            "stars": 1700,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -1190,7 +1190,7 @@
             "stars": 4688,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T13:31:58Z",
+            "pushed_at": "2026-11-27T15:05:53Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1845,6 +1845,13 @@
               "name": "master",
               "commits": [
                 {
+                  "sha": "19501dd",
+                  "message": "iperf: fix build with PIE by respecting user CFLAGS/CXXFLAGS",
+                  "author": "Florian Eckert",
+                  "date": "2026-11-27T15:05:52Z",
+                  "url": "https://github.com/openwrt/packages/commit/19501dda7d0c7959e9730b4dd4a650ad1d9a6e8e"
+                },
+                {
                   "sha": "c8d1a70",
                   "message": "gnupg2: select gnupg2 from gnupg2-utils",
                   "author": "Florian Eckert",
@@ -2046,13 +2053,6 @@
                   "author": "Roberto Andrei Bolda",
                   "date": "2026-11-24T15:49:22Z",
                   "url": "https://github.com/openwrt/packages/commit/7fa0489a7bf8008e9bbb0d795f9219f5e48cde48"
-                },
-                {
-                  "sha": "c247fc1",
-                  "message": "zstd: update to 1.6.0",
-                  "author": "John Audia",
-                  "date": "2026-11-24T15:48:06Z",
-                  "url": "https://github.com/openwrt/packages/commit/c247fc1179ae7ff71ac9319cf21a225e985f8fcc"
                 }
               ]
             },
@@ -5308,7 +5308,7 @@
           "track": "releases",
           "meta": {
             "description": "Full-stack observability · Metrics · Logs · Traces · Flows · Topology · Infrastructure · APM · NPM · DBM · RUM · Synthetics · Cloud · AI SRE · OpenTelemetry · SNMP · NetFlow/IPFIX/sFlow · IPMI · Redfish · 2000+ integrations",
-            "stars": 81663,
+            "stars": 81664,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
             "pushed_at": "2026-11-27T13:45:37Z",
@@ -5447,7 +5447,7 @@
             "stars": 29264,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T15:02:33Z",
+            "pushed_at": "2026-11-27T15:04:54Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5461,6 +5461,15 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [4.0.0-rc.5](https://github.com/grafana/loki/compare/v4.0.0-rc.4...v4.0.0-rc.5) (2026-11-27)\n\n\n### Features\n\n* **logql:** Add a multi_tenant label to loki_logql_querystats_bytes_processed_total [release-4.0.0] ([#26757](https://github.com/grafana/loki/issues/26757)) ([17a6b50](https://github.com/grafana/loki/commit/17a6b5062198a90e0f86c1fb823922702259c9f6))\n* **storage:** Allow GLACIER_IR and INTELLIGENT_TIERING S3 storage classes [release-4.0.0] ([#26751](https://github.com/grafana/loki/issues/26751)) ([901d470](https://github.com/grafana/loki/commit/901d47088fd8ae8085b8572f33956f8cc1090285))\n\n\n### Bug Fixes\n\n* **loghttp:** Reject times before 1970 or after the int64 nanosecond limit [release-4.0.0] ([#26754](https://github.com/grafana/loki/issues/26754)) ([20e39ea](https://github.com/grafana/loki/commit/20e39ea44266b5d85e716767c50ca844732d6089))\n* **mixin:** Add reason label to duplicate LokiCompactorHasNotSuccessfullyRunCompaction alerts [release-4.0.0] ([#26749](https://github.com/grafana/loki/issues/26749)) ([37f29fc](https://github.com/grafana/loki/commit/37f29fc37fc056bb5342d2969a3f21754ee363a4))\n* **pattern:** Drain aggregation Push buffer on Stop [release-4.0.0] ([#26673](https://github.com/grafana/loki/issues/26673)) ([30be792](https://github.com/grafana/loki/commit/30be792da07ce295d3ebd2152bca51a7c264a1de))\n* **pattern:** Fix inverted client check in the pattern tee fallback [release-4.0.0] ([#26750](https://github.com/grafana/loki/issues/26750)) ([f52f6df](https://github.com/grafana/loki/commit/f52f6dfe2e402855417f204709823e727ef888ca))\n* **pattern:** Retry 429 and 5xx pushes and drop other client errors [release-4.0.0] ([#26672](https://github.com/grafana/loki/issues/26672)) ([541f049](https://github.com/grafana/loki/commit/541f049f3e7356b978e7b1848ea1a981da9b5d7a))\n* **querier:** Reconnect query workers without backoff after a canceled query [release-4.0.0] ([#26666](https://github.com/grafana/loki/issues/26666)) ([b40d394](https://github.com/grafana/loki/commit/b40d3940ec92025f72b56cd210b2b64624b1ebb0))\n* **security:** Bump Go to 1.27.4 [release-4.0.0] ([#26739](https://github.com/grafana/loki/issues/26739)) ([c7643d5](https://github.com/grafana/loki/commit/c7643d5fd7af743e10bf17c38c6dff501445565f))\n* **storage:** Keep chunks whose last entry is at the query start [release-4.0.0] ([#26738](https://github.com/grafana/loki/issues/26738)) ([55c8363](https://github.com/grafana/loki/commit/55c836348421764473eeb6325dbfaab467be6e21))"
+            },
+            {
+              "name": "v3.7.11",
+              "tag": "v3.7.11",
+              "url": "https://github.com/grafana/loki/releases/tag/v3.7.11",
+              "published_at": "2026-11-27T15:03:37Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [3.7.11](https://github.com/grafana/loki/compare/v3.7.10...v3.7.11) (2026-11-27)\n\n\n### Bug Fixes\n\n* **compactor:** Prevent FD leak on partial compaction failure [release-3.7.x] ([#26494](https://github.com/grafana/loki/issues/26494)) ([56f8c86](https://github.com/grafana/loki/commit/56f8c86a518e652c21f4d13db10e193b729115d8))\n* **frontend:** Fail requests that cannot be encoded without closing the scheduler stream [release-3.7.x] ([#26770](https://github.com/grafana/loki/issues/26770)) ([73a0f23](https://github.com/grafana/loki/commit/73a0f23cee8876fa743043dce6b3b47da9f41127))\n* **loghttp:** Reject times before 1970 or after the int64 nanosecond limit [release-3.7.x] ([#26760](https://github.com/grafana/loki/issues/26760)) ([5aec99d](https://github.com/grafana/loki/commit/5aec99d48641ae7832a0dc2182b4e2376e608ef6))\n* **pattern:** Drain aggregation Push buffer on Stop [release-3.7.x] ([#26674](https://github.com/grafana/loki/issues/26674)) ([3f0f973](https://github.com/grafana/loki/commit/3f0f973f2185acbf6320bbafd1f5e0a35fcfeed5))\n* **pattern:** Retry 429 and 5xx pushes and drop other client errors [release-3.7.x] ([#26670](https://github.com/grafana/loki/issues/26670)) ([e592f10](https://github.com/grafana/loki/commit/e592f10c5d739b22128212d3708b82fdf198fe5f))\n* **querier:** Reconnect query workers without backoff after a canceled query [release-3.7.x] ([#26667](https://github.com/grafana/loki/issues/26667)) ([dcc02cc](https://github.com/grafana/loki/commit/dcc02cc4cb985ad0b6dd966692689c84eecb414f))\n* **security/HIGH/:** Update module github.com/containerd/containerd/v2 to v2.2.10 [SECURITY] (release-3.7.x) ([#26620](https://github.com/grafana/loki/issues/26620)) ([bbe20a8](https://github.com/grafana/loki/commit/bbe20a849cfa134d3803fa497783f316e8c91007))"
             },
             {
               "name": "v3.6.23",
@@ -5488,15 +5497,6 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [3.6.22](https://github.com/grafana/loki/compare/v3.6.21...v3.6.22) (2026-11-17)\n\n\n### Bug Fixes\n\n* Prevent goroutine leak in downstreamer on context cancellation (backport release-3.6.x) ([#26549](https://github.com/grafana/loki/issues/26549)) ([38e4020](https://github.com/grafana/loki/commit/38e4020516b25119f795a8a5f55e06ccd9c9d1fc))\n* **security/MEDIUM/:** Update module go.opentelemetry.io/otel/sdk/log to v1 [SECURITY] (release-3.6.x) ([#26487](https://github.com/grafana/loki/issues/26487)) ([3d2b1a6](https://github.com/grafana/loki/commit/3d2b1a63ff96577da50a6058278c326df6c455b3))"
-            },
-            {
-              "name": "v3.7.10",
-              "tag": "v3.7.10",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.7.10",
-              "published_at": "2026-11-13T07:51:25Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.7.10](https://github.com/grafana/loki/compare/v3.7.9...v3.7.10) (2026-11-13)\n\n\n### Features\n\n* **server:** Enable configurable TLS curve preferences [release-3.7.x] ([#25796](https://github.com/grafana/loki/issues/25796)) ([a297d55](https://github.com/grafana/loki/commit/a297d558eb0ca2d9f388d7f1a91dd3488bdb25aa))\n\n\n### Bug Fixes\n\n* **deps:** Update github.com/grafana/gomemcache digest to 9448343 (release-3.7.x) ([#25608](https://github.com/grafana/loki/issues/25608)) ([a815365](https://github.com/grafana/loki/commit/a8153653b8c8610e8f07724785d62de1cd089046))\n* **deps:** Update github.com/grafana/jsonparser digest to 5f43846 (release-3.7.x) ([#25609](https://github.com/grafana/loki/issues/25609)) ([b85d0d2](https://github.com/grafana/loki/commit/b85d0d2a294e006897fe523e92f850834d78bdcd))\n* **deps:** Update github.com/joncrlsn/dque digest to 7723fd1 (release-3.7.x) ([#25387](https://github.com/grafana/loki/issues/25387)) ([ad44cbb](https://github.com/grafana/loki/commit/ad44cbb73b92ae4d6711e6a4acab23817104ed10))\n* **deps:** Update github.com/thanos-io/objstore digest to 72d3b9f (release-3.7.x) ([#25389](https://github.com/grafana/loki/issues/25389)) ([e7d6809](https://github.com/grafana/loki/commit/e7d68093e0be6cf96fdc81c801057beaca4f212d))\n* **deps:** Update k8s.io/utils digest to ca04ba5 (release-3.7.x) ([#25763](https://github.com/grafana/loki/issues/25763)) ([c405f19](https://github.com/grafana/loki/commit/c405f1942f4f3a944201f84b0d3d0d1418cdb9eb))\n* **deps:** Update module charm.land/bubbletea/v2 to v2.1.0 (release-3.7.x) ([#25836](https://github.com/grafana/loki/issues/25836)) ([72a947a](https://github.com/grafana/loki/commit/72a947ab733e87a13aaa3851213ad986e0acec62))\n* **deps:** Update module charm.land/bubbletea/v2 to v2.1.1 (release-3.7.x) ([#26025](https://github.com/grafana/loki/issues/26025)) ([1115cdc](https://github.com/grafana/loki/commit/1115cdcc02d6c3f5baa0c867e485164adbffe6d5))\n* **deps:** Update module charm.land/lipgloss/v2 to v2.0.6 (release-3.7.x) ([#25512](https://github.com/grafana/loki/issues/25512)) ([22f7483](https://github.com/grafana/loki/commit/22f7483ab43603238cda7927adff5b340c9af601))\n* **deps:** Update module cloud.google.com/go/storage to v1.70.0 (release-3.7.x) ([#25851](https://github.com/grafana/loki/issues/25851)) ([c10c38b](https://github.com/grafana/loki/commit/c10c38bac4736d05559d0e6ca8d27f86ad0fb4dd))\n* **deps:** Update module github.com/axiomhq/hyperloglog to v0.3.0 (release-3.7.x) ([#25860](https://github.com/grafana/loki/issues/25860)) ([89dba14](https://github.com/grafana/loki/commit/89dba147df26dea2cba238d7790acfcff877e20a))\n* **deps:** Update module github.com/bmatcuk/doublestar/v4 to v4.10.3 (release-3.7.x) ([#25519](https://github.com/grafana/loki/issues/25519)) ([726f181](https://github.com/grafana/loki/commit/726f181be6cd65bc69d775c1d6ee40fb9ec9c51a))\n* **deps:** Update module github.com/bmatcuk/doublestar/v4 to v4.10.4 (release-3.7.x) ([#25807](https://github.com/grafana/loki/issues/25807)) ([e8545f9](https://github.com/grafana/loki/commit/e8545f9ed7d9543ecf4b98c5a66c986ab7414eb6))\n* **deps:** Update module github.com/buger/jsonparser to v1.6.1 (release-3.7.x) ([#25861](https://github.com/grafana/loki/issues/25861)) ([d909e3a](https://github.com/grafana/loki/commit/d909e3aa62219071c6efd26830173ef923e72dc5))\n* **deps:** Update module github.com/grpc-ecosystem/go-grpc-middleware/v2 to v2.3.4 (release-3.7.x) ([#25522](https://github.com/grafana/loki/issues/25522)) ([80ba07a](https://github.com/grafana/loki/commit/80ba07a114cd16a49523043a340c500c9ad9185f))\n* **deps:** Update module github.com/hashicorp/consul/api to v1.35.0 (release-3.7.x) ([#25867](https://github.com/grafana/loki/issues/25867)) ([015fb4b](https://github.com/grafana/loki/commit/015fb4b44294578b073e10efe02e027eaf1daba9))\n* **deps:** Update module github.com/heroku/x to v0.7.0 (release-3.7.x) ([#25868](https://github.com/grafana/loki/issues/25868)) ([2341919](https://github.com/grafana/loki/commit/2341919b6b1a8822e897d0df6c397af756ae5d34))\n* **deps:** Update module github.com/IBM/go-sdk-core/v5 to v5.25.1 (release-3.7.x) ([#25869](https://github.com/grafana/loki/issues/25869)) ([c3da55b](https://github.com/grafana/loki/commit/c3da55b2f7db91a2fc7401d4a114224bfb8f2565))\n* **deps:** Update module github.com/IBM/go-sdk-core/v5 to v5.25.2 (release-3.7.x) ([#26062](https://github.com/grafana/loki/issues/26062)) ([4fc56e9](https://github.com/grafana/loki/commit/4fc56e9ba6eee7309e0ecd5022ccd93a0dd42eb9))\n* **deps:** Update module github.com/klauspost/pgzip to v1.2.7 (release-3.7.x) ([#25523](https://github.com/grafana/loki/issues/25523)) ([bd236c8](https://github.com/grafana/loki/commit/bd236c85f8a8bda681ca5425c9b48657097f795f))\n* **deps:** Update module github.com/klauspost/pgzip to v1.3.0 (release-3.7.x) ([#25877](https://github.com/grafana/loki/issues/25877)) ([5155c7a](https://github.com/grafana/loki/commit/5155c7a9b482a27f4a2351ab33fee0988c1608f1))\n* **deps:** Update module github.com/leodido/go-syslog/v4 to v4.6.0 (release-3.7.x) ([#25878](https://github.com/grafana/loki/issues/25878)) ([b2917b5](https://github.com/grafana/loki/commit/b2917b587b0cf0bc74528e164ad172a6128a11c9))\n* **deps:** Update module github.com/oklog/ulid/v2 to v2.1.2 (release-3.7.x) ([#25525](https://github.com/grafana/loki/issues/25525)) ([b48845c](https://github.com/grafana/loki/commit/b48845cf6af23fc1590832d7cafd23a53d7f0469))\n* **deps:** Update module github.com/oschwald/geoip2-golang/v2 to v2.5.0 (release-3.7.x) ([#25885](https://github.com/grafana/loki/issues/25885)) ([9b3b304](https://github.com/grafana/loki/commit/9b3b3042997dc9b0a423a22de43e5d605a419314))\n* **deps:** Update module github.com/pierrec/lz4/v4 to v4.1.33 (release-3.7.x) ([#25528](https://github.com/grafana/loki/issues/25528)) ([cc71cda](https://github.com/grafana/loki/commit/cc71cdace45640cc6ad6a2295fb127dd5592cb13))\n* **deps:** Update module github.com/pierrec/lz4/v4 to v4.1.33 (release-3.7.x) ([#25587](https://github.com/grafana/loki/issues/25587)) ([82dfca9](https://github.com/grafana/loki/commit/82dfca9d41d6dbf6b30890b5660e7a81dbdf8a27))\n* **deps:** Update module github.com/prometheus/common to v0.72.1 (release-3.7.x) ([#25799](https://github.com/grafana/loki/issues/25799)) ([d81da23](https://github.com/grafana/loki/commit/d81da239370cad1faeb5b7e79f46f2f7716090b6))\n* **deps:** Update module github.com/redis/go-redis/v9 to v9.23.0 (release-3.7.x) ([#25895](https://github.com/grafana/loki/issues/25895)) ([25256ba](https://github.com/grafana/loki/commit/25256ba7bcc2eadeba43e427aee3be5de27aa9b8))\n* **deps:** Update module github.com/schollz/progressbar/v3 to v3.19.1 (release-3.7.x) ([#25530](https://github.com/grafana/loki/issues/25530)) ([80841c3](https://github.com/grafana/loki/commit/80841c35941fc3e1eea5cacf8e43fb295f71ef4f))\n* **deps:** Update module github.com/shirou/gopsutil/v4 to v4.26.10 (release-3.7.x) ([#26049](https://github.com/grafana/loki/issues/26049)) ([4d5820a](https://github.com/grafana/loki/commit/4d5820af57116bcf0de41ffd83e82857addbf35d))\n* **deps:** Update module github.com/shirou/gopsutil/v4 to v4.26.9 (release-3.7.x) ([#25532](https://github.com/grafana/loki/issues/25532)) ([f5b2cfd](https://github.com/grafana/loki/commit/f5b2cfd1678e8a0e2c26e5d963e125c14e319fef))\n* **deps:** Update module github.com/stretchr/testify to v1.12.1 (release-3.7.x) ([#25902](https://github.com/grafana/loki/issues/25902)) ([418d8c5](https://github.com/grafana/loki/commit/418d8c58eb6b93225b859f8f52f9c7cdf4992bdb))\n* **deps:** Update module github.com/twmb/franz-go/pkg/kadm to v1.18.0 (release-3.7.x) ([#25903](https://github.com/grafana/loki/issues/25903)) ([aac2bf8](https://github.com/grafana/loki/commit/aac2bf8eb699dfddef9d35d9ccf59b930280ee16))\n* **deps:** Update module github.com/twmb/franz-go/plugin/kotel to v1.7.1 (release-3.7.x) ([#25909](https://github.com/grafana/loki/issues/25909)) ([cea4360](https://github.com/grafana/loki/commit/cea4360164e5ad30aa678efa62bda3be61adadab))\n* **deps:**"
             }
           ],
           "last_commit": {
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10621,
+            "stars": 10622,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-27T03:42:22Z",
