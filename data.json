@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T16:12:18.753272Z",
+  "generated_at": "2026-11-27T16:17:38.731186Z",
   "groups": [
     {
       "id": "cores",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36170,
+            "stars": 36169,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-27T15:43:16Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27671,
+            "stars": 27672,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-23T20:37:35Z",
@@ -5379,7 +5379,7 @@
             "stars": 18225,
             "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T16:02:59Z",
+            "pushed_at": "2026-11-27T16:15:27Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43720803?v=4",
             "owner": "VictoriaMetrics"
@@ -5447,12 +5447,21 @@
             "stars": 29265,
             "url": "https://github.com/grafana/loki",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T16:01:43Z",
+            "pushed_at": "2026-11-27T16:15:10Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
           },
           "releases": [
+            {
+              "name": "v4.0.0-rc.6",
+              "tag": "v4.0.0-rc.6",
+              "url": "https://github.com/grafana/loki/releases/tag/v4.0.0-rc.6",
+              "published_at": "2026-11-27T16:15:10Z",
+              "prerelease": false,
+              "author": "loki-gh-app[bot]",
+              "body": "## [4.0.0-rc.6](https://github.com/grafana/loki/compare/v4.0.0-rc.5...v4.0.0-rc.6) (2026-11-27)\n\n\n### Bug Fixes\n\n* **frontend:** Fail requests that cannot be encoded without closing the scheduler stream [release-4.0.0] ([#26771](https://github.com/grafana/loki/issues/26771)) ([765282b](https://github.com/grafana/loki/commit/765282b4e7e0f2693ceb4491ec06dab73e41af03))"
+            },
             {
               "name": "v4.0.0-rc.5",
               "tag": "v4.0.0-rc.5",
@@ -5488,15 +5497,6 @@
               "prerelease": false,
               "author": "loki-gh-app[bot]",
               "body": "## [4.0.0-rc.4](https://github.com/grafana/loki/compare/v4.0.0-rc.3...v4.0.0-rc.4) (2026-11-20)\n\n\n### ⚠ BREAKING CHANGES\n\n* **limits:** Remove unused `max_chunks_per_query` limit [release-4.0.0] ([#26404](https://github.com/grafana/loki/issues/26404))\n\n### Bug Fixes\n\n* **logline:** Backport v4 default and YAML config [release-4.0.0]  ([#26592](https://github.com/grafana/loki/issues/26592)) ([5ca9e5e](https://github.com/grafana/loki/commit/5ca9e5ed4163b5f018988c4a80d3e70257ddaa25))\n* **logql:** Skip every new series once the Logs Drilldown series limit trips [release-4.0.0] ([#26434](https://github.com/grafana/loki/issues/26434)) ([1228128](https://github.com/grafana/loki/commit/12281286df6bbc88c439ea54288c119308bf75d0))\n* **security/UNKNOWN/pkg/push:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-4.0.0) ([#26353](https://github.com/grafana/loki/issues/26353)) ([42b3047](https://github.com/grafana/loki/commit/42b3047d6e8837f36eac28d8c095a3d49d4f20ef))\n* **security/UNKNOWN/:** Update module github.com/andybalholm/brotli to v1.2.7 [SECURITY] (release-4.0.0) ([#26351](https://github.com/grafana/loki/issues/26351)) ([e6cbd66](https://github.com/grafana/loki/commit/e6cbd66a4957a3d1c7624848014941e711df27cd))\n* **security/UNKNOWN/:** Update module golang.org/x/crypto to v0.59.0 [SECURITY] (release-4.0.0) ([#26421](https://github.com/grafana/loki/issues/26421)) ([e732ee8](https://github.com/grafana/loki/commit/e732ee876849756121b3c4f1fa9b2ffac8aa8798))\n* **security/UNKNOWN/:** Update module golang.org/x/net to v0.62.0 [SECURITY] (release-4.0.0) ([#26352](https://github.com/grafana/loki/issues/26352)) ([6b5b49c](https://github.com/grafana/loki/commit/6b5b49c7d2ad88215b22c7fe8f49d79825ac9d6e))\n\n\n### Miscellaneous Chores\n\n* **limits:** Remove unused `max_chunks_per_query` limit [release-4.0.0] ([#26404](https://github.com/grafana/loki/issues/26404)) ([f2ae5f6](https://github.com/grafana/loki/commit/f2ae5f65a1355ef4d57b6e0d2b2ee1749105e3ed))"
-            },
-            {
-              "name": "v3.6.22",
-              "tag": "v3.6.22",
-              "url": "https://github.com/grafana/loki/releases/tag/v3.6.22",
-              "published_at": "2026-11-18T15:15:27Z",
-              "prerelease": false,
-              "author": "loki-gh-app[bot]",
-              "body": "## [3.6.22](https://github.com/grafana/loki/compare/v3.6.21...v3.6.22) (2026-11-17)\n\n\n### Bug Fixes\n\n* Prevent goroutine leak in downstreamer on context cancellation (backport release-3.6.x) ([#26549](https://github.com/grafana/loki/issues/26549)) ([38e4020](https://github.com/grafana/loki/commit/38e4020516b25119f795a8a5f55e06ccd9c9d1fc))\n* **security/MEDIUM/:** Update module go.opentelemetry.io/otel/sdk/log to v1 [SECURITY] (release-3.6.x) ([#26487](https://github.com/grafana/loki/issues/26487)) ([3d2b1a6](https://github.com/grafana/loki/commit/3d2b1a63ff96577da50a6058278c326df6c455b3))"
             }
           ],
           "last_commit": {
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "005dde9",
+            "sha": "1a9cd82",
             "branch": "feat/4880-shared-system-backups",
-            "date": "2026-11-26T05:06:30Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/005dde94e57854c714b093f5edce0506259b54c1"
+            "date": "2026-11-26T00:33:01Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/1a9cd82c1ac155561acdb8e0ea535a2f3c576949"
           }
         },
         {
