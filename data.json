@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T00:41:52.629937Z",
+  "generated_at": "2026-11-27T00:47:11.583170Z",
   "groups": [
     {
       "id": "cores",
@@ -84,12 +84,21 @@
             "stars": 40358,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
-            "pushed_at": "2026-11-27T00:41:13Z",
+            "pushed_at": "2026-11-27T00:42:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
             "owner": "SagerNet"
           },
           "releases": [
+            {
+              "name": "1.15.0-alpha.14",
+              "tag": "v1.15.0-alpha.14",
+              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.14",
+              "published_at": "2026-11-27T00:42:37Z",
+              "prerelease": true,
+              "author": "github-actions[bot]",
+              "body": "## :memo: Release Notes\n\n* Drop support for go1.25 **1**\n* Fix Linux desktop client package conflicting with the CLI package **2**\n* Update quic-go to v0.66.0\n* Update tailscale to v1.106.1\n* Fixes and improvements\n\n**1**:\n\nDue to maintenance difficulties, sing-box 1.15.0 requires at least Go 1.26.11 to compile.\n\n**2**:\n\nThe Linux [desktop client](https://sing-box.sagernet.org/clients/desktop/) (`SFL`) package has been renamed from `sing-box` to `sfl` and no longer installs `/usr/bin/sing-box`. Existing SFL users must remove the old `sing-box` package once before installing the new package (daemon data in `/var/lib/sing-box-daemon` is preserved)."
+            },
             {
               "name": "1.14.5",
               "tag": "v1.14.5",
@@ -125,15 +134,6 @@
               "prerelease": true,
               "author": "github-actions[bot]",
               "body": "## :memo: Release Notes\n\n* Fixes and improvements\n"
-            },
-            {
-              "name": "1.15.0-alpha.11",
-              "tag": "v1.15.0-alpha.11",
-              "url": "https://github.com/SagerNet/sing-box/releases/tag/v1.15.0-alpha.11",
-              "published_at": "2026-10-09T05:38:34Z",
-              "prerelease": true,
-              "author": "github-actions[bot]",
-              "body": "## :memo: Release Notes\n\n* Fixes and improvements"
             }
           ],
           "last_commit": {
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36138,
+            "stars": 36139,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-25T05:55:26Z",
@@ -5104,7 +5104,7 @@
           "track": "releases",
           "meta": {
             "description": "Lightweight server monitoring with historical data, docker stats, and alerts.",
-            "stars": 27657,
+            "stars": 27658,
             "url": "https://github.com/henrygd/beszel",
             "default_branch": "main",
             "pushed_at": "2026-11-23T20:37:35Z",
@@ -5175,7 +5175,7 @@
             "stars": 78212,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T00:38:57Z",
+            "pushed_at": "2026-11-27T00:45:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/7195757?v=4",
             "owner": "grafana"
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "b1cc1b5",
+            "sha": "0aaf922",
             "branch": "master",
-            "date": "2026-11-25T14:15:24Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/b1cc1b529711689ac526dad5b3c62711b480e988"
+            "date": "2026-11-25T13:07:52Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/0aaf9224de41fa7604b816cc7ab0090d7efaa308"
           }
         },
         {
@@ -5871,7 +5871,7 @@
             "stars": 10583,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T00:31:11Z",
+            "pushed_at": "2026-11-27T00:45:22Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
             "owner": "getarcaneapp"
@@ -5924,10 +5924,10 @@
             }
           ],
           "last_commit": {
-            "sha": "63ff53b",
-            "branch": "feat/4880-shared-capture",
-            "date": "2026-11-25T01:11:16Z",
-            "url": "https://github.com/getarcaneapp/arcane/commit/63ff53b8d8cc736c1be6b1f6dcc0bc5f23abbe6b"
+            "sha": "8926229",
+            "branch": "feat/4880-shared-schedules",
+            "date": "2026-11-26T15:54:03Z",
+            "url": "https://github.com/getarcaneapp/arcane/commit/8926229c1ef3818428e67177bbe9906d905050e9"
           }
         },
         {
