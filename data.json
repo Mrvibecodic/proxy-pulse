@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:08:33.337857Z",
+  "generated_at": "2026-11-27T09:13:53.519902Z",
   "groups": [
     {
       "id": "cores",
@@ -81,7 +81,7 @@
           "track": "releases",
           "meta": {
             "description": "The universal proxy platform",
-            "stars": 40376,
+            "stars": 40377,
             "url": "https://github.com/SagerNet/sing-box",
             "default_branch": "testing",
             "pushed_at": "2026-11-27T00:42:35Z",
@@ -149,7 +149,7 @@
           "track": "releases",
           "meta": {
             "description": "A simple Python Pydantic model for Honkai: Star Rail parsed data from the Mihomo API.",
-            "stars": 36149,
+            "stars": 36150,
             "url": "https://github.com/MetaCubeX/mihomo",
             "default_branch": "main",
             "pushed_at": "2026-11-25T05:55:26Z",
@@ -771,7 +771,7 @@
           "track": "releases",
           "meta": {
             "description": null,
-            "stars": 421,
+            "stars": 422,
             "url": "https://github.com/legiz-ru/Prizrak-Box",
             "default_branch": "dev_21",
             "pushed_at": "2026-11-27T08:52:13Z",
@@ -839,7 +839,7 @@
           "track": "releases",
           "meta": {
             "description": "INCY downloads and release info",
-            "stars": 1698,
+            "stars": 1697,
             "url": "https://github.com/INCY-DEV/incy-platforms",
             "default_branch": "main",
             "pushed_at": "2026-11-21T09:56:04Z",
@@ -1122,7 +1122,7 @@
             "stars": 29377,
             "url": "https://github.com/openwrt/openwrt",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T06:37:58Z",
+            "pushed_at": "2026-11-27T09:13:11Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/2528830?v=4",
             "owner": "openwrt"
@@ -1187,7 +1187,7 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4686,
+            "stars": 4687,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
             "pushed_at": "2026-11-27T09:07:11Z",
@@ -5311,7 +5311,7 @@
             "stars": 81659,
             "url": "https://github.com/netdata/netdata",
             "default_branch": "master",
-            "pushed_at": "2026-11-27T08:58:28Z",
+            "pushed_at": "2026-11-27T09:12:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/43390781?v=4",
             "owner": "netdata"
@@ -5364,10 +5364,10 @@
             }
           ],
           "last_commit": {
-            "sha": "dff7ee6",
+            "sha": "8e25a97",
             "branch": "master",
-            "date": "2026-11-27T08:58:27Z",
-            "url": "https://github.com/netdata/netdata/commit/dff7ee60a20b6a040bba2976e28b702a66e3749f"
+            "date": "2026-11-27T09:12:23Z",
+            "url": "https://github.com/netdata/netdata/commit/8e25a972d8fe9eae32bece6c9e3a752d73e768f6"
           }
         },
         {
@@ -5735,12 +5735,21 @@
             "stars": 92,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-27T09:05:21Z",
+            "pushed_at": "2026-11-27T09:10:09Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.59.1",
+              "tag": "0.59.1",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.59.1",
+              "published_at": "2026-11-27T09:09:24Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.59.1`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.59.1`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* fix(datapacket): take next billing from the last paid invoice period by @kavore in https://github.com/mishkatik/infra-billing/pull/59\n* chore(release): 0.59.1 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/60\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.59.0...0.59.1"
+            },
             {
               "name": "0.59.0",
               "tag": "0.59.0",
@@ -5776,15 +5785,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.57.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.57.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.57.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/53\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.56.0...0.57.0"
-            },
-            {
-              "name": "0.56.0",
-              "tag": "0.56.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.56.0",
-              "published_at": "2026-11-12T13:07:51Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.56.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.56.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.56.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/52\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.55.0...0.56.0"
             }
           ],
           "last_commit": {
