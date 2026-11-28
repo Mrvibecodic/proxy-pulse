@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T08:46:49.392254Z",
+  "generated_at": "2026-11-28T08:52:08.293571Z",
   "groups": [
     {
       "id": "cores",
@@ -5172,7 +5172,7 @@
           "track": "releases",
           "meta": {
             "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
-            "stars": 78213,
+            "stars": 78215,
             "url": "https://github.com/grafana/grafana",
             "default_branch": "main",
             "pushed_at": "2026-11-28T07:09:33Z",
@@ -5432,10 +5432,10 @@
             }
           ],
           "last_commit": {
-            "sha": "e7c6585",
-            "branch": "cluster",
-            "date": "2026-11-27T14:10:06Z",
-            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/e7c658568e01210ed3f8e8fe5a26b351ebf8254e"
+            "sha": "9f36263",
+            "branch": "fix-qt-msgs",
+            "date": "2026-11-27T14:35:45Z",
+            "url": "https://github.com/victoriametrics/VictoriaMetrics/commit/9f362634d5bac886bd4113541be4d6ed672ab474"
           }
         },
         {
@@ -5735,12 +5735,21 @@
             "stars": 92,
             "url": "https://github.com/mishkatik/infra-billing",
             "default_branch": "main",
-            "pushed_at": "2026-11-28T08:45:18Z",
+            "pushed_at": "2026-11-28T08:50:36Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/101044644?v=4",
             "owner": "mishkatik"
           },
           "releases": [
+            {
+              "name": "0.60.0",
+              "tag": "0.60.0",
+              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.60.0",
+              "published_at": "2026-11-28T08:50:08Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.60.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.60.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(connectors): add ishosting connector by @kavore in https://github.com/mishkatik/infra-billing/pull/61\n* chore(release): 0.60.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/62\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.59.1...0.60.0"
+            },
             {
               "name": "0.59.1",
               "tag": "0.59.1",
@@ -5776,15 +5785,6 @@
               "prerelease": false,
               "author": "github-actions[bot]",
               "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.58.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.58.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* feat(connectors): add NodeHost connector by @serjseiche in https://github.com/mishkatik/infra-billing/pull/54\n* chore(release): 0.58.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/55\n\n## New Contributors\n* @serjseiche made their first contribution in https://github.com/mishkatik/infra-billing/pull/54\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.57.0...0.58.0"
-            },
-            {
-              "name": "0.57.0",
-              "tag": "0.57.0",
-              "url": "https://github.com/mishkatik/infra-billing/releases/tag/0.57.0",
-              "published_at": "2026-11-12T21:12:22Z",
-              "prerelease": false,
-              "author": "github-actions[bot]",
-              "body": "Docker image:\n- `ghcr.io/mishkatik/infra-billing:0.57.0`\n- `ghcr.io/mishkatik/infra-billing:latest`\n- `docker.io/mishkatik/infra-billing:0.57.0`\n- `docker.io/mishkatik/infra-billing:latest`\n\n\n## What's Changed\n* chore(release): 0.57.0 by @mishkatik in https://github.com/mishkatik/infra-billing/pull/53\n\n\n**Full Changelog**: https://github.com/mishkatik/infra-billing/compare/0.56.0...0.57.0"
             }
           ],
           "last_commit": {
