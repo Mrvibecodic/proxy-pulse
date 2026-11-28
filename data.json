@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:36:45.216881Z",
+  "generated_at": "2026-11-28T01:42:05.506376Z",
   "groups": [
     {
       "id": "cores",
@@ -13,7 +13,7 @@
           "track": "releases",
           "meta": {
             "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
-            "stars": 43205,
+            "stars": 43206,
             "url": "https://github.com/XTLS/Xray-core",
             "default_branch": "main",
             "pushed_at": "2026-11-27T18:25:34Z",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8109,
+            "stars": 8108,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-27T19:01:03Z",
@@ -4863,12 +4863,21 @@
             "stars": 172,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-28T01:32:34Z",
+            "pushed_at": "2026-11-28T01:40:24Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.8.4",
+              "tag": "v7.8.4",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.4",
+              "published_at": "2026-11-28T01:40:24Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.8.4\r\n\r\nfix(dashboard): render the smart chain lock right after pinning.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.8.3",
               "tag": "v7.8.3",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.8.0\r\n\r\n### Highlights\r\n\r\n**Prizrak-Core** is now a first-class kernel in Settings and the installer, next to Mihomo Stable and Alpha (plus the lighter **Prizrak-Kroha** build).\r\n\r\nOn top of Mihomo, Prizrak-Core adds Xray-core compatibility — mux.cool, finalmask, REALITY with ML-DSA-65, XHTTP flow control, and mKCP for VLESS — and the smart proxy group.\r\n\r\nChannel names match everywhere: `mihomo-stable`, `mihomo-alpha`, `prizrak-core`, `prizrak-kroha`.\r\n\r\n### Also in this release\r\n\r\n- **Installer:** on a terminal you can choose update or reinstall, pick a kernel (including keep the current one or Prizrak-Core), set the UI port, and optionally turn on self-signed HTTPS. The final summary is shorter.\r\n- **Kernel downloads** can be cancelled mid-flight. Unused `.ssclash.prev` backups are no longer written.\r\n- On **Keenetic**, the service comes back cleanly after a self-update.\r\n- **Dashboard:** Mihomo Smart groups are treated as normal policy groups, and the auto placeholder is not shown as if you had pinned a node.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.7",
-              "tag": "v7.7.7",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.7",
-              "published_at": "2026-11-25T09:16:09Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.7\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP and QUIC block after NDMS rebuilds.\r\n- Re-pin CLASH at the head, clear stale ndm hook gates, require table 100 local default for repair, and insert QUIC REJECT before Keenetic ACCEPT so DHCP renews and Block QUIC keep working.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
