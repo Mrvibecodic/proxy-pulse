@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:15:31.888028Z",
+  "generated_at": "2026-11-28T01:20:50.111383Z",
   "groups": [
     {
       "id": "cores",
@@ -907,7 +907,7 @@
           "track": "releases",
           "meta": {
             "description": "Cross-platform GUI proxy utility (Empowered by sing-box)",
-            "stars": 8108,
+            "stars": 8109,
             "url": "https://github.com/throneproj/Throne",
             "default_branch": "dev",
             "pushed_at": "2026-11-27T19:01:03Z",
@@ -1187,7 +1187,7 @@
           "track": "commits",
           "meta": {
             "description": "Community maintained packages for OpenWrt. Documentation for submitting pull requests is in CONTRIBUTING.md",
-            "stars": 4688,
+            "stars": 4689,
             "url": "https://github.com/openwrt/packages",
             "default_branch": "master",
             "pushed_at": "2026-11-27T20:51:39Z",
@@ -4863,12 +4863,21 @@
             "stars": 172,
             "url": "https://github.com/zerolabnet/SSClash-Go",
             "default_branch": "main",
-            "pushed_at": "2026-11-28T01:09:51Z",
+            "pushed_at": "2026-11-28T01:17:35Z",
             "archived": false,
             "avatar": "https://avatars.githubusercontent.com/u/71016736?v=4",
             "owner": "zerolabnet"
           },
           "releases": [
+            {
+              "name": "v7.8.3",
+              "tag": "v7.8.3",
+              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.8.3",
+              "published_at": "2026-11-28T01:17:35Z",
+              "prerelease": false,
+              "author": "zerolabnet",
+              "body": "## SSClash v7.8.3\r\n\r\nfeat(dashboard): smart group support.\r\n- Weights/ranks UI, stats strip, include-all dedup, selection chain dialog, pin/unpin, weight flush, live per-node group tests. Elements hide on cores without smart support.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
+            },
             {
               "name": "v7.8.2",
               "tag": "v7.8.2",
@@ -4904,15 +4913,6 @@
               "prerelease": false,
               "author": "zerolabnet",
               "body": "## SSClash v7.7.7\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP and QUIC block after NDMS rebuilds.\r\n- Re-pin CLASH at the head, clear stale ndm hook gates, require table 100 local default for repair, and insert QUIC REJECT before Keenetic ACCEPT so DHCP renews and Block QUIC keep working.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
-            },
-            {
-              "name": "v7.7.6",
-              "tag": "v7.7.6",
-              "url": "https://github.com/zerolabnet/SSClash-Go/releases/tag/v7.7.6",
-              "published_at": "2026-11-23T13:01:06Z",
-              "prerelease": false,
-              "author": "zerolabnet",
-              "body": "## SSClash v7.7.6\r\n\r\nfix(firewall): keep Keenetic HYBRID UDP when hotspot rewrites the mark.\r\n- Pin SSCLASH_LATE last after NDMS rebuilds, re-enter CLASH after hotspot save-mark, and repair missing TPROXY policy rules so DHCP WAN keeps UDP on Mihomo.\r\n\r\nfix(selfupdate): chmod the download before Replace verifies it.\r\n- CreateTemp leaves ssclash-download-* at 0600; low-disk Replace ran verify on that path and failed with permission denied on OpenWrt.\r\n\r\n### Binaries\r\n- `ssclash-linux-\u003carch\u003e` — static SSClash daemon (16 Linux targets)\r\n- `ssclash-openwrt-service.tar.gz` — OpenWrt `init.d` service files\r\n- `ssclash-keenetic-service.tar.gz` — Keenetic Entware `S99ssclash` init script\r\n- `sha256sums.txt` — checksums\r\n\r\n"
             }
           ],
           "last_commit": {
@@ -5036,7 +5036,7 @@
           "track": "releases",
           "meta": {
             "description": "A fancy self-hosted monitoring tool",
-            "stars": 94971,
+            "stars": 94972,
             "url": "https://github.com/louislam/uptime-kuma",
             "default_branch": "master",
             "pushed_at": "2026-11-28T00:04:34Z",
@@ -5500,10 +5500,10 @@
             }
           ],
           "last_commit": {
-            "sha": "278fb8c",
-            "branch": "dataobj-page-row-count-check",
-            "date": "2026-11-26T11:02:06Z",
-            "url": "https://github.com/grafana/loki/commit/278fb8cfdfa2ea0f21ae6e139e94e2a9bb5975e6"
+            "sha": "d845c3f",
+            "branch": "benclive/dataobj-compaction-max-run-size",
+            "date": "2026-11-27T10:11:51Z",
+            "url": "https://github.com/grafana/loki/commit/d845c3f627246cbd1789f6066f352a158de544f4"
           }
         }
       ]
@@ -5868,7 +5868,7 @@
           "track": "releases",
           "meta": {
             "description": "Modern Docker Management, Designed for Everyone",
-            "stars": 10644,
+            "stars": 10645,
             "url": "https://github.com/getarcaneapp/arcane",
             "default_branch": "main",
             "pushed_at": "2026-11-28T01:10:02Z",
